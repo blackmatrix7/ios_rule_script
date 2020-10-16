@@ -1,0 +1,10 @@
+#!name=百度贴吧
+#!desc=百度贴吧每日自动签到
+#!system=ios
+
+[Script]
+贴吧_每日签到 = type=cron,cronexp=30 0 * * *,timeout=60,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js
+贴吧_获取cookie = type=http-request,pattern=https?:\/\/c\.tieba\.baidu\.com\/c\/s\/login,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js
+
+[MITM] 
+hostname = %APPEND% c.tieba.baidu.com

@@ -1,0 +1,10 @@
+#!name=爱奇艺
+#!desc=爱奇艺品每日自动签到
+#!system=ios
+
+[Script]
+爱奇艺_每日签到 = type=cron,cronexp=30 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+爱奇艺_获取cookie = type=http-request,pattern=^https?:\/\/iface(\d)?\.iqiyi\.com\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+[MITM] 
+hostname = %APPEND% ifac*.iqiyi.com

@@ -1,0 +1,10 @@
+#!name=哈啰出行
+#!desc=哈啰出行每日自动签到
+#!system=ios
+
+[Script]
+哈啰单车_每日签到 = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/hellobike/hellobike.js,type=cron,cronexp=15 0 * * *
+哈啰单车_获取cookie = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/hellobike/hellobike.js,type=http-request,requires-body=true,pattern=^https:\/\/gameapi\.hellobike\.com\/api
+
+[MITM]
+hostname = %APPEND% gameapi.hellobike.com

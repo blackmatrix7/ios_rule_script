@@ -1,0 +1,10 @@
+#!name=美团
+#!desc=美团每日自动签到
+#!system=ios
+
+[Script]
+美团_每日签到 = type=cron,cronexp=15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
+美团_获取cookie = type=http-request,requires-body=false,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js
+
+[MITM]
+hostname = %APPEND% i.meituan.com

@@ -1,0 +1,5 @@
+# 今日头条Feed过滤
+
+^https?:\/\/.*\.snssdk\.com\/api\/news\/feed url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/toutiao/toutiao_block.js
+
+hostname = *.snssdk.com

@@ -1,0 +1,9 @@
+#!name=今日头条
+#!desc=今日头条内容过滤
+#!system=ios
+
+[MITM]
+hostname = %APPEND% *.snssdk.com
+
+[Script]
+今日头条_Feed过滤 = type=http-response,pattern=https?:\/\/.*\.snssdk\.com\/api\/news\/feed,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/toutiao/toutiao_block.js,

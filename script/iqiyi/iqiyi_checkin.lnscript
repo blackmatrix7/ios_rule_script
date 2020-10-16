@@ -1,0 +1,6 @@
+# 爱奇艺每日自动签到
+
+http-request ^https?:\/\/iface(\d)?\.iqiyi\.com\/ requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,tag=爱奇艺_获取cookie
+cron "30 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,timeout=30,tag=爱奇艺_每日签到
+
+hostname = ifac*.iqiyi.com

@@ -1,0 +1,16 @@
+[Rule]
+DOMAIN,bbs.hori-gz.com,REJECT
+DOMAIN,mms.hori-gz.com,REJECT
+DOMAIN,yxhd.hori-gz.com,REJECT
+DOMAIN,ad.hori-gz.com,REJECT
+DOMAIN,adfile.hori-gz.com,REJECT
+DOMAIN,shop17741405.m.youzan.com,REJECT
+DOMAIN,pangolin.snssdk.com,REJECT
+DOMAIN-SUFFIX,kinglian.cn,REJECT
+
+[URL Rewrite]
+# 屏蔽更新
+^https?:\/\/sso\.lxjapp\.com\/\/chims\/servlet\/csGetLatestSoftwareVersionServlet url reject-dict
+
+[MITM]
+hostname = sso.lxjapp.com

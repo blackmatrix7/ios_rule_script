@@ -1,0 +1,9 @@
+#!name=不背单词
+#!desc=不背单词内购破解
+#!system=ios
+
+[Script]
+不背单词_内购破解 = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bubei/bubei.js,type=http-response,requires-body=true,pattern=^https:\/\/sapi\.beingfine\.cn\/v3\/report\/launch\/
+
+[MITM]
+hostname = %APPEND% sapi.beingfine.cn

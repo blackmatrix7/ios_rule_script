@@ -1,0 +1,3 @@
+# 白名单复写，解决引用第三方复写脚本导致的异常
+# Bilibili 启动开屏画面设置
+^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/brand\/set url 307 https://app.bilibili.com/x/v2/splash/brand/set

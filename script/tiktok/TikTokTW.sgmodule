@@ -1,0 +1,12 @@
+#!name=TikTok
+#!desc=解锁TikTok台湾
+#!system=ios
+# Make Your Day - By wzw1997007 & Choler
+
+[URL Rewrite]
+(?<=_region=)CN(?=&) TW 307
+(?<=&app_version=)16..(?=.?.?&) 1 307
+(?<=\?version_code=)16..(?=.?.?&) 1 307
+
+[MITM]
+hostname = %INSERT% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com

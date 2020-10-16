@@ -1,0 +1,4 @@
+# 屏蔽联享家更新检查
+^https?:\/\/sso\.lxjapp\.com\/\/chims\/servlet\/csGetLatestSoftwareVersionServlet url reject-dict
+
+hostname = sso.lxjapp.com

@@ -1,0 +1,5 @@
+# 爱奇艺品每日自动签到
+
+^https?:\/\/iface(\d)?\.iqiyi\.com\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+hostname=ifac*.iqiyi.com

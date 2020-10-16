@@ -1,0 +1,10 @@
+#!name=小黑盒
+#!desc=小黑盒每日自动签到
+#!system=ios
+
+[Script]
+小黑盒_每日签到 = type=cron,cronexp=45 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/heybox/heybox.js
+小黑盒_获取签到信息 = type=http-request,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/heybox/heybox.js,pattern=^https:\/\/api\.xiaoheihe\.cn\/account\/home_v\d\/\?
+
+[MITM]
+hostname = %APPEND% api.xiaoheihe.cn

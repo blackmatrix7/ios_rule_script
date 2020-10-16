@@ -1,0 +1,10 @@
+#!name=BiliBili
+#!desc=BiliBili漫画每日自动签到
+#!system=ios
+
+[Script]
+BiliBili漫画_每日签到 = script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js,type=cron,cronexp=05 00 * * *
+BiliBili漫画_获取cookie = max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js,type=http-request,pattern=https:\/\/manga\.bilibili\.com\/.*\.User\/GetWallet
+
+[MITM]
+hostname = %APPEND% manga.bilibili.com

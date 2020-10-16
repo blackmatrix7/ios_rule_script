@@ -1,0 +1,5 @@
+# 叮咚买菜每日自动签到
+
+^https?:\/\/maicai\.api\.ddxq\.mobi\/point\/home\?api_version url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js
+
+hostname = maicai.api.ddxq.mobi

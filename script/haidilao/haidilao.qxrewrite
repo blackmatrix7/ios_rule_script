@@ -1,0 +1,6 @@
+# 海底捞品每日自动签到
+
+^https:\/\/superapp\.kiwa-tech\.com\/app\/coupon\/customerLevelShow url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/getSignInfo url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+hostname=superapp.kiwa-tech.com, activity-1.m.duiba.com.cn

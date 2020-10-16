@@ -1,0 +1,6 @@
+# 什么值得买每日自动签到
+
+^https?:\/\/zhiyou\.smzdm\.com\/user$ url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.js
+^https?:\/\/user-api\.smzdm\.com\/user_login\/normal$ url script-request-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.js
+
+hostname = zhiyou.smzdm.com,user-api.smzdm.com

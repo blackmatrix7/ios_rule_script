@@ -1,0 +1,32 @@
+# Global 与 Netflix 共 28 条规则重复
+# 最后检查时间：2020-10-18 22:41:27
+# Github: https://github.com/blackmatrix7/ios_rule_script
+# 重复规则明细：
+HOST-SUFFIX,fast.com
+HOST-SUFFIX,netflix.com
+HOST-SUFFIX,netflix.net
+HOST-SUFFIX,netflixdnstest0.com
+HOST-SUFFIX,netflixdnstest1.com
+HOST-SUFFIX,netflixdnstest2.com
+HOST-SUFFIX,netflixdnstest3.com
+HOST-SUFFIX,netflixdnstest4.com
+HOST-SUFFIX,netflixdnstest5.com
+HOST-SUFFIX,netflixdnstest6.com
+HOST-SUFFIX,netflixdnstest7.com
+HOST-SUFFIX,netflixdnstest8.com
+HOST-SUFFIX,netflixdnstest9.com
+HOST-SUFFIX,nflxext.com
+HOST-SUFFIX,nflximg.com
+HOST-SUFFIX,nflximg.net
+HOST-SUFFIX,nflxso.net
+HOST-SUFFIX,nflxvideo.net
+IP-CIDR,108.175.32.0/20,no-resolve
+IP-CIDR,192.173.64.0/18,no-resolve
+IP-CIDR,198.38.96.0/19,no-resolve
+IP-CIDR,198.45.48.0/20,no-resolve
+IP-CIDR,23.246.0.0/18,no-resolve
+IP-CIDR,37.77.184.0/21,no-resolve
+IP-CIDR,45.57.0.0/17,no-resolve
+IP-CIDR,64.120.128.0/17,no-resolve
+IP-CIDR,66.197.128.0/17,no-resolve
+USER-AGENT,argo*

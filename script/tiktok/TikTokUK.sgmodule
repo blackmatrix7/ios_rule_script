@@ -1,0 +1,11 @@
+#!name=Unlock TikTok UK
+#!desc=Make Your Day - By wzw1997007 & Choler
+#!system=ios
+
+[URL Rewrite]
+(?<=_region=)CN(?=&) UK 307
+(?<=&app_version=)16..(?=.?.?&) 1 307
+(?<=\?version_code=)16..(?=.?.?&) 1 307
+
+[MITM]
+hostname = %INSERT% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com

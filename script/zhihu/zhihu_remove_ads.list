@@ -1,0 +1,11 @@
+# 知乎去广告
+DOMAIN,118.89.204.198,REJECT-DROP,no-resolve
+DOMAIN-SUFFIX,118.89.204.198,REJECT-DROP,no-resolve
+DOMAIN-KEYWORD,118.89.204.198,REJECT-DROP,no-resolve
+IP-CIDR,118.89.204.198/32,REJECT-DROP,no-resolve
+DOMAIN,appcloud2.zhihu.com,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+USER-AGENT,AVOS*,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations),REJECT
+# 知乎拦截部分预加载
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription),REJECT

@@ -1,0 +1,43 @@
+# NAME: WhiteList
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATE: 2020-10-18 22:41:18
+# DOMAIN-SUFFIX: 7
+# DOMAIN-KEYWORD: 1
+# DOMAIN: 20
+# URL-REGEX: 2
+# USER-AGENT: 4
+# TOTAL: 34
+DOMAIN,ad.10010.com
+DOMAIN,analytics.strava.com
+DOMAIN,app.adjust.com
+DOMAIN,bdtj.tagtic.cn
+DOMAIN,clientservices.googleapis.com
+DOMAIN,dl.google.com
+DOMAIN,dl.l.google.com
+DOMAIN,fonts.googleapis.com // google fonts api
+DOMAIN,fonts.gstatic.com // google fonts api
+DOMAIN,livew.l.qq.com
+DOMAIN,log.mmstat.com
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+DOMAIN,mtalk.google.com
+DOMAIN,mtalk.google.com // firebase cloud messaging
+DOMAIN,sycm.mmstat.com
+DOMAIN,tracking.miui.com
+DOMAIN,translate.googleapis.com
+DOMAIN,update.googleapis.com
+DOMAIN,vd.l.qq.com
+DOMAIN-SUFFIX,blog.google // google blog
+DOMAIN-SUFFIX,f.video.weibocdn.com
+DOMAIN-SUFFIX,fus.cdn.krcom.cn
+DOMAIN-SUFFIX,googletraveladservices.com
+DOMAIN-SUFFIX,googletraveladservices.com // google flights
+DOMAIN-SUFFIX,ol.epicgames.com
+DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
+DOMAIN-KEYWORD,wb_ad
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/brand\/set
+URL-REGEX,^https?:\/\/www\.didapinche\.com\/app\/adstat.*&ad_type=(ride_paid|benefits)
+USER-AGENT,archero*
+USER-AGENT,coffee%20corp*
+USER-AGENT,coffeecorp*
+USER-AGENT,restaurant-mobile*

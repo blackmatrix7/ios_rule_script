@@ -1,0 +1,25 @@
+# 知乎去广告
+
+[Rule]
+# 知乎去广告
+DOMAIN,118.89.204.198,REJECT,no-resolve
+DOMAIN-SUFFIX,118.89.204.198,REJECT,no-resolve
+DOMAIN-KEYWORD,118.89.204.198,REJECT,no-resolve
+IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+DOMAIN,appcloud2.zhihu.com,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+USER-AGENT,AVOS*,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations),REJECT
+
+[URL Rewrite]
+# 知乎拦截其他广告
+^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations) url reject-200
+
+[Script]
+http-response ^https?:\/\/api\.zhihu\.com\/people requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_处理用户信息
+http-response ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=) requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_信息流去广告
+http-response ^https?:\/\/api\.zhihu\.com\/v4\/questions requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_回答列表去广告
+http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_预置关键词去广告
+
+[MITM]
+hostname = www.zhihu.com,api.zhihu.com

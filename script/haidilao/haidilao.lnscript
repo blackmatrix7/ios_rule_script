@@ -1,0 +1,7 @@
+# 海底捞每日自动签到
+
+http-request ^https:\/\/superapp\.kiwa-tech\.com\/app\/coupon\/customerLevelShow requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,tag=海底捞_获取cookie
+http-request ^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/getSignInfo requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,tag=海底捞_获取用户信息
+cron "15 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js,timeout=30,tag=海底捞_每日签到
+
+hostname = superapp.kiwa-tech.com, activity-1.m.duiba.com.cn

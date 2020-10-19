@@ -197,9 +197,6 @@ function getSourceId(){
       return value !== mySourceId;
     })
   }
-  if (mySourceId !== '7mO4XP93fb84VMSC8Xk5vg%3D%3D' && mySourceId !== 'pDmWW7HoWUkNu2nmJ3HJEQ%3D%3D'){
-    sourceIdList = ['7mO4XP93fb84VMSC8Xk5vg%3D%3D'];
-  }
   return sourceIdList[Math.round(Math.random() * (sourceIdList.length - 1))]; 
 }
 

@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Bilibili分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-18 22:41:24。
+最后检查时间：2020-10-20 20:49:47。
 
 ## 规则统计
 
@@ -29,6 +29,7 @@ Bilibili分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia)    | 28   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/AsianMedia.list)   |   46.43%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 594   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/China.list)   |   1.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73888   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/ChinaTest.list)   |   0.02%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 75   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/ChinaMedia.list)   |   17.33%  |
 ## 配置说明
 
@@ -80,7 +81,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) 
 
 提供规则数据源及改进建议
 

@@ -6,20 +6,20 @@
 
 定时爬取互联网上开源的Apple分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
-不含有Apple News等国内无法使用的分流规则
+不含有Apple News的分流规则
 
-最后检查时间：2020-10-19 11:32:36。
+最后检查时间：2020-10-20 20:49:46。
 
 ## 规则统计
 
-总计规则：52 条。
+总计规则：1807 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 19 |
-| DOMAIN-SUFFIX | 20 |
+| DOMAIN | 138 |
+| DOMAIN-SUFFIX | 1656 |
 | IP-CIDR | 10 |
 | PROCESS-NAME | 2 |
 | USER-AGENT | 1 |
@@ -31,16 +31,19 @@ Apple分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140101   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 150581   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44380   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140060   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165563   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44358   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [AppStore](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppStore)    | 2   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AppStore.list)   |   100.00%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AppleBlock.list)   |   33.33%  |
 |  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AppleNews.list)   |   11.11%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/BlackList.list)   |   0.26%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/BlackList.list)   |   0.64%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 598   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/China.list)   |   2.17%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73892   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/ChinaTest.list)   |   0.02%  |
+|  [SystemOTA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SystemOTA)    | 8   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/SystemOTA.list)   |   37.50%  |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 100   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Microsoft.list)   |   1.00%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Global.list)   |   0.24%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5984   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Proxy.list)   |   0.03%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Global.list)   |   0.48%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27382   | [1208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Proxy.list)   |   4.41%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -52,9 +55,19 @@ Apple分流规则，与本项目其他分流规则重复情况统计。
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list
 
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Domain.list
+
 稳定版：
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Apple/Apple.list
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Apple/Domain.list
+
+如果稳定版无法访问 ，可能是尚未从实时版的分支合并，建议您先使用实时版，或等待下次稳定版分支合并。
+
+### 特别说明
+
+Apple.list请使用RULE-SET，Domain.list请使用DOMAIN-SET。
 
 ## 数据来源
 
@@ -68,6 +81,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Apple.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/AppleGlobal.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list
+- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
@@ -98,7 +112,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) 
 
 提供规则数据源及改进建议
 

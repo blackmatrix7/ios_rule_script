@@ -7,7 +7,7 @@
 定时爬取互联网上开源的搜狐/搜狗分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-18 22:41:28。
+最后检查时间：2020-10-20 20:49:50。
 
 ## 规则统计
 
@@ -27,6 +27,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 598   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SohuSogo/Repeat/China.list)   |   1.17%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73892   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SohuSogo/Repeat/ChinaTest.list)   |   0.01%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 75   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SohuSogo/Repeat/ChinaMedia.list)   |   2.67%  |
 ## 配置说明
 
@@ -78,7 +79,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) 
 
 提供规则数据源及改进建议
 

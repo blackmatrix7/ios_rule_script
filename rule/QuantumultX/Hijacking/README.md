@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Hijacking分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-19 11:32:38。
+最后检查时间：2020-10-20 20:49:49。
 
 ## 规则统计
 
@@ -28,9 +28,10 @@ Hijacking分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139754   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat/Advertising.list)   |   0.15%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 150234   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat/AdvertisingTest.list)   |   0.14%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44046   | [202](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat/AdvertisingLite.list)   |   0.46%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139723   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat/Advertising.list)   |   0.15%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165226   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat/AdvertisingTest.list)   |   0.13%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44034   | [202](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat/AdvertisingLite.list)   |   0.46%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73888   | [55](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat/ChinaTest.list)   |   0.07%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -81,7 +82,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) 
 
 提供规则数据源及改进建议
 

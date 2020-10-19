@@ -1,51 +1,10 @@
 # NAME: Apple
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-10-18 22:41:17
-# DOMAIN-SUFFIX: 20
+# UPDATE: 2020-10-20 20:49:44
+# USER-AGENT: 1
 # IP-CIDR: 10
 # PROCESS-NAME: 2
-# DOMAIN: 19
-# USER-AGENT: 1
-# TOTAL: 52
-DOMAIN,aod.itunes.apple.com
-DOMAIN,api.smoot.apple.cn
-DOMAIN,appldnld.apple.com
-DOMAIN,apple.comscoreresearch.com
-DOMAIN,apptrailers.itunes.apple.com
-DOMAIN,books.itunes.apple.com
-DOMAIN,cdn.apple-cloudkit.com
-DOMAIN,devimages-cdn.apple.com
-DOMAIN,devstreaming-cdn.apple.com
-DOMAIN,gs-loc-cn.apple.com
-DOMAIN,iosapps.itunes.apple.com
-DOMAIN,js-cdn.music.apple.com
-DOMAIN,music.apple.com
-DOMAIN,mvod.itunes.apple.com
-DOMAIN,osxapps.itunes.apple.com
-DOMAIN,supportdownload.apple.com
-DOMAIN,swcdn.apple.com
-DOMAIN,updates-http.cdn-apple.com
-DOMAIN,www-cdn.icloud.com.akadns.net
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,akadns.net
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,hls-amt.itunes.apple.com
-DOMAIN-SUFFIX,hls.itunes.apple.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,ls.apple.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
+# TOTAL: 13
 USER-AGENT,com.apple.appstored*
 IP-CIDR,139.178.128.0/18,no-resolve
 IP-CIDR,144.178.0.0/19,no-resolve

@@ -8,7 +8,7 @@
 
 含有PlayStation。
 
-最后检查时间：2020-10-18 22:41:28。
+最后检查时间：2020-10-20 20:49:50。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@ Sony分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 777   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sony/Repeat/BlackList.list)   |   0.64%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 5981   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sony/Repeat/Proxy.list)   |   0.08%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27379   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sony/Repeat/Proxy.list)   |   0.02%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -79,7 +79,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) 
 
 提供规则数据源及改进建议
 

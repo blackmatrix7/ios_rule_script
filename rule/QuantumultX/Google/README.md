@@ -7,18 +7,18 @@
 定时爬取互联网上开源的Google分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-18 22:41:26。
+最后检查时间：2020-10-20 20:49:48。
 
 ## 规则统计
 
-总计规则：64 条。
+总计规则：123 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | HOST-KEYWORD | 3 |
-| HOST-SUFFIX | 58 |
+| HOST-SUFFIX | 117 |
 | USER-AGENT | 3 |
 ## 重复统计
 
@@ -28,12 +28,16 @@ Google分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 777   | [37](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/BlackList.list)   |   4.76%  |
-|  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube)    | 14   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/YouTube.list)   |   14.29%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139723   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/Advertising.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165226   | [23](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/AdvertisingTest.list)   |   0.01%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44034   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/AdvertisingLite.list)   |   0.02%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 777   | [39](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/BlackList.list)   |   5.02%  |
+|  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube)    | 14   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/YouTube.list)   |   21.43%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 837   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/Global.list)   |   6.69%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 296   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/GlobalMedia.list)   |   1.01%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 296   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/GlobalMedia.list)   |   1.35%  |
 |  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark)    | 4   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/Spark.list)   |   25.00%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 5981   | [53](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/Proxy.list)   |   0.89%  |
+|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy)    | 2714   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/Privacy.list)   |   0.11%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27379   | [66](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/Proxy.list)   |   0.24%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -56,6 +60,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Google/GoogleDrive.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Google/GoogleSearch.list
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Google.list
+- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/google.txt
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
@@ -86,7 +91,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) 
 
 提供规则数据源及改进建议
 

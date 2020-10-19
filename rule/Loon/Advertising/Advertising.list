@@ -1,10 +1,10 @@
 # NAME: Advertising
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-10-19 11:32:34
+# UPDATE: 2020-10-20 20:49:42
 # DOMAIN-KEYWORD: 56
-# URL-REGEX: 347
+# URL-REGEX: 337
 # IP-CIDR: 243
-# TOTAL: 646
+# TOTAL: 636
 DOMAIN-KEYWORD,adashx
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -77,7 +77,6 @@ URL-REGEX,^https?+:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/tb1.+?-\d{4}-\d{4}\.jpg_12
 URL-REGEX,^https?+:\/\/(?>promo|api)\.xueqiu\.com\/promotion\/(?:feed_)?+display
 URL-REGEX,^https?+:\/\/.+?\.(?>amemv|musical|snssdk|tiktokv)\.(?>com|ly)\/(?>api|motor)\/ad\/
 URL-REGEX,^https?+:\/\/.+?\.58cdn\.com\.cn\/brandads\/
-URL-REGEX,^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier)
 URL-REGEX,^https?+:\/\/.+?\.iydsj\.com\/api\/.+?\/ad
 URL-REGEX,^https?+:\/\/.+?\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/
 URL-REGEX,^https?+:\/\/.+?\.mp4\?ccode=0902
@@ -99,8 +98,6 @@ URL-REGEX,^https?+:\/\/4gimg\.map\.qq\.com\/mwasplash\/
 URL-REGEX,^https?+:\/\/7n\.bczcdn\.com\/launchad\/
 URL-REGEX,^https?+:\/\/\w+?\.kingsoft-office-service\.com\/ad
 URL-REGEX,^https?+:\/\/\w+?\.ximalaya\.com\/api\/v\d\/adrealtime
-URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad
-URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
 URL-REGEX,^https?+:\/\/a\.apicloud\.com\/start_page\/
 URL-REGEX,^https?+:\/\/a\.qiumibao\.com\/activities\/config\.php
 URL-REGEX,^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv
@@ -362,7 +359,6 @@ URL-REGEX,^https?+:\/\/www\.zybang\.com\/adx\/
 URL-REGEX,^https?+:\/\/xyst\.yuanfudao\.com\/iphone\/splashesv\d
 URL-REGEX,^https?+:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/slidslist$
 URL-REGEX,^https?+:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/.+?\d{3
-URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
 URL-REGEX,^https?+:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/
 URL-REGEX,^https?://.+/videos/other/.+
 URL-REGEX,^https?://.+\.beacon\.qq\.com
@@ -377,12 +373,6 @@ URL-REGEX,^https?://d\d\.sinaimg\.cn
 URL-REGEX,^https?://sa\d\.tuisong\.baidu\.com
 URL-REGEX,^https?://sax\d\.sina\.com\.cn
 URL-REGEX,^https?://update\.pan\.baidu\.com/statistics\?
-URL-REGEX,http://app.bilibili.com/x/v2/dataflow/report-tinygif
-URL-REGEX,https://api.bilibili.com/pgc/season/rank/cn
-URL-REGEX,https://app.bilibili.com/x/resource/abtest
-URL-REGEX,https://app.bilibili.com/x/v2/param
-URL-REGEX,https://app.bilibili.com/x/v2/rank.*rid=(168|5)
-URL-REGEX,https://app.bilibili.com/x/v2/search/(defaultword|hot|recommend|resource)
 URL-REGEX,https?://(a?d|sax)\d.sina.com
 URL-REGEX,https?://(e|m).+/((uu|oo).php.+|\d+.x?html\?$)
 URL-REGEX,https?://.+/videos/other/.+

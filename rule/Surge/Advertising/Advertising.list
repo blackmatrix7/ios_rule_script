@@ -1,10 +1,10 @@
 # NAME: Advertising
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-10-18 22:41:15
+# UPDATE: 2020-10-19 11:32:33
 # DOMAIN-KEYWORD: 56
-# URL-REGEX: 346
+# URL-REGEX: 347
 # IP-CIDR: 243
-# TOTAL: 645
+# TOTAL: 646
 DOMAIN-KEYWORD,adashx
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -61,6 +61,7 @@ DOMAIN-KEYWORD,uploadmobiledata
 DOMAIN-KEYWORD,usage
 DOMAIN-KEYWORD,wlmonitor
 DOMAIN-KEYWORD,zjtoolbar
+URL-REGEX,^http://cdn-1rtb.caiyunapp.com/creative/.*$
 URL-REGEX,^http:\/\/[\s\s]*baidu\.com/.*ad[xs]\.php
 URL-REGEX,^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashschedule$
 URL-REGEX,^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$

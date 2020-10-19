@@ -7,7 +7,7 @@
 定时爬取互联网上开源的黑名单分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-18 22:41:24。
+最后检查时间：2020-10-19 11:32:37。
 
 ## 规则统计
 
@@ -31,8 +31,8 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe)    | 34   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Adobe.list)   |   20.59%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139642   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Advertising.list)   |   0.02%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 150124   | [31](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/AdvertisingTest.list)   |   0.02%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139754   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Advertising.list)   |   0.02%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 150234   | [31](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/AdvertisingTest.list)   |   0.02%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44046   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/AdvertisingLite.list)   |   0.02%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 50   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Apple.list)   |   4.00%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/AppleBlock.list)   |   100.00%  |

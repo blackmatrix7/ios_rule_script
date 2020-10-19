@@ -6,13 +6,13 @@
 
 定时爬取互联网上开源的去广告测试版分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
-本分流规则不包含任何知乎去广告规则。测试版的去广告规则，会将所有已知的去广告规则作为数据源，不考虑APP承受能力，不考虑误拦截的问题，也无法处理任何关于误拦截的反馈。如果出现误拦截，建议自行编写白名单规则修正。
+本分流规则不包含任何知乎去广告规则。测试版的去广告规则，会将所有已知的去广告规则作为数据源，不考虑APP承受能力，不考虑误拦截的问题，也无法处理任何关于误拦截的反馈。如果出现误拦截，建议搭配WhiteList分流规则进行修正，将其置于本分流规则之前，并进行放行。
 
-最后检查时间：2020-10-18 22:41:21。
+最后检查时间：2020-10-19 11:32:34。
 
 ## 规则统计
 
-总计规则：150470 条。
+总计规则：150581 条。
 
 各类型规则统计：
 
@@ -20,9 +20,9 @@
 | ---- | ---- |
 | DOMAIN | 95500 |
 | DOMAIN-KEYWORD | 56 |
-| DOMAIN-SUFFIX | 54325 |
+| DOMAIN-SUFFIX | 54435 |
 | IP-CIDR | 243 |
-| URL-REGEX | 346 |
+| URL-REGEX | 347 |
 ## 重复统计
 
 去广告测试版分流规则，与本项目其他分流规则重复情况统计。
@@ -32,13 +32,13 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe)    | 34   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/Adobe.list)   |   17.65%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 139988   | [139988](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/Advertising.list)   |   100.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44379   | [44379](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/AdvertisingLite.list)   |   100.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140101   | [140101](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/Advertising.list)   |   100.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44380   | [44380](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/AdvertisingLite.list)   |   100.00%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 52   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/Apple.list)   |   1.92%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [31](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/BlackList.list)   |   3.98%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 598   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/China.list)   |   1.67%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 75   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/ChinaMedia.list)   |   1.33%  |
-|  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/WhiteList)    | 34   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/WhiteList.list)   |   14.71%  |
+|  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/WhiteList)    | 35   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/WhiteList.list)   |   14.29%  |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/YouTube)    | 14   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/YouTube.list)   |   14.29%  |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 100   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/Microsoft.list)   |   2.00%  |
 |  [Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Niconico)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/Niconico.list)   |   20.00%  |
@@ -100,6 +100,7 @@ AdvertisingTest.list请使用RULE-SET，Domain.list请使用DOMAIN-SET。
 - https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Tide.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
 - https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/connershua/Quantumult/X/Filter/Advertising.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list

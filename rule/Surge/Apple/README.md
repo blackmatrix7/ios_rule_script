@@ -8,7 +8,7 @@
 
 不含有Apple News等国内无法使用的分流规则
 
-最后检查时间：2020-10-18 22:41:24。
+最后检查时间：2020-10-19 11:32:36。
 
 ## 规则统计
 
@@ -31,9 +31,9 @@ Apple分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 139988   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 150470   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44379   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140101   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 150581   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44380   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AppleBlock.list)   |   33.33%  |
 |  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AppleNews.list)   |   11.11%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/BlackList.list)   |   0.26%  |

@@ -7,7 +7,7 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-18 22:41:29。
+最后检查时间：2020-10-19 11:32:38。
 
 ## 规则统计
 
@@ -32,9 +32,9 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe)    | 34   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy/Repeat/Adobe.list)   |   23.53%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 139988   | [87](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy/Repeat/Advertising.list)   |   0.06%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 150470   | [99](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy/Repeat/AdvertisingTest.list)   |   0.07%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44379   | [30](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy/Repeat/AdvertisingLite.list)   |   0.07%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140101   | [87](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy/Repeat/Advertising.list)   |   0.06%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 150581   | [99](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy/Repeat/AdvertisingTest.list)   |   0.07%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44380   | [30](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy/Repeat/AdvertisingLite.list)   |   0.07%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 50   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy/Repeat/Apple.list)   |   4.00%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy/Repeat/AppleBlock.list)   |   20.00%  |
 |  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy/Repeat/Bahamut.list)   |   20.00%  |

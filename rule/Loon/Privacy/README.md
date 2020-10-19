@@ -7,7 +7,7 @@
 定时爬取互联网上开源的隐私分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-18 22:41:28。
+最后检查时间：2020-10-19 11:32:38。
 
 ## 规则统计
 
@@ -28,9 +28,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 139988   | [2686](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/Advertising.list)   |   1.92%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 150470   | [2688](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/AdvertisingTest.list)   |   1.79%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44379   | [2421](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/AdvertisingLite.list)   |   5.46%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140101   | [2686](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/Advertising.list)   |   1.92%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 150581   | [2688](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/AdvertisingTest.list)   |   1.79%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44380   | [2421](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/AdvertisingLite.list)   |   5.46%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 598   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/China.list)   |   0.17%  |
 ## 配置说明
 

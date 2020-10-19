@@ -6,13 +6,13 @@
 
 定时爬取互联网上开源的去广告分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
-本分流规则不包含任何知乎去广告规则。
+本分流规则不包含任何知乎去广告规则。可能存在部分误拦截，建议搭配WhiteList分流规则进行修正，将其置于本分流规则之前，并进行放行。
 
-最后检查时间：2020-10-18 22:41:19。
+最后检查时间：2020-10-19 11:32:34。
 
 ## 规则统计
 
-总计规则：139642 条。
+总计规则：139754 条。
 
 各类型规则统计：
 
@@ -20,7 +20,7 @@
 | ---- | ---- |
 | HOST | 95500 |
 | HOST-KEYWORD | 56 |
-| HOST-SUFFIX | 43843 |
+| HOST-SUFFIX | 43955 |
 | IP-CIDR | 243 |
 ## 重复统计
 
@@ -31,13 +31,13 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe)    | 34   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/Adobe.list)   |   17.65%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 150124   | [139642](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/AdvertisingTest.list)   |   93.02%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 150234   | [139754](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/AdvertisingTest.list)   |   93.02%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44046   | [44046](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/AdvertisingLite.list)   |   100.00%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 50   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/Apple.list)   |   2.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 777   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/BlackList.list)   |   3.09%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 594   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/China.list)   |   1.68%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 75   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/ChinaMedia.list)   |   1.33%  |
-|  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList)    | 32   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/WhiteList.list)   |   15.62%  |
+|  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList)    | 33   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/WhiteList.list)   |   15.15%  |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube)    | 14   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/YouTube.list)   |   7.14%  |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft)    | 98   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/Microsoft.list)   |   1.02%  |
 |  [Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/Niconico.list)   |   20.00%  |
@@ -89,6 +89,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Tide.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
 - https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/connershua/Quantumult/X/Filter/Advertising.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list

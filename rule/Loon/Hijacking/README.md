@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Hijacking分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-18 22:41:28。
+最后检查时间：2020-10-19 11:32:38。
 
 ## 规则统计
 
@@ -28,9 +28,9 @@ Hijacking分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 139988   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/Advertising.list)   |   0.15%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 150470   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/AdvertisingTest.list)   |   0.14%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44379   | [202](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/AdvertisingLite.list)   |   0.46%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140101   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/Advertising.list)   |   0.15%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 150581   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/AdvertisingTest.list)   |   0.14%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44380   | [202](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/AdvertisingLite.list)   |   0.46%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

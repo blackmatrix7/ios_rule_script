@@ -6,13 +6,13 @@
 
 定时爬取互联网上开源的去广告精简版分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
-本分流规则不包含任何知乎去广告规则。
+本分流规则不包含任何知乎去广告规则。可能存在部分误拦截，建议搭配WhiteList分流规则进行修正，将其置于本分流规则之前，并进行放行。
 
-最后检查时间：2020-10-18 22:41:23。
+最后检查时间：2020-10-19 11:32:36。
 
 ## 规则统计
 
-总计规则：44379 条。
+总计规则：44380 条。
 
 各类型规则统计：
 
@@ -22,7 +22,7 @@
 | DOMAIN-KEYWORD | 47 |
 | DOMAIN-SUFFIX | 17650 |
 | IP-CIDR | 200 |
-| URL-REGEX | 333 |
+| URL-REGEX | 334 |
 ## 重复统计
 
 去广告精简版分流规则，与本项目其他分流规则重复情况统计。
@@ -32,13 +32,13 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe)    | 34   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/Adobe.list)   |   14.71%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 139988   | [44379](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/Advertising.list)   |   31.70%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 150470   | [44379](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/AdvertisingTest.list)   |   29.49%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140101   | [44380](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/Advertising.list)   |   31.68%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 150581   | [44380](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/AdvertisingTest.list)   |   29.47%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 50   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/Apple.list)   |   2.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 777   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/BlackList.list)   |   1.29%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 598   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/China.list)   |   1.17%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 75   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/ChinaMedia.list)   |   1.33%  |
-|  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList)    | 34   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/WhiteList.list)   |   11.76%  |
+|  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList)    | 35   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/WhiteList.list)   |   11.43%  |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/YouTube)    | 14   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/YouTube.list)   |   7.14%  |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft)    | 98   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/Microsoft.list)   |   1.02%  |
 |  [Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/Niconico.list)   |   20.00%  |
@@ -80,6 +80,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
 
 

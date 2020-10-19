@@ -7,7 +7,7 @@
 定时爬取互联网上开源的网易云音乐分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-18 22:41:26。
+最后检查时间：2020-10-19 11:32:37。
 
 ## 规则统计
 
@@ -28,8 +28,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 139988   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 150470   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140101   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 150581   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 598   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic/Repeat/China.list)   |   1.51%  |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaIPs)    | 7162   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic/Repeat/ChinaIPs.list)   |   0.04%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 75   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic/Repeat/ChinaMedia.list)   |   2.67%  |

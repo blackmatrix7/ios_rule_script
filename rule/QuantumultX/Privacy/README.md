@@ -7,7 +7,7 @@
 定时爬取互联网上开源的隐私分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-18 22:41:28。
+最后检查时间：2020-10-19 11:32:38。
 
 ## 规则统计
 
@@ -28,8 +28,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139642   | [2686](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/Advertising.list)   |   1.92%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 150124   | [2688](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/AdvertisingTest.list)   |   1.79%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139754   | [2686](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/Advertising.list)   |   1.92%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 150234   | [2688](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/AdvertisingTest.list)   |   1.79%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44046   | [2421](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/AdvertisingLite.list)   |   5.50%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 594   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/China.list)   |   0.17%  |
 ## 配置说明

@@ -8,7 +8,7 @@
 
 含有OneDriver分流规则
 
-最后检查时间：2020-10-18 22:41:26。
+最后检查时间：2020-10-19 11:32:37。
 
 ## 规则统计
 
@@ -31,8 +31,8 @@ Microsoft分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe)    | 34   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft/Repeat/Adobe.list)   |   2.94%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139642   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 150124   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139754   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 150234   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44046   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 50   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft/Repeat/Apple.list)   |   2.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 777   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft/Repeat/BlackList.list)   |   1.54%  |

@@ -8,17 +8,17 @@
 
 不应该被去广告分流规则屏蔽的网站，请将此分流规则置于去广告规则之前。
 
-最后检查时间：2020-10-18 22:41:25。
+最后检查时间：2020-10-19 11:32:37。
 
 ## 规则统计
 
-总计规则：34 条。
+总计规则：35 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 20 |
+| DOMAIN | 21 |
 | DOMAIN-KEYWORD | 1 |
 | DOMAIN-SUFFIX | 7 |
 | URL-REGEX | 2 |
@@ -31,9 +31,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 139988   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/WhiteList/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 150470   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/WhiteList/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44379   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/WhiteList/Repeat/AdvertisingLite.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140101   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/WhiteList/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 150581   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/WhiteList/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44380   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/WhiteList/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 598   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/WhiteList/Repeat/China.list)   |   0.67%  |
 ## 配置说明
 

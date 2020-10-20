@@ -18,5 +18,10 @@
 ^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations) url reject-200
 # 知乎拦截部分预加载
 ^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) url reject
+# 知乎网页版去广告
+^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings url reject-200
+^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation url reject-200
+^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner url reject-200
+^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation url reject-200
 
-hostname = www.zhihu.com,api.zhihu.com
+hostname = www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com

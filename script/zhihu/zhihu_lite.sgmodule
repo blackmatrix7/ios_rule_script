@@ -13,4 +13,4 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/s
 知乎_预置关键词去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/search\/preset_words\?,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
 
 [MITM]
-hostname = %APPEND% www.zhihu.com, api.zhihu.com
+hostname = %APPEND% www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com

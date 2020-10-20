@@ -21,6 +21,11 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\
 # 知乎拦截部分预加载
 ^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) url reject
 ^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations) url reject-200
+# 知乎网页版去广告
+^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings url reject-200
+^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation url reject-200
+^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner url reject-200
+^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation url reject-200
 
 [Script]
 http-response ^https?:\/\/api\.zhihu\.com\/people requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_处理用户信息
@@ -32,4 +37,4 @@ http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? requires-body=
 http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_回答内容优化
 
 [MITM]
-hostname = www.zhihu.com,api.zhihu.com
+hostname = www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com

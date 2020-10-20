@@ -20,4 +20,4 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/s
 知乎_回答内容优化 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))?,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
 
 [MITM]
-hostname = %APPEND% www.zhihu.com, api.zhihu.com
+hostname = %APPEND% www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com

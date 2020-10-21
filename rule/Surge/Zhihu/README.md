@@ -8,11 +8,15 @@
 
 本分流规则，需要搭配 https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu 使用。
 
-最后检查时间：2020-10-20 20:49:50。
+
+知乎广告拦截分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。
+
+
+最后检查时间：2020-10-21 21:08:56。
 
 ## 规则统计
 
-总计规则：9 条。
+总计规则：13 条。
 
 各类型规则统计：
 
@@ -22,14 +26,12 @@
 | DOMAIN-KEYWORD | 1 |
 | DOMAIN-SUFFIX | 1 |
 | IP-CIDR | 1 |
-| URL-REGEX | 2 |
+| URL-REGEX | 6 |
 | USER-AGENT | 1 |
 ## 重复统计
 
 
-
 知乎广告拦截分流规则，与本项目其他分流规则没有重复。
-
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -7,7 +7,8 @@
 定时爬取互联网上开源的黑名单分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-20 20:49:47。
+
+最后检查时间：2020-10-21 21:08:52。
 
 ## 规则统计
 
@@ -32,9 +33,9 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe)    | 34   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Adobe.list)   |   20.59%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140060   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Advertising.list)   |   0.02%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165563   | [32](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/AdvertisingTest.list)   |   0.02%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44358   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/AdvertisingLite.list)   |   0.02%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140105   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Advertising.list)   |   0.02%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165652   | [32](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/AdvertisingTest.list)   |   0.02%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44359   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/AdvertisingLite.list)   |   0.02%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 1807   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Apple.list)   |   0.28%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/AppleBlock.list)   |   100.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 598   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/China.list)   |   2.01%  |
@@ -54,7 +55,7 @@
 |  [Scholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Scholar)    | 76   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Scholar.list)   |   1.32%  |
 |  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TestFlight)    | 3   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/TestFlight.list)   |   33.33%  |
 |  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Twitter)    | 11   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Twitter.list)   |   63.64%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27382   | [773](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Proxy.list)   |   2.82%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27356   | [773](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Proxy.list)   |   2.83%  |
 |  [Wikipedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Wikipedia)    | 12   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Wikipedia.list)   |   25.00%  |
 |  [Whatsapp](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Whatsapp)    | 16   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Whatsapp.list)   |   12.50%  |
 |  [TeamViewer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TeamViewer)    | 10   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/TeamViewer.list)   |   10.00%  |

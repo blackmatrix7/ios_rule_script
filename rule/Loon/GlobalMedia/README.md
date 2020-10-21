@@ -7,7 +7,8 @@
 定时爬取互联网上开源的GlobalMedia分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-20 20:49:49。
+
+最后检查时间：2020-10-21 21:08:55。
 
 ## 规则统计
 
@@ -30,9 +31,9 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140060   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 165563   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44358   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/AdvertisingLite.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140105   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 165652   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44359   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleNews)    | 8   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/AppleNews.list)   |   37.50%  |
 |  [AppleTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleTV)    | 3   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/AppleTV.list)   |   100.00%  |
 |  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Bahamut.list)   |   100.00%  |
@@ -49,7 +50,7 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 841   | [193](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Global.list)   |   22.95%  |
 |  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spotify)    | 8   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Spotify.list)   |   100.00%  |
 |  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spark)    | 4   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Spark.list)   |   25.00%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27382   | [109](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Proxy.list)   |   0.40%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27356   | [109](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Proxy.list)   |   0.40%  |
 |  [YouTubeMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/YouTubeMusic)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/YouTubeMusic.list)   |   100.00%  |
 ## 配置说明
 

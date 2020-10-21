@@ -7,11 +7,12 @@
 定时爬取互联网上开源的隐私分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-20 20:49:50。
+
+最后检查时间：2020-10-21 21:08:56。
 
 ## 规则统计
 
-总计规则：2714 条。
+总计规则：2716 条。
 
 各类型规则统计：
 
@@ -19,7 +20,7 @@
 | ---- | ---- |
 | HOST | 22 |
 | HOST-KEYWORD | 3 |
-| HOST-SUFFIX | 2689 |
+| HOST-SUFFIX | 2691 |
 ## 重复统计
 
 隐私分流规则，与本项目其他分流规则重复情况统计。
@@ -28,13 +29,13 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139723   | [2685](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/Advertising.list)   |   1.92%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165226   | [2688](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/AdvertisingTest.list)   |   1.63%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44034   | [2420](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/AdvertisingLite.list)   |   5.50%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139770   | [2685](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/Advertising.list)   |   1.92%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165317   | [2689](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/AdvertisingTest.list)   |   1.63%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44037   | [2419](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/AdvertisingLite.list)   |   5.49%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 594   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/China.list)   |   0.17%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73888   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google)    | 123   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/Google.list)   |   2.44%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27379   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/Proxy.list)   |   0.01%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27353   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/Proxy.list)   |   0.01%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

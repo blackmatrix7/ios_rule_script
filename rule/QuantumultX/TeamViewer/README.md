@@ -7,7 +7,8 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-20 20:49:51。
+
+最后检查时间：2020-10-21 21:08:57。
 
 ## 规则统计
 
@@ -31,7 +32,7 @@
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 594   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer/Repeat/China.list)   |   0.17%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73888   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Telegram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Telegram)    | 17   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer/Repeat/Telegram.list)   |   5.88%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27379   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer/Repeat/Proxy.list)   |   0.01%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27353   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer/Repeat/Proxy.list)   |   0.01%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

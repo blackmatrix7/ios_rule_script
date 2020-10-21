@@ -1,10 +1,11 @@
 # NAME: AdvertisingLite
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-10-20 20:49:44
+# UPDATE: 2020-10-21 21:08:48
+# DESC: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 47
-# URL-REGEX: 324
+# URL-REGEX: 322
 # IP-CIDR: 200
-# TOTAL: 571
+# TOTAL: 569
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,admdfs
@@ -89,6 +90,8 @@ URL-REGEX,^https?+:\/\/4gimg\.map\.qq\.com\/mwasplash\/
 URL-REGEX,^https?+:\/\/7n\.bczcdn\.com\/launchad\/
 URL-REGEX,^https?+:\/\/\w+?\.kingsoft-office-service\.com\/ad
 URL-REGEX,^https?+:\/\/\w+?\.ximalaya\.com\/api\/v\d\/adrealtime
+URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad
+URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
 URL-REGEX,^https?+:\/\/a\.apicloud\.com\/start_page\/
 URL-REGEX,^https?+:\/\/a\.qiumibao\.com\/activities\/config\.php
 URL-REGEX,^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv
@@ -140,10 +143,6 @@ URL-REGEX,^https?+:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/
 URL-REGEX,^https?+:\/\/api\.xiachufang\.com\/v\d\/ad\/
 URL-REGEX,^https?+:\/\/api\.xueqiu\.com\/ads\/display
 URL-REGEX,^https?+:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash
-URL-REGEX,^https?+:\/\/api\.zhihu\.com\/(?>ab|adx|xen|drama|zst|ad-style-service|market\/popover|search\/(?>top|tab|preset)|.*?(?>guide|recommendations|extended|featured-comment-ad))
-URL-REGEX,^https?+:\/\/api\.zhihu\.com\/(?>launch|real_time)
-URL-REGEX,^https?+:\/\/api\.zhihu\.com\/commercial_api\/(?>launch|real_time)
-URL-REGEX,^https?+:\/\/api\.zhihu\.com\/fringe\/ad
 URL-REGEX,^https?+:\/\/api\.zhuishushenqi\.com\/notification\/shelfmessage
 URL-REGEX,^https?+:\/\/api\.zhuishushenqi\.com\/splashes\/ios
 URL-REGEX,^https?+:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated
@@ -345,11 +344,11 @@ URL-REGEX,^https?+:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobrecommendrpcbean\.ge
 URL-REGEX,^https?+:\/\/www\.iyingdi\.cn\/ad
 URL-REGEX,^https?+:\/\/www\.myhug\.cn\/ad\/
 URL-REGEX,^https?+:\/\/www\.shihuo\.cn\/app\d\/saveappinfo
-URL-REGEX,^https?+:\/\/www\.zhihu\.com\/api\/v4\/community-ad
 URL-REGEX,^https?+:\/\/www\.zybang\.com\/adx\/
 URL-REGEX,^https?+:\/\/xyst\.yuanfudao\.com\/iphone\/splashesv\d
 URL-REGEX,^https?+:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/slidslist$
 URL-REGEX,^https?+:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/.+?\d{3
+URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
 URL-REGEX,^https?+:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/
 URL-REGEX,https?://(a?d|sax)\d.sina.com
 URL-REGEX,https?://(e|m).+/((uu|oo).php.+|\d+.x?html\?$)

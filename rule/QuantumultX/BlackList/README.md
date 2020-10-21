@@ -7,7 +7,8 @@
 定时爬取互联网上开源的黑名单分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-20 20:49:47。
+
+最后检查时间：2020-10-21 21:08:52。
 
 ## 规则统计
 
@@ -31,9 +32,9 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe)    | 34   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Adobe.list)   |   20.59%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139723   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Advertising.list)   |   0.02%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165226   | [32](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/AdvertisingTest.list)   |   0.02%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44034   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/AdvertisingLite.list)   |   0.02%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139770   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Advertising.list)   |   0.02%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165317   | [32](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/AdvertisingTest.list)   |   0.02%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44037   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/AdvertisingLite.list)   |   0.02%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 1805   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Apple.list)   |   0.28%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/AppleBlock.list)   |   100.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 594   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/China.list)   |   2.02%  |
@@ -53,7 +54,7 @@
 |  [Scholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Scholar)    | 76   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Scholar.list)   |   1.32%  |
 |  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TestFlight)    | 3   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/TestFlight.list)   |   33.33%  |
 |  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Twitter)    | 11   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Twitter.list)   |   63.64%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27379   | [773](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Proxy.list)   |   2.82%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27353   | [773](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Proxy.list)   |   2.83%  |
 |  [Wikipedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia)    | 12   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Wikipedia.list)   |   25.00%  |
 |  [Whatsapp](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Whatsapp)    | 16   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Whatsapp.list)   |   12.50%  |
 |  [TeamViewer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/TeamViewer.list)   |   16.67%  |

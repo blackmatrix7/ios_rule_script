@@ -7,7 +7,8 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-20 20:49:48。
+
+最后检查时间：2020-10-21 21:08:54。
 
 ## 规则统计
 
@@ -27,13 +28,13 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139723   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165226   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44034   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139770   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165317   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44037   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 777   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/BlackList.list)   |   0.26%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 837   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/Global.list)   |   0.60%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 296   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/GlobalMedia.list)   |   1.69%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27379   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/Proxy.list)   |   0.01%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27353   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/Proxy.list)   |   0.01%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

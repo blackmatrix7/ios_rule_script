@@ -7,7 +7,8 @@
 定时爬取互联网上开源的Speedtest分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-20 20:49:49。
+
+最后检查时间：2020-10-21 21:08:54。
 
 ## 规则统计
 
@@ -33,7 +34,7 @@ Speedtest分流规则，与本项目其他分流规则重复情况统计。
 |  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Netflix)    | 40   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Speedtest/Repeat/Netflix.list)   |   2.50%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 841   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Speedtest/Repeat/Global.list)   |   0.12%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 296   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Speedtest/Repeat/GlobalMedia.list)   |   0.34%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27382   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Speedtest/Repeat/Proxy.list)   |   0.00%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27356   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Speedtest/Repeat/Proxy.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

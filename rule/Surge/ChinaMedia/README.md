@@ -7,7 +7,8 @@
 定时爬取互联网上开源的GlobalMedia分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-20 20:49:47。
+
+最后检查时间：2020-10-21 21:08:52。
 
 ## 规则统计
 
@@ -30,9 +31,9 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140060   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165563   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44358   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140105   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165652   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44359   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia)    | 28   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/AsianMedia.list)   |   89.29%  |
 |  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili)    | 13   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/Bilibili.list)   |   100.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 598   | [21](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/China.list)   |   3.51%  |

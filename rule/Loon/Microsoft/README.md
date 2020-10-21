@@ -8,7 +8,9 @@
 
 含有OneDriver分流规则
 
-最后检查时间：2020-10-20 20:49:48。
+
+
+最后检查时间：2020-10-21 21:08:54。
 
 ## 规则统计
 
@@ -31,15 +33,15 @@ Microsoft分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe)    | 34   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/Adobe.list)   |   2.94%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140060   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 165563   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44358   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140105   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 165652   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44359   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 1805   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/Apple.list)   |   0.06%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 777   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/BlackList.list)   |   1.54%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 598   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/China.list)   |   2.01%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73892   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/ChinaTest.list)   |   0.02%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 841   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/Global.list)   |   1.07%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27382   | [64](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/Proxy.list)   |   0.23%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27356   | [64](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft/Repeat/Proxy.list)   |   0.23%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

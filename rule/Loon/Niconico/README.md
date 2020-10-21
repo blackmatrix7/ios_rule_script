@@ -7,7 +7,8 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-20 20:49:48。
+
+最后检查时间：2020-10-21 21:08:54。
 
 ## 规则统计
 
@@ -27,13 +28,13 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140060   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 165563   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44358   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140105   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 165652   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44359   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 777   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/BlackList.list)   |   0.26%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 841   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/Global.list)   |   0.59%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 296   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/GlobalMedia.list)   |   1.69%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27382   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/Proxy.list)   |   0.01%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27356   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/Proxy.list)   |   0.01%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

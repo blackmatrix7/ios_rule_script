@@ -7,11 +7,12 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-20 20:49:51。
+
+最后检查时间：2020-10-21 21:08:56。
 
 ## 规则统计
 
-总计规则：27379 条。
+总计规则：27353 条。
 
 各类型规则统计：
 
@@ -19,7 +20,7 @@
 | ---- | ---- |
 | HOST | 1 |
 | HOST-KEYWORD | 27 |
-| HOST-SUFFIX | 27263 |
+| HOST-SUFFIX | 27237 |
 | IP-CIDR | 85 |
 | USER-AGENT | 3 |
 ## 重复统计
@@ -31,9 +32,9 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe)    | 34   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/Adobe.list)   |   73.53%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139723   | [178](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/Advertising.list)   |   0.13%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165226   | [213](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/AdvertisingTest.list)   |   0.13%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44034   | [64](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/AdvertisingLite.list)   |   0.15%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139770   | [177](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/Advertising.list)   |   0.13%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165317   | [212](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/AdvertisingTest.list)   |   0.13%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44037   | [63](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/AdvertisingLite.list)   |   0.14%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 1805   | [1208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/Apple.list)   |   66.93%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/AppleBlock.list)   |   20.00%  |
 |  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleNews)    | 8   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/AppleNews.list)   |   12.50%  |
@@ -67,7 +68,7 @@
 |  [Sony](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sony)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/Sony.list)   |   100.00%  |
 |  [Sina](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sina)    | 10   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/Sina.list)   |   10.00%  |
 |  [Scholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Scholar)    | 76   | [36](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/Scholar.list)   |   47.37%  |
-|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy)    | 2714   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/Privacy.list)   |   0.07%  |
+|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy)    | 2716   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/Privacy.list)   |   0.07%  |
 |  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TestFlight)    | 3   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/TestFlight.list)   |   33.33%  |
 |  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Twitter)    | 11   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/Twitter.list)   |   100.00%  |
 |  [Instagram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Instagram)    | 2   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy/Repeat/Instagram.list)   |   100.00%  |

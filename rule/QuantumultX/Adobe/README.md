@@ -7,7 +7,8 @@
 定时爬取互联网上开源的Adobe分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-20 20:49:46。
+
+最后检查时间：2020-10-21 21:08:51。
 
 ## 规则统计
 
@@ -28,15 +29,15 @@ Adobe分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139723   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165226   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44034   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/AdvertisingLite.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139770   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165317   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44037   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 777   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/BlackList.list)   |   0.90%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 594   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/China.list)   |   0.34%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73888   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft)    | 98   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Microsoft.list)   |   1.02%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 837   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Global.list)   |   0.12%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27379   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Proxy.list)   |   0.09%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27353   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Proxy.list)   |   0.09%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

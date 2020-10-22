@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-22 09:59:09。
+最后检查时间：2020-10-22 19:56:47。
 
 ## 规则统计
 
@@ -29,9 +29,9 @@ Adobe分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140164   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165706   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44360   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/AdvertisingLite.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140163   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165705   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44359   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/BlackList.list)   |   0.90%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 598   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/China.list)   |   0.33%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73892   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/ChinaTest.list)   |   0.00%  |

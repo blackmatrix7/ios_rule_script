@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-22 09:59:13。
+最后检查时间：2020-10-22 19:56:52。
 
 ## 规则统计
 
@@ -29,9 +29,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140164   | [2687](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/Advertising.list)   |   1.92%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165706   | [2690](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/AdvertisingTest.list)   |   1.62%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44360   | [2419](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/AdvertisingLite.list)   |   5.45%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140163   | [2687](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/Advertising.list)   |   1.92%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165705   | [2690](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/AdvertisingTest.list)   |   1.62%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44359   | [2419](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/AdvertisingLite.list)   |   5.45%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 598   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/China.list)   |   0.17%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73892   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Google)    | 123   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/Google.list)   |   2.44%  |

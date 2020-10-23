@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-22 19:56:53。
+最后检查时间：2020-10-24 00:42:09。
 
 ## 规则统计
 
@@ -28,10 +28,10 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140163   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165705   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165745   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44359   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 598   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/China.list)   |   2.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73892   | [19](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/ChinaTest.list)   |   0.03%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73891   | [19](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/ChinaTest.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

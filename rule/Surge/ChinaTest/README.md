@@ -8,11 +8,11 @@
 
 
 
-最后检查时间：2020-10-22 19:56:49。
+最后检查时间：2020-10-24 00:42:06。
 
 ## 规则统计
 
-总计规则：73892 条。
+总计规则：73891 条。
 
 各类型规则统计：
 
@@ -20,7 +20,7 @@
 | ---- | ---- |
 | DOMAIN | 17 |
 | DOMAIN-KEYWORD | 4 |
-| DOMAIN-SUFFIX | 73850 |
+| DOMAIN-SUFFIX | 73849 |
 | IP-CIDR | 7 |
 | IP-CIDR6 | 4 |
 | USER-AGENT | 10 |
@@ -34,12 +34,12 @@ China分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe)    | 34   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/Adobe.list)   |   8.82%  |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140163   | [1137](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/Advertising.list)   |   0.81%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165705   | [1164](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/AdvertisingTest.list)   |   0.70%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165745   | [1164](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/AdvertisingTest.list)   |   0.70%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44359   | [681](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/AdvertisingLite.list)   |   1.54%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 1807   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/Apple.list)   |   0.72%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia)    | 28   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/AsianMedia.list)   |   50.00%  |
 |  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili)    | 13   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/Bilibili.list)   |   92.31%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/BlackList.list)   |   1.80%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 779   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/BlackList.list)   |   1.80%  |
 |  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Blizzard)    | 6   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/Blizzard.list)   |   50.00%  |
 |  [ByteDance](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ByteDance)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/ByteDance.list)   |   100.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 598   | [598](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/China.list)   |   100.00%  |
@@ -66,7 +66,7 @@ China分流规则，与本项目其他分流规则重复情况统计。
 |  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy)    | 2716   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/Privacy.list)   |   0.04%  |
 |  [Weibo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Weibo)    | 4   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/Weibo.list)   |   75.00%  |
 |  [IQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi)    | 7   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/IQiyi.list)   |   14.29%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27356   | [144](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/Proxy.list)   |   0.53%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27355   | [144](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/Proxy.list)   |   0.53%  |
 |  [Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Himalaya)    | 4   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/Himalaya.list)   |   50.00%  |
 |  [Xunlei](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Xunlei)    | 8   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/Xunlei.list)   |   87.50%  |
 |  [Tencent](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent)    | 19   | [19](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest/Repeat/Tencent.list)   |   100.00%  |

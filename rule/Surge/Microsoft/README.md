@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-10-22 19:56:50。
+最后检查时间：2020-10-24 00:42:07。
 
 ## 规则统计
 
@@ -35,14 +35,14 @@ Microsoft分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe)    | 34   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/Adobe.list)   |   2.94%  |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140163   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165705   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165745   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44359   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 1807   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/Apple.list)   |   0.06%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/BlackList.list)   |   1.54%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 779   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/BlackList.list)   |   1.54%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 598   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/China.list)   |   2.01%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73892   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/ChinaTest.list)   |   0.02%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73891   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/ChinaTest.list)   |   0.02%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/Global.list)   |   1.07%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27356   | [64](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/Proxy.list)   |   0.23%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27355   | [64](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/Proxy.list)   |   0.23%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

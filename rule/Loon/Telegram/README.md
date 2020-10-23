@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-22 19:56:51。
+最后检查时间：2020-10-24 00:42:08。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@ Telegram分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 841   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Telegram/Repeat/Global.list)   |   1.90%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27356   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Telegram/Repeat/Proxy.list)   |   0.05%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27355   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Telegram/Repeat/Proxy.list)   |   0.05%  |
 |  [TeamViewer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TeamViewer)    | 10   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Telegram/Repeat/TeamViewer.list)   |   10.00%  |
 ## 配置说明
 

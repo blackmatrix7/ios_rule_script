@@ -1,13 +1,16 @@
-# Google 与 Proxy 共 53 条规则重复
-# 最后检查时间：2020-10-18 22:41:26
+# Google 与 Proxy 共 66 条规则重复
+# 最后检查时间：2020-10-24 00:42:07
 # Github: https://github.com/blackmatrix7/ios_rule_script
 # 重复规则明细：
 HOST-KEYWORD,blogspot
 HOST-KEYWORD,google
+HOST-SUFFIX,265.com
+HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,abc.xyz
 HOST-SUFFIX,ampproject.org
 HOST-SUFFIX,android.com
 HOST-SUFFIX,androidify.com
+HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,appspot.com
 HOST-SUFFIX,autodraw.com
 HOST-SUFFIX,blogger.com
@@ -19,6 +22,8 @@ HOST-SUFFIX,chromium.org
 HOST-SUFFIX,creativelab5.com
 HOST-SUFFIX,debug.com
 HOST-SUFFIX,deepmind.com
+HOST-SUFFIX,dialogflow.com
+HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,firebaseio.com
 HOST-SUFFIX,getmdl.io
 HOST-SUFFIX,getoutline.org
@@ -27,9 +32,17 @@ HOST-SUFFIX,gmail.com
 HOST-SUFFIX,gmodules.com
 HOST-SUFFIX,godoc.org
 HOST-SUFFIX,golang.org
+HOST-SUFFIX,google-analytics.com
+HOST-SUFFIX,googleadservices.com
+HOST-SUFFIX,googleanalytics.com
 HOST-SUFFIX,googledrive.com
+HOST-SUFFIX,googlesyndication.com
+HOST-SUFFIX,googletagmanager.com
+HOST-SUFFIX,googletagservices.com
 HOST-SUFFIX,googleusercontent.com
 HOST-SUFFIX,gstatic.com
+HOST-SUFFIX,gtm.oasisfeng.com
+HOST-SUFFIX,gv.com
 HOST-SUFFIX,gvt0.com
 HOST-SUFFIX,gvt1.com
 HOST-SUFFIX,gvt3.com

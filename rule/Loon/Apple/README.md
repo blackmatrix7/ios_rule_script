@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-10-22 19:56:48。
+最后检查时间：2020-10-24 00:42:05。
 
 ## 规则统计
 
@@ -33,18 +33,18 @@ Apple分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140163   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 165705   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 165745   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44359   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [AppStore](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppStore)    | 2   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/AppStore.list)   |   100.00%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock)    | 5   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/AppleBlock.list)   |   40.00%  |
 |  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleNews)    | 8   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/AppleNews.list)   |   12.50%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 777   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/BlackList.list)   |   0.64%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/BlackList.list)   |   0.64%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 598   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/China.list)   |   2.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73892   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/ChinaTest.list)   |   0.02%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73891   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/ChinaTest.list)   |   0.02%  |
 |  [SystemOTA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SystemOTA)    | 8   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/SystemOTA.list)   |   37.50%  |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft)    | 98   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/Microsoft.list)   |   1.02%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 841   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/Global.list)   |   0.48%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27356   | [1208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/Proxy.list)   |   4.42%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27355   | [1208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/Proxy.list)   |   4.42%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

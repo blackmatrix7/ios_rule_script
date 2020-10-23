@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-22 19:56:52。
+最后检查时间：2020-10-24 00:42:08。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 594   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SohuSogo/Repeat/China.list)   |   1.18%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73888   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SohuSogo/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73887   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SohuSogo/Repeat/ChinaTest.list)   |   0.01%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 75   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SohuSogo/Repeat/ChinaMedia.list)   |   2.67%  |
 ## 配置说明
 

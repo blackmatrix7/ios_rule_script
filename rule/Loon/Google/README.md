@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-22 19:56:50。
+最后检查时间：2020-10-24 00:42:07。
 
 ## 规则统计
 
@@ -30,15 +30,15 @@ Google分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140163   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/Advertising.list)   |   0.01%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 165705   | [23](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/AdvertisingTest.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 165745   | [23](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/AdvertisingTest.list)   |   0.01%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44359   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/AdvertisingLite.list)   |   0.02%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 777   | [39](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/BlackList.list)   |   5.02%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | [39](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/BlackList.list)   |   5.01%  |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/YouTube)    | 14   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/YouTube.list)   |   21.43%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 841   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/Global.list)   |   6.66%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 296   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/GlobalMedia.list)   |   1.35%  |
 |  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spark)    | 4   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/Spark.list)   |   25.00%  |
 |  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy)    | 2716   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/Privacy.list)   |   0.11%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27356   | [66](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/Proxy.list)   |   0.24%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27355   | [66](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat/Proxy.list)   |   0.24%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

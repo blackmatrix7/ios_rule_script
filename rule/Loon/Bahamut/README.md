@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-24 00:42:06。
+最后检查时间：2020-10-27 10:29:05。
 
 ## 规则统计
 
@@ -29,9 +29,9 @@ Bahamut分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 841   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut/Repeat/Global.list)   |   0.59%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 296   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut/Repeat/GlobalMedia.list)   |   1.69%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27355   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut/Repeat/Proxy.list)   |   0.00%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 827   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut/Repeat/Global.list)   |   0.60%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 265   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut/Repeat/GlobalMedia.list)   |   1.13%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27354   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut/Repeat/Proxy.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

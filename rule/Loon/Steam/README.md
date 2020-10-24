@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-24 00:42:07。
+最后检查时间：2020-10-27 10:29:06。
 
 ## 规则统计
 
@@ -28,12 +28,12 @@ Steam分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 598   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam/Repeat/China.list)   |   1.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73891   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam/Repeat/ChinaTest.list)   |   0.01%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam/Repeat/China.list)   |   1.18%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73770   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam/Repeat/ChinaTest.list)   |   0.01%  |
 |  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SteamCN)    | 13   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam/Repeat/SteamCN.list)   |   38.46%  |
 |  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game)    | 28   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam/Repeat/Game.list)   |   57.14%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 841   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam/Repeat/Global.list)   |   0.12%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27355   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam/Repeat/Proxy.list)   |   0.03%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 827   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam/Repeat/Global.list)   |   0.12%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27354   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam/Repeat/Proxy.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-24 00:42:05。
+最后检查时间：2020-10-27 10:29:04。
 
 ## 规则统计
 
@@ -28,10 +28,10 @@ AppleBlock分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 1805   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock/Repeat/Apple.list)   |   0.11%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 1671   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock/Repeat/Apple.list)   |   0.06%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock/Repeat/BlackList.list)   |   0.64%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 841   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock/Repeat/Global.list)   |   0.59%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27355   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock/Repeat/Proxy.list)   |   0.00%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 827   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock/Repeat/Global.list)   |   0.60%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27354   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock/Repeat/Proxy.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

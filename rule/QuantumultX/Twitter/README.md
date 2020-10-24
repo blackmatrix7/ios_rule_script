@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-24 00:42:09。
+最后检查时间：2020-10-27 10:29:09。
 
 ## 规则统计
 
@@ -29,8 +29,8 @@ Twitter分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 778   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Twitter/Repeat/BlackList.list)   |   0.90%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 837   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Twitter/Repeat/Global.list)   |   1.19%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27352   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Twitter/Repeat/Proxy.list)   |   0.04%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 823   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Twitter/Repeat/Global.list)   |   1.22%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27351   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Twitter/Repeat/Proxy.list)   |   0.04%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

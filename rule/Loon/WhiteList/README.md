@@ -6,13 +6,13 @@
 
 定时爬取互联网上开源的白名单分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
-不应该被去广告分流规则屏蔽的网站，请将此分流规则置于去广告规则之前。
+白名单指不应该被去广告分流规则屏蔽的网站，请将此分流规则置于去广告规则之前。
 
 
 白名单分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。
 
 
-最后检查时间：2020-10-24 00:42:07。
+最后检查时间：2020-10-27 10:29:06。
 
 ## 规则统计
 
@@ -35,11 +35,10 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 140163   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 165745   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 44359   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList/Repeat/AdvertisingLite.list)   |   0.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 598   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList/Repeat/China.list)   |   0.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73891   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList/Repeat/ChinaTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 92822   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41859   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList/Repeat/China.list)   |   0.17%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73770   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList/Repeat/ChinaTest.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

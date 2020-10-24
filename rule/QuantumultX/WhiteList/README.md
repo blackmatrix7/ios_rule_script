@@ -6,11 +6,11 @@
 
 定时爬取互联网上开源的白名单分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
-不应该被去广告分流规则屏蔽的网站，请将此分流规则置于去广告规则之前。
+白名单指不应该被去广告分流规则屏蔽的网站，请将此分流规则置于去广告规则之前。
 
 
 
-最后检查时间：2020-10-24 00:42:07。
+最后检查时间：2020-10-27 10:29:06。
 
 ## 规则统计
 
@@ -32,11 +32,10 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 139828   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 165410   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 44037   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/AdvertisingLite.list)   |   0.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 594   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/China.list)   |   0.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73887   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/ChinaTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92487   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41537   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/China.list)   |   0.17%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73766   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/ChinaTest.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-24 00:42:07。
+最后检查时间：2020-10-27 10:29:07。
 
 ## 规则统计
 
@@ -27,9 +27,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 598   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEase/Repeat/China.list)   |   1.51%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73891   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEase/Repeat/ChinaTest.list)   |   0.01%  |
-|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic)    | 50   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEase/Repeat/NetEaseMusic.list)   |   18.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEase/Repeat/China.list)   |   1.52%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73770   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEase/Repeat/ChinaTest.list)   |   0.01%  |
+|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic)    | 44   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEase/Repeat/NetEaseMusic.list)   |   20.45%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

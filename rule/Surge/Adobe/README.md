@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-24 00:42:04。
+最后检查时间：2020-10-27 10:29:04。
 
 ## 规则统计
 
@@ -29,15 +29,15 @@ Adobe分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 140163   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 165745   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 44359   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/AdvertisingLite.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 92822   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/Advertising.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 108931   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/AdvertisingTest.list)   |   0.01%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41859   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 779   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/BlackList.list)   |   0.90%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 598   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/China.list)   |   0.33%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73891   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/ChinaTest.list)   |   0.00%  |
-|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 100   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/Microsoft.list)   |   1.00%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/Global.list)   |   0.12%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27355   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/Proxy.list)   |   0.09%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/China.list)   |   0.34%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73770   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/ChinaTest.list)   |   0.00%  |
+|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 99   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/Microsoft.list)   |   1.01%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 828   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/Global.list)   |   0.12%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27354   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe/Repeat/Proxy.list)   |   0.09%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

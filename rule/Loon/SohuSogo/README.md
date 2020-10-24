@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-24 00:42:08。
+最后检查时间：2020-10-27 10:29:08。
 
 ## 规则统计
 
@@ -27,9 +27,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 598   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SohuSogo/Repeat/China.list)   |   1.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73891   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SohuSogo/Repeat/ChinaTest.list)   |   0.01%  |
-|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 75   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SohuSogo/Repeat/ChinaMedia.list)   |   2.67%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SohuSogo/Repeat/China.list)   |   1.18%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73770   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SohuSogo/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 74   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SohuSogo/Repeat/ChinaMedia.list)   |   2.70%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

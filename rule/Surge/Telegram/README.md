@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-24 00:42:08。
+最后检查时间：2020-10-27 10:29:07。
 
 ## 规则统计
 
@@ -30,8 +30,8 @@ Telegram分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Telegram/Repeat/Global.list)   |   1.90%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27355   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Telegram/Repeat/Proxy.list)   |   0.05%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 828   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Telegram/Repeat/Global.list)   |   1.93%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27354   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Telegram/Repeat/Proxy.list)   |   0.05%  |
 |  [TeamViewer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TeamViewer)    | 10   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Telegram/Repeat/TeamViewer.list)   |   10.00%  |
 ## 配置说明
 

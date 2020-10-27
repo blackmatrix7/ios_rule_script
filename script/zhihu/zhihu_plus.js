@@ -92,7 +92,7 @@ async function main(){
           let data = body['data'].filter((element) =>{
             return !(element['card_type'] === 'slot_event_card' || 
                      element['ad'] || 
-                     element['extra']['type'] === 'drama' ||
+                     // element['extra']['type'] === 'drama' ||
                      // element['extra']['type'] == 'zvideo' || 
                      custom_blocked_users[element['common_card']['feed_content']['source_line']['elements'][1]['text']['panel_text']]
                     );

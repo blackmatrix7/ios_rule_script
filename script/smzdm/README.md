@@ -6,6 +6,8 @@
 
 所以在原来签到的基础上，增加了每日完成一些任务的功能，这样每日基本上可以获得120左右的经验值。V5升级到V6，只需要84天。
 
+**什么值得买执行任务时，对每次任务的时间间隔有一定的要求，过短的时间间隔可能会没有任何奖励。如果在短时间内并行发起大量请求的话，严重的情况会导致账号异常，需要修改密码。所以在每次执行任务时，都加入了3秒的休眠时间，这会导致脚本的执行时间需要非常长，差不多1分钟左右。请把脚本超时时间设置到最长，建议2分钟以上，以免因为超时被强制中断。**
+
 ## 签到与每日任务
 
 什么值得买Web端和App端每日自动签到脚本，并且完成每日点击去购买10次、点值5次、点赞5次、收藏5次的任务。
@@ -69,16 +71,29 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smz
 
 ##### 存在的问题
 
-###### 什么值得买iPhone 9.8.5抓取不到账户名密码
+###### 什么值得买iPhone 9.8.5及以上版本，抓取不到账户名密码
 
-在最新版的什么值得买客户端iPhone 9.8.5(2020-07-13)中，由于请求头声明异常，会导致Quantumult X和Surge的商店版本无法抓取到账户名和密码，Loon抓取正常。这个属于什么值得买客户端的请求不规范导致，修复时间未知。和Quantumlu X作者反馈，作者迅速对这种请求头不规范的情况做了兼容，目前在Qutumult X 1.0.13(348) TF版本中已经可以正常获取到数据。
+在最新版的什么值得买客户端iPhone 9.8.5(2020-07-13)中，由于请求头声明异常，会导致Quantumult X和Surge的商店版本无法抓取到账户名和密码，Loon抓取正常。这个属于什么值得买客户端的请求不规范导致，修复时间未知。
+
+和Quantumlu X作者反馈，作者迅速对这种请求头不规范的情况做了兼容，目前在Qutumult X 1.0.13(348) TF版本中已经可以正常获取到数据。
 
 现阶段的解决办法：
 
 1. 如果有Quantumult X有TF版本，更新至最新版即可
+
 2. 如果使用Loon，没影响
+
 3. 如果使用Surge，降级什么值得买App后抓取 
+
 4. clone 整个项目到本地，在本地脚本里填上预留的用户名密码
+
+5. Surge手动写入数据
+
+   ```javascript
+   手动执行脚本，写入账号密码数据
+   $persistentStore.write("你的账号", "smzdm_account");
+   $persistentStore.write("你的密码", "smzdm_password");
+   ```
 
 ###### App端签到没有收益
 
@@ -128,3 +143,59 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smz
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.quanx, tag=什么值得买_去广告, update-interval=86400, opt-parser=false, enabled=true
 ```
 
+## 统一推送
+
+MagicJS利用Bark，实现了跨设备的统一推送能力，将多个iOS设备的脚本执行结果，统一推送到一个设备上。
+
+执行效果图，以饿了么为例：
+
+![](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/images/bark.jpg)
+
+### 开启统一推送
+
+你需要安装Bark这个APP，打开后可以得到类似这样的链接：
+
+```http
+https://api.day.app/VXTWvaQ18N29bsQAg7DgkT
+```
+
+在Surge、Loon、QuantumultX中执行以下代码，将链接写入(如何执行代码请自己动手解决)。
+
+**Surge、Loon**
+
+```javascript
+# 开启所有脚本统一推送
+$persistentStore.write("https://api.day.app/VXTWvaQ18N29bsQAg7DgkT", "magicjs_unified_push_url");
+```
+
+**Quantumult X**
+
+```javascript
+# 开启所有脚本统一推送
+$prefs.setValueForKey("https://api.day.app/VXTWvaQ18N29bsQAg7DgkT", "magicjs_unified_push_url");
+```
+
+### 关闭统一推送
+
+**Surge、Loon**
+
+```javascript
+# 关闭所有脚本统一推送
+$persistentStore.write("", "magicjs_unified_push_url");
+```
+
+**Quantumult X**
+
+```javascript
+# 关闭所有脚本统一推送
+$prefs.setValueForKey("", "magicjs_unified_push_url");
+```
+
+### 其他
+
+1. 统一推送能力仅对支持的脚本有效。
+2. 开启统一推送后，所有支持统一推送的脚本，都会把通知推送到目标设备上。
+3. 限于Bark的功能，统一推送中的多媒体和链接不可用。
+4. 统一推送需要使用Bark的服务器，推送成功与否，与Bark服务器的可用性有关。
+5. 统一推送不会关闭APP的本地推送，即两个iOS设备都会有推送。
+6. 如有隐私考虑，可以参考Bark的服务端文档，自建服务端。

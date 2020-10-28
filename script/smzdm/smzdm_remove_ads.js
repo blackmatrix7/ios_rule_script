@@ -1,19 +1,10 @@
-/*
-[MITM]
-homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com
-
-[Script]
-什么值得买_首页去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/homepage-api.smzdm.com\/home,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-什么值得买_好价去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/haojia-api.smzdm.com\/home\/list\?,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-什么值得买_好文去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/article-api.smzdm.com\/article\/index_home_page,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-*/
-
 let body = $response.body;
 body=JSON.parse(body);
 
-let homepage_regex = /^https:\/\/homepage-api.smzdm.com\/home/;
-let haojia_regex = /^https:\/\/haojia-api.smzdm.com\/home\/list/;
-let article_regex = /^https:\/\/article-api.smzdm.com\/article\/index_home_page/;
+let homepage_regex = /^https?:\/\/homepage-api.smzdm.com\/home/;
+let haojia_regex = /^https?:\/\/haojia-api.smzdm.com\/home\/list/;
+let article_regex = /^https?:\/\/article-api.smzdm.com\/article\/index_home_page/;
+let util_regex = /^https?:\/\/app-api\.smzdm\.com\/util\/update/;
 
 // 去除首页推荐广告
 if (homepage_regex.test($request.url)){
@@ -27,10 +18,8 @@ if (homepage_regex.test($request.url)){
       }
     }
     if (body.hasOwnProperty('data') && body['data'].hasOwnProperty('rows')){
-      let rows = body['data']['rows'].filter((item) =>{
-        if (item['model_type'] != 'ads'){
-          return true;
-        }
+      let rows = body['data']['rows'].filter((item) =>{ 
+        return item['model_type'] != 'ads';
       })
       body['data']['rows'] = rows;
     }
@@ -53,9 +42,7 @@ else if(haojia_regex.test($request.url)){
     }
   }
   let rows = body['data']['rows'].filter((item) =>{
-    if (item['tag'] != '广告'){
-      return true;
-    }
+    return item['tag'] != '广告';
   })
   body['data']['rows'] = rows;
 }
@@ -64,9 +51,17 @@ else if(article_regex.test($request.url)){
   if (body['data'].hasOwnProperty('big_banner')){
     delete body['data']['big_banner'];
   }
-  if (body['data']  .hasOwnProperty('notice')){
+  if (body['data'].hasOwnProperty('notice')){
     delete body['data']['notice'];
   }
+}
+// 去除浮动广告
+else if (util_regex.test($request.url)){
+  delete body['data']['ad_filter'];
+  delete body['data']['operation_float_7_0'];
+  delete body['data']['operation_full'];
+  delete body['data']['operation_float_screen'];
+  delete body['data']['operation_float'];
 }
 body=JSON.stringify(body);
 $done({body});

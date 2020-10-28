@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-27 10:29:06。
+最后检查时间：2020-10-28 23:07:24。
 
 ## 规则统计
 
@@ -30,9 +30,9 @@ PayPal分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/PayPal/Repeat/China.list)   |   0.67%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73770   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/PayPal/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73924   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/PayPal/Repeat/ChinaTest.list)   |   0.01%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 828   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/PayPal/Repeat/Global.list)   |   0.36%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27354   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/PayPal/Repeat/Proxy.list)   |   0.01%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27421   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/PayPal/Repeat/Proxy.list)   |   0.01%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

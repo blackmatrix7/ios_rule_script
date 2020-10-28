@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-27 10:29:09。
+最后检查时间：2020-10-28 23:07:27。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@ TestFlight分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 778   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TestFlight/Repeat/BlackList.list)   |   0.13%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TestFlight/Repeat/BlackList.list)   |   0.13%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 823   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TestFlight/Repeat/Global.list)   |   0.12%  |
 ## 配置说明
 

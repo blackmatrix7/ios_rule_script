@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-27 10:29:04。
+最后检查时间：2020-10-28 23:07:22。
 
 ## 规则统计
 
@@ -28,10 +28,10 @@ AppleBlock分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 1671   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock/Repeat/Apple.list)   |   0.06%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 778   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock/Repeat/BlackList.list)   |   0.64%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 1672   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock/Repeat/Apple.list)   |   0.06%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock/Repeat/BlackList.list)   |   0.64%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 823   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock/Repeat/Global.list)   |   0.61%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27351   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock/Repeat/Proxy.list)   |   0.00%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27418   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock/Repeat/Proxy.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

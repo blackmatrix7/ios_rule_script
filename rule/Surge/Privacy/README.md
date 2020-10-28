@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-27 10:29:08。
+最后检查时间：2020-10-28 23:07:27。
 
 ## 规则统计
 
@@ -29,13 +29,13 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 92822   | [2683](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/Advertising.list)   |   2.89%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 108931   | [2686](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/AdvertisingTest.list)   |   2.47%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 92916   | [2683](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/Advertising.list)   |   2.89%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 108988   | [2686](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/AdvertisingTest.list)   |   2.46%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41859   | [2415](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/AdvertisingLite.list)   |   5.77%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/China.list)   |   0.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73770   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73924   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Google)    | 123   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/Google.list)   |   2.44%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27354   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/Proxy.list)   |   0.01%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27421   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy/Repeat/Proxy.list)   |   0.01%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-27 10:29:07。
+最后检查时间：2020-10-28 23:07:26。
 
 ## 规则统计
 
@@ -33,7 +33,7 @@ Netflix分流规则，与本项目其他分流规则重复情况统计。
 |  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Speedtest)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Netflix/Repeat/Speedtest.list)   |   20.00%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 823   | [28](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Netflix/Repeat/Global.list)   |   3.40%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 265   | [40](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Netflix/Repeat/GlobalMedia.list)   |   15.09%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27351   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Netflix/Repeat/Proxy.list)   |   0.03%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27418   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Netflix/Repeat/Proxy.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

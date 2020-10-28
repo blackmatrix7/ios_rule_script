@@ -6,6 +6,8 @@
 ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget - reject
 # 滴滴出行-其他
 ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds - reject
+# 什么值得买详情页广告
+^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner - reject
 
 [MITM]
-hostname = %APPEND% res.xiaojukeji.com,ct.xiaojukeji.com
+hostname = %APPEND% res.xiaojukeji.com,ct.xiaojukeji.com,haojia.m.smzdm.com

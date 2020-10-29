@@ -35,6 +35,9 @@ function GetSignCode(cookie, devideId){
           if (obj.code === "200"){
             resolve(obj.data.code);
           }
+          if (obj.code === "1000"){
+            reject(obj.message);
+          }
           else{
             magicJS.logError(`签到失败，响应异常：${data}`);
             reject('❌获取Code失败，响应异常，请查阅日志！');

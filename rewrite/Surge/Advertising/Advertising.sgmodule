@@ -1,7 +1,7 @@
 #!name=去广告
-#!desc=最后更新时间 2020-10-28 23:07:36
+#!desc=最后更新时间 2020-10-30 11:01:09
 #!system=ios
-#!rewrite: 796
+#!rewrite: 797
 #!mitm: 552
 #!github: https://github.com/blackmatrix7/ios_rule_script
 
@@ -231,6 +231,7 @@
 ^https?:\/\/api\.rr\.tv\/.*?(getAll|Version) - reject
 ^https?:\/\/api\.rr\.tv\/ad\/ - reject
 ^https?:\/\/api\.smzdm\.com\/v2\/util\/banner - reject
+^https?:\/\/api\.smzdm\.com\/v\d\/util\/(banner|loading) - reject
 ^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading - reject
 ^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
 ^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising - reject

@@ -1,8 +1,8 @@
 # NAME: 去广告
-# REWRITE: 796
+# REWRITE: 797
 # MITM: 552
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-10-28 23:07:36
+# UPDATE: 2020-10-30 11:01:09
 
 [URL Rewrite]
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
@@ -230,6 +230,7 @@
 ^https?:\/\/api\.rr\.tv\/.*?(getAll|Version) - reject
 ^https?:\/\/api\.rr\.tv\/ad\/ - reject
 ^https?:\/\/api\.smzdm\.com\/v2\/util\/banner - reject
+^https?:\/\/api\.smzdm\.com\/v\d\/util\/(banner|loading) - reject
 ^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading - reject
 ^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
 ^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising - reject

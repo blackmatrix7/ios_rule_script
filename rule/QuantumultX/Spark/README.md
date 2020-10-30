@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-28 23:07:27。
+最后检查时间：2020-11-01 21:00:11。
 
 ## 规则统计
 
@@ -27,8 +27,8 @@ Spotify分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92581   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 108653   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92777   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109013   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/BlackList.list)   |   0.38%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google)    | 123   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/Google.list)   |   0.81%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 823   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/Global.list)   |   0.24%  |

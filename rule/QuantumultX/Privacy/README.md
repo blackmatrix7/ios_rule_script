@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-28 23:07:27。
+最后检查时间：2020-11-01 21:00:12。
 
 ## 规则统计
 
@@ -29,11 +29,11 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92581   | [2683](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/Advertising.list)   |   2.90%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 108653   | [2686](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/AdvertisingTest.list)   |   2.47%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92777   | [2682](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/Advertising.list)   |   2.89%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109013   | [2686](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/AdvertisingTest.list)   |   2.46%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41537   | [2415](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/AdvertisingLite.list)   |   5.81%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/China.list)   |   0.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73920   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73816   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google)    | 123   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/Google.list)   |   2.44%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27418   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy/Repeat/Proxy.list)   |   0.01%  |
 ## 配置说明

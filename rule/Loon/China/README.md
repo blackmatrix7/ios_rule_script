@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-28 23:07:23。
+最后检查时间：2020-11-01 21:00:09。
 
 ## 规则统计
 
@@ -33,16 +33,16 @@ China分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe)    | 34   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/Adobe.list)   |   5.88%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 92916   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/Advertising.list)   |   0.01%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 108988   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/AdvertisingTest.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93112   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/Advertising.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109348   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/AdvertisingTest.list)   |   0.01%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41859   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/AdvertisingLite.list)   |   0.01%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 1672   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/Apple.list)   |   0.72%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 160   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/Apple.list)   |   7.50%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/AsianMedia.list)   |   25.00%  |
 |  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili)    | 13   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/Bilibili.list)   |   46.15%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 781   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/BlackList.list)   |   1.54%  |
 |  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Blizzard)    | 6   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/Blizzard.list)   |   50.00%  |
 |  [ByteDance](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ByteDance)    | 4   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/ByteDance.list)   |   50.00%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73924   | [589](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/ChinaTest.list)   |   0.80%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73820   | [589](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/ChinaTest.list)   |   0.80%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 74   | [21](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/ChinaMedia.list)   |   28.38%  |
 |  [DiDi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DiDi)    | 3   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/DiDi.list)   |   100.00%  |
 |  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList)    | 21   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/WhiteList.list)   |   4.76%  |

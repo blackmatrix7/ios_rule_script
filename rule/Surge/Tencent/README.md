@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-28 23:07:29。
+最后检查时间：2020-11-01 21:00:12。
 
 ## 规则统计
 
@@ -27,11 +27,11 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 92916   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 108988   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93112   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109348   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41859   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/China.list)   |   2.19%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73924   | [19](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/ChinaTest.list)   |   0.03%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73820   | [19](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent/Repeat/ChinaTest.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-28 23:07:25。
+最后检查时间：2020-11-01 21:00:11。
 
 ## 规则统计
 
@@ -28,8 +28,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92581   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 108653   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92777   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109013   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41537   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/BlackList.list)   |   0.26%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 823   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/Global.list)   |   0.61%  |

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-28 23:07:27。
+最后检查时间：2020-11-01 21:00:12。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Sina/Repeat/China.list)   |   1.35%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73924   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Sina/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73820   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Sina/Repeat/ChinaTest.list)   |   0.01%  |
 |  [Weibo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Weibo)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Sina/Repeat/Weibo.list)   |   100.00%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27421   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Sina/Repeat/Proxy.list)   |   0.00%  |
 ## 配置说明

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-28 23:07:24。
+最后检查时间：2020-11-01 21:00:10。
 
 ## 规则统计
 
@@ -30,7 +30,7 @@ PayPal分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PayPal/Repeat/China.list)   |   0.68%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73920   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PayPal/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73816   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PayPal/Repeat/ChinaTest.list)   |   0.01%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 823   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PayPal/Repeat/Global.list)   |   0.36%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27418   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PayPal/Repeat/Proxy.list)   |   0.01%  |
 ## 配置说明

@@ -13,6 +13,7 @@ let sourceIdConf = {'7mO4XP93fb84VMSC8Xk5vg%3D%3D': 7, 'pDmWW7HoWUkNu2nmJ3HJEQ%3
 let magicJS = MagicJS(scriptName, "INFO");
 magicJS.unifiedPushUrl = magicJS.read('didi_unified_push_url') || magicJS.read('magicjs_unified_push_url');
 
+// 滴滴出行签到
 function CheckIn(token, cityId, source_id=''){
   return new Promise((resolve, reject) =>{
     let url = '';
@@ -46,10 +47,10 @@ function CheckIn(token, cityId, source_id=''){
             }
             if (obj.data.sign.sign){
               let subsidy = Number(obj.data.sign.sign.subsidy_state.subsidy_amount + obj.data.sign.sign.subsidy_state.extra_subsidy_amount);
-              resolve(['🚕本日签到成功！', subsidy, obj.data.welfare.balance, obj.data.notification.reverse()]);
+              resolve(['🚕滴滴出行签到成功！', subsidy, obj.data.welfare.balance, obj.data.notification.reverse()]);
             }
             else{
-              resolve(['🚕今天已经签到过了，不要重复签到哦！！', 0, 0, []]);
+              resolve(['🚕滴滴出行今天已经签到过了。', 0, 0, []]);
             }
           }
           else if(obj.errno === 101){
@@ -69,6 +70,7 @@ function CheckIn(token, cityId, source_id=''){
   });
 }
 
+// 获取订单列表
 function GetOrderList(token){
   return new Promise((resolve) =>{
     let url = `https://api.udache.com/gulfstream/passenger/v2/other/pListReward?token=${token}`;
@@ -92,6 +94,7 @@ function GetOrderList(token){
   })
 }
 
+// 领取福利金
 function GetRewards(orderId, token){
   return new Promise((resolve) =>{
     let url = `https://api.udache.com/gulfstream/passenger/v2/otherpGetRewards?order_id=${orderId}&token=${token}`;
@@ -115,6 +118,7 @@ function GetRewards(orderId, token){
   })
 }
 
+// 获取福利金抽奖次数
 function GetDrawAmount(lid, token){
   return new Promise((resolve) =>{
     try{
@@ -204,9 +208,9 @@ function getSourceId(){
   return newSourceIdList[Math.round(Math.random() * (newSourceIdList.length - 1))]; 
 }
 
-// 天天有奖
-function DailyLotteryDraw(token, cityId, channelId, activityId, clientId=1){
-  return new Promise((resolve) =>{
+// 天天有奖签到
+function DailyLotteryDraw(token, channelId, activityId, clientId=1){
+  return new Promise((resolve, reject) =>{
     try{
       let options = {
         url: 'https://manhattan.webapp.xiaojukeji.com/marvel/api/manhattan-signin-task/signIn/execute',
@@ -221,8 +225,8 @@ function DailyLotteryDraw(token, cityId, channelId, activityId, clientId=1){
       }
       magicJS.post(options, (err, resp, data)=>{
         if (err){
-          magicJS.logError(`天天有奖失败，请求异常：${err}`);
-          resolve([null, []]);
+          magicJS.logError(`天天有奖签到失败，请求异常：${err}`);
+          reject('天天有奖签到失败，请求异常');
         }
         else{
           let obj = typeof data === 'string'? JSON.parse(data) : data;
@@ -235,12 +239,15 @@ function DailyLotteryDraw(token, cityId, channelId, activityId, clientId=1){
             });
             resolve([`🎁天天有奖连续签到${obj.data.serialSignInTimes}天`, giftList]);
           }
-          else if(obj.errorCode === 500000){
+          else if(obj.errorCode === 500000 && obj.errorMsg === "今天已经签到过了"){
             resolve([`🎁天天有奖今天已经签到过了`, []]);
           }
+          else if(obj.errorCode === 500000 && obj.errorMsg === "断签"){
+            resolve(['天天有奖断签', []]);
+          }
           else{
-            magicJS.logWarning(`天天有奖，响应异常：${data}`);
-            resolve([null, []]);
+            magicJS.logWarning(`天天有奖签到失败，响应异常：${data}`);
+            reject('天天有奖签到失败，响应异常');
           }
         }
       })
@@ -248,6 +255,121 @@ function DailyLotteryDraw(token, cityId, channelId, activityId, clientId=1){
     catch (err){
       magicJS.logError(`天天有奖失败，异常信息：${err}`);
       resolve([null, []]);
+    }
+  });
+}
+
+// 天天有奖签到断签后重新开始周期
+function DailyLotteryRestart(token, activityId, clientId=1){
+  return new Promise((resolve, reject) =>{
+    try{
+      let options = {
+        url: 'https://manhattan.webapp.xiaojukeji.com/marvel/api/manhattan-signin-task/signIn/restart',
+        headers: {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Accept-Language": "zh-Hans;q=1",
+          "Content-Type": "application/json",
+          "X-Surge-Skip-Scripting": true
+        },
+        body: magicJS.isNode? {'token': token, 'activityId': activityId, 'clientId': clientId} : JSON.stringify({'token': token, 'activityId': activityId, 'clientId': clientId})
+      }
+      magicJS.post(options, (err, resp, data)=>{
+        if (err){
+          magicJS.logError(`天天有奖签到失败，请求异常：${err}`);
+          reject('天天有奖出现断签，尝试开始新的签到周期失败，请求异常');
+        }
+        else{
+          data = typeof data === 'object' ? JSON.stringify(data) : data;
+          magicJS.logWarning(`天天有奖出现断签，尝试开始新的签到周期：${data}`);
+          let obj = JSON.parse(data);
+          if (obj.errorCode === 500000 && obj.errorMsg === '非断签状态无法清零并重新开始'){
+            magicJS.logWarning('非断签状态无法清零并重新开始');
+            resolve(obj.errorMsg);
+          }
+        }
+      })
+    }
+    catch (err){
+      magicJS.logError(`天天有奖失败，异常信息：${err}`);
+      resolve([null, []]);
+    }
+  });
+}
+
+// 获取用户信息
+function GetUserInfo(ts, token, app_id='common'){
+  return new Promise((resolve) =>{
+    try{
+      let url = `https://quartz.xiaojukeji.com/volcano/quartz/user/info?ts=${ts}&app_id=${app_id}&token=${token}&source_id=wdcn_1000&partition_id=1007`;
+      magicJS.get(url, (err, resp, data)=>{
+        if (err){
+          magicJS.logError(`获取用户信息失败，请求异常：${err}`);
+          resolve();
+        }
+        else{
+          magicJS.logDebug(`获取用户信息，接口响应：${data}`);
+          let obj = JSON.parse(data);
+          if (obj.errno === 0){
+            resolve(obj);
+          }
+          else{
+            magicJS.logWarning(`获取用户信息失败，响应异常：${data}`);
+            resolve();
+          }
+        }
+      })
+    }
+    catch (err){
+      magicJS.logError(`获取用户信息失败，异常信息：${err}`);
+      resolve();
+    }
+  });
+}
+
+// 领取积分
+function CollectPoint(token, app_id='common'){
+  return new Promise((resolve) =>{
+    try{
+      let options = {
+        'url': `https://quartz.xiaojukeji.com/volcano/quartz/points/collect?ts=${new Date().getTime()}`,
+        'headers': {
+          "Accept": "application/json, text/plain, */*",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Accept-Language": "zh-cn",
+          "Connection": "keep-alive",
+          "Content-Length": "238",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Host": "quartz.xiaojukeji.com",
+          "Origin": "https://page.udache.com",
+          "Referer": "https://page.udache.com/activity/apps/gain-points/index.html",
+          "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 didi.passenger/6.0.12 FusionKit/1.2.14"
+        },
+        'body': `app_id=${app_id}&token=${token}`
+      };
+      magicJS.post(options, (err, resp, data)=>{
+        if (err){
+          magicJS.logError(`领取积分失败，请求异常：${err}`);
+          resolve();
+        }
+        else{
+          data = typeof data === 'object' ? JSON.stringify(data) : data;
+          magicJS.logDebug(`领取积分失败，接口响应：${data}`);
+          let obj = JSON.parse(data);
+          if (obj.errno === 0){
+            magicJS.logInfo('领取积分完成');
+            resolve();
+          }
+          else{
+            magicJS.logWarning(`领取积分失败，响应异常：${data}`);
+            resolve();
+          }
+        }
+      })
+    }
+    catch (err){
+      magicJS.logError(`领取积分失败，异常信息：${err}`);
+      resolve();
     }
   });
 }
@@ -314,6 +436,7 @@ async function Main(){
     }
   }
   else{
+    let title = scriptName;
     let subTitle = '';
     let content = '';
     let cityId = magicJS.read(didiCityIdKey);
@@ -321,11 +444,14 @@ async function Main(){
     let lid = magicJS.read(didiLidKey);
     let channelId = magicJS.read(didiChannelIdKey) || '5286158810015504';
     let activityId = magicJS.read(didiActivityIdKey) || '140737579736652';
+    let clientId = 1;
+    let avatar = '';
+
 
     // 签到
     if (token && cityId){
       let source_id = getSourceId();
-      let [checkInErr, [checkInStr, subsidy, balance, notification]] = await magicJS.attempt(CheckIn(token, cityId, source_id));
+      let [checkInErr, [checkInStr, subsidy, balance, notification]] = await magicJS.attempt(magicJS.retry(CheckIn, 3, 1000)(token, cityId, source_id), [null, null, null, null]);
       if (checkInErr){
         subTitle = checkInErr;
       }
@@ -341,6 +467,9 @@ async function Main(){
           content += element + '。';
         });
       }
+
+      // 领取积分
+      await CollectPoint(token, app_id='common');
 
       // 福利金抽奖
       if (lid) {
@@ -359,21 +488,33 @@ async function Main(){
         }
       }
 
+      // 天天有奖
       if (channelId && activityId){
-        // 天天有奖
-        let [serialSignInTimes, giftList] = await DailyLotteryDraw(token, cityId, channelId, activityId);
-        if (serialSignInTimes !== null){
-          if (content) content += '\n';
-          content += serialSignInTimes;
-        }
-        if (giftList.length > 0){
-          content += '，奖励：';
-          for(let i=0;i<giftList.length;i++){
-            content += `\n${giftList[i].name} ${giftList[i].value} ${giftList[i].unit} 过期 ${giftList[i].endDate}`;
+        let [dailyLotteryErr, [serialSignInTimes, giftList]] = await magicJS.attempt(magicJS.retry(DailyLotteryDraw, 1, 1000, async(result)=>{
+          let [msg,] = result;
+          if (msg.indexOf('断签') >= 0){
+            await DailyLotteryRestart(token, activityId, clientId);
+            throw msg;
           }
+        })(token, channelId, activityId), ["", []]);
+        if (dailyLotteryErr){
+          if (content) content += '\n';
+          content += dailyLotteryErr;
         }
         else{
-          content += '。';
+          if (serialSignInTimes !== null){
+            if (content) content += '\n';
+            content += serialSignInTimes;
+          }
+          if (giftList.length > 0){
+            content += '，奖励：';
+            for(let i=0;i<giftList.length;i++){
+              content += `\n${giftList[i].name} ${giftList[i].value} ${giftList[i].unit} 过期 ${giftList[i].endDate}`;
+            }
+          }
+          else{
+            content += '。';
+          }
         }
       }
 
@@ -393,13 +534,31 @@ async function Main(){
         if (content) content += '\n';
         content += `\n本日领取福利金${total}。`
       }
+
+      // 获取用户信息
+      let userInfo = await GetUserInfo(new Date().getTime(), token, app_id='common');
+      if (!!userInfo){
+        try{
+          avatar = userInfo.data.info.avatar;
+          title += ` - ${userInfo.data.info.cell}`;
+          if (content) content += '\n';
+          content += `💡账户共有积分${userInfo.data.account.dcoin.coin}`;
+          if (!!userInfo.data.account.dcoin.expire_balance){
+            content += `\n${userInfo.data.account.dcoin.expire_balance}积分在${userInfo.data.account.dcoin.expire_date}过期`;
+          }
+        }
+        catch(err){
+          magicJS.logError(`处理用户信息出现异常：${err}`);
+        }
+      }
+      
     }
     else{
       content = '❓请先获取滴滴出行Token再进行签到。';
     }
 
     // 通知
-    magicJS.notify(scriptName, subTitle, content);
+    magicJS.notify(title, subTitle, content, {'media-url':avatar});
   }
   magicJS.done();
 };

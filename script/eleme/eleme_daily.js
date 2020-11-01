@@ -241,7 +241,7 @@ function DrawPea(cookie, peaId, longitude, latitude){
     }
     else{
       // 领取会员任务
-      let [getMissionErr, missions] = await magicJS.attempt(magicJS.retry(GetSuperVipMissions, 3, 2000)(cookie, longitude, latitude));
+      let [getMissionErr, missions] = await magicJS.attempt(magicJS.retry(GetSuperVipMissions, 3, 2000)(cookie, longitude, latitude), []);
       if (getMissionErr){
         subTitle = getMissionErr;
       }

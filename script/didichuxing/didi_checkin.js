@@ -490,7 +490,7 @@ async function Main(){
 
       // 天天有奖
       if (channelId && activityId){
-        let [dailyLotteryErr, [serialSignInTimes, giftList]] = await magicJS.attempt(magicJS.retry(DailyLotteryDraw, 1, 1000, async(result)=>{
+        let [dailyLotteryErr, [serialSignInTimes, giftList]] = await magicJS.attempt(magicJS.retry(DailyLotteryDraw, 5, 1000, async(result)=>{
           let [msg,] = result;
           if (msg.indexOf('断签') >= 0){
             await DailyLotteryRestart(token, activityId, clientId);

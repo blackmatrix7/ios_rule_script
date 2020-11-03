@@ -8,19 +8,19 @@
 
 
 
-最后检查时间：2020-11-01 21:00:11。
+最后检查时间：2020-11-04 00:50:28。
 
 ## 规则统计
 
-总计规则：265 条。
+总计规则：268 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 26 |
+| DOMAIN | 28 |
 | DOMAIN-KEYWORD | 13 |
-| DOMAIN-SUFFIX | 160 |
+| DOMAIN-SUFFIX | 161 |
 | IP-CIDR | 20 |
 | USER-AGENT | 46 |
 ## 重复统计
@@ -31,15 +31,15 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93112   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Advertising.list)   |   0.01%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109348   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/AdvertisingTest.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93162   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Advertising.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109410   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/AdvertisingTest.list)   |   0.01%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41859   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/AppleNews.list)   |   33.33%  |
 |  [AppleTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleTV)    | 3   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/AppleTV.list)   |   100.00%  |
 |  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bahamut)    | 5   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Bahamut.list)   |   60.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 782   | [18](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/BlackList.list)   |   2.30%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/China.list)   |   0.51%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73820   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73807   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/ChinaTest.list)   |   0.01%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Google)    | 123   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Google.list)   |   3.25%  |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/YouTube)    | 14   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/YouTube.list)   |   100.00%  |
 |  [Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Niconico)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Niconico.list)   |   100.00%  |
@@ -50,7 +50,7 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 828   | [171](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Global.list)   |   20.65%  |
 |  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spotify)    | 8   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Spotify.list)   |   100.00%  |
 |  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark)    | 4   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Spark.list)   |   25.00%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27421   | [109](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Proxy.list)   |   0.40%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27399   | [110](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Proxy.list)   |   0.40%  |
 |  [YouTubeMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/YouTubeMusic)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/YouTubeMusic.list)   |   100.00%  |
 ## 配置说明
 

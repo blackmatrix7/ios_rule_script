@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-01 21:00:13。
+最后检查时间：2020-11-04 00:50:30。
 
 ## 规则统计
 
@@ -30,9 +30,9 @@
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer/Repeat/BlackList.list)   |   0.13%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer/Repeat/China.list)   |   0.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73816   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73803   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Telegram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Telegram)    | 17   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer/Repeat/Telegram.list)   |   5.88%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27418   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer/Repeat/Proxy.list)   |   0.01%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27396   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer/Repeat/Proxy.list)   |   0.01%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

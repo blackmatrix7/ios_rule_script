@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-28 23:07:24。
+最后检查时间：2020-11-04 00:50:26。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@ Facebook分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Facebook/Repeat/BlackList.list)   |   0.77%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 823   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Facebook/Repeat/Global.list)   |   3.04%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27418   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Facebook/Repeat/Proxy.list)   |   0.06%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27396   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Facebook/Repeat/Proxy.list)   |   0.06%  |
 |  [Instagram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Instagram)    | 2   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Facebook/Repeat/Instagram.list)   |   100.00%  |
 ## 配置说明
 

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-01 21:00:10。
+最后检查时间：2020-11-04 00:50:25。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DiDi/Repeat/China.list)   |   0.51%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73816   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DiDi/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73803   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DiDi/Repeat/ChinaTest.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

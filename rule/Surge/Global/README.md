@@ -10,7 +10,7 @@
 Global分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。
 
 
-最后检查时间：2020-11-01 21:00:11。
+最后检查时间：2020-11-04 00:50:28。
 
 ## 规则统计
 
@@ -37,8 +37,8 @@ Global分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe)    | 34   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Adobe.list)   |   2.94%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93112   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Advertising.list)   |   0.01%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109348   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/AdvertisingTest.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93162   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Advertising.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109410   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/AdvertisingTest.list)   |   0.01%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41859   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [AppStore](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppStore)    | 2   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/AppStore.list)   |   100.00%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 162   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Apple.list)   |   0.62%  |
@@ -46,7 +46,7 @@ Global分流规则，与本项目其他分流规则重复情况统计。
 |  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bahamut)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Bahamut.list)   |   100.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 782   | [236](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/BlackList.list)   |   30.18%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/China.list)   |   0.67%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73820   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73807   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/ChinaTest.list)   |   0.01%  |
 |  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Discord)    | 6   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Discord.list)   |   50.00%  |
 |  [Dubox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Dubox)    | 2   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Dubox.list)   |   100.00%  |
 |  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Facebook)    | 25   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Facebook.list)   |   100.00%  |
@@ -61,13 +61,13 @@ Global分流规则，与本项目其他分流规则重复情况统计。
 |  [Telegram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Telegram)    | 20   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Telegram.list)   |   80.00%  |
 |  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Netflix)    | 40   | [28](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Netflix.list)   |   70.00%  |
 |  [Disney](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Disney)    | 6   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Disney.list)   |   83.33%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 265   | [171](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/GlobalMedia.list)   |   64.53%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 268   | [171](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/GlobalMedia.list)   |   63.81%  |
 |  [Github](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Github)    | 6   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Github.list)   |   66.67%  |
 |  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spotify)    | 8   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Spotify.list)   |   87.50%  |
 |  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark)    | 4   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Spark.list)   |   50.00%  |
 |  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TestFlight)    | 3   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/TestFlight.list)   |   33.33%  |
 |  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Twitter)    | 11   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Twitter.list)   |   90.91%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27421   | [614](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Proxy.list)   |   2.24%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27399   | [614](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Proxy.list)   |   2.24%  |
 |  [YouTubeMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/YouTubeMusic)    | 4   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/YouTubeMusic.list)   |   50.00%  |
 |  [Instagram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Instagram)    | 2   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Instagram.list)   |   100.00%  |
 |  [Wikipedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Wikipedia)    | 12   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Wikipedia.list)   |   41.67%  |

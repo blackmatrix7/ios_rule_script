@@ -1,5 +1,5 @@
-# Proxy 与 Telegram 共 10 条规则重复
-# 最后检查时间：2020-10-18 22:41:29
+# Proxy 与 Telegram 共 11 条规则重复
+# 最后检查时间：2020-11-04 00:50:29
 # Github: https://github.com/blackmatrix7/ios_rule_script
 # 重复规则明细：
 HOST-KEYWORD,telegram
@@ -9,6 +9,7 @@ HOST-SUFFIX,telegra.ph
 HOST-SUFFIX,telegram.me
 HOST-SUFFIX,telegram.org
 HOST-SUFFIX,telesco.pe
+HOST-SUFFIX,tx.me
 IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR,91.108.0.0/16,no-resolve

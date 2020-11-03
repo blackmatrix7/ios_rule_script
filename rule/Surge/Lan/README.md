@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-01 21:00:13。
+最后检查时间：2020-11-04 00:50:30。
 
 ## 规则统计
 
@@ -31,8 +31,8 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Lan/Repeat/China.list)   |   0.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73820   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Lan/Repeat/ChinaTest.list)   |   0.00%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27421   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Lan/Repeat/Proxy.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73807   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Lan/Repeat/ChinaTest.list)   |   0.00%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27399   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Lan/Repeat/Proxy.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

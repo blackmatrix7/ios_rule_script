@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-28 23:07:26。
+最后检查时间：2020-11-04 00:50:27。
 
 ## 规则统计
 
@@ -30,7 +30,7 @@ Telegram分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 823   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Telegram/Repeat/Global.list)   |   1.58%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27418   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Telegram/Repeat/Proxy.list)   |   0.04%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27396   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Telegram/Repeat/Proxy.list)   |   0.04%  |
 |  [TeamViewer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeamViewer)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Telegram/Repeat/TeamViewer.list)   |   16.67%  |
 ## 配置说明
 

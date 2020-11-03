@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-28 23:07:24。
+最后检查时间：2020-11-04 00:50:26。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@ Discord分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game)    | 28   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Discord/Repeat/Game.list)   |   21.43%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 827   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Discord/Repeat/Global.list)   |   0.36%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27421   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Discord/Repeat/Proxy.list)   |   0.02%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27399   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Discord/Repeat/Proxy.list)   |   0.02%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

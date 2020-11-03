@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-28 23:07:28。
+最后检查时间：2020-11-04 00:50:30。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 781   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Wikipedia/Repeat/BlackList.list)   |   0.38%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 827   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Wikipedia/Repeat/Global.list)   |   0.60%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27421   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Wikipedia/Repeat/Proxy.list)   |   0.04%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27399   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Wikipedia/Repeat/Proxy.list)   |   0.04%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

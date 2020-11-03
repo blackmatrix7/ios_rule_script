@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-10-28 23:07:22。
+最后检查时间：2020-11-04 00:50:24。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@ AppleTV分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 265   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleTV/Repeat/GlobalMedia.list)   |   1.13%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 268   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleTV/Repeat/GlobalMedia.list)   |   1.12%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

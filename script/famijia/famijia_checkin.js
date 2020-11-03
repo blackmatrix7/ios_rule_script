@@ -5,7 +5,8 @@ const famijiaDeviceIdKey = 'famijia_device_id_cookie';
 let magicJS = MagicJS(scriptName, "INFO");
 magicJS.unifiedPushUrl = magicJS.read('famijia_unified_push_url') || magicJS.read('magicjs_unified_push_url');
 
-function GetSignCode(cookie, devideId){
+// 获取SignCode
+function GetSignCode(cookie, deviceId){
   return new Promise((resolve, reject)=>{
     let options = {
       url: 'https://fmapp.chinafamilymart.com.cn/api/app/market/member/sign/current',
@@ -17,7 +18,7 @@ function GetSignCode(cookie, devideId){
         "Content-Type": "application/json",
         "Host": "fmapp.chinafamilymart.com.cn",
         "User-Agent": "Fa",
-        "deviceId": devideId,
+        "deviceId": deviceId,
         "fmVersion": "1.2.3",
         "loginChannel": "app",
         "token": cookie
@@ -35,16 +36,16 @@ function GetSignCode(cookie, devideId){
           if (obj.code === "200"){
             resolve(obj.data.code);
           }
-          if (obj.code === "1000"){
+          else if (obj.code === "1000"){
             reject(obj.message);
           }
           else{
-            magicJS.logError(`签到失败，响应异常：${data}`);
+            magicJS.logError(`获取Code失败，响应异常：${data}`);
             reject('❌获取Code失败，响应异常，请查阅日志！');
           }
         }
         catch(err){
-          magicJS.logError(`签到失败，执行异常：${err}，接口响应：${data}`);
+          magicJS.logError(`获取Code失败，执行异常：${err}，接口响应：${data}`);
           reject('❌获取Code失败，执行异常，请查阅日志！');
         }
       }
@@ -52,7 +53,8 @@ function GetSignCode(cookie, devideId){
   })
 }
 
-function CheckIn(cookie, code, devideId){
+// 每日签到
+function CheckIn(cookie, code, deviceId){
   return new Promise((resolve, reject)=>{
     let checkinOptions = {
       url: 'https://fmapp.chinafamilymart.com.cn/api/app/market/member/sign/sign',
@@ -64,7 +66,7 @@ function CheckIn(cookie, code, devideId){
         "Content-Type": "application/json",
         "Host": "fmapp.chinafamilymart.com.cn",
         "User-Agent": "Fa",
-        "deviceId": devideId,
+        "deviceId": deviceId,
         "fmVersion": "1.2.3",
         "loginChannel": "app",
         "token": cookie
@@ -99,6 +101,51 @@ function CheckIn(cookie, code, devideId){
   })
 }
 
+// 获取账户下的米粒及到期提醒
+function GetMili(cookie, deviceId){
+  return new Promise((resolve, reject)=>{
+    let options = {
+      url: 'https://fmapp.chinafamilymart.com.cn/api/app/member/v1/mili/service/detail',
+      headers: {
+        "Accept": "*/*",
+        "Accept-Encoding": "br;q=1.0, gzip;q=0.9, deflate;q=0.8",
+        "Accept-Language": "zh-Hans-CN;q=1.0, en-CN;q=0.9",
+        "Connection": "keep-alive",
+        "Content-Type": "application/json",
+        "Host": "fmapp.chinafamilymart.com.cn",
+        "User-Agent": "Fa",
+        "deviceId": deviceId,
+        "fmVersion": "1.2.3",
+        "loginChannel": "app",
+        "token": cookie
+      },
+      body: {"pageSize": 10, "pageNo": 1}
+    }
+    magicJS.post(options, (err, resp, data)=>{
+      if (err){
+        magicJS.logError(`获取米粒失败，请求异常：${err}`);
+        reject('❌获取米粒失败，请求异常，请查阅日志！');
+      }
+      else{
+        try{
+          let obj = typeof data === 'string'? JSON.parse(data) : data;
+          if (obj.code === "200"){
+            resolve(obj.data);
+          }
+          else{
+            magicJS.logError(`获取米粒失败，响应异常：${data}`);
+            reject('❌获取米粒失败，响应异常，请查阅日志！');
+          }
+        }
+        catch(err){
+          magicJS.logError(`获取米粒失败，执行异常：${err}，接口响应：${data}`);
+          reject('❌获取米粒失败，执行异常，请查阅日志！');
+        }
+      }
+    })
+  })
+}
+
 ;(async()=>{
   if (magicJS.isRequest && getCookieRegex.test(magicJS.request.url)){
     let cookie = magicJS.request.headers.token;
@@ -117,19 +164,19 @@ function CheckIn(cookie, code, devideId){
     let subTitle = "";
     let content = "";
     let cookie = magicJS.read(famijiaCookieKey);
-    let devideId = magicJS.read(famijiaDeviceIdKey) || "DA14D851-2E39-8E3D-B7FD-38710CABAC76";
-    if (!!!cookie || !!!devideId){
+    let deviceId = magicJS.read(famijiaDeviceIdKey) || "DA14D851-2E39-8E3D-B7FD-38710CABAC76";
+    if (!!!cookie || !!!deviceId){
       magicJS.logWarning('没有读取到Cookie，请先从App中获取一次Cookie！');
       magicJS.notify('❓没有读取到有效Cookie，请先从App中获取Cookie!!');
     }
     else{
-      let [getCodeErr, signCode] =  await magicJS.attempt(magicJS.retry(GetSignCode, 3, 1000)(cookie, devideId), "");
+      let [getCodeErr, signCode] =  await magicJS.attempt(magicJS.retry(GetSignCode, 3, 1000)(cookie, deviceId), "");
       if (getCodeErr){
         subTitle = getCodeErr;
       }
       else{
         magicJS.log(`当前获取的SignCode：${signCode}`);
-        let [checkInErr,[todayRewardNum, signCount, resWordUp, resWordDown, message]] = await magicJS.attempt(magicJS.retry(CheckIn, 3, 1000)(cookie, signCode, devideId), [null, null, null, null, ""]);
+        let [checkInErr,[todayRewardNum, signCount, resWordUp, resWordDown, message]] = await magicJS.attempt(magicJS.retry(CheckIn, 3, 1000)(cookie, signCode, deviceId), [null, null, null, null, ""]);
         if (checkInErr){
           subTitle = checkInErr;
         }
@@ -142,6 +189,13 @@ function CheckIn(cookie, code, devideId){
           if (!!resWordDown) content = resWordDown;
         }
       }
+      // 获取米粒
+      let [getMiliErr, getMiliResult] = await magicJS.attempt(GetMili(cookie, deviceId));
+      if (!getMiliErr){
+        if (content) content += '\n';
+        content += `账户共有 ${getMiliResult.miliNum} Fa米粒\n${getMiliResult.expireDate}过期 ${getMiliResult.expireMiliNum} Fa米粒`;
+      }
+
       // 通知
       magicJS.notify(scriptName, subTitle, content);
     }

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-04 00:50:30。
+最后检查时间：2020-11-07 00:12:38。
 
 ## 规则统计
 
@@ -27,8 +27,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92827   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109075   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92892   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109185   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41537   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/China.list)   |   2.21%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73803   | [19](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/ChinaTest.list)   |   0.03%  |

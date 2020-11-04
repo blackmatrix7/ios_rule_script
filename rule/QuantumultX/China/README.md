@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-04 00:50:25。
+最后检查时间：2020-11-07 00:12:32。
 
 ## 规则统计
 
@@ -32,8 +32,8 @@ China分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe)    | 34   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/Adobe.list)   |   5.88%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92827   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/Advertising.list)   |   0.01%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109075   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/AdvertisingTest.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92892   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/Advertising.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109185   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/AdvertisingTest.list)   |   0.01%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41537   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 160   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/Apple.list)   |   7.50%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia)    | 28   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/AsianMedia.list)   |   25.00%  |

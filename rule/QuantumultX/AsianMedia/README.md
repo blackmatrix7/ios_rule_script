@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-04 00:50:24。
+最后检查时间：2020-11-07 00:12:32。
 
 ## 规则统计
 
@@ -34,7 +34,7 @@
 |  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili)    | 13   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia/Repeat/Bilibili.list)   |   100.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia/Repeat/China.list)   |   1.19%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73803   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia/Repeat/ChinaTest.list)   |   0.02%  |
-|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaIPs)    | 7162   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia/Repeat/ChinaIPs.list)   |   0.04%  |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaIPs)    | 7227   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia/Repeat/ChinaIPs.list)   |   0.04%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 74   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia/Repeat/ChinaMedia.list)   |   33.78%  |
 |  [IQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/IQiyi)    | 7   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia/Repeat/IQiyi.list)   |   100.00%  |
 |  [TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TencentVideo)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia/Repeat/TencentVideo.list)   |   50.00%  |

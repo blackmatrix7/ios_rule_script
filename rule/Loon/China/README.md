@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-04 00:50:25。
+最后检查时间：2020-11-07 00:12:32。
 
 ## 规则统计
 
@@ -33,8 +33,8 @@ China分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe)    | 34   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/Adobe.list)   |   5.88%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93162   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/Advertising.list)   |   0.01%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109410   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/AdvertisingTest.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93227   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/Advertising.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109520   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/AdvertisingTest.list)   |   0.01%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41859   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 160   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/Apple.list)   |   7.50%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China/Repeat/AsianMedia.list)   |   25.00%  |

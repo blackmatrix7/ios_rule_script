@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-04 00:50:29。
+最后检查时间：2020-11-07 00:12:36。
 
 ## 规则统计
 
@@ -29,8 +29,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93162   | [2691](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/Advertising.list)   |   2.89%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109410   | [2694](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/AdvertisingTest.list)   |   2.46%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93227   | [2691](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/Advertising.list)   |   2.89%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109520   | [2694](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/AdvertisingTest.list)   |   2.46%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41859   | [2413](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/AdvertisingLite.list)   |   5.76%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/China.list)   |   0.17%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73807   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/ChinaTest.list)   |   0.00%  |

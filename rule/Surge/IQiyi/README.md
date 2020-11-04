@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-04 00:50:29。
+最后检查时间：2020-11-07 00:12:37。
 
 ## 规则统计
 
@@ -32,7 +32,7 @@
 | ---- | ---- | ---- | ------ |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia)    | 28   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat/AsianMedia.list)   |   25.00%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73807   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat/ChinaTest.list)   |   0.00%  |
-|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaIPs)    | 7162   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat/ChinaIPs.list)   |   0.03%  |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaIPs)    | 7227   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat/ChinaIPs.list)   |   0.03%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 74   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat/ChinaMedia.list)   |   9.46%  |
 ## 配置说明
 

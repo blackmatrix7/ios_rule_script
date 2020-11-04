@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-04 00:50:29。
+最后检查时间：2020-11-07 00:12:37。
 
 ## 规则统计
 
@@ -33,8 +33,8 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe)    | 34   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/Adobe.list)   |   73.53%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93162   | [173](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/Advertising.list)   |   0.19%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109410   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/AdvertisingTest.list)   |   0.19%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93227   | [173](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/Advertising.list)   |   0.19%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109520   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/AdvertisingTest.list)   |   0.19%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41859   | [61](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/AdvertisingLite.list)   |   0.15%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 162   | [34](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/Apple.list)   |   20.99%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/AppleBlock.list)   |   16.67%  |

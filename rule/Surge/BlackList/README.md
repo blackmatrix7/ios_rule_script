@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-11-04 00:50:24。
+最后检查时间：2020-11-07 00:12:32。
 
 ## 规则统计
 
@@ -35,8 +35,8 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe)    | 34   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Adobe.list)   |   20.59%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93162   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Advertising.list)   |   0.03%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109410   | [32](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/AdvertisingTest.list)   |   0.03%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93227   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Advertising.list)   |   0.03%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109520   | [32](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/AdvertisingTest.list)   |   0.03%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41859   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/AdvertisingLite.list)   |   0.02%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 162   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Apple.list)   |   0.62%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/AppleBlock.list)   |   100.00%  |

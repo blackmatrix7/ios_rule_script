@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-04 00:50:27。
+最后检查时间：2020-11-07 00:12:35。
 
 ## 规则统计
 
@@ -29,11 +29,11 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93162   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109410   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93227   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109520   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic/Repeat/China.list)   |   1.52%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73807   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic/Repeat/ChinaTest.list)   |   0.01%  |
-|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 7162   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic/Repeat/ChinaIPs.list)   |   0.04%  |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 7227   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic/Repeat/ChinaIPs.list)   |   0.04%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 74   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic/Repeat/ChinaMedia.list)   |   2.70%  |
 |  [NetEase](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEase)    | 9   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic/Repeat/NetEase.list)   |   100.00%  |
 ## 配置说明

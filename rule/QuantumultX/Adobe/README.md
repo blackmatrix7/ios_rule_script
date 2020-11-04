@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-04 00:50:21。
+最后检查时间：2020-11-07 00:12:28。
 
 ## 规则统计
 
@@ -29,8 +29,8 @@ Adobe分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92827   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Advertising.list)   |   0.01%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109075   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/AdvertisingTest.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92892   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Advertising.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109185   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/AdvertisingTest.list)   |   0.01%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41537   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/BlackList.list)   |   0.90%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/China.list)   |   0.34%  |

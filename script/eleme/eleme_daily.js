@@ -263,7 +263,7 @@ function DrawPea(cookie, peaId, longitude, latitude){
       }
       // 获取待领取的吃货豆
       let [getPeaListErr, peaList] = await magicJS.attempt(GetPeaList(cookie, longitude, latitude), []);
-      content = '\n吃货豆领取结果：';
+      content += '\n吃货豆领取结果：';
       if (getPeaListErr){
         content += '\n获取待领取的吃货豆异常，请查阅日志';
       }

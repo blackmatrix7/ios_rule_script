@@ -804,7 +804,7 @@ async function Main(){
         afteruserPointList.forEach(element => {
           content += `\n${element['time']} ${element['detail']}`
         });
-        content += '\n如经验值无变动，请更新ookie。';
+        content += '\n如经验值无变动，请更新Cookie。';
       }
       else{
         content += '没有获取到用户近期的经验变动情况'

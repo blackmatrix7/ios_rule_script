@@ -8,8 +8,19 @@
 
 ## 最近更新
 
-1. 适配饿了么最新的吃货豆活动
-2. 增加自动领取吃货豆功能
+1. 支持最新多选一任务
+2. 适配饿了么最新的吃货豆活动
+3. 增加自动领取吃货豆功能
+
+## 特别说明
+
+### 多选一任务
+
+对于最新更新的多选一任务，脚本会依次尝试领取所有任务。但因为多选一的关系，通常只会有第一个任务能成功领取。
+
+有些情况下，脚本自动领取的任务不一定符合当天的需求。针对这种情况，将Surge和Loon的默认执行时间移到每日早上10点，在午饭前领取自动领取任务。如果不需要自动领取，请在10点前手动操作领取一个任务。
+
+多选一的任务，暂时观察一段时间，如果长期情况都是如此，后续会考虑拆分领取任务和领取吃货豆的脚本。
 
 ## 配置说明
 
@@ -37,7 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/ele
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.qxrewrite, tag=饿了么_获取Cookie, enabled=true
 
 [task_local]
-20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取会员任务, enabled=true
+00 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取会员任务, enabled=true
 ```
 
 ## 获取Cookie

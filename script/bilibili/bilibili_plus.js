@@ -1,6 +1,5 @@
 const scriptName = 'BiliBili';
 let magicJS = MagicJS(scriptName, 'INFO');
-
 (() => {
   if (magicJS.isResponse){
     switch (true){
@@ -11,11 +10,9 @@ let magicJS = MagicJS(scriptName, 'INFO');
           let items = [];
           for (let item of obj['data']['items'] ){
             if (item.hasOwnProperty('banner_item')){
-              // delete item['hash'];
               let bannerItems = [];
               for (let banner of item['banner_item']){
                 if (banner['is_ad'] != true){
-                  // delete banner['hash'];
                   bannerItems.push(banner);
                 }
               }
@@ -26,18 +23,14 @@ let magicJS = MagicJS(scriptName, 'INFO');
               items.push(item);
             }
           }
-          // let items = obj['data']['items'].filter((item) => {
-          //   return !item.hasOwnProperty('ad_info') 
-          //     && !item.hasOwnProperty('banner_item') 
-          //     && (item['card_type'] === 'small_cover_v2' || item['card_type'] === 'large_cover_v1');
-          // });
           obj['data']['items'] = items;
           let body = JSON.stringify(obj);
           magicJS.done({body});
         }
         catch (err){
-          magicJS.logError(`Feed去广告出现异常：${err}`);
+          magicJS.logError(`推荐去广告出现异常：${err}`);
         }
+        break;
       // 开屏广告处理
       case /^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list/.test(magicJS.request.url):
         try{
@@ -60,6 +53,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
         catch (err){
           magicJS.logError(`开屏广告处理出现异常：${err}`);
         }
+        break;
       // 标签页处理，如去除会员购等等
       case /^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab/.test(magicJS.request.url):
         try{
@@ -85,6 +79,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
         catch (err){
           magicJS.logError(`标签页处理出现异常：${err}`);
         }
+        break;
       // 我的页面处理，去除一些推广按钮
       case /^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine/.test(magicJS.request.url):
         try{
@@ -100,11 +95,9 @@ let magicJS = MagicJS(scriptName, 'INFO');
           obj['data']['sections_v2'][1]['items'] = items1;
           // 推荐服务
           let items2 = obj['data']['sections_v2'][2]['items'].filter((e) =>{return item2List.indexOf(e.title)>=0;});
-          magicJS.logInfo(`推荐服务：${JSON.stringify(items2)}`);
           obj['data']['sections_v2'][2]['items'] = items2;
           // 更多服务，去掉课堂模式和青少年模式
           let items3 = obj['data']['sections_v2'][3]['items'].filter((e) =>{return item3List.indexOf(e.title)>=0;});
-          magicJS.logInfo(`推荐服务：${JSON.stringify(items3)}`);
           obj['data']['sections_v2'][3]['items'] = items3;
           let body = JSON.stringify(obj);
           magicJS.done({body});
@@ -112,6 +105,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
         catch (err){
           magicJS.logError(`我的页面处理出现异常：${err}`);
         }
+        break;
       // 直播去广告
       case /^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom/.test(magicJS.request.url):
         try{
@@ -123,24 +117,28 @@ let magicJS = MagicJS(scriptName, 'INFO');
         catch (err){
           magicJS.logError(`直播去广告出现异常：${err}`);
         }
+        break;
       // 追番去广告
       case /^https?:\/\/api\.bilibili\.com\/pgc\/page\/bangumi/.test(magicJS.request.url):
-          try{
-            let obj = JSON.parse(magicJS.response.body);
-            if (obj['code'] === 0){
-              for(let module of obj['result']['modules']){
-                if (module['style'] === 'banner'){
-                  let items = module['items'].filter((e)=>{return !(e.hasOwnProperty('source_content') && e['source_content'].hasOwnProperty('ad_content'))});
-                  module['items'] = items;
-                }
+        try{
+          let obj = JSON.parse(magicJS.response.body);
+          if (obj['code'] === 0){
+            for(let module of obj['result']['modules']){
+              if (module['style'] === 'banner'){
+                let items = module['items'].filter((e)=>{return !(e.hasOwnProperty('source_content') && e['source_content'].hasOwnProperty('ad_content'))});
+                module['items'] = items;
               }
             }
-            let body = JSON.stringify(obj);
-            magicJS.done({body});
           }
-          catch (err){
-            magicJS.logError(`追番去广告出现异常：${err}`);
-          }
+          let body = JSON.stringify(obj);
+          magicJS.done({body});
+        }
+        catch (err){
+          magicJS.logError(`追番去广告出现异常：${err}`);
+        }
+        break;
+      default: 
+        break;
     }
   }
   magicJS.done();

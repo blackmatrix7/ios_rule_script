@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-07 00:12:31。
+最后检查时间：2020-11-09 13:09:04。
 
 ## 规则统计
 
@@ -32,7 +32,7 @@ AppleBlock分流规则，与本项目其他分流规则重复情况统计。
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 162   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock/Repeat/Apple.list)   |   0.62%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 782   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock/Repeat/BlackList.list)   |   0.77%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 828   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock/Repeat/Global.list)   |   0.72%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27399   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock/Repeat/Proxy.list)   |   0.00%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5988   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock/Repeat/Proxy.list)   |   0.02%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

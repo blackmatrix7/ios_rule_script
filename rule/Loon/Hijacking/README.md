@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-07 00:12:36。
+最后检查时间：2020-11-09 13:09:08。
 
 ## 规则统计
 
@@ -29,9 +29,9 @@ Hijacking分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93227   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/Advertising.list)   |   0.22%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109520   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/AdvertisingTest.list)   |   0.19%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41859   | [202](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/AdvertisingLite.list)   |   0.48%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93266   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/Advertising.list)   |   0.22%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109595   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/AdvertisingTest.list)   |   0.19%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41857   | [202](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/AdvertisingLite.list)   |   0.48%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73807   | [54](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/ChinaTest.list)   |   0.07%  |
 ## 配置说明
 

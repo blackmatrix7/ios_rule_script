@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-07 00:12:35。
+最后检查时间：2020-11-09 13:09:07。
 
 ## 规则统计
 
@@ -33,7 +33,7 @@ Netflix分流规则，与本项目其他分流规则重复情况统计。
 |  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Speedtest)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Netflix/Repeat/Speedtest.list)   |   20.00%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 827   | [28](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Netflix/Repeat/Global.list)   |   3.39%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 268   | [40](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Netflix/Repeat/GlobalMedia.list)   |   14.93%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27399   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Netflix/Repeat/Proxy.list)   |   0.03%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 5988   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Netflix/Repeat/Proxy.list)   |   0.10%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

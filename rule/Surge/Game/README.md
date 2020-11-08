@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-11-07 00:12:34。
+最后检查时间：2020-11-09 13:09:06。
 
 ## 规则统计
 
@@ -37,7 +37,7 @@
 |  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Steam)    | 16   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Game/Repeat/Steam.list)   |   100.00%  |
 |  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SteamCN)    | 13   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Game/Repeat/SteamCN.list)   |   38.46%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 828   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Game/Repeat/Global.list)   |   0.48%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27399   | [17](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Game/Repeat/Proxy.list)   |   0.06%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5988   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Game/Repeat/Proxy.list)   |   0.20%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

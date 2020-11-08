@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-07 00:12:34。
+最后检查时间：2020-11-09 13:09:07。
 
 ## 规则统计
 
@@ -29,9 +29,9 @@ Google分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92892   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/Advertising.list)   |   0.02%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109185   | [23](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/AdvertisingTest.list)   |   0.02%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41537   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/AdvertisingLite.list)   |   0.02%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 92932   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/Advertising.list)   |   0.02%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109261   | [23](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/AdvertisingTest.list)   |   0.02%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41536   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/AdvertisingLite.list)   |   0.02%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [39](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/BlackList.list)   |   4.99%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73803   | [48](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/ChinaTest.list)   |   0.07%  |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube)    | 14   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/YouTube.list)   |   21.43%  |
@@ -39,7 +39,7 @@ Google分流规则，与本项目其他分流规则重复情况统计。
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 268   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/GlobalMedia.list)   |   1.49%  |
 |  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark)    | 4   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/Spark.list)   |   25.00%  |
 |  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy)    | 2721   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/Privacy.list)   |   0.11%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27396   | [66](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/Proxy.list)   |   0.24%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 5985   | [55](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google/Repeat/Proxy.list)   |   0.92%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-07 00:12:35。
+最后检查时间：2020-11-09 13:09:08。
 
 ## 规则统计
 
@@ -32,7 +32,6 @@ TikTok分流规则，与本项目其他分流规则重复情况统计。
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat/China.list)   |   0.34%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73803   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat/ChinaTest.list)   |   0.00%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 268   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat/GlobalMedia.list)   |   4.10%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27396   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat/Proxy.list)   |   0.01%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

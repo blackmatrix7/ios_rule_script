@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-11-07 00:12:34。
+最后检查时间：2020-11-09 13:09:06。
 
 ## 规则统计
 
@@ -37,7 +37,7 @@
 |  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Steam)    | 16   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Steam.list)   |   100.00%  |
 |  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SteamCN)    | 13   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/SteamCN.list)   |   38.46%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 823   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Global.list)   |   0.49%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27396   | [17](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Proxy.list)   |   0.06%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 5985   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Proxy.list)   |   0.20%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

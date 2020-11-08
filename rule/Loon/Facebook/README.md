@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-07 00:12:33。
+最后检查时间：2020-11-09 13:09:06。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@ Facebook分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 781   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Facebook/Repeat/BlackList.list)   |   0.77%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 827   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Facebook/Repeat/Global.list)   |   3.02%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27399   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Facebook/Repeat/Proxy.list)   |   0.06%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 5988   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Facebook/Repeat/Proxy.list)   |   0.27%  |
 |  [Instagram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Instagram)    | 2   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Facebook/Repeat/Instagram.list)   |   100.00%  |
 ## 配置说明
 

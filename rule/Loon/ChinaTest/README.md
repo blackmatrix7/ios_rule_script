@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-09 13:09:05。
+最后检查时间：2020-11-10 19:58:58。
 
 ## 规则统计
 
@@ -33,8 +33,8 @@ China分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe)    | 34   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest/Repeat/Adobe.list)   |   8.82%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93266   | [1144](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest/Repeat/Advertising.list)   |   1.23%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109595   | [1177](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest/Repeat/AdvertisingTest.list)   |   1.07%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93403   | [1144](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest/Repeat/Advertising.list)   |   1.22%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109649   | [1177](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest/Repeat/AdvertisingTest.list)   |   1.07%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41857   | [681](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest/Repeat/AdvertisingLite.list)   |   1.63%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 160   | [99](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest/Repeat/Apple.list)   |   61.88%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest/Repeat/AsianMedia.list)   |   50.00%  |

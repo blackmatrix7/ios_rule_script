@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-11-09 13:09:05。
+最后检查时间：2020-11-10 19:58:58。
 
 ## 规则统计
 
@@ -34,8 +34,8 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe)    | 34   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Adobe.list)   |   20.59%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93266   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Advertising.list)   |   0.03%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109595   | [32](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/AdvertisingTest.list)   |   0.03%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93403   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Advertising.list)   |   0.03%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109649   | [32](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/AdvertisingTest.list)   |   0.03%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41857   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/AdvertisingLite.list)   |   0.02%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 160   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Apple.list)   |   0.62%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/AppleBlock.list)   |   100.00%  |

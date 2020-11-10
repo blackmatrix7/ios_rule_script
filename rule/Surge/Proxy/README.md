@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-09 13:09:10。
+最后检查时间：2020-11-10 19:59:02。
 
 ## 规则统计
 
@@ -33,8 +33,8 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe)    | 34   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/Adobe.list)   |   23.53%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93266   | [86](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/Advertising.list)   |   0.09%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109595   | [102](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/AdvertisingTest.list)   |   0.09%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93403   | [86](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/Advertising.list)   |   0.09%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109649   | [102](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/AdvertisingTest.list)   |   0.09%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41857   | [30](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/AdvertisingLite.list)   |   0.07%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 162   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/Apple.list)   |   1.23%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy/Repeat/AppleBlock.list)   |   16.67%  |

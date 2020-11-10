@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-09 13:09:05。
+最后检查时间：2020-11-10 19:58:58。
 
 ## 规则统计
 
@@ -31,8 +31,8 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93266   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109595   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93403   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109649   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41857   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia/Repeat/AsianMedia.list)   |   89.29%  |
 |  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili)    | 13   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia/Repeat/Bilibili.list)   |   100.00%  |

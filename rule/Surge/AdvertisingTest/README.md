@@ -12,19 +12,19 @@
 去广告测试版分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。
 
 
-最后检查时间：2020-11-09 13:09:02。
+最后检查时间：2020-11-10 19:58:55。
 
 ## 规则统计
 
-总计规则：109595 条。
+总计规则：109649 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 38720 |
+| DOMAIN | 38736 |
 | DOMAIN-KEYWORD | 56 |
-| DOMAIN-SUFFIX | 70242 |
+| DOMAIN-SUFFIX | 70280 |
 | IP-CIDR | 243 |
 | URL-REGEX | 334 |
 ## 重复统计
@@ -36,8 +36,8 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Adobe)    | 34   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/Adobe.list)   |   20.59%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93266   | [83820](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/Advertising.list)   |   89.87%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41857   | [21951](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/AdvertisingLite.list)   |   52.44%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93403   | [83956](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/Advertising.list)   |   89.89%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41857   | [21956](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/AdvertisingLite.list)   |   52.45%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 162   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/Apple.list)   |   1.23%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 782   | [32](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/BlackList.list)   |   4.09%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest/Repeat/China.list)   |   1.52%  |

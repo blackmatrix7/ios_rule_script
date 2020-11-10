@@ -17,26 +17,31 @@
 7. 去除知乎直播红点
 8. 去除知乎指南提示
 9. 去除未读消息的红点
-10. 拦截知乎内测邀请(beta)
-11. 去除预置关键字广告(beta)
-12. 付费内容文首提醒(beta)✨
-13. 推广内容文首提醒(beta)✨
-14. 拦截部分回答预加载以节约流量✨
-15. 去除推荐列表的付费推荐内容✨
-16. 去除官方账号的推广消息✨
-17. 去除推荐列表中黑名单用户的回答✨
-18. 去除回答列表中黑名单用户的回答✨
-19. 去除关注列表顶部的最常访问✨
+10. 知乎网页版去广告 [#21](https://github.com/blackmatrix7/ios_rule_script/issues/21)
+11. 拦截知乎内测邀请
+12. 去除预置关键字广告(beta)
+13. 付费内容文首提醒(beta)✨
+14. 推广内容文首提醒(beta)✨
+15. 拦截部分回答预加载以节约流量✨
+16. 去除推荐列表的付费推荐内容✨
+17. 去除官方账号的推广消息✨
+18. 去除推荐列表中黑名单用户的回答✨
+19. 去除回答列表中黑名单用户的回答✨
+20. 去除关注列表顶部的最常访问✨
+21. 精简首页顶部的标签页✨
+22. 屏蔽消息页面的知乎活动助手✨
+23. 减少推荐列表内的视频(alpha)✨
 
 ## 最近更新
 
-1. 修复想法不存在的问题
-2. 营销内容文首提醒
-3. 部分功能支持Shadowrocket TF 2.1.62(1071)+
-4. 脚本黑名单跟随登录用户切换，需要重新获取黑名单。
-5. 拦截部分回答预加载以节约流量
-6. 屏蔽推荐列表中的直播
-7. 付费内容文首提醒
+1. 增加精简首页顶部标签页的功能
+2. 屏蔽消息页面的知乎活动助手
+3. 减少推荐列表内的视频，不一定有效
+4. 增加未登录知乎账户的支持
+5. 增加知乎网页版去广告 [#21](https://github.com/blackmatrix7/ios_rule_script/issues/21)
+6. 修复想法不存在的问题
+7. 营销内容文首提醒
+8. 付费内容文首提醒
 
 ## 特别说明
 
@@ -93,6 +98,10 @@ Surge4.10.0(1788) TF、Quantumult X 1.0.14(359) TF、Loon 2.1.3(191) TF 验证�
 
 ![](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/images/05.png)
 
+## 精简顶部标签页
+
+精简顶部标签页的功能，需要对原先拦截的appcloud2.zhihu.com域名进行放行，通过脚本对Response进行修改以实现此功能。**原先有对此域名进行拦截的规则，务必进行去除，否则功能不会生效。**
+
 ## 黑名单增强
 
 知乎的黑名单设计，无法屏蔽黑名单用户的公开信息。将某人拉黑后，他的回答依旧会出现在推荐列表和回答列表中。
@@ -133,7 +142,7 @@ Loon 2.1.3(193) TF + 可以使用插件Plugin。
 
 ```ini
 [Plugin]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.loonplugin, tag=知乎助手_去广告及体验增强, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.lnplugin, tag=知乎助手_去广告及体验增强, enabled=true
 ```
 
 ### Quantumult X
@@ -144,15 +153,13 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhi
 [filter_local]
 # 知乎去广告
 DOMAIN,118.89.204.198,REJECT
-DOMAIN-SUFFIX,118.89.204.198,REJECT
 DOMAIN-KEYWORD,118.89.204.198,REJECT
 IP-CIDR,118.89.204.198/32,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
 USER-AGENT,AVOS*,REJECT
-DOMAIN-SUFFIX,appcloud2.zhihu.com,REJECT
-DOMAIN-SUFFIX,appcloud2.in.zhihu.com,REJECT
 
 [rewrite_remote]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.quanx, tag=知乎助手_去广告及体验增强, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎助手_去广告及体验增强, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 ### Shadowrocket (alpha)
@@ -177,7 +184,7 @@ Loon 2.1.3(193) TF + 可以使用插件Plugin。
 
 ```ini
 [Plugin]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.loonplugin, tag=知乎助手_去广告, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.lnplugin, tag=知乎助手_去广告, enabled=true
 ```
 
 #### Quantumult X
@@ -196,7 +203,7 @@ DOMAIN-SUFFIX,appcloud2.zhihu.com,REJECT
 DOMAIN-SUFFIX,appcloud2.in.zhihu.com,REJECT
 
 [rewrite_remote]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.quanx, tag=知乎助手_去广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.qxrewrite, tag=知乎助手_去广告, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 #### Shadowrocket (alpha)
@@ -207,10 +214,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhi
 [Rule]
 # 知乎去广告
 DOMAIN,118.89.204.198,REJECT
-DOMAIN-SUFFIX,118.89.204.198,REJECT
 DOMAIN-KEYWORD,118.89.204.198,REJECT
 IP-CIDR,118.89.204.198/32,REJECT,no-resolve
-DOMAIN,appcloud2.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 USER-AGENT,AVOS*,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations),REJECT

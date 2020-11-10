@@ -3,7 +3,7 @@ const blocked_users_key = 'zhihu_blocked_users';
 const current_userinfo_key = 'zhihu_current_userinfo';
 let magicJS = MagicJS(scriptName, "INFO");
 
-async function main(){
+(()=>{
   if (magicJS.isResponse){
     switch (true){
       // 回答内容优化
@@ -42,31 +42,32 @@ async function main(){
             html = html.slice(0, start) + insertText + html.slice(start);
             magicJS.done({body: html});
           }
-          else{
-            magicJS.done();
-          }
-          break;
         }
         catch(err){
           magicJS.logError(`知乎付费内容提醒出现异常：${err}`);
-          magicJS.done();
         }
         break;
-      // 获取当前用户信息
+      // 获取登录用户信息
       case /^https:\/\/api\.zhihu\.com\/people\/self/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
-          let user_info = {
-            id: obj['id'],
-            is_vip: obj['vip_info']['is_vip']
+          let user_info = {};
+          magicJS.logDebug(`用户登录用户信息，接口响应：${magicJS.response.body}`);
+          if (obj.hasOwnProperty('id') && obj.hasOwnProperty('vip_info') && obj['vip_info'].hasOwnProperty('is_vip')){
+            user_info = {
+              id: obj['id'],
+              is_vip: obj['vip_info']['is_vip']
+            };
+            magicJS.logDebug(`当前用户id：${obj['id']}，是否为VIP：${obj['vip_info']['is_vip']}`);
           }
-          magicJS.logDebug(`当前用户id：${obj['id']}，是否为VIP：${obj['vip_info']['is_vip']}`);
+          else{
+            user_info = {id: 'default', is_vip: false};
+            magicJS.logWarning(`没有获取到当前登录用户信息，已设置为默认用户配置。如果未登录知乎请忽略此日志。`);
+          }
           magicJS.write(current_userinfo_key, user_info);
-          magicJS.done();
         }
         catch(err){
           magicJS.logError(`知乎获取当前用户信息出现异常：${err}`);
-          magicJS.done();
         }
         break;
       // 去除MCN信息
@@ -79,7 +80,6 @@ async function main(){
         }
         catch(err){
           magicJS.logError(`知乎去除MCN信息出现异常：${err}`);
-          magicJS.done();
         }
         break;
       // 推荐去广告与黑名单增强
@@ -92,8 +92,8 @@ async function main(){
           let data = body['data'].filter((element) =>{
             return !(element['card_type'] === 'slot_event_card' || 
                      element['ad'] || 
-                     // element['extra']['type'] === 'drama' ||
-                     // element['extra']['type'] == 'zvideo' || 
+                     element['extra']['type'] === 'drama' ||
+                     element['extra']['type'] == 'zvideo' || 
                      custom_blocked_users[element['common_card']['feed_content']['source_line']['elements'][1]['text']['panel_text']]
                     );
           });
@@ -103,7 +103,6 @@ async function main(){
         }
         catch(err){
           magicJS.logError(`知乎推荐列表去广告出现异常：${err}`);
-          magicJS.done();
         }
         break;
       // 关注列表去广告
@@ -144,7 +143,6 @@ async function main(){
         }
         catch(err){
           magicJS.logError(`知乎关注列表去广告出现异常：${err}`);
-          magicJS.done();
         }
         break;
       // 回答列表去广告及黑名单增强
@@ -164,7 +162,6 @@ async function main(){
         }
         catch(err){
           magicJS.logError(`知乎回答列表去广告出现异常：${err}`);
-          magicJS.done();
         }
         break;
       // 拦截官方账号推广消息
@@ -179,32 +176,36 @@ async function main(){
         }
         catch (err){
           magicJS.logError(`知乎拦截官方账号推广消息出现异常：${err}`);
-          magicJS.done();
         }
         break;
       // 屏蔽官方营销消息
       case /^https?:\/\/api\.zhihu\.com\/notifications\/v3\/message\?/.test(magicJS.request.url):
         try{
           let body = JSON.parse(magicJS.response.body);
-          body['data'].forEach((element, index)=> {
-            if(element['detail_title'] === '官方帐号消息'){
-              let unread_count = body['data'][index]['unread_count'];
+          let newItems = [];
+          for (let item of body['data']){
+            if(item['detail_title'] === '官方帐号消息'){
+              let unread_count = item['unread_count'];
               if (unread_count > 0){
-                body['data'][index]['content']['text'] = '未读消息' + unread_count + '条';
+                item['content']['text'] = '未读消息' + unread_count + '条';
               }
               else{
-                body['data'][index]['content']['text'] = '全部消息已读';
+                item['content']['text'] = '全部消息已读';
               }
-              body['data'][index]['is_read'] = true;
-              body['data'][index]['unread_count'] = 0;
+              item['is_read'] = true;
+              item['unread_count'] = 0;
+              newItems.push(item);
             }
-          })
+            else if (item['detail_title'] !== '知乎活动助手'){
+              newItems.push(item);
+            }
+          }
+          body['data'] = newItems;
           body=JSON.stringify(body);
           magicJS.done({body});
         }
         catch(err){
           magicJS.logError(`知乎屏蔽官方营销消息出现异常：${err}`);
-          magicJS.done();
         }
         break;
       // 黑名单管理
@@ -292,7 +293,6 @@ async function main(){
             magicJS.notify('移出脚本黑名单失败，执行异常，请查阅日志。');
           }
         }
-        magicJS.done();
         break;
       // 去除预置关键字广告
       case /^https?:\/\/api\.zhihu\.com\/search\/preset_words\?/.test(magicJS.request.url):
@@ -308,29 +308,34 @@ async function main(){
               let body = JSON.stringify(obj);
               magicJS.done({body});
             }
-            else{
-              magicJS.done();
-            }
-          }
-          else{
-            magicJS.done();
           }
         }
         catch(err){
           magicJS.logError(`知乎去除预置关键字广告出现异常：${err}`);
-          magicJS.done();
+        }
+        break;
+      // 优化知乎软件配置
+      case /^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config/.test(magicJS.request.url):
+        try{
+          if (!!magicJS.response.body){
+            let obj = JSON.parse(magicJS.response.body);
+            obj['config']['homepage_feed_tab']['tab_infos'] = [];
+            obj['config']['zvideo_max_number'] = 1;
+            let body = JSON.stringify(obj);
+            magicJS.done({body});
+          }
+        }
+        catch(err){
+          magicJS.logError(`优化知乎软件配置出现异常：${err}`);
         }
         break;
       default: 
-        magicJS.done(); 
         break;
     }
   }
   // 兜底
   magicJS.done();
-} 
-
-main();
+})();
 
 function GetUserInfo(){
   try{

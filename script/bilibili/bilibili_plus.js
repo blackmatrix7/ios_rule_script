@@ -59,7 +59,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
         try{
           const tabList = ['直播', '推荐', '热门', '追番', '影视'];
           const topList = ['消息'];
-          const bottomList = ['首页', '频道', '动态', '我的'];
+          const bottomList = ['首页', '频道', '动态', '我的', '消息'];
           let obj = JSON.parse(magicJS.response.body);
           if (obj['data']['tab']){
             let tab = obj['data']['tab'].filter((e) =>{return tabList.indexOf(e.name)>=0;});
@@ -120,16 +120,14 @@ let magicJS = MagicJS(scriptName, 'INFO');
         break;
       // 追番去广告
       case /^https?:\/\/api\.bilibili\.com\/pgc\/page\/bangumi/.test(magicJS.request.url):
+      // 动态去广告
+      case /^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_new/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
-          if (obj['code'] === 0){
-            for(let module of obj['result']['modules']){
-              if (module['style'] === 'banner'){
-                let items = module['items'].filter((e)=>{return !(e.hasOwnProperty('source_content') && e['source_content'].hasOwnProperty('ad_content'))});
-                module['items'] = items;
-              }
-            }
+          for (let card of obj.data.cards){
+            delete card['extra'];
           }
+          delete obj['data']['attentions'];
           let body = JSON.stringify(obj);
           magicJS.done({body});
         }

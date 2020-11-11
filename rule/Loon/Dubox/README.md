@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-10 19:58:59。
+最后检查时间：2020-11-19 00:12:08。
 
 ## 规则统计
 
@@ -27,7 +27,7 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 827   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Dubox/Repeat/Global.list)   |   0.24%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 826   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Dubox/Repeat/Global.list)   |   0.24%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 5988   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Dubox/Repeat/Proxy.list)   |   0.03%  |
 ## 配置说明
 

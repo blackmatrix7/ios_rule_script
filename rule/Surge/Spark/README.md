@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-10 19:59:01。
+最后检查时间：2020-11-19 00:12:10。
 
 ## 规则统计
 
@@ -27,11 +27,11 @@ Spotify分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93403   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109649   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93550   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109856   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 782   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark/Repeat/BlackList.list)   |   0.38%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Google)    | 123   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark/Repeat/Google.list)   |   0.81%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 828   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark/Repeat/Global.list)   |   0.24%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 827   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark/Repeat/Global.list)   |   0.24%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 268   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark/Repeat/GlobalMedia.list)   |   0.37%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5988   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark/Repeat/Proxy.list)   |   0.05%  |
 ## 配置说明

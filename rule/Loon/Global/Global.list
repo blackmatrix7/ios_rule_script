@@ -1,15 +1,15 @@
 # NAME: Global
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-11-09 13:09:00
+# UPDATE: 2020-11-19 00:12:03
 # DESC: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN-SUFFIX: 692
-# DOMAIN-KEYWORD: 18
+# DOMAIN-SUFFIX: 689
+# DOMAIN-KEYWORD: 19
 # IP-CIDR: 29
 # IP-CIDR6: 3
 # USER-AGENT: 38
-# DOMAIN: 46
+# DOMAIN: 47
 # URL-REGEX: 1
-# TOTAL: 827
+# TOTAL: 826
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
@@ -44,6 +44,7 @@ DOMAIN,kktv-theater.kk.stream
 DOMAIN,linear-abematv.akamaized.net
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
 DOMAIN,lookup-api.apple.com
+DOMAIN,ocsp.apple.com
 DOMAIN,ocsp.int-x3.letsencrypt.org
 DOMAIN,oneclient.sfx.ms
 DOMAIN,payments-jp.amazon.com
@@ -77,6 +78,7 @@ DOMAIN-SUFFIX,admin.recaptcha.net
 DOMAIN-SUFFIX,advertisercommunity.com
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
+DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,allconnected.co
 DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN-SUFFIX,amazonvideo.com
@@ -253,14 +255,8 @@ DOMAIN-SUFFIX,euronews.com
 DOMAIN-SUFFIX,evozi.com
 DOMAIN-SUFFIX,exblog.jp
 DOMAIN-SUFFIX,extmatrix.com
-DOMAIN-SUFFIX,facebook.br
 DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,facebook.design
-DOMAIN-SUFFIX,facebook.hu
-DOMAIN-SUFFIX,facebook.in
 DOMAIN-SUFFIX,facebook.net
-DOMAIN-SUFFIX,facebook.nl
-DOMAIN-SUFFIX,facebook.se
 DOMAIN-SUFFIX,facebookmail.com
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fastpic.ru
@@ -300,6 +296,7 @@ DOMAIN-SUFFIX,funkyimg.com
 DOMAIN-SUFFIX,fxnetworks.com
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,genius.com
 DOMAIN-SUFFIX,getlantern.org
 DOMAIN-SUFFIX,getmdl.io
 DOMAIN-SUFFIX,getoutline.org
@@ -610,6 +607,7 @@ DOMAIN-SUFFIX,steemitwallet.com
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,storage.msn.com
 DOMAIN-SUFFIX,straitstimes.com
+DOMAIN-SUFFIX,streamable.com
 DOMAIN-SUFFIX,streema.com
 DOMAIN-SUFFIX,streetvoice.com
 DOMAIN-SUFFIX,superpages.com
@@ -750,6 +748,7 @@ DOMAIN-SUFFIX,zeronet.io
 DOMAIN-SUFFIX,zoom.us
 DOMAIN-KEYWORD,-spotify-com
 DOMAIN-KEYWORD,.blogspot.
+DOMAIN-KEYWORD,.facebook.
 DOMAIN-KEYWORD,.pinterest.
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-10 19:58:58。
+最后检查时间：2020-11-19 00:12:07。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@ Bahamut分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 827   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut/Repeat/Global.list)   |   0.60%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 826   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut/Repeat/Global.list)   |   0.61%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 268   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut/Repeat/GlobalMedia.list)   |   1.12%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 5988   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut/Repeat/Proxy.list)   |   0.02%  |
 ## 配置说明

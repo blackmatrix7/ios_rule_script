@@ -10,17 +10,17 @@
 
 
 
-最后检查时间：2020-11-10 19:58:59。
+最后检查时间：2020-11-19 00:12:08。
 
 ## 规则统计
 
-总计规则：19 条。
+总计规则：20 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 10 |
+| HOST | 11 |
 | HOST-KEYWORD | 1 |
 | HOST-SUFFIX | 4 |
 | USER-AGENT | 4 |
@@ -32,9 +32,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41536   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41535   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/China.list)   |   0.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73803   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73512   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/ChinaTest.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

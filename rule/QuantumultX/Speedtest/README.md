@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-10 19:59:00。
+最后检查时间：2020-11-19 00:12:09。
 
 ## 规则统计
 
@@ -30,9 +30,9 @@ Speedtest分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Speedtest/Repeat/China.list)   |   0.34%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73803   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Speedtest/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73512   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Speedtest/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Netflix)    | 40   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Speedtest/Repeat/Netflix.list)   |   2.50%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 823   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Speedtest/Repeat/Global.list)   |   0.12%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 822   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Speedtest/Repeat/Global.list)   |   0.12%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 268   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Speedtest/Repeat/GlobalMedia.list)   |   0.37%  |
 ## 配置说明
 

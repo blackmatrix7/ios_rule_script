@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-10 19:59:03。
+最后检查时间：2020-11-19 00:12:12。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat/BlackList.list)   |   0.38%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 823   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat/Global.list)   |   0.61%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 822   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat/Global.list)   |   0.61%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 5985   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat/Proxy.list)   |   0.20%  |
 ## 配置说明
 

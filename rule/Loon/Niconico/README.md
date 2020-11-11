@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-10 19:59:00。
+最后检查时间：2020-11-19 00:12:09。
 
 ## 规则统计
 
@@ -28,11 +28,11 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93403   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109649   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41857   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93550   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109856   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41856   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 781   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/BlackList.list)   |   0.26%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 827   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/Global.list)   |   0.60%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 826   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/Global.list)   |   0.61%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 268   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/GlobalMedia.list)   |   1.87%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 5988   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico/Repeat/Proxy.list)   |   0.03%  |
 ## 配置说明

@@ -49,9 +49,9 @@ let magicJS = MagicJS(scriptName, "INFO");
         break;
       // 获取登录用户信息
       case /^https:\/\/api\.zhihu\.com\/people\/self/.test(magicJS.request.url):
+        let user_info = {id: 'default', is_vip: false};
         try{
           let obj = JSON.parse(magicJS.response.body);
-          let user_info = {};
           magicJS.logDebug(`用户登录用户信息，接口响应：${magicJS.response.body}`);
           if (obj.hasOwnProperty('id') && obj.hasOwnProperty('vip_info') && obj['vip_info'].hasOwnProperty('is_vip')){
             user_info = {
@@ -61,14 +61,13 @@ let magicJS = MagicJS(scriptName, "INFO");
             magicJS.logDebug(`当前用户id：${obj['id']}，是否为VIP：${obj['vip_info']['is_vip']}`);
           }
           else{
-            user_info = {id: 'default', is_vip: false};
             magicJS.logWarning(`没有获取到当前登录用户信息，已设置为默认用户配置。如果未登录知乎请忽略此日志。`);
           }
-          magicJS.write(current_userinfo_key, user_info);
         }
         catch(err){
           magicJS.logError(`知乎获取当前用户信息出现异常：${err}`);
         }
+        magicJS.write(current_userinfo_key, user_info);
         break;
       // 去除MCN信息
       case /^https?:\/\/api\.zhihu\.com\/people\/((?!self).)*$/.test(magicJS.request.url):
@@ -92,8 +91,8 @@ let magicJS = MagicJS(scriptName, "INFO");
           let data = body['data'].filter((element) =>{
             return !(element['card_type'] === 'slot_event_card' || 
                      element['ad'] || 
-                     element['extra']['type'] === 'drama' ||
-                     element['extra']['type'] == 'zvideo' || 
+                     // element['extra']['type'] === 'drama' ||
+                     // element['extra']['type'] == 'zvideo' || 
                      custom_blocked_users[element['common_card']['feed_content']['source_line']['elements'][1]['text']['panel_text']]
                     );
           });

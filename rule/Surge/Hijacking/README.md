@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-10 19:59:01。
+最后检查时间：2020-11-11 23:04:19。
 
 ## 规则统计
 
@@ -29,9 +29,9 @@ Hijacking分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93403   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Hijacking/Repeat/Advertising.list)   |   0.22%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109649   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Hijacking/Repeat/AdvertisingTest.list)   |   0.19%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41857   | [202](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Hijacking/Repeat/AdvertisingLite.list)   |   0.48%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93439   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Hijacking/Repeat/Advertising.list)   |   0.22%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109684   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Hijacking/Repeat/AdvertisingTest.list)   |   0.19%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41856   | [202](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Hijacking/Repeat/AdvertisingLite.list)   |   0.48%  |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73807   | [54](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Hijacking/Repeat/ChinaTest.list)   |   0.07%  |
 ## 配置说明
 

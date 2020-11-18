@@ -1,6 +1,7 @@
 const scriptName = 'BiliBili';
 let magicJS = MagicJS(scriptName, 'INFO');
-(() => {
+;(() => {
+  let body = null;
   if (magicJS.isResponse){
     switch (true){
       // 推荐去广告
@@ -24,8 +25,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
             }
           }
           obj['data']['items'] = items;
-          let body = JSON.stringify(obj);
-          magicJS.done({body});
+          body = JSON.stringify(obj);
         }
         catch (err){
           magicJS.logError(`推荐去广告出现异常：${err}`);
@@ -35,19 +35,20 @@ let magicJS = MagicJS(scriptName, 'INFO');
       case /^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
-          obj['data']['max_time'] = 0;
-          obj['data']['min_interval'] = 31536000;
-          obj['data']['pull_interval'] = 31536000;
-          obj['data']['show']['stime'] = 1915027200;
-          obj['data']['show']['etime'] = 1924272000;
+          if (obj['data'].hasOwnProperty('max_time') && obj['data'].hasOwnProperty('show')){
+            obj['data']['max_time'] = 0;
+            obj['data']['min_interval'] = 31536000;
+            obj['data']['pull_interval'] = 31536000;
+            obj['data']['show']['stime'] = 1915027200;
+            obj['data']['show']['etime'] = 1924272000;
+          }
           if (obj.hasOwnProperty('data') && obj['data']['list']){
             for(let i=0;i<obj['data']['list'].length;i++){
               obj['data']['list'][i]['duration'] = 0;
               obj['data']['list'][i]['begin_time'] = 1915027200;
               obj['data']['list'][i]['end_time'] = 1924272000;
             }
-            let body = JSON.stringify(obj);
-            magicJS.done({body});
+            body = JSON.stringify(obj);
           }
         }
         catch (err){
@@ -73,8 +74,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
             let bottom = obj['data']['bottom'].filter((e) =>{return bottomList.indexOf(e.name)>=0;});
             obj['data']['bottom'] = bottom;
           }
-          let body = JSON.stringify(obj);
-          magicJS.done({body});
+          body = JSON.stringify(obj);
         }
         catch (err){
           magicJS.logError(`标签页处理出现异常：${err}`);
@@ -99,8 +99,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
           // 更多服务，去掉课堂模式和青少年模式
           let items3 = obj['data']['sections_v2'][3]['items'].filter((e) =>{return item3List.indexOf(e.title)>=0;});
           obj['data']['sections_v2'][3]['items'] = items3;
-          let body = JSON.stringify(obj);
-          magicJS.done({body});
+          body = JSON.stringify(obj);
         }
         catch (err){
           magicJS.logError(`我的页面处理出现异常：${err}`);
@@ -111,8 +110,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
         try{
           let obj = JSON.parse(magicJS.response.body);
           obj['data']['activity_banner_info'] = null;
-          let body = JSON.stringify(obj);
-          magicJS.done({body});
+          body = JSON.stringify(obj);
         }
         catch (err){
           magicJS.logError(`直播去广告出现异常：${err}`);
@@ -120,26 +118,32 @@ let magicJS = MagicJS(scriptName, 'INFO');
         break;
       // 追番去广告
       case /^https?:\/\/api\.bilibili\.com\/pgc\/page\/bangumi/.test(magicJS.request.url):
-      // 动态去广告
-      case /^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_new/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
           for (let card of obj.data.cards){
             delete card['extra'];
           }
           delete obj['data']['attentions'];
-          let body = JSON.stringify(obj);
-          magicJS.done({body});
+          body = JSON.stringify(obj);
         }
         catch (err){
           magicJS.logError(`追番去广告出现异常：${err}`);
         }
         break;
-      default: 
+      default:
+        magicJS.warning('触发意外的请求处理，请确认脚本或复写配置正常。');
         break;
     }
   }
-  magicJS.done();
+  else{
+    magicJS.warning('触发意外的请求处理，请确认脚本或复写配置正常。');
+  }
+  if (body){
+    magicJS.done({body});
+  }
+  else{
+    magicJS.done();
+  }
 })();
 
 

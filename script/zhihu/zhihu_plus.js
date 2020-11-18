@@ -3,7 +3,8 @@ const blocked_users_key = 'zhihu_blocked_users';
 const current_userinfo_key = 'zhihu_current_userinfo';
 let magicJS = MagicJS(scriptName, "INFO");
 
-(()=>{
+;(()=>{
+  let body = null;
   if (magicJS.isResponse){
     switch (true){
       // 回答内容优化
@@ -15,32 +16,28 @@ let magicJS = MagicJS(scriptName, "INFO");
             let matchStr = html.match(/(richText[^<]*>)(.)/)[1];
             let start = html.lastIndexOf(matchStr) + matchStr.length;
             let insertText = '<a style="height: 42px;padding: 0 12px;border-radius: 6px;background-color: rgb(247 104 104 / 8%);display: block;text-decoration: none;" href="https://github.com/blackmatrix7/ios_rule_script/blob/master/script/zhihu/README.md#知乎助手"><div style="color: #f36;display: flex;-webkit-box-align: center;align-items: center;height: 100%;"><svg style="width: 1.2em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1957"><path d="M821.333333 138.666667c64.8 0 117.333333 52.533333 117.333334 117.333333v149.333333a32 32 0 0 1-32 32 74.666667 74.666667 0 0 0 0 149.333334 32 32 0 0 1 32 32v149.333333c0 64.8-52.533333 117.333333-117.333334 117.333333H202.666667c-64.8 0-117.333333-52.533333-117.333334-117.333333V618.666667a32 32 0 0 1 32-32 74.666667 74.666667 0 0 0 0-149.333334 32 32 0 0 1-32-32V256c0-64.8 52.533333-117.333333 117.333334-117.333333h618.666666zM428.576 329.994667a32 32 0 0 0-43.733333-2.581334l-1.514667 1.344a32 32 0 0 0-2.581333 43.733334L452.565333 458.666667H405.333333l-1.877333 0.053333A32 32 0 0 0 373.333333 490.666667l0.053334 1.877333A32 32 0 0 0 405.333333 522.666667h80v42.666666H405.333333l-1.877333 0.053334A32 32 0 0 0 373.333333 597.333333l0.053334 1.877334A32 32 0 0 0 405.333333 629.333333h80v42.666667l0.053334 1.877333A32 32 0 0 0 517.333333 704l1.877334-0.053333A32 32 0 0 0 549.333333 672v-42.666667H618.666667l1.877333-0.053333A32 32 0 0 0 650.666667 597.333333l-0.053334-1.877333A32 32 0 0 0 618.666667 565.333333h-69.333334v-42.666666H618.666667l1.877333-0.053334A32 32 0 0 0 650.666667 490.666667l-0.053334-1.877334A32 32 0 0 0 618.666667 458.666667h-47.253334l71.84-86.186667 1.248-1.589333a32 32 0 0 0-50.421333-39.381334L512 430.016l-82.08-98.506667z" p-id="1958"></path></svg><div style="flex: 1 1;white-space: nowrap;text-overflow: ellipsis;padding-left:4px"><span style="font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;-webkit-tap-highlight-color: rgba(26,26,26,0);font-size: 14px;line-height: 20px;color: #f36;white-space: nowrap;font-weight: 600;">知乎助手 · 本文为付费内容</span></div><div><span style="font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;-webkit-tap-highlight-color: rgba(26,26,26,0);font-size: 14px;color: #f36;line-height: normal;display: flex;-webkit-box-align: center;align-items: center;"><svg style="font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;-webkit-tap-highlight-color: rgba(26,26,26,0);font-size: 14px;color: #f36;line-height: normal;fill: currentcolor;width: 24px;height: 24px;margin: -2px;" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M9.218 16.78a.737.737 0 0 0 1.052 0l4.512-4.249a.758.758 0 0 0 0-1.063L10.27 7.22a.737.737 0 0 0-1.052 0 .759.759 0 0 0-.001 1.063L13 12l-3.782 3.716a.758.758 0 0 0 0 1.063z" fill-rule="evenodd"></path></svg></span></div></div></a>'
-            html = html.slice(0, start) + insertText + html.slice(start);
-            magicJS.done({body: html});
+            body = html.slice(0, start) + insertText + html.slice(start);
           }
           // 营销推广提醒
           else if (html.indexOf('ad-link-card') >= 0 || html.indexOf('xg.zhihu.com') >= 0 || html.indexOf('知乎营销平台') >= 0 ){
             let matchStr = html.match(/(richText[^<]*>)(.)/)[1];
             let start = html.lastIndexOf(matchStr) + matchStr.length;
             let insertText = '<a style="height: 42px;padding: 0 12px;border-radius: 6px;background-color: rgb(8 188 212 / 8%);display: block;text-decoration: none;" href="https://github.com/blackmatrix7/ios_rule_script/blob/master/script/zhihu/README.md#知乎助手"><div style="color: #00bcd4;display: flex;-webkit-box-align: center;align-items: center;height: 100%;"><svg style="width: 1.2em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1957"><path d="M128 765.952q0 26.624 18.432 45.056t45.056 18.432l191.488 0 0 128-254.976 0q-26.624 0-49.664-10.24t-40.448-27.648-27.648-40.448-10.24-49.664l0-637.952q0-25.6 10.24-49.152t27.648-40.448 40.448-27.136 49.664-10.24l701.44 0q26.624 0 49.664 10.24t40.448 27.136 27.648 40.448 10.24 49.152l0 251.904-128 1.024 0-61.44q0-26.624-18.432-45.056t-45.056-18.432l-574.464 0q-26.624 0-45.056 18.432t-18.432 45.056l0 382.976zM990.208 705.536q21.504 18.432 22.016 34.304t-20.992 33.28q-21.504 18.432-51.2 41.472t-60.928 48.128-61.952 49.152-55.296 43.52q-26.624 20.48-43.52 15.36t-16.896-31.744q1.024-16.384 0-40.448t-1.024-41.472q0-19.456-10.752-24.064t-31.232-4.608q-21.504 0-39.936-0.512t-35.84-0.512-36.352-0.512-41.472-0.512q-9.216 0-19.968-2.048t-19.456-7.168-14.336-15.36-5.632-27.648l0-80.896q0-31.744 15.36-42.496t48.128-10.752q30.72 1.024 61.44 1.024t71.68 1.024q29.696 0 46.08-5.12t16.384-25.6q-1.024-14.336 0.512-35.328t1.536-37.376q0-26.624 14.336-33.28t36.864 10.752q22.528 18.432 52.736 43.008t61.952 50.688 62.976 51.2 54.784 44.544z" p-id="5859"></path></svg><div style="flex: 1 1;white-space: nowrap;text-overflow: ellipsis;padding-left:4px"><span style="font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;-webkit-tap-highlight-color: rgba(26,26,26,0);font-size: 14px;line-height: 20px;color: #00bcd4;white-space: nowrap;font-weight: 600;">知乎助手 · 本文含有营销推广</span></div><div><span style="font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;-webkit-tap-highlight-color: rgba(26,26,26,0);font-size: 14px;color: #f36;line-height: normal;display: flex;-webkit-box-align: center;align-items: center;"><svg style="font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;-webkit-tap-highlight-color: rgba(26,26,26,0);font-size: 14px;color: #00BCD4;line-height: normal;fill: currentcolor;width: 24px;height: 24px;margin: -2px;" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M9.218 16.78a.737.737 0 0 0 1.052 0l4.512-4.249a.758.758 0 0 0 0-1.063L10.27 7.22a.737.737 0 0 0-1.052 0 .759.759 0 0 0-.001 1.063L13 12l-3.782 3.716a.758.758 0 0 0 0 1.063z" fill-rule="evenodd"></path></svg></span></div></div></a>'
-            html = html.slice(0, start) + insertText + html.slice(start);
-            magicJS.done({body: html});
+            body = html.slice(0, start) + insertText + html.slice(start);
           }          
           // 购物推广提醒
           else if (html.indexOf('mcn-link-card') >= 0){
             let matchStr = html.match(/(richText[^<]*>)(.)/)[1];
             let start = html.lastIndexOf(matchStr) + matchStr.length;
             let insertText = '<a style="height: 42px;padding: 0 12px;border-radius: 6px;background-color: rgb(8 188 212 / 8%);display: block;text-decoration: none;" href="https://github.com/blackmatrix7/ios_rule_script/blob/master/script/zhihu/README.md#知乎助手"><div style="color: #00bcd4;display: flex;-webkit-box-align: center;align-items: center;height: 100%;"><svg style="width: 1.2em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1957"><path d="M346.112 806.912q19.456 0 36.864 7.168t30.208 19.968 20.48 30.208 7.68 36.864-7.68 36.864-20.48 30.208-30.208 20.48-36.864 7.68q-20.48 0-37.888-7.68t-30.208-20.48-20.48-30.208-7.68-36.864 7.68-36.864 20.48-30.208 30.208-19.968 37.888-7.168zM772.096 808.96q19.456 0 37.376 7.168t30.72 19.968 20.48 30.208 7.68 36.864-7.68 36.864-20.48 30.208-30.72 20.48-37.376 7.68-36.864-7.68-30.208-20.48-20.48-30.208-7.68-36.864 7.68-36.864 20.48-30.208 30.208-19.968 36.864-7.168zM944.128 227.328q28.672 0 44.544 7.68t22.528 18.944 6.144 24.064-3.584 22.016-13.312 37.888-22.016 62.976-23.552 68.096-18.944 53.248q-13.312 40.96-33.28 56.832t-49.664 15.872l-35.84 0-65.536 0-86.016 0-96.256 0-253.952 0 14.336 92.16 517.12 0q49.152 0 49.152 41.984 0 20.48-9.728 35.328t-38.4 14.848l-49.152 0-94.208 0-118.784 0-119.808 0-99.328 0-55.296 0q-20.48 0-34.304-9.216t-23.04-24.064-14.848-32.256-8.704-32.768q-1.024-6.144-5.632-29.696t-11.264-58.88-14.848-78.848-16.384-87.552q-19.456-103.424-44.032-230.4l-76.8 0q-15.36 0-25.6-7.68t-16.896-18.432-9.216-23.04-2.56-22.528q0-20.48 13.824-33.792t37.376-13.312l21.504 0 21.504 0 25.6 0 34.816 0q20.48 0 32.768 6.144t19.456 15.36 10.24 19.456 5.12 17.408q2.048 8.192 4.096 23.04t4.096 30.208q3.072 18.432 6.144 38.912l700.416 0zM867.328 194.56l-374.784 0 135.168-135.168q23.552-23.552 51.712-24.064t51.712 23.04z"></path></svg><div style="flex: 1 1;white-space: nowrap;text-overflow: ellipsis;padding-left:4px"><span style="font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;-webkit-tap-highlight-color: rgba(26,26,26,0);font-size: 14px;line-height: 20px;color: #00bcd4;white-space: nowrap;font-weight: 600;">知乎助手 · 本文含有购物推广</span></div><div><span style="font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;-webkit-tap-highlight-color: rgba(26,26,26,0);font-size: 14px;color: #f36;line-height: normal;display: flex;-webkit-box-align: center;align-items: center;"><svg style="font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;-webkit-tap-highlight-color: rgba(26,26,26,0);font-size: 14px;color: #00BCD4;line-height: normal;fill: currentcolor;width: 24px;height: 24px;margin: -2px;" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M9.218 16.78a.737.737 0 0 0 1.052 0l4.512-4.249a.758.758 0 0 0 0-1.063L10.27 7.22a.737.737 0 0 0-1.052 0 .759.759 0 0 0-.001 1.063L13 12l-3.782 3.716a.758.758 0 0 0 0 1.063z" fill-rule="evenodd"></path></svg></span></div></div></a>'
-            html = html.slice(0, start) + insertText + html.slice(start);
-            magicJS.done({body: html});
+            body = html.slice(0, start) + insertText + html.slice(start);
           }
           // 彩蛋
           else if (Math.floor(Math.random()*200) == 7){
             let matchStr = html.match(/(richText[^<]*>)(.)/)[1];
             let start = html.lastIndexOf(matchStr) + matchStr.length;
             let insertText = '<a style="height: 42px;padding: 0 12px;border-radius: 6px;background-color: rgb(74 162 56 / 8%);display: block;text-decoration: none;" href="https://github.com/blackmatrix7/ios_rule_script/blob/master/script/zhihu/README.md#知乎助手"><div style="color: #619201;display: flex;-webkit-box-align: center;align-items: center;height: 100%;"><svg class="icon" style="width: 1.2em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1465"><path d="M512 85.333333c71.477333 0 159.68 57.546667 229.258667 147.018667C817.845333 330.826667 864 455.978667 864 586.666667c0 211.808-148.501333 352-352 352S160 798.474667 160 586.666667c0-130.688 46.144-255.84 122.741333-354.314667C352.32 142.88 440.522667 85.333333 512 85.333333z m0 64c-48.213333 0-120.096 46.912-178.741333 122.314667C265.109333 359.253333 224 470.762667 224 586.666667c0 175.616 119.050667 288 288 288s288-112.384 288-288c0-115.904-41.109333-227.402667-109.258667-315.018667C632.096 196.234667 560.213333 149.333333 512 149.333333z m-74.666667 522.666667a53.333333 53.333333 0 1 1 0 106.666667 53.333333 53.333333 0 0 1 0-106.666667z m-96-128a42.666667 42.666667 0 1 1 0 85.333333 42.666667 42.666667 0 0 1 0-85.333333z" p-id="1466"></path></svg><div style="flex: 1 1;white-space: nowrap;text-overflow: ellipsis;padding-left:4px"><span style="font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;-webkit-tap-highlight-color: rgba(26,26,26,0);font-size: 14px;line-height: 20px;color: #619201;white-space: nowrap;font-weight: 600;">知乎助手 · 本文为免费内容</span></div><div><span style="font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;-webkit-tap-highlight-color: rgba(26,26,26,0);font-size: 14px;color: #619201;line-height: normal;display: flex;-webkit-box-align: center;align-items: center;"><svg style="font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;-webkit-tap-highlight-color: rgba(26,26,26,0);font-size: 14px;color: #619201;line-height: normal;fill: currentcolor;width: 24px;height: 24px;margin: -2px;" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M9.218 16.78a.737.737 0 0 0 1.052 0l4.512-4.249a.758.758 0 0 0 0-1.063L10.27 7.22a.737.737 0 0 0-1.052 0 .759.759 0 0 0-.001 1.063L13 12l-3.782 3.716a.758.758 0 0 0 0 1.063z" fill-rule="evenodd"></path></svg></span></div></div></a>'
-            html = html.slice(0, start) + insertText + html.slice(start);
-            magicJS.done({body: html});
+            body = html.slice(0, start) + insertText + html.slice(start);
           }
         }
         catch(err){
@@ -72,10 +69,9 @@ let magicJS = MagicJS(scriptName, "INFO");
       // 去除MCN信息
       case /^https?:\/\/api\.zhihu\.com\/people\/((?!self).)*$/.test(magicJS.request.url):
         try{
-          let body = JSON.parse(magicJS.response.body);
-          delete body['mcn_user_info'];
-          body=JSON.stringify(body);
-          magicJS.done({body});
+          let obj = JSON.parse(magicJS.response.body);
+          delete obj['mcn_user_info'];
+          body=JSON.stringify(obj);
         }
         catch(err){
           magicJS.logError(`知乎去除MCN信息出现异常：${err}`);
@@ -87,27 +83,35 @@ let magicJS = MagicJS(scriptName, "INFO");
           let user_info = GetUserInfo();
           let custom_blocked_users = magicJS.read(blocked_users_key, user_info.id);
           custom_blocked_users = !!custom_blocked_users ? custom_blocked_users : {};
-          let body = JSON.parse(magicJS.response.body);
-          let data = body['data'].filter((element) =>{
-            return !(element['card_type'] === 'slot_event_card' || 
-                     element['ad'] || 
-                     // element['extra']['type'] === 'drama' ||
-                     // element['extra']['type'] == 'zvideo' || 
-                     custom_blocked_users[element['common_card']['feed_content']['source_line']['elements'][1]['text']['panel_text']]
-                    );
+          let obj = JSON.parse(magicJS.response.body);
+          let data = obj['data'].filter((element) =>{
+            let flag = !(
+              element['card_type'] === 'slot_event_card' 
+              || element.hasOwnProperty('ad') 
+              // || element['extra']['type'] === 'drama' 
+              // || element['extra']['type'] === 'zvideo'
+            );
+            if (flag === true && 
+                custom_blocked_users &&
+                element['common_card']['feed_content'].hasOwnProperty('source_line') && 
+                element['common_card']['feed_content']['source_line'].hasOwnProperty('elements') && 
+                custom_blocked_users[element['common_card']['feed_content']['source_line']['elements'][1]['text']['panel_text']]){
+              flag = false;
+            }
+            return flag;
           });
-          body['data'] = data;
-          body=JSON.stringify(body);
-          magicJS.done({body});
+          obj['data'] = data;
+          body=JSON.stringify(obj);
         }
         catch(err){
+          magicJS.notify('推荐去广告出问题了，快去看看日志吧');
           magicJS.logError(`知乎推荐列表去广告出现异常：${err}`);
         }
         break;
       // 关注列表去广告
       case /^https?:\/\/api\.zhihu\.com\/moments(\/|\?)?(recommend|action=|feed_type=)(?!\/people)/.test(magicJS.request.url):
         try{
-          let body = JSON.parse(magicJS.response.body);
+          let obj = JSON.parse(magicJS.response.body);
           let data = [];
           // 修正由于JS number类型精度问题，导致JSON.parse精度丢失，引起想法不存在的问题
           const targetIdFix = (element)=>{
@@ -130,15 +134,14 @@ let magicJS = MagicJS(scriptName, "INFO");
             }
             return element;
           }
-          for (let i=0;i<body['data'].length;i++){
-            let element = targetIdFix(body['data'][i]);
+          for (let i=0;i<obj['data'].length;i++){
+            let element = targetIdFix(obj['data'][i]);
             if (!element['ad']){
               data.push(element);
             }
           }
-          body['data'] = data;
-          body=JSON.stringify(body);
-          magicJS.done({body: body});
+          obj['data'] = data;
+          body=JSON.stringify(obj);
         }
         catch(err){
           magicJS.logError(`知乎关注列表去广告出现异常：${err}`);
@@ -150,14 +153,13 @@ let magicJS = MagicJS(scriptName, "INFO");
           let user_info = GetUserInfo();
           let custom_blocked_users = magicJS.read(blocked_users_key, user_info.id);
           custom_blocked_users = !!custom_blocked_users ? custom_blocked_users : {};
-          let body = JSON.parse(magicJS.response.body);
+          let obj = JSON.parse(magicJS.response.body);
           magicJS.logDebug(`当前黑名单列表: ${JSON.stringify(custom_blocked_users)}`);
-          delete body['ad_info'];
-          delete body['roundtable_info'];
-          let data = body['data'].filter((element) =>{return !custom_blocked_users[element['author']['name']]})
-          body['data'] = data;
-          body=JSON.stringify(body);
-          magicJS.done({body});
+          delete obj['ad_info'];
+          delete obj['roundtable_info'];
+          let data = obj['data'].filter((element) =>{return !custom_blocked_users[element['author']['name']]})
+          obj['data'] = data;
+          body=JSON.stringify(obj);
         }
         catch(err){
           magicJS.logError(`知乎回答列表去广告出现异常：${err}`);
@@ -167,11 +169,10 @@ let magicJS = MagicJS(scriptName, "INFO");
       case /^https?:\/\/api\.zhihu\.com\/notifications\/v3\/timeline\/entry\/system_message/.test(magicJS.request.url):
         try{
           const sysmsg_blacklist = ['知乎小伙伴', '知乎视频', '知乎团队', '知乎礼券', '知乎读书会团队'];
-          let body = JSON.parse(magicJS.response.body);
-          let data = body['data'].filter((element) =>{return sysmsg_blacklist.indexOf(element['content']['title']) < 0})
-          body['data'] = data;
-          body=JSON.stringify(body);
-          magicJS.done({body});
+          let obj = JSON.parse(magicJS.response.body);
+          let data = obj['data'].filter((element) =>{return sysmsg_blacklist.indexOf(element['content']['title']) < 0})
+          obj['data'] = data;
+          body=JSON.stringify(obj);
         }
         catch (err){
           magicJS.logError(`知乎拦截官方账号推广消息出现异常：${err}`);
@@ -180,9 +181,9 @@ let magicJS = MagicJS(scriptName, "INFO");
       // 屏蔽官方营销消息
       case /^https?:\/\/api\.zhihu\.com\/notifications\/v3\/message\?/.test(magicJS.request.url):
         try{
-          let body = JSON.parse(magicJS.response.body);
+          let obj = JSON.parse(magicJS.response.body);
           let newItems = [];
-          for (let item of body['data']){
+          for (let item of obj['data']){
             if(item['detail_title'] === '官方帐号消息'){
               let unread_count = item['unread_count'];
               if (unread_count > 0){
@@ -199,9 +200,8 @@ let magicJS = MagicJS(scriptName, "INFO");
               newItems.push(item);
             }
           }
-          body['data'] = newItems;
-          body=JSON.stringify(body);
-          magicJS.done({body});
+          obj['data'] = newItems;
+          body=JSON.stringify(obj);
         }
         catch(err){
           magicJS.logError(`知乎屏蔽官方营销消息出现异常：${err}`);
@@ -304,8 +304,7 @@ let magicJS = MagicJS(scriptName, "INFO");
                 return element['type'] !== 'ad';
               })
               obj['preset_words']['words'] = words;
-              let body = JSON.stringify(obj);
-              magicJS.done({body});
+              body = JSON.stringify(obj);
             }
           }
         }
@@ -320,8 +319,7 @@ let magicJS = MagicJS(scriptName, "INFO");
             let obj = JSON.parse(magicJS.response.body);
             obj['config']['homepage_feed_tab']['tab_infos'] = [];
             obj['config']['zvideo_max_number'] = 1;
-            let body = JSON.stringify(obj);
-            magicJS.done({body});
+            body = JSON.stringify(obj);
           }
         }
         catch(err){
@@ -329,22 +327,36 @@ let magicJS = MagicJS(scriptName, "INFO");
         }
         break;
       default: 
+        magicJS.logWarning('触发意外的请求处理，请确认脚本或复写配置正常。');
         break;
     }
   }
-  // 兜底
-  magicJS.done();
+  else{
+    magicJS.logWarning('触发意外的请求处理，请确认脚本或复写配置正常。');
+  }
+  if (body){
+    magicJS.done({body});
+  }
+  else{
+    magicJS.done();
+  }
 })();
 
 function GetUserInfo(){
+  let defaultUserInfo = {id: 'default', is_vip: false};
   try{
     let user_info = magicJS.read(current_userinfo_key);
     if (typeof user_info === 'string') user_info = JSON.parse(user_info);
-    return user_info;
+    if (!!user_info && user_info.hasOwnProperty('id')){
+      return user_info;
+    }
+    else{
+      return defaultUserInfo;
+    }
   }
   catch(err){
     magicJS.logError(`获取用户信息出现异常：${err}`);
-    return {id: 'default', is_vip: false};
+    return defaultUserInfo;
   }
 }
 

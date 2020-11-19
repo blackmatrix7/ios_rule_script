@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 00:12:12。
+最后检查时间：2020-11-19 17:35:29。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 781   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TeamViewer/Repeat/BlackList.list)   |   0.13%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TeamViewer/Repeat/China.list)   |   0.84%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73516   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TeamViewer/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73526   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TeamViewer/Repeat/ChinaTest.list)   |   0.01%  |
 |  [Telegram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Telegram)    | 20   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TeamViewer/Repeat/Telegram.list)   |   5.00%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 5988   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TeamViewer/Repeat/Proxy.list)   |   0.03%  |
 ## 配置说明

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 00:12:07。
+最后检查时间：2020-11-19 17:35:23。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Blizzard/Repeat/China.list)   |   0.51%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73516   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Blizzard/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73526   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Blizzard/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game)    | 28   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Blizzard/Repeat/Game.list)   |   21.43%  |
 ## 配置说明
 

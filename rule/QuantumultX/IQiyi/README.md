@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 00:12:11。
+最后检查时间：2020-11-19 17:35:28。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia)    | 28   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/IQiyi/Repeat/AsianMedia.list)   |   25.00%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73512   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/IQiyi/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73522   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/IQiyi/Repeat/ChinaTest.list)   |   0.00%  |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaIPs)    | 7227   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/IQiyi/Repeat/ChinaIPs.list)   |   0.03%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 74   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/IQiyi/Repeat/ChinaMedia.list)   |   9.46%  |
 ## 配置说明

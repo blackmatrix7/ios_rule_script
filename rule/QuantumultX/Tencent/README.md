@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 00:12:12。
+最后检查时间：2020-11-19 17:35:29。
 
 ## 规则统计
 
@@ -27,11 +27,11 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93216   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109522   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93281   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109598   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41535   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/China.list)   |   2.21%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73512   | [19](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/ChinaTest.list)   |   0.03%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73522   | [19](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent/Repeat/ChinaTest.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

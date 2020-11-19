@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 00:12:09。
+最后检查时间：2020-11-19 17:35:26。
 
 ## 规则统计
 
@@ -30,7 +30,7 @@ TikTok分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TikTok/Repeat/China.list)   |   0.34%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73516   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TikTok/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73526   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TikTok/Repeat/ChinaTest.list)   |   0.00%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 268   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TikTok/Repeat/GlobalMedia.list)   |   4.10%  |
 ## 配置说明
 

@@ -9,14 +9,14 @@
 本复写插件不包含知乎和Youtube去广告规则。
 
 
-最后检查时间：2020-11-19 00:12:26。
+最后检查时间：2020-11-19 17:35:34。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| MITM | 547 |
-| UrlRewrite | 795 |
+| MITM | 551 |
+| UrlRewrite | 824 |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -45,7 +45,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/S
 - https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Rewrite.txt
 - https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf
-- https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Loon/Plugin/Block/Advertising.plugin
+- https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Loon/Plugin/Advertising.plugin
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.lnwrite
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.lnplugin
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Loon/Rewrite.conf

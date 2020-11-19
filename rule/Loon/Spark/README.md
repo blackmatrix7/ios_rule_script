@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 00:12:10。
+最后检查时间：2020-11-19 17:35:27。
 
 ## 规则统计
 
@@ -27,8 +27,8 @@ Spotify分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93550   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spark/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109856   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spark/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93607   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spark/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109924   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spark/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 781   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spark/Repeat/BlackList.list)   |   0.38%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google)    | 123   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spark/Repeat/Google.list)   |   0.81%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 826   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spark/Repeat/Global.list)   |   0.24%  |

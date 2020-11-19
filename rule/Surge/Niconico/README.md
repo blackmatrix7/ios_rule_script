@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 00:12:09。
+最后检查时间：2020-11-19 17:35:25。
 
 ## 规则统计
 
@@ -28,9 +28,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93550   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Niconico/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109856   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Niconico/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41856   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Niconico/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93607   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Niconico/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109924   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Niconico/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41853   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Niconico/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 782   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Niconico/Repeat/BlackList.list)   |   0.26%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 827   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Niconico/Repeat/Global.list)   |   0.60%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 268   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Niconico/Repeat/GlobalMedia.list)   |   1.87%  |

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 00:12:03。
+最后检查时间：2020-11-19 17:35:19。
 
 ## 规则统计
 
@@ -29,12 +29,12 @@ Adobe分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93550   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/Advertising.list)   |   0.01%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109856   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/AdvertisingTest.list)   |   0.01%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41856   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/AdvertisingLite.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93607   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/Advertising.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 109924   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/AdvertisingTest.list)   |   0.01%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41853   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 781   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/BlackList.list)   |   0.90%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/China.list)   |   0.34%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73516   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73526   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft)    | 97   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/Microsoft.list)   |   1.03%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 826   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/Global.list)   |   0.12%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 5988   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe/Repeat/Proxy.list)   |   0.13%  |

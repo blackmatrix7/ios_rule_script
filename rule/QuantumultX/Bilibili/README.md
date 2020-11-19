@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 00:12:07。
+最后检查时间：2020-11-19 17:35:23。
 
 ## 规则统计
 
@@ -30,7 +30,7 @@ Bilibili分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia)    | 28   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/AsianMedia.list)   |   46.43%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/China.list)   |   1.02%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73512   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/ChinaTest.list)   |   0.02%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73522   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/ChinaTest.list)   |   0.02%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 74   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/ChinaMedia.list)   |   17.57%  |
 ## 配置说明
 

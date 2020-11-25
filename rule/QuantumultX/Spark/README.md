@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 17:35:27。
+最后检查时间：2020-11-25 11:39:32。
 
 ## 规则统计
 
@@ -27,12 +27,12 @@ Spotify分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93281   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109598   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93493   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109834   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/BlackList.list)   |   0.38%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google)    | 123   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/Google.list)   |   0.81%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 822   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/Global.list)   |   0.24%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 268   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/GlobalMedia.list)   |   0.37%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 279   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/GlobalMedia.list)   |   0.36%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 5985   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark/Repeat/Proxy.list)   |   0.05%  |
 ## 配置说明
 
@@ -65,6 +65,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 ### 正则过滤
 
 爬虫程序在清洗原始规则数据时，可根据正则定向过滤规则，以达到保留特定规则的目的。经过正则过滤的规则，无法100%涵盖原始规则数据，请知悉。
+
+### 正则校验
+
+从2020年11月25日开始，爬虫程序加入对正则合法性的校验。对于无法校验通过，且不明作用的正则，直接抛弃。如果对比数据源发现正则类型的规则较少，则很大可能是错误的正则都已被过滤掉。
 
 ### 黑名单
 

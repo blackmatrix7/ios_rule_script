@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 17:35:24。
+最后检查时间：2020-11-25 11:39:28。
 
 ## 规则统计
 
@@ -31,13 +31,13 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93607   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109924   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41853   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93803   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 110144   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41838   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia)    | 28   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/AsianMedia.list)   |   89.29%  |
 |  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili)    | 13   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/Bilibili.list)   |   100.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [21](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/China.list)   |   3.54%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73526   | [33](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/ChinaTest.list)   |   0.04%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73334   | [33](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/ChinaTest.list)   |   0.04%  |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaIPs)    | 7227   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/ChinaIPs.list)   |   0.03%  |
 |  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic)    | 44   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/NetEaseMusic.list)   |   4.55%  |
 |  [SohuSogo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SohuSogo)    | 10   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia/Repeat/SohuSogo.list)   |   20.00%  |
@@ -76,6 +76,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 ### 正则过滤
 
 爬虫程序在清洗原始规则数据时，可根据正则定向过滤规则，以达到保留特定规则的目的。经过正则过滤的规则，无法100%涵盖原始规则数据，请知悉。
+
+### 正则校验
+
+从2020年11月25日开始，爬虫程序加入对正则合法性的校验。对于无法校验通过，且不明作用的正则，直接抛弃。如果对比数据源发现正则类型的规则较少，则很大可能是错误的正则都已被过滤掉。
 
 ### 黑名单
 

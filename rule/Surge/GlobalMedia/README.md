@@ -8,11 +8,11 @@
 
 
 
-最后检查时间：2020-11-19 17:35:26。
+最后检查时间：2020-11-25 11:39:31。
 
 ## 规则统计
 
-总计规则：268 条。
+总计规则：279 条。
 
 各类型规则统计：
 
@@ -20,7 +20,7 @@
 | ---- | ---- |
 | DOMAIN | 28 |
 | DOMAIN-KEYWORD | 13 |
-| DOMAIN-SUFFIX | 161 |
+| DOMAIN-SUFFIX | 172 |
 | IP-CIDR | 20 |
 | USER-AGENT | 46 |
 ## 重复统计
@@ -31,15 +31,15 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93607   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Advertising.list)   |   0.01%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 109924   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/AdvertisingTest.list)   |   0.01%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41853   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/AdvertisingLite.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 93803   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Advertising.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 110144   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/AdvertisingTest.list)   |   0.01%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 41838   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/AppleNews.list)   |   33.33%  |
 |  [AppleTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleTV)    | 3   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/AppleTV.list)   |   100.00%  |
 |  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bahamut)    | 5   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Bahamut.list)   |   60.00%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 782   | [18](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/BlackList.list)   |   2.30%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 782   | [19](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/BlackList.list)   |   2.43%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/China.list)   |   0.51%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73526   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73334   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/ChinaTest.list)   |   0.01%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Google)    | 123   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Google.list)   |   3.25%  |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/YouTube)    | 14   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/YouTube.list)   |   100.00%  |
 |  [Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Niconico)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Niconico.list)   |   100.00%  |
@@ -50,7 +50,7 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 827   | [171](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Global.list)   |   20.68%  |
 |  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spotify)    | 8   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Spotify.list)   |   100.00%  |
 |  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark)    | 4   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Spark.list)   |   25.00%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5988   | [52](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Proxy.list)   |   0.87%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5988   | [53](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Proxy.list)   |   0.89%  |
 |  [YouTubeMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/YouTubeMusic)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/YouTubeMusic.list)   |   100.00%  |
 ## 配置说明
 
@@ -86,6 +86,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 ### 正则过滤
 
 爬虫程序在清洗原始规则数据时，可根据正则定向过滤规则，以达到保留特定规则的目的。经过正则过滤的规则，无法100%涵盖原始规则数据，请知悉。
+
+### 正则校验
+
+从2020年11月25日开始，爬虫程序加入对正则合法性的校验。对于无法校验通过，且不明作用的正则，直接抛弃。如果对比数据源发现正则类型的规则较少，则很大可能是错误的正则都已被过滤掉。
 
 ### 黑名单
 

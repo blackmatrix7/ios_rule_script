@@ -1,6 +1,6 @@
 # NAME: Download
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-11-19 17:35:18
+# UPDATE: 2020-11-25 11:39:22
 # PROCESS-NAME: 12
 # DOMAIN-KEYWORD: 5
 # DOMAIN-SUFFIX: 1
@@ -13,9 +13,9 @@ DOMAIN-KEYWORD,xlliveud
 DOMAIN-KEYWORD,xunlei
 DOMAIN-KEYWORD,yunpan
 URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
-URL-REGEX,(.?)(xunlei|sandai|thunder|xlliveud)(.)
+URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+URL-REGEX,(Subject|HELO|SMTP)
 URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
-URL-REGEX,(subject|helo|smtp)
 PROCESS-NAME,aria2c
 PROCESS-NAME,baidunetdisk
 PROCESS-NAME,downloadservice

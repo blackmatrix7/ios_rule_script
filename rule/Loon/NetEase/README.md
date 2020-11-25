@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 17:35:25。
+最后检查时间：2020-11-25 11:39:30。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEase/Repeat/China.list)   |   1.52%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73526   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEase/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73334   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEase/Repeat/ChinaTest.list)   |   0.01%  |
 |  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic)    | 44   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEase/Repeat/NetEaseMusic.list)   |   20.45%  |
 ## 配置说明
 
@@ -61,6 +61,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 ### 正则过滤
 
 爬虫程序在清洗原始规则数据时，可根据正则定向过滤规则，以达到保留特定规则的目的。经过正则过滤的规则，无法100%涵盖原始规则数据，请知悉。
+
+### 正则校验
+
+从2020年11月25日开始，爬虫程序加入对正则合法性的校验。对于无法校验通过，且不明作用的正则，直接抛弃。如果对比数据源发现正则类型的规则较少，则很大可能是错误的正则都已被过滤掉。
 
 ### 黑名单
 

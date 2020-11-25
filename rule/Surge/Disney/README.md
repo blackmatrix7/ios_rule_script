@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 17:35:26。
+最后检查时间：2020-11-25 11:39:31。
 
 ## 规则统计
 
@@ -30,7 +30,7 @@ DisneyPlus分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 827   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Disney/Repeat/Global.list)   |   0.60%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 268   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Disney/Repeat/GlobalMedia.list)   |   1.87%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 279   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Disney/Repeat/GlobalMedia.list)   |   1.79%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -63,6 +63,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 ### 正则过滤
 
 爬虫程序在清洗原始规则数据时，可根据正则定向过滤规则，以达到保留特定规则的目的。经过正则过滤的规则，无法100%涵盖原始规则数据，请知悉。
+
+### 正则校验
+
+从2020年11月25日开始，爬虫程序加入对正则合法性的校验。对于无法校验通过，且不明作用的正则，直接抛弃。如果对比数据源发现正则类型的规则较少，则很大可能是错误的正则都已被过滤掉。
 
 ### 黑名单
 

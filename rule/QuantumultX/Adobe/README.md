@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 17:35:19。
+最后检查时间：2020-11-25 11:39:23。
 
 ## 规则统计
 
@@ -29,12 +29,12 @@ Adobe分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93281   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Advertising.list)   |   0.01%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109598   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/AdvertisingTest.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93493   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Advertising.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109834   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/AdvertisingTest.list)   |   0.01%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41535   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/BlackList.list)   |   0.90%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/China.list)   |   0.34%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73522   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73330   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft)    | 97   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Microsoft.list)   |   1.03%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 822   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Global.list)   |   0.12%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 5985   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat/Proxy.list)   |   0.13%  |
@@ -69,6 +69,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 ### 正则过滤
 
 爬虫程序在清洗原始规则数据时，可根据正则定向过滤规则，以达到保留特定规则的目的。经过正则过滤的规则，无法100%涵盖原始规则数据，请知悉。
+
+### 正则校验
+
+从2020年11月25日开始，爬虫程序加入对正则合法性的校验。对于无法校验通过，且不明作用的正则，直接抛弃。如果对比数据源发现正则类型的规则较少，则很大可能是错误的正则都已被过滤掉。
 
 ### 黑名单
 

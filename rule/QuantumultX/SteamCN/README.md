@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 17:35:25。
+最后检查时间：2020-11-25 11:39:29。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@ SteamCN分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SteamCN/Repeat/China.list)   |   1.02%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73522   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SteamCN/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73330   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SteamCN/Repeat/ChinaTest.list)   |   0.01%  |
 |  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Steam)    | 16   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SteamCN/Repeat/Steam.list)   |   31.25%  |
 |  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game)    | 28   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SteamCN/Repeat/Game.list)   |   17.86%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 5985   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SteamCN/Repeat/Proxy.list)   |   0.02%  |
@@ -63,6 +63,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 ### 正则过滤
 
 爬虫程序在清洗原始规则数据时，可根据正则定向过滤规则，以达到保留特定规则的目的。经过正则过滤的规则，无法100%涵盖原始规则数据，请知悉。
+
+### 正则校验
+
+从2020年11月25日开始，爬虫程序加入对正则合法性的校验。对于无法校验通过，且不明作用的正则，直接抛弃。如果对比数据源发现正则类型的规则较少，则很大可能是错误的正则都已被过滤掉。
 
 ### 黑名单
 

@@ -1,6 +1,6 @@
 # NAME: Global
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-11-19 17:35:18
+# UPDATE: 2020-11-25 11:39:22
 # DOMAIN-SUFFIX: 689
 # DOMAIN-KEYWORD: 19
 # IP-CIDR: 29
@@ -765,7 +765,7 @@ DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,voddazn
 DOMAIN-KEYWORD,wikileaks
-URL-REGEX,^https?:\/\/img\.sina\.com\/usweibo\/
+URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
 USER-AGENT,abematv*
 USER-AGENT,all4*
 USER-AGENT,anime*

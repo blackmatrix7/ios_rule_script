@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-19 17:35:24。
+最后检查时间：2020-11-25 11:39:29。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@ iOS系统升级分流规则，与本项目其他分流规则重复情况统计�
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 162   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SystemOTA/Repeat/Apple.list)   |   1.85%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73526   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SystemOTA/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73334   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SystemOTA/Repeat/ChinaTest.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -60,6 +60,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 ### 正则过滤
 
 爬虫程序在清洗原始规则数据时，可根据正则定向过滤规则，以达到保留特定规则的目的。经过正则过滤的规则，无法100%涵盖原始规则数据，请知悉。
+
+### 正则校验
+
+从2020年11月25日开始，爬虫程序加入对正则合法性的校验。对于无法校验通过，且不明作用的正则，直接抛弃。如果对比数据源发现正则类型的规则较少，则很大可能是错误的正则都已被过滤掉。
 
 ### 黑名单
 

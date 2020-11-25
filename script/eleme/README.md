@@ -8,19 +8,24 @@
 
 ## 最近更新
 
-1. 支持最新多选一任务
-2. 适配饿了么最新的吃货豆活动
-3. 增加自动领取吃货豆功能
+1. 拆分领取吃货豆和领取会员任务的脚本
+2. 支持最新多选一任务
+3. 适配饿了么最新的吃货豆活动
+4. 增加自动领取吃货豆功能
 
 ## 特别说明
+
+目前已将领取吃货豆和领取会员任务的脚本拆分，请按需部署脚本。
+
+如果使用现成的Surge模块或Loon插件，则会在0点10分领取吃货豆，在早上10点领取任务列表中第一个可以领取的任务。
+
+### 领取吃货豆
+
+脚本自动领取APP中未领取的吃货豆。
 
 ### 多选一任务
 
 对于最新更新的多选一任务，脚本会依次尝试领取所有任务。但因为多选一的关系，通常只会有第一个任务能成功领取。
-
-有些情况下，脚本自动领取的任务不一定符合当天的需求。针对这种情况，将Surge和Loon的默认执行时间移到每日早上10点，在午饭前领取自动领取任务。如果不需要自动领取，请在10点前手动操作领取一个任务。
-
-多选一的任务，暂时观察一段时间，如果长期情况都是如此，后续会考虑拆分领取任务和领取吃货豆的脚本。
 
 ## 配置说明
 
@@ -36,7 +41,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/ele
 
 ```ini
 [Remote Script]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.lnscript, tag=饿了么_领取会员任务, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.lnscript, tag=饿了么_领取吃货豆及任务, enabled=true
 ```
 
 ### Quantumult X
@@ -48,7 +53,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/ele
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.qxrewrite, tag=饿了么_获取Cookie, enabled=true
 
 [task_local]
-00 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取会员任务, enabled=true
+10 00 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取吃货豆, enabled=true
+00 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_mission.js, tag=饿了么_领取会员任务, enabled=true
 ```
 
 ## 获取Cookie

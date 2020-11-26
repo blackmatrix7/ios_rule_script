@@ -1,0 +1,12 @@
+# NAME: Zhihu
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATE: 2020-11-26 23:44:58
+# DOMAIN: 2
+# DOMAIN-KEYWORD: 1
+# IP-CIDR: 1
+# TOTAL: 4
+payload:
+  - DOMAIN,118.89.204.198
+  - DOMAIN,appcloud2.in.zhihu.com
+  - DOMAIN-KEYWORD,118.89.204.198
+  - IP-CIDR,118.89.204.198/32

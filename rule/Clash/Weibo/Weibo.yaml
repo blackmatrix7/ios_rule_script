@@ -1,0 +1,11 @@
+# NAME: Weibo
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATE: 2020-11-26 23:44:58
+# DOMAIN-SUFFIX: 3
+# DOMAIN-KEYWORD: 1
+# TOTAL: 4
+payload:
+  - DOMAIN-SUFFIX,weibo.cn
+  - DOMAIN-SUFFIX,weibo.com
+  - DOMAIN-SUFFIX,weibocdn.com
+  - DOMAIN-KEYWORD,weibo

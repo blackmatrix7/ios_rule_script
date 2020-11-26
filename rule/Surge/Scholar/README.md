@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-25 11:39:32。
+最后检查时间：2020-11-26 23:45:10。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 782   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Scholar/Repeat/BlackList.list)   |   0.13%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Scholar/Repeat/China.list)   |   9.44%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73334   | [60](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Scholar/Repeat/ChinaTest.list)   |   0.08%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73356   | [60](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Scholar/Repeat/ChinaTest.list)   |   0.08%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5988   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Scholar/Repeat/Proxy.list)   |   0.02%  |
 ## 配置说明
 

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-25 11:39:34。
+最后检查时间：2020-11-26 23:45:13。
 
 ## 规则统计
 
@@ -28,10 +28,10 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93803   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Tencent/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 110144   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Tencent/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 110168   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Tencent/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41838   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Tencent/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Tencent/Repeat/China.list)   |   2.19%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73334   | [19](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Tencent/Repeat/ChinaTest.list)   |   0.03%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73356   | [19](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Tencent/Repeat/ChinaTest.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -64,4 +64,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bil
 
 ## 签到
 
-尽情期待
+等待抽空填坑
+
+## 感谢
+
+[@MisterGlasses](https://github.com/MisterGlasses)

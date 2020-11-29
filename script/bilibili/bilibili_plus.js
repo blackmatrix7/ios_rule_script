@@ -4,8 +4,8 @@ let magicJS = MagicJS(scriptName, 'INFO');
   let body = null;
   if (magicJS.isResponse){
     switch (true){
-      // 推荐去广告
-      case /^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index/.test(magicJS.request.url):
+      // 推荐去广告，最后问号不能去掉，以免匹配到story模式
+      case /^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\?/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
           let items = [];

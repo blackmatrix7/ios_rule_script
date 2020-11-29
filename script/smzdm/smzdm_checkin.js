@@ -53,6 +53,62 @@ let appCheckinOptions ={
   body: ''
 };
 
+// APP端登录获取账号密码
+function GetAppPassword() {
+  if (magicJS.request.body) {
+    try {
+      let matchArray = magicJS.request.body.match(/(user_login=)([^&]*)(&user_pass=)([^&]*)(&v=)/);
+      let account = decodeURIComponent(matchArray[2]);
+      let password = matchArray[4];
+      let hisAccount = magicJS.read(smzdmAccountKey);
+      let hisPassword = magicJS.read(smzdmPasswordKey);
+      if (account != hisAccount || password != hisPassword) {
+        magicJS.write(smzdmAccountKey, account);
+        magicJS.write(smzdmPasswordKey, password);
+        magicJS.notify(scriptName, '', '🎈获取账号密码成功！！');
+        magicJS.logInfo(`获取账号密码成功，登录账号：${account}`);
+      }
+      else {
+        magicJS.logInfo(`账号密码没有变化，无需更新。登录账号：${account}`);
+      }
+    }
+    catch (ex) {
+      magicJS.notify(scriptName, '', '❌获取账号密码出现异常,请查阅日志！！');
+      magicJS.logError(`获取账号密码出现异常。\n请求数据：${magicJS.request.body}\n异常信息：${ex}`);
+    }
+  }
+  else {
+    magicJS.logWarning(`获取账号密码时请求数据不合法 。\n请求数据：${magicJS.request.body}`);
+  }
+}
+
+// Web端登录获取Cookie
+function GetWebCookie() {
+  let match_str = magicJS.request.headers.Cookie.match(/sess=[^\s]*;/);
+  session_id = match_str != null ? match_str[0] : null;
+  // 获取新的session_id
+  if (session_id) {
+    // 获取持久化的session_id
+    old_session_id = magicJS.read(smzdmSessionKey) != null ? magicJS.read(smzdmSessionKey) : '';
+    // 获取新的session_id
+    console.log({ 'old_session_id': old_session_id, 'new_session_id': session_id });
+    // 比较差异
+    if (old_session_id == session_id) {
+      magicJS.logInfo('网页版cookie没有变化，无需更新。');
+    }
+    else {
+      // 持久化cookie
+      magicJS.write(smzdmSessionKey, session_id);
+      magicJS.write(smzdmCookieKey, magicJS.request.headers.Cookie);
+      magicJS.logInfo('写入cookie ' + magicJS.request.headers.Cookie);
+      magicJS.notify(scriptName, '', '🎈获取cookie成功！！');
+    }
+  }
+  else {
+    magicJS.logError('没有读取到有效的Cookie信息。');
+  }
+}
+
 // 获取用户信息，新版
 function WebGetCurrentInfoNewVersion(smzdmCookie){
   return new Promise(resolve =>{
@@ -361,7 +417,7 @@ function GetProductList(){
 
 // 获取点赞和收藏的好文Id
 function GetDataArticleIdList(){
-  return new Promise((resolve) =>{
+  return new Promise((resolve, reject) =>{
     let getArticleOptions = {
       url: 'https://post.smzdm.com/',
       headers: {
@@ -375,7 +431,7 @@ function GetDataArticleIdList(){
     magicJS.get(getArticleOptions, (err, resp, data) =>{
       if (err){
         magicJS.logWarning(`获取好文列表失败，请求异常：${err}`);
-        resolve([]);
+        reject('GetArticleListErr');
       }
       else{
         try{
@@ -388,7 +444,7 @@ function GetDataArticleIdList(){
         }
         catch(err){
           magicJS.logWarning(`获取好文列表失败，执行异常：${err}`);
-          resolve([]);
+          reject('GetArticleListErr');
         }
       }
     })
@@ -576,7 +632,7 @@ function LotteryDraw(cookie, activeId='7mV1llk1l9'){
         try{
           let newData = /\((.*)\)/.exec(data);
           let obj = JSON.parse(newData[1]);
-          if (obj.error_code == 0 || obj.error_code == 1){
+          if (obj.error_code === 0 || obj.error_code === 1 || obj.error_code === 4){
             magicJS.logDebug(obj.error_msg);
             resolve(obj.error_msg);
           }
@@ -598,68 +654,28 @@ async function Main(){
   // 获取Cookie与账号密码
   if (magicJS.isRequest){
     if(zhiyouRegex.test(magicJS.request.url) && magicJS.request.method == 'GET'){
-      let match_str = magicJS.request.headers.Cookie.match(/sess=[^\s]*;/);
-      session_id = match_str != null ? match_str[0] : null;
-      // 获取新的session_id
-      if (session_id){
-        // 获取持久化的session_id
-        old_session_id = magicJS.read(smzdmSessionKey) != null ? magicJS.read(smzdmSessionKey) : '';
-        // 获取新的session_id
-        console.log({'old_session_id': old_session_id, 'new_session_id': session_id});    
-        // 比较差异
-        if (old_session_id == session_id){
-          magicJS.logInfo('网页版cookie没有变化，无需更新。');
-        }
-        else{
-          // 持久化cookie
-          magicJS.write(smzdmSessionKey, session_id);
-          magicJS.write(smzdmCookieKey, magicJS.request.headers.Cookie);
-          magicJS.logInfo('写入cookie ' + magicJS.request.headers.Cookie);
-          magicJS.notify(scriptName, '', '🎈获取cookie成功！！');
-        }
-      }
-      else{
-        magicJS.logError('没有读取到有效的Cookie信息。');
-      }
+      GetWebCookie();
     }
     else if(appLoginRegex.test(magicJS.request.url) && magicJS.request.method == 'POST'){
-      if (magicJS.request.body){
-        try{
-          let matchArray = magicJS.request.body.match(/(user_login=)([^&]*)(&user_pass=)([^&]*)(&v=)/);
-          let account = decodeURIComponent(matchArray[2]);
-          let password = matchArray[4];
-          let hisAccount = magicJS.read(smzdmAccountKey);
-          let hisPassword = magicJS.read(smzdmPasswordKey);
-          if (account != hisAccount || password != hisPassword){
-            magicJS.write(smzdmAccountKey, account);
-            magicJS.write(smzdmPasswordKey, password);
-            magicJS.notify(scriptName, '', '🎈获取账号密码成功！！');
-            magicJS.logInfo(`获取账号密码成功，登录账号：${account}`);
-          }
-          else{
-            magicJS.logInfo(`账号密码没有变化，无需更新。登录账号：${account}`);
-          }
-        }
-        catch (ex){
-          magicJS.notify(scriptName, '', '❌获取账号密码出现异常,请查阅日志！！');
-          magicJS.logError(`获取账号密码出现异常。\n请求数据：${magicJS.request.body}\n异常信息：${ex}`);
-        }        
-      }
-      else{
-        magicJS.logWarning(`获取账号密码时请求数据不合法 。\n请求数据：${magicJS.request.body}`);
-      }
+      GetAppPassword();
     }
   }
   // 每日签到与完成任务
   else{
     // 获取Cookie
     let smzdmCookie = magicJS.read(smzdmCookieKey);
+    // App端签到
+    let account = !!smzdmAccount? smzdmAccount : magicJS.read(smzdmAccountKey);
+    let password = !!smzdmPassword? smzdmPassword : magicJS.read(smzdmPasswordKey);
 
     if (!!smzdmCookie === false){
       magicJS.logWarning('没有读取到什么值得买有效cookie，请访问zhiyou.smzdm.com进行登录');
       magicJS.notify(scriptName, '', '❓没有获取到Web端Cookie，请先进行登录。');
     }
     else{
+
+      let signinSubTitle = '';
+      let signinSubContent = '';
 
       // 通知信息
       let title = '';
@@ -693,9 +709,6 @@ async function Main(){
 
       // ---------------------- 开始签到 ---------------------- 
 
-      // App端签到
-      let account = !!smzdmAccount? smzdmAccount : magicJS.read(smzdmAccountKey);
-      let password = !!smzdmPassword? smzdmPassword : magicJS.read(smzdmPasswordKey);
       if (!!account && !!password){
         let appToken = magicJS.read(smzdmTokenKey);
         if (!appToken){
@@ -745,9 +758,9 @@ async function Main(){
       // ---------------------- 每日完成任务 ---------------------- 
       
       // 获取去购买和好价Id列表
-      let [goBuyList, likProductList] = await GetProductList();
+      let [, [goBuyList=[], likProductList=[]]] = await magicJS.attempt(magicJS.retry(GetProductList, 5, 1000)(), [[], []]);
       // 获取好文列表
-      let articleList = await GetDataArticleIdList();
+      let [, articleList=[]] = await magicJS.attempt(magicJS.retry(GetDataArticleIdList, 5, 1000)(), []);
 
       // 好价点击去购买
       const clickGoBuyAsync = async() =>{
@@ -868,9 +881,6 @@ async function Main(){
         magicJS.notify(title, subTitle, content, {'media-url': avatar});
       }
     }
-
-
-
   }
   magicJS.done();
 }

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:07。
+最后检查时间：2020-11-29 16:15:56。
 
 ## 规则统计
 
@@ -29,15 +29,15 @@ YouTube分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93493   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109858   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41535   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93615   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109941   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41534   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/BlackList.list)   |   0.39%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73342   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73332   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google)    | 120   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/Google.list)   |   2.50%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/Global.list)   |   0.64%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia)    | 233   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/GlobalMedia.list)   |   3.86%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 5982   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/Proxy.list)   |   0.12%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube/Repeat/Proxy.list)   |   0.11%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

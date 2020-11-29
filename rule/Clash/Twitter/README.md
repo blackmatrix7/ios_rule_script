@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:11。
+最后检查时间：2020-11-29 16:16:00。
 
 ## 规则统计
 
@@ -30,7 +30,7 @@ Twitter分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Twitter/Repeat/BlackList.list)   |   0.90%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Twitter/Repeat/Global.list)   |   1.27%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 5982   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Twitter/Repeat/Proxy.list)   |   0.18%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Twitter/Repeat/Proxy.list)   |   0.18%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

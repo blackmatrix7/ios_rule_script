@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:07。
+最后检查时间：2020-11-29 16:15:56。
 
 ## 规则统计
 
@@ -30,15 +30,15 @@ YouTube分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93493   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109858   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/AdvertisingTest.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41535   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93615   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109941   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41534   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/BlackList.list)   |   0.38%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73352   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73342   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google)    | 123   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/Google.list)   |   2.44%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 822   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/Global.list)   |   1.09%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 279   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/GlobalMedia.list)   |   5.02%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 5985   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/Proxy.list)   |   0.12%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6096   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/Proxy.list)   |   0.11%  |
 |  [YouTubeMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTubeMusic)    | 4   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube/Repeat/YouTubeMusic.list)   |   50.00%  |
 ## 配置说明
 

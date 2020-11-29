@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:04。
+最后检查时间：2020-11-29 16:15:53。
 
 ## 规则统计
 
@@ -34,13 +34,13 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Adobe)    | 34   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Adobe.list)   |   20.59%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93803   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Advertising.list)   |   0.03%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 110168   | [31](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/AdvertisingTest.list)   |   0.03%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41838   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/AdvertisingLite.list)   |   0.02%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 160   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Apple.list)   |   0.62%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93925   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Advertising.list)   |   0.03%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 110251   | [31](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/AdvertisingTest.list)   |   0.03%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41837   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/AdvertisingLite.list)   |   0.02%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 161   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Apple.list)   |   0.62%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/AppleBlock.list)   |   100.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/China.list)   |   2.02%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73356   | [17](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/ChinaTest.list)   |   0.02%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73346   | [17](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/ChinaTest.list)   |   0.02%  |
 |  [Cloudflare](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Cloudflare)    | 15   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Cloudflare.list)   |   6.67%  |
 |  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Facebook)    | 25   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Facebook.list)   |   24.00%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google)    | 123   | [39](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Google.list)   |   31.71%  |
@@ -56,7 +56,7 @@
 |  [Scholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar)    | 76   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Scholar.list)   |   1.32%  |
 |  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TestFlight)    | 3   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/TestFlight.list)   |   33.33%  |
 |  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Twitter)    | 11   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Twitter.list)   |   63.64%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 5988   | [777](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Proxy.list)   |   12.98%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6099   | [777](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Proxy.list)   |   12.74%  |
 |  [Wikipedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Wikipedia)    | 12   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Wikipedia.list)   |   25.00%  |
 |  [Whatsapp](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Whatsapp)    | 16   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/Whatsapp.list)   |   12.50%  |
 |  [TeamViewer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TeamViewer)    | 10   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList/Repeat/TeamViewer.list)   |   10.00%  |

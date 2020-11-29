@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:10。
+最后检查时间：2020-11-29 16:15:58。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@ Spotify分流规则，与本项目其他分流规则重复情况统计。
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spotify/Repeat/BlackList.list)   |   0.13%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spotify/Repeat/Global.list)   |   0.76%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia)    | 233   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spotify/Repeat/GlobalMedia.list)   |   3.00%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 5982   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spotify/Repeat/Proxy.list)   |   0.03%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spotify/Repeat/Proxy.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:10。
+最后检查时间：2020-11-29 16:15:59。
 
 ## 规则统计
 
@@ -29,9 +29,9 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sina/Repeat/China.list)   |   1.36%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73352   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sina/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73342   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sina/Repeat/ChinaTest.list)   |   0.01%  |
 |  [Weibo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Weibo)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sina/Repeat/Weibo.list)   |   100.00%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 5985   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sina/Repeat/Proxy.list)   |   0.02%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6096   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sina/Repeat/Proxy.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

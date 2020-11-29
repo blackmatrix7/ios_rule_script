@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:04。
+最后检查时间：2020-11-29 16:15:53。
 
 ## 规则统计
 
@@ -32,7 +32,7 @@
 | ---- | ---- | ---- | ------ |
 |  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili)    | 12   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/Bilibili.list)   |   100.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/China.list)   |   1.21%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73342   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/ChinaTest.list)   |   0.02%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73332   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/ChinaTest.list)   |   0.02%  |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs)    | 7227   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/ChinaIPs.list)   |   0.04%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 52   | [21](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/ChinaMedia.list)   |   40.38%  |
 |  [IQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/IQiyi)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/IQiyi.list)   |   100.00%  |

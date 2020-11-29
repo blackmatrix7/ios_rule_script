@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:12。
+最后检查时间：2020-11-29 16:16:01。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@
 | ---- | ---- | ---- | ------ |
 |  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Facebook)    | 25   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Instagram/Repeat/Facebook.list)   |   8.00%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Instagram/Repeat/Global.list)   |   0.25%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 5982   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Instagram/Repeat/Proxy.list)   |   0.03%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Instagram/Repeat/Proxy.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

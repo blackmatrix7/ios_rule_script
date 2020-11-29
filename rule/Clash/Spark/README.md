@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:10。
+最后检查时间：2020-11-29 16:15:59。
 
 ## 规则统计
 
@@ -27,13 +27,13 @@ Spotify分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93493   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109858   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93615   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109941   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat/BlackList.list)   |   0.39%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google)    | 120   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat/Google.list)   |   0.83%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat/Global.list)   |   0.25%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia)    | 233   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat/GlobalMedia.list)   |   0.43%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 5982   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat/Proxy.list)   |   0.05%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat/Proxy.list)   |   0.05%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

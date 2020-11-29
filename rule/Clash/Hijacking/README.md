@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:09。
+最后检查时间：2020-11-29 16:15:58。
 
 ## 规则统计
 
@@ -29,10 +29,10 @@ Hijacking分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93493   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking/Repeat/Advertising.list)   |   0.22%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109858   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking/Repeat/AdvertisingTest.list)   |   0.19%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41535   | [202](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking/Repeat/AdvertisingLite.list)   |   0.49%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73342   | [54](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking/Repeat/ChinaTest.list)   |   0.07%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93615   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking/Repeat/Advertising.list)   |   0.22%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109941   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking/Repeat/AdvertisingTest.list)   |   0.19%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41534   | [202](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking/Repeat/AdvertisingLite.list)   |   0.49%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73332   | [54](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking/Repeat/ChinaTest.list)   |   0.07%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

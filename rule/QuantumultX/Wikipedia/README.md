@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:12。
+最后检查时间：2020-11-29 16:16:01。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat/BlackList.list)   |   0.38%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 822   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat/Global.list)   |   0.61%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 5985   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat/Proxy.list)   |   0.20%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6096   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat/Proxy.list)   |   0.20%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

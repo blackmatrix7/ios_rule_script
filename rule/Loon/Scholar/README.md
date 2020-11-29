@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:10。
+最后检查时间：2020-11-29 16:15:59。
 
 ## 规则统计
 
@@ -29,8 +29,8 @@
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 781   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar/Repeat/BlackList.list)   |   0.13%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar/Repeat/China.list)   |   9.44%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73356   | [60](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar/Repeat/ChinaTest.list)   |   0.08%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 5988   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar/Repeat/Proxy.list)   |   0.02%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73346   | [60](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar/Repeat/ChinaTest.list)   |   0.08%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6099   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar/Repeat/Proxy.list)   |   0.02%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

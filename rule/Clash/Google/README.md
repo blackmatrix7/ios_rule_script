@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:07。
+最后检查时间：2020-11-29 16:15:56。
 
 ## 规则统计
 
@@ -28,17 +28,17 @@ Google分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93493   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/Advertising.list)   |   0.01%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109858   | [23](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/AdvertisingTest.list)   |   0.02%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41535   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/AdvertisingLite.list)   |   0.02%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93615   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/Advertising.list)   |   0.01%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109941   | [23](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/AdvertisingTest.list)   |   0.02%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41534   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/AdvertisingLite.list)   |   0.02%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [39](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/BlackList.list)   |   5.01%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73342   | [42](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/ChinaTest.list)   |   0.06%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73332   | [42](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/ChinaTest.list)   |   0.06%  |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube)    | 9   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/YouTube.list)   |   33.33%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/Global.list)   |   7.13%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia)    | 233   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/GlobalMedia.list)   |   1.72%  |
 |  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark)    | 4   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/Spark.list)   |   25.00%  |
-|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy)    | 2746   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/Privacy.list)   |   0.11%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 5982   | [55](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/Proxy.list)   |   0.92%  |
+|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy)    | 2754   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/Privacy.list)   |   0.11%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [55](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat/Proxy.list)   |   0.90%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

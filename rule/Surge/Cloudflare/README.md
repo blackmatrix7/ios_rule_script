@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:05。
+最后检查时间：2020-11-29 16:15:54。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@ Cloudflare分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 782   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Cloudflare/Repeat/BlackList.list)   |   0.13%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5988   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Cloudflare/Repeat/Proxy.list)   |   0.02%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 6099   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Cloudflare/Repeat/Proxy.list)   |   0.02%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

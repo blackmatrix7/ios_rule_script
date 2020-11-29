@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-26 23:45:08。
+最后检查时间：2020-11-29 16:15:57。
 
 ## 规则统计
 
@@ -29,13 +29,14 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93493   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109858   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93615   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109941   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic/Repeat/China.list)   |   1.55%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73342   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73332   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic/Repeat/ChinaTest.list)   |   0.01%  |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs)    | 7227   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic/Repeat/ChinaIPs.list)   |   0.04%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 52   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic/Repeat/ChinaMedia.list)   |   3.85%  |
 |  [NetEase](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEase)    | 9   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic/Repeat/NetEase.list)   |   100.00%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic/Repeat/Proxy.list)   |   0.02%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

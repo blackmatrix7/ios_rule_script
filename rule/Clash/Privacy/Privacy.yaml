@@ -1,10 +1,10 @@
 # NAME: Privacy
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-11-26 23:44:58
+# UPDATE: 2020-11-29 16:15:47
 # DOMAIN: 19
-# DOMAIN-SUFFIX: 2724
+# DOMAIN-SUFFIX: 2732
 # DOMAIN-KEYWORD: 3
-# TOTAL: 2746
+# TOTAL: 2754
 payload:
   - DOMAIN,data.mistat.xiaomi.com
   - DOMAIN,hm.baidu.com
@@ -671,6 +671,7 @@ payload:
   - DOMAIN-SUFFIX,cpx.golem.de
   - DOMAIN-SUFFIX,cpxl.golem.de
   - DOMAIN-SUFFIX,cravenherald-gb.cravenherald.co.uk
+  - DOMAIN-SUFFIX,creatives.sunmedia.tv
   - DOMAIN-SUFFIX,creator.zmags.com
   - DOMAIN-SUFFIX,crm-analytics.imweb.ru
   - DOMAIN-SUFFIX,crta.metro.co.uk
@@ -1577,6 +1578,7 @@ payload:
   - DOMAIN-SUFFIX,pr.blogflux.com
   - DOMAIN-SUFFIX,prd-collector-anon.ex.co
   - DOMAIN-SUFFIX,prd-collector-anon.playbuzz.com
+  - DOMAIN-SUFFIX,prd-collector-auth.playbuzz.com
   - DOMAIN-SUFFIX,presentationtracking.netflix.com
   - DOMAIN-SUFFIX,prestwichandwhitefieldguide-gb.prestwichandwhitefieldguide.co.uk
   - DOMAIN-SUFFIX,prism.pandora.tv
@@ -1696,7 +1698,6 @@ payload:
   - DOMAIN-SUFFIX,rum.minutemediaservices.com
   - DOMAIN-SUFFIX,rum.nccgroup-webperf.com
   - DOMAIN-SUFFIX,runcornandwidnesworld-gb.runcornandwidnesworld.co.uk
-  - DOMAIN-SUFFIX,rv.modanisa.com
   - DOMAIN-SUFFIX,rva.outbrain.com
   - DOMAIN-SUFFIX,rvkcpqz.com
   - DOMAIN-SUFFIX,rvv.emol.com
@@ -2015,6 +2016,7 @@ payload:
   - DOMAIN-SUFFIX,stats.grafikart.fr
   - DOMAIN-SUFFIX,stats.harpercollins.com
   - DOMAIN-SUFFIX,stats.heyoya.com
+  - DOMAIN-SUFFIX,stats.hfet.org
   - DOMAIN-SUFFIX,stats.highwire.com
   - DOMAIN-SUFFIX,stats.ibtimes.co.in
   - DOMAIN-SUFFIX,stats.ibtimes.co.uk
@@ -2124,6 +2126,7 @@ payload:
   - DOMAIN-SUFFIX,sync.shinobi.jp
   - DOMAIN-SUFFIX,systemmonitoring.badgeville.com
   - DOMAIN-SUFFIX,t-ak.hulu.com
+  - DOMAIN-SUFFIX,t-pan.triodos.com
   - DOMAIN-SUFFIX,t-staging.powerreviews.com
   - DOMAIN-SUFFIX,t.9gag.com
   - DOMAIN-SUFFIX,t.a3cloud.net
@@ -2199,6 +2202,7 @@ payload:
   - DOMAIN-SUFFIX,tagger.opecloud.com
   - DOMAIN-SUFFIX,tagm.tchibo.de
   - DOMAIN-SUFFIX,tags.cdn.circlesix.co
+  - DOMAIN-SUFFIX,tags.creativille.co.uk
   - DOMAIN-SUFFIX,tags.master-perf-tools.com
   - DOMAIN-SUFFIX,tags.msnbc.com
   - DOMAIN-SUFFIX,tags.newscgp.com
@@ -2239,6 +2243,7 @@ payload:
   - DOMAIN-SUFFIX,telemetry.jivosite.com
   - DOMAIN-SUFFIX,telemetry.reembed.com
   - DOMAIN-SUFFIX,telemetry.soundcloud.com
+  - DOMAIN-SUFFIX,telemetry.tableausoftware.com
   - DOMAIN-SUFFIX,telemetry.tradingview.com
   - DOMAIN-SUFFIX,tempo.inc.com
   - DOMAIN-SUFFIX,teralog.techhub.co.kr
@@ -2320,6 +2325,7 @@ payload:
   - DOMAIN-SUFFIX,track.dictionary.com
   - DOMAIN-SUFFIX,track.digitalriver.com
   - DOMAIN-SUFFIX,track.e7r.com.br
+  - DOMAIN-SUFFIX,track.eadv.it
   - DOMAIN-SUFFIX,track.engagesciences.com
   - DOMAIN-SUFFIX,track.express.de
   - DOMAIN-SUFFIX,track.fxstreet.com
@@ -2352,6 +2358,7 @@ payload:
   - DOMAIN-SUFFIX,track.sohu.com
   - DOMAIN-SUFFIX,track.sprinklecontent.com
   - DOMAIN-SUFFIX,track.strife.com
+  - DOMAIN-SUFFIX,track.sunmedia.tv
   - DOMAIN-SUFFIX,track.tcppu.com
   - DOMAIN-SUFFIX,track.td3x.com
   - DOMAIN-SUFFIX,track.tesiteca.it
@@ -2712,6 +2719,7 @@ payload:
   - DOMAIN-SUFFIX,worcesternews-gb.worcesternews.co.uk
   - DOMAIN-SUFFIX,wordc.ga
   - DOMAIN-SUFFIX,wph2.destinia.us
+  - DOMAIN-SUFFIX,wren.condenastdigital.com
   - DOMAIN-SUFFIX,ws.yellowpages.ca
   - DOMAIN-SUFFIX,wssgmstats.vibbo.com
   - DOMAIN-SUFFIX,wsstats.coches.net

@@ -10,19 +10,19 @@
 
 
 
-最后检查时间：2020-11-26 23:45:00。
+最后检查时间：2020-11-29 16:15:49。
 
 ## 规则统计
 
-总计规则：109858 条。
+总计规则：109941 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 38880 |
+| DOMAIN | 38930 |
 | DOMAIN-KEYWORD | 55 |
-| DOMAIN-SUFFIX | 70677 |
+| DOMAIN-SUFFIX | 70710 |
 | IP-CIDR | 246 |
 ## 重复统计
 
@@ -33,12 +33,12 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Adobe)    | 34   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Adobe.list)   |   20.59%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93493   | [84063](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Advertising.list)   |   89.91%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41535   | [21660](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/AdvertisingLite.list)   |   52.15%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Apple)    | 161   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Apple.list)   |   1.24%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93615   | [84030](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Advertising.list)   |   89.76%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41534   | [21668](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/AdvertisingLite.list)   |   52.17%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Apple)    | 162   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Apple.list)   |   1.23%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [31](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/BlackList.list)   |   3.98%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/China.list)   |   1.55%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73342   | [1173](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/ChinaTest.list)   |   1.60%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73332   | [1171](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/ChinaTest.list)   |   1.60%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 52   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/ChinaMedia.list)   |   1.92%  |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google)    | 120   | [23](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Google.list)   |   19.17%  |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube)    | 9   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/YouTube.list)   |   22.22%  |
@@ -49,8 +49,8 @@
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia)    | 233   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/GlobalMedia.list)   |   3.86%  |
 |  [Hijacking](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking)    | 209   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Hijacking.list)   |   99.52%  |
 |  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark)    | 4   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Spark.list)   |   25.00%  |
-|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy)    | 2746   | [2719](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Privacy.list)   |   99.02%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 5982   | [100](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Proxy.list)   |   1.67%  |
+|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy)    | 2754   | [2725](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Privacy.list)   |   98.95%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [101](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Proxy.list)   |   1.66%  |
 |  [Tencent](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Tencent)    | 19   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest/Repeat/Tencent.list)   |   5.26%  |
 ## 配置说明
 

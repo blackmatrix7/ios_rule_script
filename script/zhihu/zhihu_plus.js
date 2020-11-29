@@ -89,22 +89,24 @@ let magicJS = MagicJS(scriptName, "INFO");
               element['card_type'] === 'slot_event_card' 
               || element.hasOwnProperty('ad') 
               // || element['extra']['type'] === 'drama' 
-              // || element['extra']['type'] === 'zvideo'
-            );
-            if (flag === true && 
+              // || element['extra']['type'] == 'zvideo'
+              );
+            try{
+              if (flag === true && 
                 custom_blocked_users &&
                 element['common_card']['feed_content'].hasOwnProperty('source_line') && 
                 element['common_card']['feed_content']['source_line'].hasOwnProperty('elements') && 
                 custom_blocked_users[element['common_card']['feed_content']['source_line']['elements'][1]['text']['panel_text']]){
-              flag = false;
+                  flag = false;
+              }
             }
+            catch(err){}
             return flag;
           });
           obj['data'] = data;
           body=JSON.stringify(obj);
         }
         catch(err){
-          magicJS.notify('推荐去广告出问题了，快去看看日志吧');
           magicJS.logError(`知乎推荐列表去广告出现异常：${err}`);
         }
         break;

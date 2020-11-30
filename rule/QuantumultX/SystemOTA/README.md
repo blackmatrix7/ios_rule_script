@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-29 16:15:55。
+最后检查时间：2020-11-30 19:58:02。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@ iOS系统升级分流规则，与本项目其他分流规则重复情况统计�
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 161   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SystemOTA/Repeat/Apple.list)   |   1.86%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73342   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SystemOTA/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73280   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SystemOTA/Repeat/ChinaTest.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-29 16:15:59。
+最后检查时间：2020-11-30 19:58:06。
 
 ## 规则统计
 
@@ -30,11 +30,11 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93615   | [2722](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy/Repeat/Advertising.list)   |   2.91%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109941   | [2725](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy/Repeat/AdvertisingTest.list)   |   2.48%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109954   | [2725](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy/Repeat/AdvertisingTest.list)   |   2.48%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41534   | [2411](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy/Repeat/AdvertisingLite.list)   |   5.80%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy/Repeat/China.list)   |   0.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73332   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy/Repeat/ChinaTest.list)   |   0.00%  |
-|  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google)    | 120   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy/Repeat/Google.list)   |   2.50%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73270   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy/Repeat/ChinaTest.list)   |   0.00%  |
+|  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google)    | 121   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy/Repeat/Google.list)   |   2.48%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

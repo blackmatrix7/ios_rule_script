@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-11-29 16:15:56。
+最后检查时间：2020-11-30 19:58:02。
 
 ## 规则统计
 
@@ -32,12 +32,12 @@
 | ---- | ---- | ---- | ------ |
 |  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Blizzard)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Blizzard.list)   |   100.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/China.list)   |   1.70%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73342   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73280   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/ChinaTest.list)   |   0.01%  |
 |  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Discord)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Discord.list)   |   100.00%  |
 |  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Steam)    | 16   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Steam.list)   |   100.00%  |
 |  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SteamCN)    | 13   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/SteamCN.list)   |   38.46%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 822   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Global.list)   |   0.49%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6096   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Proxy.list)   |   0.20%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6019   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Proxy.list)   |   0.20%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-29 16:15:55。
+最后检查时间：2020-11-30 19:58:01。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@ Facebook分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Facebook/Repeat/BlackList.list)   |   0.77%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Facebook/Repeat/Global.list)   |   3.18%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Facebook/Repeat/Proxy.list)   |   0.26%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6016   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Facebook/Repeat/Proxy.list)   |   0.27%  |
 |  [Instagram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Instagram)    | 2   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Facebook/Repeat/Instagram.list)   |   100.00%  |
 ## 配置说明
 

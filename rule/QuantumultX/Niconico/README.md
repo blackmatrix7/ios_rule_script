@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-29 16:15:56。
+最后检查时间：2020-11-30 19:58:03。
 
 ## 规则统计
 
@@ -29,12 +29,12 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93615   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109941   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/AdvertisingTest.list)   |   0.00%  |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 109954   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/AdvertisingTest.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41534   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/BlackList.list)   |   0.26%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 822   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/Global.list)   |   0.61%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 279   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/GlobalMedia.list)   |   1.79%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6096   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/Proxy.list)   |   0.03%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6019   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico/Repeat/Proxy.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

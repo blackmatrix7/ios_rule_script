@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-29 16:15:54。
+最后检查时间：2020-11-30 19:58:01。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@ Discord分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game)    | 28   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Discord/Repeat/Game.list)   |   21.43%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Discord/Repeat/Global.list)   |   0.38%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Discord/Repeat/Proxy.list)   |   0.10%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6016   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Discord/Repeat/Proxy.list)   |   0.10%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

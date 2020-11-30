@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-29 16:16:01。
+最后检查时间：2020-11-30 19:58:07。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@
 | ---- | ---- | ---- | ------ |
 |  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Facebook)    | 25   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Instagram/Repeat/Facebook.list)   |   8.00%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 822   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Instagram/Repeat/Global.list)   |   0.24%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6096   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Instagram/Repeat/Proxy.list)   |   0.03%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6019   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Instagram/Repeat/Proxy.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

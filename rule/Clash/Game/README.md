@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-11-29 16:15:56。
+最后检查时间：2020-11-30 19:58:02。
 
 ## 规则统计
 
@@ -32,12 +32,12 @@
 | ---- | ---- | ---- | ------ |
 |  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Blizzard)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Repeat/Blizzard.list)   |   100.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Repeat/China.list)   |   1.73%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73332   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Repeat/ChinaTest.list)   |   0.01%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73270   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Repeat/ChinaTest.list)   |   0.01%  |
 |  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Discord)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Repeat/Discord.list)   |   100.00%  |
 |  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam)    | 16   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Repeat/Steam.list)   |   100.00%  |
 |  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SteamCN)    | 13   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Repeat/SteamCN.list)   |   38.46%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Repeat/Global.list)   |   0.51%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Repeat/Proxy.list)   |   0.20%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6016   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Repeat/Proxy.list)   |   0.20%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

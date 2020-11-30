@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-11-29 16:15:55。
+最后检查时间：2020-11-30 19:58:01。
 
 ## 规则统计
 
@@ -33,7 +33,7 @@
 | ---- | ---- | ---- | ------ |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41534   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WhiteList/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WhiteList/Repeat/China.list)   |   0.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73332   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WhiteList/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73270   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WhiteList/Repeat/ChinaTest.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

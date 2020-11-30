@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2020-11-29 16:16:00。
+最后检查时间：2020-11-30 19:58:06。
 
 ## 规则统计
 
@@ -29,9 +29,8 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Weibo/Repeat/China.list)   |   0.51%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73346   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Weibo/Repeat/ChinaTest.list)   |   0.00%  |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73284   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Weibo/Repeat/ChinaTest.list)   |   0.00%  |
 |  [Sina](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Sina)    | 10   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Weibo/Repeat/Sina.list)   |   40.00%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 6099   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Weibo/Repeat/Proxy.list)   |   0.02%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

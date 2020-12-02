@@ -1,9 +1,9 @@
-# NAME: Advertising
+#!name=Advertising
 #!desc=最后更新时间 2020-12-02 12:55:09
 #!author=blackmatrix7
-#!github: https://github.com/blackmatrix7/ios_rule_script
-#!rewrite: 793
-#!mitm: 535
+#!github=https://github.com/blackmatrix7/ios_rule_script
+#!rewrite=793
+#!mitm=535
 
 [URL Rewrite]
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject

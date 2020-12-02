@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-30 19:58:05。
+
+最后检查时间：2020-12-02 12:54:49。
 
 ## 规则统计
 
@@ -18,8 +19,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-KEYWORD | 1 |
 | DOMAIN-SUFFIX | 9 |
+| DOMAIN-KEYWORD | 1 |
 ## 重复统计
 
 新浪分流规则，与本项目其他分流规则重复情况统计。
@@ -28,10 +29,10 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Sina/Repeat/China.list)   |   1.35%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73284   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Sina/Repeat/ChinaTest.list)   |   0.01%  |
-|  [Weibo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Weibo)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Sina/Repeat/Weibo.list)   |   100.00%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6022   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Sina/Repeat/Proxy.list)   |   0.02%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Sina/Repeat.list)   |   1.35% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73289   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Sina/Repeat.list)   |   0.01% |
+|  [Weibo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Weibo)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Sina/Repeat.list)   |   100.0% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6022   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Sina/Repeat.list)   |   0.02% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

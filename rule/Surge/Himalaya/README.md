@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-30 19:58:07。
+
+最后检查时间：2020-12-02 12:54:44。
 
 ## 规则统计
 
@@ -18,8 +19,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 3 |
 | USER-AGENT | 1 |
+| DOMAIN-SUFFIX | 3 |
 ## 重复统计
 
 喜马拉雅分流规则，与本项目其他分流规则重复情况统计。
@@ -28,8 +29,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Himalaya/Repeat/China.list)   |   0.34%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73284   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Himalaya/Repeat/ChinaTest.list)   |   0.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Himalaya/Repeat.list)   |   0.34% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73289   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Himalaya/Repeat.list)   |   0.0% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

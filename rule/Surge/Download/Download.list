@@ -1,6 +1,8 @@
 # NAME: Download
+# AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-11-30 19:57:52
+# UPDATED: 2020-12-02 12:54:31
+# DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # PROCESS-NAME: 12
 # DOMAIN-KEYWORD: 5
 # DOMAIN-SUFFIX: 1
@@ -8,17 +10,15 @@
 # TOTAL: 22
 DOMAIN-SUFFIX,smtp
 DOMAIN-KEYWORD,aria2
-DOMAIN-KEYWORD,thunder
-DOMAIN-KEYWORD,xlliveud
 DOMAIN-KEYWORD,xunlei
 DOMAIN-KEYWORD,yunpan
-URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
-URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+DOMAIN-KEYWORD,thunder
+DOMAIN-KEYWORD,xlliveud
 URL-REGEX,(Subject|HELO|SMTP)
 URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
 PROCESS-NAME,aria2c
-PROCESS-NAME,baidunetdisk
-PROCESS-NAME,downloadservice
 PROCESS-NAME,fdm
 PROCESS-NAME,folx
 PROCESS-NAME,nettransport
@@ -27,4 +27,6 @@ PROCESS-NAME,transmission
 PROCESS-NAME,utorrent
 PROCESS-NAME,webtorrent
 PROCESS-NAME,webtorrent helper
+PROCESS-NAME,downloadservice
 PROCESS-NAME,weiyun
+PROCESS-NAME,baidunetdisk

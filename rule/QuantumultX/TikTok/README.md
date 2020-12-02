@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-30 19:58:04。
+
+最后检查时间：2020-12-02 12:54:46。
 
 ## 规则统计
 
@@ -18,9 +19,9 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST-KEYWORD | 1 |
-| HOST-SUFFIX | 9 |
 | USER-AGENT | 1 |
+| HOST-SUFFIX | 9 |
+| HOST-KEYWORD | 1 |
 ## 重复统计
 
 TikTok分流规则，与本项目其他分流规则重复情况统计。
@@ -29,9 +30,9 @@ TikTok分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat/China.list)   |   0.34%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73280   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat/ChinaTest.list)   |   0.00%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 279   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat/GlobalMedia.list)   |   3.94%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat.list)   |   0.34% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73285   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat.list)   |   0.0% |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 279   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat.list)   |   3.94% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

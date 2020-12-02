@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-30 19:57:59。
+
+最后检查时间：2020-12-02 12:54:47。
 
 ## 规则统计
 
@@ -19,8 +20,8 @@
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN | 5 |
-| DOMAIN-SUFFIX | 1 |
 | USER-AGENT | 2 |
+| DOMAIN-SUFFIX | 1 |
 ## 重复统计
 
 AppleNews分流规则，与本项目其他分流规则重复情况统计。
@@ -29,8 +30,8 @@ AppleNews分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 161   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleNews/Repeat/Apple.list)   |   0.62%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 279   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleNews/Repeat/GlobalMedia.list)   |   1.08%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 161   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleNews/Repeat.list)   |   0.62% |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 279   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleNews/Repeat.list)   |   1.08% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-30 19:58:07。
+
+最后检查时间：2020-12-02 12:54:52。
 
 ## 规则统计
 
@@ -27,8 +28,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia)    | 23   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku/Repeat/AsianMedia.list)   |   4.35%  |
-|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs)    | 7227   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku/Repeat/ChinaIPs.list)   |   0.01%  |
+|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia)    | 23   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku/Repeat.list)   |   4.35% |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs)    | 7227   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku/Repeat.list)   |   0.01% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

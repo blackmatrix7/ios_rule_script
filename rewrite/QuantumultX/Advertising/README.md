@@ -6,17 +6,20 @@
 
 定时爬取互联网上开源的去广告复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
-本复写配置不包含知乎和Youtube去广告规则。
 
 
-最后检查时间：2020-11-30 19:58:15。
+
+最后检查时间：2020-12-02 12:55:09。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| MITM | 538 |
-| UrlRewrite | 808 |
+| mitm | 535 |
+| reject-img | 326 |
+| reject | 464 |
+| reject-dict | 2 |
+| reject-200 | 1 |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -24,6 +27,7 @@
 稳定版：不定时手动更新，更新频率低，稳定性好
 
 ### QuantumultX 
+
 实时版：
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Advertising/Advertising.conf
@@ -45,7 +49,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Q
 - https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Rewrite.txt
 - https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf
-- https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Loon/Plugin/Advertising.plugin
+- https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Loon/Advertising.conf
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.lnwrite
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.lnplugin
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Loon/Rewrite.conf

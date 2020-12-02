@@ -1,22 +1,21 @@
 # NAME: ChinaMedia
+# AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-11-30 19:57:52
+# UPDATED: 2020-12-02 12:54:33
 # HOST: 3
 # USER-AGENT: 22
 # HOST-SUFFIX: 44
 # HOST-KEYWORD: 2
 # IP-CIDR: 3
 # TOTAL: 74
-HOST,aqqmusic.tc.qq.com,ChinaMedia
 HOST,cache.video.iqiyi.com,ChinaMedia
 HOST,upos-hz-mirrorakam.akamaized.net,ChinaMedia
-HOST-SUFFIX,56.com,ChinaMedia
-HOST-SUFFIX,71.am.com,ChinaMedia
+HOST,aqqmusic.tc.qq.com,ChinaMedia
 HOST-SUFFIX,acfun.cn,ChinaMedia
 HOST-SUFFIX,acfun.com,ChinaMedia
+HOST-SUFFIX,aixifan.com,ChinaMedia
 HOST-SUFFIX,acg.tv,ChinaMedia
 HOST-SUFFIX,acgvideo.com,ChinaMedia
-HOST-SUFFIX,aixifan.com,ChinaMedia
 HOST-SUFFIX,b23.tv,ChinaMedia
 HOST-SUFFIX,biliapi.com,ChinaMedia
 HOST-SUFFIX,biliapi.net,ChinaMedia
@@ -25,59 +24,61 @@ HOST-SUFFIX,bilibili.tv,ChinaMedia
 HOST-SUFFIX,biligame.com,ChinaMedia
 HOST-SUFFIX,biligame.net,ChinaMedia
 HOST-SUFFIX,bilivideo.com,ChinaMedia
-HOST-SUFFIX,cmvideo.cn,ChinaMedia
 HOST-SUFFIX,hdslb.com,ChinaMedia
+HOST-SUFFIX,im9.com,ChinaMedia
 HOST-SUFFIX,hitv.com,ChinaMedia
 HOST-SUFFIX,hunantv.com,ChinaMedia
-HOST-SUFFIX,im9.com,ChinaMedia
-HOST-SUFFIX,itc.cn,ChinaMedia
-HOST-SUFFIX,koowo.com,ChinaMedia
-HOST-SUFFIX,kugou.com,ChinaMedia
-HOST-SUFFIX,kuwo.cn,ChinaMedia
 HOST-SUFFIX,mgtv.com,ChinaMedia
+HOST-SUFFIX,cmvideo.cn,ChinaMedia
 HOST-SUFFIX,migu.cn,ChinaMedia
 HOST-SUFFIX,miguvideo.com,ChinaMedia
-HOST-SUFFIX,music.126.net,ChinaMedia
-HOST-SUFFIX,music.163.com,ChinaMedia
-HOST-SUFFIX,qianqian.com,ChinaMedia
-HOST-SUFFIX,qqmusic.qq.com,ChinaMedia
+HOST-SUFFIX,71.am.com,ChinaMedia
 HOST-SUFFIX,qy.net,ChinaMedia
+HOST-SUFFIX,56.com,ChinaMedia
 HOST-SUFFIX,sohu.com,ChinaMedia
 HOST-SUFFIX,sohu.com.cn,ChinaMedia
-HOST-SUFFIX,soku.com,ChinaMedia
+HOST-SUFFIX,itc.cn,ChinaMedia
 HOST-SUFFIX,v-56.com,ChinaMedia
-HOST-SUFFIX,v.smtcdns.com,ChinaMedia
 HOST-SUFFIX,video.qq.com,ChinaMedia
-HOST-SUFFIX,vv.video.qq.com,ChinaMedia
+HOST-SUFFIX,soku.com,ChinaMedia
+HOST-SUFFIX,youku.com,ChinaMedia
+HOST-SUFFIX,ykimg.com,ChinaMedia
 HOST-SUFFIX,xiami.com,ChinaMedia
 HOST-SUFFIX,xiami.net,ChinaMedia
+HOST-SUFFIX,music.126.net,ChinaMedia
+HOST-SUFFIX,music.163.com,ChinaMedia
+HOST-SUFFIX,qqmusic.qq.com,ChinaMedia
 HOST-SUFFIX,y.qq.com,ChinaMedia
-HOST-SUFFIX,ykimg.com,ChinaMedia
-HOST-SUFFIX,youku.com,ChinaMedia
+HOST-SUFFIX,kugou.com,ChinaMedia
+HOST-SUFFIX,kuwo.cn,ChinaMedia
+HOST-SUFFIX,koowo.com,ChinaMedia
+HOST-SUFFIX,qianqian.com,ChinaMedia
+HOST-SUFFIX,v.smtcdns.com,ChinaMedia
+HOST-SUFFIX,vv.video.qq.com,ChinaMedia
 HOST-KEYWORD,bilibili,ChinaMedia
 HOST-KEYWORD,qiyi,ChinaMedia
-USER-AGENT,%e4%bc%98%e9%85%b7*,ChinaMedia
-USER-AGENT,%e5%92%aa%e5%92%95%e8%a7%86%e9%a2%91,ChinaMedia
-USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*,ChinaMedia
-USER-AGENT,%e9%85%b7%e6%88%91%e9%9f%b3%e4%b9%90*,ChinaMedia
-USER-AGENT,*bili*,ChinaMedia
 USER-AGENT,acfun*,ChinaMedia
-USER-AGENT,baiduyinyue,ChinaMedia
-USER-AGENT,iqiyi*,ChinaMedia
-USER-AGENT,live4iphone*,ChinaMedia
+USER-AGENT,*bili*,ChinaMedia
 USER-AGENT,mgtv*,ChinaMedia
 USER-AGENT,miguvideo*,ChinaMedia
-USER-AGENT,moo%e9%9f%b3%e4%b9%90*,ChinaMedia
-USER-AGENT,neteasemusic*,ChinaMedia
+USER-AGENT,%e5%92%aa%e5%92%95%e8%a7%86%e9%a2%91,ChinaMedia
+USER-AGENT,iqiyi*,ChinaMedia
 USER-AGENT,ppstream*,ChinaMedia
 USER-AGENT,qiyi*,ChinaMedia
-USER-AGENT,qq%e9%9f%b3%e4%b9%90,ChinaMedia
-USER-AGENT,qqlive4iphone*,ChinaMedia
 USER-AGENT,qyplayer*,ChinaMedia
+USER-AGENT,live4iphone*,ChinaMedia
+USER-AGENT,qqlive4iphone*,ChinaMedia
 USER-AGENT,tencentmidasconnect*,ChinaMedia
+USER-AGENT,youku*,ChinaMedia
+USER-AGENT,%e4%bc%98%e9%85%b7*,ChinaMedia
 USER-AGENT,walkman*,ChinaMedia
 USER-AGENT,xiami*,ChinaMedia
-USER-AGENT,youku*,ChinaMedia
+USER-AGENT,neteasemusic*,ChinaMedia
+USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*,ChinaMedia
+USER-AGENT,moo%e9%9f%b3%e4%b9%90*,ChinaMedia
+USER-AGENT,qq%e9%9f%b3%e4%b9%90,ChinaMedia
+USER-AGENT,%e9%85%b7%e6%88%91%e9%9f%b3%e4%b9%90*,ChinaMedia
+USER-AGENT,baiduyinyue,ChinaMedia
 IP-CIDR,101.224.0.0/13,ChinaMedia
 IP-CIDR,101.227.0.0/16,ChinaMedia
 IP-CIDR,119.176.0.0/12,ChinaMedia

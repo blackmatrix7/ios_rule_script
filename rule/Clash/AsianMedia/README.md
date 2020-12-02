@@ -1,14 +1,15 @@
-# 
+# AsianMedia
 
 ## 前言
 
-本项目的分流规则由爬虫程序自动维护。
+本项目的AsianMedia分流规则由爬虫程序自动维护。
 
-定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
+定时爬取互联网上开源的AsianMedia分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
 
-最后检查时间：2020-11-30 19:57:59。
+
+最后检查时间：2020-12-02 12:54:50。
 
 ## 规则统计
 
@@ -18,26 +19,26 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 1 |
 | DOMAIN-KEYWORD | 2 |
 | DOMAIN-SUFFIX | 16 |
+| DOMAIN | 1 |
 | IP-CIDR | 4 |
 ## 重复统计
 
-分流规则，与本项目其他分流规则重复情况统计。
+AsianMedia分流规则，与本项目其他分流规则重复情况统计。
 
 点击重复数量可以查看重复规则明细。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili)    | 12   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/Bilibili.list)   |   100.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/China.list)   |   1.21%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73270   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/ChinaTest.list)   |   0.02%  |
-|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs)    | 7227   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/ChinaIPs.list)   |   0.04%  |
-|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 52   | [21](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/ChinaMedia.list)   |   40.38%  |
-|  [IQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/IQiyi)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/IQiyi.list)   |   100.00%  |
-|  [TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TencentVideo)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/TencentVideo.list)   |   50.00%  |
-|  [Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku)    | 1   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat/Youku.list)   |   100.00%  |
+|  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili)    | 12   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat.list)   |   100.0% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat.list)   |   1.21% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73275   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat.list)   |   0.02% |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs)    | 7227   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat.list)   |   0.04% |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 52   | [21](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat.list)   |   40.38% |
+|  [IQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/IQiyi)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat.list)   |   100.0% |
+|  [TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TencentVideo)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat.list)   |   50.0% |
+|  [Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku)    | 1   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia/Repeat.list)   |   100.0% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -55,7 +56,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 ## 数据来源
 
-本项目的分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的分流规则混合使用，以免造成规则重复。
+本项目的AsianMedia分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的AsianMedia分流规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/AsianMedia.list
 
@@ -88,7 +89,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的AsianMedia分流规则。
 
 感谢
 

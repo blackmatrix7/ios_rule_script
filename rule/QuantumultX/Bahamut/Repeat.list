@@ -1,0 +1,17 @@
+# NAME: Bahamut 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-02 12:54:39
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件
+# Bahamut 与 Global 共 5 条规则重复
+HOST,gamer-cds.cdn.hinet.net
+HOST,gamer2-cds.cdn.hinet.net
+HOST-SUFFIX,bahamut.com.tw
+HOST-SUFFIX,gamer.com.tw
+USER-AGENT,anime*
+# Bahamut 与 GlobalMedia 共 3 条规则重复
+HOST-SUFFIX,bahamut.com.tw
+HOST-SUFFIX,gamer.com.tw
+USER-AGENT,anime*
+# Bahamut 与 Proxy 共 1 条规则重复
+HOST-SUFFIX,gamer.com.tw

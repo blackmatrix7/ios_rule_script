@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-30 19:58:00。
+
+最后检查时间：2020-12-02 12:54:45。
 
 ## 规则统计
 
@@ -18,8 +19,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 4 |
 | HOST-SUFFIX | 2 |
+| HOST | 4 |
 ## 重复统计
 
 暴雪娱乐分流规则，与本项目其他分流规则重复情况统计。
@@ -28,9 +29,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Blizzard/Repeat/China.list)   |   0.51%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73280   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Blizzard/Repeat/ChinaTest.list)   |   0.00%  |
-|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game)    | 28   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Blizzard/Repeat/Game.list)   |   21.43%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Blizzard/Repeat.list)   |   0.51% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73285   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Blizzard/Repeat.list)   |   0.0% |
+|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game)    | 28   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Blizzard/Repeat.list)   |   21.43% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

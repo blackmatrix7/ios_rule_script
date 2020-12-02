@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-30 19:58:00。
+
+最后检查时间：2020-12-02 12:54:50。
 
 ## 规则统计
 
@@ -27,11 +28,11 @@ ChinaIPs分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia)    | 23   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs/Repeat/AsianMedia.list)   |   13.04%  |
-|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 52   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs/Repeat/ChinaMedia.list)   |   3.85%  |
-|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic)    | 44   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs/Repeat/NetEaseMusic.list)   |   6.82%  |
-|  [IQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/IQiyi)    | 5   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs/Repeat/IQiyi.list)   |   40.00%  |
-|  [Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku)    | 1   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs/Repeat/Youku.list)   |   100.00%  |
+|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia)    | 23   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs/Repeat.list)   |   13.04% |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 52   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs/Repeat.list)   |   3.85% |
+|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic)    | 44   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs/Repeat.list)   |   6.82% |
+|  [IQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/IQiyi)    | 5   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs/Repeat.list)   |   40.0% |
+|  [Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku)    | 1   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs/Repeat.list)   |   100.0% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

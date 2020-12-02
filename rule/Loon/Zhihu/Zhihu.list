@@ -1,7 +1,8 @@
 # NAME: Zhihu
+# AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-11-30 19:57:53
-# DESC: 分流规则中含有URL-REGEX类型，请搭配MITM使用
+# UPDATED: 2020-12-02 12:54:35
+# DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN: 2
 # DOMAIN-KEYWORD: 1
 # IP-CIDR: 1
@@ -12,9 +13,9 @@ DOMAIN,118.89.204.198
 DOMAIN,appcloud2.in.zhihu.com
 DOMAIN-KEYWORD,118.89.204.198
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations)
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription)
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation
-URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription)
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner
 URL-REGEX,^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation
 USER-AGENT,avos*

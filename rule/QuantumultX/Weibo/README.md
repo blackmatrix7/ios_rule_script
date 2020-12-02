@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-30 19:58:06。
+
+最后检查时间：2020-12-02 12:54:46。
 
 ## 规则统计
 
@@ -18,8 +19,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST-KEYWORD | 1 |
 | HOST-SUFFIX | 3 |
+| HOST-KEYWORD | 1 |
 ## 重复统计
 
 微博分流规则，与本项目其他分流规则重复情况统计。
@@ -28,9 +29,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Weibo/Repeat/China.list)   |   0.51%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73280   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Weibo/Repeat/ChinaTest.list)   |   0.00%  |
-|  [Sina](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sina)    | 10   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Weibo/Repeat/Sina.list)   |   40.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Weibo/Repeat.list)   |   0.51% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73285   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Weibo/Repeat.list)   |   0.0% |
+|  [Sina](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sina)    | 10   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Weibo/Repeat.list)   |   40.0% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

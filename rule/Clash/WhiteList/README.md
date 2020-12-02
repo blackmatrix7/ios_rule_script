@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-11-30 19:58:01。
+最后检查时间：2020-12-02 12:54:51。
 
 ## 规则统计
 
@@ -20,9 +20,9 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 11 |
-| DOMAIN-KEYWORD | 1 |
 | DOMAIN-SUFFIX | 4 |
+| DOMAIN-KEYWORD | 1 |
+| DOMAIN | 11 |
 ## 重复统计
 
 白名单分流规则，与本项目其他分流规则重复情况统计。
@@ -31,9 +31,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41534   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WhiteList/Repeat/AdvertisingLite.list)   |   0.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WhiteList/Repeat/China.list)   |   0.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73270   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WhiteList/Repeat/ChinaTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41534   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WhiteList/Repeat.list)   |   0.0% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WhiteList/Repeat.list)   |   0.17% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73275   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WhiteList/Repeat.list)   |   0.0% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

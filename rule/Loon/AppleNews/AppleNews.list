@@ -1,15 +1,16 @@
 # NAME: AppleNews
+# AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-11-29 16:15:44
+# UPDATED: 2020-12-04 23:35:36
 # DOMAIN: 5
 # USER-AGENT: 2
 # DOMAIN-SUFFIX: 1
 # TOTAL: 8
-DOMAIN,apple.comscoreresearch.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
+DOMAIN,apple.comscoreresearch.com
 DOMAIN-SUFFIX,apple.news
 USER-AGENT,applenews*
 USER-AGENT,com.apple.news*

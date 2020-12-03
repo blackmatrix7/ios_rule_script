@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:15:52。
+
+最后检查时间：2020-12-04 23:35:40。
 
 ## 规则统计
 
@@ -19,8 +20,8 @@
 | 类型 | 数量(条) |
 | ---- | ---- |
 | HOST | 5 |
-| HOST-SUFFIX | 1 |
 | USER-AGENT | 2 |
+| HOST-SUFFIX | 1 |
 ## 重复统计
 
 AppleNews分流规则，与本项目其他分流规则重复情况统计。
@@ -29,8 +30,8 @@ AppleNews分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 161   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleNews/Repeat/Apple.list)   |   0.62%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 279   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleNews/Repeat/GlobalMedia.list)   |   1.08%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 161   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleNews/Repeat.list)   |   0.62% |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 279   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleNews/Repeat.list)   |   1.08% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -50,9 +51,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 本项目的AppleNews分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的AppleNews分流规则混合使用，以免造成规则重复。
 
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleNews.list
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/AppleNews.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/AppleNews.list
-- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleNews.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

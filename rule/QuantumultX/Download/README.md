@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:15:55。
+
+最后检查时间：2020-12-04 23:35:40。
 
 ## 规则统计
 
@@ -43,8 +44,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 本项目的下载分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的下载分流规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+- https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

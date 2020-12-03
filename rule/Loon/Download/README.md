@@ -7,10 +7,9 @@
 定时爬取互联网上开源的下载分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-下载分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。
+下载分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。程序已默认根据正则推导一份MITM的模块/复写/插件在当前分流规则的目录中，便于参考搭配使用。
 
-
-最后检查时间：2020-11-29 16:15:55。
+最后检查时间：2020-12-04 23:35:41。
 
 ## 规则统计
 
@@ -46,8 +45,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 本项目的下载分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的下载分流规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+- https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

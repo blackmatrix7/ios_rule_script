@@ -1,14 +1,15 @@
-# 
+# Instagram
 
 ## 前言
 
-本项目的分流规则由爬虫程序自动维护。
+本项目的Instagram分流规则由爬虫程序自动维护。
 
-定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
+定时爬取互联网上开源的Instagram分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
 
-最后检查时间：2020-11-29 16:16:01。
+
+最后检查时间：2020-12-04 23:35:42。
 
 ## 规则统计
 
@@ -21,15 +22,15 @@
 | DOMAIN-SUFFIX | 2 |
 ## 重复统计
 
-分流规则，与本项目其他分流规则重复情况统计。
+Instagram分流规则，与本项目其他分流规则重复情况统计。
 
 点击重复数量可以查看重复规则明细。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Facebook)    | 25   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Instagram/Repeat/Facebook.list)   |   8.00%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 826   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Instagram/Repeat/Global.list)   |   0.24%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6099   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Instagram/Repeat/Proxy.list)   |   0.03%  |
+|  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Facebook)    | 25   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Instagram/Repeat.list)   |   8.0% |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 826   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Instagram/Repeat.list)   |   0.24% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6022   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Instagram/Repeat.list)   |   0.03% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -47,7 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 ## 数据来源
 
-本项目的分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的分流规则混合使用，以免造成规则重复。
+本项目的Instagram分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的Instagram分流规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Instagram.list
 
@@ -80,7 +81,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的Instagram分流规则。
 
 感谢
 

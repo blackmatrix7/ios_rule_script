@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:16:01。
+
+最后检查时间：2020-12-04 23:35:41。
 
 ## 规则统计
 
@@ -27,9 +28,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat/BlackList.list)   |   0.38%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 822   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat/Global.list)   |   0.61%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6096   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat/Proxy.list)   |   0.20%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat.list)   |   0.38% |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 825   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat.list)   |   0.61% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6022   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wikipedia/Repeat.list)   |   0.2% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

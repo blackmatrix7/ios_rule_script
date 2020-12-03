@@ -1,0 +1,13 @@
+# NAME: SystemOTA 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-04 23:35:38
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件
+# SystemOTA 与 Apple 共 3 条规则重复
+DOMAIN-SUFFIX,appldnld.apple.com
+DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
+DOMAIN-SUFFIX,mesu.apple.com
+# SystemOTA 与 ChinaTest 共 3 条规则重复
+DOMAIN-SUFFIX,appldnld.apple.com
+DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
+DOMAIN-SUFFIX,mesu.apple.com

@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:15:55。
+
+最后检查时间：2020-12-04 23:35:42。
 
 ## 规则统计
 
@@ -18,8 +19,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 6 |
 | DOMAIN-SUFFIX | 10 |
+| DOMAIN | 6 |
 ## 重复统计
 
 Steam分流规则，与本项目其他分流规则重复情况统计。
@@ -28,12 +29,12 @@ Steam分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam/Repeat/China.list)   |   1.21%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73332   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam/Repeat/ChinaTest.list)   |   0.01%  |
-|  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SteamCN)    | 13   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam/Repeat/SteamCN.list)   |   38.46%  |
-|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game)    | 28   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam/Repeat/Game.list)   |   57.14%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam/Repeat/Global.list)   |   0.13%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam/Repeat/Proxy.list)   |   0.10%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam/Repeat.list)   |   1.21% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73323   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam/Repeat.list)   |   0.01% |
+|  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SteamCN)    | 13   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam/Repeat.list)   |   38.46% |
+|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game)    | 28   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam/Repeat.list)   |   57.14% |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam/Repeat.list)   |   0.13% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6016   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam/Repeat.list)   |   0.1% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -53,9 +54,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 本项目的Steam分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的Steam分流规则混合使用，以免造成规则重复。
 
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Steam.list
-- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

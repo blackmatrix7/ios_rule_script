@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:16:00。
+
+最后检查时间：2020-12-04 23:35:39。
 
 ## 规则统计
 
@@ -18,8 +19,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-KEYWORD | 1 |
 | DOMAIN-SUFFIX | 10 |
+| DOMAIN-KEYWORD | 1 |
 ## 重复统计
 
 Twitter分流规则，与本项目其他分流规则重复情况统计。
@@ -28,9 +29,9 @@ Twitter分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 782   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Twitter/Repeat/BlackList.list)   |   0.90%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 827   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Twitter/Repeat/Global.list)   |   1.21%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 6099   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Twitter/Repeat/Proxy.list)   |   0.18%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 782   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Twitter/Repeat.list)   |   0.9% |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 827   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Twitter/Repeat.list)   |   1.21% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 6022   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Twitter/Repeat.list)   |   0.18% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -50,8 +51,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 本项目的Twitter分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的Twitter分流规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Twitter/Twitter.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Twitter/Twitter.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

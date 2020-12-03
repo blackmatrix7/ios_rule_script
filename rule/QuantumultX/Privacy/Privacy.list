@@ -1,29 +1,33 @@
 # NAME: Privacy
+# AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-11-29 16:15:47
+# UPDATED: 2020-12-04 23:35:36
 # HOST: 19
 # HOST-SUFFIX: 2732
 # HOST-KEYWORD: 3
 # TOTAL: 2754
-HOST,data.mistat.xiaomi.com,Privacy
+HOST,zgsdk.zhugeio.com,Privacy
+HOST,js.users.51.la,Privacy
+HOST,mc.51.la,Privacy
+HOST,wc.51.la,Privacy
+HOST,track.58.com,Privacy
+HOST,tracklog.58.com,Privacy
 HOST,hm.baidu.com,Privacy
 HOST,hmma.baidu.com,Privacy
-HOST,js.users.51.la,Privacy
+HOST,log.byteoversea.com,Privacy
+HOST,log.tiktokv.com,Privacy
 HOST,log-hl-ipv6.snssdk.com,Privacy
 HOST,log-lq.snssdk.com,Privacy
 HOST,log-va.tiktokv.com,Privacy
-HOST,log.byteoversea.com,Privacy
-HOST,log.tiktokv.com,Privacy
-HOST,mc.51.la,Privacy
-HOST,mtrace.qq.com,Privacy
-HOST,safebrowsing.googleapis.com,Privacy
-HOST,safebrowsing.urlsec.qq.com,Privacy
-HOST,track.58.com,Privacy
-HOST,tracking.intl.miui.com,Privacy
-HOST,tracklog.58.com,Privacy
-HOST,wc.51.la,Privacy
 HOST,xlog.snssdk.com,Privacy
-HOST,zgsdk.zhugeio.com,Privacy
+HOST,safebrowsing.googleapis.com,Privacy
+HOST,data.mistat.xiaomi.com,Privacy
+HOST,tracking.intl.miui.com,Privacy
+HOST,mtrace.qq.com,Privacy
+HOST,safebrowsing.urlsec.qq.com,Privacy
+HOST-SUFFIX,googletagmanager.com,Privacy
+HOST-SUFFIX,google-analytics.com,Privacy
+HOST-SUFFIX,tracking.miui.com,Privacy
 HOST-SUFFIX,0sbm.consobaby.co.uk,Privacy
 HOST-SUFFIX,0x1f4b0.com,Privacy
 HOST-SUFFIX,1l-hit.mail.ru,Privacy
@@ -1054,11 +1058,9 @@ HOST-SUFFIX,glbdns.microsoft.com,Privacy
 HOST-SUFFIX,gmonitor.aliimg.com,Privacy
 HOST-SUFFIX,gnar.grammarly.com,Privacy
 HOST-SUFFIX,go.optifuze.com,Privacy
-HOST-SUFFIX,google-analytics.com,Privacy
 HOST-SUFFIX,google-analytics.com/batch,Privacy
 HOST-SUFFIX,google-analytics.com/internal/collect,Privacy
 HOST-SUFFIX,google-analytics.com/r/collect,Privacy
-HOST-SUFFIX,googletagmanager.com,Privacy
 HOST-SUFFIX,graftpool.ovh,Privacy
 HOST-SUFFIX,gramombird.com,Privacy
 HOST-SUFFIX,green-griffin-860.appspot.com,Privacy
@@ -2486,7 +2488,6 @@ HOST-SUFFIX,tracking.livingsocial.com,Privacy
 HOST-SUFFIX,tracking.menamarketplace.com,Privacy
 HOST-SUFFIX,tracking.military.com,Privacy
 HOST-SUFFIX,tracking.mindshare.de,Privacy
-HOST-SUFFIX,tracking.miui.com,Privacy
 HOST-SUFFIX,tracking.mobile.de,Privacy
 HOST-SUFFIX,tracking.monsido.com,Privacy
 HOST-SUFFIX,tracking.musixmatch.com,Privacy

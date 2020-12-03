@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:15:55。
+
+最后检查时间：2020-12-04 23:35:42。
 
 ## 规则统计
 
@@ -27,8 +28,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dubox/Repeat/Global.list)   |   0.25%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dubox/Repeat/Proxy.list)   |   0.03%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dubox/Repeat.list)   |   0.25% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6016   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dubox/Repeat.list)   |   0.03% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

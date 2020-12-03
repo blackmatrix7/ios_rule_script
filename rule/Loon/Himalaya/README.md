@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:16:00。
+
+最后检查时间：2020-12-04 23:35:42。
 
 ## 规则统计
 
@@ -18,8 +19,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 3 |
 | USER-AGENT | 1 |
+| DOMAIN-SUFFIX | 3 |
 ## 重复统计
 
 喜马拉雅分流规则，与本项目其他分流规则重复情况统计。
@@ -28,8 +29,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Himalaya/Repeat/China.list)   |   0.34%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73346   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Himalaya/Repeat/ChinaTest.list)   |   0.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Himalaya/Repeat.list)   |   0.34% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73337   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Himalaya/Repeat.list)   |   0.0% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -49,8 +50,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 本项目的喜马拉雅分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的喜马拉雅分流规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Podcast/Himalaya.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Ximalaya.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Podcast/Himalaya.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

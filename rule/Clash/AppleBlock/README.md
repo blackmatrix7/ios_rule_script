@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:15:52。
+
+最后检查时间：2020-12-04 23:35:42。
 
 ## 规则统计
 
@@ -18,8 +19,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 4 |
 | DOMAIN-SUFFIX | 1 |
+| DOMAIN | 4 |
 | PROCESS-NAME | 1 |
 ## 重复统计
 
@@ -29,10 +30,10 @@ AppleBlock分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Apple)    | 162   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleBlock/Repeat/Apple.list)   |   0.62%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleBlock/Repeat/BlackList.list)   |   0.77%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleBlock/Repeat/Global.list)   |   0.76%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleBlock/Repeat/Proxy.list)   |   0.02%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Apple)    | 162   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleBlock/Repeat.list)   |   0.62% |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleBlock/Repeat.list)   |   0.77% |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleBlock/Repeat.list)   |   0.76% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6016   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleBlock/Repeat.list)   |   0.02% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

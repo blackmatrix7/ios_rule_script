@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-11-29 16:15:56。
+最后检查时间：2020-12-04 23:35:40。
 
 ## 规则统计
 
@@ -20,8 +20,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 10 |
 | HOST-SUFFIX | 18 |
+| HOST | 10 |
 ## 重复统计
 
 游戏分流规则，与本项目其他分流规则重复情况统计。
@@ -30,14 +30,14 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Blizzard)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Blizzard.list)   |   100.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/China.list)   |   1.70%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73342   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/ChinaTest.list)   |   0.01%  |
-|  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Discord)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Discord.list)   |   100.00%  |
-|  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Steam)    | 16   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Steam.list)   |   100.00%  |
-|  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SteamCN)    | 13   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/SteamCN.list)   |   38.46%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 822   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Global.list)   |   0.49%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6096   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat/Proxy.list)   |   0.20%  |
+|  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Blizzard)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   100.0% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   1.69% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73337   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   0.01% |
+|  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Discord)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   100.0% |
+|  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Steam)    | 16   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   100.0% |
+|  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SteamCN)    | 13   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   38.46% |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 825   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   0.48% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6022   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   0.2% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -57,9 +57,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 本项目的游戏分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的游戏分流规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Discord.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Blizzard.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Discord.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Steam.list
 
 

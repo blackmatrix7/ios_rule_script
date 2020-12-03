@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-11-29 16:15:55。
+最后检查时间：2020-12-04 23:35:40。
 
 ## 规则统计
 
@@ -20,9 +20,9 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 11 |
-| HOST-KEYWORD | 1 |
 | HOST-SUFFIX | 4 |
+| HOST-KEYWORD | 1 |
+| HOST | 11 |
 | USER-AGENT | 4 |
 ## 重复统计
 
@@ -32,9 +32,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41534   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/AdvertisingLite.list)   |   0.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/China.list)   |   0.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73342   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat/ChinaTest.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41534   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat.list)   |   0.0% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat.list)   |   0.17% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73337   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList/Repeat.list)   |   0.0% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -54,9 +54,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 本项目的白名单分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的白名单分流规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/WhiteList/WhiteList.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/WhiteList/WhiteList.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

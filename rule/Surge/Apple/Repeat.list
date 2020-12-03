@@ -1,0 +1,144 @@
+# NAME: Apple 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-04 23:35:37
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件
+# Apple 与 Advertising 共 2 条规则重复
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+# Apple 与 AdvertisingTest 共 2 条规则重复
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+# Apple 与 AdvertisingLite 共 2 条规则重复
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+# Apple 与 AppleBlock 共 1 条规则重复
+DOMAIN-SUFFIX,appsto.re
+# Apple 与 AppleNews 共 1 条规则重复
+DOMAIN,apple.comscoreresearch.com
+# Apple 与 BlackList 共 1 条规则重复
+DOMAIN-SUFFIX,appsto.re
+# Apple 与 China 共 12 条规则重复
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+# Apple 与 ChinaTest 共 99 条规则重复
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,adcdownload.apple.com
+DOMAIN-SUFFIX,adcdownload.apple.com.akadns.net
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,appldnld.apple.com
+DOMAIN-SUFFIX,appldnld.g.aaplimg.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,cds-cdn.v.aaplimg.com
+DOMAIN-SUFFIX,cds.apple.com
+DOMAIN-SUFFIX,cds.apple.com.akadns.net
+DOMAIN-SUFFIX,cl2-cn.apple.com
+DOMAIN-SUFFIX,cl2.apple.com.edgekey.net.globalredir.akadns.net
+DOMAIN-SUFFIX,cl4-cn.apple.com
+DOMAIN-SUFFIX,clientflow.apple.com
+DOMAIN-SUFFIX,clientflow.apple.com.akadns.net
+DOMAIN-SUFFIX,configuration.apple.com
+DOMAIN-SUFFIX,configuration.apple.com.akadns.net
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,cstat.apple.com
+DOMAIN-SUFFIX,dd-cdn.origin-apple.com.akadns.net
+DOMAIN-SUFFIX,download.developer.apple.com
+DOMAIN-SUFFIX,gs-loc-cn.apple.com
+DOMAIN-SUFFIX,gs-loc.apple.com
+DOMAIN-SUFFIX,gsp10-ssl-cn.ls.apple.com
+DOMAIN-SUFFIX,gsp11-cn.ls.apple.com
+DOMAIN-SUFFIX,gsp12-cn.ls.apple.com
+DOMAIN-SUFFIX,gsp13-cn.ls.apple.com
+DOMAIN-SUFFIX,gsp4-cn.ls.apple.com
+DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net
+DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
+DOMAIN-SUFFIX,gsp5-cn.ls.apple.com
+DOMAIN-SUFFIX,gspe19-cn-ssl.ls.apple.com
+DOMAIN-SUFFIX,gspe19-cn.ls-apple.com.akadns.net
+DOMAIN-SUFFIX,gspe19-cn.ls.apple.com
+DOMAIN-SUFFIX,gspe21-ssl.ls.apple.com
+DOMAIN-SUFFIX,gspe21.ls.apple.com
+DOMAIN-SUFFIX,gspe35-ssl.ls.apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,icloud-cdn.icloud.com.akadns.net
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.cdn-apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,images.apple.com
+DOMAIN-SUFFIX,images.apple.com.akadns.net
+DOMAIN-SUFFIX,images.apple.com.edgekey.net.globalredir.akadns.net
+DOMAIN-SUFFIX,init-p01md-lb.push-apple.com.akadns.net
+DOMAIN-SUFFIX,init-p01md.apple.com
+DOMAIN-SUFFIX,init-p01st-lb.push-apple.com.akadns.net
+DOMAIN-SUFFIX,init-p01st.push.apple.com
+DOMAIN-SUFFIX,init-s01st-lb.push-apple.com.akadns.net
+DOMAIN-SUFFIX,init-s01st.push.apple.com
+DOMAIN-SUFFIX,iosapps.itunes.g.aaplimg.com
+DOMAIN-SUFFIX,iphone-ld.apple.com
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,itunesconnect.apple.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
+DOMAIN-SUFFIX,mesu-china.apple.com.akadns.net
+DOMAIN-SUFFIX,mesu.apple.com
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net
+DOMAIN-SUFFIX,ocsp.apple.com
+DOMAIN-SUFFIX,oscdn.apple.com
+DOMAIN-SUFFIX,oscdn.origin-apple.com.akadns.net
+DOMAIN-SUFFIX,pancake.apple.com
+DOMAIN-SUFFIX,pancake.cdn-apple.com.akadns.net
+DOMAIN-SUFFIX,phobos.apple.com
+DOMAIN-SUFFIX,prod-support.apple-support.akadns.net
+DOMAIN-SUFFIX,stocks-sparkline-lb.apple.com.akadns.net
+DOMAIN-SUFFIX,store.apple.com
+DOMAIN-SUFFIX,store.apple.com.edgekey.net
+DOMAIN-SUFFIX,store.apple.com.edgekey.net.globalredir.akadns.net
+DOMAIN-SUFFIX,store.storeimages.apple.com.akadns.net
+DOMAIN-SUFFIX,store.storeimages.cdn-apple.com
+DOMAIN-SUFFIX,support-china.apple-support.akadns.net
+DOMAIN-SUFFIX,support.apple.com
+DOMAIN-SUFFIX,swcatalog-cdn.apple.com.akadns.net
+DOMAIN-SUFFIX,swcatalog.apple.com
+DOMAIN-SUFFIX,swcdn.apple.com
+DOMAIN-SUFFIX,swcdn.g.aaplimg.com
+DOMAIN-SUFFIX,swdist.apple.com
+DOMAIN-SUFFIX,swdist.apple.com.akadns.net
+DOMAIN-SUFFIX,swscan-cdn.apple.com.akadns.net
+DOMAIN-SUFFIX,swscan.apple.com
+DOMAIN-SUFFIX,updates-http.cdn-apple.com
+DOMAIN-SUFFIX,updates-http.cdn-apple.com.akadns.net
+DOMAIN-SUFFIX,valid.apple.com
+DOMAIN-SUFFIX,valid.origin-apple.com.akadns.net
+DOMAIN-SUFFIX,www.apple.com
+DOMAIN-SUFFIX,www.apple.com.edgekey.net
+DOMAIN-SUFFIX,www.apple.com.edgekey.net.globalredir.akadns.net
+# Apple 与 SystemOTA 共 3 条规则重复
+DOMAIN-SUFFIX,appldnld.apple.com
+DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
+DOMAIN-SUFFIX,mesu.apple.com
+# Apple 与 Microsoft 共 1 条规则重复
+DOMAIN-SUFFIX,akadns.net
+# Apple 与 Global 共 1 条规则重复
+DOMAIN-SUFFIX,appsto.re
+# Apple 与 Proxy 共 2 条规则重复
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,cdn-apple.com

@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:16:01。
+
+最后检查时间：2020-12-04 23:35:43。
 
 ## 规则统计
 
@@ -27,9 +28,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wikipedia/Repeat/BlackList.list)   |   0.39%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wikipedia/Repeat/Global.list)   |   0.64%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wikipedia/Repeat/Proxy.list)   |   0.20%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wikipedia/Repeat.list)   |   0.39% |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wikipedia/Repeat.list)   |   0.64% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6016   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wikipedia/Repeat.list)   |   0.2% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

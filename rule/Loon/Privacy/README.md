@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:15:59。
+
+最后检查时间：2020-12-04 23:35:42。
 
 ## 规则统计
 
@@ -19,8 +20,8 @@
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN | 19 |
-| DOMAIN-KEYWORD | 3 |
 | DOMAIN-SUFFIX | 2732 |
+| DOMAIN-KEYWORD | 3 |
 ## 重复统计
 
 隐私分流规则，与本项目其他分流规则重复情况统计。
@@ -29,12 +30,12 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 93925   | [2722](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/Advertising.list)   |   2.90%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 110251   | [2725](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/AdvertisingTest.list)   |   2.47%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41837   | [2411](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/AdvertisingLite.list)   |   5.76%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/China.list)   |   0.17%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73346   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/ChinaTest.list)   |   0.00%  |
-|  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google)    | 123   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat/Google.list)   |   2.44%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 94142   | [2723](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   2.89% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 110443   | [2726](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   2.47% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41837   | [2411](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   5.76% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   0.17% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73337   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   0.0% |
+|  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google)    | 124   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   2.42% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -60,8 +61,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 本项目的隐私分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的隐私分流规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

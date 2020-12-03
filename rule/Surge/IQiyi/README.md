@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:16:00。
+
+最后检查时间：2020-12-04 23:35:39。
 
 ## 规则统计
 
@@ -18,10 +19,10 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
+| USER-AGENT | 2 |
 | DOMAIN-KEYWORD | 1 |
 | DOMAIN-SUFFIX | 1 |
 | IP-CIDR | 3 |
-| USER-AGENT | 2 |
 ## 重复统计
 
 爱奇艺分流规则，与本项目其他分流规则重复情况统计。
@@ -30,10 +31,10 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia)    | 28   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat/AsianMedia.list)   |   25.00%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73346   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat/ChinaTest.list)   |   0.00%  |
-|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaIPs)    | 7227   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat/ChinaIPs.list)   |   0.03%  |
-|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 74   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat/ChinaMedia.list)   |   9.46%  |
+|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia)    | 28   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat.list)   |   25.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73337   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat.list)   |   0.0% |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaIPs)    | 7227   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat.list)   |   0.03% |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 74   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi/Repeat.list)   |   9.46% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

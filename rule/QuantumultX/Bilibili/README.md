@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:15:53。
+
+最后检查时间：2020-12-04 23:35:40。
 
 ## 规则统计
 
@@ -18,8 +19,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST-SUFFIX | 12 |
 | USER-AGENT | 1 |
+| HOST-SUFFIX | 12 |
 ## 重复统计
 
 Bilibili分流规则，与本项目其他分流规则重复情况统计。
@@ -28,10 +29,10 @@ Bilibili分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia)    | 28   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/AsianMedia.list)   |   46.43%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/China.list)   |   1.02%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73342   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/ChinaTest.list)   |   0.02%  |
-|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 74   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat/ChinaMedia.list)   |   17.57%  |
+|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia)    | 28   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat.list)   |   46.43% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat.list)   |   1.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73337   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat.list)   |   0.02% |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 74   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili/Repeat.list)   |   17.57% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

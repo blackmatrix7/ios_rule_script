@@ -8,7 +8,8 @@
 
 
 
-最后检查时间：2020-11-29 16:15:53。
+
+最后检查时间：2020-12-04 23:35:42。
 
 ## 规则统计
 
@@ -18,9 +19,9 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 12 |
-| DOMAIN-KEYWORD | 4 |
 | DOMAIN-SUFFIX | 556 |
+| DOMAIN-KEYWORD | 4 |
+| DOMAIN | 12 |
 | IP-CIDR | 7 |
 ## 重复统计
 
@@ -30,45 +31,45 @@ China分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Adobe)    | 34   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Adobe.list)   |   5.88%  |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93615   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Advertising.list)   |   0.01%  |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 109941   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/AdvertisingTest.list)   |   0.01%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41534   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/AdvertisingLite.list)   |   0.01%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Apple)    | 162   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Apple.list)   |   7.41%  |
-|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia)    | 23   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/AsianMedia.list)   |   30.43%  |
-|  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili)    | 12   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Bilibili.list)   |   50.00%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/BlackList.list)   |   1.54%  |
-|  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Blizzard)    | 6   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Blizzard.list)   |   50.00%  |
-|  [ByteDance](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ByteDance)    | 4   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/ByteDance.list)   |   50.00%  |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73332   | [575](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/ChinaTest.list)   |   0.78%  |
-|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 52   | [18](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/ChinaMedia.list)   |   34.62%  |
-|  [DiDi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DiDi)    | 3   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/DiDi.list)   |   100.00%  |
-|  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WhiteList)    | 16   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/WhiteList.list)   |   6.25%  |
-|  [PayPal](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PayPal)    | 4   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/PayPal.list)   |   75.00%  |
-|  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam)    | 16   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Steam.list)   |   43.75%  |
-|  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SteamCN)    | 13   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/SteamCN.list)   |   46.15%  |
-|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game)    | 28   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Game.list)   |   35.71%  |
-|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Microsoft)    | 97   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Microsoft.list)   |   12.37%  |
-|  [Meitu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Meitu)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Meitu.list)   |   100.00%  |
-|  [NetEase](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEase)    | 9   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/NetEase.list)   |   100.00%  |
-|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic)    | 44   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/NetEaseMusic.list)   |   20.45%  |
-|  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Speedtest)    | 4   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Speedtest.list)   |   50.00%  |
-|  [TikTok](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TikTok)    | 10   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/TikTok.list)   |   20.00%  |
-|  [Pinduoduo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Pinduoduo)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Pinduoduo.list)   |   50.00%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Global.list)   |   0.38%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia)    | 233   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/GlobalMedia.list)   |   1.29%  |
-|  [SohuSogo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SohuSogo)    | 10   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/SohuSogo.list)   |   70.00%  |
-|  [Sina](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sina)    | 10   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Sina.list)   |   80.00%  |
-|  [Scholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Scholar)    | 76   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Scholar.list)   |   73.68%  |
-|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy)    | 2754   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Privacy.list)   |   0.04%  |
-|  [Weibo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Weibo)    | 4   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Weibo.list)   |   75.00%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6093   | [34](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Proxy.list)   |   0.56%  |
-|  [Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Himalaya)    | 3   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Himalaya.list)   |   66.67%  |
-|  [Xunlei](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Xunlei)    | 8   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Xunlei.list)   |   12.50%  |
-|  [Tencent](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Tencent)    | 19   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Tencent.list)   |   68.42%  |
-|  [TeamViewer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TeamViewer)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/TeamViewer.list)   |   16.67%  |
-|  [XiaoMi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XiaoMi)    | 7   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/XiaoMi.list)   |   100.00%  |
-|  [Lan](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Lan)    | 20   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat/Lan.list)   |   5.00%  |
+|  [Adobe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Adobe)    | 34   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   5.88% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93831   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   0.01% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 110132   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   0.01% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41534   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   0.01% |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Apple)    | 162   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   7.41% |
+|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia)    | 23   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   30.43% |
+|  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili)    | 12   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   50.0% |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   1.54% |
+|  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Blizzard)    | 6   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   50.0% |
+|  [ByteDance](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ByteDance)    | 4   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   50.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73323   | [575](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   0.78% |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 52   | [18](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   34.62% |
+|  [DiDi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DiDi)    | 3   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   100.0% |
+|  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WhiteList)    | 16   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   6.25% |
+|  [PayPal](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PayPal)    | 4   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   75.0% |
+|  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam)    | 16   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   43.75% |
+|  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SteamCN)    | 13   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   46.15% |
+|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game)    | 28   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   35.71% |
+|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Microsoft)    | 97   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   12.37% |
+|  [Meitu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Meitu)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   100.0% |
+|  [NetEase](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEase)    | 9   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   100.0% |
+|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic)    | 44   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   20.45% |
+|  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Speedtest)    | 4   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   50.0% |
+|  [TikTok](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TikTok)    | 10   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   20.0% |
+|  [Pinduoduo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Pinduoduo)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   50.0% |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   0.38% |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia)    | 233   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   1.29% |
+|  [SohuSogo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SohuSogo)    | 10   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   70.0% |
+|  [Sina](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sina)    | 10   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   80.0% |
+|  [Scholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Scholar)    | 76   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   73.68% |
+|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy)    | 2754   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   0.04% |
+|  [Weibo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Weibo)    | 4   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   75.0% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6016   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   0.4% |
+|  [Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Himalaya)    | 3   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   66.67% |
+|  [Xunlei](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Xunlei)    | 8   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   12.5% |
+|  [Tencent](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Tencent)    | 19   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   68.42% |
+|  [TeamViewer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TeamViewer)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   16.67% |
+|  [XiaoMi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XiaoMi)    | 7   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   100.0% |
+|  [Lan](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Lan)    | 20   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China/Repeat.list)   |   5.0% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -88,10 +89,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 本项目的China分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的China分流规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/China.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Domestic.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

@@ -12,7 +12,8 @@ const getLidRegex = /^https?:\/\/bosp-api\.xiaojukeji\.com\/bosp-api\/lottery\/i
 const getGroupIdRegex = /^https?:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/v2\/index/;
 const getActivityIdRegex = /^https?:\/\/pay\.diditaxi\.com\.cn\/web_wallet\/v2\/wallet\/home/;
 
-let sourceIdConf = {'7mO4XP93fb84VMSC8Xk5vg%3D%3D': 7, 'pDmWW7HoWUkNu2nmJ3HJEQ%3D%3D': 3};
+// let sourceIdConf = {'7mO4XP93fb84VMSC8Xk5vg%3D%3D': 7, 'pDmWW7HoWUkNu2nmJ3HJEQ%3D%3D': 3};
+let sourceIdConf = {}
 let magicJS = MagicJS(scriptName, "INFO");
 magicJS.unifiedPushUrl = magicJS.read('didi_unified_push_url') || magicJS.read('magicjs_unified_push_url');
 
@@ -491,7 +492,7 @@ function PointSignin(activityId, signinDay, userToken){
 // 每日积分签到领取奖励
 function PointLottery(activityId, lotteryId, userToken, signinDay){
   const funcName = '领取积分签到奖励';
-  return new Promise((resolve) =>{
+  return new Promise((resolve, reject) =>{
     try{
       let options = {
         'url': `https://gsh5act.xiaojukeji.com/dpub_data_api/activities/${activityId}/reward_lottery`,
@@ -515,7 +516,7 @@ function PointLottery(activityId, lotteryId, userToken, signinDay){
       magicJS.post(options, (err, resp, data)=>{
         if (err){
           magicJS.logError(`${funcName}失败，请求异常：${err}`);
-          resolve();
+          reject();
         }
         else{
           data = typeof data === 'object' ? JSON.stringify(data) : data;
@@ -531,18 +532,18 @@ function PointLottery(activityId, lotteryId, userToken, signinDay){
           }
           else if(obj.errno === 1){
             let msg = obj.errmsg || `${funcName}异常`;
-            resolve(msg);
+            reject(msg);
           }
           else{
             magicJS.logWarning(`${funcName}失败，响应异常：${data}`);
-            resolve();
+            reject();
           }
         }
       })
     }
     catch (err){
       magicJS.logError(`${funcName}失败，异常信息：${err}`);
-      resolve();
+      reject();
     }
   });
 }
@@ -1012,7 +1013,8 @@ function CollectWools(index, actId, ticket, appId='common'){
           pointContent = `连续签到${pointSigninDay}天`;
           if (pointPrizeIds.length >= pointSigninDay){
             // 签到后领取奖励
-            let prizeContent = await PointLottery(pointActivityId, pointPrizeIds[pointSigninDay-1], token, pointSigninDay);
+            await magicJS.sleep(5000);
+            let prizeContent = await  magicJS.retry(PointLottery, 3, 1000)(pointActivityId, pointPrizeIds[pointSigninDay-1], token, pointSigninDay);
             if (prizeContent){
               pointContent += `，${prizeContent}`;
             }
@@ -1067,7 +1069,8 @@ function CollectWools(index, actId, ticket, appId='common'){
       if (sysMsg){
         accountSubTitle += '\n📧系统消息';
         magicJS.logInfo(sysMsg);
-        accountContent += `\n${sysMsg}`;
+        if (accountContent) accountContent += '\n';
+        accountContent += sysMsg;
       }
       else{
         magicJS.logInfo('没有任何系统消息');

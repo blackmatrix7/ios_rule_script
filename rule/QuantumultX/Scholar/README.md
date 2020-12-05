@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-05 03:32:58。
+最后检查时间：2020-12-06 03:32:53。
 
 ## 规则统计
 
@@ -30,7 +30,7 @@ Scholar分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Scholar/Repeat.list)   |   0.13% |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Scholar/Repeat.list)   |   9.44% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73337   | [60](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Scholar/Repeat.list)   |   0.08% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73274   | [60](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Scholar/Repeat.list)   |   0.08% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6022   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Scholar/Repeat.list)   |   0.02% |
 ## 配置说明
 

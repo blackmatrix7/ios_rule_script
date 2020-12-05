@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-05 03:32:58。
+最后检查时间：2020-12-06 03:32:54。
 
 ## 规则统计
 
@@ -31,10 +31,10 @@ Google分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 94142   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat.list)   |   0.01% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 110443   | [23](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat.list)   |   0.02% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 110453   | [23](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat.list)   |   0.02% |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41837   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat.list)   |   0.02% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 781   | [39](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat.list)   |   4.99% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73337   | [43](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat.list)   |   0.06% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73274   | [43](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat.list)   |   0.06% |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/YouTube)    | 14   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat.list)   |   21.43% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 826   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat.list)   |   6.78% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 279   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google/Repeat.list)   |   1.43% |

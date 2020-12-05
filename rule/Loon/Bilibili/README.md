@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-05 03:32:58。
+最后检查时间：2020-12-06 03:32:53。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@ Bilibili分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili/Repeat.list)   |   46.43% |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili/Repeat.list)   |   1.01% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73337   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili/Repeat.list)   |   0.02% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73274   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili/Repeat.list)   |   0.02% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 74   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili/Repeat.list)   |   17.57% |
 ## 配置说明
 

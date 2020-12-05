@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-05 03:33:00。
+最后检查时间：2020-12-06 03:32:56。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XiaoMi/Repeat.list)   |   1.21% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73323   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XiaoMi/Repeat.list)   |   0.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73260   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XiaoMi/Repeat.list)   |   0.01% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-06 03:32:55。
+最后检查时间：2020-12-07 03:33:26。
 
 ## 规则统计
 
@@ -30,7 +30,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sina/Repeat.list)   |   1.38% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73260   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sina/Repeat.list)   |   0.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73255   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sina/Repeat.list)   |   0.01% |
 |  [Weibo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Weibo)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sina/Repeat.list)   |   100.0% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6016   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sina/Repeat.list)   |   0.02% |
 ## 配置说明

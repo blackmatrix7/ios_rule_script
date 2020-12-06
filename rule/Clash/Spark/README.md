@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-06 03:32:55。
+最后检查时间：2020-12-07 03:33:26。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@ Spotify分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93831   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat.list)   |   0.0% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 110142   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat.list)   |   0.0% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 110171   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat.list)   |   0.0% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat.list)   |   0.39% |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google)    | 121   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat.list)   |   0.83% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark/Repeat.list)   |   0.25% |

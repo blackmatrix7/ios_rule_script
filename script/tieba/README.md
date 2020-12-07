@@ -41,7 +41,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tie
 
 ```ini
 [Remote Script]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.loonscript, tag=贴吧_每日签到, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.lnscript, tag=贴吧_每日签到, enabled=true
 ```
 
 ## 获取Cookie

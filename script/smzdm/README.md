@@ -32,7 +32,7 @@ Surge推荐使用模块进行部署，模块地址：https://raw.githubuserconte
 
 ```ini
 [Remote Script]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.loon, tag=什么值得买_每日签到, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.lnscript, tag=什么值得买_每日签到, enabled=true
 ```
 
 ### Quantumult X
@@ -41,7 +41,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smz
 
 ```ini
 [rewrite_remote]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.quanx, tag=什么值得买_去广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.qxrewrite, tag=什么值得买_获取Cookie, update-interval=86400, opt-parser=false, enabled=true
 
 [task_local]
 5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.js, tag=什么值得买每日签到
@@ -131,7 +131,7 @@ hostname = homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com
 
 ```ini
 [Remote Script]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.loon, tag=什么值得买_去广告, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.lnscript, tag=什么值得买_去广告, enabled=true
 ```
 
 ### Quantumult X
@@ -140,7 +140,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smz
 
 ```ini
 [rewrite_remote]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.quanx, tag=什么值得买_去广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite, tag=什么值得买_去广告, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 ## 统一推送

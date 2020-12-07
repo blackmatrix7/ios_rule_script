@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-07 03:33:24。
+最后检查时间：2020-12-08 03:34:41。
 
 ## 规则统计
 
@@ -30,11 +30,11 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 94142   | [2723](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   2.89% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 110482   | [2726](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   2.47% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 94187   | [2723](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   2.89% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 110503   | [2726](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   2.47% |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41837   | [2411](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   5.76% |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   0.17% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73269   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73331   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   0.0% |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google)    | 124   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy/Repeat.list)   |   2.42% |
 ## 配置说明
 

@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-12-07 03:33:22。
+最后检查时间：2020-12-08 03:34:39。
 
 ## 规则统计
 
@@ -32,7 +32,7 @@
 | ---- | ---- | ---- | ------ |
 |  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Blizzard)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   100.0% |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   1.69% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73269   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   0.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73331   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   0.01% |
 |  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Discord)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   100.0% |
 |  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Steam)    | 16   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   100.0% |
 |  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SteamCN)    | 13   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Repeat.list)   |   38.46% |

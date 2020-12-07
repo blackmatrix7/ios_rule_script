@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-07 03:33:22。
+最后检查时间：2020-12-08 03:34:39。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/XiaoMi/Repeat.list)   |   1.18% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73269   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/XiaoMi/Repeat.list)   |   0.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73331   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/XiaoMi/Repeat.list)   |   0.01% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

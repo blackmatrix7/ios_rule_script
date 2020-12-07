@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-07 03:33:21。
+最后检查时间：2020-12-08 03:34:38。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@ iOS系统升级分流规则，与本项目其他分流规则重复情况统计�
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 163   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SystemOTA/Repeat.list)   |   1.84% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73269   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SystemOTA/Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73331   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SystemOTA/Repeat.list)   |   0.0% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

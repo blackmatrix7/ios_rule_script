@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-07 03:33:25。
+最后检查时间：2020-12-08 03:34:42。
 
 ## 规则统计
 
@@ -29,11 +29,11 @@ Google分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93831   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat.list)   |   0.01% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 110171   | [23](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat.list)   |   0.02% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93876   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat.list)   |   0.01% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 110192   | [23](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat.list)   |   0.02% |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41534   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat.list)   |   0.02% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [39](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat.list)   |   5.01% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73255   | [43](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat.list)   |   0.06% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73317   | [43](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat.list)   |   0.06% |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube)    | 9   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat.list)   |   33.33% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat.list)   |   7.13% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia)    | 233   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google/Repeat.list)   |   1.72% |

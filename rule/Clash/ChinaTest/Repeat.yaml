@@ -1,14 +1,14 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-07 03:33:20
+# UPDATED: 2020-12-08 03:34:37
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件
 payload:
 # ChinaTest 与 Adobe 共 3 条规则重复
   - DOMAIN-SUFFIX,ctldl.windowsupdate.com
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,symcd.com
-# ChinaTest 与 Advertising 共 1142 条规则重复
+# ChinaTest 与 Advertising 共 1141 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -895,7 +895,6 @@ payload:
   - DOMAIN-SUFFIX,tuitiger.com
   - DOMAIN-SUFFIX,tukexiu.com
   - DOMAIN-SUFFIX,tunanchangban.com
-  - DOMAIN-SUFFIX,tvzhe.com
   - DOMAIN-SUFFIX,twcczhu.com
   - DOMAIN-SUFFIX,twh5.com
   - DOMAIN-SUFFIX,tylll.com
@@ -1151,7 +1150,7 @@ payload:
   - DOMAIN-SUFFIX,zzbyc.xyz
   - DOMAIN-SUFFIX,zzpzero.com
   - DOMAIN-SUFFIX,zzsdtzb.com
-# ChinaTest 与 AdvertisingTest 共 1172 条规则重复
+# ChinaTest 与 AdvertisingTest 共 1171 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -2067,7 +2066,6 @@ payload:
   - DOMAIN-SUFFIX,tuitiger.com
   - DOMAIN-SUFFIX,tukexiu.com
   - DOMAIN-SUFFIX,tunanchangban.com
-  - DOMAIN-SUFFIX,tvzhe.com
   - DOMAIN-SUFFIX,twcczhu.com
   - DOMAIN-SUFFIX,twh5.com
   - DOMAIN-SUFFIX,tylll.com

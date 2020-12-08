@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-08 03:34:39。
+最后检查时间：2020-12-09 03:34:34。
 
 ## 规则统计
 
@@ -30,12 +30,12 @@ Adobe分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93876   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.01% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 110192   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.01% |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41534   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.01% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93875   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.01% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 110231   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.01% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41518   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.01% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 781   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.9% |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.34% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73331   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.0% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 583   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.34% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73163   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.0% |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft)    | 97   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   1.03% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 825   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.12% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6022   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Adobe/Repeat.list)   |   0.13% |

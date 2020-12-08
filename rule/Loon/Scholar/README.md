@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-08 03:34:41。
+最后检查时间：2020-12-09 03:34:36。
 
 ## 规则统计
 
@@ -29,8 +29,8 @@ Scholar分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 781   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar/Repeat.list)   |   0.13% |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar/Repeat.list)   |   9.44% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73331   | [60](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar/Repeat.list)   |   0.08% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 583   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar/Repeat.list)   |   9.61% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73163   | [60](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar/Repeat.list)   |   0.08% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6022   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar/Repeat.list)   |   0.02% |
 ## 配置说明
 

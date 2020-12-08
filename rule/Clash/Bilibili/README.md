@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-08 03:34:42。
+最后检查时间：2020-12-09 03:34:36。
 
 ## 规则统计
 
@@ -29,8 +29,8 @@ Bilibili分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia)    | 23   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili/Repeat.list)   |   52.17% |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili/Repeat.list)   |   1.04% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73317   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili/Repeat.list)   |   0.02% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 569   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili/Repeat.list)   |   1.05% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73149   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili/Repeat.list)   |   0.02% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 52   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili/Repeat.list)   |   23.08% |
 ## 配置说明
 

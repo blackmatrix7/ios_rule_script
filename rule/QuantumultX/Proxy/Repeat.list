@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-08 03:34:37
+# UPDATED: 2020-12-09 03:34:32
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件
 # Proxy 与 Adobe 共 8 条规则重复
 HOST-SUFFIX,behance.net
@@ -1015,10 +1015,9 @@ IP-CIDR,75.126.0.0/16
 USER-AGENT,battleroyale*
 USER-AGENT,roam*
 USER-AGENT,whatsapp*
-# Proxy 与 China 共 24 条规则重复
+# Proxy 与 China 共 23 条规则重复
 HOST-SUFFIX,akamaized.net
 HOST-SUFFIX,bet365.com
-HOST-SUFFIX,cdn-apple.com
 HOST-SUFFIX,culturedcode.com
 HOST-SUFFIX,gameloft.com
 HOST-SUFFIX,getpricetag.com
@@ -1045,9 +1044,9 @@ HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,akamaized.net
 HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,bet365.com
-HOST-SUFFIX,cdn-apple.com
 HOST-SUFFIX,culturedcode.com
 HOST-SUFFIX,cz.cc
+HOST-SUFFIX,edgekey.net
 HOST-SUFFIX,gameloft.com
 HOST-SUFFIX,getpricetag.com
 HOST-SUFFIX,hao123.com

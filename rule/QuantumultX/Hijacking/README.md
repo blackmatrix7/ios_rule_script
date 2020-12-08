@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-08 03:34:40。
+最后检查时间：2020-12-09 03:34:35。
 
 ## 规则统计
 
@@ -30,10 +30,10 @@ Hijacking分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93876   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat.list)   |   0.22% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 110192   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat.list)   |   0.19% |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41534   | [202](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat.list)   |   0.49% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73331   | [54](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat.list)   |   0.07% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 93875   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat.list)   |   0.22% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 110231   | [208](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat.list)   |   0.19% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 41518   | [202](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat.list)   |   0.49% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73163   | [54](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking/Repeat.list)   |   0.07% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

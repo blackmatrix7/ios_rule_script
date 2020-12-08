@@ -1,7 +1,7 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-08 03:34:37
+# UPDATED: 2020-12-09 03:34:32
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件
 # ChinaTest 与 Adobe 共 3 条规则重复
 DOMAIN-SUFFIX,ctldl.windowsupdate.com
@@ -328,6 +328,7 @@ DOMAIN-SUFFIX,cm-analysis.com
 DOMAIN-SUFFIX,cmcore.com
 DOMAIN-SUFFIX,cnbanbao.com
 DOMAIN-SUFFIX,cnkok.com
+DOMAIN-SUFFIX,cnliken.com
 DOMAIN-SUFFIX,cnsjx.net
 DOMAIN-SUFFIX,cnxad.com
 DOMAIN-SUFFIX,cnzz.com
@@ -521,7 +522,6 @@ DOMAIN-SUFFIX,hysdknb.com
 DOMAIN-SUFFIX,hyyazhaji.com
 DOMAIN-SUFFIX,hyz86.com
 DOMAIN-SUFFIX,ia22.com
-DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,id6.me
 DOMAIN-SUFFIX,ideng.com
 DOMAIN-SUFFIX,idting.com
@@ -1483,6 +1483,7 @@ DOMAIN-SUFFIX,cm-analysis.com
 DOMAIN-SUFFIX,cmcore.com
 DOMAIN-SUFFIX,cnbanbao.com
 DOMAIN-SUFFIX,cnkok.com
+DOMAIN-SUFFIX,cnliken.com
 DOMAIN-SUFFIX,cnsjx.net
 DOMAIN-SUFFIX,cnxad.com
 DOMAIN-SUFFIX,cnzz.com
@@ -1684,7 +1685,6 @@ DOMAIN-SUFFIX,hysdknb.com
 DOMAIN-SUFFIX,hyyazhaji.com
 DOMAIN-SUFFIX,hyz86.com
 DOMAIN-SUFFIX,ia22.com
-DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,id6.me
 DOMAIN-SUFFIX,ideng.com
 DOMAIN-SUFFIX,idting.com
@@ -2321,7 +2321,7 @@ DOMAIN-SUFFIX,zyiis.net
 DOMAIN-SUFFIX,zzbyc.xyz
 DOMAIN-SUFFIX,zzpzero.com
 DOMAIN-SUFFIX,zzsdtzb.com
-# ChinaTest 与 AdvertisingLite 共 670 条规则重复
+# ChinaTest 与 AdvertisingLite 共 669 条规则重复
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,0024aaaa.com
 DOMAIN-SUFFIX,002lzj.com
@@ -2623,7 +2623,6 @@ DOMAIN-SUFFIX,huoying666.com
 DOMAIN-SUFFIX,hyyazhaji.com
 DOMAIN-SUFFIX,hyz86.com
 DOMAIN-SUFFIX,ia22.com
-DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,ieeod0.com
 DOMAIN-SUFFIX,igexin.com
 DOMAIN-SUFFIX,iiad.com
@@ -2992,106 +2991,17 @@ DOMAIN-SUFFIX,zlongad.com
 DOMAIN-SUFFIX,zry8181.com
 DOMAIN-SUFFIX,ztvx8.com
 DOMAIN-SUFFIX,zzbyc.xyz
-# ChinaTest 与 Apple 共 99 条规则重复
+# ChinaTest 与 Apple 共 10 条规则重复
 DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,adcdownload.apple.com
-DOMAIN-SUFFIX,adcdownload.apple.com.akadns.net
 DOMAIN-SUFFIX,akadns.net
-DOMAIN-SUFFIX,appldnld.apple.com
 DOMAIN-SUFFIX,appldnld.g.aaplimg.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,apps.mzstatic.com
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cds-cdn.v.aaplimg.com
-DOMAIN-SUFFIX,cds.apple.com
-DOMAIN-SUFFIX,cds.apple.com.akadns.net
-DOMAIN-SUFFIX,cl2-cn.apple.com
-DOMAIN-SUFFIX,cl2.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN-SUFFIX,cl4-cn.apple.com
-DOMAIN-SUFFIX,clientflow.apple.com
-DOMAIN-SUFFIX,clientflow.apple.com.akadns.net
-DOMAIN-SUFFIX,configuration.apple.com
-DOMAIN-SUFFIX,configuration.apple.com.akadns.net
 DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,cstat.apple.com
-DOMAIN-SUFFIX,dd-cdn.origin-apple.com.akadns.net
-DOMAIN-SUFFIX,download.developer.apple.com
-DOMAIN-SUFFIX,gs-loc-cn.apple.com
-DOMAIN-SUFFIX,gs-loc.apple.com
-DOMAIN-SUFFIX,gsp10-ssl-cn.ls.apple.com
-DOMAIN-SUFFIX,gsp11-cn.ls.apple.com
-DOMAIN-SUFFIX,gsp12-cn.ls.apple.com
-DOMAIN-SUFFIX,gsp13-cn.ls.apple.com
-DOMAIN-SUFFIX,gsp4-cn.ls.apple.com
-DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net
-DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN-SUFFIX,gsp5-cn.ls.apple.com
-DOMAIN-SUFFIX,gspe19-cn-ssl.ls.apple.com
-DOMAIN-SUFFIX,gspe19-cn.ls-apple.com.akadns.net
-DOMAIN-SUFFIX,gspe19-cn.ls.apple.com
-DOMAIN-SUFFIX,gspe21-ssl.ls.apple.com
-DOMAIN-SUFFIX,gspe21.ls.apple.com
-DOMAIN-SUFFIX,gspe35-ssl.ls.apple.com
-DOMAIN-SUFFIX,iadsdk.apple.com
-DOMAIN-SUFFIX,icloud-cdn.icloud.com.akadns.net
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud.cdn-apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,images.apple.com
-DOMAIN-SUFFIX,images.apple.com.akadns.net
-DOMAIN-SUFFIX,images.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN-SUFFIX,init-p01md-lb.push-apple.com.akadns.net
-DOMAIN-SUFFIX,init-p01md.apple.com
-DOMAIN-SUFFIX,init-p01st-lb.push-apple.com.akadns.net
-DOMAIN-SUFFIX,init-p01st.push.apple.com
-DOMAIN-SUFFIX,init-s01st-lb.push-apple.com.akadns.net
-DOMAIN-SUFFIX,init-s01st.push.apple.com
 DOMAIN-SUFFIX,iosapps.itunes.g.aaplimg.com
-DOMAIN-SUFFIX,iphone-ld.apple.com
-DOMAIN-SUFFIX,itunes-apple.com.akadns.net
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,itunesconnect.apple.com
 DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
-DOMAIN-SUFFIX,mesu-china.apple.com.akadns.net
-DOMAIN-SUFFIX,mesu.apple.com
-DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net
-DOMAIN-SUFFIX,ocsp.apple.com
-DOMAIN-SUFFIX,oscdn.apple.com
-DOMAIN-SUFFIX,oscdn.origin-apple.com.akadns.net
-DOMAIN-SUFFIX,pancake.apple.com
-DOMAIN-SUFFIX,pancake.cdn-apple.com.akadns.net
-DOMAIN-SUFFIX,phobos.apple.com
-DOMAIN-SUFFIX,prod-support.apple-support.akadns.net
-DOMAIN-SUFFIX,stocks-sparkline-lb.apple.com.akadns.net
-DOMAIN-SUFFIX,store.apple.com
-DOMAIN-SUFFIX,store.apple.com.edgekey.net
-DOMAIN-SUFFIX,store.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN-SUFFIX,store.storeimages.apple.com.akadns.net
-DOMAIN-SUFFIX,store.storeimages.cdn-apple.com
-DOMAIN-SUFFIX,support-china.apple-support.akadns.net
-DOMAIN-SUFFIX,support.apple.com
-DOMAIN-SUFFIX,swcatalog-cdn.apple.com.akadns.net
-DOMAIN-SUFFIX,swcatalog.apple.com
-DOMAIN-SUFFIX,swcdn.apple.com
 DOMAIN-SUFFIX,swcdn.g.aaplimg.com
-DOMAIN-SUFFIX,swdist.apple.com
-DOMAIN-SUFFIX,swdist.apple.com.akadns.net
-DOMAIN-SUFFIX,swscan-cdn.apple.com.akadns.net
-DOMAIN-SUFFIX,swscan.apple.com
-DOMAIN-SUFFIX,updates-http.cdn-apple.com
-DOMAIN-SUFFIX,updates-http.cdn-apple.com.akadns.net
-DOMAIN-SUFFIX,valid.apple.com
-DOMAIN-SUFFIX,valid.origin-apple.com.akadns.net
-DOMAIN-SUFFIX,www.apple.com
-DOMAIN-SUFFIX,www.apple.com.edgekey.net
-DOMAIN-SUFFIX,www.apple.com.edgekey.net.globalredir.akadns.net
 # ChinaTest 与 AsianMedia 共 14 条规则重复
 DOMAIN-SUFFIX,71.am.com
 DOMAIN-SUFFIX,acg.tv
@@ -3120,10 +3030,11 @@ DOMAIN-SUFFIX,biligame.net
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
-# ChinaTest 与 BlackList 共 17 条规则重复
+# ChinaTest 与 BlackList 共 18 条规则重复
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,culturedcode.com
+DOMAIN-SUFFIX,edgekey.net
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,licdn.com
@@ -3147,7 +3058,7 @@ DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,toutiaocloud.com
 DOMAIN-SUFFIX,toutiaocloud.net
-# ChinaTest 与 China 共 589 条规则重复
+# ChinaTest 与 China 共 579 条规则重复
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,client.amplifi.com
@@ -3156,9 +3067,7 @@ DOMAIN,ip.istatmenus.app
 DOMAIN,mtalk.google.com
 DOMAIN,sms.imagetasks.com
 DOMAIN,speedtest.macpaw.com
-DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,beplay
-DOMAIN-KEYWORD,icloud.com.akadns.net
 DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,12306.cn
@@ -3218,11 +3127,7 @@ DOMAIN-SUFFIX,animebytes.tv
 DOMAIN-SUFFIX,animetorrents.me
 DOMAIN-SUFFIX,annualreviews.org
 DOMAIN-SUFFIX,api.crisp.chat
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,appshike.com
-DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,aps.org
 DOMAIN-SUFFIX,ascelibrary.org
 DOMAIN-SUFFIX,asm.org
@@ -3267,7 +3172,6 @@ DOMAIN-SUFFIX,ccgslb.com
 DOMAIN-SUFFIX,ccgslb.net
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cctvpic.com
-DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cdn9-okzy.com
 DOMAIN-SUFFIX,chaoxing.com
 DOMAIN-SUFFIX,chdbits.co
@@ -3367,7 +3271,6 @@ DOMAIN-SUFFIX,hddolby.com
 DOMAIN-SUFFIX,hdhome.org
 DOMAIN-SUFFIX,hdsky.me
 DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,hicloud.com
 DOMAIN-SUFFIX,hitv.com
 DOMAIN-SUFFIX,hkserversolution.com
 DOMAIN-SUFFIX,hollisterco.com
@@ -3383,8 +3286,6 @@ DOMAIN-SUFFIX,icedropper.com
 DOMAIN-SUFFIX,icetorrent.org
 DOMAIN-SUFFIX,icevirtuallibrary.com
 DOMAIN-SUFFIX,iciba.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,ieee.org
 DOMAIN-SUFFIX,iesdouyin.com
@@ -3777,10 +3678,6 @@ DOMAIN-SUFFIX,didiglobal.com
 DOMAIN-SUFFIX,udache.com
 # ChinaTest 与 WhiteList 共 1 条规则重复
 DOMAIN,analytics.strava.com
-# ChinaTest 与 SystemOTA 共 3 条规则重复
-DOMAIN-SUFFIX,appldnld.apple.com
-DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
-DOMAIN-SUFFIX,mesu.apple.com
 # ChinaTest 与 PayPal 共 4 条规则重复
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me
@@ -4065,9 +3962,9 @@ DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,bet365.com
-DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,culturedcode.com
 DOMAIN-SUFFIX,cz.cc
+DOMAIN-SUFFIX,edgekey.net
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,hao123.com

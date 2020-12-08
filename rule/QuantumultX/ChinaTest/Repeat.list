@@ -1,7 +1,7 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-08 03:34:37
+# UPDATED: 2020-12-09 03:34:31
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件
 # ChinaTest 与 Adobe 共 3 条规则重复
 HOST-SUFFIX,ctldl.windowsupdate.com
@@ -328,6 +328,7 @@ HOST-SUFFIX,cm-analysis.com
 HOST-SUFFIX,cmcore.com
 HOST-SUFFIX,cnbanbao.com
 HOST-SUFFIX,cnkok.com
+HOST-SUFFIX,cnliken.com
 HOST-SUFFIX,cnsjx.net
 HOST-SUFFIX,cnxad.com
 HOST-SUFFIX,cnzz.com
@@ -521,7 +522,6 @@ HOST-SUFFIX,hysdknb.com
 HOST-SUFFIX,hyyazhaji.com
 HOST-SUFFIX,hyz86.com
 HOST-SUFFIX,ia22.com
-HOST-SUFFIX,iadsdk.apple.com
 HOST-SUFFIX,id6.me
 HOST-SUFFIX,ideng.com
 HOST-SUFFIX,idting.com
@@ -1483,6 +1483,7 @@ HOST-SUFFIX,cm-analysis.com
 HOST-SUFFIX,cmcore.com
 HOST-SUFFIX,cnbanbao.com
 HOST-SUFFIX,cnkok.com
+HOST-SUFFIX,cnliken.com
 HOST-SUFFIX,cnsjx.net
 HOST-SUFFIX,cnxad.com
 HOST-SUFFIX,cnzz.com
@@ -1684,7 +1685,6 @@ HOST-SUFFIX,hysdknb.com
 HOST-SUFFIX,hyyazhaji.com
 HOST-SUFFIX,hyz86.com
 HOST-SUFFIX,ia22.com
-HOST-SUFFIX,iadsdk.apple.com
 HOST-SUFFIX,id6.me
 HOST-SUFFIX,ideng.com
 HOST-SUFFIX,idting.com
@@ -2321,7 +2321,7 @@ HOST-SUFFIX,zyiis.net
 HOST-SUFFIX,zzbyc.xyz
 HOST-SUFFIX,zzpzero.com
 HOST-SUFFIX,zzsdtzb.com
-# ChinaTest 与 AdvertisingLite 共 670 条规则重复
+# ChinaTest 与 AdvertisingLite 共 669 条规则重复
 HOST-SUFFIX,000dn.com
 HOST-SUFFIX,0024aaaa.com
 HOST-SUFFIX,002lzj.com
@@ -2623,7 +2623,6 @@ HOST-SUFFIX,huoying666.com
 HOST-SUFFIX,hyyazhaji.com
 HOST-SUFFIX,hyz86.com
 HOST-SUFFIX,ia22.com
-HOST-SUFFIX,iadsdk.apple.com
 HOST-SUFFIX,ieeod0.com
 HOST-SUFFIX,igexin.com
 HOST-SUFFIX,iiad.com
@@ -2992,106 +2991,17 @@ HOST-SUFFIX,zlongad.com
 HOST-SUFFIX,zry8181.com
 HOST-SUFFIX,ztvx8.com
 HOST-SUFFIX,zzbyc.xyz
-# ChinaTest 与 Apple 共 99 条规则重复
+# ChinaTest 与 Apple 共 10 条规则重复
 HOST-SUFFIX,aaplimg.com
-HOST-SUFFIX,adcdownload.apple.com
-HOST-SUFFIX,adcdownload.apple.com.akadns.net
 HOST-SUFFIX,akadns.net
-HOST-SUFFIX,appldnld.apple.com
 HOST-SUFFIX,appldnld.g.aaplimg.com
-HOST-SUFFIX,apple-cloudkit.com
-HOST-SUFFIX,apple.co
-HOST-SUFFIX,apple.com
-HOST-SUFFIX,apps.apple.com
 HOST-SUFFIX,apps.mzstatic.com
-HOST-SUFFIX,appstore.com
-HOST-SUFFIX,cdn-apple.com
 HOST-SUFFIX,cds-cdn.v.aaplimg.com
-HOST-SUFFIX,cds.apple.com
-HOST-SUFFIX,cds.apple.com.akadns.net
-HOST-SUFFIX,cl2-cn.apple.com
-HOST-SUFFIX,cl2.apple.com.edgekey.net.globalredir.akadns.net
-HOST-SUFFIX,cl4-cn.apple.com
-HOST-SUFFIX,clientflow.apple.com
-HOST-SUFFIX,clientflow.apple.com.akadns.net
-HOST-SUFFIX,configuration.apple.com
-HOST-SUFFIX,configuration.apple.com.akadns.net
 HOST-SUFFIX,crashlytics.com
-HOST-SUFFIX,cstat.apple.com
-HOST-SUFFIX,dd-cdn.origin-apple.com.akadns.net
-HOST-SUFFIX,download.developer.apple.com
-HOST-SUFFIX,gs-loc-cn.apple.com
-HOST-SUFFIX,gs-loc.apple.com
-HOST-SUFFIX,gsp10-ssl-cn.ls.apple.com
-HOST-SUFFIX,gsp11-cn.ls.apple.com
-HOST-SUFFIX,gsp12-cn.ls.apple.com
-HOST-SUFFIX,gsp13-cn.ls.apple.com
-HOST-SUFFIX,gsp4-cn.ls.apple.com
-HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net
-HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
-HOST-SUFFIX,gsp5-cn.ls.apple.com
-HOST-SUFFIX,gspe19-cn-ssl.ls.apple.com
-HOST-SUFFIX,gspe19-cn.ls-apple.com.akadns.net
-HOST-SUFFIX,gspe19-cn.ls.apple.com
-HOST-SUFFIX,gspe21-ssl.ls.apple.com
-HOST-SUFFIX,gspe21.ls.apple.com
-HOST-SUFFIX,gspe35-ssl.ls.apple.com
-HOST-SUFFIX,iadsdk.apple.com
-HOST-SUFFIX,icloud-cdn.icloud.com.akadns.net
-HOST-SUFFIX,icloud-content.com
-HOST-SUFFIX,icloud.cdn-apple.com
-HOST-SUFFIX,icloud.com
-HOST-SUFFIX,images.apple.com
-HOST-SUFFIX,images.apple.com.akadns.net
-HOST-SUFFIX,images.apple.com.edgekey.net.globalredir.akadns.net
-HOST-SUFFIX,init-p01md-lb.push-apple.com.akadns.net
-HOST-SUFFIX,init-p01md.apple.com
-HOST-SUFFIX,init-p01st-lb.push-apple.com.akadns.net
-HOST-SUFFIX,init-p01st.push.apple.com
-HOST-SUFFIX,init-s01st-lb.push-apple.com.akadns.net
-HOST-SUFFIX,init-s01st.push.apple.com
 HOST-SUFFIX,iosapps.itunes.g.aaplimg.com
-HOST-SUFFIX,iphone-ld.apple.com
-HOST-SUFFIX,itunes-apple.com.akadns.net
-HOST-SUFFIX,itunes.apple.com
-HOST-SUFFIX,itunesconnect.apple.com
 HOST-SUFFIX,me.com
-HOST-SUFFIX,mesu-cdn.apple.com.akadns.net
-HOST-SUFFIX,mesu-china.apple.com.akadns.net
-HOST-SUFFIX,mesu.apple.com
-HOST-SUFFIX,music.apple.com
 HOST-SUFFIX,mzstatic.com
-HOST-SUFFIX,ocsp-lb.apple.com.akadns.net
-HOST-SUFFIX,ocsp.apple.com
-HOST-SUFFIX,oscdn.apple.com
-HOST-SUFFIX,oscdn.origin-apple.com.akadns.net
-HOST-SUFFIX,pancake.apple.com
-HOST-SUFFIX,pancake.cdn-apple.com.akadns.net
-HOST-SUFFIX,phobos.apple.com
-HOST-SUFFIX,prod-support.apple-support.akadns.net
-HOST-SUFFIX,stocks-sparkline-lb.apple.com.akadns.net
-HOST-SUFFIX,store.apple.com
-HOST-SUFFIX,store.apple.com.edgekey.net
-HOST-SUFFIX,store.apple.com.edgekey.net.globalredir.akadns.net
-HOST-SUFFIX,store.storeimages.apple.com.akadns.net
-HOST-SUFFIX,store.storeimages.cdn-apple.com
-HOST-SUFFIX,support-china.apple-support.akadns.net
-HOST-SUFFIX,support.apple.com
-HOST-SUFFIX,swcatalog-cdn.apple.com.akadns.net
-HOST-SUFFIX,swcatalog.apple.com
-HOST-SUFFIX,swcdn.apple.com
 HOST-SUFFIX,swcdn.g.aaplimg.com
-HOST-SUFFIX,swdist.apple.com
-HOST-SUFFIX,swdist.apple.com.akadns.net
-HOST-SUFFIX,swscan-cdn.apple.com.akadns.net
-HOST-SUFFIX,swscan.apple.com
-HOST-SUFFIX,updates-http.cdn-apple.com
-HOST-SUFFIX,updates-http.cdn-apple.com.akadns.net
-HOST-SUFFIX,valid.apple.com
-HOST-SUFFIX,valid.origin-apple.com.akadns.net
-HOST-SUFFIX,www.apple.com
-HOST-SUFFIX,www.apple.com.edgekey.net
-HOST-SUFFIX,www.apple.com.edgekey.net.globalredir.akadns.net
 # ChinaTest 与 AsianMedia 共 14 条规则重复
 HOST-SUFFIX,71.am.com
 HOST-SUFFIX,acg.tv
@@ -3120,10 +3030,11 @@ HOST-SUFFIX,biligame.net
 HOST-SUFFIX,bilivideo.com
 HOST-SUFFIX,hdslb.com
 HOST-SUFFIX,im9.com
-# ChinaTest 与 BlackList 共 17 条规则重复
+# ChinaTest 与 BlackList 共 18 条规则重复
 HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,culturedcode.com
+HOST-SUFFIX,edgekey.net
 HOST-SUFFIX,getpricetag.com
 HOST-SUFFIX,ip.sb
 HOST-SUFFIX,licdn.com
@@ -3147,7 +3058,7 @@ HOST-SUFFIX,snssdk.com
 HOST-SUFFIX,toutiao.com
 HOST-SUFFIX,toutiaocloud.com
 HOST-SUFFIX,toutiaocloud.net
-# ChinaTest 与 China 共 589 条规则重复
+# ChinaTest 与 China 共 579 条规则重复
 HOST,analytics.strava.com
 HOST,blzddist1-a.akamaihd.net
 HOST,client.amplifi.com
@@ -3156,9 +3067,7 @@ HOST,ip.istatmenus.app
 HOST,mtalk.google.com
 HOST,sms.imagetasks.com
 HOST,speedtest.macpaw.com
-HOST-KEYWORD,apple.com.akadns.net
 HOST-KEYWORD,beplay
-HOST-KEYWORD,icloud.com.akadns.net
 HOST-KEYWORD,speedtest
 HOST-SUFFIX,115.com
 HOST-SUFFIX,12306.cn
@@ -3218,11 +3127,7 @@ HOST-SUFFIX,animebytes.tv
 HOST-SUFFIX,animetorrents.me
 HOST-SUFFIX,annualreviews.org
 HOST-SUFFIX,api.crisp.chat
-HOST-SUFFIX,apple-cloudkit.com
-HOST-SUFFIX,apple.co
-HOST-SUFFIX,apple.com
 HOST-SUFFIX,appshike.com
-HOST-SUFFIX,appstore.com
 HOST-SUFFIX,aps.org
 HOST-SUFFIX,ascelibrary.org
 HOST-SUFFIX,asm.org
@@ -3267,7 +3172,6 @@ HOST-SUFFIX,ccgslb.com
 HOST-SUFFIX,ccgslb.net
 HOST-SUFFIX,cctv.com
 HOST-SUFFIX,cctvpic.com
-HOST-SUFFIX,cdn-apple.com
 HOST-SUFFIX,cdn9-okzy.com
 HOST-SUFFIX,chaoxing.com
 HOST-SUFFIX,chdbits.co
@@ -3367,7 +3271,6 @@ HOST-SUFFIX,hddolby.com
 HOST-SUFFIX,hdhome.org
 HOST-SUFFIX,hdsky.me
 HOST-SUFFIX,hdslb.com
-HOST-SUFFIX,hicloud.com
 HOST-SUFFIX,hitv.com
 HOST-SUFFIX,hkserversolution.com
 HOST-SUFFIX,hollisterco.com
@@ -3383,8 +3286,6 @@ HOST-SUFFIX,icedropper.com
 HOST-SUFFIX,icetorrent.org
 HOST-SUFFIX,icevirtuallibrary.com
 HOST-SUFFIX,iciba.com
-HOST-SUFFIX,icloud-content.com
-HOST-SUFFIX,icloud.com
 HOST-SUFFIX,idqqimg.com
 HOST-SUFFIX,ieee.org
 HOST-SUFFIX,iesdouyin.com
@@ -3777,10 +3678,6 @@ HOST-SUFFIX,didiglobal.com
 HOST-SUFFIX,udache.com
 # ChinaTest 与 WhiteList 共 1 条规则重复
 HOST,analytics.strava.com
-# ChinaTest 与 SystemOTA 共 3 条规则重复
-HOST-SUFFIX,appldnld.apple.com
-HOST-SUFFIX,mesu-cdn.apple.com.akadns.net
-HOST-SUFFIX,mesu.apple.com
 # ChinaTest 与 PayPal 共 4 条规则重复
 HOST-SUFFIX,paypal.com
 HOST-SUFFIX,paypal.me
@@ -4065,9 +3962,9 @@ HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,akamaized.net
 HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,bet365.com
-HOST-SUFFIX,cdn-apple.com
 HOST-SUFFIX,culturedcode.com
 HOST-SUFFIX,cz.cc
+HOST-SUFFIX,edgekey.net
 HOST-SUFFIX,gameloft.com
 HOST-SUFFIX,getpricetag.com
 HOST-SUFFIX,hao123.com

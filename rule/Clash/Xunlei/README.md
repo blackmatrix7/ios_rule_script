@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-08 03:34:43。
+最后检查时间：2020-12-09 03:34:37。
 
 ## 规则统计
 
@@ -28,8 +28,8 @@ Xunlei分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 579   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Xunlei/Repeat.list)   |   0.17% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73317   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Xunlei/Repeat.list)   |   0.01% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 569   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Xunlei/Repeat.list)   |   0.18% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73149   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Xunlei/Repeat.list)   |   0.01% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -16,8 +16,8 @@ function GetCookie(){
     let hisCookie = magicJS.read(elemeCookieKey);
     magicJS.write(elemeLongitudeKey, longitude);
     magicJS.write(elemeLatitudeKey, latitude);
-    let compareCookie2 = /cookie2=([a-zA-Z0-9]*)/.exec(cookie)[1];
-    let compareHisCookie2 = /cookie2=([a-zA-Z0-9]*)/.exec(hisCookie)[1];
+    let compareCookie2 = !!cookie? /cookie2=([a-zA-Z0-9]*)/.exec(cookie)[1]: null;
+    let compareHisCookie2 = !!hisCookie? /cookie2=([a-zA-Z0-9]*)/.exec(hisCookie)[1]: null;
     if (!!!hisCookie || compareCookie2 !== compareHisCookie2){
       magicJS.write(elemeCookieKey, cookie);
       magicJS.logInfo(`旧的Cookie：${hisCookie}\n新的Cookie：${cookie}\nCookie不同，写入新的Cookie成功！`);

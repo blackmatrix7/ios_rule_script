@@ -83,7 +83,7 @@ function GetSuperVipMissions(cookie, longitude, latitude){
   })
 }
 
-// 接收超级会员任务列表中的任务
+// 接受超级会员任务列表中的任务
 function AcceptMission(cookie, longitude, latitude, mission_id){
   return new Promise((resolve, reject)=>{
     let options = {

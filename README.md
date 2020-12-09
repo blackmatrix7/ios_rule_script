@@ -86,10 +86,6 @@ https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite
 
 地址： https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/gallery.json
 
-为简化部署，部分去广告的脚本也配置到Gallery中，需要注意的是，对于此类脚本，不要点击绿色的“加号”，而应该点击图标后，选择“添加附加组件”。
-
-![](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/image/Gallery.png)
-
 ### 其他来源
 
 项目中部分脚本来自互联网上其他开源项目（具体以不同目录的README为准），这里主要进行一些定制化修改、整合和备份。

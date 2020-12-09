@@ -10,7 +10,7 @@
 
 
 
-最后检查时间：2020-12-09 03:34:35。
+最后检查时间：2020-12-10 03:34:48。
 
 ## 规则统计
 
@@ -33,13 +33,13 @@ Apple分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 94186   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   0.0% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 110542   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   0.0% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 110544   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   0.0% |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 41821   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   0.0% |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   20.0% |
 |  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleNews)    | 8   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   12.5% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 781   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   0.13% |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 583   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   0.86% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73163   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   0.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73094   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   0.01% |
 |  [SystemOTA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SystemOTA)    | 8   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   37.5% |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft)    | 97   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   1.03% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 826   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat.list)   |   0.12% |

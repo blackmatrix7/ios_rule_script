@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-09 03:34:37。
+最后检查时间：2020-12-10 03:34:50。
 
 ## 规则统计
 
@@ -30,7 +30,7 @@ Speedtest分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 569   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Speedtest/Repeat.list)   |   0.35% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73149   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Speedtest/Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73080   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Speedtest/Repeat.list)   |   0.0% |
 |  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Netflix)    | 39   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Speedtest/Repeat.list)   |   2.56% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Speedtest/Repeat.list)   |   0.13% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia)    | 233   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Speedtest/Repeat.list)   |   0.43% |

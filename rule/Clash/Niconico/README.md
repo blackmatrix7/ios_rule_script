@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-09 03:34:37。
+最后检查时间：2020-12-10 03:34:50。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@ Niconico分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 93875   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Niconico/Repeat.list)   |   0.0% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 110231   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Niconico/Repeat.list)   |   0.0% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 110233   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Niconico/Repeat.list)   |   0.0% |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 41518   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Niconico/Repeat.list)   |   0.0% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 779   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Niconico/Repeat.list)   |   0.26% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Niconico/Repeat.list)   |   0.51% |

@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-09 03:34:35。
+最后检查时间：2020-12-10 03:34:48。
 
 ## 规则统计
 
@@ -32,7 +32,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 583   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Lan/Repeat.list)   |   0.17% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73163   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Lan/Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73094   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Lan/Repeat.list)   |   0.0% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 6022   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Lan/Repeat.list)   |   0.02% |
 ## 配置说明
 

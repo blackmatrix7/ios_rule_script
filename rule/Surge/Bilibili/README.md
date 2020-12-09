@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-09 03:34:33。
+最后检查时间：2020-12-10 03:34:46。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@ Bilibili分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia)    | 28   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili/Repeat.list)   |   46.43% |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 583   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili/Repeat.list)   |   1.03% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73163   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili/Repeat.list)   |   0.02% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73094   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili/Repeat.list)   |   0.02% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 74   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili/Repeat.list)   |   17.57% |
 ## 配置说明
 

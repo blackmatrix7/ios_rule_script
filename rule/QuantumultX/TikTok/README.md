@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-09 03:34:34。
+最后检查时间：2020-12-10 03:34:48。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@ TikTok分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 583   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat.list)   |   0.34% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73163   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73094   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat.list)   |   0.0% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 279   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TikTok/Repeat.list)   |   3.94% |
 ## 配置说明
 

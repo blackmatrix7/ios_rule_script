@@ -1,14 +1,14 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-09 03:34:32
+# UPDATED: 2020-12-10 03:34:46
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件
 payload:
 # ChinaTest 与 Adobe 共 3 条规则重复
   - DOMAIN-SUFFIX,ctldl.windowsupdate.com
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,symcd.com
-# ChinaTest 与 Advertising 共 1141 条规则重复
+# ChinaTest 与 Advertising 共 1137 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -60,7 +60,6 @@ payload:
   - DOMAIN-SUFFIX,2pmob.com
   - DOMAIN-SUFFIX,2zfzly.com
   - DOMAIN-SUFFIX,31365y.com
-  - DOMAIN-SUFFIX,31xiaoshuo.org
   - DOMAIN-SUFFIX,324.com
   - DOMAIN-SUFFIX,329329.com
   - DOMAIN-SUFFIX,333dm.com
@@ -574,7 +573,6 @@ payload:
   - DOMAIN-SUFFIX,jiujhzp.com
   - DOMAIN-SUFFIX,jiuzhilan.com
   - DOMAIN-SUFFIX,jixing8.com
-  - DOMAIN-SUFFIX,jiyan.net
   - DOMAIN-SUFFIX,jjhaolin.com
   - DOMAIN-SUFFIX,jjyx.com
   - DOMAIN-SUFFIX,jmlk.co
@@ -875,7 +873,6 @@ payload:
   - DOMAIN-SUFFIX,togo666.com
   - DOMAIN-SUFFIX,tomonline-inc.com
   - DOMAIN-SUFFIX,tongbu.com
-  - DOMAIN-SUFFIX,tongdejiayuan.com
   - DOMAIN-SUFFIX,tongjiwo.com
   - DOMAIN-SUFFIX,topitme.com
   - DOMAIN-SUFFIX,touchrom.com
@@ -1086,7 +1083,6 @@ payload:
   - DOMAIN-SUFFIX,ynzhby.com
   - DOMAIN-SUFFIX,yooli.com
   - DOMAIN-SUFFIX,youhuomeishi.com
-  - DOMAIN-SUFFIX,youjia2016.com
   - DOMAIN-SUFFIX,youka.la
   - DOMAIN-SUFFIX,youle55.com
   - DOMAIN-SUFFIX,youmi.net
@@ -1150,7 +1146,7 @@ payload:
   - DOMAIN-SUFFIX,zzbyc.xyz
   - DOMAIN-SUFFIX,zzpzero.com
   - DOMAIN-SUFFIX,zzsdtzb.com
-# ChinaTest 与 AdvertisingTest 共 1171 条规则重复
+# ChinaTest 与 AdvertisingTest 共 1168 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -1205,7 +1201,6 @@ payload:
   - DOMAIN-SUFFIX,2pmob.com
   - DOMAIN-SUFFIX,2zfzly.com
   - DOMAIN-SUFFIX,31365y.com
-  - DOMAIN-SUFFIX,31xiaoshuo.org
   - DOMAIN-SUFFIX,324.com
   - DOMAIN-SUFFIX,329329.com
   - DOMAIN-SUFFIX,333dm.com
@@ -1441,6 +1436,7 @@ payload:
   - DOMAIN-SUFFIX,bjcathay.com
   - DOMAIN-SUFFIX,bla01.com
   - DOMAIN-SUFFIX,bm999999.com
+  - DOMAIN-SUFFIX,bmp.ovh
   - DOMAIN-SUFFIX,bnq86.com
   - DOMAIN-SUFFIX,bobo.com
   - DOMAIN-SUFFIX,boxshows.com
@@ -1737,7 +1733,6 @@ payload:
   - DOMAIN-SUFFIX,jiujhzp.com
   - DOMAIN-SUFFIX,jiuzhilan.com
   - DOMAIN-SUFFIX,jixing8.com
-  - DOMAIN-SUFFIX,jiyan.net
   - DOMAIN-SUFFIX,jjhaolin.com
   - DOMAIN-SUFFIX,jjyx.com
   - DOMAIN-SUFFIX,jmlk.co
@@ -2046,7 +2041,6 @@ payload:
   - DOMAIN-SUFFIX,togo666.com
   - DOMAIN-SUFFIX,tomonline-inc.com
   - DOMAIN-SUFFIX,tongbu.com
-  - DOMAIN-SUFFIX,tongdejiayuan.com
   - DOMAIN-SUFFIX,tongjiwo.com
   - DOMAIN-SUFFIX,topitme.com
   - DOMAIN-SUFFIX,touchrom.com
@@ -2258,7 +2252,6 @@ payload:
   - DOMAIN-SUFFIX,ynzhby.com
   - DOMAIN-SUFFIX,yooli.com
   - DOMAIN-SUFFIX,youhuomeishi.com
-  - DOMAIN-SUFFIX,youjia2016.com
   - DOMAIN-SUFFIX,youka.la
   - DOMAIN-SUFFIX,youle55.com
   - DOMAIN-SUFFIX,youmi.net
@@ -2322,7 +2315,7 @@ payload:
   - DOMAIN-SUFFIX,zzbyc.xyz
   - DOMAIN-SUFFIX,zzpzero.com
   - DOMAIN-SUFFIX,zzsdtzb.com
-# ChinaTest 与 AdvertisingLite 共 669 条规则重复
+# ChinaTest 与 AdvertisingLite 共 666 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -2648,7 +2641,6 @@ payload:
   - DOMAIN-SUFFIX,jiehunmishu.com
   - DOMAIN-SUFFIX,jisucn.com
   - DOMAIN-SUFFIX,jiubuhua.com
-  - DOMAIN-SUFFIX,jiyan.net
   - DOMAIN-SUFFIX,jsncke.com
   - DOMAIN-SUFFIX,jsyxfdj.com
   - DOMAIN-SUFFIX,ju33.com
@@ -2825,7 +2817,6 @@ payload:
   - DOMAIN-SUFFIX,tianmidian.com
   - DOMAIN-SUFFIX,togo666.com
   - DOMAIN-SUFFIX,tongbu.com
-  - DOMAIN-SUFFIX,tongdejiayuan.com
   - DOMAIN-SUFFIX,tongjiwo.com
   - DOMAIN-SUFFIX,topitme.com
   - DOMAIN-SUFFIX,touclick.com
@@ -2952,7 +2943,6 @@ payload:
   - DOMAIN-SUFFIX,ynzhby.com
   - DOMAIN-SUFFIX,yooli.com
   - DOMAIN-SUFFIX,youhuomeishi.com
-  - DOMAIN-SUFFIX,youjia2016.com
   - DOMAIN-SUFFIX,youka.la
   - DOMAIN-SUFFIX,youle55.com
   - DOMAIN-SUFFIX,youmi.net

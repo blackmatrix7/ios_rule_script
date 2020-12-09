@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-09 03:34:33。
+最后检查时间：2020-12-10 03:34:46。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@ SteamCN分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 583   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SteamCN/Repeat.list)   |   1.03% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73163   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SteamCN/Repeat.list)   |   0.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73094   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SteamCN/Repeat.list)   |   0.01% |
 |  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Steam)    | 16   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SteamCN/Repeat.list)   |   31.25% |
 |  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Game)    | 28   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SteamCN/Repeat.list)   |   17.86% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 6022   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SteamCN/Repeat.list)   |   0.02% |

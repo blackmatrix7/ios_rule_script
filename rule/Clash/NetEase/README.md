@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-10 03:34:50。
+最后检查时间：2020-12-11 03:35:43。
 
 ## 规则统计
 
@@ -28,8 +28,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 569   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEase/Repeat.list)   |   1.58% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73080   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEase/Repeat.list)   |   0.01% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 575   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEase/Repeat.list)   |   1.57% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 73087   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEase/Repeat.list)   |   0.01% |
 |  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic)    | 44   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEase/Repeat.list)   |   20.45% |
 ## 配置说明
 

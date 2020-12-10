@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-10 03:34:47。
+最后检查时间：2020-12-11 03:35:39。
 
 ## 规则统计
 
@@ -28,8 +28,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 583   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SohuSogo/Repeat.list)   |   1.2% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73094   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SohuSogo/Repeat.list)   |   0.01% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 589   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SohuSogo/Repeat.list)   |   1.19% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73101   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SohuSogo/Repeat.list)   |   0.01% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 74   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SohuSogo/Repeat.list)   |   2.7% |
 ## 配置说明
 

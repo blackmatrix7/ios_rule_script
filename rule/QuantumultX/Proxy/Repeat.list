@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-10 03:34:45
+# UPDATED: 2020-12-11 03:35:38
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件
 # Proxy 与 Adobe 共 8 条规则重复
 HOST-SUFFIX,behance.net
@@ -237,7 +237,7 @@ HOST-SUFFIX,cdn-apple.com
 HOST-SUFFIX,appsto.re
 # Proxy 与 Bahamut 共 1 条规则重复
 HOST-SUFFIX,gamer.com.tw
-# Proxy 与 BlackList 共 777 条规则重复
+# Proxy 与 BlackList 共 772 条规则重复
 HOST,testflight.apple.com
 HOST-KEYWORD,appledaily
 HOST-KEYWORD,beetalk
@@ -667,9 +667,6 @@ HOST-SUFFIX,pixelmator.com
 HOST-SUFFIX,pixiv.net
 HOST-SUFFIX,pixnet.net
 HOST-SUFFIX,playpcesor.com
-HOST-SUFFIX,playstation.com
-HOST-SUFFIX,playstation.net
-HOST-SUFFIX,playstationnetwork.com
 HOST-SUFFIX,pokemon.com
 HOST-SUFFIX,polymer-project.org
 HOST-SUFFIX,popo.tw
@@ -728,8 +725,6 @@ HOST-SUFFIX,smh.com.au
 HOST-SUFFIX,snapchat.com
 HOST-SUFFIX,sndcdn.com
 HOST-SUFFIX,sockslist.net
-HOST-SUFFIX,sony.com
-HOST-SUFFIX,sonyentertainmentnetwork.com
 HOST-SUFFIX,soundcloud.com
 HOST-SUFFIX,sourceforge.net
 HOST-SUFFIX,sowers.org.hk
@@ -1015,7 +1010,7 @@ IP-CIDR,75.126.0.0/16
 USER-AGENT,battleroyale*
 USER-AGENT,roam*
 USER-AGENT,whatsapp*
-# Proxy 与 China 共 23 条规则重复
+# Proxy 与 China 共 22 条规则重复
 HOST-SUFFIX,akamaized.net
 HOST-SUFFIX,bet365.com
 HOST-SUFFIX,culturedcode.com
@@ -1023,7 +1018,6 @@ HOST-SUFFIX,gameloft.com
 HOST-SUFFIX,getpricetag.com
 HOST-SUFFIX,hao123.com
 HOST-SUFFIX,ip.sb
-HOST-SUFFIX,iqiyi.com
 HOST-SUFFIX,licdn.com
 HOST-SUFFIX,linkedin.com
 HOST-SUFFIX,m-team.cc
@@ -1039,7 +1033,7 @@ HOST-SUFFIX,symcd.com
 HOST-SUFFIX,teamviewer.com
 HOST-SUFFIX,trello.com
 HOST-SUFFIX,unity3d.com
-# Proxy 与 ChinaTest 共 38 条规则重复
+# Proxy 与 ChinaTest 共 37 条规则重复
 HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,akamaized.net
 HOST-SUFFIX,app-measurement.com
@@ -1054,7 +1048,6 @@ HOST-SUFFIX,hao123img.com
 HOST-SUFFIX,hiwifi.com
 HOST-SUFFIX,ip.sb
 HOST-SUFFIX,ip138.com
-HOST-SUFFIX,iqiyi.com
 HOST-SUFFIX,jiepang.com
 HOST-SUFFIX,licdn.com
 HOST-SUFFIX,linkedin.com
@@ -1833,12 +1826,6 @@ HOST-SUFFIX,spotify.com
 HOST-SUFFIX,firebaseio.com
 HOST-SUFFIX,hockeyapp.net
 HOST-SUFFIX,smartmailcloud.com
-# Proxy 与 Sony 共 5 条规则重复
-HOST-SUFFIX,playstation.com
-HOST-SUFFIX,playstation.net
-HOST-SUFFIX,playstationnetwork.com
-HOST-SUFFIX,sony.com
-HOST-SUFFIX,sonyentertainmentnetwork.com
 # Proxy 与 Sina 共 1 条规则重复
 HOST-SUFFIX,sina.com
 # Proxy 与 Scholar 共 1 条规则重复

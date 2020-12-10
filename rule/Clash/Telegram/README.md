@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-10 03:34:50。
+最后检查时间：2020-12-11 03:35:43。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@ Telegram分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 785   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Telegram/Repeat.list)   |   1.66% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6016   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Telegram/Repeat.list)   |   0.17% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6010   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Telegram/Repeat.list)   |   0.17% |
 |  [TeamViewer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TeamViewer)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Telegram/Repeat.list)   |   16.67% |
 ## 配置说明
 

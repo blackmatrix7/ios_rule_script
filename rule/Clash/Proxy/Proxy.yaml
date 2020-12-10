@@ -1,12 +1,12 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-10 03:34:45
-# DOMAIN-SUFFIX: 5903
+# UPDATED: 2020-12-11 03:35:37
+# DOMAIN-SUFFIX: 5897
 # DOMAIN: 1
 # DOMAIN-KEYWORD: 27
 # IP-CIDR: 85
-# TOTAL: 6016
+# TOTAL: 6010
 payload:
   - DOMAIN,testflight.apple.com
   - DOMAIN-SUFFIX,030buy.com
@@ -2694,7 +2694,6 @@ payload:
   - DOMAIN-SUFFIX,iptv.com.tw
   - DOMAIN-SUFFIX,iptvbin.com
   - DOMAIN-SUFFIX,ipvanish.com
-  - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,iredmail.org
   - DOMAIN-SUFFIX,irib.ir
   - DOMAIN-SUFFIX,ironpython.net
@@ -3914,9 +3913,6 @@ payload:
   - DOMAIN-SUFFIX,playno1.com
   - DOMAIN-SUFFIX,playpcesor.com
   - DOMAIN-SUFFIX,plays.com.tw
-  - DOMAIN-SUFFIX,playstation.com
-  - DOMAIN-SUFFIX,playstation.net
-  - DOMAIN-SUFFIX,playstationnetwork.com
   - DOMAIN-SUFFIX,plixi.com
   - DOMAIN-SUFFIX,plm.org.hk
   - DOMAIN-SUFFIX,plunder.com
@@ -4502,8 +4498,6 @@ payload:
   - DOMAIN-SUFFIX,songjianjun.com
   - DOMAIN-SUFFIX,sonicbbs.cc
   - DOMAIN-SUFFIX,sonidodelaesperanza.org
-  - DOMAIN-SUFFIX,sony.com
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
   - DOMAIN-SUFFIX,sopcast.com
   - DOMAIN-SUFFIX,sopcast.org
   - DOMAIN-SUFFIX,sorazone.net

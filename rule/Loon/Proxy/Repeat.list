@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-10 03:34:46
+# UPDATED: 2020-12-11 03:35:38
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件
 # Proxy 与 Adobe 共 8 条规则重复
 DOMAIN-SUFFIX,behance.net
@@ -237,7 +237,7 @@ DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,appsto.re
 # Proxy 与 Bahamut 共 1 条规则重复
 DOMAIN-SUFFIX,gamer.com.tw
-# Proxy 与 BlackList 共 777 条规则重复
+# Proxy 与 BlackList 共 772 条规则重复
 DOMAIN,testflight.apple.com
 DOMAIN-KEYWORD,appledaily
 DOMAIN-KEYWORD,beetalk
@@ -667,9 +667,6 @@ DOMAIN-SUFFIX,pixelmator.com
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixnet.net
 DOMAIN-SUFFIX,playpcesor.com
-DOMAIN-SUFFIX,playstation.com
-DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,pokemon.com
 DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,popo.tw
@@ -728,8 +725,6 @@ DOMAIN-SUFFIX,smh.com.au
 DOMAIN-SUFFIX,snapchat.com
 DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,sockslist.net
-DOMAIN-SUFFIX,sony.com
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,sourceforge.net
 DOMAIN-SUFFIX,sowers.org.hk
@@ -1015,7 +1010,7 @@ IP-CIDR,75.126.0.0/16
 USER-AGENT,battleroyale*
 USER-AGENT,roam*
 USER-AGENT,whatsapp*
-# Proxy 与 China 共 23 条规则重复
+# Proxy 与 China 共 22 条规则重复
 DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,culturedcode.com
@@ -1023,7 +1018,6 @@ DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,ip.sb
-DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,m-team.cc
@@ -1039,7 +1033,7 @@ DOMAIN-SUFFIX,symcd.com
 DOMAIN-SUFFIX,teamviewer.com
 DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,unity3d.com
-# Proxy 与 ChinaTest 共 38 条规则重复
+# Proxy 与 ChinaTest 共 37 条规则重复
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,app-measurement.com
@@ -1054,7 +1048,6 @@ DOMAIN-SUFFIX,hao123img.com
 DOMAIN-SUFFIX,hiwifi.com
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ip138.com
-DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,jiepang.com
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,linkedin.com
@@ -1833,12 +1826,6 @@ DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,smartmailcloud.com
-# Proxy 与 Sony 共 5 条规则重复
-DOMAIN-SUFFIX,playstation.com
-DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,playstationnetwork.com
-DOMAIN-SUFFIX,sony.com
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 # Proxy 与 Sina 共 1 条规则重复
 DOMAIN-SUFFIX,sina.com
 # Proxy 与 Scholar 共 1 条规则重复

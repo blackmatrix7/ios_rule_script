@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-10 03:34:47。
+最后检查时间：2020-12-11 03:35:39。
 
 ## 规则统计
 
@@ -30,8 +30,8 @@ TikTok分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 583   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TikTok/Repeat.list)   |   0.34% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73094   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TikTok/Repeat.list)   |   0.0% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 589   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TikTok/Repeat.list)   |   0.34% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 73101   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TikTok/Repeat.list)   |   0.0% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 279   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TikTok/Repeat.list)   |   3.94% |
 ## 配置说明
 

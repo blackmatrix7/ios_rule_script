@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-10 03:34:49。
+最后检查时间：2020-12-11 03:35:42。
 
 ## 规则统计
 
@@ -29,9 +29,9 @@ Twitter分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 781   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Twitter/Repeat.list)   |   0.9% |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 776   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Twitter/Repeat.list)   |   0.9% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 826   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Twitter/Repeat.list)   |   1.21% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6022   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Twitter/Repeat.list)   |   0.18% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6016   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Twitter/Repeat.list)   |   0.18% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

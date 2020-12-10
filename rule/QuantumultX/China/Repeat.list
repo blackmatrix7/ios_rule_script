@@ -1,7 +1,7 @@
 # NAME: China 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-10 03:34:45
+# UPDATED: 2020-12-11 03:35:37
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件
 # China 与 Adobe 共 2 条规则重复
 HOST-SUFFIX,digicert.com
@@ -74,7 +74,7 @@ HOST-SUFFIX,blizzard.com
 # China 与 ByteDance 共 2 条规则重复
 HOST-SUFFIX,snssdk.com
 HOST-SUFFIX,toutiao.com
-# China 与 ChinaTest 共 579 条规则重复
+# China 与 ChinaTest 共 585 条规则重复
 HOST,analytics.strava.com
 HOST,blzddist1-a.akamaihd.net
 HOST,client.amplifi.com
@@ -360,6 +360,7 @@ HOST-SUFFIX,libguides.com
 HOST-SUFFIX,licdn.com
 HOST-SUFFIX,linkedin.com
 HOST-SUFFIX,livechina.com
+HOST-SUFFIX,liyuans.com
 HOST-SUFFIX,lizhi.io
 HOST-SUFFIX,localizecdn.com
 HOST-SUFFIX,lofter.com
@@ -445,6 +446,9 @@ HOST-SUFFIX,paypal.com
 HOST-SUFFIX,paypal.me
 HOST-SUFFIX,paypalobjects.com
 HOST-SUFFIX,pgyer.com
+HOST-SUFFIX,playstation.com
+HOST-SUFFIX,playstation.net
+HOST-SUFFIX,playstationnetwork.com
 HOST-SUFFIX,plex.tv
 HOST-SUFFIX,pnas.org
 HOST-SUFFIX,pniao.com
@@ -509,6 +513,8 @@ HOST-SUFFIX,sohu-inc.com
 HOST-SUFFIX,sohu.com
 HOST-SUFFIX,sohucs.com
 HOST-SUFFIX,soku.com
+HOST-SUFFIX,sony.com
+HOST-SUFFIX,sonyentertainmentnetwork.com
 HOST-SUFFIX,soso.com
 HOST-SUFFIX,spiedigitallibrary.org
 HOST-SUFFIX,springer.com
@@ -768,6 +774,12 @@ USER-AGENT,paypal*
 HOST-SUFFIX,akamaized.net
 HOST-SUFFIX,byteoversea.com
 HOST-SUFFIX,ibytedtos.com
+# China 与 Sony 共 5 条规则重复
+HOST-SUFFIX,playstation.com
+HOST-SUFFIX,playstation.net
+HOST-SUFFIX,playstationnetwork.com
+HOST-SUFFIX,sony.com
+HOST-SUFFIX,sonyentertainmentnetwork.com
 # China 与 SohuSogo 共 7 条规则重复
 HOST-SUFFIX,sogo.com
 HOST-SUFFIX,sogou.com
@@ -848,7 +860,7 @@ HOST,safebrowsing.googleapis.com
 HOST-SUFFIX,weibo.cn
 HOST-SUFFIX,weibo.com
 HOST-SUFFIX,weibocdn.com
-# China 与 Proxy 共 23 条规则重复
+# China 与 Proxy 共 22 条规则重复
 HOST-SUFFIX,akamaized.net
 HOST-SUFFIX,bet365.com
 HOST-SUFFIX,culturedcode.com
@@ -856,7 +868,6 @@ HOST-SUFFIX,gameloft.com
 HOST-SUFFIX,getpricetag.com
 HOST-SUFFIX,hao123.com
 HOST-SUFFIX,ip.sb
-HOST-SUFFIX,iqiyi.com
 HOST-SUFFIX,licdn.com
 HOST-SUFFIX,linkedin.com
 HOST-SUFFIX,m-team.cc

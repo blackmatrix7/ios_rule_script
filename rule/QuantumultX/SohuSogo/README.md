@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-11 03:35:41。
+最后检查时间：2020-12-12 03:35:16。
 
 ## 规则统计
 
@@ -28,9 +28,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SohuSogo/Repeat.list)   |   1.19% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73101   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SohuSogo/Repeat.list)   |   0.01% |
-|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 74   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SohuSogo/Repeat.list)   |   2.7% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 589   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/SohuSogo/Repeat.list)   |   1.19% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 73101   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/SohuSogo/Repeat.list)   |   0.01% |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 74   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/SohuSogo/Repeat.list)   |   2.7% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-11 03:35:42。
+最后检查时间：2020-12-12 03:35:17。
 
 ## 规则统计
 
@@ -28,9 +28,9 @@ Discord分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game)    | 28   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Discord/Repeat.list)   |   21.43% |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 826   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Discord/Repeat.list)   |   0.36% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6016   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Discord/Repeat.list)   |   0.1% |
+|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game)    | 28   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Discord/Repeat.list)   |   21.43% |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 826   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Discord/Repeat.list)   |   0.36% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6016   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Discord/Repeat.list)   |   0.1% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-11 03:35:42。
+最后检查时间：2020-12-12 03:35:17。
 
 ## 规则统计
 
@@ -31,10 +31,10 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/IQiyi/Repeat.list)   |   25.0% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73101   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/IQiyi/Repeat.list)   |   0.0% |
-|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 7227   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/IQiyi/Repeat.list)   |   0.03% |
-|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 74   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/IQiyi/Repeat.list)   |   9.46% |
+|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   25.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73101   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   0.0% |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 7227   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   0.03% |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 74   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   9.46% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

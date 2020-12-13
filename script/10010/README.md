@@ -35,7 +35,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/100
 
 ## 获取Cookie
 
-在联通手机营业厅v7.4.3中，进入“我的”-”天天抽奖“，弹出 Cookie、手机号、手机号密文、城市四个项目获取成功即可。
+联通手机营业厅APP经常修改“天天抽奖”入口位置，比较稳定的方法是在联通手机营业厅中搜索“天天抽奖”，直接通过搜索结果进入。
 
 ## 签到效果图
 

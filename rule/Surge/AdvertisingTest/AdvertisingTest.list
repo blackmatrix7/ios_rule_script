@@ -1,14 +1,14 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-14 03:35:15
+# UPDATED: 2020-12-15 03:36:55
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN-SUFFIX: 70962
+# DOMAIN-SUFFIX: 70976
 # DOMAIN: 39079
 # DOMAIN-KEYWORD: 54
 # IP-CIDR: 247
-# URL-REGEX: 311
-# TOTAL: 110653
+# URL-REGEX: 310
+# TOTAL: 110666
 DOMAIN-KEYWORD,adashx
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -511,7 +511,6 @@ URL-REGEX,^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountLis
 URL-REGEX,^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd
 URL-REGEX,^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage
 URL-REGEX,^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/
-URL-REGEX,^https?:\/\/m\.yap\.yahoo\.com\/v\d{2}\/getAds\.do
 URL-REGEX,^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/
 URL-REGEX,^https?:\/\/ma\.ofo\.com\/adImage\/
 URL-REGEX,^https?:\/\/ma\.ofo\.com\/ads

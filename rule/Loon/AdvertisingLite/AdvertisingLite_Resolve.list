@@ -1,14 +1,14 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-14 03:35:17
+# UPDATED: 2020-12-15 03:36:57
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 28
-# DOMAIN-SUFFIX: 17643
+# DOMAIN-SUFFIX: 17642
 # DOMAIN: 23647
 # IP-CIDR: 200
-# URL-REGEX: 303
-# TOTAL: 41821
+# URL-REGEX: 302
+# TOTAL: 41819
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,adsage
@@ -232,7 +232,6 @@ URL-REGEX,^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountLis
 URL-REGEX,^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd
 URL-REGEX,^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage
 URL-REGEX,^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/
-URL-REGEX,^https?:\/\/m\.yap\.yahoo\.com\/v\d{2}\/getAds\.do
 URL-REGEX,^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/
 URL-REGEX,^https?:\/\/ma\.ofo\.com\/adImage\/
 URL-REGEX,^https?:\/\/ma\.ofo\.com\/ads

@@ -1,7 +1,7 @@
 # NAME: Advertising 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-14 03:35:19
+# UPDATED: 2020-12-15 03:36:59
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # Advertising 与 Adobe 共 6 条规则重复
@@ -11,7 +11,7 @@ payload:
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,newrelic.com
   - DOMAIN-SUFFIX,omtrdc.net
-# Advertising 与 AdvertisingTest 共 84468 条规则重复
+# Advertising 与 AdvertisingTest 共 84467 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0000mps.webpreview.dsl.net
   - DOMAIN,0001.2waky.com
@@ -64067,7 +64067,6 @@ payload:
   - DOMAIN-SUFFIX,m.yalayi.com
   - DOMAIN-SUFFIX,m.yangjingbang.net
   - DOMAIN-SUFFIX,m.yanyankj.com
-  - DOMAIN-SUFFIX,m.yap.yahoo.com
   - DOMAIN-SUFFIX,m.ybwmmq.cn
   - DOMAIN-SUFFIX,m.yes.youku.com
   - DOMAIN-SUFFIX,m.yicang8.com
@@ -84480,7 +84479,7 @@ payload:
   - IP-CIDR,74.117.182.77/32
   - IP-CIDR,78.140.131.214/32
   - IP-CIDR,91.196.216.64/32
-# Advertising 与 AdvertisingLite 共 22095 条规则重复
+# Advertising 与 AdvertisingLite 共 22094 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0026645142c89aeb1.com
   - DOMAIN,01.yd-jun.com
@@ -98875,7 +98874,6 @@ payload:
   - DOMAIN-SUFFIX,m.xxkio.com
   - DOMAIN-SUFFIX,m.yalayi.com
   - DOMAIN-SUFFIX,m.yangjingbang.net
-  - DOMAIN-SUFFIX,m.yap.yahoo.com
   - DOMAIN-SUFFIX,m.yes.youku.com
   - DOMAIN-SUFFIX,m.yicang8.com
   - DOMAIN-SUFFIX,m.yingchengtou.com

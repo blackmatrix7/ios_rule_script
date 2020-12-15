@@ -1,7 +1,7 @@
 # NAME: AdvertisingTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-15 03:36:59
+# UPDATED: 2020-12-16 03:36:50
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # AdvertisingTest 与 Adobe 共 7 条规则重复
@@ -2332,6 +2332,8 @@ payload:
   - DOMAIN,adultmoneymakers.com
   - DOMAIN,adultsense.net
   - DOMAIN,aduobooydxr.com
+  - DOMAIN,adv-adlog.variflight.com
+  - DOMAIN,adv-ads.variflight.com
   - DOMAIN,adv.0tub.com
   - DOMAIN,adv.440network.com
   - DOMAIN,adv.adultpartnership.com
@@ -22193,7 +22195,6 @@ payload:
   - DOMAIN,metrics.lawyers.com
   - DOMAIN,metrics.lexus.com
   - DOMAIN,metrics.loomia.com
-  - DOMAIN,metrics.makemytrip.com
   - DOMAIN,metrics.mcafee.com
   - DOMAIN,metrics.more.com
   - DOMAIN,metrics.mzstatic.com
@@ -81511,7 +81512,6 @@ payload:
   - DOMAIN-SUFFIX,www-protection.com
   - DOMAIN-SUFFIX,www-sina-cn-com.com
   - DOMAIN-SUFFIX,www.be
-  - DOMAIN-SUFFIX,www.flickr.com
   - DOMAIN-SUFFIX,www.fr
   - DOMAIN-SUFFIX,www.google-analytics.com
   - DOMAIN-SUFFIX,www.googleadservices.com
@@ -84480,7 +84480,7 @@ payload:
   - IP-CIDR,74.117.182.77/32
   - IP-CIDR,78.140.131.214/32
   - IP-CIDR,91.196.216.64/32
-# AdvertisingTest 与 AdvertisingLite 共 21686 条规则重复
+# AdvertisingTest 与 AdvertisingLite 共 21685 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0026645142c89aeb1.com
   - DOMAIN,01.yd-jun.com
@@ -104794,7 +104794,6 @@ payload:
   - DOMAIN-SUFFIX,wwlolbs.com
   - DOMAIN-SUFFIX,wwv.onetad.com
   - DOMAIN-SUFFIX,www-777563.com
-  - DOMAIN-SUFFIX,www.flickr.com
   - DOMAIN-SUFFIX,www.google-analytics.com
   - DOMAIN-SUFFIX,www.googleadservices.com
   - DOMAIN-SUFFIX,www.jinshanju.com
@@ -107645,7 +107644,7 @@ payload:
   - IP-CIDR,61.174.50.214/32
 # AdvertisingTest 与 Spark 共 1 条规则重复
   - DOMAIN-SUFFIX,amplitude.com
-# AdvertisingTest 与 Privacy 共 2745 条规则重复
+# AdvertisingTest 与 Privacy 共 2746 条规则重复
   - DOMAIN,log.byteoversea.com
   - DOMAIN,log.tiktokv.com
   - DOMAIN-SUFFIX,0sbm.consobaby.co.uk
@@ -109935,6 +109934,7 @@ payload:
   - DOMAIN-SUFFIX,tr.werkenntwen.de
   - DOMAIN-SUFFIX,tr1.mailperformance.com
   - DOMAIN-SUFFIX,traccoon.intellectsoft.net
+  - DOMAIN-SUFFIX,trace.qq.com
   - DOMAIN-SUFFIX,tracelog.www.alibaba.com
   - DOMAIN-SUFFIX,track.24heures.ch
   - DOMAIN-SUFFIX,track.99acres.com

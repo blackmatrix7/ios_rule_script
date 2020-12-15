@@ -1,12 +1,12 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-15 03:36:58
-# DOMAIN-SUFFIX: 45104
-# DOMAIN: 48640
+# UPDATED: 2020-12-16 03:36:48
+# DOMAIN-SUFFIX: 45103
+# DOMAIN: 48642
 # DOMAIN-KEYWORD: 56
 # IP-CIDR: 247
-# TOTAL: 94047
+# TOTAL: 94048
 payload:
   - DOMAIN,0.nextyourcontent.com
   - DOMAIN,0.up.qingdaonews.com
@@ -4082,6 +4082,8 @@ payload:
   - DOMAIN,adunit.cdn.auditude.com
   - DOMAIN,adunitv2.cdn.auditude.com
   - DOMAIN,aduobooydxr.com
+  - DOMAIN,adv-adlog.variflight.com
+  - DOMAIN,adv-ads.variflight.com
   - DOMAIN,adv-ettoday.cdn.hinet.net
   - DOMAIN,adv-views.com
   - DOMAIN,adv.0tub.com
@@ -91027,7 +91029,6 @@ payload:
   - DOMAIN-SUFFIX,www-protection.com
   - DOMAIN-SUFFIX,www-sina-cn-com.com
   - DOMAIN-SUFFIX,www.be
-  - DOMAIN-SUFFIX,www.flickr.com
   - DOMAIN-SUFFIX,www.fr
   - DOMAIN-SUFFIX,www.google-analytics.com
   - DOMAIN-SUFFIX,www.googleadservices.com

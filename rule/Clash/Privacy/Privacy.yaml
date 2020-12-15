@@ -1,11 +1,11 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-15 03:36:58
+# UPDATED: 2020-12-16 03:36:49
 # DOMAIN: 19
-# DOMAIN-SUFFIX: 2750
+# DOMAIN-SUFFIX: 2751
 # DOMAIN-KEYWORD: 3
-# TOTAL: 2772
+# TOTAL: 2773
 payload:
   - DOMAIN,data.mistat.xiaomi.com
   - DOMAIN,hm.baidu.com
@@ -2319,6 +2319,7 @@ payload:
   - DOMAIN-SUFFIX,tr.werkenntwen.de
   - DOMAIN-SUFFIX,tr1.mailperformance.com
   - DOMAIN-SUFFIX,traccoon.intellectsoft.net
+  - DOMAIN-SUFFIX,trace.qq.com
   - DOMAIN-SUFFIX,tracelog.www.alibaba.com
   - DOMAIN-SUFFIX,track.24heures.ch
   - DOMAIN-SUFFIX,track.99acres.com

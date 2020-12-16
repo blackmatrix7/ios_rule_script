@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-16 03:36:55。
+最后检查时间：2020-12-16 20:43:58。
 
 ## 规则统计
 
@@ -30,6 +30,7 @@
 | ---- | ---- | ---- | ------ |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Youku/Repeat.list)   |   3.57% |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 7227   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Youku/Repeat.list)   |   0.01% |
+|  [ChinaIPsTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPsTest)    | 498102   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Youku/Repeat.list)   |   0.0% |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

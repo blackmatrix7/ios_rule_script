@@ -1,13 +1,17 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-16 03:36:49
-# DOMAIN-SUFFIX: 5897
-# DOMAIN: 1
-# DOMAIN-KEYWORD: 27
+# UPDATED: 2020-12-16 20:43:51
+# DOMAIN-SUFFIX: 5917
+# DOMAIN: 5
+# DOMAIN-KEYWORD: 28
 # IP-CIDR: 85
-# TOTAL: 6010
+# TOTAL: 6035
 payload:
+  - DOMAIN,cvws.icloud-content.com
+  - DOMAIN,developer.apple.com
+  - DOMAIN,itunes.apple.com
+  - DOMAIN,sandbox.itunes.apple.com
   - DOMAIN,testflight.apple.com
   - DOMAIN-SUFFIX,030buy.com
   - DOMAIN-SUFFIX,0rz.tw
@@ -267,6 +271,7 @@ payload:
   - DOMAIN-SUFFIX,amnestyusa.org
   - DOMAIN-SUFFIX,amnyemachen.org
   - DOMAIN-SUFFIX,amoiist.com
+  - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,ampproject.com
   - DOMAIN-SUFFIX,ampproject.net
   - DOMAIN-SUFFIX,ampproject.org
@@ -344,6 +349,7 @@ payload:
   - DOMAIN-SUFFIX,appledaily.com
   - DOMAIN-SUFFIX,appledaily.com.hk
   - DOMAIN-SUFFIX,appledaily.com.tw
+  - DOMAIN-SUFFIX,apps.apple.com
   - DOMAIN-SUFFIX,appshopper.com
   - DOMAIN-SUFFIX,appsocks.net
   - DOMAIN-SUFFIX,appspot.com
@@ -565,6 +571,7 @@ payload:
   - DOMAIN-SUFFIX,bitterwinter.org
   - DOMAIN-SUFFIX,bitvise.com
   - DOMAIN-SUFFIX,bizhat.com
+  - DOMAIN-SUFFIX,bjango.com
   - DOMAIN-SUFFIX,bjnewlife.org
   - DOMAIN-SUFFIX,bjs.org
   - DOMAIN-SUFFIX,bjzc.org
@@ -577,6 +584,7 @@ payload:
   - DOMAIN-SUFFIX,blinkx.com
   - DOMAIN-SUFFIX,blinw.com
   - DOMAIN-SUFFIX,blip.tv
+  - DOMAIN-SUFFIX,blobstore.apple.com
   - DOMAIN-SUFFIX,blockcn.com
   - DOMAIN-SUFFIX,blockless.com
   - DOMAIN-SUFFIX,blog.com
@@ -1039,6 +1047,7 @@ payload:
   - DOMAIN-SUFFIX,cpj.org
   - DOMAIN-SUFFIX,cq99.us
   - DOMAIN-SUFFIX,crackle.com
+  - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,crazys.cc
   - DOMAIN-SUFFIX,crazyshit.com
   - DOMAIN-SUFFIX,crbug.com
@@ -1194,6 +1203,7 @@ payload:
   - DOMAIN-SUFFIX,dhcp.biz
   - DOMAIN-SUFFIX,diaoyuislands.org
   - DOMAIN-SUFFIX,difangwenge.org
+  - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,digiland.tw
   - DOMAIN-SUFFIX,digisfera.com
   - DOMAIN-SUFFIX,digitalnomadsproject.org
@@ -1347,6 +1357,7 @@ payload:
   - DOMAIN-SUFFIX,dynu.com
   - DOMAIN-SUFFIX,dynu.net
   - DOMAIN-SUFFIX,dysfz.cc
+  - DOMAIN-SUFFIX,dytt8.net
   - DOMAIN-SUFFIX,dzze.com
   - DOMAIN-SUFFIX,e-classical.com.tw
   - DOMAIN-SUFFIX,e-gold.com
@@ -1581,6 +1592,7 @@ payload:
   - DOMAIN-SUFFIX,faqserv.com
   - DOMAIN-SUFFIX,fartit.com
   - DOMAIN-SUFFIX,farwestchina.com
+  - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,fastly.net
   - DOMAIN-SUFFIX,fastmail.com
   - DOMAIN-SUFFIX,fastpic.ru
@@ -2474,6 +2486,7 @@ payload:
   - DOMAIN-SUFFIX,hotels.cn
   - DOMAIN-SUFFIX,hotfrog.com.tw
   - DOMAIN-SUFFIX,hotgoo.com
+  - DOMAIN-SUFFIX,hotmail.com
   - DOMAIN-SUFFIX,hotpornshow.com
   - DOMAIN-SUFFIX,hotpot.hk
   - DOMAIN-SUFFIX,hotshame.com
@@ -2594,6 +2607,7 @@ payload:
   - DOMAIN-SUFFIX,ienergy1.com
   - DOMAIN-SUFFIX,ifanqiang.com
   - DOMAIN-SUFFIX,ifcss.org
+  - DOMAIN-SUFFIX,ifixit.com
   - DOMAIN-SUFFIX,ifjc.org
   - DOMAIN-SUFFIX,ifreewares.com
   - DOMAIN-SUFFIX,ift.tt
@@ -2608,6 +2622,7 @@ payload:
   - DOMAIN-SUFFIX,igvita.com
   - DOMAIN-SUFFIX,ihakka.net
   - DOMAIN-SUFFIX,ihao.org
+  - DOMAIN-SUFFIX,iherb.com
   - DOMAIN-SUFFIX,iicns.com
   - DOMAIN-SUFFIX,ikstar.com
   - DOMAIN-SUFFIX,ikwb.com
@@ -3554,6 +3569,7 @@ payload:
   - DOMAIN-SUFFIX,nightlife141.com
   - DOMAIN-SUFFIX,nih.gov
   - DOMAIN-SUFFIX,nikkei.com
+  - DOMAIN-SUFFIX,nikonpc.com
   - DOMAIN-SUFFIX,nimg.jp
   - DOMAIN-SUFFIX,ninecommentaries.com
   - DOMAIN-SUFFIX,ning.com
@@ -3760,6 +3776,7 @@ payload:
   - DOMAIN-SUFFIX,oursteps.com.au
   - DOMAIN-SUFFIX,oursweb.net
   - DOMAIN-SUFFIX,ourtv.hk
+  - DOMAIN-SUFFIX,outlook.com
   - DOMAIN-SUFFIX,over-blog.com
   - DOMAIN-SUFFIX,overcast.fm
   - DOMAIN-SUFFIX,overplay.net
@@ -3913,6 +3930,10 @@ payload:
   - DOMAIN-SUFFIX,playno1.com
   - DOMAIN-SUFFIX,playpcesor.com
   - DOMAIN-SUFFIX,plays.com.tw
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.com.hk
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstationnetwork.com
   - DOMAIN-SUFFIX,plixi.com
   - DOMAIN-SUFFIX,plm.org.hk
   - DOMAIN-SUFFIX,plunder.com
@@ -4498,6 +4519,7 @@ payload:
   - DOMAIN-SUFFIX,songjianjun.com
   - DOMAIN-SUFFIX,sonicbbs.cc
   - DOMAIN-SUFFIX,sonidodelaesperanza.org
+  - DOMAIN-SUFFIX,sony.com
   - DOMAIN-SUFFIX,sopcast.com
   - DOMAIN-SUFFIX,sopcast.org
   - DOMAIN-SUFFIX,sorazone.net
@@ -5571,6 +5593,8 @@ payload:
   - DOMAIN-SUFFIX,wildammo.com
   - DOMAIN-SUFFIX,williamhill.com
   - DOMAIN-SUFFIX,willw.net
+  - DOMAIN-SUFFIX,windows.com
+  - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,windowsphoneme.com
   - DOMAIN-SUFFIX,windscribe.com
   - DOMAIN-SUFFIX,windy.com
@@ -5909,6 +5933,7 @@ payload:
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,1e100
   - DOMAIN-KEYWORD,abema
+  - DOMAIN-KEYWORD,amazon
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,avtb
   - DOMAIN-KEYWORD,beetalk

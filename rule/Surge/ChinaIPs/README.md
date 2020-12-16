@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-16 03:36:51。
+最后检查时间：2020-12-16 20:43:53。
 
 ## 规则统计
 
@@ -29,6 +29,7 @@ ChinaIPs分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia)    | 28   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/Repeat.list)   |   10.71% |
+|  [ChinaIPsTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaIPsTest)    | 498102   | [7227](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/Repeat.list)   |   1.45% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 74   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/Repeat.list)   |   2.7% |
 |  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic)    | 44   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/Repeat.list)   |   6.82% |
 |  [IQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi)    | 7   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/Repeat.list)   |   28.57% |

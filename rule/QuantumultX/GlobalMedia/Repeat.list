@@ -1,7 +1,7 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-16 03:36:49
+# UPDATED: 2020-12-16 20:43:51
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # GlobalMedia 与 Advertising 共 7 条规则重复
 HOST-SUFFIX,app-measurement.com
@@ -342,7 +342,7 @@ USER-AGENT,spotify*
 HOST-SUFFIX,firebaseio.com
 # GlobalMedia 与 Privacy 共 1 条规则重复
 HOST-SUFFIX,logx.optimizely.com
-# GlobalMedia 与 Proxy 共 54 条规则重复
+# GlobalMedia 与 Proxy 共 55 条规则重复
 HOST-KEYWORD,ttvnw
 HOST-KEYWORD,uk-live
 HOST-KEYWORD,youtube
@@ -356,6 +356,7 @@ HOST-SUFFIX,bbc.com
 HOST-SUFFIX,bbci.co.uk
 HOST-SUFFIX,cloudfront.net
 HOST-SUFFIX,deezer.com
+HOST-SUFFIX,fast.com
 HOST-SUFFIX,firebaseio.com
 HOST-SUFFIX,gamer.com.tw
 HOST-SUFFIX,go.com
@@ -402,3 +403,17 @@ USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,*youtubemusic*
 USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,youtubemusic*
+# GlobalMedia 与 Amazon 共 9 条规则重复
+HOST-SUFFIX,aiv-cdn.net
+HOST-SUFFIX,amazonaws.co.uk
+HOST-SUFFIX,amazonaws.com
+HOST-SUFFIX,amazonvideo.com
+HOST-SUFFIX,llnwd.net
+HOST-SUFFIX,media-amazon.com
+HOST-SUFFIX,primevideo.com
+USER-AGENT,instantvideo.us*
+USER-AGENT,prime%20video*
+# GlobalMedia 与 BBC 共 3 条规则重复
+HOST-KEYWORD,uk-live
+HOST-SUFFIX,bbc.co
+HOST-SUFFIX,bbc.com

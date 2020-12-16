@@ -1,7 +1,7 @@
 # NAME: AdvertisingTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-16 03:36:50
+# UPDATED: 2020-12-16 20:43:52
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # AdvertisingTest 与 Adobe 共 7 条规则重复
@@ -11890,6 +11890,7 @@ payload:
   - DOMAIN,exclusiveholidayresorts.com
   - DOMAIN,exclusivenewhacks.com
   - DOMAIN,exclusivobraatendimento.com
+  - DOMAIN,excluzive.net
   - DOMAIN,exdcbyzgwfvwa.com
   - DOMAIN,exdocsfiles.com
   - DOMAIN,executivebillard.com
@@ -37472,7 +37473,6 @@ payload:
   - DOMAIN,xml.xap-clicks.com
   - DOMAIN,xml2.nbcsearch.com
   - DOMAIN,xmlconfig.ltassrv.com
-  - DOMAIN,xmlgrab.com
   - DOMAIN,xmlqerwrehfqo.com
   - DOMAIN,xmmsyipahbq.com
   - DOMAIN,xmobilabs.com
@@ -106201,6 +106201,8 @@ payload:
   - DOMAIN-SUFFIX,traffichaus.com
   - DOMAIN-SUFFIX,ubertags.com
   - DOMAIN-SUFFIX,xiti.com
+# AdvertisingTest 与 ByteDance 共 1 条规则重复
+  - DOMAIN-SUFFIX,toutiaopage.com
 # AdvertisingTest 与 China 共 9 条规则重复
   - DOMAIN-SUFFIX,360in.com
   - DOMAIN-SUFFIX,71.am
@@ -106211,7 +106213,7 @@ payload:
   - DOMAIN-SUFFIX,mob.com
   - DOMAIN-SUFFIX,umengcloud.com
   - DOMAIN-SUFFIX,xdrig.com
-# AdvertisingTest 与 ChinaTest 共 1168 条规则重复
+# AdvertisingTest 与 ChinaTest 共 1170 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -106282,6 +106284,7 @@ payload:
   - DOMAIN-SUFFIX,3alian.net
   - DOMAIN-SUFFIX,3dwwwgame.com
   - DOMAIN-SUFFIX,3gmimo.com
+  - DOMAIN-SUFFIX,3hbox.com
   - DOMAIN-SUFFIX,3hgui.com
   - DOMAIN-SUFFIX,4006825178.com
   - DOMAIN-SUFFIX,426g.com
@@ -106309,6 +106312,8 @@ payload:
   - DOMAIN-SUFFIX,53kf.com
   - DOMAIN-SUFFIX,54kefu.net
   - DOMAIN-SUFFIX,55.la
+  - DOMAIN-SUFFIX,5551650.com
+  - DOMAIN-SUFFIX,5551933.com
   - DOMAIN-SUFFIX,5566ua.com
   - DOMAIN-SUFFIX,5egk.com
   - DOMAIN-SUFFIX,5etv.com
@@ -106525,7 +106530,6 @@ payload:
   - DOMAIN-SUFFIX,ceruchina.com
   - DOMAIN-SUFFIX,cgiale.com
   - DOMAIN-SUFFIX,chance-ad.com
-  - DOMAIN-SUFFIX,charlesfc.com
   - DOMAIN-SUFFIX,che0.com
   - DOMAIN-SUFFIX,chengadx.com
   - DOMAIN-SUFFIX,chenghangtech.com
@@ -106828,7 +106832,6 @@ payload:
   - DOMAIN-SUFFIX,kanwby.com
   - DOMAIN-SUFFIX,kejet.com
   - DOMAIN-SUFFIX,kejet.net
-  - DOMAIN-SUFFIX,kele4.com
   - DOMAIN-SUFFIX,keydot.net
   - DOMAIN-SUFFIX,keyshot.cc
   - DOMAIN-SUFFIX,keyyou.net
@@ -106877,7 +106880,6 @@ payload:
   - DOMAIN-SUFFIX,linezing.com
   - DOMAIN-SUFFIX,linkvans.com
   - DOMAIN-SUFFIX,lishibu.com
-  - DOMAIN-SUFFIX,liteapp.mobi
   - DOMAIN-SUFFIX,liuliguo.com
   - DOMAIN-SUFFIX,live800.com
   - DOMAIN-SUFFIX,lkme.cc
@@ -107029,6 +107031,7 @@ payload:
   - DOMAIN-SUFFIX,reyun.com
   - DOMAIN-SUFFIX,rgyun.com
   - DOMAIN-SUFFIX,rtbasia.com
+  - DOMAIN-SUFFIX,ru4.com
   - DOMAIN-SUFFIX,ruxianke.com
   - DOMAIN-SUFFIX,s8dj.com
   - DOMAIN-SUFFIX,s8x1.com
@@ -107062,6 +107065,7 @@ payload:
   - DOMAIN-SUFFIX,snuoen.com
   - DOMAIN-SUFFIX,snyu.com
   - DOMAIN-SUFFIX,snzfj.net
+  - DOMAIN-SUFFIX,sodhef.com
   - DOMAIN-SUFFIX,somecoding.com
   - DOMAIN-SUFFIX,soperson.com
   - DOMAIN-SUFFIX,souid.com
@@ -110391,7 +110395,7 @@ payload:
   - DOMAIN-SUFFIX,zsi7.destinia.do
   - DOMAIN-SUFFIX,zyq2.destinia.sk
   - DOMAIN-SUFFIX,zz.bdstatic.com
-# AdvertisingTest 与 Proxy 共 100 条规则重复
+# AdvertisingTest 与 Proxy 共 102 条规则重复
   - DOMAIN-SUFFIX,21sextury.com
   - DOMAIN-SUFFIX,24smile.org
   - DOMAIN-SUFFIX,2mdn.net
@@ -110401,6 +110405,7 @@ payload:
   - DOMAIN-SUFFIX,admob.com
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,adultfriendfinder.com
+  - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,anyporn.com
   - DOMAIN-SUFFIX,api.amplitude.com
   - DOMAIN-SUFFIX,api.mixpanel.com
@@ -110415,6 +110420,7 @@ payload:
   - DOMAIN-SUFFIX,boomtrain.com
   - DOMAIN-SUFFIX,cdn.segment.com
   - DOMAIN-SUFFIX,clien.net
+  - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,crittercism.com
   - DOMAIN-SUFFIX,dafahao.com
   - DOMAIN-SUFFIX,dajiyuan.com
@@ -110494,3 +110500,11 @@ payload:
   - DOMAIN-SUFFIX,zhuichaguoji.org
 # AdvertisingTest 与 Tencent 共 1 条规则重复
   - DOMAIN-SUFFIX,tencentmind.com
+# AdvertisingTest 与 360 共 1 条规则重复
+  - DOMAIN-SUFFIX,qhupdate.com
+# AdvertisingTest 与 Alibaba 共 3 条规则重复
+  - DOMAIN-SUFFIX,aliapp.org
+  - DOMAIN-SUFFIX,mmstat.com
+  - DOMAIN-SUFFIX,ucweb.com
+# AdvertisingTest 与 Baidu 共 1 条规则重复
+  - DOMAIN-SUFFIX,baidustatic.com

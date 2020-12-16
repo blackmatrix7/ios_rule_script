@@ -1,18 +1,19 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-16 03:36:49
+# UPDATED: 2020-12-16 20:43:51
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
-# Proxy 与 Adobe 共 8 条规则重复
+# Proxy 与 Adobe 共 9 条规则重复
 HOST-SUFFIX,behance.net
 HOST-SUFFIX,demdex.net
+HOST-SUFFIX,digicert.com
 HOST-SUFFIX,globalsign.com
 HOST-SUFFIX,godaddy.com
 HOST-SUFFIX,macromedia.com
 HOST-SUFFIX,symcb.com
 HOST-SUFFIX,symcd.com
 HOST-SUFFIX,typekit.net
-# Proxy 与 Advertising 共 85 条规则重复
+# Proxy 与 Advertising 共 87 条规则重复
 HOST-SUFFIX,24smile.org
 HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,2o7.net
@@ -21,6 +22,7 @@ HOST-SUFFIX,aboluowang.com
 HOST-SUFFIX,admob.com
 HOST-SUFFIX,ads-twitter.com
 HOST-SUFFIX,adultfriendfinder.com
+HOST-SUFFIX,amplitude.com
 HOST-SUFFIX,anyporn.com
 HOST-SUFFIX,api.amplitude.com
 HOST-SUFFIX,app-measurement.com
@@ -31,6 +33,7 @@ HOST-SUFFIX,blogcatalog.com
 HOST-SUFFIX,bloglines.com
 HOST-SUFFIX,bongacams.com
 HOST-SUFFIX,boomtrain.com
+HOST-SUFFIX,crashlytics.com
 HOST-SUFFIX,dafahao.com
 HOST-SUFFIX,dajiyuan.com
 HOST-SUFFIX,ddns.name
@@ -98,7 +101,7 @@ HOST-SUFFIX,yuanming.net
 HOST-SUFFIX,zhengjian.org
 HOST-SUFFIX,zhengwunet.org
 HOST-SUFFIX,zhuichaguoji.org
-# Proxy 与 AdvertisingTest 共 100 条规则重复
+# Proxy 与 AdvertisingTest 共 102 条规则重复
 HOST-SUFFIX,21sextury.com
 HOST-SUFFIX,24smile.org
 HOST-SUFFIX,2mdn.net
@@ -108,6 +111,7 @@ HOST-SUFFIX,aboluowang.com
 HOST-SUFFIX,admob.com
 HOST-SUFFIX,ads-twitter.com
 HOST-SUFFIX,adultfriendfinder.com
+HOST-SUFFIX,amplitude.com
 HOST-SUFFIX,anyporn.com
 HOST-SUFFIX,api.amplitude.com
 HOST-SUFFIX,api.mixpanel.com
@@ -122,6 +126,7 @@ HOST-SUFFIX,bongacams.com
 HOST-SUFFIX,boomtrain.com
 HOST-SUFFIX,cdn.segment.com
 HOST-SUFFIX,clien.net
+HOST-SUFFIX,crashlytics.com
 HOST-SUFFIX,crittercism.com
 HOST-SUFFIX,dafahao.com
 HOST-SUFFIX,dajiyuan.com
@@ -199,7 +204,7 @@ HOST-SUFFIX,yuanming.net
 HOST-SUFFIX,zhengjian.org
 HOST-SUFFIX,zhengwunet.org
 HOST-SUFFIX,zhuichaguoji.org
-# Proxy 与 AdvertisingLite 共 30 条规则重复
+# Proxy 与 AdvertisingLite 共 31 条规则重复
 HOST-SUFFIX,2o7.net
 HOST-SUFFIX,admob.com
 HOST-SUFFIX,ads-twitter.com
@@ -207,6 +212,7 @@ HOST-SUFFIX,adultfriendfinder.com
 HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,atdmt.com
 HOST-SUFFIX,bannedbook.org
+HOST-SUFFIX,crashlytics.com
 HOST-SUFFIX,dafahao.com
 HOST-SUFFIX,dajiyuan.com
 HOST-SUFFIX,demdex.net
@@ -230,9 +236,13 @@ HOST-SUFFIX,yuanming.net
 HOST-SUFFIX,zhengjian.org
 HOST-SUFFIX,zhengwunet.org
 HOST-SUFFIX,zhuichaguoji.org
-# Proxy 与 Apple 共 2 条规则重复
+# Proxy 与 AppStore 共 1 条规则重复
+HOST,itunes.apple.com
+# Proxy 与 Apple 共 4 条规则重复
+HOST-SUFFIX,apps.apple.com
 HOST-SUFFIX,appsto.re
 HOST-SUFFIX,cdn-apple.com
+HOST-SUFFIX,crashlytics.com
 # Proxy 与 AppleBlock 共 1 条规则重复
 HOST-SUFFIX,appsto.re
 # Proxy 与 Bahamut 共 1 条规则重复
@@ -1010,13 +1020,18 @@ IP-CIDR,75.126.0.0/16
 USER-AGENT,battleroyale*
 USER-AGENT,roam*
 USER-AGENT,whatsapp*
-# Proxy 与 China 共 22 条规则重复
+# Proxy 与 China 共 35 条规则重复
 HOST-SUFFIX,akamaized.net
 HOST-SUFFIX,bet365.com
+HOST-SUFFIX,bjango.com
+HOST-SUFFIX,crashlytics.com
 HOST-SUFFIX,culturedcode.com
+HOST-SUFFIX,digicert.com
+HOST-SUFFIX,dytt8.net
 HOST-SUFFIX,gameloft.com
 HOST-SUFFIX,getpricetag.com
 HOST-SUFFIX,hao123.com
+HOST-SUFFIX,hotmail.com
 HOST-SUFFIX,ip.sb
 HOST-SUFFIX,licdn.com
 HOST-SUFFIX,linkedin.com
@@ -1024,8 +1039,13 @@ HOST-SUFFIX,m-team.cc
 HOST-SUFFIX,msn.com
 HOST-SUFFIX,nssurge.com
 HOST-SUFFIX,office365.com
+HOST-SUFFIX,outlook.com
+HOST-SUFFIX,playstation.com
+HOST-SUFFIX,playstation.net
+HOST-SUFFIX,playstationnetwork.com
 HOST-SUFFIX,sciencemag.org
 HOST-SUFFIX,sina.com
+HOST-SUFFIX,sony.com
 HOST-SUFFIX,steam-chat.com
 HOST-SUFFIX,steampowered.com
 HOST-SUFFIX,steamstatic.com
@@ -1033,19 +1053,27 @@ HOST-SUFFIX,symcd.com
 HOST-SUFFIX,teamviewer.com
 HOST-SUFFIX,trello.com
 HOST-SUFFIX,unity3d.com
-# Proxy 与 ChinaTest 共 37 条规则重复
+HOST-SUFFIX,windows.com
+HOST-SUFFIX,windows.net
+HOST-SUFFIX,zoho.com
+# Proxy 与 ChinaTest 共 50 条规则重复
 HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,akamaized.net
 HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,bet365.com
+HOST-SUFFIX,bjango.com
+HOST-SUFFIX,crashlytics.com
 HOST-SUFFIX,culturedcode.com
 HOST-SUFFIX,cz.cc
+HOST-SUFFIX,digicert.com
+HOST-SUFFIX,dytt8.net
 HOST-SUFFIX,edgekey.net
 HOST-SUFFIX,gameloft.com
 HOST-SUFFIX,getpricetag.com
 HOST-SUFFIX,hao123.com
 HOST-SUFFIX,hao123img.com
 HOST-SUFFIX,hiwifi.com
+HOST-SUFFIX,hotmail.com
 HOST-SUFFIX,ip.sb
 HOST-SUFFIX,ip138.com
 HOST-SUFFIX,jiepang.com
@@ -1057,9 +1085,14 @@ HOST-SUFFIX,moegirl.org
 HOST-SUFFIX,msn.com
 HOST-SUFFIX,nssurge.com
 HOST-SUFFIX,office365.com
+HOST-SUFFIX,outlook.com
+HOST-SUFFIX,playstation.com
+HOST-SUFFIX,playstation.net
+HOST-SUFFIX,playstationnetwork.com
 HOST-SUFFIX,recaptcha.net
 HOST-SUFFIX,sciencemag.org
 HOST-SUFFIX,sina.com
+HOST-SUFFIX,sony.com
 HOST-SUFFIX,steam-chat.com
 HOST-SUFFIX,steampowered.com
 HOST-SUFFIX,steamstatic.com
@@ -1068,9 +1101,12 @@ HOST-SUFFIX,teamviewer.com
 HOST-SUFFIX,trello.com
 HOST-SUFFIX,unity3d.com
 HOST-SUFFIX,vpser.net
+HOST-SUFFIX,windows.com
+HOST-SUFFIX,windows.net
 HOST-SUFFIX,xianba.net
 HOST-SUFFIX,xteko.com
 HOST-SUFFIX,zi5.me
+HOST-SUFFIX,zoho.com
 # Proxy 与 Cloudflare 共 1 条规则重复
 HOST-SUFFIX,cloudflare.com
 # Proxy 与 Discord 共 6 条规则重复
@@ -1186,7 +1222,7 @@ HOST-SUFFIX,gvt2.com
 HOST-SUFFIX,youtu.be
 HOST-SUFFIX,youtube.com
 HOST-SUFFIX,ytimg.com
-# Proxy 与 Microsoft 共 27 条规则重复
+# Proxy 与 Microsoft 共 31 条规则重复
 HOST-KEYWORD,1drv
 HOST-KEYWORD,onedrive
 HOST-KEYWORD,skydrive
@@ -1197,6 +1233,7 @@ HOST-SUFFIX,bing.com
 HOST-SUFFIX,edgesuite.net
 HOST-SUFFIX,fabric.io
 HOST-SUFFIX,gfx.ms
+HOST-SUFFIX,hotmail.com
 HOST-SUFFIX,live.com
 HOST-SUFFIX,live.net
 HOST-SUFFIX,livefilestore.com
@@ -1207,6 +1244,7 @@ HOST-SUFFIX,oneclient.sfx.ms
 HOST-SUFFIX,onedrive.com
 HOST-SUFFIX,onedrive.live.com
 HOST-SUFFIX,onenote.com
+HOST-SUFFIX,outlook.com
 HOST-SUFFIX,photos.live.com
 HOST-SUFFIX,sfx.ms
 HOST-SUFFIX,skydrive.wns.windows.com
@@ -1214,9 +1252,26 @@ HOST-SUFFIX,skype.com
 HOST-SUFFIX,spoprod-a.akamaihd.net
 HOST-SUFFIX,storage.live.com
 HOST-SUFFIX,storage.msn.com
+HOST-SUFFIX,windows.com
+HOST-SUFFIX,windows.net
+# Proxy 与 OneDriver 共 12 条规则重复
+HOST-KEYWORD,1drv
+HOST-KEYWORD,onedrive
+HOST-KEYWORD,skydrive
+HOST-SUFFIX,livefilestore.com
+HOST-SUFFIX,oneclient.sfx.ms
+HOST-SUFFIX,onedrive.com
+HOST-SUFFIX,onedrive.live.com
+HOST-SUFFIX,photos.live.com
+HOST-SUFFIX,skydrive.wns.windows.com
+HOST-SUFFIX,spoprod-a.akamaihd.net
+HOST-SUFFIX,storage.live.com
+HOST-SUFFIX,storage.msn.com
 # Proxy 与 Niconico 共 2 条规则重复
 HOST-SUFFIX,nicovideo.jp
 HOST-SUFFIX,nimg.jp
+# Proxy 与 Speedtest 共 1 条规则重复
+HOST-SUFFIX,fast.com
 # Proxy 与 Telegram 共 13 条规则重复
 HOST-KEYWORD,telegram
 HOST-SUFFIX,t.me
@@ -1231,14 +1286,16 @@ IP-CIDR,91.108.0.0/16
 IP6-CIDR,2001:67c:4e8::/48
 IP6-CIDR,2001:b28:f23d::/48
 IP6-CIDR,2001:b28:f23f::/48
-# Proxy 与 Netflix 共 6 条规则重复
+# Proxy 与 Netflix 共 7 条规则重复
+HOST-SUFFIX,fast.com
 HOST-SUFFIX,netflix.com
 HOST-SUFFIX,nflxext.com
 HOST-SUFFIX,nflximg.com
 HOST-SUFFIX,nflximg.net
 HOST-SUFFIX,nflxso.net
 HOST-SUFFIX,nflxvideo.net
-# Proxy 与 Global 共 518 条规则重复
+# Proxy 与 Global 共 521 条规则重复
+HOST,itunes.apple.com
 HOST,testflight.apple.com
 HOST-KEYWORD,blogspot
 HOST-KEYWORD,facebook
@@ -1391,6 +1448,7 @@ HOST-SUFFIX,extmatrix.com
 HOST-SUFFIX,facebook.com
 HOST-SUFFIX,facebook.net
 HOST-SUFFIX,facebookmail.com
+HOST-SUFFIX,fast.com
 HOST-SUFFIX,fastpic.ru
 HOST-SUFFIX,fb.com
 HOST-SUFFIX,fb.me
@@ -1466,6 +1524,7 @@ HOST-SUFFIX,i-cable.com
 HOST-SUFFIX,ibtimes.com
 HOST-SUFFIX,icij.org
 HOST-SUFFIX,icoco.com
+HOST-SUFFIX,ifixit.com
 HOST-SUFFIX,imgur.com
 HOST-SUFFIX,inoreader.com
 HOST-SUFFIX,insecam.org
@@ -1757,7 +1816,7 @@ IP6-CIDR,2001:67c:4e8::/48
 IP6-CIDR,2001:b28:f23d::/48
 IP6-CIDR,2001:b28:f23f::/48
 USER-AGENT,roam*
-# Proxy 与 GlobalMedia 共 54 条规则重复
+# Proxy 与 GlobalMedia 共 55 条规则重复
 HOST-KEYWORD,ttvnw
 HOST-KEYWORD,uk-live
 HOST-KEYWORD,youtube
@@ -1771,6 +1830,7 @@ HOST-SUFFIX,bbc.com
 HOST-SUFFIX,bbci.co.uk
 HOST-SUFFIX,cloudfront.net
 HOST-SUFFIX,deezer.com
+HOST-SUFFIX,fast.com
 HOST-SUFFIX,firebaseio.com
 HOST-SUFFIX,gamer.com.tw
 HOST-SUFFIX,go.com
@@ -1822,10 +1882,16 @@ HOST-SUFFIX,githubusercontent.com
 # Proxy 与 Spotify 共 2 条规则重复
 HOST-SUFFIX,scdn.co
 HOST-SUFFIX,spotify.com
-# Proxy 与 Spark 共 3 条规则重复
+# Proxy 与 Spark 共 4 条规则重复
+HOST-SUFFIX,amplitude.com
 HOST-SUFFIX,firebaseio.com
 HOST-SUFFIX,hockeyapp.net
 HOST-SUFFIX,smartmailcloud.com
+# Proxy 与 Sony 共 4 条规则重复
+HOST-SUFFIX,playstation.com
+HOST-SUFFIX,playstation.net
+HOST-SUFFIX,playstationnetwork.com
+HOST-SUFFIX,sony.com
 # Proxy 与 Sina 共 1 条规则重复
 HOST-SUFFIX,sina.com
 # Proxy 与 Scholar 共 1 条规则重复
@@ -1860,8 +1926,11 @@ HOST-SUFFIX,wikisource.org
 HOST-SUFFIX,wikiversity.org
 HOST-SUFFIX,wikivoyage.org
 HOST-SUFFIX,wiktionary.org
-# Proxy 与 Whatsapp 共 16 条规则重复
+# Proxy 与 Whatsapp 共 19 条规则重复
 HOST-KEYWORD,whatsapp
+HOST-SUFFIX,bintray.com
+HOST-SUFFIX,whatsapp.com
+HOST-SUFFIX,whatsapp.net
 IP-CIDR,108.168.174.0/16
 IP-CIDR,158.85.224.160/27
 IP-CIDR,158.85.46.128/27
@@ -1880,5 +1949,53 @@ IP-CIDR,75.126.150.0/16
 # Proxy 与 TeamViewer 共 2 条规则重复
 HOST-SUFFIX,teamviewer.com
 IP-CIDR,109.239.140.0/24
+# Proxy 与 Amazon 共 19 条规则重复
+HOST-SUFFIX,amazon.co.jp
+HOST-SUFFIX,amazon.com
+HOST-SUFFIX,amazonaws.com
+HOST-SUFFIX,llnwd.net
+IP-CIDR,13.32.0.0/15
+IP-CIDR,13.35.0.0/17
+IP-CIDR,18.184.0.0/15
+IP-CIDR,18.194.0.0/15
+IP-CIDR,18.208.0.0/13
+IP-CIDR,18.232.0.0/14
+IP-CIDR,52.200.0.0/13
+IP-CIDR,52.58.0.0/15
+IP-CIDR,52.74.0.0/16
+IP-CIDR,52.77.0.0/16
+IP-CIDR,52.84.0.0/15
+IP-CIDR,54.156.0.0/14
+IP-CIDR,54.226.0.0/15
+IP-CIDR,54.230.156.0/22
+IP-CIDR,54.93.0.0/16
+# Proxy 与 BBC 共 3 条规则重复
+HOST-KEYWORD,uk-live
+HOST-SUFFIX,bbc.co
+HOST-SUFFIX,bbc.com
+# Proxy 与 Baidu 共 2 条规则重复
+HOST-SUFFIX,hao123.com
+HOST-SUFFIX,hao123img.com
+# Proxy 与 Developer 共 20 条规则重复
+HOST-SUFFIX,apache.org
+HOST-SUFFIX,docker.com
+HOST-SUFFIX,elastic.co
+HOST-SUFFIX,elastic.com
+HOST-SUFFIX,gcr.io
+HOST-SUFFIX,gitlab.com
+HOST-SUFFIX,gitlab.io
+HOST-SUFFIX,jitpack.io
+HOST-SUFFIX,maven.org
+HOST-SUFFIX,medium.com
+HOST-SUFFIX,mvnrepository.com
+HOST-SUFFIX,pythonhosted.org
+HOST-SUFFIX,quay.io
+HOST-SUFFIX,reddit.com
+HOST-SUFFIX,redhat.com
+HOST-SUFFIX,sonatype.org
+HOST-SUFFIX,sourcegraph.com
+HOST-SUFFIX,spring.io
+HOST-SUFFIX,spring.net
+HOST-SUFFIX,stackoverflow.com
 # Proxy 与 Lan 共 1 条规则重复
 HOST-SUFFIX,hiwifi.com

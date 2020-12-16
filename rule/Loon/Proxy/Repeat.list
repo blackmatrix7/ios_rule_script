@@ -1,18 +1,19 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-16 03:36:50
+# UPDATED: 2020-12-16 20:43:52
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
-# Proxy 与 Adobe 共 8 条规则重复
+# Proxy 与 Adobe 共 9 条规则重复
 DOMAIN-SUFFIX,behance.net
 DOMAIN-SUFFIX,demdex.net
+DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,globalsign.com
 DOMAIN-SUFFIX,godaddy.com
 DOMAIN-SUFFIX,macromedia.com
 DOMAIN-SUFFIX,symcb.com
 DOMAIN-SUFFIX,symcd.com
 DOMAIN-SUFFIX,typekit.net
-# Proxy 与 Advertising 共 85 条规则重复
+# Proxy 与 Advertising 共 87 条规则重复
 DOMAIN-SUFFIX,24smile.org
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,2o7.net
@@ -21,6 +22,7 @@ DOMAIN-SUFFIX,aboluowang.com
 DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,adultfriendfinder.com
+DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,anyporn.com
 DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,app-measurement.com
@@ -31,6 +33,7 @@ DOMAIN-SUFFIX,blogcatalog.com
 DOMAIN-SUFFIX,bloglines.com
 DOMAIN-SUFFIX,bongacams.com
 DOMAIN-SUFFIX,boomtrain.com
+DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,dafahao.com
 DOMAIN-SUFFIX,dajiyuan.com
 DOMAIN-SUFFIX,ddns.name
@@ -98,7 +101,7 @@ DOMAIN-SUFFIX,yuanming.net
 DOMAIN-SUFFIX,zhengjian.org
 DOMAIN-SUFFIX,zhengwunet.org
 DOMAIN-SUFFIX,zhuichaguoji.org
-# Proxy 与 AdvertisingTest 共 100 条规则重复
+# Proxy 与 AdvertisingTest 共 102 条规则重复
 DOMAIN-SUFFIX,21sextury.com
 DOMAIN-SUFFIX,24smile.org
 DOMAIN-SUFFIX,2mdn.net
@@ -108,6 +111,7 @@ DOMAIN-SUFFIX,aboluowang.com
 DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,adultfriendfinder.com
+DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,anyporn.com
 DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,api.mixpanel.com
@@ -122,6 +126,7 @@ DOMAIN-SUFFIX,bongacams.com
 DOMAIN-SUFFIX,boomtrain.com
 DOMAIN-SUFFIX,cdn.segment.com
 DOMAIN-SUFFIX,clien.net
+DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,crittercism.com
 DOMAIN-SUFFIX,dafahao.com
 DOMAIN-SUFFIX,dajiyuan.com
@@ -199,7 +204,7 @@ DOMAIN-SUFFIX,yuanming.net
 DOMAIN-SUFFIX,zhengjian.org
 DOMAIN-SUFFIX,zhengwunet.org
 DOMAIN-SUFFIX,zhuichaguoji.org
-# Proxy 与 AdvertisingLite 共 30 条规则重复
+# Proxy 与 AdvertisingLite 共 31 条规则重复
 DOMAIN-SUFFIX,2o7.net
 DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,ads-twitter.com
@@ -207,6 +212,7 @@ DOMAIN-SUFFIX,adultfriendfinder.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,atdmt.com
 DOMAIN-SUFFIX,bannedbook.org
+DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,dafahao.com
 DOMAIN-SUFFIX,dajiyuan.com
 DOMAIN-SUFFIX,demdex.net
@@ -230,9 +236,13 @@ DOMAIN-SUFFIX,yuanming.net
 DOMAIN-SUFFIX,zhengjian.org
 DOMAIN-SUFFIX,zhengwunet.org
 DOMAIN-SUFFIX,zhuichaguoji.org
-# Proxy 与 Apple 共 2 条规则重复
+# Proxy 与 AppStore 共 1 条规则重复
+DOMAIN,itunes.apple.com
+# Proxy 与 Apple 共 4 条规则重复
+DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,crashlytics.com
 # Proxy 与 AppleBlock 共 1 条规则重复
 DOMAIN-SUFFIX,appsto.re
 # Proxy 与 Bahamut 共 1 条规则重复
@@ -1010,13 +1020,18 @@ IP-CIDR,75.126.0.0/16
 USER-AGENT,battleroyale*
 USER-AGENT,roam*
 USER-AGENT,whatsapp*
-# Proxy 与 China 共 22 条规则重复
+# Proxy 与 China 共 35 条规则重复
 DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,bet365.com
+DOMAIN-SUFFIX,bjango.com
+DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,culturedcode.com
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,dytt8.net
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,hao123.com
+DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,linkedin.com
@@ -1024,8 +1039,13 @@ DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,sciencemag.org
 DOMAIN-SUFFIX,sina.com
+DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
@@ -1033,19 +1053,27 @@ DOMAIN-SUFFIX,symcd.com
 DOMAIN-SUFFIX,teamviewer.com
 DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,unity3d.com
-# Proxy 与 ChinaTest 共 37 条规则重复
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,zoho.com
+# Proxy 与 ChinaTest 共 50 条规则重复
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,bet365.com
+DOMAIN-SUFFIX,bjango.com
+DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,culturedcode.com
 DOMAIN-SUFFIX,cz.cc
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,dytt8.net
 DOMAIN-SUFFIX,edgekey.net
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,hao123img.com
 DOMAIN-SUFFIX,hiwifi.com
+DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ip138.com
 DOMAIN-SUFFIX,jiepang.com
@@ -1057,9 +1085,14 @@ DOMAIN-SUFFIX,moegirl.org
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,sciencemag.org
 DOMAIN-SUFFIX,sina.com
+DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
@@ -1068,9 +1101,12 @@ DOMAIN-SUFFIX,teamviewer.com
 DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,unity3d.com
 DOMAIN-SUFFIX,vpser.net
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,xianba.net
 DOMAIN-SUFFIX,xteko.com
 DOMAIN-SUFFIX,zi5.me
+DOMAIN-SUFFIX,zoho.com
 # Proxy 与 Cloudflare 共 1 条规则重复
 DOMAIN-SUFFIX,cloudflare.com
 # Proxy 与 Discord 共 6 条规则重复
@@ -1186,7 +1222,7 @@ DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
-# Proxy 与 Microsoft 共 27 条规则重复
+# Proxy 与 Microsoft 共 31 条规则重复
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,skydrive
@@ -1197,6 +1233,7 @@ DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,edgesuite.net
 DOMAIN-SUFFIX,fabric.io
 DOMAIN-SUFFIX,gfx.ms
+DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,livefilestore.com
@@ -1207,6 +1244,7 @@ DOMAIN-SUFFIX,oneclient.sfx.ms
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,onenote.com
+DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,photos.live.com
 DOMAIN-SUFFIX,sfx.ms
 DOMAIN-SUFFIX,skydrive.wns.windows.com
@@ -1214,9 +1252,26 @@ DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,storage.msn.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+# Proxy 与 OneDriver 共 12 条规则重复
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,skydrive
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,oneclient.sfx.ms
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,photos.live.com
+DOMAIN-SUFFIX,skydrive.wns.windows.com
+DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,storage.msn.com
 # Proxy 与 Niconico 共 2 条规则重复
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,nimg.jp
+# Proxy 与 Speedtest 共 1 条规则重复
+DOMAIN-SUFFIX,fast.com
 # Proxy 与 Telegram 共 13 条规则重复
 DOMAIN-KEYWORD,telegram
 DOMAIN-SUFFIX,t.me
@@ -1231,14 +1286,16 @@ IP-CIDR,91.108.0.0/16
 IP-CIDR6,2001:67c:4e8::/48
 IP-CIDR6,2001:b28:f23d::/48
 IP-CIDR6,2001:b28:f23f::/48
-# Proxy 与 Netflix 共 6 条规则重复
+# Proxy 与 Netflix 共 7 条规则重复
+DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
-# Proxy 与 Global 共 518 条规则重复
+# Proxy 与 Global 共 521 条规则重复
+DOMAIN,itunes.apple.com
 DOMAIN,testflight.apple.com
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,facebook
@@ -1391,6 +1448,7 @@ DOMAIN-SUFFIX,extmatrix.com
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,facebookmail.com
+DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fastpic.ru
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
@@ -1466,6 +1524,7 @@ DOMAIN-SUFFIX,i-cable.com
 DOMAIN-SUFFIX,ibtimes.com
 DOMAIN-SUFFIX,icij.org
 DOMAIN-SUFFIX,icoco.com
+DOMAIN-SUFFIX,ifixit.com
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,insecam.org
@@ -1757,7 +1816,7 @@ IP-CIDR6,2001:67c:4e8::/48
 IP-CIDR6,2001:b28:f23d::/48
 IP-CIDR6,2001:b28:f23f::/48
 USER-AGENT,roam*
-# Proxy 与 GlobalMedia 共 54 条规则重复
+# Proxy 与 GlobalMedia 共 55 条规则重复
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,youtube
@@ -1771,6 +1830,7 @@ DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,deezer.com
+DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,go.com
@@ -1822,10 +1882,16 @@ DOMAIN-SUFFIX,githubusercontent.com
 # Proxy 与 Spotify 共 2 条规则重复
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spotify.com
-# Proxy 与 Spark 共 3 条规则重复
+# Proxy 与 Spark 共 4 条规则重复
+DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,smartmailcloud.com
+# Proxy 与 Sony 共 4 条规则重复
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
+DOMAIN-SUFFIX,sony.com
 # Proxy 与 Sina 共 1 条规则重复
 DOMAIN-SUFFIX,sina.com
 # Proxy 与 Scholar 共 1 条规则重复
@@ -1860,8 +1926,11 @@ DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
-# Proxy 与 Whatsapp 共 16 条规则重复
+# Proxy 与 Whatsapp 共 19 条规则重复
 DOMAIN-KEYWORD,whatsapp
+DOMAIN-SUFFIX,bintray.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
 IP-CIDR,108.168.174.0/16
 IP-CIDR,158.85.224.160/27
 IP-CIDR,158.85.46.128/27
@@ -1880,5 +1949,53 @@ IP-CIDR,75.126.150.0/16
 # Proxy 与 TeamViewer 共 2 条规则重复
 DOMAIN-SUFFIX,teamviewer.com
 IP-CIDR,109.239.140.0/24
+# Proxy 与 Amazon 共 19 条规则重复
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,llnwd.net
+IP-CIDR,13.32.0.0/15
+IP-CIDR,13.35.0.0/17
+IP-CIDR,18.184.0.0/15
+IP-CIDR,18.194.0.0/15
+IP-CIDR,18.208.0.0/13
+IP-CIDR,18.232.0.0/14
+IP-CIDR,52.200.0.0/13
+IP-CIDR,52.58.0.0/15
+IP-CIDR,52.74.0.0/16
+IP-CIDR,52.77.0.0/16
+IP-CIDR,52.84.0.0/15
+IP-CIDR,54.156.0.0/14
+IP-CIDR,54.226.0.0/15
+IP-CIDR,54.230.156.0/22
+IP-CIDR,54.93.0.0/16
+# Proxy 与 BBC 共 3 条规则重复
+DOMAIN-KEYWORD,uk-live
+DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.com
+# Proxy 与 Baidu 共 2 条规则重复
+DOMAIN-SUFFIX,hao123.com
+DOMAIN-SUFFIX,hao123img.com
+# Proxy 与 Developer 共 20 条规则重复
+DOMAIN-SUFFIX,apache.org
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,elastic.co
+DOMAIN-SUFFIX,elastic.com
+DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,jitpack.io
+DOMAIN-SUFFIX,maven.org
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,mvnrepository.com
+DOMAIN-SUFFIX,pythonhosted.org
+DOMAIN-SUFFIX,quay.io
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redhat.com
+DOMAIN-SUFFIX,sonatype.org
+DOMAIN-SUFFIX,sourcegraph.com
+DOMAIN-SUFFIX,spring.io
+DOMAIN-SUFFIX,spring.net
+DOMAIN-SUFFIX,stackoverflow.com
 # Proxy 与 Lan 共 1 条规则重复
 DOMAIN-SUFFIX,hiwifi.com

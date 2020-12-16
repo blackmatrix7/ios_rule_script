@@ -1,7 +1,7 @@
 # NAME: ChinaMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-16 03:36:49
+# UPDATED: 2020-12-16 20:43:51
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # ChinaMedia 与 Advertising 共 1 条规则重复
 DOMAIN-SUFFIX,koowo.com
@@ -49,7 +49,7 @@ DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
 USER-AGENT,*bili*
-# ChinaMedia 与 China 共 21 条规则重复
+# ChinaMedia 与 China 共 22 条规则重复
 DOMAIN-SUFFIX,71.am.com
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,aixifan.com
@@ -57,6 +57,7 @@ DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,hitv.com
 DOMAIN-SUFFIX,kugou.com
@@ -108,6 +109,9 @@ USER-AGENT,neteasemusic*
 # ChinaMedia 与 ChinaIPs 共 2 条规则重复
 IP-CIDR,101.224.0.0/13
 IP-CIDR,119.176.0.0/12
+# ChinaMedia 与 ChinaIPsTest 共 2 条规则重复
+IP-CIDR,101.224.0.0/13
+IP-CIDR,119.176.0.0/12
 # ChinaMedia 与 NetEaseMusic 共 2 条规则重复
 DOMAIN-SUFFIX,music.126.net
 DOMAIN-SUFFIX,music.163.com
@@ -125,3 +129,9 @@ USER-AGENT,qiyi*
 # ChinaMedia 与 TencentVideo 共 2 条规则重复
 DOMAIN-SUFFIX,v.smtcdns.com
 DOMAIN-SUFFIX,vv.video.qq.com
+# ChinaMedia 与 Alibaba 共 5 条规则重复
+DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,xiami.net
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,youku.com

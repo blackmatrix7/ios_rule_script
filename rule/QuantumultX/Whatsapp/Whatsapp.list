@@ -1,10 +1,17 @@
 # NAME: Whatsapp
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-16 03:36:47
+# UPDATED: 2020-12-16 20:43:48
 # HOST-KEYWORD: 1
 # IP-CIDR: 15
-# TOTAL: 16
+# HOST-SUFFIX: 4
+# HOST: 1
+# TOTAL: 21
+HOST,graph.facebook.com,Whatsapp
+HOST-SUFFIX,bintray.com,Whatsapp
+HOST-SUFFIX,whatsapp.biz,Whatsapp
+HOST-SUFFIX,whatsapp.com,Whatsapp
+HOST-SUFFIX,whatsapp.net,Whatsapp
 HOST-KEYWORD,whatsapp,Whatsapp
 IP-CIDR,108.168.174.0/16,Whatsapp
 IP-CIDR,158.85.224.160/27,Whatsapp

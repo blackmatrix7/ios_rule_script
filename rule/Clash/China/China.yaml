@@ -1,12 +1,12 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-16 03:36:48
-# DOMAIN-SUFFIX: 554
+# UPDATED: 2020-12-16 20:43:50
+# DOMAIN-SUFFIX: 574
 # DOMAIN: 12
 # IP-CIDR: 7
-# DOMAIN-KEYWORD: 2
-# TOTAL: 575
+# DOMAIN-KEYWORD: 10
+# TOTAL: 603
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -107,6 +107,7 @@ payload:
   - DOMAIN-SUFFIX,biliapi.net
   - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,bilibili.tv
+  - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,bjango.com
   - DOMAIN-SUFFIX,blizzard.com
   - DOMAIN-SUFFIX,bmj.com
@@ -151,13 +152,16 @@ payload:
   - DOMAIN-SUFFIX,cnlang.org
   - DOMAIN-SUFFIX,com-hs-hkdy.com
   - DOMAIN-SUFFIX,comicat.org
+  - DOMAIN-SUFFIX,cootekservice.com
   - DOMAIN-SUFFIX,crashlytics.com
+  - DOMAIN-SUFFIX,csdn.net
   - DOMAIN-SUFFIX,ctrip.com
   - DOMAIN-SUFFIX,culturedcode.com
   - DOMAIN-SUFFIX,czybjz.com
   - DOMAIN-SUFFIX,dandanzan.com
   - DOMAIN-SUFFIX,dct-cloud.com
   - DOMAIN-SUFFIX,dfcfw.com
+  - DOMAIN-SUFFIX,dgtle.com
   - DOMAIN-SUFFIX,dianping.com
   - DOMAIN-SUFFIX,didialift.com
   - DOMAIN-SUFFIX,didiglobal.com
@@ -183,6 +187,7 @@ payload:
   - DOMAIN-SUFFIX,ecitic.net
   - DOMAIN-SUFFIX,eclipse.org
   - DOMAIN-SUFFIX,edu.cn
+  - DOMAIN-SUFFIX,ele.me
   - DOMAIN-SUFFIX,emerald.com
   - DOMAIN-SUFFIX,empornium.me
   - DOMAIN-SUFFIX,engineeringvillage.com
@@ -199,6 +204,7 @@ payload:
   - DOMAIN-SUFFIX,fresh-ideas.cc
   - DOMAIN-SUFFIX,futu5.com
   - DOMAIN-SUFFIX,futunn.com
+  - DOMAIN-SUFFIX,g-cores.com
   - DOMAIN-SUFFIX,gameloft.com
   - DOMAIN-SUFFIX,gandi.net
   - DOMAIN-SUFFIX,gazellegames.net
@@ -287,6 +293,7 @@ payload:
   - DOMAIN-SUFFIX,kugou.com
   - DOMAIN-SUFFIX,kuyunbo.club
   - DOMAIN-SUFFIX,lanzous.com
+  - DOMAIN-SUFFIX,le.com
   - DOMAIN-SUFFIX,lecloud.com
   - DOMAIN-SUFFIX,lemicp.com
   - DOMAIN-SUFFIX,letv.com
@@ -326,6 +333,7 @@ payload:
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,miaopai.com
   - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,microsoftonline.com
   - DOMAIN-SUFFIX,miui.com
   - DOMAIN-SUFFIX,miwifi.com
   - DOMAIN-SUFFIX,mls-cdn.com
@@ -361,12 +369,14 @@ payload:
   - DOMAIN-SUFFIX,nuomi.com
   - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-SUFFIX,oecd-ilibrary.org
+  - DOMAIN-SUFFIX,office.com
   - DOMAIN-SUFFIX,office365.com
   - DOMAIN-SUFFIX,okokbo.com
   - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN-SUFFIX,open.cd
   - DOMAIN-SUFFIX,oracle.com
   - DOMAIN-SUFFIX,osapublishing.org
+  - DOMAIN-SUFFIX,oschina.net
   - DOMAIN-SUFFIX,oup.com
   - DOMAIN-SUFFIX,ourbits.club
   - DOMAIN-SUFFIX,ourdvs.com
@@ -387,6 +397,7 @@ payload:
   - DOMAIN-SUFFIX,plex.tv
   - DOMAIN-SUFFIX,pnas.org
   - DOMAIN-SUFFIX,pniao.com
+  - DOMAIN-SUFFIX,ppsimg.com
   - DOMAIN-SUFFIX,privatehd.to
   - DOMAIN-SUFFIX,proquest.com
   - DOMAIN-SUFFIX,pstatp.com
@@ -402,8 +413,10 @@ payload:
   - DOMAIN-SUFFIX,qin.io
   - DOMAIN-SUFFIX,qingmang.me
   - DOMAIN-SUFFIX,qingmang.mobi
+  - DOMAIN-SUFFIX,qiniu.com
   - DOMAIN-SUFFIX,qiniucdn.com
   - DOMAIN-SUFFIX,qiniudn.com
+  - DOMAIN-SUFFIX,qiyipic.com
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,qqmail.com
   - DOMAIN-SUFFIX,qqurl.com
@@ -427,6 +440,7 @@ payload:
   - DOMAIN-SUFFIX,scopus.com
   - DOMAIN-SUFFIX,sd-dykj.com
   - DOMAIN-SUFFIX,seafile.com
+  - DOMAIN-SUFFIX,segmentfault.com
   - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,sf-express.com
   - DOMAIN-SUFFIX,sharepoint.com
@@ -451,6 +465,7 @@ payload:
   - DOMAIN-SUFFIX,sony.com
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
   - DOMAIN-SUFFIX,soso.com
+  - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,spiedigitallibrary.org
   - DOMAIN-SUFFIX,springer.com
   - DOMAIN-SUFFIX,springerlink.com
@@ -496,6 +511,7 @@ payload:
   - DOMAIN-SUFFIX,udache.com
   - DOMAIN-SUFFIX,udacity.com
   - DOMAIN-SUFFIX,umengcloud.com
+  - DOMAIN-SUFFIX,umetrip.com
   - DOMAIN-SUFFIX,un.org
   - DOMAIN-SUFFIX,uni-bielefeld.de
   - DOMAIN-SUFFIX,uning.com
@@ -504,6 +520,7 @@ payload:
   - DOMAIN-SUFFIX,upyun.com
   - DOMAIN-SUFFIX,uxengine.net
   - DOMAIN-SUFFIX,v-56.com
+  - DOMAIN-SUFFIX,veryzhun.com
   - DOMAIN-SUFFIX,visualstudio.com
   - DOMAIN-SUFFIX,vmware.com
   - DOMAIN-SUFFIX,wandoujia.com
@@ -546,12 +563,14 @@ payload:
   - DOMAIN-SUFFIX,xitek.com
   - DOMAIN-SUFFIX,xmcdn.com
   - DOMAIN-SUFFIX,xslb.net
+  - DOMAIN-SUFFIX,xunlei.com
   - DOMAIN-SUFFIX,yach.me
   - DOMAIN-SUFFIX,yangkeduo.com
   - DOMAIN-SUFFIX,ydstatic.com
   - DOMAIN-SUFFIX,yeepay.com
   - DOMAIN-SUFFIX,yhd.com
   - DOMAIN-SUFFIX,yhdm.tv
+  - DOMAIN-SUFFIX,yihaodianimg.com
   - DOMAIN-SUFFIX,yinxiang.com
   - DOMAIN-SUFFIX,yixia.com
   - DOMAIN-SUFFIX,yizhibo.com
@@ -574,8 +593,17 @@ payload:
   - DOMAIN-SUFFIX,zmzapi.com
   - DOMAIN-SUFFIX,zmzapi.net
   - DOMAIN-SUFFIX,zmzfile.com
+  - DOMAIN-SUFFIX,zoho.com
+  - DOMAIN-KEYWORD,-cn
+  - DOMAIN-KEYWORD,.tmall.com
+  - DOMAIN-KEYWORD,alicdn
+  - DOMAIN-KEYWORD,alipay
+  - DOMAIN-KEYWORD,aliyun
+  - DOMAIN-KEYWORD,baidu
   - DOMAIN-KEYWORD,beplay
+  - DOMAIN-KEYWORD,officecdn
   - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-KEYWORD,taobao
   - IP-CIDR,1.255.62.0/24
   - IP-CIDR,119.28.28.28/32
   - IP-CIDR,182.254.116.0/24

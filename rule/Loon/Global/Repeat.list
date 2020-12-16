@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-16 03:36:50
+# UPDATED: 2020-12-16 20:43:52
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Global 与 Adobe 共 1 条规则重复
 DOMAIN-SUFFIX,behance.net
@@ -407,6 +407,13 @@ DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,storage.msn.com
 DOMAIN-SUFFIX,xboxlive.com
+# Global 与 OneDriver 共 6 条规则重复
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,storage.msn.com
 # Global 与 Niconico 共 5 条规则重复
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,nicovideo.jp
@@ -668,7 +675,8 @@ DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twitter.jp
 DOMAIN-SUFFIX,vine.co
-# Global 与 Proxy 共 518 条规则重复
+# Global 与 Proxy 共 521 条规则重复
+DOMAIN,itunes.apple.com
 DOMAIN,testflight.apple.com
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,facebook
@@ -821,6 +829,7 @@ DOMAIN-SUFFIX,extmatrix.com
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,facebookmail.com
+DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fastpic.ru
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
@@ -896,6 +905,7 @@ DOMAIN-SUFFIX,i-cable.com
 DOMAIN-SUFFIX,ibtimes.com
 DOMAIN-SUFFIX,icij.org
 DOMAIN-SUFFIX,icoco.com
+DOMAIN-SUFFIX,ifixit.com
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,insecam.org
@@ -1199,3 +1209,19 @@ DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikinews.org
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikiquote.org
+# Global 与 Whatsapp 共 2 条规则重复
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+# Global 与 Amazon 共 6 条规则重复
+DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,primevideo.com
+USER-AGENT,instantvideo.us*
+USER-AGENT,prime%20video*
+# Global 与 BBC 共 2 条规则重复
+DOMAIN-KEYWORD,uk-live
+DOMAIN-SUFFIX,bbc.com
+# Global 与 Developer 共 2 条规则重复
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,reddit.com

@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-17 03:36:56。
+最后检查时间：2020-12-17 19:40:56。
 
 ## 规则统计
 
@@ -30,11 +30,13 @@ TeamViewer分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 776   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TeamViewer/Repeat.list)   |   0.13% |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 618   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TeamViewer/Repeat.list)   |   0.81% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73103   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TeamViewer/Repeat.list)   |   0.01% |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 774   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TeamViewer/Repeat.list)   |   0.13% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 615   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TeamViewer/Repeat.list)   |   0.81% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 73046   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TeamViewer/Repeat.list)   |   0.01% |
 |  [Telegram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Telegram)    | 20   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TeamViewer/Repeat.list)   |   5.0% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6042   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TeamViewer/Repeat.list)   |   0.03% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 6029   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TeamViewer/Repeat.list)   |   0.03% |
+程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
+
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

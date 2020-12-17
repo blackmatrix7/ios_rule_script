@@ -1,13 +1,13 @@
 # NAME: BlackList
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-17 03:36:49
-# DOMAIN-SUFFIX: 696
+# UPDATED: 2020-12-17 19:40:39
+# DOMAIN-SUFFIX: 694
 # DOMAIN: 5
 # PROCESS-NAME: 1
 # DOMAIN-KEYWORD: 12
 # IP-CIDR: 60
-# TOTAL: 774
+# TOTAL: 772
 payload:
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,books.itunes.apple.com
@@ -61,7 +61,6 @@ payload:
   - DOMAIN-SUFFIX,apk-dl.com
   - DOMAIN-SUFFIX,apkpure.com
   - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN-SUFFIX,app.smartmailcloud.com
   - DOMAIN-SUFFIX,appdownloader.net
   - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,appshopper.com
@@ -229,7 +228,6 @@ payload:
   - DOMAIN-SUFFIX,g.co
   - DOMAIN-SUFFIX,gabia.net
   - DOMAIN-SUFFIX,garena.com
-  - DOMAIN-SUFFIX,gate.hockeyapp.net
   - DOMAIN-SUFFIX,gcr.io
   - DOMAIN-SUFFIX,geni.us
   - DOMAIN-SUFFIX,get.how

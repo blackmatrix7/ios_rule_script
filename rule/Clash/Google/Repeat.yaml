@@ -1,10 +1,10 @@
 # NAME: Google 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-17 03:36:51
+# UPDATED: 2020-12-17 19:40:45
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
-# Google 与 Advertising 共 14 条规则重复
+# Google 与 Advertising 共 13 条规则重复
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,adservice.google.com
   - DOMAIN-SUFFIX,app-measurement.com
@@ -18,19 +18,14 @@ payload:
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,imasdk.googleapis.com
   - DOMAIN-SUFFIX,safebrowsing.googleapis.com
-  - DOMAIN-SUFFIX,settings.crashlytics.com
-# Google 与 AdvertisingTest 共 23 条规则重复
+# Google 与 AdvertisingTest 共 18 条规则重复
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,adservice.google.com
   - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN-SUFFIX,beacons.gcp.gvt2.com
-  - DOMAIN-SUFFIX,beacons3.gvt2.com
-  - DOMAIN-SUFFIX,c.admob.com
   - DOMAIN-SUFFIX,clickserve.dartsearch.net
   - DOMAIN-SUFFIX,clientservices.googleapis.com
   - DOMAIN-SUFFIX,csi.gstatic.com
   - DOMAIN-SUFFIX,doubleclick.net
-  - DOMAIN-SUFFIX,firebase-settings.crashlytics.com
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,googleadservices.com
   - DOMAIN-SUFFIX,googleanalytics.com
@@ -40,10 +35,9 @@ payload:
   - DOMAIN-SUFFIX,imasdk.googleapis.com
   - DOMAIN-SUFFIX,pagead-googlehosted.l.google.com
   - DOMAIN-SUFFIX,safebrowsing.googleapis.com
-  - DOMAIN-SUFFIX,settings.crashlytics.com
   - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com
-# Google 与 AdvertisingLite 共 10 条规则重复
+# Google 与 AdvertisingLite 共 9 条规则重复
   - DOMAIN-SUFFIX,adservice.google.com
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,csi.gstatic.com
@@ -53,7 +47,6 @@ payload:
   - DOMAIN-SUFFIX,googlesyndication.com
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googletagservices.com
-  - DOMAIN-SUFFIX,settings.crashlytics.com
 # Google 与 BlackList 共 39 条规则重复
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,google
@@ -94,7 +87,7 @@ payload:
   - DOMAIN-SUFFIX,whatbrowser.org
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,ytimg.com
-# Google 与 ChinaTest 共 43 条规则重复
+# Google 与 ChinaTest 共 41 条规则重复
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,adservice.google.com
@@ -112,7 +105,6 @@ payload:
   - DOMAIN-SUFFIX,dl.google.com
   - DOMAIN-SUFFIX,dl.l.google.com
   - DOMAIN-SUFFIX,doubleclick.net
-  - DOMAIN-SUFFIX,firebase-settings.crashlytics.com
   - DOMAIN-SUFFIX,fonts.googleapis.com
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,googleadservices.com
@@ -130,7 +122,6 @@ payload:
   - DOMAIN-SUFFIX,redirector.gvt1.com
   - DOMAIN-SUFFIX,safebrowsing-cache.google.com
   - DOMAIN-SUFFIX,safebrowsing.googleapis.com
-  - DOMAIN-SUFFIX,settings.crashlytics.com
   - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
   - DOMAIN-SUFFIX,toolbarqueries.google.com
   - DOMAIN-SUFFIX,tools.google.com
@@ -142,11 +133,10 @@ payload:
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,ytimg.com
-# Google 与 Global 共 56 条规则重复
+# Google 与 Global 共 55 条规则重复
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,google
   - DOMAIN-SUFFIX,abc.xyz
-  - DOMAIN-SUFFIX,admin.recaptcha.net
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,android.com
   - DOMAIN-SUFFIX,androidify.com

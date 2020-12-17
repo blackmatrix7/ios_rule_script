@@ -1,27 +1,24 @@
 # NAME: Adobe 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-17 03:36:51
+# UPDATED: 2020-12-17 19:40:44
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
-# Adobe 与 Advertising 共 6 条规则重复
+# Adobe 与 Advertising 共 5 条规则重复
   - DOMAIN-SUFFIX,adbecrsl.com
-  - DOMAIN-SUFFIX,bam.nr-data.net
   - DOMAIN-SUFFIX,demandbase.com
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,newrelic.com
   - DOMAIN-SUFFIX,omtrdc.net
-# Adobe 与 AdvertisingTest 共 7 条规则重复
+# Adobe 与 AdvertisingTest 共 6 条规则重复
   - DOMAIN-SUFFIX,adbecrsl.com
-  - DOMAIN-SUFFIX,bam.nr-data.net
   - DOMAIN-SUFFIX,demandbase.com
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,newrelic.com
   - DOMAIN-SUFFIX,omniture.com
   - DOMAIN-SUFFIX,omtrdc.net
-# Adobe 与 AdvertisingLite 共 5 条规则重复
+# Adobe 与 AdvertisingLite 共 4 条规则重复
   - DOMAIN-SUFFIX,adbecrsl.com
-  - DOMAIN-SUFFIX,bam.nr-data.net
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,newrelic.com
   - DOMAIN-SUFFIX,omtrdc.net
@@ -36,8 +33,7 @@ payload:
 # Adobe 与 China 共 2 条规则重复
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,symcd.com
-# Adobe 与 ChinaTest 共 3 条规则重复
-  - DOMAIN-SUFFIX,ctldl.windowsupdate.com
+# Adobe 与 ChinaTest 共 2 条规则重复
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,symcd.com
 # Adobe 与 Microsoft 共 1 条规则重复

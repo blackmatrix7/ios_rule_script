@@ -1,12 +1,12 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-17 03:36:50
-# DOMAIN-SUFFIX: 5917
+# UPDATED: 2020-12-17 19:40:40
+# DOMAIN-SUFFIX: 5904
 # DOMAIN: 5
 # DOMAIN-KEYWORD: 28
 # IP-CIDR: 85
-# TOTAL: 6035
+# TOTAL: 6022
 payload:
   - DOMAIN,cvws.icloud-content.com
   - DOMAIN,developer.apple.com
@@ -139,7 +139,6 @@ payload:
   - DOMAIN-SUFFIX,9gag.com
   - DOMAIN-SUFFIX,9to5mac.com
   - DOMAIN-SUFFIX,a-normal-day.com
-  - DOMAIN-SUFFIX,a248.e.akamai.net
   - DOMAIN-SUFFIX,aamacau.com
   - DOMAIN-SUFFIX,abc.com
   - DOMAIN-SUFFIX,abc.net.au
@@ -327,7 +326,6 @@ payload:
   - DOMAIN-SUFFIX,apartments.com
   - DOMAIN-SUFFIX,apetube.com
   - DOMAIN-SUFFIX,api.ai
-  - DOMAIN-SUFFIX,api.amplitude.com
   - DOMAIN-SUFFIX,api.mixpanel.com
   - DOMAIN-SUFFIX,api.termius.com
   - DOMAIN-SUFFIX,api.tiktokv.com
@@ -343,7 +341,6 @@ payload:
   - DOMAIN-SUFFIX,aplusvpn.com
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,app-measurement.net
-  - DOMAIN-SUFFIX,app.smartmailcloud.com
   - DOMAIN-SUFFIX,appdownloader.net
   - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,appledaily.com
@@ -1853,7 +1850,6 @@ payload:
   - DOMAIN-SUFFIX,garena.com
   - DOMAIN-SUFFIX,gartlive.com
   - DOMAIN-SUFFIX,gate-project.com
-  - DOMAIN-SUFFIX,gate.hockeyapp.net
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,gatecoin.com
   - DOMAIN-SUFFIX,gather.com
@@ -2592,7 +2588,6 @@ payload:
   - DOMAIN-SUFFIX,iconpaper.org
   - DOMAIN-SUFFIX,icons8.com
   - DOMAIN-SUFFIX,icu-project.org
-  - DOMAIN-SUFFIX,id.heroku.com
   - DOMAIN-SUFFIX,idaiwan.com
   - DOMAIN-SUFFIX,iddddg.com
   - DOMAIN-SUFFIX,idemocracy.asia
@@ -3047,7 +3042,6 @@ payload:
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,line.me
-  - DOMAIN-SUFFIX,line.naver.jp
   - DOMAIN-SUFFIX,linglingfa.com
   - DOMAIN-SUFFIX,lingvodics.com
   - DOMAIN-SUFFIX,link-o-rama.com
@@ -3713,9 +3707,7 @@ payload:
   - DOMAIN-SUFFIX,on.cc
   - DOMAIN-SUFFIX,on2.com
   - DOMAIN-SUFFIX,onapp.com
-  - DOMAIN-SUFFIX,oneclient.sfx.ms
   - DOMAIN-SUFFIX,onedrive.com
-  - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN-SUFFIX,onedumb.com
   - DOMAIN-SUFFIX,onejav.com
   - DOMAIN-SUFFIX,onenote.com
@@ -3881,7 +3873,6 @@ payload:
   - DOMAIN-SUFFIX,phonegap.com
   - DOMAIN-SUFFIX,photodharma.net
   - DOMAIN-SUFFIX,photofocus.com
-  - DOMAIN-SUFFIX,photos.live.com
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,phuquocservices.com
   - DOMAIN-SUFFIX,piaotian.net
@@ -4450,7 +4441,6 @@ payload:
   - DOMAIN-SUFFIX,sketchappsources.com
   - DOMAIN-SUFFIX,skimtube.com
   - DOMAIN-SUFFIX,skybet.com
-  - DOMAIN-SUFFIX,skydrive.wns.windows.com
   - DOMAIN-SUFFIX,skyking.com.tw
   - DOMAIN-SUFFIX,skykiwi.com
   - DOMAIN-SUFFIX,skynet.be
@@ -4558,7 +4548,6 @@ payload:
   - DOMAIN-SUFFIX,spicevpn.com
   - DOMAIN-SUFFIX,spideroak.com
   - DOMAIN-SUFFIX,spike.com
-  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
   - DOMAIN-SUFFIX,spotflux.com
   - DOMAIN-SUFFIX,spotify.com
   - DOMAIN-SUFFIX,spreadshirt.es
@@ -4621,8 +4610,6 @@ payload:
   - DOMAIN-SUFFIX,sto.cc
   - DOMAIN-SUFFIX,stoporganharvesting.org
   - DOMAIN-SUFFIX,stoptibetcrisis.net
-  - DOMAIN-SUFFIX,storage.live.com
-  - DOMAIN-SUFFIX,storage.msn.com
   - DOMAIN-SUFFIX,storagenewsletter.com
   - DOMAIN-SUFFIX,stories.google
   - DOMAIN-SUFFIX,storify.com

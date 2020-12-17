@@ -1,7 +1,7 @@
 # NAME: BlackList 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-17 03:36:51
+# UPDATED: 2020-12-17 19:40:44
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # BlackList 与 Adobe 共 7 条规则重复
@@ -12,10 +12,9 @@ payload:
   - DOMAIN-SUFFIX,symcb.com
   - DOMAIN-SUFFIX,symcd.com
   - DOMAIN-SUFFIX,typekit.net
-# BlackList 与 Advertising 共 24 条规则重复
+# BlackList 与 Advertising 共 22 条规则重复
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,2o7.net
-  - DOMAIN-SUFFIX,api.amplitude.com
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,bkrtx.com
   - DOMAIN-SUFFIX,boomtrain.com
@@ -23,7 +22,6 @@ payload:
   - DOMAIN-SUFFIX,dnvod.tv
   - DOMAIN-SUFFIX,flurry.com
   - DOMAIN-SUFFIX,geni.us
-  - DOMAIN-SUFFIX,js.revsci.net
   - DOMAIN-SUFFIX,localnetwork.uop
   - DOMAIN-SUFFIX,nsstatic.net
   - DOMAIN-SUFFIX,optimizely.com
@@ -37,15 +35,12 @@ payload:
   - DOMAIN-SUFFIX,traffichaus.com
   - DOMAIN-SUFFIX,ubertags.com
   - DOMAIN-SUFFIX,xiti.com
-# BlackList 与 AdvertisingTest 共 31 条规则重复
+# BlackList 与 AdvertisingTest 共 27 条规则重复
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,2o7.net
-  - DOMAIN-SUFFIX,api.amplitude.com
-  - DOMAIN-SUFFIX,api.mixpanel.com
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,bkrtx.com
   - DOMAIN-SUFFIX,boomtrain.com
-  - DOMAIN-SUFFIX,cdn.segment.com
   - DOMAIN-SUFFIX,clien.net
   - DOMAIN-SUFFIX,crittercism.com
   - DOMAIN-SUFFIX,demdex.net
@@ -54,7 +49,6 @@ payload:
   - DOMAIN-SUFFIX,flurry.com
   - DOMAIN-SUFFIX,fullstory.com
   - DOMAIN-SUFFIX,geni.us
-  - DOMAIN-SUFFIX,js.revsci.net
   - DOMAIN-SUFFIX,lightboxcdn.com
   - DOMAIN-SUFFIX,localnetwork.uop
   - DOMAIN-SUFFIX,nsstatic.net
@@ -69,12 +63,11 @@ payload:
   - DOMAIN-SUFFIX,traffichaus.com
   - DOMAIN-SUFFIX,ubertags.com
   - DOMAIN-SUFFIX,xiti.com
-# BlackList 与 AdvertisingLite 共 10 条规则重复
+# BlackList 与 AdvertisingLite 共 9 条规则重复
   - DOMAIN-SUFFIX,2o7.net
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,flurry.com
-  - DOMAIN-SUFFIX,js.revsci.net
   - DOMAIN-SUFFIX,localnetwork.uop
   - DOMAIN-SUFFIX,optimizely.com
   - DOMAIN-SUFFIX,panoramio.com
@@ -469,7 +462,7 @@ payload:
   - DOMAIN-SUFFIX,twimg.com
   - DOMAIN-SUFFIX,twitpic.com
   - DOMAIN-SUFFIX,vine.co
-# BlackList 与 Proxy 共 769 条规则重复
+# BlackList 与 Proxy 共 765 条规则重复
   - DOMAIN,testflight.apple.com
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,beetalk
@@ -521,7 +514,6 @@ payload:
   - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,apartmentratings.com
   - DOMAIN-SUFFIX,apartments.com
-  - DOMAIN-SUFFIX,api.amplitude.com
   - DOMAIN-SUFFIX,api.mixpanel.com
   - DOMAIN-SUFFIX,api.termius.com
   - DOMAIN-SUFFIX,api.tiktokv.com
@@ -530,7 +522,6 @@ payload:
   - DOMAIN-SUFFIX,apk-dl.com
   - DOMAIN-SUFFIX,apkpure.com
   - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN-SUFFIX,app.smartmailcloud.com
   - DOMAIN-SUFFIX,appdownloader.net
   - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,appshopper.com
@@ -698,7 +689,6 @@ payload:
   - DOMAIN-SUFFIX,g.co
   - DOMAIN-SUFFIX,gabia.net
   - DOMAIN-SUFFIX,garena.com
-  - DOMAIN-SUFFIX,gate.hockeyapp.net
   - DOMAIN-SUFFIX,gcr.io
   - DOMAIN-SUFFIX,geni.us
   - DOMAIN-SUFFIX,get.how
@@ -802,7 +792,6 @@ payload:
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,line.me
-  - DOMAIN-SUFFIX,line.naver.jp
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,linode.com
   - DOMAIN-SUFFIX,lithium.com

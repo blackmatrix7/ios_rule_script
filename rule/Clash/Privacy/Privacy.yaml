@@ -1,11 +1,11 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-17 03:36:49
+# UPDATED: 2020-12-17 19:40:40
 # DOMAIN: 19
-# DOMAIN-SUFFIX: 2751
+# DOMAIN-SUFFIX: 2746
 # DOMAIN-KEYWORD: 3
-# TOTAL: 2773
+# TOTAL: 2768
 payload:
   - DOMAIN,data.mistat.xiaomi.com
   - DOMAIN,hm.baidu.com
@@ -1064,9 +1064,6 @@ payload:
   - DOMAIN-SUFFIX,gnar.grammarly.com
   - DOMAIN-SUFFIX,go.optifuze.com
   - DOMAIN-SUFFIX,google-analytics.com
-  - DOMAIN-SUFFIX,google-analytics.com/batch
-  - DOMAIN-SUFFIX,google-analytics.com/internal/collect
-  - DOMAIN-SUFFIX,google-analytics.com/r/collect
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,graftpool.ovh
   - DOMAIN-SUFFIX,gramombird.com
@@ -1952,7 +1949,6 @@ payload:
   - DOMAIN-SUFFIX,stat.pravmir.ru
   - DOMAIN-SUFFIX,stat.prsmedia.fr
   - DOMAIN-SUFFIX,stat.pubhtml5.com
-  - DOMAIN-SUFFIX,stat.radar.imgsmail.ru
   - DOMAIN-SUFFIX,stat.ringier.sk
   - DOMAIN-SUFFIX,stat.rum.cdnvideo.ru
   - DOMAIN-SUFFIX,stat.russianfood.com
@@ -2229,7 +2225,6 @@ payload:
   - DOMAIN-SUFFIX,target.smi2.net
   - DOMAIN-SUFFIX,target.smi2.ru
   - DOMAIN-SUFFIX,target.ukr.net
-  - DOMAIN-SUFFIX,targeting.perso.aws.arc.pub
   - DOMAIN-SUFFIX,targeting.voxus.tv
   - DOMAIN-SUFFIX,tbe.tom.ru
   - DOMAIN-SUFFIX,tbskip.taobao.com

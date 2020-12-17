@@ -1,16 +1,15 @@
 # NAME: IQiyi
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-17 19:40:35
+# UPDATED: 2020-12-17 21:15:41
 # USER-AGENT: 2
 # HOST-KEYWORD: 1
 # HOST-SUFFIX: 1
-# IP-CIDR: 3
-# TOTAL: 7
+# IP-CIDR: 2
+# TOTAL: 6
 HOST-SUFFIX,qy.net,IQiyi
 HOST-KEYWORD,qiyi,IQiyi
 USER-AGENT,iqiyi*,IQiyi
 USER-AGENT,qiyi*,IQiyi
-IP-CIDR,101.224.0.0/13,IQiyi
-IP-CIDR,101.227.0.0/16,IQiyi
-IP-CIDR,119.176.0.0/12,IQiyi
+IP-CIDR,1709178880,IQiyi
+IP-CIDR,2008023040,IQiyi

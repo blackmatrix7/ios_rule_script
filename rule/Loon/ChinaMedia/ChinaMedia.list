@@ -1,7 +1,7 @@
 # NAME: ChinaMedia
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-17 21:15:42
+# UPDATED: 2020-12-17 23:22:01
 # DOMAIN: 1
 # USER-AGENT: 22
 # DOMAIN-SUFFIX: 43
@@ -76,5 +76,5 @@ USER-AGENT,tencentmidasconnect*
 USER-AGENT,walkman*
 USER-AGENT,xiami*
 USER-AGENT,youku*
-IP-CIDR,1709178880,no-resolve
-IP-CIDR,2008023040,no-resolve
+IP-CIDR,101.224.0.0/13,no-resolve
+IP-CIDR,119.176.0.0/12,no-resolve

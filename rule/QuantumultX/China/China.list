@@ -1,7 +1,7 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-17 21:15:41
+# UPDATED: 2020-12-17 23:22:00
 # HOST-SUFFIX: 571
 # USER-AGENT: 11
 # HOST: 12
@@ -613,10 +613,10 @@ USER-AGENT,paypal*,China
 USER-AGENT,remoteplay*,China
 USER-AGENT,wechat*,China
 USER-AGENT,yyets*,China
-IP-CIDR,1998330908,China
-IP-CIDR,3070129152,China
-IP-CIDR,3116113920,China
-IP-CIDR,33504768,China
+IP-CIDR,1.255.62.0/24,China
+IP-CIDR,119.28.28.28/32,China
+IP-CIDR,182.254.116.0/24,China
+IP-CIDR,185.188.32.0/22,China
 IP6-CIDR,2a0b:b580::/48,China
 IP6-CIDR,2a0b:b581::/48,China
 IP6-CIDR,2a0b:b582::/48,China

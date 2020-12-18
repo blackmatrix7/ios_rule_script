@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-18 03:43:11
+# UPDATED: 2020-12-19 03:41:39
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Global 与 Adobe 共 1 条规则重复
 DOMAIN-SUFFIX,behance.net
@@ -27,7 +27,8 @@ DOMAIN,apps.apple.com
 DOMAIN,itunes.apple.com
 # Global 与 Apple 共 1 条规则重复
 DOMAIN-SUFFIX,appsto.re
-# Global 与 AppleBlock 共 5 条规则重复
+# Global 与 AppleBlock 共 6 条规则重复
+DOMAIN,api-glb-sea.smoot.apple.com
 DOMAIN,books.itunes.apple.com
 DOMAIN,hls.itunes.apple.com
 DOMAIN,lookup-api.apple.com
@@ -39,7 +40,8 @@ DOMAIN,gamer2-cds.cdn.hinet.net
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
 USER-AGENT,anime*
-# Global 与 BlackList 共 235 条规则重复
+# Global 与 BlackList 共 236 条规则重复
+DOMAIN,api-glb-sea.smoot.apple.com
 DOMAIN,books.itunes.apple.com
 DOMAIN,hls.itunes.apple.com
 DOMAIN,lookup-api.apple.com

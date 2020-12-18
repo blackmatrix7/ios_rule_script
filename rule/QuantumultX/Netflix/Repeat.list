@@ -1,7 +1,7 @@
 # NAME: Netflix 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-18 03:43:12
+# UPDATED: 2020-12-19 03:41:39
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Netflix 与 Speedtest 共 1 条规则重复
 HOST-SUFFIX,fast.com
@@ -34,7 +34,8 @@ IP-CIDR,45.57.0.0/17
 IP-CIDR,64.120.128.0/17
 IP-CIDR,66.197.128.0/17
 USER-AGENT,argo*
-# Netflix 与 GlobalMedia 共 39 条规则重复
+# Netflix 与 GlobalMedia 共 40 条规则重复
+HOST,netflix.com.edgesuite.net
 HOST-SUFFIX,fast.com
 HOST-SUFFIX,netflix.com
 HOST-SUFFIX,netflix.net

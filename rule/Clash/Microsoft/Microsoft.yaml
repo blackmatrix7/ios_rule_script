@@ -1,12 +1,12 @@
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-19 03:41:38
-# DOMAIN-SUFFIX: 83
+# UPDATED: 2020-12-20 03:37:41
+# DOMAIN-SUFFIX: 82
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 4
 # PROCESS-NAME: 2
-# TOTAL: 89
+# TOTAL: 88
 payload:
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,aadrm.com
@@ -64,6 +64,7 @@ payload:
   - DOMAIN-SUFFIX,outlookmobile.com
   - DOMAIN-SUFFIX,phonefactor.net
   - DOMAIN-SUFFIX,public-trust.com
+  - DOMAIN-SUFFIX,s-microsoft.com
   - DOMAIN-SUFFIX,sfbassets.com
   - DOMAIN-SUFFIX,sfx.ms
   - DOMAIN-SUFFIX,sharepoint.com
@@ -87,8 +88,6 @@ payload:
   - DOMAIN-SUFFIX,windowsazure.com
   - DOMAIN-SUFFIX,windowsupdate.com
   - DOMAIN-SUFFIX,wunderlist.com
-  - DOMAIN-SUFFIX,xbox.com
-  - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
   - DOMAIN-KEYWORD,1drv

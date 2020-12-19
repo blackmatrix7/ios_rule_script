@@ -1,7 +1,7 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-19 03:41:39
+# UPDATED: 2020-12-20 03:37:42
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # GlobalMedia 与 Advertising 共 5 条规则重复
 DOMAIN-SUFFIX,app-measurement.com
@@ -89,8 +89,7 @@ DOMAIN-SUFFIX,socdm.com
 USER-AGENT,niconico*
 # GlobalMedia 与 Speedtest 共 1 条规则重复
 DOMAIN-SUFFIX,fast.com
-# GlobalMedia 与 Netflix 共 40 条规则重复
-DOMAIN,netflix.com.edgesuite.net
+# GlobalMedia 与 Netflix 共 39 条规则重复
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net

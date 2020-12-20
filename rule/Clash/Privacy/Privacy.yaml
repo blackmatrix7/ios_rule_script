@@ -1,11 +1,11 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-20 03:37:41
+# UPDATED: 2020-12-21 03:38:07
 # DOMAIN: 16
-# DOMAIN-SUFFIX: 2746
+# DOMAIN-SUFFIX: 2752
 # DOMAIN-KEYWORD: 3
-# TOTAL: 2765
+# TOTAL: 2771
 payload:
   - DOMAIN,data.mistat.xiaomi.com
   - DOMAIN,hm.baidu.com
@@ -193,6 +193,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.myfinance.com
   - DOMAIN-SUFFIX,analytics.newscred.com
   - DOMAIN-SUFFIX,analytics.ngfiles.com
+  - DOMAIN-SUFFIX,analytics.oneplus.cn
   - DOMAIN-SUFFIX,analytics.onlyonlinemarketing.com
   - DOMAIN-SUFFIX,analytics.optilead.co.uk
   - DOMAIN-SUFFIX,analytics.orenshmu.com
@@ -351,6 +352,7 @@ payload:
   - DOMAIN-SUFFIX,beacon.ehow.com
   - DOMAIN-SUFFIX,beacon.errorception.com
   - DOMAIN-SUFFIX,beacon.examiner.com
+  - DOMAIN-SUFFIX,beacon.flow.io
   - DOMAIN-SUFFIX,beacon.gcion.com
   - DOMAIN-SUFFIX,beacon.gu-web.net
   - DOMAIN-SUFFIX,beacon.gutefrage.net
@@ -493,6 +495,7 @@ payload:
   - DOMAIN-SUFFIX,click.bokecc.com
   - DOMAIN-SUFFIX,click.engage.xbox.com
   - DOMAIN-SUFFIX,click.gamersky.com
+  - DOMAIN-SUFFIX,click.oneplus.cn
   - DOMAIN-SUFFIX,click.oneplus.com
   - DOMAIN-SUFFIX,click.sinx.com
   - DOMAIN-SUFFIX,click.suning.cn
@@ -576,6 +579,7 @@ payload:
   - DOMAIN-SUFFIX,collector.kstptv5.com
   - DOMAIN-SUFFIX,collector.mazeberry.com
   - DOMAIN-SUFFIX,collector.prod.expedia.com
+  - DOMAIN-SUFFIX,collector.rn.de
   - DOMAIN-SUFFIX,collector.roistat.com
   - DOMAIN-SUFFIX,collector.schibsted.io
   - DOMAIN-SUFFIX,collector.sspinc.io
@@ -699,6 +703,7 @@ payload:
   - DOMAIN-SUFFIX,d.nativendo.de
   - DOMAIN-SUFFIX,d.omsnative.de
   - DOMAIN-SUFFIX,d.shareaholic.com
+  - DOMAIN-SUFFIX,d.skk.moe
   - DOMAIN-SUFFIX,d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com
   - DOMAIN-SUFFIX,da.netease.com
   - DOMAIN-SUFFIX,da.virginmedia.com
@@ -897,6 +902,7 @@ payload:
   - DOMAIN-SUFFIX,events.air.tv
   - DOMAIN-SUFFIX,events.apester.com
   - DOMAIN-SUFFIX,events.attentivemobile.com
+  - DOMAIN-SUFFIX,events.audiate.me
   - DOMAIN-SUFFIX,events.avantisvideo.com
   - DOMAIN-SUFFIX,events.brightline.tv
   - DOMAIN-SUFFIX,events.chaordicsystems.com
@@ -939,7 +945,6 @@ payload:
   - DOMAIN-SUFFIX,fc.vodafone.de
   - DOMAIN-SUFFIX,feesocrald.com
   - DOMAIN-SUFFIX,felitb.rightinthebox.com
-  - DOMAIN-SUFFIX,filament-stats.herokuapp.com
   - DOMAIN-SUFFIX,filmoljupci.com
   - DOMAIN-SUFFIX,fimg-resp.seznam.cz
   - DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
@@ -954,7 +959,6 @@ payload:
   - DOMAIN-SUFFIX,fpa-events.arstechnica.com
   - DOMAIN-SUFFIX,freepressseries-gb.freepressseries.co.uk
   - DOMAIN-SUFFIX,fresh.techdirt.com
-  - DOMAIN-SUFFIX,fs-client-logger.herokuapp.com
   - DOMAIN-SUFFIX,fsm.lapresse.ca
   - DOMAIN-SUFFIX,fsz1.francoisesaget.com
   - DOMAIN-SUFFIX,funn.graphiq.com
@@ -994,6 +998,7 @@ payload:
   - DOMAIN-SUFFIX,g4p.redtram.com
   - DOMAIN-SUFFIX,g5150192710.co
   - DOMAIN-SUFFIX,g5348277045.co
+  - DOMAIN-SUFFIX,g5546361380.co
   - DOMAIN-SUFFIX,ga-beacon.appspot.com
   - DOMAIN-SUFFIX,ga.canoe.ca
   - DOMAIN-SUFFIX,ga.kvideo.io
@@ -1144,6 +1149,7 @@ payload:
   - DOMAIN-SUFFIX,insights.sitesearch360.com
   - DOMAIN-SUFFIX,insitez.blob.core.windows.net
   - DOMAIN-SUFFIX,instore.pagomeno.it
+  - DOMAIN-SUFFIX,intake-analytics.wikimedia.org
   - DOMAIN-SUFFIX,intelli.ageuk.org.uk
   - DOMAIN-SUFFIX,intent.cbsi.com
   - DOMAIN-SUFFIX,intg.snapchat.com
@@ -1276,6 +1282,7 @@ payload:
   - DOMAIN-SUFFIX,logs.gaana.com
   - DOMAIN-SUFFIX,logs.ggweb.nl
   - DOMAIN-SUFFIX,logs.hotstar.com
+  - DOMAIN-SUFFIX,logs.naukri.com
   - DOMAIN-SUFFIX,logs.spilgames.com
   - DOMAIN-SUFFIX,logs.thebloggernetwork.com
   - DOMAIN-SUFFIX,logs.vmixcore.com
@@ -1448,7 +1455,6 @@ payload:
   - DOMAIN-SUFFIX,oms.expedia.com
   - DOMAIN-SUFFIX,omt.shinobi.jp
   - DOMAIN-SUFFIX,oneid.mmstat.com
-  - DOMAIN-SUFFIX,onespot-tracking.herokuapp.com
   - DOMAIN-SUFFIX,oops.redditmedia.com
   - DOMAIN-SUFFIX,open.delivery.net
   - DOMAIN-SUFFIX,open.mkt1397.com
@@ -1558,6 +1564,7 @@ payload:
   - DOMAIN-SUFFIX,pixel.roymorgan.com
   - DOMAIN-SUFFIX,pixel.s3xified.com
   - DOMAIN-SUFFIX,pixel.safe-installation.com
+  - DOMAIN-SUFFIX,pixel.smartmedia.tj
   - DOMAIN-SUFFIX,pixel.solvemedia.com
   - DOMAIN-SUFFIX,pixel.spotify.com
   - DOMAIN-SUFFIX,pixel.sprinklr.com
@@ -2109,7 +2116,6 @@ payload:
   - DOMAIN-SUFFIX,statsdev.treesd.com
   - DOMAIN-SUFFIX,statsmp2.emol.com
   - DOMAIN-SUFFIX,statstracker.celebrity-gossip.net
-  - DOMAIN-SUFFIX,statt-collect.herokuapp.com
   - DOMAIN-SUFFIX,statystyki.panelek.com
   - DOMAIN-SUFFIX,stbt.coupons.com
   - DOMAIN-SUFFIX,stg-data-collector.playbuzz.com
@@ -2183,6 +2189,7 @@ payload:
   - DOMAIN-SUFFIX,t.sharethis.com
   - DOMAIN-SUFFIX,t.signalayer.com
   - DOMAIN-SUFFIX,t.smile.eu
+  - DOMAIN-SUFFIX,t.spot.im
   - DOMAIN-SUFFIX,t.wayfair.ca
   - DOMAIN-SUFFIX,t.wayfair.co.uk
   - DOMAIN-SUFFIX,t.wayfair.com
@@ -2244,7 +2251,6 @@ payload:
   - DOMAIN-SUFFIX,te.mytoys.de
   - DOMAIN-SUFFIX,te.supportfreecontent.com
   - DOMAIN-SUFFIX,ted.metro.co.uk
-  - DOMAIN-SUFFIX,telegraph.api.hbo.com
   - DOMAIN-SUFFIX,telemetry.art19.com
   - DOMAIN-SUFFIX,telemetry.jivosite.com
   - DOMAIN-SUFFIX,telemetry.reembed.com

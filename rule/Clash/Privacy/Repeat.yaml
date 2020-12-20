@@ -1,10 +1,10 @@
 # NAME: Privacy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-20 03:37:42
+# UPDATED: 2020-12-21 03:38:09
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
-# Privacy 与 Advertising 共 2580 条规则重复
+# Privacy 与 Advertising 共 2577 条规则重复
   - DOMAIN,log.byteoversea.com
   - DOMAIN,log.tiktokv.com
   - DOMAIN-SUFFIX,0sbm.consobaby.co.uk
@@ -168,6 +168,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.myfinance.com
   - DOMAIN-SUFFIX,analytics.newscred.com
   - DOMAIN-SUFFIX,analytics.ngfiles.com
+  - DOMAIN-SUFFIX,analytics.oneplus.cn
   - DOMAIN-SUFFIX,analytics.onlyonlinemarketing.com
   - DOMAIN-SUFFIX,analytics.optilead.co.uk
   - DOMAIN-SUFFIX,analytics.orenshmu.com
@@ -769,6 +770,7 @@ payload:
   - DOMAIN-SUFFIX,edge.sqweb.com
   - DOMAIN-SUFFIX,edmi.nextinpact.com
   - DOMAIN-SUFFIX,edw.edmunds.com
+  - DOMAIN-SUFFIX,eec.crunchyroll.com
   - DOMAIN-SUFFIX,ef.futuroscope.com
   - DOMAIN-SUFFIX,ef.futuroscope.mobi
   - DOMAIN-SUFFIX,eg-p2.eurogamer.net
@@ -873,7 +875,6 @@ payload:
   - DOMAIN-SUFFIX,fc.vodafone.de
   - DOMAIN-SUFFIX,feesocrald.com
   - DOMAIN-SUFFIX,felitb.rightinthebox.com
-  - DOMAIN-SUFFIX,filament-stats.herokuapp.com
   - DOMAIN-SUFFIX,filmoljupci.com
   - DOMAIN-SUFFIX,fimg-resp.seznam.cz
   - DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
@@ -888,7 +889,6 @@ payload:
   - DOMAIN-SUFFIX,fpa-events.arstechnica.com
   - DOMAIN-SUFFIX,freepressseries-gb.freepressseries.co.uk
   - DOMAIN-SUFFIX,fresh.techdirt.com
-  - DOMAIN-SUFFIX,fs-client-logger.herokuapp.com
   - DOMAIN-SUFFIX,fsm.lapresse.ca
   - DOMAIN-SUFFIX,fsz1.francoisesaget.com
   - DOMAIN-SUFFIX,funn.graphiq.com
@@ -1349,7 +1349,6 @@ payload:
   - DOMAIN-SUFFIX,omniture.theglobeandmail.com
   - DOMAIN-SUFFIX,oms.expedia.com
   - DOMAIN-SUFFIX,omt.shinobi.jp
-  - DOMAIN-SUFFIX,onespot-tracking.herokuapp.com
   - DOMAIN-SUFFIX,oops.redditmedia.com
   - DOMAIN-SUFFIX,open.delivery.net
   - DOMAIN-SUFFIX,open.mkt1397.com
@@ -1978,7 +1977,6 @@ payload:
   - DOMAIN-SUFFIX,statsdev.treesd.com
   - DOMAIN-SUFFIX,statsmp2.emol.com
   - DOMAIN-SUFFIX,statstracker.celebrity-gossip.net
-  - DOMAIN-SUFFIX,statt-collect.herokuapp.com
   - DOMAIN-SUFFIX,statystyki.panelek.com
   - DOMAIN-SUFFIX,stbt.coupons.com
   - DOMAIN-SUFFIX,stg-data-collector.playbuzz.com
@@ -2102,7 +2100,6 @@ payload:
   - DOMAIN-SUFFIX,te.mytoys.de
   - DOMAIN-SUFFIX,te.supportfreecontent.com
   - DOMAIN-SUFFIX,ted.metro.co.uk
-  - DOMAIN-SUFFIX,telegraph.api.hbo.com
   - DOMAIN-SUFFIX,telemetry.art19.com
   - DOMAIN-SUFFIX,telemetry.jivosite.com
   - DOMAIN-SUFFIX,telemetry.reembed.com
@@ -2585,7 +2582,7 @@ payload:
   - DOMAIN-SUFFIX,zsi7.destinia.do
   - DOMAIN-SUFFIX,zyq2.destinia.sk
   - DOMAIN-SUFFIX,zz.bdstatic.com
-# Privacy 与 AdvertisingTest 共 2515 条规则重复
+# Privacy 与 AdvertisingTest 共 2518 条规则重复
   - DOMAIN,log.byteoversea.com
   - DOMAIN,log.tiktokv.com
   - DOMAIN-SUFFIX,0sbm.consobaby.co.uk
@@ -2746,6 +2743,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.myfinance.com
   - DOMAIN-SUFFIX,analytics.newscred.com
   - DOMAIN-SUFFIX,analytics.ngfiles.com
+  - DOMAIN-SUFFIX,analytics.oneplus.cn
   - DOMAIN-SUFFIX,analytics.onlyonlinemarketing.com
   - DOMAIN-SUFFIX,analytics.optilead.co.uk
   - DOMAIN-SUFFIX,analytics.orenshmu.com
@@ -2888,6 +2886,7 @@ payload:
   - DOMAIN-SUFFIX,beacon.ehow.com
   - DOMAIN-SUFFIX,beacon.errorception.com
   - DOMAIN-SUFFIX,beacon.examiner.com
+  - DOMAIN-SUFFIX,beacon.flow.io
   - DOMAIN-SUFFIX,beacon.gcion.com
   - DOMAIN-SUFFIX,beacon.gu-web.net
   - DOMAIN-SUFFIX,beacon.gutefrage.net
@@ -3092,6 +3091,7 @@ payload:
   - DOMAIN-SUFFIX,collector.kstptv5.com
   - DOMAIN-SUFFIX,collector.mazeberry.com
   - DOMAIN-SUFFIX,collector.prod.expedia.com
+  - DOMAIN-SUFFIX,collector.rn.de
   - DOMAIN-SUFFIX,collector.roistat.com
   - DOMAIN-SUFFIX,collector.schibsted.io
   - DOMAIN-SUFFIX,collector.sspinc.io
@@ -3326,6 +3326,7 @@ payload:
   - DOMAIN-SUFFIX,edge.sqweb.com
   - DOMAIN-SUFFIX,edmi.nextinpact.com
   - DOMAIN-SUFFIX,edw.edmunds.com
+  - DOMAIN-SUFFIX,eec.crunchyroll.com
   - DOMAIN-SUFFIX,ef.futuroscope.com
   - DOMAIN-SUFFIX,ef.futuroscope.mobi
   - DOMAIN-SUFFIX,eg-p2.eurogamer.net
@@ -3391,6 +3392,7 @@ payload:
   - DOMAIN-SUFFIX,eventlogger.soundcloud.com
   - DOMAIN-SUFFIX,events.air.tv
   - DOMAIN-SUFFIX,events.attentivemobile.com
+  - DOMAIN-SUFFIX,events.audiate.me
   - DOMAIN-SUFFIX,events.avantisvideo.com
   - DOMAIN-SUFFIX,events.brightline.tv
   - DOMAIN-SUFFIX,events.chaordicsystems.com
@@ -3428,7 +3430,6 @@ payload:
   - DOMAIN-SUFFIX,fc.vodafone.de
   - DOMAIN-SUFFIX,feesocrald.com
   - DOMAIN-SUFFIX,felitb.rightinthebox.com
-  - DOMAIN-SUFFIX,filament-stats.herokuapp.com
   - DOMAIN-SUFFIX,filmoljupci.com
   - DOMAIN-SUFFIX,fimg-resp.seznam.cz
   - DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
@@ -3442,7 +3443,6 @@ payload:
   - DOMAIN-SUFFIX,fpa-events.arstechnica.com
   - DOMAIN-SUFFIX,freepressseries-gb.freepressseries.co.uk
   - DOMAIN-SUFFIX,fresh.techdirt.com
-  - DOMAIN-SUFFIX,fs-client-logger.herokuapp.com
   - DOMAIN-SUFFIX,fsm.lapresse.ca
   - DOMAIN-SUFFIX,fsz1.francoisesaget.com
   - DOMAIN-SUFFIX,funn.graphiq.com
@@ -3480,6 +3480,7 @@ payload:
   - DOMAIN-SUFFIX,g4952108375.co
   - DOMAIN-SUFFIX,g5150192710.co
   - DOMAIN-SUFFIX,g5348277045.co
+  - DOMAIN-SUFFIX,g5546361380.co
   - DOMAIN-SUFFIX,ga-beacon.appspot.com
   - DOMAIN-SUFFIX,ga.canoe.ca
   - DOMAIN-SUFFIX,ga.kvideo.io
@@ -3897,7 +3898,6 @@ payload:
   - DOMAIN-SUFFIX,omniture.theglobeandmail.com
   - DOMAIN-SUFFIX,oms.expedia.com
   - DOMAIN-SUFFIX,omt.shinobi.jp
-  - DOMAIN-SUFFIX,onespot-tracking.herokuapp.com
   - DOMAIN-SUFFIX,oops.redditmedia.com
   - DOMAIN-SUFFIX,open.delivery.net
   - DOMAIN-SUFFIX,open.mkt1397.com
@@ -4000,6 +4000,7 @@ payload:
   - DOMAIN-SUFFIX,pixel.roymorgan.com
   - DOMAIN-SUFFIX,pixel.s3xified.com
   - DOMAIN-SUFFIX,pixel.safe-installation.com
+  - DOMAIN-SUFFIX,pixel.smartmedia.tj
   - DOMAIN-SUFFIX,pixel.solvemedia.com
   - DOMAIN-SUFFIX,pixel.spotify.com
   - DOMAIN-SUFFIX,pixel.sprinklr.com
@@ -4516,7 +4517,6 @@ payload:
   - DOMAIN-SUFFIX,statsdev.treesd.com
   - DOMAIN-SUFFIX,statsmp2.emol.com
   - DOMAIN-SUFFIX,statstracker.celebrity-gossip.net
-  - DOMAIN-SUFFIX,statt-collect.herokuapp.com
   - DOMAIN-SUFFIX,statystyki.panelek.com
   - DOMAIN-SUFFIX,stbt.coupons.com
   - DOMAIN-SUFFIX,stg-data-collector.playbuzz.com
@@ -4579,6 +4579,7 @@ payload:
   - DOMAIN-SUFFIX,t.sgc.io
   - DOMAIN-SUFFIX,t.signalayer.com
   - DOMAIN-SUFFIX,t.smile.eu
+  - DOMAIN-SUFFIX,t.spot.im
   - DOMAIN-SUFFIX,t.wayfair.ca
   - DOMAIN-SUFFIX,t.wayfair.co.uk
   - DOMAIN-SUFFIX,t.wayfair.com
@@ -4633,7 +4634,6 @@ payload:
   - DOMAIN-SUFFIX,te.mytoys.de
   - DOMAIN-SUFFIX,te.supportfreecontent.com
   - DOMAIN-SUFFIX,ted.metro.co.uk
-  - DOMAIN-SUFFIX,telegraph.api.hbo.com
   - DOMAIN-SUFFIX,telemetry.art19.com
   - DOMAIN-SUFFIX,telemetry.jivosite.com
   - DOMAIN-SUFFIX,telemetry.reembed.com
@@ -5101,7 +5101,7 @@ payload:
   - DOMAIN-SUFFIX,zsi7.destinia.do
   - DOMAIN-SUFFIX,zyq2.destinia.sk
   - DOMAIN-SUFFIX,zz.bdstatic.com
-# Privacy 与 AdvertisingLite 共 2352 条规则重复
+# Privacy 与 AdvertisingLite 共 2348 条规则重复
   - DOMAIN-SUFFIX,0sbm.consobaby.co.uk
   - DOMAIN-SUFFIX,0x1f4b0.com
   - DOMAIN-SUFFIX,1l-hit.mail.ru
@@ -5906,7 +5906,6 @@ payload:
   - DOMAIN-SUFFIX,fc.vodafone.de
   - DOMAIN-SUFFIX,feesocrald.com
   - DOMAIN-SUFFIX,felitb.rightinthebox.com
-  - DOMAIN-SUFFIX,filament-stats.herokuapp.com
   - DOMAIN-SUFFIX,filmoljupci.com
   - DOMAIN-SUFFIX,fimg-resp.seznam.cz
   - DOMAIN-SUFFIX,firebaselogging.googleapis.com
@@ -6310,7 +6309,6 @@ payload:
   - DOMAIN-SUFFIX,omniture.theglobeandmail.com
   - DOMAIN-SUFFIX,oms.expedia.com
   - DOMAIN-SUFFIX,omt.shinobi.jp
-  - DOMAIN-SUFFIX,onespot-tracking.herokuapp.com
   - DOMAIN-SUFFIX,open.delivery.net
   - DOMAIN-SUFFIX,open.mkt1397.com
   - DOMAIN-SUFFIX,ophan.theguardian.com
@@ -6895,7 +6893,6 @@ payload:
   - DOMAIN-SUFFIX,statsd.zmags.com
   - DOMAIN-SUFFIX,statsdev.treesd.com
   - DOMAIN-SUFFIX,statstracker.celebrity-gossip.net
-  - DOMAIN-SUFFIX,statt-collect.herokuapp.com
   - DOMAIN-SUFFIX,statystyki.panelek.com
   - DOMAIN-SUFFIX,stbt.coupons.com
   - DOMAIN-SUFFIX,stg-data-collector.playbuzz.com
@@ -7011,7 +7008,6 @@ payload:
   - DOMAIN-SUFFIX,te.mytoys.de
   - DOMAIN-SUFFIX,te.supportfreecontent.com
   - DOMAIN-SUFFIX,ted.metro.co.uk
-  - DOMAIN-SUFFIX,telegraph.api.hbo.com
   - DOMAIN-SUFFIX,telemetry.jivosite.com
   - DOMAIN-SUFFIX,telemetry.reembed.com
   - DOMAIN-SUFFIX,telemetry.soundcloud.com

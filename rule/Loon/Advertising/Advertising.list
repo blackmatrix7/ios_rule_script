@@ -1,14 +1,14 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-21 03:38:06
+# UPDATED: 2020-12-22 03:40:36
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN-SUFFIX: 42129
-# DOMAIN: 15056
+# DOMAIN-SUFFIX: 42158
+# DOMAIN: 14987
 # DOMAIN-KEYWORD: 56
 # IP-CIDR: 236
-# URL-REGEX: 310
-# TOTAL: 57787
+# URL-REGEX: 307
+# TOTAL: 57744
 DOMAIN-KEYWORD,adashx
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -103,10 +103,8 @@ URL-REGEX,^https?:\/\/[^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(/|\.js)
 URL-REGEX,^https?:\/\/[^bbs].tianya\.cn
 URL-REGEX,^https?:\/\/\w+.gdt.qq.com
 URL-REGEX,^https?:\/\/\w+?\.ximalaya\.com\/api\/v\d\/adRealTime
-URL-REGEX,^https?:\/\/\w+?\.youtube\.com\/api\/.+?ad
 URL-REGEX,^https?:\/\/\w+\.cloudfront\.net\/banner
 URL-REGEX,^https?:\/\/\w+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/
-URL-REGEX,^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking)
 URL-REGEX,^https?:\/\/\w.?up\.qingdaonews\.com
 URL-REGEX,^https?:\/\/\w{6}.com1.z0.glb.clouddn.com
 URL-REGEX,^https?:\/\/\w{8}.logic.cpm.cm.kankan.com
@@ -133,7 +131,6 @@ URL-REGEX,^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/
 URL-REGEX,^https?:\/\/api\.chelaile\.net\.cn\/adpub\/
 URL-REGEX,^https?:\/\/api\.chelaile\.net\.cn\/goocity\/advert\/
 URL-REGEX,^https?:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/
-URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads\/
 URL-REGEX,^https?:\/\/api\.gaoqingdianshi\.com\/api\/v2\/ad
 URL-REGEX,^https?:\/\/api\.gotokeep\.com\/ads
 URL-REGEX,^https?:\/\/api\.haohaozhu\.cn\/index\.php\/home\/AppInit\/getStartPhoto

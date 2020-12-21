@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-21 03:38:09
+# UPDATED: 2020-12-22 03:40:38
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # AdvertisingLite 与 Adobe 共 4 条规则重复
@@ -9,7 +9,7 @@ payload:
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,newrelic.com
   - DOMAIN-SUFFIX,omtrdc.net
-# AdvertisingLite 与 Advertising 共 15795 条规则重复
+# AdvertisingLite 与 Advertising 共 15799 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0koryu0.easter.ne.jp
   - DOMAIN,0nso0tq1sa4.ml
@@ -54,6 +54,7 @@ payload:
   - DOMAIN,activity.windows.com
   - DOMAIN,acwyoynw.com
   - DOMAIN,ad-channel.woyeahgo.tk
+  - DOMAIN,ad.10010.com
   - DOMAIN,ad.21cn.com
   - DOMAIN,ad.9tv.co.il
   - DOMAIN,ad.getfond.info
@@ -80,6 +81,7 @@ payload:
   - DOMAIN,advancetec.co.uk
   - DOMAIN,adverigo.com
   - DOMAIN,advertisement.taobao.com
+  - DOMAIN,advertisespace.com
   - DOMAIN,afa15.com.ne.kr
   - DOMAIN,affairexcuses.com
   - DOMAIN,agsteier.com
@@ -339,6 +341,7 @@ payload:
   - DOMAIN,gredinatib.org
   - DOMAIN,greerlies.pro
   - DOMAIN,greev.randbinternationaltravel.com
+  - DOMAIN,grtbzrsndrrtsb.com
   - DOMAIN,grtyv.com
   - DOMAIN,gsniper2.com
   - DOMAIN,guess.tf.360.cn
@@ -399,6 +402,7 @@ payload:
   - DOMAIN,installcdnfile.com
   - DOMAIN,instruminahui.edu.ec
   - DOMAIN,intelli-tracker.com
+  - DOMAIN,interactivearea.ru
   - DOMAIN,internet-bb.tk
   - DOMAIN,invention.festinolente.cl
   - DOMAIN,iolam.it
@@ -549,6 +553,7 @@ payload:
   - DOMAIN,ouptoobe.net
   - DOMAIN,outils.f5biz.com
   - DOMAIN,outporn.com
+  - DOMAIN,ovtopli.ru
   - DOMAIN,p.s.360.cn
   - DOMAIN,pacan.gofreedom.info
   - DOMAIN,paraskov.com
@@ -661,6 +666,7 @@ payload:
   - DOMAIN,scaner-sboom.tk
   - DOMAIN,scdsfdfgdr12.tk
   - DOMAIN,scriptall.gq
+  - DOMAIN,search.video.iqiyi.com
   - DOMAIN,securesoft.info
   - DOMAIN,securitywebservices.com
   - DOMAIN,semengineers.com
@@ -679,7 +685,6 @@ payload:
   - DOMAIN,sf6-ttcdn-tos.pstatp.com
   - DOMAIN,sgs.us.com
   - DOMAIN,shalseey.com
-  - DOMAIN,shangmiss.wap.xsbiquge.com
   - DOMAIN,shop17741405.m.youzan.com
   - DOMAIN,shopeasy.by
   - DOMAIN,show.1688.com
@@ -977,7 +982,6 @@ payload:
   - DOMAIN,yql.yahoo.com
   - DOMAIN,yumekin.com
   - DOMAIN,yxhd.hori-gz.com
-  - DOMAIN,z7752.com
   - DOMAIN,zafrc.5780.site
   - DOMAIN,zaloapp.com
   - DOMAIN,zanyx.club
@@ -15805,7 +15809,7 @@ payload:
   - IP-CIDR,69.28.57.245/32
   - IP-CIDR,74.117.182.77/32
   - IP-CIDR,78.140.131.214/32
-# AdvertisingLite 与 AdvertisingTest 共 15517 条规则重复
+# AdvertisingLite 与 AdvertisingTest 共 15518 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0koryu0.easter.ne.jp
   - DOMAIN,0nso0tq1sa4.ml
@@ -16066,6 +16070,7 @@ payload:
   - DOMAIN,go-quicky.com
   - DOMAIN,gogetgorgeous.com
   - DOMAIN,greev.randbinternationaltravel.com
+  - DOMAIN,grtbzrsndrrtsb.com
   - DOMAIN,guess.tf.360.cn
   - DOMAIN,gulf-industrial.com
   - DOMAIN,h01.hxsame.hexun.com
@@ -16114,6 +16119,7 @@ payload:
   - DOMAIN,innatek.com
   - DOMAIN,input.theta.sogou.com
   - DOMAIN,instruminahui.edu.ec
+  - DOMAIN,interactivearea.ru
   - DOMAIN,internet-bb.tk
   - DOMAIN,invention.festinolente.cl
   - DOMAIN,iolam.it
@@ -16314,6 +16320,7 @@ payload:
   - DOMAIN,scaner-sboom.tk
   - DOMAIN,scdsfdfgdr12.tk
   - DOMAIN,scriptall.gq
+  - DOMAIN,search.video.iqiyi.com
   - DOMAIN,securesoft.info
   - DOMAIN,securitywebservices.com
   - DOMAIN,semengineers.com
@@ -16329,7 +16336,6 @@ payload:
   - DOMAIN,sexyoilwrestling.com
   - DOMAIN,sexyster.tk
   - DOMAIN,sgs.us.com
-  - DOMAIN,shangmiss.wap.xsbiquge.com
   - DOMAIN,shop17741405.m.youzan.com
   - DOMAIN,show.1688.com
   - DOMAIN,sierra-fox.com
@@ -16594,7 +16600,6 @@ payload:
   - DOMAIN,yql.yahoo.com
   - DOMAIN,yumekin.com
   - DOMAIN,yxhd.hori-gz.com
-  - DOMAIN,z7752.com
   - DOMAIN,zaloapp.com
   - DOMAIN,zengenti.com
   - DOMAIN,zkic.com
@@ -31342,7 +31347,7 @@ payload:
   - DOMAIN-SUFFIX,mob.com
   - DOMAIN-SUFFIX,umengcloud.com
   - DOMAIN-SUFFIX,xdrig.com
-# AdvertisingLite 与 ChinaTest 共 661 条规则重复
+# AdvertisingLite 与 ChinaTest 共 660 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -31634,7 +31639,6 @@ payload:
   - DOMAIN-SUFFIX,hnol.net
   - DOMAIN-SUFFIX,hp-china.biz
   - DOMAIN-SUFFIX,hr44.com
-  - DOMAIN-SUFFIX,hrbpay.com
   - DOMAIN-SUFFIX,huimee.net
   - DOMAIN-SUFFIX,huodonghezi.com
   - DOMAIN-SUFFIX,huoying666.com

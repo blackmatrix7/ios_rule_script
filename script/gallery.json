@@ -47,7 +47,11 @@
     {
       "config":"20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.js, tag=万达电影, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.qxrewrite"
+    },
+    {
+      "config":"30 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js, tag=美团买菜, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.qxrewrite"
     }
   ],
-  "description":"Script gallery"
+  "description":"Script Gallery"
 }

@@ -8,7 +8,7 @@ const smzdmPasswordKey = 'smzdm_password';
 const scriptName = '什么值得买';
 const smzdmAccount = '' // 什么值得买账号
 const smzdmPassword = '' // 什么值得买密码
-let clickGoBuyMaxTimes = 12; // 好价点击去购买的次数
+let clickGoBuyMaxTimes = 0; // 好价点击去购买的次数
 let clickLikeProductMaxTimes = 7; // 好价点值次数
 let clickLikeArticleMaxTimes = 7; // 好文点赞次数
 let clickFavArticleMaxTimes = 7; // 好文收藏次数
@@ -113,7 +113,7 @@ function GetWebCookie() {
 function WebGetCurrentInfoNewVersion(smzdmCookie){
   return new Promise(resolve =>{
     let getUserPointOptions ={
-      url : 'https://zhiyou.smzdm.com/user/point/',
+      url : 'https://zhiyou.smzdm.com/user/exp/',
       headers : {
         'Cookie': ''
       },
@@ -128,10 +128,10 @@ function WebGetCurrentInfoNewVersion(smzdmCookie){
       else{
         try{
           // 获取用户名
-          let userName =data.match(/<a.*zhiyou\.smzdm\.com\/user[^<]*>([^<]*)</)[1].trim();
+          let userName =data.match(/info-stuff-nickname.*zhiyou\.smzdm\.com\/user[^<]*>([^<]*)</)[1].trim();
           // 获取近期经验值变动情况
-          let pointTimeList = data.match(/\<div class=['"]scoreLeft['"]\>(.*)\<\/div\>/ig);
-          let pointDetailList = data.match(/\<div class=['"]scoreRight ellipsis['"]\>(.*)\<\/div\>/ig);
+          let pointTimeList = data.match(/<div class="scoreLeft">(.*)<\/div>/ig);
+          let pointDetailList = data.match(/<div class=['"]scoreRight ellipsis['"]>(.*)<\/div>/ig);
           let minLength = pointTimeList.length > pointDetailList.length ? pointDetailList.length : pointTimeList.length;
           let userPointList = [];
           for (let i=0;i<minLength;i++){
@@ -141,12 +141,13 @@ function WebGetCurrentInfoNewVersion(smzdmCookie){
             });
           }
           // 获取用户资源
-          let assetsNumList = data.match(/assets-num[^<]*>(.*)</ig);
+          let assetsNumList = data.match(/assets-part[^<]*>(.*)</ig);
           let points = assetsNumList[0].match(/assets-num[^<]*>(.*)</)[1]; // 积分
-          let experience = assetsNumList[1].match(/assets-num[^<]*>(.*)</)[1]; // 经验
-          let gold = assetsNumList[2].match(/assets-num[^<]*>(.*)</)[1]; // 金币
-          let prestige = assetsNumList[3].match(/assets-num[^<]*>(.*)</)[1]; // 威望
-          let silver = assetsNumList[4].match(/assets-num[^<]*>(.*)</)[1]; // 碎银子
+          let experience = assetsNumList[2].match(/assets-num[^<]*>(.*)</)[1]; // 经验
+          let gold = assetsNumList[4].match(/assets-num[^<]*>(.*)</)[1]; // 金币
+          // let prestige = assetsNumList[6].match(/assets-num[^<]*>(.*)</)[1]; // 威望
+          let prestige = 0;
+          let silver = assetsNumList[6].match(/assets-num[^<]*>(.*)</)[1]; // 碎银子
           resolve([userName, userPointList, Number(points), Number(experience), Number(gold), Number(prestige), Number(silver)]);
         }
         catch(err){
@@ -705,8 +706,9 @@ async function Main(){
       let [, , , beforeExp, , beforePrestige, ] = await WebGetCurrentInfoNewVersion(smzdmCookie);
       let [nickName, avatar, beforeVIPLevel, beforeHasCheckin, , beforeNotice, , ,beforePoint, beforeGold, beforeSilver] = await WebGetCurrentInfo(smzdmCookie);
 
-      magicJS.logInfo(`昵称：${nickName}\nWeb端签到状态：${beforeHasCheckin}\n签到前等级${beforeVIPLevel}，积分${beforePoint}，经验${beforeExp}，金币${beforeGold}，碎银子${beforeSilver}，威望${beforePrestige}, 未读消息${beforeNotice}`);
-
+      // 已经获取不到威望
+      //magicJS.logInfo(`昵称：${nickName}\nWeb端签到状态：${beforeHasCheckin}\n签到前等级${beforeVIPLevel}，积分${beforePoint}，经验${beforeExp}，金币${beforeGold}，碎银子${beforeSilver}，威望${beforePrestige}, 未读消息${beforeNotice}`);
+      magicJS.logInfo(`昵称：${nickName}\nWeb端签到状态：${beforeHasCheckin}\n签到前等级${beforeVIPLevel}，积分${beforePoint}，经验${beforeExp}，金币${beforeGold}，碎银子${beforeSilver}， 未读消息${beforeNotice}`);
       // ---------------------- 开始签到 ---------------------- 
 
       if (!!account && !!password){
@@ -830,7 +832,9 @@ async function Main(){
       let [, afteruserPointList, , afterExp, ,afterPrestige, ] = await WebGetCurrentInfoNewVersion(smzdmCookie);
       let [, , afterVIPLevel, afterHasCheckin, afterCheckinNum, afterNotice, , , afterPoint, afterGold, afterSilver] = await WebGetCurrentInfo(smzdmCookie);
 
-      magicJS.logInfo(`昵称：${nickName}\nWeb端签到状态：${afterHasCheckin}\n签到前等级${afterVIPLevel}，积分${afterPoint}，经验${afterExp}，金币${afterGold}，碎银子${afterSilver}，威望${afterPrestige}, 未读消息${afterNotice}`);
+      // 已经获取不到威望
+      // magicJS.logInfo(`昵称：${nickName}\nWeb端签到状态：${afterHasCheckin}\n签到后等级${afterVIPLevel}，积分${afterPoint}，经验${afterExp}，金币${afterGold}，碎银子${afterSilver}，威望${afterPrestige}, 未读消息${afterNotice}`);
+      magicJS.logInfo(`昵称：${nickName}\nWeb端签到状态：${afterHasCheckin}\n签到后等级${afterVIPLevel}，积分${afterPoint}，经验${afterExp}，金币${afterGold}，碎银子${afterSilver}，未读消息${afterNotice}`);
       title = `${scriptName} - ${nickName} V${afterVIPLevel}`;
   
       if (beforeHasCheckin && afterHasCheckin){
@@ -847,14 +851,14 @@ async function Main(){
         let addPoint = afterPoint - beforePoint;
         let addExp = afterExp - beforeExp;
         let addGold = afterGold - beforeGold;
-        let addPrestige = afterPrestige - beforePrestige;
+        // let addPrestige = afterPrestige - beforePrestige;
         let addSilver = afterSilver - beforeSilver;
         content += !!content? '\n' : '';
         content += '积分' + afterPoint + (addPoint > 0 ? '(+' + addPoint + ')' : '') +  
         ' 经验' + afterExp + (addExp > 0 ? '(+' + addExp + ')' : '') + 
         ' 金币' + afterGold + (addGold > 0 ? '(+' + addGold + ')' : '') + '\n' +
         '碎银子' + afterSilver + (addSilver > 0 ? '(+' + addSilver + ')' : '') +
-        ' 威望' + afterPrestige + (addPrestige > 0 ? '(+' + addPrestige + ')' : '') + 
+        // ' 威望' + afterPrestige + (addPrestige > 0 ? '(+' + addPrestige + ')' : '') + 
         ' 未读消息' + afterNotice;
       }
 

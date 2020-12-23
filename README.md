@@ -79,7 +79,7 @@ https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite
 | [饿了么](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/eleme) | 每日自动领取会员任务                                         | 正常     |
 | [Fa米家](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/famijia) | 每日自动签到                                                 | 正常     |
 | [Luka](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/luka) | 每日自动签到                                                 | 正常     |
-| 美团买菜                                                     | 每日自动签到                                                 | 正常     |
+| [美团买菜](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/meituan) | 每日自动签到                                                 | 正常     |
 
 #### Quantumult X Gallery
 

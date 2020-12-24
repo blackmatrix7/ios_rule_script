@@ -1,7 +1,7 @@
 # NAME: China 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-23 03:51:11
+# UPDATED: 2020-12-24 20:24:23
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # China 与 Adobe 共 2 条规则重复
 DOMAIN-SUFFIX,digicert.com
@@ -56,8 +56,7 @@ DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
-# China 与 BlackList 共 12 条规则重复
-DOMAIN-SUFFIX,culturedcode.com
+# China 与 BlackList 共 11 条规则重复
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,licdn.com
@@ -234,7 +233,7 @@ DOMAIN-SUFFIX,cootekservice.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,csdn.net
 DOMAIN-SUFFIX,ctrip.com
-DOMAIN-SUFFIX,culturedcode.com
+DOMAIN-SUFFIX,cz88.net
 DOMAIN-SUFFIX,czybjz.com
 DOMAIN-SUFFIX,dandanzan.com
 DOMAIN-SUFFIX,dct-cloud.com
@@ -682,8 +681,8 @@ USER-AGENT,%e4%bc%81%e4%b8%9a%e5%be%ae%e4%bf%a1*
 USER-AGENT,%e4%bc%98%e9%85%b7*
 USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*
 USER-AGENT,hearthstone*
-USER-AGENT,micromessenger client*
 USER-AGENT,micromessenger%20client
+USER-AGENT,micromessengerclient*
 USER-AGENT,neteasemusic*
 USER-AGENT,paypal*
 USER-AGENT,remoteplay*
@@ -894,12 +893,11 @@ DOMAIN,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
-# China 与 Proxy 共 35 条规则重复
+# China 与 Proxy 共 34 条规则重复
 DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,bjango.com
 DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,culturedcode.com
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,dytt8.net
 DOMAIN-SUFFIX,gameloft.com

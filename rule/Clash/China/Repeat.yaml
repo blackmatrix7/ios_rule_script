@@ -1,7 +1,7 @@
 # NAME: China 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-23 03:51:12
+# UPDATED: 2020-12-24 20:24:23
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # China 与 Adobe 共 2 条规则重复
@@ -57,8 +57,7 @@ payload:
   - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,hdslb.com
-# China 与 BlackList 共 12 条规则重复
-  - DOMAIN-SUFFIX,culturedcode.com
+# China 与 BlackList 共 11 条规则重复
   - DOMAIN-SUFFIX,getpricetag.com
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,licdn.com
@@ -235,7 +234,7 @@ payload:
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,csdn.net
   - DOMAIN-SUFFIX,ctrip.com
-  - DOMAIN-SUFFIX,culturedcode.com
+  - DOMAIN-SUFFIX,cz88.net
   - DOMAIN-SUFFIX,czybjz.com
   - DOMAIN-SUFFIX,dandanzan.com
   - DOMAIN-SUFFIX,dct-cloud.com
@@ -875,12 +874,11 @@ payload:
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN-SUFFIX,weibo.com
   - DOMAIN-SUFFIX,weibocdn.com
-# China 与 Proxy 共 35 条规则重复
+# China 与 Proxy 共 34 条规则重复
   - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,bet365.com
   - DOMAIN-SUFFIX,bjango.com
   - DOMAIN-SUFFIX,crashlytics.com
-  - DOMAIN-SUFFIX,culturedcode.com
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,dytt8.net
   - DOMAIN-SUFFIX,gameloft.com

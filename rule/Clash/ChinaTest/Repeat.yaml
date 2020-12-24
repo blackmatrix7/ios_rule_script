@@ -1,13 +1,13 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-23 03:51:12
+# UPDATED: 2020-12-24 20:24:23
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # ChinaTest 与 Adobe 共 2 条规则重复
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,symcd.com
-# ChinaTest 与 Advertising 共 1136 条规则重复
+# ChinaTest 与 Advertising 共 1143 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -37,6 +37,8 @@ payload:
   - DOMAIN-SUFFIX,1999019.com
   - DOMAIN-SUFFIX,1drj.com
   - DOMAIN-SUFFIX,1i580.com
+  - DOMAIN-SUFFIX,1lan.tv
+  - DOMAIN-SUFFIX,1look.tv
   - DOMAIN-SUFFIX,1mpi.com
   - DOMAIN-SUFFIX,1o26.com
   - DOMAIN-SUFFIX,1qwe3r.com
@@ -529,6 +531,7 @@ payload:
   - DOMAIN-SUFFIX,iiad.com
   - DOMAIN-SUFFIX,ikuailian.com
   - DOMAIN-SUFFIX,il8r.com
+  - DOMAIN-SUFFIX,ildhy.com
   - DOMAIN-SUFFIX,ilkwork.com
   - DOMAIN-SUFFIX,iloveyouxi.com
   - DOMAIN-SUFFIX,imageter.com
@@ -666,6 +669,7 @@ payload:
   - DOMAIN-SUFFIX,maka.im
   - DOMAIN-SUFFIX,makeding.com
   - DOMAIN-SUFFIX,manyou.com
+  - DOMAIN-SUFFIX,mavuz.com
   - DOMAIN-SUFFIX,maysunmedia.com
   - DOMAIN-SUFFIX,mbaobao.com
   - DOMAIN-SUFFIX,mct01.com
@@ -674,6 +678,7 @@ payload:
   - DOMAIN-SUFFIX,megajoy.com
   - DOMAIN-SUFFIX,meilides.com
   - DOMAIN-SUFFIX,meiqia.com
+  - DOMAIN-SUFFIX,mgc-games.com
   - DOMAIN-SUFFIX,mgogo.com
   - DOMAIN-SUFFIX,mi1.cc
   - DOMAIN-SUFFIX,miaozhen.com
@@ -817,6 +822,7 @@ payload:
   - DOMAIN-SUFFIX,shspdt.com
   - DOMAIN-SUFFIX,shuiguo.com
   - DOMAIN-SUFFIX,shuihulu.com
+  - DOMAIN-SUFFIX,shuqistat.com
   - DOMAIN-SUFFIX,shuqw.com
   - DOMAIN-SUFFIX,si9377.com
   - DOMAIN-SUFFIX,simengadx.com
@@ -1074,6 +1080,7 @@ payload:
   - DOMAIN-SUFFIX,yiyuantian.com
   - DOMAIN-SUFFIX,yjegf.com
   - DOMAIN-SUFFIX,yjqiqi.com
+  - DOMAIN-SUFFIX,yladm.com
   - DOMAIN-SUFFIX,ylunion.com
   - DOMAIN-SUFFIX,ymapp.com
   - DOMAIN-SUFFIX,ynbojie.com
@@ -1144,7 +1151,7 @@ payload:
   - DOMAIN-SUFFIX,zzbyc.xyz
   - DOMAIN-SUFFIX,zzpzero.com
   - DOMAIN-SUFFIX,zzsdtzb.com
-# ChinaTest 与 AdvertisingTest 共 1162 条规则重复
+# ChinaTest 与 AdvertisingTest 共 1169 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -1175,6 +1182,8 @@ payload:
   - DOMAIN-SUFFIX,1999019.com
   - DOMAIN-SUFFIX,1drj.com
   - DOMAIN-SUFFIX,1i580.com
+  - DOMAIN-SUFFIX,1lan.tv
+  - DOMAIN-SUFFIX,1look.tv
   - DOMAIN-SUFFIX,1mpi.com
   - DOMAIN-SUFFIX,1o26.com
   - DOMAIN-SUFFIX,1qwe3r.com
@@ -1683,6 +1692,7 @@ payload:
   - DOMAIN-SUFFIX,iiad.com
   - DOMAIN-SUFFIX,ikuailian.com
   - DOMAIN-SUFFIX,il8r.com
+  - DOMAIN-SUFFIX,ildhy.com
   - DOMAIN-SUFFIX,ilkwork.com
   - DOMAIN-SUFFIX,iloveyouxi.com
   - DOMAIN-SUFFIX,imageter.com
@@ -1823,6 +1833,7 @@ payload:
   - DOMAIN-SUFFIX,maka.im
   - DOMAIN-SUFFIX,makeding.com
   - DOMAIN-SUFFIX,manyou.com
+  - DOMAIN-SUFFIX,mavuz.com
   - DOMAIN-SUFFIX,maysunmedia.com
   - DOMAIN-SUFFIX,mbaobao.com
   - DOMAIN-SUFFIX,mct01.com
@@ -1831,6 +1842,7 @@ payload:
   - DOMAIN-SUFFIX,megajoy.com
   - DOMAIN-SUFFIX,meilides.com
   - DOMAIN-SUFFIX,meiqia.com
+  - DOMAIN-SUFFIX,mgc-games.com
   - DOMAIN-SUFFIX,mgogo.com
   - DOMAIN-SUFFIX,mi1.cc
   - DOMAIN-SUFFIX,miaozhen.com
@@ -1977,6 +1989,7 @@ payload:
   - DOMAIN-SUFFIX,shspdt.com
   - DOMAIN-SUFFIX,shuiguo.com
   - DOMAIN-SUFFIX,shuihulu.com
+  - DOMAIN-SUFFIX,shuqistat.com
   - DOMAIN-SUFFIX,shuqw.com
   - DOMAIN-SUFFIX,si9377.com
   - DOMAIN-SUFFIX,simengadx.com
@@ -2237,6 +2250,7 @@ payload:
   - DOMAIN-SUFFIX,yiyuantian.com
   - DOMAIN-SUFFIX,yjegf.com
   - DOMAIN-SUFFIX,yjqiqi.com
+  - DOMAIN-SUFFIX,yladm.com
   - DOMAIN-SUFFIX,ylunion.com
   - DOMAIN-SUFFIX,ymapp.com
   - DOMAIN-SUFFIX,ynbojie.com
@@ -3001,10 +3015,9 @@ payload:
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN-SUFFIX,im9.com
-# ChinaTest 与 BlackList 共 18 条规则重复
+# ChinaTest 与 BlackList 共 17 条规则重复
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN-SUFFIX,culturedcode.com
   - DOMAIN-SUFFIX,edgekey.net
   - DOMAIN-SUFFIX,getpricetag.com
   - DOMAIN-SUFFIX,ip.sb
@@ -3205,7 +3218,7 @@ payload:
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,csdn.net
   - DOMAIN-SUFFIX,ctrip.com
-  - DOMAIN-SUFFIX,culturedcode.com
+  - DOMAIN-SUFFIX,cz88.net
   - DOMAIN-SUFFIX,czybjz.com
   - DOMAIN-SUFFIX,dandanzan.com
   - DOMAIN-SUFFIX,dct-cloud.com
@@ -3967,14 +3980,13 @@ payload:
   - DOMAIN-SUFFIX,weibocdn.com
 # ChinaTest 与 IQiyi 共 1 条规则重复
   - DOMAIN-SUFFIX,qy.net
-# ChinaTest 与 Proxy 共 50 条规则重复
+# ChinaTest 与 Proxy 共 49 条规则重复
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,bet365.com
   - DOMAIN-SUFFIX,bjango.com
   - DOMAIN-SUFFIX,crashlytics.com
-  - DOMAIN-SUFFIX,culturedcode.com
   - DOMAIN-SUFFIX,cz.cc
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,dytt8.net

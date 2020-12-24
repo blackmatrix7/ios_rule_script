@@ -1,7 +1,7 @@
 # NAME: BlackList 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-23 03:51:12
+# UPDATED: 2020-12-24 20:24:23
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # BlackList 与 Adobe 共 7 条规则重复
@@ -81,8 +81,7 @@ payload:
   - DOMAIN,lookup-api.apple.com
   - DOMAIN-SUFFIX,appsto.re
   - PROCESS-NAME,lookupviewservice
-# BlackList 与 China 共 12 条规则重复
-  - DOMAIN-SUFFIX,culturedcode.com
+# BlackList 与 China 共 11 条规则重复
   - DOMAIN-SUFFIX,getpricetag.com
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,licdn.com
@@ -94,10 +93,9 @@ payload:
   - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,trello.com
   - DOMAIN-SUFFIX,unity3d.com
-# BlackList 与 ChinaTest 共 18 条规则重复
+# BlackList 与 ChinaTest 共 17 条规则重复
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN-SUFFIX,culturedcode.com
   - DOMAIN-SUFFIX,edgekey.net
   - DOMAIN-SUFFIX,getpricetag.com
   - DOMAIN-SUFFIX,ip.sb

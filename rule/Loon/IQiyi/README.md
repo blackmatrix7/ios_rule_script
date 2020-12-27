@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-27 03:46:31。
+最后检查时间：2020-12-27 22:21:33。
 
 ## 规则统计
 
@@ -34,7 +34,7 @@
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 27   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   22.22% |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72690   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   0.0% |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6051   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   0.03% |
-|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 72   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   8.33% |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 71   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   8.45% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

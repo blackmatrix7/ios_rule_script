@@ -1,5 +1,5 @@
 const scriptName = 'Fa米家';
-const getCookieRegex = /^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/member\/signin\/usersign/;
+const getCookieRegex = /^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/member\/(signin\/usersign|sign\/current)/;
 const startAdRegex = /^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad/;
 const famijiaCookieKey = 'famijia_checkin_cookie';
 const famijiaDeviceIdKey = 'famijia_device_id_cookie';

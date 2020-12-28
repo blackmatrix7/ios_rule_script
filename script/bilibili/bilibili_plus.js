@@ -135,10 +135,20 @@ let magicJS = MagicJS(scriptName, 'INFO');
         }
         break;
       // 动态去广告
-      case /https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?/.test(magicJS.request.url):
+      case (/^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_new\?/.test(magicJS.request.url)):
         try{
           let obj = JSON.parse(magicJS.response.body);
-          let cards = obj.data.cards.filter(e => {return true? e.hasOwnProperty('display'): false});
+          let cards = [];
+          obj.data.cards.forEach(element => {
+            if (element.hasOwnProperty('display') && element.card.indexOf('ad_ctx') <= 0){
+              // 解决number类型精度问题导致B站动态中图片无法打开的问题
+              element['desc']['dynamic_id'] = element['desc']['dynamic_id_str'];
+              element['desc']['pre_dy_id'] = element['desc']['pre_dy_id_str'];
+              element['desc']['orig_dy_id'] = element['desc']['orig_dy_id_str'];
+              element['desc']['rid'] = element['desc']['rid_str'];
+              cards.push(element);
+            }
+          });
           obj.data.cards = cards;
           body = JSON.stringify(obj);
         }
@@ -146,7 +156,6 @@ let magicJS = MagicJS(scriptName, 'INFO');
           magicJS.logError(`动态去广告出现异常：${err}`);
         }
         break;
-        
       default:
         magicJS.logWarning('触发意外的请求处理，请确认脚本或复写配置正常。');
         break;

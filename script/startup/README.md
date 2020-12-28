@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/sta
 使用远程脚本配置
 
 ```ini
-[Remote Script]
+[Plugin]
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.lnplugin, tag=开屏去广告, enabled=true
 ```
 

@@ -90,7 +90,7 @@ let magicJS = MagicJS(scriptName, "INFO");
               || element.hasOwnProperty('ad') 
               // || element['extra']['type'] === 'drama' 
               // || element['extra']['type'] == 'zvideo'
-              );
+            );
             try{
               if (flag === true && 
                 custom_blocked_users &&

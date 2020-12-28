@@ -2,9 +2,9 @@
 
 [Rule]
 # 知乎去广告
-DOMAIN,118.89.204.198,REJECT,no-resolve
-DOMAIN-KEYWORD,118.89.204.198,REJECT,no-resolve
-IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+DOMAIN,118.89.204.198,REJECT
+DOMAIN-KEYWORD,118.89.204.198,REJECT
+IP-CIDR,118.89.204.198/32,no-resolve,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 USER-AGENT,AVOS*,REJECT
 # 拦截知乎回答下的广告
@@ -17,7 +17,7 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\
 [URL Rewrite]
 # 知乎去除最常访问
 ^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict
-# 因为Loon URL-REGEX 规则的优先级很低，不一定生效，所以增加复写作为备用
+# 因为 URL-REGEX 规则的优先级很低，不一定生效，所以增加复写作为备用
 # 知乎去除回答下的广告
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject-dict
 # 知乎拦截部分预加载
@@ -40,4 +40,4 @@ http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(pre
 http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_优化软件配置
 
 [MITM]
-hostname = www.zhihu.com,api.zhihu.com,appcloud2.zhihu.com,zhuanlan.zhihu.com
+hostname = www.zhihu.com,api.zhihu.com, appcloud2.zhihu.com,zhuanlan.zhihu.com

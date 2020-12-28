@@ -1,0 +1,9 @@
+# 开屏去广告
+
+[Script]
+http-response ^https?:\/\/capis-\w*\.didapinche\.com\/ad\/cx\/startup\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=嘀嗒出行
+http-response ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js,tag=Fa米家
+http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili
+
+[MITM]
+hostname = capis-*.didapinche.com,fmapp.chinafamilymart.com.cn,app.bilibili.com

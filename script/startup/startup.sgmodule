@@ -1,0 +1,11 @@
+#!name=开屏去广告
+#!desc=通过脚本去除部分APP的顽固开屏广告
+#!system=ios
+
+[Script]
+嘀嗒出行 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/capis-\w*\.didapinche\.com\/ad\/cx\/startup\?,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
+Fa米家 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js
+BiliBili = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
+
+[MITM]
+hostname = %APPEND% capis-*.didapinche.com,fmapp.chinafamilymart.com.cn,app.bilibili.com

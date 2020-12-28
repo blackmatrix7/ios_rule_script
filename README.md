@@ -69,6 +69,7 @@ https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite
 | [百度贴吧](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/tieba) | 带重试功能的贴吧签到，提高签到成功率                         | 正常     |
 | [联通手机营业厅](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/10010) | 每日自动签到、美团外卖30-3优惠券、4次抽奖、话费流量语音情况推送 | 正常     |
 | [联享家](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/lxj) | 去广告、拦截检测更新                                         | 正常     |
+| [开屏去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/startup) | 通过脚本去除缓存到本地的APP开屏广告                          | 正常     |
 | [嘀嗒出行](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didachuxing) | 每日自动签到                                                 | 正常     |
 | [滴滴出行](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didichuxing) | 每日自动签到、福利金抽奖、天天有奖签到                       | 正常     |
 | [家长帮](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/jiazhangbang) | 每日自动签到                                                 | 正常     |

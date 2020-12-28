@@ -1,7 +1,7 @@
 # NAME: China 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-28 03:47:28
+# UPDATED: 2020-12-28 20:44:16
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # China 与 Adobe 共 2 条规则重复
@@ -80,7 +80,7 @@ payload:
   - DOMAIN-SUFFIX,pstatp.com
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,toutiao.com
-# China 与 ChinaTest 共 593 条规则重复
+# China 与 ChinaTest 共 586 条规则重复
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,client.amplifi.com
@@ -132,7 +132,6 @@ payload:
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acs.org
   - DOMAIN-SUFFIX,adobesc.com
-  - DOMAIN-SUFFIX,agefans.tv
   - DOMAIN-SUFFIX,aicoinstorge.com
   - DOMAIN-SUFFIX,aip.org
   - DOMAIN-SUFFIX,air-matters.com
@@ -202,7 +201,6 @@ payload:
   - DOMAIN-SUFFIX,ccgslb.net
   - DOMAIN-SUFFIX,cctv.com
   - DOMAIN-SUFFIX,cctvpic.com
-  - DOMAIN-SUFFIX,cdn9-okzy.com
   - DOMAIN-SUFFIX,chaoxing.com
   - DOMAIN-SUFFIX,chdbits.co
   - DOMAIN-SUFFIX,chinacache.net
@@ -438,7 +436,6 @@ payload:
   - DOMAIN-SUFFIX,ncore.cc
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,netspeedtestmaster.com
-  - DOMAIN-SUFFIX,nfmovies.com
   - DOMAIN-SUFFIX,nfoservers.com
   - DOMAIN-SUFFIX,ngabbs.com
   - DOMAIN-SUFFIX,nim-lang-cn.org
@@ -449,7 +446,6 @@ payload:
   - DOMAIN-SUFFIX,oecd-ilibrary.org
   - DOMAIN-SUFFIX,office.com
   - DOMAIN-SUFFIX,office365.com
-  - DOMAIN-SUFFIX,okokbo.com
   - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN-SUFFIX,open.cd
   - DOMAIN-SUFFIX,oracle.com
@@ -516,7 +512,6 @@ payload:
   - DOMAIN-SUFFIX,sciencemag.org
   - DOMAIN-SUFFIX,scomper.me
   - DOMAIN-SUFFIX,scopus.com
-  - DOMAIN-SUFFIX,sd-dykj.com
   - DOMAIN-SUFFIX,seafile.com
   - DOMAIN-SUFFIX,segmentfault.com
   - DOMAIN-SUFFIX,servicewechat.com
@@ -645,7 +640,6 @@ payload:
   - DOMAIN-SUFFIX,ydstatic.com
   - DOMAIN-SUFFIX,yeepay.com
   - DOMAIN-SUFFIX,yhd.com
-  - DOMAIN-SUFFIX,yhdm.tv
   - DOMAIN-SUFFIX,yihaodianimg.com
   - DOMAIN-SUFFIX,yinxiang.com
   - DOMAIN-SUFFIX,yixia.com
@@ -653,7 +647,6 @@ payload:
   - DOMAIN-SUFFIX,ykimg.com
   - DOMAIN-SUFFIX,youdao.com
   - DOMAIN-SUFFIX,youku.com
-  - DOMAIN-SUFFIX,youkutv.cc
   - DOMAIN-SUFFIX,yunjiasu-cdn.net
   - DOMAIN-SUFFIX,zealer.com
   - DOMAIN-SUFFIX,zgslb.net

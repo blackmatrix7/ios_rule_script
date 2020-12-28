@@ -9,7 +9,7 @@
 
 
 
-最后检查时间：2020-12-28 03:47:33。
+最后检查时间：2020-12-28 20:44:21。
 
 ## 规则统计
 
@@ -32,7 +32,7 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 27   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   22.22% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72690   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72686   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   0.0% |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6051   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   0.03% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 71   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/IQiyi/Repeat.list)   |   8.45% |
 ### 特别说明

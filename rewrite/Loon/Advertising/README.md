@@ -1,22 +1,22 @@
-# 去广告
+# 复写去广告
 
 ## 前言
 
-本项目的去广告复写规则由爬虫程序自动维护。
+本项目的复写去广告复写规则由爬虫程序自动维护。
 
-定时爬取互联网上开源的去广告复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
-
-
+定时爬取互联网上开源的复写去广告复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-12-28 03:47:41。
+
+
+最后检查时间：2020-12-28 20:44:29。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 565 |
-| reject | 788 |
+| mitm | 569 |
+| reject | 792 |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -37,7 +37,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 
 ## 数据来源
 
-本项目的去广告复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，请先删除后再使用本项目的去广告复写规则，以免造成规则重复。
+本项目的复写去广告复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，请先删除后再使用本项目的复写去广告复写规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/Advertising.sgmodule
@@ -90,9 +90,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 
 ### 去广告问题
 
-本项目的去广告规则仅是将网络上开源的去广告规则整合去重，**非实际规则维护者**。数据源规则无法去除的广告，本项目的去广告规则也无能为力。
+本项目的复写去广告规则仅是将网络上开源的去广告规则整合去重，**非实际规则维护者**。数据源规则无法去除的广告，本项目的复写去广告规则也无能为力。
 
-所以很抱歉，没办法处理关于某个APP无法去除广告的反馈，除非您能明确数据源的规则可以去除，而整合后的规则无法去除。同样，也没办法协助您处理去广告规则误拦截的问题，除非您能明确告知哪条规则存在问题，我会将其加入规则黑名单，下次爬虫程序更新时将其去除。
+所以很抱歉，没办法处理关于某个APP无法去除广告的反馈，除非您能明确数据源的规则可以去除，而整合后的规则无法去除。同样，也没办法协助您处理复写去广告规则误拦截的问题，除非您能明确告知哪条规则存在问题，我会将其加入规则黑名单，下次爬虫程序更新时将其去除。
 
 ### 特定APP去广告
 
@@ -118,7 +118,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 4. 在使用复写规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的去广告复写规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的复写去广告复写规则。
 
 感谢
 

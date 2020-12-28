@@ -1,7 +1,7 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-28 03:47:27
+# UPDATED: 2020-12-28 20:44:15
 # DOMAIN: 16
 # DOMAIN-SUFFIX: 2781
 # DOMAIN-KEYWORD: 3
@@ -15,7 +15,6 @@ payload:
   - DOMAIN,log-lq.snssdk.com
   - DOMAIN,log-va.tiktokv.com
   - DOMAIN,log.byteoversea.com
-  - DOMAIN,log.tiktokv.com
   - DOMAIN,mc.51.la
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,safebrowsing.urlsec.qq.com
@@ -23,6 +22,7 @@ payload:
   - DOMAIN,tracking.intl.miui.com
   - DOMAIN,tracklog.58.com
   - DOMAIN,xlog.snssdk.com
+  - DOMAIN,zgsdk.zhugeio.com
   - DOMAIN-SUFFIX,0sbm.consobaby.co.uk
   - DOMAIN-SUFFIX,0x1f4b0.com
   - DOMAIN-SUFFIX,1l-hit.mail.ru

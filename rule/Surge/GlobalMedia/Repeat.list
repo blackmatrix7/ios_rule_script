@@ -1,24 +1,23 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-29 03:45:57
+# UPDATED: 2020-12-29 23:58:12
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
-# GlobalMedia 与 Advertising 共 5 条规则重复
+# GlobalMedia 与 Adobe 共 1 条规则重复
+DOMAIN-SUFFIX,bam.nr-data.net
+# GlobalMedia 与 Advertising 共 4 条规则重复
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,braze.com
-DOMAIN-SUFFIX,conviva.com
 DOMAIN-SUFFIX,jwpcdn.com
 DOMAIN-SUFFIX,socdm.com
-# GlobalMedia 与 AdvertisingTest 共 6 条规则重复
+# GlobalMedia 与 AdvertisingTest 共 5 条规则重复
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,braze.com
-DOMAIN-SUFFIX,conviva.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,jwpcdn.com
 DOMAIN-SUFFIX,socdm.com
-# GlobalMedia 与 AdvertisingLite 共 3 条规则重复
+# GlobalMedia 与 AdvertisingLite 共 2 条规则重复
 DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,conviva.com
 DOMAIN-SUFFIX,socdm.com
 # GlobalMedia 与 AppleNews 共 3 条规则重复
 DOMAIN,gspe1-ssl.ls.apple.com
@@ -66,9 +65,7 @@ DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ytimg.com
-# GlobalMedia 与 YouTube 共 14 条规则重复
-DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
+# GlobalMedia 与 YouTube 共 12 条规则重复
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,googlevideo.com
@@ -148,11 +145,9 @@ DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,dssott.com
 USER-AGENT,disney+*
-# GlobalMedia 与 Global 共 171 条规则重复
+# GlobalMedia 与 Global 共 168 条规则重复
 DOMAIN,avodmp4s3ww-a.akamaihd.net
 DOMAIN,bcbolt446c5271-a.akamaihd.net
-DOMAIN,bcbolthboa-a.akamaihd.net
-DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
 DOMAIN,edge.api.brightcove.com
 DOMAIN,hamifans.emome.net
 DOMAIN,hboasia1-i.akamaihd.net
@@ -163,7 +158,6 @@ DOMAIN,hboasia5-i.akamaihd.net
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN,kktv-theater.kk.stream
 DOMAIN,players.brightcove.net
-DOMAIN,youtubei.googleapis.com
 DOMAIN-KEYWORD,-spotify-com
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
@@ -332,8 +326,8 @@ USER-AGENT,spotify*
 # GlobalMedia 与 Spark 共 1 条规则重复
 DOMAIN-SUFFIX,firebaseio.com
 # GlobalMedia 与 Privacy 共 1 条规则重复
-DOMAIN-SUFFIX,logx.optimizely.com
-# GlobalMedia 与 Proxy 共 55 条规则重复
+DOMAIN-SUFFIX,cws.conviva.com
+# GlobalMedia 与 Proxy 共 56 条规则重复
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,youtube
@@ -386,6 +380,7 @@ DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,yahoo.co.jp
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com

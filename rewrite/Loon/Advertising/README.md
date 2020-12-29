@@ -6,17 +6,17 @@
 
 定时爬取互联网上开源的复写去广告复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
+本复写插件不包含知乎和Youtube去广告规则。
 
 
-
-最后检查时间：2020-12-29 03:46:11。
+最后检查时间：2020-12-29 23:58:28。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 569 |
-| reject | 792 |
+| mitm | 579 |
+| reject | 796 |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -47,6 +47,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.lnplugin
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.lnwrite
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.qxrewrite
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.sgmodule
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Loon/Rewrite.conf
 - https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Rewrite.txt

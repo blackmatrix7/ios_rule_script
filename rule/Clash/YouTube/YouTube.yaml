@@ -1,14 +1,11 @@
 # NAME: YouTube
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-29 03:45:56
+# UPDATED: 2020-12-29 23:58:11
 # DOMAIN-SUFFIX: 6
-# DOMAIN: 2
 # DOMAIN-KEYWORD: 1
-# TOTAL: 9
+# TOTAL: 7
 payload:
-  - DOMAIN,youtubei.googleapis.com
-  - DOMAIN,yt3.ggpht.com
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,gvt2.com

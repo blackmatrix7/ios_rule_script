@@ -1,17 +1,13 @@
 # NAME: Game 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-29 03:45:57
+# UPDATED: 2020-12-29 23:58:12
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
-# Game 与 Blizzard 共 6 条规则重复
+# Game 与 Blizzard 共 3 条规则重复
 HOST,blizzard.nefficient.co.kr
-HOST,blzddist1-a.akamaihd.net
-HOST,blzddistkr1-a.akamaihd.net
-HOST,bnetproduct-a.akamaihd.net
 HOST-SUFFIX,battle.net
 HOST-SUFFIX,blizzard.com
-# Game 与 China 共 10 条规则重复
-HOST,blzddist1-a.akamaihd.net
+# Game 与 China 共 9 条规则重复
 HOST-SUFFIX,battle.net
 HOST-SUFFIX,blizzard.com
 HOST-SUFFIX,steam-chat.com
@@ -21,8 +17,7 @@ HOST-SUFFIX,steampowered.com
 HOST-SUFFIX,steamstat.us
 HOST-SUFFIX,steamstatic.com
 HOST-SUFFIX,steamusercontent.com
-# Game 与 ChinaTest 共 10 条规则重复
-HOST,blzddist1-a.akamaihd.net
+# Game 与 ChinaTest 共 9 条规则重复
 HOST-SUFFIX,battle.net
 HOST-SUFFIX,blizzard.com
 HOST-SUFFIX,steam-chat.com
@@ -62,6 +57,8 @@ HOST-SUFFIX,steamgames.com
 HOST-SUFFIX,steamstat.us
 HOST-SUFFIX,steamstatic.com
 HOST-SUFFIX,steamusercontent.com
+# Game 与 Rockstar 共 1 条规则重复
+HOST-SUFFIX,rockstargames.com
 # Game 与 Global 共 4 条规则重复
 HOST-SUFFIX,discord.gg
 HOST-SUFFIX,discordapp.com

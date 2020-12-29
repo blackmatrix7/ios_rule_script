@@ -1,11 +1,11 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-29 03:45:57
+# UPDATED: 2020-12-29 23:58:11
 # DOMAIN: 16
-# DOMAIN-SUFFIX: 2781
+# DOMAIN-SUFFIX: 2789
 # DOMAIN-KEYWORD: 3
-# TOTAL: 2800
+# TOTAL: 2808
 payload:
   - DOMAIN,data.mistat.xiaomi.com
   - DOMAIN,hm.baidu.com
@@ -15,8 +15,8 @@ payload:
   - DOMAIN,log-lq.snssdk.com
   - DOMAIN,log-va.tiktokv.com
   - DOMAIN,log.byteoversea.com
+  - DOMAIN,log.tiktokv.com
   - DOMAIN,mc.51.la
-  - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,safebrowsing.urlsec.qq.com
   - DOMAIN,track.58.com
   - DOMAIN,tracking.intl.miui.com
@@ -40,6 +40,7 @@ payload:
   - DOMAIN-SUFFIX,a.mobify.com
   - DOMAIN-SUFFIX,a.o2u.jp
   - DOMAIN-SUFFIX,a.tovarro.com
+  - DOMAIN-SUFFIX,a3xo-eng.spankbang.com
   - DOMAIN-SUFFIX,a8ht.hipp.fr
   - DOMAIN-SUFFIX,aa.avvo.com
   - DOMAIN-SUFFIX,aax-eu-dub.amazon.com
@@ -182,6 +183,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.logsss.com
   - DOMAIN-SUFFIX,analytics.mailmunch.co
   - DOMAIN-SUFFIX,analytics.matchbin.com
+  - DOMAIN-SUFFIX,analytics.mbga.jp
   - DOMAIN-SUFFIX,analytics.meaww.com
   - DOMAIN-SUFFIX,analytics.meituan.net
   - DOMAIN-SUFFIX,analytics.midwesternmac.com
@@ -639,6 +641,7 @@ payload:
   - DOMAIN-SUFFIX,counter.bloke.com
   - DOMAIN-SUFFIX,counter.cam-content.com
   - DOMAIN-SUFFIX,counter.cnw.cz
+  - DOMAIN-SUFFIX,counter.digits.com
   - DOMAIN-SUFFIX,counter.drom.ru
   - DOMAIN-SUFFIX,counter.entertainmentwise.com
   - DOMAIN-SUFFIX,counter.hackers.lv
@@ -1008,6 +1011,7 @@ payload:
   - DOMAIN-SUFFIX,g5150192710.co
   - DOMAIN-SUFFIX,g5348277045.co
   - DOMAIN-SUFFIX,g5546361380.co
+  - DOMAIN-SUFFIX,g5744445715.co
   - DOMAIN-SUFFIX,ga-beacon.appspot.com
   - DOMAIN-SUFFIX,ga.canoe.ca
   - DOMAIN-SUFFIX,ga.kvideo.io
@@ -1156,6 +1160,7 @@ payload:
   - DOMAIN-SUFFIX,imx.comedycentral.com
   - DOMAIN-SUFFIX,infinityid.condenastdigital.com
   - DOMAIN-SUFFIX,informers.sinoptik.ua
+  - DOMAIN-SUFFIX,ingest.sentry.io
   - DOMAIN-SUFFIX,inquiries.redhat.com
   - DOMAIN-SUFFIX,insight.fonecta.fi
   - DOMAIN-SUFFIX,insights.cdt.ch
@@ -1685,6 +1690,7 @@ payload:
   - DOMAIN-SUFFIX,redeye.williamhill.com
   - DOMAIN-SUFFIX,redhillandreigatelife-gb.redhillandreigatelife.co.uk
   - DOMAIN-SUFFIX,ref.dealerinspire.com
+  - DOMAIN-SUFFIX,refer.ccbill.com
   - DOMAIN-SUFFIX,referer.pixplug.in
   - DOMAIN-SUFFIX,referrer.disqus.com
   - DOMAIN-SUFFIX,rek.www.wp.pl
@@ -2552,6 +2558,7 @@ payload:
   - DOMAIN-SUFFIX,tracking.rightmessage.com
   - DOMAIN-SUFFIX,tracking.rtl.de
   - DOMAIN-SUFFIX,tracking.s24.com
+  - DOMAIN-SUFFIX,tracking.scenepass.com
   - DOMAIN-SUFFIX,tracking.searchmarketing.com
   - DOMAIN-SUFFIX,tracking.shopstyle.com
   - DOMAIN-SUFFIX,tracking.shoptogether.buy.com
@@ -2616,6 +2623,7 @@ payload:
   - DOMAIN-SUFFIX,tru.webelapp.com
   - DOMAIN-SUFFIX,trueffect.underarmour.com
   - DOMAIN-SUFFIX,trx.smdatalabs.com
+  - DOMAIN-SUFFIX,trx3.famousfix.com
   - DOMAIN-SUFFIX,ts.faz.net
   - DOMAIN-SUFFIX,ts.rtl.de
   - DOMAIN-SUFFIX,ts.tradetracker.net

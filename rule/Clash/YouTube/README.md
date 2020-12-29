@@ -9,18 +9,17 @@
 
 
 
-最后检查时间：2020-12-29 03:46:05。
+最后检查时间：2020-12-29 23:58:20。
 
 ## 规则统计
 
-总计规则：9 条。
+总计规则：7 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-SUFFIX | 6 |
-| DOMAIN | 2 |
 | DOMAIN-KEYWORD | 1 |
 ## 重复统计
 
@@ -30,15 +29,15 @@ YouTube分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 52477   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.0% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 71069   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.0% |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 23902   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.0% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 45180   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.0% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 65223   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.0% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 25822   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.0% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 768   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.39% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 72671   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 72647   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.0% |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google)    | 121   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   2.48% |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 779   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.64% |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia)    | 226   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   3.98% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6008   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.12% |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 776   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.52% |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia)    | 235   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   2.98% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 6011   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/Repeat.list)   |   0.12% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

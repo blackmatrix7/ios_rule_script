@@ -1,13 +1,13 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-29 03:45:58
+# UPDATED: 2020-12-29 23:58:13
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # ChinaTest 与 Adobe 共 2 条规则重复
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,symcd.com
-# ChinaTest 与 Advertising 共 1144 条规则重复
+# ChinaTest 与 Advertising 共 1143 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -116,7 +116,6 @@ payload:
   - DOMAIN-SUFFIX,600zi.com
   - DOMAIN-SUFFIX,6071.com
   - DOMAIN-SUFFIX,612.com
-  - DOMAIN-SUFFIX,652748.com
   - DOMAIN-SUFFIX,6669667.com
   - DOMAIN-SUFFIX,668559.com
   - DOMAIN-SUFFIX,66cn.com
@@ -843,6 +842,7 @@ payload:
   - DOMAIN-SUFFIX,starmobs.com
   - DOMAIN-SUFFIX,stg8.com
   - DOMAIN-SUFFIX,sundxs.com
+  - DOMAIN-SUFFIX,suning.design
   - DOMAIN-SUFFIX,supfast.net
   - DOMAIN-SUFFIX,surroundtm.com
   - DOMAIN-SUFFIX,suukcn.com
@@ -1099,7 +1099,6 @@ payload:
   - DOMAIN-SUFFIX,ysx8.vip
   - DOMAIN-SUFFIX,ysyhljt.vip
   - DOMAIN-SUFFIX,yuanchengxiezuo.com
-  - DOMAIN-SUFFIX,yuggcd.com
   - DOMAIN-SUFFIX,yukhj.com
   - DOMAIN-SUFFIX,yumimobi.com
   - DOMAIN-SUFFIX,yunjiasu.com
@@ -1152,7 +1151,7 @@ payload:
   - DOMAIN-SUFFIX,zzbyc.xyz
   - DOMAIN-SUFFIX,zzpzero.com
   - DOMAIN-SUFFIX,zzsdtzb.com
-# ChinaTest 与 AdvertisingTest 共 1170 条规则重复
+# ChinaTest 与 AdvertisingTest 共 1169 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -1265,7 +1264,6 @@ payload:
   - DOMAIN-SUFFIX,600zi.com
   - DOMAIN-SUFFIX,6071.com
   - DOMAIN-SUFFIX,612.com
-  - DOMAIN-SUFFIX,652748.com
   - DOMAIN-SUFFIX,6669667.com
   - DOMAIN-SUFFIX,668559.com
   - DOMAIN-SUFFIX,66cn.com
@@ -2012,6 +2010,7 @@ payload:
   - DOMAIN-SUFFIX,starmobs.com
   - DOMAIN-SUFFIX,stg8.com
   - DOMAIN-SUFFIX,sundxs.com
+  - DOMAIN-SUFFIX,suning.design
   - DOMAIN-SUFFIX,supfast.net
   - DOMAIN-SUFFIX,surroundtm.com
   - DOMAIN-SUFFIX,suukcn.com
@@ -2270,7 +2269,6 @@ payload:
   - DOMAIN-SUFFIX,ysx8.vip
   - DOMAIN-SUFFIX,ysyhljt.vip
   - DOMAIN-SUFFIX,yuanchengxiezuo.com
-  - DOMAIN-SUFFIX,yuggcd.com
   - DOMAIN-SUFFIX,yukhj.com
   - DOMAIN-SUFFIX,yumimobi.com
   - DOMAIN-SUFFIX,yunjiasu.com
@@ -2323,7 +2321,7 @@ payload:
   - DOMAIN-SUFFIX,zzbyc.xyz
   - DOMAIN-SUFFIX,zzpzero.com
   - DOMAIN-SUFFIX,zzsdtzb.com
-# ChinaTest 与 AdvertisingLite 共 659 条规则重复
+# ChinaTest 与 AdvertisingLite 共 657 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -2379,7 +2377,6 @@ payload:
   - DOMAIN-SUFFIX,55.la
   - DOMAIN-SUFFIX,5egk.com
   - DOMAIN-SUFFIX,5pub.com
-  - DOMAIN-SUFFIX,652748.com
   - DOMAIN-SUFFIX,6669667.com
   - DOMAIN-SUFFIX,6711.com
   - DOMAIN-SUFFIX,685wo.com
@@ -2954,7 +2951,6 @@ payload:
   - DOMAIN-SUFFIX,ypmob.com
   - DOMAIN-SUFFIX,ysx8.vip
   - DOMAIN-SUFFIX,yuanchengxiezuo.com
-  - DOMAIN-SUFFIX,yuggcd.com
   - DOMAIN-SUFFIX,yukhj.com
   - DOMAIN-SUFFIX,yumimobi.com
   - DOMAIN-SUFFIX,yunjiasu.com
@@ -3035,8 +3031,7 @@ payload:
   - DOMAIN-SUFFIX,trello.com
   - DOMAIN-SUFFIX,unity3d.com
   - DOMAIN-SUFFIX,xteko.com
-# ChinaTest 与 Blizzard 共 3 条规则重复
-  - DOMAIN,blzddist1-a.akamaihd.net
+# ChinaTest 与 Blizzard 共 2 条规则重复
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,blizzard.com
 # ChinaTest 与 ByteDance 共 26 条规则重复
@@ -3066,13 +3061,11 @@ payload:
   - DOMAIN-SUFFIX,zijieimg.com
   - DOMAIN-SUFFIX,zjbyte.com
   - DOMAIN-SUFFIX,zjcdn.com
-# ChinaTest 与 China 共 586 条规则重复
+# ChinaTest 与 China 共 584 条规则重复
   - DOMAIN,analytics.strava.com
-  - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,client.amplifi.com
   - DOMAIN,download.jetbrains.com
   - DOMAIN,ip.istatmenus.app
-  - DOMAIN,mtalk.google.com
   - DOMAIN,sms.imagetasks.com
   - DOMAIN,speedtest.macpaw.com
   - DOMAIN-KEYWORD,-cn
@@ -3708,8 +3701,7 @@ payload:
   - DOMAIN-SUFFIX,steamstat.us
   - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,steamusercontent.com
-# ChinaTest 与 Game 共 10 条规则重复
-  - DOMAIN,blzddist1-a.akamaihd.net
+# ChinaTest 与 Game 共 9 条规则重复
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,blizzard.com
   - DOMAIN-SUFFIX,steam-chat.com
@@ -3975,7 +3967,7 @@ payload:
   - DOMAIN-SUFFIX,weibocdn.com
 # ChinaTest 与 IQiyi 共 1 条规则重复
   - DOMAIN-SUFFIX,qy.net
-# ChinaTest 与 Proxy 共 49 条规则重复
+# ChinaTest 与 Proxy 共 48 条规则重复
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,app-measurement.com
@@ -4023,7 +4015,6 @@ payload:
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,xianba.net
   - DOMAIN-SUFFIX,xteko.com
-  - DOMAIN-SUFFIX,zi5.me
   - DOMAIN-SUFFIX,zoho.com
 # ChinaTest 与 Himalaya 共 2 条规则重复
   - DOMAIN-SUFFIX,ximalaya.com

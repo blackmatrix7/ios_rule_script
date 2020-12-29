@@ -1,12 +1,12 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-29 03:45:57
-# DOMAIN-SUFFIX: 5904
+# UPDATED: 2020-12-29 23:58:11
+# DOMAIN-SUFFIX: 5907
 # DOMAIN: 5
 # DOMAIN-KEYWORD: 28
 # IP-CIDR: 71
-# TOTAL: 6008
+# TOTAL: 6011
 payload:
   - DOMAIN,cvws.icloud-content.com
   - DOMAIN,developer.apple.com
@@ -4138,6 +4138,7 @@ payload:
   - DOMAIN-SUFFIX,rdtcdn.com
   - DOMAIN-SUFFIX,read01.com
   - DOMAIN-SUFFIX,read100.com
+  - DOMAIN-SUFFIX,readdle.com
   - DOMAIN-SUFFIX,readingtimes.com.tw
   - DOMAIN-SUFFIX,readmoo.com
   - DOMAIN-SUFFIX,readydown.com
@@ -4726,10 +4727,12 @@ payload:
   - DOMAIN-SUFFIX,tangren.us
   - DOMAIN-SUFFIX,taoism.net
   - DOMAIN-SUFFIX,taolun.info
+  - DOMAIN-SUFFIX,tap.io
   - DOMAIN-SUFFIX,tapanwap.com
   - DOMAIN-SUFFIX,tapatalk.com
   - DOMAIN-SUFFIX,tapbots.com
   - DOMAIN-SUFFIX,tapbots.net
+  - DOMAIN-SUFFIX,taptap.tw
   - DOMAIN-SUFFIX,taragana.com
   - DOMAIN-SUFFIX,target.com
   - DOMAIN-SUFFIX,tascn.com.au

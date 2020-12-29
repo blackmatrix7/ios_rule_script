@@ -1,19 +1,17 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-29 03:45:55
+# UPDATED: 2020-12-29 23:58:10
 # USER-AGENT: 46
-# HOST-SUFFIX: 166
+# HOST-SUFFIX: 177
 # HOST-KEYWORD: 13
-# HOST: 27
+# HOST: 25
 # IP-CIDR: 20
-# TOTAL: 272
+# TOTAL: 281
 HOST,api.viu.now.com,GlobalMedia
 HOST,atv-ps.amazon.com,GlobalMedia
 HOST,avodmp4s3ww-a.akamaihd.net,GlobalMedia
 HOST,bcbolt446c5271-a.akamaihd.net,GlobalMedia
-HOST,bcbolthboa-a.akamaihd.net,GlobalMedia
-HOST,cf-images.ap-southeast-1.prod.boltdns.net,GlobalMedia
 HOST,content.jwplatform.com,GlobalMedia
 HOST,edge.api.brightcove.com,GlobalMedia
 HOST,fls-na.amazon.com,GlobalMedia
@@ -29,12 +27,12 @@ HOST,hboasia4-i.akamaihd.net,GlobalMedia
 HOST,hboasia5-i.akamaihd.net,GlobalMedia
 HOST,itvpnpmobile-a.akamaihd.net,GlobalMedia
 HOST,kktv-theater.kk.stream,GlobalMedia
+HOST,mytvsuperlimited.hb.omtrdc.net,GlobalMedia
+HOST,mytvsuperlimited.sc.omtrdc.net,GlobalMedia
 HOST,np-edge.itunes.apple.com,GlobalMedia
 HOST,play-edge.itunes.apple.com,GlobalMedia
 HOST,players.brightcove.net,GlobalMedia
 HOST,videos-f.jwpsrv.com,GlobalMedia
-HOST,youtubei.googleapis.com,GlobalMedia
-HOST,yt3.ggpht.com,GlobalMedia
 HOST-SUFFIX,5itv.tv,GlobalMedia
 HOST-SUFFIX,abema.io,GlobalMedia
 HOST-SUFFIX,abema.tv,GlobalMedia
@@ -48,22 +46,26 @@ HOST-SUFFIX,amazonvideo.com,GlobalMedia
 HOST-SUFFIX,ameba.jp,GlobalMedia
 HOST-SUFFIX,app-measurement.com,GlobalMedia
 HOST-SUFFIX,bahamut.com.tw,GlobalMedia
-HOST-SUFFIX,bam.nr-date.net,GlobalMedia
+HOST-SUFFIX,bam.nr-data.net,GlobalMedia
 HOST-SUFFIX,bamgrid.com,GlobalMedia
 HOST-SUFFIX,bbc.co,GlobalMedia
 HOST-SUFFIX,bbc.co.uk,GlobalMedia
 HOST-SUFFIX,bbc.com,GlobalMedia
 HOST-SUFFIX,bbci.co,GlobalMedia
 HOST-SUFFIX,bbci.co.uk,GlobalMedia
+HOST-SUFFIX,bcbolthboa-a.akamaihd.net,GlobalMedia
 HOST-SUFFIX,bootstrapcdn.com,GlobalMedia
 HOST-SUFFIX,braze.com,GlobalMedia
 HOST-SUFFIX,byteoversea.com,GlobalMedia
 HOST-SUFFIX,c4assets.com,GlobalMedia
+HOST-SUFFIX,cdn.optimizely.com,GlobalMedia
+HOST-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net,GlobalMedia
 HOST-SUFFIX,channel4.com,GlobalMedia
 HOST-SUFFIX,channel5.com,GlobalMedia
 HOST-SUFFIX,cloudfront.net,GlobalMedia
 HOST-SUFFIX,control.kochava.com,GlobalMedia
-HOST-SUFFIX,conviva.com,GlobalMedia
+HOST-SUFFIX,cws-hulu.conviva.com,GlobalMedia
+HOST-SUFFIX,cws.conviva.com,GlobalMedia
 HOST-SUFFIX,d9.flashtalking.com,GlobalMedia
 HOST-SUFFIX,dazn-api.com,GlobalMedia
 HOST-SUFFIX,dazn.com,GlobalMedia
@@ -77,6 +79,7 @@ HOST-SUFFIX,disney-portal.my.onetrust.com,GlobalMedia
 HOST-SUFFIX,disney.demdex.net,GlobalMedia
 HOST-SUFFIX,disneyplus.bn5x.net,GlobalMedia
 HOST-SUFFIX,disneyplus.com,GlobalMedia
+HOST-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,GlobalMedia
 HOST-SUFFIX,disneystreaming.com,GlobalMedia
 HOST-SUFFIX,dmc.nico,GlobalMedia
 HOST-SUFFIX,dssott.com,GlobalMedia
@@ -103,7 +106,10 @@ HOST-SUFFIX,hbomax.com,GlobalMedia
 HOST-SUFFIX,hbonow.com,GlobalMedia
 HOST-SUFFIX,hinet.net,GlobalMedia
 HOST-SUFFIX,hulu.com,GlobalMedia
+HOST-SUFFIX,hulu.hb.omtrdc.net,GlobalMedia
 HOST-SUFFIX,hulu.jp,GlobalMedia
+HOST-SUFFIX,hulu.sc.omtrdc.net,GlobalMedia
+HOST-SUFFIX,huluad.com,GlobalMedia
 HOST-SUFFIX,huluim.com,GlobalMedia
 HOST-SUFFIX,hulustream.com,GlobalMedia
 HOST-SUFFIX,ibytedtos.com,GlobalMedia
@@ -134,7 +140,7 @@ HOST-SUFFIX,kktv.me,GlobalMedia
 HOST-SUFFIX,linetv.tw,GlobalMedia
 HOST-SUFFIX,litv.tv,GlobalMedia
 HOST-SUFFIX,llnwd.net,GlobalMedia
-HOST-SUFFIX,logx.optimizely.com,GlobalMedia
+HOST-SUFFIX,manifest.prod.boltdns.net,GlobalMedia
 HOST-SUFFIX,media-amazon.com,GlobalMedia
 HOST-SUFFIX,muscdn.com,GlobalMedia
 HOST-SUFFIX,musical.ly,GlobalMedia
@@ -182,6 +188,7 @@ HOST-SUFFIX,soundcloud.com,GlobalMedia
 HOST-SUFFIX,spoti.fi,GlobalMedia
 HOST-SUFFIX,spotify.com,GlobalMedia
 HOST-SUFFIX,spotifycdn.net,GlobalMedia
+HOST-SUFFIX,streaks.jp,GlobalMedia
 HOST-SUFFIX,theplatform.com,GlobalMedia
 HOST-SUFFIX,tidal.com,GlobalMedia
 HOST-SUFFIX,tidalhifi.com,GlobalMedia
@@ -198,6 +205,8 @@ HOST-SUFFIX,uplynk.com,GlobalMedia
 HOST-SUFFIX,viu.com,GlobalMedia
 HOST-SUFFIX,viu.now.com,GlobalMedia
 HOST-SUFFIX,viu.tv,GlobalMedia
+HOST-SUFFIX,yahoo.co.jp,GlobalMedia
+HOST-SUFFIX,yb.uncn.jp,GlobalMedia
 HOST-SUFFIX,youtu.be,GlobalMedia
 HOST-SUFFIX,youtube.com,GlobalMedia
 HOST-SUFFIX,ytimg.com,GlobalMedia

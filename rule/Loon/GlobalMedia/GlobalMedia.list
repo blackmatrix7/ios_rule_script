@@ -1,19 +1,17 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-29 03:45:56
+# UPDATED: 2020-12-29 23:58:10
 # USER-AGENT: 46
-# DOMAIN-SUFFIX: 166
+# DOMAIN-SUFFIX: 177
 # DOMAIN-KEYWORD: 13
-# DOMAIN: 27
+# DOMAIN: 25
 # IP-CIDR: 20
-# TOTAL: 272
+# TOTAL: 281
 DOMAIN,api.viu.now.com
 DOMAIN,atv-ps.amazon.com
 DOMAIN,avodmp4s3ww-a.akamaihd.net
 DOMAIN,bcbolt446c5271-a.akamaihd.net
-DOMAIN,bcbolthboa-a.akamaihd.net
-DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
 DOMAIN,content.jwplatform.com
 DOMAIN,edge.api.brightcove.com
 DOMAIN,fls-na.amazon.com
@@ -29,12 +27,12 @@ DOMAIN,hboasia4-i.akamaihd.net
 DOMAIN,hboasia5-i.akamaihd.net
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN,kktv-theater.kk.stream
+DOMAIN,mytvsuperlimited.hb.omtrdc.net
+DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
 DOMAIN,players.brightcove.net
 DOMAIN,videos-f.jwpsrv.com
-DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
 DOMAIN-SUFFIX,5itv.tv
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
@@ -48,22 +46,26 @@ DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,bahamut.com.tw
-DOMAIN-SUFFIX,bam.nr-date.net
+DOMAIN-SUFFIX,bam.nr-data.net
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbc.co.uk
 DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,bbci.co
 DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
 DOMAIN-SUFFIX,bootstrapcdn.com
 DOMAIN-SUFFIX,braze.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,c4assets.com
+DOMAIN-SUFFIX,cdn.optimizely.com
+DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
 DOMAIN-SUFFIX,channel4.com
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,control.kochava.com
-DOMAIN-SUFFIX,conviva.com
+DOMAIN-SUFFIX,cws-hulu.conviva.com
+DOMAIN-SUFFIX,cws.conviva.com
 DOMAIN-SUFFIX,d9.flashtalking.com
 DOMAIN-SUFFIX,dazn-api.com
 DOMAIN-SUFFIX,dazn.com
@@ -77,6 +79,7 @@ DOMAIN-SUFFIX,disney-portal.my.onetrust.com
 DOMAIN-SUFFIX,disney.demdex.net
 DOMAIN-SUFFIX,disneyplus.bn5x.net
 DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
 DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,dssott.com
@@ -103,7 +106,10 @@ DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,hinet.net
 DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,hulu.hb.omtrdc.net
 DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,hulu.sc.omtrdc.net
+DOMAIN-SUFFIX,huluad.com
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,hulustream.com
 DOMAIN-SUFFIX,ibytedtos.com
@@ -134,7 +140,7 @@ DOMAIN-SUFFIX,kktv.me
 DOMAIN-SUFFIX,linetv.tw
 DOMAIN-SUFFIX,litv.tv
 DOMAIN-SUFFIX,llnwd.net
-DOMAIN-SUFFIX,logx.optimizely.com
+DOMAIN-SUFFIX,manifest.prod.boltdns.net
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musical.ly
@@ -182,6 +188,7 @@ DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.net
+DOMAIN-SUFFIX,streaks.jp
 DOMAIN-SUFFIX,theplatform.com
 DOMAIN-SUFFIX,tidal.com
 DOMAIN-SUFFIX,tidalhifi.com
@@ -198,6 +205,8 @@ DOMAIN-SUFFIX,uplynk.com
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.now.com
 DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,yahoo.co.jp
+DOMAIN-SUFFIX,yb.uncn.jp
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com

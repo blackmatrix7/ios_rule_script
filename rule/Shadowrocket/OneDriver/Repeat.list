@@ -1,0 +1,38 @@
+# NAME: OneDriver 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-29 23:58:13
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+# OneDriver 与 BlackList 共 1 条规则重复
+DOMAIN-SUFFIX,livefilestore.com
+# OneDriver 与 China 共 1 条规则重复
+DOMAIN-SUFFIX,sharepoint.com
+# OneDriver 与 ChinaTest 共 1 条规则重复
+DOMAIN-SUFFIX,sharepoint.com
+# OneDriver 与 Microsoft 共 13 条规则重复
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,skydrive
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+PROCESS-NAME,onedrive
+PROCESS-NAME,onedriveupdater
+USER-AGENT,onedrive*
+USER-AGENT,onedriveiosapp*
+# OneDriver 与 Global 共 6 条规则重复
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,storage.msn.com
+# OneDriver 与 Proxy 共 5 条规则重复
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,skydrive
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,onedrive.com

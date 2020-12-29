@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-29 03:45:57
+# UPDATED: 2020-12-29 23:58:12
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Proxy 与 Adobe 共 9 条规则重复
 HOST-SUFFIX,behance.net
@@ -1033,7 +1033,7 @@ HOST-SUFFIX,unity3d.com
 HOST-SUFFIX,windows.com
 HOST-SUFFIX,windows.net
 HOST-SUFFIX,zoho.com
-# Proxy 与 ChinaTest 共 49 条规则重复
+# Proxy 与 ChinaTest 共 48 条规则重复
 HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,akamaized.net
 HOST-SUFFIX,app-measurement.com
@@ -1081,7 +1081,6 @@ HOST-SUFFIX,windows.com
 HOST-SUFFIX,windows.net
 HOST-SUFFIX,xianba.net
 HOST-SUFFIX,xteko.com
-HOST-SUFFIX,zi5.me
 HOST-SUFFIX,zoho.com
 # Proxy 与 Cloudflare 共 1 条规则重复
 HOST-SUFFIX,cloudflare.com
@@ -1774,7 +1773,7 @@ IP6-CIDR,2001:67c:4e8::/48
 IP6-CIDR,2001:b28:f23d::/48
 IP6-CIDR,2001:b28:f23f::/48
 USER-AGENT,roam*
-# Proxy 与 GlobalMedia 共 55 条规则重复
+# Proxy 与 GlobalMedia 共 56 条规则重复
 HOST-KEYWORD,ttvnw
 HOST-KEYWORD,uk-live
 HOST-KEYWORD,youtube
@@ -1827,6 +1826,7 @@ HOST-SUFFIX,twitch.tv
 HOST-SUFFIX,twitchcdn.net
 HOST-SUFFIX,viu.com
 HOST-SUFFIX,viu.tv
+HOST-SUFFIX,yahoo.co.jp
 HOST-SUFFIX,youtu.be
 HOST-SUFFIX,youtube.com
 HOST-SUFFIX,ytimg.com
@@ -1840,10 +1840,11 @@ HOST-SUFFIX,githubusercontent.com
 # Proxy 与 Spotify 共 2 条规则重复
 HOST-SUFFIX,scdn.co
 HOST-SUFFIX,spotify.com
-# Proxy 与 Spark 共 4 条规则重复
+# Proxy 与 Spark 共 5 条规则重复
 HOST-SUFFIX,amplitude.com
 HOST-SUFFIX,firebaseio.com
 HOST-SUFFIX,hockeyapp.net
+HOST-SUFFIX,readdle.com
 HOST-SUFFIX,smartmailcloud.com
 # Proxy 与 Sony 共 4 条规则重复
 HOST-SUFFIX,playstation.com

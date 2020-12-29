@@ -1,11 +1,12 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-29 03:45:57
+# UPDATED: 2020-12-29 23:58:12
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Global 与 Adobe 共 1 条规则重复
 HOST-SUFFIX,behance.net
-# Global 与 Advertising 共 6 条规则重复
+# Global 与 Advertising 共 7 条规则重复
+HOST,az416426.vo.msecnd.net
 HOST-SUFFIX,dnvod.tv
 HOST-SUFFIX,linksalpha.com
 HOST-SUFFIX,nytlog.com
@@ -31,9 +32,7 @@ HOST,books.itunes.apple.com
 HOST,hls.itunes.apple.com
 HOST,lookup-api.apple.com
 HOST-SUFFIX,appsto.re
-# Global 与 Bahamut 共 5 条规则重复
-HOST,gamer-cds.cdn.hinet.net
-HOST,gamer2-cds.cdn.hinet.net
+# Global 与 Bahamut 共 3 条规则重复
 HOST-SUFFIX,bahamut.com.tw
 HOST-SUFFIX,gamer.com.tw
 USER-AGENT,anime*
@@ -383,8 +382,7 @@ HOST-SUFFIX,xn--ngstr-lra8j.com
 HOST-SUFFIX,youtu.be
 HOST-SUFFIX,yt.be
 HOST-SUFFIX,ytimg.com
-# Global 与 YouTube 共 9 条规则重复
-HOST,youtubei.googleapis.com
+# Global 与 YouTube 共 8 条规则重复
 HOST-SUFFIX,googlevideo.com
 HOST-SUFFIX,youtu.be
 HOST-SUFFIX,youtube.com
@@ -460,11 +458,9 @@ HOST-SUFFIX,disney-plus.net
 HOST-SUFFIX,disneyplus.com
 HOST-SUFFIX,dssott.com
 USER-AGENT,disney+*
-# Global 与 GlobalMedia 共 171 条规则重复
+# Global 与 GlobalMedia 共 168 条规则重复
 HOST,avodmp4s3ww-a.akamaihd.net
 HOST,bcbolt446c5271-a.akamaihd.net
-HOST,bcbolthboa-a.akamaihd.net
-HOST,cf-images.ap-southeast-1.prod.boltdns.net
 HOST,edge.api.brightcove.com
 HOST,hamifans.emome.net
 HOST,hboasia1-i.akamaihd.net
@@ -475,7 +471,6 @@ HOST,hboasia5-i.akamaihd.net
 HOST,itvpnpmobile-a.akamaihd.net
 HOST,kktv-theater.kk.stream
 HOST,players.brightcove.net
-HOST,youtubei.googleapis.com
 HOST-KEYWORD,-spotify-com
 HOST-KEYWORD,avoddashs
 HOST-KEYWORD,bbcfmt

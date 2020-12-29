@@ -1,0 +1,34 @@
+# NAME: WhiteList
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-29 23:58:11
+# DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
+# DOMAIN-SUFFIX: 4
+# DOMAIN-KEYWORD: 1
+# DOMAIN: 12
+# URL-REGEX: 2
+# USER-AGENT: 4
+# TOTAL: 23
+DOMAIN,ad.10010.com
+DOMAIN,analytics.95516.com
+DOMAIN,analytics.strava.com
+DOMAIN,app.adjust.com
+DOMAIN,bdtj.tagtic.cn
+DOMAIN,fairplay.l.qq.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,log.mmstat.com
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+DOMAIN,sycm.mmstat.com
+DOMAIN,tracking.miui.com
+DOMAIN-SUFFIX,f.video.weibocdn.com
+DOMAIN-SUFFIX,fus.cdn.krcom.cn
+DOMAIN-SUFFIX,ol.epicgames.com
+DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
+DOMAIN-KEYWORD,wb_ad
+USER-AGENT,archero*
+USER-AGENT,coffee%20corp*
+USER-AGENT,coffeecorp*
+USER-AGENT,restaurant-mobile*
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/brand\/set
+URL-REGEX,^https?:\/\/www\.didapinche\.com\/app\/adstat.*&ad_type=(ride_paid|benefits)

@@ -6,7 +6,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
   if (magicJS.isResponse){
     switch (true){
       // 嘀嗒出行
-      case /^https?:\/\/capis-\w*\.didapinche\.com\/ad\/cx\/startup\?/.test(magicJS.request.url):
+      case /^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\?/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
           if (obj.hasOwnProperty('startupPages') == true){
@@ -17,9 +17,9 @@ let magicJS = MagicJS(scriptName, 'INFO');
                 element["width"] = 1;
                 element["height"] = 1;
                 element["page_url"] = '#';
-                element["create_time"] = "20301208131245";
-                element["start_time"] = "20301228000000";
-                element["end_time"] = "20301229000000";
+                // element["create_time"] = "20301208131245";
+                // element["start_time"] = "20301228000000";
+                // element["end_time"] = "20301229000000";
                 startupPages.push(element);
               }
             );

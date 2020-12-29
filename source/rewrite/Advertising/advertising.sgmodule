@@ -9,7 +9,9 @@
 # 什么值得买详情页广告
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner - reject
 # 嘀嗒出行开屏广告
-^https?:\/\/capis-1\.didapinche\.com\/ad\/cx\/startup\? - reject
+^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? - reject
+# 嘀嗒出行启动弹窗
+^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/boot\? - reject
 # 美团外卖更新检查
 ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
 ^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate? - reject

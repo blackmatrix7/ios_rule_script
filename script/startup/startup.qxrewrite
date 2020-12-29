@@ -1,8 +1,8 @@
-# 嘀嗒出行
+# 嘀嗒出行_开屏去广告
 ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
-# Fa米家
+# Fa米家_开屏去广告
 ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js
-# BiliBili
+# BiliBili_开屏去广告
 ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
 
 hostname = capis.didapinche.com,capis*.didapinche.com,fmapp.chinafamilymart.com.cn,app.bilibili.com

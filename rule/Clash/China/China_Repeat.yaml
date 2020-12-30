@@ -1,7 +1,7 @@
 # NAME: China 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-30 10:04:52
+# UPDATED: 2020-12-30 10:45:02
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # China 与 Adobe 共 2 条规则重复
@@ -79,13 +79,16 @@ payload:
   - DOMAIN-SUFFIX,pstatp.com
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,toutiao.com
-# China 与 ChinaTest 共 584 条规则重复
+# China 与 ChinaTest 共 586 条规则重复
   - DOMAIN,analytics.strava.com
   - DOMAIN,client.amplifi.com
   - DOMAIN,download.jetbrains.com
+  - DOMAIN,file-igamecj.akamaized.net
   - DOMAIN,ip.istatmenus.app
+  - DOMAIN,officecdn-microsoft-com.akamaized.net
   - DOMAIN,sms.imagetasks.com
   - DOMAIN,speedtest.macpaw.com
+  - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN-KEYWORD,-cn
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -135,7 +138,6 @@ payload:
   - DOMAIN-SUFFIX,air-matters.io
   - DOMAIN-SUFFIX,aixifan.com
   - DOMAIN-SUFFIX,akadns.net
-  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,alibaba.com
   - DOMAIN-SUFFIX,alibabacloud.com
   - DOMAIN-SUFFIX,alibabausercontent.com
@@ -694,7 +696,8 @@ payload:
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypalobjects.com
-# China 与 Steam 共 7 条规则重复
+# China 与 Steam 共 8 条规则重复
+  - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,steam-chat.com
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,steamgames.com
@@ -708,7 +711,8 @@ payload:
   - DOMAIN-SUFFIX,steamstat.us
   - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,steamusercontent.com
-# China 与 Game 共 9 条规则重复
+# China 与 Game 共 10 条规则重复
+  - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,blizzard.com
   - DOMAIN-SUFFIX,steam-chat.com
@@ -773,8 +777,7 @@ payload:
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypalobjects.com
   - DOMAIN-SUFFIX,unity3d.com
-# China 与 GlobalMedia 共 3 条规则重复
-  - DOMAIN-SUFFIX,akamaized.net
+# China 与 GlobalMedia 共 2 条规则重复
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,ibytedtos.com
 # China 与 Sony 共 5 条规则重复
@@ -861,8 +864,7 @@ payload:
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN-SUFFIX,weibo.com
   - DOMAIN-SUFFIX,weibocdn.com
-# China 与 Proxy 共 34 条规则重复
-  - DOMAIN-SUFFIX,akamaized.net
+# China 与 Proxy 共 33 条规则重复
   - DOMAIN-SUFFIX,bet365.com
   - DOMAIN-SUFFIX,bjango.com
   - DOMAIN-SUFFIX,crashlytics.com

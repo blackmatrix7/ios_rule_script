@@ -1,7 +1,7 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-30 10:04:51
+# UPDATED: 2020-12-30 10:45:01
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # ChinaTest 与 Adobe 共 2 条规则重复
 DOMAIN-SUFFIX,digicert.com
@@ -3057,13 +3057,16 @@ DOMAIN-SUFFIX,wukong.com
 DOMAIN-SUFFIX,zijieimg.com
 DOMAIN-SUFFIX,zjbyte.com
 DOMAIN-SUFFIX,zjcdn.com
-# ChinaTest 与 China 共 599 条规则重复
+# ChinaTest 与 China 共 601 条规则重复
 DOMAIN,analytics.strava.com
 DOMAIN,client.amplifi.com
 DOMAIN,download.jetbrains.com
+DOMAIN,file-igamecj.akamaized.net
 DOMAIN,ip.istatmenus.app
+DOMAIN,officecdn-microsoft-com.akamaized.net
 DOMAIN,sms.imagetasks.com
 DOMAIN,speedtest.macpaw.com
+DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN-KEYWORD,-cn
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -3113,7 +3116,6 @@ DOMAIN-SUFFIX,air-matters.com
 DOMAIN-SUFFIX,air-matters.io
 DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,akadns.net
-DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alibabacloud.com
 DOMAIN-SUFFIX,alibabausercontent.com
@@ -3702,7 +3704,8 @@ DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypalobjects.com
 USER-AGENT,paypal*
-# ChinaTest 与 Steam 共 7 条规则重复
+# ChinaTest 与 Steam 共 8 条规则重复
+DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamgames.com
@@ -3716,7 +3719,8 @@ DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamusercontent.com
-# ChinaTest 与 Game 共 9 条规则重复
+# ChinaTest 与 Game 共 10 条规则重复
+DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,blizzard.com
 DOMAIN-SUFFIX,steam-chat.com
@@ -3828,8 +3832,7 @@ DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,unity3d.com
 USER-AGENT,paypal*
-# ChinaTest 与 GlobalMedia 共 4 条规则重复
-DOMAIN-SUFFIX,akamaized.net
+# ChinaTest 与 GlobalMedia 共 3 条规则重复
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
@@ -3983,9 +3986,8 @@ DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
 # ChinaTest 与 IQiyi 共 1 条规则重复
 DOMAIN-SUFFIX,qy.net
-# ChinaTest 与 Proxy 共 48 条规则重复
+# ChinaTest 与 Proxy 共 47 条规则重复
 DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,bjango.com

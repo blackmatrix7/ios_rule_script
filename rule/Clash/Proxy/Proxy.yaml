@@ -1,13 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-30 10:04:50
-# DOMAIN-SUFFIX: 5907
-# DOMAIN: 5
+# UPDATED: 2020-12-30 10:45:00
+# DOMAIN-SUFFIX: 5906
+# DOMAIN: 6
 # DOMAIN-KEYWORD: 28
 # IP-CIDR: 71
 # TOTAL: 6011
 payload:
+  - DOMAIN,assets-priconne-redive-us.akamaized.net
   - DOMAIN,cvws.icloud-content.com
   - DOMAIN,developer.apple.com
   - DOMAIN,itunes.apple.com
@@ -209,7 +210,6 @@ payload:
   - DOMAIN-SUFFIX,akamai.net
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,akamaistream.net
-  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,akiba-online.com
   - DOMAIN-SUFFIX,akiba-web.com
   - DOMAIN-SUFFIX,akow.org

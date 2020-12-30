@@ -6,10 +6,10 @@
 
 定时爬取互联网上开源的复写去广告复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
-本复写插件不包含知乎和Youtube去广告规则。
+**本复写插件不包含知乎和Youtube去广告规则。**
 
 
-最后检查时间：2020-12-30 10:45:15。
+最后检查时间：2020-12-30 20:09:18。
 
 ## 复写统计
 
@@ -123,6 +123,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/S
 
 感谢
 
-[@Tartarus2014](https://github.com/Tartarus2014)
+[@Tartarus2014](https://github.com/Tartarus2014)  [@chenyiping1995](https://github.com/chenyiping1995) 
 
 提供规则数据源及改进建议

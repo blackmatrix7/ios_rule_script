@@ -8,8 +8,7 @@
 
 
 
-
-最后检查时间：2020-12-30 10:45:09。
+最后检查时间：2020-12-30 20:09:12。
 
 ## 规则统计
 
@@ -99,7 +98,7 @@ Global分流规则，与本项目其他分流规则没有重复。
 
 感谢
 
-[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) 
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) 
 
 提供规则数据源及改进建议
 

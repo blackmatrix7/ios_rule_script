@@ -1,7 +1,7 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-30 10:45:02
+# UPDATED: 2020-12-30 20:09:03
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # GlobalMedia 与 Adobe 共 1 条规则重复
 DOMAIN-SUFFIX,bam.nr-data.net
@@ -63,7 +63,9 @@ DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ytimg.com
-# GlobalMedia 与 YouTube 共 12 条规则重复
+# GlobalMedia 与 YouTube 共 14 条规则重复
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,googlevideo.com
@@ -143,7 +145,7 @@ DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,dssott.com
 USER-AGENT,disney+*
-# GlobalMedia 与 Global 共 168 条规则重复
+# GlobalMedia 与 Global 共 169 条规则重复
 DOMAIN,avodmp4s3ww-a.akamaihd.net
 DOMAIN,bcbolt446c5271-a.akamaihd.net
 DOMAIN,edge.api.brightcove.com
@@ -156,6 +158,7 @@ DOMAIN,hboasia5-i.akamaihd.net
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN,kktv-theater.kk.stream
 DOMAIN,players.brightcove.net
+DOMAIN,youtubei.googleapis.com
 DOMAIN-KEYWORD,-spotify-com
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt

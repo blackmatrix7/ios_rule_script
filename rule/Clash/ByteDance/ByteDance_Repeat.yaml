@@ -1,0 +1,44 @@
+# NAME: ByteDance 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-30 10:04:52
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+payload:
+# ByteDance 与 Advertising 共 1 条规则重复
+  - DOMAIN-SUFFIX,toutiaopage.com
+# ByteDance 与 AdvertisingTest 共 1 条规则重复
+  - DOMAIN-SUFFIX,toutiaopage.com
+# ByteDance 与 China 共 6 条规则重复
+  - DOMAIN-SUFFIX,feiliao.com
+  - DOMAIN-SUFFIX,gifshow.com
+  - DOMAIN-SUFFIX,iesdouyin.com
+  - DOMAIN-SUFFIX,pstatp.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,toutiao.com
+# ByteDance 与 ChinaTest 共 26 条规则重复
+  - DOMAIN-SUFFIX,bytedance.com
+  - DOMAIN-SUFFIX,bytedance.net
+  - DOMAIN-SUFFIX,bytedns.net
+  - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,feiliao.com
+  - DOMAIN-SUFFIX,gifshow.com
+  - DOMAIN-SUFFIX,huoshan.com
+  - DOMAIN-SUFFIX,iesdouyin.com
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,kspkg.com
+  - DOMAIN-SUFFIX,pstatp.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,toutiao.com
+  - DOMAIN-SUFFIX,toutiao13.com
+  - DOMAIN-SUFFIX,toutiaocdn.com
+  - DOMAIN-SUFFIX,toutiaocdn.net
+  - DOMAIN-SUFFIX,toutiaocloud.com
+  - DOMAIN-SUFFIX,toutiaocloud.net
+  - DOMAIN-SUFFIX,toutiaohao.com
+  - DOMAIN-SUFFIX,toutiaohao.net
+  - DOMAIN-SUFFIX,toutiaoimg.com
+  - DOMAIN-SUFFIX,toutiaopage.com
+  - DOMAIN-SUFFIX,wukong.com
+  - DOMAIN-SUFFIX,zijieimg.com
+  - DOMAIN-SUFFIX,zjbyte.com
+  - DOMAIN-SUFFIX,zjcdn.com

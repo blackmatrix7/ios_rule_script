@@ -1,0 +1,44 @@
+# NAME: YouTube 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-30 10:04:52
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+payload:
+# YouTube 与 Advertising 共 1 条规则重复
+  - DOMAIN-SUFFIX,app-measurement.com
+# YouTube 与 AdvertisingTest 共 2 条规则重复
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,gvt2.com
+# YouTube 与 AdvertisingLite 共 1 条规则重复
+  - DOMAIN-SUFFIX,app-measurement.com
+# YouTube 与 BlackList 共 3 条规则重复
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,ytimg.com
+# YouTube 与 ChinaTest 共 1 条规则重复
+  - DOMAIN-SUFFIX,app-measurement.com
+# YouTube 与 Google 共 3 条规则重复
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,ytimg.com
+# YouTube 与 Global 共 4 条规则重复
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,ytimg.com
+# YouTube 与 GlobalMedia 共 7 条规则重复
+  - DOMAIN-KEYWORD,youtube
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,ytimg.com
+# YouTube 与 Proxy 共 7 条规则重复
+  - DOMAIN-KEYWORD,youtube
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,ytimg.com

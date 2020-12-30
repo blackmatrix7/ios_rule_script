@@ -1,0 +1,40 @@
+# NAME: ChinaTest
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-30 10:04:48
+# DOMAIN-SUFFIX: 72625
+# USER-AGENT: 11
+# DOMAIN: 6
+# IP-CIDR: 4
+# DOMAIN-KEYWORD: 10
+# IP-CIDR6: 4
+# TOTAL: 72660
+DOMAIN-KEYWORD,-cn
+DOMAIN-KEYWORD,.tmall.com
+DOMAIN-KEYWORD,alicdn
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,aliyun
+DOMAIN-KEYWORD,baidu
+DOMAIN-KEYWORD,beplay
+DOMAIN-KEYWORD,officecdn
+DOMAIN-KEYWORD,speedtest
+DOMAIN-KEYWORD,taobao
+IP-CIDR,1.255.62.0/24,no-resolve
+IP-CIDR,119.28.28.28/32,no-resolve
+IP-CIDR,182.254.116.0/24,no-resolve
+IP-CIDR,185.188.32.0/22,no-resolve
+IP-CIDR6,2a0b:b580::/48,no-resolve
+IP-CIDR6,2a0b:b581::/48,no-resolve
+IP-CIDR6,2a0b:b582::/48,no-resolve
+IP-CIDR6,2a0b:b583::/48,no-resolve
+USER-AGENT,%e4%bc%81%e4%b8%9a%e5%be%ae%e4%bf%a1*
+USER-AGENT,%e4%bc%98%e9%85%b7*
+USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*
+USER-AGENT,hearthstone*
+USER-AGENT,micromessenger%20client
+USER-AGENT,micromessengerclient*
+USER-AGENT,neteasemusic*
+USER-AGENT,paypal*
+USER-AGENT,remoteplay*
+USER-AGENT,wechat*
+USER-AGENT,yyets*

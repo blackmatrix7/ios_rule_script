@@ -1,0 +1,38 @@
+# NAME: Developer 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-30 10:04:51
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+# Developer 与 BlackList 共 8 条规则重复
+HOST-SUFFIX,apache.org
+HOST-SUFFIX,docker.com
+HOST-SUFFIX,gcr.io
+HOST-SUFFIX,maven.org
+HOST-SUFFIX,medium.com
+HOST-SUFFIX,pythonhosted.org
+HOST-SUFFIX,reddit.com
+HOST-SUFFIX,stackoverflow.com
+# Developer 与 Global 共 2 条规则重复
+HOST-SUFFIX,medium.com
+HOST-SUFFIX,reddit.com
+# Developer 与 Proxy 共 20 条规则重复
+HOST-SUFFIX,apache.org
+HOST-SUFFIX,docker.com
+HOST-SUFFIX,elastic.co
+HOST-SUFFIX,elastic.com
+HOST-SUFFIX,gcr.io
+HOST-SUFFIX,gitlab.com
+HOST-SUFFIX,gitlab.io
+HOST-SUFFIX,jitpack.io
+HOST-SUFFIX,maven.org
+HOST-SUFFIX,medium.com
+HOST-SUFFIX,mvnrepository.com
+HOST-SUFFIX,pythonhosted.org
+HOST-SUFFIX,quay.io
+HOST-SUFFIX,reddit.com
+HOST-SUFFIX,redhat.com
+HOST-SUFFIX,sonatype.org
+HOST-SUFFIX,sourcegraph.com
+HOST-SUFFIX,spring.io
+HOST-SUFFIX,spring.net
+HOST-SUFFIX,stackoverflow.com

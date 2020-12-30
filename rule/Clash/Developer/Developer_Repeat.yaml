@@ -1,0 +1,39 @@
+# NAME: Developer 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-30 10:04:52
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+payload:
+# Developer 与 BlackList 共 8 条规则重复
+  - DOMAIN-SUFFIX,apache.org
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,gcr.io
+  - DOMAIN-SUFFIX,maven.org
+  - DOMAIN-SUFFIX,medium.com
+  - DOMAIN-SUFFIX,pythonhosted.org
+  - DOMAIN-SUFFIX,reddit.com
+  - DOMAIN-SUFFIX,stackoverflow.com
+# Developer 与 Global 共 2 条规则重复
+  - DOMAIN-SUFFIX,medium.com
+  - DOMAIN-SUFFIX,reddit.com
+# Developer 与 Proxy 共 20 条规则重复
+  - DOMAIN-SUFFIX,apache.org
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,elastic.co
+  - DOMAIN-SUFFIX,elastic.com
+  - DOMAIN-SUFFIX,gcr.io
+  - DOMAIN-SUFFIX,gitlab.com
+  - DOMAIN-SUFFIX,gitlab.io
+  - DOMAIN-SUFFIX,jitpack.io
+  - DOMAIN-SUFFIX,maven.org
+  - DOMAIN-SUFFIX,medium.com
+  - DOMAIN-SUFFIX,mvnrepository.com
+  - DOMAIN-SUFFIX,pythonhosted.org
+  - DOMAIN-SUFFIX,quay.io
+  - DOMAIN-SUFFIX,reddit.com
+  - DOMAIN-SUFFIX,redhat.com
+  - DOMAIN-SUFFIX,sonatype.org
+  - DOMAIN-SUFFIX,sourcegraph.com
+  - DOMAIN-SUFFIX,spring.io
+  - DOMAIN-SUFFIX,spring.net
+  - DOMAIN-SUFFIX,stackoverflow.com

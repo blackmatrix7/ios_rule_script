@@ -1,0 +1,55 @@
+# NAME: YouTube 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-30 10:04:51
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+# YouTube 与 Advertising 共 1 条规则重复
+HOST-SUFFIX,app-measurement.com
+# YouTube 与 AdvertisingTest 共 2 条规则重复
+HOST-SUFFIX,app-measurement.com
+HOST-SUFFIX,gvt2.com
+# YouTube 与 AdvertisingLite 共 1 条规则重复
+HOST-SUFFIX,app-measurement.com
+# YouTube 与 BlackList 共 3 条规则重复
+HOST-SUFFIX,app-measurement.com
+HOST-SUFFIX,youtu.be
+HOST-SUFFIX,ytimg.com
+# YouTube 与 ChinaTest 共 1 条规则重复
+HOST-SUFFIX,app-measurement.com
+# YouTube 与 Google 共 3 条规则重复
+HOST-SUFFIX,app-measurement.com
+HOST-SUFFIX,youtu.be
+HOST-SUFFIX,ytimg.com
+# YouTube 与 Global 共 8 条规则重复
+HOST-SUFFIX,googlevideo.com
+HOST-SUFFIX,youtu.be
+HOST-SUFFIX,youtube.com
+HOST-SUFFIX,ytimg.com
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,com.google.ios.youtubemusic*
+USER-AGENT,youtube*
+USER-AGENT,youtubemusic*
+# YouTube 与 GlobalMedia 共 12 条规则重复
+HOST-KEYWORD,youtube
+HOST-SUFFIX,app-measurement.com
+HOST-SUFFIX,googlevideo.com
+HOST-SUFFIX,gvt2.com
+HOST-SUFFIX,youtu.be
+HOST-SUFFIX,youtube.com
+HOST-SUFFIX,ytimg.com
+USER-AGENT,*youtube*
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,com.google.ios.youtubemusic*
+USER-AGENT,youtube*
+USER-AGENT,youtubemusic*
+# YouTube 与 Proxy 共 7 条规则重复
+HOST-KEYWORD,youtube
+HOST-SUFFIX,app-measurement.com
+HOST-SUFFIX,googlevideo.com
+HOST-SUFFIX,gvt2.com
+HOST-SUFFIX,youtu.be
+HOST-SUFFIX,youtube.com
+HOST-SUFFIX,ytimg.com
+# YouTube 与 YouTubeMusic 共 2 条规则重复
+USER-AGENT,com.google.ios.youtubemusic*
+USER-AGENT,youtubemusic*

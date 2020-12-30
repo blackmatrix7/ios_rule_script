@@ -1,0 +1,27 @@
+# NAME: Download
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-30 10:04:50
+# PROCESS-NAME: 12
+# DOMAIN-KEYWORD: 5
+# DOMAIN-SUFFIX: 1
+# TOTAL: 18
+payload:
+  - DOMAIN-SUFFIX,smtp
+  - DOMAIN-KEYWORD,aria2
+  - DOMAIN-KEYWORD,thunder
+  - DOMAIN-KEYWORD,xlliveud
+  - DOMAIN-KEYWORD,xunlei
+  - DOMAIN-KEYWORD,yunpan
+  - PROCESS-NAME,aria2c
+  - PROCESS-NAME,baidunetdisk
+  - PROCESS-NAME,downloadservice
+  - PROCESS-NAME,fdm
+  - PROCESS-NAME,folx
+  - PROCESS-NAME,nettransport
+  - PROCESS-NAME,thunder
+  - PROCESS-NAME,transmission
+  - PROCESS-NAME,utorrent
+  - PROCESS-NAME,webtorrent
+  - PROCESS-NAME,webtorrenthelper
+  - PROCESS-NAME,weiyun

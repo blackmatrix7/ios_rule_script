@@ -1,0 +1,29 @@
+# NAME: Niconico 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2020-12-30 10:04:51
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+# Niconico 与 Advertising 共 1 条规则重复
+DOMAIN-SUFFIX,socdm.com
+# Niconico 与 AdvertisingTest 共 1 条规则重复
+DOMAIN-SUFFIX,socdm.com
+# Niconico 与 AdvertisingLite 共 1 条规则重复
+DOMAIN-SUFFIX,socdm.com
+# Niconico 与 BlackList 共 2 条规则重复
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,nimg.jp
+# Niconico 与 Global 共 5 条规则重复
+DOMAIN-SUFFIX,dmc.nico
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,nimg.jp
+DOMAIN-SUFFIX,socdm.com
+USER-AGENT,niconico*
+# Niconico 与 GlobalMedia 共 5 条规则重复
+DOMAIN-SUFFIX,dmc.nico
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,nimg.jp
+DOMAIN-SUFFIX,socdm.com
+USER-AGENT,niconico*
+# Niconico 与 Proxy 共 2 条规则重复
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,nimg.jp

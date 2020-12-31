@@ -9,7 +9,7 @@
 **含有我自己所有签到脚本的GetCookie复写。**
 
 
-最后检查时间：2020-12-31 23:49:25。
+最后检查时间：2021-01-01 03:52:02。
 
 ## 复写统计
 
@@ -38,7 +38,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/S
 
 ## 数据来源
 
-本项目的获取签到脚本Cookie复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，请先删除后再使用本项目的获取签到脚本Cookie复写规则，以免造成规则重复。
+本项目的获取签到脚本Cookie复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，建议不要与本项目的获取签到脚本Cookie复写规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.lnscript

@@ -9,7 +9,7 @@
 **不含有Youtube分流规则**
 
 
-最后检查时间：2020-12-31 23:49:08。
+最后检查时间：2021-01-01 03:51:38。
 
 ## 规则统计
 
@@ -45,9 +45,9 @@ Google分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 55467   | [13](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   0.02% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 73146   | [18](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   0.02% |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 22305   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   0.04% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 55418   | [13](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   0.02% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 73109   | [18](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   0.02% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 22351   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   0.04% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 771   | [39](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   5.06% |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72644   | [41](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   0.06% |
 |  [GoogleDriver](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GoogleDriver)    | 7   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   100.0% |
@@ -55,7 +55,7 @@ Google分流规则，与本项目其他分流规则重复情况统计。
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 859   | [55](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   6.4% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 283   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   1.41% |
 |  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark)    | 5   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   20.0% |
-|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy)    | 2809   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   0.11% |
+|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy)    | 2808   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   0.11% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 6142   | [55](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google_Repeat.list)   |   0.9% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。

@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-31 23:49:06
+# UPDATED: 2021-01-01 03:51:36
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # AdvertisingLite 与 Adobe 共 4 条规则重复
@@ -9,7 +9,7 @@ payload:
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,newrelic.com
   - DOMAIN-SUFFIX,omtrdc.net
-# AdvertisingLite 与 Advertising 共 15815 条规则重复
+# AdvertisingLite 与 Advertising 共 15830 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0koryu0.easter.ne.jp
   - DOMAIN,0nso0tq1sa4.ml
@@ -20,6 +20,7 @@ payload:
   - DOMAIN,1543b1db8a0825760.com
   - DOMAIN,15yomodels.com
   - DOMAIN,16e2ae8f200d975b.com
+  - DOMAIN,1e122c580cf.com
   - DOMAIN,1loop.com
   - DOMAIN,2.up.qingdaonews.com
   - DOMAIN,21b507a044d841b.com
@@ -47,11 +48,13 @@ payload:
   - DOMAIN,91mobiles.com
   - DOMAIN,97b1c56132dfcdd90f93-0c5c8388c0a5897e648f883e2c86dc72.r54.cf5.rackcdn.com
   - DOMAIN,97ff623306ff4c26996.com
+  - DOMAIN,999fitness.com
   - DOMAIN,99a9339abed56.com
   - DOMAIN,a.update.51edm.net
   - DOMAIN,a2af4f04914ed298.com
   - DOMAIN,abcdespanol.com
   - DOMAIN,accede.site
+  - DOMAIN,achren.org
   - DOMAIN,activity.windows.com
   - DOMAIN,acwyoynw.com
   - DOMAIN,ad.10010.com
@@ -95,7 +98,9 @@ payload:
   - DOMAIN,adxmarket.com
   - DOMAIN,afa15.com.ne.kr
   - DOMAIN,affairexcuses.com
+  - DOMAIN,affiliates-pro.com
   - DOMAIN,agsteier.com
+  - DOMAIN,ailanibah.com
   - DOMAIN,ajewishgift.com
   - DOMAIN,ajkrls.com
   - DOMAIN,akcdinzvcenhjh.com
@@ -155,10 +160,12 @@ payload:
   - DOMAIN,bannersnack.net
   - DOMAIN,bavftcgoapga.com
   - DOMAIN,bde.be
+  - DOMAIN,be-funk.com
   - DOMAIN,beacon2.indieclicktv.com
   - DOMAIN,beap.gemini.yahoo.com
   - DOMAIN,beespace.com.ua
   - DOMAIN,beholder.xyz
+  - DOMAIN,beineiros.xyz
   - DOMAIN,beldiplomcom.75.com1.ru
   - DOMAIN,best100catfights.com
   - DOMAIN,bestcontentpc.top
@@ -167,7 +174,6 @@ payload:
   - DOMAIN,bijscode.com
   - DOMAIN,binchoise.ml
   - DOMAIN,bizzibeans.net
-  - DOMAIN,bjjingda.com
   - DOMAIN,blacknite.eu
   - DOMAIN,blinko.es
   - DOMAIN,blocks.ginotrack.com
@@ -181,6 +187,7 @@ payload:
   - DOMAIN,btovopyov.com
   - DOMAIN,buffalogoesout.com
   - DOMAIN,buildviet.info
+  - DOMAIN,bulkhentai.com
   - DOMAIN,business-cdn.shouji.sogou.com
   - DOMAIN,buzina.xyz
   - DOMAIN,by98.com
@@ -189,6 +196,7 @@ payload:
   - DOMAIN,calcch.com
   - DOMAIN,callingcardsinstantly.com
   - DOMAIN,calltrk.com
+  - DOMAIN,campromos.nl
   - DOMAIN,cannabislyric.com
   - DOMAIN,cartoontube.com
   - DOMAIN,casterist.info
@@ -205,10 +213,12 @@ payload:
   - DOMAIN,circularhub.com
   - DOMAIN,citymediamagazin.hu
   - DOMAIN,classicspeedway.com
+  - DOMAIN,clente.com
   - DOMAIN,cleverusenet.club
   - DOMAIN,clickz.lonelycheatingwives.com
   - DOMAIN,clkcln.com
   - DOMAIN,clkfeed.com
+  - DOMAIN,clkmon.com
   - DOMAIN,clkpback3.com
   - DOMAIN,cloudsrvtrk.com
   - DOMAIN,cm.lianmeng.360.cn
@@ -252,6 +262,7 @@ payload:
   - DOMAIN,daralasnan.com
   - DOMAIN,date-for-more.com
   - DOMAIN,datefree.com
+  - DOMAIN,datoporn.com
   - DOMAIN,daurifek.net
   - DOMAIN,dawnframing.com
   - DOMAIN,ddd.gouwuke.cn
@@ -316,6 +327,7 @@ payload:
   - DOMAIN,f.gj555.net
   - DOMAIN,f11.baidu.com
   - DOMAIN,f12.baidu.com
+  - DOMAIN,fabolele.com
   - DOMAIN,fadeatrighlet.com
   - DOMAIN,falconsafe.com.sg
   - DOMAIN,fapping.club
@@ -334,12 +346,14 @@ payload:
   - DOMAIN,fondazioneciampi.org
   - DOMAIN,fonderredd.info
   - DOMAIN,formessengers.com
+  - DOMAIN,fotw.xyz
   - DOMAIN,fourthgate.org
   - DOMAIN,free-crochet-pattern.com
   - DOMAIN,freefblikes.phpnet.us
   - DOMAIN,freeonescams.com
   - DOMAIN,freeserials.spb.ru
   - DOMAIN,freeserials.ws
+  - DOMAIN,freestats.me
   - DOMAIN,freetracker.biz
   - DOMAIN,frtya.com
   - DOMAIN,frtyb.com
@@ -505,6 +519,7 @@ payload:
   - DOMAIN,mirandolasrl.it
   - DOMAIN,mktmobi.com
   - DOMAIN,mmg.aty.sohu.com
+  - DOMAIN,mmile.com
   - DOMAIN,mordi.fun
   - DOMAIN,mowithlerendu.pro
   - DOMAIN,mp3vicio.com
@@ -15825,7 +15840,7 @@ payload:
   - IP-CIDR,69.28.57.245/32
   - IP-CIDR,74.117.182.77/32
   - IP-CIDR,78.140.131.214/32
-# AdvertisingLite 与 AdvertisingTest 共 15535 条规则重复
+# AdvertisingLite 与 AdvertisingTest 共 15544 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0koryu0.easter.ne.jp
   - DOMAIN,0nso0tq1sa4.ml
@@ -15836,6 +15851,7 @@ payload:
   - DOMAIN,1543b1db8a0825760.com
   - DOMAIN,15yomodels.com
   - DOMAIN,16e2ae8f200d975b.com
+  - DOMAIN,1e122c580cf.com
   - DOMAIN,1loop.com
   - DOMAIN,2.up.qingdaonews.com
   - DOMAIN,21b507a044d841b.com
@@ -15861,11 +15877,13 @@ payload:
   - DOMAIN,86240336d5604d7.com
   - DOMAIN,97b1c56132dfcdd90f93-0c5c8388c0a5897e648f883e2c86dc72.r54.cf5.rackcdn.com
   - DOMAIN,97ff623306ff4c26996.com
+  - DOMAIN,999fitness.com
   - DOMAIN,99a9339abed56.com
   - DOMAIN,a.update.51edm.net
   - DOMAIN,a2af4f04914ed298.com
   - DOMAIN,abcdespanol.com
   - DOMAIN,accede.site
+  - DOMAIN,achren.org
   - DOMAIN,activity.windows.com
   - DOMAIN,acwyoynw.com
   - DOMAIN,ad.21cn.com
@@ -15901,6 +15919,7 @@ payload:
   - DOMAIN,adxmarket.com
   - DOMAIN,afa15.com.ne.kr
   - DOMAIN,agsteier.com
+  - DOMAIN,ailanibah.com
   - DOMAIN,ajewishgift.com
   - DOMAIN,akcdinzvcenhjh.com
   - DOMAIN,akirkpatrick.com
@@ -15942,9 +15961,11 @@ payload:
   - DOMAIN,bannersnack.net
   - DOMAIN,bavftcgoapga.com
   - DOMAIN,bde.be
+  - DOMAIN,be-funk.com
   - DOMAIN,beacon2.indieclicktv.com
   - DOMAIN,beespace.com.ua
   - DOMAIN,beholder.xyz
+  - DOMAIN,beineiros.xyz
   - DOMAIN,beldiplomcom.75.com1.ru
   - DOMAIN,best100catfights.com
   - DOMAIN,bestcontentpc.top
@@ -15952,7 +15973,6 @@ payload:
   - DOMAIN,bijscode.com
   - DOMAIN,binchoise.ml
   - DOMAIN,bizzibeans.net
-  - DOMAIN,bjjingda.com
   - DOMAIN,blacknite.eu
   - DOMAIN,blinko.es
   - DOMAIN,blocks.ginotrack.com
@@ -15965,12 +15985,14 @@ payload:
   - DOMAIN,btovopyov.com
   - DOMAIN,buffalogoesout.com
   - DOMAIN,buildviet.info
+  - DOMAIN,bulkhentai.com
   - DOMAIN,business-cdn.shouji.sogou.com
   - DOMAIN,buzina.xyz
   - DOMAIN,by98.com
   - DOMAIN,c75b9ac5103e5d125b8.com
   - DOMAIN,callingcardsinstantly.com
   - DOMAIN,calltrk.com
+  - DOMAIN,campromos.nl
   - DOMAIN,cannabislyric.com
   - DOMAIN,cartoontube.com
   - DOMAIN,cdncache2-a.akamaihd.net
@@ -15984,6 +16006,7 @@ payload:
   - DOMAIN,circularhub.com
   - DOMAIN,citymediamagazin.hu
   - DOMAIN,classicspeedway.com
+  - DOMAIN,clente.com
   - DOMAIN,cleverusenet.club
   - DOMAIN,clickz.lonelycheatingwives.com
   - DOMAIN,cm.lianmeng.360.cn
@@ -16225,6 +16248,7 @@ payload:
   - DOMAIN,ministerio-publi.info
   - DOMAIN,mirandolasrl.it
   - DOMAIN,mmg.aty.sohu.com
+  - DOMAIN,mmile.com
   - DOMAIN,mowithlerendu.pro
   - DOMAIN,mp3vicio.com
   - DOMAIN,ms11.net

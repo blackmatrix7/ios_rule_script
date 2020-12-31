@@ -1,0 +1,11 @@
+# 美团外卖更新检查
+^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? url reject
+^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate? url reject
+# Fa米家更新检查
+^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/biz\/base\/appversion\/latest url reject
+# 联享家更新检查
+^https?:\/\/sso\.lxjapp\.com\/\/chims\/servlet\/csGetLatestSoftwareVersionServlet url reject-dict
+# 嘀嗒出行更新检查
+^https?:\/\/capis(-?\w*)?\.didapinche\.com\/publish\/api\/upgrade url reject-dict
+
+hostname = www.meituan.com,apimobile.meituan.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,capis*.didapinche.com

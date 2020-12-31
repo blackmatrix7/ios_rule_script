@@ -1,12 +1,13 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-31 03:52:16
+# UPDATED: 2020-12-31 23:49:03
 # HOST-SUFFIX: 20
 # IP-CIDR: 10
 # HOST: 1
 # USER-AGENT: 1
-# TOTAL: 32
+# HOST-KEYWORD: 2
+# TOTAL: 34
 HOST,api.smoot.apple.cn,Apple
 HOST-SUFFIX,aaplimg.com,Apple
 HOST-SUFFIX,akadns.net,Apple
@@ -28,6 +29,8 @@ HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,mzstatic.com,Apple
 HOST-SUFFIX,store.apple.com.edgekey.net,Apple
 HOST-SUFFIX,www.apple.com.edgekey.net,Apple
+HOST-KEYWORD,apple.com.akadns.net,Apple
+HOST-KEYWORD,icloud.com.akadns.net,Apple
 USER-AGENT,com.apple.appstored*,Apple
 IP-CIDR,139.178.128.0/18,Apple
 IP-CIDR,144.178.0.0/19,Apple

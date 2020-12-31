@@ -1,17 +1,17 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-31 03:52:18
+# UPDATED: 2020-12-31 23:49:05
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-SUFFIX: 687
 # DOMAIN-KEYWORD: 18
-# IP-CIDR: 27
+# IP-CIDR: 66
 # IP-CIDR6: 3
 # USER-AGENT: 38
 # DOMAIN: 45
 # PROCESS-NAME: 1
 # URL-REGEX: 1
-# TOTAL: 820
+# TOTAL: 859
 DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
 DOMAIN,abematv.akamaized.net
@@ -762,33 +762,72 @@ DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,voddazn
 DOMAIN-KEYWORD,wikileaks
+IP-CIDR,103.102.166.0/24,no-resolve
 IP-CIDR,103.2.30.0/23,no-resolve
+IP-CIDR,103.4.96.0/22,no-resolve
+IP-CIDR,104.244.40.0/21,no-resolve
 IP-CIDR,108.175.32.0/20,no-resolve
+IP-CIDR,108.177.8.0/21,no-resolve
 IP-CIDR,125.209.208.0/20,no-resolve
+IP-CIDR,129.134.0.0/17,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,157.240.0.0/17,no-resolve
 IP-CIDR,169.45.248.118/32,no-resolve
+IP-CIDR,172.217.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,173.252.64.0/18,no-resolve
+IP-CIDR,179.60.192.0/22,no-resolve
+IP-CIDR,185.15.56.0/22,no-resolve
+IP-CIDR,185.60.216.0/22,no-resolve
+IP-CIDR,192.133.76.0/22,no-resolve
 IP-CIDR,192.173.64.0/18,no-resolve
+IP-CIDR,198.35.26.0/23,no-resolve
 IP-CIDR,198.38.96.0/19,no-resolve
 IP-CIDR,198.45.48.0/20,no-resolve
+IP-CIDR,199.16.156.0/22,no-resolve
+IP-CIDR,199.59.148.0/22,no-resolve
+IP-CIDR,199.96.56.0/21,no-resolve
+IP-CIDR,202.160.128.0/22,no-resolve
 IP-CIDR,203.104.144.0/21,no-resolve
+IP-CIDR,204.15.20.0/22,no-resolve
+IP-CIDR,208.80.152.0/22,no-resolve
+IP-CIDR,209.237.192.0/19,no-resolve
+IP-CIDR,209.85.128.0/17,no-resolve
+IP-CIDR,216.239.32.0/19,no-resolve
+IP-CIDR,216.58.192.0/19,no-resolve
 IP-CIDR,23.246.0.0/18,no-resolve
 IP-CIDR,3.123.36.126/32,no-resolve
+IP-CIDR,31.13.24.0/21,no-resolve
+IP-CIDR,31.13.64.0/18,no-resolve
 IP-CIDR,35.157.215.84/32,no-resolve
 IP-CIDR,35.157.217.255/32,no-resolve
+IP-CIDR,35.190.247.0/24,no-resolve
 IP-CIDR,37.77.184.0/21,no-resolve
 IP-CIDR,45.57.0.0/17,no-resolve
+IP-CIDR,45.64.40.0/22,no-resolve
 IP-CIDR,52.58.209.134/32,no-resolve
 IP-CIDR,54.162.243.80/32,no-resolve
 IP-CIDR,54.173.34.141/32,no-resolve
 IP-CIDR,54.235.23.242/32,no-resolve
 IP-CIDR,54.93.124.31/32,no-resolve
 IP-CIDR,64.120.128.0/17,no-resolve
+IP-CIDR,64.233.160.0/19,no-resolve
+IP-CIDR,66.102.0.0/20,no-resolve
 IP-CIDR,66.197.128.0/17,no-resolve
+IP-CIDR,66.220.144.0/20,no-resolve
+IP-CIDR,66.249.80.0/20,no-resolve
+IP-CIDR,69.171.224.0/19,no-resolve
+IP-CIDR,69.195.160.0/19,no-resolve
+IP-CIDR,69.63.176.0/20,no-resolve
+IP-CIDR,72.14.192.0/18,no-resolve
+IP-CIDR,74.119.76.0/22,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,91.108.16.0/21,no-resolve
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.56.0/22,no-resolve
 IP-CIDR,91.108.8.0/21,no-resolve
+IP-CIDR,91.198.174.0/24,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve

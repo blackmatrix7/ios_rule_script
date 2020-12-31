@@ -8,17 +8,17 @@
 
 
 
-最后检查时间：2020-12-31 03:52:22。
+最后检查时间：2020-12-31 23:49:09。
 
 ## 规则统计
 
-总计规则：7 条。
+总计规则：9 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 4 |
+| HOST | 6 |
 | USER-AGENT | 2 |
 | HOST-SUFFIX | 1 |
 ## 配置说明
@@ -54,6 +54,7 @@ AppleNews分流规则，与本项目其他分流规则重复情况统计。
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleNews.list
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/AppleNews.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/News.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/AppleNews.list
 
 

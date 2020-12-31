@@ -1,8 +1,11 @@
 # NAME: Game 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-31 03:52:18
+# UPDATED: 2020-12-31 23:49:06
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+# Game 与 BlackList 共 2 条规则重复
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,riotgames.com
 # Game 与 Blizzard 共 6 条规则重复
 DOMAIN,blizzard.nefficient.co.kr
 DOMAIN,blzddist1-a.akamaihd.net
@@ -58,6 +61,35 @@ DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamusercontent.com
+# Game 与 Supercell 共 24 条规则重复
+DOMAIN-SUFFIX,brawlstars.com
+DOMAIN-SUFFIX,brawlstarsgame.com
+IP-CIDR,13.210.25.233/32
+IP-CIDR,13.212.170.102/32
+IP-CIDR,13.212.171.212/32
+IP-CIDR,15.161.130.86/32
+IP-CIDR,15.254.1.17/32
+IP-CIDR,162.62.33.45/32
+IP-CIDR,162.62.33.70/32
+IP-CIDR,162.62.34.10/32
+IP-CIDR,18.141.176.65/32
+IP-CIDR,18.156.137.147/32
+IP-CIDR,18.231.148.103/32
+IP-CIDR,3.1.80.68/32
+IP-CIDR,3.25.190.152/32
+IP-CIDR,3.82.147.36/32
+IP-CIDR,34.220.160.16/32
+IP-CIDR,35.154.64.7/32
+IP-CIDR,35.72.32.125/32
+IP-CIDR,52.13.150.128/32
+IP-CIDR,52.13.42.120/32
+IP-CIDR,52.50.131.212/32
+IP-CIDR,54.207.168.84/32
+IP-CIDR,54.248.64.192/32
+# Game 与 WildRift 共 3 条规则重复
+DOMAIN-SUFFIX,pvp.net
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,riotgames.com
 # Game 与 SteamCN 共 5 条规则重复
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamgames.com
@@ -71,7 +103,7 @@ DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 DOMAIN-SUFFIX,steamcommunity.com
-# Game 与 Proxy 共 12 条规则重复
+# Game 与 Proxy 共 14 条规则重复
 DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.gg
@@ -80,6 +112,8 @@ DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,humblebundle.com
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,riotgames.com
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steampowered.com

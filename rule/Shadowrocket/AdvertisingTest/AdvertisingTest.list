@@ -1,14 +1,14 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-31 03:52:17
+# UPDATED: 2020-12-31 23:49:05
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN-SUFFIX: 63552
-# DOMAIN: 4795
-# DOMAIN-KEYWORD: 54
-# IP-CIDR: 237
+# DOMAIN-SUFFIX: 63561
+# DOMAIN: 8981
+# DOMAIN-KEYWORD: 57
+# IP-CIDR: 240
 # URL-REGEX: 307
-# TOTAL: 68945
+# TOTAL: 73146
 DOMAIN-KEYWORD,adashx
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -43,6 +43,9 @@ DOMAIN-KEYWORD,googleads
 DOMAIN-KEYWORD,guanggao
 DOMAIN-KEYWORD,inmobi
 DOMAIN-KEYWORD,lianmeng
+DOMAIN-KEYWORD,log.umeng.com
+DOMAIN-KEYWORD,logs.umeng.com
+DOMAIN-KEYWORD,logs.umengcloud.com
 DOMAIN-KEYWORD,mobaders
 DOMAIN-KEYWORD,monitor
 DOMAIN-KEYWORD,omgmta
@@ -106,6 +109,7 @@ IP-CIDR,112.29.211.120/32,no-resolve
 IP-CIDR,112.74.95.46/32,no-resolve
 IP-CIDR,113.207.57.24/32,no-resolve
 IP-CIDR,113.57.230.88/32,no-resolve
+IP-CIDR,114.119.160.0/21,no-resolve
 IP-CIDR,114.247.28.96/32,no-resolve
 IP-CIDR,114.55.123.44/32,no-resolve
 IP-CIDR,114.95.102.77/32,no-resolve
@@ -132,6 +136,7 @@ IP-CIDR,120.132.57.41/32,no-resolve
 IP-CIDR,120.132.63.203/32,no-resolve
 IP-CIDR,120.197.89.239/32,no-resolve
 IP-CIDR,120.198.116.0/24,no-resolve
+IP-CIDR,120.240.95.37/32,no-resolve
 IP-CIDR,120.26.151.246/32,no-resolve
 IP-CIDR,120.27.34.156/32,no-resolve
 IP-CIDR,120.55.199.139/32,no-resolve
@@ -220,6 +225,7 @@ IP-CIDR,211.137.132.89/32,no-resolve
 IP-CIDR,211.139.178.49/32,no-resolve
 IP-CIDR,211.149.225.23/32,no-resolve
 IP-CIDR,211.161.101.106/32,no-resolve
+IP-CIDR,211.161.101.110/32,no-resolve
 IP-CIDR,211.167.105.131/32,no-resolve
 IP-CIDR,211.98.71.192/29,no-resolve
 IP-CIDR,212.64.34.17/32,no-resolve

@@ -1,7 +1,7 @@
 # NAME: Google 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-31 03:52:20
+# UPDATED: 2020-12-31 23:49:07
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Google 与 Advertising 共 13 条规则重复
 DOMAIN-SUFFIX,2mdn.net
@@ -128,6 +128,14 @@ DOMAIN-SUFFIX,tools.l.google.com
 DOMAIN-SUFFIX,translate.googleapis.com
 DOMAIN-SUFFIX,update.googleapis.com
 DOMAIN-SUFFIX,www-googletagmanager.l.google.com
+# Google 与 GoogleDriver 共 7 条规则重复
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googleusercontent.com
+USER-AGENT,%e4%ba%91%e7%ab%af%e7%a1%ac%e7%9b%98*
+USER-AGENT,*com.google.drive*
+USER-AGENT,google.drive*
 # Google 与 YouTube 共 3 条规则重复
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,youtu.be

@@ -1,11 +1,17 @@
 # NAME: Privacy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-31 03:52:18
+# UPDATED: 2020-12-31 23:49:06
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
-# Privacy 与 Advertising 共 2619 条规则重复
+# Privacy 与 Advertising 共 2626 条规则重复
+DOMAIN,log-hl-ipv6.snssdk.com
+DOMAIN,log-lq.snssdk.com
+DOMAIN,log-va.tiktokv.com
 DOMAIN,log.byteoversea.com
 DOMAIN,log.tiktokv.com
+DOMAIN-KEYWORD,log.umeng.com
+DOMAIN-KEYWORD,logs.umeng.com
+DOMAIN-KEYWORD,logs.umengcloud.com
 DOMAIN-SUFFIX,0sbm.consobaby.co.uk
 DOMAIN-SUFFIX,0x1f4b0.com
 DOMAIN-SUFFIX,1l-hit.mail.ru
@@ -941,6 +947,7 @@ DOMAIN-SUFFIX,g4952108375.co
 DOMAIN-SUFFIX,g5150192710.co
 DOMAIN-SUFFIX,g5348277045.co
 DOMAIN-SUFFIX,g5546361380.co
+DOMAIN-SUFFIX,g5744445715.co
 DOMAIN-SUFFIX,ga-beacon.appspot.com
 DOMAIN-SUFFIX,ga.canoe.ca
 DOMAIN-SUFFIX,ga.kvideo.io
@@ -2623,9 +2630,15 @@ DOMAIN-SUFFIX,zs.dhl.de
 DOMAIN-SUFFIX,zsi7.destinia.do
 DOMAIN-SUFFIX,zyq2.destinia.sk
 DOMAIN-SUFFIX,zz.bdstatic.com
-# Privacy 与 AdvertisingTest 共 2557 条规则重复
+# Privacy 与 AdvertisingTest 共 2563 条规则重复
+DOMAIN,log-hl-ipv6.snssdk.com
+DOMAIN,log-lq.snssdk.com
+DOMAIN,log-va.tiktokv.com
 DOMAIN,log.byteoversea.com
 DOMAIN,log.tiktokv.com
+DOMAIN-KEYWORD,log.umeng.com
+DOMAIN-KEYWORD,logs.umeng.com
+DOMAIN-KEYWORD,logs.umengcloud.com
 DOMAIN-SUFFIX,0sbm.consobaby.co.uk
 DOMAIN-SUFFIX,0x1f4b0.com
 DOMAIN-SUFFIX,1l-hit.mail.ru

@@ -8,17 +8,18 @@
 
 
 
-最后检查时间：2020-12-31 03:52:24。
+最后检查时间：2020-12-31 23:49:11。
 
 ## 规则统计
 
-总计规则：8 条。
+总计规则：12 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-SUFFIX | 8 |
+| DOMAIN | 4 |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -45,6 +46,8 @@ iOS系统升级分流规则，与本项目其他分流规则没有重复。
 
 本项目的iOS系统升级分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的iOS系统升级分流规则混合使用，以免造成规则重复。
 
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/BlockiOSUpdate.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/SoftwareUpdate.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/SystemOTA/SystemOTA.list
 
 

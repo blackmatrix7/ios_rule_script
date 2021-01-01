@@ -9,7 +9,7 @@
 **通过复写屏蔽部分APP的更新检查，已包含在Advertising中，不要重复添加。**
 
 
-最后检查时间：2021-01-01 03:52:02。
+最后检查时间：2021-01-02 03:51:08。
 
 ## 复写统计
 
@@ -37,7 +37,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Q
 
 ## 数据来源
 
-本项目的更新检查复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，建议不要与本项目的更新检查复写规则混合使用，以免造成规则重复。
+本项目的更新检查复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，请先删除后再使用本项目的更新检查复写规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Upgrade/Upgrade.qxrewrite
 

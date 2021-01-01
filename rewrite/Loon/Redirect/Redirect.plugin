@@ -1,14 +1,14 @@
 # NAME: 重定向
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-01 03:52:02
-# REWRITE: 53
+# UPDATED: 2021-01-02 03:51:08
+# REWRITE: 51
 # SCRIPT: 0
-# MITM: 56
+# MITM: 53
 
 [URL Rewrite]
+^http:\/\/t\.cn https://sinaurl.cn 302
 ^http:\/\/www\.google\.cn https://www.google.com 302
-^https?:\/\/(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
 ^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)\/ https://macitbetter.com/ 302
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
@@ -57,10 +57,8 @@
 ^https?:\/\/cn\.ultraiso\.net\/ https://cn.ezbsystems.com/ultraiso/ 302
 ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302
 ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
-^https?:\/\/t\.cn https://sinaurl.cn 302
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
-^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)?(?=/) https://www.wikiwand.com/zh$2 302
 
 
 [MITM]
-hostname = *.wikipedia.org,*.wikiwand.com,abbyychina.com,api.abema.io,bartender.cc,beyondcompare.cc,bingdianhuanyuan.cn,chemdraw.com.cn,cn.ultraiso.net,codesoftchina.com,coreldrawchina.com,crossoverchina.com,dongmansoft.com,earmasterchina.cn,easyrecoverychina.com,ediuschina.com,flstudiochina.com,formysql.com,g.cn,google.cn,guitarpro.cc,huishenghuiying.com.cn,hypersnap.mairuan.com,iconworkshop.cn,idmchina.net,ign.xn--fiqs8s,imindmap.cc,jd.com,jihehuaban.com.cn,kingdeecn.cn,logoshejishi.com,logoshejishi.mairuan.com,luping.net.cn,mathtype.cn,mi.com,mindmanager.cc,mindmanager.cn,mycleanmymac.com,nicelabel.cc,ntfsformac.cc,overturechina.com,passwordrecovery.cn,pdfexpert.cc,photozoomchina.com,shankejingling.com,suning.com,t.cn,taobao.com,vegaschina.cn,wikipedia.org,www.google.cn,xitongqingli.com,xshellcn.com,you.163.com,yuanchengxiezuo.com,zbrushcn.com
+hostname = abbyychina.com,api.abema.io,bartender.cc,beyondcompare.cc,bingdianhuanyuan.cn,chemdraw.com.cn,cn.ultraiso.net,codesoftchina.com,coreldrawchina.com,crossoverchina.com,dongmansoft.com,earmasterchina.cn,easyrecoverychina.com,ediuschina.com,flstudiochina.com,formysql.com,g.cn,google.cn,guitarpro.cc,huishenghuiying.com.cn,hypersnap.mairuan.com,iconworkshop.cn,idmchina.net,ign.xn--fiqs8s,imindmap.cc,jd.com,jihehuaban.com.cn,kingdeecn.cn,logoshejishi.com,logoshejishi.mairuan.com,luping.net.cn,mathtype.cn,mi.com,mindmanager.cc,mindmanager.cn,mycleanmymac.com,nicelabel.cc,ntfsformac.cc,overturechina.com,passwordrecovery.cn,pdfexpert.cc,photozoomchina.com,shankejingling.com,suning.com,t.cn,taobao.com,vegaschina.cn,www.google.cn,xitongqingli.com,xshellcn.com,you.163.com,yuanchengxiezuo.com,zbrushcn.com

@@ -1,10 +1,10 @@
 # NAME: Privacy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-01 03:51:36
+# UPDATED: 2021-01-02 03:50:47
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
-# Privacy 与 Advertising 共 2625 条规则重复
+# Privacy 与 Advertising 共 2627 条规则重复
   - DOMAIN,log-hl-ipv6.snssdk.com
   - DOMAIN,log-lq.snssdk.com
   - DOMAIN,log-va.tiktokv.com
@@ -1110,6 +1110,7 @@ payload:
   - DOMAIN-SUFFIX,javascriptcounter.appspot.com
   - DOMAIN-SUFFIX,jelly.mdhv.io
   - DOMAIN-SUFFIX,jppolid-track.trackprod.integration.jppol.dk
+  - DOMAIN-SUFFIX,k.kolplay.com
   - DOMAIN-SUFFIX,k.rueducommerce.fr
   - DOMAIN-SUFFIX,k.streamrail.com
   - DOMAIN-SUFFIX,k9v7.dotabuff.com
@@ -2351,6 +2352,7 @@ payload:
   - DOMAIN-SUFFIX,tracking.g2crowd.com
   - DOMAIN-SUFFIX,tracking.gameforge.de
   - DOMAIN-SUFFIX,tracking.godatafeed.com
+  - DOMAIN-SUFFIX,tracking.gpm-rtv.ru
   - DOMAIN-SUFFIX,tracking.gruppo.mps.it
   - DOMAIN-SUFFIX,tracking.ha.rueducommerce.fr
   - DOMAIN-SUFFIX,tracking.hannoversche.de
@@ -2630,7 +2632,7 @@ payload:
   - DOMAIN-SUFFIX,zsi7.destinia.do
   - DOMAIN-SUFFIX,zyq2.destinia.sk
   - DOMAIN-SUFFIX,zz.bdstatic.com
-# Privacy 与 AdvertisingTest 共 2562 条规则重复
+# Privacy 与 AdvertisingTest 共 2564 条规则重复
   - DOMAIN,log-hl-ipv6.snssdk.com
   - DOMAIN,log-lq.snssdk.com
   - DOMAIN,log-va.tiktokv.com
@@ -3707,6 +3709,7 @@ payload:
   - DOMAIN-SUFFIX,javascriptcounter.appspot.com
   - DOMAIN-SUFFIX,jelly.mdhv.io
   - DOMAIN-SUFFIX,jppolid-track.trackprod.integration.jppol.dk
+  - DOMAIN-SUFFIX,k.kolplay.com
   - DOMAIN-SUFFIX,k.rueducommerce.fr
   - DOMAIN-SUFFIX,k.streamrail.com
   - DOMAIN-SUFFIX,k9v7.dotabuff.com
@@ -4919,6 +4922,7 @@ payload:
   - DOMAIN-SUFFIX,tracking.g2crowd.com
   - DOMAIN-SUFFIX,tracking.gameforge.de
   - DOMAIN-SUFFIX,tracking.godatafeed.com
+  - DOMAIN-SUFFIX,tracking.gpm-rtv.ru
   - DOMAIN-SUFFIX,tracking.gruppo.mps.it
   - DOMAIN-SUFFIX,tracking.ha.rueducommerce.fr
   - DOMAIN-SUFFIX,tracking.hannoversche.de

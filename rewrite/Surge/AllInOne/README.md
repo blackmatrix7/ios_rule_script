@@ -6,16 +6,16 @@
 
 定时爬取互联网上开源的复写汇总复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
-**汇总Advertising复写去广告、AdvertisingScript通过脚本去除广告、AdvertisingScriptTP第三方脚本去除广告、Redirect重定向复写。QuantumultX需要添加部分分流规则才能生效，具体配置请参照数据源说明。复写汇总内容，需要自行确认安全性。**
+**汇总Advertising复写去广告、AdvertisingScript通过脚本去除广告、Redirect重定向复写。QuantumultX需要添加部分分流规则才能生效，具体配置请参照数据源说明。复写汇总内容，需要自行确认安全性。**
 
 
-最后检查时间：2021-01-01 03:52:02。
+最后检查时间：2021-01-02 03:51:08。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 613 |
+| mitm | 649 |
 | DOMAIN-SUFFIX | 1 |
 | URL-REGEX | 6 |
 | DOMAIN | 2 |
@@ -23,7 +23,7 @@
 | IP-CIDR | 1 |
 | USER-AGENT | 1 |
 | reject | 789 |
-| http-response | 24 |
+| http-response | 22 |
 | redirect | 66 |
 ## 配置说明
 
@@ -45,7 +45,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/S
 
 ## 数据来源
 
-本项目的复写汇总复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，建议不要与本项目的复写汇总复写规则混合使用，以免造成规则重复。
+本项目的复写汇总复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，请先删除后再使用本项目的复写汇总复写规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/Advertising.sgmodule
@@ -67,7 +67,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/S
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Upgrade/Upgrade.qxrewrite
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Loon/Rewrite.conf
 - https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Rewrite.txt
-- https://raw.githubusercontent.com/yichahucha/surge/master/sg_sub.sgmodule
 
 
 感谢以上复写规则作者的辛勤付出（排名不分先后）。

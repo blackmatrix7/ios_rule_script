@@ -1,15 +1,15 @@
-# Advertising Script
+# 脚本去广告
 
 ## 前言
 
-本项目的Advertising Script复写规则由爬虫程序自动维护。
+本项目的脚本去广告复写规则由爬虫程序自动维护。
 
-定时爬取互联网上开源的Advertising Script复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
+定时爬取互联网上开源的脚本去广告复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 **整合知乎、BiliBili、什么值得买三个APP去广告，及脚本去除开屏广告复写。**
 
 
-最后检查时间：2021-01-01 03:52:02。
+最后检查时间：2021-01-02 03:51:08。
 
 ## 复写统计
 
@@ -44,7 +44,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 
 ## 数据来源
 
-本项目的Advertising Script复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，建议不要与本项目的Advertising Script复写规则混合使用，以免造成规则重复。
+本项目的脚本去广告复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，请先删除后再使用本项目的脚本去广告复写规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.lnplugin
@@ -90,9 +90,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 
 ### 去广告问题
 
-本项目的Advertising Script规则仅是将网络上开源的去广告规则整合去重，**非实际规则维护者**。数据源规则无法去除的广告，本项目的Advertising Script规则也无能为力。
+本项目的脚本去广告规则仅是将网络上开源的去广告规则整合去重，**非实际规则维护者**。数据源规则无法去除的广告，本项目的脚本去广告规则也无能为力。
 
-所以很抱歉，没办法处理关于某个APP无法去除广告的反馈，除非您能明确数据源的规则可以去除，而整合后的规则无法去除。同样，也没办法协助您处理Advertising Script规则误拦截的问题，除非您能明确告知哪条规则存在问题，我会将其加入规则黑名单，下次爬虫程序更新时将其去除。
+所以很抱歉，没办法处理关于某个APP无法去除广告的反馈，除非您能明确数据源的规则可以去除，而整合后的规则无法去除。同样，也没办法协助您处理脚本去广告规则误拦截的问题，除非您能明确告知哪条规则存在问题，我会将其加入规则黑名单，下次爬虫程序更新时将其去除。
 
 ### 特定APP去广告
 
@@ -118,7 +118,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 4. 在使用复写规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的Advertising Script复写规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的脚本去广告复写规则。
 
 感谢
 

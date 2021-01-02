@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-02 03:50:46
+# UPDATED: 2021-01-03 03:48:57
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # AdvertisingLite 与 Adobe 共 4 条规则重复
@@ -9,7 +9,7 @@ payload:
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,newrelic.com
   - DOMAIN-SUFFIX,omtrdc.net
-# AdvertisingLite 与 Advertising 共 15837 条规则重复
+# AdvertisingLite 与 Advertising 共 15841 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0koryu0.easter.ne.jp
   - DOMAIN,0nso0tq1sa4.ml
@@ -72,16 +72,17 @@ payload:
   - DOMAIN,adfux.com
   - DOMAIN,adjunky.com
   - DOMAIN,adlock.in
+  - DOMAIN,admarketing.yahoo.net
   - DOMAIN,adobeflashupdate14.com
   - DOMAIN,ads-4u.com
   - DOMAIN,ads-img-qc.xhscdn.com
+  - DOMAIN,ads-video-qc.xhscdn.com
   - DOMAIN,ads.auctions.yahoo.com
   - DOMAIN,ads.chinadaily.com.cn
   - DOMAIN,ads.data.pplive.com
   - DOMAIN,ads.finance.yahoo.com
   - DOMAIN,ads.yahoo.de
   - DOMAIN,adserving.favorit-network.com
-  - DOMAIN,adskeeper.co.uk
   - DOMAIN,adtools.gossipkings.com
   - DOMAIN,adtools2.amakings.com
   - DOMAIN,adultaccessnow.com
@@ -89,6 +90,7 @@ payload:
   - DOMAIN,adultmediabuying.com
   - DOMAIN,adulttubetraffic.com
   - DOMAIN,adv-adlog.variflight.com
+  - DOMAIN,adv-ads.variflight.com
   - DOMAIN,adv.ettoday.net
   - DOMAIN,adv.riza.it
   - DOMAIN,advancetec.co.uk
@@ -115,6 +117,7 @@ payload:
   - DOMAIN,ambulanciaslazaro.com
   - DOMAIN,aminev.com
   - DOMAIN,andase.com
+  - DOMAIN,animeidhentai.com
   - DOMAIN,antalya.ru
   - DOMAIN,anyporn.com
   - DOMAIN,aod-image-material.bj.bcebos.com
@@ -139,7 +142,6 @@ payload:
   - DOMAIN,aquete.com
   - DOMAIN,arkinsoftware.in
   - DOMAIN,art-archiv.ru
-  - DOMAIN,artamkari.com
   - DOMAIN,artsconsortium.org
   - DOMAIN,asqpniwvxea.com
   - DOMAIN,atianqi.com
@@ -159,6 +161,7 @@ payload:
   - DOMAIN,bannersnack.com
   - DOMAIN,bannersnack.net
   - DOMAIN,bavftcgoapga.com
+  - DOMAIN,bbs.hori-gz.com
   - DOMAIN,bde.be
   - DOMAIN,be-funk.com
   - DOMAIN,beacon2.indieclicktv.com
@@ -231,6 +234,7 @@ payload:
   - DOMAIN,conds.ru
   - DOMAIN,config.unityads.unitychina.cn
   - DOMAIN,conflibred.co
+  - DOMAIN,content.liveuniverse.com
   - DOMAIN,contentcache-a.akamaihd.net
   - DOMAIN,cope.it
   - DOMAIN,core-queerclick.netdna-ssl.com
@@ -303,7 +307,6 @@ payload:
   - DOMAIN,download-performance.com
   - DOMAIN,download.56.com
   - DOMAIN,download.grandcloud.cn
-  - DOMAIN,downloads-whatsapp.com
   - DOMAIN,dp-medien.eu
   - DOMAIN,dradvice.in
   - DOMAIN,dss0.bdstatic.com
@@ -343,6 +346,7 @@ payload:
   - DOMAIN,finnhair.co.uk
   - DOMAIN,firehouse651.com
   - DOMAIN,flix360.com
+  - DOMAIN,flowplus.meituan.net
   - DOMAIN,foastail.net
   - DOMAIN,fondazioneciampi.org
   - DOMAIN,fonderredd.info
@@ -358,7 +362,6 @@ payload:
   - DOMAIN,frtya.com
   - DOMAIN,frtyb.com
   - DOMAIN,frtye.com
-  - DOMAIN,funmatrix.net
   - DOMAIN,g05.info
   - DOMAIN,geil.alon3.tk
   - DOMAIN,generalchemicalsupply.com
@@ -457,7 +460,6 @@ payload:
   - DOMAIN,js.hdzog.com
   - DOMAIN,js.jrjimg.cn
   - DOMAIN,juedische-kammerphilharmonie.de
-  - DOMAIN,juiceads.net
   - DOMAIN,junbi-tracker.com
   - DOMAIN,jx.cn
   - DOMAIN,k.h.a.d.free.fr
@@ -501,6 +503,7 @@ payload:
   - DOMAIN,m-vali.cp31.ott.cibntv.net
   - DOMAIN,m.1234567.com.cn
   - DOMAIN,m.aty.sohu.com
+  - DOMAIN,m.ocenp.com
   - DOMAIN,m.track.ad.xiaomi.com
   - DOMAIN,mahindrainsurance.com
   - DOMAIN,mailboto.com
@@ -522,6 +525,7 @@ payload:
   - DOMAIN,mirandolasrl.it
   - DOMAIN,mktmobi.com
   - DOMAIN,mmg.aty.sohu.com
+  - DOMAIN,mms.hori-gz.com
   - DOMAIN,montmti.top
   - DOMAIN,mordi.fun
   - DOMAIN,mowithlerendu.pro
@@ -583,7 +587,6 @@ payload:
   - DOMAIN,onpato.ru
   - DOMAIN,onrio.com.br
   - DOMAIN,openadserving.com
-  - DOMAIN,oprahsearch.com
   - DOMAIN,optiker-michelmann.de
   - DOMAIN,optimization-methods.com
   - DOMAIN,opus.analytics.yahoo.com
@@ -694,6 +697,7 @@ payload:
   - DOMAIN,sa0.tuisong.baidu.com
   - DOMAIN,sa1.tuisong.baidu.com
   - DOMAIN,sa3.tuisong.baidu.com
+  - DOMAIN,sadiqtv.com
   - DOMAIN,saemark.is
   - DOMAIN,safety.amw.com
   - DOMAIN,sajari.com
@@ -722,6 +726,8 @@ payload:
   - DOMAIN,sexykittenporn.com
   - DOMAIN,sexyoilwrestling.com
   - DOMAIN,sexyster.tk
+  - DOMAIN,sf3-ttcdn-tos.pstatp.com
+  - DOMAIN,sf6-ttcdn-tos.pstatp.com
   - DOMAIN,sgs.us.com
   - DOMAIN,shalseey.com
   - DOMAIN,shangmiss.wap.xsbiquge.com
@@ -784,7 +790,6 @@ payload:
   - DOMAIN,thcextractor.com
   - DOMAIN,thcvaporizer.com
   - DOMAIN,thefxarchive.com
-  - DOMAIN,theweatherspace.com
   - DOMAIN,thewinesteward.com
   - DOMAIN,thogethoffic.co
   - DOMAIN,tjoomo.com
@@ -827,12 +832,10 @@ payload:
   - DOMAIN,users173.lolipop.jp
   - DOMAIN,v.aty.sohu.com
   - DOMAIN,v.tf.360.cn
-  - DOMAIN,v2.gdt.qq.com
   - DOMAIN,veehdmymwvvexv.com
   - DOMAIN,vernoblisk.com
   - DOMAIN,vette-porno.nl
   - DOMAIN,vg.aty.sohu.com
-  - DOMAIN,vgsgaming-ads.com
   - DOMAIN,viewex.co.uk
   - DOMAIN,villalecchi.com
   - DOMAIN,vistatech.us
@@ -1025,6 +1028,7 @@ payload:
   - DOMAIN,youtuhe.com
   - DOMAIN,yql.yahoo.com
   - DOMAIN,yumekin.com
+  - DOMAIN,yxhd.hori-gz.com
   - DOMAIN,zafrc.5780.site
   - DOMAIN,zaloapp.com
   - DOMAIN,zanyx.club
@@ -15847,7 +15851,7 @@ payload:
   - IP-CIDR,69.28.57.245/32
   - IP-CIDR,74.117.182.77/32
   - IP-CIDR,78.140.131.214/32
-# AdvertisingLite 与 AdvertisingTest 共 15549 条规则重复
+# AdvertisingLite 与 AdvertisingTest 共 15556 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0koryu0.easter.ne.jp
   - DOMAIN,0nso0tq1sa4.ml
@@ -15907,6 +15911,7 @@ payload:
   - DOMAIN,adobeflashupdate14.com
   - DOMAIN,ads-4u.com
   - DOMAIN,ads-img-qc.xhscdn.com
+  - DOMAIN,ads-video-qc.xhscdn.com
   - DOMAIN,ads.chinadaily.com.cn
   - DOMAIN,ads.finance.yahoo.com
   - DOMAIN,ads.yahoo.de
@@ -15918,6 +15923,7 @@ payload:
   - DOMAIN,adultmediabuying.com
   - DOMAIN,adulttubetraffic.com
   - DOMAIN,adv-adlog.variflight.com
+  - DOMAIN,adv-ads.variflight.com
   - DOMAIN,adv.riza.it
   - DOMAIN,advancetec.co.uk
   - DOMAIN,adverigo.com
@@ -15939,6 +15945,7 @@ payload:
   - DOMAIN,amazingvacationhotels.com
   - DOMAIN,ambulanciaslazaro.com
   - DOMAIN,aminev.com
+  - DOMAIN,animeidhentai.com
   - DOMAIN,antalya.ru
   - DOMAIN,anyporn.com
   - DOMAIN,aod-image-material.bj.bcebos.com
@@ -15967,6 +15974,7 @@ payload:
   - DOMAIN,banners.rushcommerce.com
   - DOMAIN,bannersnack.net
   - DOMAIN,bavftcgoapga.com
+  - DOMAIN,bbs.hori-gz.com
   - DOMAIN,bde.be
   - DOMAIN,be-funk.com
   - DOMAIN,beacon2.indieclicktv.com
@@ -16024,6 +16032,7 @@ payload:
   - DOMAIN,conds.ru
   - DOMAIN,config.unityads.unitychina.cn
   - DOMAIN,conflibred.co
+  - DOMAIN,content.liveuniverse.com
   - DOMAIN,contentcache-a.akamaihd.net
   - DOMAIN,cope.it
   - DOMAIN,core-queerclick.netdna-ssl.com
@@ -16085,7 +16094,6 @@ payload:
   - DOMAIN,download-archiver.ru
   - DOMAIN,download.56.com
   - DOMAIN,download.grandcloud.cn
-  - DOMAIN,downloads-whatsapp.com
   - DOMAIN,dp-medien.eu
   - DOMAIN,dss0.bdstatic.com
   - DOMAIN,dump1.no-ip.biz
@@ -16117,6 +16125,7 @@ payload:
   - DOMAIN,finnhair.co.uk
   - DOMAIN,firehouse651.com
   - DOMAIN,flix360.com
+  - DOMAIN,flowplus.meituan.net
   - DOMAIN,foastail.net
   - DOMAIN,fondazioneciampi.org
   - DOMAIN,fonderredd.info
@@ -16239,6 +16248,7 @@ payload:
   - DOMAIN,lwxlsj.wap.xsbiquge.com
   - DOMAIN,m-vali.cp31.ott.cibntv.net
   - DOMAIN,m.1234567.com.cn
+  - DOMAIN,m.ocenp.com
   - DOMAIN,m.track.ad.xiaomi.com
   - DOMAIN,mahindrainsurance.com
   - DOMAIN,mailboto.com
@@ -16258,6 +16268,7 @@ payload:
   - DOMAIN,ministerio-publi.info
   - DOMAIN,mirandolasrl.it
   - DOMAIN,mmg.aty.sohu.com
+  - DOMAIN,mms.hori-gz.com
   - DOMAIN,montmti.top
   - DOMAIN,mowithlerendu.pro
   - DOMAIN,mp3vicio.com
@@ -16302,7 +16313,6 @@ payload:
   - DOMAIN,onecount.net
   - DOMAIN,online-media24.de
   - DOMAIN,onrio.com.br
-  - DOMAIN,oprahsearch.com
   - DOMAIN,optiker-michelmann.de
   - DOMAIN,optimization-methods.com
   - DOMAIN,opus.analytics.yahoo.com
@@ -16377,6 +16387,7 @@ payload:
   - DOMAIN,rupor.info
   - DOMAIN,s.share.baidu.com
   - DOMAIN,s1.stat.lianmeng.360.cn
+  - DOMAIN,sadiqtv.com
   - DOMAIN,saemark.is
   - DOMAIN,safety.amw.com
   - DOMAIN,santacruzsuspension.com
@@ -16456,7 +16467,6 @@ payload:
   - DOMAIN,thcextractor.com
   - DOMAIN,thcvaporizer.com
   - DOMAIN,thefxarchive.com
-  - DOMAIN,theweatherspace.com
   - DOMAIN,thewinesteward.com
   - DOMAIN,thogethoffic.co
   - DOMAIN,tk-gregoric.si
@@ -16674,6 +16684,7 @@ payload:
   - DOMAIN,youtuhe.com
   - DOMAIN,yql.yahoo.com
   - DOMAIN,yumekin.com
+  - DOMAIN,yxhd.hori-gz.com
   - DOMAIN,zaloapp.com
   - DOMAIN,zengenti.com
   - DOMAIN,zkic.com

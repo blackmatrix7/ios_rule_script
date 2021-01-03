@@ -1,15 +1,27 @@
 # NAME: IQiyi
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-03 03:48:56
+# UPDATED: 2021-01-04 03:50:16
+# DOMAIN: 6
 # USER-AGENT: 2
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 1
-# IP-CIDR: 2
-# TOTAL: 6
-DOMAIN-SUFFIX,qy.net
-DOMAIN-KEYWORD,qiyi
-IP-CIDR,101.224.0.0/13
-IP-CIDR,119.176.0.0/12
+# DOMAIN-SUFFIX: 4
+# IP-CIDR: 6
+# TOTAL: 18
+DOMAIN,//>iqiyi
+DOMAIN,//domain
+DOMAIN,intel-cache.m.iqiyi.com
+DOMAIN,intel-cache.video.iqiyi.com
+DOMAIN,intl-rcd.iqiyi.com
+DOMAIN,intl-subscription.iqiyi.com
+DOMAIN-SUFFIX,inter.iqiyi.com
+DOMAIN-SUFFIX,inter.ptqy.gitv.tv
+DOMAIN-SUFFIX,intl.iqiyi.com
+DOMAIN-SUFFIX,iq.com
+IP-CIDR,103.44.56.0/22
+IP-CIDR,118.26.120.0/24
+IP-CIDR,118.26.32.0/23
+IP-CIDR,223.119.62.225/28
+IP-CIDR,23.40.241.251/32
+IP-CIDR,23.40.242.10/32
 USER-AGENT,iqiyi*
-USER-AGENT,qiyi*
+USER-AGENT,qyplayer*

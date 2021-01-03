@@ -1,13 +1,12 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-03 03:48:58
+# UPDATED: 2021-01-04 03:50:17
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # Global 与 Adobe 共 1 条规则重复
   - DOMAIN-SUFFIX,behance.net
-# Global 与 Advertising 共 7 条规则重复
-  - DOMAIN,az416426.vo.msecnd.net
+# Global 与 Advertising 共 6 条规则重复
   - DOMAIN-SUFFIX,dnvod.tv
   - DOMAIN-SUFFIX,linksalpha.com
   - DOMAIN-SUFFIX,nytlog.com
@@ -632,8 +631,7 @@ payload:
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twitter.jp
   - DOMAIN-SUFFIX,vine.co
-# Global 与 Proxy 共 656 条规则重复
-  - DOMAIN,az416426.vo.msecnd.net
+# Global 与 Proxy 共 655 条规则重复
   - DOMAIN,az668014.vo.msecnd.net
   - DOMAIN,beta.music.apple.com
   - DOMAIN,books.itunes.apple.com

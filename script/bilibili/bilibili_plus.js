@@ -39,21 +39,19 @@ let magicJS = MagicJS(scriptName, 'INFO');
       case /^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
-          if (obj['data'].hasOwnProperty('max_time') && obj['data'].hasOwnProperty('show')){
-            obj['data']['max_time'] = 0;
-            obj['data']['min_interval'] = 31536000;
-            obj['data']['pull_interval'] = 31536000;
-            obj['data']['show']['stime'] = 1915027200;
-            obj['data']['show']['etime'] = 1924272000;
+          obj['data']['max_time'] = 0;
+          obj['data']['min_interval'] = 31536000;
+          obj['data']['pull_interval'] = 31536000;
+          for(let i=0;i<obj['data']['list'].length;i++){
+            obj['data']['list'][i]['duration'] = 0;
+            obj['data']['list'][i]['begin_time'] = 1915027200;
+            obj['data']['list'][i]['end_time'] = 1924272000;
           }
-          if (obj.hasOwnProperty('data') && obj['data']['list']){
-            for(let i=0;i<obj['data']['list'].length;i++){
-              obj['data']['list'][i]['duration'] = 0;
-              obj['data']['list'][i]['begin_time'] = 1915027200;
-              obj['data']['list'][i]['end_time'] = 1924272000;
-            }
-            body = JSON.stringify(obj);
+          for(let i=0;i<obj['data']['show'].length;i++){
+            obj['data']['show'][i]['stime'] = 1915027200;
+            obj['data']['show'][i]['etime'] = 1924272000;
           }
+          body = JSON.stringify(obj);
         }
         catch (err){
           magicJS.logError(`开屏广告处理出现异常：${err}`);

@@ -1,17 +1,17 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-04 03:50:14
+# UPDATED: 2021-01-05 03:50:19
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-SUFFIX: 687
 # DOMAIN-KEYWORD: 18
 # IP-CIDR: 66
 # IP-CIDR6: 3
 # USER-AGENT: 38
-# DOMAIN: 44
+# DOMAIN: 45
 # PROCESS-NAME: 1
 # URL-REGEX: 1
-# TOTAL: 858
+# TOTAL: 859
 DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
 DOMAIN,abematv.akamaized.net
@@ -45,6 +45,7 @@ DOMAIN,linear-abematv.akamaized.net
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
 DOMAIN,lookup-api.apple.com
 DOMAIN,ocsp.apple.com
+DOMAIN,ocsp.int-x3.letsencrypt.org
 DOMAIN,oneclient.sfx.ms
 DOMAIN,payments-jp.amazon.com
 DOMAIN,players.brightcove.net

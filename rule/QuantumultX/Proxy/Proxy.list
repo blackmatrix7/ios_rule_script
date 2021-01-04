@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-04 03:50:14
+# UPDATED: 2021-01-05 03:50:19
 # HOST-SUFFIX: 5996
 # USER-AGENT: 4
-# HOST: 14
+# HOST: 15
 # HOST-KEYWORD: 30
 # IP-CIDR: 94
 # IP6-CIDR: 3
-# TOTAL: 6141
+# TOTAL: 6142
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
 HOST,az668014.vo.msecnd.net,Proxy
 HOST,beta.music.apple.com,Proxy
@@ -19,6 +19,7 @@ HOST,international-gfe.download.nvidia.com,Proxy
 HOST,itunes.apple.com,Proxy
 HOST,lookup-api.apple.com,Proxy
 HOST,ocsp.apple.com,Proxy
+HOST,ocsp.int-x3.letsencrypt.org,Proxy
 HOST,sandbox.itunes.apple.com,Proxy
 HOST,search.avira.com,Proxy
 HOST,testflight.apple.com,Proxy

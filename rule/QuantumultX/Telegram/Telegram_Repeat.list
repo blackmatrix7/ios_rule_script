@@ -1,9 +1,9 @@
 # NAME: Telegram 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 03:50:22
+# UPDATED: 2021-01-05 11:07:16
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
-# Telegram 与 Global 共 10 条规则重复
+# Telegram 与 Global 共 9 条规则重复
 HOST-SUFFIX,t.me
 HOST-SUFFIX,tdesktop.com
 HOST-SUFFIX,telegra.ph
@@ -12,7 +12,6 @@ HOST-SUFFIX,telegram.org
 HOST-SUFFIX,telesco.pe
 IP-CIDR,149.154.160.0/20
 IP6-CIDR,2001:67c:4e8::/48
-IP6-CIDR,2001:b28:f23d::/48
 IP6-CIDR,2001:b28:f23f::/48
 # Telegram 与 Proxy 共 13 条规则重复
 HOST-KEYWORD,telegram
@@ -22,11 +21,11 @@ HOST-SUFFIX,telegra.ph
 HOST-SUFFIX,telegram.me
 HOST-SUFFIX,telegram.org
 HOST-SUFFIX,telesco.pe
+HOST-SUFFIX,tx.me
 IP-CIDR,109.239.140.0/24
 IP-CIDR,149.154.160.0/20
 IP-CIDR,91.108.0.0/16
 IP6-CIDR,2001:67c:4e8::/48
-IP6-CIDR,2001:b28:f23d::/48
 IP6-CIDR,2001:b28:f23f::/48
 # Telegram 与 TeamViewer 共 1 条规则重复
 IP-CIDR,109.239.140.0/24

@@ -1,7 +1,7 @@
 # NAME: Amazon 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 03:50:22
+# UPDATED: 2021-01-05 11:07:16
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Amazon 与 BlackList 共 19 条规则重复
 HOST-SUFFIX,amazon.co.jp
@@ -40,11 +40,15 @@ HOST-SUFFIX,media-amazon.com
 HOST-SUFFIX,primevideo.com
 USER-AGENT,instantvideo.us*
 USER-AGENT,prime%20video*
-# Amazon 与 Proxy 共 19 条规则重复
+# Amazon 与 Proxy 共 23 条规则重复
+HOST-SUFFIX,aiv-cdn.net
 HOST-SUFFIX,amazon.co.jp
 HOST-SUFFIX,amazon.com
 HOST-SUFFIX,amazonaws.com
+HOST-SUFFIX,amazonvideo.com
 HOST-SUFFIX,llnwd.net
+HOST-SUFFIX,media-amazon.com
+HOST-SUFFIX,primevideo.com
 IP-CIDR,13.32.0.0/15
 IP-CIDR,13.35.0.0/17
 IP-CIDR,18.184.0.0/15

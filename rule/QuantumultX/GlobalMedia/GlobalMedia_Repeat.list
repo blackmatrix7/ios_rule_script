@@ -1,7 +1,7 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 03:50:22
+# UPDATED: 2021-01-05 11:07:16
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # GlobalMedia 与 Adobe 共 1 条规则重复
 HOST-SUFFIX,bam.nr-data.net
@@ -328,33 +328,83 @@ USER-AGENT,spotify*
 HOST-SUFFIX,firebaseio.com
 # GlobalMedia 与 Privacy 共 1 条规则重复
 HOST-SUFFIX,cws.conviva.com
-# GlobalMedia 与 Proxy 共 55 条规则重复
+# GlobalMedia 与 Proxy 共 114 条规则重复
 HOST-KEYWORD,ttvnw
 HOST-KEYWORD,uk-live
 HOST-KEYWORD,youtube
+HOST-SUFFIX,abema.io
+HOST-SUFFIX,abema.tv
 HOST-SUFFIX,adobedtm.com
+HOST-SUFFIX,aiv-cdn.net
 HOST-SUFFIX,amazonaws.com
+HOST-SUFFIX,amazonvideo.com
+HOST-SUFFIX,ameba.jp
 HOST-SUFFIX,app-measurement.com
+HOST-SUFFIX,bahamut.com.tw
+HOST-SUFFIX,bamgrid.com
 HOST-SUFFIX,bbc.co
 HOST-SUFFIX,bbc.co.uk
 HOST-SUFFIX,bbc.com
+HOST-SUFFIX,bbci.co
 HOST-SUFFIX,bbci.co.uk
+HOST-SUFFIX,bootstrapcdn.com
+HOST-SUFFIX,braze.com
 HOST-SUFFIX,cloudfront.net
+HOST-SUFFIX,dazn-api.com
+HOST-SUFFIX,dazn.com
+HOST-SUFFIX,dazndn.com
 HOST-SUFFIX,deezer.com
+HOST-SUFFIX,disney-plus.net
+HOST-SUFFIX,disneyplus.com
+HOST-SUFFIX,dssott.com
+HOST-SUFFIX,edgedatg.com
+HOST-SUFFIX,encoretvb.com
 HOST-SUFFIX,fast.com
 HOST-SUFFIX,firebaseio.com
+HOST-SUFFIX,fox.com
+HOST-SUFFIX,foxdcg.com
+HOST-SUFFIX,foxplus.com
 HOST-SUFFIX,gamer.com.tw
 HOST-SUFFIX,go.com
 HOST-SUFFIX,googlevideo.com
 HOST-SUFFIX,gvt2.com
+HOST-SUFFIX,hayabusa.io
 HOST-SUFFIX,hbo.com
+HOST-SUFFIX,hboasia.com
+HOST-SUFFIX,hbogo.com
+HOST-SUFFIX,hbogoasia.com
+HOST-SUFFIX,hbomax.com
+HOST-SUFFIX,hbonow.com
 HOST-SUFFIX,hinet.net
 HOST-SUFFIX,hulu.com
+HOST-SUFFIX,huluad.com
 HOST-SUFFIX,huluim.com
+HOST-SUFFIX,hulustream.com
+HOST-SUFFIX,indazn.com
+HOST-SUFFIX,intercom.io
+HOST-SUFFIX,japonx.com
+HOST-SUFFIX,japonx.net
+HOST-SUFFIX,japonx.tv
+HOST-SUFFIX,japonx.vip
+HOST-SUFFIX,japronx.com
+HOST-SUFFIX,japronx.net
+HOST-SUFFIX,japronx.tv
+HOST-SUFFIX,japronx.vip
+HOST-SUFFIX,joox.com
 HOST-SUFFIX,jtvnw.net
+HOST-SUFFIX,jwpcdn.com
+HOST-SUFFIX,jwplayer.com
+HOST-SUFFIX,kfs.io
 HOST-SUFFIX,kkbox.com
+HOST-SUFFIX,kktv.me
+HOST-SUFFIX,litv.tv
 HOST-SUFFIX,llnwd.net
+HOST-SUFFIX,media-amazon.com
+HOST-SUFFIX,muscdn.com
+HOST-SUFFIX,musical.ly
+HOST-SUFFIX,mytvsuper.com
 HOST-SUFFIX,netflix.com
+HOST-SUFFIX,netflix.net
 HOST-SUFFIX,nflxext.com
 HOST-SUFFIX,nflximg.com
 HOST-SUFFIX,nflximg.net
@@ -362,6 +412,7 @@ HOST-SUFFIX,nflxso.net
 HOST-SUFFIX,nflxvideo.net
 HOST-SUFFIX,nicovideo.jp
 HOST-SUFFIX,nimg.jp
+HOST-SUFFIX,nowe.com
 HOST-SUFFIX,ocnttv.com
 HOST-SUFFIX,pandora.com
 HOST-SUFFIX,pbs.org
@@ -369,15 +420,23 @@ HOST-SUFFIX,phncdn.com
 HOST-SUFFIX,phprcdn.com
 HOST-SUFFIX,pornhub.com
 HOST-SUFFIX,pornhubpremium.com
+HOST-SUFFIX,primevideo.com
+HOST-SUFFIX,pscdn.co
 HOST-SUFFIX,scdn.co
 HOST-SUFFIX,skyking.com.tw
 HOST-SUFFIX,sndcdn.com
 HOST-SUFFIX,soundcloud.com
 HOST-SUFFIX,spotify.com
+HOST-SUFFIX,spotifycdn.net
+HOST-SUFFIX,theplatform.com
+HOST-SUFFIX,tiktok.com
+HOST-SUFFIX,tiktokcdn.com
+HOST-SUFFIX,tiktokv.com
 HOST-SUFFIX,ttvnw.net
 HOST-SUFFIX,tvb.com
 HOST-SUFFIX,twitch.tv
 HOST-SUFFIX,twitchcdn.net
+HOST-SUFFIX,uplynk.com
 HOST-SUFFIX,viu.com
 HOST-SUFFIX,viu.tv
 HOST-SUFFIX,yahoo.co.jp

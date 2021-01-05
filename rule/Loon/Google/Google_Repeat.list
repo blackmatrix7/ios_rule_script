@@ -1,7 +1,7 @@
 # NAME: Google 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 03:50:23
+# UPDATED: 2021-01-05 11:07:16
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Google 与 Advertising 共 13 条规则重复
 DOMAIN-SUFFIX,2mdn.net
@@ -207,9 +207,10 @@ DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,csi.gstatic.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,googletagmanager.com
-# Google 与 Proxy 共 55 条规则重复
+# Google 与 Proxy 共 66 条规则重复
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,google
+DOMAIN-SUFFIX,265.com
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,ampproject.org
@@ -227,6 +228,8 @@ DOMAIN-SUFFIX,chromium.org
 DOMAIN-SUFFIX,creativelab5.com
 DOMAIN-SUFFIX,debug.com
 DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,dialogflow.com
+DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,getmdl.io
 DOMAIN-SUFFIX,getoutline.org
@@ -235,9 +238,17 @@ DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gmodules.com
 DOMAIN-SUFFIX,godoc.org
 DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleanalytics.com
 DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gtm.oasisfeng.com
+DOMAIN-SUFFIX,gv.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt3.com

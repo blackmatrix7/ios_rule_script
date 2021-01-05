@@ -1,7 +1,7 @@
 # NAME: China 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 03:50:22
+# UPDATED: 2021-01-05 11:07:16
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # China 与 Adobe 共 2 条规则重复
 HOST-SUFFIX,digicert.com
@@ -41,6 +41,8 @@ HOST-SUFFIX,akadns.net
 HOST-SUFFIX,crashlytics.com
 HOST-SUFFIX,me.com
 HOST-SUFFIX,mzstatic.com
+# China 与 iCloud 共 1 条规则重复
+HOST-SUFFIX,me.com
 # China 与 AsianMedia 共 8 条规则重复
 HOST-SUFFIX,71.am.com
 HOST-SUFFIX,acgvideo.com
@@ -891,39 +893,113 @@ HOST,safebrowsing.googleapis.com
 HOST-SUFFIX,weibo.cn
 HOST-SUFFIX,weibo.com
 HOST-SUFFIX,weibocdn.com
-# China 与 Proxy 共 33 条规则重复
+# China 与 Proxy 共 107 条规则重复
+HOST-SUFFIX,abercrombie.com
+HOST-SUFFIX,accuweather.com
+HOST-SUFFIX,acm.org
+HOST-SUFFIX,acs.org
+HOST-SUFFIX,adobesc.com
+HOST-SUFFIX,alibabacloud.com
+HOST-SUFFIX,amd.com
+HOST-SUFFIX,annualreviews.org
+HOST-SUFFIX,battle.net
 HOST-SUFFIX,bet365.com
 HOST-SUFFIX,bjango.com
+HOST-SUFFIX,blizzard.com
+HOST-SUFFIX,booking.com
+HOST-SUFFIX,bstatic.com
+HOST-SUFFIX,cambridge.org
+HOST-SUFFIX,clarivate.com
 HOST-SUFFIX,crashlytics.com
 HOST-SUFFIX,digicert.com
 HOST-SUFFIX,dytt8.net
+HOST-SUFFIX,engineeringvillage.com
+HOST-SUFFIX,firefox.com
 HOST-SUFFIX,gameloft.com
 HOST-SUFFIX,getpricetag.com
 HOST-SUFFIX,hao123.com
+HOST-SUFFIX,hdsky.me
+HOST-SUFFIX,hollisterco.com
 HOST-SUFFIX,hotmail.com
+HOST-SUFFIX,ibm.com
+HOST-SUFFIX,ieee.org
+HOST-SUFFIX,images-amazon.com
+HOST-SUFFIX,iop.org
 HOST-SUFFIX,ip.sb
+HOST-SUFFIX,jamanetwork.com
+HOST-SUFFIX,java.com
+HOST-SUFFIX,jstor.org
+HOST-SUFFIX,jstucdn.com
 HOST-SUFFIX,licdn.com
 HOST-SUFFIX,linkedin.com
+HOST-SUFFIX,loli.net
 HOST-SUFFIX,m-team.cc
+HOST-SUFFIX,manhuagui.com
+HOST-SUFFIX,me.com
+HOST-SUFFIX,microsoft.com
+HOST-SUFFIX,microsoftonline.com
+HOST-SUFFIX,msecnd.net
 HOST-SUFFIX,msn.com
+HOST-SUFFIX,mzstatic.com
+HOST-SUFFIX,nature.com
 HOST-SUFFIX,nssurge.com
+HOST-SUFFIX,nvidia.com
+HOST-SUFFIX,office.com
 HOST-SUFFIX,office365.com
+HOST-SUFFIX,oracle.com
+HOST-SUFFIX,oup.com
 HOST-SUFFIX,outlook.com
+HOST-SUFFIX,ovid.com
+HOST-SUFFIX,oxfordartonline.com
+HOST-SUFFIX,oxfordbibliographies.com
+HOST-SUFFIX,oxfordmusiconline.com
+HOST-SUFFIX,paypal.com
+HOST-SUFFIX,paypal.me
+HOST-SUFFIX,paypalobjects.com
 HOST-SUFFIX,playstation.com
 HOST-SUFFIX,playstation.net
 HOST-SUFFIX,playstationnetwork.com
+HOST-SUFFIX,pnas.org
+HOST-SUFFIX,proquest.com
+HOST-SUFFIX,rsc.org
+HOST-SUFFIX,s-microsoft.com
+HOST-SUFFIX,sagepub.com
+HOST-SUFFIX,sciencedirect.com
 HOST-SUFFIX,sciencemag.org
+HOST-SUFFIX,scopus.com
+HOST-SUFFIX,sharepoint.com
 HOST-SUFFIX,sina.com
+HOST-SUFFIX,sm.ms
 HOST-SUFFIX,sony.com
+HOST-SUFFIX,sonyentertainmentnetwork.com
+HOST-SUFFIX,spiedigitallibrary.org
+HOST-SUFFIX,springer.com
+HOST-SUFFIX,springerlink.com
 HOST-SUFFIX,steam-chat.com
+HOST-SUFFIX,steamcontent.com
+HOST-SUFFIX,steamgames.com
 HOST-SUFFIX,steampowered.com
 HOST-SUFFIX,steamstatic.com
+HOST-SUFFIX,steamusercontent.com
 HOST-SUFFIX,symcd.com
+HOST-SUFFIX,tandfonline.com
 HOST-SUFFIX,teamviewer.com
+HOST-SUFFIX,test-ipv6.com
 HOST-SUFFIX,trello.com
+HOST-SUFFIX,trellocdn.com
+HOST-SUFFIX,udacity.com
+HOST-SUFFIX,un.org
 HOST-SUFFIX,unity3d.com
+HOST-SUFFIX,visualstudio.com
+HOST-SUFFIX,webofknowledge.com
+HOST-SUFFIX,weiphone.com
+HOST-SUFFIX,wiley.com
 HOST-SUFFIX,windows.com
 HOST-SUFFIX,windows.net
+HOST-SUFFIX,windowsupdate.com
+HOST-SUFFIX,zimuzu.tv
+HOST-SUFFIX,zmz2019.com
+HOST-SUFFIX,zmzapi.com
 HOST-SUFFIX,zoho.com
 # China 与 Himalaya 共 2 条规则重复
 HOST-SUFFIX,ximalaya.com

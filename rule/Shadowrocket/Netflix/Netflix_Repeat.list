@@ -1,7 +1,7 @@
 # NAME: Netflix 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 03:50:23
+# UPDATED: 2021-01-05 11:07:17
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Netflix 与 Speedtest 共 1 条规则重复
 DOMAIN-SUFFIX,fast.com
@@ -74,9 +74,10 @@ IP-CIDR,66.197.128.0/17
 IP-CIDR,69.53.224.0/19
 IP-CIDR,8.41.4.0/24
 USER-AGENT,argo*
-# Netflix 与 Proxy 共 7 条规则重复
+# Netflix 与 Proxy 共 8 条规则重复
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
 DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net

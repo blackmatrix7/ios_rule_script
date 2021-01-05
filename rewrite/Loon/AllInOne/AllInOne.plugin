@@ -1,7 +1,7 @@
 # NAME: 复写汇总
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 03:50:48
+# UPDATED: 2021-01-05 11:07:40
 # REWRITE: 868
 # SCRIPT: 22
 # MITM: 636
@@ -629,13 +629,13 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp - reject
 ^https?:\/\/p\d\.meituan\.net\/wmbanner\/ - reject-img
 ^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg - reject-200
-^https?:\/\/p\d\.pstatp\.com\/origin - reject-img
 ^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/ - reject
 ^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/ - reject-img
 ^https?:\/\/pan-api\.bitqiu\.com\/activity\/(getPromoteGuide|getUrlList) - reject-img
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry - reject-200
 ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx - reject-200
 ^https?:\/\/paopao\w?.qiyipic.com - reject
+^https?:\/\/pb\d\.pstatp\.com\/origin - reject-img
 ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ - reject-img
 ^https?:\/\/photocdn\.sohu\.com\/tvmobilemvms - reject-img
 ^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/ - reject-200

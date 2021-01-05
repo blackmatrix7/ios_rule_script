@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-05 03:50:28。
+最后检查时间：2021-01-05 11:07:22。
 
 ## 规则统计
 
@@ -48,10 +48,10 @@ AsianMedia分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili)    | 13   | [13](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   100.0% |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 607   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   1.32% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72554   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   0.02% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72532   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   0.02% |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6051   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   0.05% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 71   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   32.39% |
-|  [IQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/IQiyi)    | 18   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   5.56% |
+|  [IQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/IQiyi)    | 12   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   8.33% |
 |  [TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TencentVideo)    | 2   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   50.0% |
 |  [Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youku)    | 1   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   100.0% |
 ### 特别说明

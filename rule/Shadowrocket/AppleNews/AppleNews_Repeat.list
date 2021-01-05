@@ -1,9 +1,11 @@
 # NAME: AppleNews 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 03:50:23
+# UPDATED: 2021-01-05 11:07:17
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # AppleNews 与 GlobalMedia 共 3 条规则重复
 DOMAIN,gspe1-ssl.ls.apple.com
 USER-AGENT,applenews*
 USER-AGENT,com.apple.news*
+# AppleNews 与 Proxy 共 1 条规则重复
+DOMAIN-SUFFIX,apple.news

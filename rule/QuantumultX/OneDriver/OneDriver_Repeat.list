@@ -1,7 +1,7 @@
 # NAME: OneDriver 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 03:50:22
+# UPDATED: 2021-01-05 11:07:16
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # OneDriver 与 BlackList 共 1 条规则重复
 HOST-SUFFIX,livefilestore.com
@@ -28,9 +28,12 @@ HOST-SUFFIX,onedrive.com
 HOST-SUFFIX,onedrive.live.com
 HOST-SUFFIX,storage.live.com
 HOST-SUFFIX,storage.msn.com
-# OneDriver 与 Proxy 共 5 条规则重复
+# OneDriver 与 Proxy 共 8 条规则重复
 HOST-KEYWORD,1drv
 HOST-KEYWORD,onedrive
 HOST-KEYWORD,skydrive
+HOST-SUFFIX,1drv.com
 HOST-SUFFIX,livefilestore.com
 HOST-SUFFIX,onedrive.com
+HOST-SUFFIX,sharepoint.com
+HOST-SUFFIX,sharepointonline.com

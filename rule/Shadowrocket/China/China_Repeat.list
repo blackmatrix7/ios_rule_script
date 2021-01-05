@@ -1,7 +1,7 @@
 # NAME: China 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 03:50:23
+# UPDATED: 2021-01-05 11:07:17
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # China 与 Adobe 共 2 条规则重复
 DOMAIN-SUFFIX,digicert.com
@@ -41,6 +41,8 @@ DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
+# China 与 iCloud 共 1 条规则重复
+DOMAIN-SUFFIX,me.com
 # China 与 AsianMedia 共 8 条规则重复
 DOMAIN-SUFFIX,71.am.com
 DOMAIN-SUFFIX,acgvideo.com
@@ -891,39 +893,113 @@ DOMAIN,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
-# China 与 Proxy 共 33 条规则重复
+# China 与 Proxy 共 107 条规则重复
+DOMAIN-SUFFIX,abercrombie.com
+DOMAIN-SUFFIX,accuweather.com
+DOMAIN-SUFFIX,acm.org
+DOMAIN-SUFFIX,acs.org
+DOMAIN-SUFFIX,adobesc.com
+DOMAIN-SUFFIX,alibabacloud.com
+DOMAIN-SUFFIX,amd.com
+DOMAIN-SUFFIX,annualreviews.org
+DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,bjango.com
+DOMAIN-SUFFIX,blizzard.com
+DOMAIN-SUFFIX,booking.com
+DOMAIN-SUFFIX,bstatic.com
+DOMAIN-SUFFIX,cambridge.org
+DOMAIN-SUFFIX,clarivate.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,dytt8.net
+DOMAIN-SUFFIX,engineeringvillage.com
+DOMAIN-SUFFIX,firefox.com
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,hao123.com
+DOMAIN-SUFFIX,hdsky.me
+DOMAIN-SUFFIX,hollisterco.com
 DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,ibm.com
+DOMAIN-SUFFIX,ieee.org
+DOMAIN-SUFFIX,images-amazon.com
+DOMAIN-SUFFIX,iop.org
 DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,jamanetwork.com
+DOMAIN-SUFFIX,java.com
+DOMAIN-SUFFIX,jstor.org
+DOMAIN-SUFFIX,jstucdn.com
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,loli.net
 DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,manhuagui.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,msecnd.net
 DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,nature.com
 DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,nvidia.com
+DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,oup.com
 DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,ovid.com
+DOMAIN-SUFFIX,oxfordartonline.com
+DOMAIN-SUFFIX,oxfordbibliographies.com
+DOMAIN-SUFFIX,oxfordmusiconline.com
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.net
 DOMAIN-SUFFIX,playstationnetwork.com
+DOMAIN-SUFFIX,pnas.org
+DOMAIN-SUFFIX,proquest.com
+DOMAIN-SUFFIX,rsc.org
+DOMAIN-SUFFIX,s-microsoft.com
+DOMAIN-SUFFIX,sagepub.com
+DOMAIN-SUFFIX,sciencedirect.com
 DOMAIN-SUFFIX,sciencemag.org
+DOMAIN-SUFFIX,scopus.com
+DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,sina.com
+DOMAIN-SUFFIX,sm.ms
 DOMAIN-SUFFIX,sony.com
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+DOMAIN-SUFFIX,spiedigitallibrary.org
+DOMAIN-SUFFIX,springer.com
+DOMAIN-SUFFIX,springerlink.com
 DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,symcd.com
+DOMAIN-SUFFIX,tandfonline.com
 DOMAIN-SUFFIX,teamviewer.com
+DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX,trellocdn.com
+DOMAIN-SUFFIX,udacity.com
+DOMAIN-SUFFIX,un.org
 DOMAIN-SUFFIX,unity3d.com
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,webofknowledge.com
+DOMAIN-SUFFIX,weiphone.com
+DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,zimuzu.tv
+DOMAIN-SUFFIX,zmz2019.com
+DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zoho.com
 # China 与 Himalaya 共 2 条规则重复
 DOMAIN-SUFFIX,ximalaya.com

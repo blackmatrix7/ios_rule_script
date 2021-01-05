@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 03:50:22
+# UPDATED: 2021-01-05 11:07:16
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Global 与 Adobe 共 1 条规则重复
 HOST-SUFFIX,behance.net
@@ -432,7 +432,7 @@ HOST-SUFFIX,socdm.com
 USER-AGENT,niconico*
 # Global 与 Speedtest 共 1 条规则重复
 HOST-SUFFIX,fast.com
-# Global 与 Telegram 共 10 条规则重复
+# Global 与 Telegram 共 9 条规则重复
 HOST-SUFFIX,t.me
 HOST-SUFFIX,tdesktop.com
 HOST-SUFFIX,telegra.ph
@@ -441,7 +441,6 @@ HOST-SUFFIX,telegram.org
 HOST-SUFFIX,telesco.pe
 IP-CIDR,149.154.160.0/20
 IP6-CIDR,2001:67c:4e8::/48
-IP6-CIDR,2001:b28:f23d::/48
 IP6-CIDR,2001:b28:f23f::/48
 # Global 与 Netflix 共 28 条规则重复
 HOST-SUFFIX,fast.com
@@ -677,18 +676,7 @@ HOST-SUFFIX,twitpic.com
 HOST-SUFFIX,twitter.com
 HOST-SUFFIX,twitter.jp
 HOST-SUFFIX,vine.co
-# Global 与 Proxy 共 657 条规则重复
-HOST,az668014.vo.msecnd.net
-HOST,beta.music.apple.com
-HOST,books.itunes.apple.com
-HOST,international-gfe.download.nvidia.com
-HOST,itunes.apple.com
-HOST,lookup-api.apple.com
-HOST,ocsp.apple.com
-HOST,ocsp.int-x3.letsencrypt.org
-HOST,search.avira.com
-HOST,testflight.apple.com
-HOST,us.weibo.com
+# Global 与 Proxy 共 691 条规则重复
 HOST-KEYWORD,.blogspot.
 HOST-KEYWORD,.pinterest.
 HOST-KEYWORD,blogspot
@@ -699,6 +687,8 @@ HOST-KEYWORD,porn
 HOST-KEYWORD,twitter
 HOST-KEYWORD,uk-live
 HOST-SUFFIX,0rz.tw
+HOST-SUFFIX,1drv.com
+HOST-SUFFIX,1drv.ms
 HOST-SUFFIX,4bluestones.biz
 HOST-SUFFIX,4shared.com
 HOST-SUFFIX,881903.com
@@ -709,9 +699,14 @@ HOST-SUFFIX,abc.com
 HOST-SUFFIX,abc.net.au
 HOST-SUFFIX,abc.xyz
 HOST-SUFFIX,abebooks.com
+HOST-SUFFIX,abema.io
+HOST-SUFFIX,abema.tv
+HOST-SUFFIX,aiv-cdn.net
 HOST-SUFFIX,aka.ms
 HOST-SUFFIX,allconnected.co
 HOST-SUFFIX,amazon.co.jp
+HOST-SUFFIX,amazonvideo.com
+HOST-SUFFIX,ameba.jp
 HOST-SUFFIX,ampproject.org
 HOST-SUFFIX,android.com
 HOST-SUFFIX,androidify.com
@@ -741,6 +736,8 @@ HOST-SUFFIX,autodraw.com
 HOST-SUFFIX,avg.com
 HOST-SUFFIX,avgle.com
 HOST-SUFFIX,badoo.com
+HOST-SUFFIX,bahamut.com.tw
+HOST-SUFFIX,bamgrid.com
 HOST-SUFFIX,bandwagonhost.com
 HOST-SUFFIX,bangkokpost.com
 HOST-SUFFIX,bankmobilevibe.com
@@ -817,6 +814,8 @@ HOST-SUFFIX,dailymotion.com
 HOST-SUFFIX,dailyview.tw
 HOST-SUFFIX,daum.net
 HOST-SUFFIX,daumcdn.net
+HOST-SUFFIX,dazn-api.com
+HOST-SUFFIX,dazn.com
 HOST-SUFFIX,dcard.tw
 HOST-SUFFIX,deadline.com
 HOST-SUFFIX,debug.com
@@ -826,12 +825,15 @@ HOST-SUFFIX,deezer.com
 HOST-SUFFIX,depositphotos.cn
 HOST-SUFFIX,depositphotos.com
 HOST-SUFFIX,deviantart.com
+HOST-SUFFIX,dialogflow.com
 HOST-SUFFIX,disconnect.me
 HOST-SUFFIX,discord.gg
 HOST-SUFFIX,discordapp.com
 HOST-SUFFIX,discordapp.net
 HOST-SUFFIX,discuss.com.hk
 HOST-SUFFIX,dish.com
+HOST-SUFFIX,disney-plus.net
+HOST-SUFFIX,disneyplus.com
 HOST-SUFFIX,disqus.com
 HOST-SUFFIX,dlercloud.com
 HOST-SUFFIX,dmhy.org
@@ -843,6 +845,7 @@ HOST-SUFFIX,dowjones.com
 HOST-SUFFIX,dropbox.com
 HOST-SUFFIX,dropboxapi.com
 HOST-SUFFIX,dropboxusercontent.com
+HOST-SUFFIX,dssott.com
 HOST-SUFFIX,dubox.com
 HOST-SUFFIX,duboxcdn.com
 HOST-SUFFIX,duckduckgo.com
@@ -857,6 +860,7 @@ HOST-SUFFIX,edu
 HOST-SUFFIX,edx-cdn.org
 HOST-SUFFIX,elpais.com
 HOST-SUFFIX,enanyang.my
+HOST-SUFFIX,encoretvb.com
 HOST-SUFFIX,encyclopedia.com
 HOST-SUFFIX,esoir.be
 HOST-SUFFIX,esurance.com
@@ -879,6 +883,7 @@ HOST-SUFFIX,fbworkmail.com
 HOST-SUFFIX,feeder.co
 HOST-SUFFIX,feedly.com
 HOST-SUFFIX,feedx.net
+HOST-SUFFIX,figma.com
 HOST-SUFFIX,firebaseio.com
 HOST-SUFFIX,firech.at
 HOST-SUFFIX,flickr.com
@@ -890,6 +895,8 @@ HOST-SUFFIX,fnac.com
 HOST-SUFFIX,focustaiwan.tw
 HOST-SUFFIX,foreignpolicy.com
 HOST-SUFFIX,fortawesome.com
+HOST-SUFFIX,fox.com
+HOST-SUFFIX,foxdcg.com
 HOST-SUFFIX,free.fr
 HOST-SUFFIX,freebrowser.org
 HOST-SUFFIX,freewechat.com
@@ -918,9 +925,11 @@ HOST-SUFFIX,gmail.com
 HOST-SUFFIX,gmodules.com
 HOST-SUFFIX,go.com
 HOST-SUFFIX,godoc.org
+HOST-SUFFIX,gog.com
 HOST-SUFFIX,golang.org
 HOST-SUFFIX,goo.ne.jp
 HOST-SUFFIX,goodreads.com
+HOST-SUFFIX,google
 HOST-SUFFIX,googleapis.cn
 HOST-SUFFIX,googlevideo.com
 HOST-SUFFIX,gov
@@ -928,12 +937,17 @@ HOST-SUFFIX,gov.tw
 HOST-SUFFIX,greatfire.org
 HOST-SUFFIX,gstatic.com
 HOST-SUFFIX,gumroad.com
+HOST-SUFFIX,gv.com
 HOST-SUFFIX,gvt0.com
 HOST-SUFFIX,gvt1.com
 HOST-SUFFIX,gvt3.com
 HOST-SUFFIX,gwtproject.org
+HOST-SUFFIX,hayabusa.io
 HOST-SUFFIX,hbg.com
 HOST-SUFFIX,hbo.com
+HOST-SUFFIX,hbogo.com
+HOST-SUFFIX,hbogoasia.com
+HOST-SUFFIX,hbonow.com
 HOST-SUFFIX,here.com
 HOST-SUFFIX,heroku.com
 HOST-SUFFIX,hightail.com
@@ -949,6 +963,7 @@ HOST-SUFFIX,hudson.org
 HOST-SUFFIX,huffpost.com
 HOST-SUFFIX,hulu.com
 HOST-SUFFIX,huluim.com
+HOST-SUFFIX,hulustream.com
 HOST-SUFFIX,hyread.com.tw
 HOST-SUFFIX,i-cable.com
 HOST-SUFFIX,ibtimes.com
@@ -976,15 +991,18 @@ HOST-SUFFIX,jiji.com
 HOST-SUFFIX,jinx.com
 HOST-SUFFIX,jkforum.net
 HOST-SUFFIX,joinmastodon.org
+HOST-SUFFIX,joox.com
 HOST-SUFFIX,jtvnw.net
 HOST-SUFFIX,justmysocks.net
 HOST-SUFFIX,justpaste.it
 HOST-SUFFIX,kadokawa.co.jp
 HOST-SUFFIX,kakao.com
 HOST-SUFFIX,kakaocorp.com
+HOST-SUFFIX,kfs.io
 HOST-SUFFIX,kik.com
 HOST-SUFFIX,kingkong.com.tw
 HOST-SUFFIX,kkbox.com
+HOST-SUFFIX,kktv.me
 HOST-SUFFIX,knowyourmeme.com
 HOST-SUFFIX,kobo.com
 HOST-SUFFIX,kobobooks.com
@@ -998,6 +1016,7 @@ HOST-SUFFIX,line-scdn.net
 HOST-SUFFIX,line.me
 HOST-SUFFIX,linksalpha.com
 HOST-SUFFIX,listennotes.com
+HOST-SUFFIX,litv.tv
 HOST-SUFFIX,livefilestore.com
 HOST-SUFFIX,livestream.com
 HOST-SUFFIX,logimg.jp
@@ -1008,6 +1027,7 @@ HOST-SUFFIX,mail.ru
 HOST-SUFFIX,mailchimp.com
 HOST-SUFFIX,mailfence.com
 HOST-SUFFIX,mangakakalot.com
+HOST-SUFFIX,manyvids.com
 HOST-SUFFIX,marc.info
 HOST-SUFFIX,material.io
 HOST-SUFFIX,matters.news
@@ -1025,6 +1045,7 @@ HOST-SUFFIX,mubi.com
 HOST-SUFFIX,myactimes.com
 HOST-SUFFIX,myspace.com
 HOST-SUFFIX,myspacecdn.com
+HOST-SUFFIX,mytvsuper.com
 HOST-SUFFIX,nanyang.com
 HOST-SUFFIX,nationalinterest.org
 HOST-SUFFIX,nationwide.com
@@ -1035,6 +1056,8 @@ HOST-SUFFIX,nbcnews.com
 HOST-SUFFIX,ndr.de
 HOST-SUFFIX,neowin.net
 HOST-SUFFIX,netflix.com
+HOST-SUFFIX,netflix.net
+HOST-SUFFIX,newsblur.com
 HOST-SUFFIX,newstapa.org
 HOST-SUFFIX,nexitally.com
 HOST-SUFFIX,nexon.com
@@ -1056,6 +1079,7 @@ HOST-SUFFIX,nordstromrack.com
 HOST-SUFFIX,notion.so
 HOST-SUFFIX,now.com
 HOST-SUFFIX,now.im
+HOST-SUFFIX,nowe.com
 HOST-SUFFIX,noxinfluencer.com
 HOST-SUFFIX,nrk.no
 HOST-SUFFIX,nuget.org
@@ -1077,11 +1101,14 @@ HOST-SUFFIX,on.cc
 HOST-SUFFIX,onedrive.com
 HOST-SUFFIX,orientaldaily.com.my
 HOST-SUFFIX,overcast.fm
+HOST-SUFFIX,page.link
 HOST-SUFFIX,paltalk.com
 HOST-SUFFIX,pandora.com
 HOST-SUFFIX,pao-pao.net
 HOST-SUFFIX,parsevideo.com
 HOST-SUFFIX,pawoo.net
+HOST-SUFFIX,paypal.com
+HOST-SUFFIX,paypalobjects.com
 HOST-SUFFIX,pbs.org
 HOST-SUFFIX,pbxes.com
 HOST-SUFFIX,pcdvd.com.tw
@@ -1102,8 +1129,10 @@ HOST-SUFFIX,pornhub.com
 HOST-SUFFIX,pornhubpremium.com
 HOST-SUFFIX,potato.im
 HOST-SUFFIX,potatso.com
+HOST-SUFFIX,primevideo.com
 HOST-SUFFIX,prism-break.org
 HOST-SUFFIX,proxifier.com
+HOST-SUFFIX,pscdn.co
 HOST-SUFFIX,pscp.tv
 HOST-SUFFIX,pt.im
 HOST-SUFFIX,pts.org.tw
@@ -1144,11 +1173,11 @@ HOST-SUFFIX,shattered.io
 HOST-SUFFIX,shindanmaker.com
 HOST-SUFFIX,shopee.tw
 HOST-SUFFIX,shopeemobile.com
+HOST-SUFFIX,signal.org
 HOST-SUFFIX,sina.com.hk
 HOST-SUFFIX,skyking.com.tw
 HOST-SUFFIX,slideshare.net
 HOST-SUFFIX,smartmailcloud.com
-HOST-SUFFIX,smoot.apple.com
 HOST-SUFFIX,sndcdn.com
 HOST-SUFFIX,softfamous.com
 HOST-SUFFIX,soundcloud.com
@@ -1164,6 +1193,7 @@ HOST-SUFFIX,streamable.com
 HOST-SUFFIX,streema.com
 HOST-SUFFIX,streetvoice.com
 HOST-SUFFIX,superpages.com
+HOST-SUFFIX,supertop.co
 HOST-SUFFIX,synergyse.com
 HOST-SUFFIX,t.co
 HOST-SUFFIX,t.me
@@ -1184,6 +1214,7 @@ HOST-SUFFIX,tfhub.dev
 HOST-SUFFIX,theguardian.com
 HOST-SUFFIX,theinitium.com
 HOST-SUFFIX,themoviedb.org
+HOST-SUFFIX,theplatform.com
 HOST-SUFFIX,thetvdb.com
 HOST-SUFFIX,thinkgeek.com
 HOST-SUFFIX,tiltbrush.com
@@ -1213,6 +1244,7 @@ HOST-SUFFIX,udnbkk.com
 HOST-SUFFIX,unity3d.com
 HOST-SUFFIX,unseen.is
 HOST-SUFFIX,uploader.jp
+HOST-SUFFIX,uplynk.com
 HOST-SUFFIX,upmedia.mg
 HOST-SUFFIX,uptodown.com
 HOST-SUFFIX,urbandictionary.com
@@ -1264,6 +1296,7 @@ HOST-SUFFIX,wsj.com
 HOST-SUFFIX,wsj.net
 HOST-SUFFIX,x-art.com
 HOST-SUFFIX,x.company
+HOST-SUFFIX,xboxlive.com
 HOST-SUFFIX,xfinity.com
 HOST-SUFFIX,xhamster.com
 HOST-SUFFIX,xn--90wwvt03e.com

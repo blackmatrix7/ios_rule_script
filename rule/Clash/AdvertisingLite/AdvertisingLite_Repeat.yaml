@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 11:07:17
+# UPDATED: 2021-01-06 02:59:06
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # AdvertisingLite 与 Adobe 共 4 条规则重复
@@ -32076,8 +32076,6 @@ payload:
   - DOMAIN-SUFFIX,googlesyndication.com
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googletagservices.com
-# AdvertisingLite 与 YouTube 共 1 条规则重复
-  - DOMAIN-SUFFIX,app-measurement.com
 # AdvertisingLite 与 Microsoft 共 1 条规则重复
   - DOMAIN-SUFFIX,uservoice.com
 # AdvertisingLite 与 Niconico 共 1 条规则重复
@@ -32086,9 +32084,9 @@ payload:
   - DOMAIN-SUFFIX,socdm.com
   - DOMAIN-SUFFIX,urbanairship.com
 # AdvertisingLite 与 GlobalMedia 共 2 条规则重复
-  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,bluekai.com
   - DOMAIN-SUFFIX,socdm.com
-# AdvertisingLite 与 Hijacking 共 195 条规则重复
+# AdvertisingLite 与 Hijacking 共 200 条规则重复
   - DOMAIN-SUFFIX,17gouwuba.com
   - DOMAIN-SUFFIX,186078.com
   - DOMAIN-SUFFIX,189zj.cn
@@ -32119,6 +32117,7 @@ payload:
   - DOMAIN-SUFFIX,beyondcompare.cc
   - DOMAIN-SUFFIX,bianxianmao.com
   - DOMAIN-SUFFIX,bingdianhuanyuan.cn
+  - DOMAIN-SUFFIX,bkyhq.cn
   - DOMAIN-SUFFIX,bryonypie.com
   - DOMAIN-SUFFIX,chemdraw.com.cn
   - DOMAIN-SUFFIX,cishantao.com
@@ -32153,6 +32152,7 @@ payload:
   - DOMAIN-SUFFIX,guitarpro.cc
   - DOMAIN-SUFFIX,gzxnlk.com
   - DOMAIN-SUFFIX,haoshengtoys.com
+  - DOMAIN-SUFFIX,hbssjd.cn
   - DOMAIN-SUFFIX,huishenghuiying.com.cn
   - DOMAIN-SUFFIX,hypersnap.net
   - DOMAIN-SUFFIX,hyunke.com
@@ -32174,6 +32174,7 @@ payload:
   - DOMAIN-SUFFIX,kumihua.com
   - DOMAIN-SUFFIX,logoshejishi.com
   - DOMAIN-SUFFIX,ltheanine.cn
+  - DOMAIN-SUFFIX,lvehaisen.com
   - DOMAIN-SUFFIX,mackeeper.com
   - DOMAIN-SUFFIX,maipinshangmao.com
   - DOMAIN-SUFFIX,mairuan.cn
@@ -32229,6 +32230,7 @@ payload:
   - DOMAIN-SUFFIX,tuipenguin.com
   - DOMAIN-SUFFIX,tuitiger.com
   - DOMAIN-SUFFIX,ultraiso.net
+  - DOMAIN-SUFFIX,urlet.cn
   - DOMAIN-SUFFIX,vegaschina.cn
   - DOMAIN-SUFFIX,websd8.com
   - DOMAIN-SUFFIX,wsgblw.com
@@ -32249,6 +32251,7 @@ payload:
   - DOMAIN-SUFFIX,zhenxinet.com
   - DOMAIN-SUFFIX,zhzzx.com
   - DOMAIN-SUFFIX,zlne800.com
+  - DOMAIN-SUFFIX,zmlled.cn
   - DOMAIN-SUFFIX,zunmi.cn
   - DOMAIN-SUFFIX,zzd6.com
   - IP-CIDR,103.49.209.27/32

@@ -1,7 +1,7 @@
 # NAME: BlackList 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 11:07:17
+# UPDATED: 2021-01-06 02:59:06
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # BlackList 与 Adobe 共 7 条规则重复
@@ -168,8 +168,7 @@ payload:
   - DOMAIN-SUFFIX,whatbrowser.org
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,ytimg.com
-# BlackList 与 YouTube 共 3 条规则重复
-  - DOMAIN-SUFFIX,app-measurement.com
+# BlackList 与 YouTube 共 2 条规则重复
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,ytimg.com
 # BlackList 与 Microsoft 共 12 条规则重复
@@ -441,10 +440,9 @@ payload:
   - IP-CIDR,74.119.76.0/22
   - IP-CIDR,74.125.0.0/16
   - PROCESS-NAME,lookupviewservice
-# BlackList 与 GlobalMedia 共 19 条规则重复
+# BlackList 与 GlobalMedia 共 18 条规则重复
   - DOMAIN-SUFFIX,adobedtm.com
   - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,go.com

@@ -1,10 +1,10 @@
 # NAME: Hijacking 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 11:07:17
+# UPDATED: 2021-01-06 02:59:06
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
-# Hijacking 与 Advertising 共 201 条规则重复
+# Hijacking 与 Advertising 共 212 条规则重复
   - DOMAIN-SUFFIX,17gouwuba.com
   - DOMAIN-SUFFIX,186078.com
   - DOMAIN-SUFFIX,189zj.cn
@@ -36,6 +36,7 @@ payload:
   - DOMAIN-SUFFIX,beyondcompare.cc
   - DOMAIN-SUFFIX,bianxianmao.com
   - DOMAIN-SUFFIX,bingdianhuanyuan.cn
+  - DOMAIN-SUFFIX,bkyhq.cn
   - DOMAIN-SUFFIX,bryonypie.com
   - DOMAIN-SUFFIX,chemdraw.com.cn
   - DOMAIN-SUFFIX,cishantao.com
@@ -69,9 +70,11 @@ payload:
   - DOMAIN-SUFFIX,goufanli100.com
   - DOMAIN-SUFFIX,goupaoerdai.com
   - DOMAIN-SUFFIX,gouwubang.com
+  - DOMAIN-SUFFIX,gscxs.cn
   - DOMAIN-SUFFIX,guitarpro.cc
   - DOMAIN-SUFFIX,gzxnlk.com
   - DOMAIN-SUFFIX,haoshengtoys.com
+  - DOMAIN-SUFFIX,hbssjd.cn
   - DOMAIN-SUFFIX,huishenghuiying.com.cn
   - DOMAIN-SUFFIX,hypersnap.net
   - DOMAIN-SUFFIX,hyunke.com
@@ -94,6 +97,7 @@ payload:
   - DOMAIN-SUFFIX,logoshejishi.com
   - DOMAIN-SUFFIX,ltheanine.cn
   - DOMAIN-SUFFIX,luping.net.cn
+  - DOMAIN-SUFFIX,lvehaisen.com
   - DOMAIN-SUFFIX,mackeeper.com
   - DOMAIN-SUFFIX,maipinshangmao.com
   - DOMAIN-SUFFIX,mairuan.cn
@@ -150,12 +154,15 @@ payload:
   - DOMAIN-SUFFIX,tuipenguin.com
   - DOMAIN-SUFFIX,tuitiger.com
   - DOMAIN-SUFFIX,ultraiso.net
+  - DOMAIN-SUFFIX,urlaw.cn
+  - DOMAIN-SUFFIX,urlet.cn
   - DOMAIN-SUFFIX,vegaschina.cn
   - DOMAIN-SUFFIX,websd8.com
   - DOMAIN-SUFFIX,wsgblw.com
   - DOMAIN-SUFFIX,wx16999.com
   - DOMAIN-SUFFIX,xchmai.com
   - DOMAIN-SUFFIX,xiaohuau.xyz
+  - DOMAIN-SUFFIX,xitongqingli.com
   - DOMAIN-SUFFIX,xmindchina.net
   - DOMAIN-SUFFIX,xshellcn.com
   - DOMAIN-SUFFIX,ygyzx.cn
@@ -170,15 +177,18 @@ payload:
   - DOMAIN-SUFFIX,zhenxinet.com
   - DOMAIN-SUFFIX,zhzzx.com
   - DOMAIN-SUFFIX,zlne800.com
+  - DOMAIN-SUFFIX,zmlled.cn
   - DOMAIN-SUFFIX,zryydi.com
   - DOMAIN-SUFFIX,zunmi.cn
   - DOMAIN-SUFFIX,zzd6.com
   - IP-CIDR,103.49.209.27/32
   - IP-CIDR,106.75.231.48/32
+  - IP-CIDR,114.119.160.0/21
   - IP-CIDR,114.247.28.96/32
   - IP-CIDR,115.182.16.79/32
   - IP-CIDR,118.144.88.126/32
   - IP-CIDR,119.4.249.166/32
+  - IP-CIDR,120.240.95.37/32
   - IP-CIDR,120.76.189.132/32
   - IP-CIDR,122.229.29.89/32
   - IP-CIDR,122.229.8.47/32
@@ -190,6 +200,7 @@ payload:
   - IP-CIDR,180.166.52.24/32
   - IP-CIDR,183.59.53.237/32
   - IP-CIDR,211.161.101.106/32
+  - IP-CIDR,211.161.101.110/32
   - IP-CIDR,218.93.127.37/32
   - IP-CIDR,220.115.251.25/32
   - IP-CIDR,220.196.52.141/32
@@ -206,7 +217,7 @@ payload:
   - IP-CIDR,61.160.200.223/32
   - IP-CIDR,61.160.200.242/32
   - IP-CIDR,61.160.200.252/32
-# Hijacking 与 AdvertisingTest 共 201 条规则重复
+# Hijacking 与 AdvertisingTest 共 212 条规则重复
   - DOMAIN-SUFFIX,17gouwuba.com
   - DOMAIN-SUFFIX,186078.com
   - DOMAIN-SUFFIX,189zj.cn
@@ -238,6 +249,7 @@ payload:
   - DOMAIN-SUFFIX,beyondcompare.cc
   - DOMAIN-SUFFIX,bianxianmao.com
   - DOMAIN-SUFFIX,bingdianhuanyuan.cn
+  - DOMAIN-SUFFIX,bkyhq.cn
   - DOMAIN-SUFFIX,bryonypie.com
   - DOMAIN-SUFFIX,chemdraw.com.cn
   - DOMAIN-SUFFIX,cishantao.com
@@ -271,9 +283,11 @@ payload:
   - DOMAIN-SUFFIX,goufanli100.com
   - DOMAIN-SUFFIX,goupaoerdai.com
   - DOMAIN-SUFFIX,gouwubang.com
+  - DOMAIN-SUFFIX,gscxs.cn
   - DOMAIN-SUFFIX,guitarpro.cc
   - DOMAIN-SUFFIX,gzxnlk.com
   - DOMAIN-SUFFIX,haoshengtoys.com
+  - DOMAIN-SUFFIX,hbssjd.cn
   - DOMAIN-SUFFIX,huishenghuiying.com.cn
   - DOMAIN-SUFFIX,hypersnap.net
   - DOMAIN-SUFFIX,hyunke.com
@@ -296,6 +310,7 @@ payload:
   - DOMAIN-SUFFIX,logoshejishi.com
   - DOMAIN-SUFFIX,ltheanine.cn
   - DOMAIN-SUFFIX,luping.net.cn
+  - DOMAIN-SUFFIX,lvehaisen.com
   - DOMAIN-SUFFIX,mackeeper.com
   - DOMAIN-SUFFIX,maipinshangmao.com
   - DOMAIN-SUFFIX,mairuan.cn
@@ -352,12 +367,15 @@ payload:
   - DOMAIN-SUFFIX,tuipenguin.com
   - DOMAIN-SUFFIX,tuitiger.com
   - DOMAIN-SUFFIX,ultraiso.net
+  - DOMAIN-SUFFIX,urlaw.cn
+  - DOMAIN-SUFFIX,urlet.cn
   - DOMAIN-SUFFIX,vegaschina.cn
   - DOMAIN-SUFFIX,websd8.com
   - DOMAIN-SUFFIX,wsgblw.com
   - DOMAIN-SUFFIX,wx16999.com
   - DOMAIN-SUFFIX,xchmai.com
   - DOMAIN-SUFFIX,xiaohuau.xyz
+  - DOMAIN-SUFFIX,xitongqingli.com
   - DOMAIN-SUFFIX,xmindchina.net
   - DOMAIN-SUFFIX,xshellcn.com
   - DOMAIN-SUFFIX,ygyzx.cn
@@ -372,15 +390,18 @@ payload:
   - DOMAIN-SUFFIX,zhenxinet.com
   - DOMAIN-SUFFIX,zhzzx.com
   - DOMAIN-SUFFIX,zlne800.com
+  - DOMAIN-SUFFIX,zmlled.cn
   - DOMAIN-SUFFIX,zryydi.com
   - DOMAIN-SUFFIX,zunmi.cn
   - DOMAIN-SUFFIX,zzd6.com
   - IP-CIDR,103.49.209.27/32
   - IP-CIDR,106.75.231.48/32
+  - IP-CIDR,114.119.160.0/21
   - IP-CIDR,114.247.28.96/32
   - IP-CIDR,115.182.16.79/32
   - IP-CIDR,118.144.88.126/32
   - IP-CIDR,119.4.249.166/32
+  - IP-CIDR,120.240.95.37/32
   - IP-CIDR,120.76.189.132/32
   - IP-CIDR,122.229.29.89/32
   - IP-CIDR,122.229.8.47/32
@@ -392,6 +413,7 @@ payload:
   - IP-CIDR,180.166.52.24/32
   - IP-CIDR,183.59.53.237/32
   - IP-CIDR,211.161.101.106/32
+  - IP-CIDR,211.161.101.110/32
   - IP-CIDR,218.93.127.37/32
   - IP-CIDR,220.115.251.25/32
   - IP-CIDR,220.196.52.141/32
@@ -408,7 +430,7 @@ payload:
   - IP-CIDR,61.160.200.223/32
   - IP-CIDR,61.160.200.242/32
   - IP-CIDR,61.160.200.252/32
-# Hijacking 与 AdvertisingLite 共 195 条规则重复
+# Hijacking 与 AdvertisingLite 共 200 条规则重复
   - DOMAIN-SUFFIX,17gouwuba.com
   - DOMAIN-SUFFIX,186078.com
   - DOMAIN-SUFFIX,189zj.cn
@@ -439,6 +461,7 @@ payload:
   - DOMAIN-SUFFIX,beyondcompare.cc
   - DOMAIN-SUFFIX,bianxianmao.com
   - DOMAIN-SUFFIX,bingdianhuanyuan.cn
+  - DOMAIN-SUFFIX,bkyhq.cn
   - DOMAIN-SUFFIX,bryonypie.com
   - DOMAIN-SUFFIX,chemdraw.com.cn
   - DOMAIN-SUFFIX,cishantao.com
@@ -473,6 +496,7 @@ payload:
   - DOMAIN-SUFFIX,guitarpro.cc
   - DOMAIN-SUFFIX,gzxnlk.com
   - DOMAIN-SUFFIX,haoshengtoys.com
+  - DOMAIN-SUFFIX,hbssjd.cn
   - DOMAIN-SUFFIX,huishenghuiying.com.cn
   - DOMAIN-SUFFIX,hypersnap.net
   - DOMAIN-SUFFIX,hyunke.com
@@ -494,6 +518,7 @@ payload:
   - DOMAIN-SUFFIX,kumihua.com
   - DOMAIN-SUFFIX,logoshejishi.com
   - DOMAIN-SUFFIX,ltheanine.cn
+  - DOMAIN-SUFFIX,lvehaisen.com
   - DOMAIN-SUFFIX,mackeeper.com
   - DOMAIN-SUFFIX,maipinshangmao.com
   - DOMAIN-SUFFIX,mairuan.cn
@@ -549,6 +574,7 @@ payload:
   - DOMAIN-SUFFIX,tuipenguin.com
   - DOMAIN-SUFFIX,tuitiger.com
   - DOMAIN-SUFFIX,ultraiso.net
+  - DOMAIN-SUFFIX,urlet.cn
   - DOMAIN-SUFFIX,vegaschina.cn
   - DOMAIN-SUFFIX,websd8.com
   - DOMAIN-SUFFIX,wsgblw.com
@@ -569,6 +595,7 @@ payload:
   - DOMAIN-SUFFIX,zhenxinet.com
   - DOMAIN-SUFFIX,zhzzx.com
   - DOMAIN-SUFFIX,zlne800.com
+  - DOMAIN-SUFFIX,zmlled.cn
   - DOMAIN-SUFFIX,zunmi.cn
   - DOMAIN-SUFFIX,zzd6.com
   - IP-CIDR,103.49.209.27/32
@@ -604,7 +631,7 @@ payload:
   - IP-CIDR,61.160.200.223/32
   - IP-CIDR,61.160.200.242/32
   - IP-CIDR,61.160.200.252/32
-# Hijacking 与 ChinaTest 共 54 条规则重复
+# Hijacking 与 ChinaTest 共 56 条规则重复
   - DOMAIN-SUFFIX,186078.com
   - DOMAIN-SUFFIX,abbyychina.com
   - DOMAIN-SUFFIX,adsame.com
@@ -632,6 +659,7 @@ payload:
   - DOMAIN-SUFFIX,jsncke.com
   - DOMAIN-SUFFIX,keyshot.cc
   - DOMAIN-SUFFIX,kuaizip.com
+  - DOMAIN-SUFFIX,lvehaisen.com
   - DOMAIN-SUFFIX,mairuan.com
   - DOMAIN-SUFFIX,makeding.com
   - DOMAIN-SUFFIX,mindmanager.cc
@@ -652,6 +680,7 @@ payload:
   - DOMAIN-SUFFIX,wsgblw.com
   - DOMAIN-SUFFIX,wx16999.com
   - DOMAIN-SUFFIX,xchmai.com
+  - DOMAIN-SUFFIX,xitongqingli.com
   - DOMAIN-SUFFIX,xmindchina.net
   - DOMAIN-SUFFIX,xshellcn.com
   - DOMAIN-SUFFIX,yjqiqi.com

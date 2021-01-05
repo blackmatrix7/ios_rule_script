@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 11:07:17
+# UPDATED: 2021-01-06 02:59:06
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Proxy 与 Adobe 共 25 条规则重复
 DOMAIN-SUFFIX,acrobat.com
@@ -1674,9 +1674,8 @@ DOMAIN-SUFFIX,ytimg.com
 # Proxy 与 GoogleDriver 共 2 条规则重复
 DOMAIN-SUFFIX,googledrive.com
 DOMAIN-SUFFIX,googleusercontent.com
-# Proxy 与 YouTube 共 7 条规则重复
+# Proxy 与 YouTube 共 6 条规则重复
 DOMAIN-KEYWORD,youtube
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,youtu.be
@@ -2479,7 +2478,7 @@ IP-CIDR6,2001:67c:4e8::/48
 IP-CIDR6,2001:b28:f23d::/48
 IP-CIDR6,2001:b28:f23f::/48
 USER-AGENT,roam*
-# Proxy 与 GlobalMedia 共 114 条规则重复
+# Proxy 与 GlobalMedia 共 113 条规则重复
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,youtube
@@ -2490,7 +2489,6 @@ DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,ameba.jp
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,bbc.co

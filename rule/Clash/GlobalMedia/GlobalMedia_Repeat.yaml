@@ -1,24 +1,24 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-05 11:07:17
+# UPDATED: 2021-01-06 02:59:06
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # GlobalMedia 与 Adobe 共 1 条规则重复
   - DOMAIN-SUFFIX,bam.nr-data.net
 # GlobalMedia 与 Advertising 共 4 条规则重复
-  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,bluekai.com
   - DOMAIN-SUFFIX,braze.com
   - DOMAIN-SUFFIX,jwpcdn.com
   - DOMAIN-SUFFIX,socdm.com
 # GlobalMedia 与 AdvertisingTest 共 5 条规则重复
-  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,bluekai.com
   - DOMAIN-SUFFIX,braze.com
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,jwpcdn.com
   - DOMAIN-SUFFIX,socdm.com
 # GlobalMedia 与 AdvertisingLite 共 2 条规则重复
-  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,bluekai.com
   - DOMAIN-SUFFIX,socdm.com
 # GlobalMedia 与 AppleNews 共 1 条规则重复
   - DOMAIN,gspe1-ssl.ls.apple.com
@@ -29,10 +29,9 @@ payload:
 # GlobalMedia 与 Bahamut 共 2 条规则重复
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,gamer.com.tw
-# GlobalMedia 与 BlackList 共 19 条规则重复
+# GlobalMedia 与 BlackList 共 18 条规则重复
   - DOMAIN-SUFFIX,adobedtm.com
   - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,go.com
@@ -52,20 +51,17 @@ payload:
 # GlobalMedia 与 China 共 2 条规则重复
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,ibytedtos.com
-# GlobalMedia 与 ChinaTest 共 3 条规则重复
-  - DOMAIN-SUFFIX,app-measurement.com
+# GlobalMedia 与 ChinaTest 共 2 条规则重复
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,ibytedtos.com
-# GlobalMedia 与 Google 共 4 条规则重复
-  - DOMAIN-SUFFIX,app-measurement.com
+# GlobalMedia 与 Google 共 3 条规则重复
   - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,ytimg.com
-# GlobalMedia 与 YouTube 共 9 条规则重复
+# GlobalMedia 与 YouTube 共 8 条规则重复
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN,yt3.ggpht.com
   - DOMAIN-KEYWORD,youtube
-  - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,youtu.be
@@ -280,7 +276,7 @@ payload:
   - DOMAIN-SUFFIX,firebaseio.com
 # GlobalMedia 与 Privacy 共 1 条规则重复
   - DOMAIN-SUFFIX,cws.conviva.com
-# GlobalMedia 与 Proxy 共 114 条规则重复
+# GlobalMedia 与 Proxy 共 113 条规则重复
   - DOMAIN-KEYWORD,ttvnw
   - DOMAIN-KEYWORD,uk-live
   - DOMAIN-KEYWORD,youtube
@@ -291,7 +287,6 @@ payload:
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,amazonvideo.com
   - DOMAIN-SUFFIX,ameba.jp
-  - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,bamgrid.com
   - DOMAIN-SUFFIX,bbc.co

@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-06 02:59:06
+# UPDATED: 2021-01-07 02:59:57
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # AdvertisingLite 与 Adobe 共 4 条规则重复
@@ -9,7 +9,7 @@ payload:
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,newrelic.com
   - DOMAIN-SUFFIX,omtrdc.net
-# AdvertisingLite 与 Advertising 共 15827 条规则重复
+# AdvertisingLite 与 Advertising 共 15833 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0koryu0.easter.ne.jp
   - DOMAIN,0nso0tq1sa4.ml
@@ -59,7 +59,6 @@ payload:
   - DOMAIN,ad.21cn.com
   - DOMAIN,ad.9tv.co.il
   - DOMAIN,ad.getfond.info
-  - DOMAIN,ad.hori-gz.com
   - DOMAIN,ad.weibo.com
   - DOMAIN,ad4partners.com
   - DOMAIN,adb.fling.com
@@ -76,6 +75,7 @@ payload:
   - DOMAIN,ads-img-qc.xhscdn.com
   - DOMAIN,ads-video-qc.xhscdn.com
   - DOMAIN,ads.auctions.yahoo.com
+  - DOMAIN,ads.chinadaily.com.cn
   - DOMAIN,ads.data.pplive.com
   - DOMAIN,ads.finance.yahoo.com
   - DOMAIN,ads.yahoo.de
@@ -88,6 +88,7 @@ payload:
   - DOMAIN,adulttubetraffic.com
   - DOMAIN,adv-adlog.variflight.com
   - DOMAIN,adv-ads.variflight.com
+  - DOMAIN,adv.ettoday.net
   - DOMAIN,adv.riza.it
   - DOMAIN,adverigo.com
   - DOMAIN,advertisement.taobao.com
@@ -186,6 +187,7 @@ payload:
   - DOMAIN,btovopyov.com
   - DOMAIN,buffalogoesout.com
   - DOMAIN,buildviet.info
+  - DOMAIN,business-cdn.shouji.sogou.com
   - DOMAIN,buzina.xyz
   - DOMAIN,by98.com
   - DOMAIN,byvue.com
@@ -361,6 +363,7 @@ payload:
   - DOMAIN,gklmedia.com
   - DOMAIN,gloorajo.com
   - DOMAIN,go-quicky.com
+  - DOMAIN,go.bestmobiworld.com
   - DOMAIN,gogetgorgeous.com
   - DOMAIN,grand-ads.com
   - DOMAIN,greerlies.pro
@@ -618,6 +621,7 @@ payload:
   - DOMAIN,pornstarss.tk
   - DOMAIN,port.bg
   - DOMAIN,portablevaporizer.com
+  - DOMAIN,portraitphotographygroup.com
   - DOMAIN,pos-kupang.com
   - DOMAIN,potpourrichordataoscilloscope.com
   - DOMAIN,potvaporizer.com
@@ -655,6 +659,7 @@ payload:
   - DOMAIN,quickcash-system.com
   - DOMAIN,quotidiennokoue.com
   - DOMAIN,qzxcvb.m.zwdu.com
+  - DOMAIN,r.51wnl-cq.com
   - DOMAIN,r6.mo.baidu.com
   - DOMAIN,rainbowtgx.com
   - DOMAIN,rallyeair.com
@@ -717,11 +722,11 @@ payload:
   - DOMAIN,sexykittenporn.com
   - DOMAIN,sexyoilwrestling.com
   - DOMAIN,sexyster.tk
-  - DOMAIN,sf3-ttcdn-tos.pstatp.com
   - DOMAIN,sf6-ttcdn-tos.pstatp.com
   - DOMAIN,sgs.us.com
   - DOMAIN,shalseey.com
   - DOMAIN,shangmiss.wap.xsbiquge.com
+  - DOMAIN,shop17741405.m.youzan.com
   - DOMAIN,shopeasy.by
   - DOMAIN,show.1688.com
   - DOMAIN,sierra-fox.com
@@ -1000,6 +1005,7 @@ payload:
   - DOMAIN,wxa.wxs.qq.com
   - DOMAIN,wxbrdppfpr.com
   - DOMAIN,x.mochiads.com
+  - DOMAIN,xamateurpornlic.www1.biz
   - DOMAIN,xdtraffic.com
   - DOMAIN,xiamiss.wap.xsbiquge.com
   - DOMAIN,xindalawyer.com
@@ -1022,7 +1028,6 @@ payload:
   - DOMAIN,zanyx.club
   - DOMAIN,zengenti.com
   - DOMAIN,zeroredirect1.com
-  - DOMAIN,zkic.com
   - DOMAIN,zoomdirect.com.au
   - DOMAIN,zous.szm.sk
   - DOMAIN,zrosbqwecw.com
@@ -2730,6 +2735,7 @@ payload:
   - DOMAIN-SUFFIX,ads.google.com
   - DOMAIN-SUFFIX,ads.house365.com
   - DOMAIN-SUFFIX,ads.internal.unity3d.com
+  - DOMAIN-SUFFIX,ads.lejuliang.com
   - DOMAIN-SUFFIX,ads.linkedin.com
   - DOMAIN-SUFFIX,ads.mojicdn.com
   - DOMAIN-SUFFIX,ads.msn.com
@@ -15837,7 +15843,7 @@ payload:
   - IP-CIDR,69.28.57.245/32
   - IP-CIDR,74.117.182.77/32
   - IP-CIDR,78.140.131.214/32
-# AdvertisingLite 与 AdvertisingTest 共 15549 条规则重复
+# AdvertisingLite 与 AdvertisingTest 共 15554 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0koryu0.easter.ne.jp
   - DOMAIN,0nso0tq1sa4.ml
@@ -15884,7 +15890,6 @@ payload:
   - DOMAIN,ad.21cn.com
   - DOMAIN,ad.9tv.co.il
   - DOMAIN,ad.getfond.info
-  - DOMAIN,ad.hori-gz.com
   - DOMAIN,ad.weibo.com
   - DOMAIN,adclick.lv
   - DOMAIN,adcoin.click
@@ -15896,6 +15901,7 @@ payload:
   - DOMAIN,ads-4u.com
   - DOMAIN,ads-img-qc.xhscdn.com
   - DOMAIN,ads-video-qc.xhscdn.com
+  - DOMAIN,ads.chinadaily.com.cn
   - DOMAIN,ads.finance.yahoo.com
   - DOMAIN,ads.yahoo.de
   - DOMAIN,adserving.favorit-network.com
@@ -15984,6 +15990,7 @@ payload:
   - DOMAIN,btovopyov.com
   - DOMAIN,buffalogoesout.com
   - DOMAIN,buildviet.info
+  - DOMAIN,business-cdn.shouji.sogou.com
   - DOMAIN,buzina.xyz
   - DOMAIN,by98.com
   - DOMAIN,bzvimexwdle.com
@@ -16328,6 +16335,7 @@ payload:
   - DOMAIN,pornstarss.tk
   - DOMAIN,port.bg
   - DOMAIN,portablevaporizer.com
+  - DOMAIN,portraitphotographygroup.com
   - DOMAIN,pos-kupang.com
   - DOMAIN,potvaporizer.com
   - DOMAIN,powershopnet.net
@@ -16353,6 +16361,7 @@ payload:
   - DOMAIN,quickcash-system.com
   - DOMAIN,quotidiennokoue.com
   - DOMAIN,qzxcvb.m.zwdu.com
+  - DOMAIN,r.51wnl-cq.com
   - DOMAIN,r6.mo.baidu.com
   - DOMAIN,rainbowtgx.com
   - DOMAIN,rallyeair.com
@@ -16402,6 +16411,7 @@ payload:
   - DOMAIN,sexyster.tk
   - DOMAIN,sgs.us.com
   - DOMAIN,shangmiss.wap.xsbiquge.com
+  - DOMAIN,shop17741405.m.youzan.com
   - DOMAIN,show.1688.com
   - DOMAIN,sierra-fox.com
   - DOMAIN,skgroup.kiev.ua
@@ -16651,6 +16661,7 @@ payload:
   - DOMAIN,www.zyxyfy.com
   - DOMAIN,wxa.wxs.qq.com
   - DOMAIN,wxbrdppfpr.com
+  - DOMAIN,xamateurpornlic.www1.biz
   - DOMAIN,xiamiss.wap.xsbiquge.com
   - DOMAIN,xindalawyer.com
   - DOMAIN,xn--18225-zta.biz
@@ -16667,7 +16678,6 @@ payload:
   - DOMAIN,yxhd.hori-gz.com
   - DOMAIN,zaloapp.com
   - DOMAIN,zengenti.com
-  - DOMAIN,zkic.com
   - DOMAIN,zoomdirect.com.au
   - DOMAIN,zous.szm.sk
   - DOMAIN,zrosbqwecw.com
@@ -18370,6 +18380,7 @@ payload:
   - DOMAIN-SUFFIX,ads.google.com
   - DOMAIN-SUFFIX,ads.house365.com
   - DOMAIN-SUFFIX,ads.internal.unity3d.com
+  - DOMAIN-SUFFIX,ads.lejuliang.com
   - DOMAIN-SUFFIX,ads.linkedin.com
   - DOMAIN-SUFFIX,ads.mojicdn.com
   - DOMAIN-SUFFIX,ads.msn.com
@@ -31406,7 +31417,7 @@ payload:
   - DOMAIN-SUFFIX,mob.com
   - DOMAIN-SUFFIX,umengcloud.com
   - DOMAIN-SUFFIX,xdrig.com
-# AdvertisingLite 与 ChinaTest 共 655 条规则重复
+# AdvertisingLite 与 ChinaTest 共 654 条规则重复
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -31460,7 +31471,6 @@ payload:
   - DOMAIN-SUFFIX,520meirenyu.com
   - DOMAIN-SUFFIX,5293.com
   - DOMAIN-SUFFIX,55.la
-  - DOMAIN-SUFFIX,5egk.com
   - DOMAIN-SUFFIX,5pub.com
   - DOMAIN-SUFFIX,6669667.com
   - DOMAIN-SUFFIX,6711.com

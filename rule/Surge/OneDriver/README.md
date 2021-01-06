@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-06 02:59:07。
+最后检查时间：2021-01-07 02:59:58。
 
 ## 规则统计
 
@@ -47,7 +47,7 @@ OneDriver分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 771   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDriver/OneDriver_Repeat.list)   |   0.13% |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 607   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDriver/OneDriver_Repeat.list)   |   0.16% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72532   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDriver/OneDriver_Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72497   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDriver/OneDriver_Repeat.list)   |   0.0% |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 90   | [13](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDriver/OneDriver_Repeat.list)   |   14.44% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 859   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDriver/OneDriver_Repeat.list)   |   0.7% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 28026   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDriver/OneDriver_Repeat.list)   |   0.03% |

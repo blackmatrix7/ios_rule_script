@@ -2,3 +2,5 @@
 URL-REGEX,^https?:\/\/cdn-1rtb\.caiyunapp\.com\/creative\/.*$,REJECT
 # 百度地图开屏广告
 DOMAIN,dss0.bdstatic.com,REJECT
+# 票根启动广告
+DOMAIN-SUFFIX,ads.lejuliang.com,REJECT

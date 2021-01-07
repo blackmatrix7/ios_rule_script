@@ -9,13 +9,13 @@
 **含有我自己所有签到脚本的GetCookie复写。**
 
 
-最后检查时间：2021-01-07 03:00:20。
+最后检查时间：2021-01-07 23:38:35。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 16 |
+| mitm | 20 |
 | script-request-header | 10 |
 | script-response-body | 2 |
 | script-request-body | 3 |

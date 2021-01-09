@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-09 02:58:40。
+最后检查时间：2021-01-09 17:24:17。
 
 ## 规则统计
 
@@ -46,9 +46,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 25708   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNNIC/CNNIC_Repeat.list)   |   0.01% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 55018   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNNIC/CNNIC_Repeat.list)   |   0.01% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 72884   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNNIC/CNNIC_Repeat.list)   |   0.0% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 21904   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNNIC/CNNIC_Repeat.list)   |   0.01% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 48465   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNNIC/CNNIC_Repeat.list)   |   0.01% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 68218   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNNIC/CNNIC_Repeat.list)   |   0.0% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

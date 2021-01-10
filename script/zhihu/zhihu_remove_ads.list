@@ -1,8 +1,10 @@
 # 知乎去广告
 DOMAIN,118.89.204.198,REJECT-DROP
 DOMAIN-KEYWORD,118.89.204.198,REJECT-DROP
-IP-CIDR,118.89.204.198/32,no-resolve,REJECT-DROP
+IP-CIDR,118.89.204.198/32,REJECT-DROP,no-resolve
 DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,mqtt.zhihu.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
 USER-AGENT,AVOS*,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count|v\d\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad),REJECT
 # 拦截知乎回答下的广告

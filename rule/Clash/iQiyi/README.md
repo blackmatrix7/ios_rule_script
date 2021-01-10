@@ -8,16 +8,17 @@
 
 
 
-最后检查时间：2021-01-10 03:01:13。
+最后检查时间：2021-01-11 00:17:53。
 
 ## 规则统计
 
-总计规则：14 条。
+总计规则：15 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
+| DOMAIN | 1 |
 | DOMAIN-SUFFIX | 5 |
 | IP-CIDR | 8 |
 | DOMAIN-KEYWORD | 1 |
@@ -48,7 +49,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 72399   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQiyi/iQiyi_Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 72362   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQiyi/iQiyi_Repeat.list)   |   0.0% |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs)    | 6057   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQiyi/iQiyi_Repeat.list)   |   0.03% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 112   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQiyi/iQiyi_Repeat.list)   |   3.57% |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia)    | 22   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQiyi/iQiyi_Repeat.list)   |   18.18% |

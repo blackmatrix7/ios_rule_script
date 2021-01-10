@@ -14,14 +14,15 @@
 |[FitnessPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FitnessPlus) |[Siri](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Siri) |[SystemOTA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SystemOTA) |[TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TestFlight) |[iCloud](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iCloud) |||||
 
 ### AsianMedia
-|AsianMedia|  |  |
-| ---- | ---- | ---- |
-|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bahamut) |[Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Niconico) |
+|AsianMedia|  |  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bahamut) |[Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Douyu) |[Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Himalaya) |[Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Niconico) |[TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TencentVideo) |[Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku) ||||||
+|[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iQiyi) |||||
 
 ### ChinaMedia
-|ChinaMedia|  |
-| ---- | ---- |
-|[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili) |[ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia) |
+|ChinaMedia|  |  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili) |[ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia) |[Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Douyu) |[Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Himalaya) |[TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TencentVideo) |[Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku) |[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iQiyi) |
 
 ### Game
 |Game|  |  |  |  |  |  |
@@ -65,9 +66,10 @@
 |[Zhihu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Zhihu) |[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iQiyi) |
 
 ### Media
-|Media|  |  |
-| ---- | ---- | ---- |
-|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bahamut) |[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili) |
+|Media|  |  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bahamut) |[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bilibili) |[Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Douyu) |[Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Himalaya) |[TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TencentVideo) |[Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku) ||||||
+|[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iQiyi) |||||
 
 ### Microsoft
 |Microsoft|  |

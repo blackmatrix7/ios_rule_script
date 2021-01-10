@@ -14,14 +14,15 @@
 |[FitnessPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/FitnessPlus) |[Siri](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Siri) |[SystemOTA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/SystemOTA) |[TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/TestFlight) |[iCloud](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/iCloud) |||||
 
 ### AsianMedia
-|AsianMedia|  |  |
-| ---- | ---- | ---- |
-|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Bahamut) |[Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Niconico) |
+|AsianMedia|  |  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Bahamut) |[Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Douyu) |[Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Himalaya) |[Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Niconico) |[TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/TencentVideo) |[Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Youku) ||||||
+|[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/iQiyi) |||||
 
 ### ChinaMedia
-|ChinaMedia|  |
-| ---- | ---- |
-|[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Bilibili) |[ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ChinaMedia) |
+|ChinaMedia|  |  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Bilibili) |[ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ChinaMedia) |[Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Douyu) |[Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Himalaya) |[TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/TencentVideo) |[Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Youku) |[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/iQiyi) |
 
 ### Game
 |Game|  |  |  |  |  |  |
@@ -65,9 +66,10 @@
 |[Zhihu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Zhihu) |[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/iQiyi) |
 
 ### Media
-|Media|  |  |
-| ---- | ---- | ---- |
-|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Bahamut) |[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Bilibili) |
+|Media|  |  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Bahamut) |[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Bilibili) |[Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Douyu) |[Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Himalaya) |[TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/TencentVideo) |[Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Youku) ||||||
+|[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/iQiyi) |||||
 
 ### Microsoft
 |Microsoft|  |

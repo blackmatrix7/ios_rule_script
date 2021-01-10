@@ -1,7 +1,7 @@
 # NAME: China 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-10 03:01:00
+# UPDATED: 2021-01-11 00:17:41
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # China 与 WhiteList 共 1 条规则重复
 HOST,analytics.strava.com
@@ -71,8 +71,7 @@ HOST-SUFFIX,iesdouyin.com
 HOST-SUFFIX,pstatp.com
 HOST-SUFFIX,snssdk.com
 HOST-SUFFIX,toutiao.com
-# China 与 ChinaTest 共 653 条规则重复
-GEOIP,cn
+# China 与 ChinaTest 共 685 条规则重复
 HOST,analytics.strava.com
 HOST,blzddist1-a.akamaihd.net
 HOST,client.amplifi.com
@@ -91,10 +90,12 @@ HOST-KEYWORD,alipay
 HOST-KEYWORD,aliyun
 HOST-KEYWORD,baidu
 HOST-KEYWORD,beplay
+HOST-KEYWORD,microsoft
 HOST-KEYWORD,officecdn
 HOST-KEYWORD,speedtest
 HOST-KEYWORD,taobao
 HOST-SUFFIX,10010.com
+HOST-SUFFIX,10089.cn
 HOST-SUFFIX,115.com
 HOST-SUFFIX,12306.cn
 HOST-SUFFIX,12306.com
@@ -104,6 +105,7 @@ HOST-SUFFIX,127.net
 HOST-SUFFIX,163.com
 HOST-SUFFIX,163yun.com
 HOST-SUFFIX,17jita.com
+HOST-SUFFIX,189.cn
 HOST-SUFFIX,21cn.com
 HOST-SUFFIX,343480.com
 HOST-SUFFIX,356884.com
@@ -133,6 +135,7 @@ HOST-SUFFIX,aicoinstorge.com
 HOST-SUFFIX,aip.org
 HOST-SUFFIX,air-matters.com
 HOST-SUFFIX,air-matters.io
+HOST-SUFFIX,airhotels.cn
 HOST-SUFFIX,aixifan.com
 HOST-SUFFIX,akadns.net
 HOST-SUFFIX,aliapp.org
@@ -161,6 +164,7 @@ HOST-SUFFIX,ascelibrary.org
 HOST-SUFFIX,asm.org
 HOST-SUFFIX,asme.org
 HOST-SUFFIX,astm.org
+HOST-SUFFIX,autohome.com.cn
 HOST-SUFFIX,autonavi.com
 HOST-SUFFIX,awesome-hd.me
 HOST-SUFFIX,azure.cn
@@ -184,10 +188,13 @@ HOST-SUFFIX,biliapi.net
 HOST-SUFFIX,bilibili.com
 HOST-SUFFIX,bilibili.tv
 HOST-SUFFIX,bilivideo.com
+HOST-SUFFIX,bing.com
+HOST-SUFFIX,bing.net
 HOST-SUFFIX,bitauto.com
 HOST-SUFFIX,bjango.com
 HOST-SUFFIX,blizzard.com
 HOST-SUFFIX,bmj.com
+HOST-SUFFIX,boc.cn
 HOST-SUFFIX,booking.com
 HOST-SUFFIX,broadcasthe.net
 HOST-SUFFIX,bstatic.com
@@ -199,6 +206,7 @@ HOST-SUFFIX,cambridge.org
 HOST-SUFFIX,camera360.com
 HOST-SUFFIX,cas.org
 HOST-SUFFIX,ccb.com
+HOST-SUFFIX,ccb.com.cn
 HOST-SUFFIX,ccgslb.com
 HOST-SUFFIX,ccgslb.net
 HOST-SUFFIX,cctv.com
@@ -224,7 +232,9 @@ HOST-SUFFIX,clouddn.com
 HOST-SUFFIX,cloudsigma.com
 HOST-SUFFIX,cloudxns.net
 HOST-SUFFIX,cmbchina.com
+HOST-SUFFIX,cmbimg
 HOST-SUFFIX,cmbimg.com
+HOST-SUFFIX,cmbt.cn
 HOST-SUFFIX,cmct.tv
 HOST-SUFFIX,cmfu.com
 HOST-SUFFIX,cn
@@ -327,6 +337,7 @@ HOST-SUFFIX,hxcdn.net
 HOST-SUFFIX,ibeta.me
 HOST-SUFFIX,ibm.com
 HOST-SUFFIX,ibytedtos.com
+HOST-SUFFIX,icbc.com.cn
 HOST-SUFFIX,icedropper.com
 HOST-SUFFIX,icetorrent.org
 HOST-SUFFIX,icevirtuallibrary.com
@@ -345,6 +356,7 @@ HOST-SUFFIX,iop.org
 HOST-SUFFIX,ip-cdn.com
 HOST-SUFFIX,ip.la
 HOST-SUFFIX,ip.sb
+HOST-SUFFIX,ipify.org
 HOST-SUFFIX,ipip.net
 HOST-SUFFIX,ipv6-test.com
 HOST-SUFFIX,iqiyi.com
@@ -378,6 +390,7 @@ HOST-SUFFIX,kkmh.com
 HOST-SUFFIX,knewone.com
 HOST-SUFFIX,ksosoft.com
 HOST-SUFFIX,ksyun.com
+HOST-SUFFIX,ksyunacc.cn
 HOST-SUFFIX,kuaidi100.com
 HOST-SUFFIX,kugou.com
 HOST-SUFFIX,kuyunbo.club
@@ -390,6 +403,8 @@ HOST-SUFFIX,letvcloud.com
 HOST-SUFFIX,libguides.com
 HOST-SUFFIX,licdn.com
 HOST-SUFFIX,linkedin.com
+HOST-SUFFIX,live.com
+HOST-SUFFIX,live.net
 HOST-SUFFIX,livechina.com
 HOST-SUFFIX,liyuans.com
 HOST-SUFFIX,lizhi.io
@@ -424,6 +439,7 @@ HOST-SUFFIX,mi.com
 HOST-SUFFIX,miaopai.com
 HOST-SUFFIX,microsoft.com
 HOST-SUFFIX,microsoftonline.com
+HOST-SUFFIX,microsofttranslator.com
 HOST-SUFFIX,miui.com
 HOST-SUFFIX,miwifi.com
 HOST-SUFFIX,mls-cdn.com
@@ -433,8 +449,12 @@ HOST-SUFFIX,moji.com
 HOST-SUFFIX,moke.com
 HOST-SUFFIX,morethan.tv
 HOST-SUFFIX,mpg.de
+HOST-SUFFIX,ms
+HOST-SUFFIX,msauth.net
 HOST-SUFFIX,msecnd.net
+HOST-SUFFIX,msedge.net
 HOST-SUFFIX,msn.com
+HOST-SUFFIX,msocdn.com
 HOST-SUFFIX,mubu.com
 HOST-SUFFIX,mxhichina.com
 HOST-SUFFIX,myanonamouse.net
@@ -459,10 +479,14 @@ HOST-SUFFIX,nuomi.com
 HOST-SUFFIX,nvidia.com
 HOST-SUFFIX,oecd-ilibrary.org
 HOST-SUFFIX,office.com
+HOST-SUFFIX,office.net
 HOST-SUFFIX,office365.com
+HOST-SUFFIX,onenote.com
+HOST-SUFFIX,onenote.net
 HOST-SUFFIX,ooklaserver.net
 HOST-SUFFIX,open.cd
 HOST-SUFFIX,oracle.com
+HOST-SUFFIX,originlab.com
 HOST-SUFFIX,osapublishing.org
 HOST-SUFFIX,oschina.net
 HOST-SUFFIX,oup.com
@@ -481,6 +505,7 @@ HOST-SUFFIX,paypal.me
 HOST-SUFFIX,paypalobjects.com
 HOST-SUFFIX,pgyer.com
 HOST-SUFFIX,pingan.com
+HOST-SUFFIX,pingan.com.cn
 HOST-SUFFIX,playstation.com
 HOST-SUFFIX,playstation.net
 HOST-SUFFIX,playstationnetwork.com
@@ -508,6 +533,8 @@ HOST-SUFFIX,qiniucdn.com
 HOST-SUFFIX,qiniudn.com
 HOST-SUFFIX,qiyi.com
 HOST-SUFFIX,qiyipic.com
+HOST-SUFFIX,qlogo.cn
+HOST-SUFFIX,qpic.cn
 HOST-SUFFIX,qq.com
 HOST-SUFFIX,qqmail.com
 HOST-SUFFIX,qqurl.com
@@ -641,6 +668,8 @@ HOST-SUFFIX,wkcdn.com
 HOST-SUFFIX,workflowy.com
 HOST-SUFFIX,worldbank.org
 HOST-SUFFIX,worldscientific.com
+HOST-SUFFIX,xbox.com
+HOST-SUFFIX,xboxlive.com
 HOST-SUFFIX,xdrig.com
 HOST-SUFFIX,xhostfire.com
 HOST-SUFFIX,xiachufang.com
@@ -695,6 +724,7 @@ IP6-CIDR,2a0b:b580::/48
 IP6-CIDR,2a0b:b581::/48
 IP6-CIDR,2a0b:b582::/48
 IP6-CIDR,2a0b:b583::/48
+USER-AGENT,%e4%b8%ad%e5%9b%bd%e5%b7%a5%e5%95%86%e9%93%b6%e8%a1%8c*
 USER-AGENT,%e4%ba%ac%e4%b8%9c%e5%88%b0%e5%ae%b6*
 USER-AGENT,%e4%bc%81%e4%b8%9a%e5%be%ae%e4%bf%a1*
 USER-AGENT,%e4%bc%98%e9%85%b7*
@@ -705,6 +735,7 @@ USER-AGENT,adblock*
 USER-AGENT,arrowio*
 USER-AGENT,balls*
 USER-AGENT,best%20trace*
+USER-AGENT,cmb*
 USER-AGENT,cmblife*
 USER-AGENT,eusoft_ting_en_iphone
 USER-AGENT,hearthstone*
@@ -713,6 +744,7 @@ USER-AGENT,megawerewolf*
 USER-AGENT,micromessenger%20client
 USER-AGENT,micromessenger*
 USER-AGENT,micromessengerclient*
+USER-AGENT,microsoft*
 USER-AGENT,moke*
 USER-AGENT,neteasemusic*
 USER-AGENT,osee2unifiedrelease*
@@ -791,16 +823,6 @@ USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*
 USER-AGENT,neteasemusic*
 USER-AGENT,yyets*
 # China 与 NetEase 共 9 条规则重复
-HOST-SUFFIX,126.com
-HOST-SUFFIX,126.net
-HOST-SUFFIX,127.net
-HOST-SUFFIX,163.com
-HOST-SUFFIX,163yun.com
-HOST-SUFFIX,lofter.com
-HOST-SUFFIX,netease.com
-HOST-SUFFIX,ydstatic.com
-HOST-SUFFIX,youdao.com
-# China 与 NetEaseMusic 共 9 条规则重复
 HOST-SUFFIX,126.com
 HOST-SUFFIX,126.net
 HOST-SUFFIX,127.net
@@ -934,7 +956,7 @@ HOST-SUFFIX,mob.com
 HOST-SUFFIX,umeng.com
 HOST-SUFFIX,umengcloud.com
 HOST-SUFFIX,xdrig.com
-# China 与 Advertising 共 12 条规则重复
+# China 与 Advertising 共 13 条规则重复
 HOST-SUFFIX,360in.com
 HOST-SUFFIX,71.am
 HOST-SUFFIX,aliapp.org
@@ -943,11 +965,12 @@ HOST-SUFFIX,easou.com
 HOST-SUFFIX,fengkongcloud.com
 HOST-SUFFIX,jiathis.com
 HOST-SUFFIX,mob.com
+HOST-SUFFIX,tawk.to
 HOST-SUFFIX,umeng.com
 HOST-SUFFIX,umengcloud.com
 HOST-SUFFIX,xdrig.com
 HOST-SUFFIX,zmzfile.com
-# China 与 AdvertisingTest 共 12 条规则重复
+# China 与 AdvertisingTest 共 13 条规则重复
 HOST-SUFFIX,360in.com
 HOST-SUFFIX,71.am
 HOST-SUFFIX,aliapp.org
@@ -956,6 +979,7 @@ HOST-SUFFIX,easou.com
 HOST-SUFFIX,fengkongcloud.com
 HOST-SUFFIX,jiathis.com
 HOST-SUFFIX,mob.com
+HOST-SUFFIX,tawk.to
 HOST-SUFFIX,umeng.com
 HOST-SUFFIX,umengcloud.com
 HOST-SUFFIX,xdrig.com

@@ -14,14 +14,15 @@
 |[FitnessPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/FitnessPlus) |[Siri](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Siri) |[SystemOTA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SystemOTA) |[TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TestFlight) |[iCloud](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iCloud) |||||
 
 ### AsianMedia
-|AsianMedia|  |  |
-| ---- | ---- | ---- |
-|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bahamut) |[Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico) |
+|AsianMedia|  |  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bahamut) |[Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Douyu) |[Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Himalaya) |[Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Niconico) |[TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TencentVideo) |[Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Youku) ||||||
+|[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iQiyi) |||||
 
 ### ChinaMedia
-|ChinaMedia|  |
-| ---- | ---- |
-|[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili) |[ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia) |
+|ChinaMedia|  |  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili) |[ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia) |[Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Douyu) |[Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Himalaya) |[TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TencentVideo) |[Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Youku) |[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iQiyi) |
 
 ### Game
 |Game|  |  |  |  |  |  |
@@ -65,9 +66,10 @@
 |[Zhihu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Zhihu) |[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iQiyi) |
 
 ### Media
-|Media|  |  |
-| ---- | ---- | ---- |
-|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bahamut) |[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili) |
+|Media|  |  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bahamut) |[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bilibili) |[Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Douyu) |[Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Himalaya) |[TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TencentVideo) |[Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Youku) ||||||
+|[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iQiyi) |||||
 
 ### Microsoft
 |Microsoft|  |

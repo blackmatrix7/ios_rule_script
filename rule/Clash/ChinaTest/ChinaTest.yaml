@@ -1,13 +1,13 @@
 # NAME: ChinaTest
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-10 03:00:58
-# DOMAIN-SUFFIX: 72370
+# UPDATED: 2021-01-11 00:17:39
+# DOMAIN-SUFFIX: 72331
 # DOMAIN: 11
 # IP-CIDR: 4
-# DOMAIN-KEYWORD: 10
+# DOMAIN-KEYWORD: 12
 # IP-CIDR6: 4
-# TOTAL: 72399
+# TOTAL: 72362
 payload:
   - DOMAIN-KEYWORD,-cn
   - DOMAIN-KEYWORD,.tmall.com
@@ -16,6 +16,8 @@ payload:
   - DOMAIN-KEYWORD,aliyun
   - DOMAIN-KEYWORD,baidu
   - DOMAIN-KEYWORD,beplay
+  - DOMAIN-KEYWORD,icloud.com.akadns.net
+  - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,officecdn
   - DOMAIN-KEYWORD,speedtest
   - DOMAIN-KEYWORD,taobao

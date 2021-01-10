@@ -14,14 +14,15 @@
 |[FitnessPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/FitnessPlus) |[Siri](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Siri) |[SystemOTA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SystemOTA) |[TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TestFlight) |[iCloud](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iCloud) |||||
 
 ### AsianMedia
-|AsianMedia|  |  |
-| ---- | ---- | ---- |
-|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut) |[Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico) |
+|AsianMedia|  |  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut) |[Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Douyu) |[Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Himalaya) |[Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico) |[TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TencentVideo) |[Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youku) ||||||
+|[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi) |||||
 
 ### ChinaMedia
-|ChinaMedia|  |
-| ---- | ---- |
-|[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili) |[ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia) |
+|ChinaMedia|  |  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili) |[ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia) |[Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Douyu) |[Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Himalaya) |[TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TencentVideo) |[Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youku) |[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi) |
 
 ### Game
 |Game|  |  |  |  |  |  |
@@ -65,9 +66,10 @@
 |[Zhihu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Zhihu) |[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi) |
 
 ### Media
-|Media|  |  |
-| ---- | ---- | ---- |
-|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut) |[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili) |
+|Media|  |  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut) |[Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili) |[Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Douyu) |[Himalaya](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Himalaya) |[TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TencentVideo) |[Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youku) ||||||
+|[iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi) |||||
 
 ### Microsoft
 |Microsoft|  |

@@ -1,15 +1,14 @@
 # NAME: ChinaTest
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-10 03:00:56
-# DOMAIN-SUFFIX: 72370
-# USER-AGENT: 30
+# UPDATED: 2021-01-11 00:17:36
+# DOMAIN-SUFFIX: 72331
+# USER-AGENT: 33
 # DOMAIN: 11
 # IP-CIDR: 4
-# DOMAIN-KEYWORD: 10
+# DOMAIN-KEYWORD: 12
 # IP-CIDR6: 4
-# GEOIP: 1
-# TOTAL: 72430
+# TOTAL: 72395
 DOMAIN-KEYWORD,-cn
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -17,6 +16,8 @@ DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,aliyun
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,beplay
+DOMAIN-KEYWORD,icloud.com.akadns.net
+DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,officecdn
 DOMAIN-KEYWORD,speedtest
 DOMAIN-KEYWORD,taobao
@@ -28,7 +29,7 @@ IP-CIDR6,2a0b:b580::/48,no-resolve
 IP-CIDR6,2a0b:b581::/48,no-resolve
 IP-CIDR6,2a0b:b582::/48,no-resolve
 IP-CIDR6,2a0b:b583::/48,no-resolve
-GEOIP,cn
+USER-AGENT,%e4%b8%ad%e5%9b%bd%e5%b7%a5%e5%95%86%e9%93%b6%e8%a1%8c*
 USER-AGENT,%e4%ba%ac%e4%b8%9c%e5%88%b0%e5%ae%b6*
 USER-AGENT,%e4%bc%81%e4%b8%9a%e5%be%ae%e4%bf%a1*
 USER-AGENT,%e4%bc%98%e9%85%b7*
@@ -39,6 +40,7 @@ USER-AGENT,adblock*
 USER-AGENT,arrowio*
 USER-AGENT,balls*
 USER-AGENT,best%20trace*
+USER-AGENT,cmb*
 USER-AGENT,cmblife*
 USER-AGENT,eusoft_ting_en_iphone
 USER-AGENT,hearthstone*
@@ -47,6 +49,7 @@ USER-AGENT,megawerewolf*
 USER-AGENT,micromessenger%20client
 USER-AGENT,micromessenger*
 USER-AGENT,micromessengerclient*
+USER-AGENT,microsoft*
 USER-AGENT,moke*
 USER-AGENT,neteasemusic*
 USER-AGENT,osee2unifiedrelease*

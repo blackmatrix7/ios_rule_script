@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-11 00:17:45。
+最后检查时间：2021-01-11 03:02:15。
 
 ## 规则统计
 
@@ -45,23 +45,23 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 - AppleBlock
 
-- iCloud
-
-- TestFlight
-
-- Siri
-
-- FitnessPlus
-
-- AppleMail
-
-- AppleMusic
-
 - AppleNews
 
 - AppStore
 
 - AppleTV
+
+- iCloud
+
+- FitnessPlus
+
+- TestFlight
+
+- AppleMusic
+
+- Siri
+
+- AppleMail
 
 除非特殊需求，否则不建议重复引用。
 

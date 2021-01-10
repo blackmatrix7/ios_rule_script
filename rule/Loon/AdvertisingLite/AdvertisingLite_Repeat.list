@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-11 00:17:42
+# UPDATED: 2021-01-11 03:02:12
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # AdvertisingLite 与 WhiteList 共 1 条规则重复
 DOMAIN,ad.10010.com
@@ -16344,7 +16344,6 @@ URL-REGEX,^https?:\/\/.+?/V\d\/splash\/getSplashV\d\.action
 URL-REGEX,^https?:\/\/.+?\.58cdn\.com\.cn\/brandads\/
 URL-REGEX,^https?:\/\/.+?\.atm\.youku\.com
 URL-REGEX,^https?:\/\/.+?\.iydsj\.com\/api\/.+?\/ad
-URL-REGEX,^https?:\/\/.+?\.kingsoft-office-service\.com\/ad
 URL-REGEX,^https?:\/\/.+?\.mp4\?ccode=0902
 URL-REGEX,^https?:\/\/.+?\.mp4\?sid=
 URL-REGEX,^https?:\/\/.+?\.pstatp\.com\/img\/ad
@@ -16369,10 +16368,11 @@ URL-REGEX,^https?:\/\/\w+.gdt.qq.com
 URL-REGEX,^https?:\/\/\w+?\.ximalaya\.com\/api\/v\d\/adRealTime
 URL-REGEX,^https?:\/\/\w+\.cloudfront\.net\/banner
 URL-REGEX,^https?:\/\/\w+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/
+URL-REGEX,^https?:\/\/\w+\.kingsoft-office-service\.com\/ad
 URL-REGEX,^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking)
 URL-REGEX,^https?:\/\/\w.?up\.qingdaonews\.com
 URL-REGEX,^https?:\/\/\w{6}.com1.z0.glb.clouddn.com
-URL-REGEX,^https?:\/\/\w{8}.logic.cpm.cm.kankan.com
+URL-REGEX,^https?:\/\/\w{8}\.logic\.cpm\.cm\.kankan\.com
 URL-REGEX,^https?:\/\/a0b\w{2}\.com
 URL-REGEX,^https?:\/\/a\.apicloud\.com\/start_page\/
 URL-REGEX,^https?:\/\/a\.qiumibao\.com\/activities\/config\.php
@@ -31994,7 +31994,6 @@ URL-REGEX,^https?:\/\/.+?/V\d\/splash\/getSplashV\d\.action
 URL-REGEX,^https?:\/\/.+?\.58cdn\.com\.cn\/brandads\/
 URL-REGEX,^https?:\/\/.+?\.atm\.youku\.com
 URL-REGEX,^https?:\/\/.+?\.iydsj\.com\/api\/.+?\/ad
-URL-REGEX,^https?:\/\/.+?\.kingsoft-office-service\.com\/ad
 URL-REGEX,^https?:\/\/.+?\.mp4\?ccode=0902
 URL-REGEX,^https?:\/\/.+?\.mp4\?sid=
 URL-REGEX,^https?:\/\/.+?\.pstatp\.com\/img\/ad
@@ -32019,10 +32018,11 @@ URL-REGEX,^https?:\/\/\w+.gdt.qq.com
 URL-REGEX,^https?:\/\/\w+?\.ximalaya\.com\/api\/v\d\/adRealTime
 URL-REGEX,^https?:\/\/\w+\.cloudfront\.net\/banner
 URL-REGEX,^https?:\/\/\w+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/
+URL-REGEX,^https?:\/\/\w+\.kingsoft-office-service\.com\/ad
 URL-REGEX,^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking)
 URL-REGEX,^https?:\/\/\w.?up\.qingdaonews\.com
 URL-REGEX,^https?:\/\/\w{6}.com1.z0.glb.clouddn.com
-URL-REGEX,^https?:\/\/\w{8}.logic.cpm.cm.kankan.com
+URL-REGEX,^https?:\/\/\w{8}\.logic\.cpm\.cm\.kankan\.com
 URL-REGEX,^https?:\/\/a0b\w{2}\.com
 URL-REGEX,^https?:\/\/a\.apicloud\.com\/start_page\/
 URL-REGEX,^https?:\/\/a\.qiumibao\.com\/activities\/config\.php

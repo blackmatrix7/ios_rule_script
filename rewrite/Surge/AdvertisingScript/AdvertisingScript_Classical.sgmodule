@@ -1,5 +1,5 @@
 #!name=脚本去广告
-#!desc=最后更新时间 2021-01-11 03:02:41
+#!desc=最后更新时间 2021-01-11 22:44:40
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=16
@@ -9,6 +9,8 @@
 [Rule]
 DOMAIN,118.89.204.198,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,mqtt.zhihu.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN-KEYWORD,118.89.204.198,REJECT
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 IP-CIDR,118.89.204.198/32,REJECT,no-resolve

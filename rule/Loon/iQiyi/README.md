@@ -8,18 +8,18 @@
 
 
 
-最后检查时间：2021-01-11 03:02:20。
+最后检查时间：2021-01-11 22:44:18。
 
 ## 规则统计
 
-总计规则：17 条。
+总计规则：19 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | USER-AGENT | 2 |
-| DOMAIN | 1 |
+| DOMAIN | 3 |
 | DOMAIN-SUFFIX | 5 |
 | IP-CIDR | 8 |
 | DOMAIN-KEYWORD | 1 |
@@ -50,7 +50,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72395   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/iQiyi/iQiyi_Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72354   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/iQiyi/iQiyi_Repeat.list)   |   0.0% |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6057   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/iQiyi/iQiyi_Repeat.list)   |   0.03% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 141   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/iQiyi/iQiyi_Repeat.list)   |   4.26% |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 27   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/iQiyi/iQiyi_Repeat.list)   |   18.52% |

@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-11 03:02:09
+# UPDATED: 2021-01-11 22:44:06
 # DOMAIN-SUFFIX: 1128
 # DOMAIN-KEYWORD: 27
 # IP-CIDR: 66
 # IP-CIDR6: 3
-# DOMAIN: 26
+# DOMAIN: 27
 # PROCESS-NAME: 1
-# TOTAL: 1251
+# TOTAL: 1252
 payload:
   - 'abematv.akamaized.net'
   - 'api.steampowered.com'
@@ -29,6 +29,7 @@ payload:
   - 'linear-abematv.akamaized.net'
   - 'lookup-api.apple.com'
   - 'ocsp.apple.com'
+  - 'ocsp.int-x3.letsencrypt.org'
   - 'players.brightcove.net'
   - 'search.avira.com'
   - 'store-images.s-microsoft.com'

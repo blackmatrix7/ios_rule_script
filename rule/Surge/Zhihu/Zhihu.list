@@ -1,15 +1,17 @@
 # NAME: Zhihu
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-11 03:02:06
+# UPDATED: 2021-01-11 22:44:03
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN: 1
+# DOMAIN: 3
 # DOMAIN-KEYWORD: 1
 # IP-CIDR: 1
 # USER-AGENT: 1
 # URL-REGEX: 7
-# TOTAL: 11
+# TOTAL: 13
 DOMAIN,118.89.204.198
+DOMAIN,mqtt.zhihu.com
+DOMAIN,sugar.zhihu.com
 DOMAIN-KEYWORD,118.89.204.198
 IP-CIDR,118.89.204.198/32,no-resolve
 USER-AGENT,avos*

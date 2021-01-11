@@ -9,17 +9,17 @@
 **本分流规则，需要搭配 https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu 使用。**
 
 
-最后检查时间：2021-01-11 03:02:17。
+最后检查时间：2021-01-11 22:44:14。
 
 ## 规则统计
 
-总计规则：4 条。
+总计规则：6 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 1 |
+| HOST | 3 |
 | HOST-KEYWORD | 1 |
 | IP-CIDR | 1 |
 | USER-AGENT | 1 |

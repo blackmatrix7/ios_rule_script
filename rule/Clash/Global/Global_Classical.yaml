@@ -1,18 +1,20 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-13 00:02:14
+# UPDATED: 2021-01-13 00:37:21
 # DOMAIN-SUFFIX: 1128
 # DOMAIN-KEYWORD: 27
 # IP-CIDR: 66
 # IP-CIDR6: 3
-# DOMAIN: 27
+# DOMAIN: 29
 # PROCESS-NAME: 1
-# TOTAL: 1252
+# TOTAL: 1254
 payload:
   - DOMAIN,abematv.akamaized.net
+  - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,api.steampowered.com
   - DOMAIN,apps.apple.com
+  - DOMAIN,az416426.vo.msecnd.net
   - DOMAIN,az668014.vo.msecnd.net
   - DOMAIN,beta.music.apple.com
   - DOMAIN,books.itunes.apple.com

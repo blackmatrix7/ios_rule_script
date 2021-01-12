@@ -1,7 +1,7 @@
 # NAME: BlackList 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-13 00:02:22
+# UPDATED: 2021-01-13 00:37:29
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # BlackList 与 China 共 22 条规则重复
 DOMAIN-SUFFIX,apache.org
@@ -59,7 +59,8 @@ DOMAIN-SUFFIX,appsto.re
 PROCESS-NAME,lookupviewservice
 # BlackList 与 TestFlight 共 1 条规则重复
 DOMAIN,testflight.apple.com
-# BlackList 与 AppleBlock 共 5 条规则重复
+# BlackList 与 AppleBlock 共 6 条规则重复
+DOMAIN,api-glb-sea.smoot.apple.com
 DOMAIN,books.itunes.apple.com
 DOMAIN,hls.itunes.apple.com
 DOMAIN,lookup-api.apple.com
@@ -972,7 +973,8 @@ PROCESS-NAME,lookupviewservice
 USER-AGENT,battleroyale*
 USER-AGENT,roam*
 USER-AGENT,whatsapp*
-# BlackList 与 Global 共 676 条规则重复
+# BlackList 与 Global 共 677 条规则重复
+DOMAIN,api-glb-sea.smoot.apple.com
 DOMAIN,books.itunes.apple.com
 DOMAIN,hls.itunes.apple.com
 DOMAIN,lookup-api.apple.com

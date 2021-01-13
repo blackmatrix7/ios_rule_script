@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-13 03:09:56。
+最后检查时间：2021-01-14 03:24:41。
 
 ## 规则统计
 
@@ -54,7 +54,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 689   | [24](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   3.48% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72396   | [257](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   0.35% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72184   | [257](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   0.36% |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6057   | [38](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   0.63% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 141   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   3.55% |
 |  [Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youku)    | 1   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   100.0% |
@@ -65,11 +65,11 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 |  [UC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/UC)    | 38   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   2.63% |
 |  [XiamiMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/XiamiMusic)    | 5   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   40.0% |
 |  [YoukuTudou](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/YoukuTudou)    | 36   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   8.33% |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 20915   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   0.02% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 49711   | [13](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   0.03% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 69034   | [13](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   0.02% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 20752   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   0.02% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 49379   | [13](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   0.03% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 68806   | [13](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   0.02% |
 |  [Hijacking](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking)    | 219   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   0.46% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27942   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   0.01% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27895   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   0.01% |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 27   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Alibaba/Alibaba_Repeat.list)   |   3.7% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-13 03:09:49。
+最后检查时间：2021-01-14 03:24:34。
 
 ## 规则统计
 
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 689   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/SohuSogo/SohuSogo_Repeat.list)   |   1.02% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 72396   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/SohuSogo/SohuSogo_Repeat.list)   |   0.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 72184   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/SohuSogo/SohuSogo_Repeat.list)   |   0.01% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 141   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/SohuSogo/SohuSogo_Repeat.list)   |   1.42% |
 |  [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/56)    | 10   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/SohuSogo/SohuSogo_Repeat.list)   |   10.0% |
 |  [Sohu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sohu)    | 53   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/SohuSogo/SohuSogo_Repeat.list)   |   15.09% |

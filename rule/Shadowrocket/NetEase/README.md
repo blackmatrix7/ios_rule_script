@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-13 03:10:10。
+最后检查时间：2021-01-14 03:24:55。
 
 ## 规则统计
 
@@ -53,9 +53,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/China)    | 689   | [11](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/NetEase/NetEase_Repeat.list)   |   1.6% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ChinaTest)    | 72396   | [39](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/NetEase/NetEase_Repeat.list)   |   0.05% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ChinaTest)    | 72184   | [39](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/NetEase/NetEase_Repeat.list)   |   0.05% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ChinaMedia)    | 141   | [11](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/NetEase/NetEase_Repeat.list)   |   7.8% |
-|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/NetEaseMusic)    | 38   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/NetEase/NetEase_Repeat.list)   |   57.89% |
+|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/NetEaseMusic)    | 32   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/NetEase/NetEase_Repeat.list)   |   68.75% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

@@ -1,7 +1,7 @@
 # NAME: Tencent 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-13 03:09:41
+# UPDATED: 2021-01-14 03:24:26
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Tencent 与 BiliBili 共 1 条规则重复
 DOMAIN-SUFFIX,smtcdns.net
@@ -184,12 +184,8 @@ DOMAIN-SUFFIX,xxsy.net
 DOMAIN-SUFFIX,yuewen.com
 # Tencent 与 ChinaIPs 共 1 条规则重复
 IP-CIDR,103.7.28.0/22
-# Tencent 与 ChinaMedia 共 10 条规则重复
-DOMAIN-SUFFIX,qqmusic.qq.com
+# Tencent 与 ChinaMedia 共 6 条规则重复
 DOMAIN-SUFFIX,smtcdns.net
-DOMAIN-SUFFIX,v.qq.com
-DOMAIN-SUFFIX,video.qq.com
-DOMAIN-SUFFIX,y.qq.com
 USER-AGENT,live4iphone*
 USER-AGENT,moo%e9%9f%b3%e4%b9%90*
 USER-AGENT,qq%e9%9f%b3%e4%b9%90

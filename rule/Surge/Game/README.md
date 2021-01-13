@@ -9,7 +9,7 @@
 **含有Steam、Blizzard、Discord、Rockstar等分流规则**
 
 
-最后检查时间：2021-01-13 03:09:46。
+最后检查时间：2021-01-14 03:24:31。
 
 ## 规则统计
 
@@ -51,7 +51,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 689   | [17](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   2.47% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72396   | [17](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   0.02% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72184   | [17](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   0.02% |
 |  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Blizzard)    | 38   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   7.89% |
 |  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Steam)    | 31   | [11](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   35.48% |
 |  [Rockstar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Rockstar)    | 5   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   20.0% |
@@ -61,7 +61,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 |  [WildRift](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/WildRift)    | 3   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   100.0% |
 |  [Supercell](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Supercell)    | 24   | [24](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   100.0% |
 |  [Riot](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Riot)    | 54   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   5.56% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27943   | [26](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   0.09% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27896   | [26](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   0.09% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 1294   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   0.7% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 772   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   0.39% |
 |  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Discord)    | 6   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game_Repeat.list)   |   100.0% |

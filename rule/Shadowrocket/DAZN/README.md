@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-13 03:10:16。
+最后检查时间：2021-01-14 03:25:01。
 
 ## 规则统计
 
@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Privacy)    | 2834   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/DAZN/DAZN_Repeat.list)   |   0.04% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Proxy)    | 27943   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/DAZN/DAZN_Repeat.list)   |   0.03% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Proxy)    | 27896   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/DAZN/DAZN_Repeat.list)   |   0.03% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Global)    | 1294   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/DAZN/DAZN_Repeat.list)   |   0.31% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GlobalMedia)    | 1149   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/DAZN/DAZN_Repeat.list)   |   1.22% |
 ### 特别说明

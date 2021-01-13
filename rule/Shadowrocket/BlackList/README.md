@@ -9,7 +9,7 @@
 **黑名单指被XXX或国内直连非常慢的网址，等同于Proxy，建议直接使用Proxy分流规则，此项因为历史原因保留。**
 
 
-最后检查时间：2021-01-13 03:10:15。
+最后检查时间：2021-01-14 03:25:00。
 
 ## 规则统计
 
@@ -53,7 +53,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/China)    | 689   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   3.19% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ChinaTest)    | 72396   | [27](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   0.04% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ChinaTest)    | 72184   | [27](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   0.04% |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Apple)    | 107   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   1.87% |
 |  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/TestFlight)    | 3   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   33.33% |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AppleBlock)    | 6   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   100.0% |
@@ -63,21 +63,21 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Microsoft)    | 101   | [13](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   12.87% |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/YouTube)    | 182   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   1.65% |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Google)    | 111   | [41](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   36.94% |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingLite)    | 20915   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   0.04% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Advertising)    | 49711   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   0.04% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingTest)    | 69034   | [27](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   0.04% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingLite)    | 20752   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   0.04% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Advertising)    | 49379   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   0.04% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingTest)    | 68806   | [27](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   0.04% |
 |  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Game)    | 64   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   4.69% |
 |  [Epic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Epic)    | 15   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   6.67% |
 |  [WildRift](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/WildRift)    | 3   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   66.67% |
 |  [Garena](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Garena)    | 15   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   6.67% |
 |  [Nintendo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Nintendo)    | 123   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   3.25% |
 |  [Riot](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Riot)    | 54   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   3.7% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Proxy)    | 27943   | [759](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   2.72% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Proxy)    | 27896   | [759](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   2.72% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Global)    | 1294   | [677](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   52.32% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GlobalMedia)    | 1149   | [18](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   1.57% |
 |  [PotatoChat](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/PotatoChat)    | 3   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   100.0% |
 |  [KakaoTalk](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/KakaoTalk)    | 10   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   90.0% |
-|  [Line](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Line)    | 23   | [20](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   86.96% |
+|  [Line](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Line)    | 22   | [19](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   86.36% |
 |  [Disney](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Disney)    | 132   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   1.52% |
 |  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Twitter)    | 11   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   63.64% |
 |  [Cloudflare](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Cloudflare)    | 22   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   4.55% |
@@ -95,7 +95,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 |  [AmazonPrimeVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AmazonPrimeVideo)    | 26   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   3.85% |
 |  [AppleDaily](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AppleDaily)    | 13   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   7.69% |
 |  [BoXun](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/BoXun)    | 2   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   50.0% |
-|  [CNN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/CNN)    | 1   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   100.0% |
+|  [CNN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/CNN)    | 6   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   16.67% |
 |  [CableTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/CableTV)    | 2   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   50.0% |
 |  [Fox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Fox)    | 257   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   0.39% |
 |  [Kakao](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Kakao)    | 14   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BlackList/BlackList_Repeat.list)   |   64.29% |

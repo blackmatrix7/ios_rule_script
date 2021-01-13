@@ -1,7 +1,7 @@
 # NAME: NetEaseMusic 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-13 03:09:37
+# UPDATED: 2021-01-14 03:24:21
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # NetEaseMusic 与 China 共 3 条规则重复
 DOMAIN-SUFFIX,163yun.com
@@ -11,11 +11,7 @@ USER-AGENT,neteasemusic*
 DOMAIN-SUFFIX,163yun.com
 USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*
 USER-AGENT,neteasemusic*
-# NetEaseMusic 与 ChinaMedia 共 17 条规则重复
-DOMAIN,apm.music.163.com
-DOMAIN,apm3.music.163.com
-DOMAIN,interface.music.163.com
-DOMAIN,interface3.music.163.com
+# NetEaseMusic 与 ChinaMedia 共 13 条规则重复
 DOMAIN-SUFFIX,music.126.net
 DOMAIN-SUFFIX,music.163.com
 IP-CIDR,101.71.154.241/32

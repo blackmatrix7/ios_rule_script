@@ -1,14 +1,14 @@
-# Bilibili
+# BiliBili
 
 ## 前言
 
-本项目的Bilibili分流规则由爬虫程序自动维护。
+本项目的BiliBili分流规则由爬虫程序自动维护。
 
-定时爬取互联网上开源的Bilibili分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
+定时爬取互联网上开源的BiliBili分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
 
-最后检查时间：2021-01-13 03:10:10。
+最后检查时间：2021-01-14 03:24:55。
 
 ## 规则统计
 
@@ -49,8 +49,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/China)    | 689   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili_Repeat.list)   |   1.02% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ChinaTest)    | 72396   | [20](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili_Repeat.list)   |   0.03% |
-|  [Tencent](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Tencent)    | 300   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili_Repeat.list)   |   0.33% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ChinaTest)    | 72184   | [20](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili_Repeat.list)   |   0.03% |
+|  [Tencent](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Tencent)    | 294   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili_Repeat.list)   |   0.34% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ChinaMedia)    | 141   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili_Repeat.list)   |   9.93% |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AsianMedia)    | 27   | [13](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili_Repeat.list)   |   48.15% |
 ### 特别说明
@@ -58,7 +58,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 
 ## 数据来源
 
-本项目的Bilibili分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的Bilibili分流规则混合使用，以免造成规则重复。
+本项目的BiliBili分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的BiliBili分流规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list
@@ -112,7 +112,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的Bilibili分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的BiliBili分流规则。
 
 感谢
 

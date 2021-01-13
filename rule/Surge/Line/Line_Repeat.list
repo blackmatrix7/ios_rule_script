@@ -1,7 +1,7 @@
 # NAME: Line 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-13 03:09:37
+# UPDATED: 2021-01-14 03:24:22
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Line 与 Proxy 共 20 条规则重复
 DOMAIN-SUFFIX,lin.ee
@@ -32,13 +32,12 @@ DOMAIN-SUFFIX,naver.jp
 IP-CIDR,125.209.208.0/20
 IP-CIDR,147.92.128.0/17
 IP-CIDR,203.104.144.0/21
-# Line 与 BlackList 共 20 条规则重复
+# Line 与 BlackList 共 19 条规则重复
 DOMAIN-SUFFIX,lin.ee
 DOMAIN-SUFFIX,line-apps.com
 DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,line.me
-DOMAIN-SUFFIX,line.naver.jp
 DOMAIN-SUFFIX,nhncorp.jp
 IP-CIDR,103.2.28.0/22
 IP-CIDR,119.235.224.0/21

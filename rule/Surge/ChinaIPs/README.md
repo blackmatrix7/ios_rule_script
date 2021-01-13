@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-13 03:09:42。
+最后检查时间：2021-01-14 03:24:27。
 
 ## 规则统计
 
@@ -46,7 +46,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Tencent](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent)    | 300   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs_Repeat.list)   |   0.33% |
+|  [Tencent](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Tencent)    | 294   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs_Repeat.list)   |   0.34% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 141   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs_Repeat.list)   |   1.42% |
 |  [Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Youku)    | 1   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs_Repeat.list)   |   100.0% |
 |  [iQIYI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/iQIYI)    | 47   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs_Repeat.list)   |   4.26% |

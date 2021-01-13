@@ -1,7 +1,7 @@
 # NAME: BlackList 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-13 03:09:38
+# UPDATED: 2021-01-14 03:24:23
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # BlackList 与 China 共 22 条规则重复
 HOST-SUFFIX,apache.org
@@ -1680,13 +1680,12 @@ IP-CIDR,103.27.148.0/22
 IP-CIDR,110.76.140.0/22
 IP-CIDR,113.61.104.0/22
 IP-CIDR,27.0.236.0/22
-# BlackList 与 Line 共 20 条规则重复
+# BlackList 与 Line 共 19 条规则重复
 HOST-SUFFIX,lin.ee
 HOST-SUFFIX,line-apps.com
 HOST-SUFFIX,line-cdn.net
 HOST-SUFFIX,line-scdn.net
 HOST-SUFFIX,line.me
-HOST-SUFFIX,line.naver.jp
 HOST-SUFFIX,nhncorp.jp
 IP-CIDR,103.2.28.0/22
 IP-CIDR,119.235.224.0/21

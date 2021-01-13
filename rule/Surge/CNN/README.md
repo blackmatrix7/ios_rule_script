@@ -8,17 +8,17 @@
 
 
 
-最后检查时间：2021-01-13 03:09:48。
+最后检查时间：2021-01-14 03:24:33。
 
 ## 规则统计
 
-总计规则：1 条。
+总计规则：6 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 1 |
+| DOMAIN-SUFFIX | 6 |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -46,7 +46,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27943   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/CNN/CNN_Repeat.list)   |   0.0% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27896   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/CNN/CNN_Repeat.list)   |   0.02% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 1294   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/CNN/CNN_Repeat.list)   |   0.08% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 772   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/CNN/CNN_Repeat.list)   |   0.13% |
 ### 特别说明

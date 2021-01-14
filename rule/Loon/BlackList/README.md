@@ -9,7 +9,7 @@
 **黑名单指被XXX或国内直连非常慢的网址，等同于Proxy，建议直接使用Proxy分流规则，此项因为历史原因保留。**
 
 
-最后检查时间：2021-01-14 13:06:03。
+最后检查时间：2021-01-14 20:44:25。
 
 ## 规则统计
 
@@ -51,8 +51,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 689   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BlackList/BlackList_Repeat.list)   |   3.19% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72127   | [27](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BlackList/BlackList_Repeat.list)   |   0.04% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 688   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BlackList/BlackList_Repeat.list)   |   3.2% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72126   | [27](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BlackList/BlackList_Repeat.list)   |   0.04% |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 103   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BlackList/BlackList_Repeat.list)   |   0.97% |
 |  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TestFlight)    | 3   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BlackList/BlackList_Repeat.list)   |   33.33% |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock)    | 5   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BlackList/BlackList_Repeat.list)   |   100.0% |

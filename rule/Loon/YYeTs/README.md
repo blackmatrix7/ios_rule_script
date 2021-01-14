@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-14 13:06:02。
+最后检查时间：2021-01-14 20:44:24。
 
 ## 规则统计
 
@@ -46,8 +46,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 689   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   1.31% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72127   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   0.02% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 688   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   1.31% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72126   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   0.02% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 141   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   4.96% |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 46295   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   0.0% |
 |  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 66645   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   0.0% |

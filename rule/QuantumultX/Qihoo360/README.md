@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-14 13:05:54。
+最后检查时间：2021-01-14 20:44:17。
 
 ## 规则统计
 
@@ -47,8 +47,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [360](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/360)    | 249   | [40](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Qihoo360/Qihoo360_Repeat.list)   |   16.06% |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 689   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Qihoo360/Qihoo360_Repeat.list)   |   1.02% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 72127   | [49](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Qihoo360/Qihoo360_Repeat.list)   |   0.07% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 688   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Qihoo360/Qihoo360_Repeat.list)   |   1.02% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 72126   | [49](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Qihoo360/Qihoo360_Repeat.list)   |   0.07% |
 |  [LuDaShi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/LuDaShi)    | 17   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Qihoo360/Qihoo360_Repeat.list)   |   17.65% |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 45985   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Qihoo360/Qihoo360_Repeat.list)   |   0.0% |
 |  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 66335   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Qihoo360/Qihoo360_Repeat.list)   |   0.0% |

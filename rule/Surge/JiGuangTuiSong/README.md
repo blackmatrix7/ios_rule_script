@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-14 13:05:46。
+最后检查时间：2021-01-14 20:44:10。
 
 ## 规则统计
 
@@ -46,7 +46,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72127   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/JiGuangTuiSong/JiGuangTuiSong_Repeat.list)   |   0.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72126   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/JiGuangTuiSong/JiGuangTuiSong_Repeat.list)   |   0.01% |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 19208   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/JiGuangTuiSong/JiGuangTuiSong_Repeat.list)   |   0.01% |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 46295   | [16](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/JiGuangTuiSong/JiGuangTuiSong_Repeat.list)   |   0.03% |
 |  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 66645   | [16](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/JiGuangTuiSong/JiGuangTuiSong_Repeat.list)   |   0.02% |

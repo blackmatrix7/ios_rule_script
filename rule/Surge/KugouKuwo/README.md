@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-14 13:05:46。
+最后检查时间：2021-01-14 20:44:10。
 
 ## 规则统计
 
@@ -48,8 +48,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 689   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KugouKuwo/KugouKuwo_Repeat.list)   |   0.15% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72127   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KugouKuwo/KugouKuwo_Repeat.list)   |   0.01% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 688   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KugouKuwo/KugouKuwo_Repeat.list)   |   0.15% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72126   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KugouKuwo/KugouKuwo_Repeat.list)   |   0.01% |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaIPs)    | 6057   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KugouKuwo/KugouKuwo_Repeat.list)   |   0.02% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 141   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KugouKuwo/KugouKuwo_Repeat.list)   |   2.84% |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 19208   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KugouKuwo/KugouKuwo_Repeat.list)   |   0.01% |

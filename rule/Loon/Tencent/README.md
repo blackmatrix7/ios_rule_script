@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-14 13:05:58。
+最后检查时间：2021-01-14 20:44:21。
 
 ## 规则统计
 
@@ -49,8 +49,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [BiliBili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BiliBili)    | 60   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Tencent/Tencent_Repeat.list)   |   1.67% |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 689   | [25](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Tencent/Tencent_Repeat.list)   |   3.63% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72127   | [150](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Tencent/Tencent_Repeat.list)   |   0.21% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 688   | [25](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Tencent/Tencent_Repeat.list)   |   3.63% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72126   | [150](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Tencent/Tencent_Repeat.list)   |   0.21% |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6057   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Tencent/Tencent_Repeat.list)   |   0.02% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 141   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Tencent/Tencent_Repeat.list)   |   4.26% |
 |  [Douyu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Douyu)    | 10   | [10](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Tencent/Tencent_Repeat.list)   |   100.0% |

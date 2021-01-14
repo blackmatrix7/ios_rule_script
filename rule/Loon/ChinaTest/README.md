@@ -8,18 +8,18 @@
 
 
 
-最后检查时间：2021-01-14 13:05:58。
+最后检查时间：2021-01-14 20:44:21。
 
 ## 规则统计
 
-总计规则：72127 条。
+总计规则：72126 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-SUFFIX | 72063 |
-| USER-AGENT | 33 |
+| USER-AGENT | 32 |
 | DOMAIN | 11 |
 | IP-CIDR | 4 |
 | DOMAIN-KEYWORD | 12 |
@@ -73,7 +73,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 |  [XiaoMi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/XiaoMi)    | 112   | [17](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaTest/ChinaTest_Repeat.list)   |   15.18% |
 |  [Weibo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Weibo)    | 4   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaTest/ChinaTest_Repeat.list)   |   75.0% |
 |  [ByteDance](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ByteDance)    | 202   | [62](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaTest/ChinaTest_Repeat.list)   |   30.69% |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 689   | [685](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaTest/ChinaTest_Repeat.list)   |   99.42% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 688   | [684](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaTest/ChinaTest_Repeat.list)   |   99.42% |
 |  [SohuSogo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SohuSogo)    | 10   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaTest/ChinaTest_Repeat.list)   |   80.0% |
 |  [CCTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/CCTV)    | 42   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaTest/ChinaTest_Repeat.list)   |   14.29% |
 |  [Xunlei](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Xunlei)    | 8   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaTest/ChinaTest_Repeat.list)   |   75.0% |

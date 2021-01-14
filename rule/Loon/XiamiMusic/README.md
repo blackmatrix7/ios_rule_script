@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-14 13:06:02。
+最后检查时间：2021-01-14 20:44:24。
 
 ## 规则统计
 
@@ -47,8 +47,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 689   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/XiamiMusic/XiamiMusic_Repeat.list)   |   0.29% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72127   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/XiamiMusic/XiamiMusic_Repeat.list)   |   0.0% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 688   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/XiamiMusic/XiamiMusic_Repeat.list)   |   0.29% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72126   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/XiamiMusic/XiamiMusic_Repeat.list)   |   0.0% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 141   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/XiamiMusic/XiamiMusic_Repeat.list)   |   2.84% |
 |  [Alibaba](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Alibaba)    | 1222   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/XiamiMusic/XiamiMusic_Repeat.list)   |   0.16% |
 ### 特别说明

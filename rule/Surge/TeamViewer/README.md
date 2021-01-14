@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-14 13:05:50。
+最后检查时间：2021-01-14 20:44:13。
 
 ## 规则统计
 
@@ -48,8 +48,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 689   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TeamViewer/TeamViewer_Repeat.list)   |   0.73% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72127   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TeamViewer/TeamViewer_Repeat.list)   |   0.01% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 688   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TeamViewer/TeamViewer_Repeat.list)   |   0.73% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72126   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TeamViewer/TeamViewer_Repeat.list)   |   0.01% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27896   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TeamViewer/TeamViewer_Repeat.list)   |   0.01% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 772   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TeamViewer/TeamViewer_Repeat.list)   |   0.13% |
 |  [Telegram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Telegram)    | 19   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TeamViewer/TeamViewer_Repeat.list)   |   5.26% |

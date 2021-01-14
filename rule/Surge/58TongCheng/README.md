@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-14 13:05:45。
+最后检查时间：2021-01-14 20:44:09。
 
 ## 规则统计
 
@@ -46,8 +46,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 689   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/58TongCheng/58TongCheng_Repeat.list)   |   0.15% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72127   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/58TongCheng/58TongCheng_Repeat.list)   |   0.03% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 688   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/58TongCheng/58TongCheng_Repeat.list)   |   0.15% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72126   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/58TongCheng/58TongCheng_Repeat.list)   |   0.03% |
 |  [Anjuke](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Anjuke)    | 8   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/58TongCheng/58TongCheng_Repeat.list)   |   25.0% |
 |  [SouFang](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SouFang)    | 11   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/58TongCheng/58TongCheng_Repeat.list)   |   18.18% |
 |  [ZhuanZhuan](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ZhuanZhuan)    | 4   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/58TongCheng/58TongCheng_Repeat.list)   |   100.0% |

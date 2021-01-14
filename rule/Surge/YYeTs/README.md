@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-14 13:05:48。
+最后检查时间：2021-01-14 20:44:12。
 
 ## 规则统计
 
@@ -46,8 +46,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 689   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YYeTs/YYeTs_Repeat.list)   |   1.31% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72127   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YYeTs/YYeTs_Repeat.list)   |   0.02% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 688   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YYeTs/YYeTs_Repeat.list)   |   1.31% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72126   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YYeTs/YYeTs_Repeat.list)   |   0.02% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 141   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YYeTs/YYeTs_Repeat.list)   |   4.96% |
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 46295   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YYeTs/YYeTs_Repeat.list)   |   0.0% |
 |  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 66645   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YYeTs/YYeTs_Repeat.list)   |   0.0% |

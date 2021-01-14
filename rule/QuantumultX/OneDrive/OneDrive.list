@@ -1,7 +1,7 @@
 # NAME: OneDrive
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:16
+# UPDATED: 2021-01-14 13:05:34
 # HOST-SUFFIX: 12
 # USER-AGENT: 2
 # HOST-KEYWORD: 3
@@ -21,5 +21,5 @@ HOST-SUFFIX,storage.msn.com,OneDrive
 HOST-KEYWORD,1drv,OneDrive
 HOST-KEYWORD,onedrive,OneDrive
 HOST-KEYWORD,skydrive,OneDrive
-USER-AGENT,onedrive*,OneDrive
-USER-AGENT,onedriveiosapp*,OneDrive
+USER-AGENT,OneDrive*,OneDrive
+USER-AGENT,OneDriveiOSApp*,OneDrive

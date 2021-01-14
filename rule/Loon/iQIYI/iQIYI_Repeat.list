@@ -1,7 +1,7 @@
 # NAME: iQIYI 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:23
+# UPDATED: 2021-01-14 13:05:41
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # iQIYI 与 China 共 7 条规则重复
 DOMAIN-SUFFIX,71.am
@@ -37,10 +37,10 @@ DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,qy.net
 IP-CIDR,101.224.0.0/13
 IP-CIDR,119.176.0.0/12
-USER-AGENT,iqiyi*
-USER-AGENT,ppstream*
-USER-AGENT,qiyi*
-USER-AGENT,qyplayer*
+USER-AGENT,PPStream*
+USER-AGENT,QIYI*
+USER-AGENT,QYPlayer*
+USER-AGENT,iQiYi*
 # iQIYI 与 Advertising 共 1 条规则重复
 DOMAIN-SUFFIX,71.am
 # iQIYI 与 AdvertisingTest 共 1 条规则重复
@@ -51,5 +51,5 @@ DOMAIN-SUFFIX,71.am.com
 DOMAIN-SUFFIX,qy.net
 IP-CIDR,101.224.0.0/13
 IP-CIDR,119.176.0.0/12
-USER-AGENT,iqiyi*
-USER-AGENT,qiyi*
+USER-AGENT,QIYI*
+USER-AGENT,iQiYi*

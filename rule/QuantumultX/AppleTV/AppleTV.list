@@ -1,7 +1,7 @@
 # NAME: AppleTV
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:16
+# UPDATED: 2021-01-14 13:05:34
 # HOST: 4
 # HOST-SUFFIX: 1
 # USER-AGENT: 2
@@ -11,5 +11,5 @@ HOST,hls.itunes.apple.com,AppleTV
 HOST,np-edge.itunes.apple.com,AppleTV
 HOST,play-edge.itunes.apple.com,AppleTV
 HOST-SUFFIX,tv.apple.com,AppleTV
-USER-AGENT,appletv*,AppleTV
+USER-AGENT,AppleTV*,AppleTV
 USER-AGENT,com.apple.tv*,AppleTV

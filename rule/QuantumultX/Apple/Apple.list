@@ -1,7 +1,7 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:16
+# UPDATED: 2021-01-14 13:05:34
 # HOST-SUFFIX: 66
 # IP-CIDR: 10
 # HOST: 2
@@ -79,28 +79,28 @@ HOST-SUFFIX,wwwicloud.com,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,icloud.com.akadns.net,Apple
 HOST-KEYWORD,testflight,Apple
-USER-AGENT,%e5%9c%b0%e5%9b%be*,Apple
-USER-AGENT,%e6%9f%a5%e6%89%be*,Apple
-USER-AGENT,%e8%ae%be%e7%bd%ae*,Apple
+USER-AGENT,%E5%9C%B0%E5%9B%BE*,Apple
+USER-AGENT,%E6%9F%A5%E6%89%BE*,Apple
+USER-AGENT,%E8%AE%BE%E7%BD%AE*,Apple
+USER-AGENT,*WeatherFoundation*,Apple
 USER-AGENT,*com.apple.mobileme.fmip1,Apple
-USER-AGENT,*weatherfoundation*,Apple
-USER-AGENT,applenews*,Apple
-USER-AGENT,appletv*,Apple
-USER-AGENT,appstore*,Apple
+USER-AGENT,AppStore*,Apple
+USER-AGENT,AppleNews*,Apple
+USER-AGENT,AppleTV*,Apple
+USER-AGENT,FMDClient*,Apple
+USER-AGENT,FMFD*,Apple
+USER-AGENT,FindMy*,Apple
+USER-AGENT,Maps*,Apple
+USER-AGENT,Music*,Apple
+USER-AGENT,TestFlight*,Apple
+USER-AGENT,com.apple.Maps,Apple
 USER-AGENT,com.apple.appstored*,Apple
 USER-AGENT,com.apple.geod*,Apple
-USER-AGENT,com.apple.maps,Apple
 USER-AGENT,com.apple.news*,Apple
 USER-AGENT,com.apple.tv*,Apple
-USER-AGENT,findmy*,Apple
-USER-AGENT,fmdclient*,Apple
-USER-AGENT,fmfd*,Apple
 USER-AGENT,fmflocatord*,Apple
 USER-AGENT,geod*,Apple
 USER-AGENT,locationd*,Apple
-USER-AGENT,maps*,Apple
-USER-AGENT,music*,Apple
-USER-AGENT,testflight*,Apple
 IP-CIDR,139.178.128.0/18,Apple
 IP-CIDR,144.178.0.0/19,Apple
 IP-CIDR,144.178.36.0/22,Apple

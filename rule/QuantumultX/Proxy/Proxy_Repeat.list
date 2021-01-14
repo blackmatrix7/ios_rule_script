@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:23
+# UPDATED: 2021-01-14 13:05:41
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Proxy 与 Sina 共 1 条规则重复
 HOST-SUFFIX,sina.com
@@ -140,7 +140,7 @@ HOST-SUFFIX,zimuzu.tv
 HOST-SUFFIX,zmz2019.com
 HOST-SUFFIX,zmzapi.com
 HOST-SUFFIX,zoho.com
-USER-AGENT,paypal*
+USER-AGENT,PayPal*
 # Proxy 与 ChinaTest 共 179 条规则重复
 HOST-SUFFIX,265.com
 HOST-SUFFIX,2mdn.net
@@ -320,7 +320,7 @@ HOST-SUFFIX,zimuzu.tv
 HOST-SUFFIX,zmz2019.com
 HOST-SUFFIX,zmzapi.com
 HOST-SUFFIX,zoho.com
-USER-AGENT,paypal*
+USER-AGENT,PayPal*
 # Proxy 与 ChinaMedia 共 4 条规则重复
 HOST-SUFFIX,jstucdn.com
 HOST-SUFFIX,zimuzu.tv
@@ -442,7 +442,7 @@ HOST-SUFFIX,livefilestore.com
 HOST-SUFFIX,onedrive.com
 HOST-SUFFIX,sharepoint.com
 HOST-SUFFIX,sharepointonline.com
-USER-AGENT,onedrive*
+USER-AGENT,OneDrive*
 # Proxy 与 Microsoft 共 61 条规则重复
 HOST-KEYWORD,1drv
 HOST-KEYWORD,onedrive
@@ -504,7 +504,7 @@ HOST-SUFFIX,windowsupdate.com
 HOST-SUFFIX,xbox.com
 HOST-SUFFIX,xboxlive.com
 HOST-SUFFIX,yammer.com
-USER-AGENT,onedrive*
+USER-AGENT,OneDrive*
 # Proxy 与 YouTube 共 59 条规则重复
 HOST-KEYWORD,youtube
 HOST-SUFFIX,ggpht.com
@@ -561,10 +561,10 @@ HOST-SUFFIX,youtubekids.com
 HOST-SUFFIX,youtubemobilesupport.com
 HOST-SUFFIX,yt.be
 HOST-SUFFIX,ytimg.com
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
-USER-AGENT,youtube*
-USER-AGENT,youtubemusic*
 # Proxy 与 Google 共 73 条规则重复
 HOST-KEYWORD,blogspot
 HOST-KEYWORD,gmail
@@ -643,8 +643,8 @@ IP-CIDR,74.125.0.0/16
 HOST-SUFFIX,googledrive.com
 HOST-SUFFIX,googleusercontent.com
 # Proxy 与 YouTubeMusic 共 2 条规则重复
+USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
-USER-AGENT,youtubemusic*
 # Proxy 与 AdvertisingLite 共 59 条规则重复
 HOST-SUFFIX,2o7.net
 HOST-SUFFIX,adbecrsl.com
@@ -2714,45 +2714,45 @@ IP-CIDR,91.198.174.0/24
 IP6-CIDR,2001:67c:4e8::/48
 IP6-CIDR,2001:b28:f23d::/48
 IP6-CIDR,2001:b28:f23f::/48
-USER-AGENT,abematv*
-USER-AGENT,all4*
-USER-AGENT,anime*
-USER-AGENT,argo*
-USER-AGENT,bbciplayer*
+USER-AGENT,AbemaTV*
+USER-AGENT,All4*
+USER-AGENT,Anime*
+USER-AGENT,Argo*
+USER-AGENT,BBCiPlayer*
+USER-AGENT,DAZN*
+USER-AGENT,Deezer*
+USER-AGENT,Disney+*
+USER-AGENT,FOX%20NOW*
+USER-AGENT,HBO%20GO%20PROD%20HKG*
+USER-AGENT,HBO%20NOW*
+USER-AGENT,HWTVMobile*
+USER-AGENT,ITV_Player*
+USER-AGENT,InstantVideo.US*
+USER-AGENT,JOOX*
+USER-AGENT,KKTV*
+USER-AGENT,LINE%20TV*
+USER-AGENT,My5*
+USER-AGENT,Niconico*
+USER-AGENT,PBS*
+USER-AGENT,Pandora*
+USER-AGENT,PayPal*
+USER-AGENT,Prime%20Video*
+USER-AGENT,Roam*
+USER-AGENT,SoundCloud*
+USER-AGENT,Spotify*
+USER-AGENT,TIDAL*
+USER-AGENT,TaiwanGood*
+USER-AGENT,TwDramas
+USER-AGENT,Viu*
+USER-AGENT,ViuTV*
+USER-AGENT,WeMusic*
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,com.kktv.ios.kktv*
-USER-AGENT,dazn*
-USER-AGENT,deezer*
-USER-AGENT,disney+*
-USER-AGENT,encoretvb*
-USER-AGENT,fox%20now*
-USER-AGENT,hbo%20go%20prod%20hkg*
-USER-AGENT,hbo%20now*
-USER-AGENT,hwtvmobile*
-USER-AGENT,instantvideo.us*
-USER-AGENT,itv_player*
-USER-AGENT,joox*
-USER-AGENT,kktv*
-USER-AGENT,line%20tv*
-USER-AGENT,my5*
+USER-AGENT,encoreTVB*
 USER-AGENT,mytv*
-USER-AGENT,niconico*
-USER-AGENT,pandora*
-USER-AGENT,paypal*
-USER-AGENT,pbs*
-USER-AGENT,prime%20video*
-USER-AGENT,roam*
-USER-AGENT,soundcloud*
-USER-AGENT,spotify*
-USER-AGENT,taiwangood*
-USER-AGENT,tidal*
-USER-AGENT,twdramas
-USER-AGENT,viu*
-USER-AGENT,viutv*
-USER-AGENT,wemusic*
-USER-AGENT,youtube*
-USER-AGENT,youtubemusic*
 # Proxy 与 GlobalMedia 共 200 条规则重复
 HOST-KEYWORD,-spotify-com
 HOST-KEYWORD,-tiktokcdn-com
@@ -2917,43 +2917,43 @@ IP-CIDR,37.77.184.0/21
 IP-CIDR,45.57.0.0/17
 IP-CIDR,64.120.128.0/17
 IP-CIDR,66.197.128.0/17
-USER-AGENT,abematv*
-USER-AGENT,all4*
-USER-AGENT,anime*
-USER-AGENT,argo*
-USER-AGENT,bbciplayer*
+USER-AGENT,AbemaTV*
+USER-AGENT,All4*
+USER-AGENT,Anime*
+USER-AGENT,Argo*
+USER-AGENT,BBCiPlayer*
+USER-AGENT,DAZN*
+USER-AGENT,Deezer*
+USER-AGENT,Disney+*
+USER-AGENT,FOX%20NOW*
+USER-AGENT,HBO%20GO%20PROD%20HKG*
+USER-AGENT,HBO%20NOW*
+USER-AGENT,HWTVMobile*
+USER-AGENT,ITV_Player*
+USER-AGENT,InstantVideo.US*
+USER-AGENT,JOOX*
+USER-AGENT,KKTV*
+USER-AGENT,LINE%20TV*
+USER-AGENT,My5*
+USER-AGENT,Niconico*
+USER-AGENT,PBS*
+USER-AGENT,Pandora*
+USER-AGENT,Prime%20Video*
+USER-AGENT,SoundCloud*
+USER-AGENT,Spotify*
+USER-AGENT,TIDAL*
+USER-AGENT,TaiwanGood*
+USER-AGENT,TikTok*
+USER-AGENT,Viu*
+USER-AGENT,ViuTV*
+USER-AGENT,WeMusic*
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,com.kktv.ios.kktv*
-USER-AGENT,dazn*
-USER-AGENT,deezer*
-USER-AGENT,disney+*
-USER-AGENT,encoretvb*
-USER-AGENT,fox%20now*
-USER-AGENT,hbo%20go%20prod%20hkg*
-USER-AGENT,hbo%20now*
-USER-AGENT,hwtvmobile*
-USER-AGENT,instantvideo.us*
-USER-AGENT,itv_player*
-USER-AGENT,joox*
-USER-AGENT,kktv*
-USER-AGENT,line%20tv*
-USER-AGENT,my5*
+USER-AGENT,encoreTVB*
 USER-AGENT,mytv*
-USER-AGENT,niconico*
-USER-AGENT,pandora*
-USER-AGENT,pbs*
-USER-AGENT,prime%20video*
-USER-AGENT,soundcloud*
-USER-AGENT,spotify*
-USER-AGENT,taiwangood*
-USER-AGENT,tidal*
-USER-AGENT,tiktok*
-USER-AGENT,viu*
-USER-AGENT,viutv*
-USER-AGENT,wemusic*
-USER-AGENT,youtube*
-USER-AGENT,youtubemusic*
 # Proxy 与 BlackList 共 758 条规则重复
 HOST-KEYWORD,appledaily
 HOST-KEYWORD,beetalk
@@ -3710,9 +3710,9 @@ IP-CIDR,74.119.76.0/22
 IP-CIDR,74.125.0.0/16
 IP-CIDR,74.86.0.0/16
 IP-CIDR,75.126.0.0/16
+USER-AGENT,Roam*
+USER-AGENT,WhatsApp*
 USER-AGENT,battleroyale*
-USER-AGENT,roam*
-USER-AGENT,whatsapp*
 # Proxy 与 Speedtest 共 1 条规则重复
 HOST-SUFFIX,fast.com
 # Proxy 与 Telegram 共 13 条规则重复
@@ -3793,7 +3793,7 @@ IP-CIDR,37.77.184.0/21
 IP-CIDR,45.57.0.0/17
 IP-CIDR,64.120.128.0/17
 IP-CIDR,66.197.128.0/17
-USER-AGENT,argo*
+USER-AGENT,Argo*
 # Proxy 与 Dubox 共 2 条规则重复
 HOST-SUFFIX,dubox.com
 HOST-SUFFIX,duboxcdn.com
@@ -3805,7 +3805,7 @@ HOST-SUFFIX,musical.ly
 HOST-SUFFIX,tiktok.com
 HOST-SUFFIX,tiktokcdn.com
 HOST-SUFFIX,tiktokv.com
-USER-AGENT,tiktok*
+USER-AGENT,TikTok*
 # Proxy 与 Disney 共 85 条规则重复
 HOST-SUFFIX,abc-studios.com
 HOST-SUFFIX,abc.com
@@ -3891,7 +3891,7 @@ HOST-SUFFIX,thestationbymaker.com
 HOST-SUFFIX,thisispolaris.com
 HOST-SUFFIX,watchdisneyfe.com
 HOST-SUFFIX,watchespn.com
-USER-AGENT,disney+*
+USER-AGENT,Disney+*
 # Proxy 与 Twitter 共 11 条规则重复
 HOST-KEYWORD,twitter
 HOST-SUFFIX,periscope.tv
@@ -3959,7 +3959,7 @@ HOST-SUFFIX,spotifycharts.com
 HOST-SUFFIX,spotifycodes.com
 HOST-SUFFIX,spotifyforbrands.com
 HOST-SUFFIX,spotifyjobs.com
-USER-AGENT,spotify*
+USER-AGENT,Spotify*
 # Proxy 与 Wikipedia 共 12 条规则重复
 HOST-SUFFIX,mediawiki.org
 HOST-SUFFIX,wikibooks.org
@@ -3985,7 +3985,7 @@ HOST-KEYWORD,paypal
 HOST-SUFFIX,paypal.com
 HOST-SUFFIX,paypal.me
 HOST-SUFFIX,paypalobjects.com
-USER-AGENT,paypal*
+USER-AGENT,PayPal*
 # Proxy 与 Spark 共 5 条规则重复
 HOST-SUFFIX,amplitude.com
 HOST-SUFFIX,firebaseio.com
@@ -4004,7 +4004,7 @@ HOST-SUFFIX,niconico.com
 HOST-SUFFIX,nicovideo.jp
 HOST-SUFFIX,nimg.jp
 HOST-SUFFIX,socdm.com
-USER-AGENT,niconico*
+USER-AGENT,Niconico*
 # Proxy 与 BBC 共 10 条规则重复
 HOST-KEYWORD,bbcfmt
 HOST-KEYWORD,uk-live
@@ -4015,7 +4015,7 @@ HOST-SUFFIX,bbc.in
 HOST-SUFFIX,bbcchinese.com
 HOST-SUFFIX,bbci.co
 HOST-SUFFIX,bbci.co.uk
-USER-AGENT,bbciplayer*
+USER-AGENT,BBCiPlayer*
 # Proxy 与 Developer 共 22 条规则重复
 HOST-SUFFIX,apache.org
 HOST-SUFFIX,atlassian.com
@@ -4063,8 +4063,8 @@ IP-CIDR,54.156.0.0/14
 IP-CIDR,54.226.0.0/15
 IP-CIDR,54.230.156.0/22
 IP-CIDR,54.93.0.0/16
-USER-AGENT,instantvideo.us*
-USER-AGENT,prime%20video*
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
 # Proxy 与 Instagram 共 2 条规则重复
 HOST-SUFFIX,cdninstagram.com
 HOST-SUFFIX,instagram.com
@@ -4126,7 +4126,7 @@ IP-CIDR,109.239.140.0/24
 # Proxy 与 Bahamut 共 3 条规则重复
 HOST-SUFFIX,bahamut.com.tw
 HOST-SUFFIX,gamer.com.tw
-USER-AGENT,anime*
+USER-AGENT,Anime*
 # Proxy 与 Adobe 共 25 条规则重复
 HOST-SUFFIX,acrobat.com
 HOST-SUFFIX,adbecrsl.com
@@ -4178,11 +4178,11 @@ HOST-SUFFIX,hayabusa.io
 HOST-SUFFIX,hayabusa.media
 HOST-SUFFIX,linear-abematv.akamaized.net
 HOST-SUFFIX,vod-abematv.akamaized.net
-USER-AGENT,abematv*
+USER-AGENT,AbemaTV*
 # Proxy 与 All4 共 3 条规则重复
 HOST-SUFFIX,c4assets.com
 HOST-SUFFIX,channel4.com
-USER-AGENT,all4*
+USER-AGENT,All4*
 # Proxy 与 AmazonPrimeVideo 共 16 条规则重复
 HOST-KEYWORD,avoddashs
 HOST-SUFFIX,aiv-cdn.net
@@ -4198,8 +4198,8 @@ HOST-SUFFIX,primevideo.com
 HOST-SUFFIX,primevideo.info
 HOST-SUFFIX,primevideo.org
 HOST-SUFFIX,primevideo.tv
-USER-AGENT,instantvideo.us*
-USER-AGENT,prime%20video*
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
 # Proxy 与 Americasvoice 共 1 条规则重复
 HOST-SUFFIX,americasvoice.news
 # Proxy 与 AppleDaily 共 10 条规则重复
@@ -4261,17 +4261,17 @@ HOST-SUFFIX,dazn.com
 HOST-SUFFIX,dazndn.com
 HOST-SUFFIX,indazn.com
 HOST-SUFFIX,intercom.io
-USER-AGENT,dazn*
+USER-AGENT,DAZN*
 # Proxy 与 Dailymotion 共 2 条规则重复
 HOST-SUFFIX,dailymotion.com
 HOST-SUFFIX,dmcdn.net
 # Proxy 与 Deezer 共 3 条规则重复
 HOST-SUFFIX,deezer.com
 HOST-SUFFIX,dzcdn.net
-USER-AGENT,deezer*
+USER-AGENT,Deezer*
 # Proxy 与 EncoreTVB 共 2 条规则重复
 HOST-SUFFIX,encoretvb.com
-USER-AGENT,encoretvb*
+USER-AGENT,encoreTVB*
 # Proxy 与 Fox 共 228 条规则重复
 HOST-SUFFIX,afewmomentswith.com
 HOST-SUFFIX,anidom.com
@@ -4500,7 +4500,7 @@ HOST-SUFFIX,whosthehost.com
 HOST-SUFFIX,wofl.tv
 HOST-SUFFIX,woflthenewsstation.com
 HOST-SUFFIX,wogx.com
-USER-AGENT,fox%20now*
+USER-AGENT,FOX%20NOW*
 # Proxy 与 HBO 共 14 条规则重复
 HOST-SUFFIX,cinemax.com
 HOST-SUFFIX,forthethrone.com
@@ -4515,11 +4515,11 @@ HOST-SUFFIX,maxgo.com
 HOST-SUFFIX,now-ashare.com
 HOST-SUFFIX,now-tv.com
 HOST-SUFFIX,nowe.com
-USER-AGENT,hbo%20now*
+USER-AGENT,HBO%20NOW*
 # Proxy 与 HWTV 共 3 条规则重复
 HOST-SUFFIX,5itv.tv
 HOST-SUFFIX,ocnttv.com
-USER-AGENT,hwtvmobile*
+USER-AGENT,HWTVMobile*
 # Proxy 与 Huffpost 共 6 条规则重复
 HOST-SUFFIX,huffingtonpost.com
 HOST-SUFFIX,huffingtonpost.it
@@ -4578,11 +4578,11 @@ HOST-SUFFIX,wwwhuluplus.com
 # Proxy 与 ITV 共 3 条规则重复
 HOST-SUFFIX,itv.com
 HOST-SUFFIX,itvstatic.com
-USER-AGENT,itv_player*
+USER-AGENT,ITV_Player*
 # Proxy 与 JOOX 共 3 条规则重复
 HOST-SUFFIX,joox.com
-USER-AGENT,joox*
-USER-AGENT,wemusic*
+USER-AGENT,JOOX*
+USER-AGENT,WeMusic*
 # Proxy 与 Japonx 共 8 条规则重复
 HOST-SUFFIX,japonx.com
 HOST-SUFFIX,japonx.net
@@ -4619,14 +4619,14 @@ HOST-SUFFIX,chocotv.com.tw
 HOST-SUFFIX,line-cdn.net
 HOST-SUFFIX,line-scdn.net
 HOST-SUFFIX,linetv.tw
-USER-AGENT,line%20tv*
+USER-AGENT,LINE%20TV*
 # Proxy 与 LondonReal 共 2 条规则重复
 HOST-SUFFIX,freedomplatform.tv
 HOST-SUFFIX,londonreal.tv
 # Proxy 与 My5 共 3 条规则重复
 HOST-SUFFIX,channel5.com
 HOST-SUFFIX,my5.tv
-USER-AGENT,my5*
+USER-AGENT,My5*
 # Proxy 与 NYPost 共 3 条规则重复
 HOST-SUFFIX,nypost.com
 HOST-SUFFIX,nypost.help
@@ -4647,11 +4647,11 @@ HOST-SUFFIX,timestalks.com
 HOST-SUFFIX,nikkei.com
 # Proxy 与 PBS 共 2 条规则重复
 HOST-SUFFIX,pbs.org
-USER-AGENT,pbs*
+USER-AGENT,PBS*
 # Proxy 与 Pandora 共 3 条规则重复
 HOST-SUFFIX,p-cdn.us
 HOST-SUFFIX,pandora.com
-USER-AGENT,pandora*
+USER-AGENT,Pandora*
 # Proxy 与 PandoraTV 共 1 条规则重复
 HOST-SUFFIX,pandora.tv
 # Proxy 与 RTHK 共 2 条规则重复
@@ -4663,7 +4663,7 @@ HOST-SUFFIX,sky.com
 HOST-SUFFIX,p-cdn.us
 HOST-SUFFIX,sndcdn.com
 HOST-SUFFIX,soundcloud.com
-USER-AGENT,soundcloud*
+USER-AGENT,SoundCloud*
 # Proxy 与 TIDAL 共 1 条规则重复
 HOST-SUFFIX,tidal.com
 # Proxy 与 TVB 共 7 条规则重复
@@ -4677,7 +4677,7 @@ USER-AGENT,mytv*
 # Proxy 与 TaiWanGood 共 3 条规则重复
 HOST,hamifans.emome.net
 HOST-SUFFIX,skyking.com.tw
-USER-AGENT,taiwangood*
+USER-AGENT,TaiwanGood*
 # Proxy 与 VOA 共 49 条规则重复
 HOST-SUFFIX,amerikaninsesi.com
 HOST-SUFFIX,amerikaninsesi.org
@@ -4749,8 +4749,8 @@ HOST-SUFFIX,vimeostatus.com
 # Proxy 与 ViuTV 共 4 条规则重复
 HOST-SUFFIX,viu.com
 HOST-SUFFIX,viu.tv
-USER-AGENT,viu*
-USER-AGENT,viutv*
+USER-AGENT,Viu*
+USER-AGENT,ViuTV*
 # Proxy 与 Voxmedia 共 16 条规则重复
 HOST-SUFFIX,cstatic.net
 HOST-SUFFIX,curbed.com

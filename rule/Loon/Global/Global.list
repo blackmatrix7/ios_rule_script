@@ -1,7 +1,7 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:18
+# UPDATED: 2021-01-14 13:05:35
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-SUFFIX: 1128
 # DOMAIN-KEYWORD: 27
@@ -38,45 +38,45 @@ DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,voddazn
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,wikileaks
-USER-AGENT,abematv*
-USER-AGENT,all4*
-USER-AGENT,anime*
-USER-AGENT,argo*
-USER-AGENT,bbciplayer*
+USER-AGENT,AbemaTV*
+USER-AGENT,All4*
+USER-AGENT,Anime*
+USER-AGENT,Argo*
+USER-AGENT,BBCiPlayer*
+USER-AGENT,DAZN*
+USER-AGENT,Deezer*
+USER-AGENT,Disney+*
+USER-AGENT,FOX%20NOW*
+USER-AGENT,HBO%20GO%20PROD%20HKG*
+USER-AGENT,HBO%20NOW*
+USER-AGENT,HWTVMobile*
+USER-AGENT,ITV_Player*
+USER-AGENT,InstantVideo.US*
+USER-AGENT,JOOX*
+USER-AGENT,KKTV*
+USER-AGENT,LINE%20TV*
+USER-AGENT,My5*
+USER-AGENT,Niconico*
+USER-AGENT,PBS*
+USER-AGENT,Pandora*
+USER-AGENT,PayPal*
+USER-AGENT,Prime%20Video*
+USER-AGENT,Roam*
+USER-AGENT,SoundCloud*
+USER-AGENT,Spotify*
+USER-AGENT,TIDAL*
+USER-AGENT,TaiwanGood*
+USER-AGENT,TwDramas
+USER-AGENT,Viu*
+USER-AGENT,ViuTV*
+USER-AGENT,WeMusic*
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,com.kktv.ios.kktv*
-USER-AGENT,dazn*
-USER-AGENT,deezer*
-USER-AGENT,disney+*
-USER-AGENT,encoretvb*
-USER-AGENT,fox%20now*
-USER-AGENT,hbo%20go%20prod%20hkg*
-USER-AGENT,hbo%20now*
-USER-AGENT,hwtvmobile*
-USER-AGENT,instantvideo.us*
-USER-AGENT,itv_player*
-USER-AGENT,joox*
-USER-AGENT,kktv*
-USER-AGENT,line%20tv*
-USER-AGENT,my5*
+USER-AGENT,encoreTVB*
 USER-AGENT,mytv*
-USER-AGENT,niconico*
-USER-AGENT,pandora*
-USER-AGENT,paypal*
-USER-AGENT,pbs*
-USER-AGENT,prime%20video*
-USER-AGENT,roam*
-USER-AGENT,soundcloud*
-USER-AGENT,spotify*
-USER-AGENT,taiwangood*
-USER-AGENT,tidal*
-USER-AGENT,twdramas
-USER-AGENT,viu*
-USER-AGENT,viutv*
-USER-AGENT,wemusic*
-USER-AGENT,youtube*
-USER-AGENT,youtubemusic*
 URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
 IP-CIDR,103.102.166.0/24,no-resolve
 IP-CIDR,103.2.30.0/23,no-resolve

@@ -1,7 +1,7 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:23
+# UPDATED: 2021-01-14 13:05:41
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # GlobalMedia 与 China 共 2 条规则重复
 HOST-SUFFIX,byteoversea.com
@@ -12,7 +12,7 @@ HOST-SUFFIX,ibytedtos.com
 # GlobalMedia 与 Apple 共 4 条规则重复
 HOST,apple.comscoreresearch.com
 HOST-SUFFIX,apple.news
-USER-AGENT,applenews*
+USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
 # GlobalMedia 与 AppleNews 共 9 条规则重复
 HOST,apple.comscoreresearch.com
@@ -22,7 +22,7 @@ HOST,news-client.apple.com
 HOST,news-edge.apple.com
 HOST,news-events.apple.com
 HOST-SUFFIX,apple.news
-USER-AGENT,applenews*
+USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
 # GlobalMedia 与 AppleTV 共 3 条规则重复
 HOST,np-edge.itunes.apple.com
@@ -36,19 +36,19 @@ HOST-SUFFIX,youtu.be
 HOST-SUFFIX,youtube.com
 HOST-SUFFIX,ytimg.com
 USER-AGENT,*youtube*
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
-USER-AGENT,youtube*
-USER-AGENT,youtubemusic*
 # GlobalMedia 与 Google 共 3 条规则重复
 HOST-SUFFIX,firebaseio.com
 HOST-SUFFIX,youtu.be
 HOST-SUFFIX,ytimg.com
 # GlobalMedia 与 YouTubeMusic 共 4 条规则重复
+USER-AGENT,*YouTubeMusic*
 USER-AGENT,*com.google.ios.youtubemusic*
-USER-AGENT,*youtubemusic*
+USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
-USER-AGENT,youtubemusic*
 # GlobalMedia 与 AdvertisingLite 共 4 条规则重复
 HOST-SUFFIX,bluekai.com
 HOST-SUFFIX,conviva.com
@@ -235,43 +235,43 @@ IP-CIDR,37.77.184.0/21
 IP-CIDR,45.57.0.0/17
 IP-CIDR,64.120.128.0/17
 IP-CIDR,66.197.128.0/17
-USER-AGENT,abematv*
-USER-AGENT,all4*
-USER-AGENT,anime*
-USER-AGENT,argo*
-USER-AGENT,bbciplayer*
+USER-AGENT,AbemaTV*
+USER-AGENT,All4*
+USER-AGENT,Anime*
+USER-AGENT,Argo*
+USER-AGENT,BBCiPlayer*
+USER-AGENT,DAZN*
+USER-AGENT,Deezer*
+USER-AGENT,Disney+*
+USER-AGENT,FOX%20NOW*
+USER-AGENT,HBO%20GO%20PROD%20HKG*
+USER-AGENT,HBO%20NOW*
+USER-AGENT,HWTVMobile*
+USER-AGENT,ITV_Player*
+USER-AGENT,InstantVideo.US*
+USER-AGENT,JOOX*
+USER-AGENT,KKTV*
+USER-AGENT,LINE%20TV*
+USER-AGENT,My5*
+USER-AGENT,Niconico*
+USER-AGENT,PBS*
+USER-AGENT,Pandora*
+USER-AGENT,Prime%20Video*
+USER-AGENT,SoundCloud*
+USER-AGENT,Spotify*
+USER-AGENT,TIDAL*
+USER-AGENT,TaiwanGood*
+USER-AGENT,TikTok*
+USER-AGENT,Viu*
+USER-AGENT,ViuTV*
+USER-AGENT,WeMusic*
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,com.kktv.ios.kktv*
-USER-AGENT,dazn*
-USER-AGENT,deezer*
-USER-AGENT,disney+*
-USER-AGENT,encoretvb*
-USER-AGENT,fox%20now*
-USER-AGENT,hbo%20go%20prod%20hkg*
-USER-AGENT,hbo%20now*
-USER-AGENT,hwtvmobile*
-USER-AGENT,instantvideo.us*
-USER-AGENT,itv_player*
-USER-AGENT,joox*
-USER-AGENT,kktv*
-USER-AGENT,line%20tv*
-USER-AGENT,my5*
+USER-AGENT,encoreTVB*
 USER-AGENT,mytv*
-USER-AGENT,niconico*
-USER-AGENT,pandora*
-USER-AGENT,pbs*
-USER-AGENT,prime%20video*
-USER-AGENT,soundcloud*
-USER-AGENT,spotify*
-USER-AGENT,taiwangood*
-USER-AGENT,tidal*
-USER-AGENT,tiktok*
-USER-AGENT,viu*
-USER-AGENT,viutv*
-USER-AGENT,wemusic*
-USER-AGENT,youtube*
-USER-AGENT,youtubemusic*
 # GlobalMedia 与 Global 共 165 条规则重复
 HOST,edge.api.brightcove.com
 HOST,kktv-theater.kk.stream
@@ -402,42 +402,42 @@ IP-CIDR,37.77.184.0/21
 IP-CIDR,45.57.0.0/17
 IP-CIDR,64.120.128.0/17
 IP-CIDR,66.197.128.0/17
-USER-AGENT,abematv*
-USER-AGENT,all4*
-USER-AGENT,anime*
-USER-AGENT,argo*
-USER-AGENT,bbciplayer*
+USER-AGENT,AbemaTV*
+USER-AGENT,All4*
+USER-AGENT,Anime*
+USER-AGENT,Argo*
+USER-AGENT,BBCiPlayer*
+USER-AGENT,DAZN*
+USER-AGENT,Deezer*
+USER-AGENT,Disney+*
+USER-AGENT,FOX%20NOW*
+USER-AGENT,HBO%20GO%20PROD%20HKG*
+USER-AGENT,HBO%20NOW*
+USER-AGENT,HWTVMobile*
+USER-AGENT,ITV_Player*
+USER-AGENT,InstantVideo.US*
+USER-AGENT,JOOX*
+USER-AGENT,KKTV*
+USER-AGENT,LINE%20TV*
+USER-AGENT,My5*
+USER-AGENT,Niconico*
+USER-AGENT,PBS*
+USER-AGENT,Pandora*
+USER-AGENT,Prime%20Video*
+USER-AGENT,SoundCloud*
+USER-AGENT,Spotify*
+USER-AGENT,TIDAL*
+USER-AGENT,TaiwanGood*
+USER-AGENT,Viu*
+USER-AGENT,ViuTV*
+USER-AGENT,WeMusic*
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,com.kktv.ios.kktv*
-USER-AGENT,dazn*
-USER-AGENT,deezer*
-USER-AGENT,disney+*
-USER-AGENT,encoretvb*
-USER-AGENT,fox%20now*
-USER-AGENT,hbo%20go%20prod%20hkg*
-USER-AGENT,hbo%20now*
-USER-AGENT,hwtvmobile*
-USER-AGENT,instantvideo.us*
-USER-AGENT,itv_player*
-USER-AGENT,joox*
-USER-AGENT,kktv*
-USER-AGENT,line%20tv*
-USER-AGENT,my5*
+USER-AGENT,encoreTVB*
 USER-AGENT,mytv*
-USER-AGENT,niconico*
-USER-AGENT,pandora*
-USER-AGENT,pbs*
-USER-AGENT,prime%20video*
-USER-AGENT,soundcloud*
-USER-AGENT,spotify*
-USER-AGENT,taiwangood*
-USER-AGENT,tidal*
-USER-AGENT,viu*
-USER-AGENT,viutv*
-USER-AGENT,wemusic*
-USER-AGENT,youtube*
-USER-AGENT,youtubemusic*
 # GlobalMedia 与 BlackList 共 18 条规则重复
 HOST-SUFFIX,adobedtm.com
 HOST-SUFFIX,amazonaws.com
@@ -501,7 +501,7 @@ IP-CIDR,64.120.128.0/17
 IP-CIDR,66.197.128.0/17
 IP-CIDR,69.53.224.0/19
 IP-CIDR,8.41.4.0/24
-USER-AGENT,argo*
+USER-AGENT,Argo*
 # GlobalMedia 与 TikTok 共 11 条规则重复
 HOST-KEYWORD,-tiktokcdn-com
 HOST-SUFFIX,byteoversea.com
@@ -513,7 +513,7 @@ HOST-SUFFIX,tik-tokapi.com
 HOST-SUFFIX,tiktok.com
 HOST-SUFFIX,tiktokcdn.com
 HOST-SUFFIX,tiktokv.com
-USER-AGENT,tiktok*
+USER-AGENT,TikTok*
 # GlobalMedia 与 Disney 共 18 条规则重复
 HOST-SUFFIX,adobedtm.com
 HOST-SUFFIX,bam.nr-data.net
@@ -532,7 +532,7 @@ HOST-SUFFIX,dssott.com
 HOST-SUFFIX,edgedatg.com
 HOST-SUFFIX,go.com
 HOST-SUFFIX,js-agent.newrelic.com
-USER-AGENT,disney+*
+USER-AGENT,Disney+*
 # GlobalMedia 与 Spotify 共 10 条规则重复
 HOST-KEYWORD,-spotify-com
 HOST-KEYWORD,spotify.com
@@ -542,8 +542,8 @@ HOST-SUFFIX,spoti.fi
 HOST-SUFFIX,spotify.com
 HOST-SUFFIX,spotifycdn.net
 IP-CIDR,35.186.224.47/32
-USER-AGENT,*spotify*
-USER-AGENT,spotify*
+USER-AGENT,*Spotify*
+USER-AGENT,Spotify*
 # GlobalMedia 与 Spark 共 1 条规则重复
 HOST-SUFFIX,firebaseio.com
 # GlobalMedia 与 Niconico 共 5 条规则重复
@@ -551,7 +551,7 @@ HOST-SUFFIX,dmc.nico
 HOST-SUFFIX,nicovideo.jp
 HOST-SUFFIX,nimg.jp
 HOST-SUFFIX,socdm.com
-USER-AGENT,niconico*
+USER-AGENT,Niconico*
 # GlobalMedia 与 BBC 共 8 条规则重复
 HOST-KEYWORD,bbcfmt
 HOST-KEYWORD,uk-live
@@ -560,7 +560,7 @@ HOST-SUFFIX,bbc.co.uk
 HOST-SUFFIX,bbc.com
 HOST-SUFFIX,bbci.co
 HOST-SUFFIX,bbci.co.uk
-USER-AGENT,bbciplayer*
+USER-AGENT,BBCiPlayer*
 # GlobalMedia 与 Amazon 共 9 条规则重复
 HOST-SUFFIX,aiv-cdn.net
 HOST-SUFFIX,amazonaws.co.uk
@@ -569,12 +569,12 @@ HOST-SUFFIX,amazonvideo.com
 HOST-SUFFIX,llnwd.net
 HOST-SUFFIX,media-amazon.com
 HOST-SUFFIX,primevideo.com
-USER-AGENT,instantvideo.us*
-USER-AGENT,prime%20video*
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
 # GlobalMedia 与 Bahamut 共 3 条规则重复
 HOST-SUFFIX,bahamut.com.tw
 HOST-SUFFIX,gamer.com.tw
-USER-AGENT,anime*
+USER-AGENT,Anime*
 # GlobalMedia 与 Adobe 共 1 条规则重复
 HOST-SUFFIX,bam.nr-data.net
 # GlobalMedia 与 AbemaTV 共 5 条规则重复
@@ -582,11 +582,11 @@ HOST-SUFFIX,abema.io
 HOST-SUFFIX,abema.tv
 HOST-SUFFIX,ameba.jp
 HOST-SUFFIX,hayabusa.io
-USER-AGENT,abematv*
+USER-AGENT,AbemaTV*
 # GlobalMedia 与 All4 共 3 条规则重复
 HOST-SUFFIX,c4assets.com
 HOST-SUFFIX,channel4.com
-USER-AGENT,all4*
+USER-AGENT,All4*
 # GlobalMedia 与 AmazonPrimeVideo 共 9 条规则重复
 HOST-KEYWORD,avoddashs
 HOST-SUFFIX,aiv-cdn.net
@@ -595,8 +595,8 @@ HOST-SUFFIX,amazonvideo.com
 HOST-SUFFIX,llnwd.net
 HOST-SUFFIX,media-amazon.com
 HOST-SUFFIX,primevideo.com
-USER-AGENT,instantvideo.us*
-USER-AGENT,prime%20video*
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
 # GlobalMedia 与 DAZN 共 14 条规则重复
 HOST-KEYWORD,voddazn
 HOST-SUFFIX,control.kochava.com
@@ -611,16 +611,16 @@ HOST-SUFFIX,indaznlab.com
 HOST-SUFFIX,intercom.io
 HOST-SUFFIX,s.yimg.jp
 HOST-SUFFIX,sentry.io
-USER-AGENT,dazn*
+USER-AGENT,DAZN*
 # GlobalMedia 与 Deezer 共 3 条规则重复
 HOST-SUFFIX,deezer.com
 HOST-SUFFIX,dzcdn.net
-USER-AGENT,deezer*
+USER-AGENT,Deezer*
 # GlobalMedia 与 EncoreTVB 共 4 条规则重复
 HOST,bcbolt446c5271-a.akamaihd.net
 HOST,edge.api.brightcove.com
 HOST-SUFFIX,encoretvb.com
-USER-AGENT,encoretvb*
+USER-AGENT,encoreTVB*
 # GlobalMedia 与 Fox 共 8 条规则重复
 HOST-SUFFIX,fox.com
 HOST-SUFFIX,foxdcg.com
@@ -629,7 +629,7 @@ HOST-SUFFIX,foxplus.com
 HOST-SUFFIX,now.com
 HOST-SUFFIX,theplatform.com
 HOST-SUFFIX,uplynk.com
-USER-AGENT,fox%20now*
+USER-AGENT,FOX%20NOW*
 # GlobalMedia 与 HBO 共 12 条规则重复
 HOST-SUFFIX,bcbolthboa-a.akamaihd.net
 HOST-SUFFIX,hbo.com
@@ -641,12 +641,12 @@ HOST-SUFFIX,hbomax.com
 HOST-SUFFIX,hbonow.com
 HOST-SUFFIX,nowe.com
 HOST-SUFFIX,youboranqs01.com
-USER-AGENT,hbo%20now*
-USER-AGENT,hbomax*
+USER-AGENT,HBO%20NOW*
+USER-AGENT,HBOMAX*
 # GlobalMedia 与 HWTV 共 3 条规则重复
 HOST-SUFFIX,5itv.tv
 HOST-SUFFIX,ocnttv.com
-USER-AGENT,hwtvmobile*
+USER-AGENT,HWTVMobile*
 # GlobalMedia 与 Hulu 共 11 条规则重复
 HOST-SUFFIX,happyon.jp
 HOST-SUFFIX,hulu.com
@@ -663,12 +663,12 @@ HOST-SUFFIX,yb.uncn.jp
 HOST,itvpnpmobile-a.akamaihd.net
 HOST-SUFFIX,itv.com
 HOST-SUFFIX,itvstatic.com
-USER-AGENT,itv_player*
+USER-AGENT,ITV_Player*
 # GlobalMedia 与 JOOX 共 4 条规则重复
 HOST-KEYWORD,jooxweb-api
 HOST-SUFFIX,joox.com
-USER-AGENT,joox*
-USER-AGENT,wemusic*
+USER-AGENT,JOOX*
+USER-AGENT,WeMusic*
 # GlobalMedia 与 Japonx 共 10 条规则重复
 HOST-KEYWORD,japonx
 HOST-KEYWORD,japronx
@@ -690,38 +690,38 @@ HOST-SUFFIX,kktv.me
 HOST-SUFFIX,litv.tv
 # GlobalMedia 与 LineTV 共 2 条规则重复
 HOST-SUFFIX,linetv.tw
-USER-AGENT,line%20tv*
+USER-AGENT,LINE%20TV*
 # GlobalMedia 与 My5 共 3 条规则重复
 HOST-SUFFIX,channel5.com
 HOST-SUFFIX,my5.tv
-USER-AGENT,my5*
+USER-AGENT,My5*
 # GlobalMedia 与 PBS 共 2 条规则重复
 HOST-SUFFIX,pbs.org
-USER-AGENT,pbs*
+USER-AGENT,PBS*
 # GlobalMedia 与 Pandora 共 3 条规则重复
 HOST-SUFFIX,p-cdn.us
 HOST-SUFFIX,pandora.com
-USER-AGENT,pandora*
+USER-AGENT,Pandora*
 # GlobalMedia 与 Qobuz 共 1 条规则重复
 HOST-SUFFIX,qobuz.com
 # GlobalMedia 与 SoundCloud 共 4 条规则重复
 HOST-SUFFIX,p-cdn.us
 HOST-SUFFIX,sndcdn.com
 HOST-SUFFIX,soundcloud.com
-USER-AGENT,soundcloud*
+USER-AGENT,SoundCloud*
 # GlobalMedia 与 TIDAL 共 3 条规则重复
 HOST-SUFFIX,tidal.com
 HOST-SUFFIX,tidalhifi.com
-USER-AGENT,tidal*dia
+USER-AGENT,TIDAL*dia
 # GlobalMedia 与 TVB 共 3 条规则重复
 HOST-SUFFIX,mytvsuper.com
 HOST-SUFFIX,tvb.com
 USER-AGENT,mytv*
 # GlobalMedia 与 TaiWanGood 共 2 条规则重复
 HOST-SUFFIX,skyking.com.tw
-USER-AGENT,taiwangood*
+USER-AGENT,TaiwanGood*
 # GlobalMedia 与 ViuTV 共 4 条规则重复
 HOST-SUFFIX,viu.com
 HOST-SUFFIX,viu.tv
-USER-AGENT,viu*
-USER-AGENT,viutv*
+USER-AGENT,Viu*
+USER-AGENT,ViuTV*

@@ -1,7 +1,7 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:15
+# UPDATED: 2021-01-14 13:05:32
 # USER-AGENT: 3
 # DOMAIN-SUFFIX: 101
 # DOMAIN-KEYWORD: 5
@@ -115,6 +115,6 @@ DOMAIN-KEYWORD,gstatic
 DOMAIN-KEYWORD,www.google.
 IP-CIDR,173.194.0.0/16
 IP-CIDR,74.125.0.0/16
-USER-AGENT,%e4%ba%91%e7%ab%af%e7%a1%ac%e7%9b%98*
-USER-AGENT,*com.google.drive*
-USER-AGENT,google.drive*
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
+USER-AGENT,*com.google.Drive*
+USER-AGENT,Google.Drive*

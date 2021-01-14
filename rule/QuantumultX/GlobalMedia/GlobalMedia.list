@@ -1,13 +1,13 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:16
-# USER-AGENT: 57
+# UPDATED: 2021-01-14 13:05:34
+# USER-AGENT: 58
 # HOST-SUFFIX: 195
 # HOST-KEYWORD: 19
 # HOST: 31
 # IP-CIDR: 847
-# TOTAL: 1149
+# TOTAL: 1150
 HOST,apple.comscoreresearch.com,GlobalMedia
 HOST,atv-ps.amazon.com,GlobalMedia
 HOST,avodmp4s3ww-a.akamaihd.net,GlobalMedia
@@ -253,63 +253,64 @@ HOST-KEYWORD,ttvnw,GlobalMedia
 HOST-KEYWORD,uk-live,GlobalMedia
 HOST-KEYWORD,voddazn,GlobalMedia
 HOST-KEYWORD,youtube,GlobalMedia
+USER-AGENT,*PCCW*,GlobalMedia
+USER-AGENT,*Spotify*,GlobalMedia
+USER-AGENT,*YouTubeMusic*,GlobalMedia
 USER-AGENT,*com.google.ios.youtubemusic*,GlobalMedia
 USER-AGENT,*nowe*,GlobalMedia
 USER-AGENT,*pccw*,GlobalMedia
-USER-AGENT,*spotify*,GlobalMedia
 USER-AGENT,*youtube*,GlobalMedia
-USER-AGENT,*youtubemusic*,GlobalMedia
-USER-AGENT,abematv*,GlobalMedia
-USER-AGENT,all4*,GlobalMedia
-USER-AGENT,anime*,GlobalMedia
-USER-AGENT,applenews*,GlobalMedia
-USER-AGENT,argo*,GlobalMedia
-USER-AGENT,bbc*,GlobalMedia
-USER-AGENT,bbcbeacon*,GlobalMedia
-USER-AGENT,bbciplayer*,GlobalMedia
+USER-AGENT,AbemaTV*,GlobalMedia
+USER-AGENT,All4*,GlobalMedia
+USER-AGENT,Anime*,GlobalMedia
+USER-AGENT,AppleNews*,GlobalMedia
+USER-AGENT,Argo*,GlobalMedia
+USER-AGENT,BBC*,GlobalMedia
+USER-AGENT,BBCBeacon*,GlobalMedia
+USER-AGENT,BBCiPlayer*,GlobalMedia
+USER-AGENT,DAZN*,GlobalMedia
+USER-AGENT,Deezer*,GlobalMedia
+USER-AGENT,Disney*,GlobalMedia
+USER-AGENT,Disney+*,GlobalMedia
+USER-AGENT,FOX%20NOW*,GlobalMedia
+USER-AGENT,FOXPlus*,GlobalMedia
+USER-AGENT,HBO%20GO%20PROD%20HKG*,GlobalMedia
+USER-AGENT,HBO%20NOW*,GlobalMedia
+USER-AGENT,HBOAsia*,GlobalMedia
+USER-AGENT,HBOMAX*,GlobalMedia
+USER-AGENT,HWTVMobile*,GlobalMedia
+USER-AGENT,ITV_Player*,GlobalMedia
+USER-AGENT,InstantVideo.US*,GlobalMedia
+USER-AGENT,JOOX*,GlobalMedia
+USER-AGENT,KKTV*,GlobalMedia
+USER-AGENT,LINE%20TV*,GlobalMedia
+USER-AGENT,LINE*,GlobalMedia
+USER-AGENT,My5*,GlobalMedia
+USER-AGENT,News*,GlobalMedia
+USER-AGENT,Niconico*,GlobalMedia
+USER-AGENT,OTT_iPhone*,GlobalMedia
+USER-AGENT,PBS*,GlobalMedia
+USER-AGENT,Pandora*,GlobalMedia
+USER-AGENT,Prime%20Video*,GlobalMedia
+USER-AGENT,SoundCloud*,GlobalMedia
+USER-AGENT,Spotify*,GlobalMedia
+USER-AGENT,TIDAL*,GlobalMedia
+USER-AGENT,TIDAL*dia,GlobalMedia
+USER-AGENT,TVB*,GlobalMedia
+USER-AGENT,TaiwanGood*,GlobalMedia
+USER-AGENT,TikTok*,GlobalMedia
+USER-AGENT,Viu*,GlobalMedia
+USER-AGENT,ViuTV*,GlobalMedia
+USER-AGENT,WeMusic*,GlobalMedia
+USER-AGENT,YouTube*,GlobalMedia
+USER-AGENT,YouTubeMusic*,GlobalMedia
 USER-AGENT,com.apple.news*,GlobalMedia
 USER-AGENT,com.google.ios.youtube*,GlobalMedia
 USER-AGENT,com.google.ios.youtubemusic*,GlobalMedia
 USER-AGENT,com.kktv*,GlobalMedia
 USER-AGENT,com.kktv.ios.kktv*,GlobalMedia
-USER-AGENT,dazn*,GlobalMedia
-USER-AGENT,deezer*,GlobalMedia
-USER-AGENT,disney*,GlobalMedia
-USER-AGENT,disney+*,GlobalMedia
-USER-AGENT,encoretvb*,GlobalMedia
-USER-AGENT,fox%20now*,GlobalMedia
-USER-AGENT,foxplus*,GlobalMedia
-USER-AGENT,hbo%20go%20prod%20hkg*,GlobalMedia
-USER-AGENT,hbo%20now*,GlobalMedia
-USER-AGENT,hboasia*,GlobalMedia
-USER-AGENT,hbomax*,GlobalMedia
-USER-AGENT,hwtvmobile*,GlobalMedia
-USER-AGENT,instantvideo.us*,GlobalMedia
-USER-AGENT,itv_player*,GlobalMedia
-USER-AGENT,joox*,GlobalMedia
-USER-AGENT,kktv*,GlobalMedia
-USER-AGENT,line%20tv*,GlobalMedia
-USER-AGENT,line*,GlobalMedia
-USER-AGENT,my5*,GlobalMedia
+USER-AGENT,encoreTVB*,GlobalMedia
 USER-AGENT,mytv*,GlobalMedia
-USER-AGENT,news*,GlobalMedia
-USER-AGENT,niconico*,GlobalMedia
-USER-AGENT,ott_iphone*,GlobalMedia
-USER-AGENT,pandora*,GlobalMedia
-USER-AGENT,pbs*,GlobalMedia
-USER-AGENT,prime%20video*,GlobalMedia
-USER-AGENT,soundcloud*,GlobalMedia
-USER-AGENT,spotify*,GlobalMedia
-USER-AGENT,taiwangood*,GlobalMedia
-USER-AGENT,tidal*,GlobalMedia
-USER-AGENT,tidal*dia,GlobalMedia
-USER-AGENT,tiktok*,GlobalMedia
-USER-AGENT,tvb*,GlobalMedia
-USER-AGENT,viu*,GlobalMedia
-USER-AGENT,viutv*,GlobalMedia
-USER-AGENT,wemusic*,GlobalMedia
-USER-AGENT,youtube*,GlobalMedia
-USER-AGENT,youtubemusic*,GlobalMedia
 IP-CIDR,1.37.35.6/32,GlobalMedia
 IP-CIDR,101.100.179.242/32,GlobalMedia
 IP-CIDR,101.100.179.250/32,GlobalMedia

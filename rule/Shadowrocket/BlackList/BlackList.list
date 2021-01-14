@@ -1,7 +1,7 @@
 # NAME: BlackList
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:21
+# UPDATED: 2021-01-14 13:05:39
 # DOMAIN-SUFFIX: 694
 # USER-AGENT: 3
 # DOMAIN: 5
@@ -777,7 +777,7 @@ IP-CIDR,74.119.76.0/22,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,74.86.0.0/16,no-resolve
 IP-CIDR,75.126.0.0/16,no-resolve
+USER-AGENT,Roam*
+USER-AGENT,WhatsApp*
 USER-AGENT,battleroyale*
-USER-AGENT,roam*
-USER-AGENT,whatsapp*
 PROCESS-NAME,lookupviewservice

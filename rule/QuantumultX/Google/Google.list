@@ -1,7 +1,7 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:16
+# UPDATED: 2021-01-14 13:05:34
 # USER-AGENT: 3
 # HOST-SUFFIX: 101
 # HOST-KEYWORD: 5
@@ -113,8 +113,8 @@ HOST-KEYWORD,gmail,Google
 HOST-KEYWORD,google,Google
 HOST-KEYWORD,gstatic,Google
 HOST-KEYWORD,www.google.,Google
-USER-AGENT,%e4%ba%91%e7%ab%af%e7%a1%ac%e7%9b%98*,Google
-USER-AGENT,*com.google.drive*,Google
-USER-AGENT,google.drive*,Google
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,Google
+USER-AGENT,*com.google.Drive*,Google
+USER-AGENT,Google.Drive*,Google
 IP-CIDR,173.194.0.0/16,Google
 IP-CIDR,74.125.0.0/16,Google

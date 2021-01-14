@@ -1,7 +1,7 @@
 # NAME: BlackList 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:26
+# UPDATED: 2021-01-14 13:05:44
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # BlackList 与 China 共 22 条规则重复
 DOMAIN-SUFFIX,apache.org
@@ -970,9 +970,9 @@ IP-CIDR,74.125.0.0/16
 IP-CIDR,74.86.0.0/16
 IP-CIDR,75.126.0.0/16
 PROCESS-NAME,lookupviewservice
+USER-AGENT,Roam*
+USER-AGENT,WhatsApp*
 USER-AGENT,battleroyale*
-USER-AGENT,roam*
-USER-AGENT,whatsapp*
 # BlackList 与 Global 共 677 条规则重复
 DOMAIN,api-glb-sea.smoot.apple.com
 DOMAIN,books.itunes.apple.com
@@ -1650,7 +1650,7 @@ IP-CIDR,69.63.176.0/20
 IP-CIDR,74.119.76.0/22
 IP-CIDR,74.125.0.0/16
 PROCESS-NAME,lookupviewservice
-USER-AGENT,roam*
+USER-AGENT,Roam*
 # BlackList 与 GlobalMedia 共 18 条规则重复
 DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,amazonaws.com

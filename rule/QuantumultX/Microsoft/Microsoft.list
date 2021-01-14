@@ -1,7 +1,7 @@
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:16
+# UPDATED: 2021-01-14 13:05:34
 # HOST-SUFFIX: 92
 # USER-AGENT: 3
 # HOST-KEYWORD: 4
@@ -102,6 +102,6 @@ HOST-KEYWORD,1drv,Microsoft
 HOST-KEYWORD,microsoft,Microsoft
 HOST-KEYWORD,onedrive,Microsoft
 HOST-KEYWORD,skydrive,Microsoft
-USER-AGENT,microsoft*,Microsoft
-USER-AGENT,onedrive*,Microsoft
-USER-AGENT,onedriveiosapp*,Microsoft
+USER-AGENT,Microsoft*,Microsoft
+USER-AGENT,OneDrive*,Microsoft
+USER-AGENT,OneDriveiOSApp*,Microsoft

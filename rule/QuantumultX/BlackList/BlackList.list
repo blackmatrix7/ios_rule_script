@@ -1,7 +1,7 @@
 # NAME: BlackList
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:16
+# UPDATED: 2021-01-14 13:05:34
 # HOST-SUFFIX: 694
 # USER-AGENT: 3
 # HOST: 5
@@ -719,9 +719,9 @@ HOST-KEYWORD,instagram,BlackList
 HOST-KEYWORD,tesla,BlackList
 HOST-KEYWORD,twitter,BlackList
 HOST-KEYWORD,whatsapp,BlackList
+USER-AGENT,Roam*,BlackList
+USER-AGENT,WhatsApp*,BlackList
 USER-AGENT,battleroyale*,BlackList
-USER-AGENT,roam*,BlackList
-USER-AGENT,whatsapp*,BlackList
 IP-CIDR,1.201.0.0/24,BlackList
 IP-CIDR,103.2.28.0/22,BlackList
 IP-CIDR,103.246.56.0/22,BlackList

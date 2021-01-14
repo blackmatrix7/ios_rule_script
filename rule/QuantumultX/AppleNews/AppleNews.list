@@ -1,7 +1,7 @@
 # NAME: AppleNews
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:16
+# UPDATED: 2021-01-14 13:05:34
 # HOST: 7
 # USER-AGENT: 2
 # HOST-SUFFIX: 1
@@ -14,5 +14,5 @@ HOST,news-client.apple.com,AppleNews
 HOST,news-edge.apple.com,AppleNews
 HOST,news-events.apple.com,AppleNews
 HOST-SUFFIX,apple.news,AppleNews
-USER-AGENT,applenews*,AppleNews
+USER-AGENT,AppleNews*,AppleNews
 USER-AGENT,com.apple.news*,AppleNews

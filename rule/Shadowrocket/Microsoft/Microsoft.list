@@ -1,7 +1,7 @@
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:21
+# UPDATED: 2021-01-14 13:05:38
 # DOMAIN-SUFFIX: 92
 # USER-AGENT: 3
 # DOMAIN-KEYWORD: 4
@@ -103,8 +103,8 @@ DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,skydrive
-USER-AGENT,microsoft*
-USER-AGENT,onedrive*
-USER-AGENT,onedriveiosapp*
+USER-AGENT,Microsoft*
+USER-AGENT,OneDrive*
+USER-AGENT,OneDriveiOSApp*
 PROCESS-NAME,onedrive
 PROCESS-NAME,onedriveupdater

@@ -1,7 +1,7 @@
 # NAME: Microsoft 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:24
+# UPDATED: 2021-01-14 13:05:42
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Microsoft 与 China 共 30 条规则重复
 DOMAIN-KEYWORD,microsoft
@@ -33,7 +33,7 @@ DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,xbox.com
 DOMAIN-SUFFIX,xboxlive.com
-USER-AGENT,microsoft*
+USER-AGENT,Microsoft*
 # Microsoft 与 ChinaTest 共 30 条规则重复
 DOMAIN-KEYWORD,microsoft
 DOMAIN-SUFFIX,akadns.net
@@ -64,7 +64,7 @@ DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,xbox.com
 DOMAIN-SUFFIX,xboxlive.com
-USER-AGENT,microsoft*
+USER-AGENT,Microsoft*
 # Microsoft 与 Apple 共 1 条规则重复
 DOMAIN-SUFFIX,akadns.net
 # Microsoft 与 OneDrive 共 11 条规则重复
@@ -77,8 +77,8 @@ DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,sharepointonline.com
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
-USER-AGENT,onedrive*
-USER-AGENT,onedriveiosapp*
+USER-AGENT,OneDrive*
+USER-AGENT,OneDriveiOSApp*
 # Microsoft 与 AdvertisingLite 共 1 条规则重复
 DOMAIN-SUFFIX,uservoice.com
 # Microsoft 与 Advertising 共 1 条规则重复
@@ -151,7 +151,7 @@ DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,xbox.com
 DOMAIN-SUFFIX,xboxlive.com
 DOMAIN-SUFFIX,yammer.com
-USER-AGENT,onedrive*
+USER-AGENT,OneDrive*
 # Microsoft 与 Global 共 21 条规则重复
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,aka.ms

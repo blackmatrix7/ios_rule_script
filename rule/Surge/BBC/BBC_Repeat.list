@@ -1,7 +1,7 @@
 # NAME: BBC 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:22
+# UPDATED: 2021-01-14 13:05:40
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # BBC 与 Proxy 共 10 条规则重复
 DOMAIN-KEYWORD,bbcfmt
@@ -13,14 +13,14 @@ DOMAIN-SUFFIX,bbc.in
 DOMAIN-SUFFIX,bbcchinese.com
 DOMAIN-SUFFIX,bbci.co
 DOMAIN-SUFFIX,bbci.co.uk
-USER-AGENT,bbciplayer*
+USER-AGENT,BBCiPlayer*
 # BBC 与 Global 共 6 条规则重复
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
 DOMAIN-SUFFIX,bbc.co.uk
 DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,bbci.co.uk
-USER-AGENT,bbciplayer*
+USER-AGENT,BBCiPlayer*
 # BBC 与 GlobalMedia 共 8 条规则重复
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
@@ -29,4 +29,4 @@ DOMAIN-SUFFIX,bbc.co.uk
 DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,bbci.co
 DOMAIN-SUFFIX,bbci.co.uk
-USER-AGENT,bbciplayer*
+USER-AGENT,BBCiPlayer*

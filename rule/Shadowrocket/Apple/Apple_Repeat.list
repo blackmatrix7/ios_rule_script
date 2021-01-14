@@ -1,7 +1,7 @@
 # NAME: Apple 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:26
+# UPDATED: 2021-01-14 13:05:44
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Apple 与 China 共 5 条规则重复
 DOMAIN-SUFFIX,aaplimg.com
@@ -75,15 +75,15 @@ DOMAIN-KEYWORD,testflight
 DOMAIN-SUFFIX,appsto.re
 PROCESS-NAME,lookupviewservice
 # Apple 与 AppleMusic 共 1 条规则重复
-USER-AGENT,music*
+USER-AGENT,Music*
 # Apple 与 AppleNews 共 5 条规则重复
 DOMAIN,apple.comscoreresearch.com
 DOMAIN-SUFFIX,apple.news
 PROCESS-NAME,news
-USER-AGENT,applenews*
+USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
 # Apple 与 AppleTV 共 2 条规则重复
-USER-AGENT,appletv*
+USER-AGENT,AppleTV*
 USER-AGENT,com.apple.tv*
 # Apple 与 Microsoft 共 1 条规则重复
 DOMAIN-SUFFIX,akadns.net
@@ -141,7 +141,7 @@ PROCESS-NAME,lookupviewservice
 # Apple 与 GlobalMedia 共 4 条规则重复
 DOMAIN,apple.comscoreresearch.com
 DOMAIN-SUFFIX,apple.news
-USER-AGENT,applenews*
+USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
 # Apple 与 BlackList 共 2 条规则重复
 DOMAIN-SUFFIX,appsto.re

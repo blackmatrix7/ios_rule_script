@@ -1,7 +1,7 @@
 # NAME: YouTube
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:16
+# UPDATED: 2021-01-14 13:05:34
 # USER-AGENT: 5
 # HOST-SUFFIX: 173
 # HOST-KEYWORD: 1
@@ -183,10 +183,10 @@ HOST-SUFFIX,yt.be,YouTube
 HOST-SUFFIX,ytimg.com,YouTube
 HOST-KEYWORD,youtube,YouTube
 USER-AGENT,*youtube*,YouTube
+USER-AGENT,YouTube*,YouTube
+USER-AGENT,YouTubeMusic*,YouTube
 USER-AGENT,com.google.ios.youtube*,YouTube
 USER-AGENT,com.google.ios.youtubemusic*,YouTube
-USER-AGENT,youtube*,YouTube
-USER-AGENT,youtubemusic*,YouTube
 IP-CIDR,172.110.32.0/21,YouTube
 IP-CIDR,216.73.80.0/20,YouTube
 IP6-CIDR,2620:120:e000::/40,YouTube

@@ -1,7 +1,7 @@
 # NAME: Amazon
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:17
+# UPDATED: 2021-01-14 13:05:34
 # USER-AGENT: 2
 # HOST-SUFFIX: 9
 # IP-CIDR: 15
@@ -15,8 +15,8 @@ HOST-SUFFIX,amazonvideo.com,Amazon
 HOST-SUFFIX,llnwd.net,Amazon
 HOST-SUFFIX,media-amazon.com,Amazon
 HOST-SUFFIX,primevideo.com,Amazon
-USER-AGENT,instantvideo.us*,Amazon
-USER-AGENT,prime%20video*,Amazon
+USER-AGENT,InstantVideo.US*,Amazon
+USER-AGENT,Prime%20Video*,Amazon
 IP-CIDR,13.32.0.0/15,Amazon
 IP-CIDR,13.35.0.0/17,Amazon
 IP-CIDR,18.184.0.0/15,Amazon

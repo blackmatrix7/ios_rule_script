@@ -1,7 +1,7 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:18
+# UPDATED: 2021-01-14 13:05:35
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-SUFFIX: 27686
 # USER-AGENT: 49
@@ -53,55 +53,55 @@ DOMAIN-KEYWORD,voddazn
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,wikileaks
 DOMAIN-KEYWORD,youtube
-USER-AGENT,%e7%ba%bd%e7%ba%a6%e6%97%b6%e6%8a%a5*
-USER-AGENT,abematv*
-USER-AGENT,all4*
-USER-AGENT,anime*
-USER-AGENT,argo*
-USER-AGENT,awemei18n*
+USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*
+USER-AGENT,AbemaTV*
+USER-AGENT,All4*
+USER-AGENT,Anime*
+USER-AGENT,Argo*
+USER-AGENT,AwemeI18n*
+USER-AGENT,BBCiPlayer*
+USER-AGENT,Coinbase*
+USER-AGENT,DAZN*
+USER-AGENT,Deezer*
+USER-AGENT,Disney+*
+USER-AGENT,FOX%20NOW*
+USER-AGENT,HBO%20GO%20PROD%20HKG*
+USER-AGENT,HBO%20NOW*
+USER-AGENT,HWTVMobile*
+USER-AGENT,ITV_Player*
+USER-AGENT,Instagram*
+USER-AGENT,InstantVideo.US*
+USER-AGENT,JOOX*
+USER-AGENT,KKTV*
+USER-AGENT,LINE%20TV*
+USER-AGENT,My5*
+USER-AGENT,Niconico*
+USER-AGENT,OneDrive*
+USER-AGENT,PBS*
+USER-AGENT,Pandora*
+USER-AGENT,PayPal*
+USER-AGENT,Prime%20Video*
+USER-AGENT,ResilioSync*
+USER-AGENT,Roam*
+USER-AGENT,SoundCloud*
+USER-AGENT,Spotify*
+USER-AGENT,TIDAL*
+USER-AGENT,TaiwanGood*
+USER-AGENT,TikTok*
+USER-AGENT,TwDramas
+USER-AGENT,Viu*
+USER-AGENT,ViuTV*
+USER-AGENT,WeMusic*
+USER-AGENT,WhatsApp*
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
 USER-AGENT,battleroyale*
-USER-AGENT,bbciplayer*
-USER-AGENT,coinbase*
 USER-AGENT,com.apple.trustd*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,com.kktv.ios.kktv*
-USER-AGENT,dazn*
-USER-AGENT,deezer*
-USER-AGENT,disney+*
-USER-AGENT,encoretvb*
-USER-AGENT,fox%20now*
-USER-AGENT,hbo%20go%20prod%20hkg*
-USER-AGENT,hbo%20now*
-USER-AGENT,hwtvmobile*
-USER-AGENT,instagram*
-USER-AGENT,instantvideo.us*
-USER-AGENT,itv_player*
-USER-AGENT,joox*
-USER-AGENT,kktv*
-USER-AGENT,line%20tv*
-USER-AGENT,my5*
+USER-AGENT,encoreTVB*
 USER-AGENT,mytv*
-USER-AGENT,niconico*
-USER-AGENT,onedrive*
-USER-AGENT,pandora*
-USER-AGENT,paypal*
-USER-AGENT,pbs*
-USER-AGENT,prime%20video*
-USER-AGENT,resiliosync*
-USER-AGENT,roam*
-USER-AGENT,soundcloud*
-USER-AGENT,spotify*
-USER-AGENT,taiwangood*
-USER-AGENT,tidal*
-USER-AGENT,tiktok*
-USER-AGENT,twdramas
-USER-AGENT,viu*
-USER-AGENT,viutv*
-USER-AGENT,wemusic*
-USER-AGENT,whatsapp*
-USER-AGENT,youtube*
-USER-AGENT,youtubemusic*
 URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
 IP-CIDR,1.201.0.0/24
 IP-CIDR,103.102.166.0/24

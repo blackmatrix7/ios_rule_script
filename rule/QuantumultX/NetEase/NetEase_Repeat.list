@@ -1,7 +1,7 @@
 # NAME: NetEase 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:22
+# UPDATED: 2021-01-14 13:05:40
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # NetEase 与 China 共 11 条规则重复
 HOST-SUFFIX,126.com
@@ -13,8 +13,8 @@ HOST-SUFFIX,lofter.com
 HOST-SUFFIX,netease.com
 HOST-SUFFIX,ydstatic.com
 HOST-SUFFIX,youdao.com
-USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*
-USER-AGENT,neteasemusic*
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
+USER-AGENT,NeteaseMusic*
 # NetEase 与 ChinaTest 共 39 条规则重复
 HOST-SUFFIX,126.am
 HOST-SUFFIX,126.com
@@ -53,8 +53,8 @@ HOST-SUFFIX,yodao.com
 HOST-SUFFIX,youdao.com
 HOST-SUFFIX,yqkk.link
 HOST-SUFFIX,zhuanzfx.com
-USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*
-USER-AGENT,neteasemusic*
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
+USER-AGENT,NeteaseMusic*
 # NetEase 与 ChinaMedia 共 11 条规则重复
 IP-CIDR,101.71.154.241/32
 IP-CIDR,103.126.92.132/31
@@ -65,8 +65,8 @@ IP-CIDR,193.112.159.225/32
 IP-CIDR,39.105.63.80/32
 IP-CIDR,45.254.48.1/32
 IP-CIDR,47.100.127.239/32
-USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*
-USER-AGENT,neteasemusic*
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
+USER-AGENT,NeteaseMusic*
 # NetEase 与 NetEaseMusic 共 22 条规则重复
 HOST,netease.ugcvideoss.ourdvs.com
 HOST-SUFFIX,163yun.com
@@ -84,9 +84,9 @@ IP-CIDR,45.254.48.1/32
 IP-CIDR,47.100.127.239/32
 IP-CIDR,59.111.128.0/17
 IP-CIDR,59.111.21.14/31
-USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*
-USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90**
-USER-AGENT,neteasemusic*
-USER-AGENT,neteasemusic**
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**
+USER-AGENT,NeteaseMusic*
+USER-AGENT,NeteaseMusic**
 USER-AGENT,网易云音乐*
 USER-AGENT,网易云音乐**

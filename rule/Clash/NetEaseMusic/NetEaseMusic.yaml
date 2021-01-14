@@ -1,20 +1,16 @@
 # NAME: NetEaseMusic
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-14 03:24:18
-# DOMAIN-SUFFIX: 11
+# UPDATED: 2021-01-14 13:05:36
+# DOMAIN-SUFFIX: 7
 # IP-CIDR: 14
 # DOMAIN: 1
-# TOTAL: 26
+# TOTAL: 22
 payload:
   - DOMAIN,netease.ugcvideoss.ourdvs.com
   - DOMAIN-SUFFIX,163yun.com
   - DOMAIN-SUFFIX,api.iplay.163.com
-  - DOMAIN-SUFFIX,apm.music.163.com
-  - DOMAIN-SUFFIX,apm3.music.163.com
   - DOMAIN-SUFFIX,hz.netease.com
-  - DOMAIN-SUFFIX,interface.music.163.com
-  - DOMAIN-SUFFIX,interface3.music.163.com
   - DOMAIN-SUFFIX,mam.netease.com
   - DOMAIN-SUFFIX,music.126.com
   - DOMAIN-SUFFIX,music.126.net

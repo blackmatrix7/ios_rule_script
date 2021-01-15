@@ -1,10 +1,10 @@
 # NAME: CBS 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-15 03:21:36
+# UPDATED: 2021-01-16 03:25:22
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
-# CBS 与 Proxy 共 23 条规则重复
+# CBS 与 Proxy 共 22 条规则重复
   - DOMAIN-SUFFIX,cbs
   - DOMAIN-SUFFIX,cbs.com
   - DOMAIN-SUFFIX,cbsaavideo.com
@@ -23,7 +23,6 @@ payload:
   - DOMAIN-SUFFIX,cbsstatic.com
   - DOMAIN-SUFFIX,cbssvideo.com
   - DOMAIN-SUFFIX,paramount.com
-  - DOMAIN-SUFFIX,showtime
   - DOMAIN-SUFFIX,viacbs.com
   - DOMAIN-SUFFIX,viacom.com
   - DOMAIN-SUFFIX,viacomcbs.com

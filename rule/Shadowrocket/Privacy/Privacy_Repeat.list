@@ -1,7 +1,7 @@
 # NAME: Privacy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-15 03:21:37
+# UPDATED: 2021-01-16 03:25:23
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Privacy 与 China 共 1 条规则重复
 DOMAIN,safebrowsing.googleapis.com
@@ -2359,7 +2359,11 @@ DOMAIN-SUFFIX,zs.dhl.de
 DOMAIN-SUFFIX,zsi7.destinia.do
 DOMAIN-SUFFIX,zyq2.destinia.sk
 DOMAIN-SUFFIX,zz.bdstatic.com
-# Privacy 与 Advertising 共 2648 条规则重复
+# Privacy 与 Advertising 共 2652 条规则重复
+DOMAIN,log-hl-ipv6.snssdk.com
+DOMAIN,log-lq.snssdk.com
+DOMAIN,log-va.tiktokv.com
+DOMAIN,log.byteoversea.com
 DOMAIN-KEYWORD,log.umeng.com
 DOMAIN-KEYWORD,logs.umeng.com
 DOMAIN-KEYWORD,logs.umengcloud.com
@@ -5008,7 +5012,11 @@ DOMAIN-SUFFIX,zs.dhl.de
 DOMAIN-SUFFIX,zsi7.destinia.do
 DOMAIN-SUFFIX,zyq2.destinia.sk
 DOMAIN-SUFFIX,zz.bdstatic.com
-# Privacy 与 AdvertisingTest 共 2582 条规则重复
+# Privacy 与 AdvertisingTest 共 2585 条规则重复
+DOMAIN,log-hl-ipv6.snssdk.com
+DOMAIN,log-lq.snssdk.com
+DOMAIN,log-va.tiktokv.com
+DOMAIN,log.byteoversea.com
 DOMAIN-KEYWORD,log.umeng.com
 DOMAIN-KEYWORD,logs.umeng.com
 DOMAIN-KEYWORD,logs.umengcloud.com
@@ -6069,7 +6077,6 @@ DOMAIN-SUFFIX,impress.vcita.com
 DOMAIN-SUFFIX,imx.comedycentral.com
 DOMAIN-SUFFIX,infinityid.condenastdigital.com
 DOMAIN-SUFFIX,informers.sinoptik.ua
-DOMAIN-SUFFIX,ingest.sentry.io
 DOMAIN-SUFFIX,inquiries.redhat.com
 DOMAIN-SUFFIX,insight.fonecta.fi
 DOMAIN-SUFFIX,insights.algolia.io

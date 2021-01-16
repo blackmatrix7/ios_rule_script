@@ -1,11 +1,11 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-16 03:25:15
+# UPDATED: 2021-01-17 03:17:12
 # DOMAIN: 19
-# DOMAIN-SUFFIX: 2812
+# DOMAIN-SUFFIX: 2813
 # DOMAIN-KEYWORD: 3
-# TOTAL: 2834
+# TOTAL: 2835
 payload:
   - 'data.mistat.xiaomi.com'
   - 'hm.baidu.com'
@@ -742,7 +742,6 @@ payload:
   - '.dc.banggood.com'
   - '.dc.letv.com'
   - '.dccss.banggood.com'
-  - '.dcf.espn.com'
   - '.dd.nytimes.com'
   - '.de-mi-nis-ner.info'
   - '.de-mi-nis-ner2.info'
@@ -1172,7 +1171,6 @@ payload:
   - '.imx.comedycentral.com'
   - '.infinityid.condenastdigital.com'
   - '.informers.sinoptik.ua'
-  - '.ingest.sentry.io'
   - '.inquiries.redhat.com'
   - '.insight.fonecta.fi'
   - '.insights.algolia.io'
@@ -1382,6 +1380,7 @@ payload:
   - '.metrics.ctvdigital.net'
   - '.metrics.ee.co.uk'
   - '.metrics.extremetech.com'
+  - '.metrics.getvitals.io'
   - '.metrics.n-tv.de'
   - '.metrics.readme.io'
   - '.metrics.scribblelive.com'
@@ -1514,6 +1513,7 @@ payload:
   - '.p.aty.sohu.com'
   - '.p.eyebuydirect-cmr.net'
   - '.p.gazeta.pl'
+  - '.p.kolplay.com'
   - '.p.milliyet.com.tr'
   - '.p.pagesjaunes.fr'
   - '.p.tencentmind.com'
@@ -2253,6 +2253,7 @@ payload:
   - '.tag.boulanger.fr'
   - '.tag.brandcdn.com'
   - '.tag.cribnotes.jp'
+  - '.tag.elevaate.io'
   - '.tag.goldenbees.fr'
   - '.tag.leadplace.fr'
   - '.tag.myplay.com'

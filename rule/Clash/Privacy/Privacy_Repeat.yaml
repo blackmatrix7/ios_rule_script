@@ -1,7 +1,7 @@
 # NAME: Privacy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-16 03:25:22
+# UPDATED: 2021-01-17 03:17:19
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # Privacy 与 China 共 1 条规则重复
@@ -2360,7 +2360,7 @@ payload:
   - DOMAIN-SUFFIX,zsi7.destinia.do
   - DOMAIN-SUFFIX,zyq2.destinia.sk
   - DOMAIN-SUFFIX,zz.bdstatic.com
-# Privacy 与 Advertising 共 2652 条规则重复
+# Privacy 与 Advertising 共 2653 条规则重复
   - DOMAIN,log-hl-ipv6.snssdk.com
   - DOMAIN,log-lq.snssdk.com
   - DOMAIN,log-va.tiktokv.com
@@ -3044,7 +3044,6 @@ payload:
   - DOMAIN-SUFFIX,dc.banggood.com
   - DOMAIN-SUFFIX,dc.letv.com
   - DOMAIN-SUFFIX,dccss.banggood.com
-  - DOMAIN-SUFFIX,dcf.espn.com
   - DOMAIN-SUFFIX,dd.nytimes.com
   - DOMAIN-SUFFIX,de-mi-nis-ner.info
   - DOMAIN-SUFFIX,de-mi-nis-ner2.info
@@ -3454,7 +3453,6 @@ payload:
   - DOMAIN-SUFFIX,imx.comedycentral.com
   - DOMAIN-SUFFIX,infinityid.condenastdigital.com
   - DOMAIN-SUFFIX,informers.sinoptik.ua
-  - DOMAIN-SUFFIX,ingest.sentry.io
   - DOMAIN-SUFFIX,inquiries.redhat.com
   - DOMAIN-SUFFIX,insight.fonecta.fi
   - DOMAIN-SUFFIX,insights.algolia.io
@@ -3649,6 +3647,7 @@ payload:
   - DOMAIN-SUFFIX,metrics.ctvdigital.net
   - DOMAIN-SUFFIX,metrics.ee.co.uk
   - DOMAIN-SUFFIX,metrics.extremetech.com
+  - DOMAIN-SUFFIX,metrics.getvitals.io
   - DOMAIN-SUFFIX,metrics.n-tv.de
   - DOMAIN-SUFFIX,metrics.readme.io
   - DOMAIN-SUFFIX,metrics.scribblelive.com
@@ -3774,6 +3773,7 @@ payload:
   - DOMAIN-SUFFIX,p.adbrn.com
   - DOMAIN-SUFFIX,p.eyebuydirect-cmr.net
   - DOMAIN-SUFFIX,p.gazeta.pl
+  - DOMAIN-SUFFIX,p.kolplay.com
   - DOMAIN-SUFFIX,p.milliyet.com.tr
   - DOMAIN-SUFFIX,p.pagesjaunes.fr
   - DOMAIN-SUFFIX,p.travelsmarter.net
@@ -4477,6 +4477,7 @@ payload:
   - DOMAIN-SUFFIX,tag.boulanger.fr
   - DOMAIN-SUFFIX,tag.brandcdn.com
   - DOMAIN-SUFFIX,tag.cribnotes.jp
+  - DOMAIN-SUFFIX,tag.elevaate.io
   - DOMAIN-SUFFIX,tag.goldenbees.fr
   - DOMAIN-SUFFIX,tag.leadplace.fr
   - DOMAIN-SUFFIX,tag.myplay.com
@@ -5013,7 +5014,7 @@ payload:
   - DOMAIN-SUFFIX,zsi7.destinia.do
   - DOMAIN-SUFFIX,zyq2.destinia.sk
   - DOMAIN-SUFFIX,zz.bdstatic.com
-# Privacy 与 AdvertisingTest 共 2585 条规则重复
+# Privacy 与 AdvertisingTest 共 2587 条规则重复
   - DOMAIN,log-hl-ipv6.snssdk.com
   - DOMAIN,log-lq.snssdk.com
   - DOMAIN,log-va.tiktokv.com
@@ -5673,7 +5674,6 @@ payload:
   - DOMAIN-SUFFIX,dc.banggood.com
   - DOMAIN-SUFFIX,dc.letv.com
   - DOMAIN-SUFFIX,dccss.banggood.com
-  - DOMAIN-SUFFIX,dcf.espn.com
   - DOMAIN-SUFFIX,dd.nytimes.com
   - DOMAIN-SUFFIX,de-mi-nis-ner.info
   - DOMAIN-SUFFIX,de-mi-nis-ner2.info
@@ -6270,6 +6270,7 @@ payload:
   - DOMAIN-SUFFIX,metrics.ctvdigital.net
   - DOMAIN-SUFFIX,metrics.ee.co.uk
   - DOMAIN-SUFFIX,metrics.extremetech.com
+  - DOMAIN-SUFFIX,metrics.getvitals.io
   - DOMAIN-SUFFIX,metrics.n-tv.de
   - DOMAIN-SUFFIX,metrics.readme.io
   - DOMAIN-SUFFIX,metrics.scribblelive.com
@@ -6392,6 +6393,7 @@ payload:
   - DOMAIN-SUFFIX,p-log.ykimg.com
   - DOMAIN-SUFFIX,p.eyebuydirect-cmr.net
   - DOMAIN-SUFFIX,p.gazeta.pl
+  - DOMAIN-SUFFIX,p.kolplay.com
   - DOMAIN-SUFFIX,p.milliyet.com.tr
   - DOMAIN-SUFFIX,p.pagesjaunes.fr
   - DOMAIN-SUFFIX,p.travelsmarter.net
@@ -7080,6 +7082,7 @@ payload:
   - DOMAIN-SUFFIX,tag.boulanger.fr
   - DOMAIN-SUFFIX,tag.brandcdn.com
   - DOMAIN-SUFFIX,tag.cribnotes.jp
+  - DOMAIN-SUFFIX,tag.elevaate.io
   - DOMAIN-SUFFIX,tag.goldenbees.fr
   - DOMAIN-SUFFIX,tag.myplay.com
   - DOMAIN-SUFFIX,tag.rmp.rakuten.com

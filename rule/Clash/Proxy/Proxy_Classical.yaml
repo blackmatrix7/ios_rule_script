@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-16 03:25:15
-# DOMAIN-SUFFIX: 27686
+# UPDATED: 2021-01-17 03:17:12
+# DOMAIN-SUFFIX: 27711
 # DOMAIN: 4
 # DOMAIN-KEYWORD: 42
 # IP-CIDR: 110
 # IP-CIDR6: 3
 # PROCESS-NAME: 1
-# TOTAL: 27846
+# TOTAL: 27871
 payload:
   - DOMAIN,assets-priconne-redive-us.akamaized.net
   - DOMAIN,ds-linear-abematv.akamaized.net
@@ -4863,6 +4863,7 @@ payload:
   - DOMAIN-SUFFIX,business-standard.com
   - DOMAIN-SUFFIX,business.nikkeibp.co.jp
   - DOMAIN-SUFFIX,businesscatalyst.com
+  - DOMAIN-SUFFIX,businessfocus.io
   - DOMAIN-SUFFIX,businessinsider.com
   - DOMAIN-SUFFIX,businessinsider.com.au
   - DOMAIN-SUFFIX,businessinsider.sg
@@ -5716,6 +5717,7 @@ payload:
   - DOMAIN-SUFFIX,chinadigitaltimes.com
   - DOMAIN-SUFFIX,chinadigitaltimes.net
   - DOMAIN-SUFFIX,chinadigitaltimes.org
+  - DOMAIN-SUFFIX,chinaeconomicreview.com
   - DOMAIN-SUFFIX,chinaeforum.com
   - DOMAIN-SUFFIX,chinaelections.org
   - DOMAIN-SUFFIX,chinaengland.net
@@ -8232,6 +8234,7 @@ payload:
   - DOMAIN-SUFFIX,ettoday.net
   - DOMAIN-SUFFIX,etviet.com
   - DOMAIN-SUFFIX,etvonline.hk
+  - DOMAIN-SUFFIX,etwealth.com
   - DOMAIN-SUFFIX,eu
   - DOMAIN-SUFFIX,eu-consumer-empowerment.com
   - DOMAIN-SUFFIX,eu.org
@@ -11245,6 +11248,7 @@ payload:
   - DOMAIN-SUFFIX,hkchronicles.com
   - DOMAIN-SUFFIX,hkchurch.org
   - DOMAIN-SUFFIX,hkci.org.hk
+  - DOMAIN-SUFFIX,hkcitizenmedia.com
   - DOMAIN-SUFFIX,hkcmi.edu
   - DOMAIN-SUFFIX,hkcnews.com
   - DOMAIN-SUFFIX,hkcoc.com
@@ -11258,6 +11262,7 @@ payload:
   - DOMAIN-SUFFIX,hkej.com
   - DOMAIN-SUFFIX,hkepc.com
   - DOMAIN-SUFFIX,hket.com
+  - DOMAIN-SUFFIX,hketgroup.com
   - DOMAIN-SUFFIX,hkfaa.com
   - DOMAIN-SUFFIX,hkfreezone.com
   - DOMAIN-SUFFIX,hkfront.org
@@ -14771,9 +14776,11 @@ payload:
   - DOMAIN-SUFFIX,mingpaosf.com
   - DOMAIN-SUFFIX,mingpaotor.com
   - DOMAIN-SUFFIX,mingpaovan.com
+  - DOMAIN-SUFFIX,mings-fashion.com
   - DOMAIN-SUFFIX,mingshengbao.com
   - DOMAIN-SUFFIX,mingshi118.com
   - DOMAIN-SUFFIX,mingw.org
+  - DOMAIN-SUFFIX,mingwatch.com
   - DOMAIN-SUFFIX,minhhue.net
   - DOMAIN-SUFFIX,mini
   - DOMAIN-SUFFIX,mini-abudhabi.com
@@ -15338,6 +15345,7 @@ payload:
   - DOMAIN-SUFFIX,my
   - DOMAIN-SUFFIX,my-formosa.com
   - DOMAIN-SUFFIX,my-free-mp3s.com
+  - DOMAIN-SUFFIX,my-magazine.me
   - DOMAIN-SUFFIX,my-private-network.co.uk
   - DOMAIN-SUFFIX,my-proxy.com
   - DOMAIN-SUFFIX,my.freev2ray.org
@@ -15508,6 +15516,7 @@ payload:
   - DOMAIN-SUFFIX,mysims.com
   - DOMAIN-SUFFIX,mysimsracing.com
   - DOMAIN-SUFFIX,mysinablog.com
+  - DOMAIN-SUFFIX,mysinchew.com
   - DOMAIN-SUFFIX,myspace.com
   - DOMAIN-SUFFIX,myspacecdn.com
   - DOMAIN-SUFFIX,mysql.com
@@ -16219,6 +16228,7 @@ payload:
   - DOMAIN-SUFFIX,npf.org.tw
   - DOMAIN-SUFFIX,npm.community
   - DOMAIN-SUFFIX,npmjs.com
+  - DOMAIN-SUFFIX,npmjs.org
   - DOMAIN-SUFFIX,npnt.me
   - DOMAIN-SUFFIX,nps.gov
   - DOMAIN-SUFFIX,npsboost.com
@@ -16415,6 +16425,7 @@ payload:
   - DOMAIN-SUFFIX,od1n.io
   - DOMAIN-SUFFIX,odiasangita.in
   - DOMAIN-SUFFIX,odnoklassniki.ru
+  - DOMAIN-SUFFIX,odysee.com
   - DOMAIN-SUFFIX,oed.com
   - DOMAIN-SUFFIX,oeea.org
   - DOMAIN-SUFFIX,oex.com
@@ -16497,6 +16508,7 @@ payload:
   - DOMAIN-SUFFIX,omega
   - DOMAIN-SUFFIX,omega.yikyakapi.net
   - DOMAIN-SUFFIX,omekinteractive.com
+  - DOMAIN-SUFFIX,omghk.com
   - DOMAIN-SUFFIX,omgili.com
   - DOMAIN-SUFFIX,omni7.jp
   - DOMAIN-SUFFIX,omnigroup.com
@@ -18525,6 +18537,7 @@ payload:
   - DOMAIN-SUFFIX,rlwlw.com
   - DOMAIN-SUFFIX,rmb802.com
   - DOMAIN-SUFFIX,rmbav.com
+  - DOMAIN-SUFFIX,rmbl.ws
   - DOMAIN-SUFFIX,rmit
   - DOMAIN-SUFFIX,rmjdw.com
   - DOMAIN-SUFFIX,rmjdw132.info
@@ -18627,6 +18640,7 @@ payload:
   - DOMAIN-SUFFIX,rukor.org
   - DOMAIN-SUFFIX,rule34.xxx
   - DOMAIN-SUFFIX,rumbatan.com
+  - DOMAIN-SUFFIX,rumble.com
   - DOMAIN-SUFFIX,run.app
   - DOMAIN-SUFFIX,runbtx.com
   - DOMAIN-SUFFIX,rundell.org.uk
@@ -18705,6 +18719,7 @@ payload:
   - DOMAIN-SUFFIX,safasti.com
   - DOMAIN-SUFFIX,safe-inet.com
   - DOMAIN-SUFFIX,safecart.com
+  - DOMAIN-SUFFIX,safechat.com
   - DOMAIN-SUFFIX,safeforwork.net
   - DOMAIN-SUFFIX,safeguarddefenders.com
   - DOMAIN-SUFFIX,safervpn.com
@@ -19310,11 +19325,16 @@ payload:
   - DOMAIN-SUFFIX,since1989.org
   - DOMAIN-SUFFIX,sinchew.com.my
   - DOMAIN-SUFFIX,sineplex.net
+  - DOMAIN-SUFFIX,sing68.com
   - DOMAIN-SUFFIX,singaporepools.com.sg
   - DOMAIN-SUFFIX,singfortibet.com
   - DOMAIN-SUFFIX,singpao.com.hk
   - DOMAIN-SUFFIX,singtao.ca
   - DOMAIN-SUFFIX,singtao.com
+  - DOMAIN-SUFFIX,singtaobooks.com
+  - DOMAIN-SUFFIX,singtaola.com
+  - DOMAIN-SUFFIX,singtaonewscorp.com
+  - DOMAIN-SUFFIX,singtaoopo.com
   - DOMAIN-SUFFIX,singtaousa.com
   - DOMAIN-SUFFIX,siniritarit.fi
   - DOMAIN-SUFFIX,sino-monthly.com
@@ -21140,6 +21160,8 @@ payload:
   - DOMAIN-SUFFIX,trip7.net
   - DOMAIN-SUFFIX,trisla.com
   - DOMAIN-SUFFIX,tristatebmw.com
+  - DOMAIN-SUFFIX,trithucvn.net
+  - DOMAIN-SUFFIX,trithucvn.org
   - DOMAIN-SUFFIX,trmini.com
   - DOMAIN-SUFFIX,troisrivieresmini.com
   - DOMAIN-SUFFIX,trombi.com
@@ -21957,6 +21979,7 @@ payload:
   - DOMAIN-SUFFIX,vcf-online.org
   - DOMAIN-SUFFIX,vcfbuilder.org
   - DOMAIN-SUFFIX,vcloudair.net
+  - DOMAIN-SUFFIX,vct.news
   - DOMAIN-SUFFIX,vcup.in
   - DOMAIN-SUFFIX,ve
   - DOMAIN-SUFFIX,vedaadvantage.com
@@ -22221,6 +22244,9 @@ payload:
   - DOMAIN-SUFFIX,visionsrv.club
   - DOMAIN-SUFFIX,visiontimes.com
   - DOMAIN-SUFFIX,visiontimes.de
+  - DOMAIN-SUFFIX,visiontimes.it
+  - DOMAIN-SUFFIX,visiontimes.net
+  - DOMAIN-SUFFIX,visiontimesjp.com
   - DOMAIN-SUFFIX,visit.uncensoredlibrary.com
   - DOMAIN-SUFFIX,visitor.pixplug.in
   - DOMAIN-SUFFIX,vista
@@ -22556,6 +22582,7 @@ payload:
   - DOMAIN-SUFFIX,vtje.org
   - DOMAIN-SUFFIX,vtsociety.org
   - DOMAIN-SUFFIX,vtunnel.com
+  - DOMAIN-SUFFIX,vtvan.com
   - DOMAIN-SUFFIX,vu
   - DOMAIN-SUFFIX,vuabai9.com
   - DOMAIN-SUFFIX,vudu.com
@@ -25375,7 +25402,6 @@ payload:
   - DOMAIN-SUFFIX,www.mylamson.com
   - DOMAIN-SUFFIX,www.mynote.idv.tw
   - DOMAIN-SUFFIX,www.myorz.com
-  - DOMAIN-SUFFIX,www.mysinchew.com
   - DOMAIN-SUFFIX,www.mystrongvpn.com
   - DOMAIN-SUFFIX,www.mystrongvpn.org
   - DOMAIN-SUFFIX,www.mytuitui.com
@@ -26262,7 +26288,6 @@ payload:
   - DOMAIN-SUFFIX,www.vpntunnel.se
   - DOMAIN-SUFFIX,www.vps168.tk
   - DOMAIN-SUFFIX,www.vriendenvantibet.be
-  - DOMAIN-SUFFIX,www.vtvan.com
   - DOMAIN-SUFFIX,www.vvssf888.com
   - DOMAIN-SUFFIX,www.vw.idv.tw
   - DOMAIN-SUFFIX,www.vwin.com

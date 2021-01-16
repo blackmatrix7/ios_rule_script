@@ -1,11 +1,11 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-16 03:25:15
+# UPDATED: 2021-01-17 03:17:12
 # DOMAIN: 19
-# DOMAIN-SUFFIX: 2812
+# DOMAIN-SUFFIX: 2813
 # DOMAIN-KEYWORD: 3
-# TOTAL: 2834
+# TOTAL: 2835
 payload:
   - DOMAIN,data.mistat.xiaomi.com
   - DOMAIN,hm.baidu.com
@@ -742,7 +742,6 @@ payload:
   - DOMAIN-SUFFIX,dc.banggood.com
   - DOMAIN-SUFFIX,dc.letv.com
   - DOMAIN-SUFFIX,dccss.banggood.com
-  - DOMAIN-SUFFIX,dcf.espn.com
   - DOMAIN-SUFFIX,dd.nytimes.com
   - DOMAIN-SUFFIX,de-mi-nis-ner.info
   - DOMAIN-SUFFIX,de-mi-nis-ner2.info
@@ -1172,7 +1171,6 @@ payload:
   - DOMAIN-SUFFIX,imx.comedycentral.com
   - DOMAIN-SUFFIX,infinityid.condenastdigital.com
   - DOMAIN-SUFFIX,informers.sinoptik.ua
-  - DOMAIN-SUFFIX,ingest.sentry.io
   - DOMAIN-SUFFIX,inquiries.redhat.com
   - DOMAIN-SUFFIX,insight.fonecta.fi
   - DOMAIN-SUFFIX,insights.algolia.io
@@ -1382,6 +1380,7 @@ payload:
   - DOMAIN-SUFFIX,metrics.ctvdigital.net
   - DOMAIN-SUFFIX,metrics.ee.co.uk
   - DOMAIN-SUFFIX,metrics.extremetech.com
+  - DOMAIN-SUFFIX,metrics.getvitals.io
   - DOMAIN-SUFFIX,metrics.n-tv.de
   - DOMAIN-SUFFIX,metrics.readme.io
   - DOMAIN-SUFFIX,metrics.scribblelive.com
@@ -1514,6 +1513,7 @@ payload:
   - DOMAIN-SUFFIX,p.aty.sohu.com
   - DOMAIN-SUFFIX,p.eyebuydirect-cmr.net
   - DOMAIN-SUFFIX,p.gazeta.pl
+  - DOMAIN-SUFFIX,p.kolplay.com
   - DOMAIN-SUFFIX,p.milliyet.com.tr
   - DOMAIN-SUFFIX,p.pagesjaunes.fr
   - DOMAIN-SUFFIX,p.tencentmind.com
@@ -2253,6 +2253,7 @@ payload:
   - DOMAIN-SUFFIX,tag.boulanger.fr
   - DOMAIN-SUFFIX,tag.brandcdn.com
   - DOMAIN-SUFFIX,tag.cribnotes.jp
+  - DOMAIN-SUFFIX,tag.elevaate.io
   - DOMAIN-SUFFIX,tag.goldenbees.fr
   - DOMAIN-SUFFIX,tag.leadplace.fr
   - DOMAIN-SUFFIX,tag.myplay.com

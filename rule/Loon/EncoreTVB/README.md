@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-16 03:25:44。
+最后检查时间：2021-01-17 03:17:43。
 
 ## 规则统计
 
@@ -48,7 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27895   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/EncoreTVB/EncoreTVB_Repeat.list)   |   0.01% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27920   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/EncoreTVB/EncoreTVB_Repeat.list)   |   0.01% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 1293   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/EncoreTVB/EncoreTVB_Repeat.list)   |   0.23% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 1150   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/EncoreTVB/EncoreTVB_Repeat.list)   |   0.35% |
 ### 特别说明

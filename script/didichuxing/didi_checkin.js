@@ -50,9 +50,27 @@ function BenefitCheckIn(token, cityId, source_id=''){
               magicJS.write(didiMySourceIdKey, obj.data.share.source_id);
               magicJS.logDebug(`您的source_id：${obj.data.share.source_id}`);
             }
-            if (obj.data.sign.sign){
-              let subsidy = Number(obj.data.sign.sign.subsidy_state.subsidy_amount + obj.data.sign.sign.subsidy_state.extra_subsidy_amount);
-              resolve(['签到成功', subsidy, obj.data.welfare.balance, obj.data.notification.reverse()]);
+            if (obj.data.sign.info){
+              let signDays = 0;
+              let signAmount = 0;
+              obj.data.sign.info.sign_activity.forEach(element => {
+                if (element.sign_status == 1){
+                  signDays += 1;
+                  // 累计每日签到奖励
+                  if (element.sign_rule.hasOwnProperty('track_bonus')){
+                    element.sign_rule.track_bonus.forEach(item => {
+                      signAmount += item.amount;
+                    });
+                  }
+                  // 连续签到的额外奖励
+                  if (element.sign_rule.perfect_attendance_bonus && element.sign_rule.perfect_attendance_bonus.length > 0){
+                    element.sign_rule.perfect_attendance_bonus.forEach(item => {
+                      signAmount += item.amount;
+                    });
+                  }
+                }
+              });
+              resolve(['签到成功', signDays, signAmount]);
             }
             else{
               resolve(['重复签到', 0, 0, []]);
@@ -916,7 +934,7 @@ function CollectWools(index, actId, ticket, appId='common'){
       let benefitContent = '';
       // 福利金签到 
       magicJS.logInfo('🔥福利金签到开始');
-      let [didiCheckInErr, [didiSigninStr, subsidy, balance, notification]] = await magicJS.attempt(magicJS.retry(BenefitCheckIn, 3, 1000)(token, cityId, source_id), [null, null, null, null]);
+      let [didiCheckInErr, [didiSigninStr, signDays, signAmount]] = await magicJS.attempt(magicJS.retry(BenefitCheckIn, 3, 1000)(token, cityId, source_id), [null, null, null, null]);
       if (didiCheckInErr){
         magicJS.logError(didiCheckInErr);
         benefitSubTitle += `🧧福利金签到：${didiCheckInErr}`;
@@ -924,15 +942,18 @@ function CollectWools(index, actId, ticket, appId='common'){
       else{
         magicJS.logInfo(didiSigninStr);
         benefitSubTitle += `🧧福利金签到：${didiSigninStr}`;
-        if (subsidy > 0){
-          benefitContent += `获取${subsidy}福利金`;
+        if (signDays > 0){
+          benefitContent += `本周期已联系签到${signDays}天\n累计获得${signAmount}福利金`;
         }
-        if (balance) benefitContent = `账户共${balance}福利金，可抵扣${balance/100}元`;
-        // 系统通消息，通知置后提醒
-        notification.forEach(element => {
-          if (sysMsg) sysMsg += '\n';
-          sysMsg += element + '';
-        });
+        // if (subsidy > 0){
+        //   benefitContent += `获取${subsidy}福利金`;
+        // }
+        // if (balance) benefitContent = `账户共${balance}福利金，可抵扣${balance/100}元`;
+        // // 系统通消息，通知置后提醒
+        // notification.forEach(element => {
+        //   if (sysMsg) sysMsg += '\n';
+        //   sysMsg += element + '';
+        // });
       }
 
       // 瓜分福利金

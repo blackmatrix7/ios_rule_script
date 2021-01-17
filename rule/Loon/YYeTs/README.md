@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-17 03:17:41。
+最后检查时间：2021-01-18 03:17:06。
 
 ## 规则统计
 
@@ -49,8 +49,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 688   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   1.31% |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 72126   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   0.02% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 141   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   4.96% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 57259   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   0.0% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 74552   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   0.0% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 58200   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   0.0% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 75247   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   0.0% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27920   | [13](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YYeTs/YYeTs_Repeat.list)   |   0.05% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。

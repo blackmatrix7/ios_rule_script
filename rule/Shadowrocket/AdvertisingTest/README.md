@@ -10,20 +10,20 @@
 
 去广告测试版分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。程序已默认根据正则推导一份MITM的模块/复写/插件在当前分流规则的目录中，便于参考搭配使用。
 
-最后检查时间：2021-01-17 03:17:58。
+最后检查时间：2021-01-18 03:17:23。
 
 ## 规则统计
 
-总计规则：74552 条。
+总计规则：75247 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 63858 |
+| DOMAIN-SUFFIX | 63861 |
 | DOMAIN-KEYWORD | 61 |
 | IP-CIDR | 240 |
-| DOMAIN | 10083 |
+| DOMAIN | 10775 |
 | URL-REGEX | 310 |
 ## 配置说明
 
@@ -56,13 +56,13 @@ AdvertisingTest_Domain.list请使用DOMAIN-SET。
 
 当前分流规则，已包含以下子规则：
 
-- Advertising
+- AdvertisingLite
 
 - Hijacking
 
 - Privacy
 
-- AdvertisingLite
+- Advertising
 
 除非特殊需求，否则不建议重复引用。
 
@@ -117,8 +117,8 @@ AdvertisingTest_Domain.list请使用DOMAIN-SET。
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Microsoft)    | 101   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   1.98% |
 |  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/YouTube)    | 182   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   0.55% |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Google)    | 111   | [15](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   13.51% |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingLite)    | 26777   | [15799](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   59.0% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Advertising)    | 57259   | [52945](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   92.47% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingLite)    | 26874   | [15807](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   58.82% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Advertising)    | 58200   | [53637](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   92.16% |
 |  [Hijacking](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Hijacking)    | 219   | [212](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   96.8% |
 |  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Privacy)    | 2835   | [2587](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   91.25% |
 |  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Blizzard)    | 38   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   2.63% |

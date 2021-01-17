@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-17 03:17:45。
+最后检查时间：2021-01-18 03:17:10。
 
 ## 规则统计
 
@@ -48,9 +48,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 656   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/178/178_Repeat.list)   |   0.15% |
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 72094   | [11](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/178/178_Repeat.list)   |   0.02% |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 26475   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/178/178_Repeat.list)   |   0.0% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 56949   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/178/178_Repeat.list)   |   0.0% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 74242   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/178/178_Repeat.list)   |   0.0% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 26572   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/178/178_Repeat.list)   |   0.0% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 57890   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/178/178_Repeat.list)   |   0.0% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 74937   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/178/178_Repeat.list)   |   0.0% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

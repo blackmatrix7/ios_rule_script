@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-17 03:17:28。
+最后检查时间：2021-01-18 03:16:53。
 
 ## 规则统计
 
@@ -46,8 +46,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 57259   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NYTimes/NYTimes_Repeat.list)   |   0.01% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 74552   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NYTimes/NYTimes_Repeat.list)   |   0.0% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 58200   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NYTimes/NYTimes_Repeat.list)   |   0.01% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 75247   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NYTimes/NYTimes_Repeat.list)   |   0.0% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27921   | [11](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NYTimes/NYTimes_Repeat.list)   |   0.04% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 1294   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NYTimes/NYTimes_Repeat.list)   |   0.62% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 772   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NYTimes/NYTimes_Repeat.list)   |   0.52% |

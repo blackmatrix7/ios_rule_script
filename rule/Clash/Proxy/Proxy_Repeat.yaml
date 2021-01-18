@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-18 03:16:44
+# UPDATED: 2021-01-19 03:20:24
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # Proxy 与 Sina 共 1 条规则重复
@@ -11,9 +11,10 @@ payload:
   - DOMAIN-SUFFIX,hao123img.com
 # Proxy 与 ByteDance 共 1 条规则重复
   - DOMAIN-SUFFIX,amemv.com
-# Proxy 与 China 共 129 条规则重复
+# Proxy 与 China 共 131 条规则重复
   - DOMAIN-SUFFIX,abercrombie.com
   - DOMAIN-SUFFIX,accuweather.com
+  - DOMAIN-SUFFIX,acg.rip
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acs.org
   - DOMAIN-SUFFIX,adobesc.com
@@ -134,6 +135,7 @@ payload:
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,windowsupdate.com
   - DOMAIN-SUFFIX,workflowy.com
+  - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,xteko.com
@@ -141,11 +143,12 @@ payload:
   - DOMAIN-SUFFIX,zmz2019.com
   - DOMAIN-SUFFIX,zmzapi.com
   - DOMAIN-SUFFIX,zoho.com
-# Proxy 与 ChinaTest 共 178 条规则重复
+# Proxy 与 ChinaTest 共 179 条规则重复
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,abercrombie.com
   - DOMAIN-SUFFIX,accuweather.com
+  - DOMAIN-SUFFIX,acg.rip
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acs.org
   - DOMAIN-SUFFIX,adnmb2.com
@@ -197,7 +200,6 @@ payload:
   - DOMAIN-SUFFIX,hdsky.me
   - DOMAIN-SUFFIX,hiwifi.com
   - DOMAIN-SUFFIX,hollisterco.com
-  - DOMAIN-SUFFIX,hostloc.com
   - DOMAIN-SUFFIX,hotmail.com
   - DOMAIN-SUFFIX,ibm.com
   - DOMAIN-SUFFIX,icloud-content.com
@@ -311,6 +313,7 @@ payload:
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,windowsupdate.com
   - DOMAIN-SUFFIX,workflowy.com
+  - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,xianba.net
@@ -3976,7 +3979,7 @@ payload:
 # Proxy 与 Instagram 共 2 条规则重复
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,instagram.com
-# Proxy 与 Scholar 共 36 条规则重复
+# Proxy 与 Scholar 共 37 条规则重复
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acs.org
   - DOMAIN-SUFFIX,annualreviews.org
@@ -4013,6 +4016,7 @@ payload:
   - DOMAIN-SUFFIX,un.org
   - DOMAIN-SUFFIX,webofknowledge.com
   - DOMAIN-SUFFIX,wiley.com
+  - DOMAIN-SUFFIX,worldbank.org
 # Proxy 与 Whatsapp 共 14 条规则重复
   - DOMAIN-KEYWORD,whatsapp
   - DOMAIN-SUFFIX,bintray.com

@@ -10,11 +10,11 @@
 
 白名单分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。程序已默认根据正则推导一份MITM的模块/复写/插件在当前分流规则的目录中，便于参考搭配使用。
 
-最后检查时间：2021-01-18 03:16:46。
+最后检查时间：2021-01-19 03:20:25。
 
 ## 规则统计
 
-总计规则：24 条。
+总计规则：25 条。
 
 各类型规则统计：
 
@@ -22,7 +22,7 @@
 | ---- | ---- |
 | DOMAIN-SUFFIX | 5 |
 | DOMAIN-KEYWORD | 1 |
-| DOMAIN | 12 |
+| DOMAIN | 13 |
 | URL-REGEX | 2 |
 | USER-AGENT | 4 |
 ## 配置说明
@@ -53,9 +53,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 688   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WhiteList/WhiteList_Repeat.list)   |   0.15% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72126   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WhiteList/WhiteList_Repeat.list)   |   0.0% |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 26874   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WhiteList/WhiteList_Repeat.list)   |   0.0% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 58200   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WhiteList/WhiteList_Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 71978   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WhiteList/WhiteList_Repeat.list)   |   0.0% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 26760   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WhiteList/WhiteList_Repeat.list)   |   0.0% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 57850   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WhiteList/WhiteList_Repeat.list)   |   0.0% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-18 03:16:50。
+最后检查时间：2021-01-19 03:20:29。
 
 ## 规则统计
 
@@ -48,7 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 688   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YoukuTudou/YoukuTudou_Repeat.list)   |   0.73% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72126   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YoukuTudou/YoukuTudou_Repeat.list)   |   0.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 71978   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YoukuTudou/YoukuTudou_Repeat.list)   |   0.01% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 141   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YoukuTudou/YoukuTudou_Repeat.list)   |   3.55% |
 |  [Alibaba](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Alibaba)    | 1222   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YoukuTudou/YoukuTudou_Repeat.list)   |   0.25% |
 ### 特别说明

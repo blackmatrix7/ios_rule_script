@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-18 03:16:50。
+最后检查时间：2021-01-19 03:20:29。
 
 ## 规则统计
 
@@ -46,10 +46,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 72126   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/UC/UC_Repeat.list)   |   0.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 71978   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/UC/UC_Repeat.list)   |   0.01% |
 |  [Alibaba](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Alibaba)    | 1222   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/UC/UC_Repeat.list)   |   0.08% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 58200   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/UC/UC_Repeat.list)   |   0.04% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 75247   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/UC/UC_Repeat.list)   |   0.03% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 57850   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/UC/UC_Repeat.list)   |   0.04% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest)    | 74996   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/UC/UC_Repeat.list)   |   0.03% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

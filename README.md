@@ -65,7 +65,7 @@ https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
 | [知乎助手](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu) | 使用纯净版知乎是一种怎么样的体验？                           | 正常     |
 | [哔哩哔哩](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/bilibili) | 没有广告的哔哩哔哩更值得干杯                                 | 正常     |
-| [什么值得买](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/smzdm) | 可能是东半球第二好的什么值得买签到和去广告脚本               | 正常     |
+| [什么值得买](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/smzdm) | 什么值得买签到和去广告脚本                                   | 暂停     |
 | [百度贴吧](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/tieba) | 带重试功能的贴吧签到，提高签到成功率                         | 正常     |
 | [联通手机营业厅](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/10010) | 每日自动签到、美团外卖30-3优惠券、4次抽奖、话费流量语音情况推送 | 正常     |
 | [联享家](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/lxj) | 去广告、拦截检测更新                                         | 正常     |

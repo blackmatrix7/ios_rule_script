@@ -711,34 +711,35 @@ async function Main(){
       magicJS.logInfo(`昵称：${nickName}\nWeb端签到状态：${beforeHasCheckin}\n签到前等级${beforeVIPLevel}，积分${beforePoint}，经验${beforeExp}，金币${beforeGold}，碎银子${beforeSilver}， 未读消息${beforeNotice}`);
       // ---------------------- 开始签到 ---------------------- 
 
-      if (!!account && !!password){
-        let appToken = magicJS.read(smzdmTokenKey);
-        if (!appToken){
-          [,getTokenStr,appToken] = await AppGetToken(account, password);
-        }
-        if (!!appToken){
-          let AppCheckinRetry = magicJS.retry(AppCheckin, 3, 3000, async (result)=>{
-            if (result[0] == 3){
-              [, ,appToken] = await AppGetToken(account, password);
-              if (appToken) throw 'AppToken已失效，触发重试！';
-            }
-          });
-          // 重试
-          [appCheckinErr,[,appCheckinStr]] = await magicJS.attempt(AppCheckinRetry(), [false, 'App端签到异常']);
-          if (appCheckinErr){
-            appCheckinStr = appCheckinErr;
-          }
-        }
-        else{
-          appCheckinStr = getTokenStr;
-        }
-      }
-      else{
-        magicJS.notify(scriptName, '', '❓没有获取到App端账号密码，请先进行登录。');
-      }
+      // 2021.01.18 暂时去除APP端签到
+      // if (!!account && !!password){
+      //   let appToken = magicJS.read(smzdmTokenKey);
+      //   if (!appToken){
+      //     [,getTokenStr,appToken] = await AppGetToken(account, password);
+      //   }
+      //   if (!!appToken){
+      //     let AppCheckinRetry = magicJS.retry(AppCheckin, 3, 3000, async (result)=>{
+      //       if (result[0] == 3){
+      //         [, ,appToken] = await AppGetToken(account, password);
+      //         if (appToken) throw 'AppToken已失效，触发重试！';
+      //       }
+      //     });
+      //     // 重试
+      //     [appCheckinErr,[,appCheckinStr]] = await magicJS.attempt(AppCheckinRetry(), [false, 'App端签到异常']);
+      //     if (appCheckinErr){
+      //       appCheckinStr = appCheckinErr;
+      //     }
+      //   }
+      //   else{
+      //     appCheckinStr = getTokenStr;
+      //   }
+      // }
+      // else{
+      //   magicJS.notify(scriptName, '', '❓没有获取到App端账号密码，请先进行登录。');
+      // }
 
-      // 必须间隔3秒才能确保签到成功
-      await magicJS.sleep(3000);
+      // // 必须间隔3秒才能确保签到成功
+      // await magicJS.sleep(3000);
       
       // Web端签到
       if (!beforeHasCheckin){
@@ -755,7 +756,8 @@ async function Main(){
       }
 
       // ---------------------- 每日抽奖 ---------------------- 
-      lotteryStr = await LotteryDraw(smzdmCookie, '7mV1llk1l9');
+      // 2021.01.18 暂时去除每日抽奖
+      // lotteryStr = await LotteryDraw(smzdmCookie, '7mV1llk1l9');
 
       // ---------------------- 每日完成任务 ---------------------- 
       

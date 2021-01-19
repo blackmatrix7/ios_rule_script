@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-19 23:26:19。
+最后检查时间：2021-01-20 03:19:32。
 
 ## 规则统计
 
@@ -43,25 +43,25 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 当前分流规则，已包含以下子规则：
 
-- AppleNews
-
-- AppleMail
-
-- AppleBlock
-
-- Siri
-
-- AppleTV
-
-- AppleMusic
-
 - FitnessPlus
 
 - AppStore
 
-- iCloud
+- AppleNews
+
+- AppleBlock
+
+- AppleMusic
+
+- AppleTV
 
 - TestFlight
+
+- AppleMail
+
+- Siri
+
+- iCloud
 
 除非特殊需求，否则不建议重复引用。
 

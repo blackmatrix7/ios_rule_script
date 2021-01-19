@@ -943,7 +943,7 @@ function CollectWools(index, actId, ticket, appId='common'){
         magicJS.logInfo(didiSigninStr);
         benefitSubTitle += `🧧福利金签到：${didiSigninStr}`;
         if (signDays > 0){
-          benefitContent += `本周期已联系签到${signDays}天\n累计获得${signAmount}福利金`;
+          benefitContent += `本周期已连续签到${signDays}天\n累计获得${signAmount}福利金`;
         }
         // if (subsidy > 0){
         //   benefitContent += `获取${subsidy}福利金`;

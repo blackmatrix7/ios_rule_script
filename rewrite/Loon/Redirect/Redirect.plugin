@@ -1,14 +1,16 @@
 # NAME: 重定向
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-19 03:21:11
-# REWRITE: 54
+# UPDATED: 2021-01-19 23:27:12
+# REWRITE: 55
 # SCRIPT: 0
-# MITM: 55
+# MITM: 54
 
 [URL Rewrite]
 ^http:\/\/t\.cn https://sinaurl.cn 302
 ^http:\/\/www\.google\.cn https://www.google.com 302
+^http?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
+^http?:\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
 ^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)\/ https://macitbetter.com/ 302
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
@@ -33,7 +35,6 @@
 ^https?:\/\/(www.)?idmchina\.net\/ https://www.internetdownloadmanager.com/ 302
 ^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
 ^https?:\/\/(www.)?imindmap\.cc\/ https://www.ayoa.com/previously-imindmap/ 302
-^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
 ^https?:\/\/(www.)?jihehuaban\.com\.cn\/ https://www.chartwellyorke.com/sketchpad/x24795.html 302
 ^https?:\/\/(www.)?kingdeecn\.cn\/ http://www.kingdee.com/ 302
 ^https?:\/\/(www.)?logoshejishi\.com https://www.sothink.com/product/logo-design-software/ 302
@@ -64,4 +65,4 @@
 
 
 [MITM]
-hostname = abbyychina.com,api.abema.io,bartender.cc,beyondcompare.cc,bingdianhuanyuan.cn,chemdraw.com.cn,cn.ultraiso.net,codesoftchina.com,coreldrawchina.com,crossoverchina.com,dongmansoft.com,earmasterchina.cn,easyrecoverychina.com,ediuschina.com,flstudiochina.com,formysql.com,g.cn,google.cn,guitarpro.cc,huishenghuiying.com.cn,hypersnap.mairuan.com,iconworkshop.cn,idmchina.net,ign.xn--fiqs8s,imindmap.cc,jd.com,jihehuaban.com.cn,kingdeecn.cn,logoshejishi.com,logoshejishi.mairuan.com,luping.net.cn,mathtype.cn,mi.com,mindmanager.cc,mindmanager.cn,mindmapper.cc,mycleanmymac.com,nicelabel.cc,ntfsformac.cc,overturechina.com,passwordrecovery.cn,pdfexpert.cc,photozoomchina.com,shankejingling.com,suning.com,t.cn,taobao.com,vegaschina.cn,www.google.cn,xitongqingli.com,xshellcn.com,yhd.com,you.163.com,yuanchengxiezuo.com,zbrushcn.com
+hostname = abbyychina.com,api.abema.io,bartender.cc,beyondcompare.cc,bingdianhuanyuan.cn,chemdraw.com.cn,cn.ultraiso.net,codesoftchina.com,coreldrawchina.com,crossoverchina.com,dongmansoft.com,earmasterchina.cn,easyrecoverychina.com,ediuschina.com,flstudiochina.com,formysql.com,g.cn,google.cn,guitarpro.cc,huishenghuiying.com.cn,hypersnap.mairuan.com,iconworkshop.cn,idmchina.net,ign.xn--fiqs8s,imindmap.cc,jihehuaban.com.cn,kingdeecn.cn,logoshejishi.com,logoshejishi.mairuan.com,luping.net.cn,mathtype.cn,mi.com,mindmanager.cc,mindmanager.cn,mindmapper.cc,mycleanmymac.com,nicelabel.cc,ntfsformac.cc,overturechina.com,passwordrecovery.cn,pdfexpert.cc,photozoomchina.com,shankejingling.com,suning.com,t.cn,taobao.com,vegaschina.cn,www.google.cn,xitongqingli.com,xshellcn.com,yhd.com,you.163.com,yuanchengxiezuo.com,zbrushcn.com

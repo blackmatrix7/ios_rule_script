@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-19 03:20:18
-# DOMAIN-SUFFIX: 27705
+# UPDATED: 2021-01-19 23:26:04
+# DOMAIN-SUFFIX: 27704
 # DOMAIN: 4
 # DOMAIN-KEYWORD: 42
 # IP-CIDR: 110
 # IP-CIDR6: 3
 # PROCESS-NAME: 1
-# TOTAL: 27865
+# TOTAL: 27864
 payload:
   - DOMAIN,assets-priconne-redive-us.akamaized.net
   - DOMAIN,ds-linear-abematv.akamaized.net
@@ -4655,6 +4655,7 @@ payload:
   - DOMAIN-SUFFIX,box.com
   - DOMAIN-SUFFIX,box.net
   - DOMAIN-SUFFIX,boxcn.net
+  - DOMAIN-SUFFIX,boxofficemojo.com
   - DOMAIN-SUFFIX,boxpn.com
   - DOMAIN-SUFFIX,boxtomarket.com
   - DOMAIN-SUFFIX,boxun.com
@@ -16136,7 +16137,6 @@ payload:
   - DOMAIN-SUFFIX,nipponhd.com
   - DOMAIN-SUFFIX,nissan
   - DOMAIN-SUFFIX,nissay
-  - DOMAIN-SUFFIX,nist.gov
   - DOMAIN-SUFFIX,nitter.1d4.us
   - DOMAIN-SUFFIX,nitter.dark.fail
   - DOMAIN-SUFFIX,nitter.net
@@ -20921,7 +20921,6 @@ payload:
   - DOMAIN-SUFFIX,timc.idv.tw
   - DOMAIN-SUFFIX,timdir.com
   - DOMAIN-SUFFIX,time.com
-  - DOMAIN-SUFFIX,time.gov
   - DOMAIN-SUFFIX,timeinc.net
   - DOMAIN-SUFFIX,timelinestoryteller.com
   - DOMAIN-SUFFIX,times-bignews.com

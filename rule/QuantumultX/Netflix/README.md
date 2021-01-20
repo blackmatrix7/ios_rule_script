@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-20 03:19:40。
+最后检查时间：2021-01-21 03:22:28。
 
 ## 规则统计
 
@@ -50,7 +50,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27912   | [28](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix_Repeat.list)   |   0.1% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27913   | [28](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix_Repeat.list)   |   0.1% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 1292   | [28](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix_Repeat.list)   |   2.17% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 1150   | [42](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix_Repeat.list)   |   3.65% |
 |  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Speedtest)    | 5   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix_Repeat.list)   |   20.0% |

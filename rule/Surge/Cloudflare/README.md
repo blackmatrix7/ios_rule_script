@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-20 03:19:33。
+最后检查时间：2021-01-21 03:22:19。
 
 ## 规则统计
 
@@ -48,7 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27914   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare_Repeat.list)   |   0.0% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 27915   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare_Repeat.list)   |   0.0% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 1294   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare_Repeat.list)   |   0.08% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 772   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare_Repeat.list)   |   0.13% |
 ### 特别说明

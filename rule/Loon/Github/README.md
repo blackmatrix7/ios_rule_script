@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-20 03:19:46。
+最后检查时间：2021-01-21 03:22:36。
 
 ## 规则统计
 
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27913   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Github/Github_Repeat.list)   |   0.02% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27914   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Github/Github_Repeat.list)   |   0.02% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 1293   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Github/Github_Repeat.list)   |   0.31% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 771   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Github/Github_Repeat.list)   |   0.26% |
 ### 特别说明

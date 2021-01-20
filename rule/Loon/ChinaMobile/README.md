@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-20 03:19:43。
+最后检查时间：2021-01-21 03:22:32。
 
 ## 规则统计
 
@@ -46,7 +46,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71811   | [15](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMobile/ChinaMobile_Repeat.list)   |   0.02% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71784   | [15](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMobile/ChinaMobile_Repeat.list)   |   0.02% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 141   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMobile/ChinaMobile_Repeat.list)   |   2.13% |
 |  [Migu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Migu)    | 5   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMobile/ChinaMobile_Repeat.list)   |   60.0% |
 ### 特别说明

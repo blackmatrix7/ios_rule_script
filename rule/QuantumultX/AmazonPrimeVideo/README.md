@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-20 03:19:40。
+最后检查时间：2021-01-21 03:22:29。
 
 ## 规则统计
 
@@ -49,8 +49,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 74643   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AmazonPrimeVideo/AmazonPrimeVideo_Repeat.list)   |   0.0% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27912   | [16](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AmazonPrimeVideo/AmazonPrimeVideo_Repeat.list)   |   0.06% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest)    | 75149   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AmazonPrimeVideo/AmazonPrimeVideo_Repeat.list)   |   0.0% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 27913   | [16](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AmazonPrimeVideo/AmazonPrimeVideo_Repeat.list)   |   0.06% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 1292   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AmazonPrimeVideo/AmazonPrimeVideo_Repeat.list)   |   0.62% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 1150   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AmazonPrimeVideo/AmazonPrimeVideo_Repeat.list)   |   0.78% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 771   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AmazonPrimeVideo/AmazonPrimeVideo_Repeat.list)   |   0.13% |

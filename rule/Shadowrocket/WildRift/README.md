@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-20 03:20:00。
+最后检查时间：2021-01-21 03:22:54。
 
 ## 规则统计
 
@@ -48,7 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 | ---- | ---- | ---- | ------ |
 |  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Game)    | 64   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/WildRift/WildRift_Repeat.list)   |   4.69% |
 |  [Riot](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Riot)    | 54   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/WildRift/WildRift_Repeat.list)   |   5.56% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Proxy)    | 27914   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/WildRift/WildRift_Repeat.list)   |   0.01% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Proxy)    | 27915   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/WildRift/WildRift_Repeat.list)   |   0.01% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/BlackList)    | 772   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/WildRift/WildRift_Repeat.list)   |   0.26% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。

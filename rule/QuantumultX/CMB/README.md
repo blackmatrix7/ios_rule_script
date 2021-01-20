@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-20 03:19:35。
+最后检查时间：2021-01-21 03:22:23。
 
 ## 规则统计
 
@@ -46,7 +46,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 71811   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/CMB/CMB_Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest)    | 71784   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/CMB/CMB_Repeat.list)   |   0.0% |
 |  [CNKI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CNKI)    | 17   | [17](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/CMB/CMB_Repeat.list)   |   100.0% |
 |  [Scholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Scholar)    | 76   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/CMB/CMB_Repeat.list)   |   1.32% |
 ### 特别说明

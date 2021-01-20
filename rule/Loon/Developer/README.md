@@ -9,7 +9,7 @@
 **Developer 开发者常用国外网站、镜像和论坛**
 
 
-最后检查时间：2021-01-20 03:19:47。
+最后检查时间：2021-01-21 03:22:37。
 
 ## 规则统计
 
@@ -48,8 +48,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 688   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Developer/Developer_Repeat.list)   |   0.15% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71811   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Developer/Developer_Repeat.list)   |   0.0% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27913   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Developer/Developer_Repeat.list)   |   0.08% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71784   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Developer/Developer_Repeat.list)   |   0.0% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27914   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Developer/Developer_Repeat.list)   |   0.08% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 1293   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Developer/Developer_Repeat.list)   |   0.46% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 771   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Developer/Developer_Repeat.list)   |   1.04% |
 ### 特别说明

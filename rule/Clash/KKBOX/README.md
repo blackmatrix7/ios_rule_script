@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-20 03:19:54。
+最后检查时间：2021-01-21 03:22:47。
 
 ## 规则统计
 
@@ -46,7 +46,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 27864   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KKBOX/KKBOX_Repeat.list)   |   0.02% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 27865   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KKBOX/KKBOX_Repeat.list)   |   0.02% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 1254   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KKBOX/KKBOX_Repeat.list)   |   0.4% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia)    | 1092   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KKBOX/KKBOX_Repeat.list)   |   0.46% |
 ### 特别说明

@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-20 03:19:20
-# DOMAIN-SUFFIX: 27704
+# UPDATED: 2021-01-21 03:22:03
+# DOMAIN-SUFFIX: 27705
 # DOMAIN: 4
 # DOMAIN-KEYWORD: 42
 # IP-CIDR: 110
 # IP-CIDR6: 3
 # PROCESS-NAME: 1
-# TOTAL: 27864
+# TOTAL: 27865
 payload:
   - DOMAIN,assets-priconne-redive-us.akamaized.net
   - DOMAIN,ds-linear-abematv.akamaized.net
@@ -19918,6 +19918,7 @@ payload:
   - DOMAIN-SUFFIX,staples
   - DOMAIN-SUFFIX,star-telegram.com
   - DOMAIN-SUFFIX,starbucks.com
+  - DOMAIN-SUFFIX,starbucksreserve.com
   - DOMAIN-SUFFIX,starcelebs.com
   - DOMAIN-SUFFIX,starchu.com
   - DOMAIN-SUFFIX,starcraft.com

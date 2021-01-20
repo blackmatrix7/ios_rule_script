@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-20 03:20:02。
+最后检查时间：2021-01-21 03:22:56。
 
 ## 规则统计
 
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Proxy)    | 27914   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/SoundCloud/SoundCloud_Repeat.list)   |   0.01% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Proxy)    | 27915   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/SoundCloud/SoundCloud_Repeat.list)   |   0.01% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Global)    | 1294   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/SoundCloud/SoundCloud_Repeat.list)   |   0.31% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GlobalMedia)    | 1150   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/SoundCloud/SoundCloud_Repeat.list)   |   0.35% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/BlackList)    | 772   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/SoundCloud/SoundCloud_Repeat.list)   |   0.26% |

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-20 03:19:46。
+最后检查时间：2021-01-21 03:22:35。
 
 ## 规则统计
 
@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 | ---- | ---- | ---- | ------ |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 103   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppleBlock/AppleBlock_Repeat.list)   |   0.97% |
 |  [AppleTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleTV)    | 7   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppleBlock/AppleBlock_Repeat.list)   |   14.29% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27913   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppleBlock/AppleBlock_Repeat.list)   |   0.0% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27914   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppleBlock/AppleBlock_Repeat.list)   |   0.0% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 1293   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppleBlock/AppleBlock_Repeat.list)   |   0.39% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 771   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppleBlock/AppleBlock_Repeat.list)   |   0.65% |
 ### 特别说明

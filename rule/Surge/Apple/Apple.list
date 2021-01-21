@@ -1,14 +1,14 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 03:21:57
+# UPDATED: 2021-01-21 17:14:59
 # DOMAIN-SUFFIX: 66
 # IP-CIDR: 10
 # PROCESS-NAME: 4
 # DOMAIN: 2
-# USER-AGENT: 22
+# USER-AGENT: 20
 # DOMAIN-KEYWORD: 3
-# TOTAL: 107
+# TOTAL: 105
 DOMAIN,api.smoot.apple.cn
 DOMAIN,apple.comscoreresearch.com
 DOMAIN-SUFFIX,aaplimg.com
@@ -106,11 +106,9 @@ USER-AGENT,Music*
 USER-AGENT,TestFlight*
 USER-AGENT,com.apple.Maps
 USER-AGENT,com.apple.appstored*
-USER-AGENT,com.apple.geod*
 USER-AGENT,com.apple.news*
 USER-AGENT,com.apple.tv*
 USER-AGENT,fmflocatord*
-USER-AGENT,geod*
 USER-AGENT,locationd*
 PROCESS-NAME,com.apple.geod
 PROCESS-NAME,lookupviewservice

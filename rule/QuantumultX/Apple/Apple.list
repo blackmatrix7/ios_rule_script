@@ -1,13 +1,13 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 03:21:59
+# UPDATED: 2021-01-21 17:15:01
 # HOST-SUFFIX: 66
 # IP-CIDR: 10
 # HOST: 2
-# USER-AGENT: 22
+# USER-AGENT: 20
 # HOST-KEYWORD: 3
-# TOTAL: 103
+# TOTAL: 101
 HOST,api.smoot.apple.cn,Apple
 HOST,apple.comscoreresearch.com,Apple
 HOST-SUFFIX,aaplimg.com,Apple
@@ -95,11 +95,9 @@ USER-AGENT,Music*,Apple
 USER-AGENT,TestFlight*,Apple
 USER-AGENT,com.apple.Maps,Apple
 USER-AGENT,com.apple.appstored*,Apple
-USER-AGENT,com.apple.geod*,Apple
 USER-AGENT,com.apple.news*,Apple
 USER-AGENT,com.apple.tv*,Apple
 USER-AGENT,fmflocatord*,Apple
-USER-AGENT,geod*,Apple
 USER-AGENT,locationd*,Apple
 IP-CIDR,139.178.128.0/18,Apple
 IP-CIDR,144.178.0.0/19,Apple

@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:09
+# UPDATED: 2021-01-22 03:19:43
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # AdvertisingLite 与 WhiteList 共 1 条规则重复
@@ -27,7 +27,10 @@ payload:
   - DOMAIN-SUFFIX,umeng.com
   - DOMAIN-SUFFIX,umengcloud.com
   - DOMAIN-SUFFIX,xdrig.com
-# AdvertisingLite 与 ChinaTest 共 645 条规则重复
+# AdvertisingLite 与 ChinaTest 共 640 条规则重复
+  - DOMAIN,2mdn.net
+  - DOMAIN,clientservices.googleapis.com
+  - DOMAIN,imasdk.googleapis.com
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,002lzj.com
@@ -136,7 +139,6 @@ payload:
   - DOMAIN-SUFFIX,adsage.com
   - DOMAIN-SUFFIX,adsame.com
   - DOMAIN-SUFFIX,adsensor.org
-  - DOMAIN-SUFFIX,adservice.google.com
   - DOMAIN-SUFFIX,adsmogo.com
   - DOMAIN-SUFFIX,adsmogo.org
   - DOMAIN-SUFFIX,adsunflower.com
@@ -157,7 +159,6 @@ payload:
   - DOMAIN-SUFFIX,anquanzhuomian.com
   - DOMAIN-SUFFIX,anysdk.com
   - DOMAIN-SUFFIX,apkdo.com
-  - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,appadhoc.com
   - DOMAIN-SUFFIX,appcpa.net
   - DOMAIN-SUFFIX,appjiagu.com
@@ -239,7 +240,6 @@ payload:
   - DOMAIN-SUFFIX,dmrtb.com
   - DOMAIN-SUFFIX,dmtrck.com
   - DOMAIN-SUFFIX,dopa.com
-  - DOMAIN-SUFFIX,doubleclick.net
   - DOMAIN-SUFFIX,dsp.com
   - DOMAIN-SUFFIX,dsxdn.com
   - DOMAIN-SUFFIX,duapp.com
@@ -281,11 +281,6 @@ payload:
   - DOMAIN-SUFFIX,ggmmqq.com
   - DOMAIN-SUFFIX,ggweb.net
   - DOMAIN-SUFFIX,ggxt.net
-  - DOMAIN-SUFFIX,google-analytics.com
-  - DOMAIN-SUFFIX,googleadservices.com
-  - DOMAIN-SUFFIX,googlesyndication.com
-  - DOMAIN-SUFFIX,googletagmanager.com
-  - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,goolpter.com
   - DOMAIN-SUFFIX,gotooback.com
   - DOMAIN-SUFFIX,gouwubang.com
@@ -676,26 +671,18 @@ payload:
 # AdvertisingLite 与 Tencent 共 2 条规则重复
   - DOMAIN-SUFFIX,tencentmind.com
   - DOMAIN-SUFFIX,ugdtimg.com
-# AdvertisingLite 与 ChinaMedia 共 22 条规则重复
-  - DOMAIN-SUFFIX,1.letvlive.com
-  - DOMAIN-SUFFIX,2.letvlive.com
+# AdvertisingLite 与 ChinaMedia 共 14 条规则重复
   - DOMAIN-SUFFIX,ad.api.3g.tudou.com
   - DOMAIN-SUFFIX,ads1.lfengmobile.com
   - DOMAIN-SUFFIX,afp.pplive.com
-  - DOMAIN-SUFFIX,api.cupid.qiyi.com
-  - DOMAIN-SUFFIX,api.push.le.com
   - DOMAIN-SUFFIX,app.aplus.pptv.com
   - DOMAIN-SUFFIX,as.aplus.pptv.com
   - DOMAIN-SUFFIX,asimgs.pplive.cn
   - DOMAIN-SUFFIX,de.as.pptv.com
-  - DOMAIN-SUFFIX,game.pps.tv
   - DOMAIN-SUFFIX,jp.as.pptv.com
   - DOMAIN-SUFFIX,koowo.com
-  - DOMAIN-SUFFIX,msg.video.qiyi.com
-  - DOMAIN-SUFFIX,msg2.video.qiyi.com
   - DOMAIN-SUFFIX,pp2.pptv.com
   - DOMAIN-SUFFIX,stat.pptv.com
-  - DOMAIN-SUFFIX,static.g.ppstream.com
   - DOMAIN-SUFFIX,static.g.pptv.com
   - DOMAIN-SUFFIX,videojj.com
   - DOMAIN-SUFFIX,zamplus.com
@@ -16544,7 +16531,7 @@ payload:
   - IP-CIDR,69.28.57.245/32
   - IP-CIDR,74.117.182.77/32
   - IP-CIDR,78.140.131.214/32
-# AdvertisingLite 与 AdvertisingTest 共 15482 条规则重复
+# AdvertisingLite 与 AdvertisingTest 共 15491 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0koryu0.easter.ne.jp
   - DOMAIN,0nso0tq1sa4.ml
@@ -16590,6 +16577,7 @@ payload:
   - DOMAIN,ad.getfond.info
   - DOMAIN,ad.hori-gz.com
   - DOMAIN,ad.weibo.com
+  - DOMAIN,adb.fling.com
   - DOMAIN,adclick.lv
   - DOMAIN,adcoin.click
   - DOMAIN,adfile.hori-gz.com
@@ -16984,6 +16972,7 @@ payload:
   - DOMAIN,p.s.360.cn
   - DOMAIN,pacan.gofreedom.info
   - DOMAIN,pardina.ru
+  - DOMAIN,parronnotandone.info
   - DOMAIN,pave.elisecries.com
   - DOMAIN,pension-helene.cz
   - DOMAIN,pg.aty.sohu.com
@@ -17166,6 +17155,7 @@ payload:
   - DOMAIN,webcom-software.ws
   - DOMAIN,webordermanager.com
   - DOMAIN,websalesusa.com
+  - DOMAIN,wes.df.telemetry.microsoft.com
   - DOMAIN,windspotter.net
   - DOMAIN,withdromnit.pro
   - DOMAIN,womenslabour.org
@@ -17295,10 +17285,12 @@ payload:
   - DOMAIN,www.zatzy.com
   - DOMAIN,www.zyxyfy.com
   - DOMAIN,wxbrdppfpr.com
+  - DOMAIN,x.mochiads.com
   - DOMAIN,xamateurpornlic.www1.biz
   - DOMAIN,xindalawyer.com
   - DOMAIN,xn--18225-zta.biz
   - DOMAIN,xnxx.com
+  - DOMAIN,xoomer.alice.it
   - DOMAIN,xotsa.frenchgerlemanelectric.com
   - DOMAIN,xs.mochiads.com
   - DOMAIN,y72yuyr9.com
@@ -19526,6 +19518,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.sanoma.fi
   - DOMAIN-SUFFIX,analytics.schoolwires.com
   - DOMAIN-SUFFIX,analytics.shop.hisense.com
+  - DOMAIN-SUFFIX,analytics.shorte.st
   - DOMAIN-SUFFIX,analytics.sitewit.com
   - DOMAIN-SUFFIX,analytics.sketchup.com
   - DOMAIN-SUFFIX,analytics.skyscanner.net
@@ -29646,6 +29639,7 @@ payload:
   - DOMAIN-SUFFIX,trackclickers.com
   - DOMAIN-SUFFIX,tracker-api.my.com
   - DOMAIN-SUFFIX,tracker-id.cdiscount.com
+  - DOMAIN-SUFFIX,tracker.affiliate.iqoption.com
   - DOMAIN-SUFFIX,tracker.affirm.com
   - DOMAIN-SUFFIX,tracker.anandtech.com
   - DOMAIN-SUFFIX,tracker.azet.sk
@@ -29705,6 +29699,7 @@ payload:
   - DOMAIN-SUFFIX,tracking.carsales.com.au
   - DOMAIN-SUFFIX,tracking.cat898.com
   - DOMAIN-SUFFIX,tracking.chacha.com
+  - DOMAIN-SUFFIX,tracking.conduit.com
   - DOMAIN-SUFFIX,tracking.conversion-lab.it
   - DOMAIN-SUFFIX,tracking.customerly.io
   - DOMAIN-SUFFIX,tracking.dealerwebwatcher.com
@@ -30647,6 +30642,7 @@ payload:
   - DOMAIN-SUFFIX,whzhi.com
   - DOMAIN-SUFFIX,wibiya-actions.conduit-data.com
   - DOMAIN-SUFFIX,wibiya-june-new-log.conduit-data.com
+  - DOMAIN-SUFFIX,widget.crowdignite.com
   - DOMAIN-SUFFIX,widget.directory.dailycommercial.com
   - DOMAIN-SUFFIX,widget.kelkoo.com
   - DOMAIN-SUFFIX,widget.raaze.com

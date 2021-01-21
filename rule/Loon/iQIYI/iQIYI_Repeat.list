@@ -1,7 +1,7 @@
 # NAME: iQIYI 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:08
+# UPDATED: 2021-01-22 03:19:41
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # iQIYI 与 China 共 7 条规则重复
 DOMAIN-SUFFIX,71.am
@@ -28,18 +28,54 @@ DOMAIN-SUFFIX,qy.net
 # iQIYI 与 ChinaIPs 共 2 条规则重复
 IP-CIDR,101.224.0.0/13
 IP-CIDR,119.176.0.0/12
-# iQIYI 与 ChinaMedia 共 12 条规则重复
+# iQIYI 与 ChinaMedia 共 48 条规则重复
 DOMAIN-KEYWORD,qiyi
 DOMAIN-SUFFIX,71.am
 DOMAIN-SUFFIX,71.am.com
+DOMAIN-SUFFIX,71edge.com
+DOMAIN-SUFFIX,71edge.net
+DOMAIN-SUFFIX,aianno.cn
+DOMAIN-SUFFIX,aianno.com
+DOMAIN-SUFFIX,aiqiyicloud-mgmt.com
+DOMAIN-SUFFIX,aiqiyicloud.com
+DOMAIN-SUFFIX,aiqiyicloud.net
+DOMAIN-SUFFIX,baiying.com
+DOMAIN-SUFFIX,gitv.cn
+DOMAIN-SUFFIX,gitv.tv
+DOMAIN-SUFFIX,ibkstore.com
+DOMAIN-SUFFIX,iq.com
 DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyi.demo.uwp
+DOMAIN-SUFFIX,iqiyiedge.com
+DOMAIN-SUFFIX,iqiyiedge.net
 DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,jiangbing.cn
+DOMAIN-SUFFIX,pps.tv
+DOMAIN-SUFFIX,ppsimg.com
+DOMAIN-SUFFIX,ppstream.cn
+DOMAIN-SUFFIX,ppstream.com
+DOMAIN-SUFFIX,ppstream.com.cn
+DOMAIN-SUFFIX,ppstream.net
+DOMAIN-SUFFIX,ppstream.net.cn
+DOMAIN-SUFFIX,ppsurl.com
+DOMAIN-SUFFIX,qiyi.cn
+DOMAIN-SUFFIX,qiyi.com
+DOMAIN-SUFFIX,qiyipic.com
+DOMAIN-SUFFIX,qy.com
 DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,suike.cn
 IP-CIDR,101.224.0.0/13
+IP-CIDR,103.44.56.0/22
+IP-CIDR,118.26.120.0/24
+IP-CIDR,118.26.32.0/23
 IP-CIDR,119.176.0.0/12
+IP-CIDR,223.119.62.224/28
+IP-CIDR,23.40.241.251/32
+IP-CIDR,23.40.242.10/32
 USER-AGENT,PPStream*
 USER-AGENT,QIYI*
 USER-AGENT,QYPlayer*
+USER-AGENT,iQIYI*
 USER-AGENT,iQiYi*
 # iQIYI 与 Advertising 共 1 条规则重复
 DOMAIN-SUFFIX,71.am

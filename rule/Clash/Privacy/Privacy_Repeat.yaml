@@ -1,14 +1,13 @@
 # NAME: Privacy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:10
+# UPDATED: 2021-01-22 03:19:43
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # Privacy 与 China 共 1 条规则重复
   - DOMAIN,safebrowsing.googleapis.com
-# Privacy 与 ChinaTest 共 2 条规则重复
-  - DOMAIN-SUFFIX,google-analytics.com
-  - DOMAIN-SUFFIX,googletagmanager.com
+# Privacy 与 ChinaTest 共 1 条规则重复
+  - DOMAIN,safebrowsing.googleapis.com
 # Privacy 与 Google 共 2 条规则重复
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,googletagmanager.com
@@ -5015,7 +5014,7 @@ payload:
   - DOMAIN-SUFFIX,zsi7.destinia.do
   - DOMAIN-SUFFIX,zyq2.destinia.sk
   - DOMAIN-SUFFIX,zz.bdstatic.com
-# Privacy 与 AdvertisingTest 共 2588 条规则重复
+# Privacy 与 AdvertisingTest 共 2591 条规则重复
   - DOMAIN,log-hl-ipv6.snssdk.com
   - DOMAIN,log-lq.snssdk.com
   - DOMAIN,log-va.tiktokv.com
@@ -5207,6 +5206,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.sanoma.fi
   - DOMAIN-SUFFIX,analytics.schoolwires.com
   - DOMAIN-SUFFIX,analytics.shop.hisense.com
+  - DOMAIN-SUFFIX,analytics.shorte.st
   - DOMAIN-SUFFIX,analytics.sitewit.com
   - DOMAIN-SUFFIX,analytics.sketchup.com
   - DOMAIN-SUFFIX,analytics.skyscanner.net
@@ -7259,6 +7259,7 @@ payload:
   - DOMAIN-SUFFIX,tracker-api.my.com
   - DOMAIN-SUFFIX,tracker-id.cdiscount.com
   - DOMAIN-SUFFIX,tracker.520call.me
+  - DOMAIN-SUFFIX,tracker.affiliate.iqoption.com
   - DOMAIN-SUFFIX,tracker.affirm.com
   - DOMAIN-SUFFIX,tracker.anandtech.com
   - DOMAIN-SUFFIX,tracker.arc.io
@@ -7317,6 +7318,7 @@ payload:
   - DOMAIN-SUFFIX,tracking.cat898.com
   - DOMAIN-SUFFIX,tracking.chacha.com
   - DOMAIN-SUFFIX,tracking.christianpost.com
+  - DOMAIN-SUFFIX,tracking.conduit.com
   - DOMAIN-SUFFIX,tracking.customerly.io
   - DOMAIN-SUFFIX,tracking.ecookie.fr
   - DOMAIN-SUFFIX,tracking.ehavior.net

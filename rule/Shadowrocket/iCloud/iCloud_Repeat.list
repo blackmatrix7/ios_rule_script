@@ -1,7 +1,7 @@
 # NAME: iCloud 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:10
+# UPDATED: 2021-01-22 03:19:44
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # iCloud 与 China 共 1 条规则重复
 DOMAIN-SUFFIX,me.com
@@ -60,7 +60,8 @@ DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,myicloud.net
 DOMAIN-SUFFIX,mylcloud.net
 DOMAIN-SUFFIX,wwwicloud.com
-# iCloud 与 Proxy 共 30 条规则重复
+# iCloud 与 Proxy 共 31 条规则重复
+DOMAIN,www-cdn.icloud.com.akadns.net
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,applemx-icloud.com
 DOMAIN-SUFFIX,icloud-content.com

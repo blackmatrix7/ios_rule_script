@@ -1,7 +1,7 @@
 # NAME: AsianMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:10
+# UPDATED: 2021-01-22 03:19:43
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # AsianMedia 与 BiliBili 共 12 条规则重复
@@ -26,7 +26,8 @@ payload:
   - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,hdslb.com
-# AsianMedia 与 ChinaTest 共 14 条规则重复
+# AsianMedia 与 ChinaTest 共 15 条规则重复
+  - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,71.am.com
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
@@ -46,7 +47,6 @@ payload:
   - IP-CIDR,106.11.0.0/16
   - IP-CIDR,119.176.0.0/12
 # AsianMedia 与 ChinaMedia 共 19 条规则重复
-  - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-KEYWORD,bilibili
   - DOMAIN-KEYWORD,qiyi
   - DOMAIN-SUFFIX,71.am.com
@@ -64,6 +64,7 @@ payload:
   - DOMAIN-SUFFIX,im9.com
   - DOMAIN-SUFFIX,qy.net
   - IP-CIDR,101.224.0.0/13
+  - IP-CIDR,106.11.0.0/16
   - IP-CIDR,119.176.0.0/12
 # AsianMedia 与 Youku 共 1 条规则重复
   - IP-CIDR,106.11.0.0/16

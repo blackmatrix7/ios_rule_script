@@ -1,7 +1,7 @@
 # NAME: CCTV 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:09
+# UPDATED: 2021-01-22 03:19:42
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # CCTV 与 China 共 3 条规则重复
@@ -15,3 +15,46 @@ payload:
   - DOMAIN-SUFFIX,ipanda.com
   - DOMAIN-SUFFIX,ipanda.net
   - DOMAIN-SUFFIX,livechina.com
+# CCTV 与 ChinaMedia 共 42 条规则重复
+  - DOMAIN-SUFFIX,cctv.cn
+  - DOMAIN-SUFFIX,cctv.com
+  - DOMAIN-SUFFIX,cctvlib.cn
+  - DOMAIN-SUFFIX,cctvlib.com.cn
+  - DOMAIN-SUFFIX,cctvlibrary.cn
+  - DOMAIN-SUFFIX,cctvlibrary.com.cn
+  - DOMAIN-SUFFIX,cctvpic.com
+  - DOMAIN-SUFFIX,cctvpro.cn
+  - DOMAIN-SUFFIX,cctvpro.com.cn
+  - DOMAIN-SUFFIX,chinaepg.cn
+  - DOMAIN-SUFFIX,chinalive.com
+  - DOMAIN-SUFFIX,citv.net.cn
+  - DOMAIN-SUFFIX,cnms.net.cn
+  - DOMAIN-SUFFIX,cntv.cn
+  - DOMAIN-SUFFIX,cntv.com.cn
+  - DOMAIN-SUFFIX,cntvwb.cn
+  - DOMAIN-SUFFIX,gjgbdszt.cn
+  - DOMAIN-SUFFIX,gjgbdszt.com.cn
+  - DOMAIN-SUFFIX,gjgbdszt.net.cn
+  - DOMAIN-SUFFIX,ipanda.cn
+  - DOMAIN-SUFFIX,ipanda.com
+  - DOMAIN-SUFFIX,ipanda.com.cn
+  - DOMAIN-SUFFIX,ipanda.net
+  - DOMAIN-SUFFIX,livechina.cn
+  - DOMAIN-SUFFIX,livechina.com
+  - DOMAIN-SUFFIX,olympicchannelchina.cn
+  - DOMAIN-SUFFIX,tvcc.cn
+  - DOMAIN-SUFFIX,tvcc.com.cn
+  - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.cn
+  - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s
+  - DOMAIN-SUFFIX,xn--fiq53l90et9fpncc7joo6apn8a.cn
+  - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.cn
+  - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s
+  - DOMAIN-SUFFIX,zggbdszt.cn
+  - DOMAIN-SUFFIX,zggbdszt.com.cn
+  - DOMAIN-SUFFIX,zggbdszt.net.cn
+  - DOMAIN-SUFFIX,zygbdszt.net.cn
+  - DOMAIN-SUFFIX,中国广播电视总台.cn
+  - DOMAIN-SUFFIX,中国广播电视总台.中国
+  - DOMAIN-SUFFIX,中央广播电视总台.cn
+  - DOMAIN-SUFFIX,国家广播电视总台.cn
+  - DOMAIN-SUFFIX,国家广播电视总台.中国

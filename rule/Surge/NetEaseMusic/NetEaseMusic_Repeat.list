@@ -1,7 +1,7 @@
 # NAME: NetEaseMusic 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:06
+# UPDATED: 2021-01-22 03:19:39
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # NetEaseMusic 与 China 共 3 条规则重复
 DOMAIN-SUFFIX,163yun.com
@@ -11,20 +11,35 @@ USER-AGENT,NeteaseMusic*
 DOMAIN-SUFFIX,163yun.com
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,NeteaseMusic*
-# NetEaseMusic 与 ChinaMedia 共 13 条规则重复
+# NetEaseMusic 与 ChinaMedia 共 28 条规则重复
+DOMAIN,netease.ugcvideoss.ourdvs.com
+DOMAIN-SUFFIX,163yun.com
+DOMAIN-SUFFIX,api.iplay.163.com
+DOMAIN-SUFFIX,hz.netease.com
+DOMAIN-SUFFIX,mam.netease.com
+DOMAIN-SUFFIX,music.126.com
 DOMAIN-SUFFIX,music.126.net
 DOMAIN-SUFFIX,music.163.com
 IP-CIDR,101.71.154.241/32
+IP-CIDR,103.126.92.13/32
 IP-CIDR,103.126.92.132/31
 IP-CIDR,112.13.119.17/32
 IP-CIDR,112.13.122.1/32
+IP-CIDR,115.236.112.0/20
 IP-CIDR,118.24.63.156/32
 IP-CIDR,193.112.159.225/32
+IP-CIDR,223.252.192.0/19
 IP-CIDR,39.105.63.80/32
 IP-CIDR,45.254.48.1/32
 IP-CIDR,47.100.127.239/32
+IP-CIDR,59.111.128.0/17
+IP-CIDR,59.111.21.14/31
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**
 USER-AGENT,NeteaseMusic*
+USER-AGENT,NeteaseMusic**
+USER-AGENT,网易云音乐*
+USER-AGENT,网易云音乐**
 # NetEaseMusic 与 NetEase 共 22 条规则重复
 DOMAIN,netease.ugcvideoss.ourdvs.com
 DOMAIN-SUFFIX,163yun.com

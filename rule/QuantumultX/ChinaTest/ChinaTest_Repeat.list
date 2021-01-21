@@ -1,11 +1,11 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:07
+# UPDATED: 2021-01-22 03:19:40
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # ChinaTest 与 WhiteList 共 1 条规则重复
 HOST,analytics.strava.com
-# ChinaTest 与 BiliBili 共 20 条规则重复
+# ChinaTest 与 BiliBili 共 19 条规则重复
 HOST-SUFFIX,acg.tv
 HOST-SUFFIX,acgvideo.com
 HOST-SUFFIX,b23.tv
@@ -25,7 +25,6 @@ HOST-SUFFIX,im9.com
 HOST-SUFFIX,mcbbs.net
 HOST-SUFFIX,mincdn.com
 HOST-SUFFIX,smtcdns.net
-HOST-SUFFIX,upos-hz-mirrorakam.akamaized.net
 # ChinaTest 与 DiDi 共 13 条规则重复
 HOST-SUFFIX,didi-food.com
 HOST-SUFFIX,didialift.com
@@ -320,15 +319,18 @@ HOST-SUFFIX,zijieimg.com
 HOST-SUFFIX,zjbyte.com
 HOST-SUFFIX,zjcdn.com
 HOST-SUFFIX,zjgslb.com
-# ChinaTest 与 China 共 684 条规则重复
+# ChinaTest 与 China 共 687 条规则重复
 HOST,analytics.strava.com
 HOST,blzddist1-a.akamaihd.net
 HOST,client.amplifi.com
+HOST,dl.google.com
 HOST,download.jetbrains.com
 HOST,file-igamecj.akamaized.net
+HOST,images-cn.ssl-images-amazon.com
 HOST,ip.istatmenus.app
 HOST,mtalk.google.com
 HOST,officecdn-microsoft-com.akamaized.net
+HOST,safebrowsing.googleapis.com
 HOST,sms.imagetasks.com
 HOST,speedtest.macpaw.com
 HOST,steamcommunity-a.akamaihd.net
@@ -1208,10 +1210,13 @@ HOST-SUFFIX,wnsqzonebk.com
 HOST-SUFFIX,wting.info
 HOST-SUFFIX,xxsy.net
 HOST-SUFFIX,yuewen.com
-# ChinaTest 与 ChinaMedia 共 49 条规则重复
+# ChinaTest 与 ChinaMedia 共 86 条规则重复
+HOST-SUFFIX,163yun.com
 HOST-SUFFIX,56.com
 HOST-SUFFIX,71.am
 HOST-SUFFIX,71.am.com
+HOST-SUFFIX,71edge.com
+HOST-SUFFIX,9nali.com
 HOST-SUFFIX,acfun.tv
 HOST-SUFFIX,acg.tv
 HOST-SUFFIX,acgvideo.com
@@ -1219,24 +1224,55 @@ HOST-SUFFIX,aixifan.com
 HOST-SUFFIX,b23.tv
 HOST-SUFFIX,biliapi.com
 HOST-SUFFIX,biliapi.net
+HOST-SUFFIX,bilibili.cc
+HOST-SUFFIX,bilibili.co
 HOST-SUFFIX,bilibili.com
 HOST-SUFFIX,bilibili.tv
+HOST-SUFFIX,bilibiligame.net
 HOST-SUFFIX,biligame.com
 HOST-SUFFIX,biligame.net
 HOST-SUFFIX,bilivideo.com
+HOST-SUFFIX,cctv.com
+HOST-SUFFIX,cctvpic.com
+HOST-SUFFIX,chinalive.com
+HOST-SUFFIX,douyu.com
+HOST-SUFFIX,douyu.tv
+HOST-SUFFIX,douyuscdn.com
+HOST-SUFFIX,douyutv.com
+HOST-SUFFIX,gitv.tv
 HOST-SUFFIX,hdslb.com
+HOST-SUFFIX,hdslb.net
 HOST-SUFFIX,hitv.com
 HOST-SUFFIX,hunantv.com
 HOST-SUFFIX,im9.com
+HOST-SUFFIX,ipanda.com
+HOST-SUFFIX,ipanda.net
 HOST-SUFFIX,iqiyi.com
 HOST-SUFFIX,iqiyipic.com
 HOST-SUFFIX,jstucdn.com
 HOST-SUFFIX,koowo.com
 HOST-SUFFIX,kugou.com
+HOST-SUFFIX,le.com
+HOST-SUFFIX,lecloud.com
+HOST-SUFFIX,lemall.com
 HOST-SUFFIX,letv.com
+HOST-SUFFIX,letv8.com
+HOST-SUFFIX,letvcdn.com
+HOST-SUFFIX,letvcloud.com
+HOST-SUFFIX,letvimg.com
+HOST-SUFFIX,livechina.com
+HOST-SUFFIX,mcbbs.net
 HOST-SUFFIX,mgtv.com
 HOST-SUFFIX,miguvideo.com
+HOST-SUFFIX,mincdn.com
+HOST-SUFFIX,pps.tv
+HOST-SUFFIX,ppsimg.com
+HOST-SUFFIX,ppstream.com
+HOST-SUFFIX,ppstream.net
 HOST-SUFFIX,qianqian.com
+HOST-SUFFIX,qingxuetang.com
+HOST-SUFFIX,qiyi.com
+HOST-SUFFIX,qiyipic.com
 HOST-SUFFIX,qy.net
 HOST-SUFFIX,smtcdns.net
 HOST-SUFFIX,sohu.com
@@ -1245,6 +1281,9 @@ HOST-SUFFIX,v-56.com
 HOST-SUFFIX,videojj.com
 HOST-SUFFIX,xiami.com
 HOST-SUFFIX,xiami.net
+HOST-SUFFIX,xima.tv
+HOST-SUFFIX,ximalaya.com
+HOST-SUFFIX,xmcdn.com
 HOST-SUFFIX,ykimg.com
 HOST-SUFFIX,youku.com
 HOST-SUFFIX,zamplus.com
@@ -1321,7 +1360,10 @@ HOST-SUFFIX,douyu.com
 HOST-SUFFIX,douyu.tv
 HOST-SUFFIX,douyuscdn.com
 HOST-SUFFIX,douyutv.com
-# ChinaTest 与 Himalaya 共 2 条规则重复
+# ChinaTest 与 Himalaya 共 5 条规则重复
+HOST-SUFFIX,9nali.com
+HOST-SUFFIX,qingxuetang.com
+HOST-SUFFIX,xima.tv
 HOST-SUFFIX,ximalaya.com
 HOST-SUFFIX,xmcdn.com
 # ChinaTest 与 Alibaba 共 257 条规则重复
@@ -2686,12 +2728,6 @@ HOST-SUFFIX,swaqds.com
 HOST-SUFFIX,wifi.com
 HOST-SUFFIX,wifi188.com
 HOST-SUFFIX,wkanx.com
-# ChinaTest 与 XiMaLaYa 共 5 条规则重复
-HOST-SUFFIX,9nali.com
-HOST-SUFFIX,qingxuetang.com
-HOST-SUFFIX,xima.tv
-HOST-SUFFIX,ximalaya.com
-HOST-SUFFIX,xmcdn.com
 # ChinaTest 与 XiamiMusic 共 3 条规则重复
 HOST-SUFFIX,xiami.com
 HOST-SUFFIX,xiami.fm
@@ -2899,42 +2935,12 @@ HOST-SUFFIX,windowsupdate.com
 HOST-SUFFIX,xbox.com
 HOST-SUFFIX,xboxlive.com
 USER-AGENT,Microsoft*
-# ChinaTest 与 Google 共 34 条规则重复
-HOST-SUFFIX,265.com
-HOST-SUFFIX,2mdn.net
-HOST-SUFFIX,adservice.google.com
-HOST-SUFFIX,app-measurement.com
-HOST-SUFFIX,beacons.gcp.gvt2.com
-HOST-SUFFIX,beacons.gvt2.com
-HOST-SUFFIX,beacons3.gvt2.com
-HOST-SUFFIX,c.admob.com
-HOST-SUFFIX,c.android.clients.google.com
-HOST-SUFFIX,cache.pack.google.com
-HOST-SUFFIX,clickserve.dartsearch.net
-HOST-SUFFIX,corp.google.com
-HOST-SUFFIX,crl.pki.goog
-HOST-SUFFIX,dl.google.com
-HOST-SUFFIX,dl.l.google.com
-HOST-SUFFIX,doubleclick.net
-HOST-SUFFIX,google-analytics.com
+# ChinaTest 与 Google 共 1 条规则重复
 HOST-SUFFIX,google.cn
-HOST-SUFFIX,googleadservices.com
-HOST-SUFFIX,googleanalytics.com
-HOST-SUFFIX,googlesyndication.com
-HOST-SUFFIX,googletagmanager.com
-HOST-SUFFIX,googletagservices.com
-HOST-SUFFIX,gtm.oasisfeng.com
-HOST-SUFFIX,ocsp.pki.goog
-HOST-SUFFIX,pagead-googlehosted.l.google.com
-HOST-SUFFIX,pki-goog.l.google.com
-HOST-SUFFIX,recaptcha.net
-HOST-SUFFIX,safebrowsing-cache.google.com
-HOST-SUFFIX,ssl-google-analytics.l.google.com
-HOST-SUFFIX,toolbarqueries.google.com
-HOST-SUFFIX,tools.google.com
-HOST-SUFFIX,tools.l.google.com
-HOST-SUFFIX,www-googletagmanager.l.google.com
-# ChinaTest 与 AdvertisingLite 共 645 条规则重复
+# ChinaTest 与 AdvertisingLite 共 640 条规则重复
+HOST,2mdn.net
+HOST,clientservices.googleapis.com
+HOST,imasdk.googleapis.com
 HOST-SUFFIX,000dn.com
 HOST-SUFFIX,0024aaaa.com
 HOST-SUFFIX,002lzj.com
@@ -3043,7 +3049,6 @@ HOST-SUFFIX,ads8.com
 HOST-SUFFIX,adsage.com
 HOST-SUFFIX,adsame.com
 HOST-SUFFIX,adsensor.org
-HOST-SUFFIX,adservice.google.com
 HOST-SUFFIX,adsmogo.com
 HOST-SUFFIX,adsmogo.org
 HOST-SUFFIX,adsunflower.com
@@ -3064,7 +3069,6 @@ HOST-SUFFIX,anquan.org
 HOST-SUFFIX,anquanzhuomian.com
 HOST-SUFFIX,anysdk.com
 HOST-SUFFIX,apkdo.com
-HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,appadhoc.com
 HOST-SUFFIX,appcpa.net
 HOST-SUFFIX,appjiagu.com
@@ -3146,7 +3150,6 @@ HOST-SUFFIX,dmqapp.com
 HOST-SUFFIX,dmrtb.com
 HOST-SUFFIX,dmtrck.com
 HOST-SUFFIX,dopa.com
-HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,dsp.com
 HOST-SUFFIX,dsxdn.com
 HOST-SUFFIX,duapp.com
@@ -3188,11 +3191,6 @@ HOST-SUFFIX,ggmm777.com
 HOST-SUFFIX,ggmmqq.com
 HOST-SUFFIX,ggweb.net
 HOST-SUFFIX,ggxt.net
-HOST-SUFFIX,google-analytics.com
-HOST-SUFFIX,googleadservices.com
-HOST-SUFFIX,googlesyndication.com
-HOST-SUFFIX,googletagmanager.com
-HOST-SUFFIX,googletagservices.com
 HOST-SUFFIX,goolpter.com
 HOST-SUFFIX,gotooback.com
 HOST-SUFFIX,gouwubang.com
@@ -3580,7 +3578,8 @@ HOST-SUFFIX,zjlanbi.com
 HOST-SUFFIX,zlongad.com
 HOST-SUFFIX,ztvx8.com
 HOST-SUFFIX,zzbyc.xyz
-# ChinaTest 与 Advertising 共 1154 条规则重复
+# ChinaTest 与 Advertising 共 1143 条规则重复
+HOST,clickserve.dartsearch.net
 HOST-SUFFIX,000dn.com
 HOST-SUFFIX,0024aaaa.com
 HOST-SUFFIX,002lzj.com
@@ -3631,7 +3630,6 @@ HOST-SUFFIX,258zw.com
 HOST-SUFFIX,25ku.com
 HOST-SUFFIX,2898.com
 HOST-SUFFIX,2f.com
-HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,2pmob.com
 HOST-SUFFIX,2zfzly.com
 HOST-SUFFIX,31365y.com
@@ -3782,7 +3780,6 @@ HOST-SUFFIX,ads8.com
 HOST-SUFFIX,adsage.com
 HOST-SUFFIX,adsame.com
 HOST-SUFFIX,adsensor.org
-HOST-SUFFIX,adservice.google.com
 HOST-SUFFIX,adsmogo.com
 HOST-SUFFIX,adsmogo.net
 HOST-SUFFIX,adsmogo.org
@@ -3825,7 +3822,6 @@ HOST-SUFFIX,anysdk.com
 HOST-SUFFIX,aoidf3.com
 HOST-SUFFIX,aomeng.net
 HOST-SUFFIX,apkdo.com
-HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,appadhoc.com
 HOST-SUFFIX,appcpa.net
 HOST-SUFFIX,appjiagu.com
@@ -3896,7 +3892,6 @@ HOST-SUFFIX,chuhanweb.com
 HOST-SUFFIX,ciimg.com
 HOST-SUFFIX,cjmakeding.com
 HOST-SUFFIX,claiks.com
-HOST-SUFFIX,clientservices.googleapis.com
 HOST-SUFFIX,clotfun.mobi
 HOST-SUFFIX,clotfun.online
 HOST-SUFFIX,cm-analysis.com
@@ -3955,7 +3950,6 @@ HOST-SUFFIX,doglobal.net
 HOST-SUFFIX,dongbeisurewin.com
 HOST-SUFFIX,dongmansoft.com
 HOST-SUFFIX,dopa.com
-HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,dratio.com
 HOST-SUFFIX,dreamine.com
 HOST-SUFFIX,dsp.com
@@ -4034,12 +4028,7 @@ HOST-SUFFIX,ggweb.net
 HOST-SUFFIX,ggxt.net
 HOST-SUFFIX,gio.ren
 HOST-SUFFIX,giocdn.com
-HOST-SUFFIX,google-analytics.com
-HOST-SUFFIX,googleadservices.com
 HOST-SUFFIX,googleadsl.com
-HOST-SUFFIX,googlesyndication.com
-HOST-SUFFIX,googletagmanager.com
-HOST-SUFFIX,googletagservices.com
 HOST-SUFFIX,goolpter.com
 HOST-SUFFIX,gotonav.com
 HOST-SUFFIX,gotooback.com
@@ -4108,7 +4097,6 @@ HOST-SUFFIX,ildhy.com
 HOST-SUFFIX,ilkwork.com
 HOST-SUFFIX,iloveyouxi.com
 HOST-SUFFIX,imageter.com
-HOST-SUFFIX,imasdk.googleapis.com
 HOST-SUFFIX,imindmap.cc
 HOST-SUFFIX,imtmp.net
 HOST-SUFFIX,inad.com
@@ -4389,7 +4377,6 @@ HOST-SUFFIX,ruxianke.com
 HOST-SUFFIX,s8dj.com
 HOST-SUFFIX,s8x1.com
 HOST-SUFFIX,saf588.com
-HOST-SUFFIX,safebrowsing.googleapis.com
 HOST-SUFFIX,sagetrc.com
 HOST-SUFFIX,scdng.com
 HOST-SUFFIX,sdkclick.com
@@ -4735,7 +4722,7 @@ HOST-SUFFIX,zzbyc.xyz
 HOST-SUFFIX,zzcmjn.com
 HOST-SUFFIX,zzpzero.com
 HOST-SUFFIX,zzyanhushi.com
-# ChinaTest 与 AdvertisingTest 共 1182 条规则重复
+# ChinaTest 与 AdvertisingTest 共 1165 条规则重复
 HOST-SUFFIX,000dn.com
 HOST-SUFFIX,0024aaaa.com
 HOST-SUFFIX,002lzj.com
@@ -4789,7 +4776,6 @@ HOST-SUFFIX,258zw.com
 HOST-SUFFIX,25ku.com
 HOST-SUFFIX,2898.com
 HOST-SUFFIX,2f.com
-HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,2pmob.com
 HOST-SUFFIX,2zfzly.com
 HOST-SUFFIX,31365y.com
@@ -4944,7 +4930,6 @@ HOST-SUFFIX,ads8.com
 HOST-SUFFIX,adsage.com
 HOST-SUFFIX,adsame.com
 HOST-SUFFIX,adsensor.org
-HOST-SUFFIX,adservice.google.com
 HOST-SUFFIX,adsmogo.com
 HOST-SUFFIX,adsmogo.mobi
 HOST-SUFFIX,adsmogo.net
@@ -4988,7 +4973,6 @@ HOST-SUFFIX,anysdk.com
 HOST-SUFFIX,aoidf3.com
 HOST-SUFFIX,aomeng.net
 HOST-SUFFIX,apkdo.com
-HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,appadhoc.com
 HOST-SUFFIX,appcpa.net
 HOST-SUFFIX,appjiagu.com
@@ -5060,8 +5044,6 @@ HOST-SUFFIX,chuhanweb.com
 HOST-SUFFIX,ciimg.com
 HOST-SUFFIX,cjmakeding.com
 HOST-SUFFIX,claiks.com
-HOST-SUFFIX,clickserve.dartsearch.net
-HOST-SUFFIX,clientservices.googleapis.com
 HOST-SUFFIX,clotfun.mobi
 HOST-SUFFIX,clotfun.online
 HOST-SUFFIX,cm-analysis.com
@@ -5120,7 +5102,6 @@ HOST-SUFFIX,doglobal.net
 HOST-SUFFIX,dongbeisurewin.com
 HOST-SUFFIX,dongmansoft.com
 HOST-SUFFIX,dopa.com
-HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,dratio.com
 HOST-SUFFIX,dreamine.com
 HOST-SUFFIX,dsp.com
@@ -5201,13 +5182,7 @@ HOST-SUFFIX,ggweb.net
 HOST-SUFFIX,ggxt.net
 HOST-SUFFIX,gio.ren
 HOST-SUFFIX,giocdn.com
-HOST-SUFFIX,google-analytics.com
-HOST-SUFFIX,googleadservices.com
 HOST-SUFFIX,googleadsl.com
-HOST-SUFFIX,googleanalytics.com
-HOST-SUFFIX,googlesyndication.com
-HOST-SUFFIX,googletagmanager.com
-HOST-SUFFIX,googletagservices.com
 HOST-SUFFIX,goolpter.com
 HOST-SUFFIX,gotoip55.com
 HOST-SUFFIX,gotonav.com
@@ -5280,7 +5255,6 @@ HOST-SUFFIX,ildhy.com
 HOST-SUFFIX,ilkwork.com
 HOST-SUFFIX,iloveyouxi.com
 HOST-SUFFIX,imageter.com
-HOST-SUFFIX,imasdk.googleapis.com
 HOST-SUFFIX,imindmap.cc
 HOST-SUFFIX,imtmp.net
 HOST-SUFFIX,inad.com
@@ -5495,7 +5469,6 @@ HOST-SUFFIX,overturechina.com
 HOST-SUFFIX,ox11.com
 HOST-SUFFIX,oxrm.com
 HOST-SUFFIX,oycslia.xyz
-HOST-SUFFIX,pagead-googlehosted.l.google.com
 HOST-SUFFIX,pagechoice.com
 HOST-SUFFIX,pagechoice.net
 HOST-SUFFIX,pangolin-sdk-toutiao-b.com
@@ -5566,7 +5539,6 @@ HOST-SUFFIX,ruxianke.com
 HOST-SUFFIX,s8dj.com
 HOST-SUFFIX,s8x1.com
 HOST-SUFFIX,saf588.com
-HOST-SUFFIX,safebrowsing.googleapis.com
 HOST-SUFFIX,sagetrc.com
 HOST-SUFFIX,scc.ssacdn.com
 HOST-SUFFIX,scdng.com
@@ -5598,7 +5570,6 @@ HOST-SUFFIX,sodhef.com
 HOST-SUFFIX,somecoding.com
 HOST-SUFFIX,soperson.com
 HOST-SUFFIX,souid.com
-HOST-SUFFIX,ssl-google-analytics.l.google.com
 HOST-SUFFIX,sspsky.com
 HOST-SUFFIX,stargame.com
 HOST-SUFFIX,starmobs.com
@@ -5750,7 +5721,6 @@ HOST-SUFFIX,ws.ksmobile.net
 HOST-SUFFIX,wsgblw.com
 HOST-SUFFIX,wumii.com
 HOST-SUFFIX,wuseng.net
-HOST-SUFFIX,www-googletagmanager.l.google.com
 HOST-SUFFIX,wx16999.com
 HOST-SUFFIX,wxbdfm.com
 HOST-SUFFIX,wy213.com
@@ -5975,9 +5945,8 @@ HOST-SUFFIX,yuanchengxiezuo.com
 HOST-SUFFIX,yukhj.com
 HOST-SUFFIX,zbrushcn.com
 HOST-SUFFIX,zhzzx.com
-# ChinaTest 与 Privacy 共 2 条规则重复
-HOST-SUFFIX,google-analytics.com
-HOST-SUFFIX,googletagmanager.com
+# ChinaTest 与 Privacy 共 1 条规则重复
+HOST,safebrowsing.googleapis.com
 # ChinaTest 与 Game 共 17 条规则重复
 HOST,blzddist1-a.akamaihd.net
 HOST,steamcommunity-a.akamaihd.net
@@ -6024,9 +5993,8 @@ HOST-SUFFIX,steamusercontent.com
 # ChinaTest 与 Xbox 共 2 条规则重复
 HOST-SUFFIX,xbox.com
 HOST-SUFFIX,xboxlive.com
-# ChinaTest 与 Proxy 共 180 条规则重复
-HOST-SUFFIX,265.com
-HOST-SUFFIX,2mdn.net
+# ChinaTest 与 Proxy 共 170 条规则重复
+HOST,officecdn-microsoft-com.akamaized.net
 HOST-SUFFIX,abercrombie.com
 HOST-SUFFIX,accuweather.com
 HOST-SUFFIX,acg.rip
@@ -6040,7 +6008,6 @@ HOST-SUFFIX,amemv.com
 HOST-SUFFIX,annualreviews.org
 HOST-SUFFIX,apache.org
 HOST-SUFFIX,api.termius.com
-HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,avjoy.me
 HOST-SUFFIX,battle.net
 HOST-SUFFIX,bet365.com
@@ -6059,23 +6026,16 @@ HOST-SUFFIX,crashlytics.com
 HOST-SUFFIX,culturedcode.com
 HOST-SUFFIX,cz.cc
 HOST-SUFFIX,digicert.com
-HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,dytt8.net
 HOST-SUFFIX,edgekey.net
 HOST-SUFFIX,engineeringvillage.com
 HOST-SUFFIX,firefox.com
 HOST-SUFFIX,ford.com
+HOST-SUFFIX,full
 HOST-SUFFIX,gameloft.com
 HOST-SUFFIX,getpricetag.com
 HOST-SUFFIX,gigabyte.com
-HOST-SUFFIX,google-analytics.com
 HOST-SUFFIX,google.cn
-HOST-SUFFIX,googleadservices.com
-HOST-SUFFIX,googleanalytics.com
-HOST-SUFFIX,googlesyndication.com
-HOST-SUFFIX,googletagmanager.com
-HOST-SUFFIX,googletagservices.com
-HOST-SUFFIX,gtm.oasisfeng.com
 HOST-SUFFIX,hao123.com
 HOST-SUFFIX,hao123img.com
 HOST-SUFFIX,hdsky.me
@@ -6145,7 +6105,6 @@ HOST-SUFFIX,playstationnetwork.com
 HOST-SUFFIX,pnas.org
 HOST-SUFFIX,proquest.com
 HOST-SUFFIX,quantil.com
-HOST-SUFFIX,recaptcha.net
 HOST-SUFFIX,rrys.tv
 HOST-SUFFIX,rrys2019.com
 HOST-SUFFIX,rrys2020.com
@@ -6205,9 +6164,7 @@ HOST-SUFFIX,zmz2019.com
 HOST-SUFFIX,zmzapi.com
 HOST-SUFFIX,zoho.com
 USER-AGENT,PayPal*
-# ChinaTest 与 Global 共 41 条规则重复
-HOST-SUFFIX,2mdn.net
-HOST-SUFFIX,app-measurement.com
+# ChinaTest 与 Global 共 38 条规则重复
 HOST-SUFFIX,bing.com
 HOST-SUFFIX,bjango.com
 HOST-SUFFIX,conoha.jp
@@ -6235,7 +6192,6 @@ HOST-SUFFIX,paypalobjects.com
 HOST-SUFFIX,playstation.com
 HOST-SUFFIX,playstation.net
 HOST-SUFFIX,playstationnetwork.com
-HOST-SUFFIX,recaptcha.net
 HOST-SUFFIX,sciencemag.org
 HOST-SUFFIX,sony.com
 HOST-SUFFIX,sonyentertainmentnetwork.com
@@ -6250,11 +6206,9 @@ USER-AGENT,PayPal*
 # ChinaTest 与 GlobalMedia 共 2 条规则重复
 HOST-SUFFIX,byteoversea.com
 HOST-SUFFIX,ibytedtos.com
-# ChinaTest 与 BlackList 共 27 条规则重复
-HOST-SUFFIX,2mdn.net
+# ChinaTest 与 BlackList 共 24 条规则重复
 HOST-SUFFIX,apache.org
 HOST-SUFFIX,api.termius.com
-HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,bing.com
 HOST-SUFFIX,bing.net
 HOST-SUFFIX,culturedcode.com
@@ -6270,7 +6224,6 @@ HOST-SUFFIX,nssurge.com
 HOST-SUFFIX,office365.com
 HOST-SUFFIX,onenote.com
 HOST-SUFFIX,overcast.fm
-HOST-SUFFIX,recaptcha.net
 HOST-SUFFIX,sciencemag.org
 HOST-SUFFIX,symcd.com
 HOST-SUFFIX,teamviewer.com
@@ -6366,7 +6319,8 @@ IP6-CIDR,2a0b:b580::/48
 IP6-CIDR,2a0b:b581::/48
 IP6-CIDR,2a0b:b582::/48
 IP6-CIDR,2a0b:b583::/48
-# ChinaTest 与 AsianMedia 共 14 条规则重复
+# ChinaTest 与 AsianMedia 共 15 条规则重复
+HOST,upos-hz-mirrorakam.akamaized.net
 HOST-SUFFIX,71.am.com
 HOST-SUFFIX,acg.tv
 HOST-SUFFIX,acgvideo.com

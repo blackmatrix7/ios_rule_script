@@ -1,7 +1,7 @@
 # NAME: iQIYI 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:07
+# UPDATED: 2021-01-22 03:19:40
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # iQIYI 与 China 共 7 条规则重复
 HOST-SUFFIX,71.am
@@ -28,18 +28,54 @@ HOST-SUFFIX,qy.net
 # iQIYI 与 ChinaIPs 共 2 条规则重复
 IP-CIDR,101.224.0.0/13
 IP-CIDR,119.176.0.0/12
-# iQIYI 与 ChinaMedia 共 12 条规则重复
+# iQIYI 与 ChinaMedia 共 48 条规则重复
 HOST-KEYWORD,qiyi
 HOST-SUFFIX,71.am
 HOST-SUFFIX,71.am.com
+HOST-SUFFIX,71edge.com
+HOST-SUFFIX,71edge.net
+HOST-SUFFIX,aianno.cn
+HOST-SUFFIX,aianno.com
+HOST-SUFFIX,aiqiyicloud-mgmt.com
+HOST-SUFFIX,aiqiyicloud.com
+HOST-SUFFIX,aiqiyicloud.net
+HOST-SUFFIX,baiying.com
+HOST-SUFFIX,gitv.cn
+HOST-SUFFIX,gitv.tv
+HOST-SUFFIX,ibkstore.com
+HOST-SUFFIX,iq.com
 HOST-SUFFIX,iqiyi.com
+HOST-SUFFIX,iqiyi.demo.uwp
+HOST-SUFFIX,iqiyiedge.com
+HOST-SUFFIX,iqiyiedge.net
 HOST-SUFFIX,iqiyipic.com
+HOST-SUFFIX,jiangbing.cn
+HOST-SUFFIX,pps.tv
+HOST-SUFFIX,ppsimg.com
+HOST-SUFFIX,ppstream.cn
+HOST-SUFFIX,ppstream.com
+HOST-SUFFIX,ppstream.com.cn
+HOST-SUFFIX,ppstream.net
+HOST-SUFFIX,ppstream.net.cn
+HOST-SUFFIX,ppsurl.com
+HOST-SUFFIX,qiyi.cn
+HOST-SUFFIX,qiyi.com
+HOST-SUFFIX,qiyipic.com
+HOST-SUFFIX,qy.com
 HOST-SUFFIX,qy.net
+HOST-SUFFIX,suike.cn
 IP-CIDR,101.224.0.0/13
+IP-CIDR,103.44.56.0/22
+IP-CIDR,118.26.120.0/24
+IP-CIDR,118.26.32.0/23
 IP-CIDR,119.176.0.0/12
+IP-CIDR,223.119.62.224/28
+IP-CIDR,23.40.241.251/32
+IP-CIDR,23.40.242.10/32
 USER-AGENT,PPStream*
 USER-AGENT,QIYI*
 USER-AGENT,QYPlayer*
+USER-AGENT,iQIYI*
 USER-AGENT,iQiYi*
 # iQIYI 与 Advertising 共 1 条规则重复
 HOST-SUFFIX,71.am

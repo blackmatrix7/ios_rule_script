@@ -1,7 +1,7 @@
 # NAME: China 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:07
+# UPDATED: 2021-01-22 03:19:40
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # China 与 WhiteList 共 1 条规则重复
 HOST,analytics.strava.com
@@ -75,15 +75,18 @@ HOST-SUFFIX,iesdouyin.com
 HOST-SUFFIX,pstatp.com
 HOST-SUFFIX,snssdk.com
 HOST-SUFFIX,toutiao.com
-# China 与 ChinaTest 共 684 条规则重复
+# China 与 ChinaTest 共 687 条规则重复
 HOST,analytics.strava.com
 HOST,blzddist1-a.akamaihd.net
 HOST,client.amplifi.com
+HOST,dl.google.com
 HOST,download.jetbrains.com
 HOST,file-igamecj.akamaized.net
+HOST,images-cn.ssl-images-amazon.com
 HOST,ip.istatmenus.app
 HOST,mtalk.google.com
 HOST,officecdn-microsoft-com.akamaized.net
+HOST,safebrowsing.googleapis.com
 HOST,sms.imagetasks.com
 HOST,speedtest.macpaw.com
 HOST,steamcommunity-a.akamaihd.net
@@ -801,7 +804,8 @@ HOST-SUFFIX,tencent-cloud.net
 HOST-SUFFIX,tencent.com
 HOST-SUFFIX,tenpay.com
 HOST-SUFFIX,wechat.com
-# China 与 ChinaMedia 共 35 条规则重复
+# China 与 ChinaMedia 共 50 条规则重复
+HOST-SUFFIX,163yun.com
 HOST-SUFFIX,71.am
 HOST-SUFFIX,71.am.com
 HOST-SUFFIX,acfun.tv
@@ -812,19 +816,33 @@ HOST-SUFFIX,biliapi.net
 HOST-SUFFIX,bilibili.com
 HOST-SUFFIX,bilibili.tv
 HOST-SUFFIX,bilivideo.com
+HOST-SUFFIX,cctv.com
+HOST-SUFFIX,cctvpic.com
+HOST-SUFFIX,douyu.com
+HOST-SUFFIX,douyu.tv
+HOST-SUFFIX,douyutv.com
 HOST-SUFFIX,hdslb.com
 HOST-SUFFIX,hitv.com
 HOST-SUFFIX,iqiyi.com
 HOST-SUFFIX,iqiyipic.com
 HOST-SUFFIX,jstucdn.com
 HOST-SUFFIX,kugou.com
+HOST-SUFFIX,le.com
+HOST-SUFFIX,lecloud.com
 HOST-SUFFIX,letv.com
+HOST-SUFFIX,letvcloud.com
+HOST-SUFFIX,livechina.com
 HOST-SUFFIX,mgtv.com
+HOST-SUFFIX,ppsimg.com
+HOST-SUFFIX,qiyi.com
+HOST-SUFFIX,qiyipic.com
 HOST-SUFFIX,sohu.com
 HOST-SUFFIX,soku.com
 HOST-SUFFIX,v-56.com
 HOST-SUFFIX,xiami.com
 HOST-SUFFIX,xiami.net
+HOST-SUFFIX,ximalaya.com
+HOST-SUFFIX,xmcdn.com
 HOST-SUFFIX,ykimg.com
 HOST-SUFFIX,youku.com
 HOST-SUFFIX,zimuzu.io
@@ -1060,9 +1078,6 @@ HOST-SUFFIX,chinanetcenter.com
 HOST-SUFFIX,lxdns.com
 HOST-SUFFIX,ourdvs.com
 HOST-SUFFIX,wangsu.com
-# China 与 XiMaLaYa 共 2 条规则重复
-HOST-SUFFIX,ximalaya.com
-HOST-SUFFIX,xmcdn.com
 # China 与 XiamiMusic 共 2 条规则重复
 HOST-SUFFIX,xiami.com
 HOST-SUFFIX,xiami.net
@@ -1221,7 +1236,8 @@ HOST-SUFFIX,steamusercontent.com
 # China 与 Xbox 共 2 条规则重复
 HOST-SUFFIX,xbox.com
 HOST-SUFFIX,xboxlive.com
-# China 与 Proxy 共 132 条规则重复
+# China 与 Proxy 共 133 条规则重复
+HOST,officecdn-microsoft-com.akamaized.net
 HOST-SUFFIX,abercrombie.com
 HOST-SUFFIX,accuweather.com
 HOST-SUFFIX,acg.rip

@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:07
+# UPDATED: 2021-01-22 03:19:40
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # AdvertisingLite 与 WhiteList 共 1 条规则重复
 HOST,ad.10010.com
@@ -26,7 +26,10 @@ HOST-SUFFIX,mob.com
 HOST-SUFFIX,umeng.com
 HOST-SUFFIX,umengcloud.com
 HOST-SUFFIX,xdrig.com
-# AdvertisingLite 与 ChinaTest 共 645 条规则重复
+# AdvertisingLite 与 ChinaTest 共 640 条规则重复
+HOST,2mdn.net
+HOST,clientservices.googleapis.com
+HOST,imasdk.googleapis.com
 HOST-SUFFIX,000dn.com
 HOST-SUFFIX,0024aaaa.com
 HOST-SUFFIX,002lzj.com
@@ -135,7 +138,6 @@ HOST-SUFFIX,ads8.com
 HOST-SUFFIX,adsage.com
 HOST-SUFFIX,adsame.com
 HOST-SUFFIX,adsensor.org
-HOST-SUFFIX,adservice.google.com
 HOST-SUFFIX,adsmogo.com
 HOST-SUFFIX,adsmogo.org
 HOST-SUFFIX,adsunflower.com
@@ -156,7 +158,6 @@ HOST-SUFFIX,anquan.org
 HOST-SUFFIX,anquanzhuomian.com
 HOST-SUFFIX,anysdk.com
 HOST-SUFFIX,apkdo.com
-HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,appadhoc.com
 HOST-SUFFIX,appcpa.net
 HOST-SUFFIX,appjiagu.com
@@ -238,7 +239,6 @@ HOST-SUFFIX,dmqapp.com
 HOST-SUFFIX,dmrtb.com
 HOST-SUFFIX,dmtrck.com
 HOST-SUFFIX,dopa.com
-HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,dsp.com
 HOST-SUFFIX,dsxdn.com
 HOST-SUFFIX,duapp.com
@@ -280,11 +280,6 @@ HOST-SUFFIX,ggmm777.com
 HOST-SUFFIX,ggmmqq.com
 HOST-SUFFIX,ggweb.net
 HOST-SUFFIX,ggxt.net
-HOST-SUFFIX,google-analytics.com
-HOST-SUFFIX,googleadservices.com
-HOST-SUFFIX,googlesyndication.com
-HOST-SUFFIX,googletagmanager.com
-HOST-SUFFIX,googletagservices.com
 HOST-SUFFIX,goolpter.com
 HOST-SUFFIX,gotooback.com
 HOST-SUFFIX,gouwubang.com
@@ -675,26 +670,18 @@ HOST-SUFFIX,zzbyc.xyz
 # AdvertisingLite 与 Tencent 共 2 条规则重复
 HOST-SUFFIX,tencentmind.com
 HOST-SUFFIX,ugdtimg.com
-# AdvertisingLite 与 ChinaMedia 共 22 条规则重复
-HOST-SUFFIX,1.letvlive.com
-HOST-SUFFIX,2.letvlive.com
+# AdvertisingLite 与 ChinaMedia 共 14 条规则重复
 HOST-SUFFIX,ad.api.3g.tudou.com
 HOST-SUFFIX,ads1.lfengmobile.com
 HOST-SUFFIX,afp.pplive.com
-HOST-SUFFIX,api.cupid.qiyi.com
-HOST-SUFFIX,api.push.le.com
 HOST-SUFFIX,app.aplus.pptv.com
 HOST-SUFFIX,as.aplus.pptv.com
 HOST-SUFFIX,asimgs.pplive.cn
 HOST-SUFFIX,de.as.pptv.com
-HOST-SUFFIX,game.pps.tv
 HOST-SUFFIX,jp.as.pptv.com
 HOST-SUFFIX,koowo.com
-HOST-SUFFIX,msg.video.qiyi.com
-HOST-SUFFIX,msg2.video.qiyi.com
 HOST-SUFFIX,pp2.pptv.com
 HOST-SUFFIX,stat.pptv.com
-HOST-SUFFIX,static.g.ppstream.com
 HOST-SUFFIX,static.g.pptv.com
 HOST-SUFFIX,videojj.com
 HOST-SUFFIX,zamplus.com
@@ -16543,7 +16530,7 @@ IP-CIDR,67.229.224.28/32
 IP-CIDR,69.28.57.245/32
 IP-CIDR,74.117.182.77/32
 IP-CIDR,78.140.131.214/32
-# AdvertisingLite 与 AdvertisingTest 共 15482 条规则重复
+# AdvertisingLite 与 AdvertisingTest 共 15491 条规则重复
 HOST,0.up.qingdaonews.com
 HOST,0koryu0.easter.ne.jp
 HOST,0nso0tq1sa4.ml
@@ -16589,6 +16576,7 @@ HOST,ad.9tv.co.il
 HOST,ad.getfond.info
 HOST,ad.hori-gz.com
 HOST,ad.weibo.com
+HOST,adb.fling.com
 HOST,adclick.lv
 HOST,adcoin.click
 HOST,adfile.hori-gz.com
@@ -16983,6 +16971,7 @@ HOST,outils.f5biz.com
 HOST,p.s.360.cn
 HOST,pacan.gofreedom.info
 HOST,pardina.ru
+HOST,parronnotandone.info
 HOST,pave.elisecries.com
 HOST,pension-helene.cz
 HOST,pg.aty.sohu.com
@@ -17165,6 +17154,7 @@ HOST,webcashmaker.com
 HOST,webcom-software.ws
 HOST,webordermanager.com
 HOST,websalesusa.com
+HOST,wes.df.telemetry.microsoft.com
 HOST,windspotter.net
 HOST,withdromnit.pro
 HOST,womenslabour.org
@@ -17294,10 +17284,12 @@ HOST,www.ywvcomputerprocess.info
 HOST,www.zatzy.com
 HOST,www.zyxyfy.com
 HOST,wxbrdppfpr.com
+HOST,x.mochiads.com
 HOST,xamateurpornlic.www1.biz
 HOST,xindalawyer.com
 HOST,xn--18225-zta.biz
 HOST,xnxx.com
+HOST,xoomer.alice.it
 HOST,xotsa.frenchgerlemanelectric.com
 HOST,xs.mochiads.com
 HOST,y72yuyr9.com
@@ -19525,6 +19517,7 @@ HOST-SUFFIX,analytics.salesanalytics.io
 HOST-SUFFIX,analytics.sanoma.fi
 HOST-SUFFIX,analytics.schoolwires.com
 HOST-SUFFIX,analytics.shop.hisense.com
+HOST-SUFFIX,analytics.shorte.st
 HOST-SUFFIX,analytics.sitewit.com
 HOST-SUFFIX,analytics.sketchup.com
 HOST-SUFFIX,analytics.skyscanner.net
@@ -29645,6 +29638,7 @@ HOST-SUFFIX,trackapp.guahao.cn
 HOST-SUFFIX,trackclickers.com
 HOST-SUFFIX,tracker-api.my.com
 HOST-SUFFIX,tracker-id.cdiscount.com
+HOST-SUFFIX,tracker.affiliate.iqoption.com
 HOST-SUFFIX,tracker.affirm.com
 HOST-SUFFIX,tracker.anandtech.com
 HOST-SUFFIX,tracker.azet.sk
@@ -29704,6 +29698,7 @@ HOST-SUFFIX,tracking.brandmentions.com
 HOST-SUFFIX,tracking.carsales.com.au
 HOST-SUFFIX,tracking.cat898.com
 HOST-SUFFIX,tracking.chacha.com
+HOST-SUFFIX,tracking.conduit.com
 HOST-SUFFIX,tracking.conversion-lab.it
 HOST-SUFFIX,tracking.customerly.io
 HOST-SUFFIX,tracking.dealerwebwatcher.com
@@ -30646,6 +30641,7 @@ HOST-SUFFIX,whytoss.com
 HOST-SUFFIX,whzhi.com
 HOST-SUFFIX,wibiya-actions.conduit-data.com
 HOST-SUFFIX,wibiya-june-new-log.conduit-data.com
+HOST-SUFFIX,widget.crowdignite.com
 HOST-SUFFIX,widget.directory.dailycommercial.com
 HOST-SUFFIX,widget.kelkoo.com
 HOST-SUFFIX,widget.raaze.com

@@ -1,7 +1,7 @@
 # NAME: China 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:08
+# UPDATED: 2021-01-22 03:19:41
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # China 与 WhiteList 共 1 条规则重复
 DOMAIN,analytics.strava.com
@@ -75,15 +75,18 @@ DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,toutiao.com
-# China 与 ChinaTest 共 684 条规则重复
+# China 与 ChinaTest 共 687 条规则重复
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,client.amplifi.com
+DOMAIN,dl.google.com
 DOMAIN,download.jetbrains.com
 DOMAIN,file-igamecj.akamaized.net
+DOMAIN,images-cn.ssl-images-amazon.com
 DOMAIN,ip.istatmenus.app
 DOMAIN,mtalk.google.com
 DOMAIN,officecdn-microsoft-com.akamaized.net
+DOMAIN,safebrowsing.googleapis.com
 DOMAIN,sms.imagetasks.com
 DOMAIN,speedtest.macpaw.com
 DOMAIN,steamcommunity-a.akamaihd.net
@@ -801,7 +804,8 @@ DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,wechat.com
-# China 与 ChinaMedia 共 35 条规则重复
+# China 与 ChinaMedia 共 50 条规则重复
+DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,71.am
 DOMAIN-SUFFIX,71.am.com
 DOMAIN-SUFFIX,acfun.tv
@@ -812,19 +816,33 @@ DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,cctv.com
+DOMAIN-SUFFIX,cctvpic.com
+DOMAIN-SUFFIX,douyu.com
+DOMAIN-SUFFIX,douyu.tv
+DOMAIN-SUFFIX,douyutv.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,hitv.com
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,jstucdn.com
 DOMAIN-SUFFIX,kugou.com
+DOMAIN-SUFFIX,le.com
+DOMAIN-SUFFIX,lecloud.com
 DOMAIN-SUFFIX,letv.com
+DOMAIN-SUFFIX,letvcloud.com
+DOMAIN-SUFFIX,livechina.com
 DOMAIN-SUFFIX,mgtv.com
+DOMAIN-SUFFIX,ppsimg.com
+DOMAIN-SUFFIX,qiyi.com
+DOMAIN-SUFFIX,qiyipic.com
 DOMAIN-SUFFIX,sohu.com
 DOMAIN-SUFFIX,soku.com
 DOMAIN-SUFFIX,v-56.com
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
+DOMAIN-SUFFIX,ximalaya.com
+DOMAIN-SUFFIX,xmcdn.com
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,zimuzu.io
@@ -1060,9 +1078,6 @@ DOMAIN-SUFFIX,chinanetcenter.com
 DOMAIN-SUFFIX,lxdns.com
 DOMAIN-SUFFIX,ourdvs.com
 DOMAIN-SUFFIX,wangsu.com
-# China 与 XiMaLaYa 共 2 条规则重复
-DOMAIN-SUFFIX,ximalaya.com
-DOMAIN-SUFFIX,xmcdn.com
 # China 与 XiamiMusic 共 2 条规则重复
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
@@ -1221,7 +1236,8 @@ DOMAIN-SUFFIX,steamusercontent.com
 # China 与 Xbox 共 2 条规则重复
 DOMAIN-SUFFIX,xbox.com
 DOMAIN-SUFFIX,xboxlive.com
-# China 与 Proxy 共 132 条规则重复
+# China 与 Proxy 共 133 条规则重复
+DOMAIN,officecdn-microsoft-com.akamaized.net
 DOMAIN-SUFFIX,abercrombie.com
 DOMAIN-SUFFIX,accuweather.com
 DOMAIN-SUFFIX,acg.rip

@@ -1,7 +1,7 @@
 # NAME: BiliBili 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:10
+# UPDATED: 2021-01-22 03:19:43
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # BiliBili 与 China 共 7 条规则重复
 DOMAIN-SUFFIX,acgvideo.com
@@ -11,7 +11,7 @@ DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
-# BiliBili 与 ChinaTest 共 20 条规则重复
+# BiliBili 与 ChinaTest 共 19 条规则重复
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,b23.tv
@@ -31,23 +31,68 @@ DOMAIN-SUFFIX,im9.com
 DOMAIN-SUFFIX,mcbbs.net
 DOMAIN-SUFFIX,mincdn.com
 DOMAIN-SUFFIX,smtcdns.net
-DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
 # BiliBili 与 Tencent 共 1 条规则重复
 DOMAIN-SUFFIX,smtcdns.net
-# BiliBili 与 ChinaMedia 共 14 条规则重复
+# BiliBili 与 ChinaMedia 共 60 条规则重复
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,baka.im
+DOMAIN-SUFFIX,bigfun.cn
+DOMAIN-SUFFIX,bigfunapp.cn
+DOMAIN-SUFFIX,bili22.cn
+DOMAIN-SUFFIX,bili2233.cn
+DOMAIN-SUFFIX,bili23.cn
+DOMAIN-SUFFIX,bili33.cn
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.cc
+DOMAIN-SUFFIX,bilibili.cn
+DOMAIN-SUFFIX,bilibili.co
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,bilibiligame.cn
+DOMAIN-SUFFIX,bilibiligame.net
+DOMAIN-SUFFIX,bilibilipay.cn
+DOMAIN-SUFFIX,bilibilipay.com
+DOMAIN-SUFFIX,biligame.cn
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,biliplus.com
+DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bilivideo.net
+DOMAIN-SUFFIX,corari.com
+DOMAIN-SUFFIX,dyhgames.com
 DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,hdslb.com.w.kunlunhuf.com
+DOMAIN-SUFFIX,hdslb.com.w.kunlunpi.com
+DOMAIN-SUFFIX,hdslb.net
+DOMAIN-SUFFIX,hdslb.org
 DOMAIN-SUFFIX,im9.com
+DOMAIN-SUFFIX,mcbbs.net
+DOMAIN-SUFFIX,mincdn.com
+DOMAIN-SUFFIX,sharejoytech.com
 DOMAIN-SUFFIX,smtcdns.net
+DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
+DOMAIN-SUFFIX,yo9.com
+IP-CIDR,106.75.74.76/32
+IP-CIDR,111.206.25.147/32
+IP-CIDR,119.29.29.29/32
+IP-CIDR,119.3.238.64/32
+IP-CIDR,120.92.108.182/32
+IP-CIDR,120.92.113.99/32
+IP-CIDR,120.92.153.217/32
+IP-CIDR,128.1.62.200/31
+IP-CIDR,134.175.207.130/32
+IP-CIDR,150.116.92.250/32
+IP-CIDR,164.52.76.18/32
+IP-CIDR,203.107.1.33/32
+IP-CIDR,203.107.1.34/32
+IP-CIDR,203.107.1.65/32
+IP-CIDR,203.107.1.66/32
+IP-CIDR,45.43.32.234/32
 USER-AGENT,*bili*
 # BiliBili 与 AsianMedia 共 13 条规则重复
 DOMAIN-SUFFIX,acg.tv

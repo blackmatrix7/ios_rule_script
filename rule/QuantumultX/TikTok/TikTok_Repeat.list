@@ -1,7 +1,7 @@
 # NAME: TikTok 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:08
+# UPDATED: 2021-01-22 03:19:41
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # TikTok 与 ByteDance 共 2 条规则重复
 HOST-SUFFIX,amemv.com
@@ -15,7 +15,8 @@ HOST-SUFFIX,amemv.com
 HOST-SUFFIX,byteoversea.com
 HOST-SUFFIX,ibytedtos.com
 HOST-SUFFIX,snssdk.com
-# TikTok 与 Proxy 共 8 条规则重复
+# TikTok 与 Proxy 共 9 条规则重复
+HOST,p16-tiktokcdn-com.akamaized.net
 HOST-KEYWORD,-tiktokcdn-com
 HOST-SUFFIX,amemv.com
 HOST-SUFFIX,muscdn.com

@@ -1,7 +1,7 @@
 # NAME: Game 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:11
+# UPDATED: 2021-01-22 03:19:44
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # Game 与 China 共 17 条规则重复
 DOMAIN,blzddist1-a.akamaihd.net
@@ -106,7 +106,9 @@ IP-CIDR,54.248.64.192/32
 DOMAIN-SUFFIX,pvp.net
 DOMAIN-SUFFIX,riotcdn.net
 DOMAIN-SUFFIX,riotgames.com
-# Game 与 Proxy 共 26 条规则重复
+# Game 与 Proxy 共 28 条规则重复
+DOMAIN,blizzard.nefficient.co.kr
+DOMAIN,steambroadcast.akamaized.net
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,blizzard.com
 DOMAIN-SUFFIX,discord.co

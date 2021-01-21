@@ -1,46 +1,13 @@
 # NAME: Google 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:09
+# UPDATED: 2021-01-22 03:19:43
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # Google 与 China 共 1 条规则重复
   - DOMAIN-SUFFIX,google.cn
-# Google 与 ChinaTest 共 34 条规则重复
-  - DOMAIN-SUFFIX,265.com
-  - DOMAIN-SUFFIX,2mdn.net
-  - DOMAIN-SUFFIX,adservice.google.com
-  - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN-SUFFIX,beacons.gcp.gvt2.com
-  - DOMAIN-SUFFIX,beacons.gvt2.com
-  - DOMAIN-SUFFIX,beacons3.gvt2.com
-  - DOMAIN-SUFFIX,c.admob.com
-  - DOMAIN-SUFFIX,c.android.clients.google.com
-  - DOMAIN-SUFFIX,cache.pack.google.com
-  - DOMAIN-SUFFIX,clickserve.dartsearch.net
-  - DOMAIN-SUFFIX,corp.google.com
-  - DOMAIN-SUFFIX,crl.pki.goog
-  - DOMAIN-SUFFIX,dl.google.com
-  - DOMAIN-SUFFIX,dl.l.google.com
-  - DOMAIN-SUFFIX,doubleclick.net
-  - DOMAIN-SUFFIX,google-analytics.com
+# Google 与 ChinaTest 共 1 条规则重复
   - DOMAIN-SUFFIX,google.cn
-  - DOMAIN-SUFFIX,googleadservices.com
-  - DOMAIN-SUFFIX,googleanalytics.com
-  - DOMAIN-SUFFIX,googlesyndication.com
-  - DOMAIN-SUFFIX,googletagmanager.com
-  - DOMAIN-SUFFIX,googletagservices.com
-  - DOMAIN-SUFFIX,gtm.oasisfeng.com
-  - DOMAIN-SUFFIX,ocsp.pki.goog
-  - DOMAIN-SUFFIX,pagead-googlehosted.l.google.com
-  - DOMAIN-SUFFIX,pki-goog.l.google.com
-  - DOMAIN-SUFFIX,recaptcha.net
-  - DOMAIN-SUFFIX,safebrowsing-cache.google.com
-  - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
-  - DOMAIN-SUFFIX,toolbarqueries.google.com
-  - DOMAIN-SUFFIX,tools.google.com
-  - DOMAIN-SUFFIX,tools.l.google.com
-  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com
 # Google 与 YouTube 共 4 条规则重复
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,youtu.be

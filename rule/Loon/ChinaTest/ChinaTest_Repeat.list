@@ -1,11 +1,11 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-21 17:15:08
+# UPDATED: 2021-01-22 03:19:41
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # ChinaTest 与 WhiteList 共 1 条规则重复
 DOMAIN,analytics.strava.com
-# ChinaTest 与 BiliBili 共 20 条规则重复
+# ChinaTest 与 BiliBili 共 19 条规则重复
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,b23.tv
@@ -25,7 +25,6 @@ DOMAIN-SUFFIX,im9.com
 DOMAIN-SUFFIX,mcbbs.net
 DOMAIN-SUFFIX,mincdn.com
 DOMAIN-SUFFIX,smtcdns.net
-DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
 # ChinaTest 与 DiDi 共 13 条规则重复
 DOMAIN-SUFFIX,didi-food.com
 DOMAIN-SUFFIX,didialift.com
@@ -320,15 +319,18 @@ DOMAIN-SUFFIX,zijieimg.com
 DOMAIN-SUFFIX,zjbyte.com
 DOMAIN-SUFFIX,zjcdn.com
 DOMAIN-SUFFIX,zjgslb.com
-# ChinaTest 与 China 共 684 条规则重复
+# ChinaTest 与 China 共 687 条规则重复
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,client.amplifi.com
+DOMAIN,dl.google.com
 DOMAIN,download.jetbrains.com
 DOMAIN,file-igamecj.akamaized.net
+DOMAIN,images-cn.ssl-images-amazon.com
 DOMAIN,ip.istatmenus.app
 DOMAIN,mtalk.google.com
 DOMAIN,officecdn-microsoft-com.akamaized.net
+DOMAIN,safebrowsing.googleapis.com
 DOMAIN,sms.imagetasks.com
 DOMAIN,speedtest.macpaw.com
 DOMAIN,steamcommunity-a.akamaihd.net
@@ -1208,10 +1210,13 @@ DOMAIN-SUFFIX,wnsqzonebk.com
 DOMAIN-SUFFIX,wting.info
 DOMAIN-SUFFIX,xxsy.net
 DOMAIN-SUFFIX,yuewen.com
-# ChinaTest 与 ChinaMedia 共 49 条规则重复
+# ChinaTest 与 ChinaMedia 共 86 条规则重复
+DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,56.com
 DOMAIN-SUFFIX,71.am
 DOMAIN-SUFFIX,71.am.com
+DOMAIN-SUFFIX,71edge.com
+DOMAIN-SUFFIX,9nali.com
 DOMAIN-SUFFIX,acfun.tv
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
@@ -1219,24 +1224,55 @@ DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,b23.tv
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.cc
+DOMAIN-SUFFIX,bilibili.co
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,bilibiligame.net
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biligame.net
 DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,cctv.com
+DOMAIN-SUFFIX,cctvpic.com
+DOMAIN-SUFFIX,chinalive.com
+DOMAIN-SUFFIX,douyu.com
+DOMAIN-SUFFIX,douyu.tv
+DOMAIN-SUFFIX,douyuscdn.com
+DOMAIN-SUFFIX,douyutv.com
+DOMAIN-SUFFIX,gitv.tv
 DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,hdslb.net
 DOMAIN-SUFFIX,hitv.com
 DOMAIN-SUFFIX,hunantv.com
 DOMAIN-SUFFIX,im9.com
+DOMAIN-SUFFIX,ipanda.com
+DOMAIN-SUFFIX,ipanda.net
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,jstucdn.com
 DOMAIN-SUFFIX,koowo.com
 DOMAIN-SUFFIX,kugou.com
+DOMAIN-SUFFIX,le.com
+DOMAIN-SUFFIX,lecloud.com
+DOMAIN-SUFFIX,lemall.com
 DOMAIN-SUFFIX,letv.com
+DOMAIN-SUFFIX,letv8.com
+DOMAIN-SUFFIX,letvcdn.com
+DOMAIN-SUFFIX,letvcloud.com
+DOMAIN-SUFFIX,letvimg.com
+DOMAIN-SUFFIX,livechina.com
+DOMAIN-SUFFIX,mcbbs.net
 DOMAIN-SUFFIX,mgtv.com
 DOMAIN-SUFFIX,miguvideo.com
+DOMAIN-SUFFIX,mincdn.com
+DOMAIN-SUFFIX,pps.tv
+DOMAIN-SUFFIX,ppsimg.com
+DOMAIN-SUFFIX,ppstream.com
+DOMAIN-SUFFIX,ppstream.net
 DOMAIN-SUFFIX,qianqian.com
+DOMAIN-SUFFIX,qingxuetang.com
+DOMAIN-SUFFIX,qiyi.com
+DOMAIN-SUFFIX,qiyipic.com
 DOMAIN-SUFFIX,qy.net
 DOMAIN-SUFFIX,smtcdns.net
 DOMAIN-SUFFIX,sohu.com
@@ -1245,6 +1281,9 @@ DOMAIN-SUFFIX,v-56.com
 DOMAIN-SUFFIX,videojj.com
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
+DOMAIN-SUFFIX,xima.tv
+DOMAIN-SUFFIX,ximalaya.com
+DOMAIN-SUFFIX,xmcdn.com
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,zamplus.com
@@ -1321,7 +1360,10 @@ DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,douyu.tv
 DOMAIN-SUFFIX,douyuscdn.com
 DOMAIN-SUFFIX,douyutv.com
-# ChinaTest 与 Himalaya 共 2 条规则重复
+# ChinaTest 与 Himalaya 共 5 条规则重复
+DOMAIN-SUFFIX,9nali.com
+DOMAIN-SUFFIX,qingxuetang.com
+DOMAIN-SUFFIX,xima.tv
 DOMAIN-SUFFIX,ximalaya.com
 DOMAIN-SUFFIX,xmcdn.com
 # ChinaTest 与 Alibaba 共 257 条规则重复
@@ -2686,12 +2728,6 @@ DOMAIN-SUFFIX,swaqds.com
 DOMAIN-SUFFIX,wifi.com
 DOMAIN-SUFFIX,wifi188.com
 DOMAIN-SUFFIX,wkanx.com
-# ChinaTest 与 XiMaLaYa 共 5 条规则重复
-DOMAIN-SUFFIX,9nali.com
-DOMAIN-SUFFIX,qingxuetang.com
-DOMAIN-SUFFIX,xima.tv
-DOMAIN-SUFFIX,ximalaya.com
-DOMAIN-SUFFIX,xmcdn.com
 # ChinaTest 与 XiamiMusic 共 3 条规则重复
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.fm
@@ -2899,42 +2935,12 @@ DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,xbox.com
 DOMAIN-SUFFIX,xboxlive.com
 USER-AGENT,Microsoft*
-# ChinaTest 与 Google 共 34 条规则重复
-DOMAIN-SUFFIX,265.com
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,adservice.google.com
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,beacons.gcp.gvt2.com
-DOMAIN-SUFFIX,beacons.gvt2.com
-DOMAIN-SUFFIX,beacons3.gvt2.com
-DOMAIN-SUFFIX,c.admob.com
-DOMAIN-SUFFIX,c.android.clients.google.com
-DOMAIN-SUFFIX,cache.pack.google.com
-DOMAIN-SUFFIX,clickserve.dartsearch.net
-DOMAIN-SUFFIX,corp.google.com
-DOMAIN-SUFFIX,crl.pki.goog
-DOMAIN-SUFFIX,dl.google.com
-DOMAIN-SUFFIX,dl.l.google.com
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,google-analytics.com
+# ChinaTest 与 Google 共 1 条规则重复
 DOMAIN-SUFFIX,google.cn
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googleanalytics.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
-DOMAIN-SUFFIX,gtm.oasisfeng.com
-DOMAIN-SUFFIX,ocsp.pki.goog
-DOMAIN-SUFFIX,pagead-googlehosted.l.google.com
-DOMAIN-SUFFIX,pki-goog.l.google.com
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,safebrowsing-cache.google.com
-DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
-DOMAIN-SUFFIX,toolbarqueries.google.com
-DOMAIN-SUFFIX,tools.google.com
-DOMAIN-SUFFIX,tools.l.google.com
-DOMAIN-SUFFIX,www-googletagmanager.l.google.com
-# ChinaTest 与 AdvertisingLite 共 645 条规则重复
+# ChinaTest 与 AdvertisingLite 共 640 条规则重复
+DOMAIN,2mdn.net
+DOMAIN,clientservices.googleapis.com
+DOMAIN,imasdk.googleapis.com
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,0024aaaa.com
 DOMAIN-SUFFIX,002lzj.com
@@ -3043,7 +3049,6 @@ DOMAIN-SUFFIX,ads8.com
 DOMAIN-SUFFIX,adsage.com
 DOMAIN-SUFFIX,adsame.com
 DOMAIN-SUFFIX,adsensor.org
-DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,adsmogo.com
 DOMAIN-SUFFIX,adsmogo.org
 DOMAIN-SUFFIX,adsunflower.com
@@ -3064,7 +3069,6 @@ DOMAIN-SUFFIX,anquan.org
 DOMAIN-SUFFIX,anquanzhuomian.com
 DOMAIN-SUFFIX,anysdk.com
 DOMAIN-SUFFIX,apkdo.com
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appadhoc.com
 DOMAIN-SUFFIX,appcpa.net
 DOMAIN-SUFFIX,appjiagu.com
@@ -3146,7 +3150,6 @@ DOMAIN-SUFFIX,dmqapp.com
 DOMAIN-SUFFIX,dmrtb.com
 DOMAIN-SUFFIX,dmtrck.com
 DOMAIN-SUFFIX,dopa.com
-DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,dsp.com
 DOMAIN-SUFFIX,dsxdn.com
 DOMAIN-SUFFIX,duapp.com
@@ -3188,11 +3191,6 @@ DOMAIN-SUFFIX,ggmm777.com
 DOMAIN-SUFFIX,ggmmqq.com
 DOMAIN-SUFFIX,ggweb.net
 DOMAIN-SUFFIX,ggxt.net
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,goolpter.com
 DOMAIN-SUFFIX,gotooback.com
 DOMAIN-SUFFIX,gouwubang.com
@@ -3580,7 +3578,8 @@ DOMAIN-SUFFIX,zjlanbi.com
 DOMAIN-SUFFIX,zlongad.com
 DOMAIN-SUFFIX,ztvx8.com
 DOMAIN-SUFFIX,zzbyc.xyz
-# ChinaTest 与 Advertising 共 1154 条规则重复
+# ChinaTest 与 Advertising 共 1143 条规则重复
+DOMAIN,clickserve.dartsearch.net
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,0024aaaa.com
 DOMAIN-SUFFIX,002lzj.com
@@ -3631,7 +3630,6 @@ DOMAIN-SUFFIX,258zw.com
 DOMAIN-SUFFIX,25ku.com
 DOMAIN-SUFFIX,2898.com
 DOMAIN-SUFFIX,2f.com
-DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,2pmob.com
 DOMAIN-SUFFIX,2zfzly.com
 DOMAIN-SUFFIX,31365y.com
@@ -3782,7 +3780,6 @@ DOMAIN-SUFFIX,ads8.com
 DOMAIN-SUFFIX,adsage.com
 DOMAIN-SUFFIX,adsame.com
 DOMAIN-SUFFIX,adsensor.org
-DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,adsmogo.com
 DOMAIN-SUFFIX,adsmogo.net
 DOMAIN-SUFFIX,adsmogo.org
@@ -3825,7 +3822,6 @@ DOMAIN-SUFFIX,anysdk.com
 DOMAIN-SUFFIX,aoidf3.com
 DOMAIN-SUFFIX,aomeng.net
 DOMAIN-SUFFIX,apkdo.com
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appadhoc.com
 DOMAIN-SUFFIX,appcpa.net
 DOMAIN-SUFFIX,appjiagu.com
@@ -3896,7 +3892,6 @@ DOMAIN-SUFFIX,chuhanweb.com
 DOMAIN-SUFFIX,ciimg.com
 DOMAIN-SUFFIX,cjmakeding.com
 DOMAIN-SUFFIX,claiks.com
-DOMAIN-SUFFIX,clientservices.googleapis.com
 DOMAIN-SUFFIX,clotfun.mobi
 DOMAIN-SUFFIX,clotfun.online
 DOMAIN-SUFFIX,cm-analysis.com
@@ -3955,7 +3950,6 @@ DOMAIN-SUFFIX,doglobal.net
 DOMAIN-SUFFIX,dongbeisurewin.com
 DOMAIN-SUFFIX,dongmansoft.com
 DOMAIN-SUFFIX,dopa.com
-DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,dratio.com
 DOMAIN-SUFFIX,dreamine.com
 DOMAIN-SUFFIX,dsp.com
@@ -4034,12 +4028,7 @@ DOMAIN-SUFFIX,ggweb.net
 DOMAIN-SUFFIX,ggxt.net
 DOMAIN-SUFFIX,gio.ren
 DOMAIN-SUFFIX,giocdn.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googleadsl.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,goolpter.com
 DOMAIN-SUFFIX,gotonav.com
 DOMAIN-SUFFIX,gotooback.com
@@ -4108,7 +4097,6 @@ DOMAIN-SUFFIX,ildhy.com
 DOMAIN-SUFFIX,ilkwork.com
 DOMAIN-SUFFIX,iloveyouxi.com
 DOMAIN-SUFFIX,imageter.com
-DOMAIN-SUFFIX,imasdk.googleapis.com
 DOMAIN-SUFFIX,imindmap.cc
 DOMAIN-SUFFIX,imtmp.net
 DOMAIN-SUFFIX,inad.com
@@ -4389,7 +4377,6 @@ DOMAIN-SUFFIX,ruxianke.com
 DOMAIN-SUFFIX,s8dj.com
 DOMAIN-SUFFIX,s8x1.com
 DOMAIN-SUFFIX,saf588.com
-DOMAIN-SUFFIX,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,sagetrc.com
 DOMAIN-SUFFIX,scdng.com
 DOMAIN-SUFFIX,sdkclick.com
@@ -4735,7 +4722,7 @@ DOMAIN-SUFFIX,zzbyc.xyz
 DOMAIN-SUFFIX,zzcmjn.com
 DOMAIN-SUFFIX,zzpzero.com
 DOMAIN-SUFFIX,zzyanhushi.com
-# ChinaTest 与 AdvertisingTest 共 1182 条规则重复
+# ChinaTest 与 AdvertisingTest 共 1165 条规则重复
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,0024aaaa.com
 DOMAIN-SUFFIX,002lzj.com
@@ -4789,7 +4776,6 @@ DOMAIN-SUFFIX,258zw.com
 DOMAIN-SUFFIX,25ku.com
 DOMAIN-SUFFIX,2898.com
 DOMAIN-SUFFIX,2f.com
-DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,2pmob.com
 DOMAIN-SUFFIX,2zfzly.com
 DOMAIN-SUFFIX,31365y.com
@@ -4944,7 +4930,6 @@ DOMAIN-SUFFIX,ads8.com
 DOMAIN-SUFFIX,adsage.com
 DOMAIN-SUFFIX,adsame.com
 DOMAIN-SUFFIX,adsensor.org
-DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,adsmogo.com
 DOMAIN-SUFFIX,adsmogo.mobi
 DOMAIN-SUFFIX,adsmogo.net
@@ -4988,7 +4973,6 @@ DOMAIN-SUFFIX,anysdk.com
 DOMAIN-SUFFIX,aoidf3.com
 DOMAIN-SUFFIX,aomeng.net
 DOMAIN-SUFFIX,apkdo.com
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appadhoc.com
 DOMAIN-SUFFIX,appcpa.net
 DOMAIN-SUFFIX,appjiagu.com
@@ -5060,8 +5044,6 @@ DOMAIN-SUFFIX,chuhanweb.com
 DOMAIN-SUFFIX,ciimg.com
 DOMAIN-SUFFIX,cjmakeding.com
 DOMAIN-SUFFIX,claiks.com
-DOMAIN-SUFFIX,clickserve.dartsearch.net
-DOMAIN-SUFFIX,clientservices.googleapis.com
 DOMAIN-SUFFIX,clotfun.mobi
 DOMAIN-SUFFIX,clotfun.online
 DOMAIN-SUFFIX,cm-analysis.com
@@ -5120,7 +5102,6 @@ DOMAIN-SUFFIX,doglobal.net
 DOMAIN-SUFFIX,dongbeisurewin.com
 DOMAIN-SUFFIX,dongmansoft.com
 DOMAIN-SUFFIX,dopa.com
-DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,dratio.com
 DOMAIN-SUFFIX,dreamine.com
 DOMAIN-SUFFIX,dsp.com
@@ -5201,13 +5182,7 @@ DOMAIN-SUFFIX,ggweb.net
 DOMAIN-SUFFIX,ggxt.net
 DOMAIN-SUFFIX,gio.ren
 DOMAIN-SUFFIX,giocdn.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googleadsl.com
-DOMAIN-SUFFIX,googleanalytics.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,goolpter.com
 DOMAIN-SUFFIX,gotoip55.com
 DOMAIN-SUFFIX,gotonav.com
@@ -5280,7 +5255,6 @@ DOMAIN-SUFFIX,ildhy.com
 DOMAIN-SUFFIX,ilkwork.com
 DOMAIN-SUFFIX,iloveyouxi.com
 DOMAIN-SUFFIX,imageter.com
-DOMAIN-SUFFIX,imasdk.googleapis.com
 DOMAIN-SUFFIX,imindmap.cc
 DOMAIN-SUFFIX,imtmp.net
 DOMAIN-SUFFIX,inad.com
@@ -5495,7 +5469,6 @@ DOMAIN-SUFFIX,overturechina.com
 DOMAIN-SUFFIX,ox11.com
 DOMAIN-SUFFIX,oxrm.com
 DOMAIN-SUFFIX,oycslia.xyz
-DOMAIN-SUFFIX,pagead-googlehosted.l.google.com
 DOMAIN-SUFFIX,pagechoice.com
 DOMAIN-SUFFIX,pagechoice.net
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
@@ -5566,7 +5539,6 @@ DOMAIN-SUFFIX,ruxianke.com
 DOMAIN-SUFFIX,s8dj.com
 DOMAIN-SUFFIX,s8x1.com
 DOMAIN-SUFFIX,saf588.com
-DOMAIN-SUFFIX,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,sagetrc.com
 DOMAIN-SUFFIX,scc.ssacdn.com
 DOMAIN-SUFFIX,scdng.com
@@ -5598,7 +5570,6 @@ DOMAIN-SUFFIX,sodhef.com
 DOMAIN-SUFFIX,somecoding.com
 DOMAIN-SUFFIX,soperson.com
 DOMAIN-SUFFIX,souid.com
-DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
 DOMAIN-SUFFIX,sspsky.com
 DOMAIN-SUFFIX,stargame.com
 DOMAIN-SUFFIX,starmobs.com
@@ -5750,7 +5721,6 @@ DOMAIN-SUFFIX,ws.ksmobile.net
 DOMAIN-SUFFIX,wsgblw.com
 DOMAIN-SUFFIX,wumii.com
 DOMAIN-SUFFIX,wuseng.net
-DOMAIN-SUFFIX,www-googletagmanager.l.google.com
 DOMAIN-SUFFIX,wx16999.com
 DOMAIN-SUFFIX,wxbdfm.com
 DOMAIN-SUFFIX,wy213.com
@@ -5975,9 +5945,8 @@ DOMAIN-SUFFIX,yuanchengxiezuo.com
 DOMAIN-SUFFIX,yukhj.com
 DOMAIN-SUFFIX,zbrushcn.com
 DOMAIN-SUFFIX,zhzzx.com
-# ChinaTest 与 Privacy 共 2 条规则重复
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googletagmanager.com
+# ChinaTest 与 Privacy 共 1 条规则重复
+DOMAIN,safebrowsing.googleapis.com
 # ChinaTest 与 Game 共 17 条规则重复
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,steamcommunity-a.akamaihd.net
@@ -6024,9 +5993,8 @@ DOMAIN-SUFFIX,steamusercontent.com
 # ChinaTest 与 Xbox 共 2 条规则重复
 DOMAIN-SUFFIX,xbox.com
 DOMAIN-SUFFIX,xboxlive.com
-# ChinaTest 与 Proxy 共 180 条规则重复
-DOMAIN-SUFFIX,265.com
-DOMAIN-SUFFIX,2mdn.net
+# ChinaTest 与 Proxy 共 170 条规则重复
+DOMAIN,officecdn-microsoft-com.akamaized.net
 DOMAIN-SUFFIX,abercrombie.com
 DOMAIN-SUFFIX,accuweather.com
 DOMAIN-SUFFIX,acg.rip
@@ -6040,7 +6008,6 @@ DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,annualreviews.org
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,api.termius.com
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,avjoy.me
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,bet365.com
@@ -6059,23 +6026,16 @@ DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,culturedcode.com
 DOMAIN-SUFFIX,cz.cc
 DOMAIN-SUFFIX,digicert.com
-DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,dytt8.net
 DOMAIN-SUFFIX,edgekey.net
 DOMAIN-SUFFIX,engineeringvillage.com
 DOMAIN-SUFFIX,firefox.com
 DOMAIN-SUFFIX,ford.com
+DOMAIN-SUFFIX,full
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,gigabyte.com
-DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,google.cn
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googleanalytics.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
-DOMAIN-SUFFIX,gtm.oasisfeng.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,hao123img.com
 DOMAIN-SUFFIX,hdsky.me
@@ -6145,7 +6105,6 @@ DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,pnas.org
 DOMAIN-SUFFIX,proquest.com
 DOMAIN-SUFFIX,quantil.com
-DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,rrys.tv
 DOMAIN-SUFFIX,rrys2019.com
 DOMAIN-SUFFIX,rrys2020.com
@@ -6205,9 +6164,7 @@ DOMAIN-SUFFIX,zmz2019.com
 DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zoho.com
 USER-AGENT,PayPal*
-# ChinaTest 与 Global 共 41 条规则重复
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,app-measurement.com
+# ChinaTest 与 Global 共 38 条规则重复
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bjango.com
 DOMAIN-SUFFIX,conoha.jp
@@ -6235,7 +6192,6 @@ DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.net
 DOMAIN-SUFFIX,playstationnetwork.com
-DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,sciencemag.org
 DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
@@ -6250,11 +6206,9 @@ USER-AGENT,PayPal*
 # ChinaTest 与 GlobalMedia 共 2 条规则重复
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
-# ChinaTest 与 BlackList 共 27 条规则重复
-DOMAIN-SUFFIX,2mdn.net
+# ChinaTest 与 BlackList 共 24 条规则重复
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,api.termius.com
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.net
 DOMAIN-SUFFIX,culturedcode.com
@@ -6270,7 +6224,6 @@ DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,onenote.com
 DOMAIN-SUFFIX,overcast.fm
-DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,sciencemag.org
 DOMAIN-SUFFIX,symcd.com
 DOMAIN-SUFFIX,teamviewer.com
@@ -6366,7 +6319,8 @@ IP-CIDR6,2a0b:b580::/48
 IP-CIDR6,2a0b:b581::/48
 IP-CIDR6,2a0b:b582::/48
 IP-CIDR6,2a0b:b583::/48
-# ChinaTest 与 AsianMedia 共 14 条规则重复
+# ChinaTest 与 AsianMedia 共 15 条规则重复
+DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN-SUFFIX,71.am.com
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com

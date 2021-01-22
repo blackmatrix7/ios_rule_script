@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-22 03:20:08。
+最后检查时间：2021-01-23 03:21:09。
 
 ## 规则统计
 
@@ -48,9 +48,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27950   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/LineTV/LineTV_Repeat.list)   |   0.02% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27967   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/LineTV/LineTV_Repeat.list)   |   0.02% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 1293   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/LineTV/LineTV_Repeat.list)   |   0.31% |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 1150   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/LineTV/LineTV_Repeat.list)   |   0.17% |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 1138   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/LineTV/LineTV_Repeat.list)   |   0.18% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 771   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/LineTV/LineTV_Repeat.list)   |   0.26% |
 |  [Line](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Line)    | 22   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/LineTV/LineTV_Repeat.list)   |   9.09% |
 ### 特别说明

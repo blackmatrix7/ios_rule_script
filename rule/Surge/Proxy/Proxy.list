@@ -1,17 +1,17 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-22 03:19:31
+# UPDATED: 2021-01-23 03:20:33
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-SUFFIX: 27709
 # USER-AGENT: 49
 # DOMAIN: 36
 # DOMAIN-KEYWORD: 42
-# IP-CIDR: 110
+# IP-CIDR: 127
 # IP-CIDR6: 3
 # PROCESS-NAME: 1
 # URL-REGEX: 1
-# TOTAL: 27951
+# TOTAL: 27968
 DOMAIN-KEYWORD,-spotify-com
 DOMAIN-KEYWORD,-tiktokcdn-com
 DOMAIN-KEYWORD,.blogspot.
@@ -71,6 +71,12 @@ IP-CIDR,119.235.224.0/21,no-resolve
 IP-CIDR,119.235.232.0/23,no-resolve
 IP-CIDR,119.235.235.0/24,no-resolve
 IP-CIDR,119.235.236.0/23,no-resolve
+IP-CIDR,120.232.181.162/32,no-resolve
+IP-CIDR,120.241.147.226/32,no-resolve
+IP-CIDR,120.253.253.226/32,no-resolve
+IP-CIDR,120.253.255.162/32,no-resolve
+IP-CIDR,120.253.255.34/32,no-resolve
+IP-CIDR,120.253.255.98/32,no-resolve
 IP-CIDR,125.209.208.0/20,no-resolve
 IP-CIDR,125.6.146.0/24,no-resolve
 IP-CIDR,125.6.149.0/24,no-resolve
@@ -99,6 +105,10 @@ IP-CIDR,18.184.0.0/15,no-resolve
 IP-CIDR,18.194.0.0/15,no-resolve
 IP-CIDR,18.208.0.0/13,no-resolve
 IP-CIDR,18.232.0.0/14,no-resolve
+IP-CIDR,180.163.150.162/32,no-resolve
+IP-CIDR,180.163.150.34/32,no-resolve
+IP-CIDR,180.163.151.162/32,no-resolve
+IP-CIDR,180.163.151.34/32,no-resolve
 IP-CIDR,184.173.128.0/17,no-resolve
 IP-CIDR,185.15.56.0/22,no-resolve
 IP-CIDR,185.60.216.0/22,no-resolve
@@ -115,6 +125,10 @@ IP-CIDR,203.104.103.0/24,no-resolve
 IP-CIDR,203.104.128.0/19,no-resolve
 IP-CIDR,203.174.66.64/26,no-resolve
 IP-CIDR,203.174.77.0/24,no-resolve
+IP-CIDR,203.208.39.0/24,no-resolve
+IP-CIDR,203.208.40.0/23,no-resolve
+IP-CIDR,203.208.43.0/24,no-resolve
+IP-CIDR,203.208.50.0/24,no-resolve
 IP-CIDR,204.15.20.0/22,no-resolve
 IP-CIDR,208.43.0.0/16,no-resolve
 IP-CIDR,208.80.152.0/22,no-resolve
@@ -122,6 +136,9 @@ IP-CIDR,209.237.192.0/19,no-resolve
 IP-CIDR,209.85.128.0/17,no-resolve
 IP-CIDR,216.239.32.0/19,no-resolve
 IP-CIDR,216.58.192.0/19,no-resolve
+IP-CIDR,220.181.174.162/32,no-resolve
+IP-CIDR,220.181.174.226/32,no-resolve
+IP-CIDR,220.181.174.34/32,no-resolve
 IP-CIDR,23.246.0.0/18,no-resolve
 IP-CIDR,27.0.236.0/22,no-resolve
 IP-CIDR,3.123.36.126/32,no-resolve

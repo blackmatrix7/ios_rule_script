@@ -1,12 +1,12 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-22 03:19:36
-# DOMAIN-SUFFIX: 195
-# DOMAIN-KEYWORD: 19
+# UPDATED: 2021-01-23 03:20:38
+# DOMAIN-SUFFIX: 182
+# DOMAIN-KEYWORD: 20
 # DOMAIN: 31
 # IP-CIDR: 847
-# TOTAL: 1092
+# TOTAL: 1080
 payload:
   - DOMAIN,apple.comscoreresearch.com
   - DOMAIN,atv-ps.amazon.com
@@ -50,7 +50,6 @@ payload:
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,amazonvideo.com
   - DOMAIN-SUFFIX,ameba.jp
-  - DOMAIN-SUFFIX,amplify.outbrain.com
   - DOMAIN-SUFFIX,api.segment.io
   - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,bahamut.com.tw
@@ -62,26 +61,20 @@ payload:
   - DOMAIN-SUFFIX,bbci.co
   - DOMAIN-SUFFIX,bbci.co.uk
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
-  - DOMAIN-SUFFIX,bluekai.com
   - DOMAIN-SUFFIX,boltdns.net
   - DOMAIN-SUFFIX,bootstrapcdn.com
   - DOMAIN-SUFFIX,braze.com
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,c4assets.com
-  - DOMAIN-SUFFIX,cdn.cookielaw.org
   - DOMAIN-SUFFIX,cdn.optimizely.com
   - DOMAIN-SUFFIX,channel4.com
   - DOMAIN-SUFFIX,channel5.com
   - DOMAIN-SUFFIX,cloudfront.net
-  - DOMAIN-SUFFIX,control.kochava.com
   - DOMAIN-SUFFIX,conviva.com
   - DOMAIN-SUFFIX,d9.flashtalking.com
   - DOMAIN-SUFFIX,dazn-api.com
   - DOMAIN-SUFFIX,dazn.com
   - DOMAIN-SUFFIX,dazndn.com
-  - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net
-  - DOMAIN-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net
-  - DOMAIN-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net
   - DOMAIN-SUFFIX,deezer.com
   - DOMAIN-SUFFIX,disney-plus.net
   - DOMAIN-SUFFIX,disney-portal.my.onetrust.com
@@ -91,7 +84,6 @@ payload:
   - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
   - DOMAIN-SUFFIX,disneystreaming.com
   - DOMAIN-SUFFIX,dmc.nico
-  - DOMAIN-SUFFIX,docomo.ne.jp
   - DOMAIN-SUFFIX,dssott.com
   - DOMAIN-SUFFIX,dzcdn.net
   - DOMAIN-SUFFIX,edgedatg.com
@@ -187,7 +179,6 @@ payload:
   - DOMAIN-SUFFIX,p-cdn.us
   - DOMAIN-SUFFIX,pandora.com
   - DOMAIN-SUFFIX,pbs.org
-  - DOMAIN-SUFFIX,perfops.doracdn.com
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,pornhub.com
@@ -197,8 +188,6 @@ payload:
   - DOMAIN-SUFFIX,profile.line-scdn.net
   - DOMAIN-SUFFIX,pscdn.co
   - DOMAIN-SUFFIX,qobuz.com
-  - DOMAIN-SUFFIX,rest.zuora.com
-  - DOMAIN-SUFFIX,s.yimg.jp
   - DOMAIN-SUFFIX,scdn.co
   - DOMAIN-SUFFIX,segment.com
   - DOMAIN-SUFFIX,sentry.io
@@ -227,8 +216,6 @@ payload:
   - DOMAIN-SUFFIX,urlload.net
   - DOMAIN-SUFFIX,viu.com
   - DOMAIN-SUFFIX,viu.tv
-  - DOMAIN-SUFFIX,vjs.zencdn.net
-  - DOMAIN-SUFFIX,yahoo.co.jp
   - DOMAIN-SUFFIX,yb.uncn.jp
   - DOMAIN-SUFFIX,youboranqs01.com
   - DOMAIN-SUFFIX,youtu.be
@@ -245,6 +232,7 @@ payload:
   - DOMAIN-KEYWORD,japonx
   - DOMAIN-KEYWORD,japronx
   - DOMAIN-KEYWORD,jooxweb-api
+  - DOMAIN-KEYWORD,livedazn
   - DOMAIN-KEYWORD,nflx
   - DOMAIN-KEYWORD,nowtv100
   - DOMAIN-KEYWORD,rthklive

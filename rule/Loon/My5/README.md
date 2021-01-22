@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-22 03:20:08。
+最后检查时间：2021-01-23 03:21:09。
 
 ## 规则统计
 
@@ -48,9 +48,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27950   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/My5/My5_Repeat.list)   |   0.01% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27967   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/My5/My5_Repeat.list)   |   0.01% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 1293   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/My5/My5_Repeat.list)   |   0.23% |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 1150   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/My5/My5_Repeat.list)   |   0.26% |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 1138   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/My5/My5_Repeat.list)   |   0.26% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

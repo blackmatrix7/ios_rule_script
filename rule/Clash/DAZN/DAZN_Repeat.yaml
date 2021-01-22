@@ -1,7 +1,7 @@
 # NAME: DAZN 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-22 03:19:43
+# UPDATED: 2021-01-23 03:20:45
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # DAZN 与 Advertising 共 1 条规则重复
@@ -21,17 +21,12 @@ payload:
   - DOMAIN-KEYWORD,voddazn
   - DOMAIN-SUFFIX,dazn-api.com
   - DOMAIN-SUFFIX,dazn.com
-# DAZN 与 GlobalMedia 共 13 条规则重复
+# DAZN 与 GlobalMedia 共 8 条规则重复
   - DOMAIN-KEYWORD,voddazn
-  - DOMAIN-SUFFIX,control.kochava.com
   - DOMAIN-SUFFIX,dazn-api.com
   - DOMAIN-SUFFIX,dazn.com
   - DOMAIN-SUFFIX,dazndn.com
-  - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net
-  - DOMAIN-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net
-  - DOMAIN-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net
   - DOMAIN-SUFFIX,indazn.com
   - DOMAIN-SUFFIX,indaznlab.com
   - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,s.yimg.jp
   - DOMAIN-SUFFIX,sentry.io

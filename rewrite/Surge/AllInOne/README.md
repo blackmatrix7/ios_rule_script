@@ -9,20 +9,20 @@
 **汇总Advertising复写去广告、AdvertisingScript通过脚本去除广告、Redirect重定向复写。QuantumultX需要添加部分分流规则才能生效，具体配置请参照数据源说明。复写汇总内容，需要自行确认安全性。**
 
 
-最后检查时间：2021-01-23 03:21:36。
+最后检查时间：2021-01-24 03:18:47。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 545 |
+| mitm | 548 |
 | DOMAIN-SUFFIX | 1 |
 | URL-REGEX | 6 |
 | DOMAIN | 4 |
 | DOMAIN-KEYWORD | 1 |
 | IP-CIDR | 1 |
 | USER-AGENT | 1 |
-| reject | 795 |
+| reject | 798 |
 | http-response | 21 |
 | redirect | 1 |
 ## 配置说明

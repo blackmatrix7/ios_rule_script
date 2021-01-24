@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-24 03:18:16。
+最后检查时间：2021-01-25 03:18:59。
 
 ## 规则统计
 
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 688   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/58TongCheng/58TongCheng_Repeat.list)   |   0.15% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71706   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/58TongCheng/58TongCheng_Repeat.list)   |   0.03% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71666   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/58TongCheng/58TongCheng_Repeat.list)   |   0.03% |
 |  [Anjuke](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Anjuke)    | 8   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/58TongCheng/58TongCheng_Repeat.list)   |   25.0% |
 |  [SouFang](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SouFang)    | 11   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/58TongCheng/58TongCheng_Repeat.list)   |   18.18% |
 |  [ZhuanZhuan](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ZhuanZhuan)    | 4   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/58TongCheng/58TongCheng_Repeat.list)   |   100.0% |

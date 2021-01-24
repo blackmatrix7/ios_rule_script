@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-24 03:18:22。
+最后检查时间：2021-01-25 03:19:05。
 
 ## 规则统计
 
@@ -46,8 +46,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 56381   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYTimes/NYTimes_Repeat.list)   |   0.01% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 74004   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYTimes/NYTimes_Repeat.list)   |   0.0% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 55301   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYTimes/NYTimes_Repeat.list)   |   0.01% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 73345   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYTimes/NYTimes_Repeat.list)   |   0.0% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27967   | [11](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYTimes/NYTimes_Repeat.list)   |   0.04% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 1293   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYTimes/NYTimes_Repeat.list)   |   0.62% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 771   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYTimes/NYTimes_Repeat.list)   |   0.52% |

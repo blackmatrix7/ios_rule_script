@@ -1,7 +1,7 @@
 # NAME: BiliBili 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-25 03:18:38
+# UPDATED: 2021-01-26 03:19:54
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 # BiliBili 与 China 共 7 条规则重复
 HOST-SUFFIX,acgvideo.com
@@ -33,7 +33,7 @@ HOST-SUFFIX,mincdn.com
 HOST-SUFFIX,smtcdns.net
 # BiliBili 与 Tencent 共 1 条规则重复
 HOST-SUFFIX,smtcdns.net
-# BiliBili 与 ChinaMedia 共 60 条规则重复
+# BiliBili 与 ChinaMedia 共 62 条规则重复
 HOST-SUFFIX,acg.tv
 HOST-SUFFIX,acgvideo.com
 HOST-SUFFIX,b23.tv
@@ -94,6 +94,8 @@ IP-CIDR,203.107.1.65/32
 IP-CIDR,203.107.1.66/32
 IP-CIDR,45.43.32.234/32
 USER-AGENT,*bili*
+USER-AGENT,Bilibili*
+USER-AGENT,bili*
 # BiliBili 与 AsianMedia 共 13 条规则重复
 HOST-SUFFIX,acg.tv
 HOST-SUFFIX,acgvideo.com

@@ -1,11 +1,11 @@
 # NAME: BiliBili
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-25 03:18:30
-# USER-AGENT: 1
+# UPDATED: 2021-01-26 03:19:47
+# USER-AGENT: 3
 # HOST-SUFFIX: 43
 # IP-CIDR: 16
-# TOTAL: 60
+# TOTAL: 62
 HOST-SUFFIX,acg.tv,BiliBili
 HOST-SUFFIX,acgvideo.com,BiliBili
 HOST-SUFFIX,b23.tv,BiliBili
@@ -50,6 +50,8 @@ HOST-SUFFIX,upos-hz-mirrorakam.akamaized.net,BiliBili
 HOST-SUFFIX,uposdash-302-bilivideo.yfcdn.net,BiliBili
 HOST-SUFFIX,yo9.com,BiliBili
 USER-AGENT,*bili*,BiliBili
+USER-AGENT,Bilibili*,BiliBili
+USER-AGENT,bili*,BiliBili
 IP-CIDR,106.75.74.76/32,BiliBili
 IP-CIDR,111.206.25.147/32,BiliBili
 IP-CIDR,119.29.29.29/32,BiliBili

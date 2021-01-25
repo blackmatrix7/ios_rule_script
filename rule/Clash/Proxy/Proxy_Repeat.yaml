@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-25 03:18:41
+# UPDATED: 2021-01-26 03:19:57
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # Proxy 与 Sina 共 1 条规则重复
@@ -634,7 +634,7 @@ payload:
 # Proxy 与 GoogleDrive 共 2 条规则重复
   - DOMAIN-SUFFIX,googledrive.com
   - DOMAIN-SUFFIX,googleusercontent.com
-# Proxy 与 AdvertisingLite 共 59 条规则重复
+# Proxy 与 AdvertisingLite 共 60 条规则重复
   - DOMAIN-SUFFIX,2o7.net
   - DOMAIN-SUFFIX,adbecrsl.com
   - DOMAIN-SUFFIX,addthis.com
@@ -666,6 +666,7 @@ payload:
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,guangming.org
   - DOMAIN-SUFFIX,javhd.com
+  - DOMAIN-SUFFIX,jimdo.com
   - DOMAIN-SUFFIX,jwpltx.com
   - DOMAIN-SUFFIX,localnetwork.uop
   - DOMAIN-SUFFIX,marketo.com
@@ -694,7 +695,7 @@ payload:
   - DOMAIN-SUFFIX,zhengjian.org
   - DOMAIN-SUFFIX,zhengwunet.org
   - DOMAIN-SUFFIX,zhuichaguoji.org
-# Proxy 与 Advertising 共 166 条规则重复
+# Proxy 与 Advertising 共 168 条规则重复
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,100tjs.com
   - DOMAIN-SUFFIX,24smile.org
@@ -763,6 +764,7 @@ payload:
   - DOMAIN-SUFFIX,flirt4free.com
   - DOMAIN-SUFFIX,flurry.com
   - DOMAIN-SUFFIX,freeproxy.ro
+  - DOMAIN-SUFFIX,game3737.com
   - DOMAIN-SUFFIX,geni.us
   - DOMAIN-SUFFIX,getiton.com
   - DOMAIN-SUFFIX,gohappy.com.tw
@@ -778,6 +780,7 @@ payload:
   - DOMAIN-SUFFIX,incloak.com
   - DOMAIN-SUFFIX,internetdefenseleague.org
   - DOMAIN-SUFFIX,javhd.com
+  - DOMAIN-SUFFIX,jimdo.com
   - DOMAIN-SUFFIX,joyourself.com
   - DOMAIN-SUFFIX,jwpcdn.com
   - DOMAIN-SUFFIX,jwpltx.com
@@ -861,7 +864,7 @@ payload:
   - DOMAIN-SUFFIX,zhengjian.org
   - DOMAIN-SUFFIX,zhengwunet.org
   - DOMAIN-SUFFIX,zhuichaguoji.org
-# Proxy 与 AdvertisingTest 共 201 条规则重复
+# Proxy 与 AdvertisingTest 共 203 条规则重复
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,100tjs.com
   - DOMAIN-SUFFIX,101com.com
@@ -942,6 +945,7 @@ payload:
   - DOMAIN-SUFFIX,flurry.com
   - DOMAIN-SUFFIX,freeproxy.ro
   - DOMAIN-SUFFIX,fullstory.com
+  - DOMAIN-SUFFIX,game3737.com
   - DOMAIN-SUFFIX,geni.us
   - DOMAIN-SUFFIX,get-express-vpn.com
   - DOMAIN-SUFFIX,getiton.com
@@ -963,6 +967,7 @@ payload:
   - DOMAIN-SUFFIX,internetdefenseleague.org
   - DOMAIN-SUFFIX,iplogger.org
   - DOMAIN-SUFFIX,javhd.com
+  - DOMAIN-SUFFIX,jimdo.com
   - DOMAIN-SUFFIX,joyourself.com
   - DOMAIN-SUFFIX,jwpcdn.com
   - DOMAIN-SUFFIX,jwpltx.com

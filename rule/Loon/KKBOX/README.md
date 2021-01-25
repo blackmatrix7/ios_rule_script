@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-25 03:19:05。
+最后检查时间：2021-01-26 03:20:17。
 
 ## 规则统计
 
@@ -46,7 +46,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 27967   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/KKBOX/KKBOX_Repeat.list)   |   0.02% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 28063   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/KKBOX/KKBOX_Repeat.list)   |   0.02% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 1293   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/KKBOX/KKBOX_Repeat.list)   |   0.39% |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 1138   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/KKBOX/KKBOX_Repeat.list)   |   0.44% |
 ### 特别说明

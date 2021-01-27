@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-27 16:25:01。
+最后检查时间：2021-01-28 00:57:36。
 
 ## 规则统计
 
@@ -50,8 +50,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 |  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71610   | [66](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/360/360_Repeat.list)   |   0.09% |
 |  [Qihoo360](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Qihoo360)    | 50   | [40](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/360/360_Repeat.list)   |   80.0% |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 27339   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/360/360_Repeat.list)   |   0.01% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 59402   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/360/360_Repeat.list)   |   0.01% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 76197   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/360/360_Repeat.list)   |   0.01% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 59401   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/360/360_Repeat.list)   |   0.01% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest)    | 76196   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/360/360_Repeat.list)   |   0.01% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

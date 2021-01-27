@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-27 02:56:01。
+最后检查时间：2021-01-27 16:25:13。
 
 ## 规则统计
 
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 656   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiamiMusic/XiamiMusic_Repeat.list)   |   0.3% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 71632   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiamiMusic/XiamiMusic_Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 71578   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiamiMusic/XiamiMusic_Repeat.list)   |   0.0% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 264   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiamiMusic/XiamiMusic_Repeat.list)   |   0.76% |
 |  [Alibaba](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Alibaba)    | 1222   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiamiMusic/XiamiMusic_Repeat.list)   |   0.16% |
 ### 特别说明

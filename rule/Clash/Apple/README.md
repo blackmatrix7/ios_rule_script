@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-28 00:57:49。
+最后检查时间：2021-01-28 03:04:13。
 
 ## 规则统计
 
@@ -44,23 +44,23 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 - AppleNews
 
-- FitnessPlus
+- AppStore
+
+- AppleMusic
 
 - iCloud
 
-- AppleMail
-
-- AppleTV
+- FitnessPlus
 
 - Siri
-
-- AppleMusic
 
 - TestFlight
 
 - AppleBlock
 
-- AppStore
+- AppleTV
+
+- AppleMail
 
 除非特殊需求，否则不建议重复引用。
 

@@ -1,12 +1,11 @@
 # NAME: Lan
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-28 23:16:58
+# UPDATED: 2021-01-29 00:51:24
 # HOST-SUFFIX: 15
 # IP-CIDR: 7
-# IP6-CIDR: 3
 # HOST: 1
-# TOTAL: 26
+# TOTAL: 23
 HOST,router.asus.com,Lan
 HOST-SUFFIX,acl4.ssr,Lan
 HOST-SUFFIX,hiwifi.com,Lan
@@ -30,6 +29,3 @@ IP-CIDR,17.0.0.0/8,Lan
 IP-CIDR,172.16.0.0/12,Lan
 IP-CIDR,192.168.0.0/16,Lan
 IP-CIDR,198.18.0.0/16,Lan
-IP6-CIDR,::1/128,Lan
-IP6-CIDR,fc00::/7,Lan
-IP6-CIDR,fe80::/10,Lan

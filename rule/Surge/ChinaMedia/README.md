@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-29 00:51:36。
+最后检查时间：2021-01-29 02:58:17。
 
 ## 规则统计
 
@@ -44,21 +44,21 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 - Himalaya
 
-- TencentVideo
-
-- Youku
-
-- CCTV
+- NetEaseMusic
 
 - iQIYI
-
-- NetEaseMusic
 
 - BiliBili
 
 - LeTV
 
+- Youku
+
 - Douyu
+
+- TencentVideo
+
+- CCTV
 
 除非特殊需求，否则不建议重复引用。
 

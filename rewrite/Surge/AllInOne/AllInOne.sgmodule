@@ -1,8 +1,8 @@
 #!name=复写汇总
-#!desc=最后更新时间 2021-01-28 03:04:35
+#!desc=最后更新时间 2021-01-28 23:17:55
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=799
+#!rewrite=797
 #!script=21
 #!mitm=548
 
@@ -52,7 +52,6 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/(api|www)\.zhihu\.com\/.*?(featured-comment-ad|recommendations|community-ad) - reject
 ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
 ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) - reject
-^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/[\w\/.-]+\.jpg_(9\d{2}|\d{4}) - reject
 ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_9\d{2} - reject
 ^https?:\/\/(iyes|(api|hd)\.mobile)\.youku\.com\/(adv|common\/v3\/hudong\/new) - reject
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
@@ -123,7 +122,6 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/a\.applovin\.com\/.+?\/ad - reject
 ^https?:\/\/a\.applovin\.com\/3\.0\/ad - reject
 ^https?:\/\/aarkissltrial\.secure2\.footprint\.net\/v1\/ads - reject
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.exposure\.get\/ - reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ - reject
 ^https?:\/\/ad\.api\.3g\.youku\.com - reject
 ^https?:\/\/ad\.api\.moji\.com\/ad\/log\/stat - reject

@@ -10,7 +10,7 @@
 
 白名单分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。程序已默认根据正则推导一份MITM的模块/复写/插件在当前分流规则的目录中，便于参考搭配使用。
 
-最后检查时间：2021-01-28 03:04:00。
+最后检查时间：2021-01-28 23:17:22。
 
 ## 规则统计
 
@@ -53,9 +53,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 688   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WhiteList/WhiteList_Repeat.list)   |   0.15% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71610   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WhiteList/WhiteList_Repeat.list)   |   0.0% |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 27339   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WhiteList/WhiteList_Repeat.list)   |   0.0% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 59401   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WhiteList/WhiteList_Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71589   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WhiteList/WhiteList_Repeat.list)   |   0.0% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 27169   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WhiteList/WhiteList_Repeat.list)   |   0.0% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 59020   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WhiteList/WhiteList_Repeat.list)   |   0.0% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

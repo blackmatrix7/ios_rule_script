@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-28 03:04:12。
+最后检查时间：2021-01-28 23:17:32。
 
 ## 规则统计
 
@@ -46,10 +46,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 71578   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UC/UC_Repeat.list)   |   0.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 71557   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UC/UC_Repeat.list)   |   0.01% |
 |  [Alibaba](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Alibaba)    | 1222   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UC/UC_Repeat.list)   |   0.08% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 59091   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UC/UC_Repeat.list)   |   0.04% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 75886   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UC/UC_Repeat.list)   |   0.03% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 58710   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UC/UC_Repeat.list)   |   0.04% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 75845   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UC/UC_Repeat.list)   |   0.03% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

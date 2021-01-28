@@ -1,8 +1,8 @@
 #!name=复写去广告
-#!desc=最后更新时间 2021-01-28 03:04:35
+#!desc=最后更新时间 2021-01-28 23:17:55
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=793
+#!rewrite=791
 #!script=0
 #!mitm=553
 
@@ -35,7 +35,6 @@
 ^https?:\/\/(api|promo)\.xueqiu\.com\/promotion\/(display_cache|display_ad|feed_display|search_ad) - reject
 ^https?:\/\/(e|m).+/((uu|oo).php.+|\d+.x?html\?$) - reject
 ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) - reject
-^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/[\w\/.-]+\.jpg_(9\d{2}|\d{4}) - reject
 ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_9\d{2} - reject
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
 ^https?:\/\/.+/videos/other/.+ - reject
@@ -98,7 +97,6 @@
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv - reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit\/ - reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/ - reject
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.exposure\.get\/ - reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/ - reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/ - reject
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
@@ -370,7 +368,6 @@
 ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ - reject
 ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
 ^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite - reject
-^https?:\/\/prom\.mobile\.gome\.com\.cn\/mobile\/promotion\/promscms\/sale\w+\.jsp - reject
 ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
 ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
 ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) - reject
@@ -718,6 +715,7 @@
 ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/photocdn\.sohu\.com\/tvmobilemvms data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/player\.hoge\.cn\/advertisement\.swf data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
+^https?:\/\/prom\.mobile\.gome\.com\.cn\/mobile\/promotion\/promscms\/sale\w+\.jsp data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/qidian\.qpic\.cn\/qidian_common data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/qzonestyle\.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v2\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"

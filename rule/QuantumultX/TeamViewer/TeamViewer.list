@@ -1,13 +1,18 @@
 # NAME: TeamViewer
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-29 02:58:04
+# UPDATED: 2021-01-29 23:48:39
 # HOST-SUFFIX: 1
 # IP-CIDR: 5
-# TOTAL: 6
+# IP6-CIDR: 4
+# TOTAL: 10
 HOST-SUFFIX,teamviewer.com,TeamViewer
 IP-CIDR,109.239.140.0/24,TeamViewer
 IP-CIDR,139.220.243.27/32,TeamViewer
 IP-CIDR,172.16.102.56/32,TeamViewer
 IP-CIDR,185.188.32.1/28,TeamViewer
 IP-CIDR,221.226.128.146/32,TeamViewer
+IP6-CIDR,2a0b:b580::/48,TeamViewer
+IP6-CIDR,2a0b:b581::/48,TeamViewer
+IP6-CIDR,2a0b:b582::/48,TeamViewer
+IP6-CIDR,2a0b:b583::/48,TeamViewer

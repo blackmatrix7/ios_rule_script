@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-29 02:58:14
+# UPDATED: 2021-01-29 23:48:47
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # AdvertisingLite 与 WhiteList 共 1 条规则重复
@@ -27,9 +27,8 @@ payload:
   - DOMAIN-SUFFIX,umeng.com
   - DOMAIN-SUFFIX,umengcloud.com
   - DOMAIN-SUFFIX,xdrig.com
-# AdvertisingLite 与 ChinaTest 共 638 条规则重复
+# AdvertisingLite 与 ChinaTest 共 637 条规则重复
   - DOMAIN,2mdn.net
-  - DOMAIN,clientservices.googleapis.com
   - DOMAIN,imasdk.googleapis.com
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,0024aaaa.com
@@ -753,7 +752,7 @@ payload:
   - DOMAIN-SUFFIX,googlesyndication.com
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googletagservices.com
-# AdvertisingLite 与 Advertising 共 15790 条规则重复
+# AdvertisingLite 与 Advertising 共 15784 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0koryu0.easter.ne.jp
   - DOMAIN,0nso0tq1sa4.ml
@@ -769,7 +768,6 @@ payload:
   - DOMAIN,21b507a044d841b.com
   - DOMAIN,22a12efe35e3c2f.com
   - DOMAIN,247teencash.net
-  - DOMAIN,2amsports.com
   - DOMAIN,2xbpub.com
   - DOMAIN,3.up.qingdaonews.com
   - DOMAIN,31a5610ce3a8a2.com
@@ -837,7 +835,6 @@ payload:
   - DOMAIN,adv-ads.variflight.com
   - DOMAIN,adv.ettoday.net
   - DOMAIN,adv.riza.it
-  - DOMAIN,advancetec.co.uk
   - DOMAIN,adverigo.com
   - DOMAIN,advmania.com
   - DOMAIN,adxmarket.com
@@ -957,7 +954,6 @@ payload:
   - DOMAIN,clickz.lonelycheatingwives.com
   - DOMAIN,clkcln.com
   - DOMAIN,clkfeed.com
-  - DOMAIN,clkmon.com
   - DOMAIN,clkpback3.com
   - DOMAIN,cloudsrvtrk.com
   - DOMAIN,cm.lianmeng.360.cn
@@ -1347,7 +1343,6 @@ payload:
   - DOMAIN,photoscape.ch
   - DOMAIN,piwik.pro
   - DOMAIN,pix360.co.nf
-  - DOMAIN,pixellitomedia.com
   - DOMAIN,pixroute.com
   - DOMAIN,plengeh.wen.ru
   - DOMAIN,plsdrct2.me
@@ -1468,8 +1463,6 @@ payload:
   - DOMAIN,spekband.com
   - DOMAIN,sqm.df.telemetry.microsoft.com
   - DOMAIN,sqm.telemetry.microsoft.com
-  - DOMAIN,srv2trking.com
-  - DOMAIN,srvpub.com
   - DOMAIN,ssa.1337x.to
   - DOMAIN,sspicy.ru
   - DOMAIN,stat.lianmeng.360.cn
@@ -16544,7 +16537,7 @@ payload:
   - IP-CIDR,69.28.57.245/32
   - IP-CIDR,74.117.182.77/32
   - IP-CIDR,78.140.131.214/32
-# AdvertisingLite 与 AdvertisingTest 共 15492 条规则重复
+# AdvertisingLite 与 AdvertisingTest 共 15490 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0koryu0.easter.ne.jp
   - DOMAIN,0nso0tq1sa4.ml
@@ -16557,7 +16550,6 @@ payload:
   - DOMAIN,2.up.qingdaonews.com
   - DOMAIN,21b507a044d841b.com
   - DOMAIN,22a12efe35e3c2f.com
-  - DOMAIN,2amsports.com
   - DOMAIN,2xbpub.com
   - DOMAIN,3.up.qingdaonews.com
   - DOMAIN,31ab9d66427a22.com
@@ -16608,7 +16600,6 @@ payload:
   - DOMAIN,adv-adlog.variflight.com
   - DOMAIN,adv-ads.variflight.com
   - DOMAIN,adv.riza.it
-  - DOMAIN,advancetec.co.uk
   - DOMAIN,adverigo.com
   - DOMAIN,afa15.com.ne.kr
   - DOMAIN,agsteier.com

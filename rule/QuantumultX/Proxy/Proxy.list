@@ -1,13 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-29 02:58:04
+# UPDATED: 2021-01-29 23:48:39
 # HOST-SUFFIX: 27817
 # USER-AGENT: 49
 # HOST: 36
 # HOST-KEYWORD: 42
 # IP-CIDR: 127
-# TOTAL: 28071
+# IP6-CIDR: 3
+# TOTAL: 28074
 HOST,amp.akamaized.net,Proxy
 HOST,apple.com.akadns.net,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -28079,3 +28080,6 @@ IP-CIDR,74.86.0.0/16,Proxy
 IP-CIDR,75.126.0.0/16,Proxy
 IP-CIDR,91.108.0.0/16,Proxy
 IP-CIDR,91.198.174.0/24,Proxy
+IP6-CIDR,2001:67c:4e8::/48,Proxy
+IP6-CIDR,2001:b28:f23d::/48,Proxy
+IP6-CIDR,2001:b28:f23f::/48,Proxy

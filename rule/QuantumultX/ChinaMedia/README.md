@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-29 23:48:56。
+最后检查时间：2021-01-30 02:58:58。
 
 ## 规则统计
 
@@ -44,21 +44,21 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 - Himalaya
 
-- TencentVideo
-
-- Douyu
-
-- CCTV
-
-- LeTV
+- iQIYI
 
 - Youku
 
-- iQIYI
+- NetEaseMusic
+
+- LeTV
+
+- CCTV
+
+- Douyu
 
 - BiliBili
 
-- NetEaseMusic
+- TencentVideo
 
 除非特殊需求，否则不建议重复引用。
 

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-01-29 23:49:20。
+最后检查时间：2021-01-30 02:59:30。
 
 ## 规则统计
 
@@ -47,21 +47,21 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 
 - AppleBlock
 
-- Siri
-
-- TestFlight
-
-- AppleTV
+- AppleMusic
 
 - AppleMail
 
-- FitnessPlus
-
 - AppStore
 
-- AppleMusic
+- AppleTV
+
+- Siri
+
+- FitnessPlus
 
 - iCloud
+
+- TestFlight
 
 除非特殊需求，否则不建议重复引用。
 

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-01 02:54:52。
+最后检查时间：2021-02-01 10:22:42。
 
 ## 规则统计
 
@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 | ---- | ---- | ---- | ------ |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 28138   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/SoundCloud/SoundCloud_Repeat.list)   |   0.01% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 1292   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/SoundCloud/SoundCloud_Repeat.list)   |   0.31% |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 1138   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/SoundCloud/SoundCloud_Repeat.list)   |   0.35% |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 1137   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/SoundCloud/SoundCloud_Repeat.list)   |   0.35% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 771   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/SoundCloud/SoundCloud_Repeat.list)   |   0.26% |
 |  [Pandora](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Pandora)    | 3   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/SoundCloud/SoundCloud_Repeat.list)   |   33.33% |
 ### 特别说明

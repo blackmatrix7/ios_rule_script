@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-01 02:54:44。
+最后检查时间：2021-02-01 10:22:36。
 
 ## 规则统计
 
@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 | ---- | ---- | ---- | ------ |
 |  [Weibo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Weibo)    | 4   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Sina/Sina_Repeat.list)   |   100.0% |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 688   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Sina/Sina_Repeat.list)   |   1.31% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71535   | [32](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Sina/Sina_Repeat.list)   |   0.04% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71512   | [32](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Sina/Sina_Repeat.list)   |   0.04% |
 |  [LeJu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/LeJu)    | 23   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Sina/Sina_Repeat.list)   |   4.35% |
 |  [YiXiaKeJi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/YiXiaKeJi)    | 14   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Sina/Sina_Repeat.list)   |   14.29% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 28138   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Sina/Sina_Repeat.list)   |   0.0% |

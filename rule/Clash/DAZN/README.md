@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-01 02:54:59。
+最后检查时间：2021-02-01 10:22:48。
 
 ## 规则统计
 
@@ -47,8 +47,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 58140   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN_Repeat.list)   |   0.0% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 75219   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN_Repeat.list)   |   0.0% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 59279   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN_Repeat.list)   |   0.0% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 76039   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN_Repeat.list)   |   0.0% |
 |  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy)    | 2838   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN_Repeat.list)   |   0.04% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 28089   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN_Repeat.list)   |   0.02% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 1253   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN_Repeat.list)   |   0.24% |

@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-01 02:54:58。
+最后检查时间：2021-02-01 10:22:48。
 
 ## 规则统计
 
@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 656   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TeamViewer/TeamViewer_Repeat.list)   |   0.76% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 71503   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TeamViewer/TeamViewer_Repeat.list)   |   0.01% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 71480   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TeamViewer/TeamViewer_Repeat.list)   |   0.01% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 28089   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TeamViewer/TeamViewer_Repeat.list)   |   0.01% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 769   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TeamViewer/TeamViewer_Repeat.list)   |   0.13% |
 |  [Telegram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Telegram)    | 19   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TeamViewer/TeamViewer_Repeat.list)   |   5.26% |

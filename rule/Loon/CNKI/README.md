@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-01 02:54:45。
+最后检查时间：2021-02-01 10:22:37。
 
 ## 规则统计
 
@@ -46,7 +46,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71535   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNKI/CNKI_Repeat.list)   |   0.0% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71512   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNKI/CNKI_Repeat.list)   |   0.0% |
 |  [CMB](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/CMB)    | 17   | [17](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNKI/CNKI_Repeat.list)   |   100.0% |
 |  [Scholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar)    | 76   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNKI/CNKI_Repeat.list)   |   1.32% |
 ### 特别说明

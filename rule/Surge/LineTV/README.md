@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-01 02:54:35。
+最后检查时间：2021-02-01 10:22:29。
 
 ## 规则统计
 
@@ -51,7 +51,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 | ---- | ---- | ---- | ------ |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 28139   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LineTV/LineTV_Repeat.list)   |   0.02% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 1293   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LineTV/LineTV_Repeat.list)   |   0.31% |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 1138   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LineTV/LineTV_Repeat.list)   |   0.18% |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 1137   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LineTV/LineTV_Repeat.list)   |   0.18% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 772   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LineTV/LineTV_Repeat.list)   |   0.26% |
 |  [Line](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Line)    | 22   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LineTV/LineTV_Repeat.list)   |   9.09% |
 ### 特别说明

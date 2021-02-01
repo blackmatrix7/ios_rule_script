@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-01 10:22:43。
+最后检查时间：2021-02-02 02:57:47。
 
 ## 规则统计
 
@@ -46,8 +46,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 656   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/56/56_Repeat.list)   |   0.15% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 71480   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/56/56_Repeat.list)   |   0.01% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 657   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/56/56_Repeat.list)   |   0.15% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest)    | 71479   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/56/56_Repeat.list)   |   0.01% |
 |  [SohuSogo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SohuSogo)    | 10   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/56/56_Repeat.list)   |   10.0% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia)    | 264   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/56/56_Repeat.list)   |   0.76% |
 ### 特别说明

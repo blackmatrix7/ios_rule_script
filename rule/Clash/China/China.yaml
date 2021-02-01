@@ -1,13 +1,13 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-01 10:22:13
-# DOMAIN-SUFFIX: 622
+# UPDATED: 2021-02-02 02:57:17
+# DOMAIN-SUFFIX: 623
 # DOMAIN: 15
 # IP-CIDR: 4
 # DOMAIN-KEYWORD: 11
 # IP-CIDR6: 4
-# TOTAL: 656
+# TOTAL: 657
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -174,6 +174,7 @@ payload:
   - DOMAIN-SUFFIX,com-hs-hkdy.com
   - DOMAIN-SUFFIX,comicat.org
   - DOMAIN-SUFFIX,conoha.jp
+  - DOMAIN-SUFFIX,coolapk.com
   - DOMAIN-SUFFIX,cootekservice.com
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,csdn.net
@@ -416,7 +417,6 @@ payload:
   - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN-SUFFIX,open.cd
   - DOMAIN-SUFFIX,oracle.com
-  - DOMAIN-SUFFIX,originlab.com
   - DOMAIN-SUFFIX,osapublishing.org
   - DOMAIN-SUFFIX,oschina.net
   - DOMAIN-SUFFIX,oup.com
@@ -433,6 +433,7 @@ payload:
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypalobjects.com
+  - DOMAIN-SUFFIX,pcbeta.com
   - DOMAIN-SUFFIX,pgyer.com
   - DOMAIN-SUFFIX,pingan.com
   - DOMAIN-SUFFIX,pingan.com.cn

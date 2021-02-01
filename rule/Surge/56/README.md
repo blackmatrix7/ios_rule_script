@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-01 10:22:23。
+最后检查时间：2021-02-02 02:57:26。
 
 ## 规则统计
 
@@ -46,8 +46,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 688   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/56/56_Repeat.list)   |   0.15% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 71512   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/56/56_Repeat.list)   |   0.01% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 689   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/56/56_Repeat.list)   |   0.15% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaTest)    | 71511   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/56/56_Repeat.list)   |   0.01% |
 |  [SohuSogo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SohuSogo)    | 10   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/56/56_Repeat.list)   |   10.0% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 299   | [2](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/56/56_Repeat.list)   |   0.67% |
 ### 特别说明

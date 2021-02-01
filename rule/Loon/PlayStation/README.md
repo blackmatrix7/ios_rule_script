@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-01 10:22:40。
+最后检查时间：2021-02-02 02:57:44。
 
 ## 规则统计
 
@@ -46,8 +46,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 688   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PlayStation/PlayStation_Repeat.list)   |   0.58% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71512   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PlayStation/PlayStation_Repeat.list)   |   0.01% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 689   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PlayStation/PlayStation_Repeat.list)   |   0.58% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71511   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PlayStation/PlayStation_Repeat.list)   |   0.01% |
 |  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game)    | 64   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PlayStation/PlayStation_Repeat.list)   |   6.25% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 28138   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PlayStation/PlayStation_Repeat.list)   |   0.01% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 1292   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PlayStation/PlayStation_Repeat.list)   |   0.31% |

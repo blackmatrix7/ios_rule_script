@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-02 23:48:16。
+最后检查时间：2021-02-03 02:54:30。
 
 ## 规则统计
 
@@ -44,23 +44,23 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 - AppleNews
 
-- AppStore
+- iCloud
 
-- TestFlight
-
-- FitnessPlus
+- AppleTV
 
 - AppleMusic
 
-- Siri
-
-- iCloud
-
-- AppleMail
+- TestFlight
 
 - AppleBlock
 
-- AppleTV
+- Siri
+
+- AppleMail
+
+- FitnessPlus
+
+- AppStore
 
 除非特殊需求，否则不建议重复引用。
 

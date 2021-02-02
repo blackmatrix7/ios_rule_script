@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-02 23:48:26。
+最后检查时间：2021-02-03 02:54:40。
 
 ## 规则统计
 
@@ -41,23 +41,23 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 当前分流规则，已包含以下子规则：
 
-- CCTV
-
-- Himalaya
-
-- Youku
-
 - TencentVideo
-
-- iQIYI
 
 - BiliBili
 
-- NetEaseMusic
+- LeTV
+
+- iQIYI
+
+- CCTV
+
+- Youku
 
 - Douyu
 
-- LeTV
+- Himalaya
+
+- NetEaseMusic
 
 除非特殊需求，否则不建议重复引用。
 

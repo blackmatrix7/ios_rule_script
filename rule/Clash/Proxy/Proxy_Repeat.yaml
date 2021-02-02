@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-02 02:57:24
+# UPDATED: 2021-02-02 23:48:04
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 # Proxy 与 Sina 共 1 条规则重复
@@ -170,7 +170,6 @@ payload:
   - DOMAIN-SUFFIX,bstatic.com
   - DOMAIN-SUFFIX,cambridge.org
   - DOMAIN-SUFFIX,clarivate.com
-  - DOMAIN-SUFFIX,cngba.com
   - DOMAIN-SUFFIX,cnpmjs.org
   - DOMAIN-SUFFIX,conoha.jp
   - DOMAIN-SUFFIX,crashlytics.com
@@ -310,6 +309,7 @@ payload:
   - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,xianba.net
+  - DOMAIN-SUFFIX,xp9365.com
   - DOMAIN-SUFFIX,xteko.com
   - DOMAIN-SUFFIX,yshyqxx.com
   - DOMAIN-SUFFIX,zimuzu.tv
@@ -636,7 +636,7 @@ payload:
 # Proxy 与 GoogleDrive 共 2 条规则重复
   - DOMAIN-SUFFIX,googledrive.com
   - DOMAIN-SUFFIX,googleusercontent.com
-# Proxy 与 AdvertisingLite 共 60 条规则重复
+# Proxy 与 AdvertisingLite 共 61 条规则重复
   - DOMAIN-SUFFIX,2o7.net
   - DOMAIN-SUFFIX,adbecrsl.com
   - DOMAIN-SUFFIX,addthis.com
@@ -657,6 +657,7 @@ payload:
   - DOMAIN-SUFFIX,dajiyuan.com
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,edigitalsurvey.com
   - DOMAIN-SUFFIX,epochweekly.com
   - DOMAIN-SUFFIX,fgmtv.org
   - DOMAIN-SUFFIX,flurry.com
@@ -697,7 +698,7 @@ payload:
   - DOMAIN-SUFFIX,zhengjian.org
   - DOMAIN-SUFFIX,zhengwunet.org
   - DOMAIN-SUFFIX,zhuichaguoji.org
-# Proxy 与 Advertising 共 167 条规则重复
+# Proxy 与 Advertising 共 168 条规则重复
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,100tjs.com
   - DOMAIN-SUFFIX,24smile.org
@@ -755,6 +756,7 @@ payload:
   - DOMAIN-SUFFIX,doubleclickbygoogle.com
   - DOMAIN-SUFFIX,dynamic-dns.net
   - DOMAIN-SUFFIX,ebayclassifiedsgroup.com
+  - DOMAIN-SUFFIX,edigitalsurvey.com
   - DOMAIN-SUFFIX,enlnks.com
   - DOMAIN-SUFFIX,epochtimes.com
   - DOMAIN-SUFFIX,epochweekly.com
@@ -796,7 +798,6 @@ payload:
   - DOMAIN-SUFFIX,mdialog.com
   - DOMAIN-SUFFIX,meebo.com
   - DOMAIN-SUFFIX,mhradio.org
-  - DOMAIN-SUFFIX,minergate.com
   - DOMAIN-SUFFIX,minghui.org
   - DOMAIN-SUFFIX,mm-cgnews.com
   - DOMAIN-SUFFIX,mmaaxx.com
@@ -850,6 +851,7 @@ payload:
   - DOMAIN-SUFFIX,trust.zone
   - DOMAIN-SUFFIX,tuidang.org
   - DOMAIN-SUFFIX,tweetboard.com
+  - DOMAIN-SUFFIX,tweetmeme.com
   - DOMAIN-SUFFIX,twilightsex.com
   - DOMAIN-SUFFIX,twittercounter.com
   - DOMAIN-SUFFIX,ubertags.com
@@ -865,7 +867,7 @@ payload:
   - DOMAIN-SUFFIX,zhengjian.org
   - DOMAIN-SUFFIX,zhengwunet.org
   - DOMAIN-SUFFIX,zhuichaguoji.org
-# Proxy 与 AdvertisingTest 共 204 条规则重复
+# Proxy 与 AdvertisingTest 共 205 条规则重复
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,100tjs.com
   - DOMAIN-SUFFIX,101com.com
@@ -933,6 +935,7 @@ payload:
   - DOMAIN-SUFFIX,dynamic-dns.net
   - DOMAIN-SUFFIX,ebayadvertising.com
   - DOMAIN-SUFFIX,ebayclassifiedsgroup.com
+  - DOMAIN-SUFFIX,edigitalsurvey.com
   - DOMAIN-SUFFIX,enlnks.com
   - DOMAIN-SUFFIX,epochtimes.com
   - DOMAIN-SUFFIX,epochweekly.com
@@ -987,7 +990,6 @@ payload:
   - DOMAIN-SUFFIX,mdialog.com
   - DOMAIN-SUFFIX,meebo.com
   - DOMAIN-SUFFIX,mhradio.org
-  - DOMAIN-SUFFIX,minergate.com
   - DOMAIN-SUFFIX,minghui.org
   - DOMAIN-SUFFIX,mm-cgnews.com
   - DOMAIN-SUFFIX,mmaaxx.com
@@ -1048,6 +1050,7 @@ payload:
   - DOMAIN-SUFFIX,trust.zone
   - DOMAIN-SUFFIX,tuidang.org
   - DOMAIN-SUFFIX,tweetboard.com
+  - DOMAIN-SUFFIX,tweetmeme.com
   - DOMAIN-SUFFIX,twilightsex.com
   - DOMAIN-SUFFIX,twittercounter.com
   - DOMAIN-SUFFIX,ubertags.com

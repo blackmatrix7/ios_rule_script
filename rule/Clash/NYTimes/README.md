@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-03 02:54:46。
+最后检查时间：2021-02-04 02:53:39。
 
 ## 规则统计
 
@@ -46,8 +46,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 52251   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NYTimes/NYTimes_Repeat.list)   |   0.01% |
-|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 71104   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NYTimes/NYTimes_Repeat.list)   |   0.0% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 50110   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NYTimes/NYTimes_Repeat.list)   |   0.01% |
+|  [AdvertisingTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest)    | 73554   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NYTimes/NYTimes_Repeat.list)   |   0.0% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 28201   | [11](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NYTimes/NYTimes_Repeat.list)   |   0.04% |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global)    | 1253   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NYTimes/NYTimes_Repeat.list)   |   0.64% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 769   | [4](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NYTimes/NYTimes_Repeat.list)   |   0.52% |

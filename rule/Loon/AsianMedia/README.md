@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-02-03 02:54:39。
+最后检查时间：2021-02-04 02:53:30。
 
 ## 规则统计
 
@@ -52,7 +52,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 | ---- | ---- | ---- | ------ |
 |  [BiliBili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BiliBili)    | 62   | [13](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   20.97% |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 689   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   1.16% |
-|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71506   | [15](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   0.02% |
+|  [ChinaTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaTest)    | 71479   | [15](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   0.02% |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6115   | [3](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   0.05% |
 |  [Tencent](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Tencent)    | 294   | [1](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   0.34% |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 299   | [24](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AsianMedia/AsianMedia_Repeat.list)   |   8.03% |

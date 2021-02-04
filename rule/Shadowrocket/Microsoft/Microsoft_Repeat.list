@@ -1,0 +1,19 @@
+# NAME: Microsoft 规则重复情况
+# AUTHOR: 
+# GITHUB: 
+# UPDATED: 2021-02-04 21:14:19.170645
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+#  与 OneDrive 共 13 条规则重复
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,skydrive
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+PROCESS-NAME,onedrive
+PROCESS-NAME,onedriveupdater
+USER-AGENT,OneDrive*
+USER-AGENT,OneDriveiOSApp*

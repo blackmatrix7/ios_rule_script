@@ -1,0 +1,174 @@
+# NAME: GlobalMedia 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2021-02-04 21:14:16.237632
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+#  与 Netflix 共 42 条规则重复
+HOST,netflix.com.edgesuite.net
+HOST-KEYWORD,dualstack.apiproxy-device-prod-nlb-
+HOST-KEYWORD,dualstack.ichnaea-web-
+HOST-SUFFIX,fast.com
+HOST-SUFFIX,netflix.com
+HOST-SUFFIX,netflix.net
+HOST-SUFFIX,netflixdnstest0.com
+HOST-SUFFIX,netflixdnstest1.com
+HOST-SUFFIX,netflixdnstest2.com
+HOST-SUFFIX,netflixdnstest3.com
+HOST-SUFFIX,netflixdnstest4.com
+HOST-SUFFIX,netflixdnstest5.com
+HOST-SUFFIX,netflixdnstest6.com
+HOST-SUFFIX,netflixdnstest7.com
+HOST-SUFFIX,netflixdnstest8.com
+HOST-SUFFIX,netflixdnstest9.com
+HOST-SUFFIX,nflxext.com
+HOST-SUFFIX,nflximg.com
+HOST-SUFFIX,nflximg.net
+HOST-SUFFIX,nflxso.net
+HOST-SUFFIX,nflxvideo.net
+IP-CIDR,103.87.204.0/22
+IP-CIDR,108.175.32.0/20
+IP-CIDR,185.2.220.0/22
+IP-CIDR,185.9.188.0/22
+IP-CIDR,192.173.64.0/18
+IP-CIDR,198.38.96.0/19
+IP-CIDR,198.45.48.0/20
+IP-CIDR,207.45.72.0/22
+IP-CIDR,208.75.76.0/22
+IP-CIDR,23.246.0.0/18
+IP-CIDR,34.210.42.111/32
+IP-CIDR,37.77.184.0/21
+IP-CIDR,38.72.126.0/24
+IP-CIDR,45.57.0.0/17
+IP-CIDR,52.89.124.203/32
+IP-CIDR,54.148.37.5/32
+IP-CIDR,64.120.128.0/17
+IP-CIDR,66.197.128.0/17
+IP-CIDR,69.53.224.0/19
+IP-CIDR,8.41.4.0/24
+USER-AGENT,Argo*
+#  与 Japonx 共 10 条规则重复
+HOST-KEYWORD,japonx
+HOST-KEYWORD,japronx
+HOST-SUFFIX,japonx.com
+HOST-SUFFIX,japonx.net
+HOST-SUFFIX,japonx.tv
+HOST-SUFFIX,japonx.vip
+HOST-SUFFIX,japronx.com
+HOST-SUFFIX,japronx.net
+HOST-SUFFIX,japronx.tv
+HOST-SUFFIX,japronx.vip
+#  与 AppleNews 共 9 条规则重复
+HOST,apple.comscoreresearch.com
+HOST,gateway.icloud.com
+HOST,gspe1-ssl.ls.apple.com
+HOST,news-client.apple.com
+HOST,news-edge.apple.com
+HOST,news-events.apple.com
+HOST-SUFFIX,apple.news
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+#  与 KKBOX 共 5 条规则重复
+HOST-SUFFIX,kfs.io
+HOST-SUFFIX,kkbox.com
+HOST-SUFFIX,kkbox.com.tw
+HOST-SUFFIX,kktv.com.tw
+HOST-SUFFIX,kktv.me
+#  与 TikTok 共 11 条规则重复
+HOST-KEYWORD,-tiktokcdn-com
+HOST-SUFFIX,byteoversea.com
+HOST-SUFFIX,ibytedtos.com
+HOST-SUFFIX,ipstatp.com
+HOST-SUFFIX,muscdn.com
+HOST-SUFFIX,musical.ly
+HOST-SUFFIX,tik-tokapi.com
+HOST-SUFFIX,tiktok.com
+HOST-SUFFIX,tiktokcdn.com
+HOST-SUFFIX,tiktokv.com
+USER-AGENT,TikTok*
+#  与 Spotify 共 10 条规则重复
+HOST-KEYWORD,-spotify-com
+HOST-KEYWORD,spotify.com
+HOST-SUFFIX,pscdn.co
+HOST-SUFFIX,scdn.co
+HOST-SUFFIX,spoti.fi
+HOST-SUFFIX,spotify.com
+HOST-SUFFIX,spotifycdn.net
+IP-CIDR,35.186.224.47/32
+USER-AGENT,*Spotify*
+USER-AGENT,Spotify*
+#  与 Niconico 共 5 条规则重复
+HOST-SUFFIX,dmc.nico
+HOST-SUFFIX,nicovideo.jp
+HOST-SUFFIX,nimg.jp
+HOST-SUFFIX,socdm.com
+USER-AGENT,Niconico*
+#  与 DAZN 共 9 条规则重复
+HOST-KEYWORD,voddazn
+HOST-SUFFIX,dazn-api.com
+HOST-SUFFIX,dazn.com
+HOST-SUFFIX,dazndn.com
+HOST-SUFFIX,indazn.com
+HOST-SUFFIX,indaznlab.com
+HOST-SUFFIX,intercom.io
+HOST-SUFFIX,sentry.io
+USER-AGENT,DAZN*
+#  与 BBC 共 8 条规则重复
+HOST-KEYWORD,bbcfmt
+HOST-KEYWORD,uk-live
+HOST-SUFFIX,bbc.co
+HOST-SUFFIX,bbc.co.uk
+HOST-SUFFIX,bbc.com
+HOST-SUFFIX,bbci.co
+HOST-SUFFIX,bbci.co.uk
+USER-AGENT,BBCiPlayer*
+#  与 HBO 共 12 条规则重复
+HOST-SUFFIX,bcbolthboa-a.akamaihd.net
+HOST-SUFFIX,hbo.com
+HOST-SUFFIX,hboasia.com
+HOST-SUFFIX,hbogo.com
+HOST-SUFFIX,hbogoasia.com
+HOST-SUFFIX,hbogoasia.hk
+HOST-SUFFIX,hbomax.com
+HOST-SUFFIX,hbonow.com
+HOST-SUFFIX,nowe.com
+HOST-SUFFIX,youboranqs01.com
+USER-AGENT,HBO%20NOW*
+USER-AGENT,HBOMAX*
+#  与 Amazon 共 9 条规则重复
+HOST-SUFFIX,aiv-cdn.net
+HOST-SUFFIX,amazonaws.co.uk
+HOST-SUFFIX,amazonaws.com
+HOST-SUFFIX,amazonvideo.com
+HOST-SUFFIX,llnwd.net
+HOST-SUFFIX,media-amazon.com
+HOST-SUFFIX,primevideo.com
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
+#  与 AmazonPrimeVideo 共 9 条规则重复
+HOST-KEYWORD,avoddashs
+HOST-SUFFIX,aiv-cdn.net
+HOST-SUFFIX,aiv-delivery.net
+HOST-SUFFIX,amazonvideo.com
+HOST-SUFFIX,llnwd.net
+HOST-SUFFIX,media-amazon.com
+HOST-SUFFIX,primevideo.com
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
+#  与 AbemaTV 共 5 条规则重复
+HOST-SUFFIX,abema.io
+HOST-SUFFIX,abema.tv
+HOST-SUFFIX,ameba.jp
+HOST-SUFFIX,hayabusa.io
+USER-AGENT,AbemaTV*
+#  与 Hulu 共 11 条规则重复
+HOST-SUFFIX,happyon.jp
+HOST-SUFFIX,hulu.com
+HOST-SUFFIX,hulu.hb.omtrdc.net
+HOST-SUFFIX,hulu.jp
+HOST-SUFFIX,hulu.sc.omtrdc.net
+HOST-SUFFIX,huluad.com
+HOST-SUFFIX,huluim.com
+HOST-SUFFIX,hulustream.com
+HOST-SUFFIX,prod.hjholdings.tv
+HOST-SUFFIX,streaks.jp
+HOST-SUFFIX,yb.uncn.jp

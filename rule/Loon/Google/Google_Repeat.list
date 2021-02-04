@@ -1,0 +1,13 @@
+# NAME: Google 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2021-02-04 21:14:17.154827
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+#  与 GoogleDrive 共 7 条规则重复
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googleusercontent.com
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
+USER-AGENT,*com.google.Drive*
+USER-AGENT,Google.Drive*

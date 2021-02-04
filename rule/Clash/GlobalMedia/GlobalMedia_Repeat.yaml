@@ -1,0 +1,149 @@
+# NAME: GlobalMedia 规则重复情况
+# AUTHOR: blackmatrix7
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2021-02-04 21:14:18.238952
+# DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+payload:
+#  与 Netflix 共 41 条规则重复
+  - DOMAIN,netflix.com.edgesuite.net
+  - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-
+  - DOMAIN-KEYWORD,dualstack.ichnaea-web-
+  - DOMAIN-SUFFIX,fast.com
+  - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-SUFFIX,netflix.net
+  - DOMAIN-SUFFIX,netflixdnstest0.com
+  - DOMAIN-SUFFIX,netflixdnstest1.com
+  - DOMAIN-SUFFIX,netflixdnstest2.com
+  - DOMAIN-SUFFIX,netflixdnstest3.com
+  - DOMAIN-SUFFIX,netflixdnstest4.com
+  - DOMAIN-SUFFIX,netflixdnstest5.com
+  - DOMAIN-SUFFIX,netflixdnstest6.com
+  - DOMAIN-SUFFIX,netflixdnstest7.com
+  - DOMAIN-SUFFIX,netflixdnstest8.com
+  - DOMAIN-SUFFIX,netflixdnstest9.com
+  - DOMAIN-SUFFIX,nflxext.com
+  - DOMAIN-SUFFIX,nflximg.com
+  - DOMAIN-SUFFIX,nflximg.net
+  - DOMAIN-SUFFIX,nflxso.net
+  - DOMAIN-SUFFIX,nflxvideo.net
+  - IP-CIDR,103.87.204.0/22
+  - IP-CIDR,108.175.32.0/20
+  - IP-CIDR,185.2.220.0/22
+  - IP-CIDR,185.9.188.0/22
+  - IP-CIDR,192.173.64.0/18
+  - IP-CIDR,198.38.96.0/19
+  - IP-CIDR,198.45.48.0/20
+  - IP-CIDR,207.45.72.0/22
+  - IP-CIDR,208.75.76.0/22
+  - IP-CIDR,23.246.0.0/18
+  - IP-CIDR,34.210.42.111/32
+  - IP-CIDR,37.77.184.0/21
+  - IP-CIDR,38.72.126.0/24
+  - IP-CIDR,45.57.0.0/17
+  - IP-CIDR,52.89.124.203/32
+  - IP-CIDR,54.148.37.5/32
+  - IP-CIDR,64.120.128.0/17
+  - IP-CIDR,66.197.128.0/17
+  - IP-CIDR,69.53.224.0/19
+  - IP-CIDR,8.41.4.0/24
+#  与 Japonx 共 10 条规则重复
+  - DOMAIN-KEYWORD,japonx
+  - DOMAIN-KEYWORD,japronx
+  - DOMAIN-SUFFIX,japonx.com
+  - DOMAIN-SUFFIX,japonx.net
+  - DOMAIN-SUFFIX,japonx.tv
+  - DOMAIN-SUFFIX,japonx.vip
+  - DOMAIN-SUFFIX,japronx.com
+  - DOMAIN-SUFFIX,japronx.net
+  - DOMAIN-SUFFIX,japronx.tv
+  - DOMAIN-SUFFIX,japronx.vip
+#  与 AppleNews 共 7 条规则重复
+  - DOMAIN,apple.comscoreresearch.com
+  - DOMAIN,gateway.icloud.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN,news-client.apple.com
+  - DOMAIN,news-edge.apple.com
+  - DOMAIN,news-events.apple.com
+  - DOMAIN-SUFFIX,apple.news
+#  与 KKBOX 共 5 条规则重复
+  - DOMAIN-SUFFIX,kfs.io
+  - DOMAIN-SUFFIX,kkbox.com
+  - DOMAIN-SUFFIX,kkbox.com.tw
+  - DOMAIN-SUFFIX,kktv.com.tw
+  - DOMAIN-SUFFIX,kktv.me
+#  与 TikTok 共 10 条规则重复
+  - DOMAIN-KEYWORD,-tiktokcdn-com
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokv.com
+#  与 Spotify 共 8 条规则重复
+  - DOMAIN-KEYWORD,-spotify-com
+  - DOMAIN-KEYWORD,spotify.com
+  - DOMAIN-SUFFIX,pscdn.co
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,spoti.fi
+  - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,spotifycdn.net
+  - IP-CIDR,35.186.224.47/32
+#  与 DAZN 共 8 条规则重复
+  - DOMAIN-KEYWORD,voddazn
+  - DOMAIN-SUFFIX,dazn-api.com
+  - DOMAIN-SUFFIX,dazn.com
+  - DOMAIN-SUFFIX,dazndn.com
+  - DOMAIN-SUFFIX,indazn.com
+  - DOMAIN-SUFFIX,indaznlab.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,sentry.io
+#  与 BBC 共 7 条规则重复
+  - DOMAIN-KEYWORD,bbcfmt
+  - DOMAIN-KEYWORD,uk-live
+  - DOMAIN-SUFFIX,bbc.co
+  - DOMAIN-SUFFIX,bbc.co.uk
+  - DOMAIN-SUFFIX,bbc.com
+  - DOMAIN-SUFFIX,bbci.co
+  - DOMAIN-SUFFIX,bbci.co.uk
+#  与 HBO 共 10 条规则重复
+  - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
+  - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,hboasia.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,hbonow.com
+  - DOMAIN-SUFFIX,nowe.com
+  - DOMAIN-SUFFIX,youboranqs01.com
+#  与 Amazon 共 7 条规则重复
+  - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,amazonaws.co.uk
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,primevideo.com
+#  与 AmazonPrimeVideo 共 7 条规则重复
+  - DOMAIN-KEYWORD,avoddashs
+  - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,aiv-delivery.net
+  - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,primevideo.com
+#  与 Hulu 共 11 条规则重复
+  - DOMAIN-SUFFIX,happyon.jp
+  - DOMAIN-SUFFIX,hulu.com
+  - DOMAIN-SUFFIX,hulu.hb.omtrdc.net
+  - DOMAIN-SUFFIX,hulu.jp
+  - DOMAIN-SUFFIX,hulu.sc.omtrdc.net
+  - DOMAIN-SUFFIX,huluad.com
+  - DOMAIN-SUFFIX,huluim.com
+  - DOMAIN-SUFFIX,hulustream.com
+  - DOMAIN-SUFFIX,prod.hjholdings.tv
+  - DOMAIN-SUFFIX,streaks.jp
+  - DOMAIN-SUFFIX,yb.uncn.jp

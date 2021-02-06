@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-06 11:01:30.108013
-# DOMAIN-SUFFIX: 27992
+# UPDATED: 2021-02-07 02:42:00.240595
+# DOMAIN-SUFFIX: 27981
 # DOMAIN: 36
 # DOMAIN-KEYWORD: 42
 # IP-CIDR: 127
 # IP-CIDR6: 3
 # PROCESS-NAME: 1
-# TOTAL: 28201
+# TOTAL: 28190
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
@@ -2725,6 +2725,7 @@ payload:
   - DOMAIN-SUFFIX,applemagickeyboard.com
   - DOMAIN-SUFFIX,applemasters.info
   - DOMAIN-SUFFIX,applemusic.berlin
+  - DOMAIN-SUFFIX,applemusic.co
   - DOMAIN-SUFFIX,applemusic.com
   - DOMAIN-SUFFIX,applemusic.hamburg
   - DOMAIN-SUFFIX,applemusic.wang
@@ -10749,8 +10750,6 @@ payload:
   - DOMAIN-SUFFIX,gostorego.com
   - DOMAIN-SUFFIX,gosyntheticusa.com
   - DOMAIN-SUFFIX,got-game.org
-  - DOMAIN-SUFFIX,got001.com
-  - DOMAIN-SUFFIX,got002.com
   - DOMAIN-SUFFIX,gotcosmos.com
   - DOMAIN-SUFFIX,gotdns.ch
   - DOMAIN-SUFFIX,gotgayporn.com
@@ -13119,7 +13118,6 @@ payload:
   - DOMAIN-SUFFIX,jsproxy.ga
   - DOMAIN-SUFFIX,jsproxy.tk
   - DOMAIN-SUFFIX,jstor.org
-  - DOMAIN-SUFFIX,jstucdn.com
   - DOMAIN-SUFFIX,jtbc.joins.com
   - DOMAIN-SUFFIX,jtizyl.net
   - DOMAIN-SUFFIX,jtvnw.net
@@ -14679,6 +14677,7 @@ payload:
   - DOMAIN-SUFFIX,meforum.org
   - DOMAIN-SUFFIX,mefound.com
   - DOMAIN-SUFFIX,mega.co.nz
+  - DOMAIN-SUFFIX,mega.io
   - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,megacorpwars.com
   - DOMAIN-SUFFIX,megalodon.jp
@@ -17646,7 +17645,6 @@ payload:
   - DOMAIN-SUFFIX,playboy.com
   - DOMAIN-SUFFIX,playboyplus.com
   - DOMAIN-SUFFIX,playbydurex.com
-  - DOMAIN-SUFFIX,playcvn.com
   - DOMAIN-SUFFIX,player.4fusion.xyz
   - DOMAIN-SUFFIX,player.fm
   - DOMAIN-SUFFIX,playerjs.io
@@ -18859,10 +18857,6 @@ payload:
   - DOMAIN-SUFFIX,rrr626.net
   - DOMAIN-SUFFIX,rrr633.net
   - DOMAIN-SUFFIX,rrtis.com
-  - DOMAIN-SUFFIX,rrys.tv
-  - DOMAIN-SUFFIX,rrys2019.com
-  - DOMAIN-SUFFIX,rrys2020.com
-  - DOMAIN-SUFFIX,rrysapp.com
   - DOMAIN-SUFFIX,rsc.org
   - DOMAIN-SUFFIX,rsdlmonitor.com
   - DOMAIN-SUFFIX,rsf-chinese.org
@@ -27746,7 +27740,6 @@ payload:
   - DOMAIN-SUFFIX,yy0110.com
   - DOMAIN-SUFFIX,yy735.com
   - DOMAIN-SUFFIX,yyabo12.com
-  - DOMAIN-SUFFIX,yyets.com
   - DOMAIN-SUFFIX,yyg.deptofhealth.xyz
   - DOMAIN-SUFFIX,yyhbet.com
   - DOMAIN-SUFFIX,yyii.org
@@ -27909,8 +27902,6 @@ payload:
   - DOMAIN-SUFFIX,ziddu.com
   - DOMAIN-SUFFIX,zillionk.com
   - DOMAIN-SUFFIX,zim.vn
-  - DOMAIN-SUFFIX,zimuzu.com
-  - DOMAIN-SUFFIX,zimuzu.tv
   - DOMAIN-SUFFIX,zind.cloud
   - DOMAIN-SUFFIX,zinio.com
   - DOMAIN-SUFFIX,zionsoft.net
@@ -27926,8 +27917,6 @@ payload:
   - DOMAIN-SUFFIX,zkoxv.com
   - DOMAIN-SUFFIX,zm
   - DOMAIN-SUFFIX,zmw.cn
-  - DOMAIN-SUFFIX,zmz2019.com
-  - DOMAIN-SUFFIX,zmzapi.com
   - DOMAIN-SUFFIX,zndsk.com
   - DOMAIN-SUFFIX,zneth.com
   - DOMAIN-SUFFIX,znetlive.com

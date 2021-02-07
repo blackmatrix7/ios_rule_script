@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-07 02:42:00.181840
-# DOMAIN-SUFFIX: 27920
+# UPDATED: 2021-02-08 02:42:18.199488
+# DOMAIN-SUFFIX: 27918
 # DOMAIN: 35
 # DOMAIN-KEYWORD: 29
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 28075
+# TOTAL: 28073
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
@@ -2540,7 +2540,6 @@ payload:
   - DOMAIN-SUFFIX,api.ott.pm
   - DOMAIN-SUFFIX,api.phantom.avira-vpn.com
   - DOMAIN-SUFFIX,api.pncle8.com
-  - DOMAIN-SUFFIX,api.termius.com
   - DOMAIN-SUFFIX,api.threema.ch
   - DOMAIN-SUFFIX,api.vitservers.pw
   - DOMAIN-SUFFIX,api.wangrunxin.com
@@ -3834,7 +3833,6 @@ payload:
   - DOMAIN-SUFFIX,bergherz.ch
   - DOMAIN-SUFFIX,beric.me
   - DOMAIN-SUFFIX,berkanawireless.com
-  - DOMAIN-SUFFIX,berkeley.edu
   - DOMAIN-SUFFIX,berlinerbericht.de
   - DOMAIN-SUFFIX,berlintwitterwall.com
   - DOMAIN-SUFFIX,berm.co.nz
@@ -7966,6 +7964,7 @@ payload:
   - DOMAIN-SUFFIX,edns.biz
   - DOMAIN-SUFFIX,edoors.com
   - DOMAIN-SUFFIX,edson.net.br
+  - DOMAIN-SUFFIX,edu
   - DOMAIN-SUFFIX,edu-research.org
   - DOMAIN-SUFFIX,edubridge.com
   - DOMAIN-SUFFIX,educationtimes.com
@@ -14868,6 +14867,7 @@ payload:
   - DOMAIN-SUFFIX,mikesoltys.com
   - DOMAIN-SUFFIX,mikocon.com
   - DOMAIN-SUFFIX,miktex.org
+  - DOMAIN-SUFFIX,mil
   - DOMAIN-SUFFIX,milliyet.com.tr
   - DOMAIN-SUFFIX,milnews2.com
   - DOMAIN-SUFFIX,milofetch.com
@@ -17879,7 +17879,6 @@ payload:
   - DOMAIN-SUFFIX,primevideo.info
   - DOMAIN-SUFFIX,primevideo.org
   - DOMAIN-SUFFIX,primevideo.tv
-  - DOMAIN-SUFFIX,princeton.edu
   - DOMAIN-SUFFIX,printeron.com
   - DOMAIN-SUFFIX,printersetupsupport.com
   - DOMAIN-SUFFIX,printfriendly.com
@@ -20713,6 +20712,7 @@ payload:
   - DOMAIN-SUFFIX,terapeak.info
   - DOMAIN-SUFFIX,teraperk.com
   - DOMAIN-SUFFIX,terence.tk
+  - DOMAIN-SUFFIX,termius.com
   - DOMAIN-SUFFIX,termoconfort.com.ar
   - DOMAIN-SUFFIX,terra
   - DOMAIN-SUFFIX,terra-x-shop.de
@@ -21793,7 +21793,6 @@ payload:
   - DOMAIN-SUFFIX,ucdavis.pubs.curricunet.com
   - DOMAIN-SUFFIX,ucdc1998.org
   - DOMAIN-SUFFIX,uchicago.edu
-  - DOMAIN-SUFFIX,ucla.edu
   - DOMAIN-SUFFIX,uclaut.net
   - DOMAIN-SUFFIX,uconnect
   - DOMAIN-SUFFIX,udacity.com
@@ -21856,7 +21855,6 @@ payload:
   - DOMAIN-SUFFIX,um
   - DOMAIN-SUFFIX,um.domain888.pw
   - DOMAIN-SUFFIX,um.freepac.pw
-  - DOMAIN-SUFFIX,umass.edu
   - DOMAIN-SUFFIX,umblr.com
   - DOMAIN-SUFFIX,umei.cc
   - DOMAIN-SUFFIX,umei.fun

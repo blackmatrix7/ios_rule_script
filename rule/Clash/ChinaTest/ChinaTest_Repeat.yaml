@@ -1,7 +1,7 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-07 02:42:07.514714
+# UPDATED: 2021-02-08 02:42:25.783048
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 DanDanZan 共 7 条规则重复
@@ -1430,6 +1430,26 @@ payload:
   - DOMAIN-SUFFIX,youdao.com
   - DOMAIN-SUFFIX,yqkk.link
   - DOMAIN-SUFFIX,zhuanzfx.com
+#  与 QiNiuYun 共 19 条规则重复
+  - DOMAIN-SUFFIX,clouddn.com
+  - DOMAIN-SUFFIX,cloudvdn.com
+  - DOMAIN-SUFFIX,pilidns.com
+  - DOMAIN-SUFFIX,qbox.me
+  - DOMAIN-SUFFIX,qiniu.com
+  - DOMAIN-SUFFIX,qiniu.in
+  - DOMAIN-SUFFIX,qiniu.io
+  - DOMAIN-SUFFIX,qiniuapi.com
+  - DOMAIN-SUFFIX,qiniucdn.com
+  - DOMAIN-SUFFIX,qiniudn.com
+  - DOMAIN-SUFFIX,qiniudns.com
+  - DOMAIN-SUFFIX,qiniukodo.com
+  - DOMAIN-SUFFIX,qiniup.com
+  - DOMAIN-SUFFIX,qiniupkg.com
+  - DOMAIN-SUFFIX,qiniutek.com
+  - DOMAIN-SUFFIX,qnssl.com
+  - DOMAIN-SUFFIX,qnydns.com
+  - DOMAIN-SUFFIX,qnydns.net
+  - DOMAIN-SUFFIX,staticfile.org
 #  与 KouDaiShiShang 共 8 条规则重复
   - DOMAIN-SUFFIX,91ruyu.com
   - DOMAIN-SUFFIX,fangxin.com
@@ -1521,25 +1541,6 @@ payload:
   - DOMAIN-SUFFIX,jpush.io
   - DOMAIN-SUFFIX,jpushoa.com
   - DOMAIN-SUFFIX,pushcfg.com
-#  与 QiNiuYun 共 18 条规则重复
-  - DOMAIN-SUFFIX,clouddn.com
-  - DOMAIN-SUFFIX,cloudvdn.com
-  - DOMAIN-SUFFIX,pilidns.com
-  - DOMAIN-SUFFIX,qbox.me
-  - DOMAIN-SUFFIX,qiniu.com
-  - DOMAIN-SUFFIX,qiniu.in
-  - DOMAIN-SUFFIX,qiniuapi.com
-  - DOMAIN-SUFFIX,qiniucdn.com
-  - DOMAIN-SUFFIX,qiniudn.com
-  - DOMAIN-SUFFIX,qiniudns.com
-  - DOMAIN-SUFFIX,qiniukodo.com
-  - DOMAIN-SUFFIX,qiniup.com
-  - DOMAIN-SUFFIX,qiniupkg.com
-  - DOMAIN-SUFFIX,qiniutek.com
-  - DOMAIN-SUFFIX,qnssl.com
-  - DOMAIN-SUFFIX,qnydns.com
-  - DOMAIN-SUFFIX,qnydns.net
-  - DOMAIN-SUFFIX,staticfile.org
 #  与 LeJu 共 8 条规则重复
   - DOMAIN-SUFFIX,dichan.com
   - DOMAIN-SUFFIX,esfimg.com

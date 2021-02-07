@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-07 02:42:07.144694
+# UPDATED: 2021-02-08 02:42:25.404372
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Github 共 6 条规则重复
@@ -80,7 +80,7 @@ payload:
   - DOMAIN-SUFFIX,voxfieldguide.com
   - DOMAIN-SUFFIX,voxmedia.com
   - DOMAIN-SUFFIX,voxops.net
-#  与 Global 共 28058 条规则重复
+#  与 Global 共 28056 条规则重复
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
   - DOMAIN,assets-priconne-redive-us.akamaized.net
@@ -2639,7 +2639,6 @@ payload:
   - DOMAIN-SUFFIX,api.ott.pm
   - DOMAIN-SUFFIX,api.phantom.avira-vpn.com
   - DOMAIN-SUFFIX,api.pncle8.com
-  - DOMAIN-SUFFIX,api.termius.com
   - DOMAIN-SUFFIX,api.threema.ch
   - DOMAIN-SUFFIX,api.vitservers.pw
   - DOMAIN-SUFFIX,api.wangrunxin.com
@@ -3932,7 +3931,6 @@ payload:
   - DOMAIN-SUFFIX,bergherz.ch
   - DOMAIN-SUFFIX,beric.me
   - DOMAIN-SUFFIX,berkanawireless.com
-  - DOMAIN-SUFFIX,berkeley.edu
   - DOMAIN-SUFFIX,berlinerbericht.de
   - DOMAIN-SUFFIX,berlintwitterwall.com
   - DOMAIN-SUFFIX,berm.co.nz
@@ -8063,6 +8061,7 @@ payload:
   - DOMAIN-SUFFIX,edns.biz
   - DOMAIN-SUFFIX,edoors.com
   - DOMAIN-SUFFIX,edson.net.br
+  - DOMAIN-SUFFIX,edu
   - DOMAIN-SUFFIX,edu-research.org
   - DOMAIN-SUFFIX,edubridge.com
   - DOMAIN-SUFFIX,educationtimes.com
@@ -14961,6 +14960,7 @@ payload:
   - DOMAIN-SUFFIX,mikesoltys.com
   - DOMAIN-SUFFIX,mikocon.com
   - DOMAIN-SUFFIX,miktex.org
+  - DOMAIN-SUFFIX,mil
   - DOMAIN-SUFFIX,milliyet.com.tr
   - DOMAIN-SUFFIX,milnews2.com
   - DOMAIN-SUFFIX,milofetch.com
@@ -17970,7 +17970,6 @@ payload:
   - DOMAIN-SUFFIX,primevideo.info
   - DOMAIN-SUFFIX,primevideo.org
   - DOMAIN-SUFFIX,primevideo.tv
-  - DOMAIN-SUFFIX,princeton.edu
   - DOMAIN-SUFFIX,printeron.com
   - DOMAIN-SUFFIX,printersetupsupport.com
   - DOMAIN-SUFFIX,printfriendly.com
@@ -20804,6 +20803,7 @@ payload:
   - DOMAIN-SUFFIX,terapeak.info
   - DOMAIN-SUFFIX,teraperk.com
   - DOMAIN-SUFFIX,terence.tk
+  - DOMAIN-SUFFIX,termius.com
   - DOMAIN-SUFFIX,termoconfort.com.ar
   - DOMAIN-SUFFIX,terra
   - DOMAIN-SUFFIX,terra-x-shop.de
@@ -21884,7 +21884,6 @@ payload:
   - DOMAIN-SUFFIX,ucdavis.pubs.curricunet.com
   - DOMAIN-SUFFIX,ucdc1998.org
   - DOMAIN-SUFFIX,uchicago.edu
-  - DOMAIN-SUFFIX,ucla.edu
   - DOMAIN-SUFFIX,uclaut.net
   - DOMAIN-SUFFIX,uconnect
   - DOMAIN-SUFFIX,udacity.com
@@ -21947,7 +21946,6 @@ payload:
   - DOMAIN-SUFFIX,um
   - DOMAIN-SUFFIX,um.domain888.pw
   - DOMAIN-SUFFIX,um.freepac.pw
-  - DOMAIN-SUFFIX,umass.edu
   - DOMAIN-SUFFIX,umblr.com
   - DOMAIN-SUFFIX,umei.cc
   - DOMAIN-SUFFIX,umei.fun
@@ -28139,7 +28137,7 @@ payload:
   - IP-CIDR6,2001:67c:4e8::/48
   - IP-CIDR6,2001:b28:f23d::/48
   - IP-CIDR6,2001:b28:f23f::/48
-#  与 BlackList 共 756 条规则重复
+#  与 BlackList 共 755 条规则重复
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,beetalk
   - DOMAIN-KEYWORD,blogspot
@@ -28191,7 +28189,6 @@ payload:
   - DOMAIN-SUFFIX,apartmentratings.com
   - DOMAIN-SUFFIX,apartments.com
   - DOMAIN-SUFFIX,api.mixpanel.com
-  - DOMAIN-SUFFIX,api.termius.com
   - DOMAIN-SUFFIX,apigee.com
   - DOMAIN-SUFFIX,apk-dl.com
   - DOMAIN-SUFFIX,apkpure.com

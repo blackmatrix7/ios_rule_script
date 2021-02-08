@@ -1,7 +1,7 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-08 02:42:25.783048
+# UPDATED: 2021-02-09 02:43:00.710792
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 DanDanZan 共 7 条规则重复
@@ -1100,21 +1100,7 @@ payload:
   - DOMAIN-SUFFIX,mmarket.com
   - DOMAIN-SUFFIX,mmarket6.com
   - DOMAIN-SUFFIX,monternet.com
-#  与 DiDi 共 13 条规则重复
-  - DOMAIN-SUFFIX,didi-food.com
-  - DOMAIN-SUFFIX,didialift.com
-  - DOMAIN-SUFFIX,didiaustralia.blog
-  - DOMAIN-SUFFIX,didichuxing.com
-  - DOMAIN-SUFFIX,didiglobal.com
-  - DOMAIN-SUFFIX,didimobility.co.jp
-  - DOMAIN-SUFFIX,didiqiche.com
-  - DOMAIN-SUFFIX,didistatic.com
-  - DOMAIN-SUFFIX,didiwuxian.com
-  - DOMAIN-SUFFIX,didiyun.com
-  - DOMAIN-SUFFIX,didiyunapi.com
-  - DOMAIN-SUFFIX,udache.com
-  - DOMAIN-SUFFIX,xiaojukeji.com
-#  与 Tencent 共 150 条规则重复
+#  与 Tencent 共 151 条规则重复
   - DOMAIN-SUFFIX,accessibilityunion.org
   - DOMAIN-SUFFIX,agcloudcs.com
   - DOMAIN-SUFFIX,apcdns.net
@@ -1225,6 +1211,7 @@ payload:
   - DOMAIN-SUFFIX,tcdnos.com
   - DOMAIN-SUFFIX,tcdnvod.com
   - DOMAIN-SUFFIX,tcloudbase.com
+  - DOMAIN-SUFFIX,tcloudbaseapp.com
   - DOMAIN-SUFFIX,tcloudscdn.com
   - DOMAIN-SUFFIX,tcloudscdn.net
   - DOMAIN-SUFFIX,tdnsv1.com
@@ -1265,6 +1252,20 @@ payload:
   - DOMAIN-SUFFIX,wting.info
   - DOMAIN-SUFFIX,xxsy.net
   - DOMAIN-SUFFIX,yuewen.com
+#  与 DiDi 共 13 条规则重复
+  - DOMAIN-SUFFIX,didi-food.com
+  - DOMAIN-SUFFIX,didialift.com
+  - DOMAIN-SUFFIX,didiaustralia.blog
+  - DOMAIN-SUFFIX,didichuxing.com
+  - DOMAIN-SUFFIX,didiglobal.com
+  - DOMAIN-SUFFIX,didimobility.co.jp
+  - DOMAIN-SUFFIX,didiqiche.com
+  - DOMAIN-SUFFIX,didistatic.com
+  - DOMAIN-SUFFIX,didiwuxian.com
+  - DOMAIN-SUFFIX,didiyun.com
+  - DOMAIN-SUFFIX,didiyunapi.com
+  - DOMAIN-SUFFIX,udache.com
+  - DOMAIN-SUFFIX,xiaojukeji.com
 #  与 TeamViewer 共 5 条规则重复
   - DOMAIN-SUFFIX,teamviewer.com
   - IP-CIDR6,2a0b:b580::/48

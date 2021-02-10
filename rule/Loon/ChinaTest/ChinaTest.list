@@ -1,15 +1,15 @@
 # NAME: ChinaTest
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-10 02:45:45.779457
-# DOMAIN-SUFFIX: 71334
+# UPDATED: 2021-02-11 02:46:28.038796
+# DOMAIN-SUFFIX: 71345
 # USER-AGENT: 33
 # DOMAIN-KEYWORD: 13
 # DOMAIN: 86
-# IP-CIDR: 4
+# IP-CIDR: 16
 # IP-CIDR6: 4
 # GEOIP: 1
-# TOTAL: 71475
+# TOTAL: 71498
 DOMAIN-KEYWORD,-cn
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -58,8 +58,20 @@ USER-AGENT,osee2unifiedRelease*
 USER-AGENT,ting_en
 IP-CIDR,1.255.62.0/24,no-resolve
 IP-CIDR,119.28.28.28/32,no-resolve
+IP-CIDR,164.52.102.66/31,no-resolve
+IP-CIDR,164.52.102.68/31,no-resolve
+IP-CIDR,164.52.102.70/32,no-resolve
+IP-CIDR,164.52.102.75/32,no-resolve
+IP-CIDR,164.52.102.76/31,no-resolve
+IP-CIDR,164.52.102.91/32,no-resolve
 IP-CIDR,182.254.116.0/24,no-resolve
 IP-CIDR,185.188.32.0/22,no-resolve
+IP-CIDR,199.190.44.36/31,no-resolve
+IP-CIDR,3.0.163.78/32,no-resolve
+IP-CIDR,35.178.208.187/32,no-resolve
+IP-CIDR,52.194.158.59/32,no-resolve
+IP-CIDR,52.52.84.170/32,no-resolve
+IP-CIDR,52.58.56.244/32,no-resolve
 IP-CIDR6,2a0b:b580::/48,no-resolve
 IP-CIDR6,2a0b:b581::/48,no-resolve
 IP-CIDR6,2a0b:b582::/48,no-resolve

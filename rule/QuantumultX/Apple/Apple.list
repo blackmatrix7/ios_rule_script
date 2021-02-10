@@ -1,13 +1,13 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-10 02:45:43.947865
-# HOST-SUFFIX: 68
+# UPDATED: 2021-02-11 02:46:25.836143
+# HOST-SUFFIX: 74
 # HOST: 2
-# HOST-KEYWORD: 3
+# HOST-KEYWORD: 6
 # USER-AGENT: 21
 # IP-CIDR: 10
-# TOTAL: 104
+# TOTAL: 113
 HOST,api.smoot.apple.cn,Apple
 HOST,apple.comscoreresearch.com,Apple
 HOST-SUFFIX,aaplimg.com,Apple
@@ -15,10 +15,14 @@ HOST-SUFFIX,akadns.net,Apple
 HOST-SUFFIX,apple-cloudkit.com,Apple
 HOST-SUFFIX,apple-dns.net,Apple
 HOST-SUFFIX,apple-icloud.cn,Apple
+HOST-SUFFIX,apple-livephotoskit.com,Apple
 HOST-SUFFIX,apple-mapkit.com,Apple
 HOST-SUFFIX,apple.co,Apple
 HOST-SUFFIX,apple.com,Apple
+HOST-SUFFIX,apple.com.cdn20.com,Apple
 HOST-SUFFIX,apple.com.cn,Apple
+HOST-SUFFIX,apple.com.mwcloudcdn.com,Apple
+HOST-SUFFIX,apple.com.mwcname.com,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,appleicloud.cn,Apple
 HOST-SUFFIX,applemx-icloud.com,Apple
@@ -31,6 +35,7 @@ HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-content.com,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple
+HOST-SUFFIX,icloud-sandbox.com,Apple
 HOST-SUFFIX,icloud.ch,Apple
 HOST-SUFFIX,icloud.com,Apple
 HOST-SUFFIX,icloud.com.cn,Apple
@@ -71,6 +76,7 @@ HOST-SUFFIX,icloudsecure.net,Apple
 HOST-SUFFIX,icloudsetup.com,Apple
 HOST-SUFFIX,ios-icloud.com,Apple
 HOST-SUFFIX,itunes.com,Apple
+HOST-SUFFIX,itunes.com.edgekey.net,Apple
 HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,myicloud.net,Apple
 HOST-SUFFIX,mylcloud.net,Apple
@@ -79,7 +85,10 @@ HOST-SUFFIX,store.apple.com.edgekey.net,Apple
 HOST-SUFFIX,www.apple.com.edgekey.net,Apple
 HOST-SUFFIX,wwwicloud.com,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
+HOST-KEYWORD,icloud,Apple
 HOST-KEYWORD,icloud.com.akadns.net,Apple
+HOST-KEYWORD,icoudo,Apple
+HOST-KEYWORD,icoudos,Apple
 HOST-KEYWORD,testflight,Apple
 USER-AGENT,%E5%9C%B0%E5%9B%BE*,Apple
 USER-AGENT,%E6%9F%A5%E6%89%BE*,Apple

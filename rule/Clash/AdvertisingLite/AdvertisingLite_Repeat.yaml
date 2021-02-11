@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-11 02:46:36.348364
+# UPDATED: 2021-02-12 02:42:58.446429
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Hijacking 共 200 条规则重复
@@ -2552,7 +2552,7 @@ payload:
   - DOMAIN-SUFFIX,zsi7.destinia.do
   - DOMAIN-SUFFIX,zyq2.destinia.sk
   - DOMAIN-SUFFIX,zz.bdstatic.com
-#  与 Advertising 共 16054 条规则重复
+#  与 Advertising 共 16056 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0d847862199.com
   - DOMAIN,0koryu0.easter.ne.jp
@@ -2920,6 +2920,7 @@ payload:
   - DOMAIN,e9mlrvy1.com
   - DOMAIN,earthcontrolsys.com
   - DOMAIN,edf.fr.kfskz.com
+  - DOMAIN,ee.eiiteho.cn
   - DOMAIN,eeps.me
   - DOMAIN,ekod.info
   - DOMAIN,elew72isst.rr.nu
@@ -3142,6 +3143,7 @@ payload:
   - DOMAIN,m-vali.cp31.ott.cibntv.net
   - DOMAIN,m.1234567.com.cn
   - DOMAIN,m.aty.sohu.com
+  - DOMAIN,m.eiiteho.cn
   - DOMAIN,m.track.ad.xiaomi.com
   - DOMAIN,mahindrainsurance.com
   - DOMAIN,mailboto.com

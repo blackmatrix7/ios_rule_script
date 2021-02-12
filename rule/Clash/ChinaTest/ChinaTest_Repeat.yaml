@@ -1,7 +1,7 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-12 02:42:59.040804
+# UPDATED: 2021-02-13 02:42:29.495549
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 DanDanZan 共 7 条规则重复
@@ -25,7 +25,7 @@ payload:
   - DOMAIN-SUFFIX,cheyisou.com
   - DOMAIN-SUFFIX,yccdn.com
   - DOMAIN-SUFFIX,yiche.com
-#  与 China 共 670 条规则重复
+#  与 China 共 673 条规则重复
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,client.amplifi.com
@@ -678,6 +678,9 @@ payload:
   - DOMAIN-SUFFIX,zoho.com
   - IP-CIDR,1.255.62.0/24
   - IP-CIDR,119.28.28.28/32
+  - IP-CIDR,148.153.172.73/32
+  - IP-CIDR,148.153.172.74/31
+  - IP-CIDR,148.153.172.76/31
   - IP-CIDR,164.52.102.66/31
   - IP-CIDR,164.52.102.68/31
   - IP-CIDR,164.52.102.70/32
@@ -2211,7 +2214,7 @@ payload:
   - DOMAIN-SUFFIX,ugslb.com
   - DOMAIN-SUFFIX,ugslb.info
   - DOMAIN-SUFFIX,ugslb.net
-#  与 Alibaba 共 263 条规则重复
+#  与 Alibaba 共 264 条规则重复
   - DOMAIN-SUFFIX,1688.com
   - DOMAIN-SUFFIX,2-class.com
   - DOMAIN-SUFFIX,25pp.com
@@ -2398,6 +2401,7 @@ payload:
   - DOMAIN-SUFFIX,kunlunta.com
   - DOMAIN-SUFFIX,kunlunvi.com
   - DOMAIN-SUFFIX,kunlunwe.com
+  - DOMAIN-SUFFIX,lahuashanbx.com
   - DOMAIN-SUFFIX,lazada.com
   - DOMAIN-SUFFIX,liangxinyao.com
   - DOMAIN-SUFFIX,linezing.com

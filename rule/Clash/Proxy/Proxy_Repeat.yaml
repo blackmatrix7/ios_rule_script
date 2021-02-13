@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-13 02:42:29.177214
+# UPDATED: 2021-02-14 02:41:30.430394
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Github 共 6 条规则重复
@@ -80,7 +80,7 @@ payload:
   - DOMAIN-SUFFIX,voxfieldguide.com
   - DOMAIN-SUFFIX,voxmedia.com
   - DOMAIN-SUFFIX,voxops.net
-#  与 Global 共 28197 条规则重复
+#  与 Global 共 28198 条规则重复
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
   - DOMAIN,assets-priconne-redive-us.akamaized.net
@@ -13178,6 +13178,7 @@ payload:
   - DOMAIN-SUFFIX,johren.net
   - DOMAIN-SUFFIX,joinbbs.net
   - DOMAIN-SUFFIX,joinbl.xyz
+  - DOMAIN-SUFFIX,joinclubhouse.com
   - DOMAIN-SUFFIX,joinmaidez.com
   - DOMAIN-SUFFIX,joinmastodon.org
   - DOMAIN-SUFFIX,jojofx.com

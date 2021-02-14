@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-14 02:41:23.590476
-# DOMAIN-SUFFIX: 28060
+# UPDATED: 2021-02-15 02:42:10.330829
+# DOMAIN-SUFFIX: 28062
 # DOMAIN: 35
 # DOMAIN-KEYWORD: 29
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 28215
+# TOTAL: 28217
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
@@ -14681,6 +14681,7 @@ payload:
   - DOMAIN-SUFFIX,medium.com
   - DOMAIN-SUFFIX,medium.systems
   - DOMAIN-SUFFIX,medley.com
+  - DOMAIN-SUFFIX,medrxiv.org
   - DOMAIN-SUFFIX,meebo.com
   - DOMAIN-SUFFIX,meet.new
   - DOMAIN-SUFFIX,meetav.com
@@ -27902,6 +27903,7 @@ payload:
   - DOMAIN-SUFFIX,zengjinyan.org
   - DOMAIN-SUFFIX,zenguard.org
   - DOMAIN-SUFFIX,zenmate.com
+  - DOMAIN-SUFFIX,zenodo.org
   - DOMAIN-SUFFIX,zentekinternational.com
   - DOMAIN-SUFFIX,zenvpn.net
   - DOMAIN-SUFFIX,zeplin.dev

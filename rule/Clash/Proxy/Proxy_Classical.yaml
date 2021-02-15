@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-15 02:42:10.330829
-# DOMAIN-SUFFIX: 28062
-# DOMAIN: 35
+# UPDATED: 2021-02-16 02:43:50.753110
+# DOMAIN-SUFFIX: 28051
+# DOMAIN: 34
 # DOMAIN-KEYWORD: 29
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 28217
+# TOTAL: 28205
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
@@ -38,7 +38,6 @@ payload:
   - DOMAIN,push-apple.com.akadns.net
   - DOMAIN,statics-marketingsites-eus-ms-com.akamaized.net
   - DOMAIN,statics-marketingsites-wcus-ms-com.akamaized.net
-  - DOMAIN,steambroadcast.akamaized.net
   - DOMAIN,tesla-cdn.thron.com
   - DOMAIN,videos-rockstargames-com.akamaized.net
   - DOMAIN,voice.telephony.goog
@@ -15552,7 +15551,6 @@ payload:
   - DOMAIN-SUFFIX,my.gfw.cat
   - DOMAIN-SUFFIX,my.jumpthewall.net
   - DOMAIN-SUFFIX,my.shadowsocksr.vip
-  - DOMAIN-SUFFIX,my.steamchina.com
   - DOMAIN-SUFFIX,my.tranzact.com
   - DOMAIN-SUFFIX,my03.com
   - DOMAIN-SUFFIX,my13la.com
@@ -20135,7 +20133,6 @@ payload:
   - DOMAIN-SUFFIX,sss.camp
   - DOMAIN-SUFFIX,sss773.net
   - DOMAIN-SUFFIX,sstatic.net
-  - DOMAIN-SUFFIX,ssteam.me
   - DOMAIN-SUFFIX,sstm.moe
   - DOMAIN-SUFFIX,sstmlt.com
   - DOMAIN-SUFFIX,sstmlt.moe
@@ -20235,14 +20232,6 @@ payload:
   - DOMAIN-SUFFIX,stcroixmosquitoproject.com
   - DOMAIN-SUFFIX,stealthproxy.co.uk
   - DOMAIN-SUFFIX,stealthvisitor.com
-  - DOMAIN-SUFFIX,steam-chat.com
-  - DOMAIN-SUFFIX,steamcommunity.com
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamgames.com
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,steamunlocked.net
-  - DOMAIN-SUFFIX,steamusercontent.com
   - DOMAIN-SUFFIX,steco.net
   - DOMAIN-SUFFIX,steel-storm.com
   - DOMAIN-SUFFIX,steelbrick.com
@@ -26266,7 +26255,6 @@ payload:
   - DOMAIN-SUFFIX,www.stadia.com
   - DOMAIN-SUFFIX,www.stark.red
   - DOMAIN-SUFFIX,www.stealthy.co
-  - DOMAIN-SUFFIX,www.steamedfish.org
   - DOMAIN-SUFFIX,www.stex.com
   - DOMAIN-SUFFIX,www.stianshi.com
   - DOMAIN-SUFFIX,www.stjohnsprepschool-ny.org

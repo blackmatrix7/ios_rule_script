@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-15 02:42:17.793694
+# UPDATED: 2021-02-16 02:43:57.510595
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Github 共 6 条规则重复
@@ -80,7 +80,7 @@ payload:
   - DOMAIN-SUFFIX,voxfieldguide.com
   - DOMAIN-SUFFIX,voxmedia.com
   - DOMAIN-SUFFIX,voxops.net
-#  与 Proxy 共 28200 条规则重复
+#  与 Proxy 共 28188 条规则重复
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
   - DOMAIN,assets-priconne-redive-us.akamaized.net
@@ -110,7 +110,6 @@ payload:
   - DOMAIN,push-apple.com.akadns.net
   - DOMAIN,statics-marketingsites-eus-ms-com.akamaized.net
   - DOMAIN,statics-marketingsites-wcus-ms-com.akamaized.net
-  - DOMAIN,steambroadcast.akamaized.net
   - DOMAIN,tesla-cdn.thron.com
   - DOMAIN,videos-rockstargames-com.akamaized.net
   - DOMAIN,widgets.stripst.com
@@ -15644,7 +15643,6 @@ payload:
   - DOMAIN-SUFFIX,my.gfw.cat
   - DOMAIN-SUFFIX,my.jumpthewall.net
   - DOMAIN-SUFFIX,my.shadowsocksr.vip
-  - DOMAIN-SUFFIX,my.steamchina.com
   - DOMAIN-SUFFIX,my.tranzact.com
   - DOMAIN-SUFFIX,my03.com
   - DOMAIN-SUFFIX,my13la.com
@@ -20226,7 +20224,6 @@ payload:
   - DOMAIN-SUFFIX,sss.camp
   - DOMAIN-SUFFIX,sss773.net
   - DOMAIN-SUFFIX,sstatic.net
-  - DOMAIN-SUFFIX,ssteam.me
   - DOMAIN-SUFFIX,sstm.moe
   - DOMAIN-SUFFIX,sstmlt.com
   - DOMAIN-SUFFIX,sstmlt.moe
@@ -20326,14 +20323,6 @@ payload:
   - DOMAIN-SUFFIX,stcroixmosquitoproject.com
   - DOMAIN-SUFFIX,stealthproxy.co.uk
   - DOMAIN-SUFFIX,stealthvisitor.com
-  - DOMAIN-SUFFIX,steam-chat.com
-  - DOMAIN-SUFFIX,steamcommunity.com
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamgames.com
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,steamunlocked.net
-  - DOMAIN-SUFFIX,steamusercontent.com
   - DOMAIN-SUFFIX,steco.net
   - DOMAIN-SUFFIX,steel-storm.com
   - DOMAIN-SUFFIX,steelbrick.com
@@ -26351,7 +26340,6 @@ payload:
   - DOMAIN-SUFFIX,www.stadia.com
   - DOMAIN-SUFFIX,www.stark.red
   - DOMAIN-SUFFIX,www.stealthy.co
-  - DOMAIN-SUFFIX,www.steamedfish.org
   - DOMAIN-SUFFIX,www.stex.com
   - DOMAIN-SUFFIX,www.stianshi.com
   - DOMAIN-SUFFIX,www.stjohnsprepschool-ny.org
@@ -30001,7 +29989,7 @@ payload:
   - DOMAIN-SUFFIX,ytimg.com
   - IP-CIDR,173.194.0.0/16
   - IP-CIDR,74.125.0.0/16
-#  与 Game 共 364 条规则重复
+#  与 Game 共 356 条规则重复
   - DOMAIN-SUFFIX,100classicbooks.com
   - DOMAIN-SUFFIX,ac-pocketcamp.com
   - DOMAIN-SUFFIX,amiibo.com
@@ -30290,14 +30278,6 @@ payload:
   - DOMAIN-SUFFIX,starwarsfallenorder.com
   - DOMAIN-SUFFIX,starwarsjedifallenorder.com
   - DOMAIN-SUFFIX,starwarstheoldrepublic.com
-  - DOMAIN-SUFFIX,steam-chat.com
-  - DOMAIN-SUFFIX,steamcommunity.com
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamgames.com
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,steamunlocked.net
-  - DOMAIN-SUFFIX,steamusercontent.com
   - DOMAIN-SUFFIX,supermario.com
   - DOMAIN-SUFFIX,supermario3dworld.com
   - DOMAIN-SUFFIX,supermariogalaxy.com
@@ -30780,20 +30760,6 @@ payload:
   - DOMAIN-SUFFIX,tvbanywhere.com
   - DOMAIN-SUFFIX,tvbusa.com
   - DOMAIN-SUFFIX,tvbweekly.com
-#  与 Steam 共 13 条规则重复
-  - DOMAIN-SUFFIX,fanatical.com
-  - DOMAIN-SUFFIX,humblebundle.com
-  - DOMAIN-SUFFIX,playartifact.com
-  - DOMAIN-SUFFIX,steam-chat.com
-  - DOMAIN-SUFFIX,steamcommunity.com
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamgames.com
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,steamunlocked.net
-  - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN-SUFFIX,underlords.com
-  - DOMAIN-SUFFIX,valvesoftware.com
 #  与 Garena 共 6 条规则重复
   - DOMAIN-SUFFIX,garena.co.id
   - DOMAIN-SUFFIX,garena.com

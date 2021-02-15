@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-15 02:42:15.228996
+# UPDATED: 2021-02-16 02:43:55.159292
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 Github 共 6 条规则重复
 HOST-KEYWORD,github
@@ -85,7 +85,7 @@ HOST-SUFFIX,voxcreative.com
 HOST-SUFFIX,voxfieldguide.com
 HOST-SUFFIX,voxmedia.com
 HOST-SUFFIX,voxops.net
-#  与 Proxy 共 28212 条规则重复
+#  与 Proxy 共 28200 条规则重复
 HOST,amp.akamaized.net
 HOST,apple.com.akadns.net
 HOST,assets-priconne-redive-us.akamaized.net
@@ -115,7 +115,6 @@ HOST,prd-priconne-redive.akamaized.net
 HOST,push-apple.com.akadns.net
 HOST,statics-marketingsites-eus-ms-com.akamaized.net
 HOST,statics-marketingsites-wcus-ms-com.akamaized.net
-HOST,steambroadcast.akamaized.net
 HOST,tesla-cdn.thron.com
 HOST,videos-rockstargames-com.akamaized.net
 HOST,widgets.stripst.com
@@ -15649,7 +15648,6 @@ HOST-SUFFIX,my.freev2ray.org
 HOST-SUFFIX,my.gfw.cat
 HOST-SUFFIX,my.jumpthewall.net
 HOST-SUFFIX,my.shadowsocksr.vip
-HOST-SUFFIX,my.steamchina.com
 HOST-SUFFIX,my.tranzact.com
 HOST-SUFFIX,my03.com
 HOST-SUFFIX,my13la.com
@@ -20231,7 +20229,6 @@ HOST-SUFFIX,ssrtool.com
 HOST-SUFFIX,sss.camp
 HOST-SUFFIX,sss773.net
 HOST-SUFFIX,sstatic.net
-HOST-SUFFIX,ssteam.me
 HOST-SUFFIX,sstm.moe
 HOST-SUFFIX,sstmlt.com
 HOST-SUFFIX,sstmlt.moe
@@ -20331,14 +20328,6 @@ HOST-SUFFIX,stcroixmosquito.com
 HOST-SUFFIX,stcroixmosquitoproject.com
 HOST-SUFFIX,stealthproxy.co.uk
 HOST-SUFFIX,stealthvisitor.com
-HOST-SUFFIX,steam-chat.com
-HOST-SUFFIX,steamcommunity.com
-HOST-SUFFIX,steamcontent.com
-HOST-SUFFIX,steamgames.com
-HOST-SUFFIX,steampowered.com
-HOST-SUFFIX,steamstatic.com
-HOST-SUFFIX,steamunlocked.net
-HOST-SUFFIX,steamusercontent.com
 HOST-SUFFIX,steco.net
 HOST-SUFFIX,steel-storm.com
 HOST-SUFFIX,steelbrick.com
@@ -26356,7 +26345,6 @@ HOST-SUFFIX,www.stackpathcdn.com
 HOST-SUFFIX,www.stadia.com
 HOST-SUFFIX,www.stark.red
 HOST-SUFFIX,www.stealthy.co
-HOST-SUFFIX,www.steamedfish.org
 HOST-SUFFIX,www.stex.com
 HOST-SUFFIX,www.stianshi.com
 HOST-SUFFIX,www.stjohnsprepschool-ny.org
@@ -29950,7 +29938,87 @@ HOST-SUFFIX,typekit.com
 HOST-SUFFIX,typekit.net
 HOST-SUFFIX,verisign.com
 HOST-SUFFIX,worldsecuresystems.com
-#  与 Game 共 364 条规则重复
+#  与 LineTV 共 5 条规则重复
+HOST-SUFFIX,chocotv.com.tw
+HOST-SUFFIX,line-cdn.net
+HOST-SUFFIX,line-scdn.net
+HOST-SUFFIX,linetv.tw
+USER-AGENT,LINE%20TV*
+#  与 Google 共 73 条规则重复
+HOST-KEYWORD,blogspot
+HOST-KEYWORD,gmail
+HOST-KEYWORD,google
+HOST-SUFFIX,265.com
+HOST-SUFFIX,2mdn.net
+HOST-SUFFIX,abc.xyz
+HOST-SUFFIX,ampproject.org
+HOST-SUFFIX,android.com
+HOST-SUFFIX,androidify.com
+HOST-SUFFIX,app-measurement.com
+HOST-SUFFIX,appspot.com
+HOST-SUFFIX,autodraw.com
+HOST-SUFFIX,blogger.com
+HOST-SUFFIX,capitalg.com
+HOST-SUFFIX,certificate-transparency.org
+HOST-SUFFIX,chrome.com
+HOST-SUFFIX,chromeexperiments.com
+HOST-SUFFIX,chromestatus.com
+HOST-SUFFIX,chromium.org
+HOST-SUFFIX,creativelab5.com
+HOST-SUFFIX,debug.com
+HOST-SUFFIX,deepmind.com
+HOST-SUFFIX,dialogflow.com
+HOST-SUFFIX,doubleclick.net
+HOST-SUFFIX,firebaseio.com
+HOST-SUFFIX,getmdl.io
+HOST-SUFFIX,getoutline.org
+HOST-SUFFIX,ggpht.com
+HOST-SUFFIX,gmail.com
+HOST-SUFFIX,gmodules.com
+HOST-SUFFIX,godoc.org
+HOST-SUFFIX,golang.org
+HOST-SUFFIX,google-analytics.com
+HOST-SUFFIX,google.cn
+HOST-SUFFIX,googleadservices.com
+HOST-SUFFIX,googleanalytics.com
+HOST-SUFFIX,googleapis.com
+HOST-SUFFIX,googledrive.com
+HOST-SUFFIX,googlesyndication.com
+HOST-SUFFIX,googletagmanager.com
+HOST-SUFFIX,googletagservices.com
+HOST-SUFFIX,googleusercontent.com
+HOST-SUFFIX,gstatic.com
+HOST-SUFFIX,gtm.oasisfeng.com
+HOST-SUFFIX,gv.com
+HOST-SUFFIX,gvt0.com
+HOST-SUFFIX,gvt1.com
+HOST-SUFFIX,gvt3.com
+HOST-SUFFIX,gwtproject.org
+HOST-SUFFIX,itasoftware.com
+HOST-SUFFIX,madewithcode.com
+HOST-SUFFIX,material.io
+HOST-SUFFIX,polymer-project.org
+HOST-SUFFIX,recaptcha.net
+HOST-SUFFIX,shattered.io
+HOST-SUFFIX,synergyse.com
+HOST-SUFFIX,telephony.goog
+HOST-SUFFIX,tensorflow.org
+HOST-SUFFIX,tfhub.dev
+HOST-SUFFIX,tiltbrush.com
+HOST-SUFFIX,waveprotocol.org
+HOST-SUFFIX,waymo.com
+HOST-SUFFIX,webmproject.org
+HOST-SUFFIX,webrtc.org
+HOST-SUFFIX,whatbrowser.org
+HOST-SUFFIX,widevine.com
+HOST-SUFFIX,x.company
+HOST-SUFFIX,xn--ngstr-lra8j.com
+HOST-SUFFIX,youtu.be
+HOST-SUFFIX,yt.be
+HOST-SUFFIX,ytimg.com
+IP-CIDR,173.194.0.0/16
+IP-CIDR,74.125.0.0/16
+#  与 Game 共 356 条规则重复
 HOST-SUFFIX,100classicbooks.com
 HOST-SUFFIX,ac-pocketcamp.com
 HOST-SUFFIX,amiibo.com
@@ -30239,14 +30307,6 @@ HOST-SUFFIX,starwarsbattlefront2.com
 HOST-SUFFIX,starwarsfallenorder.com
 HOST-SUFFIX,starwarsjedifallenorder.com
 HOST-SUFFIX,starwarstheoldrepublic.com
-HOST-SUFFIX,steam-chat.com
-HOST-SUFFIX,steamcommunity.com
-HOST-SUFFIX,steamcontent.com
-HOST-SUFFIX,steamgames.com
-HOST-SUFFIX,steampowered.com
-HOST-SUFFIX,steamstatic.com
-HOST-SUFFIX,steamunlocked.net
-HOST-SUFFIX,steamusercontent.com
 HOST-SUFFIX,supermario.com
 HOST-SUFFIX,supermario3dworld.com
 HOST-SUFFIX,supermariogalaxy.com
@@ -30315,86 +30375,6 @@ HOST-SUFFIX,xenoblade.com
 HOST-SUFFIX,xn--mts47c3w9b1qr.net
 HOST-SUFFIX,yogify.com
 HOST-SUFFIX,yoshisnewisland.com
-#  与 LineTV 共 5 条规则重复
-HOST-SUFFIX,chocotv.com.tw
-HOST-SUFFIX,line-cdn.net
-HOST-SUFFIX,line-scdn.net
-HOST-SUFFIX,linetv.tw
-USER-AGENT,LINE%20TV*
-#  与 Google 共 73 条规则重复
-HOST-KEYWORD,blogspot
-HOST-KEYWORD,gmail
-HOST-KEYWORD,google
-HOST-SUFFIX,265.com
-HOST-SUFFIX,2mdn.net
-HOST-SUFFIX,abc.xyz
-HOST-SUFFIX,ampproject.org
-HOST-SUFFIX,android.com
-HOST-SUFFIX,androidify.com
-HOST-SUFFIX,app-measurement.com
-HOST-SUFFIX,appspot.com
-HOST-SUFFIX,autodraw.com
-HOST-SUFFIX,blogger.com
-HOST-SUFFIX,capitalg.com
-HOST-SUFFIX,certificate-transparency.org
-HOST-SUFFIX,chrome.com
-HOST-SUFFIX,chromeexperiments.com
-HOST-SUFFIX,chromestatus.com
-HOST-SUFFIX,chromium.org
-HOST-SUFFIX,creativelab5.com
-HOST-SUFFIX,debug.com
-HOST-SUFFIX,deepmind.com
-HOST-SUFFIX,dialogflow.com
-HOST-SUFFIX,doubleclick.net
-HOST-SUFFIX,firebaseio.com
-HOST-SUFFIX,getmdl.io
-HOST-SUFFIX,getoutline.org
-HOST-SUFFIX,ggpht.com
-HOST-SUFFIX,gmail.com
-HOST-SUFFIX,gmodules.com
-HOST-SUFFIX,godoc.org
-HOST-SUFFIX,golang.org
-HOST-SUFFIX,google-analytics.com
-HOST-SUFFIX,google.cn
-HOST-SUFFIX,googleadservices.com
-HOST-SUFFIX,googleanalytics.com
-HOST-SUFFIX,googleapis.com
-HOST-SUFFIX,googledrive.com
-HOST-SUFFIX,googlesyndication.com
-HOST-SUFFIX,googletagmanager.com
-HOST-SUFFIX,googletagservices.com
-HOST-SUFFIX,googleusercontent.com
-HOST-SUFFIX,gstatic.com
-HOST-SUFFIX,gtm.oasisfeng.com
-HOST-SUFFIX,gv.com
-HOST-SUFFIX,gvt0.com
-HOST-SUFFIX,gvt1.com
-HOST-SUFFIX,gvt3.com
-HOST-SUFFIX,gwtproject.org
-HOST-SUFFIX,itasoftware.com
-HOST-SUFFIX,madewithcode.com
-HOST-SUFFIX,material.io
-HOST-SUFFIX,polymer-project.org
-HOST-SUFFIX,recaptcha.net
-HOST-SUFFIX,shattered.io
-HOST-SUFFIX,synergyse.com
-HOST-SUFFIX,telephony.goog
-HOST-SUFFIX,tensorflow.org
-HOST-SUFFIX,tfhub.dev
-HOST-SUFFIX,tiltbrush.com
-HOST-SUFFIX,waveprotocol.org
-HOST-SUFFIX,waymo.com
-HOST-SUFFIX,webmproject.org
-HOST-SUFFIX,webrtc.org
-HOST-SUFFIX,whatbrowser.org
-HOST-SUFFIX,widevine.com
-HOST-SUFFIX,x.company
-HOST-SUFFIX,xn--ngstr-lra8j.com
-HOST-SUFFIX,youtu.be
-HOST-SUFFIX,yt.be
-HOST-SUFFIX,ytimg.com
-IP-CIDR,173.194.0.0/16
-IP-CIDR,74.125.0.0/16
 #  与 NYTimes 共 11 条规则重复
 HOST-SUFFIX,nyt.com
 HOST-SUFFIX,nyt.net
@@ -30777,20 +30757,6 @@ HOST-SUFFIX,now-ashare.com
 HOST-SUFFIX,now-tv.com
 HOST-SUFFIX,nowe.com
 USER-AGENT,HBO%20NOW*
-#  与 Steam 共 13 条规则重复
-HOST-SUFFIX,fanatical.com
-HOST-SUFFIX,humblebundle.com
-HOST-SUFFIX,playartifact.com
-HOST-SUFFIX,steam-chat.com
-HOST-SUFFIX,steamcommunity.com
-HOST-SUFFIX,steamcontent.com
-HOST-SUFFIX,steamgames.com
-HOST-SUFFIX,steampowered.com
-HOST-SUFFIX,steamstatic.com
-HOST-SUFFIX,steamunlocked.net
-HOST-SUFFIX,steamusercontent.com
-HOST-SUFFIX,underlords.com
-HOST-SUFFIX,valvesoftware.com
 #  与 Garena 共 6 条规则重复
 HOST-SUFFIX,garena.co.id
 HOST-SUFFIX,garena.com

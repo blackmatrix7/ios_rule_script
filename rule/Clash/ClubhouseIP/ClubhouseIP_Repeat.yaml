@@ -1,10 +1,10 @@
 # NAME: ClubhouseIP 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-16 02:43:58.444880
+# UPDATED: 2021-02-17 02:43:25.750572
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
-#  与 Clubhouse 共 36 条规则重复
+#  与 Clubhouse 共 35 条规则重复
   - IP-CIDR,103.65.41.132/32
   - IP-CIDR,103.65.41.137/32
   - IP-CIDR,103.65.41.139/32
@@ -15,7 +15,6 @@ payload:
   - IP-CIDR,129.227.57.130/32
   - IP-CIDR,129.227.57.135/32
   - IP-CIDR,129.227.57.136/32
-  - IP-CIDR,129.227.57.138/32
   - IP-CIDR,129.227.57.144/32
   - IP-CIDR,129.227.57.146/31
   - IP-CIDR,13.230.60.35/32

@@ -1,7 +1,7 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-16 02:43:57.856529
+# UPDATED: 2021-02-17 02:43:25.152386
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 DanDanZan 共 7 条规则重复
@@ -25,7 +25,7 @@ payload:
   - DOMAIN-SUFFIX,cheyisou.com
   - DOMAIN-SUFFIX,yccdn.com
   - DOMAIN-SUFFIX,yiche.com
-#  与 China 共 694 条规则重复
+#  与 China 共 703 条规则重复
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,client.amplifi.com
@@ -87,6 +87,7 @@ payload:
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acs.org
   - DOMAIN-SUFFIX,adobesc.com
+  - DOMAIN-SUFFIX,agora.io
   - DOMAIN-SUFFIX,aicoinstorge.com
   - DOMAIN-SUFFIX,aip.org
   - DOMAIN-SUFFIX,air-matters.com
@@ -435,6 +436,7 @@ payload:
   - DOMAIN-SUFFIX,nim-lang-cn.org
   - DOMAIN-SUFFIX,novipnoad.com
   - DOMAIN-SUFFIX,nssurge.com
+  - DOMAIN-SUFFIX,ntp.org
   - DOMAIN-SUFFIX,nuomi.com
   - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-SUFFIX,oecd-ilibrary.org
@@ -677,21 +679,25 @@ payload:
   - DOMAIN-SUFFIX,zmzfile.com
   - DOMAIN-SUFFIX,zoho.com
   - IP-CIDR,1.255.62.0/24
+  - IP-CIDR,103.65.41.130/32
   - IP-CIDR,103.65.41.132/32
   - IP-CIDR,103.65.41.137/32
   - IP-CIDR,103.65.41.139/32
+  - IP-CIDR,103.65.41.152/32
   - IP-CIDR,103.65.41.157/32
   - IP-CIDR,103.65.41.159/32
   - IP-CIDR,103.65.41.166/32
   - IP-CIDR,103.65.41.169/32
   - IP-CIDR,119.28.28.28/32
   - IP-CIDR,129.227.57.130/32
+  - IP-CIDR,129.227.57.133/32
   - IP-CIDR,129.227.57.135/32
   - IP-CIDR,129.227.57.136/32
-  - IP-CIDR,129.227.57.138/32
+  - IP-CIDR,129.227.57.138/31
   - IP-CIDR,129.227.57.144/32
   - IP-CIDR,129.227.57.146/31
   - IP-CIDR,13.230.60.35/32
+  - IP-CIDR,148.153.126.147/32
   - IP-CIDR,148.153.172.73/32
   - IP-CIDR,148.153.172.74/31
   - IP-CIDR,148.153.172.76/31
@@ -704,8 +710,11 @@ payload:
   - IP-CIDR,182.254.116.0/24
   - IP-CIDR,185.188.32.0/22
   - IP-CIDR,199.190.44.36/31
+  - IP-CIDR,202.181.136.108/32
+  - IP-CIDR,202.226.25.166/32
   - IP-CIDR,23.98.43.152/32
   - IP-CIDR,3.0.163.78/32
+  - IP-CIDR,35.156.231.150/32
   - IP-CIDR,35.168.106.53/32
   - IP-CIDR,35.178.208.187/32
   - IP-CIDR,50.18.128.22/32
@@ -735,21 +744,25 @@ payload:
   - DOMAIN-SUFFIX,everbright.com
   - DOMAIN-SUFFIX,secec.com
   - DOMAIN-SUFFIX,sunlife-everbright.com
-#  与 Clubhouse 共 36 条规则重复
+#  与 Clubhouse 共 43 条规则重复
+  - IP-CIDR,103.65.41.130/32
   - IP-CIDR,103.65.41.132/32
   - IP-CIDR,103.65.41.137/32
   - IP-CIDR,103.65.41.139/32
+  - IP-CIDR,103.65.41.152/32
   - IP-CIDR,103.65.41.157/32
   - IP-CIDR,103.65.41.159/32
   - IP-CIDR,103.65.41.166/32
   - IP-CIDR,103.65.41.169/32
   - IP-CIDR,129.227.57.130/32
+  - IP-CIDR,129.227.57.133/32
   - IP-CIDR,129.227.57.135/32
   - IP-CIDR,129.227.57.136/32
-  - IP-CIDR,129.227.57.138/32
+  - IP-CIDR,129.227.57.138/31
   - IP-CIDR,129.227.57.144/32
   - IP-CIDR,129.227.57.146/31
   - IP-CIDR,13.230.60.35/32
+  - IP-CIDR,148.153.126.147/32
   - IP-CIDR,148.153.172.73/32
   - IP-CIDR,148.153.172.74/31
   - IP-CIDR,148.153.172.76/31
@@ -760,8 +773,11 @@ payload:
   - IP-CIDR,164.52.102.76/31
   - IP-CIDR,164.52.102.91/32
   - IP-CIDR,199.190.44.36/31
+  - IP-CIDR,202.181.136.108/32
+  - IP-CIDR,202.226.25.166/32
   - IP-CIDR,23.98.43.152/32
   - IP-CIDR,3.0.163.78/32
+  - IP-CIDR,35.156.231.150/32
   - IP-CIDR,35.168.106.53/32
   - IP-CIDR,35.178.208.187/32
   - IP-CIDR,50.18.128.22/32
@@ -1088,43 +1104,6 @@ payload:
   - DOMAIN-SUFFIX,quanxiangyun.com
   - DOMAIN-SUFFIX,routewize.com
   - DOMAIN-SUFFIX,yunify.com
-#  与 ClubhouseIP 共 36 条规则重复
-  - IP-CIDR,103.65.41.132/32
-  - IP-CIDR,103.65.41.137/32
-  - IP-CIDR,103.65.41.139/32
-  - IP-CIDR,103.65.41.157/32
-  - IP-CIDR,103.65.41.159/32
-  - IP-CIDR,103.65.41.166/32
-  - IP-CIDR,103.65.41.169/32
-  - IP-CIDR,129.227.57.130/32
-  - IP-CIDR,129.227.57.135/32
-  - IP-CIDR,129.227.57.136/32
-  - IP-CIDR,129.227.57.138/32
-  - IP-CIDR,129.227.57.144/32
-  - IP-CIDR,129.227.57.146/31
-  - IP-CIDR,13.230.60.35/32
-  - IP-CIDR,148.153.172.73/32
-  - IP-CIDR,148.153.172.74/31
-  - IP-CIDR,148.153.172.76/31
-  - IP-CIDR,164.52.102.66/31
-  - IP-CIDR,164.52.102.68/31
-  - IP-CIDR,164.52.102.70/32
-  - IP-CIDR,164.52.102.75/32
-  - IP-CIDR,164.52.102.76/31
-  - IP-CIDR,164.52.102.91/32
-  - IP-CIDR,199.190.44.36/31
-  - IP-CIDR,23.98.43.152/32
-  - IP-CIDR,3.0.163.78/32
-  - IP-CIDR,35.168.106.53/32
-  - IP-CIDR,35.178.208.187/32
-  - IP-CIDR,50.18.128.22/32
-  - IP-CIDR,52.178.26.110/32
-  - IP-CIDR,52.194.158.59/32
-  - IP-CIDR,52.221.46.208/32
-  - IP-CIDR,52.52.84.170/32
-  - IP-CIDR,52.58.56.244/32
-  - IP-CIDR,54.178.26.110/32
-  - IP-CIDR,69.28.51.148/32
 #  与 UPYun 共 9 条规则重复
   - DOMAIN-SUFFIX,aicdn.com
   - DOMAIN-SUFFIX,aicdn2.com
@@ -1163,6 +1142,42 @@ payload:
   - DOMAIN-SUFFIX,anav.com
   - DOMAIN-SUFFIX,autonavi.com
   - DOMAIN-SUFFIX,gaode.com
+#  与 ClubhouseIP 共 35 条规则重复
+  - IP-CIDR,103.65.41.132/32
+  - IP-CIDR,103.65.41.137/32
+  - IP-CIDR,103.65.41.139/32
+  - IP-CIDR,103.65.41.157/32
+  - IP-CIDR,103.65.41.159/32
+  - IP-CIDR,103.65.41.166/32
+  - IP-CIDR,103.65.41.169/32
+  - IP-CIDR,129.227.57.130/32
+  - IP-CIDR,129.227.57.135/32
+  - IP-CIDR,129.227.57.136/32
+  - IP-CIDR,129.227.57.144/32
+  - IP-CIDR,129.227.57.146/31
+  - IP-CIDR,13.230.60.35/32
+  - IP-CIDR,148.153.172.73/32
+  - IP-CIDR,148.153.172.74/31
+  - IP-CIDR,148.153.172.76/31
+  - IP-CIDR,164.52.102.66/31
+  - IP-CIDR,164.52.102.68/31
+  - IP-CIDR,164.52.102.70/32
+  - IP-CIDR,164.52.102.75/32
+  - IP-CIDR,164.52.102.76/31
+  - IP-CIDR,164.52.102.91/32
+  - IP-CIDR,199.190.44.36/31
+  - IP-CIDR,23.98.43.152/32
+  - IP-CIDR,3.0.163.78/32
+  - IP-CIDR,35.168.106.53/32
+  - IP-CIDR,35.178.208.187/32
+  - IP-CIDR,50.18.128.22/32
+  - IP-CIDR,52.178.26.110/32
+  - IP-CIDR,52.194.158.59/32
+  - IP-CIDR,52.221.46.208/32
+  - IP-CIDR,52.52.84.170/32
+  - IP-CIDR,52.58.56.244/32
+  - IP-CIDR,54.178.26.110/32
+  - IP-CIDR,69.28.51.148/32
 #  与 FeiZhu 共 11 条规则重复
   - DOMAIN-SUFFIX,alitrip.com
   - DOMAIN-SUFFIX,asczwa.com
@@ -1486,26 +1501,7 @@ payload:
   - DOMAIN-SUFFIX,zhuancorp.com
   - DOMAIN-SUFFIX,zhuanspirit.com
   - DOMAIN-SUFFIX,zhuanzhuan.com
-#  与 YunFanJiaSu 共 12 条规则重复
-  - DOMAIN-SUFFIX,yfcache.com
-  - DOMAIN-SUFFIX,yfcalc.com
-  - DOMAIN-SUFFIX,yfcdn.net
-  - DOMAIN-SUFFIX,yfcloud.com
-  - DOMAIN-SUFFIX,yfcloud.io
-  - DOMAIN-SUFFIX,yfdns.net
-  - DOMAIN-SUFFIX,yfdts.net
-  - DOMAIN-SUFFIX,yfp2p.net
-  - DOMAIN-SUFFIX,yfscdn.com
-  - DOMAIN-SUFFIX,yfscdn.net
-  - DOMAIN-SUFFIX,yunfancdn.com
-  - DOMAIN-SUFFIX,yunfandns.com
-#  与 Eleme 共 5 条规则重复
-  - DOMAIN-SUFFIX,ele.me
-  - DOMAIN-SUFFIX,ele.to
-  - DOMAIN-SUFFIX,eleme.io
-  - DOMAIN-SUFFIX,elemecdn.com
-  - DOMAIN-SUFFIX,elenet.me
-#  与 NetEase 共 37 条规则重复
+#  与 NetEase 共 38 条规则重复
   - DOMAIN-SUFFIX,126.am
   - DOMAIN-SUFFIX,126.com
   - DOMAIN-SUFFIX,126.fm
@@ -1536,6 +1532,7 @@ payload:
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,netease.im
   - DOMAIN-SUFFIX,qiyukf.com
+  - DOMAIN-SUFFIX,qiyukf.net
   - DOMAIN-SUFFIX,tx163.com
   - DOMAIN-SUFFIX,ydstatic.com
   - DOMAIN-SUFFIX,yeah.net
@@ -1543,6 +1540,25 @@ payload:
   - DOMAIN-SUFFIX,youdao.com
   - DOMAIN-SUFFIX,yqkk.link
   - DOMAIN-SUFFIX,zhuanzfx.com
+#  与 YunFanJiaSu 共 12 条规则重复
+  - DOMAIN-SUFFIX,yfcache.com
+  - DOMAIN-SUFFIX,yfcalc.com
+  - DOMAIN-SUFFIX,yfcdn.net
+  - DOMAIN-SUFFIX,yfcloud.com
+  - DOMAIN-SUFFIX,yfcloud.io
+  - DOMAIN-SUFFIX,yfdns.net
+  - DOMAIN-SUFFIX,yfdts.net
+  - DOMAIN-SUFFIX,yfp2p.net
+  - DOMAIN-SUFFIX,yfscdn.com
+  - DOMAIN-SUFFIX,yfscdn.net
+  - DOMAIN-SUFFIX,yunfancdn.com
+  - DOMAIN-SUFFIX,yunfandns.com
+#  与 Eleme 共 5 条规则重复
+  - DOMAIN-SUFFIX,ele.me
+  - DOMAIN-SUFFIX,ele.to
+  - DOMAIN-SUFFIX,eleme.io
+  - DOMAIN-SUFFIX,elemecdn.com
+  - DOMAIN-SUFFIX,elenet.me
 #  与 QiNiuYun 共 19 条规则重复
   - DOMAIN-SUFFIX,clouddn.com
   - DOMAIN-SUFFIX,cloudvdn.com

@@ -8,11 +8,11 @@
 
 
 
-最后检查时间：2021-02-16 02:44:22.716580。
+最后检查时间：2021-02-17 02:43:50.362863。
 
 ## 规则统计
 
-总计规则：40 条。
+总计规则：47 条。
 
 各类型规则统计：
 
@@ -20,7 +20,7 @@
 | ---- | ---- |
 | DOMAIN-SUFFIX | 2 |
 | DOMAIN | 2 |
-| IP-CIDR | 36 |
+| IP-CIDR | 43 |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -48,7 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [ClubhouseIP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ClubhouseIP)    | 63   | [36](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Clubhouse/Clubhouse_Repeat.list)   |   57.14% |
+|  [ClubhouseIP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ClubhouseIP)    | 63   | [35](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Clubhouse/Clubhouse_Repeat.list)   |   55.56% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

@@ -9,19 +9,19 @@
 
 去广告测试版分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。程序已默认根据正则推导一份MITM的模块/复写/插件在当前分流规则的目录中，便于参考搭配使用。
 
-最后检查时间：2021-02-16 02:44:30.629786。
+最后检查时间：2021-02-17 02:43:58.332678。
 
 ## 规则统计
 
-总计规则：80575 条。
+总计规则：80614 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-KEYWORD | 60 |
-| DOMAIN-SUFFIX | 64736 |
-| DOMAIN | 15228 |
+| DOMAIN-SUFFIX | 64772 |
+| DOMAIN | 15231 |
 | IP-CIDR | 240 |
 | USER-AGENT | 1 |
 | URL-REGEX | 310 |
@@ -76,9 +76,9 @@ AdvertisingTest_Domain.list请使用DOMAIN-SET。
 |  [Hijacking](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Hijacking)    | 219   | [212](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   96.8% |
 |  [JiGuangTuiSong](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/JiGuangTuiSong)    | 17   | [16](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   94.12% |
 |  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Privacy)    | 2839   | [2592](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   91.3% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Advertising)    | 64917   | [58841](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   90.64% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Advertising)    | 64988   | [58915](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   90.66% |
 |  [UC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/UC)    | 38   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   60.53% |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingLite)    | 31266   | [15990](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   51.14% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingLite)    | 31271   | [15986](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   51.12% |
 |  [Domob](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Domob)    | 26   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Repeat.list)   |   23.08% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。

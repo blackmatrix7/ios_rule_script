@@ -8,21 +8,21 @@
 
 
 
-最后检查时间：2021-02-16 02:44:18.427320。
+最后检查时间：2021-02-17 02:43:46.084696。
 
 ## 规则统计
 
-总计规则：729 条。
+总计规则：738 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 626 |
+| DOMAIN-SUFFIX | 628 |
 | USER-AGENT | 32 |
 | DOMAIN-KEYWORD | 12 |
 | DOMAIN | 15 |
-| IP-CIDR | 40 |
+| IP-CIDR | 47 |
 | IP-CIDR6 | 4 |
 ## 配置说明
 
@@ -52,11 +52,11 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [DanDanZan](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DanDanZan)    | 7   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Repeat.list)   |   100.0% |
-|  [Clubhouse](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Clubhouse)    | 40   | [36](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Repeat.list)   |   90.0% |
+|  [Clubhouse](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Clubhouse)    | 47   | [43](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Repeat.list)   |   91.49% |
 |  [Sony](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Sony)    | 6   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Repeat.list)   |   83.33% |
 |  [Scholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scholar)    | 76   | [56](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Repeat.list)   |   73.68% |
 |  [MeiTuan](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/MeiTuan)    | 7   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Repeat.list)   |   71.43% |
-|  [ClubhouseIP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ClubhouseIP)    | 63   | [36](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Repeat.list)   |   57.14% |
+|  [ClubhouseIP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ClubhouseIP)    | 63   | [35](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Repeat.list)   |   55.56% |
 |  [TeamViewer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TeamViewer)    | 10   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Repeat.list)   |   50.0% |
 |  [YYeTs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/YYeTs)    | 21   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Repeat.list)   |   42.86% |
 |  [SteamCN](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/SteamCN)    | 14   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Repeat.list)   |   35.71% |

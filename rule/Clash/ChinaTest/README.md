@@ -8,20 +8,20 @@
 
 
 
-最后检查时间：2021-02-16 02:44:26.185437。
+最后检查时间：2021-02-17 02:43:53.872495。
 
 ## 规则统计
 
-总计规则：71446 条。
+总计规则：71464 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 71303 |
+| DOMAIN-SUFFIX | 71314 |
 | DOMAIN-KEYWORD | 13 |
 | DOMAIN | 86 |
-| IP-CIDR | 40 |
+| IP-CIDR | 47 |
 | IP-CIDR6 | 4 |
 ## 配置说明
 
@@ -62,9 +62,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 |  [DanDanZan](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DanDanZan)    | 7   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   100.0% |
 |  [LanZouYun](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LanZouYun)    | 6   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   100.0% |
 |  [YiChe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YiChe)    | 5   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   100.0% |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 697   | [694](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   99.57% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China)    | 706   | [703](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   99.58% |
 |  [CEB](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CEB)    | 15   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   93.33% |
-|  [Clubhouse](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Clubhouse)    | 40   | [36](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   90.0% |
+|  [Clubhouse](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Clubhouse)    | 47   | [43](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   91.49% |
 |  [Xunlei](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Xunlei)    | 8   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   87.5% |
 |  [XieCheng](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XieCheng)    | 29   | [25](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   86.21% |
 |  [MeiTuan](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MeiTuan)    | 7   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   85.71% |
@@ -89,11 +89,11 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 |  [LeTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LeTV)    | 13   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   61.54% |
 |  [Teambition](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Teambition)    | 10   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   60.0% |
 |  [QingCloud](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/QingCloud)    | 12   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   58.33% |
-|  [ClubhouseIP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ClubhouseIP)    | 63   | [36](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   57.14% |
 |  [UPYun](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/UPYun)    | 16   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   56.25% |
 |  [115](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/115)    | 9   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   55.56% |
 |  [CITIC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CITIC)    | 27   | [15](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   55.56% |
 |  [GaoDe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GaoDe)    | 9   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   55.56% |
+|  [ClubhouseIP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ClubhouseIP)    | 63   | [35](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   55.56% |
 |  [FeiZhu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FeiZhu)    | 20   | [11](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   55.0% |
 |  [RuanMei](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/RuanMei)    | 22   | [12](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   54.55% |
 |  [XueQiu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XueQiu)    | 11   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   54.55% |
@@ -112,9 +112,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 |  [HuanJu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HuanJu)    | 20   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   45.0% |
 |  [SFExpress](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SFExpress)    | 20   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   45.0% |
 |  [58TongCheng](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/58TongCheng)    | 49   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   44.9% |
+|  [NetEase](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEase)    | 97   | [38](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   39.18% |
 |  [YunFanJiaSu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YunFanJiaSu)    | 31   | [12](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   38.71% |
 |  [Eleme](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Eleme)    | 13   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   38.46% |
-|  [NetEase](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEase)    | 97   | [37](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   38.14% |
 |  [QiNiuYun](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/QiNiuYun)    | 51   | [19](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   37.25% |
 |  [KouDaiShiShang](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/KouDaiShiShang)    | 22   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   36.36% |
 |  [WangSuKeJi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WangSuKeJi)    | 189   | [68](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest/ChinaTest_Repeat.list)   |   35.98% |

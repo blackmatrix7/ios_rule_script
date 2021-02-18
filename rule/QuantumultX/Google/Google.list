@@ -1,12 +1,12 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-17 02:43:14.244750
+# UPDATED: 2021-02-18 12:19:35.892267
 # USER-AGENT: 3
-# HOST-SUFFIX: 94
-# HOST-KEYWORD: 5
+# HOST-SUFFIX: 98
+# HOST-KEYWORD: 8
 # IP-CIDR: 2
-# TOTAL: 104
+# TOTAL: 111
 HOST-SUFFIX,265.com,Google
 HOST-SUFFIX,2mdn.net,Google
 HOST-SUFFIX,abc.xyz,Google
@@ -17,7 +17,6 @@ HOST-SUFFIX,androidify.com,Google
 HOST-SUFFIX,app-measurement.com,Google
 HOST-SUFFIX,appspot.com,Google
 HOST-SUFFIX,autodraw.com,Google
-HOST-SUFFIX,beacons.gcp.gvt2.com,Google
 HOST-SUFFIX,beacons.gvt2.com,Google
 HOST-SUFFIX,beacons3.gvt2.com,Google
 HOST-SUFFIX,blogger.com,Google
@@ -25,6 +24,7 @@ HOST-SUFFIX,c.admob.com,Google
 HOST-SUFFIX,c.android.clients.google.com,Google
 HOST-SUFFIX,cache.pack.google.com,Google
 HOST-SUFFIX,capitalg.com,Google
+HOST-SUFFIX,certificate-transparency.dev,Google
 HOST-SUFFIX,certificate-transparency.org,Google
 HOST-SUFFIX,chrome.com,Google
 HOST-SUFFIX,chromeexperiments.com,Google
@@ -44,6 +44,7 @@ HOST-SUFFIX,doubleclick.net,Google
 HOST-SUFFIX,drive.google.com,Google
 HOST-SUFFIX,firebase-settings.crashlytics.com,Google
 HOST-SUFFIX,firebaseio.com,Google
+HOST-SUFFIX,gcp.gvt2.com,Google
 HOST-SUFFIX,getmdl.io,Google
 HOST-SUFFIX,getoutline.org,Google
 HOST-SUFFIX,ggpht.com,Google
@@ -56,7 +57,9 @@ HOST-SUFFIX,google.cn,Google
 HOST-SUFFIX,googleadservices.com,Google
 HOST-SUFFIX,googleanalytics.com,Google
 HOST-SUFFIX,googleapis.com,Google
+HOST-SUFFIX,googleblog.com,Google
 HOST-SUFFIX,googledrive.com,Google
+HOST-SUFFIX,googlemashups.com,Google
 HOST-SUFFIX,googlesyndication.com,Google
 HOST-SUFFIX,googletagmanager.com,Google
 HOST-SUFFIX,googletagservices.com,Google
@@ -71,9 +74,9 @@ HOST-SUFFIX,gwtproject.org,Google
 HOST-SUFFIX,itasoftware.com,Google
 HOST-SUFFIX,madewithcode.com,Google
 HOST-SUFFIX,material.io,Google
-HOST-SUFFIX,mtalk.google.com,Google
 HOST-SUFFIX,ocsp.pki.goog,Google
 HOST-SUFFIX,pagead-googlehosted.l.google.com,Google
+HOST-SUFFIX,pkg.go.dev,Google
 HOST-SUFFIX,pki-goog.l.google.com,Google
 HOST-SUFFIX,polymer-project.org,Google
 HOST-SUFFIX,recaptcha.net,Google
@@ -95,16 +98,20 @@ HOST-SUFFIX,webmproject.org,Google
 HOST-SUFFIX,webrtc.org,Google
 HOST-SUFFIX,whatbrowser.org,Google
 HOST-SUFFIX,widevine.com,Google
+HOST-SUFFIX,withgoogle.com,Google
 HOST-SUFFIX,www-googletagmanager.l.google.com,Google
 HOST-SUFFIX,x.company,Google
 HOST-SUFFIX,xn--ngstr-lra8j.com,Google
 HOST-SUFFIX,youtu.be,Google
 HOST-SUFFIX,yt.be,Google
 HOST-SUFFIX,ytimg.com,Google
+HOST-KEYWORD,appspot,Google
 HOST-KEYWORD,blogspot,Google
 HOST-KEYWORD,gmail,Google
 HOST-KEYWORD,google,Google
+HOST-KEYWORD,googlesource,Google
 HOST-KEYWORD,gstatic,Google
+HOST-KEYWORD,recaptcha,Google
 HOST-KEYWORD,www.google.,Google
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,Google
 USER-AGENT,*com.google.Drive*,Google

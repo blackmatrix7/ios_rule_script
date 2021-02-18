@@ -1,12 +1,12 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-17 02:43:12.427849
+# UPDATED: 2021-02-18 12:19:34.091217
 # USER-AGENT: 3
-# DOMAIN-SUFFIX: 94
-# DOMAIN-KEYWORD: 5
+# DOMAIN-SUFFIX: 98
+# DOMAIN-KEYWORD: 8
 # IP-CIDR: 2
-# TOTAL: 104
+# TOTAL: 111
 DOMAIN-SUFFIX,265.com
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,abc.xyz
@@ -17,7 +17,6 @@ DOMAIN-SUFFIX,androidify.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,autodraw.com
-DOMAIN-SUFFIX,beacons.gcp.gvt2.com
 DOMAIN-SUFFIX,beacons.gvt2.com
 DOMAIN-SUFFIX,beacons3.gvt2.com
 DOMAIN-SUFFIX,blogger.com
@@ -25,6 +24,7 @@ DOMAIN-SUFFIX,c.admob.com
 DOMAIN-SUFFIX,c.android.clients.google.com
 DOMAIN-SUFFIX,cache.pack.google.com
 DOMAIN-SUFFIX,capitalg.com
+DOMAIN-SUFFIX,certificate-transparency.dev
 DOMAIN-SUFFIX,certificate-transparency.org
 DOMAIN-SUFFIX,chrome.com
 DOMAIN-SUFFIX,chromeexperiments.com
@@ -44,6 +44,7 @@ DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,drive.google.com
 DOMAIN-SUFFIX,firebase-settings.crashlytics.com
 DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,gcp.gvt2.com
 DOMAIN-SUFFIX,getmdl.io
 DOMAIN-SUFFIX,getoutline.org
 DOMAIN-SUFFIX,ggpht.com
@@ -56,7 +57,9 @@ DOMAIN-SUFFIX,google.cn
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googleanalytics.com
 DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleblog.com
 DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googlemashups.com
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
@@ -71,9 +74,9 @@ DOMAIN-SUFFIX,gwtproject.org
 DOMAIN-SUFFIX,itasoftware.com
 DOMAIN-SUFFIX,madewithcode.com
 DOMAIN-SUFFIX,material.io
-DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,ocsp.pki.goog
 DOMAIN-SUFFIX,pagead-googlehosted.l.google.com
+DOMAIN-SUFFIX,pkg.go.dev
 DOMAIN-SUFFIX,pki-goog.l.google.com
 DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,recaptcha.net
@@ -95,16 +98,20 @@ DOMAIN-SUFFIX,webmproject.org
 DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,whatbrowser.org
 DOMAIN-SUFFIX,widevine.com
+DOMAIN-SUFFIX,withgoogle.com
 DOMAIN-SUFFIX,www-googletagmanager.l.google.com
 DOMAIN-SUFFIX,x.company
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,googlesource
 DOMAIN-KEYWORD,gstatic
+DOMAIN-KEYWORD,recaptcha
 DOMAIN-KEYWORD,www.google.
 IP-CIDR,173.194.0.0/16
 IP-CIDR,74.125.0.0/16

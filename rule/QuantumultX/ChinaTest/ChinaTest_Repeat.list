@@ -1,7 +1,7 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-19 02:43:21.633233
+# UPDATED: 2021-02-20 02:42:32.886216
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 DanDanZan 共 7 条规则重复
 HOST-SUFFIX,343480.com
@@ -24,7 +24,7 @@ HOST-SUFFIX,bitautoimg.com
 HOST-SUFFIX,cheyisou.com
 HOST-SUFFIX,yccdn.com
 HOST-SUFFIX,yiche.com
-#  与 China 共 735 条规则重复
+#  与 China 共 736 条规则重复
 HOST,analytics.strava.com
 HOST,blzddist1-a.akamaihd.net
 HOST,client.amplifi.com
@@ -716,6 +716,7 @@ IP-CIDR,3.0.163.78/32
 IP-CIDR,35.156.231.150/32
 IP-CIDR,35.168.106.53/32
 IP-CIDR,35.178.208.187/32
+IP-CIDR,45.40.48.11/32
 IP-CIDR,50.18.128.22/32
 IP-CIDR,52.178.26.110/32
 IP-CIDR,52.194.158.59/32
@@ -775,7 +776,7 @@ HOST-SUFFIX,ebtrust.com
 HOST-SUFFIX,everbright.com
 HOST-SUFFIX,secec.com
 HOST-SUFFIX,sunlife-everbright.com
-#  与 Clubhouse 共 43 条规则重复
+#  与 Clubhouse 共 44 条规则重复
 IP-CIDR,103.65.41.130/32
 IP-CIDR,103.65.41.132/32
 IP-CIDR,103.65.41.137/32
@@ -811,6 +812,7 @@ IP-CIDR,3.0.163.78/32
 IP-CIDR,35.156.231.150/32
 IP-CIDR,35.168.106.53/32
 IP-CIDR,35.178.208.187/32
+IP-CIDR,45.40.48.11/32
 IP-CIDR,50.18.128.22/32
 IP-CIDR,52.178.26.110/32
 IP-CIDR,52.194.158.59/32
@@ -1473,7 +1475,30 @@ HOST-SUFFIX,sf-financial.com
 HOST-SUFFIX,sf-saas.com
 HOST-SUFFIX,sfcar.hk
 HOST-SUFFIX,sfgy.org
-#  与 ClubhouseIP 共 36 条规则重复
+#  与 58TongCheng 共 22 条规则重复
+HOST-SUFFIX,58.com
+HOST-SUFFIX,5858.com
+HOST-SUFFIX,58che.com
+HOST-SUFFIX,58ganji.com
+HOST-SUFFIX,58supin.com
+HOST-SUFFIX,58xueche.com
+HOST-SUFFIX,anjuke.com
+HOST-SUFFIX,anjukestatic.com
+HOST-SUFFIX,bangbang.com
+HOST-SUFFIX,chinahr.com
+HOST-SUFFIX,cnmo.com
+HOST-SUFFIX,daojia.com
+HOST-SUFFIX,ddimg.net
+HOST-SUFFIX,diandao.org
+HOST-SUFFIX,fang.com
+HOST-SUFFIX,jxedt.com
+HOST-SUFFIX,kuche.com
+HOST-SUFFIX,sofun.com
+HOST-SUFFIX,soufunimg.com
+HOST-SUFFIX,zhuancorp.com
+HOST-SUFFIX,zhuanspirit.com
+HOST-SUFFIX,zhuanzhuan.com
+#  与 ClubhouseIP 共 37 条规则重复
 IP-CIDR,103.65.41.132/32
 IP-CIDR,103.65.41.137/32
 IP-CIDR,103.65.41.139/32
@@ -1502,6 +1527,7 @@ IP-CIDR,23.98.43.152/32
 IP-CIDR,3.0.163.78/32
 IP-CIDR,35.168.106.53/32
 IP-CIDR,35.178.208.187/32
+IP-CIDR,45.40.48.11/32
 IP-CIDR,50.18.128.22/32
 IP-CIDR,52.178.26.110/32
 IP-CIDR,52.194.158.59/32
@@ -1510,29 +1536,6 @@ IP-CIDR,52.52.84.170/32
 IP-CIDR,52.58.56.244/32
 IP-CIDR,54.178.26.110/32
 IP-CIDR,69.28.51.148/32
-#  与 58TongCheng 共 22 条规则重复
-HOST-SUFFIX,58.com
-HOST-SUFFIX,5858.com
-HOST-SUFFIX,58che.com
-HOST-SUFFIX,58ganji.com
-HOST-SUFFIX,58supin.com
-HOST-SUFFIX,58xueche.com
-HOST-SUFFIX,anjuke.com
-HOST-SUFFIX,anjukestatic.com
-HOST-SUFFIX,bangbang.com
-HOST-SUFFIX,chinahr.com
-HOST-SUFFIX,cnmo.com
-HOST-SUFFIX,daojia.com
-HOST-SUFFIX,ddimg.net
-HOST-SUFFIX,diandao.org
-HOST-SUFFIX,fang.com
-HOST-SUFFIX,jxedt.com
-HOST-SUFFIX,kuche.com
-HOST-SUFFIX,sofun.com
-HOST-SUFFIX,soufunimg.com
-HOST-SUFFIX,zhuancorp.com
-HOST-SUFFIX,zhuanspirit.com
-HOST-SUFFIX,zhuanzhuan.com
 #  与 NetEase 共 38 条规则重复
 HOST-SUFFIX,126.am
 HOST-SUFFIX,126.com

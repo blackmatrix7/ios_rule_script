@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-24 02:44:45.711258
+# UPDATED: 2021-02-25 02:45:06.362162
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Github 共 6 条规则重复
@@ -80,7 +80,7 @@ payload:
   - DOMAIN-SUFFIX,voxfieldguide.com
   - DOMAIN-SUFFIX,voxmedia.com
   - DOMAIN-SUFFIX,voxops.net
-#  与 Proxy 共 28232 条规则重复
+#  与 Proxy 共 28233 条规则重复
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
   - DOMAIN,assets-priconne-redive-us.akamaized.net
@@ -17223,6 +17223,7 @@ payload:
   - DOMAIN-SUFFIX,page3.com
   - DOMAIN-SUFFIX,pagecdn.com
   - DOMAIN-SUFFIX,pagecdn.io
+  - DOMAIN-SUFFIX,pages.dev
   - DOMAIN-SUFFIX,pagespeedmobilizer.com
   - DOMAIN-SUFFIX,pageview.mobi
   - DOMAIN-SUFFIX,pagodabox.com

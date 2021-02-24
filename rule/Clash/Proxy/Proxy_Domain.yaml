@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-24 02:44:39.012676
-# DOMAIN-SUFFIX: 28152
+# UPDATED: 2021-02-25 02:44:58.521876
+# DOMAIN-SUFFIX: 28153
 # DOMAIN: 34
 # DOMAIN-KEYWORD: 29
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 28306
+# TOTAL: 28307
 payload:
   - 'amp.akamaized.net'
   - 'apple.com.akadns.net'
@@ -17173,6 +17173,7 @@ payload:
   - '.page3.com'
   - '.pagecdn.com'
   - '.pagecdn.io'
+  - '.pages.dev'
   - '.pagespeedmobilizer.com'
   - '.pageview.mobi'
   - '.pagodabox.com'

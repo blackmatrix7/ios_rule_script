@@ -1,5 +1,5 @@
 const scriptName = '饿了么';
-const getCookieRegex = /^https?:\/\/h5\.ele\.me\/restapi\/svip_biz\/v1\/supervip\/query_mission_list\?longitude=([^&]*).*latitude=([^&]*)/;
+const getCookieRegex = /^https?:\/\/h5\.ele\.me\/restapi\/svip_biz\/v1\/supervip\/queryMissionCollect\?longitude=([^&]*).*latitude=([^&]*)/;
 const elemeCookieKey = 'eleme_app_cookie';
 const elemeLongitudeKey = 'eleme_app_longitude';
 const elemeLatitudeKey = 'eleme_app_latitude';

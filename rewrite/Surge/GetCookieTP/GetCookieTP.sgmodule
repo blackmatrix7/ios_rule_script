@@ -1,10 +1,10 @@
 #!name=获取签到脚本Cookie
-#!desc=最后更新时间 2021-02-25 02:46:00
+#!desc=最后更新时间 2021-02-26 02:49:24
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=0
-#!script=25
-#!mitm=25
+#!script=24
+#!mitm=24
 
 [Script]
 Fa米家_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js,pattern=^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/member\/(signin\/usersign|sign\/current)
@@ -12,8 +12,7 @@ Luka_获取cookie = type=http-request,script-path=https://raw.githubusercontent.
 万达电影_获取ActivityCode = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.js,pattern=^https?:\/\/cms\-activity\-api\-prd\-mx\.wandafilm\.com\/activity\/activity_count\.api\?activityCode=(\d*)
 万达电影_获取cookie = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.js,pattern=^https?:\/\/user-api-prd-mx\.wandafilm\.com\/user\/query_user_level\.api
 京东签到Cookie = type=http-request,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean
-什么值得买_获取cookie = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.js,pattern=^https?:\/\/zhiyou\.smzdm\.com\/user$
-什么值得买_获取账号密码 = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.js,pattern=^https?:\/\/user-api\.smzdm\.com\/user_login\/normal$
+什么值得买_获取cookie = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js,pattern=^https?:\/\/zhiyou\.smzdm\.com\/user$
 叮咚买菜_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js,pattern=^https?:\/\/maicai\.api\.ddxq\.mobi\/point\/home\?api_version
 吾爱Cookie = type=http-request,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?
 哔哩漫画Cookie = type=http-request,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js,pattern=^https:\/\/passport\.biligame\.com\/api\/login\/sso.+?version%22%3A%22(3|4|5)
@@ -34,4 +33,4 @@ Luka_获取cookie = type=http-request,script-path=https://raw.githubusercontent.
 饿了么_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,pattern=^https?:\/\/h5\.ele\.me\/restapi\/svip_biz\/v1\/supervip\/queryMissionCollect\??longitude=([^&]*).*latitude=([^&]*)
 
 [MITM]
-hostname = %APPEND% api.didialift.com,api.kkmh.com,api.m.jd.com,apph5.manmanbuy.com,as.xiaojukeji.com,bosp-api.xiaojukeji.com,c.tieba.baidu.com,cms-activity-api-prd-mx.wandafilm.com,fmapp.chinafamilymart.com.cn,h5.ele.me,ifac*.iqiyi.com,luka-graphql.ling.cn,m.client.10010.com,maicai.api.ddxq.mobi,mall.meituan.com,manhattan.webapp.xiaojukeji.com,mp.jzb.com,passport.biligame.com,pay.diditaxi.com.cn,pgc-cms.jzb.com,user-api-prd-mx.wandafilm.com,user-api.smzdm.com,www.52pojie.cn,www.didapinche.com,zhiyou.smzdm.com
+hostname = %APPEND% api.didialift.com,api.kkmh.com,api.m.jd.com,apph5.manmanbuy.com,as.xiaojukeji.com,bosp-api.xiaojukeji.com,c.tieba.baidu.com,cms-activity-api-prd-mx.wandafilm.com,fmapp.chinafamilymart.com.cn,h5.ele.me,ifac*.iqiyi.com,luka-graphql.ling.cn,m.client.10010.com,maicai.api.ddxq.mobi,mall.meituan.com,manhattan.webapp.xiaojukeji.com,mp.jzb.com,passport.biligame.com,pay.diditaxi.com.cn,pgc-cms.jzb.com,user-api-prd-mx.wandafilm.com,www.52pojie.cn,www.didapinche.com,zhiyou.smzdm.com

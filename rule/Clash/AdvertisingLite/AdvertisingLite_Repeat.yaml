@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-25 02:45:06.100308
+# UPDATED: 2021-02-26 02:48:32.969077
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Hijacking 共 200 条规则重复
@@ -2552,7 +2552,7 @@ payload:
   - DOMAIN-SUFFIX,zsi7.destinia.do
   - DOMAIN-SUFFIX,zyq2.destinia.sk
   - DOMAIN-SUFFIX,zz.bdstatic.com
-#  与 Advertising 共 16059 条规则重复
+#  与 Advertising 共 16057 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0d847862199.com
   - DOMAIN,0icep80f.com
@@ -2754,6 +2754,7 @@ payload:
   - DOMAIN,blinko.es
   - DOMAIN,blocks.ginotrack.com
   - DOMAIN,blogad.com.tw
+  - DOMAIN,bnsoutlaws.co.uk
   - DOMAIN,boriouseruwer.info
   - DOMAIN,bostonparadise.com
   - DOMAIN,bouermes.be
@@ -2893,6 +2894,7 @@ payload:
   - DOMAIN,divine.lunarbreeze.com
   - DOMAIN,dkmdklhu.com
   - DOMAIN,dl.microsword.net
+  - DOMAIN,dmtu.0m31a.cn
   - DOMAIN,dntrax.com
   - DOMAIN,dofeb.frenchgerlemanelectric.com
   - DOMAIN,dogwuyrspt.com
@@ -2995,7 +2997,6 @@ payload:
   - DOMAIN,grand-ads.com
   - DOMAIN,gravityexp.com
   - DOMAIN,gredinatib.org
-  - DOMAIN,grt03.com
   - DOMAIN,grtbzrsndrrtsb.com
   - DOMAIN,grtyv.com
   - DOMAIN,gsniper2.com
@@ -3474,7 +3475,6 @@ payload:
   - DOMAIN,symkashop.ru
   - DOMAIN,syncedvision.com
   - DOMAIN,szinhaz.hu
-  - DOMAIN,t.sdpaji.com
   - DOMAIN,t.zisu.cn.com
   - DOMAIN,t1.a.market.xiaomi.com
   - DOMAIN,t2.a.market.xiaomi.com
@@ -3578,7 +3578,6 @@ payload:
   - DOMAIN,vr.gdt.qq.com
   - DOMAIN,vural-electronic.com
   - DOMAIN,vvps.ws
-  - DOMAIN,vvv.lunqudai.com
   - DOMAIN,wahyufian.zoomshare.com
   - DOMAIN,warco.pl
   - DOMAIN,watson.ppe.telemetry.microsoft.com
@@ -15762,7 +15761,6 @@ payload:
   - DOMAIN-SUFFIX,t.wayfair.co.uk
   - DOMAIN-SUFFIX,t.wayfair.com
   - DOMAIN-SUFFIX,t.wayfair.de
-  - DOMAIN-SUFFIX,t.wizaly.com
   - DOMAIN-SUFFIX,t1.58cdn.com.cn
   - DOMAIN-SUFFIX,t10.baidu.com
   - DOMAIN-SUFFIX,t11.baidu.com

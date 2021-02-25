@@ -1,9 +1,9 @@
 # NAME: ChinaIPs
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-25 02:44:56.944513
-# IP-CIDR: 6114
-# TOTAL: 6114
+# UPDATED: 2021-02-26 02:48:24.336578
+# IP-CIDR: 6125
+# TOTAL: 6125
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
 IP-CIDR,1.0.32.0/19,no-resolve
@@ -508,6 +508,7 @@ IP-CIDR,103.150.128.0/23,no-resolve
 IP-CIDR,103.150.131.0/24,no-resolve
 IP-CIDR,103.150.146.0/23,no-resolve
 IP-CIDR,103.150.164.0/23,no-resolve
+IP-CIDR,103.150.199.0/24,no-resolve
 IP-CIDR,103.150.200.0/23,no-resolve
 IP-CIDR,103.150.216.0/23,no-resolve
 IP-CIDR,103.150.24.0/23,no-resolve
@@ -1024,7 +1025,16 @@ IP-CIDR,103.236.240.0/20,no-resolve
 IP-CIDR,103.236.64.0/19,no-resolve
 IP-CIDR,103.236.96.0/22,no-resolve
 IP-CIDR,103.237.0.0/20,no-resolve
-IP-CIDR,103.237.100.0/22,no-resolve
+IP-CIDR,103.237.100.0/32,no-resolve
+IP-CIDR,103.237.100.128/25,no-resolve
+IP-CIDR,103.237.100.16/28,no-resolve
+IP-CIDR,103.237.100.2/31,no-resolve
+IP-CIDR,103.237.100.32/27,no-resolve
+IP-CIDR,103.237.100.4/30,no-resolve
+IP-CIDR,103.237.100.64/26,no-resolve
+IP-CIDR,103.237.100.8/29,no-resolve
+IP-CIDR,103.237.101.0/24,no-resolve
+IP-CIDR,103.237.102.0/23,no-resolve
 IP-CIDR,103.237.152.0/22,no-resolve
 IP-CIDR,103.237.176.0/20,no-resolve
 IP-CIDR,103.237.192.0/18,no-resolve
@@ -6062,7 +6072,9 @@ IP-CIDR,61.28.0.0/17,no-resolve
 IP-CIDR,61.29.128.0/18,no-resolve
 IP-CIDR,61.29.192.0/19,no-resolve
 IP-CIDR,61.29.224.0/20,no-resolve
-IP-CIDR,61.29.240.0/21,no-resolve
+IP-CIDR,61.29.240.0/22,no-resolve
+IP-CIDR,61.29.245.0/24,no-resolve
+IP-CIDR,61.29.246.0/23,no-resolve
 IP-CIDR,61.29.249.0/24,no-resolve
 IP-CIDR,61.29.250.0/23,no-resolve
 IP-CIDR,61.29.252.0/23,no-resolve
@@ -6103,7 +6115,6 @@ IP-CIDR,72.21.221.238/32,no-resolve
 IP-CIDR,72.21.221.240/30,no-resolve
 IP-CIDR,72.254.0.0/16,no-resolve
 IP-CIDR,75.75.236.0/29,no-resolve
-IP-CIDR,75.75.252.0/26,no-resolve
 IP-CIDR,78.101.192.0/19,no-resolve
 IP-CIDR,78.101.224.0/20,no-resolve
 IP-CIDR,8.128.0.0/10,no-resolve

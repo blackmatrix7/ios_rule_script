@@ -1,10 +1,14 @@
 #!name=AllInOne
-#!desc=最后更新时间 2021-02-26 02:49:24
+#!desc=最后更新时间 2021-02-27 02:45:01
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=869
 #!script=40
+#!force_http_engine_hosts=5
 #!mitm=653
+
+[General]
+force-http-engine-hosts = %APPEND% *.ott.cibntv.net,119.18.193.135,122.14.246.33,123.59.31.1,175.102.178.52
 
 [Rule]
 DOMAIN,118.89.204.198,REJECT

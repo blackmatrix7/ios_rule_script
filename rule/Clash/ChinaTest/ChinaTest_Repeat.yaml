@@ -1,7 +1,7 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-27 02:44:10.446919
+# UPDATED: 2021-02-28 02:43:28.117699
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 DanDanZan 共 7 条规则重复
@@ -25,7 +25,7 @@ payload:
   - DOMAIN-SUFFIX,cheyisou.com
   - DOMAIN-SUFFIX,yccdn.com
   - DOMAIN-SUFFIX,yiche.com
-#  与 China 共 704 条规则重复
+#  与 China 共 703 条规则重复
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,client.amplifi.com
@@ -45,7 +45,6 @@ payload:
   - DOMAIN-KEYWORD,aliyun
   - DOMAIN-KEYWORD,baidu
   - DOMAIN-KEYWORD,beplay
-  - DOMAIN-KEYWORD,icloud.com.akadns.net
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,officecdn
   - DOMAIN-KEYWORD,speedtest

@@ -8,11 +8,11 @@
 
 
 
-最后检查时间：2021-02-27 02:44:51.443865。
+最后检查时间：2021-02-28 02:44:03.021656。
 
 ## 规则统计
 
-总计规则：71425 条。
+总计规则：71423 条。
 
 各类型规则统计：
 
@@ -20,9 +20,9 @@
 | ---- | ---- |
 | DOMAIN-SUFFIX | 71241 |
 | USER-AGENT | 33 |
-| DOMAIN-KEYWORD | 13 |
 | DOMAIN | 85 |
 | IP-CIDR | 48 |
+| DOMAIN-KEYWORD | 11 |
 | IP-CIDR6 | 4 |
 | GEOIP | 1 |
 ## 配置说明
@@ -70,7 +70,7 @@ ChinaTest_Domain.list请使用DOMAIN-SET。
 |  [DanDanZan](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/DanDanZan)    | 7   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaTest/ChinaTest_Repeat.list)   |   100.0% |
 |  [LanZouYun](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/LanZouYun)    | 6   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaTest/ChinaTest_Repeat.list)   |   100.0% |
 |  [YiChe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/YiChe)    | 5   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaTest/ChinaTest_Repeat.list)   |   100.0% |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/China)    | 739   | [736](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaTest/ChinaTest_Repeat.list)   |   99.59% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/China)    | 738   | [735](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaTest/ChinaTest_Repeat.list)   |   99.59% |
 |  [CEB](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/CEB)    | 15   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaTest/ChinaTest_Repeat.list)   |   93.33% |
 |  [Clubhouse](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Clubhouse)    | 48   | [44](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaTest/ChinaTest_Repeat.list)   |   91.67% |
 |  [Xunlei](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Xunlei)    | 8   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaTest/ChinaTest_Repeat.list)   |   87.5% |

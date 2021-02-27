@@ -8,11 +8,11 @@
 
 
 
-最后检查时间：2021-02-27 02:44:25.219445。
+最后检查时间：2021-02-28 02:43:40.668161。
 
 ## 规则统计
 
-总计规则：71425 条。
+总计规则：71423 条。
 
 各类型规则统计：
 
@@ -20,9 +20,9 @@
 | ---- | ---- |
 | HOST-SUFFIX | 71241 |
 | USER-AGENT | 33 |
-| HOST-KEYWORD | 13 |
 | HOST | 85 |
 | IP-CIDR | 48 |
+| HOST-KEYWORD | 11 |
 | IP6-CIDR | 4 |
 | GEOIP | 1 |
 ## 配置说明
@@ -58,7 +58,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 |  [DanDanZan](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DanDanZan)    | 7   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaTest/ChinaTest_Repeat.list)   |   100.0% |
 |  [LanZouYun](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/LanZouYun)    | 6   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaTest/ChinaTest_Repeat.list)   |   100.0% |
 |  [YiChe](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YiChe)    | 5   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaTest/ChinaTest_Repeat.list)   |   100.0% |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 739   | [736](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaTest/ChinaTest_Repeat.list)   |   99.59% |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 738   | [735](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaTest/ChinaTest_Repeat.list)   |   99.59% |
 |  [CEB](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CEB)    | 15   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaTest/ChinaTest_Repeat.list)   |   93.33% |
 |  [Clubhouse](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Clubhouse)    | 48   | [44](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaTest/ChinaTest_Repeat.list)   |   91.67% |
 |  [Xunlei](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Xunlei)    | 8   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaTest/ChinaTest_Repeat.list)   |   87.5% |

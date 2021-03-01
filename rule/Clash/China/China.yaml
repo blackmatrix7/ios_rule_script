@@ -1,13 +1,13 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-01 02:42:49.236878
-# DOMAIN-SUFFIX: 628
+# UPDATED: 2021-03-02 02:44:22.412321
+# DOMAIN-SUFFIX: 629
 # DOMAIN: 15
-# IP-CIDR: 48
+# IP-CIDR: 50
 # DOMAIN-KEYWORD: 11
 # IP-CIDR6: 4
-# TOTAL: 706
+# TOTAL: 709
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -234,6 +234,7 @@ payload:
   - DOMAIN-SUFFIX,gameloft.com
   - DOMAIN-SUFFIX,gandi.net
   - DOMAIN-SUFFIX,gazellegames.net
+  - DOMAIN-SUFFIX,gcloudcs.com
   - DOMAIN-SUFFIX,gcores.com
   - DOMAIN-SUFFIX,geetest.com
   - DOMAIN-SUFFIX,geilicdn.com
@@ -686,6 +687,7 @@ payload:
   - IP-CIDR,148.153.172.73/32
   - IP-CIDR,148.153.172.74/31
   - IP-CIDR,148.153.172.76/31
+  - IP-CIDR,150.109.124.0/23
   - IP-CIDR,164.52.102.66/31
   - IP-CIDR,164.52.102.68/31
   - IP-CIDR,164.52.102.70/32
@@ -702,6 +704,7 @@ payload:
   - IP-CIDR,35.156.231.150/32
   - IP-CIDR,35.168.106.53/32
   - IP-CIDR,35.178.208.187/32
+  - IP-CIDR,45.40.220.0/22
   - IP-CIDR,45.40.48.11/32
   - IP-CIDR,50.18.128.22/32
   - IP-CIDR,52.178.26.110/32

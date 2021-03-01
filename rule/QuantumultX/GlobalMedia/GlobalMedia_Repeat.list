@@ -1,7 +1,7 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-01 02:42:53.225305
+# UPDATED: 2021-03-02 02:44:26.784398
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 Netflix 共 42 条规则重复
 HOST,netflix.com.edgesuite.net
@@ -160,8 +160,9 @@ HOST-SUFFIX,abema.tv
 HOST-SUFFIX,ameba.jp
 HOST-SUFFIX,hayabusa.io
 USER-AGENT,AbemaTV*
-#  与 Hulu 共 11 条规则重复
+#  与 Hulu 共 12 条规则重复
 HOST-SUFFIX,happyon.jp
+HOST-SUFFIX,hjholdings.jp
 HOST-SUFFIX,hulu.com
 HOST-SUFFIX,hulu.hb.omtrdc.net
 HOST-SUFFIX,hulu.jp

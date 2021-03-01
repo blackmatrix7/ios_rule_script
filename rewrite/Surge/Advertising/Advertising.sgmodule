@@ -1,8 +1,8 @@
 #!name=复写去广告
-#!desc=最后更新时间 2021-03-01 02:43:40
+#!desc=最后更新时间 2021-03-02 02:45:20
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=809
+#!rewrite=807
 #!script=0
 #!force_http_engine_hosts=5
 #!mitm=585
@@ -296,7 +296,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,119.18.193.135,122.14.246.33
 ^https?:\/\/img\d\.doubanio\.com\/view\/dale-online\/dale_ad\/ - reject
 ^https?:\/\/img\w\.g\.pptv\.com - reject
 ^https?:\/\/impservice.+?youdao.com - reject
-^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ - reject
+^https?:\/\/interface(\d)?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|mlog|search/(specialkeyword|defaultkeyword|hot)) - reject
 ^https?:\/\/ios\.lantouzi\.com\/api\/startpage - reject
 ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
 ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/(guanggao|ts_ad)\/ - reject
@@ -686,8 +686,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,119.18.193.135,122.14.246.33
 ^https?:\/\/img\d{2}\.ddimg\.cn\/upload_img\/.+?\/750x1064 data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/imgcache\.qq\.com\/qqlive\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-^https?:\/\/interface3?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|mlog|search/(specialkeyword|defaultkeyword|hot)) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-^https?:\/\/interface\.music\.163\.com\/eapi\/ad data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/iphone265g\.com\/templates\/iphone\/bottomAd\.js data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/ivy\.pchouse\.com\.cn\/adpuba\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/kano\.guahao\.cn\/.+?\?resize=\d{3}-\d{4} data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"

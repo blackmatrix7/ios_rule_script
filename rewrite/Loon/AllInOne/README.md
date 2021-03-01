@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-03-01 02:43:40。
+最后检查时间：2021-03-02 02:45:20。
 
 ## 复写统计
 
@@ -16,10 +16,10 @@
 | ---- | ---- |
 | mitm | 640 |
 | DOMAIN-SUFFIX | 1 |
-| URL-REGEX | 6 |
+| URL-REGEX | 8 |
 | DOMAIN | 4 |
-| DOMAIN-KEYWORD | 1 |
 | IP-CIDR | 1 |
+| IP-CIDR6 | 1 |
 | USER-AGENT | 1 |
 | reject | 820 |
 | http-response | 22 |

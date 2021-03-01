@@ -1,7 +1,7 @@
 # NAME: AllInOne
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-01 02:43:40
+# UPDATED: 2021-03-02 02:45:20
 # REWRITE: 871
 # SCRIPT: 22
 # MITM: 640
@@ -11,14 +11,16 @@ DOMAIN,118.89.204.198,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
-DOMAIN-KEYWORD,118.89.204.198,REJECT
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT-DROP,no-resolve
 URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?,REJECT
 URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad),REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
 URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription),REJECT
 USER-AGENT,avos*,REJECT
 
@@ -272,6 +274,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/api\.zhihu\.com\/\w+\/\d+\/comments\/featured-comment-ad - reject
 ^https?:\/\/api\.zhihu\.com\/ad - reject-200
 ^https?:\/\/api\.zhihu\.com\/appview\/api\/v\d\/answers\/\d+\/recommendations - reject
+^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject-dict
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/ - reject
 ^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject
 ^https?:\/\/api\.zhihu\.com\/market\/popover - reject-img
@@ -535,9 +538,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/imgcache\.qq\.com\/qqlive\/ - reject-img
 ^https?:\/\/impservice.+?youdao.com - reject
 ^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request - reject-img
-^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ - reject
-^https?:\/\/interface3?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|mlog|search/(specialkeyword|defaultkeyword|hot)) - reject-img
-^https?:\/\/interface\.music\.163\.com\/eapi\/ad - reject-img
+^https?:\/\/interface(\d)?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|mlog|search/(specialkeyword|defaultkeyword|hot)) - reject
 ^https?:\/\/ios\.lantouzi\.com\/api\/startpage - reject
 ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
 ^https?:\/\/iphone265g\.com\/templates\/iphone\/bottomAd\.js - reject-img
@@ -831,6 +832,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject-dict
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad - reject
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject-200
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject-dict
 ^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) - reject
 ^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject-200
 ^https?:\/\/www\.zhihu\.com\/terms\/privacy\/confirm - reject-img

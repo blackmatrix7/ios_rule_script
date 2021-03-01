@@ -1,8 +1,8 @@
 #!name=脚本去广告
-#!desc=最后更新时间 2021-03-01 02:43:40
+#!desc=最后更新时间 2021-03-02 02:45:20
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=16
+#!rewrite=18
 #!script=22
 #!force_http_engine_hosts=0
 #!mitm=18
@@ -14,14 +14,16 @@ DOMAIN,118.89.204.198,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
-DOMAIN-KEYWORD,118.89.204.198,REJECT
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT-DROP,no-resolve
 URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?,REJECT
 URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad),REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
 URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription),REJECT
 USER-AGENT,avos*,REJECT
 
@@ -32,6 +34,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words - reject
 ^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr - reject
 ^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad) - reject
+^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject
 ^https?:\/\/api\.zhihu\.com\/moments\/recent - reject
 ^https?:\/\/app-api\.smzdm\.com\/util\/loading - reject
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner - reject
@@ -39,6 +42,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject
 ^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) - reject
 ^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject
 ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject

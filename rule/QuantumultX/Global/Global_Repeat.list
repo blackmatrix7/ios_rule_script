@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-01 02:42:53.208534
+# UPDATED: 2021-03-02 02:44:26.767162
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 Github 共 6 条规则重复
 HOST-KEYWORD,github
@@ -29712,6 +29712,46 @@ HOST-SUFFIX,kkbox.com.tw
 HOST-SUFFIX,kktix.com
 HOST-SUFFIX,kktv.com.tw
 HOST-SUFFIX,kktv.me
+#  与 CBS 共 22 条规则重复
+HOST-SUFFIX,cbs
+HOST-SUFFIX,cbs.com
+HOST-SUFFIX,cbsaavideo.com
+HOST-SUFFIX,cbscorporation.com
+HOST-SUFFIX,cbsi.com
+HOST-SUFFIX,cbsi.video
+HOST-SUFFIX,cbsiam.com
+HOST-SUFFIX,cbsig.net
+HOST-SUFFIX,cbsimg.net
+HOST-SUFFIX,cbsinteractive.com
+HOST-SUFFIX,cbsistatic.com
+HOST-SUFFIX,cbsivideo.com
+HOST-SUFFIX,cbsnews.com
+HOST-SUFFIX,cbspressexpress.com
+HOST-SUFFIX,cbssports.com
+HOST-SUFFIX,cbsstatic.com
+HOST-SUFFIX,cbssvideo.com
+HOST-SUFFIX,paramount.com
+HOST-SUFFIX,viacbs.com
+HOST-SUFFIX,viacom.com
+HOST-SUFFIX,viacomcbs.com
+HOST-SUFFIX,viacomcbspressexpress.com
+#  与 Spotify 共 16 条规则重复
+HOST-KEYWORD,-spotify-com
+HOST-KEYWORD,spotify.com
+HOST-SUFFIX,byspotify.com
+HOST-SUFFIX,pscdn.co
+HOST-SUFFIX,scdn.co
+HOST-SUFFIX,spoti.fi
+HOST-SUFFIX,spotify-everywhere.com
+HOST-SUFFIX,spotify.com
+HOST-SUFFIX,spotify.design
+HOST-SUFFIX,spotifycdn.com
+HOST-SUFFIX,spotifycdn.net
+HOST-SUFFIX,spotifycharts.com
+HOST-SUFFIX,spotifycodes.com
+HOST-SUFFIX,spotifyforbrands.com
+HOST-SUFFIX,spotifyjobs.com
+USER-AGENT,Spotify*
 #  与 Hulu 共 47 条规则重复
 HOST-SUFFIX,112263.com
 HOST-SUFFIX,callhulu.com
@@ -29760,46 +29800,6 @@ HOST-SUFFIX,payhulu.com
 HOST-SUFFIX,registerhulu.com
 HOST-SUFFIX,thehulubraintrust.com
 HOST-SUFFIX,wwwhuluplus.com
-#  与 CBS 共 22 条规则重复
-HOST-SUFFIX,cbs
-HOST-SUFFIX,cbs.com
-HOST-SUFFIX,cbsaavideo.com
-HOST-SUFFIX,cbscorporation.com
-HOST-SUFFIX,cbsi.com
-HOST-SUFFIX,cbsi.video
-HOST-SUFFIX,cbsiam.com
-HOST-SUFFIX,cbsig.net
-HOST-SUFFIX,cbsimg.net
-HOST-SUFFIX,cbsinteractive.com
-HOST-SUFFIX,cbsistatic.com
-HOST-SUFFIX,cbsivideo.com
-HOST-SUFFIX,cbsnews.com
-HOST-SUFFIX,cbspressexpress.com
-HOST-SUFFIX,cbssports.com
-HOST-SUFFIX,cbsstatic.com
-HOST-SUFFIX,cbssvideo.com
-HOST-SUFFIX,paramount.com
-HOST-SUFFIX,viacbs.com
-HOST-SUFFIX,viacom.com
-HOST-SUFFIX,viacomcbs.com
-HOST-SUFFIX,viacomcbspressexpress.com
-#  与 Spotify 共 16 条规则重复
-HOST-KEYWORD,-spotify-com
-HOST-KEYWORD,spotify.com
-HOST-SUFFIX,byspotify.com
-HOST-SUFFIX,pscdn.co
-HOST-SUFFIX,scdn.co
-HOST-SUFFIX,spoti.fi
-HOST-SUFFIX,spotify-everywhere.com
-HOST-SUFFIX,spotify.com
-HOST-SUFFIX,spotify.design
-HOST-SUFFIX,spotifycdn.com
-HOST-SUFFIX,spotifycdn.net
-HOST-SUFFIX,spotifycharts.com
-HOST-SUFFIX,spotifycodes.com
-HOST-SUFFIX,spotifyforbrands.com
-HOST-SUFFIX,spotifyjobs.com
-USER-AGENT,Spotify*
 #  与 Riot 共 45 条规则重复
 HOST-SUFFIX,championshipseriesleague.com
 HOST-SUFFIX,convrgencegame.com

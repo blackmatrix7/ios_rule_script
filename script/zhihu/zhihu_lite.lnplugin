@@ -13,6 +13,9 @@ USER-AGENT,AVOS*,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
 # 知乎拦截其他广告
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad),REJECT
+# 拦截知乎品牌提问广告
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
 
 [URL Rewrite]
 # 知乎拦截其他广告
@@ -22,6 +25,9 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject-200
 ^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject-200
 ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject-200
+# 知乎品牌提问广告
+^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject-dict
 
 [Script]
 http-response ^https?:\/\/api\.zhihu\.com\/people requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_处理用户信息

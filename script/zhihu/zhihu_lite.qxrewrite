@@ -15,5 +15,8 @@
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation url reject-200
 ^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner url reject-200
 ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation url reject-200
+# 知乎品牌提问广告
+^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? url reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? url reject-dict
 
 hostname = www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com

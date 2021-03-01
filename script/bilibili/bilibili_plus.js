@@ -47,10 +47,10 @@ let magicJS = MagicJS(scriptName, 'INFO');
             obj['data']['list'][i]['begin_time'] = 1915027200;
             obj['data']['list'][i]['end_time'] = 1924272000;
           }
-          for(let i=0;i<obj['data']['show'].length;i++){
-            obj['data']['show'][i]['stime'] = 1915027200;
-            obj['data']['show'][i]['etime'] = 1924272000;
-          }
+          // for(let i=0;i<obj['data']['show'].length;i++){
+          //   obj['data']['show'][i]['stime'] = 1915027200;
+          //   obj['data']['show'][i]['etime'] = 1924272000;
+          // }
           body = JSON.stringify(obj);
         }
         catch (err){

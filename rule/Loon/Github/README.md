@@ -8,18 +8,18 @@
 
 
 
-最后检查时间：2021-03-02 12:07:43.799182。
+最后检查时间：2021-03-02 22:34:24.084454。
 
 ## 规则统计
 
-总计规则：6 条。
+总计规则：23 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-KEYWORD | 1 |
-| DOMAIN-SUFFIX | 5 |
+| DOMAIN-SUFFIX | 22 |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -51,6 +51,7 @@ Github分流规则，与本项目其他分流规则没有重复。
 本项目的Github分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的Github分流规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Github.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

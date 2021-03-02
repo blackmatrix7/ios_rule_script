@@ -1,7 +1,7 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-02 12:07:23.547935
+# UPDATED: 2021-03-02 22:34:02.642182
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Netflix 共 41 条规则重复
@@ -57,6 +57,12 @@ payload:
   - DOMAIN-SUFFIX,japronx.net
   - DOMAIN-SUFFIX,japronx.tv
   - DOMAIN-SUFFIX,japronx.vip
+#  与 HuluJP 共 5 条规则重复
+  - DOMAIN-SUFFIX,happyon.jp
+  - DOMAIN-SUFFIX,hjholdings.jp
+  - DOMAIN-SUFFIX,hulu.jp
+  - DOMAIN-SUFFIX,streaks.jp
+  - DOMAIN-SUFFIX,yb.uncn.jp
 #  与 AppleNews 共 7 条规则重复
   - DOMAIN,apple.comscoreresearch.com
   - DOMAIN,gateway.icloud.com
@@ -108,6 +114,13 @@ payload:
   - DOMAIN-SUFFIX,bbc.com
   - DOMAIN-SUFFIX,bbci.co
   - DOMAIN-SUFFIX,bbci.co.uk
+#  与 HBOHK 共 6 条规则重复
+  - DOMAIN-SUFFIX,hboasia.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN-SUFFIX,hbonow.com
+  - DOMAIN-SUFFIX,nowe.com
 #  与 HBO 共 10 条规则重复
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
   - DOMAIN-SUFFIX,hbo.com
@@ -119,14 +132,6 @@ payload:
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,youboranqs01.com
-#  与 Amazon 共 7 条规则重复
-  - DOMAIN-SUFFIX,aiv-cdn.net
-  - DOMAIN-SUFFIX,amazonaws.co.uk
-  - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN-SUFFIX,amazonvideo.com
-  - DOMAIN-SUFFIX,llnwd.net
-  - DOMAIN-SUFFIX,media-amazon.com
-  - DOMAIN-SUFFIX,primevideo.com
 #  与 AmazonPrimeVideo 共 7 条规则重复
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN-SUFFIX,aiv-cdn.net

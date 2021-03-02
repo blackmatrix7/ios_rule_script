@@ -8,17 +8,17 @@
 
 
 
-最后检查时间：2021-03-02 12:07:53.285953。
+最后检查时间：2021-03-02 22:34:33.766583。
 
 ## 规则统计
 
-总计规则：6 条。
+总计规则：10 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 6 |
+| DOMAIN-SUFFIX | 10 |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -51,6 +51,7 @@ Discord分流规则，与本项目其他分流规则没有重复。
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Discord.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Discord.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Discord.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

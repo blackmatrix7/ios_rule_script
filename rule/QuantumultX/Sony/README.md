@@ -8,17 +8,17 @@
 
 
 
-最后检查时间：2021-03-02 12:07:36.354523。
+最后检查时间：2021-03-02 22:34:15.207459。
 
 ## 规则统计
 
-总计规则：6 条。
+总计规则：116 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST-SUFFIX | 5 |
+| HOST-SUFFIX | 115 |
 | HOST | 1 |
 ## 配置说明
 
@@ -52,6 +52,7 @@ Sony分流规则，与本项目其他分流规则没有重复。
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Sony.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Sony.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

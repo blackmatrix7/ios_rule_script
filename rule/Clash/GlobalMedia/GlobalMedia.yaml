@@ -1,12 +1,12 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-02 12:07:15.973758
-# DOMAIN-SUFFIX: 183
+# UPDATED: 2021-03-02 22:33:55.105195
+# DOMAIN-SUFFIX: 190
 # DOMAIN-KEYWORD: 20
-# DOMAIN: 31
+# DOMAIN: 32
 # IP-CIDR: 847
-# TOTAL: 1081
+# TOTAL: 1089
 payload:
   - DOMAIN,apple.comscoreresearch.com
   - DOMAIN,atv-ps.amazon.com
@@ -27,6 +27,7 @@ payload:
   - DOMAIN,hboasia5-i.akamaihd.net
   - DOMAIN,itvpnpmobile-a.akamaihd.net
   - DOMAIN,kktv-theater.kk.stream
+  - DOMAIN,linear.tv.apple.com
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net
   - DOMAIN,netflix.com.edgesuite.net
@@ -84,6 +85,9 @@ payload:
   - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
   - DOMAIN-SUFFIX,disneystreaming.com
   - DOMAIN-SUFFIX,dmc.nico
+  - DOMAIN-SUFFIX,dmm-extension.com
+  - DOMAIN-SUFFIX,dmm.co.jp
+  - DOMAIN-SUFFIX,dmm.com
   - DOMAIN-SUFFIX,dssott.com
   - DOMAIN-SUFFIX,dzcdn.net
   - DOMAIN-SUFFIX,edgedatg.com
@@ -109,6 +113,7 @@ payload:
   - DOMAIN-SUFFIX,hbogoasia.hk
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbonow.com
+  - DOMAIN-SUFFIX,himalaya.com
   - DOMAIN-SUFFIX,hinet.net
   - DOMAIN-SUFFIX,hjholdings.jp
   - DOMAIN-SUFFIX,hulu.com
@@ -153,6 +158,7 @@ payload:
   - DOMAIN-SUFFIX,musical.ly
   - DOMAIN-SUFFIX,my5.tv
   - DOMAIN-SUFFIX,mytvsuper.com
+  - DOMAIN-SUFFIX,naver.com
   - DOMAIN-SUFFIX,netflix.com
   - DOMAIN-SUFFIX,netflix.net
   - DOMAIN-SUFFIX,netflixdnstest0.com
@@ -193,6 +199,7 @@ payload:
   - DOMAIN-SUFFIX,segment.com
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,skyking.com.tw
+  - DOMAIN-SUFFIX,smartmediarep.com
   - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,socdm.com
   - DOMAIN-SUFFIX,soundcloud.com
@@ -211,6 +218,7 @@ payload:
   - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,tv.apple.com
   - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN-SUFFIX,tver.jp
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,twitchcdn.net
   - DOMAIN-SUFFIX,uplynk.com

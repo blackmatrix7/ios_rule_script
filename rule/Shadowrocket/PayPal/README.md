@@ -8,18 +8,18 @@
 
 
 
-最后检查时间：2021-03-02 12:08:02.000754。
+最后检查时间：2021-03-02 22:34:43.171429。
 
 ## 规则统计
 
-总计规则：5 条。
+总计规则：248 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | USER-AGENT | 1 |
-| DOMAIN-SUFFIX | 3 |
+| DOMAIN-SUFFIX | 246 |
 | DOMAIN-KEYWORD | 1 |
 ## 配置说明
 
@@ -54,6 +54,7 @@ PayPal分流规则，与本项目其他分流规则没有重复。
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/PayPal.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/PayPal.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/PayPal.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PayPal.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/PayPal.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/PayPal.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Paypal.list

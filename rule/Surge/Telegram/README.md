@@ -8,20 +8,21 @@
 
 
 
-最后检查时间：2021-03-02 12:07:27.254392。
+最后检查时间：2021-03-02 22:34:06.128428。
 
 ## 规则统计
 
-总计规则：19 条。
+总计规则：29 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 7 |
+| DOMAIN-SUFFIX | 15 |
 | IP-CIDR | 7 |
 | IP-CIDR6 | 4 |
 | DOMAIN-KEYWORD | 1 |
+| PROCESS-NAME | 2 |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -57,6 +58,7 @@ Telegram分流规则，与本项目其他分流规则没有重复。
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Telegram.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Telegram.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/social/Telegram.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Telegram.list
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/telegramcidr.txt
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Telegram.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Telegram.list

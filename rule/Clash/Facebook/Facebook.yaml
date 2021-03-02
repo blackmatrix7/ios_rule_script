@@ -1,29 +1,58 @@
 # NAME: Facebook
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-02 12:07:16.026029
-# DOMAIN-SUFFIX: 15
+# UPDATED: 2021-03-02 22:33:55.145805
+# DOMAIN-SUFFIX: 34
 # DOMAIN-KEYWORD: 1
-# IP-CIDR: 23
-# TOTAL: 39
+# IP-CIDR: 33
+# TOTAL: 68
 payload:
+  - DOMAIN-SUFFIX,accountkit.com
   - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,facebook.br
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,facebook.design
+  - DOMAIN-SUFFIX,facebook.hu
+  - DOMAIN-SUFFIX,facebook.in
+  - DOMAIN-SUFFIX,facebook.net
+  - DOMAIN-SUFFIX,facebook.nl
+  - DOMAIN-SUFFIX,facebook.se
+  - DOMAIN-SUFFIX,facebookmail.com
+  - DOMAIN-SUFFIX,facebookquotes4u.com
   - DOMAIN-SUFFIX,fb.com
   - DOMAIN-SUFFIX,fb.me
   - DOMAIN-SUFFIX,fbaddins.com
+  - DOMAIN-SUFFIX,fbcdn-a.akamaihd.net
   - DOMAIN-SUFFIX,fbcdn.net
   - DOMAIN-SUFFIX,fbsbx.com
   - DOMAIN-SUFFIX,fbworkmail.com
+  - DOMAIN-SUFFIX,igcdn.com
+  - DOMAIN-SUFFIX,igsonar.com
+  - DOMAIN-SUFFIX,instagr.am
+  - DOMAIN-SUFFIX,instagram-press.com
   - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,ip6.static.sl-reverse.com
   - DOMAIN-SUFFIX,m.me
   - DOMAIN-SUFFIX,messenger.com
   - DOMAIN-SUFFIX,oculus.com
   - DOMAIN-SUFFIX,oculuscdn.com
   - DOMAIN-SUFFIX,rocksdb.org
+  - DOMAIN-SUFFIX,thefacebook.com
+  - DOMAIN-SUFFIX,whatsapp.biz
   - DOMAIN-SUFFIX,whatsapp.com
   - DOMAIN-SUFFIX,whatsapp.net
   - DOMAIN-KEYWORD,facebook
   - IP-CIDR,103.4.96.0/22
+  - IP-CIDR,108.168.176.192/26
+  - IP-CIDR,108.168.177.0/27
+  - IP-CIDR,108.168.180.96/27
+  - IP-CIDR,108.168.254.65/32
+  - IP-CIDR,108.168.255.224/32
+  - IP-CIDR,108.168.255.227/32
+  - IP-CIDR,108.177.8.0/21
+  - IP-CIDR,119.235.224.0/24
+  - IP-CIDR,119.235.232.0/24
+  - IP-CIDR,119.235.236.0/23
   - IP-CIDR,129.134.0.0/17
   - IP-CIDR,157.240.0.0/17
   - IP-CIDR,169.45.248.118/32

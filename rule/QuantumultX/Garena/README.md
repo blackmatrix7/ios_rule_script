@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-03-02 12:07:35.043627。
+最后检查时间：2021-03-02 22:34:14.168743。
 
 ## 规则统计
 
@@ -50,6 +50,7 @@ Garena分流规则，与本项目其他分流规则没有重复。
 本项目的Garena分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的Garena分流规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Garena.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Garena.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

@@ -1,7 +1,7 @@
 # NAME: China 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-02 12:07:21.294981
+# UPDATED: 2021-03-02 22:34:00.215657
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 DanDanZan 共 7 条规则重复
 HOST-SUFFIX,343480.com
@@ -56,69 +56,6 @@ IP-CIDR,52.52.84.170/32
 IP-CIDR,52.58.56.244/32
 IP-CIDR,54.178.26.110/32
 IP-CIDR,69.28.51.148/32
-#  与 Sony 共 5 条规则重复
-HOST-SUFFIX,playstation.com
-HOST-SUFFIX,playstation.net
-HOST-SUFFIX,playstationnetwork.com
-HOST-SUFFIX,sony.com
-HOST-SUFFIX,sonyentertainmentnetwork.com
-#  与 Scholar 共 56 条规则重复
-HOST-SUFFIX,acm.org
-HOST-SUFFIX,acs.org
-HOST-SUFFIX,aip.org
-HOST-SUFFIX,ams.org
-HOST-SUFFIX,annualreviews.org
-HOST-SUFFIX,aps.org
-HOST-SUFFIX,ascelibrary.org
-HOST-SUFFIX,asm.org
-HOST-SUFFIX,asme.org
-HOST-SUFFIX,astm.org
-HOST-SUFFIX,bmj.com
-HOST-SUFFIX,cambridge.org
-HOST-SUFFIX,cas.org
-HOST-SUFFIX,clarivate.com
-HOST-SUFFIX,ebscohost.com
-HOST-SUFFIX,emerald.com
-HOST-SUFFIX,engineeringvillage.com
-HOST-SUFFIX,icevirtuallibrary.com
-HOST-SUFFIX,ieee.org
-HOST-SUFFIX,imf.org
-HOST-SUFFIX,iop.org
-HOST-SUFFIX,jamanetwork.com
-HOST-SUFFIX,jhu.edu
-HOST-SUFFIX,jstor.org
-HOST-SUFFIX,karger.com
-HOST-SUFFIX,libguides.com
-HOST-SUFFIX,madsrevolution.net
-HOST-SUFFIX,mpg.de
-HOST-SUFFIX,myilibrary.com
-HOST-SUFFIX,nature.com
-HOST-SUFFIX,oecd-ilibrary.org
-HOST-SUFFIX,osapublishing.org
-HOST-SUFFIX,oup.com
-HOST-SUFFIX,ovid.com
-HOST-SUFFIX,oxfordartonline.com
-HOST-SUFFIX,oxfordbibliographies.com
-HOST-SUFFIX,oxfordmusiconline.com
-HOST-SUFFIX,pnas.org
-HOST-SUFFIX,proquest.com
-HOST-SUFFIX,rsc.org
-HOST-SUFFIX,sagepub.com
-HOST-SUFFIX,sciencedirect.com
-HOST-SUFFIX,sciencemag.org
-HOST-SUFFIX,scopus.com
-HOST-SUFFIX,siam.org
-HOST-SUFFIX,spiedigitallibrary.org
-HOST-SUFFIX,springer.com
-HOST-SUFFIX,springerlink.com
-HOST-SUFFIX,tandfonline.com
-HOST-SUFFIX,un.org
-HOST-SUFFIX,uni-bielefeld.de
-HOST-SUFFIX,webofknowledge.com
-HOST-SUFFIX,westlaw.com
-HOST-SUFFIX,wiley.com
-HOST-SUFFIX,worldbank.org
-HOST-SUFFIX,worldscientific.com
 #  与 MeiTuan 共 5 条规则重复
 HOST-SUFFIX,dianping.com
 HOST-SUFFIX,maoyan.com
@@ -185,6 +122,63 @@ HOST-SUFFIX,steamgames.com
 HOST-SUFFIX,steamstat.us
 HOST-SUFFIX,steamstatic.com
 HOST-SUFFIX,steamusercontent.com
+#  与 Scholar 共 56 条规则重复
+HOST-SUFFIX,acm.org
+HOST-SUFFIX,acs.org
+HOST-SUFFIX,aip.org
+HOST-SUFFIX,ams.org
+HOST-SUFFIX,annualreviews.org
+HOST-SUFFIX,aps.org
+HOST-SUFFIX,ascelibrary.org
+HOST-SUFFIX,asm.org
+HOST-SUFFIX,asme.org
+HOST-SUFFIX,astm.org
+HOST-SUFFIX,bmj.com
+HOST-SUFFIX,cambridge.org
+HOST-SUFFIX,cas.org
+HOST-SUFFIX,clarivate.com
+HOST-SUFFIX,ebscohost.com
+HOST-SUFFIX,emerald.com
+HOST-SUFFIX,engineeringvillage.com
+HOST-SUFFIX,icevirtuallibrary.com
+HOST-SUFFIX,ieee.org
+HOST-SUFFIX,imf.org
+HOST-SUFFIX,iop.org
+HOST-SUFFIX,jamanetwork.com
+HOST-SUFFIX,jhu.edu
+HOST-SUFFIX,jstor.org
+HOST-SUFFIX,karger.com
+HOST-SUFFIX,libguides.com
+HOST-SUFFIX,madsrevolution.net
+HOST-SUFFIX,mpg.de
+HOST-SUFFIX,myilibrary.com
+HOST-SUFFIX,nature.com
+HOST-SUFFIX,oecd-ilibrary.org
+HOST-SUFFIX,osapublishing.org
+HOST-SUFFIX,oup.com
+HOST-SUFFIX,ovid.com
+HOST-SUFFIX,oxfordartonline.com
+HOST-SUFFIX,oxfordbibliographies.com
+HOST-SUFFIX,oxfordmusiconline.com
+HOST-SUFFIX,pnas.org
+HOST-SUFFIX,proquest.com
+HOST-SUFFIX,rsc.org
+HOST-SUFFIX,sagepub.com
+HOST-SUFFIX,sciencedirect.com
+HOST-SUFFIX,sciencemag.org
+HOST-SUFFIX,scopus.com
+HOST-SUFFIX,siam.org
+HOST-SUFFIX,spiedigitallibrary.org
+HOST-SUFFIX,springer.com
+HOST-SUFFIX,springerlink.com
+HOST-SUFFIX,tandfonline.com
+HOST-SUFFIX,un.org
+HOST-SUFFIX,uni-bielefeld.de
+HOST-SUFFIX,webofknowledge.com
+HOST-SUFFIX,westlaw.com
+HOST-SUFFIX,wiley.com
+HOST-SUFFIX,worldbank.org
+HOST-SUFFIX,worldscientific.com
 #  与 Microsoft 共 30 条规则重复
 HOST-KEYWORD,microsoft
 HOST-SUFFIX,akadns.net
@@ -216,15 +210,6 @@ HOST-SUFFIX,windowsupdate.com
 HOST-SUFFIX,xbox.com
 HOST-SUFFIX,xboxlive.com
 USER-AGENT,Microsoft*
-#  与 AsianMedia 共 8 条规则重复
-HOST-SUFFIX,71.am.com
-HOST-SUFFIX,acgvideo.com
-HOST-SUFFIX,biliapi.com
-HOST-SUFFIX,biliapi.net
-HOST-SUFFIX,bilibili.com
-HOST-SUFFIX,bilibili.tv
-HOST-SUFFIX,bilivideo.com
-HOST-SUFFIX,hdslb.com
 #  与 Steam 共 8 条规则重复
 HOST-SUFFIX,steam-chat.com
 HOST-SUFFIX,steamcdn-a.akamaihd.net

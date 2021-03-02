@@ -1,12 +1,19 @@
 # NAME: iQIYI 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-02 12:07:23.952287
+# UPDATED: 2021-03-02 22:34:02.961123
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
-#  与 AsianMedia 共 5 条规则重复
+#  与 AsianMedia 共 12 条规则重复
   - DOMAIN-KEYWORD,qiyi
   - DOMAIN-SUFFIX,71.am.com
+  - DOMAIN-SUFFIX,iq.com
   - DOMAIN-SUFFIX,qy.net
   - IP-CIDR,101.224.0.0/13
+  - IP-CIDR,103.44.56.0/22
+  - IP-CIDR,118.26.120.0/24
+  - IP-CIDR,118.26.32.0/23
   - IP-CIDR,119.176.0.0/12
+  - IP-CIDR,223.119.62.224/28
+  - IP-CIDR,23.40.241.251/32
+  - IP-CIDR,23.40.242.10/32

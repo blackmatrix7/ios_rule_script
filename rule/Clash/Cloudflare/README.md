@@ -8,17 +8,17 @@
 
 
 
-最后检查时间：2021-03-02 12:07:53.188322。
+最后检查时间：2021-03-02 22:34:33.688538。
 
 ## 规则统计
 
-总计规则：22 条。
+总计规则：41 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 1 |
+| DOMAIN-SUFFIX | 20 |
 | IP-CIDR | 14 |
 | IP-CIDR6 | 7 |
 ## 配置说明
@@ -52,6 +52,7 @@ Cloudflare分流规则，与本项目其他分流规则没有重复。
 本项目的Cloudflare分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，建议不要与本项目的Cloudflare分流规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Cloudflare.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Cloudflare.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Cloudflare.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Cloudflare.list
 

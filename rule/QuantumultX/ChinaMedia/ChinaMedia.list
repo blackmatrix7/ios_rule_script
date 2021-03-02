@@ -1,24 +1,28 @@
 # NAME: ChinaMedia
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-02 12:07:12.462749
+# UPDATED: 2021-03-02 22:33:51.744623
 # USER-AGENT: 29
-# HOST-SUFFIX: 157
+# HOST-SUFFIX: 162
 # IP-CIDR: 35
-# HOST: 5
+# HOST: 8
 # HOST-KEYWORD: 2
-# TOTAL: 228
+# TOTAL: 236
+HOST,api.iplay.163.com,ChinaMedia
 HOST,apm.music.163.com,ChinaMedia
 HOST,apm3.music.163.com,ChinaMedia
 HOST,aqqmusic.tc.qq.com,ChinaMedia
 HOST,interface.music.163.com,ChinaMedia
 HOST,interface3.music.163.com,ChinaMedia
+HOST,mam.netease.com,ChinaMedia
+HOST,moo.qq.com,ChinaMedia
 HOST-SUFFIX,*music.qq.com,ChinaMedia
 HOST-SUFFIX,1.letvlive.com,ChinaMedia
 HOST-SUFFIX,2.letvlive.com,ChinaMedia
 HOST-SUFFIX,56.com,ChinaMedia
 HOST-SUFFIX,71.am,ChinaMedia
 HOST-SUFFIX,71.am.com,ChinaMedia
+HOST-SUFFIX,71edge.com,ChinaMedia
 HOST-SUFFIX,acfun.cn,ChinaMedia
 HOST-SUFFIX,acfun.com,ChinaMedia
 HOST-SUFFIX,acfun.tv,ChinaMedia
@@ -27,14 +31,11 @@ HOST-SUFFIX,acgvideo.com,ChinaMedia
 HOST-SUFFIX,ad.api.3g.tudou.com,ChinaMedia
 HOST-SUFFIX,ads1.lfengmobile.com,ChinaMedia
 HOST-SUFFIX,afp.pplive.com,ChinaMedia
+HOST-SUFFIX,ai.xiaomi.com,ChinaMedia
 HOST-SUFFIX,aixifan.com,ChinaMedia
 HOST-SUFFIX,androidgo.duapp.com,ChinaMedia
 HOST-SUFFIX,api.cupid.qiyi.com,ChinaMedia
 HOST-SUFFIX,api.game.letvstore.com,ChinaMedia
-HOST-SUFFIX,api.push.le.com,ChinaMedia
-HOST-SUFFIX,app.aplus.pptv.com,ChinaMedia
-HOST-SUFFIX,as.aplus.pptv.com,ChinaMedia
-HOST-SUFFIX,asimgs.pplive.cn,ChinaMedia
 HOST-SUFFIX,b23.tv,ChinaMedia
 HOST-SUFFIX,baka.im,ChinaMedia
 HOST-SUFFIX,bigfun.cn,ChinaMedia
@@ -81,7 +82,7 @@ HOST-SUFFIX,cntv.cn,ChinaMedia
 HOST-SUFFIX,cntv.com.cn,ChinaMedia
 HOST-SUFFIX,cntvwb.cn,ChinaMedia
 HOST-SUFFIX,corari.com,ChinaMedia
-HOST-SUFFIX,de.as.pptv.com,ChinaMedia
+HOST-SUFFIX,dmhmusic.com,ChinaMedia
 HOST-SUFFIX,dyhgames.com,ChinaMedia
 HOST-SUFFIX,game.pps.tv,ChinaMedia
 HOST-SUFFIX,gjgbdszt.cn,ChinaMedia
@@ -94,6 +95,7 @@ HOST-SUFFIX,hdslb.net,ChinaMedia
 HOST-SUFFIX,hdslb.org,ChinaMedia
 HOST-SUFFIX,hitv.com,ChinaMedia
 HOST-SUFFIX,hunantv.com,ChinaMedia
+HOST-SUFFIX,i.qq.com,ChinaMedia
 HOST-SUFFIX,im9.com,ChinaMedia
 HOST-SUFFIX,ipanda.cn,ChinaMedia
 HOST-SUFFIX,ipanda.com,ChinaMedia
@@ -102,11 +104,12 @@ HOST-SUFFIX,ipanda.net,ChinaMedia
 HOST-SUFFIX,iqiyi.com,ChinaMedia
 HOST-SUFFIX,iqiyipic.com,ChinaMedia
 HOST-SUFFIX,itc.cn,ChinaMedia
-HOST-SUFFIX,jp.as.pptv.com,ChinaMedia
+HOST-SUFFIX,ixigua.com,ChinaMedia
 HOST-SUFFIX,jstucdn.com,ChinaMedia
 HOST-SUFFIX,koowo.com,ChinaMedia
 HOST-SUFFIX,kugou.com,ChinaMedia
 HOST-SUFFIX,kuwo.cn,ChinaMedia
+HOST-SUFFIX,le.com,ChinaMedia
 HOST-SUFFIX,letv.com,ChinaMedia
 HOST-SUFFIX,livechina.cn,ChinaMedia
 HOST-SUFFIX,livechina.com,ChinaMedia
@@ -119,21 +122,26 @@ HOST-SUFFIX,msg.video.qiyi.com,ChinaMedia
 HOST-SUFFIX,msg2.video.qiyi.com,ChinaMedia
 HOST-SUFFIX,music.126.net,ChinaMedia
 HOST-SUFFIX,music.163.com,ChinaMedia
+HOST-SUFFIX,music.qq.com,ChinaMedia
+HOST-SUFFIX,music.tc.qq.com,ChinaMedia
+HOST-SUFFIX,music.xiaomi.com,ChinaMedia
 HOST-SUFFIX,noxagile.duapp.com,ChinaMedia
 HOST-SUFFIX,olympicchannelchina.cn,ChinaMedia
-HOST-SUFFIX,pp2.pptv.com,ChinaMedia
+HOST-SUFFIX,pplive.cn,ChinaMedia
+HOST-SUFFIX,pptv.com,ChinaMedia
 HOST-SUFFIX,qianqian.com,ChinaMedia
 HOST-SUFFIX,qqmusic.qq.com,ChinaMedia
 HOST-SUFFIX,qy.net,ChinaMedia
 HOST-SUFFIX,s.zampdsp.com,ChinaMedia
 HOST-SUFFIX,sharejoytech.com,ChinaMedia
 HOST-SUFFIX,smtcdns.net,ChinaMedia
+HOST-SUFFIX,snssdk.com,ChinaMedia
 HOST-SUFFIX,sohu.com,ChinaMedia
 HOST-SUFFIX,sohu.com.cn,ChinaMedia
 HOST-SUFFIX,soku.com,ChinaMedia
-HOST-SUFFIX,stat.pptv.com,ChinaMedia
 HOST-SUFFIX,static.g.ppstream.com,ChinaMedia
-HOST-SUFFIX,static.g.pptv.com,ChinaMedia
+HOST-SUFFIX,taihe.com,ChinaMedia
+HOST-SUFFIX,tencentmusic.com,ChinaMedia
 HOST-SUFFIX,tvcc.cn,ChinaMedia
 HOST-SUFFIX,tvcc.com.cn,ChinaMedia
 HOST-SUFFIX,upos-hz-mirrorakam.akamaized.net,ChinaMedia

@@ -1,17 +1,26 @@
 # NAME: AsianMedia
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-02 12:07:12.060914
-# HOST-KEYWORD: 2
-# HOST-SUFFIX: 16
-# HOST: 1
+# UPDATED: 2021-03-02 22:33:51.450973
+# HOST-KEYWORD: 5
+# HOST-SUFFIX: 20
+# HOST: 9
 # USER-AGENT: 5
-# IP-CIDR: 3
-# TOTAL: 27
+# IP-CIDR: 9
+# TOTAL: 48
+HOST,akmcdnoversea-tw.inter.iqiyi.com,AsianMedia
+HOST,akmcdnoversea-tw.inter.ptqy.gitv.tv,AsianMedia
+HOST,cache.video.iqiyi.com,AsianMedia
+HOST,chuangcachecdnoversea-tw.inter.iqiyi.com,AsianMedia
+HOST,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv,AsianMedia
+HOST,intl-rcd.iqiyi.com,AsianMedia
+HOST,intl-subscription.iqiyi.com,AsianMedia
+HOST,intl.iqiyi.com,AsianMedia
 HOST,upos-hz-mirrorakam.akamaized.net,AsianMedia
 HOST-SUFFIX,71.am.com,AsianMedia
 HOST-SUFFIX,acg.tv,AsianMedia
 HOST-SUFFIX,acgvideo.com,AsianMedia
+HOST-SUFFIX,api.mgtv.com,AsianMedia
 HOST-SUFFIX,api.mob.app.letv.com,AsianMedia
 HOST-SUFFIX,b23.tv,AsianMedia
 HOST-SUFFIX,biliapi.com,AsianMedia
@@ -23,9 +32,15 @@ HOST-SUFFIX,biligame.net,AsianMedia
 HOST-SUFFIX,bilivideo.com,AsianMedia
 HOST-SUFFIX,hdslb.com,AsianMedia
 HOST-SUFFIX,im9.com,AsianMedia
+HOST-SUFFIX,iq.com,AsianMedia
 HOST-SUFFIX,qy.net,AsianMedia
 HOST-SUFFIX,vv.video.qq.com,AsianMedia
+HOST-SUFFIX,wetv.vip,AsianMedia
+HOST-SUFFIX,wetvinfo.com,AsianMedia
 HOST-KEYWORD,bilibili,AsianMedia
+HOST-KEYWORD,cn-hk-eq-bcache-,AsianMedia
+HOST-KEYWORD,oversea-tw.inter.iqiyi.com,AsianMedia
+HOST-KEYWORD,oversea-tw.inter.ptqy.gitv.tv,AsianMedia
 HOST-KEYWORD,qiyi,AsianMedia
 USER-AGENT,*bili*,AsianMedia
 USER-AGENT,MOO*,AsianMedia
@@ -33,29 +48,11 @@ USER-AGENT,QIYI*,AsianMedia
 USER-AGENT,TencentMidasConnect*,AsianMedia
 USER-AGENT,iQiYi*,AsianMedia
 IP-CIDR,101.224.0.0/13,AsianMedia
-IP-CIDR,106.11.0.0/16,AsianMedia
-IP-CIDR,119.176.0.0/12,AsianMedia
-
-# > 愛奇藝台灣站 & iQIYI
-DOMAIN-SUFFIX,iq.com,AsianMedia
-DOMAIN,cache.video.iqiyi.com,AsianMedia
-DOMAIN,cache-video.iq.com,AsianMedia
-DOMAIN,intl.iqiyi.com,AsianMedia
-DOMAIN,intl-rcd.iqiyi.com,AsianMedia
-DOMAIN,intl-subscription.iqiyi.com,AsianMedia
-# (流媒体内容，非必须，省流量可注释)
-DOMAIN,akmcdnoversea-tw.inter.iqiyi.com,AsianMedia
-DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv,AsianMedia
-DOMAIN,chuangcachecdnoversea-tw.inter.iqiyi.com,AsianMedia
-DOMAIN,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv,AsianMedia
 IP-CIDR,103.44.56.0/22,AsianMedia
-IP-CIDR,118.26.32.0/23,AsianMedia
+IP-CIDR,106.11.0.0/16,AsianMedia
 IP-CIDR,118.26.120.0/24,AsianMedia
-IP-CIDR,223.119.62.225/28,AsianMedia
-IP-CIDR,23.40.242.10/32,AsianMedia
+IP-CIDR,118.26.32.0/23,AsianMedia
+IP-CIDR,119.176.0.0/12,AsianMedia
+IP-CIDR,223.119.62.224/28,AsianMedia
 IP-CIDR,23.40.241.251/32,AsianMedia
-# > 芒果TV国际
-DOMAIN-SUFFIX,api.mgtv.com,AsianMedia
-# > WeTV
-DOMAIN-SUFFIX,wetv.vip,AsianMedia
-DOMAIN-SUFFIX,wetvinfo.com,AsianMedia
+IP-CIDR,23.40.242.10/32,AsianMedia

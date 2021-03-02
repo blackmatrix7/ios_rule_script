@@ -1,7 +1,7 @@
 # NAME: China 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-02 12:07:22.607927
+# UPDATED: 2021-03-02 22:34:01.571232
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 DanDanZan 共 7 条规则重复
 DOMAIN-SUFFIX,343480.com
@@ -56,69 +56,6 @@ IP-CIDR,52.52.84.170/32
 IP-CIDR,52.58.56.244/32
 IP-CIDR,54.178.26.110/32
 IP-CIDR,69.28.51.148/32
-#  与 Sony 共 5 条规则重复
-DOMAIN-SUFFIX,playstation.com
-DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,playstationnetwork.com
-DOMAIN-SUFFIX,sony.com
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-#  与 Scholar 共 56 条规则重复
-DOMAIN-SUFFIX,acm.org
-DOMAIN-SUFFIX,acs.org
-DOMAIN-SUFFIX,aip.org
-DOMAIN-SUFFIX,ams.org
-DOMAIN-SUFFIX,annualreviews.org
-DOMAIN-SUFFIX,aps.org
-DOMAIN-SUFFIX,ascelibrary.org
-DOMAIN-SUFFIX,asm.org
-DOMAIN-SUFFIX,asme.org
-DOMAIN-SUFFIX,astm.org
-DOMAIN-SUFFIX,bmj.com
-DOMAIN-SUFFIX,cambridge.org
-DOMAIN-SUFFIX,cas.org
-DOMAIN-SUFFIX,clarivate.com
-DOMAIN-SUFFIX,ebscohost.com
-DOMAIN-SUFFIX,emerald.com
-DOMAIN-SUFFIX,engineeringvillage.com
-DOMAIN-SUFFIX,icevirtuallibrary.com
-DOMAIN-SUFFIX,ieee.org
-DOMAIN-SUFFIX,imf.org
-DOMAIN-SUFFIX,iop.org
-DOMAIN-SUFFIX,jamanetwork.com
-DOMAIN-SUFFIX,jhu.edu
-DOMAIN-SUFFIX,jstor.org
-DOMAIN-SUFFIX,karger.com
-DOMAIN-SUFFIX,libguides.com
-DOMAIN-SUFFIX,madsrevolution.net
-DOMAIN-SUFFIX,mpg.de
-DOMAIN-SUFFIX,myilibrary.com
-DOMAIN-SUFFIX,nature.com
-DOMAIN-SUFFIX,oecd-ilibrary.org
-DOMAIN-SUFFIX,osapublishing.org
-DOMAIN-SUFFIX,oup.com
-DOMAIN-SUFFIX,ovid.com
-DOMAIN-SUFFIX,oxfordartonline.com
-DOMAIN-SUFFIX,oxfordbibliographies.com
-DOMAIN-SUFFIX,oxfordmusiconline.com
-DOMAIN-SUFFIX,pnas.org
-DOMAIN-SUFFIX,proquest.com
-DOMAIN-SUFFIX,rsc.org
-DOMAIN-SUFFIX,sagepub.com
-DOMAIN-SUFFIX,sciencedirect.com
-DOMAIN-SUFFIX,sciencemag.org
-DOMAIN-SUFFIX,scopus.com
-DOMAIN-SUFFIX,siam.org
-DOMAIN-SUFFIX,spiedigitallibrary.org
-DOMAIN-SUFFIX,springer.com
-DOMAIN-SUFFIX,springerlink.com
-DOMAIN-SUFFIX,tandfonline.com
-DOMAIN-SUFFIX,un.org
-DOMAIN-SUFFIX,uni-bielefeld.de
-DOMAIN-SUFFIX,webofknowledge.com
-DOMAIN-SUFFIX,westlaw.com
-DOMAIN-SUFFIX,wiley.com
-DOMAIN-SUFFIX,worldbank.org
-DOMAIN-SUFFIX,worldscientific.com
 #  与 MeiTuan 共 5 条规则重复
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,maoyan.com
@@ -185,6 +122,63 @@ DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamusercontent.com
+#  与 Scholar 共 56 条规则重复
+DOMAIN-SUFFIX,acm.org
+DOMAIN-SUFFIX,acs.org
+DOMAIN-SUFFIX,aip.org
+DOMAIN-SUFFIX,ams.org
+DOMAIN-SUFFIX,annualreviews.org
+DOMAIN-SUFFIX,aps.org
+DOMAIN-SUFFIX,ascelibrary.org
+DOMAIN-SUFFIX,asm.org
+DOMAIN-SUFFIX,asme.org
+DOMAIN-SUFFIX,astm.org
+DOMAIN-SUFFIX,bmj.com
+DOMAIN-SUFFIX,cambridge.org
+DOMAIN-SUFFIX,cas.org
+DOMAIN-SUFFIX,clarivate.com
+DOMAIN-SUFFIX,ebscohost.com
+DOMAIN-SUFFIX,emerald.com
+DOMAIN-SUFFIX,engineeringvillage.com
+DOMAIN-SUFFIX,icevirtuallibrary.com
+DOMAIN-SUFFIX,ieee.org
+DOMAIN-SUFFIX,imf.org
+DOMAIN-SUFFIX,iop.org
+DOMAIN-SUFFIX,jamanetwork.com
+DOMAIN-SUFFIX,jhu.edu
+DOMAIN-SUFFIX,jstor.org
+DOMAIN-SUFFIX,karger.com
+DOMAIN-SUFFIX,libguides.com
+DOMAIN-SUFFIX,madsrevolution.net
+DOMAIN-SUFFIX,mpg.de
+DOMAIN-SUFFIX,myilibrary.com
+DOMAIN-SUFFIX,nature.com
+DOMAIN-SUFFIX,oecd-ilibrary.org
+DOMAIN-SUFFIX,osapublishing.org
+DOMAIN-SUFFIX,oup.com
+DOMAIN-SUFFIX,ovid.com
+DOMAIN-SUFFIX,oxfordartonline.com
+DOMAIN-SUFFIX,oxfordbibliographies.com
+DOMAIN-SUFFIX,oxfordmusiconline.com
+DOMAIN-SUFFIX,pnas.org
+DOMAIN-SUFFIX,proquest.com
+DOMAIN-SUFFIX,rsc.org
+DOMAIN-SUFFIX,sagepub.com
+DOMAIN-SUFFIX,sciencedirect.com
+DOMAIN-SUFFIX,sciencemag.org
+DOMAIN-SUFFIX,scopus.com
+DOMAIN-SUFFIX,siam.org
+DOMAIN-SUFFIX,spiedigitallibrary.org
+DOMAIN-SUFFIX,springer.com
+DOMAIN-SUFFIX,springerlink.com
+DOMAIN-SUFFIX,tandfonline.com
+DOMAIN-SUFFIX,un.org
+DOMAIN-SUFFIX,uni-bielefeld.de
+DOMAIN-SUFFIX,webofknowledge.com
+DOMAIN-SUFFIX,westlaw.com
+DOMAIN-SUFFIX,wiley.com
+DOMAIN-SUFFIX,worldbank.org
+DOMAIN-SUFFIX,worldscientific.com
 #  与 Microsoft 共 30 条规则重复
 DOMAIN-KEYWORD,microsoft
 DOMAIN-SUFFIX,akadns.net
@@ -216,15 +210,6 @@ DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,xbox.com
 DOMAIN-SUFFIX,xboxlive.com
 USER-AGENT,Microsoft*
-#  与 AsianMedia 共 8 条规则重复
-DOMAIN-SUFFIX,71.am.com
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,bilibili.tv
-DOMAIN-SUFFIX,bilivideo.com
-DOMAIN-SUFFIX,hdslb.com
 #  与 Steam 共 8 条规则重复
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net

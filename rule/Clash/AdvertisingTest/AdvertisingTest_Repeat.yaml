@@ -1,7 +1,7 @@
 # NAME: AdvertisingTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-02 02:44:29.131669
+# UPDATED: 2021-03-02 12:07:23.330147
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Hijacking 共 212 条规则重复
@@ -3008,7 +3008,7 @@ payload:
   - DOMAIN-SUFFIX,zsi7.destinia.do
   - DOMAIN-SUFFIX,zyq2.destinia.sk
   - DOMAIN-SUFFIX,zz.bdstatic.com
-#  与 Advertising 共 57101 条规则重复
+#  与 Advertising 共 57102 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0001.2waky.com
   - DOMAIN,000lk3v.wcomhost.com
@@ -12283,7 +12283,6 @@ payload:
   - DOMAIN,mobile.onlyhookup.com
   - DOMAIN,mobile.whitelabelpros.com
   - DOMAIN,mobileactive.com
-  - DOMAIN,mobileads.indiatimes.com
   - DOMAIN,mobileadvertisinghub.com
   - DOMAIN,mobilebouncingcastle.com
   - DOMAIN,mobilegamehackers.com
@@ -14676,6 +14675,7 @@ payload:
   - DOMAIN,scottfaulconbridge.com
   - DOMAIN,scprtrs.000webhostapp.com
   - DOMAIN,screentoolkit.com
+  - DOMAIN,screenwatch.yournewtab.com
   - DOMAIN,scriptall.gq
   - DOMAIN,scripted.com
   - DOMAIN,scriptkiddieshack.com
@@ -16521,6 +16521,7 @@ payload:
   - DOMAIN,trademob.com
   - DOMAIN,trader.erosdlz.com
   - DOMAIN,traderockets.com
+  - DOMAIN,tradersbrokers.com
   - DOMAIN,tradingcsgo.com
   - DOMAIN,traf.street-info.com
   - DOMAIN,trafdriver.com

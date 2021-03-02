@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2021-03-02 02:45:20
+#!desc=最后更新时间 2021-03-02 12:08:13
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=871
@@ -542,7 +542,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/imgcache\.qq\.com\/qqlive\/ - reject
 ^https?:\/\/impservice.+?youdao.com - reject
 ^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request - reject
-^https?:\/\/interface(\d)?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|mlog|search/(specialkeyword|defaultkeyword|hot)) - reject
+^https?:\/\/interface(\d)?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|search/(specialkeyword|defaultkeyword|hot)) - reject
 ^https?:\/\/ios\.lantouzi\.com\/api\/startpage - reject
 ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
 ^https?:\/\/iphone265g\.com\/templates\/iphone\/bottomAd\.js - reject

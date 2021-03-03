@@ -1,10 +1,10 @@
 # NAME: HBOHK 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-03 02:41:42.385428
+# UPDATED: 2021-03-03 13:00:56.871331
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
-#  与 HBO 共 14 条规则重复
+#  与 HBO 共 13 条规则重复
   - DOMAIN-SUFFIX,hboasia.com
   - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
   - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net
@@ -14,7 +14,6 @@ payload:
   - DOMAIN-SUFFIX,hbogo.com
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
-  - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,now-ashare.com
   - DOMAIN-SUFFIX,now-tv.com
   - DOMAIN-SUFFIX,now.com.hk

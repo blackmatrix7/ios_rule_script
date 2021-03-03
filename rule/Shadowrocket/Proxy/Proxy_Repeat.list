@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: 
 # GITHUB: 
-# UPDATED: 2021-03-03 02:41:43.008397
+# UPDATED: 2021-03-03 13:00:57.438803
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 Wikipedia 共 12 条规则重复
 DOMAIN-SUFFIX,mediawiki.org
@@ -31831,26 +31831,6 @@ DOMAIN-SUFFIX,pixfs.net
 DOMAIN-SUFFIX,pixnet.cc
 DOMAIN-SUFFIX,pixnet.net
 DOMAIN-SUFFIX,pixnet.pro
-#  与 Telegram 共 19 条规则重复
-DOMAIN-KEYWORD,telegram
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telega.one
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.space
-DOMAIN-SUFFIX,telegramdownload.com
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,tx.me
-IP-CIDR,109.239.140.0/24
-IP-CIDR,149.154.160.0/20
-IP-CIDR,91.108.0.0/16
-IP-CIDR6,2001:67c:4e8::/48
-IP-CIDR6,2001:b28:f23f::/48
 #  与 Twitter 共 17 条规则重复
 DOMAIN-KEYWORD,twitter
 DOMAIN-SUFFIX,ads-twitter.com
@@ -32022,6 +32002,26 @@ DOMAIN-SUFFIX,snapdragonbooth.com
 DOMAIN-SUFFIX,uplinq.com
 DOMAIN-SUFFIX,wipower.com
 DOMAIN-SUFFIX,wirelessreach.com
+#  与 Telegram 共 19 条规则重复
+DOMAIN-KEYWORD,telegram
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegramdownload.com
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
+IP-CIDR,109.239.140.0/24
+IP-CIDR,149.154.160.0/20
+IP-CIDR,91.108.0.0/16
+IP-CIDR6,2001:67c:4e8::/48
+IP-CIDR6,2001:b28:f23f::/48
 #  与 Spotify 共 12 条规则重复
 DOMAIN-SUFFIX,byspotify.com
 DOMAIN-SUFFIX,pscdn.co
@@ -32818,14 +32818,6 @@ DOMAIN-SUFFIX,mailhealth.com
 DOMAIN-SUFFIX,mailonline.com
 DOMAIN-SUFFIX,mol.im
 DOMAIN-SUFFIX,thismon.ee
-#  与 HBOHK 共 7 条规则重复
-DOMAIN-SUFFIX,hboasia.com
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbogoasia.com
-DOMAIN-SUFFIX,hbonow.com
-DOMAIN-SUFFIX,now-ashare.com
-DOMAIN-SUFFIX,now-tv.com
-DOMAIN-SUFFIX,nowe.com
 #  与 AmazonPrimeVideo 共 12 条规则重复
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,amazonprimevideos.com
@@ -32839,6 +32831,13 @@ DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,primevideo.info
 DOMAIN-SUFFIX,primevideo.org
 DOMAIN-SUFFIX,primevideo.tv
+#  与 HBOHK 共 6 条规则重复
+DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbogoasia.com
+DOMAIN-SUFFIX,now-ashare.com
+DOMAIN-SUFFIX,now-tv.com
+DOMAIN-SUFFIX,nowe.com
 #  与 Oracle 共 11 条规则重复
 DOMAIN-SUFFIX,ebay.be
 DOMAIN-SUFFIX,ebay.ch

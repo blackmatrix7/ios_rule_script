@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-03 02:41:36.659980
+# UPDATED: 2021-03-03 13:00:51.577350
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 Wikipedia 共 12 条规则重复
 DOMAIN-SUFFIX,mediawiki.org
@@ -31941,26 +31941,6 @@ DOMAIN-SUFFIX,pixfs.net
 DOMAIN-SUFFIX,pixnet.cc
 DOMAIN-SUFFIX,pixnet.net
 DOMAIN-SUFFIX,pixnet.pro
-#  与 Telegram 共 19 条规则重复
-DOMAIN-KEYWORD,telegram
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telega.one
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.space
-DOMAIN-SUFFIX,telegramdownload.com
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,tx.me
-IP-CIDR,109.239.140.0/24
-IP-CIDR,149.154.160.0/20
-IP-CIDR,91.108.0.0/16
-IP-CIDR6,2001:67c:4e8::/48
-IP-CIDR6,2001:b28:f23f::/48
 #  与 Pinterest 共 15 条规则重复
 DOMAIN-SUFFIX,pinimg.com
 DOMAIN-SUFFIX,pinterest.at
@@ -32100,6 +32080,26 @@ DOMAIN-SUFFIX,snapdragonbooth.com
 DOMAIN-SUFFIX,uplinq.com
 DOMAIN-SUFFIX,wipower.com
 DOMAIN-SUFFIX,wirelessreach.com
+#  与 Telegram 共 19 条规则重复
+DOMAIN-KEYWORD,telegram
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegramdownload.com
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
+IP-CIDR,109.239.140.0/24
+IP-CIDR,149.154.160.0/20
+IP-CIDR,91.108.0.0/16
+IP-CIDR6,2001:67c:4e8::/48
+IP-CIDR6,2001:b28:f23f::/48
 #  与 Amazon 共 105 条规则重复
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,aboutamazon.com
@@ -32341,16 +32341,6 @@ DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,nimg.jp
 DOMAIN-SUFFIX,socdm.com
 USER-AGENT,Niconico*
-#  与 HBOHK 共 9 条规则重复
-DOMAIN-SUFFIX,hboasia.com
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbogoasia.com
-DOMAIN-SUFFIX,hbogoasia.hk
-DOMAIN-SUFFIX,hbonow.com
-DOMAIN-SUFFIX,now-ashare.com
-DOMAIN-SUFFIX,now-tv.com
-DOMAIN-SUFFIX,nowe.com
-USER-AGENT,HBO%20NOW*
 #  与 BBC 共 10 条规则重复
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
@@ -32405,6 +32395,14 @@ DOMAIN-SUFFIX,shopee.com.my
 DOMAIN-SUFFIX,shopee.tw
 DOMAIN-SUFFIX,shopeemobile.com
 DOMAIN-SUFFIX,shp.ee
+#  与 HBOHK 共 7 条规则重复
+DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbogoasia.com
+DOMAIN-SUFFIX,hbogoasia.hk
+DOMAIN-SUFFIX,now-ashare.com
+DOMAIN-SUFFIX,now-tv.com
+DOMAIN-SUFFIX,nowe.com
 #  与 Cloudflare 共 20 条规则重复
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com

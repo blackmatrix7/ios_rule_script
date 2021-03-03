@@ -8,11 +8,11 @@
 
 
 
-最后检查时间：2021-03-03 13:01:29.139838。
+最后检查时间：2021-03-04 02:53:22.375077。
 
 ## 规则统计
 
-总计规则：80459 条。
+总计规则：80401 条。
 
 各类型规则统计：
 
@@ -20,7 +20,7 @@
 | ---- | ---- |
 | DOMAIN-KEYWORD | 60 |
 | DOMAIN-SUFFIX | 64918 |
-| DOMAIN | 15237 |
+| DOMAIN | 15179 |
 | IP-CIDR | 244 |
 ## 配置说明
 
@@ -67,9 +67,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 |  [Hijacking](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking)    | 219   | [212](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest_Repeat.list)   |   96.8% |
 |  [JiGuangTuiSong](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/JiGuangTuiSong)    | 17   | [16](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest_Repeat.list)   |   94.12% |
 |  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy)    | 3026   | [2772](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest_Repeat.list)   |   91.61% |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 63194   | [57108](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest_Repeat.list)   |   90.37% |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising)    | 63130   | [57050](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest_Repeat.list)   |   90.37% |
 |  [UC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/UC)    | 38   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest_Repeat.list)   |   60.53% |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 30882   | [15669](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest_Repeat.list)   |   50.74% |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite)    | 30869   | [15668](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest_Repeat.list)   |   50.76% |
 |  [Domob](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Domob)    | 26   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest_Repeat.list)   |   23.08% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。

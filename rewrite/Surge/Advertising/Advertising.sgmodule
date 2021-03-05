@@ -1,5 +1,5 @@
 #!name=复写去广告
-#!desc=最后更新时间 2021-03-05 16:37:51
+#!desc=最后更新时间 2021-03-06 02:46:57
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=808
@@ -164,7 +164,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,119.18.193.135,122.14.246.33
 ^https?:\/\/api\.zhihu\.com\/\w+\/\d+\/comments\/featured-comment-ad - reject
 ^https?:\/\/api\.zhihu\.com\/appview\/api\/v\d\/answers\/\d+\/recommendations - reject
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/ - reject
-^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject
 ^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
 ^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject
 ^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated - reject
@@ -458,7 +457,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,119.18.193.135,122.14.246.33
 ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject
-^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad - reject
 ^https?:\/\/www\.zybang\.com\/adx\/ - reject
 ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d - reject
 ^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$ - reject
@@ -559,6 +557,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,119.18.193.135,122.14.246.33
 ^https?:\/\/api\.ycapp\.yiche\.com\/yicheapp\/getappads\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/api\.zhihu\.com\/(launch|ad-style-service|app_config|real_time|ab\/api) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/api\.zhihu\.com\/ad data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
+^https?:\/\/api\.zhihu\.com\/fringe\/ad data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/api\.zhihu\.com\/market\/popover data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/api\.zhihu\.com\/search\/(top|tab|preset) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/api\.zhuishushenqi\.com\/recommend data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
@@ -817,6 +816,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,119.18.193.135,122.14.246.33
 ^https?:\/\/www\.nfmovies\.com\/uploads\/images\/play\.jpg data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/www\.oschina\.net\/action\/apiv2\/get_launcher data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/www\.tsytv\.com\.cn\/api\/app\/ios\/ads data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
+^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/www\.zhihu\.com\/terms\/privacy\/confirm data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"

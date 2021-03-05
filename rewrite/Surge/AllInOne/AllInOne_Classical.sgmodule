@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2021-03-05 16:37:51
+#!desc=最后更新时间 2021-03-06 02:46:57
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=872
@@ -850,7 +850,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
 ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
 ^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation - reject
-^http:\/\/t\.cn https://sinaurl.cn 302
+^http:\/\/t\.cn http://sinaurl.cn 302
 ^http?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
 ^http?:\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302

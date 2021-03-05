@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-05 16:36:46.171027
+# UPDATED: 2021-03-06 02:45:44.653932
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Wikipedia 共 12 条规则重复
@@ -30601,29 +30601,6 @@ payload:
   - DOMAIN-SUFFIX,from-pr.com
   - DOMAIN-SUFFIX,from-sd.com
   - DOMAIN-SUFFIX,is-a-hunter.com
-#  与 CBS 共 22 条规则重复
-  - DOMAIN-SUFFIX,cbs
-  - DOMAIN-SUFFIX,cbs.com
-  - DOMAIN-SUFFIX,cbsaavideo.com
-  - DOMAIN-SUFFIX,cbscorporation.com
-  - DOMAIN-SUFFIX,cbsi.com
-  - DOMAIN-SUFFIX,cbsi.video
-  - DOMAIN-SUFFIX,cbsiam.com
-  - DOMAIN-SUFFIX,cbsig.net
-  - DOMAIN-SUFFIX,cbsimg.net
-  - DOMAIN-SUFFIX,cbsinteractive.com
-  - DOMAIN-SUFFIX,cbsistatic.com
-  - DOMAIN-SUFFIX,cbsivideo.com
-  - DOMAIN-SUFFIX,cbsnews.com
-  - DOMAIN-SUFFIX,cbspressexpress.com
-  - DOMAIN-SUFFIX,cbssports.com
-  - DOMAIN-SUFFIX,cbsstatic.com
-  - DOMAIN-SUFFIX,cbssvideo.com
-  - DOMAIN-SUFFIX,paramount.com
-  - DOMAIN-SUFFIX,viacbs.com
-  - DOMAIN-SUFFIX,viacom.com
-  - DOMAIN-SUFFIX,viacomcbs.com
-  - DOMAIN-SUFFIX,viacomcbspressexpress.com
 #  与 Riot 共 45 条规则重复
   - DOMAIN-SUFFIX,championshipseriesleague.com
   - DOMAIN-SUFFIX,convrgencegame.com
@@ -31095,16 +31072,29 @@ payload:
   - DOMAIN-SUFFIX,xenoblade.com
   - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net
   - DOMAIN-SUFFIX,yoshisnewisland.com
-#  与 BrightCove 共 9 条规则重复
-  - DOMAIN-SUFFIX,bcove.video
-  - DOMAIN-SUFFIX,bcovlive.io
-  - DOMAIN-SUFFIX,bcvp0rtal.com
-  - DOMAIN-SUFFIX,boltdns.net
-  - DOMAIN-SUFFIX,brightcove.com
-  - DOMAIN-SUFFIX,brightcove.net
-  - DOMAIN-SUFFIX,brightcove.services
-  - DOMAIN-SUFFIX,brightcovecdn.com
-  - DOMAIN-SUFFIX,videojs.com
+#  与 CBS 共 22 条规则重复
+  - DOMAIN-SUFFIX,cbs
+  - DOMAIN-SUFFIX,cbs.com
+  - DOMAIN-SUFFIX,cbsaavideo.com
+  - DOMAIN-SUFFIX,cbscorporation.com
+  - DOMAIN-SUFFIX,cbsi.com
+  - DOMAIN-SUFFIX,cbsi.video
+  - DOMAIN-SUFFIX,cbsiam.com
+  - DOMAIN-SUFFIX,cbsig.net
+  - DOMAIN-SUFFIX,cbsimg.net
+  - DOMAIN-SUFFIX,cbsinteractive.com
+  - DOMAIN-SUFFIX,cbsistatic.com
+  - DOMAIN-SUFFIX,cbsivideo.com
+  - DOMAIN-SUFFIX,cbsnews.com
+  - DOMAIN-SUFFIX,cbspressexpress.com
+  - DOMAIN-SUFFIX,cbssports.com
+  - DOMAIN-SUFFIX,cbsstatic.com
+  - DOMAIN-SUFFIX,cbssvideo.com
+  - DOMAIN-SUFFIX,paramount.com
+  - DOMAIN-SUFFIX,viacbs.com
+  - DOMAIN-SUFFIX,viacom.com
+  - DOMAIN-SUFFIX,viacomcbs.com
+  - DOMAIN-SUFFIX,viacomcbspressexpress.com
 #  与 SmarTone 共 11 条规则重复
   - DOMAIN-SUFFIX,barkadahansasmartone.com
   - DOMAIN-SUFFIX,hkcircleapp.com
@@ -31287,6 +31277,17 @@ payload:
   - IP-CIDR,110.76.140.0/22
   - IP-CIDR,113.61.104.0/22
   - IP-CIDR,27.0.236.0/22
+#  与 BrightCove 共 10 条规则重复
+  - DOMAIN-SUFFIX,bcove.video
+  - DOMAIN-SUFFIX,bcovlive.io
+  - DOMAIN-SUFFIX,bcvp0rtal.com
+  - DOMAIN-SUFFIX,boltdns.net
+  - DOMAIN-SUFFIX,brightcove.com
+  - DOMAIN-SUFFIX,brightcove.net
+  - DOMAIN-SUFFIX,brightcove.services
+  - DOMAIN-SUFFIX,brightcovecdn.com
+  - DOMAIN-SUFFIX,videojs.com
+  - DOMAIN-SUFFIX,zencdn.net
 #  与 Spotify 共 12 条规则重复
   - DOMAIN-SUFFIX,byspotify.com
   - DOMAIN-SUFFIX,pscdn.co
@@ -32293,15 +32294,6 @@ payload:
   - DOMAIN-SUFFIX,tiktok.com
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokv.com
-#  与 BBC 共 8 条规则重复
-  - DOMAIN-KEYWORD,uk-live
-  - DOMAIN-SUFFIX,bbc.co
-  - DOMAIN-SUFFIX,bbc.co.uk
-  - DOMAIN-SUFFIX,bbc.com
-  - DOMAIN-SUFFIX,bbc.in
-  - DOMAIN-SUFFIX,bbcchinese.com
-  - DOMAIN-SUFFIX,bbci.co
-  - DOMAIN-SUFFIX,bbci.co.uk
 #  与 AmazonPrimeVideo 共 12 条规则重复
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,amazonprimevideos.com
@@ -32898,13 +32890,6 @@ payload:
   - DOMAIN-SUFFIX,ebayprivacycenter.com
   - DOMAIN-SUFFIX,ebayrtm.com
   - DOMAIN-SUFFIX,ebaystatic.com
-#  与 TVB 共 6 条规则重复
-  - DOMAIN-SUFFIX,bigbigshop.com
-  - DOMAIN-SUFFIX,mytvsuper.com
-  - DOMAIN-SUFFIX,tvb.com
-  - DOMAIN-SUFFIX,tvbanywhere.com
-  - DOMAIN-SUFFIX,tvbusa.com
-  - DOMAIN-SUFFIX,tvbweekly.com
 #  与 HBO 共 12 条规则重复
   - DOMAIN-SUFFIX,cinemax.com
   - DOMAIN-SUFFIX,forthethrone.com
@@ -32931,6 +32916,86 @@ payload:
   - DOMAIN-SUFFIX,globalsign.ch
   - DOMAIN-SUFFIX,globalsign.com
   - DOMAIN-SUFFIX,globalsign.net
+#  与 Verizon 共 70 条规则重复
+  - DOMAIN-SUFFIX,aol.co.uk
+  - DOMAIN-SUFFIX,aol.com
+  - DOMAIN-SUFFIX,aolcdn.com
+  - DOMAIN-SUFFIX,engadget.com
+  - DOMAIN-SUFFIX,engagedaily.org
+  - DOMAIN-SUFFIX,flickr.com
+  - DOMAIN-SUFFIX,flickr.net
+  - DOMAIN-SUFFIX,flurry.com
+  - DOMAIN-SUFFIX,huffingtonpost.com
+  - DOMAIN-SUFFIX,huffpost.com
+  - DOMAIN-SUFFIX,oath.cloud
+  - DOMAIN-SUFFIX,oath.com
+  - DOMAIN-SUFFIX,ouroath.com
+  - DOMAIN-SUFFIX,static-verizon.com
+  - DOMAIN-SUFFIX,staticflickr.com
+  - DOMAIN-SUFFIX,techcrunch.com
+  - DOMAIN-SUFFIX,uplynk.com
+  - DOMAIN-SUFFIX,verizon.com
+  - DOMAIN-SUFFIX,verizon.net
+  - DOMAIN-SUFFIX,verizonbusinessfios.com
+  - DOMAIN-SUFFIX,verizonenterprise.com
+  - DOMAIN-SUFFIX,verizonfios.com
+  - DOMAIN-SUFFIX,verizonmedia.com
+  - DOMAIN-SUFFIX,verizonwireless.com
+  - DOMAIN-SUFFIX,vzw.com
+  - DOMAIN-SUFFIX,xo.com
+  - DOMAIN-SUFFIX,yahoo.as
+  - DOMAIN-SUFFIX,yahoo.be
+  - DOMAIN-SUFFIX,yahoo.bt
+  - DOMAIN-SUFFIX,yahoo.cat
+  - DOMAIN-SUFFIX,yahoo.ch
+  - DOMAIN-SUFFIX,yahoo.cn
+  - DOMAIN-SUFFIX,yahoo.co.ck
+  - DOMAIN-SUFFIX,yahoo.co.id
+  - DOMAIN-SUFFIX,yahoo.co.jp
+  - DOMAIN-SUFFIX,yahoo.com
+  - DOMAIN-SUFFIX,yahoo.com.ai
+  - DOMAIN-SUFFIX,yahoo.com.bd
+  - DOMAIN-SUFFIX,yahoo.com.co
+  - DOMAIN-SUFFIX,yahoo.com.do
+  - DOMAIN-SUFFIX,yahoo.com.hk
+  - DOMAIN-SUFFIX,yahoo.com.pk
+  - DOMAIN-SUFFIX,yahoo.com.pr
+  - DOMAIN-SUFFIX,yahoo.com.py
+  - DOMAIN-SUFFIX,yahoo.com.sb
+  - DOMAIN-SUFFIX,yahoo.com.tw
+  - DOMAIN-SUFFIX,yahoo.dj
+  - DOMAIN-SUFFIX,yahoo.dm
+  - DOMAIN-SUFFIX,yahoo.ee
+  - DOMAIN-SUFFIX,yahoo.fm
+  - DOMAIN-SUFFIX,yahoo.gg
+  - DOMAIN-SUFFIX,yahoo.gp
+  - DOMAIN-SUFFIX,yahoo.hr
+  - DOMAIN-SUFFIX,yahoo.im
+  - DOMAIN-SUFFIX,yahoo.is
+  - DOMAIN-SUFFIX,yahoo.it
+  - DOMAIN-SUFFIX,yahoo.la
+  - DOMAIN-SUFFIX,yahoo.lv
+  - DOMAIN-SUFFIX,yahoo.me
+  - DOMAIN-SUFFIX,yahoo.net
+  - DOMAIN-SUFFIX,yahoo.ps
+  - DOMAIN-SUFFIX,yahoo.pt
+  - DOMAIN-SUFFIX,yahoo.sh
+  - DOMAIN-SUFFIX,yahoo.sm
+  - DOMAIN-SUFFIX,yahoo.so
+  - DOMAIN-SUFFIX,yahoo.tg
+  - DOMAIN-SUFFIX,yahoo.ws
+  - DOMAIN-SUFFIX,yahooapis.com
+  - DOMAIN-SUFFIX,yahoodns.net
+  - DOMAIN-SUFFIX,yimg.com
+#  与 BBC 共 8 条规则重复
+  - DOMAIN-KEYWORD,uk-live
+  - DOMAIN-SUFFIX,bbc.co
+  - DOMAIN-SUFFIX,bbc.co.uk
+  - DOMAIN-SUFFIX,bbc.com
+  - DOMAIN-SUFFIX,bbc.in
+  - DOMAIN-SUFFIX,bbcchinese.com
+  - DOMAIN-SUFFIX,bbci.co
+  - DOMAIN-SUFFIX,bbci.co.uk
 #  与 Naver 共 19 条规则重复
   - DOMAIN-SUFFIX,grafolio.com
   - DOMAIN-SUFFIX,lin.ee
@@ -32995,6 +33060,14 @@ payload:
   - DOMAIN-SUFFIX,wheelpop.com
   - DOMAIN-SUFFIX,wwtbam.com
   - DOMAIN-SUFFIX,yourfantasybeginsnow.com
+#  与 TVB 共 7 条规则重复
+  - DOMAIN-SUFFIX,bigbigshop.com
+  - DOMAIN-SUFFIX,encoretvb.com
+  - DOMAIN-SUFFIX,mytvsuper.com
+  - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN-SUFFIX,tvbanywhere.com
+  - DOMAIN-SUFFIX,tvbusa.com
+  - DOMAIN-SUFFIX,tvbweekly.com
 #  与 Verisign 共 12 条规则重复
   - DOMAIN-SUFFIX,verisign.asia
   - DOMAIN-SUFFIX,verisign.biz
@@ -33008,69 +33081,6 @@ payload:
   - DOMAIN-SUFFIX,verisign.org
   - DOMAIN-SUFFIX,verisign.pro
   - DOMAIN-SUFFIX,verisigninc.com
-#  与 Verizon 共 62 条规则重复
-  - DOMAIN-SUFFIX,aol.co.uk
-  - DOMAIN-SUFFIX,aol.com
-  - DOMAIN-SUFFIX,aolcdn.com
-  - DOMAIN-SUFFIX,engadget.com
-  - DOMAIN-SUFFIX,engagedaily.org
-  - DOMAIN-SUFFIX,flickr.com
-  - DOMAIN-SUFFIX,flickr.net
-  - DOMAIN-SUFFIX,flurry.com
-  - DOMAIN-SUFFIX,huffingtonpost.com
-  - DOMAIN-SUFFIX,huffpost.com
-  - DOMAIN-SUFFIX,oath.com
-  - DOMAIN-SUFFIX,staticflickr.com
-  - DOMAIN-SUFFIX,techcrunch.com
-  - DOMAIN-SUFFIX,verizon.com
-  - DOMAIN-SUFFIX,verizon.net
-  - DOMAIN-SUFFIX,verizonmedia.com
-  - DOMAIN-SUFFIX,verizonwireless.com
-  - DOMAIN-SUFFIX,vzw.com
-  - DOMAIN-SUFFIX,yahoo.as
-  - DOMAIN-SUFFIX,yahoo.be
-  - DOMAIN-SUFFIX,yahoo.bt
-  - DOMAIN-SUFFIX,yahoo.cat
-  - DOMAIN-SUFFIX,yahoo.ch
-  - DOMAIN-SUFFIX,yahoo.cn
-  - DOMAIN-SUFFIX,yahoo.co.ck
-  - DOMAIN-SUFFIX,yahoo.co.id
-  - DOMAIN-SUFFIX,yahoo.co.jp
-  - DOMAIN-SUFFIX,yahoo.com
-  - DOMAIN-SUFFIX,yahoo.com.ai
-  - DOMAIN-SUFFIX,yahoo.com.bd
-  - DOMAIN-SUFFIX,yahoo.com.co
-  - DOMAIN-SUFFIX,yahoo.com.do
-  - DOMAIN-SUFFIX,yahoo.com.hk
-  - DOMAIN-SUFFIX,yahoo.com.pk
-  - DOMAIN-SUFFIX,yahoo.com.pr
-  - DOMAIN-SUFFIX,yahoo.com.py
-  - DOMAIN-SUFFIX,yahoo.com.sb
-  - DOMAIN-SUFFIX,yahoo.com.tw
-  - DOMAIN-SUFFIX,yahoo.dj
-  - DOMAIN-SUFFIX,yahoo.dm
-  - DOMAIN-SUFFIX,yahoo.ee
-  - DOMAIN-SUFFIX,yahoo.fm
-  - DOMAIN-SUFFIX,yahoo.gg
-  - DOMAIN-SUFFIX,yahoo.gp
-  - DOMAIN-SUFFIX,yahoo.hr
-  - DOMAIN-SUFFIX,yahoo.im
-  - DOMAIN-SUFFIX,yahoo.is
-  - DOMAIN-SUFFIX,yahoo.it
-  - DOMAIN-SUFFIX,yahoo.la
-  - DOMAIN-SUFFIX,yahoo.lv
-  - DOMAIN-SUFFIX,yahoo.me
-  - DOMAIN-SUFFIX,yahoo.net
-  - DOMAIN-SUFFIX,yahoo.ps
-  - DOMAIN-SUFFIX,yahoo.pt
-  - DOMAIN-SUFFIX,yahoo.sh
-  - DOMAIN-SUFFIX,yahoo.sm
-  - DOMAIN-SUFFIX,yahoo.so
-  - DOMAIN-SUFFIX,yahoo.tg
-  - DOMAIN-SUFFIX,yahoo.ws
-  - DOMAIN-SUFFIX,yahooapis.com
-  - DOMAIN-SUFFIX,yahoodns.net
-  - DOMAIN-SUFFIX,yimg.com
 #  与 Huffpost 共 6 条规则重复
   - DOMAIN-SUFFIX,huffingtonpost.com
   - DOMAIN-SUFFIX,huffingtonpost.it

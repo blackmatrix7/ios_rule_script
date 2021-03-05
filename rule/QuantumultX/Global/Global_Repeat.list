@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-05 16:36:42.815360
+# UPDATED: 2021-03-06 02:45:40.986000
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 Wikipedia 共 12 条规则重复
 HOST-SUFFIX,mediawiki.org
@@ -30662,29 +30662,6 @@ HOST-SUFFIX,kkbox.com.tw
 HOST-SUFFIX,kktix.com
 HOST-SUFFIX,kktv.com.tw
 HOST-SUFFIX,kktv.me
-#  与 CBS 共 22 条规则重复
-HOST-SUFFIX,cbs
-HOST-SUFFIX,cbs.com
-HOST-SUFFIX,cbsaavideo.com
-HOST-SUFFIX,cbscorporation.com
-HOST-SUFFIX,cbsi.com
-HOST-SUFFIX,cbsi.video
-HOST-SUFFIX,cbsiam.com
-HOST-SUFFIX,cbsig.net
-HOST-SUFFIX,cbsimg.net
-HOST-SUFFIX,cbsinteractive.com
-HOST-SUFFIX,cbsistatic.com
-HOST-SUFFIX,cbsivideo.com
-HOST-SUFFIX,cbsnews.com
-HOST-SUFFIX,cbspressexpress.com
-HOST-SUFFIX,cbssports.com
-HOST-SUFFIX,cbsstatic.com
-HOST-SUFFIX,cbssvideo.com
-HOST-SUFFIX,paramount.com
-HOST-SUFFIX,viacbs.com
-HOST-SUFFIX,viacom.com
-HOST-SUFFIX,viacomcbs.com
-HOST-SUFFIX,viacomcbspressexpress.com
 #  与 Spotify 共 16 条规则重复
 HOST-KEYWORD,-spotify-com
 HOST-KEYWORD,spotify.com
@@ -31230,16 +31207,29 @@ HOST-SUFFIX,wiivc.net
 HOST-SUFFIX,xenoblade.com
 HOST-SUFFIX,xn--mts47c3w9b1qr.net
 HOST-SUFFIX,yoshisnewisland.com
-#  与 BrightCove 共 9 条规则重复
-HOST-SUFFIX,bcove.video
-HOST-SUFFIX,bcovlive.io
-HOST-SUFFIX,bcvp0rtal.com
-HOST-SUFFIX,boltdns.net
-HOST-SUFFIX,brightcove.com
-HOST-SUFFIX,brightcove.net
-HOST-SUFFIX,brightcove.services
-HOST-SUFFIX,brightcovecdn.com
-HOST-SUFFIX,videojs.com
+#  与 CBS 共 22 条规则重复
+HOST-SUFFIX,cbs
+HOST-SUFFIX,cbs.com
+HOST-SUFFIX,cbsaavideo.com
+HOST-SUFFIX,cbscorporation.com
+HOST-SUFFIX,cbsi.com
+HOST-SUFFIX,cbsi.video
+HOST-SUFFIX,cbsiam.com
+HOST-SUFFIX,cbsig.net
+HOST-SUFFIX,cbsimg.net
+HOST-SUFFIX,cbsinteractive.com
+HOST-SUFFIX,cbsistatic.com
+HOST-SUFFIX,cbsivideo.com
+HOST-SUFFIX,cbsnews.com
+HOST-SUFFIX,cbspressexpress.com
+HOST-SUFFIX,cbssports.com
+HOST-SUFFIX,cbsstatic.com
+HOST-SUFFIX,cbssvideo.com
+HOST-SUFFIX,paramount.com
+HOST-SUFFIX,viacbs.com
+HOST-SUFFIX,viacom.com
+HOST-SUFFIX,viacomcbs.com
+HOST-SUFFIX,viacomcbspressexpress.com
 #  与 SmarTone 共 11 条规则重复
 HOST-SUFFIX,barkadahansasmartone.com
 HOST-SUFFIX,hkcircleapp.com
@@ -31417,6 +31407,17 @@ HOST-SUFFIX,line-cdn.net
 HOST-SUFFIX,line-scdn.net
 HOST-SUFFIX,linetv.tw
 USER-AGENT,LINE%20TV*
+#  与 BrightCove 共 10 条规则重复
+HOST-SUFFIX,bcove.video
+HOST-SUFFIX,bcovlive.io
+HOST-SUFFIX,bcvp0rtal.com
+HOST-SUFFIX,boltdns.net
+HOST-SUFFIX,brightcove.com
+HOST-SUFFIX,brightcove.net
+HOST-SUFFIX,brightcove.services
+HOST-SUFFIX,brightcovecdn.com
+HOST-SUFFIX,videojs.com
+HOST-SUFFIX,zencdn.net
 #  与 Zoho 共 9 条规则重复
 HOST-SUFFIX,zoho.com
 HOST-SUFFIX,zohocdn.com
@@ -32363,17 +32364,6 @@ HOST-SUFFIX,nicovideo.jp
 HOST-SUFFIX,nimg.jp
 HOST-SUFFIX,socdm.com
 USER-AGENT,Niconico*
-#  与 BBC 共 10 条规则重复
-HOST-KEYWORD,bbcfmt
-HOST-KEYWORD,uk-live
-HOST-SUFFIX,bbc.co
-HOST-SUFFIX,bbc.co.uk
-HOST-SUFFIX,bbc.com
-HOST-SUFFIX,bbc.in
-HOST-SUFFIX,bbcchinese.com
-HOST-SUFFIX,bbci.co
-HOST-SUFFIX,bbci.co.uk
-USER-AGENT,BBCiPlayer*
 #  与 Duckduckgo 共 25 条规则重复
 HOST-SUFFIX,cispaletter.com
 HOST-SUFFIX,cispaletter.org
@@ -32947,14 +32937,17 @@ HOST-SUFFIX,mailhealth.com
 HOST-SUFFIX,mailonline.com
 HOST-SUFFIX,mol.im
 HOST-SUFFIX,thismon.ee
-#  与 TVB 共 7 条规则重复
-HOST-SUFFIX,bigbigshop.com
-HOST-SUFFIX,mytvsuper.com
-HOST-SUFFIX,tvb.com
-HOST-SUFFIX,tvbanywhere.com
-HOST-SUFFIX,tvbusa.com
-HOST-SUFFIX,tvbweekly.com
-USER-AGENT,mytv*
+#  与 BBC 共 10 条规则重复
+HOST-KEYWORD,bbcfmt
+HOST-KEYWORD,uk-live
+HOST-SUFFIX,bbc.co
+HOST-SUFFIX,bbc.co.uk
+HOST-SUFFIX,bbc.com
+HOST-SUFFIX,bbc.in
+HOST-SUFFIX,bbcchinese.com
+HOST-SUFFIX,bbci.co
+HOST-SUFFIX,bbci.co.uk
+USER-AGENT,BBCiPlayer*
 #  与 HBO 共 14 条规则重复
 HOST-SUFFIX,cinemax.com
 HOST-SUFFIX,forthethrone.com
@@ -33005,6 +32998,16 @@ IP-CIDR,203.104.103.0/24
 IP-CIDR,203.174.66.64/26
 IP-CIDR,203.174.77.0/24
 USER-AGENT,LINE%20TV*
+#  与 TVB 共 9 条规则重复
+HOST-SUFFIX,bigbigshop.com
+HOST-SUFFIX,encoretvb.com
+HOST-SUFFIX,mytvsuper.com
+HOST-SUFFIX,tvb.com
+HOST-SUFFIX,tvbanywhere.com
+HOST-SUFFIX,tvbusa.com
+HOST-SUFFIX,tvbweekly.com
+USER-AGENT,encoreTVB*
+USER-AGENT,mytv*
 #  与 Garena 共 6 条规则重复
 HOST-SUFFIX,garena.co.id
 HOST-SUFFIX,garena.com
@@ -33018,6 +33021,77 @@ HOST-SUFFIX,globalsign.be
 HOST-SUFFIX,globalsign.ch
 HOST-SUFFIX,globalsign.com
 HOST-SUFFIX,globalsign.net
+#  与 Verizon 共 70 条规则重复
+HOST-SUFFIX,aol.co.uk
+HOST-SUFFIX,aol.com
+HOST-SUFFIX,aolcdn.com
+HOST-SUFFIX,engadget.com
+HOST-SUFFIX,engagedaily.org
+HOST-SUFFIX,flickr.com
+HOST-SUFFIX,flickr.net
+HOST-SUFFIX,flurry.com
+HOST-SUFFIX,huffingtonpost.com
+HOST-SUFFIX,huffpost.com
+HOST-SUFFIX,oath.cloud
+HOST-SUFFIX,oath.com
+HOST-SUFFIX,ouroath.com
+HOST-SUFFIX,static-verizon.com
+HOST-SUFFIX,staticflickr.com
+HOST-SUFFIX,techcrunch.com
+HOST-SUFFIX,uplynk.com
+HOST-SUFFIX,verizon.com
+HOST-SUFFIX,verizon.net
+HOST-SUFFIX,verizonbusinessfios.com
+HOST-SUFFIX,verizonenterprise.com
+HOST-SUFFIX,verizonfios.com
+HOST-SUFFIX,verizonmedia.com
+HOST-SUFFIX,verizonwireless.com
+HOST-SUFFIX,vzw.com
+HOST-SUFFIX,xo.com
+HOST-SUFFIX,yahoo.as
+HOST-SUFFIX,yahoo.be
+HOST-SUFFIX,yahoo.bt
+HOST-SUFFIX,yahoo.cat
+HOST-SUFFIX,yahoo.ch
+HOST-SUFFIX,yahoo.cn
+HOST-SUFFIX,yahoo.co.ck
+HOST-SUFFIX,yahoo.co.id
+HOST-SUFFIX,yahoo.co.jp
+HOST-SUFFIX,yahoo.com
+HOST-SUFFIX,yahoo.com.ai
+HOST-SUFFIX,yahoo.com.bd
+HOST-SUFFIX,yahoo.com.co
+HOST-SUFFIX,yahoo.com.do
+HOST-SUFFIX,yahoo.com.hk
+HOST-SUFFIX,yahoo.com.pk
+HOST-SUFFIX,yahoo.com.pr
+HOST-SUFFIX,yahoo.com.py
+HOST-SUFFIX,yahoo.com.sb
+HOST-SUFFIX,yahoo.com.tw
+HOST-SUFFIX,yahoo.dj
+HOST-SUFFIX,yahoo.dm
+HOST-SUFFIX,yahoo.ee
+HOST-SUFFIX,yahoo.fm
+HOST-SUFFIX,yahoo.gg
+HOST-SUFFIX,yahoo.gp
+HOST-SUFFIX,yahoo.hr
+HOST-SUFFIX,yahoo.im
+HOST-SUFFIX,yahoo.is
+HOST-SUFFIX,yahoo.it
+HOST-SUFFIX,yahoo.la
+HOST-SUFFIX,yahoo.lv
+HOST-SUFFIX,yahoo.me
+HOST-SUFFIX,yahoo.net
+HOST-SUFFIX,yahoo.ps
+HOST-SUFFIX,yahoo.pt
+HOST-SUFFIX,yahoo.sh
+HOST-SUFFIX,yahoo.sm
+HOST-SUFFIX,yahoo.so
+HOST-SUFFIX,yahoo.tg
+HOST-SUFFIX,yahoo.ws
+HOST-SUFFIX,yahooapis.com
+HOST-SUFFIX,yahoodns.net
+HOST-SUFFIX,yimg.com
 #  与 Apple 共 43 条规则重复
 HOST-SUFFIX,apple-cloudkit.com
 HOST-SUFFIX,apple-dns.net
@@ -33127,69 +33201,6 @@ HOST-SUFFIX,verisign.net
 HOST-SUFFIX,verisign.org
 HOST-SUFFIX,verisign.pro
 HOST-SUFFIX,verisigninc.com
-#  与 Verizon 共 62 条规则重复
-HOST-SUFFIX,aol.co.uk
-HOST-SUFFIX,aol.com
-HOST-SUFFIX,aolcdn.com
-HOST-SUFFIX,engadget.com
-HOST-SUFFIX,engagedaily.org
-HOST-SUFFIX,flickr.com
-HOST-SUFFIX,flickr.net
-HOST-SUFFIX,flurry.com
-HOST-SUFFIX,huffingtonpost.com
-HOST-SUFFIX,huffpost.com
-HOST-SUFFIX,oath.com
-HOST-SUFFIX,staticflickr.com
-HOST-SUFFIX,techcrunch.com
-HOST-SUFFIX,verizon.com
-HOST-SUFFIX,verizon.net
-HOST-SUFFIX,verizonmedia.com
-HOST-SUFFIX,verizonwireless.com
-HOST-SUFFIX,vzw.com
-HOST-SUFFIX,yahoo.as
-HOST-SUFFIX,yahoo.be
-HOST-SUFFIX,yahoo.bt
-HOST-SUFFIX,yahoo.cat
-HOST-SUFFIX,yahoo.ch
-HOST-SUFFIX,yahoo.cn
-HOST-SUFFIX,yahoo.co.ck
-HOST-SUFFIX,yahoo.co.id
-HOST-SUFFIX,yahoo.co.jp
-HOST-SUFFIX,yahoo.com
-HOST-SUFFIX,yahoo.com.ai
-HOST-SUFFIX,yahoo.com.bd
-HOST-SUFFIX,yahoo.com.co
-HOST-SUFFIX,yahoo.com.do
-HOST-SUFFIX,yahoo.com.hk
-HOST-SUFFIX,yahoo.com.pk
-HOST-SUFFIX,yahoo.com.pr
-HOST-SUFFIX,yahoo.com.py
-HOST-SUFFIX,yahoo.com.sb
-HOST-SUFFIX,yahoo.com.tw
-HOST-SUFFIX,yahoo.dj
-HOST-SUFFIX,yahoo.dm
-HOST-SUFFIX,yahoo.ee
-HOST-SUFFIX,yahoo.fm
-HOST-SUFFIX,yahoo.gg
-HOST-SUFFIX,yahoo.gp
-HOST-SUFFIX,yahoo.hr
-HOST-SUFFIX,yahoo.im
-HOST-SUFFIX,yahoo.is
-HOST-SUFFIX,yahoo.it
-HOST-SUFFIX,yahoo.la
-HOST-SUFFIX,yahoo.lv
-HOST-SUFFIX,yahoo.me
-HOST-SUFFIX,yahoo.net
-HOST-SUFFIX,yahoo.ps
-HOST-SUFFIX,yahoo.pt
-HOST-SUFFIX,yahoo.sh
-HOST-SUFFIX,yahoo.sm
-HOST-SUFFIX,yahoo.so
-HOST-SUFFIX,yahoo.tg
-HOST-SUFFIX,yahoo.ws
-HOST-SUFFIX,yahooapis.com
-HOST-SUFFIX,yahoodns.net
-HOST-SUFFIX,yimg.com
 #  与 Huffpost 共 6 条规则重复
 HOST-SUFFIX,huffingtonpost.com
 HOST-SUFFIX,huffingtonpost.it

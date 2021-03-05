@@ -1,14 +1,14 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-05 16:36:28.712104
+# UPDATED: 2021-03-06 02:45:25.430013
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 29
 # DOMAIN-SUFFIX: 15297
-# DOMAIN: 15384
+# DOMAIN: 15386
 # IP-CIDR: 192
 # USER-AGENT: 1
-# URL-REGEX: 302
+# URL-REGEX: 300
 # TOTAL: 31205
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -322,7 +322,6 @@ URL-REGEX,^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/
 URL-REGEX,^https?:\/\/api\.xiachufang\.com\/v\d\/ad/
 URL-REGEX,^https?:\/\/api\.xueqiu\.com\/ads\/display
 URL-REGEX,^https?:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/fringe\/ad
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated
@@ -529,7 +528,6 @@ URL-REGEX,^https?:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.get
 URL-REGEX,^https?:\/\/www\.iyingdi\.cn\/ad
 URL-REGEX,^https?:\/\/www\.myhug\.cn\/ad\/
 URL-REGEX,^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo
-URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad
 URL-REGEX,^https?:\/\/www\.zybang\.com\/adx\/
 URL-REGEX,^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d
 URL-REGEX,^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$

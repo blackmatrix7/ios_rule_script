@@ -1,9 +1,9 @@
 # NAME: BrightCove
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-05 16:36:37.876131
-# DOMAIN-SUFFIX: 12
-# TOTAL: 12
+# UPDATED: 2021-03-06 02:45:35.615177
+# DOMAIN-SUFFIX: 14
+# TOTAL: 14
 payload:
   - DOMAIN-SUFFIX,bcove.video
   - DOMAIN-SUFFIX,bcovlive-a.akamaihd.net
@@ -17,3 +17,5 @@ payload:
   - DOMAIN-SUFFIX,brightcove.services
   - DOMAIN-SUFFIX,brightcovecdn.com
   - DOMAIN-SUFFIX,videojs.com
+  - DOMAIN-SUFFIX,zencdn.net
+  - DOMAIN-SUFFIX,zencoder.com

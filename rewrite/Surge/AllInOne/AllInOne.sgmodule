@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2021-03-05 16:37:51
+#!desc=最后更新时间 2021-03-06 02:46:57
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=872
@@ -186,7 +186,6 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/api\.zhihu\.com\/\w+\/\d+\/comments\/featured-comment-ad - reject
 ^https?:\/\/api\.zhihu\.com\/appview\/api\/v\d\/answers\/\d+\/recommendations - reject
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/ - reject
-^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject
 ^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
 ^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject
 ^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated - reject
@@ -479,14 +478,13 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/www\.myhug\.cn\/ad\/ - reject
 ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
-^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad - reject
 ^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) - reject
 ^https?:\/\/www\.zybang\.com\/adx\/ - reject
 ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d - reject
 ^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$ - reject
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ - reject
 ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
-^http:\/\/t\.cn https://sinaurl.cn 302
+^http:\/\/t\.cn http://sinaurl.cn 302
 ^http?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
 ^http?:\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
@@ -634,6 +632,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/api\.zhihu\.com\/ad data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+^https?:\/\/api\.zhihu\.com\/fringe\/ad data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/api\.zhihu\.com\/market\/popover data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/api\.zhihu\.com\/moments\/recent data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/api\.zhihu\.com\/search\/(top|tab|preset) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
@@ -895,6 +894,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/www\.tsytv\.com\.cn\/api\/app\/ios\/ads data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"

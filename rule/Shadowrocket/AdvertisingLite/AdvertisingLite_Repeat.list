@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: 
 # GITHUB: 
-# UPDATED: 2021-03-05 16:36:47.597440
+# UPDATED: 2021-03-06 02:45:46.237081
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 Hijacking 共 200 条规则重复
 DOMAIN-SUFFIX,17gouwuba.com
@@ -2497,7 +2497,7 @@ DOMAIN-SUFFIX,zs.dhl.de
 DOMAIN-SUFFIX,zsi7.destinia.do
 DOMAIN-SUFFIX,zyq2.destinia.sk
 DOMAIN-SUFFIX,zz.bdstatic.com
-#  与 Advertising 共 16426 条规则重复
+#  与 Advertising 共 16424 条规则重复
 DOMAIN,0.up.qingdaonews.com
 DOMAIN,0d847862199.com
 DOMAIN,0icep80f.com
@@ -18711,7 +18711,6 @@ URL-REGEX,^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/
 URL-REGEX,^https?:\/\/api\.xiachufang\.com\/v\d\/ad/
 URL-REGEX,^https?:\/\/api\.xueqiu\.com\/ads\/display
 URL-REGEX,^https?:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/fringe\/ad
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated
@@ -18918,7 +18917,6 @@ URL-REGEX,^https?:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.get
 URL-REGEX,^https?:\/\/www\.iyingdi\.cn\/ad
 URL-REGEX,^https?:\/\/www\.myhug\.cn\/ad\/
 URL-REGEX,^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo
-URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad
 URL-REGEX,^https?:\/\/www\.zybang\.com\/adx\/
 URL-REGEX,^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d
 URL-REGEX,^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$

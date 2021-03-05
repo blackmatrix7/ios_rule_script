@@ -1,15 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: 
 # GITHUB: 
-# UPDATED: 2021-03-05 16:36:38.459939
+# UPDATED: 2021-03-06 02:45:36.254242
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 62
 # DOMAIN-SUFFIX: 68545
-# DOMAIN: 15035
+# DOMAIN: 15040
 # IP-CIDR: 244
 # USER-AGENT: 1
-# URL-REGEX: 310
-# TOTAL: 84197
+# URL-REGEX: 308
+# TOTAL: 84200
 DOMAIN-KEYWORD,adashx
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -412,7 +412,6 @@ URL-REGEX,^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/
 URL-REGEX,^https?:\/\/api\.xiachufang\.com\/v\d\/ad/
 URL-REGEX,^https?:\/\/api\.xueqiu\.com\/ads\/display
 URL-REGEX,^https?:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/fringe\/ad
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated
@@ -622,7 +621,6 @@ URL-REGEX,^https?:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.get
 URL-REGEX,^https?:\/\/www\.iyingdi\.cn\/ad
 URL-REGEX,^https?:\/\/www\.myhug\.cn\/ad\/
 URL-REGEX,^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo
-URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad
 URL-REGEX,^https?:\/\/www\.zybang\.com\/adx\/
 URL-REGEX,^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d
 URL-REGEX,^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$

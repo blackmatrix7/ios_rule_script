@@ -1,12 +1,17 @@
 # NAME: TVB
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-05 16:36:36.820524
-# DOMAIN-SUFFIX: 14
-# TOTAL: 14
+# UPDATED: 2021-03-06 02:45:34.469061
+# DOMAIN-SUFFIX: 17
+# DOMAIN: 2
+# TOTAL: 19
 payload:
+  - DOMAIN,bcbolt446c5271-a.akamaihd.net
+  - DOMAIN,edge.api.brightcove.com
   - DOMAIN-SUFFIX,bigbigchannel.com.hk
   - DOMAIN-SUFFIX,bigbigshop.com
+  - DOMAIN-SUFFIX,content.jwplatform.com
+  - DOMAIN-SUFFIX,encoretvb.com
   - DOMAIN-SUFFIX,mytvsuper.com
   - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
   - DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
@@ -19,3 +24,4 @@ payload:
   - DOMAIN-SUFFIX,tvbusa.com
   - DOMAIN-SUFFIX,tvbweekly.com
   - DOMAIN-SUFFIX,tvmedia.net.au
+  - DOMAIN-SUFFIX,videos-f.jwpsrv.com

@@ -1,7 +1,7 @@
 # NAME: AllInOne
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-05 16:37:51
+# UPDATED: 2021-03-06 02:46:57
 # REWRITE: 872
 # SCRIPT: 23
 # MITM: 640
@@ -277,7 +277,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/api\.zhihu\.com\/appview\/api\/v\d\/answers\/\d+\/recommendations - reject
 ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject-dict
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/ - reject
-^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject
+^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject-200
 ^https?:\/\/api\.zhihu\.com\/market\/popover - reject-img
 ^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict
 ^https?:\/\/api\.zhihu\.com\/search\/(top|tab|preset) - reject-img
@@ -831,7 +831,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
 ^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject-200
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject-dict
-^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad - reject
+^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad - reject-200
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject-200
 ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject-dict
 ^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) - reject
@@ -846,7 +846,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
 ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject-200
 ^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation - reject-img
-^http:\/\/t\.cn https://sinaurl.cn 302
+^http:\/\/t\.cn http://sinaurl.cn 302
 ^http?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
 ^http?:\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302

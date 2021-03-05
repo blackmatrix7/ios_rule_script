@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-05 16:36:46.191314
+# UPDATED: 2021-03-06 02:45:44.677405
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Wikipedia 共 12 条规则重复
@@ -30663,29 +30663,6 @@ payload:
   - DOMAIN-SUFFIX,kktix.com
   - DOMAIN-SUFFIX,kktv.com.tw
   - DOMAIN-SUFFIX,kktv.me
-#  与 CBS 共 22 条规则重复
-  - DOMAIN-SUFFIX,cbs
-  - DOMAIN-SUFFIX,cbs.com
-  - DOMAIN-SUFFIX,cbsaavideo.com
-  - DOMAIN-SUFFIX,cbscorporation.com
-  - DOMAIN-SUFFIX,cbsi.com
-  - DOMAIN-SUFFIX,cbsi.video
-  - DOMAIN-SUFFIX,cbsiam.com
-  - DOMAIN-SUFFIX,cbsig.net
-  - DOMAIN-SUFFIX,cbsimg.net
-  - DOMAIN-SUFFIX,cbsinteractive.com
-  - DOMAIN-SUFFIX,cbsistatic.com
-  - DOMAIN-SUFFIX,cbsivideo.com
-  - DOMAIN-SUFFIX,cbsnews.com
-  - DOMAIN-SUFFIX,cbspressexpress.com
-  - DOMAIN-SUFFIX,cbssports.com
-  - DOMAIN-SUFFIX,cbsstatic.com
-  - DOMAIN-SUFFIX,cbssvideo.com
-  - DOMAIN-SUFFIX,paramount.com
-  - DOMAIN-SUFFIX,viacbs.com
-  - DOMAIN-SUFFIX,viacom.com
-  - DOMAIN-SUFFIX,viacomcbs.com
-  - DOMAIN-SUFFIX,viacomcbspressexpress.com
 #  与 Hulu 共 47 条规则重复
   - DOMAIN-SUFFIX,112263.com
   - DOMAIN-SUFFIX,callhulu.com
@@ -31214,16 +31191,29 @@ payload:
   - DOMAIN-SUFFIX,xenoblade.com
   - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net
   - DOMAIN-SUFFIX,yoshisnewisland.com
-#  与 BrightCove 共 9 条规则重复
-  - DOMAIN-SUFFIX,bcove.video
-  - DOMAIN-SUFFIX,bcovlive.io
-  - DOMAIN-SUFFIX,bcvp0rtal.com
-  - DOMAIN-SUFFIX,boltdns.net
-  - DOMAIN-SUFFIX,brightcove.com
-  - DOMAIN-SUFFIX,brightcove.net
-  - DOMAIN-SUFFIX,brightcove.services
-  - DOMAIN-SUFFIX,brightcovecdn.com
-  - DOMAIN-SUFFIX,videojs.com
+#  与 CBS 共 22 条规则重复
+  - DOMAIN-SUFFIX,cbs
+  - DOMAIN-SUFFIX,cbs.com
+  - DOMAIN-SUFFIX,cbsaavideo.com
+  - DOMAIN-SUFFIX,cbscorporation.com
+  - DOMAIN-SUFFIX,cbsi.com
+  - DOMAIN-SUFFIX,cbsi.video
+  - DOMAIN-SUFFIX,cbsiam.com
+  - DOMAIN-SUFFIX,cbsig.net
+  - DOMAIN-SUFFIX,cbsimg.net
+  - DOMAIN-SUFFIX,cbsinteractive.com
+  - DOMAIN-SUFFIX,cbsistatic.com
+  - DOMAIN-SUFFIX,cbsivideo.com
+  - DOMAIN-SUFFIX,cbsnews.com
+  - DOMAIN-SUFFIX,cbspressexpress.com
+  - DOMAIN-SUFFIX,cbssports.com
+  - DOMAIN-SUFFIX,cbsstatic.com
+  - DOMAIN-SUFFIX,cbssvideo.com
+  - DOMAIN-SUFFIX,paramount.com
+  - DOMAIN-SUFFIX,viacbs.com
+  - DOMAIN-SUFFIX,viacom.com
+  - DOMAIN-SUFFIX,viacomcbs.com
+  - DOMAIN-SUFFIX,viacomcbspressexpress.com
 #  与 SmarTone 共 11 条规则重复
   - DOMAIN-SUFFIX,barkadahansasmartone.com
   - DOMAIN-SUFFIX,hkcircleapp.com
@@ -31395,6 +31385,17 @@ payload:
   - DOMAIN-SUFFIX,wiley.com
   - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,yale.edu
+#  与 BrightCove 共 10 条规则重复
+  - DOMAIN-SUFFIX,bcove.video
+  - DOMAIN-SUFFIX,bcovlive.io
+  - DOMAIN-SUFFIX,bcvp0rtal.com
+  - DOMAIN-SUFFIX,boltdns.net
+  - DOMAIN-SUFFIX,brightcove.com
+  - DOMAIN-SUFFIX,brightcove.net
+  - DOMAIN-SUFFIX,brightcove.services
+  - DOMAIN-SUFFIX,brightcovecdn.com
+  - DOMAIN-SUFFIX,videojs.com
+  - DOMAIN-SUFFIX,zencdn.net
 #  与 Google 共 76 条规则重复
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,gmail
@@ -32352,16 +32353,6 @@ payload:
   - DOMAIN-SUFFIX,privacysimplified.com
   - DOMAIN-SUFFIX,privatebrowsingmyths.com
   - DOMAIN-SUFFIX,spreadprivacy.com
-#  与 BBC 共 9 条规则重复
-  - DOMAIN-KEYWORD,bbcfmt
-  - DOMAIN-KEYWORD,uk-live
-  - DOMAIN-SUFFIX,bbc.co
-  - DOMAIN-SUFFIX,bbc.co.uk
-  - DOMAIN-SUFFIX,bbc.com
-  - DOMAIN-SUFFIX,bbc.in
-  - DOMAIN-SUFFIX,bbcchinese.com
-  - DOMAIN-SUFFIX,bbci.co
-  - DOMAIN-SUFFIX,bbci.co.uk
 #  与 Niconico 共 5 条规则重复
   - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,niconico.com
@@ -32983,13 +32974,16 @@ payload:
   - DOMAIN-SUFFIX,ebayprivacycenter.com
   - DOMAIN-SUFFIX,ebayrtm.com
   - DOMAIN-SUFFIX,ebaystatic.com
-#  与 TVB 共 6 条规则重复
-  - DOMAIN-SUFFIX,bigbigshop.com
-  - DOMAIN-SUFFIX,mytvsuper.com
-  - DOMAIN-SUFFIX,tvb.com
-  - DOMAIN-SUFFIX,tvbanywhere.com
-  - DOMAIN-SUFFIX,tvbusa.com
-  - DOMAIN-SUFFIX,tvbweekly.com
+#  与 BBC 共 9 条规则重复
+  - DOMAIN-KEYWORD,bbcfmt
+  - DOMAIN-KEYWORD,uk-live
+  - DOMAIN-SUFFIX,bbc.co
+  - DOMAIN-SUFFIX,bbc.co.uk
+  - DOMAIN-SUFFIX,bbc.com
+  - DOMAIN-SUFFIX,bbc.in
+  - DOMAIN-SUFFIX,bbcchinese.com
+  - DOMAIN-SUFFIX,bbci.co
+  - DOMAIN-SUFFIX,bbci.co.uk
 #  与 Naver 共 21 条规则重复
   - DOMAIN-SUFFIX,chocotv.com.tw
   - DOMAIN-SUFFIX,grafolio.com
@@ -33025,64 +33019,7 @@ payload:
   - DOMAIN-SUFFIX,globalsign.ch
   - DOMAIN-SUFFIX,globalsign.com
   - DOMAIN-SUFFIX,globalsign.net
-#  与 Sony 共 43 条规则重复
-  - DOMAIN-SUFFIX,imageworks.com
-  - DOMAIN-SUFFIX,motionpictureser.com
-  - DOMAIN-SUFFIX,playshow.io
-  - DOMAIN-SUFFIX,playshowtv.com
-  - DOMAIN-SUFFIX,playstation.com
-  - DOMAIN-SUFFIX,playstation.net
-  - DOMAIN-SUFFIX,playstationnetwork.com
-  - DOMAIN-SUFFIX,sony-africa.com
-  - DOMAIN-SUFFIX,sony-asia.com
-  - DOMAIN-SUFFIX,sony-europe.com
-  - DOMAIN-SUFFIX,sony-latin.com
-  - DOMAIN-SUFFIX,sony-mea.com
-  - DOMAIN-SUFFIX,sony-olympus-medical.com
-  - DOMAIN-SUFFIX,sony.be
-  - DOMAIN-SUFFIX,sony.ch
-  - DOMAIN-SUFFIX,sony.co.id
-  - DOMAIN-SUFFIX,sony.com
-  - DOMAIN-SUFFIX,sony.com.co
-  - DOMAIN-SUFFIX,sony.com.do
-  - DOMAIN-SUFFIX,sony.com.hk
-  - DOMAIN-SUFFIX,sony.ee
-  - DOMAIN-SUFFIX,sony.hr
-  - DOMAIN-SUFFIX,sony.it
-  - DOMAIN-SUFFIX,sony.lv
-  - DOMAIN-SUFFIX,sony.net
-  - DOMAIN-SUFFIX,sony.pt
-  - DOMAIN-SUFFIX,sony.rs
-  - DOMAIN-SUFFIX,sonybsc.com
-  - DOMAIN-SUFFIX,sonyclassics.com
-  - DOMAIN-SUFFIX,sonydesign.com
-  - DOMAIN-SUFFIX,sonydna.com
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-  - DOMAIN-SUFFIX,sonylatvija.com
-  - DOMAIN-SUFFIX,sonypictures.com
-  - DOMAIN-SUFFIX,sonypicturesanimation.com
-  - DOMAIN-SUFFIX,sonypicturesmuseum.com
-  - DOMAIN-SUFFIX,sonypicturesstudios.com
-  - DOMAIN-SUFFIX,sonypicturestelevision.com
-  - DOMAIN-SUFFIX,sonypicturestelevisiongames.com
-  - DOMAIN-SUFFIX,sovec.net
-  - DOMAIN-SUFFIX,wheelpop.com
-  - DOMAIN-SUFFIX,wwtbam.com
-  - DOMAIN-SUFFIX,yourfantasybeginsnow.com
-#  与 Verisign 共 12 条规则重复
-  - DOMAIN-SUFFIX,verisign.asia
-  - DOMAIN-SUFFIX,verisign.biz
-  - DOMAIN-SUFFIX,verisign.ch
-  - DOMAIN-SUFFIX,verisign.com
-  - DOMAIN-SUFFIX,verisign.info
-  - DOMAIN-SUFFIX,verisign.jobs
-  - DOMAIN-SUFFIX,verisign.mobi
-  - DOMAIN-SUFFIX,verisign.name
-  - DOMAIN-SUFFIX,verisign.net
-  - DOMAIN-SUFFIX,verisign.org
-  - DOMAIN-SUFFIX,verisign.pro
-  - DOMAIN-SUFFIX,verisigninc.com
-#  与 Verizon 共 62 条规则重复
+#  与 Verizon 共 70 条规则重复
   - DOMAIN-SUFFIX,aol.co.uk
   - DOMAIN-SUFFIX,aol.com
   - DOMAIN-SUFFIX,aolcdn.com
@@ -33093,14 +33030,22 @@ payload:
   - DOMAIN-SUFFIX,flurry.com
   - DOMAIN-SUFFIX,huffingtonpost.com
   - DOMAIN-SUFFIX,huffpost.com
+  - DOMAIN-SUFFIX,oath.cloud
   - DOMAIN-SUFFIX,oath.com
+  - DOMAIN-SUFFIX,ouroath.com
+  - DOMAIN-SUFFIX,static-verizon.com
   - DOMAIN-SUFFIX,staticflickr.com
   - DOMAIN-SUFFIX,techcrunch.com
+  - DOMAIN-SUFFIX,uplynk.com
   - DOMAIN-SUFFIX,verizon.com
   - DOMAIN-SUFFIX,verizon.net
+  - DOMAIN-SUFFIX,verizonbusinessfios.com
+  - DOMAIN-SUFFIX,verizonenterprise.com
+  - DOMAIN-SUFFIX,verizonfios.com
   - DOMAIN-SUFFIX,verizonmedia.com
   - DOMAIN-SUFFIX,verizonwireless.com
   - DOMAIN-SUFFIX,vzw.com
+  - DOMAIN-SUFFIX,xo.com
   - DOMAIN-SUFFIX,yahoo.as
   - DOMAIN-SUFFIX,yahoo.be
   - DOMAIN-SUFFIX,yahoo.bt
@@ -33145,6 +33090,71 @@ payload:
   - DOMAIN-SUFFIX,yahooapis.com
   - DOMAIN-SUFFIX,yahoodns.net
   - DOMAIN-SUFFIX,yimg.com
+#  与 Sony 共 43 条规则重复
+  - DOMAIN-SUFFIX,imageworks.com
+  - DOMAIN-SUFFIX,motionpictureser.com
+  - DOMAIN-SUFFIX,playshow.io
+  - DOMAIN-SUFFIX,playshowtv.com
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstationnetwork.com
+  - DOMAIN-SUFFIX,sony-africa.com
+  - DOMAIN-SUFFIX,sony-asia.com
+  - DOMAIN-SUFFIX,sony-europe.com
+  - DOMAIN-SUFFIX,sony-latin.com
+  - DOMAIN-SUFFIX,sony-mea.com
+  - DOMAIN-SUFFIX,sony-olympus-medical.com
+  - DOMAIN-SUFFIX,sony.be
+  - DOMAIN-SUFFIX,sony.ch
+  - DOMAIN-SUFFIX,sony.co.id
+  - DOMAIN-SUFFIX,sony.com
+  - DOMAIN-SUFFIX,sony.com.co
+  - DOMAIN-SUFFIX,sony.com.do
+  - DOMAIN-SUFFIX,sony.com.hk
+  - DOMAIN-SUFFIX,sony.ee
+  - DOMAIN-SUFFIX,sony.hr
+  - DOMAIN-SUFFIX,sony.it
+  - DOMAIN-SUFFIX,sony.lv
+  - DOMAIN-SUFFIX,sony.net
+  - DOMAIN-SUFFIX,sony.pt
+  - DOMAIN-SUFFIX,sony.rs
+  - DOMAIN-SUFFIX,sonybsc.com
+  - DOMAIN-SUFFIX,sonyclassics.com
+  - DOMAIN-SUFFIX,sonydesign.com
+  - DOMAIN-SUFFIX,sonydna.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+  - DOMAIN-SUFFIX,sonylatvija.com
+  - DOMAIN-SUFFIX,sonypictures.com
+  - DOMAIN-SUFFIX,sonypicturesanimation.com
+  - DOMAIN-SUFFIX,sonypicturesmuseum.com
+  - DOMAIN-SUFFIX,sonypicturesstudios.com
+  - DOMAIN-SUFFIX,sonypicturestelevision.com
+  - DOMAIN-SUFFIX,sonypicturestelevisiongames.com
+  - DOMAIN-SUFFIX,sovec.net
+  - DOMAIN-SUFFIX,wheelpop.com
+  - DOMAIN-SUFFIX,wwtbam.com
+  - DOMAIN-SUFFIX,yourfantasybeginsnow.com
+#  与 TVB 共 7 条规则重复
+  - DOMAIN-SUFFIX,bigbigshop.com
+  - DOMAIN-SUFFIX,encoretvb.com
+  - DOMAIN-SUFFIX,mytvsuper.com
+  - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN-SUFFIX,tvbanywhere.com
+  - DOMAIN-SUFFIX,tvbusa.com
+  - DOMAIN-SUFFIX,tvbweekly.com
+#  与 Verisign 共 12 条规则重复
+  - DOMAIN-SUFFIX,verisign.asia
+  - DOMAIN-SUFFIX,verisign.biz
+  - DOMAIN-SUFFIX,verisign.ch
+  - DOMAIN-SUFFIX,verisign.com
+  - DOMAIN-SUFFIX,verisign.info
+  - DOMAIN-SUFFIX,verisign.jobs
+  - DOMAIN-SUFFIX,verisign.mobi
+  - DOMAIN-SUFFIX,verisign.name
+  - DOMAIN-SUFFIX,verisign.net
+  - DOMAIN-SUFFIX,verisign.org
+  - DOMAIN-SUFFIX,verisign.pro
+  - DOMAIN-SUFFIX,verisigninc.com
 #  与 DAZN 共 6 条规则重复
   - DOMAIN-KEYWORD,voddazn
   - DOMAIN-SUFFIX,dazn-api.com

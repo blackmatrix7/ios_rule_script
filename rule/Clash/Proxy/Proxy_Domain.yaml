@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-05 02:44:39.863218
-# DOMAIN-SUFFIX: 28487
-# DOMAIN: 34
+# UPDATED: 2021-03-05 16:36:36.421045
+# DOMAIN-SUFFIX: 28504
+# DOMAIN: 35
 # DOMAIN-KEYWORD: 29
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 28641
+# TOTAL: 28659
 payload:
   - 'amp.akamaized.net'
   - 'apple.com.akadns.net'
@@ -19,6 +19,7 @@ payload:
   - 'cisco.evergage.com'
   - 'courier-push-apple.com.akadns.net'
   - 'ds-linear-abematv.akamaized.net'
+  - 'ds-vod-abematv.akamaized.net'
   - 'gamedownloads-rockstargames-com.akamaized.net'
   - 'github-avatars.oss-cn-hongkong.aliyuncs.com'
   - 'gitlab-assets.oss-cn-hongkong.aliyuncs.com'
@@ -19360,6 +19361,7 @@ payload:
   - '.sbofa88.com'
   - '.sbs'
   - '.sbs.com.au'
+  - '.sbuxcard.com'
   - '.sc'
   - '.sc-cdn.net'
   - '.sc.sh22.us'
@@ -20422,9 +20424,25 @@ payload:
   - '.stanford.edu'
   - '.staples'
   - '.star-telegram.com'
+  - '.starbucks-stars.com'
+  - '.starbucks.be'
+  - '.starbucks.ch'
+  - '.starbucks.co.id'
   - '.starbucks.com'
+  - '.starbucks.com.co'
+  - '.starbucks.it'
+  - '.starbucks.pt'
+  - '.starbucks.rs'
   - '.starbucksathome.com'
+  - '.starbuckscardb2b.com'
+  - '.starbuckscoffeegear.com'
+  - '.starbuckscoffeegearstore.com'
+  - '.starbucksforlife.com'
+  - '.starbuckspoq.com'
   - '.starbucksreserve.com'
+  - '.starbucksrewardsstarland.com'
+  - '.starbucksrtd.com'
+  - '.starbuckssummergame.com'
   - '.starcelebs.com'
   - '.starchu.com'
   - '.starcraft.com'

@@ -8,17 +8,17 @@
 
 
 
-最后检查时间：2021-03-05 02:45:21.477325。
+最后检查时间：2021-03-05 16:37:25.572932。
 
 ## 规则统计
 
-总计规则：28686 条。
+总计规则：28703 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 28478 |
+| DOMAIN-SUFFIX | 28495 |
 | DOMAIN | 35 |
 | DOMAIN-KEYWORD | 42 |
 | IP-CIDR | 127 |
@@ -83,7 +83,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 |  [Wikimedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wikimedia)    | 20   | [20](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   100.0% |
 |  [Wordpress](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wordpress)    | 8   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   100.0% |
 |  [Zendesk](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Zendesk)    | 6   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   100.0% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 28641   | [28555](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   99.7% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy)    | 28659   | [28573](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   99.7% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlackList)    | 770   | [756](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   98.18% |
 |  [VOA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/VOA)    | 51   | [49](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   96.08% |
 |  [Developer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Developer)    | 24   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   95.83% |
@@ -175,6 +175,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 |  [eBay](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/eBay)    | 44   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   31.82% |
 |  [Canon](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Canon)    | 70   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   31.43% |
 |  [Westerndigital](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Westerndigital)    | 23   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   30.43% |
+|  [Starbucks](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Starbucks)    | 32   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   28.12% |
 |  [McDonalds](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/McDonalds)    | 26   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   26.92% |
 |  [Gettyimages](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Gettyimages)    | 25   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   24.0% |
 |  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Blizzard)    | 61   | [14](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Repeat.list)   |   22.95% |

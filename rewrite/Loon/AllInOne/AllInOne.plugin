@@ -1,9 +1,9 @@
 # NAME: AllInOne
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-05 02:45:46
-# REWRITE: 871
-# SCRIPT: 22
+# UPDATED: 2021-03-05 16:37:51
+# REWRITE: 872
+# SCRIPT: 23
 # MITM: 640
 
 [Rule]
@@ -60,6 +60,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject-200
 ^https?:\/\/(e|m).+/((uu|oo).php.+|\d+.x?html\?$) - reject
 ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) - reject
+^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4}) - reject
 ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_9\d{2} - reject
 ^https?:\/\/(iyes|(api|hd)\.mobile)\.youku\.com\/(adv|common\/v3\/hudong\/new) - reject-img
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
@@ -908,6 +909,7 @@ http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? requires-body=
 http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_获取黑名单
 http-response ^https?:\/\/api\.zhihu\.com\/v4\/questions requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_回答列表去广告及黑名单增强
 http-response ^https?:\/\/app-api\.smzdm\.com\/util\/update requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,tag=什么值得买_去浮动广告
+http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_去除统一皮肤
 http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_标签页处理
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_我的页面处理
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_推荐去广告

@@ -1,17 +1,19 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-05 02:44:35.867835
-# USER-AGENT: 58
-# HOST-SUFFIX: 190
+# UPDATED: 2021-03-05 16:36:31.653463
+# HOST: 35
+# USER-AGENT: 59
+# HOST-SUFFIX: 195
 # HOST-KEYWORD: 20
-# HOST: 32
 # IP-CIDR: 847
-# TOTAL: 1147
+# TOTAL: 1156
+HOST,api.okzy.tv,GlobalMedia
 HOST,apple.comscoreresearch.com,GlobalMedia
 HOST,atv-ps.amazon.com,GlobalMedia
 HOST,avodmp4s3ww-a.akamaihd.net,GlobalMedia
 HOST,bcbolt446c5271-a.akamaihd.net,GlobalMedia
+HOST,cbsi.live.ott.irdeto.com,GlobalMedia
 HOST,content.jwplatform.com,GlobalMedia
 HOST,edge.api.brightcove.com,GlobalMedia
 HOST,fls-na.amazon.com,GlobalMedia
@@ -37,6 +39,7 @@ HOST,news-events.apple.com,GlobalMedia
 HOST,np-edge.itunes.apple.com,GlobalMedia
 HOST,play-edge.itunes.apple.com,GlobalMedia
 HOST,players.brightcove.net,GlobalMedia
+HOST,rpg.pic-imges.com,GlobalMedia
 HOST,videos-f.jwpsrv.com,GlobalMedia
 HOST,youtubei.googleapis.com,GlobalMedia
 HOST,yt3.ggpht.com,GlobalMedia
@@ -67,6 +70,9 @@ HOST-SUFFIX,bootstrapcdn.com,GlobalMedia
 HOST-SUFFIX,braze.com,GlobalMedia
 HOST-SUFFIX,byteoversea.com,GlobalMedia
 HOST-SUFFIX,c4assets.com,GlobalMedia
+HOST-SUFFIX,cbsaavideo.com,GlobalMedia
+HOST-SUFFIX,cbsi.com,GlobalMedia
+HOST-SUFFIX,cbsivideo.com,GlobalMedia
 HOST-SUFFIX,cdn.optimizely.com,GlobalMedia
 HOST-SUFFIX,channel4.com,GlobalMedia
 HOST-SUFFIX,channel5.com,GlobalMedia
@@ -185,11 +191,13 @@ HOST-SUFFIX,nqs.nice264.com,GlobalMedia
 HOST-SUFFIX,ocnttv.com,GlobalMedia
 HOST-SUFFIX,p-cdn.us,GlobalMedia
 HOST-SUFFIX,pandora.com,GlobalMedia
+HOST-SUFFIX,paramountplus.com,GlobalMedia
 HOST-SUFFIX,pbs.org,GlobalMedia
 HOST-SUFFIX,phncdn.com,GlobalMedia
 HOST-SUFFIX,phprcdn.com,GlobalMedia
 HOST-SUFFIX,pornhub.com,GlobalMedia
 HOST-SUFFIX,pornhubpremium.com,GlobalMedia
+HOST-SUFFIX,pplusstatic.com,GlobalMedia
 HOST-SUFFIX,primevideo.com,GlobalMedia
 HOST-SUFFIX,prod.hjholdings.tv,GlobalMedia
 HOST-SUFFIX,profile.line-scdn.net,GlobalMedia
@@ -287,6 +295,7 @@ USER-AGENT,Naver%20TV*,GlobalMedia
 USER-AGENT,Niconico*,GlobalMedia
 USER-AGENT,OTT_iPhone*,GlobalMedia
 USER-AGENT,PBS*,GlobalMedia
+USER-AGENT,PPlus*,GlobalMedia
 USER-AGENT,Pandora*,GlobalMedia
 USER-AGENT,Prime%20Video*,GlobalMedia
 USER-AGENT,SoundCloud*,GlobalMedia

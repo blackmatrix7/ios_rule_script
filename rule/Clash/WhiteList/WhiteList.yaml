@@ -1,11 +1,11 @@
 # NAME: WhiteList
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-05 02:44:40.250267
+# UPDATED: 2021-03-05 16:36:36.873794
 # DOMAIN-SUFFIX: 5
 # DOMAIN-KEYWORD: 1
-# DOMAIN: 13
-# TOTAL: 19
+# DOMAIN: 14
+# TOTAL: 20
 payload:
   - DOMAIN,ad.10010.com
   - DOMAIN,analytics.95516.com
@@ -18,6 +18,7 @@ payload:
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
   - DOMAIN,origin-a.akamaihd.net
+  - DOMAIN,pubads.g.doubleclick.net
   - DOMAIN,sycm.mmstat.com
   - DOMAIN,tracking.miui.com
   - DOMAIN-SUFFIX,dizhensubao.getui.com

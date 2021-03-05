@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-03-05 02:45:46。
+最后检查时间：2021-03-05 16:37:52。
 
 ## 复写统计
 
@@ -21,8 +21,8 @@
 | IP-CIDR | 1 |
 | IP-CIDR6 | 1 |
 | USER-AGENT | 1 |
-| reject | 820 |
-| http-response | 22 |
+| reject | 821 |
+| http-response | 23 |
 | redirect | 51 |
 ## 配置说明
 

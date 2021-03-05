@@ -1,17 +1,19 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-05 02:44:37.689774
-# USER-AGENT: 58
-# DOMAIN-SUFFIX: 190
+# UPDATED: 2021-03-05 16:36:33.782301
+# DOMAIN: 35
+# USER-AGENT: 59
+# DOMAIN-SUFFIX: 195
 # DOMAIN-KEYWORD: 20
-# DOMAIN: 32
 # IP-CIDR: 847
-# TOTAL: 1147
+# TOTAL: 1156
+DOMAIN,api.okzy.tv
 DOMAIN,apple.comscoreresearch.com
 DOMAIN,atv-ps.amazon.com
 DOMAIN,avodmp4s3ww-a.akamaihd.net
 DOMAIN,bcbolt446c5271-a.akamaihd.net
+DOMAIN,cbsi.live.ott.irdeto.com
 DOMAIN,content.jwplatform.com
 DOMAIN,edge.api.brightcove.com
 DOMAIN,fls-na.amazon.com
@@ -37,6 +39,7 @@ DOMAIN,news-events.apple.com
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
 DOMAIN,players.brightcove.net
+DOMAIN,rpg.pic-imges.com
 DOMAIN,videos-f.jwpsrv.com
 DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
@@ -67,6 +70,9 @@ DOMAIN-SUFFIX,bootstrapcdn.com
 DOMAIN-SUFFIX,braze.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,c4assets.com
+DOMAIN-SUFFIX,cbsaavideo.com
+DOMAIN-SUFFIX,cbsi.com
+DOMAIN-SUFFIX,cbsivideo.com
 DOMAIN-SUFFIX,cdn.optimizely.com
 DOMAIN-SUFFIX,channel4.com
 DOMAIN-SUFFIX,channel5.com
@@ -185,11 +191,13 @@ DOMAIN-SUFFIX,nqs.nice264.com
 DOMAIN-SUFFIX,ocnttv.com
 DOMAIN-SUFFIX,p-cdn.us
 DOMAIN-SUFFIX,pandora.com
+DOMAIN-SUFFIX,paramountplus.com
 DOMAIN-SUFFIX,pbs.org
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
+DOMAIN-SUFFIX,pplusstatic.com
 DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,prod.hjholdings.tv
 DOMAIN-SUFFIX,profile.line-scdn.net
@@ -287,6 +295,7 @@ USER-AGENT,Naver%20TV*
 USER-AGENT,Niconico*
 USER-AGENT,OTT_iPhone*
 USER-AGENT,PBS*
+USER-AGENT,PPlus*
 USER-AGENT,Pandora*
 USER-AGENT,Prime%20Video*
 USER-AGENT,SoundCloud*

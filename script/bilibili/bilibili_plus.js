@@ -47,10 +47,6 @@ let magicJS = MagicJS(scriptName, 'INFO');
             obj['data']['list'][i]['begin_time'] = 1915027200;
             obj['data']['list'][i]['end_time'] = 1924272000;
           }
-          // for(let i=0;i<obj['data']['show'].length;i++){
-          //   obj['data']['show'][i]['stime'] = 1915027200;
-          //   obj['data']['show'][i]['etime'] = 1924272000;
-          // }
           body = JSON.stringify(obj);
         }
         catch (err){
@@ -60,9 +56,11 @@ let magicJS = MagicJS(scriptName, 'INFO');
       // 标签页处理，如去除会员购等等
       case /^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab/.test(magicJS.request.url):
         try{
-          const tabList = new Set([39,40,41,42,151]);
+          // 442 开始为概念版id
+          const tabList = new Set([39, 40, 41, 42, 151, 442, 99, 100, 101]);
           const topList = new Set([176]);
-          const bottomList = new Set([177,178,179,181,106]);
+          // 102 开始为概念版id
+          const bottomList = new Set([177, 178, 179, 181, 102, 103, 104, 105, 106]);
           let obj = JSON.parse(magicJS.response.body);
           if (obj['data']['tab']){
             let tab = obj['data']['tab'].filter((e) =>{return tabList.has(e.id);});
@@ -86,7 +84,8 @@ let magicJS = MagicJS(scriptName, 'INFO');
       case /^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
-          const itemList = new Set([396,397,398,399,171,172,534,174,8,4,428,352,1,405,402,404,544,407,410]);
+          // 425 开始为概念版id
+          const itemList = new Set([396,397,398,399,171,172,534,8,4,428,352,1,405,402,404,544,407,410,425,426,427,428,171,430,431,432]);
           obj['data']['sections_v2'].forEach((element, index) => {
             let items = element['items'].filter((e) =>{return itemList.has(e.id);});
             obj['data']['sections_v2'][index].button = {}
@@ -127,7 +126,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
         }
         break;
       // 动态去广告
-      case (/^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_new\?/.test(magicJS.request.url)):
+      case /^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_new\?/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
           let cards = [];
@@ -146,6 +145,19 @@ let magicJS = MagicJS(scriptName, 'INFO');
         }
         catch (err){
           magicJS.logError(`动态去广告出现异常：${err}`);
+        }
+        break;
+      // 去除统一设置的皮肤
+      case /^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?/.test(magicJS.request.url):
+        try{
+          let obj = JSON.parse(magicJS.response.body);
+          if (obj && obj.hasOwnProperty('data')){
+            obj['data']['common_equip'] = {};
+          }
+          body = JSON.stringify(obj);
+        }
+        catch (err){
+          magicJS.logError(`去除强制设置的皮肤出现异常：${err}`);
         }
         break;
       default:

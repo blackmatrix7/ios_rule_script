@@ -60,20 +60,20 @@ let magicJS = MagicJS(scriptName, 'INFO');
       // 标签页处理，如去除会员购等等
       case /^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab/.test(magicJS.request.url):
         try{
-          const tabList = new Set(['直播', '推荐', '热门', '追番', '影视']);
-          const topList = new Set(['消息']);
-          const bottomList = new Set(['首页', '频道', '动态', '我的', '消息']);
+          const tabList = new Set([39,40,41,42,151]);
+          const topList = new Set([176]);
+          const bottomList = new Set([177,178,179,181,106]);
           let obj = JSON.parse(magicJS.response.body);
           if (obj['data']['tab']){
-            let tab = obj['data']['tab'].filter((e) =>{return tabList.has(e.name);});
+            let tab = obj['data']['tab'].filter((e) =>{return tabList.has(e.id);});
             obj['data']['tab'] = tab;
           }
           if (obj['data']['top']){
-            let top = obj['data']['top'].filter((e) =>{return topList.has(e.name);});
+            let top = obj['data']['top'].filter((e) =>{return topList.has(e.id);});
             obj['data']['top'] = top;
           }
           if (obj['data']['bottom']){
-            let bottom = obj['data']['bottom'].filter((e) =>{return bottomList.has(e.name);});
+            let bottom = obj['data']['bottom'].filter((e) =>{return bottomList.has(e.id);});
             obj['data']['bottom'] = bottom;
           }
           body = JSON.stringify(obj);
@@ -85,22 +85,26 @@ let magicJS = MagicJS(scriptName, 'INFO');
       // 我的页面处理，去除一些推广按钮
       case /^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine/.test(magicJS.request.url):
         try{
-          const item0List = new Set(['离线缓存', '历史记录', '我的收藏', '稍后再看']);
-          const item1List = new Set(['创作首页', '创作学院', '打卡挑战']);
-          const item2List = new Set(['我的课程', '个性装扮', '我的钱包', '直播中心']);
-          const item3List = new Set(['联系客服', '设置']);
+          const item0List = new Set([396,397,398,399]);
+          const item1List = new Set([171,172,534,174]);
+          const item2List = new Set([8,4,428352,1]);
+          const item3List = new Set([400,402,404,405]);
+          const item4List = new Set([407,410]);
           let obj = JSON.parse(magicJS.response.body);
-          let items0 = obj['data']['sections_v2'][0]['items'].filter((e) =>{return item0List.has(e.title);});
+          let items0 = obj['data']['sections_v2'][0]['items'].filter((e) =>{return item0List.has(e.id);});
           obj['data']['sections_v2'][0]['items'] = items0;
           // 创作中心
-          let items1 = obj['data']['sections_v2'][1]['items'].filter((e) =>{return item1List.has(e.title);});
+          let items1 = obj['data']['sections_v2'][1]['items'].filter((e) =>{return item1List.has(e.id);});
           obj['data']['sections_v2'][1]['items'] = items1;
-          // 推荐服务
-          let items2 = obj['data']['sections_v2'][2]['items'].filter((e) =>{return item2List.has(e.title);});
+          // 直播中心
+          let items2 = obj['data']['sections_v2'][2]['items'].filter((e) =>{return item2List.has(e.id);});
           obj['data']['sections_v2'][2]['items'] = items2;
-          // 更多服务，去掉课堂模式和青少年模式
-          let items3 = obj['data']['sections_v2'][3]['items'].filter((e) =>{return item3List.has(e.title);});
+          // 推荐服务
+          let items3 = obj['data']['sections_v2'][3]['items'].filter((e) =>{return item3List.has(e.id);});
           obj['data']['sections_v2'][3]['items'] = items3;
+          // 更多服务，去掉课堂模式和青少年模式
+          let items4 = obj['data']['sections_v2'][4]['items'].filter((e) =>{return item4List.has(e.id);});
+          obj['data']['sections_v2'][4]['items'] = items4;
           body = JSON.stringify(obj);
         }
         catch (err){

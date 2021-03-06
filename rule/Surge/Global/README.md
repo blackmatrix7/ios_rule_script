@@ -9,7 +9,7 @@
 
 Global分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。程序已默认根据正则推导一份MITM的模块/复写/插件在当前分流规则的目录中，便于参考搭配使用。
 
-最后检查时间：2021-03-06 17:57:55.568116。
+最后检查时间：2021-03-07 02:43:28.571394。
 
 ## 规则统计
 
@@ -160,7 +160,6 @@ Global_Domain.list请使用DOMAIN-SET。
 |  [TikTok](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TikTok)    | 16   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_Repeat.list)   |   56.25% |
 |  [BBC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BBC)    | 22   | [12](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_Repeat.list)   |   54.55% |
 |  [Shopee](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Shopee)    | 11   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_Repeat.list)   |   54.55% |
-|  [HBOHK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/HBOHK)    | 13   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_Repeat.list)   |   53.85% |
 |  [Cloudflare](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Cloudflare)    | 41   | [20](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_Repeat.list)   |   48.78% |
 |  [BMW](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BMW)    | 729   | [354](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_Repeat.list)   |   48.56% |
 |  [Intel](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Intel)    | 263   | [126](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_Repeat.list)   |   47.91% |

@@ -1,7 +1,7 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-06 17:57:51.526227
+# UPDATED: 2021-03-07 02:43:24.746507
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Netflix 共 41 条规则重复
@@ -57,12 +57,6 @@ payload:
   - DOMAIN-SUFFIX,japronx.net
   - DOMAIN-SUFFIX,japronx.tv
   - DOMAIN-SUFFIX,japronx.vip
-#  与 HuluJP 共 5 条规则重复
-  - DOMAIN-SUFFIX,happyon.jp
-  - DOMAIN-SUFFIX,hjholdings.jp
-  - DOMAIN-SUFFIX,hulu.jp
-  - DOMAIN-SUFFIX,streaks.jp
-  - DOMAIN-SUFFIX,yb.uncn.jp
 #  与 AppleNews 共 7 条规则重复
   - DOMAIN,apple.comscoreresearch.com
   - DOMAIN,gateway.icloud.com
@@ -106,12 +100,6 @@ payload:
   - DOMAIN-SUFFIX,indaznlab.com
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,sentry.io
-#  与 HBOHK 共 5 条规则重复
-  - DOMAIN-SUFFIX,hboasia.com
-  - DOMAIN-SUFFIX,hbogo.com
-  - DOMAIN-SUFFIX,hbogoasia.com
-  - DOMAIN-SUFFIX,hbogoasia.hk
-  - DOMAIN-SUFFIX,nowe.com
 #  与 HBO 共 10 条规则重复
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
   - DOMAIN-SUFFIX,hbo.com

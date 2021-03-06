@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-03-06 17:58:06.146684。
+最后检查时间：2021-03-07 02:43:38.105768。
 
 ## 规则统计
 
@@ -143,7 +143,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 |  [Intel](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Intel)    | 263   | [126](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy_Repeat.list)   |   47.91% |
 |  [Dailymail](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Dailymail)    | 17   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy_Repeat.list)   |   47.06% |
 |  [AmazonPrimeVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AmazonPrimeVideo)    | 26   | [12](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy_Repeat.list)   |   46.15% |
-|  [HBOHK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HBOHK)    | 13   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy_Repeat.list)   |   46.15% |
 |  [BBC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BBC)    | 22   | [10](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy_Repeat.list)   |   45.45% |
 |  [Oracle](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Oracle)    | 25   | [11](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy_Repeat.list)   |   44.0% |
 |  [Garena](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Garena)    | 15   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy_Repeat.list)   |   40.0% |

@@ -8,14 +8,14 @@
 
 
 
-最后检查时间：2021-03-06 17:58:51。
+最后检查时间：2021-03-07 02:44:23。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 21 |
-| script-request-header | 12 |
+| mitm | 19 |
+| script-request-header | 10 |
 | script-response-body | 2 |
 | script-request-body | 6 |
 ## 配置说明

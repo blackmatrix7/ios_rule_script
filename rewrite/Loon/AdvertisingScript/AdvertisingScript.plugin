@@ -1,9 +1,9 @@
 # NAME: 脚本去广告
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-06 17:58:51
+# UPDATED: 2021-03-07 02:44:23
 # REWRITE: 18
-# SCRIPT: 23
+# SCRIPT: 22
 # MITM: 18
 
 [Rule]
@@ -55,7 +55,6 @@ http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? requires-body=
 http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_获取黑名单
 http-response ^https?:\/\/api\.zhihu\.com\/v4\/questions requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_回答列表去广告及黑名单增强
 http-response ^https?:\/\/app-api\.smzdm\.com\/util\/update requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,tag=什么值得买_去浮动广告
-http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_去除统一皮肤
 http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_标签页处理
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_我的页面处理
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_推荐去广告

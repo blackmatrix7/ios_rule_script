@@ -8,20 +8,20 @@
 
 
 
-最后检查时间：2021-03-06 02:46:57。
+最后检查时间：2021-03-06 17:58:51。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 640 |
+| mitm | 639 |
 | DOMAIN-SUFFIX | 1 |
 | URL-REGEX | 8 |
 | DOMAIN | 4 |
 | IP-CIDR | 1 |
 | IP-CIDR6 | 1 |
 | USER-AGENT | 1 |
-| reject | 821 |
+| reject | 809 |
 | http-response | 23 |
 | redirect | 51 |
 ## 配置说明

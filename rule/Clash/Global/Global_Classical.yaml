@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-06 02:45:34.134965
-# DOMAIN-SUFFIX: 28495
-# DOMAIN: 35
+# UPDATED: 2021-03-06 17:57:42.647991
+# DOMAIN-SUFFIX: 28503
+# DOMAIN: 37
 # DOMAIN-KEYWORD: 42
 # IP-CIDR: 127
 # IP-CIDR6: 3
 # PROCESS-NAME: 1
-# TOTAL: 28703
+# TOTAL: 28713
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
@@ -43,6 +43,8 @@ payload:
   - DOMAIN,statics-marketingsites-wcus-ms-com.akamaized.net
   - DOMAIN,tesla-cdn.thron.com
   - DOMAIN,videos-rockstargames-com.akamaized.net
+  - DOMAIN,vod-dash-ww-live.akamaized.net
+  - DOMAIN,vod-thumb-ww-live.akamaized.net
   - DOMAIN,widgets.stripst.com
   - DOMAIN,www-cdn.icloud.com.akadns.net
   - DOMAIN-SUFFIX,00006808.com
@@ -3493,13 +3495,13 @@ payload:
   - DOMAIN-SUFFIX,bbc.org.cn
   - DOMAIN-SUFFIX,bbcchinese.com
   - DOMAIN-SUFFIX,bbchat.tv
-  - DOMAIN-SUFFIX,bbci.co
   - DOMAIN-SUFFIX,bbci.co.uk
   - DOMAIN-SUFFIX,bbcnews.co.uk
   - DOMAIN-SUFFIX,bbcnews.com
   - DOMAIN-SUFFIX,bbcpersian.com
   - DOMAIN-SUFFIX,bbcukchina.com
   - DOMAIN-SUFFIX,bbcurdu.com
+  - DOMAIN-SUFFIX,bbcverticals.com
   - DOMAIN-SUFFIX,bbcworldnews.com
   - DOMAIN-SUFFIX,bbei7.com
   - DOMAIN-SUFFIX,bbestmall.com
@@ -4805,7 +4807,6 @@ payload:
   - DOMAIN-SUFFIX,bravoteens.com
   - DOMAIN-SUFFIX,bravotube.com
   - DOMAIN-SUFFIX,bravotube.net
-  - DOMAIN-SUFFIX,braze.com
   - DOMAIN-SUFFIX,brazilpartneruniversity.com
   - DOMAIN-SUFFIX,brazzers-girls.com
   - DOMAIN-SUFFIX,brazzers.com
@@ -5611,6 +5612,8 @@ payload:
   - DOMAIN-SUFFIX,cdn.statically.io
   - DOMAIN-SUFFIX,cdn.tranquilli.org
   - DOMAIN-SUFFIX,cdn.ub8go.com
+  - DOMAIN-SUFFIX,cdn77.com
+  - DOMAIN-SUFFIX,cdn77.org
   - DOMAIN-SUFFIX,cdnews.com.tw
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,cdnjs.com
@@ -6418,7 +6421,6 @@ payload:
   - DOMAIN-SUFFIX,contest.com
   - DOMAIN-SUFFIX,convegnonazionalegeotecnica.it
   - DOMAIN-SUFFIX,convio.net
-  - DOMAIN-SUFFIX,conviva.com
   - DOMAIN-SUFFIX,convrgencegame.com
   - DOMAIN-SUFFIX,coobay.com
   - DOMAIN-SUFFIX,cookiechoices.org
@@ -7049,6 +7051,7 @@ payload:
   - DOMAIN-SUFFIX,delmonte
   - DOMAIN-SUFFIX,deloitte
   - DOMAIN-SUFFIX,delta
+  - DOMAIN-SUFFIX,delvenetworks.com
   - DOMAIN-SUFFIX,demandware.com
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,demo.nyris.io
@@ -12368,6 +12371,7 @@ payload:
   - DOMAIN-SUFFIX,incredibox.fr
   - DOMAIN-SUFFIX,ind.sh
   - DOMAIN-SUFFIX,indazn.com
+  - DOMAIN-SUFFIX,indaznlab.com
   - DOMAIN-SUFFIX,independent.co.uk
   - DOMAIN-SUFFIX,independentoperatorcn.com
   - DOMAIN-SUFFIX,indexoncensorship.org
@@ -12567,7 +12571,10 @@ payload:
   - DOMAIN-SUFFIX,intelstore.com
   - DOMAIN-SUFFIX,inteltechnologyprovider.com
   - DOMAIN-SUFFIX,intelvmwarecybersecurity.com
+  - DOMAIN-SUFFIX,intercom.com
   - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomassets.com
+  - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,internationalconnectionsacademy.com
   - DOMAIN-SUFFIX,internationalsaimoe.com
   - DOMAIN-SUFFIX,internet-studies.org
@@ -12974,16 +12981,9 @@ payload:
   - DOMAIN-SUFFIX,japaninporn.com
   - DOMAIN-SUFFIX,japanknowledge.com
   - DOMAIN-SUFFIX,japantimes.co.jp
-  - DOMAIN-SUFFIX,japonx.com
   - DOMAIN-SUFFIX,japonx.net
-  - DOMAIN-SUFFIX,japonx.tv
-  - DOMAIN-SUFFIX,japonx.vip
   - DOMAIN-SUFFIX,japorn.tv
   - DOMAIN-SUFFIX,jappydolls.net
-  - DOMAIN-SUFFIX,japronx.com
-  - DOMAIN-SUFFIX,japronx.net
-  - DOMAIN-SUFFIX,japronx.tv
-  - DOMAIN-SUFFIX,japronx.vip
   - DOMAIN-SUFFIX,jasminearoma.co
   - DOMAIN-SUFFIX,jason.fi
   - DOMAIN-SUFFIX,jasoncoyne.com
@@ -12998,6 +12998,7 @@ payload:
   - DOMAIN-SUFFIX,jav18.cc
   - DOMAIN-SUFFIX,jav18.xyz
   - DOMAIN-SUFFIX,jav2be.com
+  - DOMAIN-SUFFIX,jav321.com
   - DOMAIN-SUFFIX,jav68.me
   - DOMAIN-SUFFIX,jav68.tv
   - DOMAIN-SUFFIX,jav777.cc
@@ -13574,6 +13575,7 @@ payload:
   - DOMAIN-SUFFIX,kiwi.kz
   - DOMAIN-SUFFIX,kjpnote.com
   - DOMAIN-SUFFIX,kk-whys.co.jp
+  - DOMAIN-SUFFIX,kk.stream
   - DOMAIN-SUFFIX,kk168.com.cn
   - DOMAIN-SUFFIX,kk2267.com
   - DOMAIN-SUFFIX,kkbox.com
@@ -13588,7 +13590,6 @@ payload:
   - DOMAIN-SUFFIX,kkp.org.hk
   - DOMAIN-SUFFIX,kksod.com
   - DOMAIN-SUFFIX,kktix.com
-  - DOMAIN-SUFFIX,kktv-theater.kk.stream
   - DOMAIN-SUFFIX,kktv.com.tw
   - DOMAIN-SUFFIX,kktv.me
   - DOMAIN-SUFFIX,kl8888.com
@@ -14062,6 +14063,7 @@ payload:
   - DOMAIN-SUFFIX,lilly
   - DOMAIN-SUFFIX,limbopro.xyz
   - DOMAIN-SUFFIX,limejs.com
+  - DOMAIN-SUFFIX,limelight.com
   - DOMAIN-SUFFIX,limiao.net
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,linco.cl
@@ -14172,7 +14174,12 @@ payload:
   - DOMAIN-SUFFIX,ll699.net
   - DOMAIN-SUFFIX,llamador.cl
   - DOMAIN-SUFFIX,llbn.tv
+  - DOMAIN-SUFFIX,lldns.net
+  - DOMAIN-SUFFIX,llnw-trials.com
+  - DOMAIN-SUFFIX,llnw.com
+  - DOMAIN-SUFFIX,llnw.net
   - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-SUFFIX,llnwi.net
   - DOMAIN-SUFFIX,llqpipe.com
   - DOMAIN-SUFFIX,llss.me
   - DOMAIN-SUFFIX,lm.1731788.com
@@ -22702,6 +22709,7 @@ payload:
   - DOMAIN-SUFFIX,verizon.com
   - DOMAIN-SUFFIX,verizon.net
   - DOMAIN-SUFFIX,verizonbusinessfios.com
+  - DOMAIN-SUFFIX,verizondigitalmedia.com
   - DOMAIN-SUFFIX,verizonenterprise.com
   - DOMAIN-SUFFIX,verizonfios.com
   - DOMAIN-SUFFIX,verizonmedia.com
@@ -25712,11 +25720,11 @@ payload:
   - DOMAIN-SUFFIX,www.jailbreakvpn.com
   - DOMAIN-SUFFIX,www.jainchetan.com
   - DOMAIN-SUFFIX,www.jameshooker.co.uk
+  - DOMAIN-SUFFIX,www.japonx.tv
   - DOMAIN-SUFFIX,www.jasonfbrennan.com
   - DOMAIN-SUFFIX,www.jav007.com
   - DOMAIN-SUFFIX,www.jav008.com
   - DOMAIN-SUFFIX,www.jav28.com
-  - DOMAIN-SUFFIX,www.jav321.com
   - DOMAIN-SUFFIX,www.jav777.xyz
   - DOMAIN-SUFFIX,www.java9countdown.xyz
   - DOMAIN-SUFFIX,www.javbaike.com
@@ -27419,6 +27427,7 @@ payload:
   - DOMAIN-SUFFIX,x06966.com
   - DOMAIN-SUFFIX,x12express.com
   - DOMAIN-SUFFIX,x188betx.com
+  - DOMAIN-SUFFIX,x18r.com
   - DOMAIN-SUFFIX,x1949x.com
   - DOMAIN-SUFFIX,x24hr.com
   - DOMAIN-SUFFIX,x258888.com
@@ -28315,6 +28324,7 @@ payload:
   - DOMAIN-SUFFIX,zeitworld.com
   - DOMAIN-SUFFIX,zello.com
   - DOMAIN-SUFFIX,zencdn.net
+  - DOMAIN-SUFFIX,zencoder.com
   - DOMAIN-SUFFIX,zend2.com
   - DOMAIN-SUFFIX,zendesk.com
   - DOMAIN-SUFFIX,zendproxy.com

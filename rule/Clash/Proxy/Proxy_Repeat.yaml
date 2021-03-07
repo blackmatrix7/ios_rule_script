@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-07 02:43:24.711852
+# UPDATED: 2021-03-07 14:22:35.485103
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Wikipedia 共 12 条规则重复
@@ -209,7 +209,7 @@ payload:
   - DOMAIN-SUFFIX,zendesk.com
   - DOMAIN-SUFFIX,zndsk.com
   - DOMAIN-SUFFIX,zopim.com
-#  与 Global 共 28581 条规则重复
+#  与 Global 共 28582 条规则重复
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
   - DOMAIN,assets-priconne-redive-us.akamaized.net
@@ -6756,6 +6756,7 @@ payload:
   - DOMAIN-SUFFIX,cricketcountry.com
   - DOMAIN-SUFFIX,crikey.com.au
   - DOMAIN-SUFFIX,crisisresponse.google
+  - DOMAIN-SUFFIX,crisp.chat
   - DOMAIN-SUFFIX,cristyli.com
   - DOMAIN-SUFFIX,crit-staging.com
   - DOMAIN-SUFFIX,crittercism.com
@@ -28791,7 +28792,7 @@ payload:
   - IP-CIDR6,2001:67c:4e8::/48
   - IP-CIDR6,2001:b28:f23d::/48
   - IP-CIDR6,2001:b28:f23f::/48
-#  与 BlackList 共 755 条规则重复
+#  与 BlackList 共 756 条规则重复
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,beetalk
   - DOMAIN-KEYWORD,blogspot
@@ -28933,6 +28934,7 @@ payload:
   - DOMAIN-SUFFIX,costco.com
   - DOMAIN-SUFFIX,crackle.com
   - DOMAIN-SUFFIX,creativelab5.com
+  - DOMAIN-SUFFIX,crisp.chat
   - DOMAIN-SUFFIX,crittercism.com
   - DOMAIN-SUFFIX,culturalspot.org
   - DOMAIN-SUFFIX,culturedcode.com

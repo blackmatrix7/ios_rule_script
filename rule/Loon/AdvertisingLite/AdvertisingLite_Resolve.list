@@ -1,15 +1,15 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-07 02:43:13.508808
+# UPDATED: 2021-03-07 14:22:23.805220
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 29
 # DOMAIN-SUFFIX: 15297
-# DOMAIN: 15363
+# DOMAIN: 15368
 # IP-CIDR: 192
 # USER-AGENT: 1
 # URL-REGEX: 300
-# TOTAL: 31182
+# TOTAL: 31187
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,adsage
@@ -72,9 +72,9 @@ URL-REGEX,^https?:\/\/9377\w{2}\.com
 URL-REGEX,^https?:\/\/[\s\s]*baidu\.com/.*ad[xs]\.php
 URL-REGEX,^https?:\/\/[^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(/|\.js)
 URL-REGEX,^https?:\/\/[^bbs].tianya\.cn
-URL-REGEX,^https?:\/\/\w+.gdt.qq.com
 URL-REGEX,^https?:\/\/\w+?\.ximalaya\.com\/api\/v\d\/adRealTime
 URL-REGEX,^https?:\/\/\w+\.cloudfront\.net\/banner
+URL-REGEX,^https?:\/\/\w+\.gdt\.qq\.com
 URL-REGEX,^https?:\/\/\w+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/
 URL-REGEX,^https?:\/\/\w+\.kingsoft-office-service\.com\/ad
 URL-REGEX,^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking)

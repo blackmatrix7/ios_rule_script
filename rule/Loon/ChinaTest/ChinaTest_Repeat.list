@@ -1,7 +1,7 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-07 02:43:23.597235
+# UPDATED: 2021-03-07 14:22:34.309895
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 DanDanZan 共 7 条规则重复
 DOMAIN-SUFFIX,343480.com
@@ -24,15 +24,17 @@ DOMAIN-SUFFIX,bitautoimg.com
 DOMAIN-SUFFIX,cheyisou.com
 DOMAIN-SUFFIX,yccdn.com
 DOMAIN-SUFFIX,yiche.com
-#  与 China 共 738 条规则重复
+#  与 China 共 740 条规则重复
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,client.amplifi.com
 DOMAIN,dl.google.com
 DOMAIN,download.jetbrains.com
+DOMAIN,file-igamecj.akamaized.net
 DOMAIN,images-cn.ssl-images-amazon.com
 DOMAIN,ip.istatmenus.app
 DOMAIN,mtalk.google.com
+DOMAIN,officecdn-microsoft-com.akamaized.net
 DOMAIN,safebrowsing.googleapis.com
 DOMAIN,sms.imagetasks.com
 DOMAIN,speedtest.macpaw.com
@@ -763,56 +765,6 @@ USER-AGENT,eusoft_ting_en_iphone
 USER-AGENT,hearthstone*
 USER-AGENT,hide*
 USER-AGENT,ting_en
-#  与 Qihoo360 共 49 条规则重复
-DOMAIN-SUFFIX,360-jr.com
-DOMAIN-SUFFIX,360.cn
-DOMAIN-SUFFIX,360.com
-DOMAIN-SUFFIX,360chou.com
-DOMAIN-SUFFIX,360daikuan.com
-DOMAIN-SUFFIX,360doc.com
-DOMAIN-SUFFIX,360huzhubao.com
-DOMAIN-SUFFIX,360jie.com
-DOMAIN-SUFFIX,360jinrong.net
-DOMAIN-SUFFIX,360kan.com
-DOMAIN-SUFFIX,360kuai.com
-DOMAIN-SUFFIX,360os.com
-DOMAIN-SUFFIX,360safe.com
-DOMAIN-SUFFIX,360shouji.com
-DOMAIN-SUFFIX,360taojin.com
-DOMAIN-SUFFIX,360totalsecurity.com
-DOMAIN-SUFFIX,360tpcdn.com
-DOMAIN-SUFFIX,360webcache.com
-DOMAIN-SUFFIX,anquanke.com
-DOMAIN-SUFFIX,dhrest.com
-DOMAIN-SUFFIX,haoso.com
-DOMAIN-SUFFIX,haosou.com
-DOMAIN-SUFFIX,haosou.net
-DOMAIN-SUFFIX,i360mall.com
-DOMAIN-SUFFIX,ludashi.com
-DOMAIN-SUFFIX,nicaifu.com
-DOMAIN-SUFFIX,nzwgs.com
-DOMAIN-SUFFIX,qhimg.com
-DOMAIN-SUFFIX,qhimgs0.com
-DOMAIN-SUFFIX,qhimgs1.com
-DOMAIN-SUFFIX,qhimgs2.com
-DOMAIN-SUFFIX,qhimgs3.com
-DOMAIN-SUFFIX,qhimgs4.com
-DOMAIN-SUFFIX,qhimgs5.com
-DOMAIN-SUFFIX,qhimgs6.com
-DOMAIN-SUFFIX,qhmsg.com
-DOMAIN-SUFFIX,qhres.com
-DOMAIN-SUFFIX,qhstatic.com
-DOMAIN-SUFFIX,qhupdate.com
-DOMAIN-SUFFIX,qihoo.com
-DOMAIN-SUFFIX,qihucdn.com
-DOMAIN-SUFFIX,qikucdn.com
-DOMAIN-SUFFIX,so.com
-DOMAIN-SUFFIX,sou.com
-DOMAIN-SUFFIX,useso.com
-DOMAIN-SUFFIX,xiaoluyouxuan.com
-DOMAIN-SUFFIX,xiaoluzhidian.com
-DOMAIN-SUFFIX,xjietiao.com
-DOMAIN-SUFFIX,youhua.com
 #  与 CEB 共 14 条规则重复
 DOMAIN-SUFFIX,cebbank.com
 DOMAIN-SUFFIX,ceblease.com
@@ -1446,16 +1398,6 @@ DOMAIN-SUFFIX,sf-financial.com
 DOMAIN-SUFFIX,sf-saas.com
 DOMAIN-SUFFIX,sfcar.hk
 DOMAIN-SUFFIX,sfgy.org
-#  与 SF-Express 共 9 条规则重复
-DOMAIN-SUFFIX,feng1.com
-DOMAIN-SUFFIX,rongechain.com
-DOMAIN-SUFFIX,sf-airlines.com
-DOMAIN-SUFFIX,sf-cityrush.com
-DOMAIN-SUFFIX,sf-express.com
-DOMAIN-SUFFIX,sf-financial.com
-DOMAIN-SUFFIX,sf-saas.com
-DOMAIN-SUFFIX,sfcar.hk
-DOMAIN-SUFFIX,sfgy.org
 #  与 58TongCheng 共 22 条规则重复
 DOMAIN-SUFFIX,58.com
 DOMAIN-SUFFIX,5858.com
@@ -1851,6 +1793,23 @@ DOMAIN-SUFFIX,yihaodianimg.com
 DOMAIN-SUFFIX,yixun.com
 DOMAIN-SUFFIX,yiyaojd.com
 DOMAIN-SUFFIX,yizhitou.com
+#  与 AsianMedia 共 16 条规则重复
+DOMAIN,upos-hz-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,71.am.com
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biligame.com
+DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,im9.com
+DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,wetv.vip
 #  与 Sina 共 32 条规则重复
 DOMAIN-SUFFIX,1kapp.com
 DOMAIN-SUFFIX,51xiancheng.com
@@ -1891,34 +1850,12 @@ DOMAIN-SUFFIX,51jobcdn.com
 DOMAIN-SUFFIX,maketion.com
 DOMAIN-SUFFIX,yingjiesheng.com
 DOMAIN-SUFFIX,yingjiesheng.net
-#  与 AsianMedia 共 15 条规则重复
-DOMAIN-SUFFIX,71.am.com
-DOMAIN-SUFFIX,acg.tv
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,b23.tv
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,bilibili.tv
-DOMAIN-SUFFIX,biligame.com
-DOMAIN-SUFFIX,biligame.net
-DOMAIN-SUFFIX,bilivideo.com
-DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,im9.com
-DOMAIN-SUFFIX,qy.net
-DOMAIN-SUFFIX,wetv.vip
 #  与 XianYu 共 5 条规则重复
 DOMAIN-SUFFIX,ewqcxz.com
 DOMAIN-SUFFIX,hjkhjkl.com
 DOMAIN-SUFFIX,lkjujm.com
 DOMAIN-SUFFIX,nfmrtfv.com
 DOMAIN-SUFFIX,xianyu.mobi
-#  与 XiMaLaYa 共 5 条规则重复
-DOMAIN-SUFFIX,9nali.com
-DOMAIN-SUFFIX,qingxuetang.com
-DOMAIN-SUFFIX,xima.tv
-DOMAIN-SUFFIX,ximalaya.com
-DOMAIN-SUFFIX,xmcdn.com
 #  与 ZhangYue 共 8 条规则重复
 DOMAIN-SUFFIX,ireader.com
 DOMAIN-SUFFIX,ireaderm.net

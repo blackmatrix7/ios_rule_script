@@ -1,9 +1,26 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-07 14:22:35.522390
+# UPDATED: 2021-03-08 02:44:12.482953
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
+#  与 HuluJP 共 5 条规则重复
+  - DOMAIN-SUFFIX,happyon.jp
+  - DOMAIN-SUFFIX,hjholdings.jp
+  - DOMAIN-SUFFIX,hulu.jp
+  - DOMAIN-SUFFIX,streaks.jp
+  - DOMAIN-SUFFIX,yb.uncn.jp
+#  与 Japonx 共 10 条规则重复
+  - DOMAIN-KEYWORD,japonx
+  - DOMAIN-KEYWORD,japronx
+  - DOMAIN-SUFFIX,japonx.com
+  - DOMAIN-SUFFIX,japonx.net
+  - DOMAIN-SUFFIX,japonx.tv
+  - DOMAIN-SUFFIX,japonx.vip
+  - DOMAIN-SUFFIX,japronx.com
+  - DOMAIN-SUFFIX,japronx.net
+  - DOMAIN-SUFFIX,japronx.tv
+  - DOMAIN-SUFFIX,japronx.vip
 #  与 Netflix 共 41 条规则重复
   - DOMAIN,netflix.com.edgesuite.net
   - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-
@@ -46,17 +63,6 @@ payload:
   - IP-CIDR,66.197.128.0/17
   - IP-CIDR,69.53.224.0/19
   - IP-CIDR,8.41.4.0/24
-#  与 Japonx 共 10 条规则重复
-  - DOMAIN-KEYWORD,japonx
-  - DOMAIN-KEYWORD,japronx
-  - DOMAIN-SUFFIX,japonx.com
-  - DOMAIN-SUFFIX,japonx.net
-  - DOMAIN-SUFFIX,japonx.tv
-  - DOMAIN-SUFFIX,japonx.vip
-  - DOMAIN-SUFFIX,japronx.com
-  - DOMAIN-SUFFIX,japronx.net
-  - DOMAIN-SUFFIX,japronx.tv
-  - DOMAIN-SUFFIX,japronx.vip
 #  与 AppleNews 共 7 条规则重复
   - DOMAIN,apple.comscoreresearch.com
   - DOMAIN,gateway.icloud.com
@@ -100,6 +106,20 @@ payload:
   - DOMAIN-SUFFIX,indaznlab.com
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,sentry.io
+#  与 HBOHK 共 5 条规则重复
+  - DOMAIN-SUFFIX,hboasia.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN-SUFFIX,nowe.com
+#  与 BBC 共 7 条规则重复
+  - DOMAIN-KEYWORD,bbcfmt
+  - DOMAIN-KEYWORD,uk-live
+  - DOMAIN-SUFFIX,bbc.co
+  - DOMAIN-SUFFIX,bbc.co.uk
+  - DOMAIN-SUFFIX,bbc.com
+  - DOMAIN-SUFFIX,bbci.co
+  - DOMAIN-SUFFIX,bbci.co.uk
 #  与 HBO 共 10 条规则重复
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
   - DOMAIN-SUFFIX,hbo.com
@@ -111,14 +131,6 @@ payload:
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,youboranqs01.com
-#  与 BBC 共 7 条规则重复
-  - DOMAIN-KEYWORD,bbcfmt
-  - DOMAIN-KEYWORD,uk-live
-  - DOMAIN-SUFFIX,bbc.co
-  - DOMAIN-SUFFIX,bbc.co.uk
-  - DOMAIN-SUFFIX,bbc.com
-  - DOMAIN-SUFFIX,bbci.co
-  - DOMAIN-SUFFIX,bbci.co.uk
 #  与 AmazonPrimeVideo 共 7 条规则重复
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN-SUFFIX,aiv-cdn.net

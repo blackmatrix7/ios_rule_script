@@ -1,15 +1,15 @@
 # NAME: AdvertisingLite
 # AUTHOR: 
 # GITHUB: 
-# UPDATED: 2021-03-07 14:22:28.323986
+# UPDATED: 2021-03-08 02:44:03.993049
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 29
 # DOMAIN-SUFFIX: 15297
-# DOMAIN: 15368
+# DOMAIN: 15376
 # IP-CIDR: 192
 # USER-AGENT: 1
-# URL-REGEX: 300
-# TOTAL: 31187
+# URL-REGEX: 299
+# TOTAL: 31194
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,adsage
@@ -269,7 +269,6 @@ URL-REGEX,^https?:\/\/\w+\.cloudfront\.net\/banner
 URL-REGEX,^https?:\/\/\w+\.gdt\.qq\.com
 URL-REGEX,^https?:\/\/\w+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/
 URL-REGEX,^https?:\/\/\w+\.kingsoft-office-service\.com\/ad
-URL-REGEX,^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking)
 URL-REGEX,^https?:\/\/\w.?up\.qingdaonews\.com
 URL-REGEX,^https?:\/\/\w{6}.com1.z0.glb.clouddn.com
 URL-REGEX,^https?:\/\/\w{8}\.logic\.cpm\.cm\.kankan\.com

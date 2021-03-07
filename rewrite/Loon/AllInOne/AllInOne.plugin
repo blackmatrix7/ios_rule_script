@@ -1,7 +1,7 @@
 # NAME: AllInOne
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-07 14:23:34
+# UPDATED: 2021-03-08 02:45:19
 # REWRITE: 853
 # SCRIPT: 22
 # MITM: 639
@@ -16,7 +16,6 @@ IP-CIDR,118.89.204.198/32,REJECT,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT-DROP,no-resolve
 URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?,REJECT
 URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,REJECT
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad),REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
 URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
@@ -264,7 +263,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/api\.ycapp\.yiche\.com\/appnews\/getadlist - reject-img
 ^https?:\/\/api\.ycapp\.yiche\.com\/yicheapp\/getadlist - reject-img
 ^https?:\/\/api\.ycapp\.yiche\.com\/yicheapp\/getappads\/ - reject-img
-^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad) - reject-200
+^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad) - reject-dict
 ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject-dict
 ^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict
 ^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
@@ -812,12 +811,12 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject
 ^https?:\/\/www\.tsytv\.com\.cn\/api\/app\/ios\/ads - reject-img
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
-^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject-200
+^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject-dict
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject-dict
-^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject-200
+^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject-dict
 ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject-dict
 ^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) - reject
-^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject-200
+^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject-dict
 ^https?:\/\/www\.zybang\.com\/adx\/ - reject
 ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d - reject
 ^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$ - reject
@@ -825,7 +824,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ - reject
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads - reject-img
 ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
-^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject-200
+^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject-dict
 ^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation - reject-img
 ^http:\/\/t\.cn http://sinaurl.cn 302
 ^http?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302

@@ -1,66 +1,8 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-07 14:22:32.424029
+# UPDATED: 2021-03-08 02:44:08.973817
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
-#  与 Wikipedia 共 12 条规则重复
-HOST-SUFFIX,mediawiki.org
-HOST-SUFFIX,wikibooks.org
-HOST-SUFFIX,wikidata.org
-HOST-SUFFIX,wikileaks.org
-HOST-SUFFIX,wikimedia.org
-HOST-SUFFIX,wikinews.org
-HOST-SUFFIX,wikipedia.org
-HOST-SUFFIX,wikiquote.org
-HOST-SUFFIX,wikisource.org
-HOST-SUFFIX,wikiversity.org
-HOST-SUFFIX,wikivoyage.org
-HOST-SUFFIX,wiktionary.org
-#  与 Spark 共 5 条规则重复
-HOST-SUFFIX,amplitude.com
-HOST-SUFFIX,firebaseio.com
-HOST-SUFFIX,hockeyapp.net
-HOST-SUFFIX,readdle.com
-HOST-SUFFIX,smartmailcloud.com
-#  与 ATTWatchTV 共 6 条规则重复
-HOST-SUFFIX,att.tv
-HOST-SUFFIX,atttvnow.com
-HOST-SUFFIX,attwatchtv.com
-HOST-SUFFIX,directv.com
-HOST-SUFFIX,dtvce.com
-HOST-SUFFIX,nettyinternet.com
-#  与 CNN 共 6 条规则重复
-HOST-SUFFIX,cnn.com
-HOST-SUFFIX,cnn.io
-HOST-SUFFIX,cnn.it
-HOST-SUFFIX,cnnarabic.com
-HOST-SUFFIX,cnnlabs.com
-HOST-SUFFIX,cnnmoney.ch
-#  与 KKBOX 共 7 条规则重复
-HOST-SUFFIX,kfs.io
-HOST-SUFFIX,kk.stream
-HOST-SUFFIX,kkbox.com
-HOST-SUFFIX,kkbox.com.tw
-HOST-SUFFIX,kktix.com
-HOST-SUFFIX,kktv.com.tw
-HOST-SUFFIX,kktv.me
-#  与 Voxmedia 共 16 条规则重复
-HOST-SUFFIX,cstatic.net
-HOST-SUFFIX,curbed.com
-HOST-SUFFIX,eater.com
-HOST-SUFFIX,funnyordie.com
-HOST-SUFFIX,meridian.net
-HOST-SUFFIX,polygon.com
-HOST-SUFFIX,racked.com
-HOST-SUFFIX,recode.net
-HOST-SUFFIX,sbnation.com
-HOST-SUFFIX,theverge.com
-HOST-SUFFIX,vox-cdn.com
-HOST-SUFFIX,vox.com
-HOST-SUFFIX,voxcreative.com
-HOST-SUFFIX,voxfieldguide.com
-HOST-SUFFIX,voxmedia.com
-HOST-SUFFIX,voxops.net
 #  与 9to5 共 7 条规则重复
 HOST-SUFFIX,9to5google.com
 HOST-SUFFIX,9to5mac.com
@@ -69,12 +11,26 @@ HOST-SUFFIX,9to5toys.com
 HOST-SUFFIX,dronedj.com
 HOST-SUFFIX,electrek.co
 HOST-SUFFIX,spaceexplored.com
+#  与 ATTWatchTV 共 6 条规则重复
+HOST-SUFFIX,att.tv
+HOST-SUFFIX,atttvnow.com
+HOST-SUFFIX,attwatchtv.com
+HOST-SUFFIX,directv.com
+HOST-SUFFIX,dtvce.com
+HOST-SUFFIX,nettyinternet.com
 #  与 Atlassian 共 5 条规则重复
 HOST-SUFFIX,atlassian.com
 HOST-SUFFIX,bitbucket.org
 HOST-SUFFIX,statuspage.io
 HOST-SUFFIX,trello.com
 HOST-SUFFIX,trellocdn.com
+#  与 CNN 共 6 条规则重复
+HOST-SUFFIX,cnn.com
+HOST-SUFFIX,cnn.io
+HOST-SUFFIX,cnn.it
+HOST-SUFFIX,cnnarabic.com
+HOST-SUFFIX,cnnlabs.com
+HOST-SUFFIX,cnnmoney.ch
 #  与 Comodo 共 5 条规则重复
 HOST-SUFFIX,comodo.com
 HOST-SUFFIX,comodoca.com
@@ -99,6 +55,14 @@ HOST-SUFFIX,jwplatform.com
 HOST-SUFFIX,jwplayer.com
 HOST-SUFFIX,jwpltx.com
 HOST-SUFFIX,jwpsrv.com
+#  与 KKBOX 共 7 条规则重复
+HOST-SUFFIX,kfs.io
+HOST-SUFFIX,kk.stream
+HOST-SUFFIX,kkbox.com
+HOST-SUFFIX,kkbox.com.tw
+HOST-SUFFIX,kktix.com
+HOST-SUFFIX,kktv.com.tw
+HOST-SUFFIX,kktv.me
 #  与 Picsee 共 6 条规则重复
 HOST-SUFFIX,pics.ee
 HOST-SUFFIX,picsee.co
@@ -145,6 +109,12 @@ HOST-SUFFIX,snap.com
 HOST-SUFFIX,snapads.com
 HOST-SUFFIX,snapchat.com
 HOST-SUFFIX,snapkit.co
+#  与 Spark 共 5 条规则重复
+HOST-SUFFIX,amplitude.com
+HOST-SUFFIX,firebaseio.com
+HOST-SUFFIX,hockeyapp.net
+HOST-SUFFIX,readdle.com
+HOST-SUFFIX,smartmailcloud.com
 #  与 Stackexchange 共 15 条规则重复
 HOST-SUFFIX,askubuntu.com
 HOST-SUFFIX,blogoverflow.com
@@ -169,6 +139,23 @@ HOST-SUFFIX,vk-cdn.net
 HOST-SUFFIX,vk-portal.net
 HOST-SUFFIX,vk.cc
 HOST-SUFFIX,vk.com
+#  与 Voxmedia 共 16 条规则重复
+HOST-SUFFIX,cstatic.net
+HOST-SUFFIX,curbed.com
+HOST-SUFFIX,eater.com
+HOST-SUFFIX,funnyordie.com
+HOST-SUFFIX,meridian.net
+HOST-SUFFIX,polygon.com
+HOST-SUFFIX,racked.com
+HOST-SUFFIX,recode.net
+HOST-SUFFIX,sbnation.com
+HOST-SUFFIX,theverge.com
+HOST-SUFFIX,vox-cdn.com
+HOST-SUFFIX,vox.com
+HOST-SUFFIX,voxcreative.com
+HOST-SUFFIX,voxfieldguide.com
+HOST-SUFFIX,voxmedia.com
+HOST-SUFFIX,voxops.net
 #  与 WIX 共 9 条规则重复
 HOST-SUFFIX,editorx.com
 HOST-SUFFIX,parastorage.com
@@ -200,6 +187,19 @@ HOST-SUFFIX,wiktionary.org
 HOST-SUFFIX,wmcloud.org
 HOST-SUFFIX,wmflabs.org
 HOST-SUFFIX,wmfusercontent.org
+#  与 Wikipedia 共 12 条规则重复
+HOST-SUFFIX,mediawiki.org
+HOST-SUFFIX,wikibooks.org
+HOST-SUFFIX,wikidata.org
+HOST-SUFFIX,wikileaks.org
+HOST-SUFFIX,wikimedia.org
+HOST-SUFFIX,wikinews.org
+HOST-SUFFIX,wikipedia.org
+HOST-SUFFIX,wikiquote.org
+HOST-SUFFIX,wikisource.org
+HOST-SUFFIX,wikiversity.org
+HOST-SUFFIX,wikivoyage.org
+HOST-SUFFIX,wiktionary.org
 #  与 Wordpress 共 8 条规则重复
 HOST-SUFFIX,videopress.com
 HOST-SUFFIX,w.org
@@ -29981,27 +29981,6 @@ HOST-SUFFIX,verisign.com
 HOST-SUFFIX,votolia.com
 HOST-SUFFIX,worldsecureemail.com
 HOST-SUFFIX,worldsecuresystems.com
-#  与 Line 共 20 条规则重复
-HOST-SUFFIX,lin.ee
-HOST-SUFFIX,line-apps.com
-HOST-SUFFIX,line-cdn.net
-HOST-SUFFIX,line-scdn.net
-HOST-SUFFIX,line.me
-HOST-SUFFIX,naver.jp
-HOST-SUFFIX,nhncorp.jp
-IP-CIDR,103.2.28.0/22
-IP-CIDR,119.235.224.0/21
-IP-CIDR,119.235.232.0/23
-IP-CIDR,119.235.235.0/24
-IP-CIDR,119.235.236.0/23
-IP-CIDR,125.209.208.0/20
-IP-CIDR,125.6.146.0/24
-IP-CIDR,125.6.149.0/24
-IP-CIDR,125.6.190.0/24
-IP-CIDR,147.92.128.0/17
-IP-CIDR,203.104.103.0/24
-IP-CIDR,203.174.66.64/26
-IP-CIDR,203.174.77.0/24
 #  与 Bloomberg 共 20 条规则重复
 HOST-SUFFIX,bloomberg.com
 HOST-SUFFIX,bloomberg.fm
@@ -30023,6 +30002,27 @@ HOST-SUFFIX,newenergyfinance.com
 HOST-SUFFIX,quicktake.video
 HOST-SUFFIX,techatbloomberg.com
 HOST-SUFFIX,tictoc.video
+#  与 Line 共 20 条规则重复
+HOST-SUFFIX,lin.ee
+HOST-SUFFIX,line-apps.com
+HOST-SUFFIX,line-cdn.net
+HOST-SUFFIX,line-scdn.net
+HOST-SUFFIX,line.me
+HOST-SUFFIX,naver.jp
+HOST-SUFFIX,nhncorp.jp
+IP-CIDR,103.2.28.0/22
+IP-CIDR,119.235.224.0/21
+IP-CIDR,119.235.232.0/23
+IP-CIDR,119.235.235.0/24
+IP-CIDR,119.235.236.0/23
+IP-CIDR,125.209.208.0/20
+IP-CIDR,125.6.146.0/24
+IP-CIDR,125.6.149.0/24
+IP-CIDR,125.6.190.0/24
+IP-CIDR,147.92.128.0/17
+IP-CIDR,203.104.103.0/24
+IP-CIDR,203.174.66.64/26
+IP-CIDR,203.174.77.0/24
 #  与 Discord 共 9 条规则重复
 HOST-SUFFIX,discord.co
 HOST-SUFFIX,discord.com
@@ -30590,6 +30590,22 @@ HOST-SUFFIX,wofl.tv
 HOST-SUFFIX,woflthenewsstation.com
 HOST-SUFFIX,wogx.com
 USER-AGENT,FOX%20NOW*
+#  与 Dropbox 共 15 条规则重复
+HOST-SUFFIX,db.tt
+HOST-SUFFIX,dropbox-dns.com
+HOST-SUFFIX,dropbox.com
+HOST-SUFFIX,dropbox.tech
+HOST-SUFFIX,dropboxapi.com
+HOST-SUFFIX,dropboxbusiness.com
+HOST-SUFFIX,dropboxcaptcha.com
+HOST-SUFFIX,dropboxforum.com
+HOST-SUFFIX,dropboxforums.com
+HOST-SUFFIX,dropboxinsiders.com
+HOST-SUFFIX,dropboxmail.com
+HOST-SUFFIX,dropboxpartners.com
+HOST-SUFFIX,dropboxstatic.com
+HOST-SUFFIX,dropboxusercontent.com
+HOST-SUFFIX,getdropbox.com
 #  与 HuluUSA 共 45 条规则重复
 HOST-SUFFIX,112263.com
 HOST-SUFFIX,callhulu.com
@@ -30636,22 +30652,6 @@ HOST-SUFFIX,payhulu.com
 HOST-SUFFIX,registerhulu.com
 HOST-SUFFIX,thehulubraintrust.com
 HOST-SUFFIX,wwwhuluplus.com
-#  与 Dropbox 共 15 条规则重复
-HOST-SUFFIX,db.tt
-HOST-SUFFIX,dropbox-dns.com
-HOST-SUFFIX,dropbox.com
-HOST-SUFFIX,dropbox.tech
-HOST-SUFFIX,dropboxapi.com
-HOST-SUFFIX,dropboxbusiness.com
-HOST-SUFFIX,dropboxcaptcha.com
-HOST-SUFFIX,dropboxforum.com
-HOST-SUFFIX,dropboxforums.com
-HOST-SUFFIX,dropboxinsiders.com
-HOST-SUFFIX,dropboxmail.com
-HOST-SUFFIX,dropboxpartners.com
-HOST-SUFFIX,dropboxstatic.com
-HOST-SUFFIX,dropboxusercontent.com
-HOST-SUFFIX,getdropbox.com
 #  与 DynDNS 共 7 条规则重复
 HOST-SUFFIX,blogdns.org
 HOST-SUFFIX,dyndns-ip.com
@@ -31913,50 +31913,6 @@ HOST-SUFFIX,xenoblade.com
 HOST-SUFFIX,xn--mts47c3w9b1qr.net
 HOST-SUFFIX,yogify.com
 HOST-SUFFIX,yoshisnewisland.com
-#  与 Netflix 共 28 条规则重复
-HOST-SUFFIX,fast.com
-HOST-SUFFIX,netflix.com
-HOST-SUFFIX,netflix.net
-HOST-SUFFIX,netflixdnstest0.com
-HOST-SUFFIX,netflixdnstest1.com
-HOST-SUFFIX,netflixdnstest2.com
-HOST-SUFFIX,netflixdnstest3.com
-HOST-SUFFIX,netflixdnstest4.com
-HOST-SUFFIX,netflixdnstest5.com
-HOST-SUFFIX,netflixdnstest6.com
-HOST-SUFFIX,netflixdnstest7.com
-HOST-SUFFIX,netflixdnstest8.com
-HOST-SUFFIX,netflixdnstest9.com
-HOST-SUFFIX,nflxext.com
-HOST-SUFFIX,nflximg.com
-HOST-SUFFIX,nflximg.net
-HOST-SUFFIX,nflxso.net
-HOST-SUFFIX,nflxvideo.net
-IP-CIDR,108.175.32.0/20
-IP-CIDR,192.173.64.0/18
-IP-CIDR,198.38.96.0/19
-IP-CIDR,198.45.48.0/20
-IP-CIDR,23.246.0.0/18
-IP-CIDR,37.77.184.0/21
-IP-CIDR,45.57.0.0/17
-IP-CIDR,64.120.128.0/17
-IP-CIDR,66.197.128.0/17
-USER-AGENT,Argo*
-#  与 Whatsapp 共 14 条规则重复
-HOST-KEYWORD,whatsapp
-HOST-SUFFIX,bintray.com
-HOST-SUFFIX,whatsapp.com
-HOST-SUFFIX,whatsapp.net
-IP-CIDR,158.85.224.160/27
-IP-CIDR,158.85.46.128/27
-IP-CIDR,158.85.5.192/27
-IP-CIDR,173.192.222.160/27
-IP-CIDR,173.192.231.32/27
-IP-CIDR,18.194.0.0/15
-IP-CIDR,184.173.128.0/17
-IP-CIDR,34.224.0.0/12
-IP-CIDR,50.22.198.204/30
-IP-CIDR,54.242.0.0/15
 #  与 Logitech 共 6 条规则重复
 HOST-SUFFIX,logi.com
 HOST-SUFFIX,logicoolg.com
@@ -31986,6 +31942,35 @@ HOST-SUFFIX,rust-lang.org
 HOST-SUFFIX,rustup.rs
 HOST-SUFFIX,seamonkey-project.org
 HOST-SUFFIX,thunderbird.net
+#  与 Netflix 共 28 条规则重复
+HOST-SUFFIX,fast.com
+HOST-SUFFIX,netflix.com
+HOST-SUFFIX,netflix.net
+HOST-SUFFIX,netflixdnstest0.com
+HOST-SUFFIX,netflixdnstest1.com
+HOST-SUFFIX,netflixdnstest2.com
+HOST-SUFFIX,netflixdnstest3.com
+HOST-SUFFIX,netflixdnstest4.com
+HOST-SUFFIX,netflixdnstest5.com
+HOST-SUFFIX,netflixdnstest6.com
+HOST-SUFFIX,netflixdnstest7.com
+HOST-SUFFIX,netflixdnstest8.com
+HOST-SUFFIX,netflixdnstest9.com
+HOST-SUFFIX,nflxext.com
+HOST-SUFFIX,nflximg.com
+HOST-SUFFIX,nflximg.net
+HOST-SUFFIX,nflxso.net
+HOST-SUFFIX,nflxvideo.net
+IP-CIDR,108.175.32.0/20
+IP-CIDR,192.173.64.0/18
+IP-CIDR,198.38.96.0/19
+IP-CIDR,198.45.48.0/20
+IP-CIDR,23.246.0.0/18
+IP-CIDR,37.77.184.0/21
+IP-CIDR,45.57.0.0/17
+IP-CIDR,64.120.128.0/17
+IP-CIDR,66.197.128.0/17
+USER-AGENT,Argo*
 #  与 Pixnet 共 6 条规则重复
 HOST-SUFFIX,pimg.tw
 HOST-SUFFIX,pixanalytics.com
@@ -31993,6 +31978,21 @@ HOST-SUFFIX,pixfs.net
 HOST-SUFFIX,pixnet.cc
 HOST-SUFFIX,pixnet.net
 HOST-SUFFIX,pixnet.pro
+#  与 Whatsapp 共 14 条规则重复
+HOST-KEYWORD,whatsapp
+HOST-SUFFIX,bintray.com
+HOST-SUFFIX,whatsapp.com
+HOST-SUFFIX,whatsapp.net
+IP-CIDR,158.85.224.160/27
+IP-CIDR,158.85.46.128/27
+IP-CIDR,158.85.5.192/27
+IP-CIDR,173.192.222.160/27
+IP-CIDR,173.192.231.32/27
+IP-CIDR,18.194.0.0/15
+IP-CIDR,184.173.128.0/17
+IP-CIDR,34.224.0.0/12
+IP-CIDR,50.22.198.204/30
+IP-CIDR,54.242.0.0/15
 #  与 Pinterest 共 15 条规则重复
 HOST-SUFFIX,pinimg.com
 HOST-SUFFIX,pinterest.at
@@ -32431,6 +32431,14 @@ HOST-SUFFIX,onedrive.com
 HOST-SUFFIX,sharepoint.com
 HOST-SUFFIX,sharepointonline.com
 USER-AGENT,OneDrive*
+#  与 HBOHK 共 7 条规则重复
+HOST-SUFFIX,hboasia.com
+HOST-SUFFIX,hbogo.com
+HOST-SUFFIX,hbogoasia.com
+HOST-SUFFIX,hbogoasia.hk
+HOST-SUFFIX,now-ashare.com
+HOST-SUFFIX,now-tv.com
+HOST-SUFFIX,nowe.com
 #  与 Cloudflare 共 20 条规则重复
 HOST-SUFFIX,cloudflare-dns.com
 HOST-SUFFIX,cloudflare-ipfs.com
@@ -32943,6 +32951,18 @@ HOST-SUFFIX,mailhealth.com
 HOST-SUFFIX,mailonline.com
 HOST-SUFFIX,mol.im
 HOST-SUFFIX,thismon.ee
+#  与 Oracle 共 11 条规则重复
+HOST-SUFFIX,ebay.be
+HOST-SUFFIX,ebay.ch
+HOST-SUFFIX,ebay.com
+HOST-SUFFIX,ebay.it
+HOST-SUFFIX,ebaycdn.net
+HOST-SUFFIX,ebayimg.com
+HOST-SUFFIX,ebayinc.com
+HOST-SUFFIX,ebaymainstreet.com
+HOST-SUFFIX,ebayprivacycenter.com
+HOST-SUFFIX,ebayrtm.com
+HOST-SUFFIX,ebaystatic.com
 #  与 HBO 共 14 条规则重复
 HOST-SUFFIX,cinemax.com
 HOST-SUFFIX,forthethrone.com
@@ -32958,18 +32978,6 @@ HOST-SUFFIX,now-ashare.com
 HOST-SUFFIX,now-tv.com
 HOST-SUFFIX,nowe.com
 USER-AGENT,HBO%20NOW*
-#  与 Oracle 共 11 条规则重复
-HOST-SUFFIX,ebay.be
-HOST-SUFFIX,ebay.ch
-HOST-SUFFIX,ebay.com
-HOST-SUFFIX,ebay.it
-HOST-SUFFIX,ebaycdn.net
-HOST-SUFFIX,ebayimg.com
-HOST-SUFFIX,ebayinc.com
-HOST-SUFFIX,ebaymainstreet.com
-HOST-SUFFIX,ebayprivacycenter.com
-HOST-SUFFIX,ebayrtm.com
-HOST-SUFFIX,ebaystatic.com
 #  与 Naver 共 22 条规则重复
 HOST-SUFFIX,chocotv.com.tw
 HOST-SUFFIX,grafolio.com

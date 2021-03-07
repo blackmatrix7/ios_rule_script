@@ -8,7 +8,7 @@
 
 
 
-最后检查时间：2021-03-07 14:23:34。
+最后检查时间：2021-03-08 02:45:19。
 
 ## 复写统计
 
@@ -17,7 +17,7 @@
 | mitm | 18 |
 | force_http_engine_hosts | 0 |
 | DOMAIN-SUFFIX | 1 |
-| URL-REGEX | 8 |
+| URL-REGEX | 7 |
 | DOMAIN | 4 |
 | IP-CIDR | 1 |
 | IP-CIDR6 | 1 |

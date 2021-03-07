@@ -1,14 +1,14 @@
 # NAME: ZhihuAds
 # AUTHOR: 
 # GITHUB: 
-# UPDATED: 2021-03-07 14:22:29.370697
+# UPDATED: 2021-03-08 02:44:06.452003
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN: 4
 # IP-CIDR: 1
 # IP-CIDR6: 1
 # USER-AGENT: 1
-# URL-REGEX: 9
-# TOTAL: 16
+# URL-REGEX: 8
+# TOTAL: 15
 DOMAIN,118.89.204.198
 DOMAIN,appcloud2.in.zhihu.com
 DOMAIN,mqtt.zhihu.com
@@ -16,7 +16,6 @@ DOMAIN,sugar.zhihu.com
 IP-CIDR,118.89.204.198/32
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 USER-AGENT,AVOS*
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count|v\d\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad)
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations

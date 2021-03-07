@@ -1,8 +1,25 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-07 14:22:32.441797
+# UPDATED: 2021-03-08 02:44:08.990364
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+#  与 HuluJP 共 5 条规则重复
+HOST-SUFFIX,happyon.jp
+HOST-SUFFIX,hjholdings.jp
+HOST-SUFFIX,hulu.jp
+HOST-SUFFIX,streaks.jp
+HOST-SUFFIX,yb.uncn.jp
+#  与 Japonx 共 10 条规则重复
+HOST-KEYWORD,japonx
+HOST-KEYWORD,japronx
+HOST-SUFFIX,japonx.com
+HOST-SUFFIX,japonx.net
+HOST-SUFFIX,japonx.tv
+HOST-SUFFIX,japonx.vip
+HOST-SUFFIX,japronx.com
+HOST-SUFFIX,japronx.net
+HOST-SUFFIX,japronx.tv
+HOST-SUFFIX,japronx.vip
 #  与 Netflix 共 42 条规则重复
 HOST,netflix.com.edgesuite.net
 HOST-KEYWORD,dualstack.apiproxy-device-prod-nlb-
@@ -46,17 +63,6 @@ IP-CIDR,66.197.128.0/17
 IP-CIDR,69.53.224.0/19
 IP-CIDR,8.41.4.0/24
 USER-AGENT,Argo*
-#  与 Japonx 共 10 条规则重复
-HOST-KEYWORD,japonx
-HOST-KEYWORD,japronx
-HOST-SUFFIX,japonx.com
-HOST-SUFFIX,japonx.net
-HOST-SUFFIX,japonx.tv
-HOST-SUFFIX,japonx.vip
-HOST-SUFFIX,japronx.com
-HOST-SUFFIX,japronx.net
-HOST-SUFFIX,japronx.tv
-HOST-SUFFIX,japronx.vip
 #  与 KKBOX 共 5 条规则重复
 HOST-SUFFIX,kfs.io
 HOST-SUFFIX,kkbox.com
@@ -132,6 +138,12 @@ HOST-SUFFIX,bbc.com
 HOST-SUFFIX,bbci.co
 HOST-SUFFIX,bbci.co.uk
 USER-AGENT,BBCiPlayer*
+#  与 HBOHK 共 5 条规则重复
+HOST-SUFFIX,hboasia.com
+HOST-SUFFIX,hbogo.com
+HOST-SUFFIX,hbogoasia.com
+HOST-SUFFIX,hbogoasia.hk
+HOST-SUFFIX,nowe.com
 #  与 AmazonPrimeVideo 共 9 条规则重复
 HOST-KEYWORD,avoddashs
 HOST-SUFFIX,aiv-cdn.net

@@ -1,58 +1,8 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: 
 # GITHUB: 
-# UPDATED: 2021-03-07 14:22:37.017326
+# UPDATED: 2021-03-08 02:44:14.199358
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
-#  与 Wikipedia 共 12 条规则重复
-DOMAIN-SUFFIX,mediawiki.org
-DOMAIN-SUFFIX,wikibooks.org
-DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikileaks.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikinews.org
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikiquote.org
-DOMAIN-SUFFIX,wikisource.org
-DOMAIN-SUFFIX,wikiversity.org
-DOMAIN-SUFFIX,wikivoyage.org
-DOMAIN-SUFFIX,wiktionary.org
-#  与 Spark 共 5 条规则重复
-DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,firebaseio.com
-DOMAIN-SUFFIX,hockeyapp.net
-DOMAIN-SUFFIX,readdle.com
-DOMAIN-SUFFIX,smartmailcloud.com
-#  与 ATTWatchTV 共 6 条规则重复
-DOMAIN-SUFFIX,att.tv
-DOMAIN-SUFFIX,atttvnow.com
-DOMAIN-SUFFIX,attwatchtv.com
-DOMAIN-SUFFIX,directv.com
-DOMAIN-SUFFIX,dtvce.com
-DOMAIN-SUFFIX,nettyinternet.com
-#  与 CNN 共 6 条规则重复
-DOMAIN-SUFFIX,cnn.com
-DOMAIN-SUFFIX,cnn.io
-DOMAIN-SUFFIX,cnn.it
-DOMAIN-SUFFIX,cnnarabic.com
-DOMAIN-SUFFIX,cnnlabs.com
-DOMAIN-SUFFIX,cnnmoney.ch
-#  与 Voxmedia 共 16 条规则重复
-DOMAIN-SUFFIX,cstatic.net
-DOMAIN-SUFFIX,curbed.com
-DOMAIN-SUFFIX,eater.com
-DOMAIN-SUFFIX,funnyordie.com
-DOMAIN-SUFFIX,meridian.net
-DOMAIN-SUFFIX,polygon.com
-DOMAIN-SUFFIX,racked.com
-DOMAIN-SUFFIX,recode.net
-DOMAIN-SUFFIX,sbnation.com
-DOMAIN-SUFFIX,theverge.com
-DOMAIN-SUFFIX,vox-cdn.com
-DOMAIN-SUFFIX,vox.com
-DOMAIN-SUFFIX,voxcreative.com
-DOMAIN-SUFFIX,voxfieldguide.com
-DOMAIN-SUFFIX,voxmedia.com
-DOMAIN-SUFFIX,voxops.net
 #  与 9to5 共 7 条规则重复
 DOMAIN-SUFFIX,9to5google.com
 DOMAIN-SUFFIX,9to5mac.com
@@ -61,12 +11,26 @@ DOMAIN-SUFFIX,9to5toys.com
 DOMAIN-SUFFIX,dronedj.com
 DOMAIN-SUFFIX,electrek.co
 DOMAIN-SUFFIX,spaceexplored.com
+#  与 ATTWatchTV 共 6 条规则重复
+DOMAIN-SUFFIX,att.tv
+DOMAIN-SUFFIX,atttvnow.com
+DOMAIN-SUFFIX,attwatchtv.com
+DOMAIN-SUFFIX,directv.com
+DOMAIN-SUFFIX,dtvce.com
+DOMAIN-SUFFIX,nettyinternet.com
 #  与 Atlassian 共 5 条规则重复
 DOMAIN-SUFFIX,atlassian.com
 DOMAIN-SUFFIX,bitbucket.org
 DOMAIN-SUFFIX,statuspage.io
 DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,trellocdn.com
+#  与 CNN 共 6 条规则重复
+DOMAIN-SUFFIX,cnn.com
+DOMAIN-SUFFIX,cnn.io
+DOMAIN-SUFFIX,cnn.it
+DOMAIN-SUFFIX,cnnarabic.com
+DOMAIN-SUFFIX,cnnlabs.com
+DOMAIN-SUFFIX,cnnmoney.ch
 #  与 Comodo 共 5 条规则重复
 DOMAIN-SUFFIX,comodo.com
 DOMAIN-SUFFIX,comodoca.com
@@ -137,6 +101,12 @@ DOMAIN-SUFFIX,snap.com
 DOMAIN-SUFFIX,snapads.com
 DOMAIN-SUFFIX,snapchat.com
 DOMAIN-SUFFIX,snapkit.co
+#  与 Spark 共 5 条规则重复
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,hockeyapp.net
+DOMAIN-SUFFIX,readdle.com
+DOMAIN-SUFFIX,smartmailcloud.com
 #  与 Stackexchange 共 15 条规则重复
 DOMAIN-SUFFIX,askubuntu.com
 DOMAIN-SUFFIX,blogoverflow.com
@@ -161,6 +131,23 @@ DOMAIN-SUFFIX,vk-cdn.net
 DOMAIN-SUFFIX,vk-portal.net
 DOMAIN-SUFFIX,vk.cc
 DOMAIN-SUFFIX,vk.com
+#  与 Voxmedia 共 16 条规则重复
+DOMAIN-SUFFIX,cstatic.net
+DOMAIN-SUFFIX,curbed.com
+DOMAIN-SUFFIX,eater.com
+DOMAIN-SUFFIX,funnyordie.com
+DOMAIN-SUFFIX,meridian.net
+DOMAIN-SUFFIX,polygon.com
+DOMAIN-SUFFIX,racked.com
+DOMAIN-SUFFIX,recode.net
+DOMAIN-SUFFIX,sbnation.com
+DOMAIN-SUFFIX,theverge.com
+DOMAIN-SUFFIX,vox-cdn.com
+DOMAIN-SUFFIX,vox.com
+DOMAIN-SUFFIX,voxcreative.com
+DOMAIN-SUFFIX,voxfieldguide.com
+DOMAIN-SUFFIX,voxmedia.com
+DOMAIN-SUFFIX,voxops.net
 #  与 WIX 共 9 条规则重复
 DOMAIN-SUFFIX,editorx.com
 DOMAIN-SUFFIX,parastorage.com
@@ -192,6 +179,19 @@ DOMAIN-SUFFIX,wiktionary.org
 DOMAIN-SUFFIX,wmcloud.org
 DOMAIN-SUFFIX,wmflabs.org
 DOMAIN-SUFFIX,wmfusercontent.org
+#  与 Wikipedia 共 12 条规则重复
+DOMAIN-SUFFIX,mediawiki.org
+DOMAIN-SUFFIX,wikibooks.org
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikileaks.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikiquote.org
+DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikiversity.org
+DOMAIN-SUFFIX,wikivoyage.org
+DOMAIN-SUFFIX,wiktionary.org
 #  与 Wordpress 共 8 条规则重复
 DOMAIN-SUFFIX,videopress.com
 DOMAIN-SUFFIX,w.org
@@ -29948,27 +29948,6 @@ DOMAIN-SUFFIX,verisign.com
 DOMAIN-SUFFIX,votolia.com
 DOMAIN-SUFFIX,worldsecureemail.com
 DOMAIN-SUFFIX,worldsecuresystems.com
-#  与 Line 共 20 条规则重复
-DOMAIN-SUFFIX,lin.ee
-DOMAIN-SUFFIX,line-apps.com
-DOMAIN-SUFFIX,line-cdn.net
-DOMAIN-SUFFIX,line-scdn.net
-DOMAIN-SUFFIX,line.me
-DOMAIN-SUFFIX,naver.jp
-DOMAIN-SUFFIX,nhncorp.jp
-IP-CIDR,103.2.28.0/22
-IP-CIDR,119.235.224.0/21
-IP-CIDR,119.235.232.0/23
-IP-CIDR,119.235.235.0/24
-IP-CIDR,119.235.236.0/23
-IP-CIDR,125.209.208.0/20
-IP-CIDR,125.6.146.0/24
-IP-CIDR,125.6.149.0/24
-IP-CIDR,125.6.190.0/24
-IP-CIDR,147.92.128.0/17
-IP-CIDR,203.104.103.0/24
-IP-CIDR,203.174.66.64/26
-IP-CIDR,203.174.77.0/24
 #  与 Bloomberg 共 20 条规则重复
 DOMAIN-SUFFIX,bloomberg.com
 DOMAIN-SUFFIX,bloomberg.fm
@@ -29990,6 +29969,27 @@ DOMAIN-SUFFIX,newenergyfinance.com
 DOMAIN-SUFFIX,quicktake.video
 DOMAIN-SUFFIX,techatbloomberg.com
 DOMAIN-SUFFIX,tictoc.video
+#  与 Line 共 20 条规则重复
+DOMAIN-SUFFIX,lin.ee
+DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-cdn.net
+DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,naver.jp
+DOMAIN-SUFFIX,nhncorp.jp
+IP-CIDR,103.2.28.0/22
+IP-CIDR,119.235.224.0/21
+IP-CIDR,119.235.232.0/23
+IP-CIDR,119.235.235.0/24
+IP-CIDR,119.235.236.0/23
+IP-CIDR,125.209.208.0/20
+IP-CIDR,125.6.146.0/24
+IP-CIDR,125.6.149.0/24
+IP-CIDR,125.6.190.0/24
+IP-CIDR,147.92.128.0/17
+IP-CIDR,203.104.103.0/24
+IP-CIDR,203.174.66.64/26
+IP-CIDR,203.174.77.0/24
 #  与 Discord 共 9 条规则重复
 DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.com
@@ -30328,6 +30328,22 @@ DOMAIN-SUFFIX,windowsuem.com
 DOMAIN-SUFFIX,workspaceair.com
 DOMAIN-SUFFIX,workspaceone.com
 DOMAIN-SUFFIX,xlstudio.com
+#  与 Dropbox 共 15 条规则重复
+DOMAIN-SUFFIX,db.tt
+DOMAIN-SUFFIX,dropbox-dns.com
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropbox.tech
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxbusiness.com
+DOMAIN-SUFFIX,dropboxcaptcha.com
+DOMAIN-SUFFIX,dropboxforum.com
+DOMAIN-SUFFIX,dropboxforums.com
+DOMAIN-SUFFIX,dropboxinsiders.com
+DOMAIN-SUFFIX,dropboxmail.com
+DOMAIN-SUFFIX,dropboxpartners.com
+DOMAIN-SUFFIX,dropboxstatic.com
+DOMAIN-SUFFIX,dropboxusercontent.com
+DOMAIN-SUFFIX,getdropbox.com
 #  与 HuluUSA 共 45 条规则重复
 DOMAIN-SUFFIX,112263.com
 DOMAIN-SUFFIX,callhulu.com
@@ -30374,22 +30390,6 @@ DOMAIN-SUFFIX,payhulu.com
 DOMAIN-SUFFIX,registerhulu.com
 DOMAIN-SUFFIX,thehulubraintrust.com
 DOMAIN-SUFFIX,wwwhuluplus.com
-#  与 Dropbox 共 15 条规则重复
-DOMAIN-SUFFIX,db.tt
-DOMAIN-SUFFIX,dropbox-dns.com
-DOMAIN-SUFFIX,dropbox.com
-DOMAIN-SUFFIX,dropbox.tech
-DOMAIN-SUFFIX,dropboxapi.com
-DOMAIN-SUFFIX,dropboxbusiness.com
-DOMAIN-SUFFIX,dropboxcaptcha.com
-DOMAIN-SUFFIX,dropboxforum.com
-DOMAIN-SUFFIX,dropboxforums.com
-DOMAIN-SUFFIX,dropboxinsiders.com
-DOMAIN-SUFFIX,dropboxmail.com
-DOMAIN-SUFFIX,dropboxpartners.com
-DOMAIN-SUFFIX,dropboxstatic.com
-DOMAIN-SUFFIX,dropboxusercontent.com
-DOMAIN-SUFFIX,getdropbox.com
 #  与 Fox 共 226 条规则重复
 DOMAIN-SUFFIX,afewmomentswith.com
 DOMAIN-SUFFIX,anidom.com
@@ -31293,6 +31293,12 @@ DOMAIN-SUFFIX,webofscience.com
 DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,yale.edu
+#  与 KKBOX 共 5 条规则重复
+DOMAIN-SUFFIX,kfs.io
+DOMAIN-SUFFIX,kk.stream
+DOMAIN-SUFFIX,kkbox.com
+DOMAIN-SUFFIX,kktix.com
+DOMAIN-SUFFIX,kktv.me
 #  与 KakaoTalk 共 10 条规则重复
 DOMAIN-SUFFIX,daum.net
 DOMAIN-SUFFIX,kakao.co.kr
@@ -31304,12 +31310,6 @@ IP-CIDR,103.27.148.0/22
 IP-CIDR,110.76.140.0/22
 IP-CIDR,113.61.104.0/22
 IP-CIDR,27.0.236.0/22
-#  与 KKBOX 共 5 条规则重复
-DOMAIN-SUFFIX,kfs.io
-DOMAIN-SUFFIX,kk.stream
-DOMAIN-SUFFIX,kkbox.com
-DOMAIN-SUFFIX,kktix.com
-DOMAIN-SUFFIX,kktv.me
 #  与 Zoho 共 9 条规则重复
 DOMAIN-SUFFIX,zoho.com
 DOMAIN-SUFFIX,zohocdn.com
@@ -31811,21 +31811,6 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 IP-CIDR,173.194.0.0/16
 IP-CIDR,74.125.0.0/16
-#  与 Whatsapp 共 14 条规则重复
-DOMAIN-KEYWORD,whatsapp
-DOMAIN-SUFFIX,bintray.com
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
-IP-CIDR,158.85.224.160/27
-IP-CIDR,158.85.46.128/27
-IP-CIDR,158.85.5.192/27
-IP-CIDR,173.192.222.160/27
-IP-CIDR,173.192.231.32/27
-IP-CIDR,18.194.0.0/15
-IP-CIDR,184.173.128.0/17
-IP-CIDR,34.224.0.0/12
-IP-CIDR,50.22.198.204/30
-IP-CIDR,54.242.0.0/15
 #  与 Logitech 共 6 条规则重复
 DOMAIN-SUFFIX,logi.com
 DOMAIN-SUFFIX,logicoolg.com
@@ -31862,6 +31847,21 @@ DOMAIN-SUFFIX,pixfs.net
 DOMAIN-SUFFIX,pixnet.cc
 DOMAIN-SUFFIX,pixnet.net
 DOMAIN-SUFFIX,pixnet.pro
+#  与 Whatsapp 共 14 条规则重复
+DOMAIN-KEYWORD,whatsapp
+DOMAIN-SUFFIX,bintray.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+IP-CIDR,158.85.224.160/27
+IP-CIDR,158.85.46.128/27
+IP-CIDR,158.85.5.192/27
+IP-CIDR,173.192.222.160/27
+IP-CIDR,173.192.231.32/27
+IP-CIDR,18.194.0.0/15
+IP-CIDR,184.173.128.0/17
+IP-CIDR,34.224.0.0/12
+IP-CIDR,50.22.198.204/30
+IP-CIDR,54.242.0.0/15
 #  与 Twitter 共 17 条规则重复
 DOMAIN-KEYWORD,twitter
 DOMAIN-SUFFIX,ads-twitter.com
@@ -32873,6 +32873,13 @@ DOMAIN-SUFFIX,ebaymainstreet.com
 DOMAIN-SUFFIX,ebayprivacycenter.com
 DOMAIN-SUFFIX,ebayrtm.com
 DOMAIN-SUFFIX,ebaystatic.com
+#  与 HBOHK 共 6 条规则重复
+DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbogoasia.com
+DOMAIN-SUFFIX,now-ashare.com
+DOMAIN-SUFFIX,now-tv.com
+DOMAIN-SUFFIX,nowe.com
 #  与 Garena 共 6 条规则重复
 DOMAIN-SUFFIX,garena.co.id
 DOMAIN-SUFFIX,garena.com
@@ -32952,6 +32959,12 @@ DOMAIN-SUFFIX,yahoo.ws
 DOMAIN-SUFFIX,yahooapis.com
 DOMAIN-SUFFIX,yahoodns.net
 DOMAIN-SUFFIX,yimg.com
+#  与 Globalsign 共 5 条规则重复
+DOMAIN-SUFFIX,globalsign-media.com
+DOMAIN-SUFFIX,globalsign.be
+DOMAIN-SUFFIX,globalsign.ch
+DOMAIN-SUFFIX,globalsign.com
+DOMAIN-SUFFIX,globalsign.net
 #  与 HBO 共 12 条规则重复
 DOMAIN-SUFFIX,cinemax.com
 DOMAIN-SUFFIX,forthethrone.com
@@ -32965,12 +32978,6 @@ DOMAIN-SUFFIX,maxgo.com
 DOMAIN-SUFFIX,now-ashare.com
 DOMAIN-SUFFIX,now-tv.com
 DOMAIN-SUFFIX,nowe.com
-#  与 Globalsign 共 5 条规则重复
-DOMAIN-SUFFIX,globalsign-media.com
-DOMAIN-SUFFIX,globalsign.be
-DOMAIN-SUFFIX,globalsign.ch
-DOMAIN-SUFFIX,globalsign.com
-DOMAIN-SUFFIX,globalsign.net
 #  与 Apple 共 43 条规则重复
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-dns.net

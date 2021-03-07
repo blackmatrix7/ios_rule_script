@@ -1,8 +1,14 @@
 # NAME: ChinaMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-07 14:22:32.792943
+# UPDATED: 2021-03-08 02:44:08.668621
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
+#  与 AcFun 共 5 条规则重复
+HOST-SUFFIX,acfun.cn
+HOST-SUFFIX,acfun.com
+HOST-SUFFIX,acfun.tv
+HOST-SUFFIX,aixifan.com
+USER-AGENT,AcFun*
 #  与 BiliBili 共 62 条规则重复
 HOST-SUFFIX,acg.tv
 HOST-SUFFIX,acgvideo.com
@@ -109,12 +115,6 @@ HOST-SUFFIX,中国广播电视总台.中国
 HOST-SUFFIX,中央广播电视总台.cn
 HOST-SUFFIX,国家广播电视总台.cn
 HOST-SUFFIX,国家广播电视总台.中国
-#  与 AcFun 共 5 条规则重复
-HOST-SUFFIX,acfun.cn
-HOST-SUFFIX,acfun.com
-HOST-SUFFIX,acfun.tv
-HOST-SUFFIX,aixifan.com
-USER-AGENT,AcFun*
 #  与 Migu 共 5 条规则重复
 HOST-SUFFIX,cmvideo.cn
 HOST-SUFFIX,migu.cn

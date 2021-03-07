@@ -1,7 +1,7 @@
 # NAME: Game 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-07 14:22:32.339050
+# UPDATED: 2021-03-08 02:44:08.931732
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 Diablo-III 共 7 条规则重复
 IP-CIDR,103.4.115.248/32
@@ -109,85 +109,6 @@ IP-CIDR,24.105.62.129/32
 IP-CIDR,54.207.104.145/32
 IP-CIDR,54.207.107.12/32
 IP-CIDR,54.94.196.47/32
-#  与 Steam 共 32 条规则重复
-HOST-KEYWORD,steambroadcast
-HOST-KEYWORD,steamstore
-HOST-KEYWORD,steamuserimages
-HOST-SUFFIX,csgo.wmsj.cn
-HOST-SUFFIX,dl.steam.ksyna.com
-HOST-SUFFIX,dota2.wmsj.cn
-HOST-SUFFIX,fanatical.com
-HOST-SUFFIX,humblebundle.com
-HOST-SUFFIX,playartifact.com
-HOST-SUFFIX,st.dl.bscstorage.net
-HOST-SUFFIX,st.dl.eccdnx.com
-HOST-SUFFIX,st.dl.pinyuncloud.com
-HOST-SUFFIX,steam-chat.com
-HOST-SUFFIX,steambroadcast.akamaized.net
-HOST-SUFFIX,steamcdn-a.akamaihd.net
-HOST-SUFFIX,steamcommunity-a.akamaihd.net
-HOST-SUFFIX,steamcommunity.com
-HOST-SUFFIX,steamcontent.com
-HOST-SUFFIX,steamcontent.tnkjmec.com
-HOST-SUFFIX,steamgames.com
-HOST-SUFFIX,steampowered.com
-HOST-SUFFIX,steampowered.com.8686c.com
-HOST-SUFFIX,steamstat.us
-HOST-SUFFIX,steamstatic.com
-HOST-SUFFIX,steamstatic.com.8686c.com
-HOST-SUFFIX,steamstore-a.akamaihd.net
-HOST-SUFFIX,steamunlocked.net
-HOST-SUFFIX,steamusercontent-a.akamaihd.net
-HOST-SUFFIX,steamusercontent.com
-HOST-SUFFIX,steamuserimages-a.akamaihd.net
-HOST-SUFFIX,underlords.com
-HOST-SUFFIX,valvesoftware.com
-#  与 Rockstar 共 5 条规则重复
-HOST-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
-HOST-SUFFIX,media-rockstargames-com.akamaized.net
-HOST-SUFFIX,rockstargames.com
-HOST-SUFFIX,rsg.sc
-HOST-SUFFIX,videos-rockstargames-com.akamaized.net
-#  与 SteamCN 共 14 条规则重复
-HOST-SUFFIX,csgo.wmsj.cn
-HOST-SUFFIX,dl.steam.ksyna.com
-HOST-SUFFIX,dota2.wmsj.cn
-HOST-SUFFIX,st.dl.bscstorage.net
-HOST-SUFFIX,st.dl.eccdnx.com
-HOST-SUFFIX,st.dl.pinyuncloud.com
-HOST-SUFFIX,steamcommunity-a.akamaihd.net
-HOST-SUFFIX,steamcontent.com
-HOST-SUFFIX,steamgames.com
-HOST-SUFFIX,steampowered.com.8686c.com
-HOST-SUFFIX,steamstat.us
-HOST-SUFFIX,steamstatic.com
-HOST-SUFFIX,steamusercontent.com
-HOST-SUFFIX,steamuserimages-a.akamaihd.net
-#  与 Supercell 共 24 条规则重复
-HOST-SUFFIX,brawlstars.com
-HOST-SUFFIX,brawlstarsgame.com
-IP-CIDR,13.210.25.233/32
-IP-CIDR,13.212.170.102/32
-IP-CIDR,13.212.171.212/32
-IP-CIDR,15.161.130.86/32
-IP-CIDR,15.254.1.17/32
-IP-CIDR,162.62.33.45/32
-IP-CIDR,162.62.33.70/32
-IP-CIDR,162.62.34.10/32
-IP-CIDR,18.141.176.65/32
-IP-CIDR,18.156.137.147/32
-IP-CIDR,18.231.148.103/32
-IP-CIDR,3.1.80.68/32
-IP-CIDR,3.25.190.152/32
-IP-CIDR,3.82.147.36/32
-IP-CIDR,34.220.160.16/32
-IP-CIDR,35.154.64.7/32
-IP-CIDR,35.72.32.125/32
-IP-CIDR,52.13.150.128/32
-IP-CIDR,52.13.42.120/32
-IP-CIDR,52.50.131.212/32
-IP-CIDR,54.207.168.84/32
-IP-CIDR,54.248.64.192/32
 #  与 EA 共 163 条规则重复
 HOST-SUFFIX,anthemgame.com
 HOST-SUFFIX,anthemthegame.com
@@ -352,6 +273,85 @@ HOST-SUFFIX,uoherald.com
 HOST-SUFFIX,visceralgames.com
 HOST-SUFFIX,xdsummit.com
 HOST-SUFFIX,yogify.com
+#  与 Steam 共 32 条规则重复
+HOST-KEYWORD,steambroadcast
+HOST-KEYWORD,steamstore
+HOST-KEYWORD,steamuserimages
+HOST-SUFFIX,csgo.wmsj.cn
+HOST-SUFFIX,dl.steam.ksyna.com
+HOST-SUFFIX,dota2.wmsj.cn
+HOST-SUFFIX,fanatical.com
+HOST-SUFFIX,humblebundle.com
+HOST-SUFFIX,playartifact.com
+HOST-SUFFIX,st.dl.bscstorage.net
+HOST-SUFFIX,st.dl.eccdnx.com
+HOST-SUFFIX,st.dl.pinyuncloud.com
+HOST-SUFFIX,steam-chat.com
+HOST-SUFFIX,steambroadcast.akamaized.net
+HOST-SUFFIX,steamcdn-a.akamaihd.net
+HOST-SUFFIX,steamcommunity-a.akamaihd.net
+HOST-SUFFIX,steamcommunity.com
+HOST-SUFFIX,steamcontent.com
+HOST-SUFFIX,steamcontent.tnkjmec.com
+HOST-SUFFIX,steamgames.com
+HOST-SUFFIX,steampowered.com
+HOST-SUFFIX,steampowered.com.8686c.com
+HOST-SUFFIX,steamstat.us
+HOST-SUFFIX,steamstatic.com
+HOST-SUFFIX,steamstatic.com.8686c.com
+HOST-SUFFIX,steamstore-a.akamaihd.net
+HOST-SUFFIX,steamunlocked.net
+HOST-SUFFIX,steamusercontent-a.akamaihd.net
+HOST-SUFFIX,steamusercontent.com
+HOST-SUFFIX,steamuserimages-a.akamaihd.net
+HOST-SUFFIX,underlords.com
+HOST-SUFFIX,valvesoftware.com
+#  与 Rockstar 共 5 条规则重复
+HOST-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+HOST-SUFFIX,media-rockstargames-com.akamaized.net
+HOST-SUFFIX,rockstargames.com
+HOST-SUFFIX,rsg.sc
+HOST-SUFFIX,videos-rockstargames-com.akamaized.net
+#  与 SteamCN 共 14 条规则重复
+HOST-SUFFIX,csgo.wmsj.cn
+HOST-SUFFIX,dl.steam.ksyna.com
+HOST-SUFFIX,dota2.wmsj.cn
+HOST-SUFFIX,st.dl.bscstorage.net
+HOST-SUFFIX,st.dl.eccdnx.com
+HOST-SUFFIX,st.dl.pinyuncloud.com
+HOST-SUFFIX,steamcommunity-a.akamaihd.net
+HOST-SUFFIX,steamcontent.com
+HOST-SUFFIX,steamgames.com
+HOST-SUFFIX,steampowered.com.8686c.com
+HOST-SUFFIX,steamstat.us
+HOST-SUFFIX,steamstatic.com
+HOST-SUFFIX,steamusercontent.com
+HOST-SUFFIX,steamuserimages-a.akamaihd.net
+#  与 Supercell 共 24 条规则重复
+HOST-SUFFIX,brawlstars.com
+HOST-SUFFIX,brawlstarsgame.com
+IP-CIDR,13.210.25.233/32
+IP-CIDR,13.212.170.102/32
+IP-CIDR,13.212.171.212/32
+IP-CIDR,15.161.130.86/32
+IP-CIDR,15.254.1.17/32
+IP-CIDR,162.62.33.45/32
+IP-CIDR,162.62.33.70/32
+IP-CIDR,162.62.34.10/32
+IP-CIDR,18.141.176.65/32
+IP-CIDR,18.156.137.147/32
+IP-CIDR,18.231.148.103/32
+IP-CIDR,3.1.80.68/32
+IP-CIDR,3.25.190.152/32
+IP-CIDR,3.82.147.36/32
+IP-CIDR,34.220.160.16/32
+IP-CIDR,35.154.64.7/32
+IP-CIDR,35.72.32.125/32
+IP-CIDR,52.13.150.128/32
+IP-CIDR,52.13.42.120/32
+IP-CIDR,52.50.131.212/32
+IP-CIDR,54.207.168.84/32
+IP-CIDR,54.248.64.192/32
 #  与 Garena 共 15 条规则重复
 HOST-SUFFIX,avatargarenanow-a.akamaihd.net
 HOST-SUFFIX,cdngarenanow-a.akamaihd.net

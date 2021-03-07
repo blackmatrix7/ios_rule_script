@@ -1,6 +1,8 @@
+// B站去广告，新增Story模式
+
 const scriptName = 'BiliBili';
 let magicJS = MagicJS(scriptName, 'INFO');
-
+var StoryId = '246834163';
 ;(() => {
   let body = null;
   if (magicJS.isResponse){
@@ -8,7 +10,18 @@ let magicJS = MagicJS(scriptName, 'INFO');
       // 推荐去广告，最后问号不能去掉，以免匹配到story模式
       case /^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\?/.test(magicJS.request.url):
         try{
-          let obj = JSON.parse(magicJS.response.body);
+          let obj = JSON.parse(magicJS.response.body);     	   
+     // 这里是feed里面，改写全局变量message
+	   /*
+       for (var i = 0; i < obj['data']['items'].length; ++i){
+	      let currUri = obj['data']['items'][i].uri;
+	      if (currUri.startsWith('bilibili://story/')){
+	       var indexOfQuestionMark = currUri.indexOf("?");
+	       StoryId = parseInt(currUri.slice(17,indexOfQuestionMark));
+	       break;
+	      }
+	     } 
+     */    
           let items = [];
           for (let item of obj['data']['items'] ){
             if (item.hasOwnProperty('banner_item')){
@@ -58,7 +71,8 @@ let magicJS = MagicJS(scriptName, 'INFO');
         try{
           // 442 开始为概念版id
           const tabList = new Set([39, 40, 41, 42, 151, 442, 99, 100, 101]);
-          const topList = new Set([176]);
+          // 107 概念版游戏中心，获取修改为Story模式
+          const topList = new Set([176,222,107]);
           // 102 开始为概念版id
           const bottomList = new Set([177, 178, 179, 181, 102, 103, 104, 105, 106]);
           let obj = JSON.parse(magicJS.response.body);
@@ -66,7 +80,12 @@ let magicJS = MagicJS(scriptName, 'INFO');
             let tab = obj['data']['tab'].filter((e) =>{return tabList.has(e.id);});
             obj['data']['tab'] = tab;
           }
+          // 将 id（222 & 107）调整为Story功能按钮 
           if (obj['data']['top']){
+            obj['data']['top'].find((e) => {return e.id === 222||107;}).uri = `bilibili://story/${StoryId}`;
+            obj['data']['top'].find((e) => {return e.id === 222||107;}).icon = "https://i.loli.net/2021/03/07/MzLTwBO5CgrWYHf.png";
+            obj['data']['top'].find((e) => {return e.id === 222||107;}).tab_id = "Story_Top";
+            obj['data']['top'].find((e) => {return e.id === 222||107;}).name = "Story";
             let top = obj['data']['top'].filter((e) =>{return topList.has(e.id);});
             obj['data']['top'] = top;
           }

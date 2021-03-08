@@ -69,4 +69,4 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bil
 
 ## 感谢
 
-[@MisterGlasses](https://github.com/MisterGlasses)
+[@MisterGlasses](https://github.com/MisterGlasses)  [@Mazeorz](https://github.com/Mazeorz)

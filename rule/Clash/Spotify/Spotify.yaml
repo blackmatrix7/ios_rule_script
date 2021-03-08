@@ -1,13 +1,15 @@
 # NAME: Spotify
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-08 02:44:03.452129
-# DOMAIN-SUFFIX: 14
+# UPDATED: 2021-03-09 02:46:46.987657
+# DOMAIN-SUFFIX: 16
 # DOMAIN-KEYWORD: 2
 # IP-CIDR: 1
-# TOTAL: 17
+# TOTAL: 19
 payload:
+  - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
   - DOMAIN-SUFFIX,byspotify.com
+  - DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
   - DOMAIN-SUFFIX,pscdn.co
   - DOMAIN-SUFFIX,scdn.co
   - DOMAIN-SUFFIX,spoti.fi

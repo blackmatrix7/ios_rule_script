@@ -1,8 +1,8 @@
 #!name=复写去广告
-#!desc=最后更新时间 2021-03-08 02:45:19
+#!desc=最后更新时间 2021-03-09 02:48:10
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=787
+#!rewrite=788
 #!script=0
 #!force_http_engine_hosts=5
 #!mitm=578
@@ -533,6 +533,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,119.18.193.135,122.14.246.33
 ^https?:\/\/api\.k\.sohu\.com\/api\/channel\/ad\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/api\.kkmh\.com\/.+?(ad|advertisement)\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/api\.laosiji\.com\/user\/startpage\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/api\.mddcloud\.com\.cn\/api\/ad\/getClassAd\.action data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/api\.mddcloud\.com\.cn\/api\/advert\/getHomepage\.action data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/api\.mobile\.youku\.com\/layout\/search\/hot\/word data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"

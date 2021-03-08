@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-08 02:44:12.464085
+# UPDATED: 2021-03-09 02:46:56.698658
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 9to5 共 7 条规则重复
@@ -217,10 +217,11 @@ payload:
   - DOMAIN-SUFFIX,zendesk.com
   - DOMAIN-SUFFIX,zndsk.com
   - DOMAIN-SUFFIX,zopim.com
-#  与 Proxy 共 28582 条规则重复
+#  与 Proxy 共 28584 条规则重复
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
   - DOMAIN,assets-priconne-redive-us.akamaized.net
+  - DOMAIN,audio-ak-spotify-com.akamaized.net
   - DOMAIN,blizzard.nefficient.co.kr
   - DOMAIN,blznav.akamaized.net
   - DOMAIN,bnetshopus.akamaized.net
@@ -232,6 +233,7 @@ payload:
   - DOMAIN,gamedownloads-rockstargames-com.akamaized.net
   - DOMAIN,github-avatars.oss-cn-hongkong.aliyuncs.com
   - DOMAIN,gitlab-assets.oss-cn-hongkong.aliyuncs.com
+  - DOMAIN,heads4-ak-spotify-com.akamaized.net
   - DOMAIN,hpstore.corpmerchandise.com
   - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN,img-s-msn-com.akamaized.net
@@ -30637,22 +30639,6 @@ payload:
   - DOMAIN-SUFFIX,registerhulu.com
   - DOMAIN-SUFFIX,thehulubraintrust.com
   - DOMAIN-SUFFIX,wwwhuluplus.com
-#  与 Spotify 共 15 条规则重复
-  - DOMAIN-KEYWORD,-spotify-com
-  - DOMAIN-KEYWORD,spotify.com
-  - DOMAIN-SUFFIX,byspotify.com
-  - DOMAIN-SUFFIX,pscdn.co
-  - DOMAIN-SUFFIX,scdn.co
-  - DOMAIN-SUFFIX,spoti.fi
-  - DOMAIN-SUFFIX,spotify-everywhere.com
-  - DOMAIN-SUFFIX,spotify.com
-  - DOMAIN-SUFFIX,spotify.design
-  - DOMAIN-SUFFIX,spotifycdn.com
-  - DOMAIN-SUFFIX,spotifycdn.net
-  - DOMAIN-SUFFIX,spotifycharts.com
-  - DOMAIN-SUFFIX,spotifycodes.com
-  - DOMAIN-SUFFIX,spotifyforbrands.com
-  - DOMAIN-SUFFIX,spotifyjobs.com
 #  与 DynDNS 共 7 条规则重复
   - DOMAIN-SUFFIX,blogdns.org
   - DOMAIN-SUFFIX,dyndns-ip.com
@@ -30965,6 +30951,22 @@ payload:
   - IP-CIDR,66.220.144.0/20
   - IP-CIDR,69.63.176.0/20
   - IP-CIDR,74.119.76.0/22
+#  与 Spotify 共 15 条规则重复
+  - DOMAIN-KEYWORD,-spotify-com
+  - DOMAIN-KEYWORD,spotify.com
+  - DOMAIN-SUFFIX,byspotify.com
+  - DOMAIN-SUFFIX,pscdn.co
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,spoti.fi
+  - DOMAIN-SUFFIX,spotify-everywhere.com
+  - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,spotify.design
+  - DOMAIN-SUFFIX,spotifycdn.com
+  - DOMAIN-SUFFIX,spotifycdn.net
+  - DOMAIN-SUFFIX,spotifycharts.com
+  - DOMAIN-SUFFIX,spotifycodes.com
+  - DOMAIN-SUFFIX,spotifyforbrands.com
+  - DOMAIN-SUFFIX,spotifyjobs.com
 #  与 BrightCove 共 11 条规则重复
   - DOMAIN-SUFFIX,bcove.video
   - DOMAIN-SUFFIX,bcovlive.io

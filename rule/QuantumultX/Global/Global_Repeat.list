@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-08 02:44:08.973817
+# UPDATED: 2021-03-09 02:46:52.903109
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 9to5 共 7 条规则重复
 HOST-SUFFIX,9to5google.com
@@ -216,10 +216,11 @@ HOST-SUFFIX,zdusercontent.com
 HOST-SUFFIX,zendesk.com
 HOST-SUFFIX,zndsk.com
 HOST-SUFFIX,zopim.com
-#  与 Proxy 共 28594 条规则重复
+#  与 Proxy 共 28596 条规则重复
 HOST,amp.akamaized.net
 HOST,apple.com.akadns.net
 HOST,assets-priconne-redive-us.akamaized.net
+HOST,audio-ak-spotify-com.akamaized.net
 HOST,blizzard.nefficient.co.kr
 HOST,blznav.akamaized.net
 HOST,bnetshopus.akamaized.net
@@ -231,6 +232,7 @@ HOST,ds-vod-abematv.akamaized.net
 HOST,gamedownloads-rockstargames-com.akamaized.net
 HOST,github-avatars.oss-cn-hongkong.aliyuncs.com
 HOST,gitlab-assets.oss-cn-hongkong.aliyuncs.com
+HOST,heads4-ak-spotify-com.akamaized.net
 HOST,hpstore.corpmerchandise.com
 HOST,img-prod-cms-rt-microsoft-com.akamaized.net
 HOST,img-s-msn-com.akamaized.net
@@ -30673,23 +30675,6 @@ IP-CIDR,103.27.148.0/22
 IP-CIDR,110.76.140.0/22
 IP-CIDR,113.61.104.0/22
 IP-CIDR,27.0.236.0/22
-#  与 Spotify 共 16 条规则重复
-HOST-KEYWORD,-spotify-com
-HOST-KEYWORD,spotify.com
-HOST-SUFFIX,byspotify.com
-HOST-SUFFIX,pscdn.co
-HOST-SUFFIX,scdn.co
-HOST-SUFFIX,spoti.fi
-HOST-SUFFIX,spotify-everywhere.com
-HOST-SUFFIX,spotify.com
-HOST-SUFFIX,spotify.design
-HOST-SUFFIX,spotifycdn.com
-HOST-SUFFIX,spotifycdn.net
-HOST-SUFFIX,spotifycharts.com
-HOST-SUFFIX,spotifycodes.com
-HOST-SUFFIX,spotifyforbrands.com
-HOST-SUFFIX,spotifyjobs.com
-USER-AGENT,Spotify*
 #  与 Hulu 共 47 条规则重复
 HOST-SUFFIX,112263.com
 HOST-SUFFIX,callhulu.com
@@ -31221,6 +31206,23 @@ HOST-SUFFIX,wiivc.net
 HOST-SUFFIX,xenoblade.com
 HOST-SUFFIX,xn--mts47c3w9b1qr.net
 HOST-SUFFIX,yoshisnewisland.com
+#  与 Spotify 共 16 条规则重复
+HOST-KEYWORD,-spotify-com
+HOST-KEYWORD,spotify.com
+HOST-SUFFIX,byspotify.com
+HOST-SUFFIX,pscdn.co
+HOST-SUFFIX,scdn.co
+HOST-SUFFIX,spoti.fi
+HOST-SUFFIX,spotify-everywhere.com
+HOST-SUFFIX,spotify.com
+HOST-SUFFIX,spotify.design
+HOST-SUFFIX,spotifycdn.com
+HOST-SUFFIX,spotifycdn.net
+HOST-SUFFIX,spotifycharts.com
+HOST-SUFFIX,spotifycodes.com
+HOST-SUFFIX,spotifyforbrands.com
+HOST-SUFFIX,spotifyjobs.com
+USER-AGENT,Spotify*
 #  与 CBS 共 22 条规则重复
 HOST-SUFFIX,cbs
 HOST-SUFFIX,cbs.com

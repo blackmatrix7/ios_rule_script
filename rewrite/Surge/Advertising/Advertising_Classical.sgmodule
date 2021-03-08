@@ -1,8 +1,8 @@
 #!name=复写去广告
-#!desc=最后更新时间 2021-03-08 02:45:19
+#!desc=最后更新时间 2021-03-09 02:48:10
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=787
+#!rewrite=788
 #!script=0
 #!force_http_engine_hosts=5
 #!mitm=578
@@ -218,6 +218,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,119.18.193.135,122.14.246.33
 ^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/ - reject
 ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
 ^https?:\/\/api\.laosiji\.com\/user\/startpage\/ - reject
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start - reject
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
 ^https?:\/\/api\.mddcloud\.com\.cn\/api\/ad\/getClassAd\.action - reject
 ^https?:\/\/api\.mddcloud\.com\.cn\/api\/advert\/getHomepage\.action - reject

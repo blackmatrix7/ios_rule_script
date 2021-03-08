@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-08 02:44:10.723606
+# UPDATED: 2021-03-09 02:46:54.747623
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 9to5 共 7 条规则重复
 DOMAIN-SUFFIX,9to5google.com
@@ -208,10 +208,11 @@ DOMAIN-SUFFIX,zdusercontent.com
 DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,zndsk.com
 DOMAIN-SUFFIX,zopim.com
-#  与 Global 共 28594 条规则重复
+#  与 Global 共 28596 条规则重复
 DOMAIN,amp.akamaized.net
 DOMAIN,apple.com.akadns.net
 DOMAIN,assets-priconne-redive-us.akamaized.net
+DOMAIN,audio-ak-spotify-com.akamaized.net
 DOMAIN,blizzard.nefficient.co.kr
 DOMAIN,blznav.akamaized.net
 DOMAIN,bnetshopus.akamaized.net
@@ -223,6 +224,7 @@ DOMAIN,ds-vod-abematv.akamaized.net
 DOMAIN,gamedownloads-rockstargames-com.akamaized.net
 DOMAIN,github-avatars.oss-cn-hongkong.aliyuncs.com
 DOMAIN,gitlab-assets.oss-cn-hongkong.aliyuncs.com
+DOMAIN,heads4-ak-spotify-com.akamaized.net
 DOMAIN,hpstore.corpmerchandise.com
 DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
 DOMAIN,img-s-msn-com.akamaized.net
@@ -31968,19 +31970,6 @@ DOMAIN-SUFFIX,snapdragonbooth.com
 DOMAIN-SUFFIX,uplinq.com
 DOMAIN-SUFFIX,wipower.com
 DOMAIN-SUFFIX,wirelessreach.com
-#  与 Spotify 共 12 条规则重复
-DOMAIN-SUFFIX,byspotify.com
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spotify-everywhere.com
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spotify.design
-DOMAIN-SUFFIX,spotifycdn.com
-DOMAIN-SUFFIX,spotifycdn.net
-DOMAIN-SUFFIX,spotifycharts.com
-DOMAIN-SUFFIX,spotifycodes.com
-DOMAIN-SUFFIX,spotifyforbrands.com
-DOMAIN-SUFFIX,spotifyjobs.com
 #  与 Rarbg 共 10 条规则重复
 DOMAIN-SUFFIX,proxyrarbg.org
 DOMAIN-SUFFIX,rarbg.is
@@ -32298,6 +32287,19 @@ DOMAIN-SUFFIX,justduckit.com
 DOMAIN-SUFFIX,privacysimplified.com
 DOMAIN-SUFFIX,privatebrowsingmyths.com
 DOMAIN-SUFFIX,spreadprivacy.com
+#  与 Spotify 共 12 条规则重复
+DOMAIN-SUFFIX,byspotify.com
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spotify-everywhere.com
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spotify.design
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,spotifycdn.net
+DOMAIN-SUFFIX,spotifycharts.com
+DOMAIN-SUFFIX,spotifycodes.com
+DOMAIN-SUFFIX,spotifyforbrands.com
+DOMAIN-SUFFIX,spotifyjobs.com
 #  与 TikTok 共 9 条规则重复
 DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN-KEYWORD,-tiktokcdn-com

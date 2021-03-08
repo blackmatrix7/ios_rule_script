@@ -1,17 +1,18 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-08 02:44:02.721142
+# UPDATED: 2021-03-09 02:46:46.204078
 # DOMAIN-SUFFIX: 28511
-# DOMAIN: 37
+# DOMAIN: 39
 # DOMAIN-KEYWORD: 29
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 28668
+# TOTAL: 28670
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
   - DOMAIN,assets-priconne-redive-us.akamaized.net
+  - DOMAIN,audio-ak-spotify-com.akamaized.net
   - DOMAIN,blizzard.nefficient.co.kr
   - DOMAIN,blznav.akamaized.net
   - DOMAIN,bnetshopus.akamaized.net
@@ -23,6 +24,7 @@ payload:
   - DOMAIN,gamedownloads-rockstargames-com.akamaized.net
   - DOMAIN,github-avatars.oss-cn-hongkong.aliyuncs.com
   - DOMAIN,gitlab-assets.oss-cn-hongkong.aliyuncs.com
+  - DOMAIN,heads4-ak-spotify-com.akamaized.net
   - DOMAIN,hpstore.corpmerchandise.com
   - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN,img-s-msn-com.akamaized.net

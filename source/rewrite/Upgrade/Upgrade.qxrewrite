@@ -9,5 +9,7 @@
 ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/publish\/api\/upgrade url reject-dict
 # 必胜客更新检查
 ^https?:\/\/apprn\.pizzahut\.com\.cn\/updateCheck\? url reject-dict
+# 京东更新检查
+^https?:\/\/api\.m\.jd\.com\/openUpgrade url reject-dict
 
-hostname = www.meituan.com,apimobile.meituan.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,capis*.didapinche.com,apprn.pizzahut.com.cn
+hostname = www.meituan.com,apimobile.meituan.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,capis*.didapinche.com,apprn.pizzahut.com.cn,api.m.jd.com

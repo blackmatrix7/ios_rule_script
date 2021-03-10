@@ -1,11 +1,11 @@
 #!name=更新检查
-#!desc=最后更新时间 2021-03-09 02:48:10
+#!desc=最后更新时间 2021-03-10 11:49:38
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=6
+#!rewrite=7
 #!script=0
 #!force_http_engine_hosts=0
-#!mitm=6
+#!mitm=7
 
 
 
@@ -15,9 +15,10 @@
 ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
 
 [Map Local]
+^https?:\/\/api\.m\.jd\.com\/openUpgrade data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/apprn\.pizzahut\.com\.cn\/updateCheck\? data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/publish\/api\/upgrade data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/sso\.lxjapp\.com\/\/chims\/servlet\/csGetLatestSoftwareVersionServlet data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 
 [MITM]
-hostname = %APPEND% apimobile.meituan.com,apprn.pizzahut.com.cn,capis*.didapinche.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,www.meituan.com
+hostname = %APPEND% api.m.jd.com,apimobile.meituan.com,apprn.pizzahut.com.cn,capis*.didapinche.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,www.meituan.com

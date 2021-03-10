@@ -1,8 +1,8 @@
 # NAME: AllInOne
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-09 02:48:10
-# REWRITE: 854
+# UPDATED: 2021-03-10 11:49:38
+# REWRITE: 855
 # SCRIPT: 22
 # MITM: 639
 
@@ -233,6 +233,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
 ^https?:\/\/api\.laosiji\.com\/user\/startpage\/ - reject-img
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start - reject-dict
+^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject-dict
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
 ^https?:\/\/api\.mddcloud\.com\.cn\/api\/ad\/getClassAd\.action - reject-img
 ^https?:\/\/api\.mddcloud\.com\.cn\/api\/advert\/getHomepage\.action - reject-img

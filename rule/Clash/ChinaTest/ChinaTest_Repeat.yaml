@@ -1,7 +1,7 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-10 11:48:36.753303
+# UPDATED: 2021-03-11 02:46:33.380564
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 DanDanZan 共 7 条规则重复
@@ -2002,36 +2002,6 @@ payload:
   - DOMAIN-SUFFIX,pingan.com.hk
   - DOMAIN-SUFFIX,yqb.com
   - DOMAIN-SUFFIX,yqbimg.net
-#  与 Microsoft 共 29 条规则重复
-  - DOMAIN-KEYWORD,microsoft
-  - DOMAIN-SUFFIX,akadns.net
-  - DOMAIN-SUFFIX,azure.cn
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,bing.net
-  - DOMAIN-SUFFIX,hotmail.com
-  - DOMAIN-SUFFIX,live.com
-  - DOMAIN-SUFFIX,live.net
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-SUFFIX,microsoftonline.com
-  - DOMAIN-SUFFIX,msauth.net
-  - DOMAIN-SUFFIX,msecnd.net
-  - DOMAIN-SUFFIX,msedge.net
-  - DOMAIN-SUFFIX,msn.com
-  - DOMAIN-SUFFIX,msocdn.com
-  - DOMAIN-SUFFIX,office.com
-  - DOMAIN-SUFFIX,office.net
-  - DOMAIN-SUFFIX,office365.com
-  - DOMAIN-SUFFIX,onenote.com
-  - DOMAIN-SUFFIX,onenote.net
-  - DOMAIN-SUFFIX,outlook.com
-  - DOMAIN-SUFFIX,s-microsoft.com
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,visualstudio.com
-  - DOMAIN-SUFFIX,windows.com
-  - DOMAIN-SUFFIX,windows.net
-  - DOMAIN-SUFFIX,windowsupdate.com
-  - DOMAIN-SUFFIX,xbox.com
-  - DOMAIN-SUFFIX,xboxlive.com
 #  与 Himalaya 共 5 条规则重复
   - DOMAIN-SUFFIX,9nali.com
   - DOMAIN-SUFFIX,qingxuetang.com

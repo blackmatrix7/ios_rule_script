@@ -6,9 +6,10 @@
 
 定时爬取互联网上开源的重定向复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
+重定向的复写策略，可能存在安全风险。如将正常的网站重定向到钓鱼网站，以窃取输入的数据。当前重定向复写规则仅为程序自动爬取整合，未对安全性做任何校验，如使用此复写规则需要自行承担风险。建议使用前逐条阅读重定向的目标地址，确认无安全问题后再使用。同时禁止此复写规则自动更新，或将此复写规则的内容复制到本地作为本地文件使用。
 
 
-最后检查时间：2021-03-11 02:47:34。
+最后检查时间：2021-03-11 23:16:08。
 
 ## 复写统计
 
@@ -26,13 +27,18 @@
 
 实时版：
 
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Redirect/Redirect.conf
+
 
 稳定版：
 
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/QuantumultX/Redirect/Redirect.conf
 
+
 如果稳定版无法访问 ，可能是尚未从实时版的分支合并，建议您先使用实时版，或等待下次稳定版分支合并。
+
 
 ## 数据来源
 

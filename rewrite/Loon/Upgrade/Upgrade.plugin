@@ -1,7 +1,7 @@
 # NAME: 更新检查
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-11 02:47:34
+# UPDATED: 2021-03-11 23:16:07
 # REWRITE: 7
 # SCRIPT: 0
 # MITM: 7
@@ -14,7 +14,6 @@
 ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/biz\/base\/appversion\/latest - reject
 ^https?:\/\/sso\.lxjapp\.com\/\/chims\/servlet\/csGetLatestSoftwareVersionServlet - reject-dict
 ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
-
 
 [MITM]
 hostname = api.m.jd.com,apimobile.meituan.com,apprn.pizzahut.com.cn,capis*.didapinche.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,www.meituan.com

@@ -6,9 +6,9 @@
 
 定时爬取互联网上开源的知乎广告拦截分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
+本分流规则，需要搭配 https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu 使用。
 
-
-最后检查时间：2021-03-11 02:47:18.588041。
+最后检查时间：2021-03-11 23:15:49.426106。
 
 ## 规则统计
 
@@ -40,7 +40,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 
 当前分流规则，未包含其他子规则。
-
 
 
 知乎广告拦截分流规则，与本项目其他分流规则没有重复。

@@ -1,13 +1,11 @@
 #!name=更新检查
-#!desc=最后更新时间 2021-03-11 02:47:34
+#!desc=最后更新时间 2021-03-11 23:16:07
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=7
 #!script=0
 #!force_http_engine_hosts=0
 #!mitm=7
-
-
 
 [URL Rewrite]
 ^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject

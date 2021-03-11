@@ -1,14 +1,15 @@
-# 获取签到脚本Cookie
+# 获取签到脚本Cookie(含第三方脚本)
 
 ## 前言
 
-本项目的获取签到脚本Cookie复写规则由爬虫程序自动维护。
+本项目的获取签到脚本Cookie(含第三方脚本)复写规则由爬虫程序自动维护。
 
-定时爬取互联网上开源的获取签到脚本Cookie复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
+定时爬取互联网上开源的获取签到脚本Cookie(含第三方脚本)复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
+
+获取签到脚本Cookie，含有第三方脚本。
 
 
-
-最后检查时间：2021-03-11 02:47:34。
+最后检查时间：2021-03-11 23:16:08。
 
 ## 复写统计
 
@@ -27,17 +28,22 @@
 
 实时版：
 
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Loon/GetCookieTP/GetCookieTP.plugin
+
 
 稳定版：
 
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Loon/GetCookieTP/GetCookieTP.plugin
+
 
 如果稳定版无法访问 ，可能是尚未从实时版的分支合并，建议您先使用实时版，或等待下次稳定版分支合并。
 
+
 ## 数据来源
 
-本项目的获取签到脚本Cookie复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，建议不要与本项目的获取签到脚本Cookie复写规则混合使用，以免造成规则重复。
+本项目的获取签到脚本Cookie(含第三方脚本)复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，建议不要与本项目的获取签到脚本Cookie(含第三方脚本)复写规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/GetCookie.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.sgmodule
@@ -101,7 +107,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 4. 在使用复写规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的获取签到脚本Cookie复写规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的获取签到脚本Cookie(含第三方脚本)复写规则。
 
 感谢
 

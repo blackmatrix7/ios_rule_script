@@ -6,9 +6,10 @@
 
 定时爬取互联网上开源的AllInOne复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
+汇总Advertising复写去广告、AdvertisingScript通过脚本去除广告、Redirect重定向复写。QuantumultX需要添加部分分流规则才能生效，具体配置请参照数据源说明。复写汇总内容，需要自行确认安全性。
 
 
-最后检查时间：2021-03-11 02:47:34。
+最后检查时间：2021-03-11 23:16:08。
 
 ## 复写统计
 
@@ -21,8 +22,8 @@
 | IP-CIDR | 1 |
 | IP-CIDR6 | 1 |
 | USER-AGENT | 1 |
-| reject | 804 |
-| http-response | 22 |
+| reject | 805 |
+| http-response | 25 |
 | redirect | 51 |
 ## 配置说明
 
@@ -34,13 +35,18 @@
 
 实时版：
 
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Loon/AllInOne/AllInOne.plugin
+
 
 稳定版：
 
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Loon/AllInOne/AllInOne.plugin
 
+
 如果稳定版无法访问 ，可能是尚未从实时版的分支合并，建议您先使用实时版，或等待下次稳定版分支合并。
+
 
 ## 数据来源
 

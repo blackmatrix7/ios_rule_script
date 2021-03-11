@@ -1,7 +1,7 @@
-# NAME: 获取签到脚本Cookie
+# NAME: 获取签到脚本Cookie(含第三方脚本)
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-11 02:47:34
+# UPDATED: 2021-03-11 23:16:07
 # REWRITE: 0
 # SCRIPT: 20
 # MITM: 21
@@ -27,7 +27,6 @@ http-request ^https?:\/\/zhiyou\.smzdm\.com\/user$ requires-body=1,script-path=h
 http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,tag=京东签到Cookie
 http-response ^https?:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/v2\/index requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,tag=滴滴出行_获取GroupId
 http-response ^https?:\/\/pay\.diditaxi\.com\.cn\/web_wallet\/v2\/wallet\/home requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,tag=滴滴金融_获取ActivityId与ChannelId
-
 
 [MITM]
 hostname = api.didialift.com,api.m.jd.com,apph5.manmanbuy.com,as.xiaojukeji.com,bosp-api.xiaojukeji.com,c.tieba.baidu.com,cms-activity-api-prd-mx.wandafilm.com,fmapp.chinafamilymart.com.cn,h5.ele.me,luka-graphql.ling.cn,m.client.10010.com,maicai.api.ddxq.mobi,mall.meituan.com,manhattan.webapp.xiaojukeji.com,mp.jzb.com,passport.biligame.com,pay.diditaxi.com.cn,pgc-cms.jzb.com,user-api-prd-mx.wandafilm.com,www.didapinche.com,zhiyou.smzdm.com

@@ -58,7 +58,7 @@ let magicJS = MagicJS(scriptName, "INFO");
             magicJS.logDebug(`当前用户id：${obj['id']}，是否为VIP：${obj['vip_info']['is_vip']}`);
           }
           else{
-            magicJS.logWarning(`没有获取到当前登录用户信息，已设置为默认用户配置。如果未登录知乎请忽略此日志。`);
+            magicJS.logWarning(`没有获取到当前登录用户信息，已设置为默认用户配置。如未对功能造成影响，请忽略此日志。`);
           }
         }
         catch(err){
@@ -326,13 +326,64 @@ let magicJS = MagicJS(scriptName, "INFO");
         try{
           if (!!magicJS.response.body){
             let obj = JSON.parse(magicJS.response.body);
-            obj['config']['homepage_feed_tab']['tab_infos'] = [];
+            let tab_infos = obj['config']['homepage_feed_tab']['tab_infos'].filter(e =>{
+              if (e.tab_type === 'activity_tab'){
+                e.end_time = (Date.parse(new Date()) - 120000).toString().substr(0,10);
+                return true;
+              }
+              else{
+                return false;
+              }
+            })
+            obj['config']['homepage_feed_tab']['tab_infos'] = tab_infos;
             obj['config']['zvideo_max_number'] = 1;
             body = JSON.stringify(obj);
           }
         }
         catch(err){
           magicJS.logError(`优化知乎软件配置出现异常：${err}`);
+        }
+        break;
+      // 知乎热搜去广告
+      case /^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items/.test(magicJS.request.url):
+        try{
+          if (!!magicJS.response.body){
+            let obj = JSON.parse(magicJS.response.body);
+            obj['commercial_data'] = [];
+            body = JSON.stringify(obj);
+          }
+        }
+        catch(err){
+          magicJS.logError(`去除知乎热搜广告出现异常：${err}`);
+        }
+        break;
+      // 知乎热榜去广告
+      case /^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/)/.test(magicJS.request.url):
+        try{
+          if (!!magicJS.response.body){
+            let obj = JSON.parse(magicJS.response.body);
+            let data = obj['data'].filter(e => {
+              return e['type'] === 'hot_list_feed' || e['type'] === 'hot_list_feed_video';
+            })
+            obj['data'] = data;
+            body = JSON.stringify(obj);
+          }
+        }
+        catch(err){
+          magicJS.logError(`去除知乎热搜广告出现异常：${err}`);
+        }
+        break;
+      // 知乎评论去广告
+      case /^https?:\/\/api\.zhihu\.com\/comment_v5\/answers\/\d+\/root_comment/.test(magicJS.request.url):
+        try{
+          if (!!magicJS.response.body){
+            let obj = JSON.parse(magicJS.response.body);
+            obj['ad_info'] = {};
+            body = JSON.stringify(obj);
+          }
+        }
+        catch(err){
+          magicJS.logError(`去除知乎评论广告出现异常：${err}`);
         }
         break;
       default: 

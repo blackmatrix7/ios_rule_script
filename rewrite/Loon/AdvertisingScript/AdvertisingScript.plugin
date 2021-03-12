@@ -1,7 +1,7 @@
 # NAME: 脚本去广告
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-12 02:47:28
+# UPDATED: 2021-03-13 03:16:48
 # REWRITE: 19
 # SCRIPT: 25
 # MITM: 18
@@ -47,7 +47,7 @@ USER-AGENT,avos*,REJECT
 [Script]
 http-response ^https?:\/\/api\.bilibili\.com\/pgc\/page\/bangumi requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_追番去广告
 http-response ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_直播去广告
-http-response ^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_new\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_动态去广告
+http-response ^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_(history|new)\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_动态去广告
 http-response ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people) requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_信息流去广告及黑名单增强
 http-response ^https?:\/\/api\.zhihu\.com\/comment_v5\/answers\/\d+\/root_comment requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_评论去广告
 http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message) requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_官方消息去广告

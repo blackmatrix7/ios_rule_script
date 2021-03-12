@@ -1,8 +1,8 @@
 #!name=AllInOne
-#!desc=最后更新时间 2021-03-12 02:47:28
+#!desc=最后更新时间 2021-03-13 03:16:48
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=856
+#!rewrite=857
 #!script=25
 #!force_http_engine_hosts=5
 #!mitm=639
@@ -200,6 +200,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/api2\.helper\.qq\.com\/game\/buttons - reject
 ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
 ^https?:\/\/api\.21jingji\.com\/ad\/ - reject
+^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
 ^https?:\/\/api\.app\.vhall\.com\/v5\/000\/webinar\/launch - reject
 ^https?:\/\/api\.applovefrom\.com\/api\/v\d\/splash\/ - reject
 ^https?:\/\/api\.appsdk\.soku\.com\/bg\/r - reject
@@ -886,7 +887,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
 
 [Script]
-BiliBili_动态去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,pattern=^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_new\?
+BiliBili_动态去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,pattern=^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_(history|new)\?
 BiliBili_开屏去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list
 BiliBili_我的页面处理 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine
 BiliBili_推荐去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\?

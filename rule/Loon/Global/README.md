@@ -8,7 +8,7 @@
 
 Global分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。程序已默认根据正则推导一份MITM的模块/复写/插件在当前分流规则的目录中，便于参考搭配使用。
 
-最后检查时间：2021-03-12 02:46:55.074862。
+最后检查时间：2021-03-13 03:16:11.090630。
 
 ## 规则统计
 
@@ -86,7 +86,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 |  [Wordpress](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Wordpress)    | 8   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Repeat.list)   |   100.0% |
 |  [Zendesk](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Zendesk)    | 6   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Repeat.list)   |   100.0% |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 28684   | [28598](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Repeat.list)   |   99.7% |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 773   | [759](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Repeat.list)   |   98.19% |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 771   | [759](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Repeat.list)   |   98.44% |
 |  [VOA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/VOA)    | 51   | [49](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Repeat.list)   |   96.08% |
 |  [Developer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Developer)    | 24   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Repeat.list)   |   95.83% |
 |  [DtDNS](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DtDNS)    | 17   | [16](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Repeat.list)   |   94.12% |

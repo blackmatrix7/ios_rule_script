@@ -8,11 +8,11 @@
 
 黑名单指被XXX或国内直连非常慢的网址，等同于Proxy，建议直接使用Proxy分流规则，此项因为历史原因保留，不再维护。
 
-最后检查时间：2021-03-12 02:46:30.411391。
+最后检查时间：2021-03-13 03:15:46.700460。
 
 ## 规则统计
 
-总计规则：774 条。
+总计规则：772 条。
 
 各类型规则统计：
 
@@ -20,7 +20,7 @@
 | ---- | ---- |
 | DOMAIN-SUFFIX | 696 |
 | USER-AGENT | 3 |
-| DOMAIN | 5 |
+| DOMAIN | 3 |
 | DOMAIN-KEYWORD | 12 |
 | IP-CIDR | 57 |
 | PROCESS-NAME | 1 |
@@ -53,7 +53,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 | ---- | ---- | ---- | ------ |
 |  [Line](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Line)    | 22   | [19](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BlackList/BlackList_Repeat.list)   |   86.36% |
 |  [KakaoTalk](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/KakaoTalk)    | 14   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BlackList/BlackList_Repeat.list)   |   64.29% |
-|  [AppleProxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleProxy)    | 16   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BlackList/BlackList_Repeat.list)   |   50.0% |
+|  [AppleProxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleProxy)    | 16   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BlackList/BlackList_Repeat.list)   |   37.5% |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Google)    | 111   | [41](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BlackList/BlackList_Repeat.list)   |   36.94% |
 |  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Twitter)    | 26   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BlackList/BlackList_Repeat.list)   |   34.62% |
 |  [Developer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Developer)    | 24   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BlackList/BlackList_Repeat.list)   |   33.33% |

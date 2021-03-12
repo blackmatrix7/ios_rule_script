@@ -8,11 +8,11 @@
 
 黑名单指被XXX或国内直连非常慢的网址，等同于Proxy，建议直接使用Proxy分流规则，此项因为历史原因保留，不再维护。
 
-最后检查时间：2021-03-12 02:46:41.268780。
+最后检查时间：2021-03-13 03:15:57.472427。
 
 ## 规则统计
 
-总计规则：773 条。
+总计规则：771 条。
 
 各类型规则统计：
 
@@ -20,7 +20,7 @@
 | ---- | ---- |
 | HOST-SUFFIX | 696 |
 | USER-AGENT | 3 |
-| HOST | 5 |
+| HOST | 3 |
 | HOST-KEYWORD | 12 |
 | IP-CIDR | 57 |
 ## 配置说明
@@ -52,9 +52,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 | ---- | ---- | ---- | ------ |
 |  [Line](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Line)    | 22   | [19](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BlackList/BlackList_Repeat.list)   |   86.36% |
 |  [KakaoTalk](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/KakaoTalk)    | 14   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BlackList/BlackList_Repeat.list)   |   64.29% |
-|  [AppleProxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleProxy)    | 15   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BlackList/BlackList_Repeat.list)   |   46.67% |
 |  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google)    | 111   | [41](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BlackList/BlackList_Repeat.list)   |   36.94% |
 |  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Twitter)    | 26   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BlackList/BlackList_Repeat.list)   |   34.62% |
+|  [AppleProxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleProxy)    | 15   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BlackList/BlackList_Repeat.list)   |   33.33% |
 |  [Developer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Developer)    | 24   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BlackList/BlackList_Repeat.list)   |   33.33% |
 |  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Facebook)    | 68   | [22](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BlackList/BlackList_Repeat.list)   |   32.35% |
 |  [Naver](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Naver)    | 51   | [12](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BlackList/BlackList_Repeat.list)   |   23.53% |

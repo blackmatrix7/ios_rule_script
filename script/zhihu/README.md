@@ -17,7 +17,7 @@
 7. 去除知乎直播红点
 8. 去除知乎指南提示
 9. 去除未读消息的红点
-10. 知乎网页版去广告 [#21](https://github.com/codetracer/horus/issues/21)
+10. 知乎网页版去广告 [#21](https://github.com/blackmatrix7/ios_rule_script/issues/21)
 11. 拦截知乎内测邀请
 12. 去除预置关键字广告(beta)
 13. 付费内容文首提醒(beta)✨
@@ -99,13 +99,13 @@ Surge4.10.0(1788) TF、Quantumult X 1.0.14(359) TF、Loon 2.1.3(191) TF 验证�
 
 浅色/深色效果如下图：
 
-![](https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/images/04.jpg)
+![](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/images/04.jpg)
 
 ## 推广内容提醒(beta)
 
 遇到含有营销推广/购物推广内容的回答时，会将含有推广内容的提醒置顶，自行判断是否继续阅读。
 
-![](https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/images/05.png)
+![](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/images/05.png)
 
 ## 精简顶部标签页
 
@@ -129,11 +129,11 @@ Surge4.10.0(1788) TF、Quantumult X 1.0.14(359) TF、Loon 2.1.3(191) TF 验证�
 
 每次添加或移除黑名单用户，脚本内置的黑名单也会同步更新。
 
-![](https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/images/01.jpg)
+![](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/images/01.jpg)
 
-![](https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/images/03.jpg)
+![](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/images/03.jpg)
 
-![](https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/images/02.jpg)
+![](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/images/02.jpg)
 
 ## 配置说明(Plus)
 
@@ -142,7 +142,7 @@ Surge4.10.0(1788) TF、Quantumult X 1.0.14(359) TF、Loon 2.1.3(191) TF 验证�
 使用模块
 
 ```ini
-https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/zhihu_plus.sgmodule
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.sgmodule
 ```
 
 ### Loon
@@ -151,7 +151,7 @@ Loon 2.1.3(193) TF + 可以使用插件Plugin。
 
 ```ini
 [Plugin]
-https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/zhihu_plus.lnplugin, tag=知乎助手_去广告及体验增强, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.lnplugin, tag=知乎助手_去广告及体验增强, enabled=true
 ```
 
 ### Quantumult X
@@ -168,7 +168,7 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 USER-AGENT,AVOS*,REJECT
 
 [rewrite_remote]
-https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎助手_去广告及体验增强, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎助手_去广告及体验增强, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 ### Shadowrocket (alpha)
@@ -184,7 +184,7 @@ Plus版本功能较多，需要消耗较多的系统资源。如果出现VPN自�
 使用模块
 
 ```ini
-https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/zhihu_lite.sgmodule
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.sgmodule
 ```
 
 ### Loon
@@ -193,7 +193,7 @@ Loon 2.1.3(193) TF + 可以使用插件Plugin。
 
 ```ini
 [Plugin]
-https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/zhihu_lite.lnplugin, tag=知乎助手_去广告, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.lnplugin, tag=知乎助手_去广告, enabled=true
 ```
 
 #### Quantumult X
@@ -210,7 +210,7 @@ DOMAIN-SUFFIX,appcloud2.zhihu.com,REJECT
 DOMAIN-SUFFIX,appcloud2.in.zhihu.com,REJECT
 
 [rewrite_remote]
-https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/zhihu_lite.qxrewrite, tag=知乎助手_去广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.qxrewrite, tag=知乎助手_去广告, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 #### Shadowrocket (alpha)
@@ -227,9 +227,9 @@ USER-AGENT,AVOS*,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations),REJECT
 
 [Script]
-知乎_处理用户信息 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/people\/,script-path=https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/zhihu_plus.js
-知乎_信息流去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=),script-path=https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/zhihu_plus.js
-知乎_回答列表去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/v4\/questions,script-path=https://raw.githubusercontent.com/codetracer/horus/master/script/zhihu/zhihu_plus.js
+知乎_处理用户信息 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/people\/,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+知乎_信息流去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=),script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+知乎_回答列表去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/v4\/questions,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
 
 [MITM]
 enable = true
@@ -287,11 +287,11 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/drama\/,DIRECT
 
 ### 想法不存在
 
-已修复，具体原因 https://github.com/codetracer/horus/issues/17
+已修复，具体原因 https://github.com/blackmatrix7/ios_rule_script/issues/17
 
 ## 最后
 
-如果能帮上你，麻烦给个Star⭐。如果没能帮上你，麻烦[点击这里反馈给我](https://github.com/codetracer/horus/issues/new)，个人测试覆盖场景有限，你的及时反馈可以让我尽快排查和解决问题。
+如果能帮上你，麻烦给个Star⭐。如果没能帮上你，麻烦[点击这里反馈给我](https://github.com/blackmatrix7/ios_rule_script/issues/new)，个人测试覆盖场景有限，你的及时反馈可以让我尽快排查和解决问题。
 
 特别感谢：
 

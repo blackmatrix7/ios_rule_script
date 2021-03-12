@@ -152,7 +152,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
         }
         break;
       // 动态去广告
-      case /^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_new\?/.test(magicJS.request.url):
+      case /^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_(history|new)\?/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
           let cards = [];

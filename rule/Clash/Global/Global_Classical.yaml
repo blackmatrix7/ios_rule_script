@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-13 03:15:33.729486
-# DOMAIN-SUFFIX: 28506
+# UPDATED: 2021-03-14 01:54:27.712862
+# DOMAIN-SUFFIX: 28507
 # DOMAIN: 39
 # DOMAIN-KEYWORD: 42
 # IP-CIDR: 127
 # IP-CIDR6: 3
 # PROCESS-NAME: 1
-# TOTAL: 28718
+# TOTAL: 28719
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
@@ -7369,6 +7369,7 @@ payload:
   - DOMAIN-SUFFIX,dmm-extension.com
   - DOMAIN-SUFFIX,dmm.co.jp
   - DOMAIN-SUFFIX,dmm.com
+  - DOMAIN-SUFFIX,dmmapis.com
   - DOMAIN-SUFFIX,dmmbus.com
   - DOMAIN-SUFFIX,dnaindia.com
   - DOMAIN-SUFFIX,dnainfo.com

@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-13 03:15:33.637823
-# DOMAIN-SUFFIX: 28513
+# UPDATED: 2021-03-14 01:54:27.625332
+# DOMAIN-SUFFIX: 28514
 # DOMAIN: 39
 # DOMAIN-KEYWORD: 29
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 28672
+# TOTAL: 28673
 payload:
   - 'amp.akamaized.net'
   - 'apple.com.akadns.net'
@@ -7375,6 +7375,7 @@ payload:
   - '.dmm-extension.com'
   - '.dmm.co.jp'
   - '.dmm.com'
+  - '.dmmapis.com'
   - '.dmmbus.com'
   - '.dnaindia.com'
   - '.dnainfo.com'

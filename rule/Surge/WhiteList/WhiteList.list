@@ -1,14 +1,14 @@
 # NAME: WhiteList
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-14 01:54:21.381601
+# UPDATED: 2021-03-15 01:53:34.031286
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN-SUFFIX: 5
+# DOMAIN-SUFFIX: 4
 # DOMAIN-KEYWORD: 1
-# DOMAIN: 14
+# DOMAIN: 13
 # URL-REGEX: 2
 # USER-AGENT: 4
-# TOTAL: 26
+# TOTAL: 24
 DOMAIN,ad.10010.com
 DOMAIN,analytics.95516.com
 DOMAIN,analytics.strava.com
@@ -19,11 +19,9 @@ DOMAIN,fonts.gstatic.com
 DOMAIN,log.mmstat.com
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
-DOMAIN,origin-a.akamaihd.net
 DOMAIN,pubads.g.doubleclick.net
 DOMAIN,sycm.mmstat.com
 DOMAIN,tracking.miui.com
-DOMAIN-SUFFIX,dizhensubao.getui.com
 DOMAIN-SUFFIX,f.video.weibocdn.com
 DOMAIN-SUFFIX,fus.cdn.krcom.cn
 DOMAIN-SUFFIX,ol.epicgames.com

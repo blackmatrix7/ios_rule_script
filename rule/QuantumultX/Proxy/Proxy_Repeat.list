@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-14 01:54:33.749971
+# UPDATED: 2021-03-15 01:53:45.464015
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 9to5 共 7 条规则重复
 HOST-SUFFIX,9to5google.com
@@ -101,12 +101,6 @@ HOST-SUFFIX,snap.com
 HOST-SUFFIX,snapads.com
 HOST-SUFFIX,snapchat.com
 HOST-SUFFIX,snapkit.co
-#  与 Spark 共 5 条规则重复
-HOST-SUFFIX,amplitude.com
-HOST-SUFFIX,firebaseio.com
-HOST-SUFFIX,hockeyapp.net
-HOST-SUFFIX,readdle.com
-HOST-SUFFIX,smartmailcloud.com
 #  与 Stackexchange 共 15 条规则重复
 HOST-SUFFIX,askubuntu.com
 HOST-SUFFIX,blogoverflow.com
@@ -208,7 +202,7 @@ HOST-SUFFIX,zdusercontent.com
 HOST-SUFFIX,zendesk.com
 HOST-SUFFIX,zndsk.com
 HOST-SUFFIX,zopim.com
-#  与 Global 共 28599 条规则重复
+#  与 Global 共 28579 条规则重复
 HOST,amp.akamaized.net
 HOST,apple.com.akadns.net
 HOST,assets-priconne-redive-us.akamaized.net
@@ -2645,7 +2639,6 @@ HOST-SUFFIX,ampj778.com
 HOST-SUFFIX,ampj90.com
 HOST-SUFFIX,amplifyapp.com
 HOST-SUFFIX,amplifyframework.com
-HOST-SUFFIX,amplitude.com
 HOST-SUFFIX,ampproject.com
 HOST-SUFFIX,ampproject.net
 HOST-SUFFIX,ampproject.org
@@ -2835,6 +2828,7 @@ HOST-SUFFIX,apk2.ml
 HOST-SUFFIX,apk2.tk
 HOST-SUFFIX,apk4fun.com
 HOST-SUFFIX,apkcombo.com
+HOST-SUFFIX,apkdler.com
 HOST-SUFFIX,apkgk.com
 HOST-SUFFIX,apkhere.com
 HOST-SUFFIX,apkmirror.com
@@ -18955,7 +18949,6 @@ HOST-SUFFIX,reactjs.org
 HOST-SUFFIX,read.5article.com
 HOST-SUFFIX,read01.com
 HOST-SUFFIX,read100.com
-HOST-SUFFIX,readdle.com
 HOST-SUFFIX,readingtimes.com.tw
 HOST-SUFFIX,readmoo.com
 HOST-SUFFIX,readmyblog.org
@@ -21098,12 +21091,10 @@ HOST-SUFFIX,taobonfu.com
 HOST-SUFFIX,taohuazu.cc
 HOST-SUFFIX,taoism.net
 HOST-SUFFIX,taolun.info
-HOST-SUFFIX,tap.io
 HOST-SUFFIX,tapanwap.com
 HOST-SUFFIX,tapatalk.com
 HOST-SUFFIX,tapbots.com
 HOST-SUFFIX,tapbots.net
-HOST-SUFFIX,taptap.tw
 HOST-SUFFIX,taptotokyo.com
 HOST-SUFFIX,taragana.com
 HOST-SUFFIX,target
@@ -28718,12 +28709,6 @@ IP-CIDR,119.235.224.0/21
 IP-CIDR,119.235.232.0/23
 IP-CIDR,119.235.235.0/24
 IP-CIDR,119.235.236.0/23
-IP-CIDR,120.232.181.162/32
-IP-CIDR,120.241.147.226/32
-IP-CIDR,120.253.253.226/32
-IP-CIDR,120.253.255.162/32
-IP-CIDR,120.253.255.34/32
-IP-CIDR,120.253.255.98/32
 IP-CIDR,125.209.208.0/20
 IP-CIDR,125.6.146.0/24
 IP-CIDR,125.6.149.0/24
@@ -28750,25 +28735,14 @@ IP-CIDR,18.184.0.0/15
 IP-CIDR,18.194.0.0/15
 IP-CIDR,18.208.0.0/13
 IP-CIDR,18.232.0.0/14
-IP-CIDR,180.163.150.162/32
-IP-CIDR,180.163.150.34/32
-IP-CIDR,180.163.151.162/32
-IP-CIDR,180.163.151.34/32
 IP-CIDR,184.173.128.0/17
 IP-CIDR,185.60.216.0/22
 IP-CIDR,203.104.103.0/24
 IP-CIDR,203.104.128.0/19
 IP-CIDR,203.174.66.64/26
 IP-CIDR,203.174.77.0/24
-IP-CIDR,203.208.39.0/24
-IP-CIDR,203.208.40.0/23
-IP-CIDR,203.208.43.0/24
-IP-CIDR,203.208.50.0/24
 IP-CIDR,204.15.20.0/22
 IP-CIDR,208.43.0.0/16
-IP-CIDR,220.181.174.162/32
-IP-CIDR,220.181.174.226/32
-IP-CIDR,220.181.174.34/32
 IP-CIDR,27.0.236.0/22
 IP-CIDR,31.13.24.0/21
 IP-CIDR,31.13.64.0/18
@@ -28808,7 +28782,7 @@ USER-AGENT,TikTok*
 USER-AGENT,WhatsApp*
 USER-AGENT,battleroyale*
 USER-AGENT,com.apple.trustd*
-#  与 BlackList 共 759 条规则重复
+#  与 BlackList 共 760 条规则重复
 HOST-KEYWORD,appledaily
 HOST-KEYWORD,beetalk
 HOST-KEYWORD,blogspot
@@ -28859,6 +28833,7 @@ HOST-SUFFIX,aolcdn.com
 HOST-SUFFIX,apache.org
 HOST-SUFFIX,apartmentratings.com
 HOST-SUFFIX,apartments.com
+HOST-SUFFIX,api.amplitude.com
 HOST-SUFFIX,api.mixpanel.com
 HOST-SUFFIX,apigee.com
 HOST-SUFFIX,apk-dl.com
@@ -32066,7 +32041,7 @@ HOST-SUFFIX,thestationbymaker.com
 HOST-SUFFIX,thisispolaris.com
 HOST-SUFFIX,watchdisneyfe.com
 HOST-SUFFIX,watchespn.com
-#  与 Amazon 共 103 条规则重复
+#  与 Amazon 共 102 条规则重复
 HOST-SUFFIX,a2z.com
 HOST-SUFFIX,aboutamazon.com
 HOST-SUFFIX,aboutamazon.it
@@ -32144,7 +32119,6 @@ HOST-SUFFIX,kindleoasis.org
 HOST-SUFFIX,kindleoasisnews.com
 HOST-SUFFIX,kindleproject.com
 HOST-SUFFIX,llnwd.net
-HOST-SUFFIX,media-amazon.com
 HOST-SUFFIX,primeday.info
 HOST-SUFFIX,primevideo.com
 HOST-SUFFIX,siege-amazon.com
@@ -33247,26 +33221,6 @@ HOST-SUFFIX,maxgo.com
 HOST-SUFFIX,now-ashare.com
 HOST-SUFFIX,now-tv.com
 HOST-SUFFIX,nowe.com
-#  与 Naver 共 19 条规则重复
-HOST-SUFFIX,grafolio.com
-HOST-SUFFIX,lin.ee
-HOST-SUFFIX,line-apps.com
-HOST-SUFFIX,line-cdn.net
-HOST-SUFFIX,line-scdn.net
-HOST-SUFFIX,line.me
-HOST-SUFFIX,naver.com
-HOST-SUFFIX,naver.jp
-HOST-SUFFIX,naver.net
-HOST-SUFFIX,navercorp.com
-HOST-SUFFIX,plug.game
-HOST-SUFFIX,pstatic.net
-IP-CIDR,119.235.235.0/24
-IP-CIDR,119.235.236.0/23
-IP-CIDR,125.6.190.0/24
-IP-CIDR,147.92.128.0/17
-IP-CIDR,203.104.103.0/24
-IP-CIDR,203.174.66.64/26
-IP-CIDR,203.174.77.0/24
 #  与 Sony 共 43 条规则重复
 HOST-SUFFIX,imageworks.com
 HOST-SUFFIX,motionpictureser.com
@@ -33324,6 +33278,27 @@ HOST-SUFFIX,verisign.net
 HOST-SUFFIX,verisign.org
 HOST-SUFFIX,verisign.pro
 HOST-SUFFIX,verisigninc.com
+#  与 Naver 共 20 条规则重复
+HOST-SUFFIX,grafolio.com
+HOST-SUFFIX,lin.ee
+HOST-SUFFIX,line-apps.com
+HOST-SUFFIX,line-cdn.net
+HOST-SUFFIX,line-scdn.net
+HOST-SUFFIX,line.me
+HOST-SUFFIX,naver.com
+HOST-SUFFIX,naver.jp
+HOST-SUFFIX,naver.net
+HOST-SUFFIX,navercorp.com
+HOST-SUFFIX,nhncorp.jp
+HOST-SUFFIX,plug.game
+HOST-SUFFIX,pstatic.net
+IP-CIDR,119.235.235.0/24
+IP-CIDR,119.235.236.0/23
+IP-CIDR,125.6.190.0/24
+IP-CIDR,147.92.128.0/17
+IP-CIDR,203.104.103.0/24
+IP-CIDR,203.174.66.64/26
+IP-CIDR,203.174.77.0/24
 #  与 Huffpost 共 6 条规则重复
 HOST-SUFFIX,huffingtonpost.com
 HOST-SUFFIX,huffingtonpost.it
@@ -33357,23 +33332,9 @@ HOST-SUFFIX,thomsonreuters.com
 HOST-SUFFIX,thomsonreutersmexico.com
 HOST-SUFFIX,tmsnrt.rs
 HOST-SUFFIX,tr.com
-#  与 eBay 共 14 条规则重复
-HOST-SUFFIX,e-bay.it
-HOST-SUFFIX,ebay-us.com
-HOST-SUFFIX,ebay.be
-HOST-SUFFIX,ebay.ch
-HOST-SUFFIX,ebay.com
-HOST-SUFFIX,ebay.it
-HOST-SUFFIX,ebay.pk
-HOST-SUFFIX,ebaycdn.net
-HOST-SUFFIX,ebayimg.com
-HOST-SUFFIX,ebayinc.com
-HOST-SUFFIX,ebaymainstreet.com
-HOST-SUFFIX,ebayprivacycenter.com
-HOST-SUFFIX,ebayrtm.com
-HOST-SUFFIX,ebaystatic.com
-#  与 YouTube 共 57 条规则重复
+#  与 YouTube 共 58 条规则重复
 HOST-KEYWORD,youtube
+HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,ggpht.com
 HOST-SUFFIX,googlevideo.com
 HOST-SUFFIX,gvt2.com
@@ -33430,6 +33391,21 @@ HOST-SUFFIX,youtubekids.com
 HOST-SUFFIX,youtubemobilesupport.com
 HOST-SUFFIX,yt.be
 HOST-SUFFIX,ytimg.com
+#  与 eBay 共 14 条规则重复
+HOST-SUFFIX,e-bay.it
+HOST-SUFFIX,ebay-us.com
+HOST-SUFFIX,ebay.be
+HOST-SUFFIX,ebay.ch
+HOST-SUFFIX,ebay.com
+HOST-SUFFIX,ebay.it
+HOST-SUFFIX,ebay.pk
+HOST-SUFFIX,ebaycdn.net
+HOST-SUFFIX,ebayimg.com
+HOST-SUFFIX,ebayinc.com
+HOST-SUFFIX,ebaymainstreet.com
+HOST-SUFFIX,ebayprivacycenter.com
+HOST-SUFFIX,ebayrtm.com
+HOST-SUFFIX,ebaystatic.com
 #  与 DAZN 共 6 条规则重复
 HOST-SUFFIX,dazn-api.com
 HOST-SUFFIX,dazn.com

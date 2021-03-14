@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-14 01:54:22.626708
-# HOST-SUFFIX: 28514
+# UPDATED: 2021-03-15 01:53:35.174776
+# HOST-SUFFIX: 28512
 # USER-AGENT: 12
 # HOST: 39
 # HOST-KEYWORD: 29
-# IP-CIDR: 88
+# IP-CIDR: 71
 # IP6-CIDR: 3
-# TOTAL: 28685
+# TOTAL: 28666
 HOST,amp.akamaized.net,Proxy
 HOST,apple.com.akadns.net,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -2421,7 +2421,6 @@ HOST-SUFFIX,ampj778.com,Proxy
 HOST-SUFFIX,ampj90.com,Proxy
 HOST-SUFFIX,amplifyapp.com,Proxy
 HOST-SUFFIX,amplifyframework.com,Proxy
-HOST-SUFFIX,amplitude.com,Proxy
 HOST-SUFFIX,ampproject.com,Proxy
 HOST-SUFFIX,ampproject.net,Proxy
 HOST-SUFFIX,ampproject.org,Proxy
@@ -2582,6 +2581,7 @@ HOST-SUFFIX,api-extractor.com,Proxy
 HOST-SUFFIX,api-login.kkbox.com.tw,Proxy
 HOST-SUFFIX,api.a5188yes.com,Proxy
 HOST-SUFFIX,api.ai,Proxy
+HOST-SUFFIX,api.amplitude.com,Proxy
 HOST-SUFFIX,api.api861861.com,Proxy
 HOST-SUFFIX,api.arcadia.pncle8.com,Proxy
 HOST-SUFFIX,api.citizenvpn.com,Proxy
@@ -2615,6 +2615,7 @@ HOST-SUFFIX,apk2.ml,Proxy
 HOST-SUFFIX,apk2.tk,Proxy
 HOST-SUFFIX,apk4fun.com,Proxy
 HOST-SUFFIX,apkcombo.com,Proxy
+HOST-SUFFIX,apkdler.com,Proxy
 HOST-SUFFIX,apkgk.com,Proxy
 HOST-SUFFIX,apkhere.com,Proxy
 HOST-SUFFIX,apkmirror.com,Proxy
@@ -18782,7 +18783,6 @@ HOST-SUFFIX,reactjs.org,Proxy
 HOST-SUFFIX,read.5article.com,Proxy
 HOST-SUFFIX,read01.com,Proxy
 HOST-SUFFIX,read100.com,Proxy
-HOST-SUFFIX,readdle.com,Proxy
 HOST-SUFFIX,readingtimes.com.tw,Proxy
 HOST-SUFFIX,readmoo.com,Proxy
 HOST-SUFFIX,readmyblog.org,Proxy
@@ -20937,12 +20937,10 @@ HOST-SUFFIX,taobonfu.com,Proxy
 HOST-SUFFIX,taohuazu.cc,Proxy
 HOST-SUFFIX,taoism.net,Proxy
 HOST-SUFFIX,taolun.info,Proxy
-HOST-SUFFIX,tap.io,Proxy
 HOST-SUFFIX,tapanwap.com,Proxy
 HOST-SUFFIX,tapatalk.com,Proxy
 HOST-SUFFIX,tapbots.com,Proxy
 HOST-SUFFIX,tapbots.net,Proxy
-HOST-SUFFIX,taptap.tw,Proxy
 HOST-SUFFIX,taptotokyo.com,Proxy
 HOST-SUFFIX,taragana.com,Proxy
 HOST-SUFFIX,target,Proxy
@@ -28616,12 +28614,6 @@ IP-CIDR,119.235.224.0/21,Proxy
 IP-CIDR,119.235.232.0/23,Proxy
 IP-CIDR,119.235.235.0/24,Proxy
 IP-CIDR,119.235.236.0/23,Proxy
-IP-CIDR,120.232.181.162/32,Proxy
-IP-CIDR,120.241.147.226/32,Proxy
-IP-CIDR,120.253.253.226/32,Proxy
-IP-CIDR,120.253.255.162/32,Proxy
-IP-CIDR,120.253.255.34/32,Proxy
-IP-CIDR,120.253.255.98/32,Proxy
 IP-CIDR,125.209.208.0/20,Proxy
 IP-CIDR,125.6.146.0/24,Proxy
 IP-CIDR,125.6.149.0/24,Proxy
@@ -28648,25 +28640,14 @@ IP-CIDR,18.184.0.0/15,Proxy
 IP-CIDR,18.194.0.0/15,Proxy
 IP-CIDR,18.208.0.0/13,Proxy
 IP-CIDR,18.232.0.0/14,Proxy
-IP-CIDR,180.163.150.162/32,Proxy
-IP-CIDR,180.163.150.34/32,Proxy
-IP-CIDR,180.163.151.162/32,Proxy
-IP-CIDR,180.163.151.34/32,Proxy
 IP-CIDR,184.173.128.0/17,Proxy
 IP-CIDR,185.60.216.0/22,Proxy
 IP-CIDR,203.104.103.0/24,Proxy
 IP-CIDR,203.104.128.0/19,Proxy
 IP-CIDR,203.174.66.64/26,Proxy
 IP-CIDR,203.174.77.0/24,Proxy
-IP-CIDR,203.208.39.0/24,Proxy
-IP-CIDR,203.208.40.0/23,Proxy
-IP-CIDR,203.208.43.0/24,Proxy
-IP-CIDR,203.208.50.0/24,Proxy
 IP-CIDR,204.15.20.0/22,Proxy
 IP-CIDR,208.43.0.0/16,Proxy
-IP-CIDR,220.181.174.162/32,Proxy
-IP-CIDR,220.181.174.226/32,Proxy
-IP-CIDR,220.181.174.34/32,Proxy
 IP-CIDR,27.0.236.0/22,Proxy
 IP-CIDR,31.13.24.0/21,Proxy
 IP-CIDR,31.13.64.0/18,Proxy

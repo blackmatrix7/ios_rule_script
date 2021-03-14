@@ -1,7 +1,7 @@
 # NAME: BlackList 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-14 01:54:36.732757
+# UPDATED: 2021-03-15 01:53:48.232195
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Line 共 19 条规则重复
@@ -125,12 +125,13 @@ payload:
   - IP-CIDR,69.171.224.0/19
   - IP-CIDR,69.63.176.0/20
   - IP-CIDR,74.119.76.0/22
-#  与 Naver 共 12 条规则重复
+#  与 Naver 共 13 条规则重复
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,line-apps.com
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,line.me
+  - DOMAIN-SUFFIX,nhncorp.jp
   - IP-CIDR,119.235.235.0/24
   - IP-CIDR,119.235.236.0/23
   - IP-CIDR,125.6.190.0/24

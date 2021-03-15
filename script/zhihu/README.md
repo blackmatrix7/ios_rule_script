@@ -161,15 +161,21 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhi
 ```ini
 [filter_local]
 # 知乎去广告
-DOMAIN,118.89.204.198,REJECT
-DOMAIN-KEYWORD,118.89.204.198,REJECT
+# 将以下两条规则，必须置于filter_local中的最上方
 IP-CIDR,118.89.204.198/32,REJECT
-DOMAIN,appcloud2.in.zhihu.com,REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+# 以下规则，位置越靠前越好
+HOST,118.89.204.198,REJECT
+HOST,mqtt.zhihu.com,reject
+HOST,sugar.zhihu.com,reject
+HOST,appcloud2.in.zhihu.com,REJECT
 USER-AGENT,AVOS*,REJECT
 
 [rewrite_remote]
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎助手_去广告及体验增强, update-interval=86400, opt-parser=false, enabled=true
 ```
+
+如配置有问题，可以查阅 https://github.com/blackmatrix7/ios_rule_script/issues/253 
 
 ### Shadowrocket (alpha)
 

@@ -8,17 +8,17 @@
 
 Global分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需要MITM使用才能生效。程序已默认根据正则推导一份MITM的模块/复写/插件在当前分流规则的目录中，便于参考搭配使用。
 
-最后检查时间：2021-03-15 01:54:38.622189。
+最后检查时间：2021-03-16 01:53:55.468772。
 
 ## 规则统计
 
-总计规则：28750 条。
+总计规则：28756 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 28505 |
+| DOMAIN-SUFFIX | 28511 |
 | USER-AGENT | 49 |
 | DOMAIN | 39 |
 | DOMAIN-KEYWORD | 42 |
@@ -78,6 +78,7 @@ Global_Domain.list请使用DOMAIN-SET。
 |  [Jwplayer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Jwplayer)    | 5   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   100.0% |
 |  [KKBOX](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/KKBOX)    | 7   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   100.0% |
 |  [Picsee](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Picsee)    | 6   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   100.0% |
+|  [Reddit](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Reddit)    | 5   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   100.0% |
 |  [Sectigo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Sectigo)    | 7   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   100.0% |
 |  [Shopify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Shopify)    | 8   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   100.0% |
 |  [Slack](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Slack)    | 8   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   100.0% |
@@ -91,7 +92,7 @@ Global_Domain.list请使用DOMAIN-SET。
 |  [Wikipedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Wikipedia)    | 12   | [12](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   100.0% |
 |  [Wordpress](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Wordpress)    | 8   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   100.0% |
 |  [Zendesk](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Zendesk)    | 6   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   100.0% |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Proxy)    | 28666   | [28579](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   99.7% |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Proxy)    | 28672   | [28585](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   99.7% |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/BlackList)    | 772   | [760](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   98.45% |
 |  [VOA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/VOA)    | 51   | [49](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   96.08% |
 |  [Developer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Developer)    | 24   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   95.83% |
@@ -161,6 +162,7 @@ Global_Domain.list请使用DOMAIN-SET。
 |  [HBOHK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/HBOHK)    | 14   | [7](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   50.0% |
 |  [Cloudflare](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Cloudflare)    | 41   | [20](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   48.78% |
 |  [BMW](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/BMW)    | 729   | [354](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   48.56% |
+|  [Naver](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Naver)    | 60   | [29](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   48.33% |
 |  [Intel](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Intel)    | 263   | [126](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   47.91% |
 |  [OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/OneDrive)    | 19   | [9](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   47.37% |
 |  [Dailymail](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Dailymail)    | 17   | [8](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   47.06% |
@@ -171,7 +173,6 @@ Global_Domain.list请使用DOMAIN-SET。
 |  [Garena](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Garena)    | 15   | [6](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   40.0% |
 |  [Verizon](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Verizon)    | 182   | [71](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   39.01% |
 |  [Globalsign](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Globalsign)    | 13   | [5](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   38.46% |
-|  [Naver](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Naver)    | 60   | [23](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   38.33% |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Apple)    | 116   | [44](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   37.93% |
 |  [Sony](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Sony)    | 116   | [43](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   37.07% |
 |  [Verisign](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Verisign)    | 33   | [12](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global_Repeat.list)   |   36.36% |

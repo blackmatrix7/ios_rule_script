@@ -1,0 +1,15 @@
+# NAME: 海底捞每日签到
+# AUTHOR: zZPiglet
+# GITHUB: https://github.com/zZPiglet/Task
+# UPDATED: 2021-03-16 01:54:11
+# REWRITE: 0
+# SCRIPT: 2
+# MITM: 2
+
+[Script]
+http-request ^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/getSignInfo requires-body=1,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js,tag=海底捞_获取签到信息
+http-request ^https:\/\/superapp\.kiwa-tech\.com\/app\/coupon\/customerLevelShow requires-body=1,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js,tag=海底捞_获取用户信息
+cron "15 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js,timeout=60,tag=海底捞_每日签到 
+
+[MITM]
+hostname = activity-1.m.duiba.com.cn,superapp.kiwa-tech.com

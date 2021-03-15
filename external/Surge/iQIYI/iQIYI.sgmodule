@@ -1,0 +1,15 @@
+#!name=爱奇艺每日签到
+#!desc=最后更新时间 2021-03-16 01:54:11
+#!author=NobyDa
+#!github=https://github.com/NobyDa/Script/tree/master/iQIYI-DailyBonus
+#!rewrite=0
+#!script=1
+#!force_http_engine_hosts=0
+#!mitm=1
+
+[Script]
+爱奇艺_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,pattern=^https?:\/\/iface(\d)?\.iqiyi\.com\/
+爱奇艺_每日签到  = type=cron,cronexp=30 0 * * *,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+[MITM]
+hostname = %APPEND% ifac*.iqiyi.com

@@ -1,10 +1,10 @@
 # NAME: 更新检查
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-15 01:54:50
+# UPDATED: 2021-03-16 01:54:11
 # REWRITE: 7
 # SCRIPT: 0
-# MITM: 7
+# MITM: 6
 
 [URL Rewrite]
 ^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject-dict
@@ -16,4 +16,4 @@
 ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
 
 [MITM]
-hostname = api.m.jd.com,apimobile.meituan.com,apprn.pizzahut.com.cn,capis*.didapinche.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,www.meituan.com
+hostname = apimobile.meituan.com,apprn.pizzahut.com.cn,capis*.didapinche.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,www.meituan.com

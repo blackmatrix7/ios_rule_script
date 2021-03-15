@@ -1,13 +1,12 @@
 # NAME: 重定向
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-15 01:54:50
-# REWRITE: 52
+# UPDATED: 2021-03-16 01:54:11
+# REWRITE: 51
 # SCRIPT: 0
-# MITM: 2
+# MITM: 0
 
 [URL Rewrite]
-^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
 ^http:\/\/t\.cn http://sinaurl.cn 302
 ^http?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
 ^http?:\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
@@ -60,5 +59,3 @@
 ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
 
-[MITM]
-hostname = api.abema.io,www.google.cn

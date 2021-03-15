@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-15 01:53:39.853286
-# DOMAIN-SUFFIX: 28505
+# UPDATED: 2021-03-16 01:53:03.884688
+# DOMAIN-SUFFIX: 28511
 # DOMAIN: 39
 # DOMAIN-KEYWORD: 42
 # IP-CIDR: 110
 # IP-CIDR6: 3
 # PROCESS-NAME: 1
-# TOTAL: 28700
+# TOTAL: 28706
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
@@ -14075,7 +14075,9 @@ payload:
   - DOMAIN-SUFFIX,lincoln
   - DOMAIN-SUFFIX,linde
   - DOMAIN-SUFFIX,lindyhop.cl
+  - DOMAIN-SUFFIX,line-apps-beta.com
   - DOMAIN-SUFFIX,line-apps.com
+  - DOMAIN-SUFFIX,line-beta.me
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,line.me
@@ -14083,6 +14085,9 @@ payload:
   - DOMAIN-SUFFIX,line36.ga
   - DOMAIN-SUFFIX,linear-abematv.akamaized.net
   - DOMAIN-SUFFIX,linearcollider.org
+  - DOMAIN-SUFFIX,linecorp.com
+  - DOMAIN-SUFFIX,linefriends.com
+  - DOMAIN-SUFFIX,linemobile.com
   - DOMAIN-SUFFIX,linepost.hk
   - DOMAIN-SUFFIX,linetv.tw
   - DOMAIN-SUFFIX,linglingfa.com
@@ -23532,6 +23537,7 @@ payload:
   - DOMAIN-SUFFIX,website--4210285482279019401133-hostel.business.site
   - DOMAIN-SUFFIX,websitepulse.com
   - DOMAIN-SUFFIX,websnapr.com
+  - DOMAIN-SUFFIX,webtoons.com
   - DOMAIN-SUFFIX,webtunnel.org
   - DOMAIN-SUFFIX,webtype.com
   - DOMAIN-SUFFIX,webuild.hk

@@ -1,14 +1,13 @@
 #!name=重定向
-#!desc=最后更新时间 2021-03-15 01:54:50
+#!desc=最后更新时间 2021-03-16 01:54:11
 #!author=blackmatrix7
 #!github=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=52
+#!rewrite=51
 #!script=0
 #!force_http_engine_hosts=0
-#!mitm=2
+#!mitm=0
 
 [URL Rewrite]
-^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
 ^http:\/\/t\.cn http://sinaurl.cn 302
 ^http?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
 ^http?:\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
@@ -60,6 +59,3 @@
 ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302
 ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
-
-[MITM]
-hostname = %APPEND% api.abema.io,www.google.cn

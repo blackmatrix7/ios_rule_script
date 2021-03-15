@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-15 01:53:45.464015
+# UPDATED: 2021-03-16 01:53:08.885689
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 9to5 共 7 条规则重复
 HOST-SUFFIX,9to5google.com
@@ -62,6 +62,12 @@ HOST-SUFFIX,picsee.pro
 HOST-SUFFIX,pise.pw
 HOST-SUFFIX,pros.ee
 HOST-SUFFIX,pse.is
+#  与 Reddit 共 5 条规则重复
+HOST-SUFFIX,redd.it
+HOST-SUFFIX,reddit.com
+HOST-SUFFIX,redditmail.com
+HOST-SUFFIX,redditmedia.com
+HOST-SUFFIX,redditstatic.com
 #  与 Sectigo 共 7 条规则重复
 HOST-SUFFIX,enterprisessl.com
 HOST-SUFFIX,hackerguardian.com
@@ -202,7 +208,7 @@ HOST-SUFFIX,zdusercontent.com
 HOST-SUFFIX,zendesk.com
 HOST-SUFFIX,zndsk.com
 HOST-SUFFIX,zopim.com
-#  与 Global 共 28579 条规则重复
+#  与 Global 共 28585 条规则重复
 HOST,amp.akamaized.net
 HOST,apple.com.akadns.net
 HOST,assets-priconne-redive-us.akamaized.net
@@ -14253,7 +14259,9 @@ HOST-SUFFIX,linco.cl
 HOST-SUFFIX,lincoln
 HOST-SUFFIX,linde
 HOST-SUFFIX,lindyhop.cl
+HOST-SUFFIX,line-apps-beta.com
 HOST-SUFFIX,line-apps.com
+HOST-SUFFIX,line-beta.me
 HOST-SUFFIX,line-cdn.net
 HOST-SUFFIX,line-scdn.net
 HOST-SUFFIX,line.me
@@ -14261,6 +14269,9 @@ HOST-SUFFIX,line.vn
 HOST-SUFFIX,line36.ga
 HOST-SUFFIX,linear-abematv.akamaized.net
 HOST-SUFFIX,linearcollider.org
+HOST-SUFFIX,linecorp.com
+HOST-SUFFIX,linefriends.com
+HOST-SUFFIX,linemobile.com
 HOST-SUFFIX,linepost.hk
 HOST-SUFFIX,linglingfa.com
 HOST-SUFFIX,lingq.com
@@ -23678,6 +23689,7 @@ HOST-SUFFIX,webs.com
 HOST-SUFFIX,website--4210285482279019401133-hostel.business.site
 HOST-SUFFIX,websitepulse.com
 HOST-SUFFIX,websnapr.com
+HOST-SUFFIX,webtoons.com
 HOST-SUFFIX,webtunnel.org
 HOST-SUFFIX,webtype.com
 HOST-SUFFIX,webuild.hk
@@ -33060,6 +33072,33 @@ HOST-SUFFIX,bbc.in
 HOST-SUFFIX,bbcchinese.com
 HOST-SUFFIX,bbci.co.uk
 HOST-SUFFIX,bbcverticals.com
+#  与 Naver 共 26 条规则重复
+HOST-SUFFIX,grafolio.com
+HOST-SUFFIX,lin.ee
+HOST-SUFFIX,line-apps-beta.com
+HOST-SUFFIX,line-apps.com
+HOST-SUFFIX,line-beta.me
+HOST-SUFFIX,line-cdn.net
+HOST-SUFFIX,line-scdn.net
+HOST-SUFFIX,line.me
+HOST-SUFFIX,linecorp.com
+HOST-SUFFIX,linefriends.com
+HOST-SUFFIX,linemobile.com
+HOST-SUFFIX,naver.com
+HOST-SUFFIX,naver.jp
+HOST-SUFFIX,naver.net
+HOST-SUFFIX,navercorp.com
+HOST-SUFFIX,nhncorp.jp
+HOST-SUFFIX,plug.game
+HOST-SUFFIX,pstatic.net
+HOST-SUFFIX,webtoons.com
+IP-CIDR,119.235.235.0/24
+IP-CIDR,119.235.236.0/23
+IP-CIDR,125.6.190.0/24
+IP-CIDR,147.92.128.0/17
+IP-CIDR,203.104.103.0/24
+IP-CIDR,203.174.66.64/26
+IP-CIDR,203.174.77.0/24
 #  与 Oracle 共 11 条规则重复
 HOST-SUFFIX,ebay.be
 HOST-SUFFIX,ebay.ch
@@ -33278,27 +33317,6 @@ HOST-SUFFIX,verisign.net
 HOST-SUFFIX,verisign.org
 HOST-SUFFIX,verisign.pro
 HOST-SUFFIX,verisigninc.com
-#  与 Naver 共 20 条规则重复
-HOST-SUFFIX,grafolio.com
-HOST-SUFFIX,lin.ee
-HOST-SUFFIX,line-apps.com
-HOST-SUFFIX,line-cdn.net
-HOST-SUFFIX,line-scdn.net
-HOST-SUFFIX,line.me
-HOST-SUFFIX,naver.com
-HOST-SUFFIX,naver.jp
-HOST-SUFFIX,naver.net
-HOST-SUFFIX,navercorp.com
-HOST-SUFFIX,nhncorp.jp
-HOST-SUFFIX,plug.game
-HOST-SUFFIX,pstatic.net
-IP-CIDR,119.235.235.0/24
-IP-CIDR,119.235.236.0/23
-IP-CIDR,125.6.190.0/24
-IP-CIDR,147.92.128.0/17
-IP-CIDR,203.104.103.0/24
-IP-CIDR,203.174.66.64/26
-IP-CIDR,203.174.77.0/24
 #  与 Huffpost 共 6 条规则重复
 HOST-SUFFIX,huffingtonpost.com
 HOST-SUFFIX,huffingtonpost.it

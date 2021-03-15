@@ -1,0 +1,14 @@
+# NAME: 爱奇艺每日签到
+# AUTHOR: NobyDa
+# GITHUB: https://github.com/NobyDa/Script/tree/master/iQIYI-DailyBonus
+# UPDATED: 2021-03-16 01:54:11
+# REWRITE: 0
+# SCRIPT: 1
+# MITM: 1
+
+[Script]
+http-request ^https?:\/\/iface(\d)?\.iqiyi\.com\/ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,tag=爱奇艺_获取cookie
+cron "30 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,timeout=60,tag=爱奇艺_每日签到 
+
+[MITM]
+hostname = ifac*.iqiyi.com

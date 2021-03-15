@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-15 01:53:48.625263
+# UPDATED: 2021-03-16 01:53:11.706275
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 9to5 共 7 条规则重复
@@ -63,6 +63,12 @@ payload:
   - DOMAIN-SUFFIX,pise.pw
   - DOMAIN-SUFFIX,pros.ee
   - DOMAIN-SUFFIX,pse.is
+#  与 Reddit 共 5 条规则重复
+  - DOMAIN-SUFFIX,redd.it
+  - DOMAIN-SUFFIX,reddit.com
+  - DOMAIN-SUFFIX,redditmail.com
+  - DOMAIN-SUFFIX,redditmedia.com
+  - DOMAIN-SUFFIX,redditstatic.com
 #  与 Sectigo 共 7 条规则重复
   - DOMAIN-SUFFIX,enterprisessl.com
   - DOMAIN-SUFFIX,hackerguardian.com
@@ -203,7 +209,7 @@ payload:
   - DOMAIN-SUFFIX,zendesk.com
   - DOMAIN-SUFFIX,zndsk.com
   - DOMAIN-SUFFIX,zopim.com
-#  与 Global 共 28567 条规则重复
+#  与 Global 共 28573 条规则重复
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
   - DOMAIN,assets-priconne-redive-us.akamaized.net
@@ -14254,7 +14260,9 @@ payload:
   - DOMAIN-SUFFIX,lincoln
   - DOMAIN-SUFFIX,linde
   - DOMAIN-SUFFIX,lindyhop.cl
+  - DOMAIN-SUFFIX,line-apps-beta.com
   - DOMAIN-SUFFIX,line-apps.com
+  - DOMAIN-SUFFIX,line-beta.me
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,line.me
@@ -14262,6 +14270,9 @@ payload:
   - DOMAIN-SUFFIX,line36.ga
   - DOMAIN-SUFFIX,linear-abematv.akamaized.net
   - DOMAIN-SUFFIX,linearcollider.org
+  - DOMAIN-SUFFIX,linecorp.com
+  - DOMAIN-SUFFIX,linefriends.com
+  - DOMAIN-SUFFIX,linemobile.com
   - DOMAIN-SUFFIX,linepost.hk
   - DOMAIN-SUFFIX,linglingfa.com
   - DOMAIN-SUFFIX,lingq.com
@@ -23679,6 +23690,7 @@ payload:
   - DOMAIN-SUFFIX,website--4210285482279019401133-hostel.business.site
   - DOMAIN-SUFFIX,websitepulse.com
   - DOMAIN-SUFFIX,websnapr.com
+  - DOMAIN-SUFFIX,webtoons.com
   - DOMAIN-SUFFIX,webtunnel.org
   - DOMAIN-SUFFIX,webtype.com
   - DOMAIN-SUFFIX,webuild.hk
@@ -33085,6 +33097,33 @@ payload:
   - DOMAIN-SUFFIX,mylcloud.net
   - DOMAIN-SUFFIX,mzstatic.com
   - DOMAIN-SUFFIX,wwwicloud.com
+#  与 Naver 共 26 条规则重复
+  - DOMAIN-SUFFIX,grafolio.com
+  - DOMAIN-SUFFIX,lin.ee
+  - DOMAIN-SUFFIX,line-apps-beta.com
+  - DOMAIN-SUFFIX,line-apps.com
+  - DOMAIN-SUFFIX,line-beta.me
+  - DOMAIN-SUFFIX,line-cdn.net
+  - DOMAIN-SUFFIX,line-scdn.net
+  - DOMAIN-SUFFIX,line.me
+  - DOMAIN-SUFFIX,linecorp.com
+  - DOMAIN-SUFFIX,linefriends.com
+  - DOMAIN-SUFFIX,linemobile.com
+  - DOMAIN-SUFFIX,naver.com
+  - DOMAIN-SUFFIX,naver.jp
+  - DOMAIN-SUFFIX,naver.net
+  - DOMAIN-SUFFIX,navercorp.com
+  - DOMAIN-SUFFIX,nhncorp.jp
+  - DOMAIN-SUFFIX,plug.game
+  - DOMAIN-SUFFIX,pstatic.net
+  - DOMAIN-SUFFIX,webtoons.com
+  - IP-CIDR,119.235.235.0/24
+  - IP-CIDR,119.235.236.0/23
+  - IP-CIDR,125.6.190.0/24
+  - IP-CIDR,147.92.128.0/17
+  - IP-CIDR,203.104.103.0/24
+  - IP-CIDR,203.174.66.64/26
+  - IP-CIDR,203.174.77.0/24
 #  与 Oracle 共 11 条规则重复
   - DOMAIN-SUFFIX,ebay.be
   - DOMAIN-SUFFIX,ebay.ch
@@ -33267,27 +33306,6 @@ payload:
   - DOMAIN-SUFFIX,verisign.org
   - DOMAIN-SUFFIX,verisign.pro
   - DOMAIN-SUFFIX,verisigninc.com
-#  与 Naver 共 20 条规则重复
-  - DOMAIN-SUFFIX,grafolio.com
-  - DOMAIN-SUFFIX,lin.ee
-  - DOMAIN-SUFFIX,line-apps.com
-  - DOMAIN-SUFFIX,line-cdn.net
-  - DOMAIN-SUFFIX,line-scdn.net
-  - DOMAIN-SUFFIX,line.me
-  - DOMAIN-SUFFIX,naver.com
-  - DOMAIN-SUFFIX,naver.jp
-  - DOMAIN-SUFFIX,naver.net
-  - DOMAIN-SUFFIX,navercorp.com
-  - DOMAIN-SUFFIX,nhncorp.jp
-  - DOMAIN-SUFFIX,plug.game
-  - DOMAIN-SUFFIX,pstatic.net
-  - IP-CIDR,119.235.235.0/24
-  - IP-CIDR,119.235.236.0/23
-  - IP-CIDR,125.6.190.0/24
-  - IP-CIDR,147.92.128.0/17
-  - IP-CIDR,203.104.103.0/24
-  - IP-CIDR,203.174.66.64/26
-  - IP-CIDR,203.174.77.0/24
 #  与 DAZN 共 6 条规则重复
   - DOMAIN-SUFFIX,dazn-api.com
   - DOMAIN-SUFFIX,dazn.com

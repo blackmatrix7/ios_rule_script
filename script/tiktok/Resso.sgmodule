@@ -1,9 +1,0 @@
-#!name=Resso
-#!desc=Unlock Resso By JO2EY
-#!system=ios
-
-[URL Rewrite]
-(?<=(carrier|account|sys|sim)_region=)cn in 307
-
-[MITM]
-hostname = %APPEND% api.resso.app

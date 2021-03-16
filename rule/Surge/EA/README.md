@@ -6,7 +6,7 @@
 
 定时爬取互联网上开源的EA分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
-最后检查时间：2021-03-16 01:53:16.993271。
+最后检查时间：2021-03-17 01:55:22.342419。
 
 ## 规则统计
 
@@ -44,7 +44,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Game)    | 532   | [163](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/EA/EA_Repeat.list)   |   30.64% |
+|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Game)    | 533   | [163](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/EA/EA_Repeat.list)   |   30.58% |
 ### 特别说明
 程序在实际运算时，会根据DOMAIN、DOMAIN-SUFFIX、IP-CIDR、IP-CIDR6间的包含关系进行去重，而出于运行效率考虑，重复规则只统计纯文本匹配，所以可能与实际效果有所出入，仅供参考。
 

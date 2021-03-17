@@ -1,7 +1,7 @@
 # NAME: Global 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-17 01:55:13.272660
+# UPDATED: 2021-03-18 01:54:58.721125
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 9to5 共 7 条规则重复
 HOST-SUFFIX,9to5google.com
@@ -115,6 +115,12 @@ HOST-SUFFIX,snap.com
 HOST-SUFFIX,snapads.com
 HOST-SUFFIX,snapchat.com
 HOST-SUFFIX,snapkit.co
+#  与 Spark 共 5 条规则重复
+HOST-SUFFIX,amplitude.com
+HOST-SUFFIX,firebaseio.com
+HOST-SUFFIX,hockeyapp.net
+HOST-SUFFIX,readdle.com
+HOST-SUFFIX,smartmailcloud.com
 #  与 Stackexchange 共 15 条规则重复
 HOST-SUFFIX,askubuntu.com
 HOST-SUFFIX,blogoverflow.com
@@ -216,7 +222,7 @@ HOST-SUFFIX,zdusercontent.com
 HOST-SUFFIX,zendesk.com
 HOST-SUFFIX,zndsk.com
 HOST-SUFFIX,zopim.com
-#  与 Proxy 共 28585 条规则重复
+#  与 Proxy 共 28605 条规则重复
 HOST,amp.akamaized.net
 HOST,apple.com.akadns.net
 HOST,assets-priconne-redive-us.akamaized.net
@@ -2653,6 +2659,7 @@ HOST-SUFFIX,ampj778.com
 HOST-SUFFIX,ampj90.com
 HOST-SUFFIX,amplifyapp.com
 HOST-SUFFIX,amplifyframework.com
+HOST-SUFFIX,amplitude.com
 HOST-SUFFIX,ampproject.com
 HOST-SUFFIX,ampproject.net
 HOST-SUFFIX,ampproject.org
@@ -2842,7 +2849,6 @@ HOST-SUFFIX,apk2.ml
 HOST-SUFFIX,apk2.tk
 HOST-SUFFIX,apk4fun.com
 HOST-SUFFIX,apkcombo.com
-HOST-SUFFIX,apkdler.com
 HOST-SUFFIX,apkgk.com
 HOST-SUFFIX,apkhere.com
 HOST-SUFFIX,apkmirror.com
@@ -18968,6 +18974,7 @@ HOST-SUFFIX,reactjs.org
 HOST-SUFFIX,read.5article.com
 HOST-SUFFIX,read01.com
 HOST-SUFFIX,read100.com
+HOST-SUFFIX,readdle.com
 HOST-SUFFIX,readingtimes.com.tw
 HOST-SUFFIX,readmoo.com
 HOST-SUFFIX,readmyblog.org
@@ -21110,10 +21117,12 @@ HOST-SUFFIX,taobonfu.com
 HOST-SUFFIX,taohuazu.cc
 HOST-SUFFIX,taoism.net
 HOST-SUFFIX,taolun.info
+HOST-SUFFIX,tap.io
 HOST-SUFFIX,tapanwap.com
 HOST-SUFFIX,tapatalk.com
 HOST-SUFFIX,tapbots.com
 HOST-SUFFIX,tapbots.net
+HOST-SUFFIX,taptap.tw
 HOST-SUFFIX,taptotokyo.com
 HOST-SUFFIX,taragana.com
 HOST-SUFFIX,target
@@ -28729,6 +28738,12 @@ IP-CIDR,119.235.224.0/21
 IP-CIDR,119.235.232.0/23
 IP-CIDR,119.235.235.0/24
 IP-CIDR,119.235.236.0/23
+IP-CIDR,120.232.181.162/32
+IP-CIDR,120.241.147.226/32
+IP-CIDR,120.253.253.226/32
+IP-CIDR,120.253.255.162/32
+IP-CIDR,120.253.255.34/32
+IP-CIDR,120.253.255.98/32
 IP-CIDR,125.209.208.0/20
 IP-CIDR,125.6.146.0/24
 IP-CIDR,125.6.149.0/24
@@ -28755,14 +28770,25 @@ IP-CIDR,18.184.0.0/15
 IP-CIDR,18.194.0.0/15
 IP-CIDR,18.208.0.0/13
 IP-CIDR,18.232.0.0/14
+IP-CIDR,180.163.150.162/32
+IP-CIDR,180.163.150.34/32
+IP-CIDR,180.163.151.162/32
+IP-CIDR,180.163.151.34/32
 IP-CIDR,184.173.128.0/17
 IP-CIDR,185.60.216.0/22
 IP-CIDR,203.104.103.0/24
 IP-CIDR,203.104.128.0/19
 IP-CIDR,203.174.66.64/26
 IP-CIDR,203.174.77.0/24
+IP-CIDR,203.208.39.0/24
+IP-CIDR,203.208.40.0/23
+IP-CIDR,203.208.43.0/24
+IP-CIDR,203.208.50.0/24
 IP-CIDR,204.15.20.0/22
 IP-CIDR,208.43.0.0/16
+IP-CIDR,220.181.174.162/32
+IP-CIDR,220.181.174.226/32
+IP-CIDR,220.181.174.34/32
 IP-CIDR,27.0.236.0/22
 IP-CIDR,31.13.24.0/21
 IP-CIDR,31.13.64.0/18
@@ -31933,35 +31959,6 @@ HOST-SUFFIX,rust-lang.org
 HOST-SUFFIX,rustup.rs
 HOST-SUFFIX,seamonkey-project.org
 HOST-SUFFIX,thunderbird.net
-#  与 Netflix 共 28 条规则重复
-HOST-SUFFIX,fast.com
-HOST-SUFFIX,netflix.com
-HOST-SUFFIX,netflix.net
-HOST-SUFFIX,netflixdnstest0.com
-HOST-SUFFIX,netflixdnstest1.com
-HOST-SUFFIX,netflixdnstest2.com
-HOST-SUFFIX,netflixdnstest3.com
-HOST-SUFFIX,netflixdnstest4.com
-HOST-SUFFIX,netflixdnstest5.com
-HOST-SUFFIX,netflixdnstest6.com
-HOST-SUFFIX,netflixdnstest7.com
-HOST-SUFFIX,netflixdnstest8.com
-HOST-SUFFIX,netflixdnstest9.com
-HOST-SUFFIX,nflxext.com
-HOST-SUFFIX,nflximg.com
-HOST-SUFFIX,nflximg.net
-HOST-SUFFIX,nflxso.net
-HOST-SUFFIX,nflxvideo.net
-IP-CIDR,108.175.32.0/20
-IP-CIDR,192.173.64.0/18
-IP-CIDR,198.38.96.0/19
-IP-CIDR,198.45.48.0/20
-IP-CIDR,23.246.0.0/18
-IP-CIDR,37.77.184.0/21
-IP-CIDR,45.57.0.0/17
-IP-CIDR,64.120.128.0/17
-IP-CIDR,66.197.128.0/17
-USER-AGENT,Argo*
 #  与 Pixnet 共 6 条规则重复
 HOST-SUFFIX,pimg.tw
 HOST-SUFFIX,pixanalytics.com
@@ -32000,6 +31997,35 @@ HOST-SUFFIX,pinterest.jp
 HOST-SUFFIX,pinterest.nl
 HOST-SUFFIX,pinterest.pt
 HOST-SUFFIX,pinterest.se
+#  与 Netflix 共 28 条规则重复
+HOST-SUFFIX,fast.com
+HOST-SUFFIX,netflix.com
+HOST-SUFFIX,netflix.net
+HOST-SUFFIX,netflixdnstest0.com
+HOST-SUFFIX,netflixdnstest1.com
+HOST-SUFFIX,netflixdnstest2.com
+HOST-SUFFIX,netflixdnstest3.com
+HOST-SUFFIX,netflixdnstest4.com
+HOST-SUFFIX,netflixdnstest5.com
+HOST-SUFFIX,netflixdnstest6.com
+HOST-SUFFIX,netflixdnstest7.com
+HOST-SUFFIX,netflixdnstest8.com
+HOST-SUFFIX,netflixdnstest9.com
+HOST-SUFFIX,nflxext.com
+HOST-SUFFIX,nflximg.com
+HOST-SUFFIX,nflximg.net
+HOST-SUFFIX,nflxso.net
+HOST-SUFFIX,nflxvideo.net
+IP-CIDR,108.175.32.0/20
+IP-CIDR,192.173.64.0/18
+IP-CIDR,198.38.96.0/19
+IP-CIDR,198.45.48.0/20
+IP-CIDR,23.246.0.0/18
+IP-CIDR,37.77.184.0/21
+IP-CIDR,45.57.0.0/17
+IP-CIDR,64.120.128.0/17
+IP-CIDR,66.197.128.0/17
+USER-AGENT,Argo*
 #  与 Nike 共 7 条规则重复
 HOST-SUFFIX,nike.com
 HOST-SUFFIX,nikecdn.com
@@ -32121,18 +32147,7 @@ HOST-SUFFIX,thisispolaris.com
 HOST-SUFFIX,watchdisneyfe.com
 HOST-SUFFIX,watchespn.com
 USER-AGENT,Disney+*
-#  与 Rarbg 共 10 条规则重复
-HOST-SUFFIX,proxyrarbg.org
-HOST-SUFFIX,rarbg.is
-HOST-SUFFIX,rarbg.me
-HOST-SUFFIX,rarbgaccess.org
-HOST-SUFFIX,rarbggo.org
-HOST-SUFFIX,rarbgmirror.com
-HOST-SUFFIX,rarbgmirror.org
-HOST-SUFFIX,rarbgproxy.org
-HOST-SUFFIX,rarbgprx.org
-HOST-SUFFIX,rarbgunblock.com
-#  与 Amazon 共 104 条规则重复
+#  与 Amazon 共 105 条规则重复
 HOST-SUFFIX,a2z.com
 HOST-SUFFIX,aboutamazon.com
 HOST-SUFFIX,aboutamazon.it
@@ -32210,6 +32225,7 @@ HOST-SUFFIX,kindleoasis.org
 HOST-SUFFIX,kindleoasisnews.com
 HOST-SUFFIX,kindleproject.com
 HOST-SUFFIX,llnwd.net
+HOST-SUFFIX,media-amazon.com
 HOST-SUFFIX,primeday.info
 HOST-SUFFIX,primevideo.com
 HOST-SUFFIX,siege-amazon.com
@@ -32237,6 +32253,17 @@ IP-CIDR,54.230.156.0/22
 IP-CIDR,54.93.0.0/16
 USER-AGENT,InstantVideo.US*
 USER-AGENT,Prime%20Video*
+#  与 Rarbg 共 10 条规则重复
+HOST-SUFFIX,proxyrarbg.org
+HOST-SUFFIX,rarbg.is
+HOST-SUFFIX,rarbg.me
+HOST-SUFFIX,rarbgaccess.org
+HOST-SUFFIX,rarbggo.org
+HOST-SUFFIX,rarbgmirror.com
+HOST-SUFFIX,rarbgmirror.org
+HOST-SUFFIX,rarbgproxy.org
+HOST-SUFFIX,rarbgprx.org
+HOST-SUFFIX,rarbgunblock.com
 #  与 AmazonPrimeVideo 共 16 条规则重复
 HOST-KEYWORD,avoddashs
 HOST-SUFFIX,aiv-cdn.net
@@ -33437,9 +33464,8 @@ HOST-SUFFIX,ttvnw.net
 HOST-SUFFIX,twitch.tv
 HOST-SUFFIX,twitchcdn.net
 HOST-SUFFIX,twitchsvc.net
-#  与 YouTube 共 60 条规则重复
+#  与 YouTube 共 59 条规则重复
 HOST-KEYWORD,youtube
-HOST-SUFFIX,app-measurement.com
 HOST-SUFFIX,ggpht.com
 HOST-SUFFIX,googlevideo.com
 HOST-SUFFIX,gvt2.com

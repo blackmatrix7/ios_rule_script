@@ -1,16 +1,14 @@
 # NAME: 京东多合一签到脚本
 # AUTHOR: NobyDa
 # GITHUB: https://github.com/NobyDa/Script/tree/master/JD-DailyBonus
-# UPDATED: 2021-03-17 01:56:16
+# UPDATED: 2021-03-18 01:56:04
 # REWRITE: 0
 # SCRIPT: 1
 # MITM: 1
 
 [Script]
-http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,tag=获取京东Cookie
+http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,tag=京东_获取Cookie
 cron "5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,timeout=60,tag=京东_多合一签到 
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,timeout=60,tag=京东多合一签到 
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,timeout=60,tag=京东多合一签到, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 [MITM]
 hostname = api.m.jd.com

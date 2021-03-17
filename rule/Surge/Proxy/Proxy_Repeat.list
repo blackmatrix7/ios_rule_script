@@ -1,7 +1,7 @@
 # NAME: Proxy 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-17 01:55:11.705734
+# UPDATED: 2021-03-18 01:54:57.113084
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 9to5 共 7 条规则重复
 DOMAIN-SUFFIX,9to5google.com
@@ -107,6 +107,12 @@ DOMAIN-SUFFIX,snap.com
 DOMAIN-SUFFIX,snapads.com
 DOMAIN-SUFFIX,snapchat.com
 DOMAIN-SUFFIX,snapkit.co
+#  与 Spark 共 5 条规则重复
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,hockeyapp.net
+DOMAIN-SUFFIX,readdle.com
+DOMAIN-SUFFIX,smartmailcloud.com
 #  与 Stackexchange 共 15 条规则重复
 DOMAIN-SUFFIX,askubuntu.com
 DOMAIN-SUFFIX,blogoverflow.com
@@ -208,7 +214,7 @@ DOMAIN-SUFFIX,zdusercontent.com
 DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,zndsk.com
 DOMAIN-SUFFIX,zopim.com
-#  与 Global 共 28585 条规则重复
+#  与 Global 共 28605 条规则重复
 DOMAIN,amp.akamaized.net
 DOMAIN,apple.com.akadns.net
 DOMAIN,assets-priconne-redive-us.akamaized.net
@@ -2645,6 +2651,7 @@ DOMAIN-SUFFIX,ampj778.com
 DOMAIN-SUFFIX,ampj90.com
 DOMAIN-SUFFIX,amplifyapp.com
 DOMAIN-SUFFIX,amplifyframework.com
+DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,ampproject.com
 DOMAIN-SUFFIX,ampproject.net
 DOMAIN-SUFFIX,ampproject.org
@@ -2834,7 +2841,6 @@ DOMAIN-SUFFIX,apk2.ml
 DOMAIN-SUFFIX,apk2.tk
 DOMAIN-SUFFIX,apk4fun.com
 DOMAIN-SUFFIX,apkcombo.com
-DOMAIN-SUFFIX,apkdler.com
 DOMAIN-SUFFIX,apkgk.com
 DOMAIN-SUFFIX,apkhere.com
 DOMAIN-SUFFIX,apkmirror.com
@@ -18960,6 +18966,7 @@ DOMAIN-SUFFIX,reactjs.org
 DOMAIN-SUFFIX,read.5article.com
 DOMAIN-SUFFIX,read01.com
 DOMAIN-SUFFIX,read100.com
+DOMAIN-SUFFIX,readdle.com
 DOMAIN-SUFFIX,readingtimes.com.tw
 DOMAIN-SUFFIX,readmoo.com
 DOMAIN-SUFFIX,readmyblog.org
@@ -21102,10 +21109,12 @@ DOMAIN-SUFFIX,taobonfu.com
 DOMAIN-SUFFIX,taohuazu.cc
 DOMAIN-SUFFIX,taoism.net
 DOMAIN-SUFFIX,taolun.info
+DOMAIN-SUFFIX,tap.io
 DOMAIN-SUFFIX,tapanwap.com
 DOMAIN-SUFFIX,tapatalk.com
 DOMAIN-SUFFIX,tapbots.com
 DOMAIN-SUFFIX,tapbots.net
+DOMAIN-SUFFIX,taptap.tw
 DOMAIN-SUFFIX,taptotokyo.com
 DOMAIN-SUFFIX,taragana.com
 DOMAIN-SUFFIX,target
@@ -28721,6 +28730,12 @@ IP-CIDR,119.235.224.0/21
 IP-CIDR,119.235.232.0/23
 IP-CIDR,119.235.235.0/24
 IP-CIDR,119.235.236.0/23
+IP-CIDR,120.232.181.162/32
+IP-CIDR,120.241.147.226/32
+IP-CIDR,120.253.253.226/32
+IP-CIDR,120.253.255.162/32
+IP-CIDR,120.253.255.34/32
+IP-CIDR,120.253.255.98/32
 IP-CIDR,125.209.208.0/20
 IP-CIDR,125.6.146.0/24
 IP-CIDR,125.6.149.0/24
@@ -28747,14 +28762,25 @@ IP-CIDR,18.184.0.0/15
 IP-CIDR,18.194.0.0/15
 IP-CIDR,18.208.0.0/13
 IP-CIDR,18.232.0.0/14
+IP-CIDR,180.163.150.162/32
+IP-CIDR,180.163.150.34/32
+IP-CIDR,180.163.151.162/32
+IP-CIDR,180.163.151.34/32
 IP-CIDR,184.173.128.0/17
 IP-CIDR,185.60.216.0/22
 IP-CIDR,203.104.103.0/24
 IP-CIDR,203.104.128.0/19
 IP-CIDR,203.174.66.64/26
 IP-CIDR,203.174.77.0/24
+IP-CIDR,203.208.39.0/24
+IP-CIDR,203.208.40.0/23
+IP-CIDR,203.208.43.0/24
+IP-CIDR,203.208.50.0/24
 IP-CIDR,204.15.20.0/22
 IP-CIDR,208.43.0.0/16
+IP-CIDR,220.181.174.162/32
+IP-CIDR,220.181.174.226/32
+IP-CIDR,220.181.174.34/32
 IP-CIDR,27.0.236.0/22
 IP-CIDR,31.13.24.0/21
 IP-CIDR,31.13.64.0/18
@@ -28794,7 +28820,7 @@ USER-AGENT,TikTok*
 USER-AGENT,WhatsApp*
 USER-AGENT,battleroyale*
 USER-AGENT,com.apple.trustd*
-#  与 BlackList 共 760 条规则重复
+#  与 BlackList 共 759 条规则重复
 DOMAIN-KEYWORD,appledaily
 DOMAIN-KEYWORD,beetalk
 DOMAIN-KEYWORD,blogspot
@@ -28845,7 +28871,6 @@ DOMAIN-SUFFIX,aolcdn.com
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,apartmentratings.com
 DOMAIN-SUFFIX,apartments.com
-DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,api.mixpanel.com
 DOMAIN-SUFFIX,apigee.com
 DOMAIN-SUFFIX,apk-dl.com
@@ -32053,7 +32078,7 @@ DOMAIN-SUFFIX,thestationbymaker.com
 DOMAIN-SUFFIX,thisispolaris.com
 DOMAIN-SUFFIX,watchdisneyfe.com
 DOMAIN-SUFFIX,watchespn.com
-#  与 Amazon 共 102 条规则重复
+#  与 Amazon 共 103 条规则重复
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,aboutamazon.com
 DOMAIN-SUFFIX,aboutamazon.it
@@ -32131,6 +32156,7 @@ DOMAIN-SUFFIX,kindleoasis.org
 DOMAIN-SUFFIX,kindleoasisnews.com
 DOMAIN-SUFFIX,kindleproject.com
 DOMAIN-SUFFIX,llnwd.net
+DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,primeday.info
 DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,siege-amazon.com
@@ -33350,9 +33376,23 @@ DOMAIN-SUFFIX,thomsonreuters.com
 DOMAIN-SUFFIX,thomsonreutersmexico.com
 DOMAIN-SUFFIX,tmsnrt.rs
 DOMAIN-SUFFIX,tr.com
-#  与 YouTube 共 58 条规则重复
+#  与 eBay 共 14 条规则重复
+DOMAIN-SUFFIX,e-bay.it
+DOMAIN-SUFFIX,ebay-us.com
+DOMAIN-SUFFIX,ebay.be
+DOMAIN-SUFFIX,ebay.ch
+DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,ebay.it
+DOMAIN-SUFFIX,ebay.pk
+DOMAIN-SUFFIX,ebaycdn.net
+DOMAIN-SUFFIX,ebayimg.com
+DOMAIN-SUFFIX,ebayinc.com
+DOMAIN-SUFFIX,ebaymainstreet.com
+DOMAIN-SUFFIX,ebayprivacycenter.com
+DOMAIN-SUFFIX,ebayrtm.com
+DOMAIN-SUFFIX,ebaystatic.com
+#  与 YouTube 共 57 条规则重复
 DOMAIN-KEYWORD,youtube
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt2.com
@@ -33409,21 +33449,6 @@ DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,youtubemobilesupport.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
-#  与 eBay 共 14 条规则重复
-DOMAIN-SUFFIX,e-bay.it
-DOMAIN-SUFFIX,ebay-us.com
-DOMAIN-SUFFIX,ebay.be
-DOMAIN-SUFFIX,ebay.ch
-DOMAIN-SUFFIX,ebay.com
-DOMAIN-SUFFIX,ebay.it
-DOMAIN-SUFFIX,ebay.pk
-DOMAIN-SUFFIX,ebaycdn.net
-DOMAIN-SUFFIX,ebayimg.com
-DOMAIN-SUFFIX,ebayinc.com
-DOMAIN-SUFFIX,ebaymainstreet.com
-DOMAIN-SUFFIX,ebayprivacycenter.com
-DOMAIN-SUFFIX,ebayrtm.com
-DOMAIN-SUFFIX,ebaystatic.com
 #  与 DAZN 共 6 条规则重复
 DOMAIN-SUFFIX,dazn-api.com
 DOMAIN-SUFFIX,dazn.com

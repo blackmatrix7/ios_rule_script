@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-17 01:55:07.714787
-# DOMAIN-SUFFIX: 28518
+# UPDATED: 2021-03-18 01:54:52.970967
+# DOMAIN-SUFFIX: 28520
 # DOMAIN: 39
 # DOMAIN-KEYWORD: 29
-# IP-CIDR: 71
+# IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 28660
+# TOTAL: 28679
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
@@ -2421,6 +2421,7 @@ payload:
   - DOMAIN-SUFFIX,ampj90.com
   - DOMAIN-SUFFIX,amplifyapp.com
   - DOMAIN-SUFFIX,amplifyframework.com
+  - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,ampproject.com
   - DOMAIN-SUFFIX,ampproject.net
   - DOMAIN-SUFFIX,ampproject.org
@@ -2581,7 +2582,6 @@ payload:
   - DOMAIN-SUFFIX,api-login.kkbox.com.tw
   - DOMAIN-SUFFIX,api.a5188yes.com
   - DOMAIN-SUFFIX,api.ai
-  - DOMAIN-SUFFIX,api.amplitude.com
   - DOMAIN-SUFFIX,api.api861861.com
   - DOMAIN-SUFFIX,api.arcadia.pncle8.com
   - DOMAIN-SUFFIX,api.citizenvpn.com
@@ -2615,7 +2615,6 @@ payload:
   - DOMAIN-SUFFIX,apk2.tk
   - DOMAIN-SUFFIX,apk4fun.com
   - DOMAIN-SUFFIX,apkcombo.com
-  - DOMAIN-SUFFIX,apkdler.com
   - DOMAIN-SUFFIX,apkgk.com
   - DOMAIN-SUFFIX,apkhere.com
   - DOMAIN-SUFFIX,apkmirror.com
@@ -18788,6 +18787,7 @@ payload:
   - DOMAIN-SUFFIX,read.5article.com
   - DOMAIN-SUFFIX,read01.com
   - DOMAIN-SUFFIX,read100.com
+  - DOMAIN-SUFFIX,readdle.com
   - DOMAIN-SUFFIX,readingtimes.com.tw
   - DOMAIN-SUFFIX,readmoo.com
   - DOMAIN-SUFFIX,readmyblog.org
@@ -20942,10 +20942,12 @@ payload:
   - DOMAIN-SUFFIX,taohuazu.cc
   - DOMAIN-SUFFIX,taoism.net
   - DOMAIN-SUFFIX,taolun.info
+  - DOMAIN-SUFFIX,tap.io
   - DOMAIN-SUFFIX,tapanwap.com
   - DOMAIN-SUFFIX,tapatalk.com
   - DOMAIN-SUFFIX,tapbots.com
   - DOMAIN-SUFFIX,tapbots.net
+  - DOMAIN-SUFFIX,taptap.tw
   - DOMAIN-SUFFIX,taptotokyo.com
   - DOMAIN-SUFFIX,taragana.com
   - DOMAIN-SUFFIX,target
@@ -28608,6 +28610,12 @@ payload:
   - IP-CIDR,119.235.232.0/23
   - IP-CIDR,119.235.235.0/24
   - IP-CIDR,119.235.236.0/23
+  - IP-CIDR,120.232.181.162/32
+  - IP-CIDR,120.241.147.226/32
+  - IP-CIDR,120.253.253.226/32
+  - IP-CIDR,120.253.255.162/32
+  - IP-CIDR,120.253.255.34/32
+  - IP-CIDR,120.253.255.98/32
   - IP-CIDR,125.209.208.0/20
   - IP-CIDR,125.6.146.0/24
   - IP-CIDR,125.6.149.0/24
@@ -28634,14 +28642,25 @@ payload:
   - IP-CIDR,18.194.0.0/15
   - IP-CIDR,18.208.0.0/13
   - IP-CIDR,18.232.0.0/14
+  - IP-CIDR,180.163.150.162/32
+  - IP-CIDR,180.163.150.34/32
+  - IP-CIDR,180.163.151.162/32
+  - IP-CIDR,180.163.151.34/32
   - IP-CIDR,184.173.128.0/17
   - IP-CIDR,185.60.216.0/22
   - IP-CIDR,203.104.103.0/24
   - IP-CIDR,203.104.128.0/19
   - IP-CIDR,203.174.66.64/26
   - IP-CIDR,203.174.77.0/24
+  - IP-CIDR,203.208.39.0/24
+  - IP-CIDR,203.208.40.0/23
+  - IP-CIDR,203.208.43.0/24
+  - IP-CIDR,203.208.50.0/24
   - IP-CIDR,204.15.20.0/22
   - IP-CIDR,208.43.0.0/16
+  - IP-CIDR,220.181.174.162/32
+  - IP-CIDR,220.181.174.226/32
+  - IP-CIDR,220.181.174.34/32
   - IP-CIDR,27.0.236.0/22
   - IP-CIDR,31.13.24.0/21
   - IP-CIDR,31.13.64.0/18

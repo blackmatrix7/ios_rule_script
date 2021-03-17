@@ -1,13 +1,13 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-17 01:55:01
-# DOMAIN: 33
+# UPDATED: 2021-03-18 01:54:46
+# DOMAIN: 35
 # USER-AGENT: 59
-# DOMAIN-SUFFIX: 181
-# DOMAIN-KEYWORD: 19
+# DOMAIN-SUFFIX: 195
+# DOMAIN-KEYWORD: 21
 # IP-CIDR: 847
-# TOTAL: 1139
+# TOTAL: 1157
 DOMAIN,api.okzy.tv
 DOMAIN,apple.comscoreresearch.com
 DOMAIN,atv-ps.amazon.com
@@ -30,6 +30,8 @@ DOMAIN,hboasia5-i.akamaihd.net
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN,kktv-theater.kk.stream
 DOMAIN,linear.tv.apple.com
+DOMAIN,mytvsuperlimited.hb.omtrdc.net
+DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN,netflix.com.edgesuite.net
 DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
@@ -44,6 +46,7 @@ DOMAIN,yt3.ggpht.com
 DOMAIN-SUFFIX,5itv.tv
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,akamaized.net
@@ -52,9 +55,9 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,api.segment.io
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,bam.nr-data.net
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbc.co.uk
@@ -70,17 +73,22 @@ DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,cbsaavideo.com
 DOMAIN-SUFFIX,cbsi.com
 DOMAIN-SUFFIX,cbsivideo.com
+DOMAIN-SUFFIX,cdn.optimizely.com
 DOMAIN-SUFFIX,channel4.com
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,conviva.com
+DOMAIN-SUFFIX,d9.flashtalking.com
 DOMAIN-SUFFIX,dazn-api.com
 DOMAIN-SUFFIX,dazn.com
 DOMAIN-SUFFIX,dazndn.com
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disney-portal.my.onetrust.com
 DOMAIN-SUFFIX,disney.demdex.net
+DOMAIN-SUFFIX,disneyplus.bn5x.net
 DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
 DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,dmm-extension.com
@@ -115,7 +123,10 @@ DOMAIN-SUFFIX,himalaya.com
 DOMAIN-SUFFIX,hinet.net
 DOMAIN-SUFFIX,hjholdings.jp
 DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,hulu.hb.omtrdc.net
 DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,hulu.sc.omtrdc.net
+DOMAIN-SUFFIX,huluad.com
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,hulustream.com
 DOMAIN-SUFFIX,ibytedtos.com
@@ -135,6 +146,7 @@ DOMAIN-SUFFIX,japronx.net
 DOMAIN-SUFFIX,japronx.tv
 DOMAIN-SUFFIX,japronx.vip
 DOMAIN-SUFFIX,joox.com
+DOMAIN-SUFFIX,js-agent.newrelic.com
 DOMAIN-SUFFIX,jtvnw.net
 DOMAIN-SUFFIX,jwpcdn.com
 DOMAIN-SUFFIX,jwplayer.com
@@ -187,6 +199,8 @@ DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
 DOMAIN-SUFFIX,pplusstatic.com
 DOMAIN-SUFFIX,primevideo.com
+DOMAIN-SUFFIX,prod.hjholdings.tv
+DOMAIN-SUFFIX,profile.line-scdn.net
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,qobuz.com
 DOMAIN-SUFFIX,scdn.co
@@ -200,6 +214,7 @@ DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.net
+DOMAIN-SUFFIX,streaks.jp
 DOMAIN-SUFFIX,theplatform.com
 DOMAIN-SUFFIX,tidal.com
 DOMAIN-SUFFIX,tidal.comdia
@@ -218,6 +233,7 @@ DOMAIN-SUFFIX,uplynk.com
 DOMAIN-SUFFIX,urlload.net
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,yb.uncn.jp
 DOMAIN-SUFFIX,youboranqs01.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube.com
@@ -228,11 +244,13 @@ DOMAIN-KEYWORD,abematv.akamaized.net
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,dualstack.apiproxy-
+DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.ichnaea-web-
 DOMAIN-KEYWORD,foxplus
 DOMAIN-KEYWORD,japonx
 DOMAIN-KEYWORD,japronx
 DOMAIN-KEYWORD,jooxweb-api
+DOMAIN-KEYWORD,livedazn
 DOMAIN-KEYWORD,nflx
 DOMAIN-KEYWORD,nowtv100
 DOMAIN-KEYWORD,rthklive

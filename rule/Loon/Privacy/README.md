@@ -6,19 +6,18 @@
 
 定时爬取互联网上开源的隐私保护分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
-最后检查时间：2021-03-17 01:55:40.344033。
+最后检查时间：2021-03-18 01:55:26.718884。
 
 ## 规则统计
 
-总计规则：2703 条。
+总计规则：3047 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 18 |
-| DOMAIN-SUFFIX | 2682 |
-| DOMAIN-KEYWORD | 3 |
+| DOMAIN-SUFFIX | 3026 |
+| DOMAIN | 21 |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -28,17 +27,11 @@
 ### Loon 
 实时版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Privacy/Privacy.list
-
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Privacy/Privacy_Domain.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Privacy/Domain.list
 
 稳定版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/Privacy/Privacy.list
-
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/Privacy/Privacy_Domain.list
-
-如果稳定版无法访问 ，可能是尚未从实时版的分支合并，建议您先使用实时版，或等待下次稳定版分支合并。
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/Privacy/Domain.list
 
 ## 重复统计
 

@@ -1,13 +1,14 @@
 #!name=更新检查
-#!desc=最后更新时间 2021-03-18 01:56:04
+#!desc=最后更新时间 2021-03-19 01:56:32
 #!author=blackmatrix7
-#!github=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=7
+#!repo=https://github.com/blackmatrix7/ios_rule_script
+#!rewrite=8
 #!script=0
 #!force_http_engine_hosts=0
 #!mitm=6
 
 [URL Rewrite]
+^https?:\/\/api\.ishansong\.com\/app\/check\/v\d+\/check - reject
 ^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject
 ^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate? - reject
 ^https?:\/\/apprn\.pizzahut\.com\.cn\/updateCheck\? - reject

@@ -1,7 +1,7 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
-# GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-18 01:55:01.944889
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2021-03-19 01:55:30.034666
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 HuluJP 共 5 条规则重复
@@ -98,6 +98,13 @@ payload:
   - DOMAIN-SUFFIX,indaznlab.com
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,sentry.io
+#  与 HBOHK 共 6 条规则重复
+  - DOMAIN-SUFFIX,hboasia.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,nowe.com
 #  与 Spotify 共 8 条规则重复
   - DOMAIN-KEYWORD,-spotify-com
   - DOMAIN-KEYWORD,spotify.com
@@ -107,12 +114,18 @@ payload:
   - DOMAIN-SUFFIX,spotify.com
   - DOMAIN-SUFFIX,spotifycdn.net
   - IP-CIDR,35.186.224.47/32
-#  与 HBOHK 共 5 条规则重复
+#  与 HBO 共 11 条规则重复
+  - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
+  - DOMAIN-SUFFIX,hbo.com
   - DOMAIN-SUFFIX,hboasia.com
   - DOMAIN-SUFFIX,hbogo.com
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,nowe.com
+  - DOMAIN-SUFFIX,youboranqs01.com
 #  与 BBC 共 7 条规则重复
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
@@ -121,17 +134,6 @@ payload:
   - DOMAIN-SUFFIX,bbc.com
   - DOMAIN-SUFFIX,bbci.co
   - DOMAIN-SUFFIX,bbci.co.uk
-#  与 HBO 共 10 条规则重复
-  - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
-  - DOMAIN-SUFFIX,hbo.com
-  - DOMAIN-SUFFIX,hboasia.com
-  - DOMAIN-SUFFIX,hbogo.com
-  - DOMAIN-SUFFIX,hbogoasia.com
-  - DOMAIN-SUFFIX,hbogoasia.hk
-  - DOMAIN-SUFFIX,hbomax.com
-  - DOMAIN-SUFFIX,hbonow.com
-  - DOMAIN-SUFFIX,nowe.com
-  - DOMAIN-SUFFIX,youboranqs01.com
 #  与 AmazonPrimeVideo 共 7 条规则重复
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN-SUFFIX,aiv-cdn.net

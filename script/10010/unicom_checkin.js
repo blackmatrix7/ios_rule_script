@@ -3,8 +3,8 @@
 m.client.10010.com
 
 [Script]
-联通_获取cookie = type=http-request,pattern=^https?:\/\/m\.client\.10010\.com\/dailylottery\/static\/(integral|doubleball)\/firstpage,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.js,
-联通_签到与抽奖 = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.js,type=cron,cronexp=10 0 * * *
+联通_获取cookie = type=http-request,pattern=^https?:\/\/m\.client\.10010\.com\/dailylottery\/static\/(integral|doubleball)\/firstpage,requires-body=1,max-size=0,script-path=https://gitlab.com/hellomatrix/lord/raw/master/script/10010/unicom_checkin.js,
+联通_签到与抽奖 = script-path=https://gitlab.com/hellomatrix/lord/raw/master/script/10010/unicom_checkin.js,type=cron,cronexp=10 0 * * *
 */
 const getLotteryCookieRegex = /^https?:\/\/m\.client\.10010\.com\/dailylottery\/static\/(integral|doubleball)\/firstpage/;
 const unicomCookieKey = 'unicom_user_cookie';
@@ -50,16 +50,16 @@ let daySingOptions = {
 }
 
 let daySingNewVersionOptions = {
-  url: "https://act.10010.com/SigninApp/signin/todaySign?vesion=0.5630763707346611",
+  url: "https://act.10010.com/SigninApp/signin/daySign?vesion=0.5630763707346611",
   headers: {
-    "Accept": "application/json, text/javascript, */*; q=0.01",
+    "Accept": "application/json, text/plain, */*",
     "Accept-Encoding": "gzip, deflate, br",
     "Accept-Language": "zh-cn",
-    "Connection": "close",
+    "Connection": "keep-alive",
     "Cookie": null,
     "Host": "act.10010.com",
-    "Origin": "https://act.10010.com",
-    "Referer": "https://act.10010.com/SigninApp/signin/querySigninActivity.htm",
+    "Origin": "https://img.client.10010.com",
+    "Referer": "https://img.client.10010.com/SigininApp/index.html",
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 unicom{version:iphone_c@7.0402}{systemVersion:dis}{yw_code:}",
     "savedata": "false"
   },
@@ -286,8 +286,12 @@ function AppCheckin(){
             magicJS.log('未登录');
             resolve([false, '未登录', null,null,null]);
           }
+          else if (obj.status == "0015"){
+            magicJS.log('服务端出现一点异常');
+            resolve([false, '服务端异常', null,null,null]);
+          }
           else{
-            reject('接口返回异常');
+            reject('旧版签到，接口返回异常');
           }
         }
         catch (err){
@@ -315,17 +319,13 @@ function AppCheckinNewVersion(){
         let obj = {};
         try{
           obj = JSON.parse(data);
-          if (obj.hasOwnProperty('msgCode') && obj['msgCode'] == '0000'){
+          if (obj['status'] === '0000'){
             magicJS.log('新版签到成功');
-            resolve([true, '签到成功', obj.prizeCount, obj.growValue, bj.flowerCount]);
+            resolve([true, '签到成功', obj.data.prizeCount, obj.data.growValue, obj.data.flowerCount]);
           }
-          else if (obj.hasOwnProperty('msgCode') && obj['msgCode'] == '8888'){
+          else if (obj['status']  == '0002'){
             magicJS.log('新版重复签到');
-            resolve([true, '重复签到',obj.prizeCount,obj.growValue,obj.flowerCount]);
-          }
-          else if (obj.hasOwnProperty('toLogin')){
-            magicJS.log('新版未登录');
-            resolve([false, '未登录', null,null,null]);
+            resolve([true, '重复签到', null, null, null]);
           }
           else{
             magicJS.log('新版签到异常，接口返回数据不合法。' + data);
@@ -719,8 +719,9 @@ async function Main(){
         let hisCookie = magicJS.read(unicomCookieKey, 'default');
         // 获取手机号
         let mobile01 = /c_mobile=(\d{11})/.exec(cookie);
-        let mobile02 = /u_account=(\d{11})/.exec(cookie);
-        let mobile03 = /desmobile==(\d{11})/.exec(magicJS.request.headers['Referer']);
+        let mobile02 = /mobileServiceAll=(\d{11})/.exec(cookie);
+        let mobile03 = /u_account=(\d{11})/.exec(cookie);
+        let mobile04 = /desmobile==(\d{11})/.exec(magicJS.request.headers['Referer']);
         let mobile = '';
         if (!!mobile01){
           mobile = mobile01[1]
@@ -728,8 +729,11 @@ async function Main(){
         else if (!!mobile02){
           mobile = mobile02[1]
         }
-        else{
+        else if (!!mobile03){
           mobile = mobile03[1]
+        }
+        else{
+          mobile = mobile04[1]
         }
         let hisMobile = magicJS.read(mobileKey, 'default');
         // 获取加密手机号
@@ -825,13 +829,9 @@ async function Main(){
       // 抽奖前用户登录
       let [errUserLogin, [loginResult, loginStr]] = await magicJS.attempt(magicJS.retry(UserLogin, 5, 1000)(), [false, '用户登录失败']);
 
-      // 旧版签到，如果失败就用新版的再试试
-      let AppCheckinPromise = magicJS.retry(AppCheckin, 10, 100)();
-      [,[checkinResult,checkinResultStr,prizeCount,growthV,flowerCount]] = await magicJS.attempt(AppCheckinPromise, [false,'签到异常',null,null,null]);
-      if (!checkinResult){
-        let AppCheckinNewVersionPromise = magicJS.retry(AppCheckinNewVersion, 10, 100)();
-        [,[checkinResult,checkinResultStr,prizeCount,growthV,flowerCount]] = await magicJS.attempt(AppCheckinNewVersionPromise, [false,'签到异常',null,null,null]);
-      }
+      // 新版签到，如果失败就用旧版的再试试
+      let AppCheckinNewVersionPromise = magicJS.retry(AppCheckinNewVersion, 10, 100)();
+      [,[checkinResult,checkinResultStr,prizeCount,growthV,flowerCount]] = await magicJS.attempt(AppCheckinNewVersionPromise, [false,'签到异常',null,null,null]);
       if (!!prizeCount && !!growthV && !!flowerCount){
         notifySubTtile = `🧱积分+${prizeCount} 🎈成长值+${growthV} 💐鲜花+${flowerCount}`
       }

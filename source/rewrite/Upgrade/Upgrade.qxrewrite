@@ -11,5 +11,7 @@
 ^https?:\/\/apprn\.pizzahut\.com\.cn\/updateCheck\? url reject-dict
 # 京东更新检查
 ^https?:\/\/api\.m\.jd\.com\/openUpgrade url reject-dict
+# 闪送更新检查
+^https?:\/\/api\.ishansong\.com\/app\/check\/v\d+\/check url reject
 
-hostname = www.meituan.com,apimobile.meituan.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,capis*.didapinche.com,apprn.pizzahut.com.cn,api.m.jd.com
+hostname = www.meituan.com,apimobile.meituan.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,capis*.didapinche.com,apprn.pizzahut.com.cn,api.m.jd.com,api.ishansong.com

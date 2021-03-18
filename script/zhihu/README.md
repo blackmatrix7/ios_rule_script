@@ -63,35 +63,6 @@
 3. 重启知乎
 4. 清理知乎的缓存
 5. 卸载知乎后重装
-6. 安装已经验证过的版本
-
-## 去广告
-
-对知乎内置的部分广告进行去除，目前验证情况如下：
-
-**2020年9月23日：**
-
-知乎 V6.57.0(2708)
-
-Surge 4.10.0(1819) TF  验证通过，Shadowrocket 2.1.62(1092) TF 纯去广告功能验证通过。
-
-**2020年9月18日：**
-
-知乎 V6.56.0(2676)
-
-Loon TF 2.1.3(204)  验证通过。
-
-**2020年8月22日：**
-
-知乎 V6.52.0(2548)
-
-Surge4.10.0(1800) TF、Quantumult X 1.0.14(367) TF、Loon 2.1.3(197) TF  验证通过。
-
-**2020年8月8日：**
-
-知乎 V6.51.1(2518)
-
-Surge4.10.0(1788) TF、Quantumult X 1.0.14(359) TF、Loon 2.1.3(191) TF 验证通过。
 
 ## 付费内容提醒(beta)
 
@@ -209,11 +180,14 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhi
 ```ini
 [filter_local]
 # 知乎去广告
-DOMAIN,118.89.204.198,REJECT
+# 将以下两条规则，必须置于filter_local中的最上方
 IP-CIDR,118.89.204.198/32,REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+# 以下规则，位置越靠前越好
+HOST,118.89.204.198,REJECT
+HOST,mqtt.zhihu.com,reject
+HOST,sugar.zhihu.com,reject
 USER-AGENT,AVOS*,REJECT
-DOMAIN-SUFFIX,appcloud2.zhihu.com,REJECT
-DOMAIN-SUFFIX,appcloud2.in.zhihu.com,REJECT
 
 [rewrite_remote]
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.qxrewrite, tag=知乎助手_去广告, update-interval=86400, opt-parser=false, enabled=true
@@ -228,6 +202,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhi
 # 知乎去广告
 DOMAIN,118.89.204.198,REJECT
 IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 USER-AGENT,AVOS*,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations),REJECT
@@ -250,46 +225,13 @@ hostname=www.zhihu.com,api.zhihu.com
 
 推荐列表中脚本内置的黑名单基本上都已去除，只保留”会员推荐“等几个，因为这些都不是账号，不能通过加入黑名单来屏蔽。并且， 会员推荐的屏蔽功能，只有在你获取过一次黑名单后才会生效。如果你用的是Lite版本，完全不用担心屏蔽问题。
 
-官方消息中脚本内置的黑名单也仅保留无法加入黑名单的营销账号，其他的如果需要屏蔽，手动把它们加入黑名单就好。
+官方消息中脚本内置的黑名单也仅保留无法加入黑名单的营销账号，其他的如果需要屏蔽，手动把它们加入黑名单即可。
 
 ### 知乎直播无法访问
 
 知乎去广告配置**不会导致知乎直播无法访问**。目前已知部分整合的去广告规则集合，会导致知乎直播无法访问。
 
 如果出现知乎直播无法访问的情况，请开启抓包/调试/记录日志等功能，确认是哪条规则影响知乎直播的正常访问，将其删除或编写修正规则覆盖掉它。
-
-如果没办法修改第三方的规则，提供几个修正方案。
-
-#### Surge/Loon
-
-Surge和Loon的知乎直播修正，提供两种方案。
-
-一种是在本地规则中修改，覆盖掉远程引用的规则集，适用于远程规则集配置错误导致知乎直播无法访问的情况。
-
-```ini
-[Rule]
-# 知乎直播修正
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/drama\/,DIRECT
-```
-
-一种是在url复写中进行修改，覆盖掉远程的订阅复写，适用于Loon远程订阅复写配置错误导致知乎直播无法访问的情况。
-
-```ini
-[URL Rewrite]
-# 知乎直播修正
-^https?:\/\/api\.zhihu\.com\/drama\/ https://api.zhihu.com/drama/ header
-```
-
-如果远程错误的规则是在模块或插件中的，由于模块和插件优先级很高，上面的修正可能不会生效，建议联系插件作者修改。
-
-#### Quantumult X
-
-增加一条本地复写规则，覆盖掉远程的复写规则
-
-```ini
-# 知乎直播修正
-^https?:\/\/api\.zhihu\.com\/drama url 307 https://api.zhihu.com/drama
-```
 
 ### 想法不存在
 

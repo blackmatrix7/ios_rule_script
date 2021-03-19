@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite 规则重复情况
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-19 01:55:29.372892
+# UPDATED: 2021-03-19 23:48:13.492397
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 payload:
 #  与 Hijacking 共 200 条规则重复
@@ -2504,7 +2504,7 @@ payload:
   - DOMAIN-SUFFIX,zsi7.destinia.do
   - DOMAIN-SUFFIX,zyq2.destinia.sk
   - DOMAIN-SUFFIX,zz.bdstatic.com
-#  与 Advertising 共 16165 条规则重复
+#  与 Advertising 共 16175 条规则重复
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,0d847862199.com
   - DOMAIN,0icep80f.com
@@ -2774,6 +2774,7 @@ payload:
   - DOMAIN,cmicapui.ce.gov.br
   - DOMAIN,cmllk2.info
   - DOMAIN,cmshow.qq.com
+  - DOMAIN,cnm.xlcktv.com
   - DOMAIN,coagricu.net
   - DOMAIN,coaha.frenchgerlemanelectric.com
   - DOMAIN,coffeol.com
@@ -2883,6 +2884,7 @@ payload:
   - DOMAIN,download207.mediafire.com
   - DOMAIN,downloads-whatsapp.com
   - DOMAIN,dp-medien.eu
+  - DOMAIN,dpsqqaaqbc.com
   - DOMAIN,dradvice.in
   - DOMAIN,dufue2m4sondk.cloudfront.net
   - DOMAIN,dump1.no-ip.biz
@@ -3009,6 +3011,7 @@ payload:
   - DOMAIN,hotspot.cz
   - DOMAIN,hpplay.cn
   - DOMAIN,hrtya.com
+  - DOMAIN,hsqujerwg.com
   - DOMAIN,hst-19-33.splius.lt
   - DOMAIN,httpdns.n.netease.com
   - DOMAIN,hujii.qplanner.cf
@@ -3024,7 +3027,6 @@ payload:
   - DOMAIN,imagedoll.com
   - DOMAIN,images.topguncustomz.com
   - DOMAIN,img.ads.csdn.net
-  - DOMAIN,img.xuwnz.cn
   - DOMAIN,img001.com
   - DOMAIN,imgdew.pw
   - DOMAIN,imgmaze.pw
@@ -3228,6 +3230,7 @@ payload:
   - DOMAIN,optiker-michelmann.de
   - DOMAIN,optimization-methods.com
   - DOMAIN,opus.analytics.yahoo.com
+  - DOMAIN,opyyykrdyuum.com
   - DOMAIN,orbowlada.strefa.pl
   - DOMAIN,org-dot-com.com
   - DOMAIN,ospserver.net
@@ -3351,6 +3354,7 @@ payload:
   - DOMAIN,roulettebotplus.com
   - DOMAIN,rpt.hpplay.cn
   - DOMAIN,rsiuk.co.uk
+  - DOMAIN,rtrlseqbudrzfd.com
   - DOMAIN,rubiks.ca
   - DOMAIN,ruiyangcn.com
   - DOMAIN,rule34hentai.net
@@ -8744,6 +8748,7 @@ payload:
   - DOMAIN-SUFFIX,e.ricpt.com
   - DOMAIN-SUFFIX,e.stat.ykimg.com
   - DOMAIN-SUFFIX,e.t71q.com
+  - DOMAIN-SUFFIX,e.tiantianedu.net
   - DOMAIN-SUFFIX,e.tuoaa.com
   - DOMAIN-SUFFIX,e.ueram.com
   - DOMAIN-SUFFIX,e.vaxyz.com
@@ -12153,6 +12158,7 @@ payload:
   - DOMAIN-SUFFIX,m.sjzhushou.com
   - DOMAIN-SUFFIX,m.symac.cn
   - DOMAIN-SUFFIX,m.tcksbz888.com
+  - DOMAIN-SUFFIX,m.tiantianedu.net
   - DOMAIN-SUFFIX,m.trb.com
   - DOMAIN-SUFFIX,m.tuopp.com
   - DOMAIN-SUFFIX,m.ueram.com
@@ -16964,6 +16970,7 @@ payload:
   - DOMAIN-SUFFIX,visualscience.external.bbc.co.uk
   - DOMAIN-SUFFIX,vivituii.com
   - DOMAIN-SUFFIX,vixirtab.com
+  - DOMAIN-SUFFIX,vj.x-ssp.com
   - DOMAIN-SUFFIX,vj0.42422277.com
   - DOMAIN-SUFFIX,vjcyehtqm9.me
   - DOMAIN-SUFFIX,vjuer.com
@@ -18480,6 +18487,8 @@ payload:
   - DOMAIN-SUFFIX,zzsx8.com
   - DOMAIN-SUFFIX,zzwflxs.com
   - DOMAIN-SUFFIX,zzyonghao.com
+  - DOMAIN-SUFFIX,zzz7.52896368.com
+  - DOMAIN-SUFFIX,zzzzz4.52896368.com
   - IP-CIDR,1.3.0.10/32
   - IP-CIDR,10.72.25.0/24
   - IP-CIDR,101.124.19.122/32
@@ -18670,3 +18679,4 @@ payload:
   - IP-CIDR,69.28.57.245/32
   - IP-CIDR,74.117.182.77/32
   - IP-CIDR,78.140.131.214/32
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128

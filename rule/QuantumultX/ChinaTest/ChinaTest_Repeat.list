@@ -1,7 +1,7 @@
 # NAME: ChinaTest 规则重复情况
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-19 01:55:26.570831
+# UPDATED: 2021-03-19 23:48:10.413041
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 DanDanZan 共 7 条规则重复
 HOST-SUFFIX,343480.com
@@ -907,24 +907,14 @@ HOST-SUFFIX,moji.com
 HOST-SUFFIX,mojicb.com
 HOST-SUFFIX,mojichina.com
 HOST-SUFFIX,mojitest.com
-#  与 BOC 共 10 条规则重复
-HOST-SUFFIX,bank-of-china.com
-HOST-SUFFIX,bankofchina.com
-HOST-SUFFIX,boc.cn
-HOST-SUFFIX,bocaviation.com
-HOST-SUFFIX,bocgi.com
-HOST-SUFFIX,bocgins.com
-HOST-SUFFIX,bochk.com
-HOST-SUFFIX,bocichina.com
-HOST-SUFFIX,bocigroup.com
-HOST-SUFFIX,bocim.com
-#  与 ChunYou 共 26 条规则重复
+#  与 ChunYou 共 27 条规则重复
 HOST-SUFFIX,3304399.com
 HOST-SUFFIX,3304399.net
 HOST-SUFFIX,3839.com
 HOST-SUFFIX,3839app.com
 HOST-SUFFIX,3839app.net
 HOST-SUFFIX,3839vc.com
+HOST-SUFFIX,3839video.com
 HOST-SUFFIX,4399api.net
 HOST-SUFFIX,4399biule.com
 HOST-SUFFIX,4399er.com
@@ -945,6 +935,17 @@ HOST-SUFFIX,tuer123.com
 HOST-SUFFIX,we4399.com
 HOST-SUFFIX,youba.com
 HOST-SUFFIX,yxhhdl.com
+#  与 BOC 共 10 条规则重复
+HOST-SUFFIX,bank-of-china.com
+HOST-SUFFIX,bankofchina.com
+HOST-SUFFIX,boc.cn
+HOST-SUFFIX,bocaviation.com
+HOST-SUFFIX,bocgi.com
+HOST-SUFFIX,bocgins.com
+HOST-SUFFIX,bochk.com
+HOST-SUFFIX,bocichina.com
+HOST-SUFFIX,bocigroup.com
+HOST-SUFFIX,bocim.com
 #  与 YYeTs 共 14 条规则重复
 HOST-SUFFIX,jstucdn.com
 HOST-SUFFIX,p4pfile.com
@@ -1056,6 +1057,23 @@ HOST-SUFFIX,qingstor.com
 HOST-SUFFIX,quanxiangyun.com
 HOST-SUFFIX,routewize.com
 HOST-SUFFIX,yunify.com
+#  与 CITIC 共 16 条规则重复
+HOST-SUFFIX,chinaamc.com
+HOST-SUFFIX,citic
+HOST-SUFFIX,citic.com
+HOST-SUFFIX,citicbank.com
+HOST-SUFFIX,citiccapital.com
+HOST-SUFFIX,citiciam.com
+HOST-SUFFIX,citicifh.com
+HOST-SUFFIX,citics.com
+HOST-SUFFIX,citics.com.hk
+HOST-SUFFIX,citicsf.com
+HOST-SUFFIX,clsa.com
+HOST-SUFFIX,cncbinternational.com
+HOST-SUFFIX,csc108.com
+HOST-SUFFIX,csci.hk
+HOST-SUFFIX,ecitic.com
+HOST-SUFFIX,ecitic.net
 #  与 UPYun 共 9 条规则重复
 HOST-SUFFIX,aicdn.com
 HOST-SUFFIX,aicdn2.com
@@ -1072,22 +1090,6 @@ HOST-SUFFIX,115cdn.net
 HOST-SUFFIX,115img.com
 HOST-SUFFIX,116cd.com
 HOST-SUFFIX,anxia.com
-#  与 CITIC 共 15 条规则重复
-HOST-SUFFIX,chinaamc.com
-HOST-SUFFIX,citic.com
-HOST-SUFFIX,citicbank.com
-HOST-SUFFIX,citiccapital.com
-HOST-SUFFIX,citiciam.com
-HOST-SUFFIX,citicifh.com
-HOST-SUFFIX,citics.com
-HOST-SUFFIX,citics.com.hk
-HOST-SUFFIX,citicsf.com
-HOST-SUFFIX,clsa.com
-HOST-SUFFIX,cncbinternational.com
-HOST-SUFFIX,csc108.com
-HOST-SUFFIX,csci.hk
-HOST-SUFFIX,ecitic.com
-HOST-SUFFIX,ecitic.net
 #  与 GaoDe 共 5 条规则重复
 HOST-SUFFIX,amap.com
 HOST-SUFFIX,amapauto.com
@@ -1164,7 +1166,7 @@ HOST-SUFFIX,didiyun.com
 HOST-SUFFIX,didiyunapi.com
 HOST-SUFFIX,udache.com
 HOST-SUFFIX,xiaojukeji.com
-#  与 Tencent 共 151 条规则重复
+#  与 Tencent 共 152 条规则重复
 HOST-SUFFIX,accessibilityunion.org
 HOST-SUFFIX,agcloudcs.com
 HOST-SUFFIX,apcdns.net
@@ -1226,6 +1228,7 @@ HOST-SUFFIX,lexiangla.com
 HOST-SUFFIX,lightalk.com
 HOST-SUFFIX,lrts.me
 HOST-SUFFIX,miloli.info
+HOST-SUFFIX,msstatic.com
 HOST-SUFFIX,mting.info
 HOST-SUFFIX,myapp.com
 HOST-SUFFIX,myqcloud.com
@@ -1503,20 +1506,7 @@ HOST-SUFFIX,ele.to
 HOST-SUFFIX,eleme.io
 HOST-SUFFIX,elemecdn.com
 HOST-SUFFIX,elenet.me
-#  与 YunFanJiaSu 共 12 条规则重复
-HOST-SUFFIX,yfcache.com
-HOST-SUFFIX,yfcalc.com
-HOST-SUFFIX,yfcdn.net
-HOST-SUFFIX,yfcloud.com
-HOST-SUFFIX,yfcloud.io
-HOST-SUFFIX,yfdns.net
-HOST-SUFFIX,yfdts.net
-HOST-SUFFIX,yfp2p.net
-HOST-SUFFIX,yfscdn.com
-HOST-SUFFIX,yfscdn.net
-HOST-SUFFIX,yunfancdn.com
-HOST-SUFFIX,yunfandns.com
-#  与 QiNiuYun 共 19 条规则重复
+#  与 QiNiuYun 共 20 条规则重复
 HOST-SUFFIX,clouddn.com
 HOST-SUFFIX,cloudvdn.com
 HOST-SUFFIX,pilidns.com
@@ -1532,10 +1522,24 @@ HOST-SUFFIX,qiniukodo.com
 HOST-SUFFIX,qiniup.com
 HOST-SUFFIX,qiniupkg.com
 HOST-SUFFIX,qiniutek.com
+HOST-SUFFIX,qnsdk.com
 HOST-SUFFIX,qnssl.com
 HOST-SUFFIX,qnydns.com
 HOST-SUFFIX,qnydns.net
 HOST-SUFFIX,staticfile.org
+#  与 YunFanJiaSu 共 12 条规则重复
+HOST-SUFFIX,yfcache.com
+HOST-SUFFIX,yfcalc.com
+HOST-SUFFIX,yfcdn.net
+HOST-SUFFIX,yfcloud.com
+HOST-SUFFIX,yfcloud.io
+HOST-SUFFIX,yfdns.net
+HOST-SUFFIX,yfdts.net
+HOST-SUFFIX,yfp2p.net
+HOST-SUFFIX,yfscdn.com
+HOST-SUFFIX,yfscdn.net
+HOST-SUFFIX,yunfancdn.com
+HOST-SUFFIX,yunfandns.com
 #  与 KouDaiShiShang 共 8 条规则重复
 HOST-SUFFIX,91ruyu.com
 HOST-SUFFIX,fangxin.com
@@ -1620,6 +1624,90 @@ HOST-SUFFIX,steamgames.com
 HOST-SUFFIX,steamstat.us
 HOST-SUFFIX,steamstatic.com
 HOST-SUFFIX,steamusercontent.com
+#  与 JingDong 共 83 条规则重复
+HOST-SUFFIX,300hu.com
+HOST-SUFFIX,360buy.com
+HOST-SUFFIX,360buyimg.com
+HOST-SUFFIX,360top.com
+HOST-SUFFIX,7fresh.com
+HOST-SUFFIX,baitiao.com
+HOST-SUFFIX,blackdragon.com
+HOST-SUFFIX,caiyu.com
+HOST-SUFFIX,dao123.com
+HOST-SUFFIX,isvjcloud.com
+HOST-SUFFIX,jcloud-cache.com
+HOST-SUFFIX,jcloud-cdn.com
+HOST-SUFFIX,jcloud-live.com
+HOST-SUFFIX,jcloud-oss.com
+HOST-SUFFIX,jcloud.com
+HOST-SUFFIX,jcloudcache.com
+HOST-SUFFIX,jcloudcs.com
+HOST-SUFFIX,jclouddn.com
+HOST-SUFFIX,jcloudec.com
+HOST-SUFFIX,jcloudedge.com
+HOST-SUFFIX,jcloudgslb.com
+HOST-SUFFIX,jcloudimg.com
+HOST-SUFFIX,jcloudlb.com
+HOST-SUFFIX,jcloudlive.com
+HOST-SUFFIX,jcloudlv.com
+HOST-SUFFIX,jcloudoss.com
+HOST-SUFFIX,jcloudss.com
+HOST-SUFFIX,jcloudstatic.com
+HOST-SUFFIX,jcloudvideo.com
+HOST-SUFFIX,jclps.com
+HOST-SUFFIX,jd-app.com
+HOST-SUFFIX,jd-ex.com
+HOST-SUFFIX,jd.co.th
+HOST-SUFFIX,jd.com
+HOST-SUFFIX,jd.hk
+HOST-SUFFIX,jd.id
+HOST-SUFFIX,jd.ru
+HOST-SUFFIX,jdbusiness.com
+HOST-SUFFIX,jdcache.com
+HOST-SUFFIX,jdcdn.com
+HOST-SUFFIX,jdcloud-api.com
+HOST-SUFFIX,jdcloud-oss.com
+HOST-SUFFIX,jdcloud.com
+HOST-SUFFIX,jdcloudcache.com
+HOST-SUFFIX,jdcloudcs.com
+HOST-SUFFIX,jdcloudedge.com
+HOST-SUFFIX,jdcloudstatic.net
+HOST-SUFFIX,jdcloudwaf.com
+HOST-SUFFIX,jddapeigou.com
+HOST-SUFFIX,jddebug.com
+HOST-SUFFIX,jddglobal.com
+HOST-SUFFIX,jdgslb.com
+HOST-SUFFIX,jdjinrong.com
+HOST-SUFFIX,jdpay.com
+HOST-SUFFIX,jdpaydns.com
+HOST-SUFFIX,jdwl.com
+HOST-SUFFIX,jdworldwide.com
+HOST-SUFFIX,jdx.com
+HOST-SUFFIX,jingdong.com
+HOST-SUFFIX,jingdongjinrong.com
+HOST-SUFFIX,jingxi.com
+HOST-SUFFIX,jkcsjd.com
+HOST-SUFFIX,joybuy.com
+HOST-SUFFIX,joybuy.es
+HOST-SUFFIX,linglonglife.com
+HOST-SUFFIX,mayshijia.com
+HOST-SUFFIX,minitiao.com
+HOST-SUFFIX,ocwms.com
+HOST-SUFFIX,paipai.com
+HOST-SUFFIX,prestodb-china.com
+HOST-SUFFIX,qianxun.com
+HOST-SUFFIX,qingzhouip.com
+HOST-SUFFIX,toplife.com
+HOST-SUFFIX,vg.com
+HOST-SUFFIX,wanggou.com
+HOST-SUFFIX,wangyin.com
+HOST-SUFFIX,wdfok.com
+HOST-SUFFIX,yhd.com
+HOST-SUFFIX,yihaodian.com
+HOST-SUFFIX,yihaodianimg.com
+HOST-SUFFIX,yixun.com
+HOST-SUFFIX,yiyaojd.com
+HOST-SUFFIX,yizhitou.com
 #  与 JiGuangTuiSong 共 6 条规则重复
 HOST-SUFFIX,5566ua.com
 HOST-SUFFIX,jchat.io
@@ -1709,86 +1797,6 @@ HOST-SUFFIX,westlaw.com
 HOST-SUFFIX,wiley.com
 HOST-SUFFIX,worldbank.org
 HOST-SUFFIX,worldscientific.com
-#  与 JingDong 共 79 条规则重复
-HOST-SUFFIX,360buy.com
-HOST-SUFFIX,360buyimg.com
-HOST-SUFFIX,360top.com
-HOST-SUFFIX,7fresh.com
-HOST-SUFFIX,baitiao.com
-HOST-SUFFIX,blackdragon.com
-HOST-SUFFIX,caiyu.com
-HOST-SUFFIX,dao123.com
-HOST-SUFFIX,isvjcloud.com
-HOST-SUFFIX,jcloud-cache.com
-HOST-SUFFIX,jcloud-cdn.com
-HOST-SUFFIX,jcloud-live.com
-HOST-SUFFIX,jcloud-oss.com
-HOST-SUFFIX,jcloud.com
-HOST-SUFFIX,jcloudcache.com
-HOST-SUFFIX,jcloudcs.com
-HOST-SUFFIX,jclouddn.com
-HOST-SUFFIX,jcloudec.com
-HOST-SUFFIX,jcloudedge.com
-HOST-SUFFIX,jcloudgslb.com
-HOST-SUFFIX,jcloudimg.com
-HOST-SUFFIX,jcloudlb.com
-HOST-SUFFIX,jcloudlive.com
-HOST-SUFFIX,jcloudlv.com
-HOST-SUFFIX,jcloudoss.com
-HOST-SUFFIX,jcloudss.com
-HOST-SUFFIX,jcloudstatic.com
-HOST-SUFFIX,jcloudvideo.com
-HOST-SUFFIX,jclps.com
-HOST-SUFFIX,jd-ex.com
-HOST-SUFFIX,jd.co.th
-HOST-SUFFIX,jd.com
-HOST-SUFFIX,jd.hk
-HOST-SUFFIX,jd.id
-HOST-SUFFIX,jd.ru
-HOST-SUFFIX,jdbusiness.com
-HOST-SUFFIX,jdcache.com
-HOST-SUFFIX,jdcdn.com
-HOST-SUFFIX,jdcloud-api.com
-HOST-SUFFIX,jdcloud-oss.com
-HOST-SUFFIX,jdcloud.com
-HOST-SUFFIX,jdcloudcache.com
-HOST-SUFFIX,jdcloudcs.com
-HOST-SUFFIX,jdcloudedge.com
-HOST-SUFFIX,jdcloudstatic.net
-HOST-SUFFIX,jdcloudwaf.com
-HOST-SUFFIX,jddapeigou.com
-HOST-SUFFIX,jddebug.com
-HOST-SUFFIX,jddglobal.com
-HOST-SUFFIX,jdgslb.com
-HOST-SUFFIX,jdjinrong.com
-HOST-SUFFIX,jdpay.com
-HOST-SUFFIX,jdpaydns.com
-HOST-SUFFIX,jdwl.com
-HOST-SUFFIX,jdworldwide.com
-HOST-SUFFIX,jdx.com
-HOST-SUFFIX,jingdong.com
-HOST-SUFFIX,jingdongjinrong.com
-HOST-SUFFIX,jingxi.com
-HOST-SUFFIX,jkcsjd.com
-HOST-SUFFIX,joybuy.com
-HOST-SUFFIX,joybuy.es
-HOST-SUFFIX,linglonglife.com
-HOST-SUFFIX,mayshijia.com
-HOST-SUFFIX,minitiao.com
-HOST-SUFFIX,ocwms.com
-HOST-SUFFIX,paipai.com
-HOST-SUFFIX,prestodb-china.com
-HOST-SUFFIX,qianxun.com
-HOST-SUFFIX,qingzhouip.com
-HOST-SUFFIX,vg.com
-HOST-SUFFIX,wanggou.com
-HOST-SUFFIX,wangyin.com
-HOST-SUFFIX,yhd.com
-HOST-SUFFIX,yihaodian.com
-HOST-SUFFIX,yihaodianimg.com
-HOST-SUFFIX,yixun.com
-HOST-SUFFIX,yiyaojd.com
-HOST-SUFFIX,yizhitou.com
 #  与 AsianMedia 共 16 条规则重复
 HOST,upos-hz-mirrorakam.akamaized.net
 HOST-SUFFIX,71.am.com
@@ -1861,6 +1869,26 @@ HOST-SUFFIX,zhangyue.net
 HOST-SUFFIX,zhangyue01.com
 HOST-SUFFIX,zhangyue02.com
 HOST-SUFFIX,zhangyue03.com
+#  与 BiliBili 共 19 条规则重复
+HOST-SUFFIX,acg.tv
+HOST-SUFFIX,acgvideo.com
+HOST-SUFFIX,b23.tv
+HOST-SUFFIX,biliapi.com
+HOST-SUFFIX,biliapi.net
+HOST-SUFFIX,bilibili.cc
+HOST-SUFFIX,bilibili.co
+HOST-SUFFIX,bilibili.com
+HOST-SUFFIX,bilibili.tv
+HOST-SUFFIX,bilibiligame.net
+HOST-SUFFIX,biligame.com
+HOST-SUFFIX,biligame.net
+HOST-SUFFIX,bilivideo.com
+HOST-SUFFIX,hdslb.com
+HOST-SUFFIX,hdslb.net
+HOST-SUFFIX,im9.com
+HOST-SUFFIX,mcbbs.net
+HOST-SUFFIX,mincdn.com
+HOST-SUFFIX,smtcdns.net
 #  与 ByteDance 共 62 条规则重复
 HOST-SUFFIX,amemv.com
 HOST-SUFFIX,baike.com
@@ -1924,26 +1952,6 @@ HOST-SUFFIX,zijieimg.com
 HOST-SUFFIX,zjbyte.com
 HOST-SUFFIX,zjcdn.com
 HOST-SUFFIX,zjgslb.com
-#  与 BiliBili 共 19 条规则重复
-HOST-SUFFIX,acg.tv
-HOST-SUFFIX,acgvideo.com
-HOST-SUFFIX,b23.tv
-HOST-SUFFIX,biliapi.com
-HOST-SUFFIX,biliapi.net
-HOST-SUFFIX,bilibili.cc
-HOST-SUFFIX,bilibili.co
-HOST-SUFFIX,bilibili.com
-HOST-SUFFIX,bilibili.tv
-HOST-SUFFIX,bilibiligame.net
-HOST-SUFFIX,biligame.com
-HOST-SUFFIX,biligame.net
-HOST-SUFFIX,bilivideo.com
-HOST-SUFFIX,hdslb.com
-HOST-SUFFIX,hdslb.net
-HOST-SUFFIX,im9.com
-HOST-SUFFIX,mcbbs.net
-HOST-SUFFIX,mincdn.com
-HOST-SUFFIX,smtcdns.net
 #  与 PingAn 共 8 条规则重复
 HOST-SUFFIX,1qianbao.com
 HOST-SUFFIX,4008000000.com

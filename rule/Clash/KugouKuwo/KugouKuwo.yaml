@@ -1,10 +1,10 @@
 # NAME: KugouKuwo
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-19 01:55:21.419140
-# DOMAIN-SUFFIX: 18
+# UPDATED: 2021-03-19 23:48:04.850208
+# DOMAIN-SUFFIX: 19
 # IP-CIDR: 90
-# TOTAL: 108
+# TOTAL: 109
 payload:
   - DOMAIN-SUFFIX,2496.cn
   - DOMAIN-SUFFIX,gouwo.com
@@ -24,6 +24,7 @@ payload:
   - DOMAIN-SUFFIX,shuoba.com
   - DOMAIN-SUFFIX,shuoba.me
   - DOMAIN-SUFFIX,shuoba.org
+  - DOMAIN-SUFFIX,tingkanbao.com
   - IP-CIDR,1.82.220.0/24
   - IP-CIDR,101.71.122.0/24
   - IP-CIDR,103.215.143.0/24

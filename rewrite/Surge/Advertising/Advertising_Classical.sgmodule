@@ -1,8 +1,8 @@
 #!name=复写去广告
-#!desc=最后更新时间 2021-03-19 01:56:32
+#!desc=最后更新时间 2021-03-19 23:49:20
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=790
+#!rewrite=791
 #!script=0
 #!force_http_engine_hosts=5
 #!mitm=578
@@ -528,6 +528,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,119.18.193.135,122.14.246.33
 ^https?:\/\/m\.caijing\.com\.cn\/startup_ad_ios\.html$ - reject
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) - reject
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm - reject
+^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm - reject
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd - reject
 ^https?:\/\/m\.coolaiy\.com\/b\.php - reject

@@ -15,15 +15,16 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 19 |
+| mitm | 21 |
 | DOMAIN-SUFFIX | 1 |
 | URL-REGEX | 7 |
 | DOMAIN | 4 |
 | IP-CIDR | 1 |
 | IP-CIDR6 | 1 |
 | USER-AGENT | 1 |
-| reject | 19 |
-| http-response | 26 |
+| reject | 20 |
+| http-response | 28 |
+| http-request | 1 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化

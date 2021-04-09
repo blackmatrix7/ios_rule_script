@@ -1,10 +1,10 @@
 # NAME: Steam
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-07 13:24:52
-# DOMAIN-SUFFIX: 29
+# UPDATED: 2021-04-14 00:18:08
+# DOMAIN-SUFFIX: 30
 # DOMAIN-KEYWORD: 3
-# TOTAL: 32
+# TOTAL: 33
 payload:
   - DOMAIN-SUFFIX,csgo.wmsj.cn
   - DOMAIN-SUFFIX,dl.steam.ksyna.com
@@ -33,6 +33,7 @@ payload:
   - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
   - DOMAIN-SUFFIX,steamusercontent.com
   - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
   - DOMAIN-SUFFIX,underlords.com
   - DOMAIN-SUFFIX,valvesoftware.com
   - DOMAIN-KEYWORD,steambroadcast

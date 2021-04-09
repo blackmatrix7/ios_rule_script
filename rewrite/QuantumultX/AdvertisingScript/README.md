@@ -15,9 +15,10 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 19 |
-| reject | 19 |
-| script-response-body | 26 |
+| mitm | 21 |
+| reject | 20 |
+| script-response-body | 28 |
+| script-request-body | 1 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化

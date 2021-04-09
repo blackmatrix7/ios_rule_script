@@ -1,15 +1,15 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-08 02:27:03
+# UPDATED: 2021-04-14 00:18:05
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 59
-# DOMAIN-SUFFIX: 44959
-# DOMAIN: 20718
-# IP-CIDR: 245
+# DOMAIN-SUFFIX: 45091
+# DOMAIN: 20731
+# IP-CIDR: 247
 # IP-CIDR6: 1
-# URL-REGEX: 304
-# TOTAL: 66286
+# URL-REGEX: 303
+# TOTAL: 66432
 DOMAIN-KEYWORD,adashx
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -71,8 +71,8 @@ DOMAIN-KEYWORD,wlmonitor
 DOMAIN-KEYWORD,zjtoolbar
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/EcomResourceServer/AdPlayPage/adinfo
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/MobileAdServer\/
+URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/[a-z.]+\.tc\.qq\.com\/[\w\W]+p20\d\.1\.mp4\?
 URL-REGEX,^https?:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/ting\/preload\/
-URL-REGEX,^https?:\/\/(\d{1,3}\.){3}\d{1,3}/(variety|vlive\.qqvideo)\.tc\.qq\.com/
 URL-REGEX,^https?:\/\/(a?d|sax)\d.sina.com
 URL-REGEX,^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert
 URL-REGEX,^https?:\/\/(e|m).+/((uu|oo).php.+|\d+.x?html\?$)
@@ -351,7 +351,6 @@ URL-REGEX,^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=(tqt_sdkad|tqtad
 URL-REGEX,^https?:\/\/update\.pan\.baidu\.com\/statistics
 URL-REGEX,^https?:\/\/v\.cctv\.com\/.+?850
 URL-REGEX,^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
-URL-REGEX,^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+?\.mp4\?sid=
 URL-REGEX,^https?:\/\/vv\.video\.qq\.com\/getvmind\?
 URL-REGEX,^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query
 URL-REGEX,^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/
@@ -594,6 +593,8 @@ IP-CIDR,47.90.50.177/32
 IP-CIDR,47.93.103.196/32
 IP-CIDR,47.94.89.32/32
 IP-CIDR,47.96.162.122/32
+IP-CIDR,51.77.227.96/29
+IP-CIDR,51.89.187.136/29
 IP-CIDR,58.215.179.159/32
 IP-CIDR,58.221.28.166/32
 IP-CIDR,60.19.29.16/28

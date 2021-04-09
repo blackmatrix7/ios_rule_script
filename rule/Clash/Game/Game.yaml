@@ -1,12 +1,12 @@
 # NAME: Game
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-08 02:27:04
-# DOMAIN-SUFFIX: 484
+# UPDATED: 2021-04-14 00:18:08
+# DOMAIN-SUFFIX: 485
 # IP-CIDR: 45
 # DOMAIN-KEYWORD: 4
 # DOMAIN: 4
-# TOTAL: 537
+# TOTAL: 538
 payload:
   - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN,login.live.com
@@ -412,6 +412,7 @@ payload:
   - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
   - DOMAIN-SUFFIX,steamusercontent.com
   - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
   - DOMAIN-SUFFIX,supermario.com
   - DOMAIN-SUFFIX,supermario3dworld.com
   - DOMAIN-SUFFIX,supermariobros.com.cn

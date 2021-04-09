@@ -3,7 +3,9 @@ const getCookieRegex = /^https?:\/\/h5\.ele\.me\/restapi\/svip_biz\/v1\/supervip
 const elemeCookieKey = 'eleme_app_cookie';
 const elemeLongitudeKey = 'eleme_app_longitude';
 const elemeLatitudeKey = 'eleme_app_latitude';
-const invalidTaskKeywords = ['果蔬', '商超'];
+// 以下条件是AND的关系
+const taskKeywords = ['美食外卖'];  // 任务JSON中含有此关键字的任务才会领取
+const requiredOrderAmount = 2;  // 需要完成订单数量小于等于此数的任务才会领取
 
 let magicJS = MagicJS(scriptName, "INFO");
 magicJS.unifiedPushUrl = magicJS.read('eleme_app_unified_push_url') || magicJS.read('magicjs_unified_push_url');
@@ -61,20 +63,20 @@ function GetSuperVipMissions(cookie, longitude, latitude){
       }
       else{
         try{
-          magicJS.logDebug(`获取会员任务，接口响应：${data}`);
+          magicJS.logInfo(`获取会员任务，接口响应：${data}`);
           let obj = typeof data === 'string'? JSON.parse(data) : data;
           if (obj){
             let result = [];
             obj.missions.forEach(element => {
               let missionInfo = JSON.stringify(element);
-              let tag = true;
-              for (keyword of invalidTaskKeywords){
-                if (missionInfo.indexOf(keyword) >= 0){
-                  tag = false;
+              let flag = false;
+              for (keyword of taskKeywords){
+                if (missionInfo.indexOf(keyword) >= 0 && element.required_order_amount <= requiredOrderAmount){
+                  flag = true;
                   break;
                 }
               }
-              if (tag === true){
+              if (flag === true){
                 result.push(element.mission_id);
               }
             });
@@ -166,6 +168,10 @@ function AcceptMission(cookie, longitude, latitude, mission_id){
       let [getMissionErr, missions] = await magicJS.attempt(magicJS.retry(GetSuperVipMissions, 3, 2000)(cookie, longitude, latitude), []);
       if (getMissionErr){
         subTitle = getMissionErr;
+      }
+      else if (missions.length == 0){
+        magicJS.log('领取任务失败，没有发现符合要求的任务。请查阅任务返回JSON，确认是否因为任务描述改变而无法领取。');
+        subTitle = '❌没有符合要求的任务可以领取';
       }
       else{
         magicJS.logDebug(`获取待领取的任务Id：${JSON.stringify(missions)}`);

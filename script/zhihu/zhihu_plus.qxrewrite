@@ -17,9 +17,11 @@
 # 知乎热榜去广告
 ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
 # 知乎评论去广告
-^https?:\/\/api\.zhihu\.com\/comment_v5\/answers\/\d+\/root_comment url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
 # 知乎回答内容优化
 ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+# 知乎屏蔽关键词解锁
+^https?:\/\/api\.zhihu\.com\/feed-root\/block url script-analyze-echo-response https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
 # 知乎去除最常访问
 ^https?:\/\/api\.zhihu\.com\/moments\/recent url reject-dict
 # 知乎去除回答下的广告
@@ -36,7 +38,10 @@
 # 知乎品牌提问广告
 ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? url reject-dict
 ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? url reject-dict
+# 屏蔽消息页面上拉的用户精选
+^https?:\/\/api\.zhihu\.com/moments/hybrid\? url reject-dict
 # 知乎下发的配置，如皮肤等，目前已知会导致Tab页管理功能失效
 ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config url reject-200
 
+# hostname = www.zhihu.com,api.zhihu.com,appcloud2.zhihu.com,zhuanlan.zhihu.com
 hostname = *.zhihu.com

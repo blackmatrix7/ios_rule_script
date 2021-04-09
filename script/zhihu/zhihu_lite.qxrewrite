@@ -11,7 +11,7 @@
 # 知乎热榜去广告
 ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
 # 知乎评论去广告
-^https?:\/\/api\.zhihu\.com\/comment_v5\/answers\/\d+\/root_comment url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
 # 知乎去除回答下的广告
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations url reject-dict
 # 知乎其他广告拦截
@@ -25,4 +25,4 @@
 ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? url reject-dict
 ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? url reject-dict
 
-hostname = *.zhihu.com
+hostname = www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com

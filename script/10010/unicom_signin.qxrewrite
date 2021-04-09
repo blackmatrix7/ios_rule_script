@@ -1,0 +1,7 @@
+# 中国联通App每日签到与抽奖
+# [task_local]
+# 20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.min.js, tag=联通_签到与抽奖, enabled=true
+
+^https?:\/\/m\.client\.10010\.com\/dailylottery\/static\/(integral|doubleball)\/firstpage url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.min.js
+
+hostname = m.client.10010.com

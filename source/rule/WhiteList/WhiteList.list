@@ -1,0 +1,12 @@
+# 新浪微博
+DOMAIN-SUFFIX,f.video.weibocdn.com
+DOMAIN-SUFFIX,fus.cdn.krcom.cn
+DOMAIN-KEYWORD,wb_ad
+# 联通手机营业厅签到
+DOMAIN,ad.10010.com
+# 嘀嗒出行购买优惠券
+URL-REGEX,^https?:\/\/www\.didapinche\.com\/app\/adstat.*&ad_type=(ride_paid|benefits)
+# Bilibili启动开屏画面选择
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/brand\/set
+# 云闪付乘车码
+DOMAIN,analytics.95516.com

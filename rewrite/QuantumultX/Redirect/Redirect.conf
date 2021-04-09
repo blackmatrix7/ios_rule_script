@@ -1,0 +1,59 @@
+# NAME: 重定向
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2021-04-17 00:16:07
+# REWRITE: 50
+# MITM: 0
+
+^http?:\/\/(www.)?jd\.com\/ url 302 https://www.jd.com/
+^http?:\/\/(www.)?yhd\.com\/ url 302 https://yhd.com/
+^https?:\/\/(ditu|maps).google\.cn url 302 https://maps.google.com
+^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)\/ url 302 https://macitbetter.com/
+^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
+^https?:\/\/(www.)?(mycleanmymac|xitongqingli)\.com\/ url 302 https://macpaw.com/
+^https?:\/\/(www.)?abbyychina\.com\/ url 302 https://www.abbyy.cn/
+^https?:\/\/(www.)?bartender\.cc\/ url 302 https://www.macbartender.com/
+^https?:\/\/(www.)?beyondcompare\.cc\/ url 302 https://www.scootersoftware.com/
+^https?:\/\/(www.)?bingdianhuanyuan\.cn\/ url 302 https://www.faronics.com/zh-hans/products/deep-freeze
+^https?:\/\/(www.)?chemdraw\.com\.cn\/ url 302 https://www.perkinelmer.com.cn/
+^https?:\/\/(www.)?codesoftchina\.com\/ url 302 https://www.teklynx.com/
+^https?:\/\/(www.)?coreldrawchina\.com\/ url 302 https://www.coreldraw.com/cn/
+^https?:\/\/(www.)?crossoverchina\.com\/ url 302 https://www.codeweavers.com/
+^https?:\/\/(www.)?dongmansoft\.com\/ url 302 https://www.udongman.cn/
+^https?:\/\/(www.)?earmasterchina\.cn\/ url 302 https://www.earmaster.com/
+^https?:\/\/(www.)?easyrecoverychina\.com\/ url 302 https://www.ontrack.com/
+^https?:\/\/(www.)?ediuschina\.com\/ url 302 https://www.grassvalley.com/
+^https?:\/\/(www.)?flstudiochina\.com\/ url 302 https://www.image-line.com/
+^https?:\/\/(www.)?formysql\.com\/ url 302 https://www.navicat.com.cn/
+^https?:\/\/(www.)?guitarpro\.cc\/ url 302 https://www.guitar-pro.com/
+^https?:\/\/(www.)?huishenghuiying\.com\.cn\/ url 302 https://www.coreldraw.com/cn/
+^https?:\/\/(www.)?iconworkshop\.cn\/ url 302 https://www.axialis.com/
+^https?:\/\/(www.)?idmchina\.net\/ url 302 https://www.internetdownloadmanager.com/
+^https?:\/\/(www.)?ign\.xn--fiqs8s\/ url 302 http://cn.ign.com/ccpref/us
+^https?:\/\/(www.)?imindmap\.cc\/ url 302 https://www.mindmapper.com/
+^https?:\/\/(www.)?jihehuaban\.com\.cn\/ url 302 https://www.chartwellyorke.com/sketchpad/x24795.html
+^https?:\/\/(www.)?kingdeecn\.cn\/ url 302 http://www.kingdee.com/
+^https?:\/\/(www.)?logoshejishi\.com url 302 https://www.sothink.com/product/logo-design-software/
+^https?:\/\/(www.)?luping\.net\.cn\/ url 302 https://www.techsmith.com/
+^https?:\/\/(www.)?mathtype\.cn\/ url 302 https://www.dessci.com/
+^https?:\/\/(www.)?mi\.com\/ url 302 https://www.mi.com/
+^https?:\/\/(www.)?mindmanager\.(cc|cn)\/ url 302 https://www.mindjet.com/cn/
+^https?:\/\/(www.)?nicelabel\.cc\/ url 302 https://www.nicelabel.com/zh/
+^https?:\/\/(www.)?ntfsformac\.cc\/ url 302 https://china.paragon-software.com/home-mac/ntfs-for-mac/
+^https?:\/\/(www.)?overturechina\.com\/ url 302 https://sonicscores.com/
+^https?:\/\/(www.)?passwordrecovery\.cn\/ url 302 https://cn.elcomsoft.com/aopr.html
+^https?:\/\/(www.)?pdfexpert\.cc\/ url 302 https://pdfexpert.com/zh
+^https?:\/\/(www.)?photozoomchina\.com\/ url 302 https://www.benvista.com/
+^https?:\/\/(www.)?shankejingling\.com\/ url 302 https://www.sothink.com/product/flashdecompiler/
+^https?:\/\/(www.)?suning\.com\/ url 302 https://suning.com/
+^https?:\/\/(www.)?taobao\.com\/ url 302 https://taobao.com/
+^https?:\/\/(www.)?vegaschina\.cn\/ url 302 https://www.vegascreativesoftware.com/
+^https?:\/\/(www.)?xshellcn\.com\/ url 302 https://www.netsarang.com/zh/xshell/
+^https?:\/\/(www.)?yuanchengxiezuo\.com\/ url 302 https://www.teamviewer.com/
+^https?:\/\/(www.)?zbrushcn.com/ url 302 https://pixologic.com/
+^https?:\/\/cn\.ultraiso\.net\/ url 302 https://cn.ezbsystems.com/ultraiso/
+^https?:\/\/hypersnap\.mairuan\.com\/ url 302 https://www.keyshot.com/
+^https?:\/\/logoshejishi\.mairuan\.com\/ url 302 https://www.sothink.com/product/logo-design-software/
+^https?:\/\/you\.163\.com\/ url 302 https://you.163.com/
+
+hostname = 

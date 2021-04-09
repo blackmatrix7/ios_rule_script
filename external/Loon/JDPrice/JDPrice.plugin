@@ -1,0 +1,13 @@
+# NAME: 京东历史价格显示
+# AUTHOR: yichahucha
+# REPO: https://github.com/yichahucha/surge/tree/master
+# UPDATED: 2021-04-17 00:16:07
+# REWRITE: 0
+# SCRIPT: 1
+# MITM: 1
+
+[Script]
+http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/6703a306f4acd234b7bd5f6adf90bcb5.js,tag=京东_历史价格显示
+
+[MITM]
+hostname = api.m.jd.com

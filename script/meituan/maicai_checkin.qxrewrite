@@ -1,0 +1,5 @@
+# 美团买菜每日自动签到
+
+^https?:\/\/mall\.meituan\.com\/api\/c\/mallcoin\/checkIn\/getWeekCheckInProgressBar\? url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js
+
+hostname = mall.meituan.com

@@ -1,0 +1,10 @@
+#!name=慢慢买
+#!desc=慢慢买每日自动签到
+#!system=ios
+
+[Script]
+慢慢买_每日签到 = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,type=cron,cronexp=10 0 * * *
+慢慢买_获取cookie = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,type=http-request,requires-body=true,pattern=^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx)
+
+[MITM]
+hostname = %APPEND% apph5.manmanbuy.com

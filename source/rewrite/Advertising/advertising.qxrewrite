@@ -1,0 +1,5 @@
+# 嘀嗒出行去广告
+^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/ride\/detail\? url reject-dict
+^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/event? url reject-dict
+
+hostname = capis*.didapinche.com,capis-*.didapinche.com

@@ -1,0 +1,14 @@
+#!name=京东历史价格显示
+#!desc=最后更新时间 2021-04-17 00:16:07
+#!author=yichahucha
+#!repo=https://github.com/yichahucha/surge/tree/master
+#!rewrite=0
+#!script=1
+#!force_http_engine_hosts=0
+#!mitm=1
+
+[Script]
+京东_历史价格显示 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/6703a306f4acd234b7bd5f6adf90bcb5.js,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig)
+
+[MITM]
+hostname = %APPEND% api.m.jd.com

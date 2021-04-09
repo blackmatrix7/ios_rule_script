@@ -1,0 +1,5 @@
+# 百度贴吧每日自动签到
+
+^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/login url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js
+
+hostname = c.tieba.baidu.com

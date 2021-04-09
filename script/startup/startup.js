@@ -2,7 +2,7 @@ const scriptName = "去除APP启动广告";
 let magicJS = MagicJS(scriptName, "INFO");
 
 (() => {
-  let body = null;
+  let response = null;
   if (magicJS.isResponse) {
     switch (true) {
       // 嘀嗒出行
@@ -20,7 +20,7 @@ let magicJS = MagicJS(scriptName, "INFO");
               startupPages.push(element);
             });
             obj.startupPages = startupPages;
-            body = JSON.stringify(obj);
+            response = {body: JSON.stringify(obj)};
           }
         } catch (err) {
           magicJS.logError(`嘀嗒出行开屏去广告出现异常：${err}`);
@@ -32,11 +32,51 @@ let magicJS = MagicJS(scriptName, "INFO");
           let obj = JSON.parse(magicJS.response.body);
           obj.data.startpicture.ad = [];
           obj.data.startpicture.mk = [];
-          body = JSON.stringify(obj);
+          response = {body: JSON.stringify(obj)};
         } catch (err) {
           magicJS.logError(`美团外卖开屏去广告出现异常：${err}`);
         }
         break;
+      // 小爱音箱
+      case /^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert/.test(magicJS.request.url):
+        try {
+          let obj = JSON.parse(magicJS.response.body);
+          let data = [];
+          for (let i=0;i<obj.data.length;i++){
+            let ad = obj.data[i];
+            ad.start = '1924272000000';
+            ad.end = '1924358400000';
+            ad.stay = 1;
+            ad.maxTimes = 1;
+            data.push(ad);
+          }
+          obj.data = data;
+          response = {body: JSON.stringify(obj)};
+        } catch (err) {
+          magicJS.logError(`小爱音箱开屏去广告出现异常：${err}`);
+        }
+        break;
+      // 京东
+      case /^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start/.test(magicJS.request.url):
+          try {
+            let obj = JSON.parse(magicJS.response.body);
+            for (let i=0;i<obj.images.length;i++){
+              for (let j=0;j<obj.images[i].length;j++){
+                if (obj.images[i][j].showTimes){
+                  obj.images[i][j].showTimes = 0;
+                  obj.images[i][j].onlineTime = "2030-12-24 00:00:00";
+                  obj.images[i][j].referralsTime = "2030-12-25 00:00:00";
+                  obj.images[i][j].time = 0;
+                }
+              }
+            }
+            obj.countdown = 100;
+            obj.showTimesDaily = 0;
+            response = {body: JSON.stringify(obj)};
+          } catch (err) {
+            magicJS.logError(`京东开屏去广告出现异常：${err}`);
+          }
+          break;
       default:
         magicJS.logWarning("触发意外的请求处理，请确认脚本或复写配置正常。");
         break;
@@ -44,8 +84,8 @@ let magicJS = MagicJS(scriptName, "INFO");
   } else {
     magicJS.logWarning("触发意外的请求处理，请确认脚本或复写配置正常。");
   }
-  if (body) {
-    magicJS.done({ body });
+  if (response) {
+    magicJS.done(response);
   } else {
     magicJS.done();
   }

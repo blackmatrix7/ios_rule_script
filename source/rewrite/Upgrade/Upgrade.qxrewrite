@@ -1,0 +1,23 @@
+# 美团外卖更新检查
+^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? url reject
+^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate? url reject
+# Fa米家更新检查
+^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/biz\/base\/appversion\/latest url reject
+# 联享家更新检查
+^https?:\/\/sso\.lxjapp\.com\/\/chims\/servlet\/csGetLatestSoftwareVersionServlet url reject-dict
+# 嘀嗒出行更新检查
+^https?:\/\/capis(-?\w*)?\.didapinche\.com\/publish\/api\/upgrade url reject-dict
+# 必胜客更新检查
+^https?:\/\/apprn\.pizzahut\.com\.cn\/updateCheck\? url reject-dict
+# 京东更新检查
+^https?:\/\/api\.m\.jd\.com\/openUpgrade url reject-dict
+# 闪送更新检查
+^https?:\/\/api\.ishansong\.com\/app\/check\/v\d+\/check url reject
+# 联通手机营业厅更新检查
+^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm url reject-dict
+# 随申办更新检查
+^https?:\/\/api\.share\.mob\.com\/snsconf url reject-dict
+# 顺丰更新检查
+^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade url reject-dict
+
+hostname = www.meituan.com,apimobile.meituan.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,capis*.didapinche.com,apprn.pizzahut.com.cn,api.m.jd.com,api.ishansong.com,m.client.10010.com,api.share.mob.com,ccsp-egmas.sf-express.com

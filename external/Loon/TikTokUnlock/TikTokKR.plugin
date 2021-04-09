@@ -1,0 +1,16 @@
+# NAME: TikTok(韩国解锁)
+# AUTHOR: Semporia
+# REPO: https://github.com/Semporia/TikTok-Unlock
+# UPDATED: 2021-04-07 13:25:55
+# REWRITE: 4
+# SCRIPT: 0
+# MITM: 3
+
+[URL Rewrite]
+(?<=&mcc_mnc=)4 2 307
+(?<=_region=)CN(?=&) KR 307
+(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+
+[MITM]
+hostname = *.byteoversea.com,*.tik-tokapi.com,*.tiktokv.com

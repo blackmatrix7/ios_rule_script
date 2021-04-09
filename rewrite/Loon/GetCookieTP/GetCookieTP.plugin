@@ -1,0 +1,28 @@
+# NAME: 获取签到脚本Cookie(含第三方脚本)
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2021-04-07 13:25:55
+# REWRITE: 0
+# SCRIPT: 16
+# MITM: 16
+
+[Script]
+http-request ^https?:\/\/api\.didialift\.com\/beatles\/userapi\/user\/user\/getuserinfo?.*city_id=(\d+).*token=([^&]*) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,tag=滴滴出行_获取Token
+http-request ^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx) requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,tag=慢慢买_获取cookie
+http-request ^https?:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?.*location_cityid=(\d+).*&ticket=([^&]*) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,tag=滴滴出行_获取Ticket
+http-request ^https?:\/\/bosp-api\.xiaojukeji\.com\/bosp-api\/lottery\/info?.*lid=([^&]*) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,tag=滴滴出行_获取LotteryId
+http-request ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/login script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,tag=贴吧_获取cookie
+http-request ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/member\/(signin\/usersign|sign\/current) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js,tag=Fa米家_获取cookie
+http-request ^https?:\/\/h5\.ele\.me\/restapi\/svip_biz\/v1\/supervip\/queryMissionCollect\??longitude=([^&]*).*latitude=([^&]*) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,tag=饿了么_获取cookie
+http-request ^https?:\/\/luka\-graphql\.ling\.cn\/graphql\/mobile\?operation=UserInfoWithPendingRobotQuery script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka_signin.js,tag=Luka_获取cookie
+http-request ^https?:\/\/m\.client\.10010\.com\/dailylottery\/static\/(integral|doubleball)\/firstpage requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.min.js,tag=联通_获取cookie
+http-request ^https?:\/\/maicai\.api\.ddxq\.mobi\/point\/home\?api_version script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js,tag=叮咚买菜_获取cookie
+http-request ^https?:\/\/mall\.meituan\.com\/api\/c\/mallcoin\/checkIn\/getWeekCheckInProgressBar\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js,tag=美团买菜_获取cookie
+http-request ^https?:\/\/pgc-cms\.jzb\.com\/api\/channel\/recommend script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/jiazhangbang/jiazhangbang_checkin.js,tag=家长帮_获取cookie
+http-request ^https?:\/\/www\.didapinche\.com\/hapis\/api\/t\/Jifen\/getSignInInfo\?userCid=.* requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.js,tag=嘀嗒出行_获取cookie
+http-request ^https?:\/\/zhiyou\.smzdm\.com\/user$ requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js,tag=什么值得买_获取cookie
+http-response ^https?:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/v2\/index requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,tag=滴滴出行_获取GroupId
+http-response ^https?:\/\/pay\.diditaxi\.com\.cn\/web_wallet\/v2\/wallet\/home requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,tag=滴滴金融_获取ActivityId与ChannelId
+
+[MITM]
+hostname = api.didialift.com,apph5.manmanbuy.com,as.xiaojukeji.com,bosp-api.xiaojukeji.com,c.tieba.baidu.com,fmapp.chinafamilymart.com.cn,h5.ele.me,luka-graphql.ling.cn,m.client.10010.com,maicai.api.ddxq.mobi,mall.meituan.com,mp.jzb.com,pay.diditaxi.com.cn,pgc-cms.jzb.com,www.didapinche.com,zhiyou.smzdm.com

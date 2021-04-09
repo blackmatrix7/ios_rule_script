@@ -1,0 +1,17 @@
+#!name=抖音去广告
+#!desc=最后更新时间 2021-04-02 00:13:28
+#!author=Choler
+#!repo=https://github.com/Choler/Surge
+#!rewrite=1
+#!script=1
+#!force_http_engine_hosts=0
+#!mitm=1
+
+[URL Rewrite]
+^https?:\/\/(.*)\.amemv\.com\/aweme\/v2\/(follow\/)?feed\/ https://$1.amemv.com/aweme/v1/$2feed/ header
+
+[Script]
+抖音_去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/7f3c8323580b2d79dfe42a315656355a.js,pattern=^https?:\/\/.*\.amemv\.com\/aweme\/v1\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/
+
+[MITM]
+hostname = %APPEND% *.amemv.com

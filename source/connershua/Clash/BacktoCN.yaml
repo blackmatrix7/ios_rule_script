@@ -1,0 +1,185 @@
+# HTTP 代理端口
+port: 7890
+
+# SOCKS5 代理端口
+socks-port: 7891
+
+# Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
+# redir-port: 7892
+
+# 允许局域网的连接（可用来共享代理）
+allow-lan: false
+
+# 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
+mode: Rule
+
+# 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
+# 5 个级别：silent / info / warning / error / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
+log-level: info
+
+# clash 的 RESTful API
+external-controller: 127.0.0.1:9090
+
+# 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `${API}/ui`
+# 参数应填写配置目录的相对路径或绝对路径。
+# external-ui: folder
+
+# RESTful API 的口令 (可选)
+# secret: ""
+
+# Clash for Windows
+cfw-bypass:
+  - qq.com
+  - music.163.com
+  - '*.music.126.net'
+  - localhost
+  - 127.*
+  - 10.*
+  - 172.16.*
+  - 172.17.*
+  - 172.18.*
+  - 172.19.*
+  - 172.20.*
+  - 172.21.*
+  - 172.22.*
+  - 172.23.*
+  - 172.24.*
+  - 172.25.*
+  - 172.26.*
+  - 172.27.*
+  - 172.28.*
+  - 172.29.*
+  - 172.30.*
+  - 172.31.*
+  - 192.168.*
+  - <local>
+cfw-latency-timeout: 5000
+
+# 代理节点
+Proxy:
+# 更多协议配置示例：https://github.com/Dreamacro/clash/blob/master/README.md
+
+# 加密算法推荐：AEAD_AES_128_GCM AEAD_AES_192_GCM AEAD_AES_256_GCM AEAD_CHACHA20_POLY1305
+
+# Shadowsocks
+- { name: "1", type: ss, server: 1.2.4.8, port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password", udp: true }
+
+# Shadowsocks + OBFS
+- name: "2"
+  type: ss
+  server: 1.2.4.8
+  port: 443
+  cipher: AEAD_CHACHA20_POLY1305
+  password: "password"
+  plugin: obfs
+  plugin-opts:
+    mode: tls # or http
+    # host: bing.com
+
+# Shadowsocks + V2Ray Plugin
+- name: "3"
+  type: ss
+  server: 1.2.4.8
+  port: 443
+  cipher: AEAD_CHACHA20_POLY1305
+  password: "password"
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket # no QUIC now
+    # tls: true # wss
+    # skip-cert-verify: true
+    # host: bing.com
+    # path: "/"
+    # headers:
+    #   custom: value
+
+# Project V(V2Ray) VMess(Websocket + TLS)
+- { name: "4", type: vmess, server: v2ray.cool, port: 443, uuid: a3482e88-686a-4a58-8126-99c9df64b7bf, alterId: 7, cipher: auto, network: ws, ws-path: /v2ray.cool/, tls: true }
+
+# 代理组策略
+Proxy Group:
+# url-test 通过对 URL 对速度进行基准测试，自动选择最快的节点。
+- { name: "UrlTest", type: url-test, proxies: ["1", "2", "3","4"], url: "http://www.gstatic.com/generate_204", interval: 300 }
+
+# 代理节点选择
+- { name: "PROXY", type: select, proxies: ["UrlTest","1", "2", "3"] }
+
+# 规则
+Rule:
+# (Video)
+# AcFun
+# USER-AGENT,AcFun*,PROXY
+- DOMAIN-SUFFIX,acfun.cn,PROXY
+- DOMAIN-SUFFIX,acfun.com,PROXY
+- DOMAIN-SUFFIX,aixifan.com,PROXY
+# > bilibili
+# USER-AGENT,bili-universal,PROXY
+# USER-AGENT,Bilibili*,PROXY
+- DOMAIN-SUFFIX,acgvideo.com,PROXY
+- DOMAIN-SUFFIX,bilibili.com,PROXY
+- DOMAIN-SUFFIX,hdslb.com,PROXY
+# > HunanTV
+# USER-AGENT,MGTV*,PROXY
+- DOMAIN-SUFFIX,hitv.com,PROXY
+- DOMAIN-SUFFIX,hunantv.com,PROXY
+- DOMAIN-SUFFIX,mgtv.com,PROXY
+# > Migu
+# USER-AGENT,MiguVideo*,PROXY
+# USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91,PROXY
+- DOMAIN-SUFFIX,cmvideo.cn,PROXY
+- DOMAIN-SUFFIX,migu.cn,PROXY
+- DOMAIN-SUFFIX,miguvideo.com,PROXY
+# > iQiyi
+# USER-AGENT,iQiYiPhoneVideo,PROXY
+# USER-AGENT,PPStream,PROXY
+# USER-AGENT,QIYIVideo,PROXY
+# USER-AGENT,QYPlayer,PROXY
+- DOMAIN-SUFFIX,iqiyi.com,PROXY
+- DOMAIN-SUFFIX,iqiyipic.com,PROXY
+- DOMAIN-SUFFIX,qy.net,PROXY
+# > Sohu
+- DOMAIN-SUFFIX,sohu.com,PROXY
+- DOMAIN-SUFFIX,sohu.com.cn,PROXY
+- DOMAIN-SUFFIX,itc.cn,PROXY
+- DOMAIN-SUFFIX,v-56.com,PROXY
+# > Tencent
+# USER-AGENT,live4iphone*,PROXY
+# USER-AGENT,qqlive4iphone*,PROXY
+# USER-AGENT,TencentMidasConnect*,PROXY
+- DOMAIN-SUFFIX,video.qq.com,PROXY
+# > Youku
+# USER-AGENT,Youku*,PROXY
+# USER-AGENT,%E4%BC%98%E9%85%B7*,PROXY
+- DOMAIN-SUFFIX,soku.com,PROXY
+- DOMAIN-SUFFIX,youku.com,PROXY
+- DOMAIN-SUFFIX,ykimg.com,PROXY
+
+# (Music)
+# > Alibaba
+# USER-AGENT,walkman*,PROXY
+# USER-AGENT,xiami*,PROXY
+- DOMAIN-SUFFIX,xiami.com,PROXY
+- DOMAIN-SUFFIX,xiami.net,PROXY
+# > Netease
+# USER-AGENT,NeteaseMusic*,PROXY
+# USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,PROXY
+- DOMAIN-SUFFIX,music.126.net,PROXY
+- DOMAIN-SUFFIX,music.163.com,PROXY
+# > Tencent
+# USER-AGENT,MOO%E9%9F%B3%E4%B9%90*,PROXY
+# USER-AGENT,QQ%E9%9F%B3%E4%B9%90,PROXY
+- DOMAIN-SUFFIX,qqmusic.qq.com,PROXY
+- DOMAIN-SUFFIX,y.qq.com,PROXY
+- DOMAIN,aqqmusic.tc.qq.com,PROXY
+# Kugou and Kuwo
+- DOMAIN-SUFFIX,kugou.com,PROXY
+# USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*,PROXY
+- DOMAIN-SUFFIX,kuwo.cn,PROXY
+- DOMAIN-SUFFIX,koowo.com,PROXY
+# > Baidu
+# USER-AGENT,baiduyinyue,PROXY
+- DOMAIN-SUFFIX,qianqian.com,PROXY
+
+- GEOIP,CN,PROXY
+
+- MATCH,DIRECT

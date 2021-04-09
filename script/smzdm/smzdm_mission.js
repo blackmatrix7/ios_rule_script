@@ -1,10 +1,8 @@
-const zhiyouRegex = /^https?:\/\/zhiyou\.smzdm\.com\/user$/;
 const smzdmCookieKey = 'smzdm_cookie';
-const smzdmSessionKey = 'smzdm_session';
 const scriptName = '什么值得买';
 let clickGoBuyMaxTimes = 0; // 好价点击去购买的次数
-let clickLikeProductMaxTimes = 7; // 好价点值次数
-let clickLikeArticleMaxTimes = 7; // 好文点赞次数
+let clickLikeProductMaxTimes = 0; // 好价点值次数
+let clickLikeArticleMaxTimes = 0; // 好文点赞次数
 let clickFavArticleMaxTimes = 7; // 好文收藏次数
 
 let magicJS = MagicJS(scriptName, "INFO");
@@ -253,7 +251,7 @@ function ClickFavArticle(cookie, articleId){
 }
 
 // 每日抽奖
-function LotteryDraw(cookie, activeId='7mV1llk1l9'){
+function LotteryDraw(cookie, activeId='6lxEJZoE2q'){
   return new Promise((resolve) =>{
       let options = {
         url : `https://zhiyou.smzdm.com/user/lottery/jsonp_draw?callback=jQuery34109305207178886287_${new Date().getTime()}&active_id=${activeId}&_=${new Date().getTime()}`,
@@ -422,7 +420,7 @@ function WebGetCurrentInfo(smzdmCookie){
         magicJS.logInfo(`昵称：${nickName}\nWeb端签到状态：${beforeHasCheckin}\n签到前等级${beforeVIPLevel}，积分${beforePoint}，经验${beforeExp}，金币${beforeGold}，碎银子${beforeSilver}， 未读消息${beforeNotice}`);
         
         // 每日抽奖
-        content = await LotteryDraw(smzdmCookie, '7mV1llk1l9');
+        content = await LotteryDraw(smzdmCookie, '6lxEJZoE2q');
 
         // 获取去购买和好价Id列表
         let [, [goBuyList=[], likProductList=[]]] = await magicJS.attempt(magicJS.retry(GetProductList, 5, 1000)(), [[], []]);

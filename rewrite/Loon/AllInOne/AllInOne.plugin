@@ -1,7 +1,7 @@
 # NAME: AllInOne
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:16:07
+# UPDATED: 2021-04-19 02:19:27
 # REWRITE: 828
 # SCRIPT: 30
 # MITM: 639
@@ -583,7 +583,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_complaint - reject
 ^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_video - reject
 ^https?:\/\/mp\.weixin\.qq.com\/mp\/advertisement_report - reject
-^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport) - reject
+^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport) - reject-img
 ^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo - reject
 ^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg) - reject
 ^https?:\/\/mrobot\.pcauto\.com\.cn\/v\d\/ad2p - reject

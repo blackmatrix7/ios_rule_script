@@ -1,6 +1,18 @@
 const scriptName = 'BiliBili';
 const storyAidKey = 'story_aid';
 let magicJS = MagicJS(scriptName, 'INFO');
+const blackKey = 'blackmatrix7_bilibili_feed_black';
+
+//Customize blacklist
+let blacklist = [];
+if (magicJS.read(blackKey)){
+  blacklist = magicJS.read(blackKey).split(';');
+} else {
+  const defaultList = '';
+  magicJS.write(blackKey, defaultList);
+  blacklist = defaultList.split(';');
+}
+
 ;(() => {
   let body = null;
   if (magicJS.isResponse){
@@ -24,7 +36,12 @@ let magicJS = MagicJS(scriptName, 'INFO');
                 items.push(item);
               }
             }
-            else if (!item.hasOwnProperty('ad_info') && (item['card_type'] === 'small_cover_v2' || item['card_type'] === 'large_cover_v1')){
+            else if (
+              !item.hasOwnProperty('ad_info') &&
+              !blacklist.includes(item['args']['up_name']) &&
+              item.card_goto.indexOf('ad') === -1 &&
+              (item['card_type'] === 'small_cover_v2' || item['card_type'] === 'large_cover_v1')
+            ){
               items.push(item);
             }
           }

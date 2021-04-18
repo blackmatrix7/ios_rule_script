@@ -1,0 +1,238 @@
+{
+  "id": "blackmatrix7.app.sub",
+  "name": "blackmatrix7 应用订阅",
+  "author": "@blackmatrix7",
+  "icon": "https://avatars.githubusercontent.com/u/27717518?v=4",
+  "repo": "https://github.com/blackmatrix7/ios_rule_script",
+  "apps": [
+    {
+      "id": "blackmatrix7.10010",
+      "name": "联通每日签到与抽奖",
+      "keys": ["unicom_user_cookie", "unicom_mobile", "unicom_encrypt_mobile", "city_code"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/10010",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/10010.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js"
+    },
+    {
+      "id": "blackmatrix7.bilibili",
+      "name": "哔哩哔哩去广告",
+      "keys": ["story_aid", "blackmatrix7_bilibili_feed_black"],
+      "settings": [
+        {
+          "id": "blackmatrix7_bilibili_feed_black",
+          "name": "首页UP主黑名单",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "UP主名称1;UP主名称2",
+          "autoGrow": true,
+          "rows": 5,
+          "desc": "以英文逗号分隔多个号码"
+        }
+      ],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/bilibili",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png"
+      ]
+    },
+    {
+      "id": "blackmatrix7.didachuxing",
+      "name": "嘀嗒出行",
+      "keys": ["dida_cid", "dida_cookie", "dida_useragent", "dida_access_token"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didachuxing",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing.png"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.js"
+    },
+    {
+      "id": "blackmatrix7.didichuxing",
+      "name": "滴滴出行",
+      "keys": [
+        "didi_token",
+        "didi_city_id",
+        "didi_lottery_id",
+        "didi_my_source_id",
+        "didi_group_id",
+        "didi_finance_channel_id",
+        "didi_finance_activity_id"
+      ],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didichuxing",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/didi.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js"
+    },
+    {
+      "id": "blackmatrix7.dingdong",
+      "name": "叮咚买菜",
+      "keys": ["dingdongmaicai_checkin_cookie", "dingdongmaicai_checkin_body"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/dingdong",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong.png"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js"
+    },
+    {
+      "id": "blackmatrix7.eleme",
+      "name": "饿了么",
+      "keys": ["eleme_app_cookie", "eleme_app_longitude", "eleme_app_latitude"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/eleme",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/elem.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png"
+      ],
+      "scripts": [
+        {
+          "name": "领取吃货豆",
+          "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js"
+        },
+        {
+          "name": "领取会员任务",
+          "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_mission.js"
+        }
+      ]
+    },
+    {
+      "id": "blackmatrix7.famijia",
+      "name": "Fa米家",
+      "keys": ["famijia_checkin_cookie", "famijia_device_id_cookie", "famijia_black_box"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/famijia",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia.png"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js"
+    },
+    {
+      "id": "blackmatrix7.luka",
+      "name": "Luka阅读养成",
+      "keys": ["luka_checkin_cookie", "luka_signin_auth"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/luka",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka.png"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka_signin.js"
+    },
+    {
+      "id": "blackmatrix7.manmanbuy",
+      "name": "慢慢买",
+      "keys": ["manmanbuy_checkin_cookie", "manmanbuy_login_body", "manmanbuy_username", "manmanbuy_deviceid"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/manmanbuy",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanmai.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanmai.png"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js"
+    },
+    {
+      "id": "blackmatrix7.meituan",
+      "name": "美团买菜",
+      "keys": [
+        "meituan_mall_cookie",
+        "meituan_mall_t",
+        "meituan_mall_querystring",
+        "meituan_mall_uuid",
+        "meituan_mall_userid",
+        "meituan_mall_body"
+      ],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/meituan",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js"
+    },
+    {
+      "id": "blackmatrix7.smzdm",
+      "name": "什么值得买",
+      "keys": ["smzdm_cookie", "smzdm_session"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/smzdm",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/smzdm.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/smzdm.png"
+      ],
+      "scripts": [
+        {
+          "name": "每日自动任务",
+          "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_mission.js"
+        },
+        {
+          "name": "每日自动签到",
+          "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js"
+        }
+      ]
+    },
+    {
+      "id": "blackmatrix7.tieba",
+      "name": "百度贴吧",
+      "keys": ["tieba_cookie_key"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/tieba",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/tieba.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/tieba.png"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js"
+    },
+    {
+      "id": "blackmatrix7.wanda",
+      "name": "万达电影",
+      "keys": ["wanda_checkin_cookie", "wanda_activitycode"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/wanda",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/wanda.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/wanda.png"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.js"
+    },
+    {
+      "id": "blackmatrix7.youpin",
+      "name": "小米有品",
+      "keys": ["youpin_checkin_cookie"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/youpin",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/xiaomiyp.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/xiaomiyp.png"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/youpin/youpin_checkin.js"
+    },
+    {
+      "id": "blackmatrix7.zhihu",
+      "name": "知乎助手",
+      "keys": ["zhihu_blocked_users", "zhihu_current_userinfo", "zhihu_keyword_block"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.png"
+      ],
+      "scripts": [
+        {
+          "name": "知乎助手数据清理",
+          "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js"
+        }
+      ]
+    }
+  ]
+}

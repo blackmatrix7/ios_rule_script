@@ -1,10 +1,10 @@
 # NAME: CBS
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:32
+# UPDATED: 2021-04-18 02:19:37
 # DOMAIN-SUFFIX: 32
-# PROCESS-NAME: 1
-# TOTAL: 33
+# PROCESS-NAME: 2
+# TOTAL: 34
 payload:
   - DOMAIN-SUFFIX,cbs
   - DOMAIN-SUFFIX,cbs.com
@@ -39,3 +39,4 @@ payload:
   - DOMAIN-SUFFIX,viacomcbs.com
   - DOMAIN-SUFFIX,viacomcbspressexpress.com
   - PROCESS-NAME,com.cbs.app
+  - PROCESS-NAME,com.showtime.standalone

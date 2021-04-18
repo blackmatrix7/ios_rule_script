@@ -1,9 +1,10 @@
 # NAME: WeTV
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:34
+# UPDATED: 2021-04-18 02:19:37
+# PROCESS-NAME: 1
 # DOMAIN-SUFFIX: 7
-# TOTAL: 7
+# TOTAL: 8
 payload:
   - DOMAIN-SUFFIX,iflix-images.akamaized.net
   - DOMAIN-SUFFIX,iflix.com
@@ -12,3 +13,4 @@ payload:
   - DOMAIN-SUFFIX,vv.video.qq.com
   - DOMAIN-SUFFIX,wetv.vip
   - DOMAIN-SUFFIX,wetvinfo.com
+  - PROCESS-NAME,com.tencent.qqlivei18n.us

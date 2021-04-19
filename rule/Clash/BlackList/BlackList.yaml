@@ -1,13 +1,13 @@
 # NAME: BlackList
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:32
-# DOMAIN-SUFFIX: 696
+# UPDATED: 2021-04-19 11:34:35
+# DOMAIN-SUFFIX: 695
 # DOMAIN: 3
 # DOMAIN-KEYWORD: 12
 # IP-CIDR: 57
 # PROCESS-NAME: 1
-# TOTAL: 769
+# TOTAL: 768
 payload:
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,lookup-api.apple.com
@@ -161,7 +161,6 @@ payload:
   - DOMAIN-SUFFIX,dcmilitary.com
   - DOMAIN-SUFFIX,deja.com
   - DOMAIN-SUFFIX,demdex.net
-  - DOMAIN-SUFFIX,depositphotos.cn
   - DOMAIN-SUFFIX,deskconnect.com
   - DOMAIN-SUFFIX,digisfera.com
   - DOMAIN-SUFFIX,digitaltrends.com

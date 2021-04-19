@@ -15,15 +15,15 @@ Global分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需
 
 ## 规则统计
 
-总计规则：28308 条。
+总计规则：28176 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 47 |
-| DOMAIN-SUFFIX | 28038 |
-| USER-AGENT | 49 |
+| DOMAIN | 48 |
+| DOMAIN-SUFFIX | 27906 |
+| USER-AGENT | 48 |
 | DOMAIN-KEYWORD | 42 |
 | IP-CIDR | 128 |
 | IP-CIDR6 | 3 |
@@ -59,6 +59,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 除非特殊需求，否则不建议重复引用。
 
+当前分流规则，已排除以下规则：
+
+- China
+
 ## 数据来源
 
 本项目的Global复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。
@@ -80,6 +84,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Proxy/Proxy.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list
+- https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/AppleGlobal.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/Global.list
 

@@ -10,15 +10,25 @@
 
 ## 规则统计
 
+<<<<<<< HEAD
 总计规则：28394 条。
+=======
+总计规则：28175 条。
+>>>>>>> upstream/master
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
+<<<<<<< HEAD
 | HOST | 47 |
 | HOST-SUFFIX | 28125 |
 | USER-AGENT | 49 |
+=======
+| HOST | 48 |
+| HOST-SUFFIX | 27906 |
+| USER-AGENT | 48 |
+>>>>>>> upstream/master
 | HOST-KEYWORD | 42 |
 | IP-CIDR | 128 |
 | IP6-CIDR | 3 |
@@ -49,6 +59,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 除非特殊需求，否则不建议重复引用。
 
+当前分流规则，已排除以下规则：
+
+- China
+
 ## 数据来源
 
 本项目的Global复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。
@@ -70,6 +84,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Proxy/Proxy.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list
+- https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/AppleGlobal.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/Global.list
 

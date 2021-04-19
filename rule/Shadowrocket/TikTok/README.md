@@ -16,8 +16,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
+| DOMAIN-SUFFIX | 13 |
 | USER-AGENT | 1 |
-| DOMAIN-SUFFIX | 12 |
 | DOMAIN-KEYWORD | 1 |
 | DOMAIN | 1 |
 ## 配置说明

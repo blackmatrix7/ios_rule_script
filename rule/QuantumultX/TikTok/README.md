@@ -16,8 +16,13 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
+<<<<<<< HEAD
 | USER-AGENT | 1 |
 | HOST-SUFFIX | 12 |
+=======
+| HOST-SUFFIX | 13 |
+| USER-AGENT | 1 |
+>>>>>>> upstream/master
 | HOST-KEYWORD | 1 |
 | HOST | 1 |
 ## 配置说明

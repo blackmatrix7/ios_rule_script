@@ -2,7 +2,7 @@ const scriptName = "Fa米家";
 const getCookieRegex = /^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/member\/(signin\/usersign|sign\/current)/;
 const startAdRegex = /^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad/;
 const famijiaCookieKey = "famijia_checkin_cookie";
-const famijiaDeviceIdKey = "famijia_device_id_cookie";
+const famijiaDeviceIdKey = "famijia_device_id";
 const famijiaBlackBoxKey = "famijia_black_box";
 let magicJS = MagicJS(scriptName, "INFO");
 magicJS.unifiedPushUrl = magicJS.read("famijia_unified_push_url") || magicJS.read("magicjs_unified_push_url");
@@ -14,15 +14,16 @@ function CheckInNewVerrsion(cookie, deviceId, blackBox) {
       headers: {
         "Accept": "*/*",
         "Accept-Encoding": "br;q=1.0, gzip;q=0.9, deflate;q=0.8",
-        "Accept-Language": "zh-Hans-CN;q=1.0",
+        "Accept-Language": "zh-Hans-CN;q=1.0, en-CN;q=0.9",
         "Connection": "keep-alive",
         "Content-Type": "application/json",
         "Host": "fmapp.chinafamilymart.com.cn",
         "User-Agent": "Fa",
         "blackBox": blackBox,
         "deviceId": deviceId,
-        "fmVersion": "2.1.1",
+        "fmVersion": "2.2.3",
         "loginChannel": "app",
+        "os": "ios",
         "token": cookie,
       },
       body: {},
@@ -37,7 +38,7 @@ function CheckInNewVerrsion(cookie, deviceId, blackBox) {
           let obj = typeof data === "string" ? JSON.parse(data) : data;
           if (obj.code === "200") {
             resolve([obj.data, ""]);
-          } else if (obj.code === "3004000") {
+          } else if (obj.message) {
             resolve([null, obj.message]);
           } else {
             magicJS.logError(`签到失败，响应异常：${data}`);

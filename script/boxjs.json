@@ -20,10 +20,10 @@
     {
       "id": "blackmatrix7.bilibili",
       "name": "哔哩哔哩去广告",
-      "keys": ["story_aid", "blackmatrix7_bilibili_feed_black"],
+      "keys": ["bilibili_story_aid", "bilibili_feed_black"],
       "settings": [
         {
-          "id": "blackmatrix7_bilibili_feed_black",
+          "id": "bilibili_feed_black",
           "name": "首页UP主黑名单",
           "val": "",
           "type": "textarea",
@@ -108,7 +108,7 @@
     {
       "id": "blackmatrix7.famijia",
       "name": "Fa米家",
-      "keys": ["famijia_checkin_cookie", "famijia_device_id_cookie", "famijia_black_box"],
+      "keys": ["famijia_checkin_cookie", "famijia_device_id", "famijia_black_box"],
       "author": "@blackmatrix7",
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/famijia",
       "icons": [
@@ -184,7 +184,7 @@
     {
       "id": "blackmatrix7.tieba",
       "name": "百度贴吧",
-      "keys": ["tieba_cookie_key"],
+      "keys": ["tieba_checkin_cookie"],
       "author": "@blackmatrix7",
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/tieba",
       "icons": [
@@ -204,18 +204,6 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/wanda.png"
       ],
       "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.js"
-    },
-    {
-      "id": "blackmatrix7.youpin",
-      "name": "小米有品",
-      "keys": ["youpin_checkin_cookie"],
-      "author": "@blackmatrix7",
-      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/youpin",
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/xiaomiyp.png",
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/xiaomiyp.png"
-      ],
-      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/youpin/youpin_checkin.js"
     },
     {
       "id": "blackmatrix7.zhihu",

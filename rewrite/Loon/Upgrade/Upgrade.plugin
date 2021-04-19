@@ -1,12 +1,13 @@
 # NAME: 更新检查
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:16:07
-# REWRITE: 11
+# UPDATED: 2021-04-23 02:25:35
+# REWRITE: 12
 # SCRIPT: 0
 # MITM: 6
 
 [URL Rewrite]
+^https?:\/\/api\.eshimin\.com\/api\/core\/version - reject-dict
 ^https?:\/\/api\.ishansong\.com\/app\/check\/v\d+\/check - reject
 ^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject-dict
 ^https?:\/\/api\.share\.mob\.com\/snsconf - reject-dict

@@ -1,8 +1,8 @@
 #!name=更新检查
-#!desc=最后更新时间 2021-04-17 00:16:07
+#!desc=最后更新时间 2021-04-23 02:25:34
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=11
+#!rewrite=12
 #!script=0
 #!force_http_engine_hosts=0
 #!mitm=6
@@ -14,6 +14,7 @@
 ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
 
 [Map Local]
+^https?:\/\/api\.eshimin\.com\/api\/core\/version data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/api\.m\.jd\.com\/openUpgrade data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/api\.share\.mob\.com\/snsconf data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/apprn\.pizzahut\.com\.cn\/updateCheck\? data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"

@@ -18,24 +18,15 @@
 
 ## 规则统计
 
-<<<<<<< HEAD
-总计规则：66205 条。
-=======
 总计规则：65731 条。
->>>>>>> upstream/master
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-KEYWORD | 59 |
-<<<<<<< HEAD
-| DOMAIN-SUFFIX | 44846 |
-| DOMAIN | 20750 |
-=======
 | DOMAIN-SUFFIX | 44389 |
 | DOMAIN | 20733 |
->>>>>>> upstream/master
 | IP-CIDR | 247 |
 | IP-CIDR6 | 1 |
 | URL-REGEX | 302 |

@@ -10,19 +10,14 @@
 
 ## 规则统计
 
-总计规则：15 条。
+总计规则：16 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-<<<<<<< HEAD
-| USER-AGENT | 1 |
-| HOST-SUFFIX | 12 |
-=======
 | HOST-SUFFIX | 13 |
 | USER-AGENT | 1 |
->>>>>>> upstream/master
 | HOST-KEYWORD | 1 |
 | HOST | 1 |
 ## 配置说明

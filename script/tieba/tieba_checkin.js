@@ -7,7 +7,8 @@ const batchSize = 20;
 const retries = 5; // 签到失败重试次数
 const interval = 2000; // 每次重试间隔
 const tiebaCookieKey = "tieba_checkin_cookie";
-const tiebeGetCookieRegex = /https?:\/\/c\.tieba\.baidu\.com\/c\/s\/login/;
+const tiebeGetCookieRegex = /https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login/;
+const tiebeNewVersionGetCookieRegex = /^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig/;
 let magicJS = MagicJS(scirptName, "INFO");
 magicJS.unifiedPushUrl = magicJS.read("tieba_unified_push_url") || magicJS.read("magicjs_unified_push_url");
 
@@ -108,7 +109,7 @@ function TiebaCheckIn(cookie, tbs, tieba) {
 }
 
 (async () => {
-  if (magicJS.isRequest && tiebeGetCookieRegex.test(magicJS.request.url)) {
+  if (magicJS.isRequest && (tiebeGetCookieRegex.test(magicJS.request.url) || tiebeNewVersionGetCookieRegex.test(magicJS.request.url))) {
     let cookie = magicJS.request.headers.Cookie;
     let hisCookie = magicJS.read(tiebaCookieKey);
     magicJS.logDebug(`当前贴吧Cookie：\n${cookie}\n历史贴吧Cookie：\n${hisCookie}`);

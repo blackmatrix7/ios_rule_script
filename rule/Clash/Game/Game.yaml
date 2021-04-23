@@ -1,12 +1,12 @@
 # NAME: Game
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:33
-# DOMAIN-SUFFIX: 498
+# UPDATED: 2021-04-25 02:23:06
+# DOMAIN-SUFFIX: 499
 # IP-CIDR: 45
 # DOMAIN-KEYWORD: 4
 # DOMAIN: 4
-# TOTAL: 551
+# TOTAL: 552
 payload:
   - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN,login.live.com
@@ -49,6 +49,7 @@ payload:
   - DOMAIN-SUFFIX,blizzard.cn
   - DOMAIN-SUFFIX,blizzard.com
   - DOMAIN-SUFFIX,blizzard.nefficient.co.kr
+  - DOMAIN-SUFFIX,blizzardgames.cn
   - DOMAIN-SUFFIX,blizzardgearstore.com
   - DOMAIN-SUFFIX,blizzcon-a.akamaihd.net
   - DOMAIN-SUFFIX,blz-contentstack.com

@@ -1,10 +1,10 @@
 # NAME: Blizzard
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:32
-# DOMAIN-SUFFIX: 38
+# UPDATED: 2021-04-25 02:23:06
+# DOMAIN-SUFFIX: 39
 # IP-CIDR: 23
-# TOTAL: 61
+# TOTAL: 62
 payload:
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com
@@ -12,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,blizzard.cn
   - DOMAIN-SUFFIX,blizzard.com
   - DOMAIN-SUFFIX,blizzard.nefficient.co.kr
+  - DOMAIN-SUFFIX,blizzardgames.cn
   - DOMAIN-SUFFIX,blizzardgearstore.com
   - DOMAIN-SUFFIX,blizzcon-a.akamaihd.net
   - DOMAIN-SUFFIX,blz-contentstack.com

@@ -1,14 +1,15 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-27 02:25:40
-# DOMAIN-KEYWORD: 59
-# DOMAIN-SUFFIX: 45517
-# DOMAIN: 20650
-# IP-CIDR: 247
+# UPDATED: 2021-05-12 02:17:33
+# DOMAIN-KEYWORD: 76
+# DOMAIN-SUFFIX: 46755
+# DOMAIN: 20771
+# IP-CIDR: 253
 # IP-CIDR6: 1
-# TOTAL: 66474
+# TOTAL: 67856
 payload:
+  - DOMAIN-KEYWORD,112wan
   - DOMAIN-KEYWORD,adashx
   - DOMAIN-KEYWORD,admarvel
   - DOMAIN-KEYWORD,admaster
@@ -33,8 +34,13 @@ payload:
   - DOMAIN-KEYWORD,applovin
   - DOMAIN-KEYWORD,appsflyer
   - DOMAIN-KEYWORD,asewlfjqwlflkew
+  - DOMAIN-KEYWORD,bngpt
+  - DOMAIN-KEYWORD,bongacash
   - DOMAIN-KEYWORD,cnzz
   - DOMAIN-KEYWORD,crashlytics
+  - DOMAIN-KEYWORD,dat8
+  - DOMAIN-KEYWORD,dfkj8
+  - DOMAIN-KEYWORD,dlads
   - DOMAIN-KEYWORD,dnserror
   - DOMAIN-KEYWORD,domob
   - DOMAIN-KEYWORD,duomeng
@@ -42,11 +48,18 @@ payload:
   - DOMAIN-KEYWORD,exosrv
   - DOMAIN-KEYWORD,fenxi
   - DOMAIN-KEYWORD,googleads
+  - DOMAIN-KEYWORD,greenplasticdua
   - DOMAIN-KEYWORD,guanggao
+  - DOMAIN-KEYWORD,haowanyou
+  - DOMAIN-KEYWORD,highwebmedia
   - DOMAIN-KEYWORD,inmobi
+  - DOMAIN-KEYWORD,jads
   - DOMAIN-KEYWORD,lianmeng
+  - DOMAIN-KEYWORD,lieyou
+  - DOMAIN-KEYWORD,mifengv
   - DOMAIN-KEYWORD,mobaders
   - DOMAIN-KEYWORD,monitor
+  - DOMAIN-KEYWORD,o333o
   - DOMAIN-KEYWORD,omgmta
   - DOMAIN-KEYWORD,omgmtaw
   - DOMAIN-KEYWORD,omniture
@@ -57,16 +70,20 @@ payload:
   - DOMAIN-KEYWORD,socdm
   - DOMAIN-KEYWORD,stsdk.vivo.com.cn
   - DOMAIN-KEYWORD,stsdk.vivoglobal.com
+  - DOMAIN-KEYWORD,stunninglover
   - DOMAIN-KEYWORD,supersonicads
   - DOMAIN-KEYWORD,taboola
   - DOMAIN-KEYWORD,talkingdata
+  - DOMAIN-KEYWORD,toateeli
   - DOMAIN-KEYWORD,tracking
   - DOMAIN-KEYWORD,traffic
+  - DOMAIN-KEYWORD,trwl1
   - DOMAIN-KEYWORD,uedas
   - DOMAIN-KEYWORD,umeng
   - DOMAIN-KEYWORD,umtrack
   - DOMAIN-KEYWORD,uploadmobiledata
   - DOMAIN-KEYWORD,wlmonitor
+  - DOMAIN-KEYWORD,xxshuyuan
   - DOMAIN-KEYWORD,zjtoolbar
   - IP-CIDR,1.3.0.10/32
   - IP-CIDR,10.72.25.0/24
@@ -213,6 +230,8 @@ payload:
   - IP-CIDR,183.59.53.184/29
   - IP-CIDR,183.59.53.237/32
   - IP-CIDR,183.6.188.224/29
+  - IP-CIDR,185.165.169.108/32
+  - IP-CIDR,185.193.38.148/32
   - IP-CIDR,188.89.204.198/32
   - IP-CIDR,194.36.101.178/32
   - IP-CIDR,198.2.215.131/32
@@ -276,11 +295,14 @@ payload:
   - IP-CIDR,23.89.50.180/32
   - IP-CIDR,23.91.3.114/32
   - IP-CIDR,27.255.67.120/32
+  - IP-CIDR,35.194.26.233/32
   - IP-CIDR,35.232.188.118/32
+  - IP-CIDR,35.239.57.233/32
   - IP-CIDR,39.107.15.115/32
   - IP-CIDR,42.51.146.207/32
   - IP-CIDR,45.126.123.80/32
   - IP-CIDR,45.192.59.62/32
+  - IP-CIDR,45.32.105.134/32
   - IP-CIDR,45.34.240.72/32
   - IP-CIDR,46.165.197.153/32
   - IP-CIDR,46.165.197.231/32
@@ -313,6 +335,7 @@ payload:
   - IP-CIDR,67.229.224.28/32
   - IP-CIDR,69.28.57.245/32
   - IP-CIDR,74.117.182.77/32
+  - IP-CIDR,77.162.125.199/32
   - IP-CIDR,78.140.131.214/32
   - IP-CIDR,91.196.216.64/32
   - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128

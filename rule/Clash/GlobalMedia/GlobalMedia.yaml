@@ -1,12 +1,12 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-24 02:24:30
+# UPDATED: 2021-05-11 02:18:35
 # DOMAIN: 33
-# DOMAIN-SUFFIX: 203
+# DOMAIN-SUFFIX: 204
 # DOMAIN-KEYWORD: 20
 # IP-CIDR: 847
-# TOTAL: 1103
+# TOTAL: 1104
 payload:
   - DOMAIN,api.okzy.tv
   - DOMAIN,apple.comscoreresearch.com
@@ -53,6 +53,7 @@ payload:
   - DOMAIN-SUFFIX,amazonvideo.com
   - DOMAIN-SUFFIX,ameba.jp
   - DOMAIN-SUFFIX,api.segment.io
+  - DOMAIN-SUFFIX,app.biliintl.com
   - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,bam.nr-data.net

@@ -1,13 +1,14 @@
 # NAME: ChinaMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:25
+# UPDATED: 2021-05-07 09:34:51
 # USER-AGENT: 29
 # DOMAIN-SUFFIX: 162
+# PROCESS-NAME: 1
 # IP-CIDR: 35
 # DOMAIN: 8
 # DOMAIN-KEYWORD: 2
-# TOTAL: 236
+# TOTAL: 237
 DOMAIN,api.iplay.163.com
 DOMAIN,apm.music.163.com
 DOMAIN,apm3.music.163.com
@@ -244,3 +245,4 @@ USER-AGENT,live4iphone*
 USER-AGENT,qqlive4iphone*
 USER-AGENT,walkman*
 USER-AGENT,xiami*
+PROCESS-NAME,tv.danmaku.bili

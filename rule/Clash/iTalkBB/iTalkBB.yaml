@@ -1,9 +1,12 @@
 # NAME: iTalkBB
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:34
-# DOMAIN-SUFFIX: 2
-# TOTAL: 2
+# UPDATED: 2021-05-08 02:14:25
+# PROCESS-NAME: 1
+# DOMAIN-SUFFIX: 3
+# TOTAL: 4
 payload:
+  - DOMAIN-SUFFIX,api.tv.colnv.com
   - DOMAIN-SUFFIX,italkbb.com
   - DOMAIN-SUFFIX,italkbbtv.com
+  - PROCESS-NAME,com.italkbbtv.phone

@@ -1,11 +1,12 @@
 # NAME: BiliBili
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:24
+# UPDATED: 2021-05-07 09:34:51
 # USER-AGENT: 3
 # DOMAIN-SUFFIX: 43
+# PROCESS-NAME: 1
 # IP-CIDR: 16
-# TOTAL: 62
+# TOTAL: 63
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,b23.tv
@@ -68,3 +69,4 @@ IP-CIDR,45.43.32.234/32
 USER-AGENT,*bili*
 USER-AGENT,Bilibili*
 USER-AGENT,bili*
+PROCESS-NAME,tv.danmaku.bili

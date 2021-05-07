@@ -10,14 +10,15 @@
 
 ## 规则统计
 
-总计规则：8608 条。
+总计规则：9468 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 20 |
-| DOMAIN-SUFFIX | 8588 |
+| DOMAIN | 19 |
+| DOMAIN-SUFFIX | 9443 |
+| IP-CIDR | 6 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -27,9 +28,13 @@
 ### Loon 
 实时版：
 
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Privacy/Privacy.list
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Privacy/Privacy_Domain.list
 
 稳定版：
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/Privacy/Privacy.list
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/Privacy/Privacy_Domain.list
 

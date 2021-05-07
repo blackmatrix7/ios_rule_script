@@ -1,22 +1,30 @@
 # NAME: NetEaseMusic
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:28
-# HOST-SUFFIX: 11
+# UPDATED: 2021-05-07 09:34:52
+# HOST-SUFFIX: 8
 # IP-CIDR: 18
-# HOST: 2
-# USER-AGENT: 6
+# HOST: 13
+# USER-AGENT: 7
 # HOST-KEYWORD: 1
-# TOTAL: 38
-HOST,interface3.music.163.com.163jiasu.com,NetEaseMusic
+# TOTAL: 47
+HOST,admusicpic.music.126.net,NetEaseMusic
+HOST,iadmat.nosdn.127.net,NetEaseMusic
+HOST,iadmusicmat.music.126.net,NetEaseMusic
+HOST,iadmusicmatvideo.music.126.net,NetEaseMusic
 HOST,netease.ugcvideoss.ourdvs.com,NetEaseMusic
+HOST,p1.music.126.net,NetEaseMusic
+HOST,p10.music.126.net,NetEaseMusic
+HOST,p2.music.126.net,NetEaseMusic
+HOST,p5.music.126.net,NetEaseMusic
+HOST,p6.music.126.net,NetEaseMusic
+HOST,p7.music.126.net,NetEaseMusic
+HOST,p8.music.126.net,NetEaseMusic
+HOST,p9.music.126.net,NetEaseMusic
 HOST-SUFFIX,163yun.com,NetEaseMusic
 HOST-SUFFIX,api.iplay.163.com,NetEaseMusic
-HOST-SUFFIX,crash.163.com,NetEaseMusic
 HOST-SUFFIX,hz.netease.com,NetEaseMusic
-HOST-SUFFIX,imap.163.com,NetEaseMusic
 HOST-SUFFIX,mam.netease.com,NetEaseMusic
-HOST-SUFFIX,mr.da.netease.com,NetEaseMusic
 HOST-SUFFIX,music.126.com,NetEaseMusic
 HOST-SUFFIX,music.126.net,NetEaseMusic
 HOST-SUFFIX,music.163.com,NetEaseMusic
@@ -24,6 +32,7 @@ HOST-SUFFIX,music.163.com.163jiasu.com,NetEaseMusic
 HOST-KEYWORD,netease,NetEaseMusic
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**,NetEaseMusic
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,NetEaseMusic
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90,NetEaseMusic
 USER-AGENT,NeteaseMusic**,NetEaseMusic
 USER-AGENT,NeteaseMusic*,NetEaseMusic
 USER-AGENT,网易云音乐**,NetEaseMusic

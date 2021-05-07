@@ -1,12 +1,13 @@
 # NAME: ChinaMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:32
+# UPDATED: 2021-05-07 09:34:53
 # DOMAIN-SUFFIX: 162
+# PROCESS-NAME: 1
 # IP-CIDR: 35
 # DOMAIN: 8
 # DOMAIN-KEYWORD: 2
-# TOTAL: 207
+# TOTAL: 208
 payload:
   - DOMAIN,api.iplay.163.com
   - DOMAIN,apm.music.163.com
@@ -215,3 +216,4 @@ payload:
   - IP-CIDR,59.111.181.35/32
   - IP-CIDR,59.111.181.38/32
   - IP-CIDR,59.111.181.60/32
+  - PROCESS-NAME,tv.danmaku.bili

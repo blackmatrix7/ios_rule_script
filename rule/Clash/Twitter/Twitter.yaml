@@ -1,11 +1,11 @@
 # NAME: Twitter
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:34
-# DOMAIN-SUFFIX: 17
+# UPDATED: 2021-05-07 09:34:54
+# DOMAIN-SUFFIX: 18
 # DOMAIN-KEYWORD: 1
 # IP-CIDR: 8
-# TOTAL: 26
+# TOTAL: 27
 payload:
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,periscope.tv
@@ -19,6 +19,7 @@ payload:
   - DOMAIN-SUFFIX,twitpic.com
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twitter.jp
+  - DOMAIN-SUFFIX,twitterinc.com
   - DOMAIN-SUFFIX,twitteroauth.com
   - DOMAIN-SUFFIX,twitterstat.us
   - DOMAIN-SUFFIX,twtrdns.net

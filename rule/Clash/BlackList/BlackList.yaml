@@ -1,13 +1,13 @@
 # NAME: BlackList
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-19 11:34:35
-# DOMAIN-SUFFIX: 695
+# UPDATED: 2021-05-07 09:34:53
+# DOMAIN-SUFFIX: 696
 # DOMAIN: 3
 # DOMAIN-KEYWORD: 12
 # IP-CIDR: 57
 # PROCESS-NAME: 1
-# TOTAL: 768
+# TOTAL: 769
 payload:
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,lookup-api.apple.com
@@ -358,6 +358,7 @@ payload:
   - DOMAIN-SUFFIX,messenger.com
   - DOMAIN-SUFFIX,microsofttranslator.com
   - DOMAIN-SUFFIX,mindnode.com
+  - DOMAIN-SUFFIX,mixin.one
   - DOMAIN-SUFFIX,mlssoccer.com
   - DOMAIN-SUFFIX,mobile01.com
   - DOMAIN-SUFFIX,modmyi.com

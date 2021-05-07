@@ -13,16 +13,16 @@
 
 ## 规则统计
 
-总计规则：88785 条。
+总计规则：89695 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST-KEYWORD | 59 |
-| HOST-SUFFIX | 74222 |
-| HOST | 14256 |
-| IP-CIDR | 247 |
+| HOST-KEYWORD | 76 |
+| HOST-SUFFIX | 74959 |
+| HOST | 14406 |
+| IP-CIDR | 253 |
 | IP6-CIDR | 1 |
 ## 配置说明
 
@@ -97,15 +97,20 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
 - https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/adaway.txt
+- https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/annoyances-filter.txt
 - https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/base-filter.txt
 - https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt
+- https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/dns-filter.txt
 - https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/neohosts-full.txt
+- https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/social-media-filter.txt
 - https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/tracking-protection-filter.txt
 - https://raw.githubusercontent.com/githubacct001/QuantumultX/master/Filters/githubacct001_AD.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
 - https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.list
 - https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Tide.list
+- https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
 - https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt
+- https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt
 - https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list
 - https://raw.githubusercontent.com/scomper/surge-list/master/reject.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list

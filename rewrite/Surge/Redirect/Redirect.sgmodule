@@ -1,15 +1,16 @@
 #!name=重定向
-#!desc=最后更新时间 2021-04-17 00:16:07
+#!desc=最后更新时间 2021-05-11 02:18:52
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=50
+#!rewrite=53
 #!script=0
 #!force_http_engine_hosts=0
 #!mitm=0
 
 [URL Rewrite]
+(^https?:\/\/app\.biliintl\.com\/intl\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+) $1&s_locale=en-US_US$3 302
+(^https?:\/\/app\.biliintl\.com\/intl\/.+)(&sim_code=\d+)(.+) $1$3 302
 ^http?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
-^http?:\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
 ^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)\/ https://macitbetter.com/ 302
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
@@ -33,7 +34,7 @@
 ^https?:\/\/(www.)?iconworkshop\.cn\/ https://www.axialis.com/ 302
 ^https?:\/\/(www.)?idmchina\.net\/ https://www.internetdownloadmanager.com/ 302
 ^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
-^https?:\/\/(www.)?imindmap\.cc\/ https://www.mindmapper.com/ 302
+^https?:\/\/(www.)?imindmap\.cc\/ https://www.ayoa.com/previously-imindmap/ 302
 ^https?:\/\/(www.)?jihehuaban\.com\.cn\/ https://www.chartwellyorke.com/sketchpad/x24795.html 302
 ^https?:\/\/(www.)?kingdeecn\.cn\/ http://www.kingdee.com/ 302
 ^https?:\/\/(www.)?logoshejishi\.com https://www.sothink.com/product/logo-design-software/ 302
@@ -41,6 +42,7 @@
 ^https?:\/\/(www.)?mathtype\.cn\/ https://www.dessci.com/ 302
 ^https?:\/\/(www.)?mi\.com\/ https://www.mi.com/ 302
 ^https?:\/\/(www.)?mindmanager\.(cc|cn)\/ https://www.mindjet.com/cn/ 302
+^https?:\/\/(www.)?mindmapper\.cc\/ https://www.mindmapper.com/ 302
 ^https?:\/\/(www.)?nicelabel\.cc\/ https://www.nicelabel.com/zh/ 302
 ^https?:\/\/(www.)?ntfsformac\.cc\/ https://china.paragon-software.com/home-mac/ntfs-for-mac/ 302
 ^https?:\/\/(www.)?overturechina\.com\/ https://sonicscores.com/ 302
@@ -52,6 +54,7 @@
 ^https?:\/\/(www.)?taobao\.com\/ https://taobao.com/ 302
 ^https?:\/\/(www.)?vegaschina\.cn\/ https://www.vegascreativesoftware.com/ 302
 ^https?:\/\/(www.)?xshellcn\.com\/ https://www.netsarang.com/zh/xshell/ 302
+^https?:\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
 ^https?:\/\/(www.)?yuanchengxiezuo\.com\/ https://www.teamviewer.com/ 302
 ^https?:\/\/(www.)?zbrushcn.com/ https://pixologic.com/ 302
 ^https?:\/\/cn\.ultraiso\.net\/ https://cn.ezbsystems.com/ultraiso/ 302

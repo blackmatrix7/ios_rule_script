@@ -1,5 +1,5 @@
 const scriptName = '万达电影';
-const getCookieRegex = /https?:\/\/user\-api\-prd\-mx\.wandafilm\.com\/user\/query_user_level\.api/;
+const getCookieRegex = /https?:\/\/user\-api\-prd\-mx\.wandafilm\.com\/user\/query_user_level_tip\.api/;
 const getactivityCodeRegex = /https?:\/\/cms\-activity\-api\-prd\-mx\.wandafilm\.com\/activity\/activity_count\.api\?activityCode=(\d*)/;
 const cookieKey = 'wanda_checkin_cookie';
 const activityCodeKey = 'wanda_activitycode';
@@ -200,7 +200,7 @@ function lottery(cookie, ts, checkVal, activityCode) {
       hisCookie = !!hisCookie ? hisCookie : {};
       if (cookie['_mi_'] != hisCookie['_mi_']){
         magicJS.write(cookieKey, cookie);
-        magicJS.logInfo(`旧的Cookie：${hisCookie}\n新的Cookie：${cookie}\nCookie不同，写入新的Cookie成功！`);
+        magicJS.logInfo(`旧的Cookie：${JSON.stringify(hisCookie)}\n新的Cookie：${JSON.stringify(cookie)}\nCookie不同，写入新的Cookie成功！`);
         magicJS.notify('Cookie写入成功！！');
       }
       else{

@@ -5,7 +5,6 @@ README：https://github.com/yichahucha/surge/tree/master
 const path1 = "serverConfig";
 const path2 = "wareBusiness";
 const path3 = "basicConfig";
-const consolelog = false;
 const url = $request.url;
 const body = $response.body;
 const $tool = tool();
@@ -33,110 +32,184 @@ if (url.indexOf(path2) != -1) {
     const floors = obj.floors;
     const commodity_info = floors[floors.length - 1];
     const shareUrl = commodity_info.data.property.shareUrl;
-    request_history_price(shareUrl, function (data) {
-        if (data) {
-            const lowerword = adword_obj();
-            lowerword.data.ad.textColor = "#fe0000";
-            let bestIndex = 0;
+    let msg = ""
+    request_history_price(shareUrl)
+        .then(data => {
+            if (data.priceTrend.series.length == 0) throw new Error('Whoops!')
+            msg = priceSummary(data.priceTrend)
+        })
+        .catch(error => msg = "暂无价格信息")
+        .finally(() => {
+            const lowerword = adword_obj()
+            lowerword.data.ad.textColor = "#fe0000"
+            let bestIndex = 0
             for (let index = 0; index < floors.length; index++) {
-                const element = floors[index];
+                const element = floors[index]
                 if (element.mId == lowerword.mId) {
-                    bestIndex = index + 1;
-                    break;
+                    bestIndex = index + 1
+                    break
                 } else {
                     if (element.sortId > lowerword.sortId) {
-                        bestIndex = index;
-                        break;
+                        bestIndex = index
+                        break
                     }
                 }
             }
-            if (data.ok == 1 && data.single) {
-                const lower = lowerMsgs(data.single)
-                const detail = priceSummary(data)
-                const tip = data.PriceRemark.Tip + "（仅供参考）"
-                lowerword.data.ad.adword = `${lower} ${tip}\n${detail}`;
-                floors.insert(bestIndex, lowerword);
-            }
-            if (data.ok == 0 && data.msg.length > 0) {
-                lowerword.data.ad.adword = "⚠️ " + data.msg;
-                floors.insert(bestIndex, lowerword);
-            }
-            $done({ body: JSON.stringify(obj) });
-        } else {
-            $done({ body });
-        }
-    })
+            lowerword.data.ad.adword = msg
+            floors.insert(bestIndex, lowerword)
+            $done({ body: JSON.stringify(obj) })
+        })
 }
-
-function lowerMsgs(data) {
-    const lower = data.lowerPriceyh
-    const lowerDate = dateFormat(data.lowerDateyh)
-    const lowerMsg = "🍵 历史最低到手价：¥" + String(lower) + ` (${lowerDate}) `
-    return lowerMsg
-}
-
 
 function priceSummary(data) {
-    let summary = ""
-    let listPriceDetail = data.PriceRemark.ListPriceDetail.slice(0,4)
-    let list = listPriceDetail.concat(historySummary(data.single))
-    list.forEach((item, index) => {
-        if (item.Name == "双11价格") {
-            item.Name = "双十一价格"
-        } else if (item.Name == "618价格") {
-            item.Name = "六一八价格"
-        }
-        summary += `\n${item.Name}${getSpace(8)}${item.Price}${getSpace(8)}${item.Date}${getSpace(8)}${item.Difference}`
-    })
-    return summary
+	data = data.series[0]
+	let summary = `🍵 当前: ${parseFloat(data.current / 100.0)}${getSpace(8)}最低: ${parseFloat(data.min / 100.0)}${getSpace(8)}最高: ${parseFloat(data.max / 100.0)}`;
+	const list = historySummary(data.data);
+	list.forEach((item, index) => {
+		summary += `\n${item.Name}${getSpace(8)}${item.Price}${getSpace(8)}${item.Date
+			}${getSpace(8)}${item.Difference}`;
+	});
+	return summary;
 }
 
-function historySummary(single) {
-    const rexMatch = /\[.*?\]/g;
-    const rexExec = /\[(.*),(.*),"(.*)".*\]/;
-    let currentPrice, lowest30, lowest90, lowest180, lowest360
-    let list = single.jiagequshiyh.match(rexMatch);
-    list = list.reverse().slice(0, 360);
-    list.forEach((item, index) => {
-        if (item.length > 0) {
-            const result = rexExec.exec(item);
-            const dateUTC = new Date(eval(result[1]));
-            const date = dateUTC.format("yyyy-MM-dd");
-            let price = parseFloat(result[2]);
-            if (index == 0) {
-                currentPrice = price
-                lowest30 = { Name: "三十天最低", Price: `¥${String(price)}`, Date: date, Difference: difference(currentPrice, price), price }
-                lowest90 = { Name: "九十天最低", Price: `¥${String(price)}`, Date: date, Difference: difference(currentPrice, price), price }
-                lowest180 = { Name: "一百八最低", Price: `¥${String(price)}`, Date: date, Difference: difference(currentPrice, price), price }
-                lowest360 = { Name: "三百六最低", Price: `¥${String(price)}`, Date: date, Difference: difference(currentPrice, price), price }
-            }
-            if (index < 30 && price < lowest30.price) {
-                lowest30.price = price
-                lowest30.Price = `¥${String(price)}`
-                lowest30.Date = date
-                lowest30.Difference = difference(currentPrice, price)
-            }
-            if (index < 90 && price < lowest90.price) {
-                lowest90.price = price
-                lowest90.Price = `¥${String(price)}`
-                lowest90.Date = date
-                lowest90.Difference = difference(currentPrice, price)
-            }
-            if (index < 180 && price < lowest180.price) {
-                lowest180.price = price
-                lowest180.Price = `¥${String(price)}`
-                lowest180.Date = date
-                lowest180.Difference = difference(currentPrice, price)
-            }
-            if (index < 360 && price < lowest360.price) {
-                lowest360.price = price
-                lowest360.Price = `¥${String(price)}`
-                lowest360.Date = date
-                lowest360.Difference = difference(currentPrice, price)
-            }
-        }
-    });
-    return [lowest30, lowest90, lowest180, lowest360];
+function historySummary(list) {
+	let currentPrice, lowest30, lowest90, lowest180, lowest360, price11, price618;
+	list = list.reverse().slice(0, 360);
+	list.forEach((item, index) => {
+		const date = getExactTime(item.x);
+		let price = parseFloat(item.y / 100.0);
+		if (index == 0) {
+			currentPrice = price;
+			price618 = {
+				Name: "六一八价格",
+				Price: "-",
+				Date: "-",
+				Difference: "-",
+				price: "-",
+			};
+			price11 = {
+				Name: "双十一价格",
+				Price: "-",
+				Date: "-",
+				Difference: "-",
+				price: "-",
+			};
+			lowest30 = {
+				Name: "三十天最低",
+				Price: `¥${String(price)}`,
+				Date: date,
+				Difference: difference(currentPrice, price),
+				price,
+			};
+			lowest90 = {
+				Name: "九十天最低",
+				Price: `¥${String(price)}`,
+				Date: date,
+				Difference: difference(currentPrice, price),
+				price,
+			};
+			lowest180 = {
+				Name: "一百八最低",
+				Price: `¥${String(price)}`,
+				Date: date,
+				Difference: difference(currentPrice, price),
+				price,
+			};
+			lowest360 = {
+				Name: "三百六最低",
+				Price: `¥${String(price)}`,
+				Date: date,
+				Difference: difference(currentPrice, price),
+				price,
+			};
+		}
+		if (date.indexOf("06-18") != -1) {
+			price618.price = price;
+			price618.Price = `¥${String(price)}`;
+			price618.Date = date;
+			price618.Difference = difference(currentPrice, price);
+		}
+		if (date.indexOf("11-11") != -1) {
+			price11.price = price;
+			price11.Price = `¥${String(price)}`;
+			price11.Date = date;
+			price11.Difference = difference(currentPrice, price);
+		}
+		if (index < 30 && price < lowest30.price) {
+			lowest30.price = price;
+			lowest30.Price = `¥${String(price)}`;
+			lowest30.Date = date;
+			lowest30.Difference = difference(currentPrice, price);
+		}
+		if (index < 90 && price < lowest90.price) {
+			lowest90.price = price;
+			lowest90.Price = `¥${String(price)}`;
+			lowest90.Date = date;
+			lowest90.Difference = difference(currentPrice, price);
+		}
+		if (index < 180 && price < lowest180.price) {
+			lowest180.price = price;
+			lowest180.Price = `¥${String(price)}`;
+			lowest180.Date = date;
+			lowest180.Difference = difference(currentPrice, price);
+		}
+		if (index < 360 && price < lowest360.price) {
+			lowest360.price = price;
+			lowest360.Price = `¥${String(price)}`;
+			lowest360.Date = date;
+			lowest360.Difference = difference(currentPrice, price);
+		}
+	});
+	return [lowest30, lowest90, lowest180, lowest360, price618, price11];
+}
+
+async function request_history_price(share_url) {
+	const options = {
+		headers: {
+			"User-Agent":
+				"bijiago/1.4.2 (com.bijiago.app; build:65; iOS 14.5.1) Alamofire/4.9.1",
+			"Content-Type": "application/x-www-form-urlencoded",
+		},
+	};
+
+	const rid = new Promise(function (resolve, reject) {
+		options.url = "https://app.bijiago.com/service/product?app_platform=ios&app_version=65&device=750%2A1334&opt=product&posi=default&url=" + encodeURIComponent(share_url);
+		$tool.get(options, function (error, response, data) {
+			if (!error) {
+				resolve(JSON.parse(data))
+			} else {
+				reject(error)
+			}
+		})
+	})
+
+	const priceTrend = (rid, dq_id) => {
+		return new Promise(function (resolve, reject) {
+			options.url = "https://app.bijiago.com/service/product"
+			options.body = `app_platform=ios&app_version=10000&append_promo=1&dp_id=${dq_id}&from=url&opt=priceTrend&rid=${rid}`
+			$tool.post(options, function (error, response, data) {
+				if (!error) {
+					resolve(JSON.parse(data));
+				} else {
+					reject(error)
+				}
+			})
+		})
+	}
+	const ridData = await (rid)
+	const priceTrendData = await (priceTrend(ridData.rid, ridData.product.dp_id))
+	return priceTrendData
+}
+
+function getExactTime(time) {
+	var date = new Date(time * 1000);
+	var year = date.getFullYear() + "-";
+	var month =
+		(date.getMonth() + 1 < 10
+			? "0" + (date.getMonth() + 1)
+			: date.getMonth() + 1) + "-";
+	var dates = date.getDate();
+	return year + month + dates;
 }
 
 function difference(currentPrice, price) {
@@ -144,7 +217,7 @@ function difference(currentPrice, price) {
     if (difference == 0) {
         return "-"
     } else {
-        return `${difference > 0 ? "↑" : "↓"}${String(difference)}`
+        return `${difference > 0 ? "↑" : "↓"}${String(Math.abs(difference))}`
     }
 }
 
@@ -160,33 +233,6 @@ function add(arg1, arg2) {
     var result = Number(((arg1 * m + arg2 * m) / m).toFixed(maxLen));
     var d = arguments[2];
     return typeof d === "number" ? Number((result).toFixed(d)) : result;
-}
-
-function request_history_price(share_url, callback) {
-    const options = {
-        url: "https://apapia-history.manmanbuy.com/ChromeWidgetServices/WidgetServices.ashx",
-        headers: {
-            "Content-Type": "application/x-www-form-urlencoded;charset=utf-8",
-            "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 - mmbWebBrowse - ios"
-        },
-        body: "methodName=getHistoryTrend&p_url=" + encodeURIComponent(share_url)
-    }
-    $tool.post(options, function (error, response, data) {
-        if (!error) {
-            callback(JSON.parse(data));
-            if (consolelog) console.log("Data:\n" + data);
-        } else {
-            callback(null, null);
-            if (consolelog) console.log("Error:\n" + error);
-        }
-    })
-}
-
-function dateFormat(cellval) {
-    const date = new Date(parseInt(cellval.replace("/Date(", "").replace(")/", ""), 10));
-    const month = date.getMonth() + 1 < 10 ? "0" + (date.getMonth() + 1) : date.getMonth() + 1;
-    const currentDate = date.getDate() < 10 ? "0" + date.getDate() : date.getDate();
-    return date.getFullYear() + "-" + month + "-" + currentDate;
 }
 
 function getSpace(length) {

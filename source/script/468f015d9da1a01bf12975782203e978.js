@@ -2,7 +2,7 @@
 
 京东多合一签到脚本
 
-更新时间: 2021.05.01 12:30 v2.0.3
+更新时间: 2021.05.12 18:50 v2.0.4
 有效接口: 30+
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 电报频道: @NobyDa 
@@ -131,6 +131,7 @@ async function all() {
         JDUserSignPre(stop, 'JDUndies', '京东商城-内衣', '4PgpL1xqPSW1sVXCJ3xopDbB1f69'), //京东内衣馆
         JDUserSignPre(stop, 'JDCard', '京东商城-卡包', '7e5fRnma6RBATV9wNrGXJwihzcD'), //京东卡包
         // JDUserSignPre(stop, 'JDCustomized', '京东商城-定制', '2BJK5RBdvc3hdddZDS1Svd5Esj3R'), //京东定制
+        JDUserSignPre(stop, 'JDaccompany', '京东商城-陪伴', 'kPM3Xedz1PBiGQjY4ZYGmeVvrts'), //京东陪伴
         JDUserSignPre(stop, 'JDShoes', '京东商城-鞋靴', '4RXyb1W4Y986LJW8ToqMK14BdTD'), //京东鞋靴
         JDUserSignPre(stop, 'JDChild', '京东商城-童装', '3Af6mZNcf5m795T8dtDVfDwWVNhJ'), //京东童装馆
         JDUserSignPre(stop, 'JDBaby', '京东商城-母婴', '3BbAVGQPDd6vTyHYjmAutXrKAos6'), //京东母婴馆
@@ -151,10 +152,9 @@ async function all() {
         JDUserSignPre(stop, 'JDCare', '京东商城-个护', '2tZssTgnQsiUqhmg5ooLSHY9XSeN'), //京东个人护理馆
         JDUserSignPre(stop, 'JDJewels', '京东商城-珠宝', 'zHUHpTHNTaztSRfNBFNVZscyFZU'), //京东珠宝馆
         // JDUserSignPre(stop, 'JDMakeup', '京东商城-美妆', '2smCxzLNuam5L14zNJHYu43ovbAP'), //京东美妆馆
-        // JDUserSignPre(stop, 'JDVege', '京东商城-菜场', 'Wcu2LVCFMkBP3HraRvb7pgSpt64'), //京东菜场
+        JDUserSignPre(stop, 'JDVege', '京东商城-菜场', 'Wcu2LVCFMkBP3HraRvb7pgSpt64'), //京东菜场
         JDUserSignPre(stop, 'JDLive', '京东智能-生活', 'KcfFqWvhb5hHtaQkS4SD1UU6RcQ') //京东智能生活
       ]);
-      await JingDongSpeedUp(stop); //京东天天加速
       await JingRongDoll(stop, 'JDDouble', '金融京豆-双签', 'F68B2C3E71', '', '', '', 'jingdou'); //京东金融 京豆双签
       break;
     default:
@@ -194,13 +194,13 @@ async function all() {
       await JDUserSignPre(Wait(stop), 'JDBook', '京东商城-图书', '3SC6rw5iBg66qrXPGmZMqFDwcyXi'); //京东图书
       await JDUserSignPre(Wait(stop), 'JDShand', '京东拍拍-二手', '3S28janPLYmtFxypu37AYAGgivfp'); //京东拍拍二手
       // await JDUserSignPre(Wait(stop), 'JDMakeup', '京东商城-美妆', '2smCxzLNuam5L14zNJHYu43ovbAP'); //京东美妆馆
-      // await JDUserSignPre(Wait(stop), 'JDVege', '京东商城-菜场', 'Wcu2LVCFMkBP3HraRvb7pgSpt64'); //京东菜场
+      await JDUserSignPre(Wait(stop), 'JDVege', '京东商城-菜场', 'Wcu2LVCFMkBP3HraRvb7pgSpt64'); //京东菜场
+      await JDUserSignPre(Wait(stop), 'JDaccompany', '京东商城-陪伴', 'kPM3Xedz1PBiGQjY4ZYGmeVvrts'); //京东陪伴
       await JDUserSignPre(Wait(stop), 'JDLive', '京东智能-生活', 'KcfFqWvhb5hHtaQkS4SD1UU6RcQ'); //京东智能生活
       await JDUserSignPre(Wait(stop), 'JDClean', '京东商城-清洁', '2Tjm6ay1ZbZ3v7UbriTj6kHy9dn6'); //京东清洁馆
       await JDUserSignPre(Wait(stop), 'JDCare', '京东商城-个护', '2tZssTgnQsiUqhmg5ooLSHY9XSeN'); //京东个人护理馆
       await JDUserSignPre(Wait(stop), 'JDJewels', '京东商城-珠宝', 'zHUHpTHNTaztSRfNBFNVZscyFZU'); //京东珠宝馆
       await JingRongDoll(Wait(stop), 'JDDouble', '金融京豆-双签', 'F68B2C3E71', '', '', '', 'jingdou'); //京东金融 京豆双签
-      await JingDongSpeedUp(Wait(stop)); //京东天天加速
       break;
   }
   await Promise.all([
@@ -1121,365 +1121,6 @@ function JDMagicCubeSign(s, id) {
       })
     }, s)
     if (out) setTimeout(resolve, out + s)
-  });
-}
-
-function JingDongSpeedUp(s, id) {
-  if (!merge.SpeedUp) merge.SpeedUp = {}, merge.SpeedUp.bean = 0;
-  return new Promise(resolve => {
-    if (disable("SpeedUp")) return resolve()
-    setTimeout(() => {
-      const GameUrl = {
-        url: `https://api.m.jd.com/?appid=memberTaskCenter&functionId=flyTask_${id?`start&body=%7B%22source%22%3A%22game%22%2C%22source_id%22%3A${id}%7D`:`state&body=%7B%22source%22%3A%22game%22%7D`}`,
-        headers: {
-          Referer: 'https://h5.m.jd.com/babelDiy/Zeus/6yCQo2eDJPbyPXrC3eMCtMWZ9ey/index.html',
-          Cookie: KEY
-        }
-      };
-      $nobyda.get(GameUrl, async function(error, response, data) {
-        try {
-          if (error) {
-            throw new Error(error)
-          } else {
-            const Details = LogDetails ? "response:\n" + data : '';
-            var cc = JSON.parse(data)
-            if (!id) {
-              var status = $nobyda.ItemIsUsed ? "再次检查" : merge.SpeedUp.notify ? "查询本次" : "查询上次"
-              console.log(`\n天天加速-${status}任务 ${Details}`)
-            } else {
-              console.log(`\n天天加速-开始${$nobyda.ItemIsUsed?`下轮`:`本次`}任务 ${Details}`)
-            }
-            if (cc.message == "not login") {
-              merge.SpeedUp.fail = 1
-              merge.SpeedUp.notify = "京东天天-加速: 失败, 原因: Cookie失效‼️"
-              console.log("\n天天加速-Cookie失效")
-            } else if (cc.message == "success") {
-              if (cc.data.task_status == 0 && cc.data.source_id) {
-                if ($nobyda.ItemIsUsed) { //如果使用道具后再次开始任务, 则收到奖励
-                  console.log("\n天天加速-领取本次奖励成功")
-                  merge.SpeedUp.bean += cc.data.beans_num || 0
-                  merge.SpeedUp.success = 1
-                  merge.SpeedUp.notify = `京东天天-加速: 成功, 明细: ${merge.SpeedUp.bean || `无`}京豆 🐶`
-                }
-                await JingDongSpeedUp(s, cc.data.source_id)
-              } else if (cc.data.task_status == 1) {
-                const percent = Math.round((cc.data.done_distance / cc.data.distance) * 100)
-                console.log(`\n天天加速-目前结束时间: \n${cc.data.end_time} [${percent}%]`)
-                $nobyda.ItemIsUsed = false
-                if (!$nobyda.isAllEvents) await JDSpaceEvent(s); //处理太空事件
-                if (!$nobyda.isAlltasks) await JDQueryTask(s); //处理太空任务
-                var step3 = await JDQueryTaskID(s); //查询道具ID
-                var step4 = await JDUseProps(1000 + s, step3); //使用道具
-                if (step4 && $nobyda.ItemIsUsed) { //如果使用了道具, 则再次检查任务
-                  await JingDongSpeedUp(s)
-                } else {
-                  $nobyda.isAllEvents = false; //避免多账号问题
-                  $nobyda.isAlltasks = false;
-                  $nobyda.tryAgain = false;
-                  if (!merge.SpeedUp.notify) {
-                    merge.SpeedUp.fail = 1
-                    merge.SpeedUp.notify = `京东天天-加速: 失败, 加速中${percent<10?`  `:``}[${percent}%] ⚠️`
-                  }
-                }
-              } else if (cc.data.task_status == 2) {
-                merge.SpeedUp.bean = cc.data.beans_num || 0
-                merge.SpeedUp.notify = `京东天天-加速: 成功, 明细: ${merge.SpeedUp.bean || `无`}京豆 🐶`
-                merge.SpeedUp.success = 1
-                console.log("\n天天加速-领取上次奖励成功")
-                await JingDongSpeedUp(s, null)
-              } else {
-                merge.SpeedUp.fail = 1
-                merge.SpeedUp.notify = "京东天天-加速: 失败, 原因: 未知 ⚠️"
-                console.log("\n" + "天天加速-判断状态码失败")
-              }
-            } else {
-              if (data.match(/领过此任务/)) { //处理任务频繁问题
-                if (!$nobyda.tryAgain || $nobyda.tryAgain < 3) { //避免死循环
-                  $nobyda.tryAgain ? $nobyda.tryAgain += 1 : $nobyda.tryAgain = 1
-                  console.log(`\n天天加速-延迟一秒查询 (${$nobyda.tryAgain})`);
-                  await JingDongSpeedUp(1000);
-                } else {
-                  $nobyda.tryAgain = false;
-                  console.log(`\n天天加速-放弃查询任务`);
-                }
-                return
-              }
-              if (!merge.SpeedUp.notify) {
-                merge.SpeedUp.fail = 1
-                merge.SpeedUp.notify = "京东天天-加速: 失败, 原因: 无任务 ⚠️"
-              }
-              console.log("\n天天加速-判断状态失败")
-            }
-          }
-        } catch (eor) {
-          $nobyda.AnError("京东天天-加速", "SpeedUp", eor, response, data)
-        } finally {
-          resolve()
-        }
-      })
-    }, s)
-    if (out) setTimeout(resolve, out + s)
-  });
-}
-
-function JDSpaceEvent(s) {
-  return new Promise(resolve => {
-    var spaceEvents = [];
-    $nobyda.get({
-      url: `https://api.m.jd.com/?appid=memberTaskCenter&functionId=spaceEvent_list&body=%7B%22source%22%3A%22game%22%7D`,
-      headers: {
-        Referer: 'https://h5.m.jd.com/babelDiy/Zeus/6yCQo2eDJPbyPXrC3eMCtMWZ9ey/index.html',
-        Cookie: KEY
-      }
-    }, (error, response, data) => {
-      try {
-        if (error) throw new Error(error)
-        const cc = JSON.parse(data);
-        const Details = LogDetails ? "response:\n" + data : '';
-        if (cc.message === "success" && cc.data.length > 0) {
-          for (var item of cc.data) {
-            if (item.status === 1) {
-              for (var j of item.options) {
-                if (j.type === 1) {
-                  spaceEvents.push({
-                    "id": item.id,
-                    "value": j.value
-                  })
-                }
-              }
-            }
-          }
-          if (spaceEvents && spaceEvents.length > 0) {
-            console.log(`\n天天加速-查询到${spaceEvents.length}个有效事件 ${Details}`)
-          } else {
-            console.log(`\n天天加速-暂无太空事件 ${Details}`)
-          }
-        } else {
-          console.log(`\n天天加速-太空事件为空 ${Details}`)
-        }
-      } catch (eor) {
-        $nobyda.AnError("太空事件-查询", "SpeedUp", eor, response, data)
-      } finally {
-        resolve(spaceEvents)
-      }
-    })
-    if (out) setTimeout(resolve, out + s)
-  }).then(async (list) => {
-    await new Promise(resolve => {
-      if (list && list.length > 0) {
-        var spaceEventCount = 0;
-        var spaceNumTask = 0;
-        for (var item of list) {
-          $nobyda.get({
-            url: `https://api.m.jd.com/?appid=memberTaskCenter&functionId=spaceEvent_handleEvent&body=%7B%22source%22%3A%22game%22%2C%22eventId%22%3A${item.id}%2C%22option%22%3A%22${item.value}%22%7D`,
-            headers: {
-              Referer: 'https://h5.m.jd.com/babelDiy/Zeus/6yCQo2eDJPbyPXrC3eMCtMWZ9ey/index.html',
-              Cookie: KEY
-            }
-          }, (error, response, data) => {
-            try {
-              spaceEventCount++
-              if (error) throw new Error(error)
-              const cc = JSON.parse(data);
-              const Details = LogDetails ? "response:\n" + data : '';
-              console.log(`\n天天加速-尝试领取第${spaceEventCount}个事件 ${Details}`)
-              if (cc.message == "success" && cc.success) {
-                spaceNumTask += 1;
-              }
-            } catch (eor) {
-              $nobyda.AnError("太空事件-领取", "SpeedUp", eor, response, data)
-            } finally {
-              if (list.length == spaceEventCount) {
-                if (list.length == spaceNumTask) $nobyda.isAllEvents = true; //避免重复查询
-                console.log(`\n天天加速-已成功领取${spaceNumTask}个事件`)
-                resolve()
-              }
-            }
-          })
-        }
-        if (out) setTimeout(resolve, out + s)
-      } else {
-        $nobyda.isAllEvents = true; //避免重复查询
-        resolve()
-      }
-    })
-  })
-}
-
-function JDQueryTask(s) {
-  return new Promise(resolve => {
-    setTimeout(() => {
-      var TaskID = "";
-      const QueryUrl = {
-        url: 'https://api.m.jd.com/?appid=memberTaskCenter&functionId=energyProp_list&body=%7B%22source%22%3A%22game%22%7D',
-        headers: {
-          Referer: 'https://h5.m.jd.com/babelDiy/Zeus/6yCQo2eDJPbyPXrC3eMCtMWZ9ey/index.html',
-          Cookie: KEY
-        }
-      };
-      $nobyda.get(QueryUrl, async function(error, response, data) {
-        try {
-          if (error) {
-            throw new Error(error)
-          } else {
-            const cc = JSON.parse(data)
-            const Details = LogDetails ? "response:\n" + data : '';
-            if (cc.message == "success" && cc.data.length > 0) {
-              for (var i = 0; i < cc.data.length; i++) {
-                if (cc.data[i].thaw_time == 0) {
-                  TaskID += cc.data[i].id + ",";
-                }
-              }
-              if (TaskID.length > 0) {
-                TaskID = TaskID.substr(0, TaskID.length - 1).split(",")
-                console.log("\n天天加速-查询到" + TaskID.length + "个有效道具 " + Details)
-              } else {
-                console.log("\n天天加速-暂无有效道具 " + Details)
-              }
-            } else {
-              console.log("\n天天加速-查询无道具 " + Details)
-            }
-          }
-        } catch (eor) {
-          $nobyda.AnError("查询道具-加速", "SpeedUp", eor, response, data)
-        } finally {
-          resolve(TaskID)
-        }
-      })
-    }, s)
-    if (out) setTimeout(resolve, out + s)
-  }).then(async (CID) => {
-    await new Promise(resolve => {
-      var NumTask = 0
-      if (CID) {
-        var count = 0
-        for (var i = 0; i < CID.length; i++) {
-          const TUrl = {
-            url: 'https://api.m.jd.com/?appid=memberTaskCenter&functionId=energyProp_gain&body=%7B%22source%22%3A%22game%22%2C%22energy_id%22%3A' + CID[i] + '%7D',
-            headers: {
-              Referer: 'https://h5.m.jd.com/babelDiy/Zeus/6yCQo2eDJPbyPXrC3eMCtMWZ9ey/index.html',
-              Cookie: KEY
-            }
-          };
-          $nobyda.get(TUrl, function(error, response, data) {
-            try {
-              count++
-              if (error) {
-                throw new Error(error)
-              } else {
-                const cc = JSON.parse(data)
-                const Details = LogDetails ? "response:\n" + data : '';
-                console.log("\n天天加速-尝试领取第" + count + "个道具 " + Details)
-                if (cc.message == 'success') {
-                  NumTask += 1
-                }
-              }
-            } catch (eor) {
-              $nobyda.AnError("领取道具-加速", "SpeedUp", eor, response, data)
-            } finally {
-              if (CID.length == count) {
-                if (CID.length == NumTask) $nobyda.isAlltasks = true; //避免重复查询
-                console.log("\n天天加速-已成功领取" + NumTask + "个道具")
-                resolve(NumTask)
-              }
-            }
-          })
-        }
-        if (out) setTimeout(resolve, out + s)
-      } else {
-        $nobyda.isAlltasks = true; //避免重复查询
-        resolve(NumTask)
-      }
-    })
-  })
-}
-
-function JDQueryTaskID(s) {
-  return new Promise(resolve => {
-    var TaskCID = ""
-    setTimeout(() => {
-      const EUrl = {
-        url: 'https://api.m.jd.com/?appid=memberTaskCenter&functionId=energyProp_usalbeList&body=%7B%22source%22%3A%22game%22%7D',
-        headers: {
-          Referer: 'https://h5.m.jd.com/babelDiy/Zeus/6yCQo2eDJPbyPXrC3eMCtMWZ9ey/index.html',
-          Cookie: KEY
-        }
-      };
-      $nobyda.get(EUrl, function(error, response, data) {
-        try {
-          if (error) {
-            throw new Error(error)
-          } else {
-            const cc = JSON.parse(data)
-            const Details = LogDetails ? "response:\n" + data : '';
-            if (cc.data.length > 0) {
-              for (var i = 0; i < cc.data.length; i++) {
-                if (cc.data[i].id) {
-                  TaskCID += cc.data[i].id + ",";
-                }
-              }
-              if (TaskCID.length > 0) {
-                TaskCID = TaskCID.substr(0, TaskCID.length - 1).split(",")
-                console.log(`\n天天加速-查询成功${TaskCID.length}个道具ID ${Details}`)
-              } else {
-                console.log(`\n天天加速-暂无有效道具ID ${Details}`)
-              }
-            } else {
-              console.log(`\n天天加速-查询无道具ID ${Details}`)
-            }
-          }
-        } catch (eor) {
-          $nobyda.AnError("查询号码-加速", "SpeedUp", eor, response, data)
-        } finally {
-          resolve(TaskCID)
-        }
-      })
-    }, s + 200)
-    if (out) setTimeout(resolve, out + s)
-  });
-}
-
-function JDUseProps(s, PropID) {
-  return new Promise(async (resolve) => {
-    $nobyda.PropCount = 0
-    $nobyda.PropNumTask = 0
-    if (!PropID) return resolve()
-    for (var i = 0; i < PropID.length; i++) {
-      const sep = await new Promise(resolve => {
-        $nobyda.get({
-          url: `https://api.m.jd.com/?appid=memberTaskCenter&functionId=energyProp_use&body=%7B%22source%22%3A%22game%22%2C%22energy_id%22%3A%22${PropID[i]}%22%7D`,
-          headers: {
-            Referer: 'https://h5.m.jd.com/babelDiy/Zeus/6yCQo2eDJPbyPXrC3eMCtMWZ9ey/index.html',
-            Cookie: KEY
-          }
-        }, (error, response, data) => {
-          try {
-            $nobyda.PropCount++
-              if (error) {
-                throw new Error(error)
-              } else {
-                const cc = JSON.parse(data)
-                const Details = LogDetails ? "response:\n" + data : '';
-                console.log(`\n天天加速-尝试使用第${$nobyda.PropCount}个道具 (${s/1000}s)${Details}`)
-                if (cc.message == 'success' && cc.success == true) {
-                  $nobyda.PropNumTask += 1
-                }
-              }
-          } catch (eor) {
-            $nobyda.AnError("使用道具-加速", "SpeedUp", eor, response, data)
-          } finally {
-            if (PropID.length == $nobyda.PropCount) {
-              if ($nobyda.PropNumTask) $nobyda.ItemIsUsed = true;
-              console.log(`\n天天加速-已成功使用${$nobyda.PropNumTask}个道具`)
-              resolve(true)
-            } else {
-              setTimeout(resolve, s)
-            }
-          }
-        })
-      })
-      if (sep) resolve($nobyda.PropNumTask);
-    }
   });
 }
 

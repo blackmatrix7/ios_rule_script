@@ -1,13 +1,13 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-05-11 02:18:34
-# HOST: 33
-# USER-AGENT: 61
+# UPDATED: 2021-05-13 02:21:58
+# HOST: 35
+# USER-AGENT: 62
 # HOST-SUFFIX: 204
-# HOST-KEYWORD: 20
+# HOST-KEYWORD: 21
 # IP-CIDR: 847
-# TOTAL: 1165
+# TOTAL: 1169
 HOST,api.okzy.tv,GlobalMedia
 HOST,apple.comscoreresearch.com,GlobalMedia
 HOST,atv-ps.amazon.com,GlobalMedia
@@ -25,6 +25,8 @@ HOST,hboasia2-i.akamaihd.net,GlobalMedia
 HOST,hboasia3-i.akamaihd.net,GlobalMedia
 HOST,hboasia4-i.akamaihd.net,GlobalMedia
 HOST,hboasia5-i.akamaihd.net,GlobalMedia
+HOST,hbolb.onwardsmg.com,GlobalMedia
+HOST,hbounify-prod.evergent.com,GlobalMedia
 HOST,itvpnpmobile-a.akamaihd.net,GlobalMedia
 HOST,kktv-theater.kk.stream,GlobalMedia
 HOST,linear.tv.apple.com,GlobalMedia
@@ -247,6 +249,7 @@ HOST-SUFFIX,youtube.com,GlobalMedia
 HOST-SUFFIX,ytimg.com,GlobalMedia
 HOST-KEYWORD,-spotify-com,GlobalMedia
 HOST-KEYWORD,-tiktokcdn-com,GlobalMedia
+HOST-KEYWORD,.hbogoasia.,GlobalMedia
 HOST-KEYWORD,abematv.akamaized.net,GlobalMedia
 HOST-KEYWORD,avoddashs,GlobalMedia
 HOST-KEYWORD,bbcfmt,GlobalMedia
@@ -287,6 +290,7 @@ USER-AGENT,Disney+*,GlobalMedia
 USER-AGENT,FOX%20NOW*,GlobalMedia
 USER-AGENT,FOXPlus*,GlobalMedia
 USER-AGENT,HBO%20GO%20PROD%20HKG*,GlobalMedia
+USER-AGENT,HBO%20GO%20PROD*,GlobalMedia
 USER-AGENT,HBO%20NOW*,GlobalMedia
 USER-AGENT,HBOAsia*,GlobalMedia
 USER-AGENT,HBOMAX*,GlobalMedia

@@ -14,7 +14,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 6 |
+| mitm | 12 |
 | force_http_engine_hosts | 0 |
 | reject | 12 |
 ## 配置说明

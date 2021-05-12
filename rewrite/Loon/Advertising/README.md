@@ -12,7 +12,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 582 |
+| mitm | 580 |
 | DOMAIN | 2 |
 | DOMAIN-SUFFIX | 1 |
 | reject | 775 |

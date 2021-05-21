@@ -10,7 +10,7 @@
 
 ## 规则统计
 
-总计规则：19 条。
+总计规则：20 条。
 
 各类型规则统计：
 
@@ -19,6 +19,7 @@
 | DOMAIN-SUFFIX | 13 |
 | USER-AGENT | 1 |
 | DOMAIN-KEYWORD | 4 |
+| PROCESS-NAME | 1 |
 | DOMAIN | 1 |
 ## 配置说明
 

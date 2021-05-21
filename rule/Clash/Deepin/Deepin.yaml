@@ -1,11 +1,13 @@
 # NAME: Deepin
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:33
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
+# UPDATED: 2021-05-25 02:30:29
+# DOMAIN-SUFFIX: 6
+# TOTAL: 6
 payload:
+  - DOMAIN-SUFFIX,chinauos.com
   - DOMAIN-SUFFIX,deepin.cn
   - DOMAIN-SUFFIX,deepin.com
   - DOMAIN-SUFFIX,deepin.io
   - DOMAIN-SUFFIX,deepin.org
+  - DOMAIN-SUFFIX,uniontech.com

@@ -14,17 +14,17 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 646 |
+| mitm | 647 |
 | DOMAIN | 6 |
 | DOMAIN-SUFFIX | 2 |
 | URL-REGEX | 7 |
 | IP-CIDR | 1 |
 | IP-CIDR6 | 1 |
 | USER-AGENT | 1 |
-| reject | 793 |
+| reject | 795 |
 | http-response | 29 |
 | http-request | 1 |
-| redirect | 53 |
+| redirect | 54 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。

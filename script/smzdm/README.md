@@ -6,7 +6,7 @@
 
 2021年1月18日
 
-实测会引起账号异常，无法参与幸运屋抽奖，其他功能暂未发现异常，不在意抽奖的可以继续使用，在意抽奖的请谨慎考虑。原因不明，所以即日起下线生活频道抽奖及APP端签到。
+实测会引起账号异常，无法参与幸运屋抽奖，其他功能暂未发现异常，不在意抽奖的可以继续使用，在意抽奖的请谨慎考虑。**目前将签到和任务拆分为两个脚本，仅需要签到使用signin脚本即可。**
 
 ## 最近更新
 
@@ -16,7 +16,7 @@
 
 去除威望显示，现在获取不到威望这个属性了。
 
-去除完成点击“去购买”的任务的功能，现在只能在APP端操作才有经验。现在每日经验约有60左右。什么值得买官方完全有办法封禁所有的Web端完成任务功能，现在还能执行部分任务纯属官方放水，且用且珍惜吧，不保证哪一天就没办法通过脚本完成任务了。
+去除完成点击“去购买”的任务的功能，现在只能在APP端操作才有经验。现在每日经验约有40左右。什么值得买官方完全有办法封禁所有的Web端完成任务功能，现在还能执行部分任务纯属官方放水，且用且珍惜吧，不保证哪一天就没办法通过脚本完成任务了。
 
 ## 签到与每日任务
 
@@ -32,7 +32,7 @@
 
 ##### **安装模块**
 
-Surge推荐使用模块进行部署，模块地址：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.sgmodule
+Surge推荐使用模块进行部署，模块地址：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.sgmodule
 
 ### Loon
 
@@ -42,7 +42,7 @@ Surge推荐使用模块进行部署，模块地址：https://raw.githubuserconte
 
 ```ini
 [Remote Script]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.lnscript, tag=什么值得买_每日签到, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.lnscript, tag=什么值得买_每日签到, enabled=true
 ```
 
 ### Quantumult X
@@ -51,63 +51,23 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smz
 
 ```ini
 [rewrite_remote]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.qxrewrite, tag=什么值得买_获取Cookie, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.qxrewrite, tag=什么值得买_获取Cookie, update-interval=86400, opt-parser=false, enabled=true
 
 [task_local]
-5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.js, tag=什么值得买每日签到
+5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js, tag=什么值得买每日签到
 ```
 
 ### 使用说明
 
 #### **Web端获取Cookie：**
 
+使用Safari，不要使用第三方浏览器！
+
 使用手机浏览器访问 https://zhiyou.smzdm.com/ 进行一次登录，通常会显示获取cookie成功。
 
 可能因为重定向的问题，登录成功后访问的不是https://zhiyou.smzdm.com/user/ ，则重新在浏览器中访问一次https://zhiyou.smzdm.com/user/ 即可。
 
 如果还是没有获取到Cookie，请查阅Surge等第三方App的执行日志。
-
-#### **App端获取账号密码：**
-
-打开什么值得买App，点击“我的“-“设置”-“退出登录”，先退出登录。随后点击“我的”中顶部的“立即登录”，选择“账号密码登录”，注意是账号密码登录，不要使用手机快捷登录或其他第三方登录方式。
-
-登录完成后，提示获取账号密码成功，就说明没有问题了。如果没有提示，还是查阅一下第三方App的执行日志。在登录过程中，无论账号密码正确与否，都会进行获取和保存，如果账号密码有错，则重新登录一次即可，脚本会自动更新所保存的账号密码。
-
-以上在什么值得买的iPhone 9.5.17版本测试通过。
-
-##### 隐私说明
-
-因为手机端需要使用账号密码换取token，再通过token签到，所以需要获取一次账号密码。账号密码只会在本地存储，用于发送给“什么值得买”服务端接口用于换取token，不会发送给任何第三方。脚本完全开源，如有疑虑请查阅脚本源码。
-
-##### 存在的问题
-
-###### 什么值得买iPhone 9.8.5及以上版本，抓取不到账户名密码
-
-在最新版的什么值得买客户端iPhone 9.8.5(2020-07-13)中，由于请求头声明异常，会导致Quantumult X和Surge的商店版本无法抓取到账户名和密码，Loon抓取正常。这个属于什么值得买客户端的请求不规范导致，修复时间未知。
-
-和Quantumlu X作者反馈，作者迅速对这种请求头不规范的情况做了兼容，目前在Qutumult X 1.0.13(348) TF版本中已经可以正常获取到数据。
-
-现阶段的解决办法：
-
-1. 如果有Quantumult X有TF版本，更新至最新版即可
-
-2. 如果使用Loon，没影响
-
-3. 如果使用Surge，降级什么值得买App后抓取 
-
-4. clone 整个项目到本地，在本地脚本里填上预留的用户名密码
-
-5. Surge手动写入数据
-
-   ```javascript
-   手动执行脚本，写入账号密码数据
-   $persistentStore.write("你的账号", "smzdm_account");
-   $persistentStore.write("你的密码", "smzdm_password");
-   ```
-
-###### App端签到没有收益
-
-目前App端的签到，反复确认没有任何收益，纯粹只是娱乐。Web端和App端同时签到，可能会导致签到失败，显示为主页君繁忙，内置了签到时间间隔和多次重试，一般不会再出现此问题。
 
 ## 去广告
 

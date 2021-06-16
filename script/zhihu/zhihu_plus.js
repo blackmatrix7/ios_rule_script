@@ -138,6 +138,43 @@ let magicJS = MagicJS(scriptName, "INFO");
       // 推荐去广告与黑名单增强
       case /^https:\/\/api\.zhihu\.com\/topstory\/recommend\?/.test(magicJS.request.url):
         try {
+
+          // 判断是否是“盐选推荐内容”
+          function IsYanXuan(element) {
+            let flag = false;
+            if (element["common_card"]["footline"].hasOwnProperty("elements")) {
+              for (let i = 0; i < element["common_card"]["footline"]["elements"].length; i++) {
+                let item = element["common_card"]["footline"]["elements"][i];
+                if (item.hasOwnProperty("icon") && item["icon"]["image_url"] == "https://pic2.zhimg.com/80/v2-c46fc8ec4c4e9ffc8f846ae0d8158a80_1440w.png") {
+                  flag = true;
+                  break;
+                }
+              }
+            }
+            return flag;
+          }
+
+          // 判断内容是否匹配屏蔽关键字
+          function IsKeywordBlock(element) {
+            let flag = false;
+            let elementStr = JSON.stringify(element);
+            for (let i = 0; i < keywords.length; i++) {
+              if (elementStr.indexOf(keywords[i]) >= 0) {
+                let elementTitle = element.common_card.feed_content.title.panel_text;
+                let elementContent = element.common_card.feed_content.content.panel_text;
+                let actionUrl = "";
+                try {
+                  actionUrl = element.common_card.feed_content.title.action.intent_url;
+                } catch {}
+                magicJS.logInfo(`匹配关键字：\n${keywords[i]}\n标题：\n${elementTitle}\n内容：\n${elementContent}`);
+                magicJS.notifyDebug(scriptName, `关键字：${keywords[i]}`, `${elementTitle}\n${elementContent}`, actionUrl);
+                flag = true;
+                break;
+              }
+            }
+            return flag;
+          }
+
           let user_info = GetUserInfo();
           let customBlockedUsers = magicJS.read(blockedUsersKey, user_info.id);
           let keywords = magicJS.read(keywordBlockKey, user_info.id);
@@ -154,49 +191,15 @@ let magicJS = MagicJS(scriptName, "INFO");
             } catch (err) {
               magicJS.logError(`修正视频自动播放失败\n异常信息：${err}\n响应数据：${JSON.stringify(element)}`);
             }
-
-            // 判断是否是“盐选推荐内容”
-            function IsYanXuan(element) {
-              let flag = false;
-              if (element["common_card"]["footline"].hasOwnProperty("elements")) {
-                for (let i = 0; i < element["common_card"]["footline"]["elements"].length; i++) {
-                  let item = element["common_card"]["footline"]["elements"][i];
-                  if (item.hasOwnProperty("icon") && item["icon"]["image_url"] == "https://pic2.zhimg.com/80/v2-c46fc8ec4c4e9ffc8f846ae0d8158a80_1440w.png") {
-                    flag = true;
-                    break;
-                  }
-                }
-              }
-              return flag;
-            }
-
-            // 判断内容是否匹配屏蔽关键字
-            function IsKeywordBlock(element) {
-              let flag = false;
-              let elementStr = JSON.stringify(element);
-              for (let i = 0; i < keywords.length; i++) {
-                if (elementStr.indexOf(keywords[i]) >= 0) {
-                  let elementTitle = element.common_card.feed_content.title.panel_text;
-                  let elementContent = element.common_card.feed_content.content.panel_text;
-                  let actionUrl = "";
-                  try {
-                    actionUrl = element.common_card.feed_content.title.action.intent_url;
-                  } catch {}
-                  magicJS.logInfo(`匹配关键字：\n${keywords[i]}\n标题：\n${elementTitle}\n内容：\n${elementContent}`);
-                  magicJS.notifyDebug(scriptName, `关键字：${keywords[i]}`, `${elementTitle}\n${elementContent}`, actionUrl);
-                  flag = true;
-                  break;
-                }
-              }
-              return flag;
-            }
-
             let flag = !(
               element["card_type"] === "slot_event_card" ||
+              element["card_type"] === "slot_video_event_card" ||
               element.hasOwnProperty("ad") ||
-              // 取消以下两行注释，推荐列表拦截视频与直播
+              // 取消以下几行注释，推荐列表拦截视频与直播
               // element["extra"]["type"] === "drama" ||
               // element["extra"]["type"] === "zvideo" ||
+              // element["extra"]["type"] === "Video" ||
+              // element["common_card"]["style"] === "BIG_IMAGE" ||
               // 取消以下注释，推荐列表拦截“盐选推荐”
               // IsYanXuan(element) ||
               // 注释下行，推荐列表关闭关键字屏蔽功能

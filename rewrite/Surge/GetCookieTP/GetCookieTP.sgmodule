@@ -1,11 +1,11 @@
 #!name=获取签到脚本Cookie(含第三方脚本)
-#!desc=最后更新时间 2021-06-02 10:03:06
+#!desc=最后更新时间 2021-06-17 02:10:54
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=0
 #!script=19
 #!force_http_engine_hosts=0
-#!mitm=18
+#!mitm=17
 
 [Script]
 Fa米家_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js,pattern=^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/member\/(signin\/usersign|sign\/current)
@@ -29,4 +29,4 @@ Luka_获取cookie = type=http-request,script-path=https://raw.githubusercontent.
 饿了么_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,pattern=^https?:\/\/h5\.ele\.me\/restapi\/biz\.svip_scene\/svip\/engine\/queryTrafficSupply
 
 [MITM]
-hostname = %APPEND% api.didialift.com,apph5.manmanbuy.com,as.xiaojukeji.com,bosp-api.xiaojukeji.com,c.tieba.baidu.com,cms-activity-api-prd-mx.wandafilm.com,fmapp.chinafamilymart.com.cn,h5.ele.me,luka-graphql.ling.cn,m.client.10010.com,maicai.api.ddxq.mobi,mall.meituan.com,mp.jzb.com,pay.diditaxi.com.cn,pgc-cms.jzb.com,user-api-prd-mx.wandafilm.com,www.didapinche.com,zhiyou.smzdm.com
+hostname = %APPEND% *api-prd-mx.wandafilm.com,api.didialift.com,apph5.manmanbuy.com,as.xiaojukeji.com,bosp-api.xiaojukeji.com,c.tieba.baidu.com,fmapp.chinafamilymart.com.cn,h5.ele.me,luka-graphql.ling.cn,m.client.10010.com,maicai.api.ddxq.mobi,mall.meituan.com,mp.jzb.com,pay.diditaxi.com.cn,pgc-cms.jzb.com,www.didapinche.com,zhiyou.smzdm.com

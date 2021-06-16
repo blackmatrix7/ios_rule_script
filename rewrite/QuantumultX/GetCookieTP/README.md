@@ -14,7 +14,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 18 |
+| mitm | 17 |
 | script-request-header | 13 |
 | script-response-body | 2 |
 | script-request-body | 4 |

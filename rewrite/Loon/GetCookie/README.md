@@ -14,7 +14,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 18 |
+| mitm | 17 |
 | http-request | 17 |
 | http-response | 2 |
 ## 配置说明

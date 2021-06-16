@@ -1,14 +1,14 @@
 #!name=抖音去广告
-#!desc=最后更新时间 2021-06-15 15:07:45
+#!desc=最后更新时间 2021-06-17 02:10:54
 #!author=Choler
 #!repo=https://github.com/Choler/Surge
 #!rewrite=1
 #!script=1
 #!force_http_engine_hosts=0
-#!mitm=1
+#!mitm=2
 
 [Rule]
-URL-REGEX,^https?:\/\/api.*\.amemv\.com\/api\/ad\/,REJECT
+URL-REGEX,^https?:\/\/(api.*\.amemv|aweme\.snssdk)\.com\/api\/ad\/,REJECT
 
 [URL Rewrite]
 ^https?:\/\/api.*\.amemv\.com\/aweme\/v\d\/ https://aweme.snssdk.com/aweme/v1/ header
@@ -17,4 +17,4 @@ URL-REGEX,^https?:\/\/api.*\.amemv\.com\/api\/ad\/,REJECT
 抖音_去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/7f3c8323580b2d79dfe42a315656355a.js,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v[12]\/((|follow\/|nearby\/)feed|aweme\/post|hot\/search\/video\/list|mix\/aweme|aweme\/detail)\/\?
 
 [MITM]
-hostname = %APPEND% api?-*-*-*.amemv.com
+hostname = %APPEND% api*.amemv.com,aweme.snssdk.com

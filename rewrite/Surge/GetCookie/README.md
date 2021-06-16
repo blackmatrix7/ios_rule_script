@@ -14,7 +14,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 18 |
+| mitm | 17 |
 | force_http_engine_hosts | 0 |
 | http-request | 17 |
 | http-response | 2 |

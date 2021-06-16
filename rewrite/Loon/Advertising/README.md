@@ -8,17 +8,15 @@
 
 请通过我国(中华人民共和国)合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 ## 规则说明
-经测试，AdvertisingLite效果良好，建议使用AdvertisingLite，不再推荐使用Advertising！！
+与AdvertisingLite的区别：
 
-经测试，AdvertisingLite效果良好，建议使用AdvertisingLite，不再推荐使用Advertising！！
-
-经测试，AdvertisingLite效果良好，建议使用AdvertisingLite，不再推荐使用Advertising！！
+数据源完全相同，AdvertisingLite会去除一些过于宽泛的匹配规则，减少MITM的数量。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 590 |
+| mitm | 589 |
 | DOMAIN | 2 |
 | DOMAIN-SUFFIX | 1 |
 | reject | 777 |

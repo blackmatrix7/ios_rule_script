@@ -1,13 +1,13 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:33
-# DOMAIN-SUFFIX: 663
+# UPDATED: 2021-05-28 02:54:35
+# DOMAIN-SUFFIX: 664
 # DOMAIN-KEYWORD: 8
 # IP-CIDR: 4
 # PROCESS-NAME: 4
 # IP-CIDR6: 1
-# TOTAL: 680
+# TOTAL: 681
 payload:
   - DOMAIN-SUFFIX,.bo
   - DOMAIN-SUFFIX,.chrome
@@ -577,6 +577,7 @@ payload:
   - DOMAIN-SUFFIX,polymer-project.org
   - DOMAIN-SUFFIX,polymerproject.org
   - DOMAIN-SUFFIX,postini.com
+  - DOMAIN-SUFFIX,privacysandbox.com
   - DOMAIN-SUFFIX,projectara.com
   - DOMAIN-SUFFIX,projectbaseline.com
   - DOMAIN-SUFFIX,publishproxy.com

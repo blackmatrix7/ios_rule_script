@@ -7,12 +7,18 @@
 复写规则所有数据均收集自开源项目，仅为解决引用过多外部资源引起的规则重复问题，不代表我们支持或使用这些服务。
 
 请通过我国(中华人民共和国)合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
+## 规则说明
+经测试，AdvertisingLite效果良好，建议使用AdvertisingLite，不再推荐使用Advertising！！
+
+经测试，AdvertisingLite效果良好，建议使用AdvertisingLite，不再推荐使用Advertising！！
+
+经测试，AdvertisingLite效果良好，建议使用AdvertisingLite，不再推荐使用Advertising！！
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 581 |
+| mitm | 590 |
 | reject | 777 |
 ## 配置说明
 

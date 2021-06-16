@@ -14,18 +14,13 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 647 |
+| mitm | 536 |
 | force_http_engine_hosts | 14 |
-| DOMAIN | 6 |
-| DOMAIN-SUFFIX | 2 |
 | URL-REGEX | 7 |
-| IP-CIDR | 1 |
-| IP-CIDR6 | 1 |
-| USER-AGENT | 1 |
-| reject | 795 |
+| reject | 715 |
 | http-response | 29 |
 | http-request | 1 |
-| redirect | 54 |
+| redirect | 49 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。

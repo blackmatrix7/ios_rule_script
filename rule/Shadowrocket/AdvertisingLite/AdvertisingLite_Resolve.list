@@ -1,15 +1,15 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-05-22 02:28:16
+# UPDATED: 2021-06-15 17:08:37
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 28
 # DOMAIN-SUFFIX: 12708
-# DOMAIN: 14905
+# DOMAIN: 14645
 # IP-CIDR: 158
 # IP-CIDR6: 1
-# URL-REGEX: 296
-# TOTAL: 28096
+# URL-REGEX: 295
+# TOTAL: 27835
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,adsage
@@ -204,6 +204,7 @@ URL-REGEX,^https?:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[
 URL-REGEX,^https?:\/\/(a?d|sax)\d.sina.com
 URL-REGEX,^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert
 URL-REGEX,^https?:\/\/(e|m).+/((uu|oo).php.+|\d+.x?html\?$)
+URL-REGEX,^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4)
 URL-REGEX,^https?:\/\/.+/videos/other/.+
 URL-REGEX,^https?:\/\/.+?/V\d\/splash\/getSplashV\d\.action
 URL-REGEX,^https?:\/\/.+?\.58cdn\.com\.cn\/brandads\/
@@ -276,7 +277,6 @@ URL-REGEX,^https?:\/\/api\.psy-1\.com\/cosleep\/startup
 URL-REGEX,^https?:\/\/api\.qbb6\.com\/ad\/
 URL-REGEX,^https?:\/\/api\.qiuduoduo\.cn\/guideimage
 URL-REGEX,^https?:\/\/api\.rr\.tv\/ad\/
-URL-REGEX,^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading
 URL-REGEX,^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap
 URL-REGEX,^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising
 URL-REGEX,^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement
@@ -289,7 +289,6 @@ URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated
 URL-REGEX,^https?:\/\/api\d\.futunn\.com\/ad\/
-URL-REGEX,^https?:\/\/app-api\.smzdm\.com\/util\/loading
 URL-REGEX,^https?:\/\/app3\.qdaily\.com\/app3\/boot_advertisements\.json
 URL-REGEX,^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv)\/
 URL-REGEX,^https?:\/\/app\.58\.com\/api\/home\/invite\/popupAdv

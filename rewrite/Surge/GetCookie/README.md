@@ -14,9 +14,9 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 16 |
+| mitm | 18 |
 | force_http_engine_hosts | 0 |
-| http-request | 15 |
+| http-request | 17 |
 | http-response | 2 |
 ## 配置说明
 
@@ -60,6 +60,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/S
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.sgmodule
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.sgmodule
 
 
 感谢以上复写规则作者的辛勤付出（排名不分先后）。

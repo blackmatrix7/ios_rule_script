@@ -1,5 +1,4 @@
 const scriptName = "饿了么";
-const getCookieRegex = /^https?:\/\/h5\.ele\.me\/restapi\/svip_biz\/v1\/supervip\/queryMissionCollect\?longitude=([^&]*).*latitude=([^&]*)/;
 const elemeCookieKey = "eleme_app_cookie";
 const elemeLongitudeKey = "eleme_app_longitude";
 const elemeLatitudeKey = "eleme_app_latitude";
@@ -9,30 +8,6 @@ const requiredOrderAmount = 4; // 需要完成订单数量小于等于此数的�
 
 let magicJS = MagicJS(scriptName, "INFO");
 magicJS.unifiedPushUrl = magicJS.read("eleme_app_unified_push_url") || magicJS.read("magicjs_unified_push_url");
-
-function GetCookie() {
-  try {
-    let cookie = magicJS.request.headers.Cookie;
-    let arr = magicJS.request.url.match(getCookieRegex);
-    let longitude = arr[1];
-    let latitude = arr[2];
-    let hisCookie = magicJS.read(elemeCookieKey);
-    magicJS.write(elemeLongitudeKey, longitude);
-    magicJS.write(elemeLatitudeKey, latitude);
-    let compareCookie2 = !!cookie ? /cookie2=([a-zA-Z0-9]*)/.exec(cookie)[1] : null;
-    let compareHisCookie2 = !!hisCookie ? /cookie2=([a-zA-Z0-9]*)/.exec(hisCookie)[1] : null;
-    if (!!!hisCookie || compareCookie2 !== compareHisCookie2) {
-      magicJS.write(elemeCookieKey, cookie);
-      magicJS.logInfo(`旧的Cookie：${hisCookie}\n新的Cookie：${cookie}\nCookie不同，写入新的Cookie成功！`);
-      magicJS.notify("Cookie写入成功！！");
-    } else {
-      magicJS.logInfo("Cookie没有变化，无需更新");
-    }
-  } catch (err) {
-    magicJS.notify("获取Cookie出现异常，请查阅日志。");
-    magicJS.logError(`获取Cookie出现执行异常，异常信息：${err}`);
-  }
-}
 
 // 获取超级会员任务列表
 function GetSuperVipMissions(cookie, longitude, latitude) {
@@ -109,7 +84,7 @@ function AcceptMission(cookie, longitude, latitude, mission_id) {
         "User-Agent": "Rajax/1 Apple/iPhone10,3 iOS/14.5.1 Eleme/9.8.5",
         "f-pTraceId": "WVNet_WV_1-1-40",
         "f-refer": "wv_h5",
-        "x-shard": "loc=121.52699279785156,31.2293643951416"
+        "x-shard": "loc=121.52699279785156,31.2293643951416",
       },
       body: {
         longitude: longitude,
@@ -140,47 +115,41 @@ function AcceptMission(cookie, longitude, latitude, mission_id) {
 }
 
 (async () => {
-  if (magicJS.isRequest) {
-    if (getCookieRegex.test(magicJS.request.url) && magicJS.request.method == "GET") {
-      GetCookie();
-    }
+  let subTitle = "";
+  let content = "";
+  let cookie = magicJS.read(elemeCookieKey);
+  let longitude = magicJS.read(elemeLongitudeKey);
+  let latitude = magicJS.read(elemeLatitudeKey);
+  if (!!!cookie) {
+    magicJS.logWarning("没有读取到Cookie，请先从App中获取一次Cookie！");
+    content = "❓没有读取到有效Cookie，请先从App中获取Cookie!!";
   } else {
-    let subTitle = "";
-    let content = "";
-    let cookie = magicJS.read(elemeCookieKey);
-    let longitude = magicJS.read(elemeLongitudeKey);
-    let latitude = magicJS.read(elemeLatitudeKey);
-    if (!!!cookie) {
-      magicJS.logWarning("没有读取到Cookie，请先从App中获取一次Cookie！");
-      content = "❓没有读取到有效Cookie，请先从App中获取Cookie!!";
+    // 领取会员任务
+    let [getMissionErr, missions] = await magicJS.attempt(magicJS.retry(GetSuperVipMissions, 3, 2000)(cookie, longitude, latitude), []);
+    if (getMissionErr) {
+      subTitle = getMissionErr;
+    } else if (missions.length == 0) {
+      magicJS.log("领取任务失败，没有发现符合要求的任务。请查阅任务返回JSON，确认是否因为任务描述改变而无法领取。");
+      subTitle = "❌没有符合要求的任务可以领取";
     } else {
-      // 领取会员任务
-      let [getMissionErr, missions] = await magicJS.attempt(magicJS.retry(GetSuperVipMissions, 3, 2000)(cookie, longitude, latitude), []);
-      if (getMissionErr) {
-        subTitle = getMissionErr;
-      } else if (missions.length == 0) {
-        magicJS.log("领取任务失败，没有发现符合要求的任务。请查阅任务返回JSON，确认是否因为任务描述改变而无法领取。");
-        subTitle = "❌没有符合要求的任务可以领取";
-      } else {
-        magicJS.logDebug(`获取待领取的任务Id：${JSON.stringify(missions)}`);
-        let acceptMissionList = [];
-        content = "会员任务领取结果：";
-        for (let i = 0; i < missions.length; i++) {
-          let [acceptErr, acceptResult] = await magicJS.attempt(AcceptMission(cookie, longitude, latitude, missions[i]), null);
-          if (acceptResult) {
-            acceptMissionList.push(missions[i]);
-            content += `\n${acceptResult}`;
-          }
-          magicJS.logInfo(`成功领取的任务Id：${JSON.stringify(acceptMissionList)}`);
+      magicJS.logDebug(`获取待领取的任务Id：${JSON.stringify(missions)}`);
+      let acceptMissionList = [];
+      content = "会员任务领取结果：";
+      for (let i = 0; i < missions.length; i++) {
+        let [acceptErr, acceptResult] = await magicJS.attempt(AcceptMission(cookie, longitude, latitude, missions[i]), null);
+        if (acceptResult) {
+          acceptMissionList.push(missions[i]);
+          content += `\n${acceptResult}`;
         }
-        if (acceptMissionList.length <= 0) {
-          content += "\n没有领取任何任务";
-        }
+        magicJS.logInfo(`成功领取的任务Id：${JSON.stringify(acceptMissionList)}`);
+      }
+      if (acceptMissionList.length <= 0) {
+        content += "\n没有领取任何任务";
       }
     }
-    // 通知
-    magicJS.notify(scriptName, subTitle, content);
   }
+  // 通知
+  magicJS.notify(scriptName, subTitle, content);
   magicJS.done();
 })();
 

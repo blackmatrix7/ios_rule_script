@@ -64,11 +64,11 @@ https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite
 | [中国联通](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/10010) | 每日自动签到、美团外卖30-3优惠券、4次抽奖、话费流量语音情况推送 | 正常     |
 | [联享家](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/lxj) | 去广告、拦截检测更新                                         | 正常     |
 | [开屏去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/startup) | 通过脚本去除缓存到本地的APP开屏广告                          | 正常     |
-| [嘀嗒出行](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didachuxing) | 每日自动签到                                                 | 正常     |
-| [滴滴出行](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didichuxing) | 每日自动签到、福利金抽奖、天天有奖签到                       | 正常     |
+| ~~[嘀嗒出行](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didachuxing)~~ | ~~每日自动签到~~                                             | 失效     |
+| ~~[滴滴出行](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didichuxing)~~ | ~~每日自动签到、福利金抽奖、天天有奖签到~~                   | 失效     |
 | [家长帮](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/jiazhangbang) | 每日自动签到                                                 | 正常     |
 | [慢慢买](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/manmanbuy) | 每日自动签到                                                 | 正常     |
-| [~~小米有品~~](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/youpin) | ~~每日自动签到~~                                             | 停止     |
+| [~~小米有品~~](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/youpin) | ~~每日自动签到~~                                             | 失效     |
 | [叮咚买菜](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/dingdong) | 每日自动签到                                                 | 正常     |
 | [万达电影](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/wanda) | 每日自动签到，月末将剩余能量抽奖                             | 正常     |
 | [饿了么](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/eleme) | 每日自动领取会员任务                                         | 正常     |

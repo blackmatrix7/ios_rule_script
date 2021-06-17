@@ -1,0 +1,19 @@
+# 什么值得买去广告
+
+# 详情页去广告
+^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner url reject-dict
+# 首页去广告
+^https?:\/\/homepage-api\.smzdm\.com\/home url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/backup/smzdm_remove_ads.js
+# 好价去广告
+^https?:\/\/haojia-api\.smzdm\.com\/home\/list url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/backup/smzdm_remove_ads.js
+# 去浮动广告
+^https?:\/\/app-api\.smzdm\.com\/util\/update url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/backup/smzdm_remove_ads.js
+# 好文去广告
+^https?:\/\/article-api\.smzdm\.com\/article\/index_home_page url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/backup/smzdm_remove_ads.js
+# 搜索去广告
+^https?:\/\/s-api\.smzdm\.com\/sou\/list url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/backup/smzdm_remove_ads.js
+# 其他
+^https?:\/\/api\.smzdm\.com\/v\d\/util\/(banner|loading) url reject-dict
+^https?:\/\/app-api\.smzdm\.com\/util\/loading url reject-dict
+
+hostname = homepage-api.smzdm.com,haojia-api.smzdm.com,article-api.smzdm.com,haojia.m.smzdm.com,app-api.smzdm.com,s-api.smzdm.com

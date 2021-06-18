@@ -16,7 +16,7 @@
 | ---- | ---- |
 | mitm | 22 |
 | reject | 20 |
-| script-response-body | 29 |
+| script-response-body | 32 |
 | script-request-body | 1 |
 ## 配置说明
 

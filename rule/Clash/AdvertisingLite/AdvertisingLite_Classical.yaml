@@ -1,13 +1,13 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-06-18 02:11:19
+# UPDATED: 2021-06-20 02:06:05
 # DOMAIN-KEYWORD: 28
-# DOMAIN-SUFFIX: 12707
-# DOMAIN: 14634
+# DOMAIN-SUFFIX: 12712
+# DOMAIN: 14613
 # IP-CIDR: 158
 # IP-CIDR6: 1
-# TOTAL: 27528
+# TOTAL: 27512
 payload:
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,00-gov.cn
@@ -411,6 +411,7 @@ payload:
   - DOMAIN,5etv.com
   - DOMAIN,5eyz.flzee.com
   - DOMAIN,5f8fbbfc2244adc9.com
+  - DOMAIN,5leji.com
   - DOMAIN,5mnh.com
   - DOMAIN,5nt1gx7o57.com
   - DOMAIN,5ubei.com
@@ -1412,6 +1413,7 @@ payload:
   - DOMAIN,adspdbl.com
   - DOMAIN,adspeed.com
   - DOMAIN,adspirit.de
+  - DOMAIN,adsplex.com
   - DOMAIN,adspruce.com
   - DOMAIN,adspsp.com
   - DOMAIN,adspyglass.com
@@ -1816,6 +1818,7 @@ payload:
   - DOMAIN,air360tracker.net
   - DOMAIN,airpr.com
   - DOMAIN,airserve.net
+  - DOMAIN,aixintou.com.cn
   - DOMAIN,aj1052.online
   - DOMAIN,aj1090.online
   - DOMAIN,aj1432.online
@@ -2145,6 +2148,7 @@ payload:
   - DOMAIN,aqtracker.com
   - DOMAIN,aquete.com
   - DOMAIN,ar1nvz5.com
+  - DOMAIN,arasyqslwmfat.com
   - DOMAIN,arcadebannerexchange.org
   - DOMAIN,arcadebe.com
   - DOMAIN,arcadechain.com
@@ -3919,7 +3923,6 @@ payload:
   - DOMAIN,cptrack.de
   - DOMAIN,cpu-baidu-com-block.cdn.bcebos.com
   - DOMAIN,cpucdn.baidu.com
-  - DOMAIN,cpufan.club
   - DOMAIN,cpuim.com
   - DOMAIN,cpvads.com
   - DOMAIN,cpvadvertise.com
@@ -4046,7 +4049,6 @@ payload:
   - DOMAIN,cwkuki.com
   - DOMAIN,cx.v5cam.com
   - DOMAIN,cxense.com
-  - DOMAIN,cxlm.net.cn
   - DOMAIN,cxpublic.com
   - DOMAIN,cxxtv.com
   - DOMAIN,cya1t.net
@@ -4070,7 +4072,6 @@ payload:
   - DOMAIN,d-stats.com
   - DOMAIN,d.13mobi.com
   - DOMAIN,d.cntv.cn
-  - DOMAIN,d.cpufan.club
   - DOMAIN,d.jjyx.com
   - DOMAIN,d.pub.network
   - DOMAIN,d.rcmd.jp
@@ -4882,7 +4883,6 @@ payload:
   - DOMAIN,dynsrvtyu.com
   - DOMAIN,dyntrk.com
   - DOMAIN,dyscb.cn
-  - DOMAIN,dywjcc.top
   - DOMAIN,dz4ad.com
   - DOMAIN,dzmxze7hxwn6b.cloudfront.net
   - DOMAIN,dzsstye.com
@@ -5309,6 +5309,7 @@ payload:
   - DOMAIN,exponential.com
   - DOMAIN,expresswebtraffic.com
   - DOMAIN,ext.baidu.com
+  - DOMAIN,exter.weilanshan.com
   - DOMAIN,extole.com
   - DOMAIN,extole.io
   - DOMAIN,extra33.com
@@ -5944,6 +5945,7 @@ payload:
   - DOMAIN,givemeb33f.com
   - DOMAIN,givingsol.com
   - DOMAIN,gixmo.dk
+  - DOMAIN,gjh111.cn
   - DOMAIN,gkgojxjucutvnt.com
   - DOMAIN,gklmedia.com
   - DOMAIN,gl-cash.com
@@ -6402,17 +6404,9 @@ payload:
   - DOMAIN,hmwebs.top
   - DOMAIN,hn-button.herokuapp.com
   - DOMAIN,hnbutton.appspot.com
-  - DOMAIN,hndnserror1.wo.com.cn
-  - DOMAIN,hndnserror2.wo.com.cn
-  - DOMAIN,hndnserror3.wo.com.cn
-  - DOMAIN,hndnserror4.wo.com.cn
-  - DOMAIN,hndnserror5.wo.com.cn
-  - DOMAIN,hndnserror6.wo.com.cn
-  - DOMAIN,hndnserror7.wo.com.cn
   - DOMAIN,hnlike.com
   - DOMAIN,hnpvnnhzazkl.com
   - DOMAIN,hnskorea.co.kr
-  - DOMAIN,hnwlyy.com.cn
   - DOMAIN,hoaphaiw.com
   - DOMAIN,hoawhaum.net
   - DOMAIN,hoawy.frost-electric-supply.com
@@ -6462,6 +6456,7 @@ payload:
   - DOMAIN,hotchatdate.com
   - DOMAIN,hotchatdirect.com
   - DOMAIN,hotcounter.de
+  - DOMAIN,hotdogsandads.com
   - DOMAIN,hotelscombined.com.au
   - DOMAIN,hotfacesitting.com
   - DOMAIN,hotgvibe.com
@@ -6497,7 +6492,6 @@ payload:
   - DOMAIN,hsdn.org
   - DOMAIN,hskj88.cn
   - DOMAIN,hsleadflows.net
-  - DOMAIN,hsmkj.net
   - DOMAIN,hsqujerwg.com
   - DOMAIN,hsslx.com
   - DOMAIN,hst-19-33.splius.lt
@@ -7340,6 +7334,7 @@ payload:
   - DOMAIN,kingsoft.com
   - DOMAIN,kinley.com
   - DOMAIN,kinoprofi.org
+  - DOMAIN,kinostuff.com
   - DOMAIN,kiosked.com
   - DOMAIN,kip5j.com
   - DOMAIN,kir.jp
@@ -7398,7 +7393,6 @@ payload:
   - DOMAIN,kono-research.de
   - DOMAIN,kontagent.net
   - DOMAIN,kontextua.com
-  - DOMAIN,koocash.com
   - DOMAIN,koopei.com
   - DOMAIN,kopsil.com
   - DOMAIN,korexo.com
@@ -8287,6 +8281,7 @@ payload:
   - DOMAIN,mignoops.net
   - DOMAIN,mileporn.com
   - DOMAIN,milleniumpapelaria.com.br
+  - DOMAIN,millioncounter.com
   - DOMAIN,milotree.com
   - DOMAIN,miltauru.net
   - DOMAIN,mimgoal.com
@@ -8431,7 +8426,6 @@ payload:
   - DOMAIN,modernus.is
   - DOMAIN,modescrips.info
   - DOMAIN,modulepush.com
-  - DOMAIN,modzj.net
   - DOMAIN,moengage.com
   - DOMAIN,mogointeractive.com
   - DOMAIN,mohini-ger.com
@@ -8851,7 +8845,6 @@ payload:
   - DOMAIN,newtention.net
   - DOMAIN,newtueads.com
   - DOMAIN,newwedads.com
-  - DOMAIN,newwiesdom.com.cn
   - DOMAIN,nex8.net
   - DOMAIN,nexac.com
   - DOMAIN,nexeps.com
@@ -8861,14 +8854,6 @@ payload:
   - DOMAIN,nextstat.com
   - DOMAIN,nexus.officeapps.live.com
   - DOMAIN,nexusrules.officeapps.live.com
-  - DOMAIN,nfdnserror10.wo.com.cn
-  - DOMAIN,nfdnserror11.wo.com.cn
-  - DOMAIN,nfdnserror12.wo.com.cn
-  - DOMAIN,nfdnserror13.wo.com.cn
-  - DOMAIN,nfdnserror14.wo.com.cn
-  - DOMAIN,nfdnserror15.wo.com.cn
-  - DOMAIN,nfdnserror16.wo.com.cn
-  - DOMAIN,nfdnserror17.wo.com.cn
   - DOMAIN,nflightiesmurtone.com
   - DOMAIN,nfwebminer.com
   - DOMAIN,ng3.ads.warnerbros.com
@@ -10301,7 +10286,6 @@ payload:
   - DOMAIN,qd.easylive.net
   - DOMAIN,qd3u5eeuos.com
   - DOMAIN,qdmil.com
-  - DOMAIN,qdxrhg.com
   - DOMAIN,qel-qel-fie.com
   - DOMAIN,qelllwrite.com
   - DOMAIN,qertewrt.com
@@ -10350,6 +10334,7 @@ payload:
   - DOMAIN,quaintcan.com
   - DOMAIN,qualigo.com
   - DOMAIN,quanbailing.com
+  - DOMAIN,quancee.top
   - DOMAIN,quanta-wave.com
   - DOMAIN,quantomcoding.com
   - DOMAIN,quantum-advertising.com
@@ -11057,7 +11042,6 @@ payload:
   - DOMAIN,secondstreetmedia.com
   - DOMAIN,secretbehindporn.com
   - DOMAIN,secretmedia.com
-  - DOMAIN,secretrune.com
   - DOMAIN,secretturtle.com
   - DOMAIN,secure.ifbyphone.com
   - DOMAIN,secureboom.net
@@ -11411,7 +11395,6 @@ payload:
   - DOMAIN,site-submit.com.ua
   - DOMAIN,site.flashx.cc
   - DOMAIN,site24x7rum.com
-  - DOMAIN,siteanaliz.org
   - DOMAIN,siteapps.com
   - DOMAIN,sitebot.cn
   - DOMAIN,sitebrand.com
@@ -12816,7 +12799,6 @@ payload:
   - DOMAIN,treasuredata.com
   - DOMAIN,trebleperfect.com
   - DOMAIN,tredirect.com
-  - DOMAIN,trekmedia.net
   - DOMAIN,treksol.net
   - DOMAIN,trendcounter.com
   - DOMAIN,trendcounter.de
@@ -13219,7 +13201,6 @@ payload:
   - DOMAIN,usercentrics.eu
   - DOMAIN,userdatatrust.com
   - DOMAIN,userdive.com
-  - DOMAIN,userdmp.com
   - DOMAIN,userlook.com
   - DOMAIN,userneeds.dk
   - DOMAIN,userreplay.net
@@ -13732,7 +13713,6 @@ payload:
   - DOMAIN,webvisor.ru
   - DOMAIN,webxmr.com
   - DOMAIN,weby.aaas.org
-  - DOMAIN,wecount4u.com
   - DOMAIN,weddingeeos.com
   - DOMAIN,weedazou.net
   - DOMAIN,wegotmedia.com
@@ -14382,7 +14362,6 @@ payload:
   - DOMAIN,yieldx.com
   - DOMAIN,yifuls.com
   - DOMAIN,yihubaiying.com
-  - DOMAIN,yimingxiang.com.cn
   - DOMAIN,yingshidaquan.cc
   - DOMAIN,yinoo.cn
   - DOMAIN,yiqiv.com
@@ -16429,6 +16408,7 @@ payload:
   - DOMAIN-SUFFIX,aercxy.com
   - DOMAIN-SUFFIX,aerserv.com
   - DOMAIN-SUFFIX,aes01.com
+  - DOMAIN-SUFFIX,aevents.izooto.com
   - DOMAIN-SUFFIX,afd.baidu.cn
   - DOMAIN-SUFFIX,afd.baidu.com
   - DOMAIN-SUFFIX,afd.l.google.com
@@ -19280,12 +19260,14 @@ payload:
   - DOMAIN-SUFFIX,events-api.outfit7.net
   - DOMAIN-SUFFIX,events.antenna.is
   - DOMAIN-SUFFIX,events.godaddy.com
+  - DOMAIN-SUFFIX,events.izooto.com
   - DOMAIN-SUFFIX,events.kalooga.com
   - DOMAIN-SUFFIX,events.pingan.com
   - DOMAIN-SUFFIX,events.secureserver.net
   - DOMAIN-SUFFIX,eventurypol.site
   - DOMAIN-SUFFIX,everesttech.net
   - DOMAIN-SUFFIX,eviltracker.net
+  - DOMAIN-SUFFIX,evt.izooto.com
   - DOMAIN-SUFFIX,evt.klarna.com
   - DOMAIN-SUFFIX,ew16d.package12.com
   - DOMAIN-SUFFIX,ew740.cn
@@ -21770,6 +21752,7 @@ payload:
   - DOMAIN-SUFFIX,license.lumion3d.com
   - DOMAIN-SUFFIX,license.lumion3d.net
   - DOMAIN-SUFFIX,licenses.ashampoo.com
+  - DOMAIN-SUFFIX,licensing.bitmovin.com
   - DOMAIN-SUFFIX,licensing.tableausoftware.com
   - DOMAIN-SUFFIX,lievr.cc
   - DOMAIN-SUFFIX,life.e0575.com
@@ -24872,6 +24855,7 @@ payload:
   - DOMAIN-SUFFIX,statisticsv2.yinyuetai.com
   - DOMAIN-SUFFIX,stats.cdn.pfn.bz
   - DOMAIN-SUFFIX,stats.chinaz.com
+  - DOMAIN-SUFFIX,stats.cloudwp.io
   - DOMAIN-SUFFIX,stats.developingperspective.com
   - DOMAIN-SUFFIX,stats.dice.com
   - DOMAIN-SUFFIX,stats.dmp.ghac.cn

@@ -23,7 +23,7 @@
 | IP-CIDR6 | 1 |
 | USER-AGENT | 1 |
 | reject | 20 |
-| http-response | 29 |
+| http-response | 32 |
 | http-request | 1 |
 ## 配置说明
 

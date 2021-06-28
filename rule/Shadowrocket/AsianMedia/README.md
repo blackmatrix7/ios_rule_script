@@ -16,11 +16,11 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-KEYWORD | 5 |
+| DOMAIN-KEYWORD | 3 |
 | DOMAIN-SUFFIX | 20 |
 | DOMAIN | 9 |
 | USER-AGENT | 5 |
-| IP-CIDR | 9 |
+| IP-CIDR | 11 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。

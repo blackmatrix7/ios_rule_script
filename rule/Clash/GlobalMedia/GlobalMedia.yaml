@@ -1,12 +1,13 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-05-13 02:21:59
-# DOMAIN: 35
-# DOMAIN-SUFFIX: 204
-# DOMAIN-KEYWORD: 21
-# IP-CIDR: 847
-# TOTAL: 1107
+# UPDATED: 2021-07-06 02:06:46
+# DOMAIN: 38
+# DOMAIN-SUFFIX: 215
+# DOMAIN-KEYWORD: 22
+# IP-CIDR: 856
+# PROCESS-NAME: 3
+# TOTAL: 1134
 payload:
   - DOMAIN,api.okzy.tv
   - DOMAIN,apple.comscoreresearch.com
@@ -27,6 +28,9 @@ payload:
   - DOMAIN,hboasia5-i.akamaihd.net
   - DOMAIN,hbolb.onwardsmg.com
   - DOMAIN,hbounify-prod.evergent.com
+  - DOMAIN,intl-rcd.iqiyi.com
+  - DOMAIN,intl-subscription.iqiyi.com
+  - DOMAIN,intl.iqiyi.com
   - DOMAIN,itvpnpmobile-a.akamaihd.net
   - DOMAIN,kktv-theater.kk.stream
   - DOMAIN,linear.tv.apple.com
@@ -54,6 +58,7 @@ payload:
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,amazonvideo.com
   - DOMAIN-SUFFIX,ameba.jp
+  - DOMAIN-SUFFIX,amplify.outbrain.com
   - DOMAIN-SUFFIX,api.segment.io
   - DOMAIN-SUFFIX,app.biliintl.com
   - DOMAIN-SUFFIX,apple.news
@@ -67,6 +72,7 @@ payload:
   - DOMAIN-SUFFIX,bbci.co
   - DOMAIN-SUFFIX,bbci.co.uk
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
+  - DOMAIN-SUFFIX,bluekai.com
   - DOMAIN-SUFFIX,boltdns.net
   - DOMAIN-SUFFIX,bootstrapcdn.com
   - DOMAIN-SUFFIX,braze.com
@@ -79,6 +85,7 @@ payload:
   - DOMAIN-SUFFIX,channel4.com
   - DOMAIN-SUFFIX,channel5.com
   - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,control.kochava.com
   - DOMAIN-SUFFIX,conviva.com
   - DOMAIN-SUFFIX,d9.flashtalking.com
   - DOMAIN-SUFFIX,dazn-api.com
@@ -143,6 +150,7 @@ payload:
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,ipinfo.io
   - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,iq.com
   - DOMAIN-SUFFIX,itv.com
   - DOMAIN-SUFFIX,itvstatic.com
   - DOMAIN-SUFFIX,japonx.com
@@ -201,6 +209,7 @@ payload:
   - DOMAIN-SUFFIX,pandora.com
   - DOMAIN-SUFFIX,paramountplus.com
   - DOMAIN-SUFFIX,pbs.org
+  - DOMAIN-SUFFIX,perfops.doracdn.com
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,pornhub.com
@@ -211,7 +220,10 @@ payload:
   - DOMAIN-SUFFIX,profile.line-scdn.net
   - DOMAIN-SUFFIX,pscdn.co
   - DOMAIN-SUFFIX,qobuz.com
+  - DOMAIN-SUFFIX,s.llnwi.net
+  - DOMAIN-SUFFIX,s.yimg.jp
   - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,secure.footprint.net
   - DOMAIN-SUFFIX,segment.com
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,skyking.com.tw
@@ -239,9 +251,12 @@ payload:
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,twitchcdn.net
   - DOMAIN-SUFFIX,uplynk.com
+  - DOMAIN-SUFFIX,urbanairship.com
   - DOMAIN-SUFFIX,urlload.net
   - DOMAIN-SUFFIX,viu.com
   - DOMAIN-SUFFIX,viu.tv
+  - DOMAIN-SUFFIX,vjs.zencdn.net
+  - DOMAIN-SUFFIX,yahoo.co.jp
   - DOMAIN-SUFFIX,yb.uncn.jp
   - DOMAIN-SUFFIX,youboranqs01.com
   - DOMAIN-SUFFIX,youtu.be
@@ -266,16 +281,20 @@ payload:
   - DOMAIN-KEYWORD,spotify.com
   - DOMAIN-KEYWORD,ttvnw
   - DOMAIN-KEYWORD,uk-live
+  - DOMAIN-KEYWORD,vod2dazn
   - DOMAIN-KEYWORD,voddazn
   - DOMAIN-KEYWORD,youtube
   - IP-CIDR,1.37.35.6/32
   - IP-CIDR,101.100.179.242/32
   - IP-CIDR,101.100.179.250/32
+  - IP-CIDR,103.5.34.153/32
   - IP-CIDR,103.87.204.0/22
+  - IP-CIDR,104.109.129.153/32
   - IP-CIDR,105.187.240.196/31
   - IP-CIDR,105.187.243.5/32
   - IP-CIDR,105.187.243.6/32
   - IP-CIDR,108.175.32.0/20
+  - IP-CIDR,110.238.107.47/32
   - IP-CIDR,112.198.26.2/32
   - IP-CIDR,122.155.238.138/32
   - IP-CIDR,122.155.238.142/32
@@ -633,6 +652,10 @@ payload:
   - IP-CIDR,203.116.210.196/30
   - IP-CIDR,203.116.210.200/31
   - IP-CIDR,203.177.54.2/32
+  - IP-CIDR,203.211.4.169/32
+  - IP-CIDR,203.211.4.193/32
+  - IP-CIDR,203.74.95.131/32
+  - IP-CIDR,203.74.95.139/32
   - IP-CIDR,204.17.140.250/32
   - IP-CIDR,205.185.100.38/32
   - IP-CIDR,206.192.244.33/32
@@ -693,6 +716,8 @@ payload:
   - IP-CIDR,208.76.186.7/32
   - IP-CIDR,209.166.100.18/32
   - IP-CIDR,209.166.100.22/32
+  - IP-CIDR,210.201.32.11/32
+  - IP-CIDR,210.201.32.8/32
   - IP-CIDR,211.25.221.90/32
   - IP-CIDR,211.25.221.94/32
   - IP-CIDR,212.113.160.242/32
@@ -1115,3 +1140,6 @@ payload:
   - IP-CIDR,96.23.20.74/32
   - IP-CIDR,96.23.20.78/32
   - IP-CIDR,96.4.63.99/32
+  - PROCESS-NAME,com.google.android.apps.youtube.music
+  - PROCESS-NAME,com.google.android.youtube.tvmusicroot
+  - PROCESS-NAME,com.vanced.android.apps.youtube.music

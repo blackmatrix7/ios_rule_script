@@ -1,10 +1,12 @@
 # NAME: YouTubeMusic
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:37
-# USER-AGENT: 4
-# TOTAL: 4
-USER-AGENT,*YouTubeMusic*
-USER-AGENT,*com.google.ios.youtubemusic*
+# UPDATED: 2021-07-05 02:06:01
+# USER-AGENT: 2
+# PROCESS-NAME: 3
+# TOTAL: 5
 USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
+PROCESS-NAME,com.google.android.apps.youtube.music
+PROCESS-NAME,com.google.android.youtube.tvmusicroot
+PROCESS-NAME,com.vanced.android.apps.youtube.music

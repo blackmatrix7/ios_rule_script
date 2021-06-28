@@ -10,14 +10,14 @@
 
 ## 规则统计
 
-总计规则：45 条。
+总计规则：54 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-SUFFIX | 34 |
-| IP-CIDR | 8 |
+| IP-CIDR | 17 |
 | DOMAIN-KEYWORD | 1 |
 | PROCESS-NAME | 2 |
 ## 配置说明
@@ -50,6 +50,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 如果你正在使用这些复写规则，建议不要与本项目的爱奇艺复写规则混合使用，以免造成规则重复。
 
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/iQIYI.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/iQiyi.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/iQiyi.list

@@ -16,11 +16,11 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST-KEYWORD | 5 |
+| HOST-KEYWORD | 3 |
 | HOST-SUFFIX | 20 |
 | HOST | 9 |
 | USER-AGENT | 5 |
-| IP-CIDR | 9 |
+| IP-CIDR | 11 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。

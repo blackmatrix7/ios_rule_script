@@ -4,7 +4,7 @@ const currentUserInfoKey = "zhihu_current_userinfo";
 const keywordBlockKey = "zhihu_keyword_block";
 // 默认屏蔽推荐列表的用户，通常不是真实用户，无法通过加入黑名单屏蔽
 const defaultAnswerBlockedUsers = ["会员推荐"];
-const keywordMaxCount = 10; // 允许设置的关键词数量
+const keywordMaxCount = 20; // 允许设置的关键词数量
 let magicJS = MagicJS(scriptName, "INFO");
 
 (() => {
@@ -138,7 +138,6 @@ let magicJS = MagicJS(scriptName, "INFO");
       // 推荐去广告与黑名单增强
       case /^https:\/\/api\.zhihu\.com\/topstory\/recommend\?/.test(magicJS.request.url):
         try {
-
           // 判断是否是“盐选推荐内容”
           function IsYanXuan(element) {
             let flag = false;
@@ -257,7 +256,7 @@ let magicJS = MagicJS(scriptName, "INFO");
             let element = targetIdFix(obj["data"][i]);
             if (!element["ad"]) {
               // 判断转发的想法是否含有黑名单用户
-              if (element.target.origin_pin && element.target.origin_pin.author && customBlockedUsers[element.target.origin_pin.author.name]) {
+              if (element.target && element.target.origin_pin && element.target.origin_pin.author && customBlockedUsers[element.target.origin_pin.author.name]) {
                 magicJS.notifyDebug(`屏蔽“${element.target.author.name}”转发黑名单用户“${element.target.origin_pin.author.name}”的想法。`);
               } else {
                 data.push(element);

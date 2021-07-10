@@ -5,7 +5,7 @@ const encryptMobileKey = "unicom_encrypt_mobile";
 const cityCodeKey = "city_code";
 const scriptName = "中国联通";
 
-let magicJS = MagicJS(scriptName, "DEBUG");
+let magicJS = MagicJS(scriptName, "INFO");
 magicJS.unifiedPushUrl = magicJS.read("unicom_unified_push_url") || magicJS.read("magicjs_unified_push_url");
 
 // 用户登录
@@ -245,7 +245,7 @@ function GetUserInfo(cookie, mobile) {
 // 美团外卖优惠券
 function GetMeituanCoupon(cookie) {
   let options = {
-    url: "https://m.client.10010.com/welfare-mall-front/mobile/api/bj2402/v1?reqdata=%7B%22saleTypes%22%3A%22TY%22%2C%22amount%22%3A0%2C%22goodsId%22%3A%228a29ac8a72be05a70172c067722600b8%22%2C%22payWay%22%3A%22%22%2C%22imei%22%3A%22%22%2C%22proFlag%22%3A%22%22%2C%22points%22%3A0%2C%22scene%22%3A%22%22%2C%22promoterCode%22%3A%22%22%7D",
+    url: "https://m.client.10010.com/welfare-mall-front/mobile/api/bj2402/v1?reqdata=%7B%22saleTypes%22%3A%22TY%22%2C%22amount%22%3A0%2C%22goodsId%22%3A%228a29ac8a72be05a70172c067722600b8%22%2C%22sourceChannel%22%3A%22955000300%22%2C%22payWay%22%3A%22%22%2C%22imei%22%3A%22%22%2C%22proFlag%22%3A%22%22%2C%22points%22%3A0%2C%22scene%22%3A%22%22%2C%22promoterCode%22%3A%22%22%7D",
     headers: {
       "Accept": "application/json, text/plain, */*",
       "Accept-Encoding": "gzip, deflate, br",
@@ -254,8 +254,8 @@ function GetMeituanCoupon(cookie) {
       "Cookie": cookie,
       "Host": "m.client.10010.com",
       "Origin": "https://img.client.10010.com",
-      "Referer": "https://img.client.10010.com/superFriday/",
-      "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 unicom{version:iphone_c@8.0004}{systemVersion:dis}{yw_code:}",
+      "Referer": "https://img.client.10010.com/jifenshangcheng/meituan?whetherFriday=YES&from=955000006&from=955000006&idx=1&idx=1",
+      "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 unicom{version:iphone_c@7.0402}{systemVersion:dis}{yw_code:}"
     },
   };
   return new Promise((resolve, reject) => {
@@ -278,6 +278,9 @@ function GetMeituanCoupon(cookie) {
             } else if (obj["code"] == "200" && obj["msg"].indexOf("太火爆") >= 0) {
               magicJS.logWarning("领取美团外卖优惠券，活动太火爆");
               resolve("美团外卖优惠券：活动太火爆领取失败");
+            } else if (obj["code"] == "200" && obj["msg"].indexOf("开小差") >= 0) {
+              magicJS.logWarning("领取美团外卖优惠券，账号可能已黑");
+              resolve("美团外卖优惠券：系统开小差，账号可能已黑");
             } else {
               magicJS.logWarning("领取美团外卖优惠券，接口响应不合法：" + data);
               reject("接口响应不合法");
@@ -421,10 +424,10 @@ function GetSigninTaskPirze(cookie, mobile) {
   });
 }
 
-// ---------------- 新版旧版共4次每日抽奖 ----------------
+// ---------------- 旧版抽奖废弃 ----------------
 
 // 获取抽奖次数
-function GetLotteryCount(cookie, encryptMobile) {
+function GetLotteryCountDisable(cookie, encryptMobile) {
   let options = {
     url: "http://m.client.10010.com/dailylottery/static/active/findActivityInfojifen?areaCode=031&groupByType=&mobile=",
     headers: {
@@ -468,7 +471,7 @@ function GetLotteryCount(cookie, encryptMobile) {
 }
 
 // 新版获取抽奖次数
-function GetLotteryCountNewVersion(cookie, encryptMobile, cityCode) {
+function GetLotteryCountNewVersionDisable(cookie, encryptMobile, cityCode) {
   let options = {
     url: `http://m.client.10010.com/dailylottery/static/active/findActivityInfo?areaCode=${cityCode}&groupByType=&mobile=${encryptMobile}`,
     headers: {
@@ -507,7 +510,7 @@ function GetLotteryCountNewVersion(cookie, encryptMobile, cityCode) {
 }
 
 // 单次免费抽奖
-function DailyLottery(cookie, encryptMobile) {
+function DailyLotteryDisable(cookie, encryptMobile) {
   let options = {
     url: `http://m.client.10010.com/dailylottery/static/integral/choujiang?usernumberofjsp=${encryptMobile}`,
     headers: {
@@ -550,7 +553,7 @@ function DailyLottery(cookie, encryptMobile) {
 }
 
 // 新版单次免费抽奖
-function DailyLotteryNewVersion(cookie, encryptMobile) {
+function DailyLotteryNewVersionDisable(cookie, encryptMobile) {
   let options = {
     url: `https://m.client.10010.com/dailylottery/static/doubleball/choujiang?usernumberofjsp=${encryptMobile}`,
     headers: {
@@ -610,8 +613,114 @@ async function StartDailyLottery(cookie, encryptMobile) {
 }
 
 // 批量新版免费抽奖
-async function StartDailyLotteryNewVersion(cookie, encryptMobile, cityCode, lotteryCount) {
+async function StartDailyLotteryNewVersionDisable(cookie, encryptMobile, cityCode, lotteryCount) {
   let lotteryNewVersionCount = await GetLotteryCountNewVersion(cookie, encryptMobile, cityCode);
+  let lotteryNewVersionList = "";
+  if (lotteryNewVersionCount > 0) {
+    for (let i = 0; i < lotteryNewVersionCount; i++) {
+      // 开始抽奖
+      magicJS.logInfo(`新版第${i + 1}次免费抽奖开始`);
+      if (lotteryNewVersionList) {
+        lotteryNewVersionList += "\n";
+      }
+      lotteryNewVersionList += `第${lotteryCount + i + 1}次抽奖：${await DailyLotteryNewVersion(cookie, encryptMobile)}`;
+    }
+  }
+  return [lotteryNewVersionCount, lotteryNewVersionList];
+}
+
+// ---------------- 2021.07.09 新版抽奖 ----------------
+
+// 获取抽奖次数
+function GetLotteryCountNewVersion(cookie, areaCode, encryptMobile) {
+  let options = {
+    url: `https://m.client.10010.com/dailylottery/static/active/findActivityInfo?areaCode=${areaCode}&groupByType=&mobile=${encryptMobile}`,
+    headers: {
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "zh-cn",
+      "Connection": "keep-alive",
+      "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
+      "Cookie": cookie,
+      "Host": "m.client.10010.com",
+      "Origin": "https://m.client.10010.com",
+      "Referer": `https://m.client.10010.com/dailylottery/static/doubleball/firstpage?encryptmobile=${encryptMobile}`,
+      "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 unicom{version:iphone_c@8.0601}{systemVersion:dis}{yw_code:}",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    body: "",
+  };
+  return new Promise((resolve) => {
+    magicJS.get(options, (err, resp, data) => {
+      if (err) {
+        magicJS.logError("获取抽奖次数失败，http请求异常：" + err);
+        resolve(0);
+      } else {
+        try {
+          let obj = JSON.parse(data);
+          if (obj.hasOwnProperty("acFrequency")) {
+            let lotteryCount = Number(obj["acFrequency"]["totalAcFreq"]);
+            magicJS.logInfo("获取抽奖次数：" + lotteryCount);
+            resolve(lotteryCount);
+          } else {
+            magicJS.logWarning("获取抽奖次数异常，接口响应不合法：" + data);
+            resolve(0);
+          }
+        } catch (err) {
+          magicJS.logError(`获取抽奖次数异常，代码执行异常：${err}，接口响应：${data}`);
+          resolve(0);
+        }
+      }
+    });
+  });
+}
+
+// 新版单次免费抽奖
+function DailyLotteryNewVersion(cookie, encryptMobile) {
+  let options = {
+    url: `https://m.client.10010.com/dailylottery/static/doubleball/choujiang?usernumberofjsp=${encryptMobile}`,
+    headers: {
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "zh-cn",
+      "Connection": "close",
+      "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
+      "Cookie": cookie,
+      "Host": "m.client.10010.com",
+      "Origin": "https://m.client.10010.com",
+      "Referer": `http://m.client.10010.com/dailylottery/static/integral/firstpage?encryptmobile=${encryptMobile}`,
+      "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
+      "X-Requested-With": "XMLHttpRequest",
+      "savedata": "false",
+    },
+    body: "",
+  };
+  return new Promise((resolve) => {
+    magicJS.post(options, (err, resp, data) => {
+      if (err) {
+        magicJS.logError("新版每日免费抽奖，http请求异常：" + err);
+        resolve("请求异常");
+      } else {
+        magicJS.logDebug("新版每日免费抽奖，接口响应数据：" + data);
+        let obj = JSON.parse(data);
+        if (obj.hasOwnProperty("Rsptype") && obj["Rsptype"] == "6666") {
+          resolve("次数不足");
+        } else if (obj.hasOwnProperty("Rsptype") && obj["Rsptype"] == "3333") {
+          resolve("请求无效");
+        } else if (obj.hasOwnProperty("RspMsg")) {
+          resolve(obj["RspMsg"]);
+        } else {
+          magicJS.logWarning("新版每日免费抽奖，接口响应不合法：" + data);
+          resolve("接口响应不合法");
+        }
+      }
+    });
+  });
+}
+
+// 批量新版免费抽奖
+async function StartDailyLotteryNewVersion(cookie, encryptMobile, cityCode, lotteryCount) {
+  let lotteryNewVersionCount = await GetLotteryCountNewVersion(cookie, cityCode, encryptMobile);
   let lotteryNewVersionList = "";
   if (lotteryNewVersionCount > 0) {
     for (let i = 0; i < lotteryNewVersionCount; i++) {
@@ -748,8 +857,8 @@ async function StartDailyLotteryNewVersion(cookie, encryptMobile, cityCode, lott
         let [, [signinResult, siginiResultStr, prizeCount, growthV, flowerCount] = [false, "签到异常", null, null, null]] = await magicJS.attempt(AppSigninPromise);
         if (signinResult === true) {
           // let [, doublePrizeCount] = await magicJS.attempt(magicJS.retry(DoubleAdPlaying, 5, 200)(cookie, mobile));
-          let doublePrizeCount = null;
           notifySubTtile = siginiResultStr;
+          let doublePrizeCount = null;
           if (doublePrizeCount) prizeCount += doublePrizeCount;
           if (prizeCount) notifyContent += `积分+${prizeCount} `;
           if (growthV) notifyContent += `成长值+${growthV} `;
@@ -778,45 +887,12 @@ async function StartDailyLotteryNewVersion(cookie, encryptMobile, cityCode, lott
           notifyContent += notifyContent ? `\n${meituanResult}` : meituanResult;
         }
 
-        // 完成签到任务，领取日流量包
-        // if (signinResult === true) {
-        //   await magicJS
-        //     .retry(
-        //       FinishVideo,
-        //       10,
-        //       500
-        //     )(cookie, mobile)
-        //     .catch((err) => magicJS.logError(`完成观看视频任务失败，异常信息：${err}`));
-        //   await magicJS
-        //     .retry(
-        //       GetSigninTasks,
-        //       10,
-        //       500
-        //     )(cookie, mobile)
-        //     .catch((err) => magicJS.logError(`获取签到任务失败，异常信息：${err}`));
-        //   await magicJS
-        //     .retry(
-        //       GetSigninTaskPirze,
-        //       10,
-        //       500
-        //     )(cookie, mobile)
-        //     .then((getPrizeStr) => {
-        //         notifyContent += notifyContent ? `\n${getPrizeStr}` : getPrizeStr;
-        //     })
-        //     .catch((err) => magicJS.logError(`领取任务奖励失败，异常信息：${err}`));
-        // }
-
-        // 旧版抽奖
-        let [errLottery, [lotteryCount, lotteryResult] = []] = await magicJS.attempt(StartDailyLottery(cookie, encryptMobile));
-        if (errLottery) magicJS.logError("旧版抽奖出现异常：" + errLottery);
-        // 新版抽奖
-        let [errLotteryNewVersion, [lotteryNewVersionCount, lotteryNewVersionResult] = []] = await magicJS.attempt(StartDailyLotteryNewVersion(cookie, encryptMobile, cityCode, lotteryCount));
-        if (errLotteryNewVersion) magicJS.logError("新版抽奖出现异常：" + errLotteryNewVersion);
+        // 抽奖
+        let lotteryCount = 0; // 总计抽奖次数
+        let [errLottery, [lotteryNewVersionCount, lotteryResult] = []] = await magicJS.attempt(StartDailyLotteryNewVersion(cookie, encryptMobile, cityCode, lotteryCount));
+        if (errLottery) magicJS.logError("抽奖出现异常：" + errLottery);
         if (lotteryResult) {
           notifyContent += notifyContent ? `\n${lotteryResult}` : lotteryResult;
-        }
-        if (lotteryNewVersionResult) {
-          notifyContent += notifyContent ? `\n${lotteryNewVersionResult}` : lotteryNewVersionResult;
         }
       }
 

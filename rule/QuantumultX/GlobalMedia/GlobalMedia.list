@@ -1,13 +1,13 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-07-06 02:06:44
+# UPDATED: 2021-07-14 02:06:45
 # HOST: 38
-# USER-AGENT: 62
-# HOST-SUFFIX: 215
+# USER-AGENT: 64
+# HOST-SUFFIX: 218
 # HOST-KEYWORD: 22
-# IP-CIDR: 856
-# TOTAL: 1193
+# IP-CIDR: 858
+# TOTAL: 1200
 HOST,api.okzy.tv,GlobalMedia
 HOST,apple.comscoreresearch.com,GlobalMedia
 HOST,atv-ps.amazon.com,GlobalMedia
@@ -59,7 +59,6 @@ HOST-SUFFIX,amazonvideo.com,GlobalMedia
 HOST-SUFFIX,ameba.jp,GlobalMedia
 HOST-SUFFIX,amplify.outbrain.com,GlobalMedia
 HOST-SUFFIX,api.segment.io,GlobalMedia
-HOST-SUFFIX,app.biliintl.com,GlobalMedia
 HOST-SUFFIX,apple.news,GlobalMedia
 HOST-SUFFIX,bahamut.com.tw,GlobalMedia
 HOST-SUFFIX,bam.nr-data.net,GlobalMedia
@@ -71,6 +70,7 @@ HOST-SUFFIX,bbc.net.uk,GlobalMedia
 HOST-SUFFIX,bbci.co,GlobalMedia
 HOST-SUFFIX,bbci.co.uk,GlobalMedia
 HOST-SUFFIX,bcbolthboa-a.akamaihd.net,GlobalMedia
+HOST-SUFFIX,biliintl.com,GlobalMedia
 HOST-SUFFIX,bluekai.com,GlobalMedia
 HOST-SUFFIX,boltdns.net,GlobalMedia
 HOST-SUFFIX,bootstrapcdn.com,GlobalMedia
@@ -204,6 +204,7 @@ HOST-SUFFIX,nowe.com,GlobalMedia
 HOST-SUFFIX,nowestatic.com,GlobalMedia
 HOST-SUFFIX,nqs.nice264.com,GlobalMedia
 HOST-SUFFIX,ocnttv.com,GlobalMedia
+HOST-SUFFIX,overcast.fm,GlobalMedia
 HOST-SUFFIX,p-cdn.us,GlobalMedia
 HOST-SUFFIX,pandora.com,GlobalMedia
 HOST-SUFFIX,paramountplus.com,GlobalMedia
@@ -255,6 +256,8 @@ HOST-SUFFIX,urlload.net,GlobalMedia
 HOST-SUFFIX,viu.com,GlobalMedia
 HOST-SUFFIX,viu.tv,GlobalMedia
 HOST-SUFFIX,vjs.zencdn.net,GlobalMedia
+HOST-SUFFIX,wetv.vip,GlobalMedia
+HOST-SUFFIX,wetvinfo.com,GlobalMedia
 HOST-SUFFIX,yahoo.co.jp,GlobalMedia
 HOST-SUFFIX,yb.uncn.jp,GlobalMedia
 HOST-SUFFIX,youboranqs01.com,GlobalMedia
@@ -321,6 +324,7 @@ USER-AGENT,My5*,GlobalMedia
 USER-AGENT,Naver%20TV*,GlobalMedia
 USER-AGENT,Niconico*,GlobalMedia
 USER-AGENT,OTT_iPhone*,GlobalMedia
+USER-AGENT,Overcast*,GlobalMedia
 USER-AGENT,PBS*,GlobalMedia
 USER-AGENT,PPlus*,GlobalMedia
 USER-AGENT,Pandora*,GlobalMedia
@@ -336,6 +340,7 @@ USER-AGENT,TikTok*,GlobalMedia
 USER-AGENT,Viu*,GlobalMedia
 USER-AGENT,ViuTV*,GlobalMedia
 USER-AGENT,WeMusic*,GlobalMedia
+USER-AGENT,WeTV*,GlobalMedia
 USER-AGENT,YouTube*,GlobalMedia
 USER-AGENT,YouTubeMusic*,GlobalMedia
 USER-AGENT,com.google.ios.youtube*,GlobalMedia
@@ -357,6 +362,7 @@ IP-CIDR,105.187.243.6/32,GlobalMedia
 IP-CIDR,108.175.32.0/20,GlobalMedia
 IP-CIDR,110.238.107.47/32,GlobalMedia
 IP-CIDR,112.198.26.2/32,GlobalMedia
+IP-CIDR,118.26.32.178/32,GlobalMedia
 IP-CIDR,122.155.238.138/32,GlobalMedia
 IP-CIDR,122.155.238.142/32,GlobalMedia
 IP-CIDR,122.155.238.146/32,GlobalMedia
@@ -391,6 +397,7 @@ IP-CIDR,147.75.112.66/31,GlobalMedia
 IP-CIDR,149.165.180.133/32,GlobalMedia
 IP-CIDR,149.165.180.134/32,GlobalMedia
 IP-CIDR,149.255.128.1/32,GlobalMedia
+IP-CIDR,150.109.28.51/32,GlobalMedia
 IP-CIDR,151.5.17.19/32,GlobalMedia
 IP-CIDR,151.5.17.43/32,GlobalMedia
 IP-CIDR,161.0.157.195/32,GlobalMedia

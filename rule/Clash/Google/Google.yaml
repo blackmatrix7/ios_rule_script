@@ -1,13 +1,13 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-05-28 02:54:35
+# UPDATED: 2021-07-12 02:05:53
+# PROCESS-NAME: 5
 # DOMAIN-SUFFIX: 664
 # DOMAIN-KEYWORD: 8
 # IP-CIDR: 4
-# PROCESS-NAME: 4
 # IP-CIDR6: 1
-# TOTAL: 681
+# TOTAL: 682
 payload:
   - DOMAIN-SUFFIX,.bo
   - DOMAIN-SUFFIX,.chrome
@@ -686,6 +686,7 @@ payload:
   - IP-CIDR,216.73.80.0/20
   - IP-CIDR,74.125.0.0/16
   - IP-CIDR6,2620:120:e000::/40
+  - PROCESS-NAME,backupandsync
   - PROCESS-NAME,com.android.vending
   - PROCESS-NAME,com.google.android.gms
   - PROCESS-NAME,com.google.android.gsf

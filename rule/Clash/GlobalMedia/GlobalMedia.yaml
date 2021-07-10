@@ -1,13 +1,13 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-07-06 02:06:46
+# UPDATED: 2021-07-14 02:06:46
 # DOMAIN: 38
-# DOMAIN-SUFFIX: 215
+# DOMAIN-SUFFIX: 218
 # DOMAIN-KEYWORD: 22
-# IP-CIDR: 856
+# IP-CIDR: 858
 # PROCESS-NAME: 3
-# TOTAL: 1134
+# TOTAL: 1139
 payload:
   - DOMAIN,api.okzy.tv
   - DOMAIN,apple.comscoreresearch.com
@@ -60,7 +60,6 @@ payload:
   - DOMAIN-SUFFIX,ameba.jp
   - DOMAIN-SUFFIX,amplify.outbrain.com
   - DOMAIN-SUFFIX,api.segment.io
-  - DOMAIN-SUFFIX,app.biliintl.com
   - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,bam.nr-data.net
@@ -72,6 +71,7 @@ payload:
   - DOMAIN-SUFFIX,bbci.co
   - DOMAIN-SUFFIX,bbci.co.uk
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
+  - DOMAIN-SUFFIX,biliintl.com
   - DOMAIN-SUFFIX,bluekai.com
   - DOMAIN-SUFFIX,boltdns.net
   - DOMAIN-SUFFIX,bootstrapcdn.com
@@ -205,6 +205,7 @@ payload:
   - DOMAIN-SUFFIX,nowestatic.com
   - DOMAIN-SUFFIX,nqs.nice264.com
   - DOMAIN-SUFFIX,ocnttv.com
+  - DOMAIN-SUFFIX,overcast.fm
   - DOMAIN-SUFFIX,p-cdn.us
   - DOMAIN-SUFFIX,pandora.com
   - DOMAIN-SUFFIX,paramountplus.com
@@ -256,6 +257,8 @@ payload:
   - DOMAIN-SUFFIX,viu.com
   - DOMAIN-SUFFIX,viu.tv
   - DOMAIN-SUFFIX,vjs.zencdn.net
+  - DOMAIN-SUFFIX,wetv.vip
+  - DOMAIN-SUFFIX,wetvinfo.com
   - DOMAIN-SUFFIX,yahoo.co.jp
   - DOMAIN-SUFFIX,yb.uncn.jp
   - DOMAIN-SUFFIX,youboranqs01.com
@@ -296,6 +299,7 @@ payload:
   - IP-CIDR,108.175.32.0/20
   - IP-CIDR,110.238.107.47/32
   - IP-CIDR,112.198.26.2/32
+  - IP-CIDR,118.26.32.178/32
   - IP-CIDR,122.155.238.138/32
   - IP-CIDR,122.155.238.142/32
   - IP-CIDR,122.155.238.146/32
@@ -330,6 +334,7 @@ payload:
   - IP-CIDR,149.165.180.133/32
   - IP-CIDR,149.165.180.134/32
   - IP-CIDR,149.255.128.1/32
+  - IP-CIDR,150.109.28.51/32
   - IP-CIDR,151.5.17.19/32
   - IP-CIDR,151.5.17.43/32
   - IP-CIDR,161.0.157.195/32

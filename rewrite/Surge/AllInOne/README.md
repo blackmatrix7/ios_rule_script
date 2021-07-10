@@ -14,10 +14,10 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 537 |
-| force_http_engine_hosts | 14 |
+| mitm | 539 |
+| force_http_engine_hosts | 18 |
 | URL-REGEX | 7 |
-| reject | 714 |
+| reject | 717 |
 | http-response | 32 |
 | http-request | 1 |
 | redirect | 49 |

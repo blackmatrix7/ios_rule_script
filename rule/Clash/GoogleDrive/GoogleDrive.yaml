@@ -1,11 +1,15 @@
 # NAME: GoogleDrive
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:33
+# UPDATED: 2021-07-12 02:05:53
+# PROCESS-NAME: 1
 # DOMAIN-SUFFIX: 4
-# TOTAL: 4
+# DOMAIN: 1
+# TOTAL: 6
 payload:
+  - DOMAIN,www.googleapis.com
   - DOMAIN-SUFFIX,docs.google.com
   - DOMAIN-SUFFIX,drive.google.com
   - DOMAIN-SUFFIX,googledrive.com
   - DOMAIN-SUFFIX,googleusercontent.com
+  - PROCESS-NAME,backupandsync

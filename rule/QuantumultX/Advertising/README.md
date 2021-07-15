@@ -13,16 +13,16 @@
 
 ## 规则统计
 
-总计规则：72130 条。
+总计规则：72123 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 20766 |
+| HOST | 20924 |
 | HOST-KEYWORD | 88 |
-| HOST-SUFFIX | 51034 |
-| IP-CIDR | 241 |
+| HOST-SUFFIX | 50866 |
+| IP-CIDR | 244 |
 | IP6-CIDR | 1 |
 ## 配置说明
 
@@ -97,6 +97,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/scomper/surge-list/master/reject.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list
+- https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule
 
 
 感谢以上复写规则作者的辛勤付出（排名不分先后）。

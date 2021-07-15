@@ -1,15 +1,14 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-07-12 02:05:53
+# UPDATED: 2021-08-20 02:08:07
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN: 14542
+# DOMAIN: 14530
 # DOMAIN-KEYWORD: 28
-# DOMAIN-SUFFIX: 12711
-# IP-CIDR: 158
-# IP-CIDR6: 1
-# URL-REGEX: 295
-# TOTAL: 27735
+# DOMAIN-SUFFIX: 13222
+# IP-CIDR: 1
+# URL-REGEX: 296
+# TOTAL: 28077
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,adsage
@@ -168,6 +167,7 @@ IP-CIDR,223.87.182.52/32,no-resolve
 IP-CIDR,23.235.156.167/32,no-resolve
 IP-CIDR,23.42.186.24/32,no-resolve
 IP-CIDR,23.66.147.48/32,no-resolve
+IP-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 IP-CIDR,27.255.67.120/32,no-resolve
 IP-CIDR,42.51.146.207/32,no-resolve
 IP-CIDR,45.34.240.72/32,no-resolve
@@ -196,7 +196,6 @@ IP-CIDR,67.229.224.28/32,no-resolve
 IP-CIDR,69.28.57.245/32,no-resolve
 IP-CIDR,74.117.182.77/32,no-resolve
 IP-CIDR,78.140.131.214/32,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/EcomResourceServer/AdPlayPage/adinfo
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/MobileAdServer\/
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/[a-z.]+\.tc\.qq\.com\/[\w\W]+p20\d\.1\.mp4\?
@@ -350,6 +349,7 @@ URL-REGEX,^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json
 URL-REGEX,^https?:\/\/gg\w+?\.cmvideo\.cn\/v\d\/iflyad\/
 URL-REGEX,^https?:\/\/ggic\d?\.cmvideo\.cn\/ad\/
 URL-REGEX,^https?:\/\/ggx\.cmvideo\.cn\/request\/
+URL-REGEX,^https?:\/\/goblin\.hupu\.com/[^/]+/[^/]+\/interfaceAd\/
 URL-REGEX,^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless
 URL-REGEX,^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs
 URL-REGEX,^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs
@@ -374,7 +374,7 @@ URL-REGEX,^https?:\/\/imeclient\.openspeech\.cn\/adservice\/
 URL-REGEX,^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
 URL-REGEX,^https?:\/\/img01\.10101111cdn\.com\/adpos\/
 URL-REGEX,^https?:\/\/img\.jiemian\.com\/ads\/
-URL-REGEX,^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+?\.(gif|jpg|jpg\.webp)$
+URL-REGEX,^https?:\/\/img\.meituan\.net\/(adunion|display|dpmobile|midas)\/\w+\.(gif|jpg|jpg\.webp)$
 URL-REGEX,^https?:\/\/img\w\.g\.pptv\.com
 URL-REGEX,^https?:\/\/impservice.+?youdao.com
 URL-REGEX,^https?:\/\/ios\.lantouzi\.com\/api\/startpage
@@ -418,11 +418,11 @@ URL-REGEX,^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+?adpublish
 URL-REGEX,^https?:\/\/open\.qyer\.com\/qyer\/config\/get
 URL-REGEX,^https?:\/\/open\.qyer\.com\/qyer\/startpage\/
 URL-REGEX,^https?:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads
+URL-REGEX,^https?:\/\/p[^124](c)?\.music\.126\.net\/\w+==\/10995\d{13}\.jpg$
 URL-REGEX,^https?:\/\/p\.du\.163\.com\/ad\/
 URL-REGEX,^https?:\/\/p\.kuaidi100\.com\/mobile\/(mainapi|mobileapi)\.do
 URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp
 URL-REGEX,^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg
-URL-REGEX,^https?:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$
 URL-REGEX,^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry
 URL-REGEX,^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx
 URL-REGEX,^https?:\/\/paopao\w?.qiyipic.com

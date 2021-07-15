@@ -10,14 +10,14 @@
 
 ## 规则统计
 
-总计规则：32991 条。
+总计规则：33639 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN | 46 |
-| DOMAIN-SUFFIX | 32825 |
+| DOMAIN-SUFFIX | 33473 |
 | DOMAIN-KEYWORD | 29 |
 | IP-CIDR | 88 |
 | IP-CIDR6 | 3 |
@@ -53,6 +53,12 @@ Proxy_Classical.yaml 请使用 behavior: "classical"。
 Proxy_Domain.yaml 请使用 behavior: "domain"。
 
 Proxy_Classical.yaml 可以单独使用，其他规则必须同时使用。
+
+文件名带Resolve，指对于IP-CIDR、IP-CIDR6的规则，不增加no-resolve，其余与上述相同。
+
+#### 最简单的用法
+
+使用 Proxy_Classical.yaml。
 
 ## 子规则/排除规则
 

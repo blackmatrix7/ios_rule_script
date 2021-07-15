@@ -1,13 +1,13 @@
 # NAME: BlackList
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-05-07 09:34:53
-# DOMAIN-SUFFIX: 696
+# UPDATED: 2021-08-19 02:08:07
+# DOMAIN-SUFFIX: 697
 # DOMAIN: 3
 # DOMAIN-KEYWORD: 12
 # IP-CIDR: 57
 # PROCESS-NAME: 1
-# TOTAL: 769
+# TOTAL: 770
 payload:
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,lookup-api.apple.com
@@ -121,6 +121,7 @@ payload:
   - DOMAIN-SUFFIX,census.gov
   - DOMAIN-SUFFIX,centauro.com.br
   - DOMAIN-SUFFIX,certificate-transparency.org
+  - DOMAIN-SUFFIX,chalungu.cn
   - DOMAIN-SUFFIX,chinadigitaltimes.net
   - DOMAIN-SUFFIX,chinatimes.com
   - DOMAIN-SUFFIX,chrome.com
@@ -720,61 +721,61 @@ payload:
   - DOMAIN-KEYWORD,tesla
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,whatsapp
-  - IP-CIDR,1.201.0.0/24
-  - IP-CIDR,103.2.28.0/22
-  - IP-CIDR,103.246.56.0/22
-  - IP-CIDR,103.27.148.0/22
-  - IP-CIDR,103.4.96.0/22
-  - IP-CIDR,110.76.140.0/22
-  - IP-CIDR,113.61.104.0/22
-  - IP-CIDR,119.235.224.0/21
-  - IP-CIDR,119.235.232.0/23
-  - IP-CIDR,119.235.235.0/24
-  - IP-CIDR,119.235.236.0/23
-  - IP-CIDR,125.209.208.0/20
-  - IP-CIDR,125.6.146.0/24
-  - IP-CIDR,125.6.149.0/24
-  - IP-CIDR,125.6.190.0/24
-  - IP-CIDR,129.134.0.0/17
-  - IP-CIDR,13.251.24.0/24
-  - IP-CIDR,13.251.41.0/24
-  - IP-CIDR,13.32.0.0/15
-  - IP-CIDR,13.35.0.0/17
-  - IP-CIDR,157.240.0.0/17
-  - IP-CIDR,17.252.156.0/23
-  - IP-CIDR,173.194.0.0/16
-  - IP-CIDR,173.252.64.0/18
-  - IP-CIDR,174.37.0.0/16
-  - IP-CIDR,179.60.192.0/22
-  - IP-CIDR,18.184.0.0/15
-  - IP-CIDR,18.194.0.0/15
-  - IP-CIDR,18.208.0.0/13
-  - IP-CIDR,18.232.0.0/14
-  - IP-CIDR,185.60.216.0/22
-  - IP-CIDR,203.104.103.0/24
-  - IP-CIDR,203.104.128.0/20
-  - IP-CIDR,203.174.66.64/26
-  - IP-CIDR,203.174.77.0/24
-  - IP-CIDR,204.15.20.0/22
-  - IP-CIDR,208.43.0.0/16
-  - IP-CIDR,27.0.236.0/22
-  - IP-CIDR,31.13.24.0/21
-  - IP-CIDR,31.13.64.0/18
-  - IP-CIDR,45.64.40.0/22
-  - IP-CIDR,52.200.0.0/13
-  - IP-CIDR,52.58.0.0/15
-  - IP-CIDR,52.74.0.0/16
-  - IP-CIDR,52.77.0.0/16
-  - IP-CIDR,52.84.0.0/15
-  - IP-CIDR,54.156.0.0/14
-  - IP-CIDR,54.226.0.0/15
-  - IP-CIDR,54.230.156.0/22
-  - IP-CIDR,54.93.0.0/16
-  - IP-CIDR,66.220.144.0/20
-  - IP-CIDR,69.171.224.0/19
-  - IP-CIDR,69.63.176.0/20
-  - IP-CIDR,74.119.76.0/22
-  - IP-CIDR,74.125.0.0/16
-  - IP-CIDR,74.86.0.0/16
-  - IP-CIDR,75.126.0.0/16
+  - IP-CIDR,1.201.0.0/24,no-resolve
+  - IP-CIDR,103.2.28.0/22,no-resolve
+  - IP-CIDR,103.246.56.0/22,no-resolve
+  - IP-CIDR,103.27.148.0/22,no-resolve
+  - IP-CIDR,103.4.96.0/22,no-resolve
+  - IP-CIDR,110.76.140.0/22,no-resolve
+  - IP-CIDR,113.61.104.0/22,no-resolve
+  - IP-CIDR,119.235.224.0/21,no-resolve
+  - IP-CIDR,119.235.232.0/23,no-resolve
+  - IP-CIDR,119.235.235.0/24,no-resolve
+  - IP-CIDR,119.235.236.0/23,no-resolve
+  - IP-CIDR,125.209.208.0/20,no-resolve
+  - IP-CIDR,125.6.146.0/24,no-resolve
+  - IP-CIDR,125.6.149.0/24,no-resolve
+  - IP-CIDR,125.6.190.0/24,no-resolve
+  - IP-CIDR,129.134.0.0/17,no-resolve
+  - IP-CIDR,13.251.24.0/24,no-resolve
+  - IP-CIDR,13.251.41.0/24,no-resolve
+  - IP-CIDR,13.32.0.0/15,no-resolve
+  - IP-CIDR,13.35.0.0/17,no-resolve
+  - IP-CIDR,157.240.0.0/17,no-resolve
+  - IP-CIDR,17.252.156.0/23,no-resolve
+  - IP-CIDR,173.194.0.0/16,no-resolve
+  - IP-CIDR,173.252.64.0/18,no-resolve
+  - IP-CIDR,174.37.0.0/16,no-resolve
+  - IP-CIDR,179.60.192.0/22,no-resolve
+  - IP-CIDR,18.184.0.0/15,no-resolve
+  - IP-CIDR,18.194.0.0/15,no-resolve
+  - IP-CIDR,18.208.0.0/13,no-resolve
+  - IP-CIDR,18.232.0.0/14,no-resolve
+  - IP-CIDR,185.60.216.0/22,no-resolve
+  - IP-CIDR,203.104.103.0/24,no-resolve
+  - IP-CIDR,203.104.128.0/20,no-resolve
+  - IP-CIDR,203.174.66.64/26,no-resolve
+  - IP-CIDR,203.174.77.0/24,no-resolve
+  - IP-CIDR,204.15.20.0/22,no-resolve
+  - IP-CIDR,208.43.0.0/16,no-resolve
+  - IP-CIDR,27.0.236.0/22,no-resolve
+  - IP-CIDR,31.13.24.0/21,no-resolve
+  - IP-CIDR,31.13.64.0/18,no-resolve
+  - IP-CIDR,45.64.40.0/22,no-resolve
+  - IP-CIDR,52.200.0.0/13,no-resolve
+  - IP-CIDR,52.58.0.0/15,no-resolve
+  - IP-CIDR,52.74.0.0/16,no-resolve
+  - IP-CIDR,52.77.0.0/16,no-resolve
+  - IP-CIDR,52.84.0.0/15,no-resolve
+  - IP-CIDR,54.156.0.0/14,no-resolve
+  - IP-CIDR,54.226.0.0/15,no-resolve
+  - IP-CIDR,54.230.156.0/22,no-resolve
+  - IP-CIDR,54.93.0.0/16,no-resolve
+  - IP-CIDR,66.220.144.0/20,no-resolve
+  - IP-CIDR,69.171.224.0/19,no-resolve
+  - IP-CIDR,69.63.176.0/20,no-resolve
+  - IP-CIDR,74.119.76.0/22,no-resolve
+  - IP-CIDR,74.125.0.0/16,no-resolve
+  - IP-CIDR,74.86.0.0/16,no-resolve
+  - IP-CIDR,75.126.0.0/16,no-resolve
   - PROCESS-NAME,lookupviewservice

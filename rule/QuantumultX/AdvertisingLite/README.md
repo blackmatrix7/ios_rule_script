@@ -13,15 +13,15 @@
 
 ## 规则统计
 
-总计规则：27440 条。
+总计规则：27939 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 14542 |
+| HOST | 14530 |
 | HOST-KEYWORD | 28 |
-| HOST-SUFFIX | 12711 |
+| HOST-SUFFIX | 13222 |
 | IP-CIDR | 158 |
 | IP6-CIDR | 1 |
 ## 配置说明
@@ -69,6 +69,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
+- https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule
 
 
 感谢以上复写规则作者的辛勤付出（排名不分先后）。

@@ -1,10 +1,12 @@
 # NAME: Amazon
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:32
-# DOMAIN-SUFFIX: 151
+# UPDATED: 2021-08-10 02:06:37
+# DOMAIN-SUFFIX: 172
 # IP-CIDR: 15
-# TOTAL: 166
+# PROCESS-NAME: 1
+# DOMAIN-KEYWORD: 1
+# TOTAL: 189
 payload:
   - DOMAIN-SUFFIX,a2z.com
   - DOMAIN-SUFFIX,aboutamazon.cn
@@ -23,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,acmvalidationsaws.com
   - DOMAIN-SUFFIX,aesworkshops.com
   - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,aiv-delivery.net
   - DOMAIN-SUFFIX,alexa.com
   - DOMAIN-SUFFIX,alexafund.cn
   - DOMAIN-SUFFIX,alexafund.com.cn
@@ -82,9 +85,13 @@ payload:
   - DOMAIN-SUFFIX,amazonnow.com.cn
   - DOMAIN-SUFFIX,amazonpay.com
   - DOMAIN-SUFFIX,amazonpay.in
+  - DOMAIN-SUFFIX,amazonprimevideo.cn
+  - DOMAIN-SUFFIX,amazonprimevideo.com.cn
+  - DOMAIN-SUFFIX,amazonprimevideos.com
   - DOMAIN-SUFFIX,amazonsdi.com
   - DOMAIN-SUFFIX,amazonstudiosguilds.com
   - DOMAIN-SUFFIX,amazontrust.com
+  - DOMAIN-SUFFIX,amazonvideo.cc
   - DOMAIN-SUFFIX,amazonvideo.com
   - DOMAIN-SUFFIX,amazonvideodirect.com
   - DOMAIN-SUFFIX,amazonworkdocs.cn
@@ -98,6 +105,8 @@ payload:
   - DOMAIN-SUFFIX,assoc-amazon.cn
   - DOMAIN-SUFFIX,associates-amazon.com
   - DOMAIN-SUFFIX,audible.com
+  - DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
+  - DOMAIN-SUFFIX,aws
   - DOMAIN-SUFFIX,aws-iot-hackathon.com
   - DOMAIN-SUFFIX,awsautopilot.com
   - DOMAIN-SUFFIX,awsautoscaling.com
@@ -113,6 +122,7 @@ payload:
   - DOMAIN-SUFFIX,awsstatic.com
   - DOMAIN-SUFFIX,awsthinkbox.com
   - DOMAIN-SUFFIX,awstrust.com
+  - DOMAIN-SUFFIX,boxofficemojo.com
   - DOMAIN-SUFFIX,cdkworkshop.com
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,containersonaws.com
@@ -121,6 +131,10 @@ payload:
   - DOMAIN-SUFFIX,gameon-masters.com
   - DOMAIN-SUFFIX,gdansk-amazon.com
   - DOMAIN-SUFFIX,images-amazon.com
+  - DOMAIN-SUFFIX,imdb
+  - DOMAIN-SUFFIX,imdb.com
+  - DOMAIN-SUFFIX,imdb.to
+  - DOMAIN-SUFFIX,kindle
   - DOMAIN-SUFFIX,kindle.cn
   - DOMAIN-SUFFIX,kindle.co.jp
   - DOMAIN-SUFFIX,kindle.co.uk
@@ -142,33 +156,44 @@ payload:
   - DOMAIN-SUFFIX,kindleproject.com
   - DOMAIN-SUFFIX,llnwd.net
   - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,media-imdb.com
+  - DOMAIN-SUFFIX,prime-video.com
   - DOMAIN-SUFFIX,primeday.cn
   - DOMAIN-SUFFIX,primeday.com.cn
   - DOMAIN-SUFFIX,primeday.info
+  - DOMAIN-SUFFIX,primevideo.cc
   - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,primevideo.info
+  - DOMAIN-SUFFIX,primevideo.org
+  - DOMAIN-SUFFIX,primevideo.tv
   - DOMAIN-SUFFIX,siege-amazon.com
   - DOMAIN-SUFFIX,ssl-images-amazon.com
   - DOMAIN-SUFFIX,thinkboxsoftware.com
   - DOMAIN-SUFFIX,ueberamazon.de
+  - DOMAIN-SUFFIX,wfm.com
   - DOMAIN-SUFFIX,wholecitiesfoundation.org
+  - DOMAIN-SUFFIX,wholefoods.com
+  - DOMAIN-SUFFIX,wholefoodsmarket.co.uk
   - DOMAIN-SUFFIX,wholefoodsmarket.com
   - DOMAIN-SUFFIX,wholekidsfoundation.org
   - DOMAIN-SUFFIX,wholeplanetfoundation.org
   - DOMAIN-SUFFIX,yamaxun.cn
   - DOMAIN-SUFFIX,yamaxun.com
   - DOMAIN-SUFFIX,z.cn
-  - IP-CIDR,13.32.0.0/15
-  - IP-CIDR,13.35.0.0/17
-  - IP-CIDR,18.184.0.0/15
-  - IP-CIDR,18.194.0.0/15
-  - IP-CIDR,18.208.0.0/13
-  - IP-CIDR,18.232.0.0/14
-  - IP-CIDR,52.200.0.0/13
-  - IP-CIDR,52.58.0.0/15
-  - IP-CIDR,52.74.0.0/16
-  - IP-CIDR,52.77.0.0/16
-  - IP-CIDR,52.84.0.0/15
-  - IP-CIDR,54.156.0.0/14
-  - IP-CIDR,54.226.0.0/15
-  - IP-CIDR,54.230.156.0/22
-  - IP-CIDR,54.93.0.0/16
+  - DOMAIN-KEYWORD,avoddashs
+  - IP-CIDR,13.32.0.0/15,no-resolve
+  - IP-CIDR,13.35.0.0/17,no-resolve
+  - IP-CIDR,18.184.0.0/15,no-resolve
+  - IP-CIDR,18.194.0.0/15,no-resolve
+  - IP-CIDR,18.208.0.0/13,no-resolve
+  - IP-CIDR,18.232.0.0/14,no-resolve
+  - IP-CIDR,52.200.0.0/13,no-resolve
+  - IP-CIDR,52.58.0.0/15,no-resolve
+  - IP-CIDR,52.74.0.0/16,no-resolve
+  - IP-CIDR,52.77.0.0/16,no-resolve
+  - IP-CIDR,52.84.0.0/15,no-resolve
+  - IP-CIDR,54.156.0.0/14,no-resolve
+  - IP-CIDR,54.226.0.0/15,no-resolve
+  - IP-CIDR,54.230.156.0/22,no-resolve
+  - IP-CIDR,54.93.0.0/16,no-resolve
+  - PROCESS-NAME,com.amazon.avod.thirdpartyclient

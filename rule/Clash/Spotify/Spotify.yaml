@@ -1,7 +1,7 @@
 # NAME: Spotify
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-22 02:22:57
+# UPDATED: 2021-08-05 08:51:07
 # DOMAIN-SUFFIX: 16
 # DOMAIN-KEYWORD: 2
 # PROCESS-NAME: 1
@@ -26,5 +26,5 @@ payload:
   - DOMAIN-SUFFIX,spotifyjobs.com
   - DOMAIN-KEYWORD,-spotify-com
   - DOMAIN-KEYWORD,spotify.com
-  - IP-CIDR,35.186.224.47/32
+  - IP-CIDR,35.186.224.47/32,no-resolve
   - PROCESS-NAME,com.spotify.music

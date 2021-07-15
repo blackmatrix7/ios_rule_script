@@ -12,7 +12,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 1 |
+| mitm | 3 |
 | force_http_engine_hosts | 0 |
 | http-request | 1 |
 ## 配置说明

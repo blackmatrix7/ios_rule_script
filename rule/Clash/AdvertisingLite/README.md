@@ -13,15 +13,15 @@
 
 ## 规则统计
 
-总计规则：27440 条。
+总计规则：27939 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 14542 |
+| DOMAIN | 14530 |
 | DOMAIN-KEYWORD | 28 |
-| DOMAIN-SUFFIX | 12711 |
+| DOMAIN-SUFFIX | 13222 |
 | IP-CIDR | 158 |
 | IP-CIDR6 | 1 |
 ## 配置说明
@@ -57,6 +57,12 @@ AdvertisingLite_Domain.yaml 请使用 behavior: "domain"。
 
 AdvertisingLite_Classical.yaml 可以单独使用，其他规则必须同时使用。
 
+文件名带Resolve，指对于IP-CIDR、IP-CIDR6的规则，不增加no-resolve，其余与上述相同。
+
+#### 最简单的用法
+
+使用 AdvertisingLite_Classical.yaml。
+
 ## 子规则/排除规则
 
 
@@ -83,6 +89,7 @@ AdvertisingLite_Classical.yaml 可以单独使用，其他规则必须同时使�
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
+- https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule
 
 
 感谢以上复写规则作者的辛勤付出（排名不分先后）。

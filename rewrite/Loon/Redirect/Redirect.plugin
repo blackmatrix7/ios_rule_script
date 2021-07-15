@@ -1,13 +1,12 @@
 # NAME: 重定向
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-06-17 23:05:37
-# REWRITE: 53
+# UPDATED: 2021-07-23 09:43:11
+# REWRITE: 52
 # SCRIPT: 0
-# MITM: 3
+# MITM: 4
 
 [URL Rewrite]
-(^https?:\/\/app\.biliintl\.com\/intl\/.+)(&sim_code=\d+)(.+) $1$3 302
 ^http:\/\/(www.)?aicoin\.cn\/$ https://www.aicoin.cn/?long_lives_aicoin=%22live%22 302
 ^http?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
@@ -62,4 +61,4 @@
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
 
 [MITM]
-hostname = api.abema.io,app.biliintl.com,www.google.cn
+hostname = api.abema.io,app.biliintl.com,passport.biliintl.com,www.google.cn

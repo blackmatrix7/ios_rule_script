@@ -1,10 +1,10 @@
 # NAME: Tencent
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:34
-# DOMAIN-SUFFIX: 290
+# UPDATED: 2021-08-10 02:06:37
+# DOMAIN-SUFFIX: 294
 # IP-CIDR: 2
-# TOTAL: 292
+# TOTAL: 296
 payload:
   - DOMAIN-SUFFIX,1700.cn
   - DOMAIN-SUFFIX,17roco.com
@@ -166,6 +166,8 @@ payload:
   - DOMAIN-SUFFIX,qplus.com
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,qq.com.cn
+  - DOMAIN-SUFFIX,qq.xn--fiqs8s
+  - DOMAIN-SUFFIX,qq.中国
   - DOMAIN-SUFFIX,qqgameapp.com
   - DOMAIN-SUFFIX,qqgames.com
   - DOMAIN-SUFFIX,qqmail.com
@@ -282,6 +284,7 @@ payload:
   - DOMAIN-SUFFIX,wxlagame.com
   - DOMAIN-SUFFIX,wxutil.com
   - DOMAIN-SUFFIX,xdxiaoshuo.com
+  - DOMAIN-SUFFIX,xn--r70as2s.xn--fiqs8s
   - DOMAIN-SUFFIX,xs.cn
   - DOMAIN-SUFFIX,xs8.cn
   - DOMAIN-SUFFIX,xuz0.cn
@@ -296,5 +299,6 @@ payload:
   - DOMAIN-SUFFIX,ywurl.com
   - DOMAIN-SUFFIX,yximg.cn
   - DOMAIN-SUFFIX,zjump.cn
-  - IP-CIDR,103.238.16.0/23
-  - IP-CIDR,103.7.28.0/22
+  - DOMAIN-SUFFIX,腾讯.中国
+  - IP-CIDR,103.238.16.0/23,no-resolve
+  - IP-CIDR,103.7.28.0/22,no-resolve

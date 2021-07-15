@@ -13,16 +13,16 @@
 
 ## 规则统计
 
-总计规则：72130 条。
+总计规则：72123 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 20766 |
+| DOMAIN | 20924 |
 | DOMAIN-KEYWORD | 88 |
-| DOMAIN-SUFFIX | 51034 |
-| IP-CIDR | 241 |
+| DOMAIN-SUFFIX | 50866 |
+| IP-CIDR | 244 |
 | IP-CIDR6 | 1 |
 ## 配置说明
 
@@ -56,6 +56,12 @@ Advertising_Classical.yaml 请使用 behavior: "classical"。
 Advertising_Domain.yaml 请使用 behavior: "domain"。
 
 Advertising_Classical.yaml 可以单独使用，其他规则必须同时使用。
+
+文件名带Resolve，指对于IP-CIDR、IP-CIDR6的规则，不增加no-resolve，其余与上述相同。
+
+#### 最简单的用法
+
+使用 Advertising_Classical.yaml。
 
 ## 子规则/排除规则
 
@@ -111,6 +117,7 @@ Advertising_Classical.yaml 可以单独使用，其他规则必须同时使用�
 - https://raw.githubusercontent.com/scomper/surge-list/master/reject.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list
+- https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule
 
 
 感谢以上复写规则作者的辛勤付出（排名不分先后）。

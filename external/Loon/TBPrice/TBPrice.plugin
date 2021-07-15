@@ -1,0 +1,14 @@
+# NAME: 淘宝历史价格显示
+# AUTHOR: yichahucha
+# REPO: https://github.com/yichahucha/surge
+# UPDATED: 2021-08-16 10:22:47
+# REWRITE: 0
+# SCRIPT: 2
+# MITM: 1
+
+[Script]
+http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/6e15bb0cadb8e75062bf44df91e4814a.js,tag=淘宝_历史价格
+http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/6e15bb0cadb8e75062bf44df91e4814a.js,tag=淘宝_历史价格
+
+[MITM]
+hostname = trade-acs.m.taobao.com

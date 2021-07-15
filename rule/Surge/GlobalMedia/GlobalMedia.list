@@ -1,15 +1,16 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-07-14 02:06:45
-# DOMAIN: 38
-# USER-AGENT: 64
-# DOMAIN-SUFFIX: 218
+# UPDATED: 2021-08-16 02:06:43
+# DOMAIN: 41
+# USER-AGENT: 65
+# DOMAIN-SUFFIX: 221
 # DOMAIN-KEYWORD: 22
-# IP-CIDR: 858
+# IP-CIDR: 859
 # PROCESS-NAME: 3
-# TOTAL: 1203
+# TOTAL: 1211
 DOMAIN,api.okzy.tv
+DOMAIN,apm-misaka.biliapi.net
 DOMAIN,apple.comscoreresearch.com
 DOMAIN,atv-ps.amazon.com
 DOMAIN,avodmp4s3ww-a.akamaihd.net
@@ -34,6 +35,7 @@ DOMAIN,intl.iqiyi.com
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN,kktv-theater.kk.stream
 DOMAIN,linear.tv.apple.com
+DOMAIN,mobileso.bz.mgtv.com
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN,netflix.com.edgesuite.net
@@ -41,6 +43,7 @@ DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
 DOMAIN,np-edge.itunes.apple.com
+DOMAIN,p.bstarstatic.com
 DOMAIN,play-edge.itunes.apple.com
 DOMAIN,players.brightcove.net
 DOMAIN,rpg.pic-imges.com
@@ -59,6 +62,7 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,amplify.outbrain.com
+DOMAIN-SUFFIX,api.mgtv.com
 DOMAIN-SUFFIX,api.segment.io
 DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,bahamut.com.tw
@@ -71,6 +75,7 @@ DOMAIN-SUFFIX,bbc.net.uk
 DOMAIN-SUFFIX,bbci.co
 DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
+DOMAIN-SUFFIX,bidi.net.uk
 DOMAIN-SUFFIX,biliintl.com
 DOMAIN-SUFFIX,bluekai.com
 DOMAIN-SUFFIX,boltdns.net
@@ -210,6 +215,7 @@ DOMAIN-SUFFIX,p-cdn.us
 DOMAIN-SUFFIX,pandora.com
 DOMAIN-SUFFIX,paramountplus.com
 DOMAIN-SUFFIX,pbs.org
+DOMAIN-SUFFIX,peacocktv.com
 DOMAIN-SUFFIX,perfops.doracdn.com
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
@@ -747,6 +753,7 @@ IP-CIDR,216.68.248.178/32,no-resolve
 IP-CIDR,216.68.248.182/32,no-resolve
 IP-CIDR,216.68.248.190/32,no-resolve
 IP-CIDR,216.70.1.54/32,no-resolve
+IP-CIDR,23.211.15.99/32,no-resolve
 IP-CIDR,23.228.129.239/32,no-resolve
 IP-CIDR,23.228.129.247/32,no-resolve
 IP-CIDR,23.228.129.65/32,no-resolve
@@ -1187,6 +1194,7 @@ USER-AGENT,Overcast*
 USER-AGENT,PBS*
 USER-AGENT,PPlus*
 USER-AGENT,Pandora*
+USER-AGENT,PeacockMobile*
 USER-AGENT,Prime%20Video*
 USER-AGENT,SoundCloud*
 USER-AGENT,Spotify*

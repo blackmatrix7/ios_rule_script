@@ -1,12 +1,12 @@
 # NAME: ViuTV
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:26
-# PROCESS-NAME: 1
+# UPDATED: 2021-08-06 02:07:11
+# PROCESS-NAME: 3
 # USER-AGENT: 2
 # DOMAIN-SUFFIX: 8
 # DOMAIN: 1
-# TOTAL: 12
+# TOTAL: 14
 DOMAIN,api.viu.now.com
 DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
@@ -18,4 +18,6 @@ DOMAIN-SUFFIX,viu.now.com
 DOMAIN-SUFFIX,viu.tv
 USER-AGENT,Viu*
 USER-AGENT,ViuTV*
+PROCESS-NAME,com.viu.pad
+PROCESS-NAME,com.viu.phone
 PROCESS-NAME,com.vuclip.viu

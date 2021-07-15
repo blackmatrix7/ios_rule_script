@@ -1,7 +1,7 @@
 # NAME: Lan
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-05-31 10:04:25
+# UPDATED: 2021-08-05 08:51:06
 # DOMAIN-SUFFIX: 15
 # IP-CIDR: 6
 # IP-CIDR6: 3
@@ -24,12 +24,12 @@ payload:
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,tendawifi.com
   - DOMAIN-SUFFIX,zte.home
-  - IP-CIDR,10.0.0.0/8
-  - IP-CIDR,100.64.0.0/10
-  - IP-CIDR,127.0.0.0/8
-  - IP-CIDR,172.16.0.0/12
-  - IP-CIDR,192.168.0.0/16
-  - IP-CIDR,198.18.0.0/16
-  - IP-CIDR6,::1/128
-  - IP-CIDR6,fc00::/7
-  - IP-CIDR6,fe80::/10
+  - IP-CIDR,10.0.0.0/8,no-resolve
+  - IP-CIDR,100.64.0.0/10,no-resolve
+  - IP-CIDR,127.0.0.0/8,no-resolve
+  - IP-CIDR,172.16.0.0/12,no-resolve
+  - IP-CIDR,192.168.0.0/16,no-resolve
+  - IP-CIDR,198.18.0.0/16,no-resolve
+  - IP-CIDR6,::1/128,no-resolve
+  - IP-CIDR6,fc00::/7,no-resolve
+  - IP-CIDR6,fe80::/10,no-resolve

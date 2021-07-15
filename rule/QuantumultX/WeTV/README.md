@@ -10,13 +10,15 @@
 
 ## 规则统计
 
-总计规则：7 条。
+总计规则：9 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | HOST-SUFFIX | 7 |
+| USER-AGENT | 1 |
+| IP-CIDR | 1 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -47,6 +49,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 如果你正在使用这些复写规则，建议不要与本项目的WeTV复写规则混合使用，以免造成规则重复。
 
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/WeTV.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/WeTV.list
 
 

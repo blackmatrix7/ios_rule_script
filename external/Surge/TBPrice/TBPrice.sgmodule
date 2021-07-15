@@ -1,0 +1,15 @@
+#!name=淘宝历史价格显示
+#!desc=最后更新时间 2021-08-16 10:22:47
+#!author=yichahucha
+#!repo=https://github.com/yichahucha/surge
+#!rewrite=0
+#!script=2
+#!force_http_engine_hosts=0
+#!mitm=1
+
+[Script]
+淘宝_历史价格 = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/6e15bb0cadb8e75062bf44df91e4814a.js,pattern=^http://.+/amdc/mobileDispatch
+淘宝_历史价格 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/6e15bb0cadb8e75062bf44df91e4814a.js,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail
+
+[MITM]
+hostname = %APPEND% trade-acs.m.taobao.com

@@ -1,7 +1,7 @@
 # NAME: KuangShi
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:33
+# UPDATED: 2021-08-05 08:51:06
 # DOMAIN-SUFFIX: 23
 # IP-CIDR: 2
 # TOTAL: 25
@@ -29,5 +29,5 @@ payload:
   - DOMAIN-SUFFIX,xlsdn.cn
   - DOMAIN-SUFFIX,xlsdn.com
   - DOMAIN-SUFFIX,yuesuoping.com
-  - IP-CIDR,114.98.177.194/31
-  - IP-CIDR,114.98.177.196/32
+  - IP-CIDR,114.98.177.194/31,no-resolve
+  - IP-CIDR,114.98.177.196/32,no-resolve

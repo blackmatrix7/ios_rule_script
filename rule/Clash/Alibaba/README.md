@@ -51,6 +51,12 @@ Alibaba_Domain.yaml 请使用 behavior: "domain"。
 
 Alibaba_Classical.yaml 可以单独使用，其他规则必须同时使用。
 
+文件名带Resolve，指对于IP-CIDR、IP-CIDR6的规则，不增加no-resolve，其余与上述相同。
+
+#### 最简单的用法
+
+使用 Alibaba_Classical.yaml。
+
 ## 子规则/排除规则
 
 

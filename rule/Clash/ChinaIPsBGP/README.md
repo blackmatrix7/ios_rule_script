@@ -17,13 +17,13 @@
 
 ## 规则统计
 
-总计规则：3245 条。
+总计规则：3269 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| IP-CIDR | 3245 |
+| IP-CIDR | 3269 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -54,6 +54,12 @@ ChinaIPsBGP_Classical.yaml 请使用 behavior: "classical"。
 ChinaIPsBGP_IP.yaml 请使用 behavior: "ipcidr"。
 
 ChinaIPsBGP_Classical.yaml 可以单独使用，其他规则必须同时使用。
+
+文件名带Resolve，指对于IP-CIDR、IP-CIDR6的规则，不增加no-resolve，其余与上述相同。
+
+#### 最简单的用法
+
+使用 ChinaIPsBGP_Classical.yaml。
 
 ## 子规则/排除规则
 

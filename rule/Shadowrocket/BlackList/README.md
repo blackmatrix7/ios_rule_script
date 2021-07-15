@@ -19,12 +19,11 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 696 |
+| DOMAIN-SUFFIX | 697 |
 | USER-AGENT | 3 |
 | DOMAIN | 3 |
 | DOMAIN-KEYWORD | 12 |
 | IP-CIDR | 57 |
-| PROCESS-NAME | 1 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。

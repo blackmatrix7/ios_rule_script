@@ -1,7 +1,7 @@
 # NAME: XiaoMi
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:34
+# UPDATED: 2021-08-05 08:51:07
 # DOMAIN-SUFFIX: 110
 # IP-CIDR: 2
 # TOTAL: 112
@@ -116,5 +116,5 @@ payload:
   - DOMAIN-SUFFIX,youpin.cn
   - DOMAIN-SUFFIX,youpin.com.cn
   - DOMAIN-SUFFIX,zhutidasai.com
-  - IP-CIDR,58.220.58.152/31
-  - IP-CIDR,58.220.59.2/32
+  - IP-CIDR,58.220.58.152/31,no-resolve
+  - IP-CIDR,58.220.59.2/32,no-resolve

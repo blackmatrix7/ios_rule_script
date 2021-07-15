@@ -16,8 +16,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 12 |
 | PROCESS-NAME | 2 |
+| DOMAIN-SUFFIX | 12 |
 | DOMAIN-KEYWORD | 3 |
 ## 配置说明
 

@@ -1,11 +1,10 @@
 # NAME: Yandex
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:37
+# UPDATED: 2021-07-23 09:41:19
 # DOMAIN-SUFFIX: 25
-# IP-CIDR: 16
-# IP-CIDR6: 2
-# TOTAL: 43
+# IP-CIDR: 2
+# TOTAL: 27
 DOMAIN-SUFFIX,nic.yandex
 DOMAIN-SUFFIX,yadi.sk
 DOMAIN-SUFFIX,yandex.az
@@ -39,6 +38,8 @@ IP-CIDR,185.32.187.0/24,no-resolve
 IP-CIDR,199.21.96.0/22,no-resolve
 IP-CIDR,199.36.240.0/22,no-resolve
 IP-CIDR,213.180.192.0/19,no-resolve
+IP-CIDR,2620:10f:d000::/44,no-resolve
+IP-CIDR,2a02:6b8::/29,no-resolve
 IP-CIDR,37.140.128.0/18,no-resolve
 IP-CIDR,37.9.64.0/18,no-resolve
 IP-CIDR,5.255.192.0/18,no-resolve
@@ -47,5 +48,3 @@ IP-CIDR,77.88.0.0/18,no-resolve
 IP-CIDR,87.250.224.0/19,no-resolve
 IP-CIDR,93.158.128.0/18,no-resolve
 IP-CIDR,95.108.128.0/17,no-resolve
-IP-CIDR6,2620:10f:d000::/44,no-resolve
-IP-CIDR6,2a02:6b8::/29,no-resolve

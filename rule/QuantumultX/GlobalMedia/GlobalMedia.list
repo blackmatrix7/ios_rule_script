@@ -1,14 +1,15 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-07-14 02:06:45
-# HOST: 38
-# USER-AGENT: 64
-# HOST-SUFFIX: 218
+# UPDATED: 2021-07-23 09:41:07
+# HOST: 41
+# USER-AGENT: 65
+# HOST-SUFFIX: 220
 # HOST-KEYWORD: 22
 # IP-CIDR: 858
-# TOTAL: 1200
+# TOTAL: 1206
 HOST,api.okzy.tv,GlobalMedia
+HOST,apm-misaka.biliapi.net,GlobalMedia
 HOST,apple.comscoreresearch.com,GlobalMedia
 HOST,atv-ps.amazon.com,GlobalMedia
 HOST,avodmp4s3ww-a.akamaihd.net,GlobalMedia
@@ -33,6 +34,7 @@ HOST,intl.iqiyi.com,GlobalMedia
 HOST,itvpnpmobile-a.akamaihd.net,GlobalMedia
 HOST,kktv-theater.kk.stream,GlobalMedia
 HOST,linear.tv.apple.com,GlobalMedia
+HOST,mobileso.bz.mgtv.com,GlobalMedia
 HOST,mytvsuperlimited.hb.omtrdc.net,GlobalMedia
 HOST,mytvsuperlimited.sc.omtrdc.net,GlobalMedia
 HOST,netflix.com.edgesuite.net,GlobalMedia
@@ -40,6 +42,7 @@ HOST,news-client.apple.com,GlobalMedia
 HOST,news-edge.apple.com,GlobalMedia
 HOST,news-events.apple.com,GlobalMedia
 HOST,np-edge.itunes.apple.com,GlobalMedia
+HOST,p.bstarstatic.com,GlobalMedia
 HOST,play-edge.itunes.apple.com,GlobalMedia
 HOST,players.brightcove.net,GlobalMedia
 HOST,rpg.pic-imges.com,GlobalMedia
@@ -58,6 +61,7 @@ HOST-SUFFIX,amazonaws.com,GlobalMedia
 HOST-SUFFIX,amazonvideo.com,GlobalMedia
 HOST-SUFFIX,ameba.jp,GlobalMedia
 HOST-SUFFIX,amplify.outbrain.com,GlobalMedia
+HOST-SUFFIX,api.mgtv.com,GlobalMedia
 HOST-SUFFIX,api.segment.io,GlobalMedia
 HOST-SUFFIX,apple.news,GlobalMedia
 HOST-SUFFIX,bahamut.com.tw,GlobalMedia
@@ -209,6 +213,7 @@ HOST-SUFFIX,p-cdn.us,GlobalMedia
 HOST-SUFFIX,pandora.com,GlobalMedia
 HOST-SUFFIX,paramountplus.com,GlobalMedia
 HOST-SUFFIX,pbs.org,GlobalMedia
+HOST-SUFFIX,peacocktv.com,GlobalMedia
 HOST-SUFFIX,perfops.doracdn.com,GlobalMedia
 HOST-SUFFIX,phncdn.com,GlobalMedia
 HOST-SUFFIX,phprcdn.com,GlobalMedia
@@ -328,6 +333,7 @@ USER-AGENT,Overcast*,GlobalMedia
 USER-AGENT,PBS*,GlobalMedia
 USER-AGENT,PPlus*,GlobalMedia
 USER-AGENT,Pandora*,GlobalMedia
+USER-AGENT,PeacockMobile*,GlobalMedia
 USER-AGENT,Prime%20Video*,GlobalMedia
 USER-AGENT,SoundCloud*,GlobalMedia
 USER-AGENT,Spotify*,GlobalMedia

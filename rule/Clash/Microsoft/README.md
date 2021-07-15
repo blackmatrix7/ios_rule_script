@@ -16,8 +16,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 417 |
 | PROCESS-NAME | 2 |
+| DOMAIN-SUFFIX | 417 |
 | DOMAIN-KEYWORD | 4 |
 ## 配置说明
 

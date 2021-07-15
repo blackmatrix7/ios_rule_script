@@ -26,7 +26,9 @@ if (magicJS.read(blackKey)) {
             if (item.hasOwnProperty("banner_item")) {
               let bannerItems = [];
               for (let banner of item["banner_item"]) {
-                if (banner["is_ad"] != true && banner["is_ad_loc"] != true) {
+                if (banner["type"] === "ad") {
+                  continue;
+                } else if (banner["static_banner"] && banner["static_banner"]["is_ad_loc"] != true) {
                   bannerItems.push(banner);
                 }
               }
@@ -126,9 +128,15 @@ if (magicJS.read(blackKey)) {
       case /^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
-          // 425 开始为概念版id
-          const itemList = new Set([396, 397, 398, 399, 171, 172, 534, 8, 4, 428, 352, 1, 405, 402, 404, 544, 407, 410, 425, 426, 427, 428, 171, 430, 431, 432]);
+          // 622 为会员购中心, 425 开始为概念版id
+          const itemList = new Set([396, 397, 398, 399, 171, 172, 534, 8, 4, 428, 352, 1, 405, 402, 404, 544, 407, 410, 622, 425, 426, 427, 428, 171, 430, 431, 432]);
           obj["data"]["sections_v2"].forEach((element, index) => {
+            element["items"].forEach((e) => {
+              if (e["id"] === 622) {
+                e["title"] = "会员购";
+                e["uri"] = "bilibili://mall/home";
+              }
+            });
             let items = element["items"].filter((e) => {
               return itemList.has(e.id);
             });

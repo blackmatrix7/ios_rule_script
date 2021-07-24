@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/man
 
 ```ini
 [rewrite_remote]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.quanx, tag=慢慢买_获取cookie, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.qxrewrite, tag=慢慢买_获取cookie, update-interval=86400, opt-parser=false, enabled=true
 
 [task_local]
 20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js, tag=慢慢买_每日签到, enabled=true

@@ -14,10 +14,10 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 537 |
-| force_http_engine_hosts | 18 |
-| DOMAIN | 6 |
-| DOMAIN-SUFFIX | 2 |
+| mitm | 536 |
+| force_http_engine_hosts | 54 |
+| DOMAIN | 10 |
+| DOMAIN-SUFFIX | 4 |
 | URL-REGEX | 7 |
 | IP-CIDR | 1 |
 | IP-CIDR6 | 1 |

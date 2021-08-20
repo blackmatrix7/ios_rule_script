@@ -1,23 +1,27 @@
 #!name=复写去广告
-#!desc=最后更新时间 2021-08-16 10:22:47
+#!desc=最后更新时间 2021-08-28 02:07:47
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=774
 #!script=0
-#!force_http_engine_hosts=18
+#!force_http_engine_hosts=36
 #!mitm=592
 
 [General]
-force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net,*.ott.cibntv.net,116.253.24.*,119.79*,122.14.246.33,124.14*,124.193*,175.102.178.52,175.6.26.*,211.162*,220.112*,220.169.153.*,222.218.85.*,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
+force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net,*.cp31.ott.cibntv.net,*.ott.cibntv.net,*.ott.cibntv.net,116.253.24.*,116.253.24.*,119.79*,119.79*,122.14.246.33,122.14.246.33,124.14*,124.14*,124.193*,124.193*,175.102.178.52,175.102.178.52,175.6.26.*,175.6.26.*,211.162*,211.162*,220.112*,220.112*,220.169.153.*,220.169.153.*,222.218.85.*,222.218.85.*,intl.iqiyi.com,intl.iqiyi.com,maicai.api.ddxq.mobi,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,mobileapi-v6.elong.com,weibointl.api.weibo.cn,weibointl.api.weibo.cn,wmapi.meituan.com,wmapi.meituan.com
 
 [Rule]
 DOMAIN,api.cupid.dns.iqiyi.com,REJECT
+DOMAIN,api.cupid.dns.iqiyi.com,REJECT
 DOMAIN,video-ad.sm.cn,REJECT-DROP
+DOMAIN,video-ad.sm.cn,REJECT-DROP
+DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 
 [URL Rewrite]
 ^https:\/\/.*\.club\/floater.* - reject
 ^https:\/\/.*\.fun\/floater.* - reject
+^https?://c.tieba.baidu.com/\w+/\w+/(sync|newRnSync|newlog|mlog) - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
@@ -736,7 +740,6 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ - reject
 ^https?:\/\/video\.dispatch\.tc\.qq\.com\/\w+\.p20\d\.1\.mp4 - reject
 ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
-^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query - reject
 ^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/ - reject
 ^https?:\/\/wapwenku\.baidu\.com\/view\/fengchaoTwojump\/ - reject
 ^https?:\/\/wapwenku\.baidu\.com\/view\/fengchao\/ - reject

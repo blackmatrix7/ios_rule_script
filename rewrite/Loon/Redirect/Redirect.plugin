@@ -1,10 +1,10 @@
 # NAME: 重定向
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-07-23 09:43:11
-# REWRITE: 52
+# UPDATED: 2021-08-27 02:09:14
+# REWRITE: 57
 # SCRIPT: 0
-# MITM: 4
+# MITM: 5
 
 [URL Rewrite]
 ^http:\/\/(www.)?aicoin\.cn\/$ https://www.aicoin.cn/?long_lives_aicoin=%22live%22 302
@@ -14,6 +14,8 @@
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 ^https?:\/\/(www.)?(mycleanmymac|xitongqingli)\.com\/ https://macpaw.com/ 302
 ^https?:\/\/(www.)?abbyychina\.com\/ https://www.abbyy.cn/ 302
+^https?:\/\/(www.)?alienskins\.cn\/ https://exposure.software/ 302
+^https?:\/\/(www.)?anydeskchina.cn/ https://anydesk.com/zhs 302
 ^https?:\/\/(www.)?bartender\.cc\/ https://www.macbartender.com/ 302
 ^https?:\/\/(www.)?beyondcompare\.cc\/ https://www.scootersoftware.com/ 302
 ^https?:\/\/(www.)?bingdianhuanyuan\.cn\/ https://www.faronics.com/zh-hans/products/deep-freeze 302
@@ -25,10 +27,13 @@
 ^https?:\/\/(www.)?earmasterchina\.cn\/ https://www.earmaster.com/ 302
 ^https?:\/\/(www.)?easyrecoverychina\.com\/ https://www.ontrack.com/ 302
 ^https?:\/\/(www.)?ediuschina\.com\/ https://www.grassvalley.com/ 302
+^https?:\/\/(www.)?firefox\.com\.cn\/(download\/)?$ https://www.mozilla.org/zh-CN/firefox/new/ 302
 ^https?:\/\/(www.)?flstudiochina\.com\/ https://www.image-line.com/ 302
+^https?:\/\/(www.)?folxchina\.cn\/ https://mac.eltima.com/cn/download-manager.html 302
 ^https?:\/\/(www.)?formysql\.com\/ https://www.navicat.com.cn/ 302
 ^https?:\/\/(www.)?guitarpro\.cc\/ https://www.guitar-pro.com/ 302
 ^https?:\/\/(www.)?huishenghuiying\.com\.cn\/ https://www.coreldraw.com/cn/ 302
+^https?:\/\/(www.)?hypeapp\.cn\/ https://tumult.com/hype/ 302
 ^https?:\/\/(www.)?iconworkshop\.cn\/ https://www.axialis.com/ 302
 ^https?:\/\/(www.)?idmchina\.net\/ https://www.internetdownloadmanager.com/ 302
 ^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
@@ -61,4 +66,4 @@
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
 
 [MITM]
-hostname = api.abema.io,app.biliintl.com,passport.biliintl.com,www.google.cn
+hostname = api.abema.io,app.biliintl.com,passport.biliintl.com,www.firefox.com.cn,www.google.cn

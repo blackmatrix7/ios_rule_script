@@ -1,18 +1,21 @@
 #!name=复写去广告
-#!desc=最后更新时间 2021-08-16 10:22:47
+#!desc=最后更新时间 2021-08-28 02:07:47
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=774
 #!script=0
-#!force_http_engine_hosts=18
+#!force_http_engine_hosts=36
 #!mitm=592
 
 [General]
-force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net,*.ott.cibntv.net,116.253.24.*,119.79*,122.14.246.33,124.14*,124.193*,175.102.178.52,175.6.26.*,211.162*,220.112*,220.169.153.*,222.218.85.*,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
+force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net,*.cp31.ott.cibntv.net,*.ott.cibntv.net,*.ott.cibntv.net,116.253.24.*,116.253.24.*,119.79*,119.79*,122.14.246.33,122.14.246.33,124.14*,124.14*,124.193*,124.193*,175.102.178.52,175.102.178.52,175.6.26.*,175.6.26.*,211.162*,211.162*,220.112*,220.112*,220.169.153.*,220.169.153.*,222.218.85.*,222.218.85.*,intl.iqiyi.com,intl.iqiyi.com,maicai.api.ddxq.mobi,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,mobileapi-v6.elong.com,weibointl.api.weibo.cn,weibointl.api.weibo.cn,wmapi.meituan.com,wmapi.meituan.com
 
 [Rule]
 DOMAIN,api.cupid.dns.iqiyi.com,REJECT
+DOMAIN,api.cupid.dns.iqiyi.com,REJECT
 DOMAIN,video-ad.sm.cn,REJECT-DROP
+DOMAIN,video-ad.sm.cn,REJECT-DROP
+DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 
 [URL Rewrite]
@@ -200,7 +203,6 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+?\.jpg - reject
 ^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
 ^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
-^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule - reject
 ^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ - reject
@@ -433,7 +435,6 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ - reject
 ^https?:\/\/video\.dispatch\.tc\.qq\.com\/\w+\.p20\d\.1\.mp4 - reject
 ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
-^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query - reject
 ^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/ - reject
 ^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
 ^https?:\/\/web\.chelaile\.net\.cn\/api\/adpub\/ - reject
@@ -465,6 +466,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
 
 [Map Local]
+^https?://c.tieba.baidu.com/\w+/\w+/(sync|newRnSync|newlog|mlog) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/(adgateway|adv)\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+\.tc\.qq\.com\/.+p201\.1\.mp4\? data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/eapi\/ad\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
@@ -573,6 +575,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/btrace\.qq\.com data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/c1\.ifengimg\.com\/.+?_w1080_h1410\.jpg data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/c\.minisplat\.cn data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/p\/img\?src= data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/logtogether\?cmd= data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/cache\.changjingyi\.cn data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"

@@ -1,8 +1,8 @@
 #!name=重定向
-#!desc=最后更新时间 2021-07-23 09:43:11
+#!desc=最后更新时间 2021-08-24 02:08:21
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=54
+#!rewrite=55
 #!script=0
 #!force_http_engine_hosts=0
 #!mitm=4
@@ -17,6 +17,7 @@
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 ^https?:\/\/(www.)?(mycleanmymac|xitongqingli)\.com\/ https://macpaw.com/ 302
 ^https?:\/\/(www.)?abbyychina\.com\/ https://www.abbyy.cn/ 302
+^https?:\/\/(www.)?anydeskchina.cn/ https://anydesk.com/zhs 302
 ^https?:\/\/(www.)?bartender\.cc\/ https://www.macbartender.com/ 302
 ^https?:\/\/(www.)?beyondcompare\.cc\/ https://www.scootersoftware.com/ 302
 ^https?:\/\/(www.)?bingdianhuanyuan\.cn\/ https://www.faronics.com/zh-hans/products/deep-freeze 302

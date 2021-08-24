@@ -16,7 +16,7 @@
 | ---- | ---- |
 | mitm | 4 |
 | force_http_engine_hosts | 0 |
-| redirect | 55 |
+| redirect | 58 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。

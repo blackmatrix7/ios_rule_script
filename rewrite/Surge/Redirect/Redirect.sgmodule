@@ -1,8 +1,8 @@
 #!name=重定向
-#!desc=最后更新时间 2021-08-24 02:08:21
+#!desc=最后更新时间 2021-08-25 02:08:05
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=55
+#!rewrite=58
 #!script=0
 #!force_http_engine_hosts=0
 #!mitm=4
@@ -17,6 +17,7 @@
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 ^https?:\/\/(www.)?(mycleanmymac|xitongqingli)\.com\/ https://macpaw.com/ 302
 ^https?:\/\/(www.)?abbyychina\.com\/ https://www.abbyy.cn/ 302
+^https?:\/\/(www.)?alienskins\.cn\/ https://exposure.software/ 302
 ^https?:\/\/(www.)?anydeskchina.cn/ https://anydesk.com/zhs 302
 ^https?:\/\/(www.)?bartender\.cc\/ https://www.macbartender.com/ 302
 ^https?:\/\/(www.)?beyondcompare\.cc\/ https://www.scootersoftware.com/ 302
@@ -30,9 +31,11 @@
 ^https?:\/\/(www.)?easyrecoverychina\.com\/ https://www.ontrack.com/ 302
 ^https?:\/\/(www.)?ediuschina\.com\/ https://www.grassvalley.com/ 302
 ^https?:\/\/(www.)?flstudiochina\.com\/ https://www.image-line.com/ 302
+^https?:\/\/(www.)?folxchina\.cn\/ https://mac.eltima.com/cn/download-manager.html 302
 ^https?:\/\/(www.)?formysql\.com\/ https://www.navicat.com.cn/ 302
 ^https?:\/\/(www.)?guitarpro\.cc\/ https://www.guitar-pro.com/ 302
 ^https?:\/\/(www.)?huishenghuiying\.com\.cn\/ https://www.coreldraw.com/cn/ 302
+^https?:\/\/(www.)?hypeapp\.cn\/ https://tumult.com/hype/ 302
 ^https?:\/\/(www.)?iconworkshop\.cn\/ https://www.axialis.com/ 302
 ^https?:\/\/(www.)?idmchina\.net\/ https://www.internetdownloadmanager.com/ 302
 ^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302

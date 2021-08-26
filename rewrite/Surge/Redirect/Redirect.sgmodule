@@ -1,11 +1,11 @@
 #!name=重定向
-#!desc=最后更新时间 2021-08-25 02:08:05
+#!desc=最后更新时间 2021-08-27 02:09:14
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=58
+#!rewrite=59
 #!script=0
 #!force_http_engine_hosts=0
-#!mitm=4
+#!mitm=5
 
 [URL Rewrite]
 (^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d/msgfeed).+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$5&sim_code=51503$7 header
@@ -30,6 +30,7 @@
 ^https?:\/\/(www.)?earmasterchina\.cn\/ https://www.earmaster.com/ 302
 ^https?:\/\/(www.)?easyrecoverychina\.com\/ https://www.ontrack.com/ 302
 ^https?:\/\/(www.)?ediuschina\.com\/ https://www.grassvalley.com/ 302
+^https?:\/\/(www.)?firefox\.com\.cn\/(download\/)?$ https://www.mozilla.org/zh-CN/firefox/new/ 302
 ^https?:\/\/(www.)?flstudiochina\.com\/ https://www.image-line.com/ 302
 ^https?:\/\/(www.)?folxchina\.cn\/ https://mac.eltima.com/cn/download-manager.html 302
 ^https?:\/\/(www.)?formysql\.com\/ https://www.navicat.com.cn/ 302
@@ -68,4 +69,4 @@
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
 
 [MITM]
-hostname = %APPEND% api.abema.io,app.biliintl.com,passport.biliintl.com,www.google.cn
+hostname = %APPEND% api.abema.io,app.biliintl.com,passport.biliintl.com,www.firefox.com.cn,www.google.cn

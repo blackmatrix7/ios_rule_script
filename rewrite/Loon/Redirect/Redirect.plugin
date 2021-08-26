@@ -1,10 +1,10 @@
 # NAME: 重定向
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-25 02:08:05
-# REWRITE: 56
+# UPDATED: 2021-08-27 02:09:14
+# REWRITE: 57
 # SCRIPT: 0
-# MITM: 4
+# MITM: 5
 
 [URL Rewrite]
 ^http:\/\/(www.)?aicoin\.cn\/$ https://www.aicoin.cn/?long_lives_aicoin=%22live%22 302
@@ -27,6 +27,7 @@
 ^https?:\/\/(www.)?earmasterchina\.cn\/ https://www.earmaster.com/ 302
 ^https?:\/\/(www.)?easyrecoverychina\.com\/ https://www.ontrack.com/ 302
 ^https?:\/\/(www.)?ediuschina\.com\/ https://www.grassvalley.com/ 302
+^https?:\/\/(www.)?firefox\.com\.cn\/(download\/)?$ https://www.mozilla.org/zh-CN/firefox/new/ 302
 ^https?:\/\/(www.)?flstudiochina\.com\/ https://www.image-line.com/ 302
 ^https?:\/\/(www.)?folxchina\.cn\/ https://mac.eltima.com/cn/download-manager.html 302
 ^https?:\/\/(www.)?formysql\.com\/ https://www.navicat.com.cn/ 302
@@ -65,4 +66,4 @@
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
 
 [MITM]
-hostname = api.abema.io,app.biliintl.com,passport.biliintl.com,www.google.cn
+hostname = api.abema.io,app.biliintl.com,passport.biliintl.com,www.firefox.com.cn,www.google.cn

@@ -1,15 +1,15 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-27 02:08:57
+# UPDATED: 2021-08-28 02:07:27
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN: 20875
+# DOMAIN: 20867
 # DOMAIN-KEYWORD: 88
 # DOMAIN-SUFFIX: 51391
-# IP-CIDR: 244
+# IP-CIDR: 247
 # IP-CIDR6: 1
-# URL-REGEX: 302
-# TOTAL: 72901
+# URL-REGEX: 301
+# TOTAL: 72895
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,adashx
@@ -216,7 +216,6 @@ URL-REGEX,^https?:\/\/bdsp-x\.jd\.com\/adx\/
 URL-REGEX,^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+?\.jpg
 URL-REGEX,^https?:\/\/business\.msstatic\.com\/advertiser\/
 URL-REGEX,^https?:\/\/c\.m\.163\.com\/nc\/gl\/
-URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog)
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule
 URL-REGEX,^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/
@@ -544,6 +543,7 @@ IP-CIDR,185.193.38.148/32
 IP-CIDR,188.89.204.198/32
 IP-CIDR,194.36.101.178/32
 IP-CIDR,198.40.52.11/32
+IP-CIDR,199.96.62.41/32
 IP-CIDR,202.104.1.27/32
 IP-CIDR,202.105.165.202/32
 IP-CIDR,203.107.1.65/32
@@ -602,6 +602,7 @@ IP-CIDR,23.66.147.48/32
 IP-CIDR,23.89.50.180/32
 IP-CIDR,23.91.3.114/32
 IP-CIDR,27.255.67.120/32
+IP-CIDR,31.13.76.16/32
 IP-CIDR,35.194.26.233/32
 IP-CIDR,35.232.188.118/32
 IP-CIDR,35.239.57.233/32
@@ -610,6 +611,7 @@ IP-CIDR,42.51.146.207/32
 IP-CIDR,45.126.123.80/32
 IP-CIDR,45.32.105.134/32
 IP-CIDR,45.34.240.72/32
+IP-CIDR,45.79.123.110/32
 IP-CIDR,46.165.197.153/32
 IP-CIDR,46.165.197.231/32
 IP-CIDR,47.89.59.182/32

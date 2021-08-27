@@ -1,20 +1,16 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-16 02:06:44
-# DOMAIN: 18
+# UPDATED: 2021-08-28 02:07:28
+# DOMAIN: 13
+# IP-CIDR: 9
 # DOMAIN-SUFFIX: 11018
-# IP-CIDR: 6
-# TOTAL: 11042
+# TOTAL: 11040
 payload:
   - DOMAIN,hm.baidu.com
   - DOMAIN,hmma.baidu.com
+  - DOMAIN,javasynctime.com
   - DOMAIN,js.users.51.la
-  - DOMAIN,log-hl-ipv6.snssdk.com
-  - DOMAIN,log-lq.snssdk.com
-  - DOMAIN,log-va.tiktokv.com
-  - DOMAIN,log.byteoversea.com
-  - DOMAIN,log.tiktokv.com
   - DOMAIN,mc.51.la
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,safebrowsing.urlsec.qq.com
@@ -23,7 +19,6 @@ payload:
   - DOMAIN,track.tenjin.io
   - DOMAIN,tracking.intl.miui.com
   - DOMAIN,tracklog.58.com
-  - DOMAIN,xlog.snssdk.com
   - DOMAIN,zgsdk.zhugeio.com
   - DOMAIN-SUFFIX,0sbm.consobaby.co.uk
   - DOMAIN-SUFFIX,0x1f4b0.com
@@ -11045,7 +11040,10 @@ payload:
   - DOMAIN-SUFFIX,zz.bdstatic.com
   - IP-CIDR,185.165.169.108/32,no-resolve
   - IP-CIDR,185.193.38.148/32,no-resolve
+  - IP-CIDR,199.96.62.41/32,no-resolve
+  - IP-CIDR,31.13.76.16/32,no-resolve
   - IP-CIDR,35.194.26.233/32,no-resolve
   - IP-CIDR,35.239.57.233/32,no-resolve
   - IP-CIDR,45.32.105.134/32,no-resolve
+  - IP-CIDR,45.79.123.110/32,no-resolve
   - IP-CIDR,77.162.125.199/32,no-resolve

@@ -1,19 +1,25 @@
 # NAME: AllInOne
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-20 15:13:02
-# REWRITE: 760
+# UPDATED: 2021-08-28 02:07:47
+# REWRITE: 761
 # SCRIPT: 33
 # MITM: 536
 
 [Rule]
 DOMAIN,118.89.204.198,REJECT
 DOMAIN,api.cupid.dns.iqiyi.com,REJECT
+DOMAIN,api.cupid.dns.iqiyi.com,REJECT
+DOMAIN,api.cupid.dns.iqiyi.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,video-ad.sm.cn,REJECT-DROP
+DOMAIN,video-ad.sm.cn,REJECT-DROP
+DOMAIN,video-ad.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT
+DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 IP-CIDR,118.89.204.198/32,REJECT,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT-DROP,no-resolve
@@ -27,6 +33,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(
 USER-AGENT,avos*,REJECT
 
 [URL Rewrite]
+^https?://c.tieba.baidu.com/\w+/\w+/(sync|newRnSync|newlog|mlog) - reject-dict
 ^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/brand\/search\/v1\.json - reject-dict
 ^https?:\/\/(\d{1,3}\.){3}\d{1,3}/(variety|vlive\.qqvideo)\.tc\.qq\.com/ - reject
 ^https?:\/\/(a?d|sax)\d.sina.com - reject
@@ -41,9 +48,9 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/.+?\.(snssdk|amemv)\.com\/api\/ad\/ - reject-img
 ^https?:\/\/.+?\.58cdn\.com\.cn\/brandads\/ - reject
 ^https?:\/\/.+?\.atm\.youku\.com - reject
-^https?:\/\/.+?\.beacon\.qq\.com - reject
+^https?:\/\/.+?\.beacon\.qq\.com - reject-img
 ^https?:\/\/.+?\.iydsj\.com\/api\/.+?\/ad - reject
-^https?:\/\/.+?\.l\.qq\.com - reject
+^https?:\/\/.+?\.l\.qq\.com - reject-img
 ^https?:\/\/.+?\.pstatp\.com\/img\/ad - reject
 ^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ - reject
 ^https?:\/\/.+?\/variety.tc.qq.com\/ - reject-img
@@ -95,8 +102,8 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads - reject
 ^https?:\/\/ad\.api\.3g\.youku\.com - reject-img
 ^https?:\/\/ad\.api\.moji\.com\/ad\/log\/stat - reject-img
-^https?:\/\/ad\d\.sina\.com - reject
-^https?:\/\/ad\d\.sina\.com.cn - reject
+^https?:\/\/ad\d\.sina\.com - reject-img
+^https?:\/\/ad\d\.sina\.com.cn - reject-img
 ^https?:\/\/adm\.10jqka\.com\.cn\/img\/ad\/.*?(1\d{2}|\d{4})\.jpg - reject-img
 ^https?:\/\/adm\.10jqka\.com\.cn\/interface\/getads\.php - reject-img
 ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
@@ -249,7 +256,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/c1\.ifengimg\.com\/.+?_w1080_h1410\.jpg - reject-img
 ^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
 ^https?:\/\/c\.minisplat\.cn - reject-img
-^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) - reject
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) - reject-200
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/p\/img\?src= - reject-img
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/logtogether\?cmd= - reject-img
@@ -607,7 +614,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/s\.go\.sohu\.com\/adgtr\/\?gbcode= - reject-img
 ^https?:\/\/s\.go\.sohu\.com\/adgtr\/\?gbcode=(ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map)?\.(baidu|n\.shifen)\.com - reject
 ^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php - reject
-^https?:\/\/sa\d\.tuisong\.baidu\.com - reject
+^https?:\/\/sa\d\.tuisong\.baidu\.com - reject-img
 ^https?:\/\/saad\.ms\.zhangyue\.net\/ad - reject
 ^https?:\/\/sapi\.guopan\.cn\/get_buildin_ad - reject-img
 ^https?:\/\/sax\w?\.sina\.cn - reject

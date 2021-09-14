@@ -4,7 +4,7 @@ const currentUserInfoKey = "zhihu_current_userinfo";
 const keywordBlockKey = "zhihu_keyword_block";
 // 默认屏蔽推荐列表的用户，通常不是真实用户，无法通过加入黑名单屏蔽
 const defaultAnswerBlockedUsers = ["会员推荐"];
-const keywordMaxCount = 20; // 允许设置的关键词数量
+const keywordMaxCount = 1000; // 允许设置的关键词数量
 let magicJS = MagicJS(scriptName, "INFO");
 
 (() => {

@@ -296,12 +296,12 @@ function WebGetCurrentInfo(smzdmCookie){
             subTitle = webCheckinStr;
 
             // APP签到
-            await magicJS.sleep(5000); 
-            await AppSignin(smzdmCookie).then(signinStr => {
-              subTitle += ` ${signinStr}`;
-            }).catch(ex =>{
-              subTitle += ` ${ex}`;
-            })
+            // await magicJS.sleep(5000); 
+            // await AppSignin(smzdmCookie).then(signinStr => {
+            //   subTitle += ` ${signinStr}`;
+            // }).catch(ex =>{
+            //   subTitle += ` ${ex}`;
+            // })
 
             // 查询签到后用户数据
             await magicJS.sleep(3000); 

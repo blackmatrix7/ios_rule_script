@@ -14,7 +14,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 536 |
+| mitm | 538 |
 | DOMAIN | 10 |
 | DOMAIN-SUFFIX | 4 |
 | URL-REGEX | 7 |

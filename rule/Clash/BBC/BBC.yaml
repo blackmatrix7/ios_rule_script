@@ -1,11 +1,11 @@
 # NAME: BBC
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-05 08:51:05
+# UPDATED: 2021-09-25 02:07:38
 # DOMAIN-KEYWORD: 2
-# DOMAIN-SUFFIX: 14
+# DOMAIN-SUFFIX: 15
 # DOMAIN: 12
-# TOTAL: 28
+# TOTAL: 29
 payload:
   - DOMAIN,aod-dash-uk-live.akamaized.net
   - DOMAIN,aod-hls-uk-live.akamaized.net
@@ -31,6 +31,7 @@ payload:
   - DOMAIN-SUFFIX,bbci.co
   - DOMAIN-SUFFIX,bbci.co.uk
   - DOMAIN-SUFFIX,bbcmedia.co.uk
+  - DOMAIN-SUFFIX,bbcpersian.com
   - DOMAIN-SUFFIX,bbcverticals.com
   - DOMAIN-SUFFIX,bidi.net.uk
   - DOMAIN-KEYWORD,bbcfmt

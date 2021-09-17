@@ -24,9 +24,9 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 15209 |
+| DOMAIN | 15204 |
 | DOMAIN-KEYWORD | 88 |
-| DOMAIN-SUFFIX | 81792 |
+| DOMAIN-SUFFIX | 81797 |
 | IP-CIDR | 244 |
 | URL-REGEX | 301 |
 ## 配置说明

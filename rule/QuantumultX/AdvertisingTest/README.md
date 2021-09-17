@@ -19,9 +19,9 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 15209 |
+| HOST | 15204 |
 | HOST-KEYWORD | 88 |
-| HOST-SUFFIX | 81792 |
+| HOST-SUFFIX | 81797 |
 | IP-CIDR | 244 |
 | IP6-CIDR | 1 |
 ## 配置说明

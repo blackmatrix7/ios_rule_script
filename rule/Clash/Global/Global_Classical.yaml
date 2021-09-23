@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-09-23 02:07:53
+# UPDATED: 2021-09-24 02:08:16
 # DOMAIN: 50
-# DOMAIN-SUFFIX: 33472
+# DOMAIN-SUFFIX: 33474
 # DOMAIN-KEYWORD: 41
 # IP-CIDR: 128
 # IP-CIDR6: 3
 # PROCESS-NAME: 1
-# TOTAL: 33695
+# TOTAL: 33697
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,apple.com.akadns.net
@@ -11026,6 +11026,7 @@ payload:
   - DOMAIN-SUFFIX,firech.at
   - DOMAIN-SUFFIX,fireemblemawakening.com
   - DOMAIN-SUFFIX,firefoxfan.com
+  - DOMAIN-SUFFIX,firefoxusercontent.com
   - DOMAIN-SUFFIX,fireofliberty.org
   - DOMAIN-SUFFIX,fireside.fm
   - DOMAIN-SUFFIX,firesidegatherings.com
@@ -18348,6 +18349,7 @@ payload:
   - DOMAIN-SUFFIX,moyuv5.com
   - DOMAIN-SUFFIX,mozaic
   - DOMAIN-SUFFIX,mozhua.net
+  - DOMAIN-SUFFIX,mozilla.com
   - DOMAIN-SUFFIX,mozilla.community
   - DOMAIN-SUFFIX,mozilla.net
   - DOMAIN-SUFFIX,mozilla.org

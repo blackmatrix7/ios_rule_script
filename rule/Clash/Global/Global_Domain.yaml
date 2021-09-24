@@ -1,16 +1,17 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-09-24 02:08:16
-# DOMAIN: 50
-# DOMAIN-SUFFIX: 33474
+# UPDATED: 2021-09-25 02:07:38
+# DOMAIN: 51
+# DOMAIN-SUFFIX: 33480
 # DOMAIN-KEYWORD: 41
 # IP-CIDR: 128
 # IP-CIDR6: 3
 # PROCESS-NAME: 1
-# TOTAL: 33697
+# TOTAL: 33704
 payload:
   - 'amp.akamaized.net'
+  - 'api-p.videomarket.jp'
   - 'apple.com.akadns.net'
   - 'assets-priconne-redive-us.akamaized.net'
   - 'audio-ak-spotify-com.akamaized.net'
@@ -4674,6 +4675,7 @@ payload:
   - '.bbci.co.uk'
   - '.bbcmundo.com'
   - '.bbcnews.co.uk'
+  - '.bbcpersian.com'
   - '.bbcradioint.com'
   - '.bbcurdu.com'
   - '.bbcverticals.com'
@@ -9485,6 +9487,7 @@ payload:
   - '.dynamics.com'
   - '.dynathome.net'
   - '.dynawebinc.com'
+  - '.dyncdn.me'
   - '.dyndns-free.com'
   - '.dyndns-home.com'
   - '.dyndns-ip.com'
@@ -21859,12 +21862,17 @@ payload:
   - '.rarbg.is'
   - '.rarbg.me'
   - '.rarbgaccess.org'
+  - '.rarbgaccessed.org'
+  - '.rarbgget.org'
   - '.rarbggo.org'
   - '.rarbgmirror.com'
   - '.rarbgmirror.org'
   - '.rarbgproxy.org'
   - '.rarbgprx.org'
+  - '.rarbgto.org'
   - '.rarbgunblock.com'
+  - '.rarbgunblock.org'
+  - '.rarbgway.org'
   - '.raremovie.cc'
   - '.raremovie.net'
   - '.raspberrypi.org'
@@ -28692,7 +28700,6 @@ payload:
   - '.www.bb757.net'
   - '.www.bbb111.com'
   - '.www.bbcnews.com'
-  - '.www.bbcpersian.com'
   - '.www.bbcukchina.com'
   - '.www.bbgdirect.com'
   - '.www.bbh.com'

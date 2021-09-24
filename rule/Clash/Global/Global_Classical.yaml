@@ -1,16 +1,17 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-09-24 02:08:16
-# DOMAIN: 50
-# DOMAIN-SUFFIX: 33474
+# UPDATED: 2021-09-25 02:07:38
+# DOMAIN: 51
+# DOMAIN-SUFFIX: 33480
 # DOMAIN-KEYWORD: 41
 # IP-CIDR: 128
 # IP-CIDR6: 3
 # PROCESS-NAME: 1
-# TOTAL: 33697
+# TOTAL: 33704
 payload:
   - DOMAIN,amp.akamaized.net
+  - DOMAIN,api-p.videomarket.jp
   - DOMAIN,apple.com.akadns.net
   - DOMAIN,assets-priconne-redive-us.akamaized.net
   - DOMAIN,audio-ak-spotify-com.akamaized.net
@@ -4674,6 +4675,7 @@ payload:
   - DOMAIN-SUFFIX,bbci.co.uk
   - DOMAIN-SUFFIX,bbcmundo.com
   - DOMAIN-SUFFIX,bbcnews.co.uk
+  - DOMAIN-SUFFIX,bbcpersian.com
   - DOMAIN-SUFFIX,bbcradioint.com
   - DOMAIN-SUFFIX,bbcurdu.com
   - DOMAIN-SUFFIX,bbcverticals.com
@@ -9485,6 +9487,7 @@ payload:
   - DOMAIN-SUFFIX,dynamics.com
   - DOMAIN-SUFFIX,dynathome.net
   - DOMAIN-SUFFIX,dynawebinc.com
+  - DOMAIN-SUFFIX,dyncdn.me
   - DOMAIN-SUFFIX,dyndns-free.com
   - DOMAIN-SUFFIX,dyndns-home.com
   - DOMAIN-SUFFIX,dyndns-ip.com
@@ -21859,12 +21862,17 @@ payload:
   - DOMAIN-SUFFIX,rarbg.is
   - DOMAIN-SUFFIX,rarbg.me
   - DOMAIN-SUFFIX,rarbgaccess.org
+  - DOMAIN-SUFFIX,rarbgaccessed.org
+  - DOMAIN-SUFFIX,rarbgget.org
   - DOMAIN-SUFFIX,rarbggo.org
   - DOMAIN-SUFFIX,rarbgmirror.com
   - DOMAIN-SUFFIX,rarbgmirror.org
   - DOMAIN-SUFFIX,rarbgproxy.org
   - DOMAIN-SUFFIX,rarbgprx.org
+  - DOMAIN-SUFFIX,rarbgto.org
   - DOMAIN-SUFFIX,rarbgunblock.com
+  - DOMAIN-SUFFIX,rarbgunblock.org
+  - DOMAIN-SUFFIX,rarbgway.org
   - DOMAIN-SUFFIX,raremovie.cc
   - DOMAIN-SUFFIX,raremovie.net
   - DOMAIN-SUFFIX,raspberrypi.org
@@ -28692,7 +28700,6 @@ payload:
   - DOMAIN-SUFFIX,www.bb757.net
   - DOMAIN-SUFFIX,www.bbb111.com
   - DOMAIN-SUFFIX,www.bbcnews.com
-  - DOMAIN-SUFFIX,www.bbcpersian.com
   - DOMAIN-SUFFIX,www.bbcukchina.com
   - DOMAIN-SUFFIX,www.bbgdirect.com
   - DOMAIN-SUFFIX,www.bbh.com

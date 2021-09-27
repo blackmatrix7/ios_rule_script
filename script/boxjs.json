@@ -222,5 +222,60 @@
         }
       ]
     }
+    {
+      "id": "blackmatrix7.synology",
+      "name": "Synology",
+      "keys": ["syno_https_url", "syno_account", "syno_passwd", "syno_sid"],
+      "settings": [
+        {
+          "id": "syno_https_url",
+          "name": "群晖地址",
+          "val": "",
+          "type": "input",
+          "placeholder": "http://192.168.1.100:5000",
+          "autoGrow": true,
+          "desc": "目前暂不支持https，请使用http"
+        },
+        {
+          "id": "syno_account",
+          "name": "群晖账户",
+          "val": "",
+          "type": "input",
+          "placeholder": "admin",
+          "autoGrow": true,
+          "desc": "可访问DownloadStation的账号，记得设置默认下载路径"
+        },
+        {
+          "id": "syno_passwd",
+          "name": "群晖密码",
+          "val": "",
+          "type": "input",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "建议单独建立一个账户保证安全"
+        },
+        {
+          "id": "syno_sid",
+          "name": "群晖Sid",
+          "val": "",
+          "type": "input",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "除非无法正常获取Sid，否则保持现在的值，不要修改"
+        }
+      ],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/synology",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/synology/icon/synology_dark.jpg",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/synology/icon/synology.jpg"
+      ],
+      "scripts": [
+        {
+          "name": "登录Synology",
+          "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/synology/downloadstation.js"
+        }
+      ]
+    }
   ]
 }

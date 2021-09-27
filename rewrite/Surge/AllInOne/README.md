@@ -34,7 +34,7 @@
 
 稳定版中如含有JavaScript脚本，所引用的脚本链接为实时版或外部链接，可能会与预期效果有出入，建议使用实时版。
 
-### Surge 
+### Surge
 
 实时版：
 
@@ -67,6 +67,7 @@ AllInOne_Classical.sgmodule 采用传统的reject方式直接拒绝请求。
 如果你正在使用这些复写规则，建议不要与本项目的AllInOne复写规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/Advertising.sgmodule
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/General.sgmodule
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Shortcuts/reject.txt
@@ -94,7 +95,7 @@ AllInOne_Classical.sgmodule 采用传统的reject方式直接拒绝请求。
 
 ### 感谢
 
-[@Tartarus2014](https://github.com/Tartarus2014)  [@chenyiping1995](https://github.com/chenyiping1995) 
+[@Tartarus2014](https://github.com/Tartarus2014)  [@chenyiping1995](https://github.com/chenyiping1995)
 
 提供规则数据源及改进建议。
 

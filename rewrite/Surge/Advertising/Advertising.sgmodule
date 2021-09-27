@@ -1,8 +1,8 @@
 #!name=复写去广告
-#!desc=最后更新时间 2021-09-17 09:25:13
+#!desc=最后更新时间 2021-09-28 02:10:45
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=774
+#!rewrite=773
 #!script=0
 #!force_http_engine_hosts=36
 #!mitm=594
@@ -763,7 +763,6 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/storage\.360buyimg\.com\/kepler-app data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/storage\.wax\.weibo\.com\/\w+\.(png|jpg|mp4) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-^https?:\/\/t\d{2}\.baidu\.com data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/tb1\.bdstatic\.com\/tb\/cms\/ngmis\/adsense\/*\.jpg data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/tb2\.bdstatic\.com\/tb\/mobile\/spb\/widget\/jump data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/u1\.img\.mobile\.sina\.cn\/public\/files\/image\/\d{3}x\d{2,4}.+?(png|jpg|mp4) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"

@@ -1,9 +1,9 @@
 # NAME: 重定向
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-27 02:09:14
+# UPDATED: 2021-09-28 02:10:45
 # REWRITE: 57
-# SCRIPT: 0
+# SCRIPT: 2
 # MITM: 5
 
 [URL Rewrite]
@@ -64,6 +64,10 @@
 ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302
 ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
+
+[Script]
+http-request ^https?:\/\/app\.biliintl\.com\/(intl\/gateway\/v\d\/app\/data\/report\/heartbeat\/mobile|x\/(history|reply)/v\d/add) requires-body=1,script-path=https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js,tag=bstar.js_http-request
+http-request ^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/(sms\/send|reg\/sms|oauth2\/access_token|login\/sms) requires-body=1,script-path=https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js,tag=bstar.js_http-request
 
 [MITM]
 hostname = api.abema.io,app.biliintl.com,passport.biliintl.com,www.firefox.com.cn,www.google.cn

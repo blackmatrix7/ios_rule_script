@@ -14,7 +14,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 538 |
+| mitm | 540 |
 | DOMAIN | 10 |
 | DOMAIN-SUFFIX | 4 |
 | URL-REGEX | 7 |
@@ -23,7 +23,7 @@
 | USER-AGENT | 1 |
 | reject | 712 |
 | http-response | 32 |
-| http-request | 1 |
+| http-request | 3 |
 | redirect | 49 |
 ## 配置说明
 
@@ -33,7 +33,7 @@
 
 稳定版中如含有JavaScript脚本，所引用的脚本链接为实时版或外部链接，可能会与预期效果有出入，建议使用实时版。
 
-### Loon
+### Loon 
 
 实时版：
 
@@ -84,7 +84,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 
 ### 感谢
 
-[@Tartarus2014](https://github.com/Tartarus2014)  [@chenyiping1995](https://github.com/chenyiping1995)
+[@Tartarus2014](https://github.com/Tartarus2014)  [@chenyiping1995](https://github.com/chenyiping1995) 
 
 提供规则数据源及改进建议。
 

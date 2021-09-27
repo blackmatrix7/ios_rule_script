@@ -1,8 +1,8 @@
 #!name=复写去广告
-#!desc=最后更新时间 2021-09-17 09:25:13
+#!desc=最后更新时间 2021-09-28 02:10:45
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=774
+#!rewrite=773
 #!script=0
 #!force_http_engine_hosts=36
 #!mitm=594
@@ -717,7 +717,6 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject
 ^https?:\/\/supportda\.ofo\.com\/adaction\? - reject
 ^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ - reject
-^https?:\/\/t\d{2}\.baidu\.com - reject
 ^https?:\/\/tb1\.bdstatic\.com\/tb\/cms\/ngmis\/adsense\/*\.jpg - reject
 ^https?:\/\/tb2\.bdstatic\.com\/tb\/mobile\/spb\/widget\/jump - reject
 ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ - reject

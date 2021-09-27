@@ -14,11 +14,11 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 538 |
+| mitm | 540 |
 | reject | 712 |
 | redirect | 49 |
 | script-response-body | 32 |
-| script-request-body | 1 |
+| script-request-body | 3 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -27,7 +27,7 @@
 
 稳定版中如含有JavaScript脚本，所引用的脚本链接为实时版或外部链接，可能会与预期效果有出入，建议使用实时版。
 
-### QuantumultX
+### QuantumultX 
 
 实时版：
 
@@ -78,7 +78,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Q
 
 ### 感谢
 
-[@Tartarus2014](https://github.com/Tartarus2014)  [@chenyiping1995](https://github.com/chenyiping1995)
+[@Tartarus2014](https://github.com/Tartarus2014)  [@chenyiping1995](https://github.com/chenyiping1995) 
 
 提供规则数据源及改进建议。
 

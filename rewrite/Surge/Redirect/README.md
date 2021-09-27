@@ -16,6 +16,7 @@
 | ---- | ---- |
 | mitm | 5 |
 | force_http_engine_hosts | 0 |
+| http-request | 2 |
 | redirect | 59 |
 ## 配置说明
 
@@ -47,6 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/S
 
 如果你正在使用这些复写规则，建议不要与本项目的重定向复写规则混合使用，以免造成规则重复。
 
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/General.sgmodule
 
 

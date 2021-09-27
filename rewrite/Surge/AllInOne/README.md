@@ -14,7 +14,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 538 |
+| mitm | 540 |
 | force_http_engine_hosts | 54 |
 | DOMAIN | 10 |
 | DOMAIN-SUFFIX | 4 |
@@ -24,7 +24,7 @@
 | USER-AGENT | 1 |
 | reject | 712 |
 | http-response | 32 |
-| http-request | 1 |
+| http-request | 3 |
 | redirect | 49 |
 ## 配置说明
 
@@ -34,7 +34,7 @@
 
 稳定版中如含有JavaScript脚本，所引用的脚本链接为实时版或外部链接，可能会与预期效果有出入，建议使用实时版。
 
-### Surge
+### Surge 
 
 实时版：
 
@@ -95,7 +95,7 @@ AllInOne_Classical.sgmodule 采用传统的reject方式直接拒绝请求。
 
 ### 感谢
 
-[@Tartarus2014](https://github.com/Tartarus2014)  [@chenyiping1995](https://github.com/chenyiping1995)
+[@Tartarus2014](https://github.com/Tartarus2014)  [@chenyiping1995](https://github.com/chenyiping1995) 
 
 提供规则数据源及改进建议。
 

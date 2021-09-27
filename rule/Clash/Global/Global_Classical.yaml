@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-09-27 02:08:55
-# DOMAIN: 51
-# DOMAIN-SUFFIX: 33493
+# UPDATED: 2021-09-28 02:10:23
+# DOMAIN: 52
+# DOMAIN-SUFFIX: 33503
 # DOMAIN-KEYWORD: 41
 # IP-CIDR: 128
 # IP-CIDR6: 3
 # PROCESS-NAME: 1
-# TOTAL: 33717
+# TOTAL: 33728
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,api-p.videomarket.jp
@@ -33,6 +33,7 @@ payload:
   - DOMAIN,hamifans.emome.net
   - DOMAIN,heads4-ak-spotify-com.akamaized.net
   - DOMAIN,hpstore.corpmerchandise.com
+  - DOMAIN,i.jeded.com
   - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN,img-s-msn-com.akamaized.net
   - DOMAIN,imperial.insendi.com
@@ -16590,6 +16591,11 @@ payload:
   - DOMAIN-SUFFIX,liberapay.org
   - DOMAIN-SUFFIX,libertics.com.ar
   - DOMAIN-SUFFIX,libertytimes.com.tw
+  - DOMAIN-SUFFIX,libgen.fun
+  - DOMAIN-SUFFIX,libgen.is
+  - DOMAIN-SUFFIX,libgen.life
+  - DOMAIN-SUFFIX,libgen.me
+  - DOMAIN-SUFFIX,libgen.rs
   - DOMAIN-SUFFIX,libo15.com
   - DOMAIN-SUFFIX,library.pressdisplay.com
   - DOMAIN-SUFFIX,libraryinformationtechnology.com
@@ -22682,6 +22688,9 @@ payload:
   - DOMAIN-SUFFIX,schooltunnel.net
   - DOMAIN-SUFFIX,schwarz
   - DOMAIN-SUFFIX,schwarzgroup
+  - DOMAIN-SUFFIX,sci-hub.ee
+  - DOMAIN-SUFFIX,sci-hub.mksa.top
+  - DOMAIN-SUFFIX,sci.hubg.org
   - DOMAIN-SUFFIX,sciencedaily.com
   - DOMAIN-SUFFIX,sciencedirectassets.com
   - DOMAIN-SUFFIX,sciencenets.com
@@ -24079,6 +24088,7 @@ payload:
   - DOMAIN-SUFFIX,submit.jotformz.com
   - DOMAIN-SUFFIX,submityourflicks.com
   - DOMAIN-SUFFIX,submityourtapes.com
+  - DOMAIN-SUFFIX,subscene.com
   - DOMAIN-SUFFIX,substack.com
   - DOMAIN-SUFFIX,successfn.com
   - DOMAIN-SUFFIX,successwithteams.com
@@ -25156,6 +25166,7 @@ payload:
   - DOMAIN-SUFFIX,tma.co.jp
   - DOMAIN-SUFFIX,tmagazine.com
   - DOMAIN-SUFFIX,tmblr.co
+  - DOMAIN-SUFFIX,tmdb.org
   - DOMAIN-SUFFIX,tmdfish.com
   - DOMAIN-SUFFIX,tmgm.com
   - DOMAIN-SUFFIX,tmhk.org

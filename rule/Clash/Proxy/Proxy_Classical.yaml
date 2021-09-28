@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-09-28 02:10:23
-# DOMAIN: 48
-# DOMAIN-SUFFIX: 33517
+# UPDATED: 2021-10-03 02:07:32
+# DOMAIN: 49
+# DOMAIN-SUFFIX: 33522
 # DOMAIN-KEYWORD: 29
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 33685
+# TOTAL: 33691
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,api-p.videomarket.jp
@@ -40,6 +40,7 @@ payload:
   - DOMAIN,opgg-static.akamaized.net
   - DOMAIN,p-events-delivery.akamaized.net
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
+  - DOMAIN,pchomeonline.com.tw
   - DOMAIN,prd-priconne-redive.akamaized.net
   - DOMAIN,push-apple.com.akadns.net
   - DOMAIN,statics-marketingsites-eus-ms-com.akamaized.net
@@ -3492,6 +3493,7 @@ payload:
   - DOMAIN-SUFFIX,amznl.com
   - DOMAIN-SUFFIX,an
   - DOMAIN-SUFFIX,an.1x.net
+  - DOMAIN-SUFFIX,anaconda.cloud
   - DOMAIN-SUFFIX,anaconda.com
   - DOMAIN-SUFFIX,anaconda.org
   - DOMAIN-SUFFIX,anakinweb.com
@@ -9860,6 +9862,7 @@ payload:
   - DOMAIN-SUFFIX,egghead.io
   - DOMAIN-SUFFIX,egotastic.com
   - DOMAIN-SUFFIX,egrnaa.lotcai.com
+  - DOMAIN-SUFFIX,egta.com
   - DOMAIN-SUFFIX,eh
   - DOMAIN-SUFFIX,ehentai.org
   - DOMAIN-SUFFIX,ehgt.org
@@ -12482,7 +12485,9 @@ payload:
   - DOMAIN-SUFFIX,gog.com
   - DOMAIN-SUFFIX,goge.ml
   - DOMAIN-SUFFIX,gogle.com
+  - DOMAIN-SUFFIX,gogo-load.com
   - DOMAIN-SUFFIX,gogo2sex.com
+  - DOMAIN-SUFFIX,gogocdn.net
   - DOMAIN-SUFFIX,gogole.com
   - DOMAIN-SUFFIX,gogotunnel.com
   - DOMAIN-SUFFIX,gohappy.com.tw
@@ -16890,6 +16895,7 @@ payload:
   - DOMAIN-SUFFIX,lovemyanime.net
   - DOMAIN-SUFFIX,loveofkuanyin.com
   - DOMAIN-SUFFIX,loveparents.org
+  - DOMAIN-SUFFIX,loverslab.com
   - DOMAIN-SUFFIX,lovesexdurex.com
   - DOMAIN-SUFFIX,lovethiscity.com
   - DOMAIN-SUFFIX,lovetibet.ti-da.net
@@ -18730,6 +18736,7 @@ payload:
   - DOMAIN-SUFFIX,mypearsonenglish.ch
   - DOMAIN-SUFFIX,mypets.ws
   - DOMAIN-SUFFIX,mypicture.info
+  - DOMAIN-SUFFIX,mypikpak.com
   - DOMAIN-SUFFIX,myplan.powayusd.com
   - DOMAIN-SUFFIX,mypop3.net
   - DOMAIN-SUFFIX,mypop3.org
@@ -30486,7 +30493,6 @@ payload:
   - DOMAIN-SUFFIX,www.losescotesdealicia.com
   - DOMAIN-SUFFIX,www.lotoo.com.tw
   - DOMAIN-SUFFIX,www.lottobao.com
-  - DOMAIN-SUFFIX,www.loverslab.com
   - DOMAIN-SUFFIX,www.lrt.lt
   - DOMAIN-SUFFIX,www.ls556.com
   - DOMAIN-SUFFIX,www.ls663.com

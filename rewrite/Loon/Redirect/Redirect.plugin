@@ -1,13 +1,13 @@
 # NAME: 重定向
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-09-28 02:10:45
+# UPDATED: 2021-10-01 02:09:02
 # REWRITE: 57
 # SCRIPT: 2
 # MITM: 5
 
 [URL Rewrite]
-^http:\/\/(www.)?aicoin\.cn\/$ https://www.aicoin.cn/?long_lives_aicoin=%22live%22 302
+^http:\/\/(www.)?aicoin\.cn\/$ https://www.aicoin.com/ 302
 ^http?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
 ^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)\/ https://macitbetter.com/ 302

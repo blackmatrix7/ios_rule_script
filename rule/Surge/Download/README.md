@@ -10,13 +10,13 @@
 
 ## 规则统计
 
-总计规则：36 条。
+总计规则：41 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| PROCESS-NAME | 23 |
+| PROCESS-NAME | 28 |
 | DOMAIN-KEYWORD | 5 |
 | URL-REGEX | 7 |
 | DOMAIN-SUFFIX | 1 |

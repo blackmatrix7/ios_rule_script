@@ -75,6 +75,8 @@ https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite
 | [Fa米家](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/famijia) | 每日自动签到                                                 | 正常     |
 | [Luka](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/luka) | 每日自动签到                                                 | 正常     |
 | [美团买菜](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/meituan) | 每日自动签到                                                 | 正常     |
+| [Synology](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/synology) | 群晖Downloads资源离线下载                                    | 正常     |
+| [AppleStore](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/applestore) | AppleStore iPhone13 库存监控                                 | 暂停     |
 
 #### Quantumult X Gallery
 

@@ -221,7 +221,7 @@
           "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js"
         }
       ]
-    }
+    },
     {
       "id": "blackmatrix7.synology",
       "name": "Synology",
@@ -275,6 +275,46 @@
           "name": "登录Synology",
           "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/synology/downloadstation.js"
         }
+      ]
+    },
+    {
+      "id": "blackmatrix7.applestore",
+      "name": "AppleStore",
+      "keys": ["iphone_model", "apple_store_region", "applestore_bark_url", "iphone_stock"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/applestore",
+      "settings": [
+        {
+          "id": "iphone_model",
+          "name": "iPhone型号",
+          "val": "",
+          "type": "input",
+          "placeholder": "MLDE3CH/A;MLDG3CH/A",
+          "autoGrow": true,
+          "desc": "需要监控的iPhone型号，多款以;分隔，移动端建议只监控一个"
+        },
+        {
+          "id": "apple_store_region",
+          "name": "监控地区",
+          "val": "",
+          "type": "input",
+          "placeholder": "吉林 长春 朝阳区",
+          "autoGrow": true,
+          "desc": "直辖市示例：北京 北京 昌平区"
+        },
+        {
+          "id": "applestore_bark_url",
+          "name": "Bark推送",
+          "val": "",
+          "type": "input",
+          "placeholder": "https://api.day.app/VXTWvaQ18N29bsQAg7DgkT",
+          "autoGrow": true,
+          "desc": "使用Bark推送到其他设备，比如iPad执行监控，推送结果到iPhone"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/applestore/icon/applestore_dark.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/applestore/icon/applestore.png"
       ]
     }
   ]

@@ -12,7 +12,7 @@ let magicJS = MagicJS(scriptName, "INFO");
   if (magicJS.isResponse) {
     switch (true) {
       // 回答内容优化
-      case /^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))?/.test(magicJS.request.url):
+      case magicJS.read("zhihu_settings_answer_tip") != false && /^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))?/.test(magicJS.request.url):
         try {
           let html = magicJS.response.body;
           // 付费内容提醒
@@ -57,14 +57,14 @@ let magicJS = MagicJS(scriptName, "INFO");
           let obj = JSON.parse(magicJS.response.body);
           magicJS.logDebug(`用户登录用户信息，接口响应：${magicJS.response.body}`);
           if (obj && obj["id"] && obj.hasOwnProperty("vip_info") && obj["vip_info"].hasOwnProperty("is_vip")) {
-            let userInfo = {
+            const userInfo = {
               id: obj["id"],
               is_vip: obj["vip_info"]["is_vip"] ? obj["vip_info"]["is_vip"] !== undefined : false,
             };
-            magicJS.logInfo(`当前用户id：${obj["id"]}，是否为VIP：${obj["vip_info"]["is_vip"]}`);
+            magicJS.logDebug(`当前用户id：${obj["id"]}，是否为VIP：${obj["vip_info"]["is_vip"]}`);
             magicJS.write(currentUserInfoKey, userInfo);
             // 在知乎APP显示VIP，仅自己可见，无实际用途
-            if (obj["vip_info"]["is_vip"] === false) {
+            if (magicJS.read("zhihu_settings_fake_vip") == true && obj["vip_info"]["is_vip"] === false) {
               obj["vip_info"]["is_vip"] = true;
               obj["vip_info"]["vip_icon"] = {
                 url: "https://pic1.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a_r.png",
@@ -80,7 +80,7 @@ let magicJS = MagicJS(scriptName, "INFO");
                 sub_title: null,
                 button_text: "你好，知乎！",
                 jump_url: "zhihu://vip/purchase",
-                button_jump_url: "",
+                button_jump_url: "zhihu://vip/purchase",
                 sub_title_new: null,
                 identity: "svip",
               };
@@ -91,9 +91,9 @@ let magicJS = MagicJS(scriptName, "INFO");
                   jump_url: "zhihu://market/home",
                 },
                 right_button: {
-                  title: "开通盐选会员",
-                  description: "畅享 10w+ 场优质内容等特权",
-                  jump_url: "zhihu://vip/purchase",
+                  title: "我的盐选会员",
+                  description: "畅享 10w+ 优质内容",
+                  jump_url: "zhihu://vip/my",
                 },
               };
               obj["vip_info"]["entrance_v2"] = {
@@ -111,8 +111,8 @@ let magicJS = MagicJS(scriptName, "INFO");
           magicJS.logError(`知乎获取当前用户信息出现异常：${err}`);
         }
         break;
-      // 去除MCN信息
-      case /^https?:\/\/api\.zhihu\.com\/people\/((?!self).)*$/.test(magicJS.request.url):
+      // 黑名单增强 - 浏览黑名单用户信息时自动加入脚本黑名单
+      case magicJS.read("zhihu_settings_blocked_users") != false && /^https?:\/\/api\.zhihu\.com\/people\/((?!self).)*$/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
           // 删除MCN信息
@@ -120,14 +120,14 @@ let magicJS = MagicJS(scriptName, "INFO");
           response = { body: JSON.stringify(obj) };
           // 如已是黑名单用户，但不在脚本黑名单中，则自动加入
           if (obj.name && obj.id && obj.is_blocking === true) {
-            let userInfo = GetUserInfo();
+            const userInfo = GetUserInfo();
             let customBlockedUsers = magicJS.read(blockedUsersKey, userInfo.id);
             customBlockedUsers = typeof customBlockedUsers === "object" && !!customBlockedUsers ? customBlockedUsers : {};
             if (!customBlockedUsers[obj.name]) {
               magicJS.logDebug(`当前需要加入黑名单的用户Id：${obj["id"]}，用户名：${obj["name"]}`);
               customBlockedUsers[obj["name"]] = obj["id"];
               magicJS.write(blockedUsersKey, customBlockedUsers, userInfo.id);
-              magicJS.logInfo(`${obj["name"]}写入脚本黑名单成功，当前脚本黑名单数据：${JSON.stringify(customBlockedUsers)}`);
+              magicJS.logDebug(`${obj["name"]}写入脚本黑名单成功，当前脚本黑名单数据：${JSON.stringify(customBlockedUsers)}`);
               magicJS.notify(`已自动将用户“${obj["name"]}”写入脚本黑名单。`);
             }
           }
@@ -138,86 +138,60 @@ let magicJS = MagicJS(scriptName, "INFO");
       // 推荐去广告与黑名单增强
       case /^https:\/\/api\.zhihu\.com\/topstory\/recommend\?/.test(magicJS.request.url):
         try {
-          // 判断是否是“盐选推荐内容”
-          function IsYanXuan(element) {
-            let flag = false;
-            if (element["common_card"]["footline"].hasOwnProperty("elements")) {
-              for (let i = 0; i < element["common_card"]["footline"]["elements"].length; i++) {
-                let item = element["common_card"]["footline"]["elements"][i];
-                if (item.hasOwnProperty("icon") && item["icon"]["image_url"] == "https://pic2.zhimg.com/80/v2-c46fc8ec4c4e9ffc8f846ae0d8158a80_1440w.png") {
-                  flag = true;
+          // 默认关闭
+          const settings_remove_yanxuan = magicJS.read("zhihu_settings_remove_yanxuan") == true;
+          const settings_recommend_stream = magicJS.read("zhihu_settings_recommend_stream") == true;
+          // 默认开启
+          const settings_blocked_keywords = magicJS.read("zhihu_settings_blocked_keywords") != false;
+          const settings_blocked_users = magicJS.read("zhihu_settings_blocked_users") != false;
+          const user_info = GetUserInfo();
+
+          let keywords = magicJS.read(keywordBlockKey, user_info.id);
+          keywords = settings_blocked_keywords && !!keywords ? keywords : [];
+          let customBlockedUsers = magicJS.read(blockedUsersKey, user_info.id);
+          customBlockedUsers = settings_blocked_users && !!customBlockedUsers ? customBlockedUsers : {};
+
+          const dataFilter = (element) => {
+            let elementStr = JSON.stringify(element);
+            // 是否为广告
+            let isAd = element["card_type"] === "slot_event_card" || element["card_type"] === "slot_video_event_card" || element.hasOwnProperty("ad");
+            // 是否为流媒体 element["extra"]["type"] === "drama" || element["extra"]["type"] === "zvideo") || element["extra"]["type"] === "Video" || element["common_card"]["style"] === "BIG_IMAGE")
+            let isStream = isAd != true && settings_recommend_stream && elementStr.search(/"(type|style)+"\s?:\s?"(drama|zvideo|Video|BIG_IMAGE)+"/i) >= 0;
+            // 是否为盐选推荐
+            let isYanXuan = isStream != true && settings_remove_yanxuan && elementStr.indexOf("https://pic2.zhimg.com/80/v2-c46fc8ec4c4e9ffc8f846ae0d8158a80_1440w.png") >= 0;
+            // 是否匹配脚本关键词过滤
+            let matchKeyword = false;
+            if (isStream != true && settings_blocked_keywords) {
+              for (let i = 0; i < keywords.length; i++) {
+                if (elementStr.search(keywords[i]) >= 0) {
+                  if (magicJS.isDebug){
+                    let elementTitle = element.common_card.feed_content.title.panel_text;
+                    let elementContent = element.common_card.feed_content.content.panel_text;
+                    let actionUrl = "";
+                    try {
+                      actionUrl = element.common_card.feed_content.title.action.intent_url;
+                    } catch {}
+                    magicJS.logDebug(`匹配关键字：\n${keywords[i]}\n标题：\n${elementTitle}\n内容：\n${elementContent}`);
+                    magicJS.notifyDebug(scriptName, `关键字：${keywords[i]}`, `${elementTitle}\n${elementContent}`, actionUrl);
+                  }
+                  matchKeyword = true;
                   break;
                 }
               }
             }
-            return flag;
-          }
-
-          // 判断内容是否匹配屏蔽关键字
-          function IsKeywordBlock(element) {
-            let flag = false;
-            let elementStr = JSON.stringify(element);
-            for (let i = 0; i < keywords.length; i++) {
-              if (elementStr.indexOf(keywords[i]) >= 0) {
-                let elementTitle = element.common_card.feed_content.title.panel_text;
-                let elementContent = element.common_card.feed_content.content.panel_text;
-                let actionUrl = "";
-                try {
-                  actionUrl = element.common_card.feed_content.title.action.intent_url;
-                } catch {}
-                magicJS.logInfo(`匹配关键字：\n${keywords[i]}\n标题：\n${elementTitle}\n内容：\n${elementContent}`);
-                magicJS.notifyDebug(scriptName, `关键字：${keywords[i]}`, `${elementTitle}\n${elementContent}`, actionUrl);
-                flag = true;
-                break;
-              }
-            }
-            return flag;
-          }
-
-          let user_info = GetUserInfo();
-          let customBlockedUsers = magicJS.read(blockedUsersKey, user_info.id);
-          let keywords = magicJS.read(keywordBlockKey, user_info.id);
-          customBlockedUsers = !!customBlockedUsers ? customBlockedUsers : {};
-          keywords = !!keywords ? keywords : [];
-          let obj = JSON.parse(magicJS.response.body);
-          let data = obj["data"].filter((element) => {
-            // 修正由于JS number类型精度问题，导致JSON.parse精度丢失，引起视频无法自动播放的问题
+            // 是否为黑名单用户
+            let isBlockedUser = false;
             try {
-              if (element.hasOwnProperty("extra") && element["extra"].hasOwnProperty("type") && element["extra"]["type"] === "zvideo") {
-                let video_id = element["common_card"]["feed_content"]["video"]["customized_page_url"].match(/https?:\/\/www\.zhihu\.com\/[^=]*=(\d*)/)[1];
-                element["common_card"]["feed_content"]["video"]["id"] = video_id;
-              }
-            } catch (err) {
-              magicJS.logError(`修正视频自动播放失败\n异常信息：${err}\n响应数据：${JSON.stringify(element)}`);
+              isBlockedUser = matchKeyword != true && settings_blocked_users && customBlockedUsers && element["common_card"]["feed_content"]["source_line"]["elements"][1]["text"]["panel_text"] in customBlockedUsers;
+            } catch {
+              isBlockedUser = false;
             }
-            let flag = !(
-              element["card_type"] === "slot_event_card" ||
-              element["card_type"] === "slot_video_event_card" ||
-              element.hasOwnProperty("ad") ||
-              // 取消以下几行注释，推荐列表拦截视频与直播
-              // element["extra"]["type"] === "drama" ||
-              // element["extra"]["type"] === "zvideo" ||
-              // element["extra"]["type"] === "Video" ||
-              // element["common_card"]["style"] === "BIG_IMAGE" ||
-              // 取消以下注释，推荐列表拦截“盐选推荐”
-              // IsYanXuan(element) ||
-              // 注释下行，推荐列表关闭关键字屏蔽功能
-              IsKeywordBlock(element)
-            );
-            try {
-              if (
-                flag === true &&
-                customBlockedUsers &&
-                element["common_card"]["feed_content"].hasOwnProperty("source_line") &&
-                element["common_card"]["feed_content"]["source_line"].hasOwnProperty("elements") &&
-                customBlockedUsers[element["common_card"]["feed_content"]["source_line"]["elements"][1]["text"]["panel_text"]]
-              ) {
-                flag = false;
-              }
-            } catch (err) {}
-            return flag;
-          });
-          obj["data"] = data;
+            return !(isAd || isStream || isYanXuan || matchKeyword || isBlockedUser);
+          };
+
+          // 修复number类型精度丢失
+          let obj = JSON.parse(magicJS.response.body.replace(/(\w+"+\s?):\s?(\d{15,})/g, '$1:"$2"'));
+          obj["data"] = obj["data"].filter(dataFilter);
           response = { body: JSON.stringify(obj) };
         } catch (err) {
           magicJS.logError(`知乎推荐列表去广告出现异常：${err}`);
@@ -226,39 +200,26 @@ let magicJS = MagicJS(scriptName, "INFO");
       // 关注列表去广告
       case /^https?:\/\/api\.zhihu\.com\/moments(\/|\?)?(recommend|action=|feed_type=)(?!\/people)/.test(magicJS.request.url):
         try {
-          let obj = JSON.parse(magicJS.response.body);
-          let user_info = GetUserInfo();
+          // 修复number类型精度丢失
+          let obj = JSON.parse(magicJS.response.body.replace(/(\w+"+\s?):\s?(\d{15,})/g, '$1:"$2"'));
+          const user_info = GetUserInfo();
           let customBlockedUsers = magicJS.read(blockedUsersKey, user_info.id);
           customBlockedUsers = !!customBlockedUsers ? customBlockedUsers : {};
           let data = [];
-          // 修正由于JS number类型精度问题，导致JSON.parse精度丢失，引起想法不存在的问题
-          const targetIdFix = (element) => {
-            if (element["target_type"] == "pin") {
-              target_id = element["target"]["url"].match(/https?:\/\/www\.zhihu\.com\/pin\/(\d*)/)[1];
-              element["target"]["id"] = target_id;
-              // 转发的想法处理
-              if (!!element["target"]["origin_pin"] && element["target"]["origin_pin"].hasOwnProperty("url")) {
-                origin_target_id = element["target"]["origin_pin"]["url"].match(/https?:\/\/www\.zhihu\.com\/pin\/(\d*)/)[1];
-                element["target"]["origin_pin"]["id"] = origin_target_id;
-              }
-            }
-            // 动态折叠处理
-            else if (element["type"] == "moments_group") {
-              let momentsGroupList = [];
-              for (let j = 0; j < element["list"].length; j++) {
-                momentsGroupList.push(targetIdFix(element["list"][j]));
-              }
-              element["list"] = momentsGroupList;
-            }
-            return element;
-          };
+
+          const settings_moments_stream = magicJS.read("zhihu_settings_moments_stream") == true;
+          const settings_blocked_users = magicJS.read("zhihu_settings_blocked_users") != false;
+
           for (let i = 0; i < obj["data"].length; i++) {
-            let element = targetIdFix(obj["data"][i]);
-            if (!element["ad"]) {
+            // let element = targetIdFix(obj["data"][i]);
+            let element = obj["data"][i];
+            if (!element["ad"] && !element["adjson"] && !element["ad_list"]) {
               // 判断转发的想法是否含有黑名单用户
-              if (element.target && element.target.origin_pin && element.target.origin_pin.author && customBlockedUsers[element.target.origin_pin.author.name]) {
+              if (settings_blocked_users && element.target && element.target.origin_pin && element.target.origin_pin.author && customBlockedUsers[element.target.origin_pin.author.name]) {
                 magicJS.notifyDebug(`屏蔽“${element.target.author.name}”转发黑名单用户“${element.target.origin_pin.author.name}”的想法。`);
-              } else {
+              }
+              // 屏蔽关注页的“最新视频”
+              else if (!settings_moments_stream || element["type"] != "videos") {
                 data.push(element);
               }
             }
@@ -272,7 +233,7 @@ let magicJS = MagicJS(scriptName, "INFO");
       // 回答列表去广告与黑名单增强
       case /^https?:\/\/api\.zhihu\.com\/v4\/questions/.test(magicJS.request.url):
         try {
-          let userInfo = GetUserInfo();
+          const userInfo = GetUserInfo();
           let customBlockedUsers = magicJS.read(blockedUsersKey, userInfo.id);
           customBlockedUsers = !!customBlockedUsers ? customBlockedUsers : {};
           let obj = JSON.parse(magicJS.response.body);
@@ -288,49 +249,163 @@ let magicJS = MagicJS(scriptName, "INFO");
           magicJS.logError(`知乎回答列表去广告出现异常：${err}`);
         }
         break;
-      // 拦截官方账号推广消息
-      case /^https?:\/\/api\.zhihu\.com\/notifications\/v3\/timeline\/entry\/system_message/.test(magicJS.request.url):
+      // 知乎V5版本评论去广告及黑名单增强
+      case /^https?:\/\/api\.zhihu\.com\/comment_v5\/(answers|pins|comments?|articles)\/\d+\/(root|child)_comment/.test(magicJS.request.url):
         try {
-          const sysmsg_blacklist = ["知乎小伙伴", "知乎视频", "知乎团队", "知乎礼券", "知乎读书会团队"];
-          let obj = JSON.parse(magicJS.response.body);
-          let data = obj["data"].filter((element) => {
-            return sysmsg_blacklist.indexOf(element["content"]["title"]) < 0;
-          });
-          obj["data"] = data;
-          response = { body: JSON.stringify(obj) };
+          if (!!magicJS.response.body) {
+            let obj = JSON.parse(magicJS.response.body);
+            obj["ad_info"] = {};
+            // 屏蔽黑名单用户
+            if (magicJS.read("zhihu_settings_blocked_users") != false) {
+              let user_info = GetUserInfo();
+              let customBlockedUsers = magicJS.read(blockedUsersKey, user_info.id);
+              customBlockedUsers = !!customBlockedUsers ? customBlockedUsers : {};
+              let newComments = [];
+              let blockCommentIdObj = {};
+              obj.data.forEach((comment) => {
+                // 评论人昵称
+                let commentUserName = comment.author.name;
+                // 回复哪个人的评论(仅适用于独立子评论页面请求)
+                let replyUserName = "";
+                if (comment.reply_to_author && comment.reply_to_author && comment.reply_to_author.name) {
+                  replyUserName = comment.reply_to_author.name;
+                }
+                if (customBlockedUsers[commentUserName] || customBlockedUsers[replyUserName]) {
+                  if (customBlockedUsers[commentUserName] && !replyUserName && magicJS.request.url.indexOf("root_comment") > 0) {
+                    magicJS.notifyDebug(`屏蔽黑名单用户“${commentUserName}”的主评论。`);
+                  } else if (customBlockedUsers[commentUserName] && !replyUserName && magicJS.request.url.indexOf("child_comment") > 0) {
+                    magicJS.notifyDebug(`屏蔽黑名单用户“${commentUserName}”的子评论。`);
+                  } else if (customBlockedUsers[commentUserName] && replyUserName && magicJS.request.url.indexOf("child_comment") > 0) {
+                    magicJS.notifyDebug(`屏蔽黑名单用户“${commentUserName}”回复“${replyUserName}”的子评论。`);
+                  } else {
+                    magicJS.notifyDebug(`屏蔽“${commentUserName}”回复黑名单用户“${replyUserName}”的子评论。`);
+                  }
+                  blockCommentIdObj[comment.id] = commentUserName;
+                  // 主评论数量-1，仅适用于root_comment主评论页面请求
+                  if (obj.counts && obj.counts.total_counts) {
+                    obj.counts.total_counts -= 1;
+                  }
+                  // 子评论数量-1，仅适用于child_comment子评论页面请求
+                  if (obj.paging && obj.paging.totals) {
+                    obj.paging.totals -= 1;
+                  }
+                  if (obj.root && obj.root.child_comment_count) {
+                    obj.root.child_comment_count -= 1;
+                  }
+                } else {
+                  if (comment.child_comments) {
+                    let newChildComments = [];
+                    comment.child_comments.forEach((childComment) => {
+                      let childCommentUserName = childComment.author.name;
+                      if (customBlockedUsers[childCommentUserName] || blockCommentIdObj[childComment.reply_comment_id]) {
+                        if (customBlockedUsers[childCommentUserName]) {
+                          magicJS.notifyDebug(`屏蔽黑名单用户“${childCommentUserName}”的子评论。`);
+                          blockCommentIdObj[childComment.id] = childCommentUserName;
+                        } else {
+                          magicJS.notifyDebug(`屏蔽“${childCommentUserName}”回复黑名单用户“${blockCommentIdObj[childComment.reply_comment_id]}”的子评论。`);
+                        }
+                        comment.child_comment_count -= 1;
+                      } else {
+                        newChildComments.push(childComment);
+                      }
+                    });
+                    comment.child_comments = newChildComments;
+                  }
+                  newComments.push(comment);
+                }
+              });
+              obj.data = newComments;
+            }
+            response = { body: JSON.stringify(obj) };
+          }
         } catch (err) {
-          magicJS.logError(`知乎拦截官方账号推广消息出现异常：${err}`);
+          magicJS.logError(`去除知乎评论广告出现异常：${err}`);
         }
         break;
-      // 屏蔽官方营销消息
-      case /^https?:\/\/api\.zhihu\.com\/notifications\/v3\/message/.test(magicJS.request.url):
+      // 知乎旧版回答中的评论黑名单增强
+      case /^https?:\/\/api\.zhihu\.com\/(answers|pins|comments?|articles)\/\d+\/(root|child)_comments/.test(magicJS.request.url):
         try {
-          let obj = JSON.parse(magicJS.response.body);
-          let newItems = [];
-          for (let item of obj["data"]) {
-            if (item["detail_title"] === "官方帐号消息") {
-              let unread_count = item["unread_count"];
-              if (unread_count > 0) {
-                item["content"]["text"] = "未读消息" + unread_count + "条";
-              } else {
-                item["content"]["text"] = "全部消息已读";
-              }
-              item["is_read"] = true;
-              item["unread_count"] = 0;
-              newItems.push(item);
-            } else if (item["detail_title"] !== "知乎活动助手") {
-              newItems.push(item);
+          if (!!magicJS.response.body) {
+            // 评论区去广告
+            let obj = JSON.parse(magicJS.response.body);
+            if (magicJS.read("zhihu_settings_blocked_users") != false) {
+              // 屏蔽黑名单用户
+              let user_info = GetUserInfo();
+              let customBlockedUsers = magicJS.read(blockedUsersKey, user_info.id);
+              let newData = [];
+              obj.data.forEach((comment) => {
+                // 评论人昵称
+                let commentUserName = comment.author.member.name;
+                // 回复哪个人的评论(仅适用于独立子评论页面请求)
+                let replyUserName = "";
+                if (comment.reply_to_author && comment.reply_to_author.member && comment.reply_to_author.member.name) {
+                  replyUserName = comment.reply_to_author.member.name;
+                }
+                if (customBlockedUsers[commentUserName] || customBlockedUsers[replyUserName]) {
+                  if (customBlockedUsers[commentUserName] && !replyUserName && magicJS.request.url.indexOf("root_comment") > 0) {
+                    magicJS.notifyDebug(`屏蔽黑名单用户“${commentUserName}”的主评论。`);
+                  } else if (customBlockedUsers[commentUserName] && !replyUserName && magicJS.request.url.indexOf("child_comment") > 0) {
+                    magicJS.notifyDebug(`屏蔽黑名单用户“${commentUserName}”的子评论。`);
+                  } else if (customBlockedUsers[commentUserName] && replyUserName && magicJS.request.url.indexOf("child_comment") > 0) {
+                    magicJS.notifyDebug(`屏蔽黑名单用户“${commentUserName}”回复“${replyUserName}”的子评论。`);
+                  } else {
+                    magicJS.notifyDebug(`屏蔽“${commentUserName}”回复黑名单用户“${replyUserName}”的子评论。`);
+                  }
+                  // 减少主评论页面中的评论总数(仅适用于独立的主评论页面请求)
+                  if (obj.common_counts) {
+                    obj.common_counts -= 1;
+                  }
+                  // 减少子评论页面中的评论总数(仅适用于独立子评论页面请求)
+                  if (obj.paging && obj.paging.totals) {
+                    obj.paging.totals -= 1;
+                  }
+                } else {
+                  // 屏蔽子评论中的黑名单用户(仅适用于独立的主评论页面请求)
+                  if (comment.child_comments) {
+                    let newChildComments = [];
+                    comment.child_comments.forEach((childComment) => {
+                      if (customBlockedUsers[childComment.author.member.name] || customBlockedUsers[childComment.reply_to_author.member.name]) {
+                        if (customBlockedUsers[childComment.author.member.name]) {
+                          magicJS.notifyDebug(`屏蔽黑名单用户“${childComment.author.member.name}”的主评论。`);
+                        } else {
+                          magicJS.notifyDebug(`屏蔽“${childComment.author.member.name}”回复黑名单用户“${childComment.reply_to_author.member.name}”的子评论。`);
+                        }
+                        comment.child_comment_count -= 1;
+                      } else {
+                        newChildComments.push(childComment);
+                      }
+                    });
+                    comment.child_comments = newChildComments;
+                  }
+                  newData.push(comment);
+                }
+              });
+              obj.data = newData;
             }
+            response = { body: JSON.stringify(obj) };
           }
-          obj["data"] = newItems;
-          response = { body: JSON.stringify(obj) };
         } catch (err) {
-          magicJS.logError(`知乎屏蔽官方营销消息出现异常：${err}`);
+          magicJS.logError(`去除知乎评论广告出现异常：${err}`);
+        }
+        break;
+      // 知乎热榜去广告
+      case magicJS.read("zhihu_settings_hot_list") != false && /^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/)/.test(magicJS.request.url):
+        try {
+          if (!!magicJS.response.body) {
+            let obj = JSON.parse(magicJS.response.body);
+            let data = obj["data"].filter((e) => {
+              return e["type"] === "hot_list_feed" || e["type"] === "hot_list_feed_video";
+            });
+            obj["data"] = data;
+            response = { body: JSON.stringify(obj) };
+          }
+        } catch (err) {
+          magicJS.logError(`去除知乎热搜广告出现异常：${err}`);
         }
         break;
       // 黑名单管理
-      case /^https?:\/\/api\.zhihu\.com\/settings\/blocked_users/.test(magicJS.request.url):
-        let userInfo = GetUserInfo();
+      case magicJS.read("zhihu_settings_blocked_users") != false && /^https?:\/\/api\.zhihu\.com\/settings\/blocked_users/.test(magicJS.request.url):
+        const userInfo = GetUserInfo();
         let defaultBlockedUsers = {};
         let customBlockedUsers = magicJS.read(blockedUsersKey, userInfo.id);
         customBlockedUsers = typeof customBlockedUsers === "object" && !!customBlockedUsers ? customBlockedUsers : {};
@@ -338,14 +413,14 @@ let magicJS = MagicJS(scriptName, "INFO");
           customBlockedUsers[element] = "00000000000000000000000000000000";
           defaultBlockedUsers[element] = "00000000000000000000000000000000";
         });
-        magicJS.logInfo(`当前用户id：${userInfo.id}，脚本黑名单：${JSON.stringify(customBlockedUsers)}`);
+        magicJS.logDebug(`当前用户id：${userInfo.id}，脚本黑名单：${JSON.stringify(customBlockedUsers)}`);
         // 获取黑名单
         if (magicJS.request.method == "GET") {
           try {
             // 加载黑名单首页时，清空历史黑名单，仅保留脚本默认黑名单
             if (magicJS.request.url.indexOf("offset") < 0) {
               customBlockedUsers = defaultBlockedUsers;
-              magicJS.logInfo("脚本黑名单已清空，请滑动至黑名单末尾保证重新获取完成。");
+              magicJS.logDebug("脚本黑名单已清空，请滑动至黑名单末尾保证重新获取完成。");
               magicJS.notify("脚本黑名单已清空，请滑动至黑名单末尾保证重新获取完成。");
             }
             let obj = JSON.parse(magicJS.response.body);
@@ -358,10 +433,8 @@ let magicJS = MagicJS(scriptName, "INFO");
               });
               magicJS.write(blockedUsersKey, customBlockedUsers, userInfo.id);
               if (obj["paging"]["is_end"] == true) {
-                magicJS.notify(
-                  `获取脚本黑名单结束，当前黑名单共${Object.keys(customBlockedUsers).length - defaultAnswerBlockedUsers.length}人。\n脚本内置黑名单${defaultAnswerBlockedUsers.length}人。`
-                );
-                magicJS.logInfo(`脚本黑名单内容：${JSON.stringify(customBlockedUsers)}。`);
+                magicJS.notify(`获取脚本黑名单结束，当前黑名单共${Object.keys(customBlockedUsers).length - defaultAnswerBlockedUsers.length}人。\n脚本内置黑名单${defaultAnswerBlockedUsers.length}人。`);
+                magicJS.logDebug(`脚本黑名单内容：${JSON.stringify(customBlockedUsers)}。`);
               }
             } else {
               magicJS.logWarning(`获取黑名单失败，接口响应不合法：${magicJS.response.body}`);
@@ -381,7 +454,7 @@ let magicJS = MagicJS(scriptName, "INFO");
               if (obj["id"]) {
                 customBlockedUsers[obj["name"]] = obj["id"];
                 magicJS.write(blockedUsersKey, customBlockedUsers, userInfo.id);
-                magicJS.logInfo(`${obj["name"]}写入脚本黑名单成功，当前脚本黑名单数据：${JSON.stringify(customBlockedUsers)}`);
+                magicJS.logDebug(`${obj["name"]}写入脚本黑名单成功，当前脚本黑名单数据：${JSON.stringify(customBlockedUsers)}`);
                 magicJS.notify(`已将用户“${obj["name"]}”写入脚本黑名单。`);
               } else {
                 magicJS.logError(`${obj["name"]}写入脚本黑名单失败，没有获取到用户Id。`);
@@ -408,7 +481,7 @@ let magicJS = MagicJS(scriptName, "INFO");
                   if (customBlockedUsers[username] == user_id) {
                     delete customBlockedUsers[username];
                     magicJS.write(blockedUsersKey, customBlockedUsers, userInfo.id);
-                    magicJS.logInfo(`${username}移出脚本黑名单成功，当前脚本黑名单数据：${JSON.stringify(customBlockedUsers)}`);
+                    magicJS.logDebug(`${username}移出脚本黑名单成功，当前脚本黑名单数据：${JSON.stringify(customBlockedUsers)}`);
                     magicJS.notify(`已将用户“${username}”移出脚本黑名单！`);
                     break;
                   }
@@ -427,8 +500,48 @@ let magicJS = MagicJS(scriptName, "INFO");
           }
         }
         break;
+      // 拦截官方账号推广消息
+      case magicJS.read("zhihu_settings_sys_msg") != false && /^https?:\/\/api\.zhihu\.com\/notifications\/v3\/timeline\/entry\/system_message/.test(magicJS.request.url):
+        try {
+          const sysmsg_blacklist = ["知乎小伙伴", "知乎视频", "知乎团队", "知乎礼券", "知乎读书会团队"];
+          let obj = JSON.parse(magicJS.response.body);
+          let data = obj["data"].filter((element) => {
+            return sysmsg_blacklist.indexOf(element["content"]["title"]) < 0;
+          });
+          obj["data"] = data;
+          response = { body: JSON.stringify(obj) };
+        } catch (err) {
+          magicJS.logError(`知乎拦截官方账号推广消息出现异常：${err}`);
+        }
+        break;
+      // 屏蔽官方营销消息
+      case magicJS.read("zhihu_settings_sys_msg") != false && /^https?:\/\/api\.zhihu\.com\/notifications\/v3\/message/.test(magicJS.request.url):
+        try {
+          let obj = JSON.parse(magicJS.response.body);
+          let newItems = [];
+          for (let item of obj["data"]) {
+            if (item["detail_title"] === "官方帐号消息") {
+              let unread_count = item["unread_count"];
+              if (unread_count > 0) {
+                item["content"]["text"] = "未读消息" + unread_count + "条";
+              } else {
+                item["content"]["text"] = "全部消息已读";
+              }
+              item["is_read"] = true;
+              item["unread_count"] = 0;
+              newItems.push(item);
+            } else if (item["detail_title"] !== "知乎活动助手") {
+              newItems.push(item);
+            }
+          }
+          obj["data"] = newItems;
+          response = { body: JSON.stringify(obj) };
+        } catch (err) {
+          magicJS.logError(`知乎屏蔽官方营销消息出现异常：${err}`);
+        }
+        break;
       // 去除预置关键字广告
-      case /^https?:\/\/api\.zhihu\.com\/search\/preset_words\?/.test(magicJS.request.url):
+      case magicJS.read("zhihu_settings_preset_words") == true && /^https?:\/\/api\.zhihu\.com\/search\/preset_words\?/.test(magicJS.request.url):
         try {
           if (!!magicJS.response.body) {
             magicJS.logDebug(`预置关键字返回：${magicJS.response.body}`);
@@ -446,7 +559,7 @@ let magicJS = MagicJS(scriptName, "INFO");
         }
         break;
       // 优化知乎软件配置
-      case /^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config/.test(magicJS.request.url):
+      case magicJS.read("zhihu_settings_app_conf") == true && /^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config/.test(magicJS.request.url):
         try {
           if (!!magicJS.response.body) {
             let obj = JSON.parse(magicJS.response.body);
@@ -467,7 +580,7 @@ let magicJS = MagicJS(scriptName, "INFO");
         }
         break;
       // 知乎热搜去广告
-      case /^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items/.test(magicJS.request.url):
+      case magicJS.read("zhihu_settings_hot_search") == true && /^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items/.test(magicJS.request.url):
         try {
           if (!!magicJS.response.body) {
             let obj = JSON.parse(magicJS.response.body);
@@ -478,165 +591,14 @@ let magicJS = MagicJS(scriptName, "INFO");
           magicJS.logError(`去除知乎热搜广告出现异常：${err}`);
         }
         break;
-      // 知乎热榜去广告
-      case /^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/)/.test(magicJS.request.url):
-        try {
-          if (!!magicJS.response.body) {
-            let obj = JSON.parse(magicJS.response.body);
-            let data = obj["data"].filter((e) => {
-              return e["type"] === "hot_list_feed" || e["type"] === "hot_list_feed_video";
-            });
-            obj["data"] = data;
-            response = { body: JSON.stringify(obj) };
-          }
-        } catch (err) {
-          magicJS.logError(`去除知乎热搜广告出现异常：${err}`);
-        }
-        break;
-      // 知乎V5版本评论去广告及黑名单增强
-      case /^https?:\/\/api\.zhihu\.com\/comment_v5\/(answers|pins|comments?|articles)\/\d+\/(root|child)_comment/.test(magicJS.request.url):
-        try {
-          if (!!magicJS.response.body) {
-            let obj = JSON.parse(magicJS.response.body);
-            obj["ad_info"] = {};
-            // 屏蔽黑名单用户
-            let user_info = GetUserInfo();
-            let customBlockedUsers = magicJS.read(blockedUsersKey, user_info.id);
-            customBlockedUsers = !!customBlockedUsers ? customBlockedUsers : {};
-            let newComments = [];
-            let blockCommentIdObj = {};
-            obj.data.forEach((comment) => {
-              // 评论人昵称
-              let commentUserName = comment.author.name;
-              // 回复哪个人的评论(仅适用于独立子评论页面请求)
-              let replyUserName = "";
-              if (comment.reply_to_author && comment.reply_to_author && comment.reply_to_author.name) {
-                replyUserName = comment.reply_to_author.name;
-              }
-              if (customBlockedUsers[commentUserName] || customBlockedUsers[replyUserName]) {
-                if (customBlockedUsers[commentUserName] && !replyUserName && magicJS.request.url.indexOf("root_comment") > 0) {
-                  magicJS.notifyDebug(`屏蔽黑名单用户“${commentUserName}”的主评论。`);
-                } else if (customBlockedUsers[commentUserName] && !replyUserName && magicJS.request.url.indexOf("child_comment") > 0) {
-                  magicJS.notifyDebug(`屏蔽黑名单用户“${commentUserName}”的子评论。`);
-                } else if (customBlockedUsers[commentUserName] && replyUserName && magicJS.request.url.indexOf("child_comment") > 0) {
-                  magicJS.notifyDebug(`屏蔽黑名单用户“${commentUserName}”回复“${replyUserName}”的子评论。`);
-                } else {
-                  magicJS.notifyDebug(`屏蔽“${commentUserName}”回复黑名单用户“${replyUserName}”的子评论。`);
-                }
-                blockCommentIdObj[comment.id] = commentUserName;
-                // 主评论数量-1，仅适用于root_comment主评论页面请求
-                if (obj.counts && obj.counts.total_counts) {
-                  obj.counts.total_counts -= 1;
-                }
-                // 子评论数量-1，仅适用于child_comment子评论页面请求
-                if (obj.paging && obj.paging.totals) {
-                  obj.paging.totals -= 1;
-                }
-                if (obj.root && obj.root.child_comment_count) {
-                  obj.root.child_comment_count -= 1;
-                }
-              } else {
-                if (comment.child_comments) {
-                  let newChildComments = [];
-                  comment.child_comments.forEach((childComment) => {
-                    let childCommentUserName = childComment.author.name;
-                    if (customBlockedUsers[childCommentUserName] || blockCommentIdObj[childComment.reply_comment_id]) {
-                      if (customBlockedUsers[childCommentUserName]) {
-                        magicJS.notifyDebug(`屏蔽黑名单用户“${childCommentUserName}”的子评论。`);
-                        blockCommentIdObj[childComment.id] = childCommentUserName;
-                      } else {
-                        magicJS.notifyDebug(`屏蔽“${childCommentUserName}”回复黑名单用户“${blockCommentIdObj[childComment.reply_comment_id]}”的子评论。`);
-                      }
-                      comment.child_comment_count -= 1;
-                    } else {
-                      newChildComments.push(childComment);
-                    }
-                  });
-                  comment.child_comments = newChildComments;
-                }
-                newComments.push(comment);
-              }
-            });
-            obj.data = newComments;
-            response = { body: JSON.stringify(obj) };
-          }
-        } catch (err) {
-          magicJS.logError(`去除知乎评论广告出现异常：${err}`);
-        }
-        break;
-      // 知乎旧版回答中的评论黑名单增强
-      case /^https?:\/\/api\.zhihu\.com\/(answers|pins|comments?|articles)\/\d+\/(root|child)_comments/.test(magicJS.request.url):
-        try {
-          if (!!magicJS.response.body) {
-            // 评论区去广告
-            let obj = JSON.parse(magicJS.response.body);
-            // 屏蔽黑名单用户
-            let user_info = GetUserInfo();
-            let customBlockedUsers = magicJS.read(blockedUsersKey, user_info.id);
-            let newData = [];
-            obj.data.forEach((comment) => {
-              // 评论人昵称
-              let commentUserName = comment.author.member.name;
-              // 回复哪个人的评论(仅适用于独立子评论页面请求)
-              let replyUserName = "";
-              if (comment.reply_to_author && comment.reply_to_author.member && comment.reply_to_author.member.name) {
-                replyUserName = comment.reply_to_author.member.name;
-              }
-              if (customBlockedUsers[commentUserName] || customBlockedUsers[replyUserName]) {
-                if (customBlockedUsers[commentUserName] && !replyUserName && magicJS.request.url.indexOf("root_comment") > 0) {
-                  magicJS.notifyDebug(`屏蔽黑名单用户“${commentUserName}”的主评论。`);
-                } else if (customBlockedUsers[commentUserName] && !replyUserName && magicJS.request.url.indexOf("child_comment") > 0) {
-                  magicJS.notifyDebug(`屏蔽黑名单用户“${commentUserName}”的子评论。`);
-                } else if (customBlockedUsers[commentUserName] && replyUserName && magicJS.request.url.indexOf("child_comment") > 0) {
-                  magicJS.notifyDebug(`屏蔽黑名单用户“${commentUserName}”回复“${replyUserName}”的子评论。`);
-                } else {
-                  magicJS.notifyDebug(`屏蔽“${commentUserName}”回复黑名单用户“${replyUserName}”的子评论。`);
-                }
-                // 减少主评论页面中的评论总数(仅适用于独立的主评论页面请求)
-                if (obj.common_counts) {
-                  obj.common_counts -= 1;
-                }
-                // 减少子评论页面中的评论总数(仅适用于独立子评论页面请求)
-                if (obj.paging && obj.paging.totals) {
-                  obj.paging.totals -= 1;
-                }
-              } else {
-                // 屏蔽子评论中的黑名单用户(仅适用于独立的主评论页面请求)
-                if (comment.child_comments) {
-                  let newChildComments = [];
-                  comment.child_comments.forEach((childComment) => {
-                    if (customBlockedUsers[childComment.author.member.name] || customBlockedUsers[childComment.reply_to_author.member.name]) {
-                      if (customBlockedUsers[childComment.author.member.name]) {
-                        magicJS.notifyDebug(`屏蔽黑名单用户“${childComment.author.member.name}”的主评论。`);
-                      } else {
-                        magicJS.notifyDebug(`屏蔽“${childComment.author.member.name}”回复黑名单用户“${childComment.reply_to_author.member.name}”的子评论。`);
-                      }
-                      comment.child_comment_count -= 1;
-                    } else {
-                      newChildComments.push(childComment);
-                    }
-                  });
-                  comment.child_comments = newChildComments;
-                }
-                newData.push(comment);
-              }
-            });
-            obj.data = newData;
-            response = { body: JSON.stringify(obj) };
-          }
-        } catch (err) {
-          magicJS.logError(`去除知乎评论广告出现异常：${err}`);
-        }
-        break;
       default:
-        magicJS.logWarning("触发意外的请求处理，请确认脚本或复写配置正常。");
         break;
     }
   } else if (magicJS.isRequest) {
     // 知乎屏蔽关键词解锁
-    if (/^https?:\/\/api\.zhihu\.com\/feed-root\/block/.test(magicJS.request.url) === true) {
+    if (magicJS.read("zhihu_settings_blocked_keywords") != false && /^https?:\/\/api\.zhihu\.com\/feed-root\/block/.test(magicJS.request.url) === true) {
       try {
-        let userInfo = GetUserInfo();
+        const userInfo = GetUserInfo();
         // 获取屏蔽关键词列表
         if (magicJS.request.method === "GET" && userInfo.is_vip !== true) {
           let keywords = magicJS.read(keywordBlockKey, userInfo.id);
@@ -658,7 +620,7 @@ let magicJS = MagicJS(scriptName, "INFO");
             success: true,
             is_vip: true,
             kw_min_length: 2,
-            kw_max_length: 15,
+            kw_max_length: 100,
             kw_max_count: keywordMaxCount,
             data: keywords,
           });
@@ -707,7 +669,7 @@ let magicJS = MagicJS(scriptName, "INFO");
               } else {
                 response = { response: { body: body, headers: headers, status: 200 } };
               }
-              magicJS.logInfo(`添加本地脚本屏蔽关键词“${keyword}”`);
+              magicJS.logDebug(`添加本地脚本屏蔽关键词“${keyword}”`);
             } else {
               let body = JSON.stringify({
                 error: {
@@ -755,7 +717,7 @@ let magicJS = MagicJS(scriptName, "INFO");
           } else {
             response = { response: { body: body, headers: headers, status: 200 } };
           }
-          magicJS.logInfo(`删除本地脚本屏蔽关键词：“${keyword}”`);
+          magicJS.logDebug(`删除本地脚本屏蔽关键词：“${keyword}”`);
         }
       } catch (err) {
         magicJS.logError(`知乎关键词屏蔽操作出现异常：${err}`);
@@ -777,7 +739,7 @@ let magicJS = MagicJS(scriptName, "INFO");
 function GetUserInfo() {
   let defaultUserInfo = { id: "default", is_vip: false };
   try {
-    let userInfo = magicJS.read(currentUserInfoKey);
+    const userInfo = magicJS.read(currentUserInfoKey);
     if (typeof userInfo === "string") userInfo = JSON.parse(userInfo);
     if (!!userInfo && userInfo.hasOwnProperty("id")) {
       return userInfo;
@@ -791,4 +753,4 @@ function GetUserInfo() {
 }
 
 // prettier-ignore
-function MagicJS(scriptName="MagicJS",logLevel="INFO"){return new class{constructor(){if(this.version="2.2.3.3",this.scriptName=scriptName,this.logLevels={DEBUG:5,INFO:4,NOTIFY:3,WARNING:2,ERROR:1,CRITICAL:0,NONE:-1},this.isLoon="undefined"!=typeof $loon,this.isQuanX="undefined"!=typeof $task,this.isJSBox="undefined"!=typeof $drive,this.isNode="undefined"!=typeof module&&!this.isJSBox,this.isSurge="undefined"!=typeof $httpClient&&!this.isLoon,this.node={request:void 0,fs:void 0,data:{}},this.iOSUserAgent="Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Mobile/15E148 Safari/604.1",this.pcUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36 Edg/84.0.522.59",this.logLevel=logLevel,this._barkUrl="",this.isNode){this.node.fs=require("fs"),this.node.request=require("request");try{this.node.fs.accessSync("./magic.json",this.node.fs.constants.R_OK|this.node.fs.constants.W_OK)}catch(err){this.node.fs.writeFileSync("./magic.json","{}",{encoding:"utf8"})}this.node.data=require("./magic.json")}else this.isJSBox&&($file.exists("drive://MagicJS")||$file.mkdir("drive://MagicJS"),$file.exists("drive://MagicJS/magic.json")||$file.write({data:$data({string:"{}"}),path:"drive://MagicJS/magic.json"}))}set barkUrl(url){this._barkUrl=url.replace(/\/+$/g,"")}set logLevel(level){this._logLevel="string"==typeof level?level.toUpperCase():"DEBUG"}get logLevel(){return this._logLevel}get isRequest(){return"undefined"!=typeof $request&&"undefined"==typeof $response}get isResponse(){return"undefined"!=typeof $response}get request(){return"undefined"!=typeof $request?$request:void 0}get response(){return"undefined"!=typeof $response?($response.hasOwnProperty("status")&&($response.statusCode=$response.status),$response.hasOwnProperty("statusCode")&&($response.status=$response.statusCode),$response):void 0}get platform(){return this.isSurge?"Surge":this.isQuanX?"Quantumult X":this.isLoon?"Loon":this.isJSBox?"JSBox":this.isNode?"Node.js":"Unknown"}read(key,session=""){let val="";this.isSurge||this.isLoon?val=$persistentStore.read(key):this.isQuanX?val=$prefs.valueForKey(key):this.isNode?val=this.node.data:this.isJSBox&&(val=$file.read("drive://MagicJS/magic.json").string);try{this.isNode&&(val=val[key]),this.isJSBox&&(val=JSON.parse(val)[key]),session&&("string"==typeof val&&(val=JSON.parse(val)),val=val&&"object"==typeof val?val[session]:null)}catch(err){this.logError(err),val=session?{}:null,this.del(key)}void 0===val&&(val=null);try{val&&"string"==typeof val&&(val=JSON.parse(val))}catch(err){}return this.logDebug(`READ DATA [${key}]${session?`[${session}]`:""}(${typeof val})\n${JSON.stringify(val)}`),val}write(key,val,session=""){let data=session?{}:"";if(session&&(this.isSurge||this.isLoon)?data=$persistentStore.read(key):session&&this.isQuanX?data=$prefs.valueForKey(key):this.isNode?data=this.node.data:this.isJSBox&&(data=JSON.parse($file.read("drive://MagicJS/magic.json").string)),session){try{"string"==typeof data&&(data=JSON.parse(data)),data="object"==typeof data&&data?data:{}}catch(err){this.logError(err),this.del(key),data={}}this.isJSBox||this.isNode?(data[key]&&"object"==typeof data[key]||(data[key]={}),data[key].hasOwnProperty(session)||(data[key][session]=null),void 0===val?delete data[key][session]:data[key][session]=val):void 0===val?delete data[session]:data[session]=val}else this.isNode||this.isJSBox?void 0===val?delete data[key]:data[key]=val:data=void 0===val?null:val;"object"==typeof data&&(data=JSON.stringify(data)),this.isSurge||this.isLoon?$persistentStore.write(data,key):this.isQuanX?$prefs.setValueForKey(data,key):this.isNode?this.node.fs.writeFileSync("./magic.json",data):this.isJSBox&&$file.write({data:$data({string:data}),path:"drive://MagicJS/magic.json"}),this.logDebug(`WRITE DATA [${key}]${session?`[${session}]`:""}(${typeof val})\n${JSON.stringify(val)}`)}del(key,session=""){this.logDebug(`DELETE KEY [${key}]${session?`[${session}]`:""}`),this.write(key,null,session)}notify(title=this.scriptName,subTitle="",body="",opts=""){let convertOptions;if(opts=(_opts=>{let newOpts={};if("string"==typeof _opts)this.isLoon?newOpts={openUrl:_opts}:this.isQuanX?newOpts={"open-url":_opts}:this.isSurge&&(newOpts={url:_opts});else if("object"==typeof _opts)if(this.isLoon)newOpts.openUrl=_opts["open-url"]?_opts["open-url"]:"",newOpts.mediaUrl=_opts["media-url"]?_opts["media-url"]:"";else if(this.isQuanX)newOpts=_opts["open-url"]||_opts["media-url"]?_opts:{};else if(this.isSurge){let openUrl=_opts["open-url"]||_opts.openUrl;newOpts=openUrl?{url:openUrl}:{}}return newOpts})(opts),1==arguments.length&&(title=this.scriptName,subTitle="",body=arguments[0]),this.logNotify(`title:${title}\nsubTitle:${subTitle}\nbody:${body}\noptions:${"object"==typeof opts?JSON.stringify(opts):opts}`),this.isSurge)$notification.post(title,subTitle,body,opts);else if(this.isLoon)opts?$notification.post(title,subTitle,body,opts):$notification.post(title,subTitle,body);else if(this.isQuanX)$notify(title,subTitle,body,opts);else if(this.isNode){if(this._barkUrl){let content=encodeURI(`${title}/${subTitle}\n${body}`);this.get(`${this._barkUrl}/${content}`,()=>{})}}else if(this.isJSBox){let push={title:title,body:subTitle?`${subTitle}\n${body}`:body};$push.schedule(push)}}notifyDebug(title=this.scriptName,subTitle="",body="",opts=""){"DEBUG"===this.logLevel&&(1==arguments.length&&(title=this.scriptName,subTitle="",body=arguments[0]),this.notify(title,subTitle,body,opts))}log(msg,level="INFO"){this.logLevels[this._logLevel]<this.logLevels[level.toUpperCase()]||console.log(`[${level}] [${this.scriptName}]\n${msg}\n`)}logDebug(msg){this.log(msg,"DEBUG")}logInfo(msg){this.log(msg,"INFO")}logNotify(msg){this.log(msg,"NOTIFY")}logWarning(msg){this.log(msg,"WARNING")}logError(msg){this.log(msg,"ERROR")}logRetry(msg){this.log(msg,"RETRY")}adapterHttpOptions(options,method){let _options="object"==typeof options?Object.assign({},options):{url:options,headers:{}};_options.hasOwnProperty("header")&&!_options.hasOwnProperty("headers")&&(_options.headers=_options.header,delete _options.header);const headersMap={accept:"Accept","accept-ch":"Accept-CH","accept-charset":"Accept-Charset","accept-features":"Accept-Features","accept-encoding":"Accept-Encoding","accept-language":"Accept-Language","accept-ranges":"Accept-Ranges","access-control-allow-credentials":"Access-Control-Allow-Credentials","access-control-allow-origin":"Access-Control-Allow-Origin","access-control-allow-methods":"Access-Control-Allow-Methods","access-control-allow-headers":"Access-Control-Allow-Headers","access-control-max-age":"Access-Control-Max-Age","access-control-expose-headers":"Access-Control-Expose-Headers","access-control-request-method":"Access-Control-Request-Method","access-control-request-headers":"Access-Control-Request-Headers",age:"Age",allow:"Allow",alternates:"Alternates",authorization:"Authorization","cache-control":"Cache-Control",connection:"Connection","content-encoding":"Content-Encoding","content-language":"Content-Language","content-length":"Content-Length","content-location":"Content-Location","content-md5":"Content-MD5","content-range":"Content-Range","content-security-policy":"Content-Security-Policy","content-type":"Content-Type",cookie:"Cookie",dnt:"DNT",date:"Date",etag:"ETag",expect:"Expect",expires:"Expires",from:"From",host:"Host","if-match":"If-Match","if-modified-since":"If-Modified-Since","if-none-match":"If-None-Match","if-range":"If-Range","if-unmodified-since":"If-Unmodified-Since","last-event-id":"Last-Event-ID","last-modified":"Last-Modified",link:"Link",location:"Location","max-forwards":"Max-Forwards",negotiate:"Negotiate",origin:"Origin",pragma:"Pragma","proxy-authenticate":"Proxy-Authenticate","proxy-authorization":"Proxy-Authorization",range:"Range",referer:"Referer","retry-after":"Retry-After","sec-websocket-extensions":"Sec-Websocket-Extensions","sec-websocket-key":"Sec-Websocket-Key","sec-websocket-origin":"Sec-Websocket-Origin","sec-websocket-protocol":"Sec-Websocket-Protocol","sec-websocket-version":"Sec-Websocket-Version",server:"Server","set-cookie":"Set-Cookie","set-cookie2":"Set-Cookie2","strict-transport-security":"Strict-Transport-Security",tcn:"TCN",te:"TE",trailer:"Trailer","transfer-encoding":"Transfer-Encoding",upgrade:"Upgrade","user-agent":"User-Agent","variant-vary":"Variant-Vary",vary:"Vary",via:"Via",warning:"Warning","www-authenticate":"WWW-Authenticate","x-content-duration":"X-Content-Duration","x-content-security-policy":"X-Content-Security-Policy","x-dnsprefetch-control":"X-DNSPrefetch-Control","x-frame-options":"X-Frame-Options","x-requested-with":"X-Requested-With","x-surge-skip-scripting":"X-Surge-Skip-Scripting"};if("object"==typeof _options.headers)for(let key in _options.headers)headersMap[key]&&(_options.headers[headersMap[key]]=_options.headers[key],delete _options.headers[key]);_options.headers&&"object"==typeof _options.headers&&_options.headers["User-Agent"]||(_options.headers&&"object"==typeof _options.headers||(_options.headers={}),this.isNode?_options.headers["User-Agent"]=this.pcUserAgent:_options.headers["User-Agent"]=this.iOSUserAgent);let skipScripting=!1;if(("object"==typeof _options.opts&&(!0===_options.opts.hints||!0===_options.opts["Skip-Scripting"])||"object"==typeof _options.headers&&!0===_options.headers["X-Surge-Skip-Scripting"])&&(skipScripting=!0),skipScripting||(this.isSurge?_options.headers["X-Surge-Skip-Scripting"]=!1:this.isLoon?_options.headers["X-Requested-With"]="XMLHttpRequest":this.isQuanX&&("object"!=typeof _options.opts&&(_options.opts={}),_options.opts.hints=!1)),this.isSurge&&!skipScripting||delete _options.headers["X-Surge-Skip-Scripting"],!this.isQuanX&&_options.hasOwnProperty("opts")&&delete _options.opts,this.isQuanX&&_options.hasOwnProperty("opts")&&delete _options.opts["Skip-Scripting"],"GET"===method&&!this.isNode&&_options.body){let qs=Object.keys(_options.body).map(key=>void 0===_options.body?"":`${encodeURIComponent(key)}=${encodeURIComponent(_options.body[key])}`).join("&");_options.url.indexOf("?")<0&&(_options.url+="?"),_options.url.lastIndexOf("&")+1!=_options.url.length&&_options.url.lastIndexOf("?")+1!=_options.url.length&&(_options.url+="&"),_options.url+=qs,delete _options.body}return this.isQuanX?(_options.hasOwnProperty("body")&&"string"!=typeof _options.body&&(_options.body=JSON.stringify(_options.body)),_options.method=method):this.isNode?(delete _options.headers["Accept-Encoding"],"object"==typeof _options.body&&("GET"===method?(_options.qs=_options.body,delete _options.body):"POST"===method&&(_options.json=!0,_options.body=_options.body))):this.isJSBox&&(_options.header=_options.headers,delete _options.headers),_options}adapterHttpResponse(resp){let _resp={body:resp.body,headers:resp.headers,json:()=>JSON.parse(_resp.body)};return resp.hasOwnProperty("statusCode")&&resp.statusCode&&(_resp.status=resp.statusCode),_resp}get(options,callback){let _options=this.adapterHttpOptions(options,"GET");this.logDebug(`HTTP GET: ${JSON.stringify(_options)}`),this.isSurge||this.isLoon?$httpClient.get(_options,callback):this.isQuanX?$task.fetch(_options).then(resp=>{resp.status=resp.statusCode,callback(null,resp,resp.body)},reason=>callback(reason.error,null,null)):this.isNode?this.node.request.get(_options,(err,resp,data)=>{resp=this.adapterHttpResponse(resp),callback(err,resp,data)}):this.isJSBox&&(_options.handler=resp=>{let err=resp.error?JSON.stringify(resp.error):void 0,data="object"==typeof resp.data?JSON.stringify(resp.data):resp.data;callback(err,resp.response,data)},$http.get(_options))}getPromise(options){return new Promise((resolve,reject)=>{magicJS.get(options,(err,resp)=>{err?reject(err):resolve(resp)})})}post(options,callback){let _options=this.adapterHttpOptions(options,"POST");if(this.logDebug(`HTTP POST: ${JSON.stringify(_options)}`),this.isSurge||this.isLoon)$httpClient.post(_options,callback);else if(this.isQuanX)$task.fetch(_options).then(resp=>{resp.status=resp.statusCode,callback(null,resp,resp.body)},reason=>{callback(reason.error,null,null)});else if(this.isNode){let resp=this.node.request.post(_options,callback);resp.status=resp.statusCode,delete resp.statusCode}else this.isJSBox&&(_options.handler=resp=>{let err=resp.error?JSON.stringify(resp.error):void 0,data="object"==typeof resp.data?JSON.stringify(resp.data):resp.data;callback(err,resp.response,data)},$http.post(_options))}get http(){return{get:this.getPromise,post:this.post}}done(value={}){"undefined"!=typeof $done&&$done(value)}isToday(day){if(null==day)return!1;{let today=new Date;return"string"==typeof day&&(day=new Date(day)),today.getFullYear()==day.getFullYear()&&today.getMonth()==day.getMonth()&&today.getDay()==day.getDay()}}isNumber(val){return"NaN"!==parseFloat(val).toString()}attempt(promise,defaultValue=null){return promise.then(args=>[null,args]).catch(ex=>(this.logError(ex),[ex,defaultValue]))}retry(fn,retries=5,interval=0,callback=null){return(...args)=>new Promise((resolve,reject)=>{function _retry(...args){Promise.resolve().then(()=>fn.apply(this,args)).then(result=>{"function"==typeof callback?Promise.resolve().then(()=>callback(result)).then(()=>{resolve(result)}).catch(ex=>{retries>=1?interval>0?setTimeout(()=>_retry.apply(this,args),interval):_retry.apply(this,args):reject(ex),retries--}):resolve(result)}).catch(ex=>{this.logRetry(ex),retries>=1&&interval>0?setTimeout(()=>_retry.apply(this,args),interval):retries>=1?_retry.apply(this,args):reject(ex),retries--})}_retry.apply(this,args)})}formatTime(time,fmt="yyyy-MM-dd hh:mm:ss"){var o={"M+":time.getMonth()+1,"d+":time.getDate(),"h+":time.getHours(),"m+":time.getMinutes(),"s+":time.getSeconds(),"q+":Math.floor((time.getMonth()+3)/3),S:time.getMilliseconds()};/(y+)/.test(fmt)&&(fmt=fmt.replace(RegExp.$1,(time.getFullYear()+"").substr(4-RegExp.$1.length)));for(let k in o)new RegExp("("+k+")").test(fmt)&&(fmt=fmt.replace(RegExp.$1,1==RegExp.$1.length?o[k]:("00"+o[k]).substr((""+o[k]).length)));return fmt}now(){return this.formatTime(new Date,"yyyy-MM-dd hh:mm:ss")}today(){return this.formatTime(new Date,"yyyy-MM-dd")}sleep(time){return new Promise(resolve=>setTimeout(resolve,time))}}(scriptName)}
+function MagicJS(scriptName="MagicJS",logLevel="INFO"){return new class{constructor(){if(this._startTime=Date.now(),this.version="2.2.3.6",this.scriptName=scriptName,this.logLevels={DEBUG:5,INFO:4,NOTIFY:3,WARNING:2,ERROR:1,CRITICAL:0,NONE:-1},this.isLoon="undefined"!=typeof $loon,this.isQuanX="undefined"!=typeof $task,this.isJSBox="undefined"!=typeof $drive,this.isNode="undefined"!=typeof module&&!this.isJSBox,this.isSurge="undefined"!=typeof $httpClient&&!this.isLoon,this.node={request:void 0,fs:void 0,data:{}},this.iOSUserAgent="Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Mobile/15E148 Safari/604.1",this.pcUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36 Edg/84.0.522.59",this._logLevel="INFO",this.logLevel=logLevel,this._barkUrl="",this._barkKey="",this.isNode){this.node.fs=require("fs"),this.node.request=require("request");try{this.node.fs.accessSync("./magic.json",this.node.fs.constants.R_OK|this.node.fs.constants.W_OK)}catch(err){this.node.fs.writeFileSync("./magic.json","{}",{encoding:"utf8"})}this.node.data=require("./magic.json")}else this.isJSBox&&($file.exists("drive://MagicJS")||$file.mkdir("drive://MagicJS"),$file.exists("drive://MagicJS/magic.json")||$file.write({data:$data({string:"{}"}),path:"drive://MagicJS/magic.json"}))}set barkUrl(url){try{let _url=url.replace(/\/+$/g,"");this._barkUrl=`${/^https?:\/\/([^/]*)/.exec(_url)[0]}/push`,this._barkKey=/\/([^\/]+)\/?$/.exec(_url)[1]}catch(err){this.logDebug("Bark config error.")}}set logLevel(level){let magic_loglevel=this.read("magicjs_loglevel");this._logLevel=magic_loglevel||level.toUpperCase()}get logLevel(){return this._logLevel}get isRequest(){return"undefined"!=typeof $request&&"undefined"==typeof $response}get isResponse(){return"undefined"!=typeof $response}get isDebug(){return"DEBUG"===this.logLevel}get request(){return"undefined"!=typeof $request?$request:void 0}get response(){return"undefined"!=typeof $response?($response.hasOwnProperty("status")&&($response.statusCode=$response.status),$response.hasOwnProperty("statusCode")&&($response.status=$response.statusCode),$response):void 0}get platform(){return this.isSurge?"Surge":this.isQuanX?"Quantumult X":this.isLoon?"Loon":this.isJSBox?"JSBox":this.isNode?"Node.js":"Unknown"}read(key,session=""){let val="";this.isSurge||this.isLoon?val=$persistentStore.read(key):this.isQuanX?val=$prefs.valueForKey(key):this.isNode?val=this.node.data:this.isJSBox&&(val=$file.read("drive://MagicJS/magic.json").string);try{this.isNode&&(val=val[key]),this.isJSBox&&(val=JSON.parse(val)[key]),session&&("string"==typeof val&&(val=JSON.parse(val)),val=val&&"object"==typeof val?val[session]:null)}catch(err){this.logError(err),val=session?{}:null,this.del(key)}void 0===val&&(val=null);try{val&&"string"==typeof val&&(val=JSON.parse(val))}catch(err){}return this.logDebug(`READ DATA [${key}]${session?`[${session}]`:""}(${typeof val})\n${JSON.stringify(val)}`),val}write(key,val,session=""){let data=session?{}:"";if(session&&(this.isSurge||this.isLoon)?data=$persistentStore.read(key):session&&this.isQuanX?data=$prefs.valueForKey(key):this.isNode?data=this.node.data:this.isJSBox&&(data=JSON.parse($file.read("drive://MagicJS/magic.json").string)),session){try{"string"==typeof data&&(data=JSON.parse(data)),data="object"==typeof data&&data?data:{}}catch(err){this.logError(err),this.del(key),data={}}this.isJSBox||this.isNode?(data[key]&&"object"==typeof data[key]||(data[key]={}),data[key].hasOwnProperty(session)||(data[key][session]=null),void 0===val?delete data[key][session]:data[key][session]=val):void 0===val?delete data[session]:data[session]=val}else this.isNode||this.isJSBox?void 0===val?delete data[key]:data[key]=val:data=void 0===val?null:val;"object"==typeof data&&(data=JSON.stringify(data)),this.isSurge||this.isLoon?$persistentStore.write(data,key):this.isQuanX?$prefs.setValueForKey(data,key):this.isNode?this.node.fs.writeFileSync("./magic.json",data):this.isJSBox&&$file.write({data:$data({string:data}),path:"drive://MagicJS/magic.json"}),this.logDebug(`WRITE DATA [${key}]${session?`[${session}]`:""}(${typeof val})\n${JSON.stringify(val)}`)}del(key,session=""){this.logDebug(`DELETE KEY [${key}]${session?`[${session}]`:""}`),this.write(key,null,session)}notify(title=this.scriptName,subTitle="",body="",opts=""){let convertOptions;if(opts=(_opts=>{let newOpts={};if("string"==typeof _opts)this.isLoon?newOpts={openUrl:_opts}:this.isQuanX?newOpts={"open-url":_opts}:this.isSurge&&(newOpts={url:_opts});else if("object"==typeof _opts)if(this.isLoon)newOpts.openUrl=_opts["open-url"]?_opts["open-url"]:"",newOpts.mediaUrl=_opts["media-url"]?_opts["media-url"]:"";else if(this.isQuanX)newOpts=_opts["open-url"]||_opts["media-url"]?_opts:{};else if(this.isSurge){let openUrl=_opts["open-url"]||_opts.openUrl;newOpts=openUrl?{url:openUrl}:{}}return newOpts})(opts),1==arguments.length&&(title=this.scriptName,subTitle="",body=arguments[0]),this.logNotify(`title:${title}\nsubTitle:${subTitle}\nbody:${body}\noptions:${"object"==typeof opts?JSON.stringify(opts):opts}`),this.isSurge)$notification.post(title,subTitle,body,opts);else if(this.isLoon)opts?$notification.post(title,subTitle,body,opts):$notification.post(title,subTitle,body);else if(this.isQuanX)$notify(title,subTitle,body,opts);else if(this.isJSBox){let push={title:title,body:subTitle?`${subTitle}\n${body}`:body};$push.schedule(push)}this._barkUrl&&this._barkKey&&this.notifyBark(title,subTitle,body)}notifyDebug(title=this.scriptName,subTitle="",body="",opts=""){"DEBUG"===this.logLevel&&(1==arguments.length&&(title=this.scriptName,subTitle="",body=arguments[0]),this.notify(title,subTitle,body,opts))}notifyBark(title=this.scriptName,subTitle="",body="",opts=""){let options={url:this._barkUrl,headers:{"Content-Type":"application/json; charset=utf-8"},body:{title:title,body:subTitle?`${subTitle}\n${body}`:body,device_key:this._barkKey}};this.post(options,err=>{})}log(msg,level="INFO"){this.logLevels[this._logLevel]<this.logLevels[level.toUpperCase()]||console.log(`[${level}] [${this.scriptName}]\n${msg}\n`)}logDebug(msg){this.log(msg,"DEBUG")}logInfo(msg){this.log(msg,"INFO")}logNotify(msg){this.log(msg,"NOTIFY")}logWarning(msg){this.log(msg,"WARNING")}logError(msg){this.log(msg,"ERROR")}logRetry(msg){this.log(msg,"RETRY")}adapterHttpOptions(options,method){let _options="object"==typeof options?Object.assign({},options):{url:options,headers:{}};_options.hasOwnProperty("header")&&!_options.hasOwnProperty("headers")&&(_options.headers=_options.header,delete _options.header),_options.headers&&"object"==typeof _options.headers&&_options.headers["User-Agent"]||(_options.headers&&"object"==typeof _options.headers||(_options.headers={}),this.isNode?_options.headers["User-Agent"]=this.pcUserAgent:_options.headers["User-Agent"]=this.iOSUserAgent);let skipScripting=!1;if(("object"==typeof _options.opts&&(!0===_options.opts.hints||!0===_options.opts["Skip-Scripting"])||"object"==typeof _options.headers&&!0===_options.headers["X-Surge-Skip-Scripting"])&&(skipScripting=!0),skipScripting||(this.isSurge?_options.headers["X-Surge-Skip-Scripting"]=!1:this.isLoon?_options.headers["X-Requested-With"]="XMLHttpRequest":this.isQuanX&&("object"!=typeof _options.opts&&(_options.opts={}),_options.opts.hints=!1)),this.isSurge&&!skipScripting||delete _options.headers["X-Surge-Skip-Scripting"],!this.isQuanX&&_options.hasOwnProperty("opts")&&delete _options.opts,this.isQuanX&&_options.hasOwnProperty("opts")&&delete _options.opts["Skip-Scripting"],"GET"===method&&!this.isNode&&_options.body){let qs=Object.keys(_options.body).map(key=>void 0===_options.body?"":`${encodeURIComponent(key)}=${encodeURIComponent(_options.body[key])}`).join("&");_options.url.indexOf("?")<0&&(_options.url+="?"),_options.url.lastIndexOf("&")+1!=_options.url.length&&_options.url.lastIndexOf("?")+1!=_options.url.length&&(_options.url+="&"),_options.url+=qs,delete _options.body}return this.isQuanX?(_options.hasOwnProperty("body")&&"string"!=typeof _options.body&&(_options.body=JSON.stringify(_options.body)),_options.method=method):this.isNode?(delete _options.headers["Accept-Encoding"],"object"==typeof _options.body&&("GET"===method?(_options.qs=_options.body,delete _options.body):"POST"===method&&(_options.json=!0,_options.body=_options.body))):this.isJSBox&&(_options.header=_options.headers,delete _options.headers),_options}adapterHttpResponse(resp){let _resp={body:resp.body,headers:resp.headers,json:()=>JSON.parse(_resp.body)};return resp.hasOwnProperty("statusCode")&&resp.statusCode&&(_resp.status=resp.statusCode),_resp}get(options,callback){let _options=this.adapterHttpOptions(options,"GET");this.logDebug(`HTTP GET: ${JSON.stringify(_options)}`),this.isSurge||this.isLoon?$httpClient.get(_options,callback):this.isQuanX?$task.fetch(_options).then(resp=>{resp.status=resp.statusCode,callback(null,resp,resp.body)},reason=>callback(reason.error,null,null)):this.isNode?this.node.request.get(_options,(err,resp,data)=>{resp=this.adapterHttpResponse(resp),callback(err,resp,data)}):this.isJSBox&&(_options.handler=resp=>{let err=resp.error?JSON.stringify(resp.error):void 0,data="object"==typeof resp.data?JSON.stringify(resp.data):resp.data;callback(err,resp.response,data)},$http.get(_options))}getPromise(options){return new Promise((resolve,reject)=>{magicJS.get(options,(err,resp)=>{err?reject(err):resolve(resp)})})}post(options,callback){let _options=this.adapterHttpOptions(options,"POST");if(this.logDebug(`HTTP POST: ${JSON.stringify(_options)}`),this.isSurge||this.isLoon)$httpClient.post(_options,callback);else if(this.isQuanX)$task.fetch(_options).then(resp=>{resp.status=resp.statusCode,callback(null,resp,resp.body)},reason=>{callback(reason.error,null,null)});else if(this.isNode){let resp=this.node.request.post(_options,callback);resp.status=resp.statusCode,delete resp.statusCode}else this.isJSBox&&(_options.handler=resp=>{let err=resp.error?JSON.stringify(resp.error):void 0,data="object"==typeof resp.data?JSON.stringify(resp.data):resp.data;callback(err,resp.response,data)},$http.post(_options,{}))}done(value={}){this._endTime=Date.now();let span=(this._endTime-this._startTime)/1e3;magicJS.logDebug(`SCRIPT COMPLETED: ${span}S.`),"undefined"!=typeof $done&&$done(value)}isToday(day){if(null==day)return!1;{let today=new Date;return"string"==typeof day&&(day=new Date(day)),today.getFullYear()==day.getFullYear()&&today.getMonth()==day.getMonth()&&today.getDay()==day.getDay()}}isNumber(val){return"NaN"!==parseFloat(val).toString()}attempt(promise,defaultValue=null){return promise.then(args=>[null,args]).catch(ex=>(this.logError(ex),[ex,defaultValue]))}retry(fn,retries=5,interval=0,callback=null){return(...args)=>new Promise((resolve,reject)=>{function _retry(...args){Promise.resolve().then(()=>fn.apply(this,args)).then(result=>{"function"==typeof callback?Promise.resolve().then(()=>callback(result)).then(()=>{resolve(result)}).catch(ex=>{retries>=1?interval>0?setTimeout(()=>_retry.apply(this,args),interval):_retry.apply(this,args):reject(ex),retries--}):resolve(result)}).catch(ex=>{this.logRetry(ex),retries>=1&&interval>0?setTimeout(()=>_retry.apply(this,args),interval):retries>=1?_retry.apply(this,args):reject(ex),retries--})}_retry.apply(this,args)})}formatTime(time,fmt="yyyy-MM-dd hh:mm:ss"){var o={"M+":time.getMonth()+1,"d+":time.getDate(),"h+":time.getHours(),"m+":time.getMinutes(),"s+":time.getSeconds(),"q+":Math.floor((time.getMonth()+3)/3),S:time.getMilliseconds()};/(y+)/.test(fmt)&&(fmt=fmt.replace(RegExp.$1,(time.getFullYear()+"").substr(4-RegExp.$1.length)));for(let k in o)new RegExp("("+k+")").test(fmt)&&(fmt=fmt.replace(RegExp.$1,1==RegExp.$1.length?o[k]:("00"+o[k]).substr((""+o[k]).length)));return fmt}now(){return this.formatTime(new Date,"yyyy-MM-dd hh:mm:ss")}today(){return this.formatTime(new Date,"yyyy-MM-dd")}sleep(time){return new Promise(resolve=>setTimeout(resolve,time))}}(scriptName)}

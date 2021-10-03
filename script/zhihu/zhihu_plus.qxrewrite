@@ -7,7 +7,7 @@
 # 知乎获取黑名单
 ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
 # 知乎官方消息去广告
-^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message) url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message) url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
 # 知乎预置关键词去广告
 ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
 # 优化软件配置
@@ -40,8 +40,10 @@
 ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? url reject-dict
 # 屏蔽消息页面上拉的用户精选
 ^https?:\/\/api\.zhihu\.com/moments/hybrid\? url reject-dict
-# 知乎下发的配置，如皮肤等，目前已知会导致Tab页管理功能失效
+# 知乎下发的配置，如皮肤等
 ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config url reject-200
+# 屏蔽知乎“我的”页面推荐开通会员的卡片
+^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card url reject-200
 
 # hostname = www.zhihu.com,api.zhihu.com,appcloud2.zhihu.com,zhuanlan.zhihu.com
 hostname = *.zhihu.com

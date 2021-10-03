@@ -15,7 +15,7 @@
 | 类型 | 数量(条) |
 | ---- | ---- |
 | mitm | 540 |
-| reject | 712 |
+| reject | 713 |
 | redirect | 49 |
 | script-response-body | 32 |
 | script-request-body | 3 |

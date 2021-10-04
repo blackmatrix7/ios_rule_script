@@ -1,8 +1,8 @@
 # NAME: AllInOne
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-09-28 02:10:45
-# REWRITE: 761
+# UPDATED: 2021-10-05 02:08:23
+# REWRITE: 762
 # SCRIPT: 35
 # MITM: 540
 
@@ -201,6 +201,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject-200
 ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject-dict
 ^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict
+^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject-200
 ^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
 ^https?:\/\/api\.zhuishushenqi\.com\/recommend - reject-img
 ^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject

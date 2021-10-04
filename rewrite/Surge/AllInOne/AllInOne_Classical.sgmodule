@@ -1,8 +1,8 @@
 #!name=AllInOne
-#!desc=最后更新时间 2021-09-28 02:10:45
+#!desc=最后更新时间 2021-10-05 02:08:23
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=761
+#!rewrite=762
 #!script=35
 #!force_http_engine_hosts=54
 #!mitm=540
@@ -205,6 +205,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
 ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject
 ^https?:\/\/api\.zhihu\.com\/moments\/recent - reject
+^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject
 ^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
 ^https?:\/\/api\.zhuishushenqi\.com\/recommend - reject
 ^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject

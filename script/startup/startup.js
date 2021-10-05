@@ -5,6 +5,18 @@ let magicJS = MagicJS(scriptName, "INFO");
   let response = null;
   if (magicJS.isResponse) {
     switch (true) {
+      // 多点
+      case /^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic/.test(magicJS.request.url):
+        try {
+          let obj = JSON.parse(magicJS.response.body);
+          obj["data"]["isForceHome"] = 1;
+          obj["data"]["welcomePage"]["onlineTime"] = 1915027200000;
+          obj["data"]["welcomePage"]["offlineTime"] = 1924272000000;
+          body = JSON.stringify(obj);
+        } catch (err) {
+          magicJS.logError(`开屏广告处理出现异常：${err}`);
+        }
+        break;
       // 嘀嗒出行
       case /^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\?/.test(magicJS.request.url):
         try {

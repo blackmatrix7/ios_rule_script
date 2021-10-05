@@ -1,14 +1,10 @@
 # NAME: TelegramUS
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-05 08:51:07
-# IP-CIDR: 2
-# IP-CIDR6: 4
-# TOTAL: 6
+# UPDATED: 2021-10-08 02:08:55
+# IP-CIDR: 1
+# IP-CIDR6: 1
+# TOTAL: 2
 payload:
-  - IP-CIDR,149.154.172.0/22
-  - IP-CIDR,91.108.12.0/27
-  - IP-CIDR6,2001:b28:f23d:f001::a/128
-  - IP-CIDR6,2001:b28:f23d:f001::e/128
-  - IP-CIDR6,2001:b28:f23d:f003::a/128
-  - IP-CIDR6,2001:b28:f23d:f003::e/128
+  - IP-CIDR,91.108.12.0/22
+  - IP-CIDR6,2001:b28:f23d::/48

@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-03 02:07:32
-# DOMAIN: 53
-# DOMAIN-SUFFIX: 33509
+# UPDATED: 2021-10-08 02:08:54
+# DOMAIN: 52
+# DOMAIN-SUFFIX: 33513
 # DOMAIN-KEYWORD: 41
-# IP-CIDR: 128
-# IP-CIDR6: 3
+# IP-CIDR: 129
+# IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 33735
+# TOTAL: 33740
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,api-p.videomarket.jp
@@ -30,7 +30,6 @@ payload:
   - DOMAIN,gamedownloads-rockstargames-com.akamaized.net
   - DOMAIN,github-avatars.oss-cn-hongkong.aliyuncs.com
   - DOMAIN,gitlab-assets.oss-cn-hongkong.aliyuncs.com
-  - DOMAIN,hamifans.emome.net
   - DOMAIN,heads4-ak-spotify-com.akamaized.net
   - DOMAIN,hpstore.corpmerchandise.com
   - DOMAIN,i.jeded.com
@@ -6004,7 +6003,6 @@ payload:
   - DOMAIN-SUFFIX,booksamillion.com
   - DOMAIN-SUFFIX,booksamillioninc.com
   - DOMAIN-SUFFIX,bookstagram.com
-  - DOMAIN-SUFFIX,bookstore.emome.net
   - DOMAIN-SUFFIX,booktopia.com.au
   - DOMAIN-SUFFIX,bookzone.cwgv.com.tw
   - DOMAIN-SUFFIX,booloo.com
@@ -9966,6 +9964,7 @@ payload:
   - DOMAIN-SUFFIX,emofid.com
   - DOMAIN-SUFFIX,emojipedia.org
   - DOMAIN-SUFFIX,emol.com
+  - DOMAIN-SUFFIX,emome.net
   - DOMAIN-SUFFIX,emoneyspace.com
   - DOMAIN-SUFFIX,emory.edu
   - DOMAIN-SUFFIX,emotionjam.com
@@ -10234,6 +10233,7 @@ payload:
   - DOMAIN-SUFFIX,eurorgb.com
   - DOMAIN-SUFFIX,eurovision
   - DOMAIN-SUFFIX,events4fun.net
+  - DOMAIN-SUFFIX,eventsinfocus.org
   - DOMAIN-SUFFIX,eventstagr.am
   - DOMAIN-SUFFIX,everbank
   - DOMAIN-SUFFIX,everipedia.org
@@ -24718,6 +24718,7 @@ payload:
   - DOMAIN-SUFFIX,thd
   - DOMAIN-SUFFIX,the-m-festival.com
   - DOMAIN-SUFFIX,the-monster-beats.com
+  - DOMAIN-SUFFIX,theaffairs.com
   - DOMAIN-SUFFIX,theage.com.au
   - DOMAIN-SUFFIX,theagelessbodysystemreview.com
   - DOMAIN-SUFFIX,theaggie.org
@@ -25185,6 +25186,7 @@ payload:
   - DOMAIN-SUFFIX,tnaflix.com
   - DOMAIN-SUFFIX,tngrnow.com
   - DOMAIN-SUFFIX,tngrnow.net
+  - DOMAIN-SUFFIX,tnntoday.com
   - DOMAIN-SUFFIX,tnp.org
   - DOMAIN-SUFFIX,tnpsc.gov.in
   - DOMAIN-SUFFIX,tnr.com
@@ -25713,6 +25715,7 @@ payload:
   - DOMAIN-SUFFIX,twftp.org
   - DOMAIN-SUFFIX,twgngc.cnns.tw
   - DOMAIN-SUFFIX,twgreatdaily.com
+  - DOMAIN-SUFFIX,twgreatnews.com
   - DOMAIN-SUFFIX,twhawk.tw
   - DOMAIN-SUFFIX,twibase.com
   - DOMAIN-SUFFIX,twibble.de
@@ -33671,6 +33674,7 @@ payload:
   - IP-CIDR,184.173.128.0/17
   - IP-CIDR,185.15.56.0/22
   - IP-CIDR,185.60.216.0/22
+  - IP-CIDR,185.76.151.0/24
   - IP-CIDR,192.133.76.0/22
   - IP-CIDR,192.173.64.0/18
   - IP-CIDR,198.35.26.0/23
@@ -33738,10 +33742,11 @@ payload:
   - IP-CIDR,74.125.0.0/16
   - IP-CIDR,74.86.0.0/16
   - IP-CIDR,75.126.0.0/16
+  - IP-CIDR,91.105.192.0/23
   - IP-CIDR,91.108.0.0/16
   - IP-CIDR,91.198.174.0/24
-  - IP-CIDR,95.161.64.0/20
   - IP-CIDR6,2001:67c:4e8::/48
-  - IP-CIDR6,2001:b28:f23d::/48
+  - IP-CIDR6,2001:b28:f23c::/47
   - IP-CIDR6,2001:b28:f23f::/48
+  - IP-CIDR6,2a0a:f280::/32
   - PROCESS-NAME,lookupviewservice

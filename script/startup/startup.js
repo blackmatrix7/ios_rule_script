@@ -13,7 +13,7 @@ let magicJS = MagicJS(scriptName, "INFO");
             obj["data"]["welcomePage"][i]["onlineTime"] = 1915027200000;
             obj["data"]["welcomePage"][i]["offlineTime"] = 1924272000000;
           }
-          body = JSON.stringify(obj);
+          response = { body: JSON.stringify(obj) };
         } catch (err) {
           magicJS.logError(`开屏广告处理出现异常：${err}`);
         }

@@ -9,7 +9,6 @@ let magicJS = MagicJS(scriptName, "INFO");
       case /^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
-          obj["data"]["isForceHome"] = 1;
           obj["data"]["welcomePage"]["onlineTime"] = 1915027200000;
           obj["data"]["welcomePage"]["offlineTime"] = 1924272000000;
           body = JSON.stringify(obj);

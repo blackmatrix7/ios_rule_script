@@ -12,6 +12,7 @@ let magicJS = MagicJS(scriptName, "INFO");
           for (let i = 0; i < obj["data"]["welcomePage"].length; i++) {
             obj["data"]["welcomePage"][i]["onlineTime"] = 1915027200000;
             obj["data"]["welcomePage"][i]["offlineTime"] = 1924272000000;
+            obj["data"]["welcomePage"][i]["inProgress"] = false;
           }
           response = { body: JSON.stringify(obj) };
         } catch (err) {

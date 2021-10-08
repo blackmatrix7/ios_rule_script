@@ -1,11 +1,11 @@
-#!name=更新检查
-#!desc=最后更新时间 2021-07-23 09:43:11
+#!name=屏蔽APP更新检查
+#!desc=最后更新时间 2021-10-09 02:09:07
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=12
+#!rewrite=13
 #!script=0
 #!force_http_engine_hosts=0
-#!mitm=12
+#!mitm=13
 
 [URL Rewrite]
 ^https?:\/\/api\.ishansong\.com\/app\/check\/v\d+\/check - reject
@@ -20,8 +20,9 @@
 ^https?:\/\/apprn\.pizzahut\.com\.cn\/updateCheck\? data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/publish\/api\/upgrade data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+^https?:\/\/consumer\.fcbox\.com\/v1\/version\/getNewVersion data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/sso\.lxjapp\.com\/\/chims\/servlet\/csGetLatestSoftwareVersionServlet data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 
 [MITM]
-hostname = %APPEND% api.eshimin.com,api.ishansong.com,api.m.jd.com,api.share.mob.com,apimobile.meituan.com,apprn.pizzahut.com.cn,capis*.didapinche.com,ccsp-egmas.sf-express.com,fmapp.chinafamilymart.com.cn,m.client.10010.com,sso.lxjapp.com,www.meituan.com
+hostname = %APPEND% api.eshimin.com,api.ishansong.com,api.m.jd.com,api.share.mob.com,apimobile.meituan.com,apprn.pizzahut.com.cn,capis*.didapinche.com,ccsp-egmas.sf-express.com,consumer.fcbox.com,fmapp.chinafamilymart.com.cn,m.client.10010.com,sso.lxjapp.com,www.meituan.com

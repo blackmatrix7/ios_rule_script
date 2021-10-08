@@ -14,7 +14,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 22 |
+| mitm | 23 |
 | DOMAIN-SUFFIX | 1 |
 | URL-REGEX | 7 |
 | DOMAIN | 4 |
@@ -22,7 +22,7 @@
 | IP-CIDR6 | 1 |
 | USER-AGENT | 1 |
 | reject | 21 |
-| http-response | 32 |
+| http-response | 33 |
 | http-request | 1 |
 ## 配置说明
 

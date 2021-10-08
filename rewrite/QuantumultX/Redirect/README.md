@@ -15,7 +15,7 @@
 | 类型 | 数量(条) |
 | ---- | ---- |
 | mitm | 5 |
-| redirect | 57 |
+| redirect | 58 |
 | script-request-body | 2 |
 ## 配置说明
 

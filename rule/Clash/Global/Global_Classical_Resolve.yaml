@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-08 02:08:54
-# DOMAIN: 52
-# DOMAIN-SUFFIX: 33513
+# UPDATED: 2021-10-11 17:38:37
+# DOMAIN: 53
+# DOMAIN-SUFFIX: 33518
 # DOMAIN-KEYWORD: 41
 # IP-CIDR: 129
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 33740
+# TOTAL: 33746
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,api-p.videomarket.jp
@@ -22,6 +22,7 @@ payload:
   - DOMAIN,bnetshopus.akamaized.net
   - DOMAIN,cdn77.scoreuniverse.com
   - DOMAIN,cisco.evergage.com
+  - DOMAIN,clubhouse.pubnubapi.com
   - DOMAIN,courier-push-apple.com.akadns.net
   - DOMAIN,ds-linear-abematv.akamaized.net
   - DOMAIN,ds-vod-abematv.akamaized.net
@@ -3028,6 +3029,7 @@ payload:
   - DOMAIN-SUFFIX,aigo
   - DOMAIN-SUFFIX,aikeji.tk
   - DOMAIN-SUFFIX,aimei133.com
+  - DOMAIN-SUFFIX,aimoon.com
   - DOMAIN-SUFFIX,aing01.com
   - DOMAIN-SUFFIX,aint2late.com
   - DOMAIN-SUFFIX,aiot7.com
@@ -7765,7 +7767,9 @@ payload:
   - DOMAIN-SUFFIX,coinegg.com
   - DOMAIN-SUFFIX,coinex.com
   - DOMAIN-SUFFIX,coinf.com.mx
+  - DOMAIN-SUFFIX,coingecko.com
   - DOMAIN-SUFFIX,coingi.com
+  - DOMAIN-SUFFIX,coinmarketcap.com
   - DOMAIN-SUFFIX,coinonecore.com
   - DOMAIN-SUFFIX,coinonecorp.com
   - DOMAIN-SUFFIX,coinrail.co.kr
@@ -10313,6 +10317,7 @@ payload:
   - DOMAIN-SUFFIX,ezprice.com.tw
   - DOMAIN-SUFFIX,ezto.in
   - DOMAIN-SUFFIX,ezua.com
+  - DOMAIN-SUFFIX,f-droid.org
   - DOMAIN-SUFFIX,f.2fine.de
   - DOMAIN-SUFFIX,f.wheredreams.com
   - DOMAIN-SUFFIX,f1155.com
@@ -11687,6 +11692,7 @@ payload:
   - DOMAIN-SUFFIX,ftimg.net
   - DOMAIN-SUFFIX,ftopx.com
   - DOMAIN-SUFFIX,ftp.cc
+  - DOMAIN-SUFFIX,ftp.com
   - DOMAIN-SUFFIX,ftp1.biz
   - DOMAIN-SUFFIX,ftpaccess.cc
   - DOMAIN-SUFFIX,ftpserver.biz

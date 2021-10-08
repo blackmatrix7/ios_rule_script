@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-07 02:09:13
+# UPDATED: 2021-10-11 17:38:37
 # DOMAIN: 49
-# DOMAIN-SUFFIX: 33526
+# DOMAIN-SUFFIX: 33529
 # DOMAIN-KEYWORD: 29
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 33695
+# TOTAL: 33698
 payload:
   - DOMAIN,amp.akamaized.net
   - DOMAIN,api-p.videomarket.jp
@@ -7768,6 +7768,7 @@ payload:
   - DOMAIN-SUFFIX,coinex.com
   - DOMAIN-SUFFIX,coinf.com.mx
   - DOMAIN-SUFFIX,coingi.com
+  - DOMAIN-SUFFIX,coinmarketcap.com
   - DOMAIN-SUFFIX,coinonecore.com
   - DOMAIN-SUFFIX,coinonecorp.com
   - DOMAIN-SUFFIX,coinrail.co.kr
@@ -10311,6 +10312,7 @@ payload:
   - DOMAIN-SUFFIX,ezprice.com.tw
   - DOMAIN-SUFFIX,ezto.in
   - DOMAIN-SUFFIX,ezua.com
+  - DOMAIN-SUFFIX,f-droid.org
   - DOMAIN-SUFFIX,f.2fine.de
   - DOMAIN-SUFFIX,f.wheredreams.com
   - DOMAIN-SUFFIX,f1155.com
@@ -11685,6 +11687,7 @@ payload:
   - DOMAIN-SUFFIX,fteproxy.org
   - DOMAIN-SUFFIX,ftopx.com
   - DOMAIN-SUFFIX,ftp.cc
+  - DOMAIN-SUFFIX,ftp.com
   - DOMAIN-SUFFIX,ftp1.biz
   - DOMAIN-SUFFIX,ftpaccess.cc
   - DOMAIN-SUFFIX,ftpserver.biz

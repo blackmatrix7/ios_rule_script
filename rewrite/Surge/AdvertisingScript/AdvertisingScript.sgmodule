@@ -1,11 +1,11 @@
 #!name=脚本去广告
-#!desc=最后更新时间 2021-10-05 02:08:23
+#!desc=最后更新时间 2021-10-09 02:09:07
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=21
-#!script=33
+#!script=34
 #!force_http_engine_hosts=0
-#!mitm=22
+#!mitm=23
 
 [Rule]
 DOMAIN,118.89.204.198,REJECT
@@ -68,6 +68,7 @@ Fa米家_开屏去广告 = type=http-response,requires-body=1,script-path=https:
 什么值得买_百科去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,pattern=^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list
 什么值得买_首页去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,pattern=^https?:\/\/homepage-api\.smzdm\.com\/home
 嘀嗒出行_开屏去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,pattern=^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\?
+多点_开屏去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,pattern=^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic
 小爱音箱_开屏去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,pattern=^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert
 知乎_优化软件配置 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,pattern=^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config
 知乎_信息流去广告及黑名单增强 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,pattern=^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people)
@@ -85,4 +86,4 @@ Fa米家_开屏去广告 = type=http-response,requires-body=1,script-path=https:
 联享家_开屏去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,pattern=^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg
 
 [MITM]
-hostname = %APPEND% api.bilibili.com,api.live.bilibili.com,api.m.jd.com,api.vc.bilibili.com,api.zhihu.com,app-api.smzdm.com,app.bilibili.com,appcloud2.zhihu.com,baike-api.smzdm.com,capis*.didapinche.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,hd.mina.mi.com,homepage-api.smzdm.com,manga.bilibili.com,mi.gdt.qq.com,s-api.smzdm.com,wmapi.meituan.com,www.zhihu.com,zhiyou.m.smzdm.com,zhuanlan.zhihu.com
+hostname = %APPEND% api.bilibili.com,api.live.bilibili.com,api.m.jd.com,api.vc.bilibili.com,api.zhihu.com,app-api.smzdm.com,app.bilibili.com,appcloud2.zhihu.com,baike-api.smzdm.com,capis*.didapinche.com,cmsapi.dmall.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,hd.mina.mi.com,homepage-api.smzdm.com,manga.bilibili.com,mi.gdt.qq.com,s-api.smzdm.com,wmapi.meituan.com,www.zhihu.com,zhiyou.m.smzdm.com,zhuanlan.zhihu.com

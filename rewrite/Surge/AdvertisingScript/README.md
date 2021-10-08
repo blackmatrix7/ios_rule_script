@@ -14,7 +14,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 22 |
+| mitm | 23 |
 | force_http_engine_hosts | 0 |
 | DOMAIN-SUFFIX | 1 |
 | URL-REGEX | 7 |
@@ -23,7 +23,7 @@
 | IP-CIDR6 | 1 |
 | USER-AGENT | 1 |
 | reject | 21 |
-| http-response | 32 |
+| http-response | 33 |
 | http-request | 1 |
 ## 配置说明
 

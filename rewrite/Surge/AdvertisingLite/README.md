@@ -22,11 +22,11 @@ AdvertisingLite 不直接抽取数据源中MITM的hostname，仅用正则推导�
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 512 |
-| force_http_engine_hosts | 18 |
+| mitm | 522 |
+| force_http_engine_hosts | 12 |
 | DOMAIN | 2 |
 | DOMAIN-SUFFIX | 1 |
-| reject | 691 |
+| reject | 712 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。

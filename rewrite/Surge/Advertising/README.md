@@ -16,11 +16,11 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 594 |
-| force_http_engine_hosts | 36 |
+| mitm | 607 |
+| force_http_engine_hosts | 24 |
 | DOMAIN | 4 |
 | DOMAIN-SUFFIX | 2 |
-| reject | 773 |
+| reject | 799 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。

@@ -1,10 +1,10 @@
 # NAME: 脚本去广告
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-05 02:08:23
+# UPDATED: 2021-10-09 02:09:07
 # REWRITE: 21
-# SCRIPT: 33
-# MITM: 22
+# SCRIPT: 34
+# MITM: 23
 
 [Rule]
 DOMAIN,118.89.204.198,REJECT
@@ -69,6 +69,7 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list requires-body=
 http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_优化软件配置
 http-response ^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,tag=什么值得买_百科去广告
 http-response ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=嘀嗒出行_开屏去广告
+http-response ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=多点_开屏去广告
 http-response ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js,tag=Fa米家_开屏去广告
 http-response ^https?:\/\/haojia-api\.smzdm\.com\/home\/list requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,tag=什么值得买_好价去广告
 http-response ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,tag=什么值得买_好价详情页去广告
@@ -82,4 +83,4 @@ http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(pre
 http-response ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,tag=什么值得买_值会员权益中心banner广告
 
 [MITM]
-hostname = api.bilibili.com,api.live.bilibili.com,api.m.jd.com,api.vc.bilibili.com,api.zhihu.com,app-api.smzdm.com,app.bilibili.com,appcloud2.zhihu.com,baike-api.smzdm.com,capis*.didapinche.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,hd.mina.mi.com,homepage-api.smzdm.com,manga.bilibili.com,mi.gdt.qq.com,s-api.smzdm.com,wmapi.meituan.com,www.zhihu.com,zhiyou.m.smzdm.com,zhuanlan.zhihu.com
+hostname = api.bilibili.com,api.live.bilibili.com,api.m.jd.com,api.vc.bilibili.com,api.zhihu.com,app-api.smzdm.com,app.bilibili.com,appcloud2.zhihu.com,baike-api.smzdm.com,capis*.didapinche.com,cmsapi.dmall.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,hd.mina.mi.com,homepage-api.smzdm.com,manga.bilibili.com,mi.gdt.qq.com,s-api.smzdm.com,wmapi.meituan.com,www.zhihu.com,zhiyou.m.smzdm.com,zhuanlan.zhihu.com

@@ -167,4 +167,4 @@
 |Reject|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Advertising) |[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingLite) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingTest) |[反劫持](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Hijacking) |[隐私保护](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Privacy) ||||
-|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ZhihuAds) |||
+|[SearchBlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/SearchBlackList) |[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ZhihuAds) |||

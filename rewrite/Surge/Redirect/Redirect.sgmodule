@@ -1,8 +1,8 @@
 #!name=重定向
-#!desc=最后更新时间 2021-10-01 02:09:02
+#!desc=最后更新时间 2021-10-10 02:07:56
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=59
+#!rewrite=60
 #!script=2
 #!force_http_engine_hosts=0
 #!mitm=5
@@ -40,6 +40,7 @@
 ^https?:\/\/(www.)?iconworkshop\.cn\/ https://www.axialis.com/ 302
 ^https?:\/\/(www.)?idmchina\.net\/ https://www.internetdownloadmanager.com/ 302
 ^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
+^https?:\/\/(www.)?imazingchina\.com\/ https://imazing.com/zh 302
 ^https?:\/\/(www.)?imindmap\.cc\/ https://www.ayoa.com/previously-imindmap/ 302
 ^https?:\/\/(www.)?jihehuaban\.com\.cn\/ https://www.chartwellyorke.com/sketchpad/x24795.html 302
 ^https?:\/\/(www.)?kingdeecn\.cn\/ http://www.kingdee.com/ 302

@@ -167,4 +167,4 @@
 |Reject|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising) |[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest) |[反劫持](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking) |[隐私保护](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy) ||||
-|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhihuAds) |||
+|[SearchBlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SearchBlackList) |[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhihuAds) |||

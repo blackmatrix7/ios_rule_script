@@ -167,4 +167,4 @@
 |Reject|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising) |[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest) |[反劫持](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Hijacking) |[隐私保护](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy) ||||
-|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ZhihuAds) |||
+|[SearchBlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/SearchBlackList) |[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ZhihuAds) |||

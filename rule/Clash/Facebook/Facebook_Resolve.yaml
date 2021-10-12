@@ -1,9 +1,8 @@
 # NAME: Facebook
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-05 08:51:06
-# DOMAIN-SUFFIX: 543
-# DOMAIN-KEYWORD: 1
+# UPDATED: 2021-12-15 22:59:36
+# DOMAIN-SUFFIX: 544
 # IP-CIDR: 33
 # TOTAL: 577
 payload:
@@ -473,6 +472,7 @@ payload:
   - DOMAIN-SUFFIX,mcrouter.org
   - DOMAIN-SUFFIX,messenger.com
   - DOMAIN-SUFFIX,messengerdevelopers.com
+  - DOMAIN-SUFFIX,meta.com
   - DOMAIN-SUFFIX,midentsolutions.com
   - DOMAIN-SUFFIX,mobilefacebook.com
   - DOMAIN-SUFFIX,moneywithfacebook.com
@@ -550,7 +550,6 @@ payload:
   - DOMAIN-SUFFIX,yogalayout.com
   - DOMAIN-SUFFIX,zuckerberg.com
   - DOMAIN-SUFFIX,zuckerberg.net
-  - DOMAIN-KEYWORD,facebook
   - IP-CIDR,103.4.96.0/22
   - IP-CIDR,108.168.176.192/26
   - IP-CIDR,108.168.177.0/27

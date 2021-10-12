@@ -1,12 +1,11 @@
 # NAME: Amazon
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-10 02:06:37
-# DOMAIN-SUFFIX: 172
+# UPDATED: 2021-12-15 22:59:34
+# DOMAIN-SUFFIX: 175
 # IP-CIDR: 15
 # PROCESS-NAME: 1
-# DOMAIN-KEYWORD: 1
-# TOTAL: 189
+# TOTAL: 191
 payload:
   - DOMAIN-SUFFIX,a2z.com
   - DOMAIN-SUFFIX,aboutamazon.cn
@@ -60,6 +59,7 @@ payload:
   - DOMAIN-SUFFIX,amazonaws-china.com
   - DOMAIN-SUFFIX,amazonaws.co.uk
   - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,amazonaws.com.cn
   - DOMAIN-SUFFIX,amazonaws.tv
   - DOMAIN-SUFFIX,amazonbusiness.cn
   - DOMAIN-SUFFIX,amazonbusiness.com.cn
@@ -111,6 +111,7 @@ payload:
   - DOMAIN-SUFFIX,awsautopilot.com
   - DOMAIN-SUFFIX,awsautoscaling.com
   - DOMAIN-SUFFIX,awsbraket.com
+  - DOMAIN-SUFFIX,awscloud.com
   - DOMAIN-SUFFIX,awscommandlineinterface.com
   - DOMAIN-SUFFIX,awsedstart.com
   - DOMAIN-SUFFIX,awseducate.com
@@ -121,6 +122,7 @@ payload:
   - DOMAIN-SUFFIX,awssecworkshops.com
   - DOMAIN-SUFFIX,awsstatic.com
   - DOMAIN-SUFFIX,awsthinkbox.com
+  - DOMAIN-SUFFIX,awstrack.me
   - DOMAIN-SUFFIX,awstrust.com
   - DOMAIN-SUFFIX,boxofficemojo.com
   - DOMAIN-SUFFIX,cdkworkshop.com
@@ -180,7 +182,6 @@ payload:
   - DOMAIN-SUFFIX,yamaxun.cn
   - DOMAIN-SUFFIX,yamaxun.com
   - DOMAIN-SUFFIX,z.cn
-  - DOMAIN-KEYWORD,avoddashs
   - IP-CIDR,13.32.0.0/15
   - IP-CIDR,13.35.0.0/17
   - IP-CIDR,18.184.0.0/15

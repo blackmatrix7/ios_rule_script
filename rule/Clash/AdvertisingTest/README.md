@@ -13,16 +13,16 @@
 
 ## 规则统计
 
-总计规则：98819 条。
+总计规则：134755 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 15144 |
-| DOMAIN-KEYWORD | 88 |
-| DOMAIN-SUFFIX | 83333 |
-| IP-CIDR | 253 |
+| DOMAIN | 42334 |
+| DOMAIN-SUFFIX | 92162 |
+| IP-CIDR | 256 |
+| DOMAIN-KEYWORD | 2 |
 | IP-CIDR6 | 1 |
 ## 配置说明
 
@@ -100,6 +100,7 @@ AdvertisingTest_Classical.yaml 可以单独使用，其他规则必须同时使�
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/AdBlock.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/ad-domains.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/video-ad.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt
 - https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt
 - https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt

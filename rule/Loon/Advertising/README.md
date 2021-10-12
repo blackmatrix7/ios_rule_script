@@ -18,18 +18,18 @@
 
 ## 规则统计
 
-总计规则：74913 条。
+总计规则：124095 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 20875 |
-| DOMAIN-KEYWORD | 88 |
-| DOMAIN-SUFFIX | 53395 |
-| IP-CIDR | 253 |
+| DOMAIN | 43643 |
+| DOMAIN-SUFFIX | 79891 |
+| IP-CIDR | 256 |
+| DOMAIN-KEYWORD | 2 |
 | IP-CIDR6 | 1 |
-| URL-REGEX | 301 |
+| URL-REGEX | 302 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -65,6 +65,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 除非特殊需求，否则不建议重复引用。
 
+当前分流规则，已排除以下规则：
+
+- Direct
+
 ## 数据来源
 
 本项目的去广告复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。
@@ -85,6 +89,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/ad-domains.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/video-ad.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
 - https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt
 - https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt
 - https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt

@@ -1,56 +1,16 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-11 17:38:37
-# DOMAIN: 53
-# DOMAIN-SUFFIX: 33518
-# DOMAIN-KEYWORD: 41
+# UPDATED: 2021-12-15 22:59:36
+# DOMAIN: 22
+# DOMAIN-SUFFIX: 35478
 # IP-CIDR: 129
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 33746
+# DOMAIN-KEYWORD: 1
+# TOTAL: 35635
 payload:
-  - DOMAIN-KEYWORD,-spotify-com
-  - DOMAIN-KEYWORD,-tiktokcdn-com
-  - DOMAIN-KEYWORD,.blogspot.
-  - DOMAIN-KEYWORD,.facebook.
-  - DOMAIN-KEYWORD,1drv
-  - DOMAIN-KEYWORD,1e100
-  - DOMAIN-KEYWORD,abema
-  - DOMAIN-KEYWORD,amazon
-  - DOMAIN-KEYWORD,appledaily
-  - DOMAIN-KEYWORD,avoddashs
-  - DOMAIN-KEYWORD,avtb
-  - DOMAIN-KEYWORD,bbcfmt
-  - DOMAIN-KEYWORD,beetalk
-  - DOMAIN-KEYWORD,blogspot
-  - DOMAIN-KEYWORD,dlercloud
-  - DOMAIN-KEYWORD,dropbox
-  - DOMAIN-KEYWORD,facebook
-  - DOMAIN-KEYWORD,fbcdn
-  - DOMAIN-KEYWORD,github
-  - DOMAIN-KEYWORD,gmail
-  - DOMAIN-KEYWORD,google
-  - DOMAIN-KEYWORD,instagram
-  - DOMAIN-KEYWORD,jav
-  - DOMAIN-KEYWORD,onedrive
-  - DOMAIN-KEYWORD,paypal
-  - DOMAIN-KEYWORD,pinterest
-  - DOMAIN-KEYWORD,porn
-  - DOMAIN-KEYWORD,sci-hub
-  - DOMAIN-KEYWORD,skydrive
-  - DOMAIN-KEYWORD,spotify
   - DOMAIN-KEYWORD,spotify.com
-  - DOMAIN-KEYWORD,telegram
-  - DOMAIN-KEYWORD,tesla
-  - DOMAIN-KEYWORD,ttvnw
-  - DOMAIN-KEYWORD,twimg
-  - DOMAIN-KEYWORD,twitter
-  - DOMAIN-KEYWORD,uk-live
-  - DOMAIN-KEYWORD,voddazn
-  - DOMAIN-KEYWORD,whatsapp
-  - DOMAIN-KEYWORD,wikileaks
-  - DOMAIN-KEYWORD,youtube
   - IP-CIDR,1.201.0.0/24,no-resolve
   - IP-CIDR,103.102.166.0/24,no-resolve
   - IP-CIDR,103.2.28.0/22,no-resolve

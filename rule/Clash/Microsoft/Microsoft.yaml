@@ -1,11 +1,10 @@
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-05 08:51:06
+# UPDATED: 2021-12-15 22:59:37
 # PROCESS-NAME: 2
 # DOMAIN-SUFFIX: 417
-# DOMAIN-KEYWORD: 4
-# TOTAL: 423
+# TOTAL: 419
 payload:
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,a-msedge.net
@@ -153,7 +152,6 @@ payload:
   - DOMAIN-SUFFIX,ie8.co
   - DOMAIN-SUFFIX,ie9.com
   - DOMAIN-SUFFIX,imaginecup.pl
-  - DOMAIN-SUFFIX,img-prod-cms-rt-microsoft-com
   - DOMAIN-SUFFIX,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
   - DOMAIN-SUFFIX,ingads.com
@@ -265,6 +263,7 @@ payload:
   - DOMAIN-SUFFIX,msidentity.com
   - DOMAIN-SUFFIX,msignitechina.com
   - DOMAIN-SUFFIX,msinnovationchallenge.com
+  - DOMAIN-SUFFIX,msn.cn
   - DOMAIN-SUFFIX,msn.com
   - DOMAIN-SUFFIX,msnkids.com
   - DOMAIN-SUFFIX,msnmaps.com
@@ -424,9 +423,5 @@ payload:
   - DOMAIN-SUFFIX,xbx.lv
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
-  - DOMAIN-KEYWORD,1drv
-  - DOMAIN-KEYWORD,microsoft
-  - DOMAIN-KEYWORD,onedrive
-  - DOMAIN-KEYWORD,skydrive
   - PROCESS-NAME,onedrive
   - PROCESS-NAME,onedriveupdater

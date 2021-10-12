@@ -1,43 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-11 17:38:37
-# DOMAIN: 49
-# DOMAIN-SUFFIX: 33529
-# DOMAIN-KEYWORD: 29
+# UPDATED: 2021-12-15 22:59:36
+# DOMAIN: 22
+# DOMAIN-SUFFIX: 35502
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 33698
+# TOTAL: 35615
 payload:
-  - DOMAIN-KEYWORD,-tiktokcdn-com
-  - DOMAIN-KEYWORD,1drv
-  - DOMAIN-KEYWORD,1e100
-  - DOMAIN-KEYWORD,abema
-  - DOMAIN-KEYWORD,appledaily
-  - DOMAIN-KEYWORD,avtb
-  - DOMAIN-KEYWORD,beetalk
-  - DOMAIN-KEYWORD,blogspot
-  - DOMAIN-KEYWORD,dlercloud
-  - DOMAIN-KEYWORD,dropbox
-  - DOMAIN-KEYWORD,facebook
-  - DOMAIN-KEYWORD,fbcdn
-  - DOMAIN-KEYWORD,github
-  - DOMAIN-KEYWORD,gmail
-  - DOMAIN-KEYWORD,google
-  - DOMAIN-KEYWORD,instagram
-  - DOMAIN-KEYWORD,onedrive
-  - DOMAIN-KEYWORD,paypal
-  - DOMAIN-KEYWORD,porn
-  - DOMAIN-KEYWORD,sci-hub
-  - DOMAIN-KEYWORD,skydrive
-  - DOMAIN-KEYWORD,spotify
-  - DOMAIN-KEYWORD,telegram
-  - DOMAIN-KEYWORD,tesla
-  - DOMAIN-KEYWORD,ttvnw
-  - DOMAIN-KEYWORD,twitter
-  - DOMAIN-KEYWORD,uk-live
-  - DOMAIN-KEYWORD,whatsapp
-  - DOMAIN-KEYWORD,youtube
   - IP-CIDR,1.201.0.0/24
   - IP-CIDR,103.2.28.0/22
   - IP-CIDR,103.246.56.0/22

@@ -10,17 +10,17 @@
 
 ## 规则统计
 
-总计规则：42 条。
+总计规则：90 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
+| HOST-SUFFIX | 25 |
 | USER-AGENT | 1 |
-| HOST-SUFFIX | 18 |
-| IP-CIDR | 20 |
-| HOST-KEYWORD | 2 |
-| HOST | 1 |
+| IP-CIDR | 57 |
+| HOST-KEYWORD | 3 |
+| IP6-CIDR | 4 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -55,6 +55,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Media/Netflix.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netflix.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Netflix.list
 
 

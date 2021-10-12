@@ -13,17 +13,17 @@
 
 ## 规则统计
 
-总计规则：684 条。
+总计规则：643 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | PROCESS-NAME | 5 |
-| DOMAIN-SUFFIX | 666 |
-| DOMAIN-KEYWORD | 8 |
-| IP-CIDR | 4 |
-| IP-CIDR6 | 1 |
+| DOMAIN-SUFFIX | 635 |
+| DOMAIN-KEYWORD | 1 |
+| IP-CIDR | 2 |
+| IP-CIDR6 | 0 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -55,6 +55,12 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 除非特殊需求，否则不建议重复引用。
 
+当前分流规则，已排除以下规则：
+
+- YouTube
+
+- YouTubeMusic
+
 ## 数据来源
 
 本项目的Google复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。
@@ -68,6 +74,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Google/GoogleSearch.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Google/GoogleVoice.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/google.txt
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Google/Google.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Google.list

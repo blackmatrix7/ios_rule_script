@@ -1,13 +1,12 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-09 02:08:47
-# DOMAIN: 41
-# DOMAIN-SUFFIX: 221
-# DOMAIN-KEYWORD: 22
+# UPDATED: 2021-12-15 22:59:36
+# DOMAIN: 43
+# DOMAIN-SUFFIX: 220
+# DOMAIN-KEYWORD: 4
 # IP-CIDR: 863
-# PROCESS-NAME: 3
-# TOTAL: 1150
+# TOTAL: 1130
 payload:
   - DOMAIN,api.okzy.tv
   - DOMAIN,apm-misaka.biliapi.net
@@ -34,7 +33,6 @@ payload:
   - DOMAIN,intl.iqiyi.com
   - DOMAIN,itvpnpmobile-a.akamaihd.net
   - DOMAIN,kktv-theater.kk.stream
-  - DOMAIN,linear.tv.apple.com
   - DOMAIN,mobileso.bz.mgtv.com
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net
@@ -46,7 +44,10 @@ payload:
   - DOMAIN,p.bstarstatic.com
   - DOMAIN,play-edge.itunes.apple.com
   - DOMAIN,players.brightcove.net
+  - DOMAIN,radio.itunes.apple.com
   - DOMAIN,rpg.pic-imges.com
+  - DOMAIN,tv.applemusic.com
+  - DOMAIN,uts-api.itunes.apple.com
   - DOMAIN,videos-f.jwpsrv.com
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN,yt3.ggpht.com
@@ -239,7 +240,6 @@ payload:
   - DOMAIN-SUFFIX,socdm.com
   - DOMAIN-SUFFIX,soundcloud.com
   - DOMAIN-SUFFIX,spoti.fi
-  - DOMAIN-SUFFIX,spotify.com
   - DOMAIN-SUFFIX,spotifycdn.com
   - DOMAIN-SUFFIX,spotifycdn.net
   - DOMAIN-SUFFIX,streaks.jp
@@ -271,28 +271,10 @@ payload:
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-KEYWORD,-spotify-com
-  - DOMAIN-KEYWORD,-tiktokcdn-com
-  - DOMAIN-KEYWORD,.hbogoasia.
   - DOMAIN-KEYWORD,abematv.akamaized.net
-  - DOMAIN-KEYWORD,avoddashs
-  - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,dualstack.apiproxy-
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-
-  - DOMAIN-KEYWORD,foxplus
-  - DOMAIN-KEYWORD,japonx
-  - DOMAIN-KEYWORD,japronx
-  - DOMAIN-KEYWORD,jooxweb-api
-  - DOMAIN-KEYWORD,livedazn
-  - DOMAIN-KEYWORD,nflx
-  - DOMAIN-KEYWORD,nowtv100
-  - DOMAIN-KEYWORD,rthklive
   - DOMAIN-KEYWORD,spotify.com
-  - DOMAIN-KEYWORD,ttvnw
-  - DOMAIN-KEYWORD,uk-live
-  - DOMAIN-KEYWORD,vod2dazn
-  - DOMAIN-KEYWORD,voddazn
-  - DOMAIN-KEYWORD,youtube
   - IP-CIDR,1.37.35.6/32
   - IP-CIDR,101.100.179.242/32
   - IP-CIDR,101.100.179.250/32
@@ -1156,6 +1138,3 @@ payload:
   - IP-CIDR,96.23.20.74/32
   - IP-CIDR,96.23.20.78/32
   - IP-CIDR,96.4.63.99/32
-  - PROCESS-NAME,com.google.android.apps.youtube.music
-  - PROCESS-NAME,com.google.android.youtube.tvmusicroot
-  - PROCESS-NAME,com.vanced.android.apps.youtube.music

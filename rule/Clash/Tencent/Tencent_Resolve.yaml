@@ -1,10 +1,10 @@
 # NAME: Tencent
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-10 02:06:37
-# DOMAIN-SUFFIX: 294
+# UPDATED: 2021-12-15 22:59:34
+# DOMAIN-SUFFIX: 296
 # IP-CIDR: 2
-# TOTAL: 296
+# TOTAL: 298
 payload:
   - DOMAIN-SUFFIX,1700.cn
   - DOMAIN-SUFFIX,17roco.com
@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,accessibilityunion.org.cn
   - DOMAIN-SUFFIX,agcloudcs.com
   - DOMAIN-SUFFIX,aitangyou.com
+  - DOMAIN-SUFFIX,alloyteam.com
   - DOMAIN-SUFFIX,apcdns.com
   - DOMAIN-SUFFIX,apcdns.net
   - DOMAIN-SUFFIX,apdcdn.com
@@ -99,8 +100,10 @@ payload:
   - DOMAIN-SUFFIX,igamecj.com
   - DOMAIN-SUFFIX,igcdn.cn
   - DOMAIN-SUFFIX,imqq.com
+  - DOMAIN-SUFFIX,imweb.io
   - DOMAIN-SUFFIX,in.th
   - DOMAIN-SUFFIX,isd.com
+  - DOMAIN-SUFFIX,ivweb.io
   - DOMAIN-SUFFIX,jiangzidushu.com
   - DOMAIN-SUFFIX,jiangzikanshu.cn
   - DOMAIN-SUFFIX,jiangzikanshu.com
@@ -167,7 +170,6 @@ payload:
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,qq.com.cn
   - DOMAIN-SUFFIX,qq.xn--fiqs8s
-  - DOMAIN-SUFFIX,qq.中国
   - DOMAIN-SUFFIX,qqgameapp.com
   - DOMAIN-SUFFIX,qqgames.com
   - DOMAIN-SUFFIX,qqmail.com
@@ -182,6 +184,7 @@ payload:
   - DOMAIN-SUFFIX,roblox.cn
   - DOMAIN-SUFFIX,romzj.com
   - DOMAIN-SUFFIX,rootjl.com
+  - DOMAIN-SUFFIX,rtx.com.cn
   - DOMAIN-SUFFIX,rtxapp.com
   - DOMAIN-SUFFIX,rtxonline.com
   - DOMAIN-SUFFIX,safejmp.com
@@ -299,6 +302,5 @@ payload:
   - DOMAIN-SUFFIX,ywurl.com
   - DOMAIN-SUFFIX,yximg.cn
   - DOMAIN-SUFFIX,zjump.cn
-  - DOMAIN-SUFFIX,腾讯.中国
   - IP-CIDR,103.238.16.0/23
   - IP-CIDR,103.7.28.0/22

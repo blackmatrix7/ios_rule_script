@@ -1,32 +1,14 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-10 02:06:37
+# UPDATED: 2021-12-15 22:59:37
 # PROCESS-NAME: 5
-# DOMAIN-SUFFIX: 666
-# DOMAIN-KEYWORD: 8
-# IP-CIDR: 4
-# IP-CIDR6: 1
-# TOTAL: 684
+# DOMAIN-SUFFIX: 635
+# DOMAIN-KEYWORD: 1
+# IP-CIDR: 2
+# IP-CIDR6: 0
+# TOTAL: 643
 payload:
-  - DOMAIN-SUFFIX,.bo
-  - DOMAIN-SUFFIX,.chrome
-  - DOMAIN-SUFFIX,.co
-  - DOMAIN-SUFFIX,.dclk
-  - DOMAIN-SUFFIX,.do
-  - DOMAIN-SUFFIX,.eg
-  - DOMAIN-SUFFIX,.gbiz
-  - DOMAIN-SUFFIX,.gle
-  - DOMAIN-SUFFIX,.gmail
-  - DOMAIN-SUFFIX,.goo
-  - DOMAIN-SUFFIX,.goog
-  - DOMAIN-SUFFIX,.google
-  - DOMAIN-SUFFIX,.gt
-  - DOMAIN-SUFFIX,.guge
-  - DOMAIN-SUFFIX,.hangout
-  - DOMAIN-SUFFIX,.nexus
-  - DOMAIN-SUFFIX,.sg
-  - DOMAIN-SUFFIX,.xn--qcka1pmc
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,1e100.net
   - DOMAIN-SUFFIX,1ucrs.com
@@ -60,6 +42,7 @@ payload:
   - DOMAIN-SUFFIX,appbridge.ca
   - DOMAIN-SUFFIX,appbridge.io
   - DOMAIN-SUFFIX,appbridge.it
+  - DOMAIN-SUFFIX,appmeasurement.com
   - DOMAIN-SUFFIX,appspot.com
   - DOMAIN-SUFFIX,apture.com
   - DOMAIN-SUFFIX,area120.com
@@ -236,8 +219,6 @@ payload:
   - DOMAIN-SUFFIX,getmdl.io
   - DOMAIN-SUFFIX,getoutline.org
   - DOMAIN-SUFFIX,ggoogle.com
-  - DOMAIN-SUFFIX,ggpht.cn
-  - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,gipscorp.com
   - DOMAIN-SUFFIX,gkecnapps.cn
   - DOMAIN-SUFFIX,globaledu.org
@@ -496,11 +477,9 @@ payload:
   - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,googleventures.com
-  - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,googlr.com
   - DOMAIN-SUFFIX,goolge.com
   - DOMAIN-SUFFIX,gooogle.com
-  - DOMAIN-SUFFIX,goοglе.com
   - DOMAIN-SUFFIX,gridaware.app
   - DOMAIN-SUFFIX,gsrc.io
   - DOMAIN-SUFFIX,gstatic.cn
@@ -510,15 +489,12 @@ payload:
   - DOMAIN-SUFFIX,gv.com
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1.com
-  - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,gvt3.com
   - DOMAIN-SUFFIX,gvt5.com
   - DOMAIN-SUFFIX,gvt6.com
   - DOMAIN-SUFFIX,gvt7.com
   - DOMAIN-SUFFIX,gvt9.com
   - DOMAIN-SUFFIX,gwtproject.org
-  - DOMAIN-SUFFIX,gοoglе.com
-  - DOMAIN-SUFFIX,gооgle.com
   - DOMAIN-SUFFIX,hdrplusdata.org
   - DOMAIN-SUFFIX,hey.gle
   - DOMAIN-SUFFIX,hindiweb.com
@@ -666,28 +642,11 @@ payload:
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
   - DOMAIN-SUFFIX,xplr.co
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,yt.be
-  - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,zukunftswerkstatt.de
   - DOMAIN-SUFFIX,zynamics.com
-  - DOMAIN-SUFFIX,はじめよう.みんな
-  - DOMAIN-SUFFIX,古博.com
-  - DOMAIN-SUFFIX,咕果.com
-  - DOMAIN-SUFFIX,谷歌.com
-  - DOMAIN-KEYWORD,appspot
-  - DOMAIN-KEYWORD,blogspot
-  - DOMAIN-KEYWORD,gmail
-  - DOMAIN-KEYWORD,google
-  - DOMAIN-KEYWORD,googlesource
-  - DOMAIN-KEYWORD,gstatic
-  - DOMAIN-KEYWORD,recaptcha
   - DOMAIN-KEYWORD,www.google.
-  - IP-CIDR,172.110.32.0/21,no-resolve
   - IP-CIDR,173.194.0.0/16,no-resolve
-  - IP-CIDR,216.73.80.0/20,no-resolve
   - IP-CIDR,74.125.0.0/16,no-resolve
-  - IP-CIDR6,2620:120:e000::/40,no-resolve
   - PROCESS-NAME,backupandsync
   - PROCESS-NAME,com.android.vending
   - PROCESS-NAME,com.google.android.gms

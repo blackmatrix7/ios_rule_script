@@ -1,14 +1,14 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-01 02:08:45
+# UPDATED: 2021-12-15 22:59:26
 # HOST-SUFFIX: 627
 # USER-AGENT: 32
 # HOST: 14
 # IP-CIDR: 14
-# HOST-KEYWORD: 10
 # IP6-CIDR: 4
-# TOTAL: 701
+# HOST-KEYWORD: 1
+# TOTAL: 692
 HOST,analytics.strava.com,China
 HOST,blzddist1-a.akamaihd.net,China
 HOST,cdn.angruo.com,China
@@ -154,6 +154,7 @@ HOST-SUFFIX,chunbo.com,China
 HOST-SUFFIX,chunboimg.com,China
 HOST-SUFFIX,chunyu.mobi,China
 HOST-SUFFIX,chushou.tv,China
+HOST-SUFFIX,cibntv.net,China
 HOST-SUFFIX,citicbank.com,China
 HOST-SUFFIX,clarivate.com,China
 HOST-SUFFIX,clashroyaleapp.com,China
@@ -162,7 +163,6 @@ HOST-SUFFIX,clouddn.com,China
 HOST-SUFFIX,cloudsigma.com,China
 HOST-SUFFIX,cloudxns.net,China
 HOST-SUFFIX,cmbchina.com,China
-HOST-SUFFIX,cmbimg,China
 HOST-SUFFIX,cmbimg.com,China
 HOST-SUFFIX,cmbt.cn,China
 HOST-SUFFIX,cmct.tv,China
@@ -495,6 +495,7 @@ HOST-SUFFIX,segmentfault.com,China
 HOST-SUFFIX,servicewechat.com,China
 HOST-SUFFIX,sf-express.com,China
 HOST-SUFFIX,sharepoint.com,China
+HOST-SUFFIX,shouqianba.com,China
 HOST-SUFFIX,siam.org,China
 HOST-SUFFIX,sina.com,China
 HOST-SUFFIX,sinaapp.com,China
@@ -576,7 +577,6 @@ HOST-SUFFIX,uxengine.net,China
 HOST-SUFFIX,v-56.com,China
 HOST-SUFFIX,veryzhun.com,China
 HOST-SUFFIX,visualstudio.com,China
-HOST-SUFFIX,vmware.com,China
 HOST-SUFFIX,wandoujia.com,China
 HOST-SUFFIX,wangsu.com,China
 HOST-SUFFIX,weather.com,China
@@ -650,16 +650,7 @@ HOST-SUFFIX,zmzapi.com,China
 HOST-SUFFIX,zmzapi.net,China
 HOST-SUFFIX,zmzfile.com,China
 HOST-SUFFIX,zoho.com,China
-HOST-KEYWORD,-cn,China
 HOST-KEYWORD,.tmall.com,China
-HOST-KEYWORD,alicdn,China
-HOST-KEYWORD,alipay,China
-HOST-KEYWORD,aliyun,China
-HOST-KEYWORD,baidu,China
-HOST-KEYWORD,beplay,China
-HOST-KEYWORD,microsoft,China
-HOST-KEYWORD,officecdn,China
-HOST-KEYWORD,taobao,China
 USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*,China
 USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*,China
 USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,China

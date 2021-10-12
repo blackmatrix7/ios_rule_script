@@ -20,8 +20,7 @@
 | ---- | ---- |
 | mitm | 1 |
 | force_http_engine_hosts | 0 |
-| http-request | 1 |
-| http-response | 1 |
+| http-response | 2 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。

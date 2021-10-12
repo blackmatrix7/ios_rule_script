@@ -1,19 +1,22 @@
 # NAME: Netflix
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-05 08:51:06
-# DOMAIN-SUFFIX: 18
-# IP-CIDR: 20
-# DOMAIN-KEYWORD: 2
-# DOMAIN: 1
-# TOTAL: 41
+# UPDATED: 2021-12-15 22:59:36
+# DOMAIN-SUFFIX: 25
+# IP-CIDR: 57
+# DOMAIN-KEYWORD: 3
+# PROCESS-NAME: 1
+# IP-CIDR6: 4
+# TOTAL: 90
 payload:
-  - DOMAIN,netflix.com.edgesuite.net
   - DOMAIN-SUFFIX,fast.com
+  - DOMAIN-SUFFIX,netflix.ca
   - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-SUFFIX,netflix.com.edgesuite.net
   - DOMAIN-SUFFIX,netflix.net
   - DOMAIN-SUFFIX,netflixdnstest0.com
   - DOMAIN-SUFFIX,netflixdnstest1.com
+  - DOMAIN-SUFFIX,netflixdnstest10.com
   - DOMAIN-SUFFIX,netflixdnstest2.com
   - DOMAIN-SUFFIX,netflixdnstest3.com
   - DOMAIN-SUFFIX,netflixdnstest4.com
@@ -22,12 +25,17 @@ payload:
   - DOMAIN-SUFFIX,netflixdnstest7.com
   - DOMAIN-SUFFIX,netflixdnstest8.com
   - DOMAIN-SUFFIX,netflixdnstest9.com
+  - DOMAIN-SUFFIX,netflixinvestor.com
+  - DOMAIN-SUFFIX,netflixtechblog.com
   - DOMAIN-SUFFIX,nflxext.com
   - DOMAIN-SUFFIX,nflximg.com
   - DOMAIN-SUFFIX,nflximg.net
+  - DOMAIN-SUFFIX,nflxsearch.net
   - DOMAIN-SUFFIX,nflxso.net
   - DOMAIN-SUFFIX,nflxvideo.net
+  - DOMAIN-SUFFIX,us-west-2.amazonaws.com
   - DOMAIN-KEYWORD,dualstack.apiproxy-
+  - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-
   - IP-CIDR,103.87.204.0/22
   - IP-CIDR,108.175.32.0/20
@@ -36,16 +44,58 @@ payload:
   - IP-CIDR,192.173.64.0/18
   - IP-CIDR,198.38.96.0/19
   - IP-CIDR,198.45.48.0/20
+  - IP-CIDR,203.116.0.0/16
+  - IP-CIDR,203.198.0.0/20
+  - IP-CIDR,203.198.80.0/21
+  - IP-CIDR,203.75.84.0/24
+  - IP-CIDR,203.83.220.0/22
   - IP-CIDR,207.45.72.0/22
   - IP-CIDR,208.75.76.0/22
+  - IP-CIDR,218.102.32.0/19
+  - IP-CIDR,219.76.0.0/17
   - IP-CIDR,23.246.0.0/18
-  - IP-CIDR,34.210.42.111/32
+  - IP-CIDR,23.78.0.0/16
+  - IP-CIDR,34.192.0.0/16
+  - IP-CIDR,34.208.0.0/12
+  - IP-CIDR,34.248.0.0/13
+  - IP-CIDR,35.160.0.0/13
   - IP-CIDR,37.77.184.0/21
   - IP-CIDR,38.72.126.0/24
+  - IP-CIDR,44.224.0.0/16
+  - IP-CIDR,44.230.0.0/16
   - IP-CIDR,45.57.0.0/17
-  - IP-CIDR,52.89.124.203/32
-  - IP-CIDR,54.148.37.5/32
+  - IP-CIDR,52.0.0.0/15
+  - IP-CIDR,52.10.0.0/15
+  - IP-CIDR,52.12.0.0/15
+  - IP-CIDR,52.22.0.0/16
+  - IP-CIDR,52.24.0.0/14
+  - IP-CIDR,52.32.0.0/14
+  - IP-CIDR,52.40.0.0/14
+  - IP-CIDR,52.48.0.0/14
+  - IP-CIDR,52.5.0.0/16
+  - IP-CIDR,52.54.0.0/16
+  - IP-CIDR,52.7.0.0/16
+  - IP-CIDR,52.71.0.0/16
+  - IP-CIDR,52.72.0.0/16
+  - IP-CIDR,52.88.0.0/15
+  - IP-CIDR,54.0.0.0/16
+  - IP-CIDR,54.148.0.0/15
+  - IP-CIDR,54.175.0.0/16
+  - IP-CIDR,54.186.0.0/15
+  - IP-CIDR,54.188.0.0/15
+  - IP-CIDR,54.213.0.0/16
+  - IP-CIDR,54.214.128.0/17
+  - IP-CIDR,54.68.0.0/15
+  - IP-CIDR,54.74.0.0/15
+  - IP-CIDR,54.76.0.0/15
+  - IP-CIDR,54.85.0.0/16
+  - IP-CIDR,54.86.0.0/16
   - IP-CIDR,64.120.128.0/17
   - IP-CIDR,66.197.128.0/17
   - IP-CIDR,69.53.224.0/19
   - IP-CIDR,8.41.4.0/24
+  - IP-CIDR6,2607:fb10::/32
+  - IP-CIDR6,2620:10c:7000::/44
+  - IP-CIDR6,2a00:86c0::/32
+  - IP-CIDR6,2a03:5640::/32
+  - PROCESS-NAME,com.netflix.mediaclient

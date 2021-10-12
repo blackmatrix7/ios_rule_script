@@ -600,7 +600,7 @@ let magicJS = MagicJS(scriptName, "INFO");
       try {
         const userInfo = GetUserInfo();
         // 获取屏蔽关键词列表
-        if (magicJS.request.method === "GET" && userInfo.is_vip !== true) {
+        if (magicJS.request.method === "GET") {
           let keywords = magicJS.read(keywordBlockKey, userInfo.id);
           if (!keywords) {
             keywords = [];
@@ -632,7 +632,7 @@ let magicJS = MagicJS(scriptName, "INFO");
           magicJS.logDebug(`获取本地脚本屏蔽关键词：\n${keywords.join("、")}`);
         }
         // 添加屏蔽关键词
-        else if (magicJS.request.method === "POST" && userInfo.is_vip !== true) {
+        else if (magicJS.request.method === "POST") {
           if (!!magicJS.request.body) {
             // 构造 response headers
             let headers = {
@@ -690,7 +690,7 @@ let magicJS = MagicJS(scriptName, "INFO");
           }
         }
         // 删除屏蔽关键词
-        else if (magicJS.request.method === "DELETE" && userInfo.is_vip !== true) {
+        else if (magicJS.request.method === "DELETE") {
           let keyword = decodeURIComponent(magicJS.request.url).match(/keyword=(.*)/)[1];
           let keywords = magicJS.read(keywordBlockKey, userInfo.id);
           if (!keywords) {

@@ -56,8 +56,8 @@ if (url.indexOf(path2) != -1) {
     let msg
     request_history_price(shareUrl)
         .then(data => {
+            if (data.errno == -1) throw new Error('Whoops!')
             msg = data
-            if (msg.priceTrend.series.length == 0) throw new Error('Whoops!')
         })
         .catch(error => msg = "暂无价格信息")
         .finally(() => {
@@ -99,24 +99,24 @@ if (url.indexOf(path2) != -1) {
 }
 
 function sendNotify(data) {
-    if (typeof data == "string") {
-        $tool.notify("", "", `${data}`)
+    if (data.data.PricesHistory == null) {
+        $tool.notify("", "", `暂无历史价格`)
     } else {
-        const detail = priceSummary(data)[1]
-        $tool.notify("", "", `🍵 ${detail}`)
+        const detail = priceSummary(data.data)
+        $tool.notify("", "", `${detail}`)
     }
 }
 
 function setConsumerProtection(data, consumerProtection) {
     let basicService = consumerProtection.serviceProtection.basicService
     let items = consumerProtection.items
-    if (typeof data == "string") {
-        let item = customItem(data, [])
+    if (data.data.PricesHistory == null) {
+        let item = customItem("暂无历史价格", [])
         basicService.services.unshift(item)
         items.unshift(item)
     } else {
-        const summary = priceSummary(data.priceTrend)[1]
-        const item = customItem("价格详情", [`${summary}`])
+        const summary = priceSummary(data.data)[1]
+        const item = customItem("🌨 历史价格详情", [`${summary}`])
         basicService.services.unshift(item)
         items.unshift(item)
     }
@@ -125,26 +125,25 @@ function setConsumerProtection(data, consumerProtection) {
 
 function setTradeConsumerProtection(data, tradeConsumerProtection) {
     let service = tradeConsumerProtection.tradeConsumerService.service
-    if (typeof data == "string") {
-        service.items.unshift(customItem(data, ""))
+    if (data.data.PricesHistory == null) {
+        service.items.unshift(customItem("暂无历史价格", ""))
     } else {
-        const tbitems = priceSummary(data.priceTrend)[0]
+        const tbitems = priceSummary(data.data)[0]
         let nonService = tradeConsumerProtection.tradeConsumerService.nonService
         service.items = service.items.concat(nonService.items)
-        nonService.title = "价格详情"
+        nonService.title = "🌨 历史价格详情"
         nonService.items = tbitems
     }
     return tradeConsumerProtection
 }
 
 function priceSummary(data) {
-    data = data.series[0]
-    let summary = `当前: ${parseFloat(data.current / 100.0)}${getSpace(4)}最低: ${parseFloat(data.min / 100.0)}${getSpace(4)}最高: ${parseFloat(data.max / 100.0)}`
+    let summary = `当前: ${data.CurrentPrice}${getSpace(8)}最低: ${data.LowestPrice} (${data.LowestDate})`
     let tbitems = [customItem(summary)]
-    const list = historySummary(data.data)
+    const list = historySummary(data.PricesHistory)
     list.forEach((item, index) => {
         summary += `\n${item.Name}${getSpace(4)}${item.Price}${getSpace(4)}${item.Date}${getSpace(4)}${item.Difference}`
-        let summaryItem = `${item.Name}${getSpace(4)}${item.Price}${getSpace(4)}${item.Date}${getSpace(4)}${item.Difference}`
+        let summaryItem = `${item.Name}${getSpace(3)}${item.Price}${getSpace(3)}${item.Date}${getSpace(3)}${item.Difference}`
         tbitems.push(customItem(summaryItem))
     });
     return [tbitems, summary]
@@ -154,8 +153,8 @@ function historySummary(list) {
     let currentPrice, lowest30, lowest90, lowest180, lowest360, price11, price618;
     list = list.reverse().slice(0, 360);
     list.forEach((item, index) => {
-        const date = getExactTime(item.x);
-        let price = parseFloat(item.y / 100.0);
+        const date = item.Date;
+        let price = item.Price;
         if (index == 0) {
             currentPrice = price;
             price618 = {
@@ -244,39 +243,22 @@ function historySummary(list) {
 async function request_history_price(share_url) {
     const options = {
         headers: {
-            "User-Agent":
-                "bijiago/1.4.2 (com.bijiago.app; build:65; iOS 14.5.1) Alamofire/4.9.1",
-            "Content-Type": "application/x-www-form-urlencoded",
+            "Content-Type": "application/json; charset=utf-8",
         },
     };
 
-    const rid = new Promise(function (resolve, reject) {
-        options.url = "https://app.bijiago.com/service/product?app_platform=ios&app_version=65&device=750%2A1334&opt=product&posi=default&url=" + encodeURIComponent(share_url);
+    const priceTrend = new Promise(function (resolve, reject) {
+        options.url = "https://price.icharle.com/?product_id=" + share_url;
         $tool.get(options, function (error, response, data) {
             if (!error) {
-                resolve(JSON.parse(data))
+                resolve(JSON.parse(data));
             } else {
-                reject(error)
+                reject(error);
             }
-        })
-    })
-
-    const priceTrend = (rid, dq_id) => {
-        return new Promise(function (resolve, reject) {
-            options.url = "https://app.bijiago.com/service/product"
-            options.body = `app_platform=ios&app_version=10000&append_promo=1&dp_id=${dq_id}&from=url&opt=priceTrend&rid=${rid}`
-            $tool.post(options, function (error, response, data) {
-                if (!error) {
-                    resolve(JSON.parse(data));
-                } else {
-                    reject(error)
-                }
-            })
-        })
-    }
-    const ridData = await (rid)
-    const priceTrendData = await (priceTrend(ridData.rid, ridData.product.dp_id))
-    return priceTrendData
+        });
+    });
+    const priceTrendData = await priceTrend;
+    return priceTrendData;
 }
 
 function getExactTime(time) {

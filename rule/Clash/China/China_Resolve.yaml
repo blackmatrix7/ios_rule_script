@@ -1,13 +1,13 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-01 02:08:46
+# UPDATED: 2021-12-15 22:59:34
 # DOMAIN-SUFFIX: 627
 # DOMAIN: 14
 # IP-CIDR: 14
-# DOMAIN-KEYWORD: 10
 # IP-CIDR6: 4
-# TOTAL: 669
+# DOMAIN-KEYWORD: 1
+# TOTAL: 660
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -154,6 +154,7 @@ payload:
   - DOMAIN-SUFFIX,chunboimg.com
   - DOMAIN-SUFFIX,chunyu.mobi
   - DOMAIN-SUFFIX,chushou.tv
+  - DOMAIN-SUFFIX,cibntv.net
   - DOMAIN-SUFFIX,citicbank.com
   - DOMAIN-SUFFIX,clarivate.com
   - DOMAIN-SUFFIX,clashroyaleapp.com
@@ -162,7 +163,6 @@ payload:
   - DOMAIN-SUFFIX,cloudsigma.com
   - DOMAIN-SUFFIX,cloudxns.net
   - DOMAIN-SUFFIX,cmbchina.com
-  - DOMAIN-SUFFIX,cmbimg
   - DOMAIN-SUFFIX,cmbimg.com
   - DOMAIN-SUFFIX,cmbt.cn
   - DOMAIN-SUFFIX,cmct.tv
@@ -495,6 +495,7 @@ payload:
   - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,sf-express.com
   - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,shouqianba.com
   - DOMAIN-SUFFIX,siam.org
   - DOMAIN-SUFFIX,sina.com
   - DOMAIN-SUFFIX,sinaapp.com
@@ -576,7 +577,6 @@ payload:
   - DOMAIN-SUFFIX,v-56.com
   - DOMAIN-SUFFIX,veryzhun.com
   - DOMAIN-SUFFIX,visualstudio.com
-  - DOMAIN-SUFFIX,vmware.com
   - DOMAIN-SUFFIX,wandoujia.com
   - DOMAIN-SUFFIX,wangsu.com
   - DOMAIN-SUFFIX,weather.com
@@ -650,16 +650,7 @@ payload:
   - DOMAIN-SUFFIX,zmzapi.net
   - DOMAIN-SUFFIX,zmzfile.com
   - DOMAIN-SUFFIX,zoho.com
-  - DOMAIN-KEYWORD,-cn
   - DOMAIN-KEYWORD,.tmall.com
-  - DOMAIN-KEYWORD,alicdn
-  - DOMAIN-KEYWORD,alipay
-  - DOMAIN-KEYWORD,aliyun
-  - DOMAIN-KEYWORD,baidu
-  - DOMAIN-KEYWORD,beplay
-  - DOMAIN-KEYWORD,microsoft
-  - DOMAIN-KEYWORD,officecdn
-  - DOMAIN-KEYWORD,taobao
   - IP-CIDR,1.255.62.0/24
   - IP-CIDR,101.32.104.4/32
   - IP-CIDR,101.32.104.41/32

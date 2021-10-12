@@ -1,10 +1,9 @@
 # NAME: DAZN
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-05 08:51:05
+# UPDATED: 2021-12-15 22:59:36
 # DOMAIN-SUFFIX: 17
-# DOMAIN-KEYWORD: 1
-# TOTAL: 18
+# TOTAL: 17
 payload:
   - DOMAIN-SUFFIX,control.kochava.com
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net
@@ -23,4 +22,3 @@ payload:
   - DOMAIN-SUFFIX,logx.optimizely.com
   - DOMAIN-SUFFIX,s.yimg.jp
   - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-KEYWORD,voddazn

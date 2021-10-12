@@ -1,14 +1,14 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-01 02:08:45
+# UPDATED: 2021-12-15 22:59:30
 # DOMAIN-SUFFIX: 627
 # USER-AGENT: 32
 # DOMAIN: 14
 # IP-CIDR: 14
-# DOMAIN-KEYWORD: 10
 # IP-CIDR6: 4
-# TOTAL: 701
+# DOMAIN-KEYWORD: 1
+# TOTAL: 692
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,cdn.angruo.com
@@ -154,6 +154,7 @@ DOMAIN-SUFFIX,chunbo.com
 DOMAIN-SUFFIX,chunboimg.com
 DOMAIN-SUFFIX,chunyu.mobi
 DOMAIN-SUFFIX,chushou.tv
+DOMAIN-SUFFIX,cibntv.net
 DOMAIN-SUFFIX,citicbank.com
 DOMAIN-SUFFIX,clarivate.com
 DOMAIN-SUFFIX,clashroyaleapp.com
@@ -162,7 +163,6 @@ DOMAIN-SUFFIX,clouddn.com
 DOMAIN-SUFFIX,cloudsigma.com
 DOMAIN-SUFFIX,cloudxns.net
 DOMAIN-SUFFIX,cmbchina.com
-DOMAIN-SUFFIX,cmbimg
 DOMAIN-SUFFIX,cmbimg.com
 DOMAIN-SUFFIX,cmbt.cn
 DOMAIN-SUFFIX,cmct.tv
@@ -495,6 +495,7 @@ DOMAIN-SUFFIX,segmentfault.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,shouqianba.com
 DOMAIN-SUFFIX,siam.org
 DOMAIN-SUFFIX,sina.com
 DOMAIN-SUFFIX,sinaapp.com
@@ -576,7 +577,6 @@ DOMAIN-SUFFIX,uxengine.net
 DOMAIN-SUFFIX,v-56.com
 DOMAIN-SUFFIX,veryzhun.com
 DOMAIN-SUFFIX,visualstudio.com
-DOMAIN-SUFFIX,vmware.com
 DOMAIN-SUFFIX,wandoujia.com
 DOMAIN-SUFFIX,wangsu.com
 DOMAIN-SUFFIX,weather.com
@@ -650,16 +650,7 @@ DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
 DOMAIN-SUFFIX,zoho.com
-DOMAIN-KEYWORD,-cn
 DOMAIN-KEYWORD,.tmall.com
-DOMAIN-KEYWORD,alicdn
-DOMAIN-KEYWORD,alipay
-DOMAIN-KEYWORD,aliyun
-DOMAIN-KEYWORD,baidu
-DOMAIN-KEYWORD,beplay
-DOMAIN-KEYWORD,microsoft
-DOMAIN-KEYWORD,officecdn
-DOMAIN-KEYWORD,taobao
 USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
 USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*
 USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*

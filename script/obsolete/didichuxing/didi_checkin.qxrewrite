@@ -1,0 +1,14 @@
+# 滴滴出行每日自动签到
+
+# 获取Token
+^https?:\/\/api\.didialift\.com\/beatles\/userapi\/user\/user\/getuserinfo?.*city_id=(\d+).*&token=([^&]*) url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/obsolete/didichuxing/didi_checkin.js
+# 获取Ticket(备用，无法获取Token时尝试)
+^https?:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?.*location_cityid=(\d+).*&ticket=([^&]*) url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/obsolete/didichuxing/didi_checkin.js
+# 获取LotteryId
+^https?:\/\/bosp-api\.xiaojukeji\.com\/bosp-api\/lottery\/info?.*lid=([^&]*) url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/obsolete/didichuxing/didi_checkin.js
+# 获取ActivityId与ChannelId
+^https?:\/\/pay\.diditaxi\.com\.cn\/web_wallet\/v2\/wallet\/home url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/obsolete/didichuxing/didi_checkin.js
+# 获取GroupId
+^https?:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/v2\/index url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/obsolete/didichuxing/didi_checkin.js
+
+hostname = api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,*.diditaxi.com.cn

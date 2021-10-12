@@ -1,0 +1,8 @@
+#!name=GlobalMax MITM
+#!desc=最后更新时间 2021-12-15 22:59:25
+#!author=blackmatrix7
+#!repo=https://gitlab.com/blackmatrix7/ios_rule_script
+#!mitm=1
+
+[MITM]
+hostname = %APPEND% img.sina.com

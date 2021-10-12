@@ -1,12 +1,13 @@
 # NAME: AppleMusic
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-05 08:51:05
+# UPDATED: 2021-12-15 22:59:34
 # DOMAIN-SUFFIX: 2
-# DOMAIN: 5
+# DOMAIN: 6
 # PROCESS-NAME: 1
-# TOTAL: 8
+# TOTAL: 9
 payload:
+  - DOMAIN,aod-ssl.itunes.apple.com
   - DOMAIN,aod.itunes.apple.com
   - DOMAIN,audio-ssl.itunes.apple.com
   - DOMAIN,audio.itunes.apple.com

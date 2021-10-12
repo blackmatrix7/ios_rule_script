@@ -1,10 +1,10 @@
 
 
-# Apple Store iPhone 库存监控
+# Apple Store 库存监控
 
 ## 前言
 
-这是一个可以让你感受绝望的脚本，感受那种明知有货，但还是抢不到的那种绝望。
+脚本用来监控线下AppleStore指定商品库存，目前验证过iPhone13、AppleWatch7系列。
 
 长话短说，需要做一些准备：
 
@@ -25,6 +25,16 @@ iPhone 13 Pro
 https://www.apple.com.cn/shop/buy-iphone/iphone-13-pro/MLTE3CH/A
 
 在上面的链接中选择需要的型号、颜色、容量，然后把地址中类似MLDH3CH/A的文本复制下来，就是需要监控的型号
+
+AppleWatch 
+
+https://www.apple.com.cn/shop/buy-watch/apple-watch/45mm-cellular-graphite-stainless-steel-pride-edition-braided-solo-loop-size-5
+
+AppleWatch因为有选项，所以会稍微麻烦，需要在浏览器的“开发人员工具”中，找到“网络”，在“筛选器”中输入`https://www.apple.com.cn/shop/fulfillment-messages`，找到网络请求，将`parts.0=xxxxx`和`option.0=xxxxxxxxxxx`中xxxxx部分复制出来保存。
+
+将两个拼接在一起，如 `Z0YQ#MKMR3CH/A,MJXA3FE/A`，就是需要监控的型号。
+
+AppleWatch目前没办法自动获取标题，所以可以自定义标题，如`Z0YQ#MKMR3CH/A,MJXA3FE/A#AppleWatch 7 石墨色不锈钢`，把这部分输入到BoxJs的监控型号中。
 
 ### 确认地区
 
@@ -62,8 +72,6 @@ https://www.apple.com.cn/shop/buy-iphone/iphone-13-pro/MLTE3CH/A
 
 表示的是每家店铺的具体情况，小太阳表示有货，禁止符号表示售罄，紧接着是城市和店铺名称。
 
-~~最后的箭头，↑ 代表上次查询售罄，本次查询有货。↓ 代表上次查询有货，本次查询售罄。○ 表示上次查询售罄，本次查询也售罄。●表示上次查询有货，本次查询也有货。~~这是去年监控iPhone12用的，监控iPhone13后简化了通知，箭头无意义。
-
 点击通知可以跳转到Apple Store APP，如果你有安装的话。
 
 ## 配置说明
@@ -90,18 +98,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/app
 
 ```ini
 [task_local]
-0/5 * 6-23 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/applestore/iphone.js, tag=AppleStore_iPhone库存监控, enabled=true
+0/5 * 6-23 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/applestore/iphone.js, tag=AppleStore_商品库存监控, enabled=true
 ```
-
-## 暂停维护
-
-没错，刚刚更新就暂停维护了，如果没有严重的Bug不会再修改。
-
-因为：
-
-1. 依照往年惯例，iPhone稳定供货后，苹果会关闭库存查询接口，脚本失效
-2. 每年库存查询接口都会有很大的变化，每年都需要重写
-3. ~~绝对不是因为我已经首发买到iPhone13 Pro Max~~
-
-明年 iPhone14/13S 再见！
 

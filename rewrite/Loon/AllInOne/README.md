@@ -21,7 +21,7 @@
 | IP-CIDR | 1 |
 | IP-CIDR6 | 1 |
 | USER-AGENT | 1 |
-| reject | 734 |
+| reject | 735 |
 | http-response | 33 |
 | http-request | 3 |
 | redirect | 49 |

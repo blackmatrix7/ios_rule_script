@@ -15,14 +15,14 @@ Global分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需
 
 ## 规则统计
 
-总计规则：33870 条。
+总计规则：34207 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 53 |
-| DOMAIN-SUFFIX | 33593 |
+| DOMAIN | 20 |
+| DOMAIN-SUFFIX | 33963 |
 | USER-AGENT | 48 |
 | DOMAIN-KEYWORD | 41 |
 | IP-CIDR | 129 |
@@ -87,6 +87,9 @@ Global_Domain.list 请使用DOMAIN-SET。
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt

@@ -13,15 +13,15 @@
 
 ## 规则统计
 
-总计规则：27854 条。
+总计规则：27463 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 14411 |
-| HOST-KEYWORD | 28 |
-| HOST-SUFFIX | 13256 |
+| HOST | 14060 |
+| HOST-KEYWORD | 27 |
+| HOST-SUFFIX | 13217 |
 | IP-CIDR | 158 |
 | IP6-CIDR | 1 |
 ## 配置说明
@@ -49,6 +49,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 当前分流规则，未包含其他子规则。
 
 当前分流规则，已排除以下规则：
+
+- Direct
 
 - Hijacking
 

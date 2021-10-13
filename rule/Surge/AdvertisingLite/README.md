@@ -18,15 +18,15 @@
 
 ## 规则统计
 
-总计规则：28149 条。
+总计规则：27758 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 14411 |
-| DOMAIN-KEYWORD | 28 |
-| DOMAIN-SUFFIX | 13256 |
+| DOMAIN | 14060 |
+| DOMAIN-KEYWORD | 27 |
+| DOMAIN-SUFFIX | 13217 |
 | IP-CIDR | 158 |
 | IP-CIDR6 | 1 |
 | URL-REGEX | 295 |
@@ -67,6 +67,8 @@ AdvertisingLite_Domain.list 请使用DOMAIN-SET。
 当前分流规则，未包含其他子规则。
 
 当前分流规则，已排除以下规则：
+
+- Direct
 
 - Hijacking
 

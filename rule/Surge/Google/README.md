@@ -13,7 +13,7 @@
 
 ## 规则统计
 
-总计规则：687 条。
+总计规则：360 条。
 
 各类型规则统计：
 
@@ -21,7 +21,7 @@
 | ---- | ---- |
 | PROCESS-NAME | 5 |
 | USER-AGENT | 3 |
-| DOMAIN-SUFFIX | 666 |
+| DOMAIN-SUFFIX | 339 |
 | DOMAIN-KEYWORD | 8 |
 | IP-CIDR | 4 |
 | IP-CIDR6 | 1 |
@@ -56,6 +56,12 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 除非特殊需求，否则不建议重复引用。
 
+当前分流规则，已排除以下规则：
+
+- YouTube
+
+- YouTubeMusic
+
 ## 数据来源
 
 本项目的Google复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。
@@ -69,6 +75,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Google/GoogleSearch.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Google/GoogleVoice.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/google.txt
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Google/Google.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Google.list

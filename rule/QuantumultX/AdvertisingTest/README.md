@@ -13,16 +13,16 @@
 
 ## 规则统计
 
-总计规则：98891 条。
+总计规则：101076 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 15151 |
-| HOST-KEYWORD | 88 |
-| HOST-SUFFIX | 83398 |
-| IP-CIDR | 253 |
+| HOST | 14598 |
+| HOST-KEYWORD | 87 |
+| HOST-SUFFIX | 86134 |
+| IP-CIDR | 256 |
 | IP6-CIDR | 1 |
 ## 配置说明
 
@@ -80,6 +80,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/AdBlock.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/ad-domains.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/video-ad.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt
 - https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt
 - https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt

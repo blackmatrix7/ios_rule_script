@@ -1,0 +1,8 @@
+#!name=Direct MITM
+#!desc=最后更新时间 2021-10-22 02:10:05
+#!author=blackmatrix7
+#!repo=https://gitlab.com/blackmatrix7/ios_rule_script
+#!mitm=2
+
+[MITM]
+hostname = %APPEND% app.bilibili.com,www.didapinche.com

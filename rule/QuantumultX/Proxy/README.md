@@ -10,14 +10,14 @@
 
 ## 规则统计
 
-总计规则：33784 条。
+总计规则：34364 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 49 |
-| HOST-SUFFIX | 33604 |
+| HOST | 20 |
+| HOST-SUFFIX | 34213 |
 | USER-AGENT | 11 |
 | HOST-KEYWORD | 29 |
 | IP-CIDR | 88 |
@@ -60,6 +60,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt

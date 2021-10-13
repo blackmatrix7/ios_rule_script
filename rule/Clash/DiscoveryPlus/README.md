@@ -10,13 +10,13 @@
 
 ## 规则统计
 
-总计规则：5 条。
+总计规则：10 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 5 |
+| DOMAIN-SUFFIX | 10 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -48,6 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 如果你正在使用这些复写规则，建议不要与本项目的DiscoveryPlus复写规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/%E2%80%8EDiscoveryPlus.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/DiscoveryPlus.list
 
 
 感谢以上复写规则作者的辛勤付出（排名不分先后）。

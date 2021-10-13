@@ -1,8 +1,8 @@
 #!name=复写去广告(严格版)
-#!desc=最后更新时间 2021-10-09 02:09:07
+#!desc=最后更新时间 2021-10-24 02:08:40
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=712
+#!rewrite=713
 #!script=0
 #!force_http_engine_hosts=12
 #!mitm=522
@@ -198,6 +198,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv - reject
 ^https?:\/\/erebor\.douban\.com\/count\/\?ad= - reject
 ^https?:\/\/fb\.fbstatic\.cn\/api\/ape-images\/.*.jpg? - reject
+^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
 ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/biz\/base\/appversion\/latest - reject
 ^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview - reject
 ^https?:\/\/free\.sinaimg\.cn\/u1\.img\.mobile\.sina\.cn - reject
@@ -374,7 +375,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad - reject
 ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject
 ^https?:\/\/supportda\.ofo\.com\/adaction\? - reject
-^https?:\/\/syh\.zybang\.com\/adx\/ - reject
+^https?:\/\/syh\.zybang\.com\/com\/adx\/ - reject
 ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ - reject
 ^https?:\/\/tiasdk\.app\.wechat\.com\/retrieval\/getAdInfo$ - reject
 ^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/ - reject

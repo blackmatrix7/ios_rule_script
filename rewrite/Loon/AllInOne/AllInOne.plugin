@@ -1,8 +1,8 @@
 # NAME: AllInOne
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-09 02:09:07
-# REWRITE: 783
+# UPDATED: 2021-10-24 02:08:40
+# REWRITE: 784
 # SCRIPT: 36
 # MITM: 551
 
@@ -371,6 +371,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/fdfs\.xmcdn\.com\/group25\/M05\/92\/D1\/ - reject-img
 ^https?:\/\/fds\.api\.moji\.com\/card\/recommend - reject-img
 ^https?:\/\/fengplus\.feng\.com\/index\.php\?r=api\/slide\/.+?Ads - reject-img
+^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
 ^https?:\/\/fm\.fenqile\.com\/routev2\/other\/getfloatAd\.json - reject-img
 ^https?:\/\/fm\.fenqile\.com\/routev2\/other\/startImg\.json - reject-img
 ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/biz\/base\/appversion\/latest - reject
@@ -679,7 +680,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/storage\.wax\.weibo\.com\/\w+\.(png|jpg|mp4) - reject-img
 ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject
 ^https?:\/\/supportda\.ofo\.com\/adaction\? - reject
-^https?:\/\/syh\.zybang\.com\/adx\/ - reject
+^https?:\/\/syh\.zybang\.com\/com\/adx\/ - reject
 ^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ - reject-img
 ^https?:\/\/tb1\.bdstatic\.com\/tb\/cms\/ngmis\/adsense\/*\.jpg - reject-img
 ^https?:\/\/tb2\.bdstatic\.com\/tb\/mobile\/spb\/widget\/jump - reject-img

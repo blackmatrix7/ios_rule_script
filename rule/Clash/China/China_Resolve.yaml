@@ -1,13 +1,13 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-01 02:08:46
-# DOMAIN-SUFFIX: 627
-# DOMAIN: 14
+# UPDATED: 2021-10-24 02:08:18
+# DOMAIN-SUFFIX: 614
+# DOMAIN: 12
 # IP-CIDR: 14
 # DOMAIN-KEYWORD: 10
 # IP-CIDR6: 4
-# TOTAL: 669
+# TOTAL: 654
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -16,10 +16,8 @@ payload:
   - DOMAIN,dl.google.com
   - DOMAIN,download.jetbrains.com
   - DOMAIN,file-igamecj.akamaized.net
-  - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,mtalk.google.com
-  - DOMAIN,officecdn-microsoft-com.akamaized.net
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,sms.imagetasks.com
   - DOMAIN,steamcommunity-a.akamaihd.net
@@ -72,12 +70,7 @@ payload:
   - DOMAIN-SUFFIX,alibaba.com
   - DOMAIN-SUFFIX,alibabacloud.com
   - DOMAIN-SUFFIX,alibabausercontent.com
-  - DOMAIN-SUFFIX,alicdn.com
   - DOMAIN-SUFFIX,alikunlun.com
-  - DOMAIN-SUFFIX,alipay.com
-  - DOMAIN-SUFFIX,alipayobjects.com
-  - DOMAIN-SUFFIX,aliyun.com
-  - DOMAIN-SUFFIX,aliyuncs.com
   - DOMAIN-SUFFIX,alphassl.com
   - DOMAIN-SUFFIX,amap.com
   - DOMAIN-SUFFIX,amd.com
@@ -101,10 +94,6 @@ payload:
   - DOMAIN-SUFFIX,b612.net
   - DOMAIN-SUFFIX,bababian.com
   - DOMAIN-SUFFIX,baduziyuan.com
-  - DOMAIN-SUFFIX,baidu.com
-  - DOMAIN-SUFFIX,baidubcr.com
-  - DOMAIN-SUFFIX,baidupan.com
-  - DOMAIN-SUFFIX,baidupcs.com
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com
   - DOMAIN-SUFFIX,bdatu.com
@@ -154,6 +143,7 @@ payload:
   - DOMAIN-SUFFIX,chunboimg.com
   - DOMAIN-SUFFIX,chunyu.mobi
   - DOMAIN-SUFFIX,chushou.tv
+  - DOMAIN-SUFFIX,cibntv.net
   - DOMAIN-SUFFIX,citicbank.com
   - DOMAIN-SUFFIX,clarivate.com
   - DOMAIN-SUFFIX,clashroyaleapp.com
@@ -371,9 +361,6 @@ payload:
   - DOMAIN-SUFFIX,mi-img.com
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,miaopai.com
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-SUFFIX,microsoftonline.com
-  - DOMAIN-SUFFIX,microsofttranslator.com
   - DOMAIN-SUFFIX,miui.com
   - DOMAIN-SUFFIX,miwifi.com
   - DOMAIN-SUFFIX,mls-cdn.com
@@ -405,7 +392,6 @@ payload:
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,nfoservers.com
   - DOMAIN-SUFFIX,ngabbs.com
-  - DOMAIN-SUFFIX,nim-lang-cn.org
   - DOMAIN-SUFFIX,novipnoad.com
   - DOMAIN-SUFFIX,nssurge.com
   - DOMAIN-SUFFIX,ntp.org
@@ -481,7 +467,6 @@ payload:
   - DOMAIN-SUFFIX,rrmj.tv
   - DOMAIN-SUFFIX,rsc.org
   - DOMAIN-SUFFIX,ruguoapp.com
-  - DOMAIN-SUFFIX,s-microsoft.com
   - DOMAIN-SUFFIX,s-reader.com
   - DOMAIN-SUFFIX,sagepub.com
   - DOMAIN-SUFFIX,sandai.net
@@ -495,6 +480,7 @@ payload:
   - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,sf-express.com
   - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,shouqianba.com
   - DOMAIN-SUFFIX,siam.org
   - DOMAIN-SUFFIX,sina.com
   - DOMAIN-SUFFIX,sinaapp.com
@@ -538,7 +524,6 @@ payload:
   - DOMAIN-SUFFIX,t.tt
   - DOMAIN-SUFFIX,takungpao.com
   - DOMAIN-SUFFIX,tandfonline.com
-  - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,tawk.link
   - DOMAIN-SUFFIX,tawk.to
   - DOMAIN-SUFFIX,teamviewer.com

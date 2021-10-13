@@ -1,10 +1,11 @@
 # NAME: Alibaba
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-05 08:51:05
+# UPDATED: 2021-11-03 02:09:16
 # DOMAIN-SUFFIX: 1171
+# PROCESS-NAME: 1
 # IP-CIDR: 50
-# TOTAL: 1221
+# TOTAL: 1222
 payload:
   - DOMAIN-SUFFIX,10029.com
   - DOMAIN-SUFFIX,1688.com
@@ -1227,3 +1228,4 @@ payload:
   - IP-CIDR,72.254.0.0/16
   - IP-CIDR,8.128.0.0/10
   - IP-CIDR,8.208.0.0/12
+  - PROCESS-NAME,com.taobao.taobao

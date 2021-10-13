@@ -10,15 +10,15 @@
 
 ## 规则统计
 
-总计规则：25 条。
+总计规则：18 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| IP-CIDR | 8 |
+| IP-CIDR | 6 |
 | DOMAIN-KEYWORD | 2 |
-| DOMAIN-SUFFIX | 15 |
+| DOMAIN-SUFFIX | 10 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -66,6 +66,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Telegram.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/social/Telegram.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Telegram.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/telegramcidr.txt
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Telegram.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Telegram.list

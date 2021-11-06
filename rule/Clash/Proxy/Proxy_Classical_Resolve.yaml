@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-11-05 02:09:02
+# UPDATED: 2021-11-07 02:09:21
 # DOMAIN: 20
-# DOMAIN-SUFFIX: 34213
+# DOMAIN-SUFFIX: 34215
 # DOMAIN-KEYWORD: 29
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 34353
+# TOTAL: 34355
 payload:
   - DOMAIN,api-p.videomarket.jp
   - DOMAIN,apip.videomarket.jp
@@ -10745,6 +10745,7 @@ payload:
   - DOMAIN-SUFFIX,expxtv.com
   - DOMAIN-SUFFIX,exrates.me
   - DOMAIN-SUFFIX,ext-twitch.tv
+  - DOMAIN-SUFFIX,extensionworkshop.com
   - DOMAIN-SUFFIX,extmatrix.com
   - DOMAIN-SUFFIX,extra.voyantic.com
   - DOMAIN-SUFFIX,extranet-logon-apac.sanofi.com
@@ -15699,6 +15700,7 @@ payload:
   - DOMAIN-SUFFIX,jesusarmy.com
   - DOMAIN-SUFFIX,jetbrains.com
   - DOMAIN-SUFFIX,jetbrains.net
+  - DOMAIN-SUFFIX,jetbrains.team
   - DOMAIN-SUFFIX,jetfuelapp.com
   - DOMAIN-SUFFIX,jetfuelapps.com
   - DOMAIN-SUFFIX,jetgames.cf

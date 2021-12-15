@@ -1,0 +1,4 @@
+# 网易云课堂_离线下载课程内容
+^https?:\/\/ke\.study\.youdao\.com\/course\/app\/detail.json url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/synology/downloadstation.js
+
+hostname = ke.study.youdao.com

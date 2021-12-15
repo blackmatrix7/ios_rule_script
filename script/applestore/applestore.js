@@ -15,12 +15,18 @@ function getGoodsStock(parts, location, option = "") {
       url = encodeURI(`https://www.apple.com.cn/shop/fulfillment-messages?pl=true&mt=compact&parts.0=${parts}&location=${location}&_=${new Date().getTime()}`);
     }
     magicJS.get(url, (err, resp, data) => {
-      let obj = JSON.parse(data);
-      let stores = obj["body"]["content"]["pickupMessage"]["stores"];
-      if (stores) {
-        resolve(stores);
-      } else {
-        magicJS.notify("查询库存失败，请检查配置是否正确。");
+      try{
+        let obj = JSON.parse(data);
+        let stores = obj["body"]["content"]["pickupMessage"]["stores"];
+        if (stores) {
+          resolve(stores);
+        } else {
+          magicJS.notify("查询库存失败，请检查配置是否正确。");
+          resolve([]);
+        }
+      }
+      catch (err){
+        magicJS.logError(`解析库存数据失败，异常信息：${err}`);
         resolve([]);
       }
     });
@@ -31,96 +37,101 @@ async function watchStock(goods_models, applestore_region) {
   let stock = magicJS.read(APPLESTORE_STOCK_KEY);
   stock = !!stock ? stock : {};
   let len = goods_models.length;
+  let tasks = [];
 
   for (let i = 0; i < len; i++) {
-    let partsConfig = goods_models[i].split("#");
-    let parts = partsConfig[0];
-    let option = partsConfig.length >= 2 ? partsConfig[1] : "";
-    let name = partsConfig.length == 3 ? partsConfig[2] : "";
-    let subObj = { watch: 0, pickup: 0, soldout: 0, changed: 0 };
-    let availability = await getGoodsStock(parts, applestore_region, option);
-
-    if (availability && availability.length > 0) {
-      // 获取AppleStore取货信息
-      for (let store of availability) {
-        let storeNumber = store["storeNumber"];
-        if (!stock.hasOwnProperty(parts)) {
-          stock[parts] = { title: store["partsAvailability"][parts]["storePickupProductTitle"], stores: {} };
-        }
-        if (!stock[parts]["stores"][storeNumber]) {
-          stock[parts]["stores"][storeNumber] = { notify: false, pickup: false, msg: "等待查询", city: store["city"], name: store["storeName"] };
-        }
-        if (stock[parts]["stores"][storeNumber]["msg"] != store["partsAvailability"][parts]["pickupSearchQuote"]) {
-          // 更新库存情况
-          stock[parts]["stores"][storeNumber]["msg"] = store["partsAvailability"][parts]["pickupSearchQuote"];
-          stock[parts]["stores"][storeNumber]["pickup"] = store["partsAvailability"][parts]["pickupDisplay"] != "unavailable";
-          // 库存变化推送通知
-          stock[parts]["stores"][storeNumber]["notify"] = true;
-        } else {
-          // 库存未变化不推送
-          stock[parts]["stores"][storeNumber]["notify"] = false;
-        }
-      }
-
-      let now = new Date();
-      if (!stock[parts]["title"] && !name) {
-        name = "未命名商品";
-      }
-      let logStr = `${name}\n`;
-      let title = `${name} - ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
-      let watchResult = "全部售罄";
-      let stockInContent = ""; // 有库存的型号与店铺
-      let soldOutContent = ""; // 售罄的型号与店铺
-      let unchangContent = ""; // 没有变化的型号与店铺
-      let content = "";
-
-      // 整理通知内容
-      for (let storeStock of Object.values(stock[parts]["stores"])) {
-        subObj["watch"] += 1;
-        // 有货
-        if (storeStock["pickup"]) {
-          subObj["pickup"] += 1;
-          if (watchResult == "全部售罄") watchResult = `${storeStock["city"]} ${storeStock["name"]}`;
-          if (storeStock["notify"] === true) {
-            subObj["changed"] += 1;
-            if (!!stockInContent) stockInContent += "\n";
-            stockInContent += `🔆 ${storeStock["name"]} - ${storeStock["msg"]}↑`;
-          } else {
-            if (!!unchangContent) unchangContent += "\n";
-            unchangContent += `🔆 ${storeStock["name"]} - ${storeStock["msg"]}● `;
+    const wrap = async () =>{
+      let partsConfig = goods_models[i].split("#");
+      let parts = partsConfig[0];
+      let option = partsConfig.length >= 2 ? partsConfig[1] : "";
+      let name = partsConfig.length == 3 ? partsConfig[2] : "";
+      let subObj = { watch: 0, pickup: 0, soldout: 0, changed: 0 };
+      let availability = await getGoodsStock(parts, applestore_region, option);
+  
+      if (availability && availability.length > 0) {
+        // 获取AppleStore取货信息
+        for (let store of availability) {
+          let storeNumber = store["storeNumber"];
+          if (!stock.hasOwnProperty(parts)) {
+            stock[parts] = { title: store["partsAvailability"][parts]["storePickupProductTitle"], stores: {} };
           }
-          logStr += `${storeStock["name"]} - ${storeStock["msg"]}\n`;
-        }
-
-        // 售罄
-        else {
-          subObj["soldout"] += 1;
-          if (storeStock["notify"] === true) {
-            subObj["changed"] += 1;
-            if (!!soldOutContent) soldOutContent += "\n";
-            soldOutContent += `🚫 ${storeStock["name"]} - ${storeStock["msg"]}↓`;
-          } else {
-            if (!!unchangContent) unchangContent += "\n";
-            unchangContent += `🚫 ${storeStock["name"]} - ${storeStock["msg"]}○`;
+          if (!stock[parts]["stores"][storeNumber]) {
+            stock[parts]["stores"][storeNumber] = { notify: false, pickup: false, msg: "等待查询", city: store["city"], name: store["storeName"] };
           }
-          logStr += `${storeStock["name"]} - ${storeStock["msg"]}\n`;
+          if (stock[parts]["stores"][storeNumber]["msg"] != store["partsAvailability"][parts]["pickupSearchQuote"]) {
+            // 更新库存情况
+            stock[parts]["stores"][storeNumber]["msg"] = store["partsAvailability"][parts]["pickupSearchQuote"];
+            stock[parts]["stores"][storeNumber]["pickup"] = store["partsAvailability"][parts]["pickupDisplay"] != "unavailable";
+            // 库存变化推送通知
+            stock[parts]["stores"][storeNumber]["notify"] = true;
+          } else {
+            // 库存未变化不推送
+            stock[parts]["stores"][storeNumber]["notify"] = false;
+          }
         }
+  
+        let now = new Date();
+        if (!stock[parts]["title"] && !name) {
+          name = "未命名商品";
+        }
+        let logStr = `${name}\n`;
+        let title = `${name} - ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
+        let watchResult = "全部售罄";
+        let stockInContent = ""; // 有库存的型号与店铺
+        let soldOutContent = ""; // 售罄的型号与店铺
+        let unchangContent = ""; // 没有变化的型号与店铺
+        let content = "";
+  
+        // 整理通知内容
+        for (let storeStock of Object.values(stock[parts]["stores"])) {
+          subObj["watch"] += 1;
+          // 有货
+          if (storeStock["pickup"]) {
+            subObj["pickup"] += 1;
+            if (watchResult == "全部售罄") watchResult = `${storeStock["city"]} ${storeStock["name"]}`;
+            if (storeStock["notify"] === true) {
+              subObj["changed"] += 1;
+              if (!!stockInContent) stockInContent += "\n";
+              stockInContent += `🔆 ${storeStock["name"]} - ${storeStock["msg"]}↑`;
+            } else {
+              if (!!unchangContent) unchangContent += "\n";
+              unchangContent += `🔆 ${storeStock["name"]} - ${storeStock["msg"]}● `;
+            }
+            logStr += `${storeStock["name"]} - ${storeStock["msg"]}\n`;
+          }
+  
+          // 售罄
+          else {
+            subObj["soldout"] += 1;
+            if (storeStock["notify"] === true) {
+              subObj["changed"] += 1;
+              if (!!soldOutContent) soldOutContent += "\n";
+              soldOutContent += `🚫 ${storeStock["name"]} - ${storeStock["msg"]}↓`;
+            } else {
+              if (!!unchangContent) unchangContent += "\n";
+              unchangContent += `🚫 ${storeStock["name"]} - ${storeStock["msg"]}○`;
+            }
+            logStr += `${storeStock["name"]} - ${storeStock["msg"]}\n`;
+          }
+        }
+        if (!!stockInContent) {
+          content = stockInContent;
+        }
+        // 配置为无货通知且存在无货情况时
+        if (magicJS.read("applestore_settings_notify_soldout") == true) {
+          content = !!stockInContent ? stockInContent + `\n${soldOutContent}\n${unchangContent}` : !!soldOutContent ? `${soldOutContent}\n${unchangContent}` : unchangContent;
+        }
+        if (!!content) {
+          let subTitle = `监控: ${subObj.watch} 售罄: ${subObj.soldout} 有货: ${subObj.pickup} ${watchResult}`;
+          magicJS.notify(title, subTitle, content, "applestore://");
+        }
+        magicJS.logInfo(logStr);
       }
-      if (!!stockInContent) {
-        content = stockInContent;
-      }
-      // 配置为无货通知且存在无货情况时
-      if (magicJS.read("applestore_settings_notify_soldout") == true) {
-        content = !!stockInContent ? stockInContent + `\n${soldOutContent}\n${unchangContent}` : !!soldOutContent ? `${soldOutContent}\n${unchangContent}` : unchangContent;
-      }
-      if (!!content) {
-        let subTitle = `监控: ${subObj.watch} 售罄: ${subObj.soldout} 有货: ${subObj.pickup} ${watchResult}`;
-        magicJS.notify(title, subTitle, content, "applestore://");
-      }
-      magicJS.logInfo(logStr);
     }
+    tasks.push(wrap());
   }
 
+  await Promise.all(tasks);
   // 存储本次库存检查结果
   magicJS.write(APPLESTORE_STOCK_KEY, stock);
 }
@@ -141,11 +152,12 @@ async function watchStock(goods_models, applestore_region) {
   // 监控库存
   await watchStock(goods_models, applestore_region);
 
-  if (magicJS.isNode) {
-    while (6 <= new Date().getHours() <= 23) {
+  while (magicJS.isNode) {
+    let hours = new Date().getHours()
+    if (hours <= 1 || hours >= 6){
       await watchStock(goods_models, applestore_region);
-      await magicJS.sleep(3000);
     }
+    await magicJS.sleep(5000);
   }
 
   magicJS.done();

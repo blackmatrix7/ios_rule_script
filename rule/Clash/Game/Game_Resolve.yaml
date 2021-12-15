@@ -1,11 +1,11 @@
 # NAME: Game
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-15 22:59:36
-# DOMAIN-SUFFIX: 504
+# UPDATED: 2021-12-26 02:10:25
+# DOMAIN-SUFFIX: 505
 # IP-CIDR: 45
 # DOMAIN: 4
-# TOTAL: 553
+# TOTAL: 554
 payload:
   - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN,login.live.com
@@ -410,6 +410,7 @@ payload:
   - DOMAIN-SUFFIX,starwarsfallenorder.com
   - DOMAIN-SUFFIX,starwarsjedifallenorder.com
   - DOMAIN-SUFFIX,starwarstheoldrepublic.com
+  - DOMAIN-SUFFIX,steam-api.com
   - DOMAIN-SUFFIX,steam-chat.com
   - DOMAIN-SUFFIX,steambroadcast.akamaized.net
   - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net

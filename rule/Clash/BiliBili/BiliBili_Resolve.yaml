@@ -1,12 +1,12 @@
 # NAME: BiliBili
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-15 22:59:34
-# DOMAIN-SUFFIX: 51
+# UPDATED: 2021-12-30 02:10:52
+# DOMAIN-SUFFIX: 50
 # PROCESS-NAME: 2
 # DOMAIN: 43
-# IP-CIDR: 16
-# TOTAL: 112
+# IP-CIDR: 7
+# TOTAL: 102
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
@@ -98,25 +98,15 @@ payload:
   - DOMAIN-SUFFIX,mincdn.com
   - DOMAIN-SUFFIX,sharejoytech.com
   - DOMAIN-SUFFIX,smtcdns.net
-  - DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
   - DOMAIN-SUFFIX,yo9.com
   - IP-CIDR,106.75.74.76/32
   - IP-CIDR,111.206.25.147/32
-  - IP-CIDR,119.29.29.29/32
   - IP-CIDR,119.3.238.64/32
   - IP-CIDR,120.92.108.182/32
   - IP-CIDR,120.92.113.99/32
   - IP-CIDR,120.92.153.217/32
-  - IP-CIDR,128.1.62.200/31
   - IP-CIDR,134.175.207.130/32
-  - IP-CIDR,150.116.92.250/32
-  - IP-CIDR,164.52.76.18/32
-  - IP-CIDR,203.107.1.33/32
-  - IP-CIDR,203.107.1.34/32
-  - IP-CIDR,203.107.1.65/32
-  - IP-CIDR,203.107.1.66/32
-  - IP-CIDR,45.43.32.234/32
   - PROCESS-NAME,com.bilibili.app.in
   - PROCESS-NAME,tv.danmaku.bili

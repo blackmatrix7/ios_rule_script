@@ -1,13 +1,15 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-15 22:59:31
-# DOMAIN: 43
+# UPDATED: 2021-12-27 02:10:30
+# DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
+# DOMAIN: 44
 # USER-AGENT: 65
-# DOMAIN-SUFFIX: 220
+# DOMAIN-SUFFIX: 211
 # DOMAIN-KEYWORD: 4
 # IP-CIDR: 863
-# TOTAL: 1195
+# URL-REGEX: 1
+# TOTAL: 1188
 DOMAIN,api.okzy.tv
 DOMAIN,apm-misaka.biliapi.net
 DOMAIN,apple.comscoreresearch.com
@@ -33,6 +35,7 @@ DOMAIN,intl-subscription.iqiyi.com
 DOMAIN,intl.iqiyi.com
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN,kktv-theater.kk.stream
+DOMAIN,ktpx.amazon.com
 DOMAIN,mobileso.bz.mgtv.com
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
@@ -62,7 +65,6 @@ DOMAIN-SUFFIX,amazonaws.co.uk
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,ameba.jp
-DOMAIN-SUFFIX,amplify.outbrain.com
 DOMAIN-SUFFIX,api.mgtv.com
 DOMAIN-SUFFIX,api.segment.io
 DOMAIN-SUFFIX,apple.news
@@ -78,7 +80,6 @@ DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
 DOMAIN-SUFFIX,bidi.net.uk
 DOMAIN-SUFFIX,biliintl.com
-DOMAIN-SUFFIX,bluekai.com
 DOMAIN-SUFFIX,boltdns.net
 DOMAIN-SUFFIX,bootstrapcdn.com
 DOMAIN-SUFFIX,braze.com
@@ -91,7 +92,6 @@ DOMAIN-SUFFIX,cdn.optimizely.com
 DOMAIN-SUFFIX,channel4.com
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,control.kochava.com
 DOMAIN-SUFFIX,conviva.com
 DOMAIN-SUFFIX,d9.flashtalking.com
 DOMAIN-SUFFIX,dazn-api.com
@@ -217,7 +217,6 @@ DOMAIN-SUFFIX,pandora.com
 DOMAIN-SUFFIX,paramountplus.com
 DOMAIN-SUFFIX,pbs.org
 DOMAIN-SUFFIX,peacocktv.com
-DOMAIN-SUFFIX,perfops.doracdn.com
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
 DOMAIN-SUFFIX,pornhub.com
@@ -227,11 +226,9 @@ DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,prod.hjholdings.tv
 DOMAIN-SUFFIX,profile.line-scdn.net
 DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,qobuz.com
-DOMAIN-SUFFIX,s.llnwi.net
-DOMAIN-SUFFIX,s.yimg.jp
 DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,secure.footprint.net
 DOMAIN-SUFFIX,segment.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,skyking.com.tw
@@ -258,14 +255,11 @@ DOMAIN-SUFFIX,tver.jp
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,uplynk.com
-DOMAIN-SUFFIX,urbanairship.com
 DOMAIN-SUFFIX,urlload.net
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.tv
-DOMAIN-SUFFIX,vjs.zencdn.net
 DOMAIN-SUFFIX,wetv.vip
 DOMAIN-SUFFIX,wetvinfo.com
-DOMAIN-SUFFIX,yahoo.co.jp
 DOMAIN-SUFFIX,yb.uncn.jp
 DOMAIN-SUFFIX,youboranqs01.com
 DOMAIN-SUFFIX,youtu.be
@@ -340,6 +334,7 @@ USER-AGENT,com.kktv.ios.kktv*
 USER-AGENT,discovery+*
 USER-AGENT,encoreTVB*
 USER-AGENT,mytv*
+URL-REGEX,"^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/"
 IP-CIDR,1.37.35.6/32
 IP-CIDR,101.100.179.242/32
 IP-CIDR,101.100.179.250/32

@@ -1,9 +1,9 @@
 #!name=重定向
-#!desc=最后更新时间 2021-12-15 23:01:25
+#!desc=最后更新时间 2021-12-17 13:21:53
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=60
-#!script=2
+#!script=0
 #!force_http_engine_hosts=0
 #!mitm=5
 
@@ -69,9 +69,5 @@
 "^https?:\/\/logoshejishi\.mairuan\.com\/" https://www.sothink.com/product/logo-design-software/ 302
 "^https?:\/\/you\.163\.com\/" https://you.163.com/ 302
 
-[Script]
-bstar.js_http-request = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js,pattern=^https?:\/\/app\.biliintl\.com\/(intl\/gateway\/v\d\/app\/data\/report\/heartbeat\/mobile|x\/(history|reply)/v\d/add)
-bstar.js_http-request = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js,pattern=^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/(sms\/send|reg\/sms|oauth2\/access_token|login\/sms)
-
 [MITM]
-hostname = %APPEND% api.abema.io,app.biliintl.com,passport.biliintl.com,www.firefox.com.cn,www.google.cn
+hostname = %APPEND% *.google.cn,api.abema.io,app.biliintl.com,passport.biliintl.com,www.firefox.com.cn

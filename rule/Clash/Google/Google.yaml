@@ -1,13 +1,13 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-15 22:59:37
+# UPDATED: 2021-12-29 02:11:36
 # PROCESS-NAME: 5
-# DOMAIN-SUFFIX: 635
+# DOMAIN-SUFFIX: 643
 # DOMAIN-KEYWORD: 1
-# IP-CIDR: 2
-# IP-CIDR6: 0
-# TOTAL: 643
+# IP-CIDR: 4
+# IP-CIDR6: 1
+# TOTAL: 654
 payload:
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,1e100.net
@@ -219,6 +219,8 @@ payload:
   - DOMAIN-SUFFIX,getmdl.io
   - DOMAIN-SUFFIX,getoutline.org
   - DOMAIN-SUFFIX,ggoogle.com
+  - DOMAIN-SUFFIX,ggpht.cn
+  - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,gipscorp.com
   - DOMAIN-SUFFIX,gkecnapps.cn
   - DOMAIN-SUFFIX,globaledu.org
@@ -477,6 +479,7 @@ payload:
   - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,googleventures.com
+  - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,googlr.com
   - DOMAIN-SUFFIX,goolge.com
   - DOMAIN-SUFFIX,gooogle.com
@@ -489,6 +492,7 @@ payload:
   - DOMAIN-SUFFIX,gv.com
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,gvt3.com
   - DOMAIN-SUFFIX,gvt5.com
   - DOMAIN-SUFFIX,gvt6.com
@@ -525,6 +529,7 @@ payload:
   - DOMAIN-SUFFIX,moodstocks.com
   - DOMAIN-SUFFIX,near.by
   - DOMAIN-SUFFIX,nest.com
+  - DOMAIN-SUFFIX,neverware.com
   - DOMAIN-SUFFIX,nomulus.foo
   - DOMAIN-SUFFIX,oasisfeng.com
   - DOMAIN-SUFFIX,oauthz.com
@@ -642,11 +647,17 @@ payload:
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
   - DOMAIN-SUFFIX,xplr.co
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,zukunftswerkstatt.de
   - DOMAIN-SUFFIX,zynamics.com
   - DOMAIN-KEYWORD,www.google.
+  - IP-CIDR,172.110.32.0/21,no-resolve
   - IP-CIDR,173.194.0.0/16,no-resolve
+  - IP-CIDR,216.73.80.0/20,no-resolve
   - IP-CIDR,74.125.0.0/16,no-resolve
+  - IP-CIDR6,2620:120:e000::/40,no-resolve
   - PROCESS-NAME,backupandsync
   - PROCESS-NAME,com.android.vending
   - PROCESS-NAME,com.google.android.gms

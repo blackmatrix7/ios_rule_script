@@ -10,14 +10,14 @@
 
 ## 规则统计
 
-总计规则：35615 条。
+总计规则：26650 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 22 |
-| DOMAIN-SUFFIX | 35502 |
+| DOMAIN-SUFFIX | 26554 |
+| DOMAIN | 5 |
 | IP-CIDR | 88 |
 | IP-CIDR6 | 3 |
 ## 配置说明
@@ -66,7 +66,7 @@ Proxy_Classical.yaml 可以单独使用，其他规则必须同时使用。
 
 当前分流规则，已排除以下规则：
 
-- China
+- Advertising
 
 ## 数据来源
 
@@ -80,10 +80,8 @@ Proxy_Classical.yaml 可以单独使用，其他规则必须同时使用。
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
-- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt
-- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Proxy/Proxy.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list

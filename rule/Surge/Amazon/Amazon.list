@@ -1,12 +1,14 @@
 # NAME: Amazon
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-15 22:59:23
-# USER-AGENT: 2
-# DOMAIN-SUFFIX: 175
+# UPDATED: 2021-12-27 02:10:28
+# DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
+# DOMAIN-SUFFIX: 176
 # IP-CIDR: 15
+# URL-REGEX: 1
 # PROCESS-NAME: 1
-# TOTAL: 193
+# USER-AGENT: 2
+# TOTAL: 195
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,aboutamazon.cn
 DOMAIN-SUFFIX,aboutamazon.co.uk
@@ -168,6 +170,7 @@ DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,primevideo.info
 DOMAIN-SUFFIX,primevideo.org
 DOMAIN-SUFFIX,primevideo.tv
+DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,siege-amazon.com
 DOMAIN-SUFFIX,ssl-images-amazon.com
 DOMAIN-SUFFIX,thinkboxsoftware.com
@@ -199,4 +202,5 @@ IP-CIDR,54.230.156.0/22,no-resolve
 IP-CIDR,54.93.0.0/16,no-resolve
 USER-AGENT,InstantVideo.US*
 USER-AGENT,Prime%20Video*
+URL-REGEX,"^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/"
 PROCESS-NAME,com.amazon.avod.thirdpartyclient

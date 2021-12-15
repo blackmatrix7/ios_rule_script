@@ -1,12 +1,12 @@
 # NAME: ChinaMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-15 22:59:34
-# DOMAIN-SUFFIX: 164
+# UPDATED: 2021-12-30 02:10:53
+# DOMAIN-SUFFIX: 163
 # PROCESS-NAME: 2
 # DOMAIN: 47
-# IP-CIDR: 35
-# TOTAL: 248
+# IP-CIDR: 26
+# TOTAL: 238
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
@@ -189,7 +189,6 @@ payload:
   - DOMAIN-SUFFIX,tencentmusic.com
   - DOMAIN-SUFFIX,tvcc.cn
   - DOMAIN-SUFFIX,tvcc.com.cn
-  - DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
   - DOMAIN-SUFFIX,v-56.com
@@ -230,24 +229,15 @@ payload:
   - IP-CIDR,115.236.121.1/32,no-resolve
   - IP-CIDR,118.24.63.156/32,no-resolve
   - IP-CIDR,119.176.0.0/12,no-resolve
-  - IP-CIDR,119.29.29.29/32,no-resolve
   - IP-CIDR,119.3.238.64/32,no-resolve
   - IP-CIDR,120.92.108.182/32,no-resolve
   - IP-CIDR,120.92.113.99/32,no-resolve
   - IP-CIDR,120.92.153.217/32,no-resolve
-  - IP-CIDR,128.1.62.200/31,no-resolve
   - IP-CIDR,134.175.207.130/32,no-resolve
-  - IP-CIDR,150.116.92.250/32,no-resolve
-  - IP-CIDR,164.52.76.18/32,no-resolve
   - IP-CIDR,193.112.159.225/32,no-resolve
-  - IP-CIDR,203.107.1.33/32,no-resolve
-  - IP-CIDR,203.107.1.34/32,no-resolve
-  - IP-CIDR,203.107.1.65/32,no-resolve
-  - IP-CIDR,203.107.1.66/32,no-resolve
   - IP-CIDR,223.252.199.66/31,no-resolve
   - IP-CIDR,39.105.63.80/32,no-resolve
   - IP-CIDR,45.254.48.1/32,no-resolve
-  - IP-CIDR,45.43.32.234/32,no-resolve
   - IP-CIDR,47.100.127.239/32,no-resolve
   - IP-CIDR,59.111.160.195/32,no-resolve
   - IP-CIDR,59.111.160.197/32,no-resolve

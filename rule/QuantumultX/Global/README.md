@@ -10,15 +10,15 @@
 
 ## 规则统计
 
-总计规则：35682 条。
+总计规则：26773 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 22 |
-| HOST-SUFFIX | 35478 |
-| USER-AGENT | 48 |
+| HOST-SUFFIX | 26562 |
+| USER-AGENT | 49 |
+| HOST | 28 |
 | IP-CIDR | 129 |
 | IP6-CIDR | 4 |
 | HOST-KEYWORD | 1 |
@@ -51,6 +51,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 当前分流规则，已排除以下规则：
 
+- AdvertisingLite
+
 - China
 
 ## 数据来源
@@ -70,10 +72,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
-- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt
-- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Proxy/Proxy.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list

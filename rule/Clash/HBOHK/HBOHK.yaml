@@ -1,10 +1,12 @@
 # NAME: HBOHK
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-15 22:59:36
+# UPDATED: 2021-12-25 02:10:43
 # DOMAIN-SUFFIX: 17
-# TOTAL: 17
+# DOMAIN: 1
+# TOTAL: 18
 payload:
+  - DOMAIN,wmff.warnermediacdn.com
   - DOMAIN-SUFFIX,hboasia.com
   - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
   - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net

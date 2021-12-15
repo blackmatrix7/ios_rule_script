@@ -44,6 +44,8 @@
 ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config url reject-200
 # 屏蔽知乎“我的”页面推荐开通会员的卡片
 ^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card url reject-200
+# 知乎去除Tab页关注人头像
+^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 url reject-dict
 
 # hostname = www.zhihu.com,api.zhihu.com,appcloud2.zhihu.com,zhuanlan.zhihu.com
 hostname = *.zhihu.com

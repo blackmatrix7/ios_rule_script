@@ -35,6 +35,24 @@
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png"]
     },
     {
+      "id": "blackmatrix7.didachuxing",
+      "name": "嘀嗒出行",
+      "keys": ["dida_cid", "dida_cookie", "dida_useragent", "dida_access_token"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didachuxing",
+      "icons": ["https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing.png", "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing.png"],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.js"
+    },
+    {
+      "id": "blackmatrix7.didichuxing",
+      "name": "滴滴出行",
+      "keys": ["didi_token", "didi_city_id", "didi_lottery_id", "didi_my_source_id", "didi_group_id", "didi_finance_channel_id", "didi_finance_activity_id"],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didichuxing",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/didi.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png"],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js"
+    },
+    {
       "id": "blackmatrix7.dingdong",
       "name": "叮咚买菜",
       "keys": ["dingdongmaicai_checkin_cookie", "dingdongmaicai_checkin_body"],
@@ -140,7 +158,11 @@
       "author": "@blackmatrix7",
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu",
       "icons": ["https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.png", "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.png"],
-      "descs_html": ["<h4 align=\"left\">具体功能说明查看<a href=\"https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu#readme\">README.md</a></h4>", "<h4 align=\"left\">✨为Plus版本专属功能，❓为已过时或即将淘汰功能</h4>", "<h4 align=\"left\">切换Lite、Plus版本，或出现异常请执行数据清理</h4>"],
+      "descs_html": [
+        "<h4 align=\"left\">具体功能说明查看<a href=\"https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu#readme\">README.md</a></h4>",
+        "<h4 align=\"left\">✨为Plus版本专属功能，❓为已过时或即将淘汰功能</h4>",
+        "<h4 align=\"left\">切换Lite、Plus版本，或出现异常请执行数据清理</h4>"
+      ],
       "scripts": [
         {
           "name": "知乎助手数据清理",
@@ -233,6 +255,13 @@
           "desc": "知乎7.x及以上版本无效"
         },
         {
+          "id": "zhihu_keyword_block",
+          "name": "知乎屏蔽关键词",
+          "val": "",
+          "type": "textarea",
+          "desc": "必须是JSON格式，Key为用户Id，不要修改。格式不正确可能导致执行异常。"
+        },
+        {
           "id": "magicjs_loglevel",
           "name": "日志等级",
           "val": "INFO",
@@ -249,6 +278,10 @@
             {
               "key": "ERROR",
               "label": "ERROR"
+            },
+            {
+              "key": "CRITICAL",
+              "label": "CRITICAL"
             },
             {
               "key": "DEBUG",
@@ -299,6 +332,35 @@
           "placeholder": "",
           "autoGrow": true,
           "desc": "除非无法正常获取Sid，否则保持现在的值，不要修改"
+        },
+        {
+          "id": "magicjs_loglevel",
+          "name": "日志等级",
+          "val": "INFO",
+          "type": "radios",
+          "items": [
+            {
+              "key": "INFO",
+              "label": "INFO"
+            },
+            {
+              "key": "WARNING",
+              "label": "WARNING"
+            },
+            {
+              "key": "ERROR",
+              "label": "ERROR"
+            },
+            {
+              "key": "CRITICAL",
+              "label": "CRITICAL"
+            },
+            {
+              "key": "DEBUG",
+              "label": "DEBUG"
+            }
+          ],
+          "desc": "出现异常时请选择DEBUG提交日志"
         }
       ],
       "author": "@blackmatrix7",
@@ -314,21 +376,50 @@
     {
       "id": "blackmatrix7.applestore",
       "name": "AppleStore",
-      "keys": ["iphone_model", "apple_store_region", "applestore_bark_url", "iphone_stock"],
+      "keys": ["goods_model", "applestore_region", "applestore_bark_url", "applestore_stock", "onlinestore_stock"],
       "author": "@blackmatrix7",
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/applestore",
       "settings": [
         {
-          "id": "iphone_model",
-          "name": "iPhone型号",
-          "val": "",
-          "type": "input",
-          "placeholder": "MLDE3CH/A;MLDG3CH/A",
-          "autoGrow": true,
-          "desc": "需要监控的iPhone型号，多款以;分隔，移动端建议只监控一个"
+          "id": "applestore_type",
+          "name": "商店类型",
+          "val": "APPLESTORE",
+          "type": "radios",
+          "items": [
+            {
+              "key": "AppleStore零售店",
+              "label": "INFO"
+            },
+            {
+              "key": "Apple官网",
+              "label": "WARNING"
+            },
+            {
+              "key": "ERROR",
+              "label": "ERROR"
+            },
+            {
+              "key": "CRITICAL",
+              "label": "CRITICAL"
+            },
+            {
+              "key": "DEBUG",
+              "label": "DEBUG"
+            }
+          ],
+          "desc": "出现异常时请选择DEBUG提交日志"
         },
         {
-          "id": "apple_store_region",
+          "id": "goods_model",
+          "name": "商品型号",
+          "val": "",
+          "type": "input",
+          "placeholder": "Z0YQ#MKMR3CH/A,MJXA3FE/A#AppleWatch 7 石墨色不锈钢;MLDE3CH/A",
+          "autoGrow": true,
+          "desc": "需要监控的商品型号，option用#分隔，自定义名称在option后以#分隔。多款以;分隔，移动端建议只监控一个。"
+        },
+        {
+          "id": "applestore_region",
           "name": "监控地区",
           "val": "",
           "type": "input",
@@ -344,12 +435,41 @@
           "placeholder": "https://api.day.app/VXTWvaQ18N29bsQAg7DgkT",
           "autoGrow": true,
           "desc": "使用Bark推送到其他设备，比如iPad执行监控，推送结果到iPhone"
+        },
+        {
+          "id": "applestore_settings_notify_soldout",
+          "name": "查询无货也进行通知",
+          "val": false,
+          "type": "boolean",
+          "desc": "可能会发起大量推送，建议仅在测试时开启"
+        },
+        {
+          "id": "magicjs_loglevel",
+          "name": "日志等级",
+          "val": "INFO",
+          "type": "radios",
+          "items": [
+            {
+              "key": "INFO",
+              "label": "INFO"
+            },
+            {
+              "key": "WARNING",
+              "label": "WARNING"
+            },
+            {
+              "key": "ERROR",
+              "label": "ERROR"
+            },
+            {
+              "key": "DEBUG",
+              "label": "DEBUG"
+            }
+          ],
+          "desc": "出现异常时请选择DEBUG提交日志"
         }
       ],
-      "icons": [
-        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/applestore/icon/applestore_dark.png",
-        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/applestore/icon/applestore.png"
-      ]
+      "icons": ["https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/applestore/icon/applestore_dark.png", "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/applestore/icon/applestore.png"]
     }
   ]
 }

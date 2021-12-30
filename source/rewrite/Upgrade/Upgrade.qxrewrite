@@ -15,12 +15,9 @@
 ^https?:\/\/api\.ishansong\.com\/app\/check\/v\d+\/check url reject
 # 联通手机营业厅
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm url reject-dict
-# 市民云
-^https?:\/\/api\.eshimin\.com\/api\/core\/version url reject-dict
-^https?:\/\/api\.share\.mob\.com\/snsconf url reject-dict
 # 顺丰
 ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade url reject-dict
 # 丰巢
 ^https?:\/\/consumer\.fcbox\.com\/v1\/version\/getNewVersion url reject-dict
 
-hostname = www.meituan.com,apimobile.meituan.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,capis*.didapinche.com,apprn.pizzahut.com.cn,api.m.jd.com,api.ishansong.com,m.client.10010.com,api.eshimin.com,ccsp-egmas.sf-express.com,api.share.mob.com,consumer.fcbox.com
+hostname = www.meituan.com,apimobile.meituan.com,fmapp.chinafamilymart.com.cn,sso.lxjapp.com,capis*.didapinche.com,apprn.pizzahut.com.cn,api.m.jd.com,api.ishansong.com,m.client.10010.com,ccsp-egmas.sf-express.com,consumer.fcbox.com

@@ -1,11 +1,11 @@
 # NAME: Game
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-26 02:10:25
-# DOMAIN-SUFFIX: 505
+# UPDATED: 2022-01-07 02:10:59
+# DOMAIN-SUFFIX: 503
 # IP-CIDR: 45
 # DOMAIN: 4
-# TOTAL: 554
+# TOTAL: 552
 payload:
   - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN,login.live.com
@@ -70,9 +70,6 @@ payload:
   - DOMAIN-SUFFIX,camelotherald.com
   - DOMAIN-SUFFIX,camelotherald.net
   - DOMAIN-SUFFIX,capitalgames.com
-  - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
-  - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
-  - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
   - DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net
   - DOMAIN-SUFFIX,cdp.cloud.unity3d.com
   - DOMAIN-SUFFIX,championshipseriesleague.com
@@ -414,6 +411,7 @@ payload:
   - DOMAIN-SUFFIX,steam-chat.com
   - DOMAIN-SUFFIX,steambroadcast.akamaized.net
   - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamchina.com
   - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steamcontent.com

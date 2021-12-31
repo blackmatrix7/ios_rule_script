@@ -19,8 +19,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 23397 |
-| HOST-SUFFIX | 13240 |
+| HOST | 23398 |
+| HOST-SUFFIX | 13239 |
 | IP-CIDR | 158 |
 | HOST-KEYWORD | 2 |
 | IP6-CIDR | 1 |

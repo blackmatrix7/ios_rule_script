@@ -19,17 +19,17 @@
 
 ## 规则统计
 
-总计规则：84246 条。
+总计规则：84113 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | USER-AGENT | 62 |
-| DOMAIN-SUFFIX | 72540 |
+| DOMAIN-SUFFIX | 72371 |
 | DOMAIN | 57 |
-| IP-CIDR | 6145 |
-| IP-CIDR6 | 5441 |
+| IP-CIDR | 6182 |
+| IP-CIDR6 | 5440 |
 | DOMAIN-KEYWORD | 1 |
 ## 配置说明
 

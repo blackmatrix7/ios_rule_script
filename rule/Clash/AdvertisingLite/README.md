@@ -19,8 +19,8 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 23397 |
-| DOMAIN-SUFFIX | 13240 |
+| DOMAIN | 23398 |
+| DOMAIN-SUFFIX | 13239 |
 | IP-CIDR | 158 |
 | DOMAIN-KEYWORD | 2 |
 | IP-CIDR6 | 1 |

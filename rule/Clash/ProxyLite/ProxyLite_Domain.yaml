@@ -1,12 +1,12 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-31 02:10:45
-# DOMAIN-SUFFIX: 34096
+# UPDATED: 2022-01-11 02:11:15
+# DOMAIN-SUFFIX: 34111
 # DOMAIN: 20
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 34207
+# TOTAL: 34222
 payload:
   - 'api-p.videomarket.jp'
   - 'apip.videomarket.jp'
@@ -3779,6 +3779,8 @@ payload:
   - '+.apple-hk.com'
   - '+.apple-imac.com'
   - '+.apple-inc.net'
+  - '+.apple-livephotoskit.com'
+  - '+.apple-mapkit.com'
   - '+.apple-online.com'
   - '+.apple-pay.com'
   - '+.apple-pay.rs'
@@ -3788,6 +3790,8 @@ payload:
   - '+.apple-usa.net'
   - '+.apple.be'
   - '+.apple.ch'
+  - '+.apple.co'
+  - '+.apple.com'
   - '+.apple.com.co'
   - '+.apple.com.do'
   - '+.apple.com.pr'
@@ -6162,6 +6166,7 @@ payload:
   - '+.borderlands-books.com'
   - '+.borderlandsbooks.com'
   - '+.borderlessprepaid.com'
+  - '+.borgenmagazine.com'
   - '+.boringart.lt'
   - '+.boringcompany.com'
   - '+.borquezyburr.cl'
@@ -7089,6 +7094,7 @@ payload:
   - '+.cdjp.org'
   - '+.cdkworkshop.com'
   - '+.cdmr.rpz.su'
+  - '+.cdn-apple.com'
   - '+.cdn-main.plus500.com'
   - '+.cdn-terapeak.com'
   - '+.cdn.angruo.com'
@@ -15522,6 +15528,7 @@ payload:
   - '+.ituneas.com'
   - '+.itunes-radio.net'
   - '+.itunes.co'
+  - '+.itunes.com'
   - '+.itunes.org'
   - '+.itunes.rio'
   - '+.itunes12days.com'
@@ -15667,6 +15674,7 @@ payload:
   - '+.jav18.cc'
   - '+.jav18.xyz'
   - '+.jav2be.com'
+  - '+.jav321.com'
   - '+.jav68.me'
   - '+.jav68.tv'
   - '+.jav720p.com'
@@ -17029,6 +17037,7 @@ payload:
   - '+.lionsroar.com'
   - '+.lipuman.com'
   - '+.liquid.com'
+  - '+.liquiditytp.com'
   - '+.liquidvpn.com'
   - '+.liquipedia.org'
   - '+.lis888.com'
@@ -19825,7 +19834,9 @@ payload:
   - '+.notheroes.com'
   - '+.nothinghere.tk'
   - '+.notion-static.com'
+  - '+.notion.com'
   - '+.notion.new'
+  - '+.notion.site'
   - '+.notion.so'
   - '+.notionstatic.com'
   - '+.notnancy.cl'
@@ -20157,6 +20168,7 @@ payload:
   - '+.oldgoesyoung.com'
   - '+.oldpiratebay.org'
   - '+.ole777.com'
+  - '+.olevod.com'
   - '+.olicobrokers.com'
   - '+.olimptrade.com.br'
   - '+.oliverjcole.co.uk'
@@ -21426,6 +21438,7 @@ payload:
   - '+.ponz.me'
   - '+.poofx.com'
   - '+.poojaescorts.in'
+  - '+.poolin.com'
   - '+.poow.ga'
   - '+.pop.com.br'
   - '+.popbox.com'
@@ -22464,6 +22477,7 @@ payload:
   - '+.relearnings.com'
   - '+.releaseinternational.org'
   - '+.releenc.org'
+  - '+.religionnews.com'
   - '+.religioustolerance.org'
   - '+.reloadtech.com'
   - '+.remanum.com'
@@ -23778,6 +23792,7 @@ payload:
   - '+.snakemonkey.weebly.com'
   - '+.snap-dev.net'
   - '+.snap-telemetry.io'
+  - '+.snap.com'
   - '+.snapchat.com'
   - '+.snapcraft.io'
   - '+.snapdev.net'
@@ -26263,9 +26278,11 @@ payload:
   - '+.ubnw.net'
   - '+.ubpop.com'
   - '+.ubshe.com'
+  - '+.ubuntu-touch.io'
   - '+.ubuntu.com'
   - '+.ubuntu.net'
   - '+.ubuntuforums.org'
+  - '+.ubuntutouch.io'
   - '+.ubxyz.com'
   - '+.uc-japan.org'
   - '+.uc4.net'
@@ -31280,7 +31297,6 @@ payload:
   - '+.www.okinawatimes.co.jp'
   - '+.www.okxav.com'
   - '+.www.oldje.com'
-  - '+.www.olevod.com'
   - '+.www.oltentime.com'
   - '+.www.omaha.com'
   - '+.www.onacle.tv'
@@ -31593,7 +31609,6 @@ payload:
   - '+.www.redtube.su'
   - '+.www.redwap.me'
   - '+.www.reginacn.com'
-  - '+.www.religionnews.com'
   - '+.www.remotevpn.net'
   - '+.www.renrenyum.com'
   - '+.www.repaik.com'

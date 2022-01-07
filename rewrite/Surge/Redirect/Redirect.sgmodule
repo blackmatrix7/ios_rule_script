@@ -1,11 +1,28 @@
 #!name=重定向
-#!desc=最后更新时间 2021-12-17 13:21:53
+#!desc=最后更新时间 2022-01-10 02:10:54
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=60
 #!script=0
 #!force_http_engine_hosts=0
 #!mitm=5
+
+[Rule]
+DOMAIN,aaplimg.com=server:119.29.29.29,None
+DOMAIN,apple-cloudkit.com=server:119.29.29.29,None
+DOMAIN,apple-mapkit.com=server:119.29.29.29,None
+DOMAIN,apple.com=server:119.29.29.29,None
+DOMAIN,cdn-apple.com=server:119.29.29.29,None
+DOMAIN,dl.google.com=server:119.29.29.29,None
+DOMAIN,dl.l.google.com=server:119.29.29.29,None
+DOMAIN,falogin.cn=server:syslib,None
+DOMAIN,melogin.cn=server:syslib,None
+DOMAIN,mtalk.google.com=108.177.125.188,None
+DOMAIN,mzstatic.com=server:119.29.29.29,None
+DOMAIN,router.asus.com=server:syslib,None
+DOMAIN,tplinklogin.net=server:syslib,None
+DOMAIN,tplogin.cn=server:syslib,None
+DOMAIN,update.googleapis.com=server:119.29.29.29,None
 
 [URL Rewrite]
 "(^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d/msgfeed).+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+)" $1&s_locale=zh-Hans_PH$6&sim_code=51503$8 header

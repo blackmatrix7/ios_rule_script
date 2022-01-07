@@ -1,10 +1,27 @@
 # NAME: 重定向
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-17 13:21:53
+# UPDATED: 2022-01-10 02:10:54
 # REWRITE: 58
 # SCRIPT: 0
 # MITM: 5
+
+[Rule]
+DOMAIN,aaplimg.com=server:119.29.29.29,None
+DOMAIN,apple-cloudkit.com=server:119.29.29.29,None
+DOMAIN,apple-mapkit.com=server:119.29.29.29,None
+DOMAIN,apple.com=server:119.29.29.29,None
+DOMAIN,cdn-apple.com=server:119.29.29.29,None
+DOMAIN,dl.google.com=server:119.29.29.29,None
+DOMAIN,dl.l.google.com=server:119.29.29.29,None
+DOMAIN,falogin.cn=server:syslib,None
+DOMAIN,melogin.cn=server:syslib,None
+DOMAIN,mtalk.google.com=108.177.125.188,None
+DOMAIN,mzstatic.com=server:119.29.29.29,None
+DOMAIN,router.asus.com=server:syslib,None
+DOMAIN,tplinklogin.net=server:syslib,None
+DOMAIN,tplogin.cn=server:syslib,None
+DOMAIN,update.googleapis.com=server:119.29.29.29,None
 
 [URL Rewrite]
 ^http:\/\/(www.)?aicoin\.cn\/$ https://www.aicoin.com/ 302

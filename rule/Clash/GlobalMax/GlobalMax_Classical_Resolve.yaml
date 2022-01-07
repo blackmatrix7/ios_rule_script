@@ -1,25 +1,21 @@
 # NAME: GlobalMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-31 02:10:45
-# DOMAIN-SUFFIX: 36070
-# DOMAIN: 51
+# UPDATED: 2022-01-11 02:11:15
+# DOMAIN-SUFFIX: 36077
+# DOMAIN: 30
 # IP-CIDR: 1188
 # IP-CIDR6: 31
 # PROCESS-NAME: 56
 # DOMAIN-KEYWORD: 6
-# TOTAL: 37402
+# TOTAL: 37388
 payload:
-  - DOMAIN,amp-api.podcasts.apple.com
   - DOMAIN,api-p014.ribob01.net
   - DOMAIN,api.okzy.tv
   - DOMAIN,apicdn-p014.ribob01.net
   - DOMAIN,apip.videomarket.jp
-  - DOMAIN,appleid.apple.com
   - DOMAIN,artcdnsecure.ribob01.net
-  - DOMAIN,beta.music.apple.com
   - DOMAIN,blizzard.nefficient.co.kr
-  - DOMAIN,books.apple.com
   - DOMAIN,cdn.apple-cloudkit.com
   - DOMAIN,cdn77.scoreuniverse.com
   - DOMAIN,cfss.dunbar.scea.com
@@ -27,36 +23,19 @@ payload:
   - DOMAIN,commerce1.api.np.km.playstation.n
   - DOMAIN,deutschewelle.h-cdn.com
   - DOMAIN,deutschewelle.hcdn.com
-  - DOMAIN,developer.apple.com
-  - DOMAIN,devimages-cdn.apple.com
-  - DOMAIN,devstreaming-cdn.apple.com
   - DOMAIN,edge.cwtv-vod-ext.top.comcast.net
   - DOMAIN,elib.maruzen.co.jp
   - DOMAIN,faronics.kayako.com
   - DOMAIN,gs-sec.ww.np.dl.playstation.n
   - DOMAIN,gs2.ww.prod.dl.playstation.ne
-  - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN,i.jeded.com
-  - DOMAIN,js-cdn.music.apple.com
-  - DOMAIN,lookup-api.apple.com
-  - DOMAIN,news-assets.apple.com
-  - DOMAIN,news-client-search.apple.com
-  - DOMAIN,news-client.apple.com
-  - DOMAIN,news-edge.apple.com
-  - DOMAIN,news-events.apple.com
-  - DOMAIN,np-edge.itunes.apple.com
-  - DOMAIN,ocsp.apple.com
   - DOMAIN,p.bstarstatic.com
   - DOMAIN,pchomeonline.com.tw
-  - DOMAIN,play-edge.itunes.apple.com
-  - DOMAIN,radio.itunes.apple.com
   - DOMAIN,rpg.pic-imges.com
   - DOMAIN,speed.dler.io
   - DOMAIN,static-resource.np.community.playstation.n
   - DOMAIN,tesla-cdn.thron.com
   - DOMAIN,teslacdn.thron.com
-  - DOMAIN,testflight.apple.com
-  - DOMAIN,uts-api.itunes.apple.com
   - DOMAIN,widgets.stripst.com
   - DOMAIN,wmff.warnermediacdn.com
   - DOMAIN,www.paypal-mktg.com
@@ -3967,6 +3946,8 @@ payload:
   - DOMAIN-SUFFIX,apple-hk.com
   - DOMAIN-SUFFIX,apple-imac.com
   - DOMAIN-SUFFIX,apple-inc.net
+  - DOMAIN-SUFFIX,apple-livephotoskit.com
+  - DOMAIN-SUFFIX,apple-mapkit.com
   - DOMAIN-SUFFIX,apple-online.com
   - DOMAIN-SUFFIX,apple-pay.com
   - DOMAIN-SUFFIX,apple-pay.rs
@@ -3977,6 +3958,7 @@ payload:
   - DOMAIN-SUFFIX,apple.be
   - DOMAIN-SUFFIX,apple.ch
   - DOMAIN-SUFFIX,apple.co
+  - DOMAIN-SUFFIX,apple.com
   - DOMAIN-SUFFIX,apple.com.co
   - DOMAIN-SUFFIX,apple.com.do
   - DOMAIN-SUFFIX,apple.com.pr
@@ -5767,7 +5749,6 @@ payload:
   - DOMAIN-SUFFIX,blm888888.com
   - DOMAIN-SUFFIX,blm898.com
   - DOMAIN-SUFFIX,blmdc7.com
-  - DOMAIN-SUFFIX,blobstore.apple.com
   - DOMAIN-SUFFIX,blockbuster.com
   - DOMAIN-SUFFIX,blockcn.com
   - DOMAIN-SUFFIX,blockedbyhk.com
@@ -6620,6 +6601,7 @@ payload:
   - DOMAIN-SUFFIX,borderlands-books.com
   - DOMAIN-SUFFIX,borderlandsbooks.com
   - DOMAIN-SUFFIX,borderlessprepaid.com
+  - DOMAIN-SUFFIX,borgenmagazine.com
   - DOMAIN-SUFFIX,boringart.lt
   - DOMAIN-SUFFIX,boringcompany.com
   - DOMAIN-SUFFIX,borquezyburr.cl
@@ -9310,6 +9292,7 @@ payload:
   - DOMAIN-SUFFIX,dealtree.org
   - DOMAIN-SUFFIX,dearelder.com
   - DOMAIN-SUFFIX,deathbychina.com
+  - DOMAIN-SUFFIX,debank.com
   - DOMAIN-SUFFIX,debate.org
   - DOMAIN-SUFFIX,debian.org
   - DOMAIN-SUFFIX,debug.com
@@ -9912,7 +9895,6 @@ payload:
   - DOMAIN-SUFFIX,doh.applied-privacy.net
   - DOMAIN-SUFFIX,doh.appliedprivacy.net
   - DOMAIN-SUFFIX,doh.au.ahadns.net
-  - DOMAIN-SUFFIX,doh.dns.apple.com
   - DOMAIN-SUFFIX,doh.dnslify.com
   - DOMAIN-SUFFIX,doh.doh.my.id
   - DOMAIN-SUFFIX,doh.eastus.pi-dns.com
@@ -16561,6 +16543,7 @@ payload:
   - DOMAIN-SUFFIX,ituneas.com
   - DOMAIN-SUFFIX,itunes-radio.net
   - DOMAIN-SUFFIX,itunes.co
+  - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,itunes.org
   - DOMAIN-SUFFIX,itunes.rio
   - DOMAIN-SUFFIX,itunes12days.com
@@ -18119,6 +18102,7 @@ payload:
   - DOMAIN-SUFFIX,lionsroar.com
   - DOMAIN-SUFFIX,lipuman.com
   - DOMAIN-SUFFIX,liquid.com
+  - DOMAIN-SUFFIX,liquiditytp.com
   - DOMAIN-SUFFIX,liquidvpn.com
   - DOMAIN-SUFFIX,liquipedia.org
   - DOMAIN-SUFFIX,lis888.com
@@ -19550,7 +19534,6 @@ payload:
   - DOMAIN-SUFFIX,miniso-nz.com
   - DOMAIN-SUFFIX,miniso.co
   - DOMAIN-SUFFIX,miniso.co.id
-  - DOMAIN-SUFFIX,miniso.com
   - DOMAIN-SUFFIX,miniso.com.py
   - DOMAIN-SUFFIX,miniso.pk
   - DOMAIN-SUFFIX,minisoau.com
@@ -21114,7 +21097,9 @@ payload:
   - DOMAIN-SUFFIX,notheroes.com
   - DOMAIN-SUFFIX,nothinghere.tk
   - DOMAIN-SUFFIX,notion-static.com
+  - DOMAIN-SUFFIX,notion.com
   - DOMAIN-SUFFIX,notion.new
+  - DOMAIN-SUFFIX,notion.site
   - DOMAIN-SUFFIX,notion.so
   - DOMAIN-SUFFIX,notionstatic.com
   - DOMAIN-SUFFIX,notnancy.cl
@@ -21495,6 +21480,7 @@ payload:
   - DOMAIN-SUFFIX,oldgoesyoung.com
   - DOMAIN-SUFFIX,oldpiratebay.org
   - DOMAIN-SUFFIX,ole777.com
+  - DOMAIN-SUFFIX,olevod.com
   - DOMAIN-SUFFIX,olicobrokers.com
   - DOMAIN-SUFFIX,olimptrade.com.br
   - DOMAIN-SUFFIX,oliverjcole.co.uk
@@ -21971,6 +21957,7 @@ payload:
   - DOMAIN-SUFFIX,paltalk.com
   - DOMAIN-SUFFIX,panagistics.com
   - DOMAIN-SUFFIX,panasonic.com
+  - DOMAIN-SUFFIX,pancakeswap.finance
   - DOMAIN-SUFFIX,pandafan.me
   - DOMAIN-SUFFIX,pandapow.co
   - DOMAIN-SUFFIX,pandapow.com
@@ -22486,7 +22473,6 @@ payload:
   - DOMAIN-SUFFIX,phimvideo.org
   - DOMAIN-SUFFIX,phmsociety.org
   - DOMAIN-SUFFIX,phncdn.com
-  - DOMAIN-SUFFIX,phobos.apple.com
   - DOMAIN-SUFFIX,phoenixnewtimes.com
   - DOMAIN-SUFFIX,phoeshow.me
   - DOMAIN-SUFFIX,phoile.tender88.com
@@ -22822,6 +22808,7 @@ payload:
   - DOMAIN-SUFFIX,ponz.me
   - DOMAIN-SUFFIX,poofx.com
   - DOMAIN-SUFFIX,poojaescorts.in
+  - DOMAIN-SUFFIX,poolin.com
   - DOMAIN-SUFFIX,poow.ga
   - DOMAIN-SUFFIX,pop.com.br
   - DOMAIN-SUFFIX,popbox.com
@@ -23930,6 +23917,7 @@ payload:
   - DOMAIN-SUFFIX,relearnings.com
   - DOMAIN-SUFFIX,releaseinternational.org
   - DOMAIN-SUFFIX,releenc.org
+  - DOMAIN-SUFFIX,religionnews.com
   - DOMAIN-SUFFIX,religioustolerance.org
   - DOMAIN-SUFFIX,reloadtech.com
   - DOMAIN-SUFFIX,remanum.com
@@ -25272,7 +25260,6 @@ payload:
   - DOMAIN-SUFFIX,sminted.com
   - DOMAIN-SUFFIX,smith.edu
   - DOMAIN-SUFFIX,smmiracle.com
-  - DOMAIN-SUFFIX,smoot.apple.com
   - DOMAIN-SUFFIX,smpte.org
   - DOMAIN-SUFFIX,smsn.com
   - DOMAIN-SUFFIX,smt.live
@@ -27643,7 +27630,6 @@ payload:
   - DOMAIN-SUFFIX,tuvpn.com
   - DOMAIN-SUFFIX,tuxing.live
   - DOMAIN-SUFFIX,tuzaijidi.com
-  - DOMAIN-SUFFIX,tv.apple.com
   - DOMAIN-SUFFIX,tv.com
   - DOMAIN-SUFFIX,tv.domain888.pw
   - DOMAIN-SUFFIX,tv.endlessmovie.com
@@ -27945,9 +27931,11 @@ payload:
   - DOMAIN-SUFFIX,ubnw.net
   - DOMAIN-SUFFIX,ubpop.com
   - DOMAIN-SUFFIX,ubshe.com
+  - DOMAIN-SUFFIX,ubuntu-touch.io
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,ubuntu.net
   - DOMAIN-SUFFIX,ubuntuforums.org
+  - DOMAIN-SUFFIX,ubuntutouch.io
   - DOMAIN-SUFFIX,ubxyz.com
   - DOMAIN-SUFFIX,uc-japan.org
   - DOMAIN-SUFFIX,uc4.net
@@ -33131,7 +33119,6 @@ payload:
   - DOMAIN-SUFFIX,www.okinawatimes.co.jp
   - DOMAIN-SUFFIX,www.okxav.com
   - DOMAIN-SUFFIX,www.oldje.com
-  - DOMAIN-SUFFIX,www.olevod.com
   - DOMAIN-SUFFIX,www.oltentime.com
   - DOMAIN-SUFFIX,www.omaha.com
   - DOMAIN-SUFFIX,www.onacle.tv
@@ -33438,7 +33425,6 @@ payload:
   - DOMAIN-SUFFIX,www.redtube.su
   - DOMAIN-SUFFIX,www.redwap.me
   - DOMAIN-SUFFIX,www.reginacn.com
-  - DOMAIN-SUFFIX,www.religionnews.com
   - DOMAIN-SUFFIX,www.remotevpn.net
   - DOMAIN-SUFFIX,www.renrenyum.com
   - DOMAIN-SUFFIX,www.repaik.com

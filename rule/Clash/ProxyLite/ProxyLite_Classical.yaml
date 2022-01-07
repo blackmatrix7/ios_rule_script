@@ -1,12 +1,12 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-31 02:10:45
-# DOMAIN-SUFFIX: 34096
+# UPDATED: 2022-01-11 02:11:15
+# DOMAIN-SUFFIX: 34111
 # DOMAIN: 20
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 34207
+# TOTAL: 34222
 payload:
   - DOMAIN,api-p.videomarket.jp
   - DOMAIN,apip.videomarket.jp
@@ -3779,6 +3779,8 @@ payload:
   - DOMAIN-SUFFIX,apple-hk.com
   - DOMAIN-SUFFIX,apple-imac.com
   - DOMAIN-SUFFIX,apple-inc.net
+  - DOMAIN-SUFFIX,apple-livephotoskit.com
+  - DOMAIN-SUFFIX,apple-mapkit.com
   - DOMAIN-SUFFIX,apple-online.com
   - DOMAIN-SUFFIX,apple-pay.com
   - DOMAIN-SUFFIX,apple-pay.rs
@@ -3788,6 +3790,8 @@ payload:
   - DOMAIN-SUFFIX,apple-usa.net
   - DOMAIN-SUFFIX,apple.be
   - DOMAIN-SUFFIX,apple.ch
+  - DOMAIN-SUFFIX,apple.co
+  - DOMAIN-SUFFIX,apple.com
   - DOMAIN-SUFFIX,apple.com.co
   - DOMAIN-SUFFIX,apple.com.do
   - DOMAIN-SUFFIX,apple.com.pr
@@ -6162,6 +6166,7 @@ payload:
   - DOMAIN-SUFFIX,borderlands-books.com
   - DOMAIN-SUFFIX,borderlandsbooks.com
   - DOMAIN-SUFFIX,borderlessprepaid.com
+  - DOMAIN-SUFFIX,borgenmagazine.com
   - DOMAIN-SUFFIX,boringart.lt
   - DOMAIN-SUFFIX,boringcompany.com
   - DOMAIN-SUFFIX,borquezyburr.cl
@@ -7089,6 +7094,7 @@ payload:
   - DOMAIN-SUFFIX,cdjp.org
   - DOMAIN-SUFFIX,cdkworkshop.com
   - DOMAIN-SUFFIX,cdmr.rpz.su
+  - DOMAIN-SUFFIX,cdn-apple.com
   - DOMAIN-SUFFIX,cdn-main.plus500.com
   - DOMAIN-SUFFIX,cdn-terapeak.com
   - DOMAIN-SUFFIX,cdn.angruo.com
@@ -15522,6 +15528,7 @@ payload:
   - DOMAIN-SUFFIX,ituneas.com
   - DOMAIN-SUFFIX,itunes-radio.net
   - DOMAIN-SUFFIX,itunes.co
+  - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,itunes.org
   - DOMAIN-SUFFIX,itunes.rio
   - DOMAIN-SUFFIX,itunes12days.com
@@ -15667,6 +15674,7 @@ payload:
   - DOMAIN-SUFFIX,jav18.cc
   - DOMAIN-SUFFIX,jav18.xyz
   - DOMAIN-SUFFIX,jav2be.com
+  - DOMAIN-SUFFIX,jav321.com
   - DOMAIN-SUFFIX,jav68.me
   - DOMAIN-SUFFIX,jav68.tv
   - DOMAIN-SUFFIX,jav720p.com
@@ -17029,6 +17037,7 @@ payload:
   - DOMAIN-SUFFIX,lionsroar.com
   - DOMAIN-SUFFIX,lipuman.com
   - DOMAIN-SUFFIX,liquid.com
+  - DOMAIN-SUFFIX,liquiditytp.com
   - DOMAIN-SUFFIX,liquidvpn.com
   - DOMAIN-SUFFIX,liquipedia.org
   - DOMAIN-SUFFIX,lis888.com
@@ -19825,7 +19834,9 @@ payload:
   - DOMAIN-SUFFIX,notheroes.com
   - DOMAIN-SUFFIX,nothinghere.tk
   - DOMAIN-SUFFIX,notion-static.com
+  - DOMAIN-SUFFIX,notion.com
   - DOMAIN-SUFFIX,notion.new
+  - DOMAIN-SUFFIX,notion.site
   - DOMAIN-SUFFIX,notion.so
   - DOMAIN-SUFFIX,notionstatic.com
   - DOMAIN-SUFFIX,notnancy.cl
@@ -20157,6 +20168,7 @@ payload:
   - DOMAIN-SUFFIX,oldgoesyoung.com
   - DOMAIN-SUFFIX,oldpiratebay.org
   - DOMAIN-SUFFIX,ole777.com
+  - DOMAIN-SUFFIX,olevod.com
   - DOMAIN-SUFFIX,olicobrokers.com
   - DOMAIN-SUFFIX,olimptrade.com.br
   - DOMAIN-SUFFIX,oliverjcole.co.uk
@@ -21426,6 +21438,7 @@ payload:
   - DOMAIN-SUFFIX,ponz.me
   - DOMAIN-SUFFIX,poofx.com
   - DOMAIN-SUFFIX,poojaescorts.in
+  - DOMAIN-SUFFIX,poolin.com
   - DOMAIN-SUFFIX,poow.ga
   - DOMAIN-SUFFIX,pop.com.br
   - DOMAIN-SUFFIX,popbox.com
@@ -22464,6 +22477,7 @@ payload:
   - DOMAIN-SUFFIX,relearnings.com
   - DOMAIN-SUFFIX,releaseinternational.org
   - DOMAIN-SUFFIX,releenc.org
+  - DOMAIN-SUFFIX,religionnews.com
   - DOMAIN-SUFFIX,religioustolerance.org
   - DOMAIN-SUFFIX,reloadtech.com
   - DOMAIN-SUFFIX,remanum.com
@@ -23778,6 +23792,7 @@ payload:
   - DOMAIN-SUFFIX,snakemonkey.weebly.com
   - DOMAIN-SUFFIX,snap-dev.net
   - DOMAIN-SUFFIX,snap-telemetry.io
+  - DOMAIN-SUFFIX,snap.com
   - DOMAIN-SUFFIX,snapchat.com
   - DOMAIN-SUFFIX,snapcraft.io
   - DOMAIN-SUFFIX,snapdev.net
@@ -26263,9 +26278,11 @@ payload:
   - DOMAIN-SUFFIX,ubnw.net
   - DOMAIN-SUFFIX,ubpop.com
   - DOMAIN-SUFFIX,ubshe.com
+  - DOMAIN-SUFFIX,ubuntu-touch.io
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,ubuntu.net
   - DOMAIN-SUFFIX,ubuntuforums.org
+  - DOMAIN-SUFFIX,ubuntutouch.io
   - DOMAIN-SUFFIX,ubxyz.com
   - DOMAIN-SUFFIX,uc-japan.org
   - DOMAIN-SUFFIX,uc4.net
@@ -31280,7 +31297,6 @@ payload:
   - DOMAIN-SUFFIX,www.okinawatimes.co.jp
   - DOMAIN-SUFFIX,www.okxav.com
   - DOMAIN-SUFFIX,www.oldje.com
-  - DOMAIN-SUFFIX,www.olevod.com
   - DOMAIN-SUFFIX,www.oltentime.com
   - DOMAIN-SUFFIX,www.omaha.com
   - DOMAIN-SUFFIX,www.onacle.tv
@@ -31593,7 +31609,6 @@ payload:
   - DOMAIN-SUFFIX,www.redtube.su
   - DOMAIN-SUFFIX,www.redwap.me
   - DOMAIN-SUFFIX,www.reginacn.com
-  - DOMAIN-SUFFIX,www.religionnews.com
   - DOMAIN-SUFFIX,www.remotevpn.net
   - DOMAIN-SUFFIX,www.renrenyum.com
   - DOMAIN-SUFFIX,www.repaik.com

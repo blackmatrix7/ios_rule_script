@@ -1,17 +1,16 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-08 02:11:34
+# UPDATED: 2022-01-09 02:10:46
 # DOMAIN-SUFFIX: 72364
 # PROCESS-NAME: 5
-# DOMAIN: 61
-# IP-CIDR: 6181
+# DOMAIN: 57
+# IP-CIDR: 6180
 # IP-CIDR6: 5445
 # DOMAIN-KEYWORD: 1
-# TOTAL: 84057
+# TOTAL: 84052
 payload:
   - DOMAIN,265.com
-  - DOMAIN,analytics.strava.com
   - DOMAIN,c.android.clients.google.com
   - DOMAIN,cache.pack.google.com
   - DOMAIN,cdn.ampproject.org
@@ -46,7 +45,6 @@ payload:
   - DOMAIN,officecdn-microsoft-com.akamaized.net
   - DOMAIN,opencourse.pku.edu.cn
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
-  - DOMAIN,pagead-googlehosted.l.google.com
   - DOMAIN,pki-goog.l.google.com
   - DOMAIN,productcard.gog-statics.com
   - DOMAIN,recaptcha.net
@@ -55,7 +53,6 @@ payload:
   - DOMAIN,safebrowsing-cache.google.com
   - DOMAIN,sms.imagetasks.com
   - DOMAIN,ss.bjmu.edu.cn
-  - DOMAIN,ssl-google-analytics.l.google.com
   - DOMAIN,ssl.gstatic.com
   - DOMAIN,static-login.gog-statics.com
   - DOMAIN,tesla-cdn.thron.cn
@@ -67,7 +64,6 @@ payload:
   - DOMAIN,update.googleapis.com
   - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
   - DOMAIN,weizhiyundong.list
-  - DOMAIN,www-googletagmanager.l.google.com
   - DOMAIN,www.gstatic.com
   - DOMAIN,www.recaptcha.net
   - DOMAIN,www4-static.gog-statics.com
@@ -1605,7 +1601,6 @@ payload:
   - DOMAIN-SUFFIX,166cdn.com
   - DOMAIN-SUFFIX,166dns.com
   - DOMAIN-SUFFIX,166ks.net
-  - DOMAIN-SUFFIX,166sh.com
   - DOMAIN-SUFFIX,166xs.cc
   - DOMAIN-SUFFIX,166zw.com
   - DOMAIN-SUFFIX,16768.com
@@ -2271,7 +2266,6 @@ payload:
   - DOMAIN-SUFFIX,1zsoft.com
   - DOMAIN-SUFFIX,1zu.com
   - DOMAIN-SUFFIX,1zw.com
-  - DOMAIN-SUFFIX,2-01-5830-0005.cdx.cedexis.net
   - DOMAIN-SUFFIX,2-class.com
   - DOMAIN-SUFFIX,2-mm.net
   - DOMAIN-SUFFIX,2.gy
@@ -11645,6 +11639,7 @@ payload:
   - DOMAIN-SUFFIX,beeweart.com
   - DOMAIN-SUFFIX,befun.cn
   - DOMAIN-SUFFIX,begcl.com
+  - DOMAIN-SUFFIX,begindcc.com
   - DOMAIN-SUFFIX,bego.cc
   - DOMAIN-SUFFIX,begoto.com
   - DOMAIN-SUFFIX,begowin.com
@@ -13334,7 +13329,7 @@ payload:
   - DOMAIN-SUFFIX,btdog.com
   - DOMAIN-SUFFIX,btege.com
   - DOMAIN-SUFFIX,btei6pis99.com
-  - DOMAIN-SUFFIX,btfan.com
+  - DOMAIN-SUFFIX,btgame.com
   - DOMAIN-SUFFIX,btgame01.com
   - DOMAIN-SUFFIX,btgang.com
   - DOMAIN-SUFFIX,btglotto.com
@@ -20329,7 +20324,6 @@ payload:
   - DOMAIN-SUFFIX,dfss-club.com
   - DOMAIN-SUFFIX,dfstw.com
   - DOMAIN-SUFFIX,dfsyjm.com
-  - DOMAIN-SUFFIX,dftoutiao.com
   - DOMAIN-SUFFIX,dftq.net
   - DOMAIN-SUFFIX,dftzj.com
   - DOMAIN-SUFFIX,dfv5.net
@@ -21790,7 +21784,6 @@ payload:
   - DOMAIN-SUFFIX,duhao.net
   - DOMAIN-SUFFIX,dui.ai
   - DOMAIN-SUFFIX,dui1dui.com
-  - DOMAIN-SUFFIX,dui88.com
   - DOMAIN-SUFFIX,duia.com
   - DOMAIN-SUFFIX,duiai.com
   - DOMAIN-SUFFIX,duihuan123.com
@@ -21939,7 +21932,6 @@ payload:
   - DOMAIN-SUFFIX,dushu365.com
   - DOMAIN-SUFFIX,dushu369.com
   - DOMAIN-SUFFIX,dushudaren.com
-  - DOMAIN-SUFFIX,dushuge.net
   - DOMAIN-SUFFIX,dushuzhe.com
   - DOMAIN-SUFFIX,dushuzhong.com
   - DOMAIN-SUFFIX,dushw.com
@@ -26755,6 +26747,7 @@ payload:
   - DOMAIN-SUFFIX,ght.me
   - DOMAIN-SUFFIX,ghtianshancn.com
   - DOMAIN-SUFFIX,ghui.me
+  - DOMAIN-SUFFIX,ghwgame.com
   - DOMAIN-SUFFIX,ghxi.com
   - DOMAIN-SUFFIX,ghyg.com
   - DOMAIN-SUFFIX,ghzhushou.com
@@ -26994,6 +26987,7 @@ payload:
   - DOMAIN-SUFFIX,gmiot.net
   - DOMAIN-SUFFIX,gmjk.com
   - DOMAIN-SUFFIX,gmm01.com
+  - DOMAIN-SUFFIX,gmmch5.com
   - DOMAIN-SUFFIX,gmmicro.com
   - DOMAIN-SUFFIX,gmmsj.com
   - DOMAIN-SUFFIX,gmonline-all.com
@@ -27315,7 +27309,6 @@ payload:
   - DOMAIN-SUFFIX,gotoip2.com
   - DOMAIN-SUFFIX,gotoip3.com
   - DOMAIN-SUFFIX,gotoip4.com
-  - DOMAIN-SUFFIX,gotoip55.com
   - DOMAIN-SUFFIX,gotojp.net
   - DOMAIN-SUFFIX,gotokeep.com
   - DOMAIN-SUFFIX,gotonets.com
@@ -28315,6 +28308,7 @@ payload:
   - DOMAIN-SUFFIX,gzzhitu.com
   - DOMAIN-SUFFIX,gzzkzsw.com
   - DOMAIN-SUFFIX,gzzlfw.com
+  - DOMAIN-SUFFIX,gzzlgame.com
   - DOMAIN-SUFFIX,gzzoc.com
   - DOMAIN-SUFFIX,gzzongsi.com
   - DOMAIN-SUFFIX,gzzoo.com
@@ -35870,6 +35864,7 @@ payload:
   - DOMAIN-SUFFIX,jiujiuyingshi.com
   - DOMAIN-SUFFIX,jiujiuyunhui.com
   - DOMAIN-SUFFIX,jiuku.com
+  - DOMAIN-SUFFIX,jiulesy.com
   - DOMAIN-SUFFIX,jiulingwan.com
   - DOMAIN-SUFFIX,jiulishi.com
   - DOMAIN-SUFFIX,jiumaojiu.com
@@ -38876,6 +38871,7 @@ payload:
   - DOMAIN-SUFFIX,kyyj.net
   - DOMAIN-SUFFIX,kyzf.net
   - DOMAIN-SUFFIX,kyzyj.com
+  - DOMAIN-SUFFIX,kz8yx.com
   - DOMAIN-SUFFIX,kza.cc
   - DOMAIN-SUFFIX,kzj365.com
   - DOMAIN-SUFFIX,kzlgd.com
@@ -39322,7 +39318,6 @@ payload:
   - DOMAIN-SUFFIX,lbyczf.com
   - DOMAIN-SUFFIX,lbzuo.com
   - DOMAIN-SUFFIX,lc-cn-n1-npxfk.com
-  - DOMAIN-SUFFIX,lc-cn-n1-shared.com
   - DOMAIN-SUFFIX,lc-cn-n1-thovg.com
   - DOMAIN-SUFFIX,lc-news.com
   - DOMAIN-SUFFIX,lc123.net
@@ -39762,7 +39757,6 @@ payload:
   - DOMAIN-SUFFIX,lfidc.net
   - DOMAIN-SUFFIX,lfkjgh.com
   - DOMAIN-SUFFIX,lfksqzj.com
-  - DOMAIN-SUFFIX,lfl.gg
   - DOMAIN-SUFFIX,lfork.com
   - DOMAIN-SUFFIX,lfppt.com
   - DOMAIN-SUFFIX,lftdzd.com
@@ -40393,6 +40387,7 @@ payload:
   - DOMAIN-SUFFIX,little-sun.com
   - DOMAIN-SUFFIX,littleboy.net
   - DOMAIN-SUFFIX,littleee.com
+  - DOMAIN-SUFFIX,littlehero.xyz
   - DOMAIN-SUFFIX,littlekid.online
   - DOMAIN-SUFFIX,littleroost.net
   - DOMAIN-SUFFIX,littlesheep.com
@@ -43361,6 +43356,7 @@ payload:
   - DOMAIN-SUFFIX,mj85.com
   - DOMAIN-SUFFIX,mjasoft.com
   - DOMAIN-SUFFIX,mjceo.com
+  - DOMAIN-SUFFIX,mjh5.com
   - DOMAIN-SUFFIX,mjhlyuliu1.cn
   - DOMAIN-SUFFIX,mjhlyuliu2.cn
   - DOMAIN-SUFFIX,mjhlyuliu3.cn
@@ -51530,7 +51526,6 @@ payload:
   - DOMAIN-SUFFIX,scbyx.net
   - DOMAIN-SUFFIX,scbz.org
   - DOMAIN-SUFFIX,scbz120.com
-  - DOMAIN-SUFFIX,scc.ssacdn.com
   - DOMAIN-SUFFIX,scccyts.com
   - DOMAIN-SUFFIX,sccin.com
   - DOMAIN-SUFFIX,scclssj.com
@@ -51884,6 +51879,7 @@ payload:
   - DOMAIN-SUFFIX,sdjushu.com
   - DOMAIN-SUFFIX,sdkclickurl.com
   - DOMAIN-SUFFIX,sdklh.com
+  - DOMAIN-SUFFIX,sdknext.com
   - DOMAIN-SUFFIX,sdksrv.com
   - DOMAIN-SUFFIX,sdlangkun.com
   - DOMAIN-SUFFIX,sdlgzy.com
@@ -54174,6 +54170,7 @@ payload:
   - DOMAIN-SUFFIX,smgstar.com
   - DOMAIN-SUFFIX,smhdoto.com
   - DOMAIN-SUFFIX,smhom1.com
+  - DOMAIN-SUFFIX,smhyplay.com
   - DOMAIN-SUFFIX,smianet.com
   - DOMAIN-SUFFIX,smic-sh.com
   - DOMAIN-SUFFIX,smics.com
@@ -56512,7 +56509,6 @@ payload:
   - DOMAIN-SUFFIX,taozaisheng.com
   - DOMAIN-SUFFIX,taozhutu.com
   - DOMAIN-SUFFIX,tapapis.com
-  - DOMAIN-SUFFIX,tapas.net
   - DOMAIN-SUFFIX,tapd.cn
   - DOMAIN-SUFFIX,tapdata.net
   - DOMAIN-SUFFIX,tapechat.net
@@ -59985,7 +59981,6 @@ payload:
   - DOMAIN-SUFFIX,videougc.com
   - DOMAIN-SUFFIX,videoyi.com
   - DOMAIN-SUFFIX,videoyx.com
-  - DOMAIN-SUFFIX,videozhishi.com
   - DOMAIN-SUFFIX,vidoadsplus.xyz
   - DOMAIN-SUFFIX,vienblog.com
   - DOMAIN-SUFFIX,viewones.com
@@ -60600,6 +60595,7 @@ payload:
   - DOMAIN-SUFFIX,wan5d.com
   - DOMAIN-SUFFIX,wan68.com
   - DOMAIN-SUFFIX,wan7.xin
+  - DOMAIN-SUFFIX,wan73.com
   - DOMAIN-SUFFIX,wan76.com
   - DOMAIN-SUFFIX,wan77.com
   - DOMAIN-SUFFIX,wan8.com
@@ -61958,7 +61954,6 @@ payload:
   - DOMAIN-SUFFIX,whnatural.com
   - DOMAIN-SUFFIX,whnfc.com
   - DOMAIN-SUFFIX,whngd.org
-  - DOMAIN-SUFFIX,whoami.akamai.net
   - DOMAIN-SUFFIX,whoceansys.com
   - DOMAIN-SUFFIX,whocool.com
   - DOMAIN-SUFFIX,whoil.net
@@ -63354,6 +63349,7 @@ payload:
   - DOMAIN-SUFFIX,wxmama.com
   - DOMAIN-SUFFIX,wxmcgz.com
   - DOMAIN-SUFFIX,wxmetro.net
+  - DOMAIN-SUFFIX,wxmolegames.com
   - DOMAIN-SUFFIX,wxmovie.com
   - DOMAIN-SUFFIX,wxnacy.com
   - DOMAIN-SUFFIX,wxngh.com
@@ -67668,6 +67664,7 @@ payload:
   - DOMAIN-SUFFIX,yjscloud.com
   - DOMAIN-SUFFIX,yjsjl.org
   - DOMAIN-SUFFIX,yjsops.com
+  - DOMAIN-SUFFIX,yjwlo.com
   - DOMAIN-SUFFIX,yjwujian.com
   - DOMAIN-SUFFIX,yjxsoft.com
   - DOMAIN-SUFFIX,yjyghb.com
@@ -68972,7 +68969,6 @@ payload:
   - DOMAIN-SUFFIX,yunnut.com
   - DOMAIN-SUFFIX,yunos-inc.com
   - DOMAIN-SUFFIX,yunos-tv.com
-  - DOMAIN-SUFFIX,yunos.com
   - DOMAIN-SUFFIX,yunpan.cn
   - DOMAIN-SUFFIX,yunpan.com
   - DOMAIN-SUFFIX,yunpan.com.cn
@@ -75548,8 +75544,7 @@ payload:
   - IP-CIDR,160.202.212.0/22,no-resolve
   - IP-CIDR,160.202.216.0/21,no-resolve
   - IP-CIDR,160.202.224.0/19,no-resolve
-  - IP-CIDR,160.202.60.0/23,no-resolve
-  - IP-CIDR,160.202.62.0/24,no-resolve
+  - IP-CIDR,160.202.60.0/22,no-resolve
   - IP-CIDR,160.238.64.0/22,no-resolve
   - IP-CIDR,160.62.10.0/24,no-resolve
   - IP-CIDR,160.83.109.0/24,no-resolve

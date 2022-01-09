@@ -1,13 +1,13 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:39
+# UPDATED: 2022-01-10 02:10:32
 # HOST: 6
-# HOST-SUFFIX: 107
+# HOST-SUFFIX: 103
 # USER-AGENT: 23
 # IP-CIDR: 10
-# HOST-KEYWORD: 1
-# TOTAL: 147
+# HOST-KEYWORD: 3
+# TOTAL: 145
 HOST,api.smoot.apple.cn,Apple
 HOST,apple-events.akamaized.net,Apple
 HOST,apple.comscoreresearch.com,Apple
@@ -52,8 +52,6 @@ HOST-SUFFIX,cdncn4.applemapkit.com,Apple
 HOST-SUFFIX,crashlytics.com,Apple
 HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,eracom.com.tw,Apple
-HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,Apple
-HOST-SUFFIX,gsp4cn.ls.apple.com.edgekey.net,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-content.com,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple
@@ -115,13 +113,13 @@ HOST-SUFFIX,nextmgz.com,Apple
 HOST-SUFFIX,nexttv.com.tw,Apple
 HOST-SUFFIX,safebrowsing.apple,Apple
 HOST-SUFFIX,sharpdaily.tw,Apple
-HOST-SUFFIX,store.apple.com.edgekey.net,Apple
 HOST-SUFFIX,store.storeimages.cdnapple.com,Apple
 HOST-SUFFIX,updates.cdnapple.com,Apple
 HOST-SUFFIX,updateshttp.cdnapple.com,Apple
-HOST-SUFFIX,www.apple.com.edgekey.net,Apple
 HOST-SUFFIX,wwwicloud.com,Apple
+HOST-KEYWORD,apple-support.akadns.net,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
+HOST-KEYWORD,apple.com.edgekey.net,Apple
 USER-AGENT,%E5%9C%B0%E5%9B%BE*,Apple
 USER-AGENT,%E6%9F%A5%E6%89%BE*,Apple
 USER-AGENT,%E8%AE%BE%E7%BD%AE*,Apple

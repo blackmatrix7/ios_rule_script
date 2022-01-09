@@ -1,13 +1,13 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:46
+# UPDATED: 2022-01-10 02:10:34
 # DOMAIN: 6
-# DOMAIN-SUFFIX: 107
+# DOMAIN-SUFFIX: 103
 # PROCESS-NAME: 6
 # IP-CIDR: 10
-# DOMAIN-KEYWORD: 1
-# TOTAL: 130
+# DOMAIN-KEYWORD: 3
+# TOTAL: 128
 payload:
   - DOMAIN,api.smoot.apple.cn
   - DOMAIN,apple-events.akamaized.net
@@ -53,8 +53,6 @@ payload:
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,eracom.com.tw
-  - DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net
-  - DOMAIN-SUFFIX,gsp4cn.ls.apple.com.edgekey.net
   - DOMAIN-SUFFIX,icloud-apple.cn
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,icloud-isupport.com
@@ -116,13 +114,13 @@ payload:
   - DOMAIN-SUFFIX,nexttv.com.tw
   - DOMAIN-SUFFIX,safebrowsing.apple
   - DOMAIN-SUFFIX,sharpdaily.tw
-  - DOMAIN-SUFFIX,store.apple.com.edgekey.net
   - DOMAIN-SUFFIX,store.storeimages.cdnapple.com
   - DOMAIN-SUFFIX,updates.cdnapple.com
   - DOMAIN-SUFFIX,updateshttp.cdnapple.com
-  - DOMAIN-SUFFIX,www.apple.com.edgekey.net
   - DOMAIN-SUFFIX,wwwicloud.com
+  - DOMAIN-KEYWORD,apple-support.akadns.net
   - DOMAIN-KEYWORD,apple.com.akadns.net
+  - DOMAIN-KEYWORD,apple.com.edgekey.net
   - IP-CIDR,139.178.128.0/18,no-resolve
   - IP-CIDR,144.178.0.0/19,no-resolve
   - IP-CIDR,144.178.36.0/22,no-resolve

@@ -83,8 +83,10 @@ if (magicJS.read(blackKey)) {
       // 标签页处理，如去除会员购等等
       case /^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab/.test(magicJS.request.url):
         try {
-          // 442 开始为概念版id 适配港澳台代理模式
-          const tabList = new Set([39, 40, 41, 42, 151, 442, 99, 100, 101, 554, 556]);
+          // 545 首页追番tab，442 开始为概念版id 适配港澳台代理模式
+          const tabList = new Set([39, 40, 41, 545, 151, 442, 99, 100, 101, 554, 556]);
+          // 尝试使用tab name直观修改
+          const tabNameList = new Set(["直播", "推荐", "热门", "追番", "影视"]);
           // 107 概念版游戏中心，获取修改为Story模式
           const topList = new Set([176, 222, 107]);
           // 102 开始为概念版id
@@ -92,7 +94,7 @@ if (magicJS.read(blackKey)) {
           let obj = JSON.parse(magicJS.response.body);
           if (obj["data"]["tab"]) {
             let tab = obj["data"]["tab"].filter((e) => {
-              return tabList.has(e.id);
+              return tabNameList.has(e.name);
             });
             obj["data"]["tab"] = tab;
           }
@@ -165,10 +167,12 @@ if (magicJS.read(blackKey)) {
       case /^https?:\/\/api\.bilibili\.com\/pgc\/page\/bangumi/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
-          for (let card of obj.data.cards) {
-            delete card["extra"];
-          }
-          delete obj["data"]["attentions"];
+          obj.result.modules.forEach((module) => {
+            // 头部banner
+            if (module.style.startsWith("banner")) {
+              module.items = module.items.filter((i) => !(i.source_content && i.source_content.ad_content));
+            }
+          });
           body = JSON.stringify(obj);
         } catch (err) {
           magicJS.logError(`追番去广告出现异常：${err}`);

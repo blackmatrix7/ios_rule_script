@@ -1,8 +1,8 @@
 #!name=复写去广告
-#!desc=最后更新时间 2022-01-10 02:10:54
+#!desc=最后更新时间 2022-01-11 02:11:33
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=790
+#!rewrite=791
 #!script=0
 #!force_http_engine_hosts=12
 #!mitm=603
@@ -29,6 +29,8 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/api\/v\d\/app_square\/start_up_with_ad$" - reject
 "^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/brand\/search\/v1\.json" - reject
 "^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule" - reject
+"^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/eapi\/ad\/" - reject
+"^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/g\.real\?aid=text_ad" - reject
 "^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/img\/ad\.union\.api\/" - reject
 "^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/" - reject
 "^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/promotion\/(display_cache|display_ad|feed_display|search_ad)" - reject
@@ -44,6 +46,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/(api|atrace)\.chelaile\.net\.cn\/adpub\/" - reject
 "^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert" - reject
 "^https?:\/\/(api|promo)\.xueqiu\.com\/promotion\/(display_cache|display_ad|feed_display|search_ad)" - reject
+"^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/" - reject
 "^https?:\/\/(e|m).+/((uu|oo).php.+|\d+.x?html\?$)" - reject
 "^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4})" - reject
 "^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4})" - reject
@@ -123,6 +126,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash" - reject
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/" - reject
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/" - reject
+"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/" - reject
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/" - reject
 "^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do" - reject
 "^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show" - reject
@@ -140,6 +144,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/api\.21jingji\.com\/ad\/" - reject
 "^https?:\/\/api\.applovefrom\.com\/api\/v\d\/splash\/" - reject
 "^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/ads\/" - reject
+"^https?:\/\/api\.caijingmobile\.com\/(ad|advert)\/" - reject
 "^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/" - reject
 "^https?:\/\/api\.cdmcaac\.com\/ad\/" - reject
 "^https?:\/\/api\.chelaile\.net\.cn\/adpub\/" - reject
@@ -147,7 +152,9 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/api\.club\.lenovo\.cn\/common\/open_ad" - reject
 "^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init" - reject
 "^https?:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/" - reject
+"^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash" - reject
 "^https?:\/\/api\.feng\.com[\s\S]*?Claunch_screen" - reject
+"^https?:\/\/api\.feng\.com\/v\d\/advertisement\/.*Claunch" - reject
 "^https?:\/\/api\.futunn\.com\/v\d\/ad\/" - reject
 "^https?:\/\/api\.gaoqingdianshi\.com\/api\/v2\/ad" - reject
 "^https?:\/\/api\.gotokeep\.com\/ads" - reject
@@ -161,6 +168,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/" - reject
 "^https?:\/\/api\.jxedt\.com\/ad\/" - reject
 "^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense" - reject
+"^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/" - reject
 "^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads" - reject
 "^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start" - reject
 "^https?:\/\/api\.meipian\.me.+?advert" - reject
@@ -215,6 +223,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+?\.jpg" - reject
 "^https?:\/\/business\.msstatic\.com\/advertiser\/" - reject
 "^https?:\/\/c\.m\.163\.com\/nc\/gl\/" - reject
+"^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog)" - reject
 "^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo" - reject
 "^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule" - reject
 "^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/" - reject
@@ -350,6 +359,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?" - reject
 "^https?:\/\/mm\.app\.joox\.com\/billsrv\/clientBatchAdReport" - reject
 "^https?:\/\/mm\.app\.joox\.com\/retrieval\/getAd" - reject
+"^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/" - reject
 "^https?:\/\/mobi\.360doc\.com\/v\d{2}\/Ajax\/festival\.ashx\?op=getfestivaltheme" - reject
 "^https?:\/\/mobile-api2011.elong.com\/(adgateway|adv)\/" - reject
 "^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/" - reject
@@ -432,6 +442,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/smusic\.app\.wechat\.com\/commonCgi\/advertisement\/get_orint_egg$" - reject
 "^https?:\/\/snailsleep\.net\/snail\/v1\/adTask\/" - reject
 "^https?:\/\/snailsleep\.net\/snail\/v\d\/screen\/qn\/get\?" - reject
+"^https?:\/\/sp\.kaola\.com\/api\/openad" - reject
 "^https?:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg" - reject
 "^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons" - reject
 "^https?:\/\/static\.vuevideo\.net\/styleAssets\/.+?\/splash_ad" - reject
@@ -491,10 +502,8 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 [Map Local]
 "^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/(adgateway|adv)\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+\.tc\.qq\.com\/.+p201\.1\.mp4\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/eapi\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/brand\/search\/v1\.json" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/(\d{1,3}\.){1,3}\d{1,3}\/view\/dale-online\/dale_ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/(iyes|(api|hd)\.mobile)\.youku\.com\/(adv|common\/v3\/hudong\/new)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/.+?\.(musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/.+?\.(snssdk|amemv)\.com\/api\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
@@ -534,7 +543,6 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/\w{6}\.com1\.z0\.glb\.clouddn\.com" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/a\.applovin\.com\/.+?\/ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/aarkissltrial\.secure2\.footprint\.net\/v1\/ads" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/ad\.api\.3g\.youku\.com" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/ad\.api\.moji\.com\/ad\/log\/stat" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/adm\.10jqka\.com\.cn\/img\/ad\/.*?(1\d{2}|\d{4})\.jpg" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
@@ -553,14 +561,10 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/api2\.helper\.qq\.com\/game\/buttons" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/api\.app\.vhall\.com\/v5\/000\/webinar\/launch" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/api\.appsdk\.soku\.com\/bg\/r" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/api\.caijingmobile\.com\/(ad|advert)\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api\.douban\.com\/v2\/app_ads\/common_ads" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.feng\.com\/v\d\/advertisement\/.*Claunch" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api\.fengshows\.com\/api\/launchAD" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/api\.jxedt\.com\/jump\/EMiCcDNp" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/api\.k\.sohu\.com\/api\/channel\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api\.laosiji\.com\/user\/startpage\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/api\.mddcloud\.com\.cn\/api\/ad\/getClassAd\.action" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/api\.mddcloud\.com\.cn\/api\/advert\/getHomepage\.action" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
@@ -593,7 +597,6 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/btrace\.qq\.com" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/c1\.ifengimg\.com\/.+?_w1080_h1410\.jpg" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/c\.minisplat\.cn" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/c\.tieba\.baidu\.com\/c\/p\/img\?src=" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/logtogether\?cmd=" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/cache\.changjingyi\.cn" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
@@ -714,7 +717,6 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/mmg\.aty\.sohu\.com\/pvlog?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4}" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/mtteve\.beacon\.qq\.com\/analytics" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/newapp\.szsmk\.com\/app\/config\/.*?Ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
@@ -763,7 +765,6 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 "^https?:\/\/simg\.s\.weibo\.com\/.+?_ios\d{2}\.gif" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/sm\.domobcdn\.com\/ugc\/\w\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/smart\.789\.image\.mucang\.cn\/advert" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/sp\.kaola\.com\/api\/openad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6}" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/sso\.ifanr\.com\/jiong\/IOS\/appso\/splash\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/stat\.moji\.com" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"

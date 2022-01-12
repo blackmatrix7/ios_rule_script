@@ -1,0 +1,4 @@
+# Twitter_离线下载收藏内容
+^https?:\/\/api\.twitter\.com\/[0-9.]*\/favorites\/create.json url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/synology/downloadstation.js
+
+hostname = api.twitter.com

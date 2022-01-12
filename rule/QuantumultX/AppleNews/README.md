@@ -13,13 +13,13 @@ DOMAIN,gspe1-ssl.ls.apple.com  必要，但会导致「地图」使用「TOMTOM�
 
 ## 规则统计
 
-总计规则：10 条。
+总计规则：11 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 7 |
+| HOST | 8 |
 | USER-AGENT | 2 |
 | HOST-SUFFIX | 1 |
 ## 配置说明

@@ -10,18 +10,18 @@
 
 ## 规则统计
 
-总计规则：69032 条。
+总计规则：68927 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST-SUFFIX | 68898 |
-| USER-AGENT | 32 |
-| HOST | 83 |
-| IP-CIDR | 5 |
-| HOST-KEYWORD | 10 |
+| HOST-SUFFIX | 68800 |
+| USER-AGENT | 31 |
+| HOST | 82 |
+| IP-CIDR | 9 |
 | IP6-CIDR | 4 |
+| HOST-KEYWORD | 1 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。

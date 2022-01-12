@@ -14,16 +14,16 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 537 |
-| DOMAIN | 6 |
-| DOMAIN-SUFFIX | 2 |
+| mitm | 551 |
 | URL-REGEX | 7 |
+| DOMAIN | 6 |
 | IP-CIDR | 1 |
 | IP-CIDR6 | 1 |
+| DOMAIN-SUFFIX | 2 |
 | USER-AGENT | 1 |
-| reject | 712 |
-| http-response | 32 |
-| http-request | 1 |
+| reject | 735 |
+| http-response | 33 |
+| http-request | 3 |
 | redirect | 49 |
 ## 配置说明
 
@@ -56,6 +56,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 如果你正在使用这些复写规则，建议不要与本项目的AllInOne复写规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/Advertising.sgmodule
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/General.sgmodule
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Shortcuts/reject.txt
@@ -65,6 +66,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 - https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/RewriteRules.sgmodule
 - https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Loon/Advertising.conf
+- https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/Advertising.plugin
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.lnplugin
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.sgmodule

@@ -15,17 +15,17 @@ Global分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需
 
 ## 规则统计
 
-总计规则：33602 条。
+总计规则：26789 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 50 |
-| DOMAIN-SUFFIX | 33459 |
-| USER-AGENT | 48 |
-| DOMAIN-KEYWORD | 41 |
-| IP-CIDR | 3 |
+| DOMAIN-SUFFIX | 26581 |
+| USER-AGENT | 49 |
+| DOMAIN | 28 |
+| IP-CIDR | 129 |
+| DOMAIN-KEYWORD | 1 |
 | URL-REGEX | 1 |
 ## 配置说明
 
@@ -68,6 +68,8 @@ Global_Domain.list 请使用DOMAIN-SET。
 
 当前分流规则，已排除以下规则：
 
+- AdvertisingLite
+
 - China
 
 ## 数据来源
@@ -85,9 +87,10 @@ Global_Domain.list 请使用DOMAIN-SET。
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt
-- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Proxy/Proxy.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list

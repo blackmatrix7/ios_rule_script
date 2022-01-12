@@ -17,9 +17,9 @@
 | 类型 | 数量(条) |
 | ---- | ---- |
 | USER-AGENT | 3 |
-| DOMAIN-SUFFIX | 46 |
-| DOMAIN | 43 |
-| IP-CIDR | 16 |
+| DOMAIN-SUFFIX | 50 |
+| DOMAIN | 48 |
+| IP-CIDR | 7 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。

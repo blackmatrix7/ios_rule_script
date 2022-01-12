@@ -16,8 +16,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 543 |
-| DOMAIN-KEYWORD | 1 |
+| DOMAIN-SUFFIX | 544 |
 | IP-CIDR | 33 |
 ## 配置说明
 

@@ -14,8 +14,9 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 4 |
-| redirect | 52 |
+| mitm | 5 |
+| DOMAIN | 15 |
+| redirect | 58 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -46,6 +47,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 
 如果你正在使用这些复写规则，建议不要与本项目的重定向复写规则混合使用，以免造成规则重复。
 
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/General.sgmodule
 
 

@@ -10,17 +10,16 @@
 
 ## 规则统计
 
-总计规则：33562 条。
+总计规则：26678 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 46 |
-| DOMAIN-SUFFIX | 33473 |
-| USER-AGENT | 11 |
-| DOMAIN-KEYWORD | 29 |
-| IP-CIDR | 3 |
+| DOMAIN-SUFFIX | 26573 |
+| USER-AGENT | 12 |
+| DOMAIN | 5 |
+| IP-CIDR | 88 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -59,7 +58,7 @@ Proxy_Domain.list 请使用DOMAIN-SET。
 
 当前分流规则，已排除以下规则：
 
-- China
+- Advertising
 
 ## 数据来源
 
@@ -71,9 +70,10 @@ Proxy_Domain.list 请使用DOMAIN-SET。
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt
-- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Proxy/Proxy.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list

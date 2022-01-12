@@ -1,11 +1,12 @@
 # NAME: PayPal
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-07-23 09:41:08
+# UPDATED: 2021-12-29 02:11:32
+# HOST: 1
 # USER-AGENT: 1
-# HOST-SUFFIX: 246
-# HOST-KEYWORD: 1
-# TOTAL: 248
+# HOST-SUFFIX: 245
+# TOTAL: 247
+HOST,www.paypal-mktg.com,PayPal
 HOST-SUFFIX,account-paypal.info,PayPal
 HOST-SUFFIX,account-paypal.net,PayPal
 HOST-SUFFIX,account-paypal.org,PayPal
@@ -251,6 +252,4 @@ HOST-SUFFIX,xoom.io,PayPal
 HOST-SUFFIX,xoom.net.cn,PayPal
 HOST-SUFFIX,xoom.us,PayPal
 HOST-SUFFIX,xoomcom.com,PayPal
-HOST-SUFFIX,易付通.cn,PayPal
-HOST-KEYWORD,paypal,PayPal
 USER-AGENT,PayPal*,PayPal

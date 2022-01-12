@@ -1,13 +1,12 @@
 # NAME: ChinaMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-07-26 02:06:26
+# UPDATED: 2022-01-01 02:11:09
 # USER-AGENT: 29
-# DOMAIN-SUFFIX: 165
-# DOMAIN: 51
-# IP-CIDR: 35
-# DOMAIN-KEYWORD: 2
-# TOTAL: 282
+# DOMAIN-SUFFIX: 163
+# DOMAIN: 52
+# IP-CIDR: 26
+# TOTAL: 270
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com
@@ -22,8 +21,11 @@ DOMAIN,112-81-125-43.dhost.00cdn.com
 DOMAIN,113-219-145-1.ksyungslb.com
 DOMAIN,114-236-92-129.ksyungslb.com
 DOMAIN,180-101-74-1.ksyungslb.com
+DOMAIN,1geadrmttge3nhcjwgazdope.ourdvsss.com
+DOMAIN,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com
 DOMAIN,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com
 DOMAIN,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com
+DOMAIN,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com
 DOMAIN,1gr4uqmtt8y41hcjigazdqca.ourdvsss.com
 DOMAIN,1gr4uqmtt8y41hcjigazdqce.ourdvsss.com
 DOMAIN,1gr4uqmtt8y41hcjigazdqco.ourdvsss.com
@@ -40,6 +42,8 @@ DOMAIN,1gr5dgmttgha1hcj3gczdcpa.ourdvsss.com
 DOMAIN,1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com
 DOMAIN,1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com
 DOMAIN,1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com
+DOMAIN,1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com
+DOMAIN,1graukmttga4nhcjtgozdgce.ourdvsss.com
 DOMAIN,218-91-225-1.ksyungslb.com
 DOMAIN,219-155-150-1.ksyungslb.com
 DOMAIN,222-188-6-1.ksyungslb.com
@@ -52,14 +56,9 @@ DOMAIN,3geauymtsgrzdrcbzfahue.ourdvsss.com
 DOMAIN,3geauymtsgrzdrcbzfahuk.ourdvsss.com
 DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com
 DOMAIN,api.iplay.163.com
-DOMAIN,apm.music.163.com
-DOMAIN,apm3.music.163.com
 DOMAIN,aqqmusic.tc.qq.com
-DOMAIN,interface.music.163.com
-DOMAIN,interface3.music.163.com
 DOMAIN,mam.netease.com
 DOMAIN,moo.qq.com
-DOMAIN-SUFFIX,*music.qq.com
 DOMAIN-SUFFIX,1.letvlive.com
 DOMAIN-SUFFIX,2.letvlive.com
 DOMAIN-SUFFIX,56.com
@@ -98,6 +97,11 @@ DOMAIN-SUFFIX,bilibiligame.cn
 DOMAIN-SUFFIX,bilibiligame.net
 DOMAIN-SUFFIX,bilibilipay.cn
 DOMAIN-SUFFIX,bilibilipay.com
+DOMAIN-SUFFIX,bilicdn1.com
+DOMAIN-SUFFIX,bilicdn2.com
+DOMAIN-SUFFIX,bilicdn3.com
+DOMAIN-SUFFIX,bilicdn4.com
+DOMAIN-SUFFIX,bilicdn5.com
 DOMAIN-SUFFIX,biligame.cn
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biligame.net
@@ -189,7 +193,6 @@ DOMAIN-SUFFIX,taihe.com
 DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,tvcc.cn
 DOMAIN-SUFFIX,tvcc.com.cn
-DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
 DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
 DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
 DOMAIN-SUFFIX,v-56.com
@@ -219,13 +222,6 @@ DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
 DOMAIN-SUFFIX,zygbdszt.net.cn
-DOMAIN-SUFFIX,中国广播电视总台.cn
-DOMAIN-SUFFIX,中国广播电视总台.中国
-DOMAIN-SUFFIX,中央广播电视总台.cn
-DOMAIN-SUFFIX,国家广播电视总台.cn
-DOMAIN-SUFFIX,国家广播电视总台.中国
-DOMAIN-KEYWORD,bilibili
-DOMAIN-KEYWORD,qiyi
 IP-CIDR,101.224.0.0/13
 IP-CIDR,101.71.154.241/32
 IP-CIDR,103.126.92.132/31
@@ -237,24 +233,15 @@ IP-CIDR,115.236.118.33/32
 IP-CIDR,115.236.121.1/32
 IP-CIDR,118.24.63.156/32
 IP-CIDR,119.176.0.0/12
-IP-CIDR,119.29.29.29/32
 IP-CIDR,119.3.238.64/32
 IP-CIDR,120.92.108.182/32
 IP-CIDR,120.92.113.99/32
 IP-CIDR,120.92.153.217/32
-IP-CIDR,128.1.62.200/31
 IP-CIDR,134.175.207.130/32
-IP-CIDR,150.116.92.250/32
-IP-CIDR,164.52.76.18/32
 IP-CIDR,193.112.159.225/32
-IP-CIDR,203.107.1.33/32
-IP-CIDR,203.107.1.34/32
-IP-CIDR,203.107.1.65/32
-IP-CIDR,203.107.1.66/32
 IP-CIDR,223.252.199.66/31
 IP-CIDR,39.105.63.80/32
 IP-CIDR,45.254.48.1/32
-IP-CIDR,45.43.32.234/32
 IP-CIDR,47.100.127.239/32
 IP-CIDR,59.111.160.195/32
 IP-CIDR,59.111.160.197/32

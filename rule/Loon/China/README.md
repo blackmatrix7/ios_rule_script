@@ -10,18 +10,18 @@
 
 ## 规则统计
 
-总计规则：691 条。
+总计规则：630 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 626 |
-| USER-AGENT | 32 |
-| DOMAIN | 14 |
-| IP-CIDR | 5 |
-| DOMAIN-KEYWORD | 10 |
+| DOMAIN-SUFFIX | 578 |
+| USER-AGENT | 31 |
+| DOMAIN | 7 |
+| IP-CIDR | 9 |
 | IP-CIDR6 | 4 |
+| DOMAIN-KEYWORD | 1 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -45,6 +45,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 
 当前分流规则，未包含其他子规则。
+
+当前分流规则，已排除以下规则：
+
+- Proxy
 
 ## 数据来源
 

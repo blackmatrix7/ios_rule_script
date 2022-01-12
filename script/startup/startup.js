@@ -90,6 +90,19 @@ let magicJS = MagicJS(scriptName, "INFO");
           magicJS.logError(`联享家开屏去广告出现异常：${err}`);
         }
         break;
+      // 多点
+      case /^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic/.test(magicJS.request.url):
+        try {
+          let obj = JSON.parse(magicJS.response.body);
+          for (let i = 0; i < obj["data"]["welcomePage"].length; i++) {
+            obj["data"]["welcomePage"][i]["onlineTime"] = 1915027200000;
+            obj["data"]["welcomePage"][i]["offlineTime"] = 1924272000000;
+          }
+          response = { body: JSON.stringify(obj) };
+        } catch (err) {
+          magicJS.logError(`多点开屏广告处理出现异常：${err}`);
+        }
+        break;
       default:
         magicJS.logWarning("触发意外的请求处理，请确认脚本或复写配置正常。");
         break;

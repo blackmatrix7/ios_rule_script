@@ -16,8 +16,7 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST-SUFFIX | 543 |
-| HOST-KEYWORD | 1 |
+| HOST-SUFFIX | 544 |
 | IP-CIDR | 33 |
 ## 配置说明
 

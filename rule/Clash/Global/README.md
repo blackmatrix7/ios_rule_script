@@ -10,18 +10,18 @@
 
 ## 规则统计
 
-总计规则：33682 条。
+总计规则：26744 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 50 |
-| DOMAIN-SUFFIX | 33459 |
-| DOMAIN-KEYWORD | 41 |
-| IP-CIDR | 128 |
-| IP-CIDR6 | 3 |
+| DOMAIN-SUFFIX | 26581 |
+| DOMAIN | 28 |
+| IP-CIDR | 129 |
+| IP-CIDR6 | 4 |
 | PROCESS-NAME | 1 |
+| DOMAIN-KEYWORD | 1 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -71,6 +71,8 @@ Global_Classical.yaml 可以单独使用，其他规则必须同时使用。
 
 当前分流规则，已排除以下规则：
 
+- AdvertisingLite
+
 - China
 
 ## 数据来源
@@ -88,9 +90,10 @@ Global_Classical.yaml 可以单独使用，其他规则必须同时使用。
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt
-- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Proxy/Proxy.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list

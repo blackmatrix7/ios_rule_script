@@ -1,12 +1,13 @@
 # NAME: Amazon
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-10 02:06:36
-# USER-AGENT: 2
-# DOMAIN-SUFFIX: 172
+# UPDATED: 2021-12-27 02:10:30
+# DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
+# DOMAIN-SUFFIX: 176
 # IP-CIDR: 15
-# DOMAIN-KEYWORD: 1
-# TOTAL: 190
+# URL-REGEX: 1
+# USER-AGENT: 2
+# TOTAL: 194
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,aboutamazon.cn
 DOMAIN-SUFFIX,aboutamazon.co.uk
@@ -59,6 +60,7 @@ DOMAIN-SUFFIX,amazonauthorinsights.com
 DOMAIN-SUFFIX,amazonaws-china.com
 DOMAIN-SUFFIX,amazonaws.co.uk
 DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,amazonaws.com.cn
 DOMAIN-SUFFIX,amazonaws.tv
 DOMAIN-SUFFIX,amazonbusiness.cn
 DOMAIN-SUFFIX,amazonbusiness.com.cn
@@ -110,6 +112,7 @@ DOMAIN-SUFFIX,aws-iot-hackathon.com
 DOMAIN-SUFFIX,awsautopilot.com
 DOMAIN-SUFFIX,awsautoscaling.com
 DOMAIN-SUFFIX,awsbraket.com
+DOMAIN-SUFFIX,awscloud.com
 DOMAIN-SUFFIX,awscommandlineinterface.com
 DOMAIN-SUFFIX,awsedstart.com
 DOMAIN-SUFFIX,awseducate.com
@@ -120,6 +123,7 @@ DOMAIN-SUFFIX,awsloft-stockholm.com
 DOMAIN-SUFFIX,awssecworkshops.com
 DOMAIN-SUFFIX,awsstatic.com
 DOMAIN-SUFFIX,awsthinkbox.com
+DOMAIN-SUFFIX,awstrack.me
 DOMAIN-SUFFIX,awstrust.com
 DOMAIN-SUFFIX,boxofficemojo.com
 DOMAIN-SUFFIX,cdkworkshop.com
@@ -165,6 +169,7 @@ DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,primevideo.info
 DOMAIN-SUFFIX,primevideo.org
 DOMAIN-SUFFIX,primevideo.tv
+DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,siege-amazon.com
 DOMAIN-SUFFIX,ssl-images-amazon.com
 DOMAIN-SUFFIX,thinkboxsoftware.com
@@ -179,9 +184,9 @@ DOMAIN-SUFFIX,wholeplanetfoundation.org
 DOMAIN-SUFFIX,yamaxun.cn
 DOMAIN-SUFFIX,yamaxun.com
 DOMAIN-SUFFIX,z.cn
-DOMAIN-KEYWORD,avoddashs
 USER-AGENT,InstantVideo.US*
 USER-AGENT,Prime%20Video*
+URL-REGEX,"^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/"
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,18.184.0.0/15,no-resolve

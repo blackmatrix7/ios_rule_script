@@ -1,0 +1,5 @@
+# 嘀嗒出行每日自动签到
+
+^https?:\/\/www\.didapinche\.com\/hapis\/api\/t\/Jifen\/.*\?userCid=.* url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/obsolete/didachuxing/didachuxing_plus.js
+
+hostname = www.didapinche.com

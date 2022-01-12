@@ -10,14 +10,14 @@
 
 ## 规则统计
 
-总计规则：25 条。
+总计规则：34 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 15 |
-| IP-CIDR | 6 |
+| DOMAIN-SUFFIX | 16 |
+| IP-CIDR | 14 |
 | IP-CIDR6 | 3 |
 | DOMAIN | 1 |
 ## 配置说明
@@ -52,6 +52,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt
+- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt
 
 
 感谢以上复写规则作者的辛勤付出（排名不分先后）。

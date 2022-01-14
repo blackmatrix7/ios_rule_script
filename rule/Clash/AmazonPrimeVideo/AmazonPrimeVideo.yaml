@@ -1,11 +1,12 @@
 # NAME: AmazonPrimeVideo
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:46
+# UPDATED: 2022-01-18 23:33:35
 # PROCESS-NAME: 1
 # DOMAIN-SUFFIX: 18
 # DOMAIN: 5
-# TOTAL: 24
+# DOMAIN-KEYWORD: 1
+# TOTAL: 25
 payload:
   - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
   - DOMAIN,d22qjgkvxw22r6.cloudfront.net
@@ -30,4 +31,5 @@ payload:
   - DOMAIN-SUFFIX,primevideo.info
   - DOMAIN-SUFFIX,primevideo.org
   - DOMAIN-SUFFIX,primevideo.tv
+  - DOMAIN-KEYWORD,avoddashs
   - PROCESS-NAME,com.amazon.avod.thirdpartyclient

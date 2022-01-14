@@ -10,17 +10,17 @@
 
 ## 规则统计
 
-总计规则：599 条。
+总计规则：584 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 578 |
-| DOMAIN | 7 |
-| IP-CIDR | 9 |
+| DOMAIN-SUFFIX | 548 |
+| DOMAIN | 15 |
+| IP-CIDR | 7 |
+| DOMAIN-KEYWORD | 10 |
 | IP-CIDR6 | 4 |
-| DOMAIN-KEYWORD | 1 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -48,6 +48,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 当前分流规则，已排除以下规则：
 
 - Proxy
+
+- Steam
+
+- SteamCN
 
 ## 数据来源
 

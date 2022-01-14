@@ -1,21 +1,21 @@
 # NAME: OneDrive
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:41
-# HOST-SUFFIX: 12
+# UPDATED: 2022-01-18 23:33:30
+# HOST-SUFFIX: 8
 # USER-AGENT: 2
-# TOTAL: 14
-HOST-SUFFIX,1drv.com,OneDrive
+# HOST-KEYWORD: 3
+# TOTAL: 13
 HOST-SUFFIX,livefilestore.com,OneDrive
 HOST-SUFFIX,oneclient.sfx.ms,OneDrive
-HOST-SUFFIX,onedrive.com,OneDrive
-HOST-SUFFIX,onedrive.live.com,OneDrive
 HOST-SUFFIX,photos.live.com,OneDrive
 HOST-SUFFIX,sharepoint.com,OneDrive
 HOST-SUFFIX,sharepointonline.com,OneDrive
-HOST-SUFFIX,skydrive.wns.windows.com,OneDrive
 HOST-SUFFIX,spoprod-a.akamaihd.net,OneDrive
 HOST-SUFFIX,storage.live.com,OneDrive
 HOST-SUFFIX,storage.msn.com,OneDrive
+HOST-KEYWORD,1drv,OneDrive
+HOST-KEYWORD,onedrive,OneDrive
+HOST-KEYWORD,skydrive,OneDrive
 USER-AGENT,OneDrive*,OneDrive
 USER-AGENT,OneDriveiOSApp*,OneDrive

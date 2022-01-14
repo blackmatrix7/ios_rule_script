@@ -1,11 +1,11 @@
 # NAME: Hijacking
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:44
-# DOMAIN-SUFFIX: 184
+# UPDATED: 2022-02-20 02:10:56
+# DOMAIN-SUFFIX: 185
 # IP-CIDR: 42
 # DOMAIN: 1
-# TOTAL: 227
+# TOTAL: 228
 payload:
   - DOMAIN,geo2.adobe.com
   - DOMAIN-SUFFIX,17gouwuba.com
@@ -130,6 +130,7 @@ payload:
   - DOMAIN-SUFFIX,nicelabel.cc
   - DOMAIN-SUFFIX,ntfsformac.cc
   - DOMAIN-SUFFIX,ntfsformac.cn
+  - DOMAIN-SUFFIX,officesoftcn.com
   - DOMAIN-SUFFIX,overturechina.com
   - DOMAIN-SUFFIX,passwordrecovery.cn
   - DOMAIN-SUFFIX,pdfexpert.cc

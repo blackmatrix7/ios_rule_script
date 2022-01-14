@@ -10,16 +10,17 @@
 
 ## 规则统计
 
-总计规则：86 条。
+总计规则：943 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-SUFFIX | 25 |
+| IP-CIDR | 909 |
 | USER-AGENT | 1 |
-| IP-CIDR | 57 |
-| DOMAIN-KEYWORD | 3 |
+| DOMAIN-KEYWORD | 6 |
+| DOMAIN | 2 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -55,6 +56,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netflix.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list
+- https://raw.githubusercontent.com/QiuSimons/Netflix_IP/master/getflix.txt
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Netflix.list
 
 

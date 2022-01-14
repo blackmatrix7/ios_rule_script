@@ -10,18 +10,18 @@
 
 ## 规则统计
 
-总计规则：630 条。
+总计规则：615 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST-SUFFIX | 578 |
+| HOST-SUFFIX | 548 |
+| HOST | 15 |
+| IP-CIDR | 7 |
+| HOST-KEYWORD | 10 |
 | USER-AGENT | 31 |
-| HOST | 7 |
-| IP-CIDR | 9 |
 | IP6-CIDR | 4 |
-| HOST-KEYWORD | 1 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -49,6 +49,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 当前分流规则，已排除以下规则：
 
 - Proxy
+
+- Steam
+
+- SteamCN
 
 ## 数据来源
 

@@ -1,14 +1,49 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-13 02:19:46
-# DOMAIN-SUFFIX: 26573
-# DOMAIN: 5
-# IP-CIDR: 88
+# UPDATED: 2022-03-15 02:13:02
+# DOMAIN-SUFFIX: 25417
+# DOMAIN: 8
+# DOMAIN-KEYWORD: 32
+# IP-CIDR: 92
 # IP-CIDR6: 3
-# TOTAL: 26669
+# TOTAL: 25552
 payload:
+  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-KEYWORD,1e100
+  - DOMAIN-KEYWORD,abema
+  - DOMAIN-KEYWORD,appledaily
+  - DOMAIN-KEYWORD,avtb
+  - DOMAIN-KEYWORD,beetalk
+  - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-KEYWORD,dlercloud
+  - DOMAIN-KEYWORD,dropbox
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,fbcdn
+  - DOMAIN-KEYWORD,github
+  - DOMAIN-KEYWORD,gmail
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,instagram
+  - DOMAIN-KEYWORD,musical.ly
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,paypal
+  - DOMAIN-KEYWORD,porn
+  - DOMAIN-KEYWORD,sci-hub
+  - DOMAIN-KEYWORD,skydrive
+  - DOMAIN-KEYWORD,spotify
+  - DOMAIN-KEYWORD,telegram
+  - DOMAIN-KEYWORD,tesla
+  - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,tiktokcdn-
+  - DOMAIN-KEYWORD,tiktokv
+  - DOMAIN-KEYWORD,ttvnw
+  - DOMAIN-KEYWORD,twitter
+  - DOMAIN-KEYWORD,uk-live
+  - DOMAIN-KEYWORD,whatsapp
+  - DOMAIN-KEYWORD,youtube
   - IP-CIDR,1.201.0.0/24,no-resolve
+  - IP-CIDR,101.32.118.0/23,no-resolve
+  - IP-CIDR,101.32.96.0/20,no-resolve
   - IP-CIDR,103.2.28.0/22,no-resolve
   - IP-CIDR,103.246.56.0/22,no-resolve
   - IP-CIDR,103.27.148.0/22,no-resolve
@@ -32,6 +67,7 @@ payload:
   - IP-CIDR,125.6.149.0/24,no-resolve
   - IP-CIDR,125.6.190.0/24,no-resolve
   - IP-CIDR,129.134.0.0/17,no-resolve
+  - IP-CIDR,129.226.0.0/16,no-resolve
   - IP-CIDR,13.251.24.0/24,no-resolve
   - IP-CIDR,13.251.41.0/24,no-resolve
   - IP-CIDR,13.32.0.0/15,no-resolve
@@ -57,6 +93,7 @@ payload:
   - IP-CIDR,180.163.150.34/32,no-resolve
   - IP-CIDR,180.163.151.162/32,no-resolve
   - IP-CIDR,180.163.151.34/32,no-resolve
+  - IP-CIDR,183.131.48.0/20,no-resolve
   - IP-CIDR,184.173.128.0/17,no-resolve
   - IP-CIDR,185.60.216.0/22,no-resolve
   - IP-CIDR,203.104.103.0/24,no-resolve

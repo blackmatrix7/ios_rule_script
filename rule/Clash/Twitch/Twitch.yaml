@@ -1,16 +1,17 @@
 # NAME: Twitch
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:49
+# UPDATED: 2022-01-22 02:10:59
 # PROCESS-NAME: 1
-# DOMAIN-SUFFIX: 6
+# DOMAIN-SUFFIX: 7
 # IP-CIDR: 11
 # IP-CIDR6: 1
-# TOTAL: 19
+# TOTAL: 20
 payload:
   - DOMAIN-SUFFIX,ext-twitch.tv
   - DOMAIN-SUFFIX,jtvnw.net
   - DOMAIN-SUFFIX,ttvnw.net
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,twitchcdn.net
   - DOMAIN-SUFFIX,twitchsvc.net

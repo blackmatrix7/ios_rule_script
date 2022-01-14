@@ -1,9 +1,10 @@
 # NAME: DAZN
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:51
+# UPDATED: 2022-01-18 23:33:41
 # USER-AGENT: 1
-# DOMAIN-SUFFIX: 17
+# DOMAIN-SUFFIX: 16
+# DOMAIN-KEYWORD: 1
 # TOTAL: 18
 DOMAIN-SUFFIX,control.kochava.com
 DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net
@@ -13,7 +14,6 @@ DOMAIN-SUFFIX,dazn.com
 DOMAIN-SUFFIX,dazndn.com
 DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net
 DOMAIN-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net
-DOMAIN-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net
 DOMAIN-SUFFIX,dcalivedazn.akamaized.net
 DOMAIN-SUFFIX,dcblivedazn.akamaized.net
 DOMAIN-SUFFIX,indazn.com
@@ -22,4 +22,5 @@ DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,logx.optimizely.com
 DOMAIN-SUFFIX,s.yimg.jp
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-KEYWORD,voddazn
 USER-AGENT,DAZN*

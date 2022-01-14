@@ -1,13 +1,13 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-27 02:10:29
-# HOST: 44
+# UPDATED: 2022-03-03 02:13:31
+# HOST: 42
 # USER-AGENT: 65
-# HOST-SUFFIX: 211
-# HOST-KEYWORD: 4
+# HOST-SUFFIX: 225
+# HOST-KEYWORD: 26
 # IP-CIDR: 863
-# TOTAL: 1187
+# TOTAL: 1221
 HOST,api.okzy.tv,GlobalMedia
 HOST,apm-misaka.biliapi.net,GlobalMedia
 HOST,apple.comscoreresearch.com,GlobalMedia
@@ -34,7 +34,6 @@ HOST,intl.iqiyi.com,GlobalMedia
 HOST,itvpnpmobile-a.akamaihd.net,GlobalMedia
 HOST,kktv-theater.kk.stream,GlobalMedia
 HOST,ktpx.amazon.com,GlobalMedia
-HOST,mobileso.bz.mgtv.com,GlobalMedia
 HOST,mytvsuperlimited.hb.omtrdc.net,GlobalMedia
 HOST,mytvsuperlimited.sc.omtrdc.net,GlobalMedia
 HOST,netflix.com.edgesuite.net,GlobalMedia
@@ -45,7 +44,6 @@ HOST,np-edge.itunes.apple.com,GlobalMedia
 HOST,p.bstarstatic.com,GlobalMedia
 HOST,play-edge.itunes.apple.com,GlobalMedia
 HOST,players.brightcove.net,GlobalMedia
-HOST,radio.itunes.apple.com,GlobalMedia
 HOST,rpg.pic-imges.com,GlobalMedia
 HOST,tv.applemusic.com,GlobalMedia
 HOST,uts-api.itunes.apple.com,GlobalMedia
@@ -55,15 +53,16 @@ HOST,yt3.ggpht.com,GlobalMedia
 HOST-SUFFIX,5itv.tv,GlobalMedia
 HOST-SUFFIX,abema.io,GlobalMedia
 HOST-SUFFIX,abema.tv,GlobalMedia
+HOST-SUFFIX,aboutamazon.com,GlobalMedia
 HOST-SUFFIX,adobedtm.com,GlobalMedia
 HOST-SUFFIX,aiv-cdn.net,GlobalMedia
 HOST-SUFFIX,aiv-delivery.net,GlobalMedia
 HOST-SUFFIX,akamaized.net,GlobalMedia
+HOST-SUFFIX,amazon.jobs,GlobalMedia
 HOST-SUFFIX,amazonaws.co.uk,GlobalMedia
 HOST-SUFFIX,amazonaws.com,GlobalMedia
 HOST-SUFFIX,amazonvideo.com,GlobalMedia
 HOST-SUFFIX,ameba.jp,GlobalMedia
-HOST-SUFFIX,api.mgtv.com,GlobalMedia
 HOST-SUFFIX,api.segment.io,GlobalMedia
 HOST-SUFFIX,apple.news,GlobalMedia
 HOST-SUFFIX,bahamut.com.tw,GlobalMedia
@@ -91,6 +90,7 @@ HOST-SUFFIX,channel4.com,GlobalMedia
 HOST-SUFFIX,channel5.com,GlobalMedia
 HOST-SUFFIX,cloudfront.net,GlobalMedia
 HOST-SUFFIX,conviva.com,GlobalMedia
+HOST-SUFFIX,curiositystream.com,GlobalMedia
 HOST-SUFFIX,d9.flashtalking.com,GlobalMedia
 HOST-SUFFIX,dazn-api.com,GlobalMedia
 HOST-SUFFIX,dazn.com,GlobalMedia
@@ -118,6 +118,7 @@ HOST-SUFFIX,edgedatg.com,GlobalMedia
 HOST-SUFFIX,emarsys.net,GlobalMedia
 HOST-SUFFIX,emome.net,GlobalMedia
 HOST-SUFFIX,encoretvb.com,GlobalMedia
+HOST-SUFFIX,ext-twitch.tv,GlobalMedia
 HOST-SUFFIX,fast.com,GlobalMedia
 HOST-SUFFIX,firebaseio.com,GlobalMedia
 HOST-SUFFIX,fox.com,GlobalMedia
@@ -185,6 +186,7 @@ HOST-SUFFIX,musical.ly,GlobalMedia
 HOST-SUFFIX,my5.tv,GlobalMedia
 HOST-SUFFIX,mytvsuper.com,GlobalMedia
 HOST-SUFFIX,naver.com,GlobalMedia
+HOST-SUFFIX,nebula.app,GlobalMedia
 HOST-SUFFIX,netflix.com,GlobalMedia
 HOST-SUFFIX,netflix.net,GlobalMedia
 HOST-SUFFIX,netflixdnstest0.com,GlobalMedia
@@ -235,6 +237,7 @@ HOST-SUFFIX,sndcdn.com,GlobalMedia
 HOST-SUFFIX,socdm.com,GlobalMedia
 HOST-SUFFIX,soundcloud.com,GlobalMedia
 HOST-SUFFIX,spoti.fi,GlobalMedia
+HOST-SUFFIX,spotify.com,GlobalMedia
 HOST-SUFFIX,spotifycdn.com,GlobalMedia
 HOST-SUFFIX,spotifycdn.net,GlobalMedia
 HOST-SUFFIX,streaks.jp,GlobalMedia
@@ -250,23 +253,54 @@ HOST-SUFFIX,ttvnw.net,GlobalMedia
 HOST-SUFFIX,tv.apple.com,GlobalMedia
 HOST-SUFFIX,tvb.com,GlobalMedia
 HOST-SUFFIX,tver.jp,GlobalMedia
+HOST-SUFFIX,twitch-ext.rootonline.de,GlobalMedia
 HOST-SUFFIX,twitch.tv,GlobalMedia
 HOST-SUFFIX,twitchcdn.net,GlobalMedia
 HOST-SUFFIX,uplynk.com,GlobalMedia
 HOST-SUFFIX,urlload.net,GlobalMedia
 HOST-SUFFIX,viu.com,GlobalMedia
 HOST-SUFFIX,viu.tv,GlobalMedia
+HOST-SUFFIX,watchnebula.com,GlobalMedia
 HOST-SUFFIX,wetv.vip,GlobalMedia
 HOST-SUFFIX,wetvinfo.com,GlobalMedia
+HOST-SUFFIX,withyoutube.com,GlobalMedia
 HOST-SUFFIX,yb.uncn.jp,GlobalMedia
 HOST-SUFFIX,youboranqs01.com,GlobalMedia
 HOST-SUFFIX,youtu.be,GlobalMedia
+HOST-SUFFIX,youtube-nocookie.com,GlobalMedia
 HOST-SUFFIX,youtube.com,GlobalMedia
+HOST-SUFFIX,youtubeeducation.com,GlobalMedia
+HOST-SUFFIX,youtubegaming.com,GlobalMedia
+HOST-SUFFIX,youtubekids.com,GlobalMedia
+HOST-SUFFIX,yt.be,GlobalMedia
 HOST-SUFFIX,ytimg.com,GlobalMedia
+HOST-SUFFIX,zype.com,GlobalMedia
+HOST-KEYWORD,-spotify-com,GlobalMedia
+HOST-KEYWORD,-tiktokcdn-com,GlobalMedia
+HOST-KEYWORD,.hbogoasia.,GlobalMedia
 HOST-KEYWORD,abematv.akamaized.net,GlobalMedia
+HOST-KEYWORD,apiproxy-device-prod-nlb-,GlobalMedia
+HOST-KEYWORD,avoddashs,GlobalMedia
+HOST-KEYWORD,bbcfmt,GlobalMedia
+HOST-KEYWORD,discovery.uplynk.com,GlobalMedia
 HOST-KEYWORD,dualstack.apiproxy-,GlobalMedia
 HOST-KEYWORD,dualstack.ichnaea-web-,GlobalMedia
+HOST-KEYWORD,foxplus,GlobalMedia
+HOST-KEYWORD,hbogoasia,GlobalMedia
+HOST-KEYWORD,japonx,GlobalMedia
+HOST-KEYWORD,japronx,GlobalMedia
+HOST-KEYWORD,jooxweb-api,GlobalMedia
+HOST-KEYWORD,netflix,GlobalMedia
+HOST-KEYWORD,netflixdnstest,GlobalMedia
+HOST-KEYWORD,nflx,GlobalMedia
+HOST-KEYWORD,nowtv100,GlobalMedia
+HOST-KEYWORD,rthklive,GlobalMedia
 HOST-KEYWORD,spotify.com,GlobalMedia
+HOST-KEYWORD,tiktokcdn-,GlobalMedia
+HOST-KEYWORD,ttvnw,GlobalMedia
+HOST-KEYWORD,uk-live,GlobalMedia
+HOST-KEYWORD,voddazn,GlobalMedia
+HOST-KEYWORD,youtube,GlobalMedia
 USER-AGENT,*PCCW*,GlobalMedia
 USER-AGENT,*Spotify*,GlobalMedia
 USER-AGENT,*YouTubeMusic*,GlobalMedia

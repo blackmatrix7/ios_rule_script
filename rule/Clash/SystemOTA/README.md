@@ -10,14 +10,14 @@
 
 ## 规则统计
 
-总计规则：31 条。
+总计规则：78 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-SUFFIX | 13 |
-| DOMAIN | 18 |
+| DOMAIN | 65 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -51,6 +51,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/BlockiOSUpdate.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/SoftwareUpdate.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/BlockiOSUpdate.list
+- https://raw.githubusercontent.com/LuzMasonj/Quantumult/master/QuantumultX/Filter/BlockiOSServices.conf
 - https://raw.githubusercontent.com/an0na/R/master/Filter/IOS_OTA.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/SystemOTA/SystemOTA.list
 

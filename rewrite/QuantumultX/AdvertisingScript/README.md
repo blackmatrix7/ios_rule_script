@@ -8,15 +8,15 @@
 
 请通过我国(中华人民共和国)合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 ## 规则说明
-整合知乎、BiliBili、什么值得买三个APP去广告，及脚本去除开屏广告复写。
+整合知乎、 什么值得买等APP去广告，及脚本去除开屏广告复写。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 27 |
-| reject | 22 |
-| script-response-body | 33 |
+| mitm | 23 |
+| reject | 17 |
+| script-response-body | 27 |
 | script-request-body | 1 |
 ## 配置说明
 
@@ -48,7 +48,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Q
 
 如果你正在使用这些复写规则，建议不要与本项目的脚本去广告复写规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.lnplugin
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.lnplugin

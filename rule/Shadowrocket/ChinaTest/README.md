@@ -10,17 +10,17 @@
 
 ## 规则统计
 
-总计规则：68923 条。
+总计规则：68159 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 68800 |
+| DOMAIN-SUFFIX | 68025 |
+| DOMAIN | 86 |
+| IP-CIDR | 7 |
+| DOMAIN-KEYWORD | 10 |
 | USER-AGENT | 31 |
-| DOMAIN | 82 |
-| IP-CIDR | 9 |
-| DOMAIN-KEYWORD | 1 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -59,6 +59,12 @@ ChinaTest_Domain.list 请使用DOMAIN-SET。
 - China
 
 除非特殊需求，否则不建议重复引用。
+
+当前分流规则，已排除以下规则：
+
+- Steam
+
+- SteamCN
 
 ## 数据来源
 

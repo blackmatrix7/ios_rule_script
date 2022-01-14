@@ -1,12 +1,12 @@
 # NAME: BiliBili
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-01 02:11:07
-# DOMAIN-SUFFIX: 50
+# UPDATED: 2022-02-05 02:09:50
+# DOMAIN-SUFFIX: 51
 # PROCESS-NAME: 2
 # DOMAIN: 48
 # IP-CIDR: 7
-# TOTAL: 107
+# TOTAL: 108
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
@@ -86,6 +86,7 @@ payload:
   - DOMAIN-SUFFIX,biligame.com
   - DOMAIN-SUFFIX,biligame.net
   - DOMAIN-SUFFIX,biligo.com
+  - DOMAIN-SUFFIX,biliimg.com
   - DOMAIN-SUFFIX,biliintl.com
   - DOMAIN-SUFFIX,biliplus.com
   - DOMAIN-SUFFIX,bilivideo.cn

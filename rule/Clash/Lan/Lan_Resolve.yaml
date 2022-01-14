@@ -1,14 +1,16 @@
 # NAME: Lan
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:49
-# DOMAIN-SUFFIX: 16
+# UPDATED: 2022-03-10 02:13:03
+# DOMAIN-SUFFIX: 17
 # IP-CIDR: 14
 # IP-CIDR6: 3
-# DOMAIN: 1
-# TOTAL: 34
+# DOMAIN: 3
+# TOTAL: 37
 payload:
+  - DOMAIN,instant.arubanetworks.com
   - DOMAIN,router.asus.com
+  - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,hiwifi.com
   - DOMAIN-SUFFIX,home.arpa
@@ -22,6 +24,7 @@ payload:
   - DOMAIN-SUFFIX,p.to
   - DOMAIN-SUFFIX,peiluyou.com
   - DOMAIN-SUFFIX,phicomm.me
+  - DOMAIN-SUFFIX,router.ctc
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,tendawifi.com
   - DOMAIN-SUFFIX,zte.home

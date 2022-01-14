@@ -19,18 +19,18 @@
 
 ## 规则统计
 
-总计规则：84157 条。
+总计规则：84457 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | USER-AGENT | 62 |
-| HOST-SUFFIX | 72410 |
-| HOST | 57 |
-| IP-CIDR | 6182 |
-| IP6-CIDR | 5445 |
-| HOST-KEYWORD | 1 |
+| HOST-SUFFIX | 71656 |
+| HOST | 80 |
+| IP-CIDR | 6170 |
+| HOST-KEYWORD | 14 |
+| IP6-CIDR | 6475 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -475,6 +475,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - AdvertisingMiTV
 
 - AdvertisingTest
+
+- Steam
+
+- SteamCN
 
 ## 数据来源
 

@@ -1,11 +1,12 @@
 # NAME: HBOAsia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-25 02:10:40
+# UPDATED: 2022-01-18 23:33:30
 # HOST: 16
 # USER-AGENT: 1
 # HOST-SUFFIX: 2
-# TOTAL: 19
+# HOST-KEYWORD: 1
+# TOTAL: 20
 HOST,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,HBOAsia
 HOST,bcbolthboa-a.akamaihd.net,HBOAsia
 HOST,cf-images.ap-southeast-1.prod.boltdns.net,HBOAsia
@@ -24,4 +25,5 @@ HOST,s3-ap-southeast-1.amazonaws.com,HBOAsia
 HOST,wmff.warnermediacdn.com,HBOAsia
 HOST-SUFFIX,hbogoasia.com,HBOAsia
 HOST-SUFFIX,hbogoasia.hk,HBOAsia
+HOST-KEYWORD,.hbogoasia.,HBOAsia
 USER-AGENT,HBO%20GO%20PROD*,HBOAsia

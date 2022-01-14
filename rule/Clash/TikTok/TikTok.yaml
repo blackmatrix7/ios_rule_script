@@ -1,12 +1,12 @@
 # NAME: TikTok
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:48
-# DOMAIN-SUFFIX: 12
+# UPDATED: 2022-02-16 02:10:57
+# DOMAIN-SUFFIX: 13
+# DOMAIN-KEYWORD: 5
 # PROCESS-NAME: 1
 # DOMAIN: 1
-# DOMAIN-KEYWORD: 1
-# TOTAL: 15
+# TOTAL: 20
 payload:
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
   - DOMAIN-SUFFIX,amemv.com
@@ -15,11 +15,16 @@ payload:
   - DOMAIN-SUFFIX,ibyteimg.com
   - DOMAIN-SUFFIX,ipstatp.com
   - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,musical.ly
   - DOMAIN-SUFFIX,sgpstatp.com
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,tik-tokapi.com
   - DOMAIN-SUFFIX,tiktok.com
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-KEYWORD,-tiktokcdn-com
   - DOMAIN-KEYWORD,musical.ly
+  - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,tiktokcdn-
+  - DOMAIN-KEYWORD,tiktokv
   - PROCESS-NAME,com.zhiliaoapp.musically

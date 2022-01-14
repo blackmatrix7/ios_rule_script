@@ -35,6 +35,7 @@ http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? requires-body=
 http-response ^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items requires-body=1,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,tag=知乎_热搜去广告
 http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) requires-body=1,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,tag=知乎_热榜去广告
 http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? requires-body=1,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,tag=知乎_评论去广告
+http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config requires-body=1,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,tag=知乎_优化软件配置
 
 [MITM]
 hostname = www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226

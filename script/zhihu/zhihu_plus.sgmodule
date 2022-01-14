@@ -3,7 +3,7 @@
 
 [Rule]
 # 知乎广告拦截
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_remove_ads.list,REJECT-DROP
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_remove_ads.list,REJECT-NO-DROP
 
 [URL Rewrite]
 # 屏蔽知乎下发的配置，如皮肤等

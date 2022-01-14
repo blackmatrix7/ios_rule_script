@@ -10,17 +10,17 @@
 
 ## 规则统计
 
-总计规则：145 条。
+总计规则：104 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 6 |
-| HOST-SUFFIX | 103 |
-| USER-AGENT | 23 |
+| HOST | 3 |
+| HOST-SUFFIX | 77 |
+| HOST-KEYWORD | 7 |
+| USER-AGENT | 7 |
 | IP-CIDR | 10 |
-| HOST-KEYWORD | 3 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -45,8 +45,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 当前分流规则，已包含以下子规则：
 
 - AppStore
-
-- AppleDaily
 
 - AppleMail
 
@@ -107,7 +105,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/iCloud.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/AppleDaily.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt

@@ -1,13 +1,13 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-29 02:11:36
+# UPDATED: 2022-02-19 12:55:43
 # PROCESS-NAME: 5
-# DOMAIN-SUFFIX: 643
-# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 642
+# DOMAIN-KEYWORD: 8
 # IP-CIDR: 4
 # IP-CIDR6: 1
-# TOTAL: 654
+# TOTAL: 660
 payload:
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,1e100.net
@@ -42,7 +42,6 @@ payload:
   - DOMAIN-SUFFIX,appbridge.ca
   - DOMAIN-SUFFIX,appbridge.io
   - DOMAIN-SUFFIX,appbridge.it
-  - DOMAIN-SUFFIX,appmeasurement.com
   - DOMAIN-SUFFIX,appspot.com
   - DOMAIN-SUFFIX,apture.com
   - DOMAIN-SUFFIX,area120.com
@@ -652,6 +651,13 @@ payload:
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,zukunftswerkstatt.de
   - DOMAIN-SUFFIX,zynamics.com
+  - DOMAIN-KEYWORD,appspot
+  - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-KEYWORD,gmail
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,googlesource
+  - DOMAIN-KEYWORD,gstatic
+  - DOMAIN-KEYWORD,recaptcha
   - DOMAIN-KEYWORD,www.google.
   - IP-CIDR,172.110.32.0/21
   - IP-CIDR,173.194.0.0/16

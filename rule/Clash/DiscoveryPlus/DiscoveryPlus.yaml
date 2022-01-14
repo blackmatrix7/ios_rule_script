@@ -1,10 +1,13 @@
 # NAME: DiscoveryPlus
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:48
+# UPDATED: 2022-03-03 02:13:36
 # DOMAIN-SUFFIX: 10
-# TOTAL: 10
+# DOMAIN: 1
+# DOMAIN-KEYWORD: 1
+# TOTAL: 12
 payload:
+  - DOMAIN,x-default-stgec.uplynk.com
   - DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com
   - DOMAIN-SUFFIX,disco-api.com
   - DOMAIN-SUFFIX,discoveryplus.co.uk
@@ -15,3 +18,4 @@ payload:
   - DOMAIN-SUFFIX,getblueshift.com
   - DOMAIN-SUFFIX,litix.io
   - DOMAIN-SUFFIX,mobile-collector.newrelic.com
+  - DOMAIN-KEYWORD,discovery.uplynk.com

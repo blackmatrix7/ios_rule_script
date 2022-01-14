@@ -1,16 +1,18 @@
 # NAME: Direct
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:45
+# UPDATED: 2022-03-01 02:13:28
 # DOMAIN-SUFFIX: 5
-# DOMAIN: 16
-# TOTAL: 21
+# DOMAIN-KEYWORD: 1
+# DOMAIN: 17
+# TOTAL: 23
 payload:
   - DOMAIN,ad.10010.com
   - DOMAIN,analytics.95516.com
   - DOMAIN,analytics.strava.com
   - DOMAIN,app.adjust.com
   - DOMAIN,bdtj.tagtic.cn
+  - DOMAIN,errlog.umeng.com
   - DOMAIN,fairplay.l.qq.com
   - DOMAIN,fonts.gstatic.com
   - DOMAIN,log.mmstat.com
@@ -18,12 +20,13 @@ payload:
   - DOMAIN,msg.umengcloud.com
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN,picanalysis.vivo.com.cn
-  - DOMAIN,pubads.g.doubleclick.net
   - DOMAIN,sycm.mmstat.com
   - DOMAIN,tracking.miui.com
+  - DOMAIN,vi.l.qq.com
   - DOMAIN,xivanalysis.com
   - DOMAIN-SUFFIX,dizhensubao.getui.com
   - DOMAIN-SUFFIX,f.video.weibocdn.com
   - DOMAIN-SUFFIX,fus.cdn.krcom.cn
   - DOMAIN-SUFFIX,ol.epicgames.com
   - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
+  - DOMAIN-KEYWORD,wb_ad

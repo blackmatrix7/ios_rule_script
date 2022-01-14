@@ -1,20 +1,17 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-10 02:10:34
-# DOMAIN: 6
-# DOMAIN-SUFFIX: 103
+# UPDATED: 2022-02-25 14:58:39
+# DOMAIN: 3
+# DOMAIN-SUFFIX: 77
+# DOMAIN-KEYWORD: 7
 # PROCESS-NAME: 6
 # IP-CIDR: 10
-# DOMAIN-KEYWORD: 3
-# TOTAL: 128
+# TOTAL: 103
 payload:
   - DOMAIN,api.smoot.apple.cn
   - DOMAIN,apple-events.akamaized.net
   - DOMAIN,apple.comscoreresearch.com
-  - DOMAIN,mask.appledns.net
-  - DOMAIN,maskapi.fe.appledns.net
-  - DOMAIN,maskt.appledns.net
   - DOMAIN-SUFFIX,aaplimg.com
   - DOMAIN-SUFFIX,akadns.net
   - DOMAIN-SUFFIX,apple-cloudkit.com
@@ -29,35 +26,20 @@ payload:
   - DOMAIN-SUFFIX,apple.com.mwcloudcdn.com
   - DOMAIN-SUFFIX,apple.com.mwcname.com
   - DOMAIN-SUFFIX,apple.news
-  - DOMAIN-SUFFIX,appledaily.com
-  - DOMAIN-SUFFIX,appledaily.com.hk
-  - DOMAIN-SUFFIX,appledaily.com.tw
-  - DOMAIN-SUFFIX,appledaily.hk
   - DOMAIN-SUFFIX,appleicloud.cn
-  - DOMAIN-SUFFIX,appleid.cdnapple.com
+  - DOMAIN-SUFFIX,applemusic.com
   - DOMAIN-SUFFIX,applemx-icloud.com
-  - DOMAIN-SUFFIX,applemxicloud.com
   - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,appstore.com
-  - DOMAIN-SUFFIX,atnext.com
+  - DOMAIN-SUFFIX,apzones.com
   - DOMAIN-SUFFIX,cdn-apple.com
-  - DOMAIN-SUFFIX,cdn.applemapkit.com
-  - DOMAIN-SUFFIX,cdn1.applemapkit.com
-  - DOMAIN-SUFFIX,cdn2.applemapkit.com
-  - DOMAIN-SUFFIX,cdn3.applemapkit.com
-  - DOMAIN-SUFFIX,cdn4.applemapkit.com
-  - DOMAIN-SUFFIX,cdncn1.applemapkit.com
-  - DOMAIN-SUFFIX,cdncn2.applemapkit.com
-  - DOMAIN-SUFFIX,cdncn3.applemapkit.com
-  - DOMAIN-SUFFIX,cdncn4.applemapkit.com
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,digicert.com
-  - DOMAIN-SUFFIX,eracom.com.tw
+  - DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net
   - DOMAIN-SUFFIX,icloud-apple.cn
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,icloud-isupport.com
   - DOMAIN-SUFFIX,icloud-sandbox.com
-  - DOMAIN-SUFFIX,icloud.cdnapple.com
   - DOMAIN-SUFFIX,icloud.ch
   - DOMAIN-SUFFIX,icloud.com
   - DOMAIN-SUFFIX,icloud.com.cn
@@ -83,10 +65,8 @@ payload:
   - DOMAIN-SUFFIX,icloudapple.cn
   - DOMAIN-SUFFIX,icloudbox.net
   - DOMAIN-SUFFIX,icloudbrowser.net
-  - DOMAIN-SUFFIX,icloudcontent.com
   - DOMAIN-SUFFIX,icloude.com
   - DOMAIN-SUFFIX,icloudhome.com
-  - DOMAIN-SUFFIX,icloudisupport.com
   - DOMAIN-SUFFIX,icloudmail.net
   - DOMAIN-SUFFIX,icloudmusic.net
   - DOMAIN-SUFFIX,icloudnet.net
@@ -99,28 +79,23 @@ payload:
   - DOMAIN-SUFFIX,icloudsecure.net
   - DOMAIN-SUFFIX,icloudsetup.com
   - DOMAIN-SUFFIX,ios-icloud.com
-  - DOMAIN-SUFFIX,iosicloud.com
   - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,itunes.com.edgekey.net
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,myicloud.net
   - DOMAIN-SUFFIX,mylcloud.net
   - DOMAIN-SUFFIX,mzstatic.com
-  - DOMAIN-SUFFIX,next.hk
-  - DOMAIN-SUFFIX,nextdigital.com.hk
-  - DOMAIN-SUFFIX,nextmag.com.tw
-  - DOMAIN-SUFFIX,nextmedia.com
-  - DOMAIN-SUFFIX,nextmgz.com
-  - DOMAIN-SUFFIX,nexttv.com.tw
   - DOMAIN-SUFFIX,safebrowsing.apple
-  - DOMAIN-SUFFIX,sharpdaily.tw
-  - DOMAIN-SUFFIX,store.storeimages.cdnapple.com
-  - DOMAIN-SUFFIX,updates.cdnapple.com
-  - DOMAIN-SUFFIX,updateshttp.cdnapple.com
+  - DOMAIN-SUFFIX,store.apple.com.edgekey.net
+  - DOMAIN-SUFFIX,www.apple.com.edgekey.net
   - DOMAIN-SUFFIX,wwwicloud.com
   - DOMAIN-KEYWORD,apple-support.akadns.net
   - DOMAIN-KEYWORD,apple.com.akadns.net
   - DOMAIN-KEYWORD,apple.com.edgekey.net
+  - DOMAIN-KEYWORD,icloud.com.akadns.net
+  - DOMAIN-KEYWORD,icoudo
+  - DOMAIN-KEYWORD,icoudos
+  - DOMAIN-KEYWORD,testflight
   - IP-CIDR,139.178.128.0/18
   - IP-CIDR,144.178.0.0/19
   - IP-CIDR,144.178.36.0/22

@@ -1,12 +1,13 @@
 # NAME: Speedtest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-30 02:10:53
-# DOMAIN-SUFFIX: 3
-# DOMAIN: 1
-# TOTAL: 4
+# UPDATED: 2022-01-25 02:08:32
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 4
+# TOTAL: 5
 payload:
-  - DOMAIN,speed.dler.io
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN-SUFFIX,speed.cloudflare.com
+  - DOMAIN-SUFFIX,speed.dler.io
+  - DOMAIN-KEYWORD,speedtest

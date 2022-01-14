@@ -1,13 +1,13 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-29 02:11:32
+# UPDATED: 2022-02-19 12:55:39
 # USER-AGENT: 3
-# HOST-SUFFIX: 643
-# HOST-KEYWORD: 1
+# HOST-SUFFIX: 642
+# HOST-KEYWORD: 8
 # IP-CIDR: 4
 # IP6-CIDR: 1
-# TOTAL: 652
+# TOTAL: 658
 HOST-SUFFIX,0emm.com,Google
 HOST-SUFFIX,1e100.net,Google
 HOST-SUFFIX,1ucrs.com,Google
@@ -41,7 +41,6 @@ HOST-SUFFIX,app-measurement.net,Google
 HOST-SUFFIX,appbridge.ca,Google
 HOST-SUFFIX,appbridge.io,Google
 HOST-SUFFIX,appbridge.it,Google
-HOST-SUFFIX,appmeasurement.com,Google
 HOST-SUFFIX,appspot.com,Google
 HOST-SUFFIX,apture.com,Google
 HOST-SUFFIX,area120.com,Google
@@ -651,6 +650,13 @@ HOST-SUFFIX,yt.be,Google
 HOST-SUFFIX,ytimg.com,Google
 HOST-SUFFIX,zukunftswerkstatt.de,Google
 HOST-SUFFIX,zynamics.com,Google
+HOST-KEYWORD,appspot,Google
+HOST-KEYWORD,blogspot,Google
+HOST-KEYWORD,gmail,Google
+HOST-KEYWORD,google,Google
+HOST-KEYWORD,googlesource,Google
+HOST-KEYWORD,gstatic,Google
+HOST-KEYWORD,recaptcha,Google
 HOST-KEYWORD,www.google.,Google
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,Google
 USER-AGENT,*com.google.Drive*,Google

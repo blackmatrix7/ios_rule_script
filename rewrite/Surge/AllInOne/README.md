@@ -14,16 +14,16 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 551 |
+| mitm | 546 |
 | force_http_engine_hosts | 12 |
 | DOMAIN | 6 |
-| URL-REGEX | 7 |
-| IP-CIDR | 1 |
 | USER-AGENT | 1 |
-| DOMAIN-SUFFIX | 2 |
+| DOMAIN-SUFFIX | 1 |
 | IP-CIDR6 | 1 |
-| reject | 735 |
-| http-response | 33 |
+| URL-REGEX | 4 |
+| IP-CIDR | 1 |
+| reject | 729 |
+| http-response | 27 |
 | http-request | 3 |
 | redirect | 49 |
 ## 配置说明
@@ -78,7 +78,6 @@ AllInOne_Classical.sgmodule 采用传统的reject方式直接拒绝请求。
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/RewriteRules.sgmodule
 - https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Loon/Advertising.conf
 - https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/Advertising.plugin
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.lnplugin
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.lnplugin

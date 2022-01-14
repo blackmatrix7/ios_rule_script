@@ -15,12 +15,13 @@ Amazon分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需
 
 ## 规则统计
 
-总计规则：195 条。
+总计规则：196 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
+| DOMAIN-KEYWORD | 1 |
 | DOMAIN-SUFFIX | 176 |
 | IP-CIDR | 15 |
 | URL-REGEX | 1 |

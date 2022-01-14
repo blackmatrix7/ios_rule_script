@@ -1,16 +1,15 @@
 # NAME: Whatsapp
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:43
+# UPDATED: 2022-01-18 23:33:33
+# DOMAIN-KEYWORD: 1
 # IP-CIDR: 15
-# DOMAIN-SUFFIX: 4
+# DOMAIN-SUFFIX: 1
 # DOMAIN: 1
-# TOTAL: 20
+# TOTAL: 18
 DOMAIN,graph.facebook.com
 DOMAIN-SUFFIX,bintray.com
-DOMAIN-SUFFIX,whatsapp.biz
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-KEYWORD,whatsapp
 IP-CIDR,108.168.174.0/16,no-resolve
 IP-CIDR,158.85.224.160/27,no-resolve
 IP-CIDR,158.85.46.128/27,no-resolve

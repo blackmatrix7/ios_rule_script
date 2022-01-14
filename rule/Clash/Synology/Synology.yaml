@@ -1,9 +1,10 @@
 # NAME: Synology
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:49
-# DOMAIN-SUFFIX: 17
-# TOTAL: 17
+# UPDATED: 2022-01-18 23:33:38
+# DOMAIN-SUFFIX: 14
+# DOMAIN-KEYWORD: 1
+# TOTAL: 15
 payload:
   - DOMAIN-SUFFIX,diskstation.me
   - DOMAIN-SUFFIX,dscloud.biz
@@ -19,6 +20,4 @@ payload:
   - DOMAIN-SUFFIX,myds.com
   - DOMAIN-SUFFIX,quickconnect.to
   - DOMAIN-SUFFIX,synodns.com
-  - DOMAIN-SUFFIX,synology.cn
-  - DOMAIN-SUFFIX,synology.com
-  - DOMAIN-SUFFIX,synology.me
+  - DOMAIN-KEYWORD,synology

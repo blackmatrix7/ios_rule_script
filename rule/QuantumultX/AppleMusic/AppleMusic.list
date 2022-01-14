@@ -1,17 +1,18 @@
 # NAME: AppleMusic
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:39
+# UPDATED: 2022-02-14 02:10:25
 # USER-AGENT: 1
-# HOST-SUFFIX: 2
+# HOST-SUFFIX: 3
 # HOST: 6
-# TOTAL: 9
+# TOTAL: 10
 HOST,aod-ssl.itunes.apple.com,AppleMusic
 HOST,aod.itunes.apple.com,AppleMusic
 HOST,audio-ssl.itunes.apple.com,AppleMusic
 HOST,audio.itunes.apple.com,AppleMusic
 HOST,mvod.itunes.apple.com,AppleMusic
 HOST,streamingaudio.itunes.apple.com,AppleMusic
+HOST-SUFFIX,applemusic.com,AppleMusic
 HOST-SUFFIX,blobstore.apple.com,AppleMusic
 HOST-SUFFIX,music.apple.com,AppleMusic
 USER-AGENT,Music*,AppleMusic

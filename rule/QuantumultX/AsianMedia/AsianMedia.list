@@ -1,12 +1,13 @@
 # NAME: AsianMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:39
+# UPDATED: 2022-02-11 16:03:15
+# HOST-KEYWORD: 3
 # HOST-SUFFIX: 20
-# HOST: 9
+# HOST: 10
 # USER-AGENT: 5
 # IP-CIDR: 11
-# TOTAL: 45
+# TOTAL: 49
 HOST,akmcdnoversea-tw.inter.iqiyi.com,AsianMedia
 HOST,akmcdnoversea-tw.inter.ptqy.gitv.tv,AsianMedia
 HOST,cache.video.iqiyi.com,AsianMedia
@@ -15,6 +16,7 @@ HOST,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv,AsianMedia
 HOST,intl-rcd.iqiyi.com,AsianMedia
 HOST,intl-subscription.iqiyi.com,AsianMedia
 HOST,intl.iqiyi.com,AsianMedia
+HOST,mobileso.bz.mgtv.com,AsianMedia
 HOST,upos-hz-mirrorakam.akamaized.net,AsianMedia
 HOST-SUFFIX,71.am.com,AsianMedia
 HOST-SUFFIX,acg.tv,AsianMedia
@@ -36,6 +38,9 @@ HOST-SUFFIX,qy.net,AsianMedia
 HOST-SUFFIX,vv.video.qq.com,AsianMedia
 HOST-SUFFIX,wetv.vip,AsianMedia
 HOST-SUFFIX,wetvinfo.com,AsianMedia
+HOST-KEYWORD,bilibili,AsianMedia
+HOST-KEYWORD,cn-hk-eq-bcache-,AsianMedia
+HOST-KEYWORD,qiyi,AsianMedia
 USER-AGENT,*bili*,AsianMedia
 USER-AGENT,MOO*,AsianMedia
 USER-AGENT,QIYI*,AsianMedia

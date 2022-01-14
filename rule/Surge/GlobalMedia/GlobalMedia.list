@@ -1,15 +1,15 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-27 02:10:28
+# UPDATED: 2022-02-16 02:10:53
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN: 44
+# DOMAIN: 42
 # USER-AGENT: 65
-# DOMAIN-SUFFIX: 211
-# DOMAIN-KEYWORD: 4
+# DOMAIN-SUFFIX: 225
+# DOMAIN-KEYWORD: 24
 # IP-CIDR: 863
 # URL-REGEX: 1
-# TOTAL: 1188
+# TOTAL: 1220
 DOMAIN,api.okzy.tv
 DOMAIN,apm-misaka.biliapi.net
 DOMAIN,apple.comscoreresearch.com
@@ -36,7 +36,6 @@ DOMAIN,intl.iqiyi.com
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN,kktv-theater.kk.stream
 DOMAIN,ktpx.amazon.com
-DOMAIN,mobileso.bz.mgtv.com
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN,netflix.com.edgesuite.net
@@ -47,7 +46,6 @@ DOMAIN,np-edge.itunes.apple.com
 DOMAIN,p.bstarstatic.com
 DOMAIN,play-edge.itunes.apple.com
 DOMAIN,players.brightcove.net
-DOMAIN,radio.itunes.apple.com
 DOMAIN,rpg.pic-imges.com
 DOMAIN,tv.applemusic.com
 DOMAIN,uts-api.itunes.apple.com
@@ -57,15 +55,16 @@ DOMAIN,yt3.ggpht.com
 DOMAIN-SUFFIX,5itv.tv
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,aboutamazon.com
 DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,amazon.jobs
 DOMAIN-SUFFIX,amazonaws.co.uk
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,ameba.jp
-DOMAIN-SUFFIX,api.mgtv.com
 DOMAIN-SUFFIX,api.segment.io
 DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,bahamut.com.tw
@@ -93,6 +92,7 @@ DOMAIN-SUFFIX,channel4.com
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,conviva.com
+DOMAIN-SUFFIX,curiositystream.com
 DOMAIN-SUFFIX,d9.flashtalking.com
 DOMAIN-SUFFIX,dazn-api.com
 DOMAIN-SUFFIX,dazn.com
@@ -120,6 +120,7 @@ DOMAIN-SUFFIX,edgedatg.com
 DOMAIN-SUFFIX,emarsys.net
 DOMAIN-SUFFIX,emome.net
 DOMAIN-SUFFIX,encoretvb.com
+DOMAIN-SUFFIX,ext-twitch.tv
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,fox.com
@@ -187,6 +188,7 @@ DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,my5.tv
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,naver.com
+DOMAIN-SUFFIX,nebula.app
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
 DOMAIN-SUFFIX,netflixdnstest0.com
@@ -237,6 +239,7 @@ DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,socdm.com
 DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,spoti.fi
+DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,spotifycdn.net
 DOMAIN-SUFFIX,streaks.jp
@@ -252,23 +255,52 @@ DOMAIN-SUFFIX,ttvnw.net
 DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,tvb.com
 DOMAIN-SUFFIX,tver.jp
+DOMAIN-SUFFIX,twitch-ext.rootonline.de
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,uplynk.com
 DOMAIN-SUFFIX,urlload.net
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,watchnebula.com
 DOMAIN-SUFFIX,wetv.vip
 DOMAIN-SUFFIX,wetvinfo.com
+DOMAIN-SUFFIX,withyoutube.com
 DOMAIN-SUFFIX,yb.uncn.jp
 DOMAIN-SUFFIX,youboranqs01.com
 DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,zype.com
+DOMAIN-KEYWORD,-spotify-com
+DOMAIN-KEYWORD,-tiktokcdn-com
+DOMAIN-KEYWORD,.hbogoasia.
 DOMAIN-KEYWORD,abematv.akamaized.net
+DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
+DOMAIN-KEYWORD,avoddashs
+DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,dualstack.apiproxy-
 DOMAIN-KEYWORD,dualstack.ichnaea-web-
+DOMAIN-KEYWORD,foxplus
+DOMAIN-KEYWORD,hbogoasia
+DOMAIN-KEYWORD,japonx
+DOMAIN-KEYWORD,japronx
+DOMAIN-KEYWORD,jooxweb-api
+DOMAIN-KEYWORD,netflix
+DOMAIN-KEYWORD,nflx
+DOMAIN-KEYWORD,nowtv100
+DOMAIN-KEYWORD,rthklive
 DOMAIN-KEYWORD,spotify.com
+DOMAIN-KEYWORD,tiktokcdn-
+DOMAIN-KEYWORD,ttvnw
+DOMAIN-KEYWORD,uk-live
+DOMAIN-KEYWORD,voddazn
+DOMAIN-KEYWORD,youtube
 IP-CIDR,1.37.35.6/32,no-resolve
 IP-CIDR,101.100.179.242/32,no-resolve
 IP-CIDR,101.100.179.250/32,no-resolve

@@ -1,15 +1,15 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:49
-# DOMAIN-SUFFIX: 109
-# TOTAL: 109
+# UPDATED: 2022-01-18 23:33:38
+# DOMAIN-KEYWORD: 3
+# DOMAIN-SUFFIX: 98
+# TOTAL: 101
 payload:
   - DOMAIN-SUFFIX,52pt.site
   - DOMAIN-SUFFIX,aidoru-online.me
   - DOMAIN-SUFFIX,alpharatio.cc
   - DOMAIN-SUFFIX,animebytes.tv
-  - DOMAIN-SUFFIX,animetorrents.me
   - DOMAIN-SUFFIX,anthelion.me
   - DOMAIN-SUFFIX,asiancinema.me
   - DOMAIN-SUFFIX,avgv.cc
@@ -18,13 +18,11 @@ payload:
   - DOMAIN-SUFFIX,beitai.pt
   - DOMAIN-SUFFIX,beyond-hd.me
   - DOMAIN-SUFFIX,bibliotik.me
-  - DOMAIN-SUFFIX,bittorrent.com
   - DOMAIN-SUFFIX,blutopia.xyz
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,bt.byr.cn
   - DOMAIN-SUFFIX,bt.neu6.edu.cn
   - DOMAIN-SUFFIX,btschool.club
-  - DOMAIN-SUFFIX,bwtorrents.tv
   - DOMAIN-SUFFIX,ccfbits.org
   - DOMAIN-SUFFIX,cgpeers.com
   - DOMAIN-SUFFIX,chdbits.co
@@ -40,12 +38,10 @@ payload:
   - DOMAIN-SUFFIX,empornium.me
   - DOMAIN-SUFFIX,et8.org
   - DOMAIN-SUFFIX,exoticaz.to
-  - DOMAIN-SUFFIX,extremlymtorrents.ws
   - DOMAIN-SUFFIX,filelist.io
   - DOMAIN-SUFFIX,gazellegames.net
   - DOMAIN-SUFFIX,gfxpeers.net
   - DOMAIN-SUFFIX,hd-space.org
-  - DOMAIN-SUFFIX,hd-torrents.org
   - DOMAIN-SUFFIX,hd4.xyz
   - DOMAIN-SUFFIX,hd4fans.org
   - DOMAIN-SUFFIX,hdarea.co
@@ -67,8 +63,6 @@ payload:
   - DOMAIN-SUFFIX,hitpt.com
   - DOMAIN-SUFFIX,hitpt.org
   - DOMAIN-SUFFIX,hudbt.hust.edu.cn
-  - DOMAIN-SUFFIX,icetorrent.org
-  - DOMAIN-SUFFIX,iptorrents.com
   - DOMAIN-SUFFIX,j99.info
   - DOMAIN-SUFFIX,joyhd.net
   - DOMAIN-SUFFIX,jpopsuki.eu
@@ -98,7 +92,6 @@ payload:
   - DOMAIN-SUFFIX,pterclub.com
   - DOMAIN-SUFFIX,pthome.net
   - DOMAIN-SUFFIX,ptsbao.club
-  - DOMAIN-SUFFIX,pussytorrents.org
   - DOMAIN-SUFFIX,redacted.ch
   - DOMAIN-SUFFIX,sdbits.org
   - DOMAIN-SUFFIX,sjtu.edu.cn
@@ -106,11 +99,11 @@ payload:
   - DOMAIN-SUFFIX,soulvoice.club
   - DOMAIN-SUFFIX,springsunday.net
   - DOMAIN-SUFFIX,tjupt.org
-  - DOMAIN-SUFFIX,torrentday.com
-  - DOMAIN-SUFFIX,torrentleech.org
-  - DOMAIN-SUFFIX,torrentseeds.org
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,trontv.com
   - DOMAIN-SUFFIX,u2.dmhy.org
   - DOMAIN-SUFFIX,uhdbits.org
   - DOMAIN-SUFFIX,xauat6.edu.cn
+  - DOMAIN-KEYWORD,announce
+  - DOMAIN-KEYWORD,torrent
+  - DOMAIN-KEYWORD,tracker

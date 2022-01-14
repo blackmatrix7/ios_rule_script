@@ -1,8 +1,8 @@
 #!name=GlobalMax MITM
-#!desc=最后更新时间 2021-12-27 02:10:28
+#!desc=最后更新时间 2022-02-10 02:11:45
 #!author=blackmatrix7
 #!repo=https://gitlab.com/blackmatrix7/ios_rule_script
-#!mitm=2
+#!mitm=1
 
 [MITM]
-hostname = %APPEND% img.sina.com,www.amazon.com
+hostname = %APPEND% www.amazon.com

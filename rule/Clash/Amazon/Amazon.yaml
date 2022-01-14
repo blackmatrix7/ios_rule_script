@@ -1,11 +1,12 @@
 # NAME: Amazon
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-27 02:10:32
+# UPDATED: 2022-01-18 23:33:35
+# DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 176
 # IP-CIDR: 15
 # PROCESS-NAME: 1
-# TOTAL: 192
+# TOTAL: 193
 payload:
   - DOMAIN-SUFFIX,a2z.com
   - DOMAIN-SUFFIX,aboutamazon.cn
@@ -183,6 +184,7 @@ payload:
   - DOMAIN-SUFFIX,yamaxun.cn
   - DOMAIN-SUFFIX,yamaxun.com
   - DOMAIN-SUFFIX,z.cn
+  - DOMAIN-KEYWORD,avoddashs
   - IP-CIDR,13.32.0.0/15,no-resolve
   - IP-CIDR,13.35.0.0/17,no-resolve
   - IP-CIDR,18.184.0.0/15,no-resolve

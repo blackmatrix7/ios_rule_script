@@ -1,11 +1,11 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-02 02:10:03
+# UPDATED: 2022-02-06 02:10:15
 # DOMAIN: 13
-# DOMAIN-SUFFIX: 12637
+# DOMAIN-SUFFIX: 12634
 # IP-CIDR: 8
-# TOTAL: 12658
+# TOTAL: 12655
 payload:
   - DOMAIN,hm.baidu.com
   - DOMAIN,hmma.baidu.com
@@ -118,6 +118,7 @@ payload:
   - DOMAIN-SUFFIX,a.tovarro.com
   - DOMAIN-SUFFIX,a.visitefoz.com.br
   - DOMAIN-SUFFIX,a1.api.bbc.co.uk
+  - DOMAIN-SUFFIX,a10.nationalreview.com
   - DOMAIN-SUFFIX,a10695.actonservice.com
   - DOMAIN-SUFFIX,a11058.actonservice.com
   - DOMAIN-SUFFIX,a11413003.actonservice.com
@@ -651,8 +652,6 @@ payload:
   - DOMAIN-SUFFIX,aamcompany.actonservice.com
   - DOMAIN-SUFFIX,aas.mclaren.com
   - DOMAIN-SUFFIX,aas.neom.com
-  - DOMAIN-SUFFIX,aax-eu-dub.amazon.com
-  - DOMAIN-SUFFIX,aax-us-iad.amazon.com
   - DOMAIN-SUFFIX,ab-machine.forbes.com
   - DOMAIN-SUFFIX,ab.fanatical.com
   - DOMAIN-SUFFIX,abackchain.com
@@ -1017,7 +1016,6 @@ payload:
   - DOMAIN-SUFFIX,americanroller.actonservice.com
   - DOMAIN-SUFFIX,americantower.redit.com
   - DOMAIN-SUFFIX,amimon.actonservice.com
-  - DOMAIN-SUFFIX,amp-error-reporting.appspot.com
   - DOMAIN-SUFFIX,amplify.strategic-i.com
   - DOMAIN-SUFFIX,amplifypixel.outbrain.com
   - DOMAIN-SUFFIX,amusementmorning.com
@@ -1047,7 +1045,6 @@ payload:
   - DOMAIN-SUFFIX,analytics-rhwg.rhcloud.com
   - DOMAIN-SUFFIX,analytics-scripts.cablelabs.com
   - DOMAIN-SUFFIX,analytics-sg.tiktok.com
-  - DOMAIN-SUFFIX,analytics-static.ugc.bazaarvoice.com
   - DOMAIN-SUFFIX,analytics.126.net
   - DOMAIN-SUFFIX,analytics.163.com
   - DOMAIN-SUFFIX,analytics.30m.com
@@ -1178,6 +1175,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.naturequant.com
   - DOMAIN-SUFFIX,analytics.ncaa.com
   - DOMAIN-SUFFIX,analytics.newscred.com
+  - DOMAIN-SUFFIX,analytics.oceanengine.com
   - DOMAIN-SUFFIX,analytics.oneplus.cn
   - DOMAIN-SUFFIX,analytics.onlyonlinemarketing.com
   - DOMAIN-SUFFIX,analytics.optilead.co.uk
@@ -1342,7 +1340,6 @@ payload:
   - DOMAIN-SUFFIX,app.information.maileva.com
   - DOMAIN-SUFFIX,app.mktg.genesys.com
   - DOMAIN-SUFFIX,app.response.siemens-info.com
-  - DOMAIN-SUFFIX,app.sephora.com
   - DOMAIN-SUFFIX,app.thomsonreuters.com
   - DOMAIN-SUFFIX,app.updates.digicert.com
   - DOMAIN-SUFFIX,app03.ikk-classic.de
@@ -1466,7 +1463,6 @@ payload:
   - DOMAIN-SUFFIX,awfzfs.kwantum.nl
   - DOMAIN-SUFFIX,ax.idg.se
   - DOMAIN-SUFFIX,axion-biosystems.actonservice.com
-  - DOMAIN-SUFFIX,axislogger.appspot.com
   - DOMAIN-SUFFIX,axjfkc.kobayashi.co.jp
   - DOMAIN-SUFFIX,ayc0zsm69431gfebd.info
   - DOMAIN-SUFFIX,ayc0zsm69431gfebd.xyz
@@ -1781,6 +1777,7 @@ payload:
   - DOMAIN-SUFFIX,byqdtp.interpark.com
   - DOMAIN-SUFFIX,bzclk.baidu.com
   - DOMAIN-SUFFIX,c-c-l.actonservice.com
+  - DOMAIN-SUFFIX,c.amazinglybrilliant.com.au
   - DOMAIN-SUFFIX,c.atinternet-solutions.com
   - DOMAIN-SUFFIX,c.bigmir.net
   - DOMAIN-SUFFIX,c.gazetevatan.com
@@ -1861,7 +1858,6 @@ payload:
   - DOMAIN-SUFFIX,carzbz.triviatoday.com
   - DOMAIN-SUFFIX,cascadion.thermofisher.com
   - DOMAIN-SUFFIX,cashbeet.com
-  - DOMAIN-SUFFIX,caspionlog.appspot.com
   - DOMAIN-SUFFIX,catalogdiscovery.com
   - DOMAIN-SUFFIX,catracking.finning.com
   - DOMAIN-SUFFIX,cats.d20.rs
@@ -2325,7 +2321,6 @@ payload:
   - DOMAIN-SUFFIX,conversations.al-enterprise.com
   - DOMAIN-SUFFIX,conversions.genieventures.co.uk
   - DOMAIN-SUFFIX,conveyor.lewcoinc.com
-  - DOMAIN-SUFFIX,cookie-guard-erdee.ey.r.appspot.com
   - DOMAIN-SUFFIX,cookie.amerigas.com
   - DOMAIN-SUFFIX,cookie.cynch.com
   - DOMAIN-SUFFIX,cookie.sync.usonar.jp
@@ -2441,7 +2436,6 @@ payload:
   - DOMAIN-SUFFIX,cs.nexttv.co.il
   - DOMAIN-SUFFIX,cse3.chausport.com
   - DOMAIN-SUFFIX,csi.gstatic.com
-  - DOMAIN-SUFFIX,csp-collector.appspot.com
   - DOMAIN-SUFFIX,csp.archant.co.uk
   - DOMAIN-SUFFIX,csr.onet.pl
   - DOMAIN-SUFFIX,csr11.net.home24.de
@@ -3619,7 +3613,6 @@ payload:
   - DOMAIN-SUFFIX,fourarithmetic.com
   - DOMAIN-SUFFIX,fourfork.com
   - DOMAIN-SUFFIX,fourier.taobao.com
-  - DOMAIN-SUFFIX,fourmtagservices.appspot.com
   - DOMAIN-SUFFIX,fp.mandatumlife.fi
   - DOMAIN-SUFFIX,fp.mandatumtrader.fi
   - DOMAIN-SUFFIX,fp.measure.office.com
@@ -3742,7 +3735,6 @@ payload:
   - DOMAIN-SUFFIX,g9111879410.co
   - DOMAIN-SUFFIX,g990421675.co
   - DOMAIN-SUFFIX,g990421676.co
-  - DOMAIN-SUFFIX,ga-beacon.appspot.com
   - DOMAIN-SUFFIX,ga.giuem.com
   - DOMAIN-SUFFIX,ga.kvideo.io
   - DOMAIN-SUFFIX,ga.nsimg.net
@@ -3766,6 +3758,7 @@ payload:
   - DOMAIN-SUFFIX,gefkkw.cyberport.de
   - DOMAIN-SUFFIX,gekko.spiceworks.com
   - DOMAIN-SUFFIX,gemius.mgr.consensu.org
+  - DOMAIN-SUFFIX,genesis.malwarebytes.com
   - DOMAIN-SUFFIX,geo.emol.cl
   - DOMAIN-SUFFIX,geo.ertya.com
   - DOMAIN-SUFFIX,geo.gfycat.com
@@ -3893,7 +3886,6 @@ payload:
   - DOMAIN-SUFFIX,grc2.secureforms.mcafee.com
   - DOMAIN-SUFFIX,greasegarden.com
   - DOMAIN-SUFFIX,greasemotion.com
-  - DOMAIN-SUFFIX,green-griffin-860.appspot.com
   - DOMAIN-SUFFIX,greenjapan-cname.green-japan.com
   - DOMAIN-SUFFIX,greetzebra.com
   - DOMAIN-SUFFIX,gripcorn.com
@@ -4476,7 +4468,6 @@ payload:
   - DOMAIN-SUFFIX,jambwe.newizv.ru
   - DOMAIN-SUFFIX,janus.r.jakuli.com
   - DOMAIN-SUFFIX,jas.indeednps.com
-  - DOMAIN-SUFFIX,javascriptcounter.appspot.com
   - DOMAIN-SUFFIX,jbbljg.autoscout24.bg
   - DOMAIN-SUFFIX,jbezdi.ilsole24ore.com
   - DOMAIN-SUFFIX,jcr3.onlyyouhotels.com
@@ -4846,7 +4837,6 @@ payload:
   - DOMAIN-SUFFIX,lio8.destinia.com.pa
   - DOMAIN-SUFFIX,liosix.mtvuutiset.fi
   - DOMAIN-SUFFIX,lis39l95rq1s.furucombo.app
-  - DOMAIN-SUFFIX,literally-analytics.appspot.com
   - DOMAIN-SUFFIX,literatelight.com
   - DOMAIN-SUFFIX,littlebrother.makeplans.net
   - DOMAIN-SUFFIX,live.alljobs.co.il
@@ -6229,7 +6219,6 @@ payload:
   - DOMAIN-SUFFIX,metrics.seagate.com
   - DOMAIN-SUFFIX,metrics.seawheeze.com
   - DOMAIN-SUFFIX,metrics.sen.com.au
-  - DOMAIN-SUFFIX,metrics.sephora.com
   - DOMAIN-SUFFIX,metrics.sfr.fr
   - DOMAIN-SUFFIX,metrics.shangri-la.com
   - DOMAIN-SUFFIX,metrics.sharecare.com
@@ -6564,6 +6553,7 @@ payload:
   - DOMAIN-SUFFIX,net1.netski.com
   - DOMAIN-SUFFIX,netc.sfr.fr
   - DOMAIN-SUFFIX,netu.wiztube.xyz
+  - DOMAIN-SUFFIX,neurotrack.neurolake.io
   - DOMAIN-SUFFIX,news.azcapitoltimes.com
   - DOMAIN-SUFFIX,news.bpost.be
   - DOMAIN-SUFFIX,news.chiefexecutive.net
@@ -7026,7 +7016,6 @@ payload:
   - DOMAIN-SUFFIX,pi.technik3d.com
   - DOMAIN-SUFFIX,piddme.buyma.com
   - DOMAIN-SUFFIX,pigspie.com
-  - DOMAIN-SUFFIX,ping-dot-acp-magento.appspot.com
   - DOMAIN-SUFFIX,ping.cavelab.dev
   - DOMAIN-SUFFIX,ping.dozuki.com
   - DOMAIN-SUFFIX,ping.hashnode.com
@@ -7048,6 +7037,7 @@ payload:
   - DOMAIN-SUFFIX,piostats.gdcorner.com
   - DOMAIN-SUFFIX,pipe-collect.ebu.io
   - DOMAIN-SUFFIX,pipedream.wistia.com
+  - DOMAIN-SUFFIX,pipeline.rd.nl
   - DOMAIN-SUFFIX,piper.amocrm.ru
   - DOMAIN-SUFFIX,piquantpigs.com
   - DOMAIN-SUFFIX,piquantprice.com
@@ -7082,6 +7072,7 @@ payload:
   - DOMAIN-SUFFIX,pixel.honestjohn.co.uk
   - DOMAIN-SUFFIX,pixel.inforsea.com
   - DOMAIN-SUFFIX,pixel.ionos.fr
+  - DOMAIN-SUFFIX,pixel.kknews.cc
   - DOMAIN-SUFFIX,pixel.mintigo.com
   - DOMAIN-SUFFIX,pixel.mtrcs.samba.tv
   - DOMAIN-SUFFIX,pixel.newscred.com
@@ -7332,6 +7323,7 @@ payload:
   - DOMAIN-SUFFIX,pulse.delta.com
   - DOMAIN-SUFFIX,punyplant.com
   - DOMAIN-SUFFIX,purchasesuggestion.com
+  - DOMAIN-SUFFIX,pushmaster-cdn.xyz
   - DOMAIN-SUFFIX,puzzlingproperty.com
   - DOMAIN-SUFFIX,pv.hd.sohu.com
   - DOMAIN-SUFFIX,pv.kuaizhan.com
@@ -7385,7 +7377,6 @@ payload:
   - DOMAIN-SUFFIX,quantcount.com
   - DOMAIN-SUFFIX,quantserve.com
   - DOMAIN-SUFFIX,quarterbean.com
-  - DOMAIN-SUFFIX,qubitanalytics.appspot.com
   - DOMAIN-SUFFIX,questions.theanswerco.com
   - DOMAIN-SUFFIX,quhdnr.musiciansfriend.com
   - DOMAIN-SUFFIX,quickanalytics.ca
@@ -8273,6 +8264,7 @@ payload:
   - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,segmentify.com
   - DOMAIN-SUFFIX,selectionship.com
+  - DOMAIN-SUFFIX,selfishsnake.com
   - DOMAIN-SUFFIX,sem.triboomedia.it
   - DOMAIN-SUFFIX,sendgridlinks.neuroflowsolution.com
   - DOMAIN-SUFFIX,seniorliving.buckinghamhouston.com
@@ -8360,6 +8352,7 @@ payload:
   - DOMAIN-SUFFIX,siteinfo.libero.it
   - DOMAIN-SUFFIX,siteintercept.allegiancetech.com
   - DOMAIN-SUFFIX,sixscissors.com
+  - DOMAIN-SUFFIX,sixtrk.com
   - DOMAIN-SUFFIX,sizesidewalk.com
   - DOMAIN-SUFFIX,sjpf.io
   - DOMAIN-SUFFIX,sjremetrics.java.com
@@ -9248,7 +9241,6 @@ payload:
   - DOMAIN-SUFFIX,smetrics.seguro.mediaset.es
   - DOMAIN-SUFFIX,smetrics.sen.com.au
   - DOMAIN-SUFFIX,smetrics.sensai-cosmetics.com
-  - DOMAIN-SUFFIX,smetrics.sephora.com
   - DOMAIN-SUFFIX,smetrics.sfr.fr
   - DOMAIN-SUFFIX,smetrics.shangri-la.com
   - DOMAIN-SUFFIX,smetrics.shannons.com.au
@@ -9572,6 +9564,7 @@ payload:
   - DOMAIN-SUFFIX,sootheside.com
   - DOMAIN-SUFFIX,sophisticatedstory.com
   - DOMAIN-SUFFIX,sophisticatedstove.com
+  - DOMAIN-SUFFIX,sordidsmile.com
   - DOMAIN-SUFFIX,soresneeze.com
   - DOMAIN-SUFFIX,sorethunder.com
   - DOMAIN-SUFFIX,soretrain.com
@@ -10107,6 +10100,7 @@ payload:
   - DOMAIN-SUFFIX,stats.dashbit.co
   - DOMAIN-SUFFIX,stats.datahjaelp.net
   - DOMAIN-SUFFIX,stats.davestewart.co.uk
+  - DOMAIN-SUFFIX,stats.davidickedelivery.com
   - DOMAIN-SUFFIX,stats.davidlms.com
   - DOMAIN-SUFFIX,stats.deutschlandsim.de
   - DOMAIN-SUFFIX,stats.deva.guru
@@ -10332,7 +10326,6 @@ payload:
   - DOMAIN-SUFFIX,stats.sheer.tj
   - DOMAIN-SUFFIX,stats.shell-tips.com
   - DOMAIN-SUFFIX,stats.shepherd.com
-  - DOMAIN-SUFFIX,stats.shopify.com
   - DOMAIN-SUFFIX,stats.shoutout.so
   - DOMAIN-SUFFIX,stats.sim.de
   - DOMAIN-SUFFIX,stats.simplytel.de
@@ -10774,6 +10767,7 @@ payload:
   - DOMAIN-SUFFIX,tags.clickagy.com
   - DOMAIN-SUFFIX,tags.creativille.co.uk
   - DOMAIN-SUFFIX,tags.globo.com
+  - DOMAIN-SUFFIX,tags.johnlewis.com
   - DOMAIN-SUFFIX,tags.master-perf-tools.com
   - DOMAIN-SUFFIX,tags.newscgp.com
   - DOMAIN-SUFFIX,tags.op-palvelut.fi
@@ -11611,6 +11605,7 @@ payload:
   - DOMAIN-SUFFIX,tracking.oceaneering.com
   - DOMAIN-SUFFIX,tracking.oe24.at
   - DOMAIN-SUFFIX,tracking.oldnational.com
+  - DOMAIN-SUFFIX,tracking.olx-st.com
   - DOMAIN-SUFFIX,tracking.omron.cz
   - DOMAIN-SUFFIX,tracking.omron.ru
   - DOMAIN-SUFFIX,tracking.opentable.com
@@ -11649,6 +11644,7 @@ payload:
   - DOMAIN-SUFFIX,tracking.sharplink.us
   - DOMAIN-SUFFIX,tracking.shl.com
   - DOMAIN-SUFFIX,tracking.shop.verymobile.it
+  - DOMAIN-SUFFIX,tracking.shopstyle.co.uk
   - DOMAIN-SUFFIX,tracking.shopstyle.com
   - DOMAIN-SUFFIX,tracking.sierrawireless.com
   - DOMAIN-SUFFIX,tracking.smartbets.com
@@ -11766,7 +11762,6 @@ payload:
   - DOMAIN-SUFFIX,trk.nuernberger.digital
   - DOMAIN-SUFFIX,trk.optum.com
   - DOMAIN-SUFFIX,trk.plasticstoday.com
-  - DOMAIN-SUFFIX,trk.s.sephora.com
   - DOMAIN-SUFFIX,trk.techtarget.com
   - DOMAIN-SUFFIX,trk.thinkhdi.com
   - DOMAIN-SUFFIX,trk.us.underarmour.com
@@ -11892,7 +11887,6 @@ payload:
   - DOMAIN-SUFFIX,uzd1.madeindesign.com
   - DOMAIN-SUFFIX,v.emedia.cn
   - DOMAIN-SUFFIX,v.oui.sncf
-  - DOMAIN-SUFFIX,v.shopify.com
   - DOMAIN-SUFFIX,v1sts.me
   - DOMAIN-SUFFIX,v87p9d3uxu13.fjlaboratories.com
   - DOMAIN-SUFFIX,vanfireworks.com
@@ -11949,6 +11943,7 @@ payload:
   - DOMAIN-SUFFIX,visits.tommi.space
   - DOMAIN-SUFFIX,vivaciousveil.com
   - DOMAIN-SUFFIX,vkiais.brendi.pl
+  - DOMAIN-SUFFIX,vlogs.deja.media
   - DOMAIN-SUFFIX,vlwutxd95syk.www.usa-corporate.com
   - DOMAIN-SUFFIX,vmstats.varrando.com
   - DOMAIN-SUFFIX,vmsxzx.buienradar.nl
@@ -12610,6 +12605,7 @@ payload:
   - DOMAIN-SUFFIX,yzjqqj.emmiol.com
   - DOMAIN-SUFFIX,z.cdp-dev.cnn.com
   - DOMAIN-SUFFIX,z0uolej1qnxzub1.info
+  - DOMAIN-SUFFIX,za.zdn.vn
   - DOMAIN-SUFFIX,zaawds.farmae.it
   - DOMAIN-SUFFIX,zam.nextinpact.com
   - DOMAIN-SUFFIX,zaventemdijleland.viessmann.be
@@ -12636,6 +12632,7 @@ payload:
   - DOMAIN-SUFFIX,zminer.zaloapp.com
   - DOMAIN-SUFFIX,znq9.destinia.mx
   - DOMAIN-SUFFIX,zoiajw.yves-rocher.cz
+  - DOMAIN-SUFFIX,zononi.com
   - DOMAIN-SUFFIX,zoomanalytics.co
   - DOMAIN-SUFFIX,zoomhead.xyz
   - DOMAIN-SUFFIX,zopqks.kavehome.com

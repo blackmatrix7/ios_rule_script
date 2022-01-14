@@ -1,10 +1,12 @@
 # NAME: JOOX
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:40
+# UPDATED: 2022-01-18 23:33:29
 # USER-AGENT: 2
 # HOST-SUFFIX: 1
-# TOTAL: 3
+# HOST-KEYWORD: 1
+# TOTAL: 4
 HOST-SUFFIX,joox.com,JOOX
+HOST-KEYWORD,jooxweb-api,JOOX
 USER-AGENT,JOOX*,JOOX
 USER-AGENT,WeMusic*,JOOX

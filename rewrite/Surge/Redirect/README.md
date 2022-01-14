@@ -16,7 +16,6 @@
 | ---- | ---- |
 | mitm | 5 |
 | force_http_engine_hosts | 0 |
-| DOMAIN | 15 |
 | redirect | 60 |
 ## 配置说明
 

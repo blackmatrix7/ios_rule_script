@@ -1,30 +1,99 @@
 # NAME: GlobalMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-13 02:19:43
+# UPDATED: 2022-02-17 02:11:03
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN-SUFFIX: 36085
-# USER-AGENT: 78
-# DOMAIN: 30
-# IP-CIDR: 1188
+# DOMAIN-SUFFIX: 34680
+# USER-AGENT: 73
+# DOMAIN: 56
+# DOMAIN-KEYWORD: 74
+# IP-CIDR: 1180
 # IP-CIDR6: 31
 # PROCESS-NAME: 56
-# DOMAIN-KEYWORD: 6
-# URL-REGEX: 9
-# TOTAL: 37483
+# URL-REGEX: 8
+# TOTAL: 36158
+DOMAIN-KEYWORD,-spotify-com
+DOMAIN-KEYWORD,-tiktokcdn-com
+DOMAIN-KEYWORD,.blogspot.
+DOMAIN-KEYWORD,.facebook.
+DOMAIN-KEYWORD,.hbogoasia.
+DOMAIN-KEYWORD,.pinterest.
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,1e100
+DOMAIN-KEYWORD,abema
 DOMAIN-KEYWORD,abematv.akamaized.net
+DOMAIN-KEYWORD,adobe
+DOMAIN-KEYWORD,amazon
+DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
+DOMAIN-KEYWORD,appledaily
+DOMAIN-KEYWORD,aria2
+DOMAIN-KEYWORD,avoddashs
+DOMAIN-KEYWORD,avtb
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,beetalk
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,cn-hk-eq-bcache-
+DOMAIN-KEYWORD,dlercloud
+DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,dualstack.apiproxy-
 DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.ichnaea-web-
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,fbcdn
+DOMAIN-KEYWORD,foxplus
+DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,hbogoasia
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,japonx
+DOMAIN-KEYWORD,japronx
+DOMAIN-KEYWORD,jav
+DOMAIN-KEYWORD,jooxweb-api
 DOMAIN-KEYWORD,musical.ly
+DOMAIN-KEYWORD,netflix
+DOMAIN-KEYWORD,nflx
+DOMAIN-KEYWORD,nicegram
+DOMAIN-KEYWORD,nowtv100
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,paypal
+DOMAIN-KEYWORD,pinterest
+DOMAIN-KEYWORD,porn
+DOMAIN-KEYWORD,rthklive
+DOMAIN-KEYWORD,sci-hub
+DOMAIN-KEYWORD,skydrive
+DOMAIN-KEYWORD,speedtest
+DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,spotify.com
+DOMAIN-KEYWORD,synology
+DOMAIN-KEYWORD,telegram
+DOMAIN-KEYWORD,tesla
+DOMAIN-KEYWORD,thunder
+DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,tiktokcdn-
+DOMAIN-KEYWORD,tiktokv
+DOMAIN-KEYWORD,torrent
+DOMAIN-KEYWORD,tracker
+DOMAIN-KEYWORD,ttvnw
+DOMAIN-KEYWORD,twimg
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,uk-live
+DOMAIN-KEYWORD,voddazn
+DOMAIN-KEYWORD,whatsapp
+DOMAIN-KEYWORD,wikileaks
+DOMAIN-KEYWORD,xlliveud
+DOMAIN-KEYWORD,xunlei
+DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,yunpan
 IP-CIDR,1.201.0.0/24,no-resolve
 IP-CIDR,1.37.35.6/32,no-resolve
 IP-CIDR,100.43.64.0/19,no-resolve
 IP-CIDR,101.100.179.242/32,no-resolve
 IP-CIDR,101.100.179.250/32,no-resolve
 IP-CIDR,101.101.160.0/20,no-resolve
-IP-CIDR,103.102.166.0/24,no-resolve
+IP-CIDR,101.32.118.0/23,no-resolve
+IP-CIDR,101.32.96.0/20,no-resolve
 IP-CIDR,103.2.28.0/22,no-resolve
 IP-CIDR,103.21.244.0/22,no-resolve
 IP-CIDR,103.22.200.0/22,no-resolve
@@ -33,6 +102,7 @@ IP-CIDR,103.246.56.0/22,no-resolve
 IP-CIDR,103.27.148.0/22,no-resolve
 IP-CIDR,103.31.4.0/22,no-resolve
 IP-CIDR,103.4.96.0/22,no-resolve
+IP-CIDR,103.44.56.0/22,no-resolve
 IP-CIDR,103.53.48.0/23,no-resolve
 IP-CIDR,103.59.49.10/32,no-resolve
 IP-CIDR,103.6.172.0/24,no-resolve
@@ -127,6 +197,7 @@ IP-CIDR,128.1.193.0/24,no-resolve
 IP-CIDR,128.1.87.196/32,no-resolve
 IP-CIDR,128.14.208.0/24,no-resolve
 IP-CIDR,129.134.0.0/17,no-resolve
+IP-CIDR,129.226.0.0/16,no-resolve
 IP-CIDR,129.227.115.130/32,no-resolve
 IP-CIDR,129.227.156.17/32,no-resolve
 IP-CIDR,129.227.156.20/32,no-resolve
@@ -229,7 +300,6 @@ IP-CIDR,170.249.156.82/32,no-resolve
 IP-CIDR,170.249.179.114/32,no-resolve
 IP-CIDR,170.52.52.130/32,no-resolve
 IP-CIDR,172.16.102.56/32,no-resolve
-IP-CIDR,172.217.0.0/16,no-resolve
 IP-CIDR,172.56.128.126/32,no-resolve
 IP-CIDR,172.56.132.126/32,no-resolve
 IP-CIDR,172.56.133.126/32,no-resolve
@@ -420,7 +490,6 @@ IP-CIDR,184.150.15.97/32,no-resolve
 IP-CIDR,184.150.15.99/32,no-resolve
 IP-CIDR,184.173.128.0/17,no-resolve
 IP-CIDR,184.175.190.38/32,no-resolve
-IP-CIDR,185.15.56.0/22,no-resolve
 IP-CIDR,185.188.32.0/28,no-resolve
 IP-CIDR,185.2.220.0/22,no-resolve
 IP-CIDR,185.206.24.0/22,no-resolve
@@ -520,7 +589,6 @@ IP-CIDR,197.230.237.209/32,no-resolve
 IP-CIDR,197.230.37.209/32,no-resolve
 IP-CIDR,197.234.240.0/22,no-resolve
 IP-CIDR,198.32.232.82/32,no-resolve
-IP-CIDR,198.35.26.0/23,no-resolve
 IP-CIDR,198.38.96.0/19,no-resolve
 IP-CIDR,198.41.128.0/17,no-resolve
 IP-CIDR,198.45.48.0/20,no-resolve
@@ -655,11 +723,9 @@ IP-CIDR,208.76.186.50/32,no-resolve
 IP-CIDR,208.76.186.58/32,no-resolve
 IP-CIDR,208.76.186.62/32,no-resolve
 IP-CIDR,208.76.186.7/32,no-resolve
-IP-CIDR,208.80.152.0/22,no-resolve
 IP-CIDR,209.166.100.18/32,no-resolve
 IP-CIDR,209.166.100.22/32,no-resolve
 IP-CIDR,209.237.192.0/19,no-resolve
-IP-CIDR,209.85.128.0/17,no-resolve
 IP-CIDR,211.25.221.90/32,no-resolve
 IP-CIDR,211.25.221.94/32,no-resolve
 IP-CIDR,212.113.160.242/32,no-resolve
@@ -671,10 +737,8 @@ IP-CIDR,213.158.201.180/32,no-resolve
 IP-CIDR,213.180.192.0/19,no-resolve
 IP-CIDR,216.183.33.177/32,no-resolve
 IP-CIDR,216.239.1.102/32,no-resolve
-IP-CIDR,216.239.32.0/19,no-resolve
 IP-CIDR,216.248.75.146/32,no-resolve
 IP-CIDR,216.248.75.150/32,no-resolve
-IP-CIDR,216.58.192.0/19,no-resolve
 IP-CIDR,216.68.10.42/32,no-resolve
 IP-CIDR,216.68.10.46/32,no-resolve
 IP-CIDR,216.68.10.50/32,no-resolve
@@ -710,6 +774,8 @@ IP-CIDR,23.228.131.239/32,no-resolve
 IP-CIDR,23.246.0.0/18,no-resolve
 IP-CIDR,23.248.191.103/32,no-resolve
 IP-CIDR,23.248.191.105/32,no-resolve
+IP-CIDR,23.40.241.251/32,no-resolve
+IP-CIDR,23.40.242.10/32,no-resolve
 IP-CIDR,23.78.0.0/16,no-resolve
 IP-CIDR,23.98.43.152/32,no-resolve
 IP-CIDR,24.101.22.50/32,no-resolve
@@ -747,7 +813,6 @@ IP-CIDR,35.160.0.0/13,no-resolve
 IP-CIDR,35.168.106.53/32,no-resolve
 IP-CIDR,35.178.208.187/32,no-resolve
 IP-CIDR,35.186.224.47/32,no-resolve
-IP-CIDR,35.190.247.0/24,no-resolve
 IP-CIDR,37.140.128.0/18,no-resolve
 IP-CIDR,37.143.80.10/32,no-resolve
 IP-CIDR,37.143.80.14/32,no-resolve
@@ -944,7 +1009,6 @@ IP-CIDR,64.126.2.110/32,no-resolve
 IP-CIDR,64.126.2.246/32,no-resolve
 IP-CIDR,64.136.255.34/32,no-resolve
 IP-CIDR,64.189.192.66/32,no-resolve
-IP-CIDR,64.233.160.0/19,no-resolve
 IP-CIDR,64.30.98.210/32,no-resolve
 IP-CIDR,64.30.98.214/32,no-resolve
 IP-CIDR,64.33.157.254/32,no-resolve
@@ -968,7 +1032,6 @@ IP-CIDR,64.53.14.6/31,no-resolve
 IP-CIDR,64.53.14.70/31,no-resolve
 IP-CIDR,65.48.147.74/32,no-resolve
 IP-CIDR,65.75.64.210/31,no-resolve
-IP-CIDR,66.102.0.0/20,no-resolve
 IP-CIDR,66.18.33.62/32,no-resolve
 IP-CIDR,66.18.34.46/32,no-resolve
 IP-CIDR,66.18.34.50/32,no-resolve
@@ -978,7 +1041,6 @@ IP-CIDR,66.220.144.0/20,no-resolve
 IP-CIDR,66.232.66.130/32,no-resolve
 IP-CIDR,66.232.66.134/32,no-resolve
 IP-CIDR,66.232.66.154/32,no-resolve
-IP-CIDR,66.249.80.0/20,no-resolve
 IP-CIDR,66.35.4.54/32,no-resolve
 IP-CIDR,66.44.84.130/32,no-resolve
 IP-CIDR,66.44.84.134/32,no-resolve
@@ -1066,7 +1128,6 @@ IP-CIDR,71.33.50.71/32,no-resolve
 IP-CIDR,71.33.50.85/32,no-resolve
 IP-CIDR,71.33.50.87/32,no-resolve
 IP-CIDR,71.33.50.89/32,no-resolve
-IP-CIDR,72.14.192.0/18,no-resolve
 IP-CIDR,72.22.30.34/32,no-resolve
 IP-CIDR,72.23.10.194/32,no-resolve
 IP-CIDR,72.23.10.198/32,no-resolve
@@ -1177,7 +1238,6 @@ IP-CIDR,90.255.254.66/32,no-resolve
 IP-CIDR,90.255.254.70/32,no-resolve
 IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.0.0/16,no-resolve
-IP-CIDR,91.198.174.0/24,no-resolve
 IP-CIDR,91.203.97.0/24,no-resolve
 IP-CIDR,93.158.128.0/18,no-resolve
 IP-CIDR,94.24.36.0/23,no-resolve
@@ -1237,7 +1297,6 @@ IP-CIDR6,2a0b:e43:1::/48,no-resolve
 IP-CIDR6,2a0b:e44:1::/48,no-resolve
 IP-CIDR6,2a0b:e45:1::/48,no-resolve
 IP-CIDR6,2c0f:f248::/32,no-resolve
-USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*
 USER-AGENT,*PCCW*
 USER-AGENT,*Spotify*
 USER-AGENT,*YouTubeMusic*
@@ -1249,11 +1308,9 @@ USER-AGENT,AbemaTV*
 USER-AGENT,All4*
 USER-AGENT,Anime*
 USER-AGENT,Argo*
-USER-AGENT,AwemeI18n*
 USER-AGENT,BBC*
 USER-AGENT,BBCBeacon*
 USER-AGENT,BBCiPlayer*
-USER-AGENT,Coinbase*
 USER-AGENT,DAZN*
 USER-AGENT,DPlus*
 USER-AGENT,Deezer*
@@ -1268,7 +1325,6 @@ USER-AGENT,HBOAsia*
 USER-AGENT,HBOMAX*
 USER-AGENT,HWTVMobile*
 USER-AGENT,ITV_Player*
-USER-AGENT,Instagram*
 USER-AGENT,InstantVideo.US*
 USER-AGENT,JOOX*
 USER-AGENT,KKTV*
@@ -1287,7 +1343,6 @@ USER-AGENT,Pandora*
 USER-AGENT,PayPal*
 USER-AGENT,PeacockMobile*
 USER-AGENT,Prime%20Video*
-USER-AGENT,ResilioSync*
 USER-AGENT,Roam*
 USER-AGENT,SoundCloud*
 USER-AGENT,SpeedTest*
@@ -1323,7 +1378,6 @@ URL-REGEX,"(Subject|HELO|SMTP)"
 URL-REGEX,"(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com"
 URL-REGEX,"(torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=)"
 URL-REGEX,"^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/"
-URL-REGEX,"http:\/\/img\.sina\.com\/usweibo\/"
 PROCESS-NAME,aria2c
 PROCESS-NAME,aria2c.exe
 PROCESS-NAME,baidunetdisk.exe

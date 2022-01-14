@@ -1,13 +1,16 @@
 # NAME: Netflix
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:40
+# UPDATED: 2022-02-14 02:10:25
 # HOST-SUFFIX: 25
 # USER-AGENT: 1
 # IP-CIDR: 57
-# HOST-KEYWORD: 3
+# HOST-KEYWORD: 5
+# HOST: 2
 # IP6-CIDR: 4
-# TOTAL: 90
+# TOTAL: 94
+HOST,api.fast.com,Netflix
+HOST,netflix.com.edgesuite.net,Netflix
 HOST-SUFFIX,fast.com,Netflix
 HOST-SUFFIX,netflix.ca,Netflix
 HOST-SUFFIX,netflix.com,Netflix
@@ -33,9 +36,11 @@ HOST-SUFFIX,nflxsearch.net,Netflix
 HOST-SUFFIX,nflxso.net,Netflix
 HOST-SUFFIX,nflxvideo.net,Netflix
 HOST-SUFFIX,us-west-2.amazonaws.com,Netflix
+HOST-KEYWORD,apiproxy-device-prod-nlb-,Netflix
 HOST-KEYWORD,dualstack.apiproxy-,Netflix
 HOST-KEYWORD,dualstack.apiproxy-device-prod-nlb-,Netflix
 HOST-KEYWORD,dualstack.ichnaea-web-,Netflix
+HOST-KEYWORD,netflix,Netflix
 USER-AGENT,Argo*,Netflix
 IP-CIDR,103.87.204.0/22,Netflix
 IP-CIDR,108.175.32.0/20,Netflix

@@ -16,10 +16,10 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 603 |
+| mitm | 602 |
 | force_http_engine_hosts | 12 |
-| DOMAIN | 2 |
 | DOMAIN-SUFFIX | 1 |
+| DOMAIN | 2 |
 | reject | 791 |
 ## 配置说明
 

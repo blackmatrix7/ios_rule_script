@@ -1,21 +1,89 @@
 # NAME: GlobalMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-13 02:19:48
-# DOMAIN-SUFFIX: 36085
-# DOMAIN: 30
-# IP-CIDR: 1188
+# UPDATED: 2022-02-17 02:11:08
+# DOMAIN-SUFFIX: 34680
+# DOMAIN: 56
+# DOMAIN-KEYWORD: 74
+# IP-CIDR: 1180
 # IP-CIDR6: 31
 # PROCESS-NAME: 56
-# DOMAIN-KEYWORD: 6
-# TOTAL: 37396
+# TOTAL: 36077
 payload:
+  - DOMAIN-KEYWORD,-spotify-com
+  - DOMAIN-KEYWORD,-tiktokcdn-com
+  - DOMAIN-KEYWORD,.blogspot.
+  - DOMAIN-KEYWORD,.facebook.
+  - DOMAIN-KEYWORD,.hbogoasia.
+  - DOMAIN-KEYWORD,.pinterest.
+  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-KEYWORD,1e100
+  - DOMAIN-KEYWORD,abema
   - DOMAIN-KEYWORD,abematv.akamaized.net
+  - DOMAIN-KEYWORD,adobe
+  - DOMAIN-KEYWORD,amazon
+  - DOMAIN-KEYWORD,announce
+  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
+  - DOMAIN-KEYWORD,appledaily
+  - DOMAIN-KEYWORD,aria2
+  - DOMAIN-KEYWORD,avoddashs
+  - DOMAIN-KEYWORD,avtb
+  - DOMAIN-KEYWORD,bbcfmt
+  - DOMAIN-KEYWORD,beetalk
+  - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-KEYWORD,cn-hk-eq-bcache-
+  - DOMAIN-KEYWORD,dlercloud
+  - DOMAIN-KEYWORD,dropbox
   - DOMAIN-KEYWORD,dualstack.apiproxy-
   - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,fbcdn
+  - DOMAIN-KEYWORD,foxplus
+  - DOMAIN-KEYWORD,github
+  - DOMAIN-KEYWORD,gmail
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,hbogoasia
+  - DOMAIN-KEYWORD,instagram
+  - DOMAIN-KEYWORD,japonx
+  - DOMAIN-KEYWORD,japronx
+  - DOMAIN-KEYWORD,jav
+  - DOMAIN-KEYWORD,jooxweb-api
   - DOMAIN-KEYWORD,musical.ly
+  - DOMAIN-KEYWORD,netflix
+  - DOMAIN-KEYWORD,nflx
+  - DOMAIN-KEYWORD,nicegram
+  - DOMAIN-KEYWORD,nowtv100
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,paypal
+  - DOMAIN-KEYWORD,pinterest
+  - DOMAIN-KEYWORD,porn
+  - DOMAIN-KEYWORD,rthklive
+  - DOMAIN-KEYWORD,sci-hub
+  - DOMAIN-KEYWORD,skydrive
+  - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-KEYWORD,spotify
   - DOMAIN-KEYWORD,spotify.com
+  - DOMAIN-KEYWORD,synology
+  - DOMAIN-KEYWORD,telegram
+  - DOMAIN-KEYWORD,tesla
+  - DOMAIN-KEYWORD,thunder
+  - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,tiktokcdn-
+  - DOMAIN-KEYWORD,tiktokv
+  - DOMAIN-KEYWORD,torrent
+  - DOMAIN-KEYWORD,tracker
+  - DOMAIN-KEYWORD,ttvnw
+  - DOMAIN-KEYWORD,twimg
+  - DOMAIN-KEYWORD,twitter
+  - DOMAIN-KEYWORD,uk-live
+  - DOMAIN-KEYWORD,voddazn
+  - DOMAIN-KEYWORD,whatsapp
+  - DOMAIN-KEYWORD,wikileaks
+  - DOMAIN-KEYWORD,xlliveud
+  - DOMAIN-KEYWORD,xunlei
+  - DOMAIN-KEYWORD,youtube
+  - DOMAIN-KEYWORD,yunpan
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,baidunetdisk.exe

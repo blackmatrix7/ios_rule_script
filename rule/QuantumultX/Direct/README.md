@@ -20,7 +20,8 @@
 | 类型 | 数量(条) |
 | ---- | ---- |
 | HOST-SUFFIX | 5 |
-| HOST | 16 |
+| HOST-KEYWORD | 1 |
+| HOST | 15 |
 | USER-AGENT | 4 |
 ## 配置说明
 

@@ -1,13 +1,14 @@
 # NAME: Speedtest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-30 02:10:50
-# HOST-SUFFIX: 3
+# UPDATED: 2022-01-25 02:08:28
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 4
 # USER-AGENT: 1
-# HOST: 1
-# TOTAL: 5
-HOST,speed.dler.io,Speedtest
+# TOTAL: 6
 HOST-SUFFIX,fast.com,Speedtest
 HOST-SUFFIX,ooklaserver.net,Speedtest
 HOST-SUFFIX,speed.cloudflare.com,Speedtest
+HOST-SUFFIX,speed.dler.io,Speedtest
+HOST-KEYWORD,speedtest,Speedtest
 USER-AGENT,SpeedTest*,Speedtest

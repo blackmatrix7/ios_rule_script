@@ -1,18 +1,19 @@
 # NAME: GlobalMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-18 02:12:10
+# UPDATED: 2022-02-19 12:55:40
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN-SUFFIX: 34682
+# DOMAIN-SUFFIX: 34284
 # USER-AGENT: 73
-# DOMAIN: 56
+# DOMAIN: 74
 # DOMAIN-KEYWORD: 74
 # IP-CIDR: 1180
 # IP-CIDR6: 31
 # URL-REGEX: 8
-# TOTAL: 36104
+# TOTAL: 35724
 akmcdnoversea-tw.inter.iqiyi.com
 akmcdnoversea-tw.inter.ptqy.gitv.tv
+amp-api.podcasts.apple.com
 angle.com.tw
 ap-oversea-tls.agora.io
 ap-oversea.agora.io
@@ -25,7 +26,9 @@ apple.com.akadns.net
 aqi.aqicn.org
 artcdnsecure.ribob01.net
 beck-online.beck.de
+beta.music.apple.com
 blizzard.nefficient.co.kr
+books.apple.com
 cache.video.iqiyi.com
 cdn.apple-cloudkit.com
 cdn77.scoreuniverse.com
@@ -37,6 +40,9 @@ commerce1.api.np.km.playstation.n
 courier-push-apple.com.akadns.net
 cvws.icloud-content.com
 deutschewelle.h-cdn.com
+developer.apple.com
+devimages-cdn.apple.com
+devstreaming-cdn.apple.com
 dl.begellhouse.com
 edge.cwtv-vod-ext.top.comcast.net
 elib.maruzen.co.jp
@@ -46,14 +52,24 @@ gateway.icloud.com
 github-avatars.oss-cn-hongkong.aliyuncs.com
 gs-sec.ww.np.dl.playstation.n
 gs2.ww.prod.dl.playstation.ne
+gspe1-ssl.ls.apple.com
 i.jeded.com
 imap-mail.outlook.com
 intl-rcd.iqiyi.com
 intl-subscription.iqiyi.com
 intl.iqiyi.com
+js-cdn.music.apple.com
+lookup-api.apple.com
 mobileso.bz.mgtv.com
+news-assets.apple.com
+news-client-search.apple.com
+news-client.apple.com
+news-edge.apple.com
+news-events.apple.com
+np-edge.itunes.apple.com
 p.bstarstatic.com
 pchomeonline.com.tw
+play-edge.itunes.apple.com
 playstation.sony.akadns.net
 push-apple.com.akadns.net
 report-oversea.agora.io
@@ -61,7 +77,9 @@ rpg.pic-imges.com
 smtp-mail.outlook.com
 static-resource.np.community.playstation.n
 tesla-cdn.thron.com
+testflight.apple.com
 tv.applemusic.com
+uts-api.itunes.apple.com
 widgets.stripst.com
 wmff.warnermediacdn.com
 wrds-www.wharton.upenn.edu
@@ -921,7 +939,6 @@ zeke.scea.com
 .2646z.com
 .2647315.com
 .264755.cc
-.265.com
 .2655896.com
 .265vip.com
 .266660.com
@@ -2799,6 +2816,7 @@ zeke.scea.com
 .acmvalidations.com
 .acmvalidationsaws.com
 .acnw.com.au
+.acom.azurecomcdn.net
 .acpica.com
 .acproxy.com
 .acrobat.com
@@ -2819,7 +2837,6 @@ zeke.scea.com
 .adad09.com
 .adam-modellbau.pl
 .adanwebnet.site44.com
-.adaptivecards.io
 .adblockplus.org
 .adcdownload.apple.com.akadns.net
 .adcex.com
@@ -2831,7 +2848,6 @@ zeke.scea.com
 .adelaidebbs.com
 .adepoju.org
 .adevar.net
-.adgoogle.net
 .adguard-vpn.com
 .adguard.com
 .adguard.org
@@ -3535,7 +3551,6 @@ zeke.scea.com
 .amnyemachen.org
 .amoiist.com
 .amothersheart.net
-.amp.dev
 .ampj135.com
 .ampj224.com
 .ampj228.com
@@ -3639,7 +3654,6 @@ zeke.scea.com
 .angheliu.ro
 .anglicanpastor.com
 .angola.org
-.angulardart.org
 .angularjs.org
 .anhqv.es
 .anidom.com
@@ -3654,7 +3668,6 @@ zeke.scea.com
 .aniseedballs.co.uk
 .anit.ro
 .anitracksub.ml
-.ankarazirvesi2018.com
 .anm.co.uk
 .annatam.com
 .anne66.com
@@ -3753,7 +3766,6 @@ zeke.scea.com
 .apexlegends.com
 .apfi-jatim.org
 .apfritts.com
-.api-extractor.com
 .api-p.videomarket.jp
 .api.a5188yes.com
 .api.ai
@@ -3787,7 +3799,6 @@ zeke.scea.com
 .apigame.yunbo11.com
 .apigame.yunbo333.com
 .apigee.com
-.apisof.net
 .apjforex.com
 .apk-dl.com
 .apk.asso.st
@@ -3849,9 +3860,6 @@ zeke.scea.com
 .appadvice.com
 .appali.hnlsht.com
 .appboxes.co
-.appbridge.io
-.appbridge.it
-.appcenter.ms
 .appcloud.com
 .appdomain.cloud
 .appdownload.qm2500.com
@@ -3879,7 +3887,6 @@ zeke.scea.com
 .apple-hk.com
 .apple-imac.com
 .apple-inc.net
-.apple-mapkit.com
 .apple-online.com
 .apple-pay.com
 .apple-pay.rs
@@ -3890,7 +3897,6 @@ zeke.scea.com
 .apple.be
 .apple.ch
 .apple.co
-.apple.com
 .apple.com.co
 .apple.com.do
 .apple.com.pr
@@ -4102,7 +4108,6 @@ zeke.scea.com
 .archlinux.org
 .archlinuxarm.org
 .arctosia.com
-.area120.com
 .areavoices.com
 .areca-backup.org
 .areload.com
@@ -4112,7 +4117,6 @@ zeke.scea.com
 .arexv.com
 .areyouawesome.net84.net
 .areyoucreditwise.com
-.aria.ms
 .arieltorres.com.ar
 .aritzcracker.ca
 .arizona-friends-of-tibet.org
@@ -4158,6 +4162,7 @@ zeke.scea.com
 .ashtrono.my
 .asia-api.yikyakapi.net
 .asia-gaming.com
+.asia-northeast1-saluton.cloudfunctions.net
 .asia.dnscepat.id
 .asiabet168.com
 .asiafrc.com
@@ -4194,8 +4199,6 @@ zeke.scea.com
 .asminternational.org
 .asn-online.org
 .asnebula.cf
-.asp-cc.com
-.asp.net
 .aspbjournals.org
 .aspenpublishing.com
 .aspi.org.au
@@ -4495,35 +4498,18 @@ zeke.scea.com
 .azure-dns.info
 .azure-dns.net
 .azure-dns.org
-.azure-mobile.net
-.azure-sphere.com
-.azure-test.net
 .azure.com
-.azure.net
-.azurecomcdn.net
-.azurecontainer.io
-.azurecosmos.net
 .azurecosmosdb.com
 .azurecosmosdb.info
 .azurecosmosdb.net
-.azuredatabricks.net
-.azuredevopslaunch.com
-.azuredigitaltwin.com
 .azuredigitaltwins.com
 .azuredigitaltwins.net
 .azuredns-prd.info
 .azuredns-prd.org
-.azureedge-test.net
 .azureedge.net
-.azureiotcentral.com
-.azureiotsolutions.com
-.azureiotsuite.com
 .azureplanetscale.info
 .azureplanetscale.net
-.azureserviceprofiler.com
-.azuresmartspaces.net
 .azurespeed.com
-.azurestackvalidation.com
 .azurewebsites.net
 .b-ok.as
 .b-ok.asia
@@ -4672,7 +4658,6 @@ zeke.scea.com
 .bandcamp.com
 .bandgirlz.com
 .bandisoft.com
-.bandpage.com
 .bandwagonhost.com
 .bangbros.com
 .bangbrosfreetrial.com
@@ -4710,8 +4695,6 @@ zeke.scea.com
 .barton.de
 .bartvpn.com
 .basedmusic.com
-.baselinestudy.com
-.baselinestudy.org
 .basevie.fr
 .bash-hackers.org
 .basic.bravedns.com
@@ -4748,7 +4731,6 @@ zeke.scea.com
 .baywords.com
 .bazarartelar.net
 .bazarfuyang.com
-.bazel.build
 .bb-chat.tv
 .bb-in.net
 .bb.com.br
@@ -4881,7 +4863,6 @@ zeke.scea.com
 .bdg987.com
 .bdj55.com
 .bdj98.com
-.bdn.dev
 .bdsmforall.com
 .bdsmstreak.com
 .bdsmtv.cc
@@ -5150,7 +5131,6 @@ zeke.scea.com
 .beatsua.com
 .beatswirelesscheap.com
 .beatswirelesscuffie.com
-.beatthatquote.com
 .beauty.md
 .beautyandthebeastmusical.co.uk
 .bebinin.com
@@ -5277,11 +5257,7 @@ zeke.scea.com
 .betboy.cc
 .betfair.com
 .betflag.it
-.beth.games
 .bethelhs.co.za
-.bethesda.net
-.bethesdagamestudios.com
-.bethsoft.com
 .betslip.hkjcfootball.com
 .betterexplained.com
 .betternet.co
@@ -5405,7 +5381,6 @@ zeke.scea.com
 .billypan.com
 .billzhu.com
 .bilyoner.com
-.binads.com
 .binance-cn.com
 .binance.cc
 .binance.charity
@@ -5440,13 +5415,7 @@ zeke.scea.com
 .bine.me
 .bing.com
 .bing.net
-.bingads.com
-.bingagencyawards.com
-.bingapistatistics.com
 .bingfeng.tw
-.bingsandbox.com
-.bingvisualsearch.com
-.bingworld.com
 .binoculus.com
 .binomo.com.br
 .bintray.com
@@ -5572,7 +5541,6 @@ zeke.scea.com
 .blackwell.co.uk
 .blainecorp.com
 .blazebox.net
-.blazor.net
 .blbest.xyz
 .bldaily.com
 .bldlive.com
@@ -5581,7 +5549,6 @@ zeke.scea.com
 .blenderartists.com
 .blewpass.com
 .blingblingsquad.net
-.blink.org
 .blinkload.zone
 .blinkx.com
 .blinw.com
@@ -5602,6 +5569,7 @@ zeke.scea.com
 .blm888888.com
 .blm898.com
 .blmdc7.com
+.blobstore.apple.com
 .blockbuster.com
 .blockcn.com
 .blockedbyhk.com
@@ -5690,7 +5658,6 @@ zeke.scea.com
 .blogspot.bg
 .blogspot.ca
 .blogspot.cat
-.blogspot.cf
 .blogspot.ch
 .blogspot.cl
 .blogspot.co.at
@@ -5714,7 +5681,6 @@ zeke.scea.com
 .blogspot.com.ng
 .blogspot.com.tr
 .blogspot.com.uy
-.blogspot.cv
 .blogspot.cz
 .blogspot.de
 .blogspot.dk
@@ -5744,7 +5710,6 @@ zeke.scea.com
 .blogspot.pt
 .blogspot.qa
 .blogspot.ro
-.blogspot.rs
 .blogspot.ru
 .blogspot.se
 .blogspot.sg
@@ -5829,8 +5794,6 @@ zeke.scea.com
 .bluedimg.com
 .bluefire.gq
 .bluefootcms.com
-.bluehatil.com
-.bluehatnights.com
 .bluekoff.net
 .bluelight.link
 .bluemix.com
@@ -6379,7 +6342,6 @@ zeke.scea.com
 .bostontibet.org
 .bot.nu
 .botanwang.com
-.botframework.com
 .botorch.org
 .botstop.com
 .boulevard-sa.com.ar
@@ -6447,13 +6409,11 @@ zeke.scea.com
 .bravotube.com
 .bravotube.net
 .bravotv.com
-.brazilpartneruniversity.com
 .brazzers.com
 .brazzersnetwork.com
 .brazzerstveurope.com
 .break.com
 .breakblack.net
-.breakdown.me
 .breakgfw.com
 .breaking911.com
 .breakingtweets.com
@@ -6513,14 +6473,12 @@ zeke.scea.com
 .broadbook.com
 .broadcast.co.nz
 .broadpressinc.com
-.brocaproject.com
 .brockbbs.com
 .bronks.net
 .bronzfederation.org.nz
 .bronzwellington.org.nz
 .brookings.edu
 .brooklynyarncafe.com
-.brotli.org
 .brovpn.io
 .browse007.com
 .browsec.com
@@ -6624,11 +6582,6 @@ zeke.scea.com
 .bullogger.com
 .bullogs.com
 .bullvpn.com
-.bumpshare.com
-.bumptop.com
-.bumptop.net
-.bumptop.org
-.bumptunes.com
 .bunbunhk.com
 .bundesliga.de
 .bungzhu.web.id
@@ -6997,7 +6950,6 @@ zeke.scea.com
 .calgonit.com
 .calibre-ebook.com
 .call-3u8633.com
-.callersbane.com
 .callhulu.com
 .calstate.edu
 .caltech.edu
@@ -7022,7 +6974,6 @@ zeke.scea.com
 .camolist.com
 .campaignforuyghurs.org
 .campushp.com
-.campuslondon.com
 .cams.com
 .cams.org.sg
 .camsoda.com
@@ -7401,7 +7352,6 @@ zeke.scea.com
 .central64.net
 .centralnation.com
 .centraltv.fr
-.centralvalidation.com
 .centrelink.gov.au
 .centresuite.com
 .centrino.com
@@ -7433,7 +7383,6 @@ zeke.scea.com
 .cgst.edu
 .ch23.ga
 .ch5.cc
-.ch9.ms
 .chadsherrell.com
 .chaikair.cc
 .chain.net
@@ -7463,13 +7412,11 @@ zeke.scea.com
 .chargenow.com
 .chargenowusa.com
 .charitygames.net
-.charlestonroadregistry.com
 .charlesworth.nom.za
 .charliehebdo.fr
 .charliewebpage.weebly.com
 .charter.com
 .charter08.com
-.charticulator.com
 .chase.com
 .chatango.com
 .chaterbate.com
@@ -7729,18 +7676,14 @@ zeke.scea.com
 .chrlawyers.hk
 .chrlawyers.jrf.org.tw
 .chrome.com
-.chromebook.com
 .chromecast.com
 .chromeenterprise.google
 .chromeexperiments.com
 .chromegae.com
-.chromeos.dev
 .chromercise.com
 .chromes.cn
 .chromestatus.com
 .chromium.org
-.chronicle.security
-.chroniclesec.com
 .chrs.me.uk
 .cht.com.tw
 .chtf.org.tw
@@ -7925,9 +7868,6 @@ zeke.scea.com
 .cloud.ntpc.gov.tw
 .cloud.oracle.com
 .cloud8521.tk
-.cloudapp.net
-.cloudappsecurity.com
-.cloudburstresearch.com
 .cloudc.one
 .cloudchoose.com
 .cloudcone.com
@@ -7955,7 +7895,6 @@ zeke.scea.com
 .cloudfoundry.com
 .cloudfront.glb.cellopoint.com
 .cloudfront.net
-.cloudfunctions.net
 .cloudgarage.jp
 .cloudhealthtech.com
 .cloudimage.io
@@ -7968,7 +7907,6 @@ zeke.scea.com
 .cloudmagic.com
 .cloudmosa.com
 .cloudn.me
-.cloudrobotics.com
 .cloudtv.bz
 .cloudup.com
 .cloudvolumes.com
@@ -8107,7 +8045,6 @@ zeke.scea.com
 .cobatt.com
 .cobeuz.fr
 .cobinhood.com
-.cobrasearch.com
 .cobuz.fr
 .cobuzz.fr
 .cochina.co
@@ -8137,8 +8074,6 @@ zeke.scea.com
 .codepunk.io
 .codeshare.io
 .codeskulptor.org
-.codespot.com
-.codethemicrobit.com
 .coedcherry.com
 .coeus.co.uk
 .cofelca.com
@@ -8246,8 +8181,6 @@ zeke.scea.com
 .connermcd.com
 .conoha.jp
 .conquerwithcharacter.com
-.conscrypt.com
-.conscrypt.org
 .consolidez.ro
 .constitutionalism.solutions
 .consul.io
@@ -8283,9 +8216,6 @@ zeke.scea.com
 .coolstuffinc.com
 .coolxtv.com
 .cooproriz.pt
-.coova.com
-.coova.net
-.coova.org
 .copywinner.org
 .cordcloud.cc
 .cordcloud.co
@@ -8302,8 +8232,6 @@ zeke.scea.com
 .coronavirusnow.com
 .corporatecashpassport.com
 .corriere.it
-.cortanaanalytics.com
-.cortanaskills.com
 .corumcollege.com
 .cos-moe.com
 .cosersuki.net
@@ -8402,15 +8330,11 @@ zeke.scea.com
 .crisp.chat
 .cristyli.com
 .crit-staging.com
-.crmdynint-gcc.com
-.crmdynint.com
 .crocotube.com
 .crola.xyz
-.crossborderexpansion.com
 .crossfire.co.kr
 .crossfireyouthministry.com
 .crossfitfirestone.com
-.crossmediapanel.com
 .crossthewall.net
 .crossvpn.net
 .crosswalk-project.com
@@ -8420,7 +8344,6 @@ zeke.scea.com
 .crowdtilt.com
 .crownka.com
 .croxyproxy.com
-.crr.com
 .crrev.com
 .crsna-2015.tk
 .crucial.com
@@ -8478,7 +8401,6 @@ zeke.scea.com
 .cs270.com
 .cs368.com
 .cs392.com
-.cs4hs.com
 .cs505.com
 .cs55111.com
 .cs552.com
@@ -8829,10 +8751,7 @@ zeke.scea.com
 .darktruth.tk
 .darpa.mil
 .darrenliuwei.com
-.dart.dev
 .dartlang.org
-.dartpad.dev
-.dartsearch.net
 .darwinex.com
 .darwinsource.com
 .darwinsource.org
@@ -8853,7 +8772,6 @@ zeke.scea.com
 .data.org.tr
 .datafilehost.com
 .datalak3.ml
-.dataliberation.org
 .datalore.io
 .dataprivacyproject.org
 .datasegura.com
@@ -8999,7 +8917,6 @@ zeke.scea.com
 .debate.org
 .debian.org
 .debug.com
-.debugproject.com
 .deck.ly
 .decodet.co
 .decolores.cl
@@ -9130,10 +9047,7 @@ zeke.scea.com
 .devilsfilm.com
 .devio.us
 .devm2m.com
-.devopsassessment.net
-.devopsms.com
 .devpn.com
-.devsitetest.how
 .devtools-paypal.com
 .dewarp.me
 .dewitwithdurex.com
@@ -9177,7 +9091,6 @@ zeke.scea.com
 .dicela.net
 .dicionar.io
 .dicmusic.club
-.dictate.ms
 .dictatorwatch.org
 .dictionary.com
 .didce.com
@@ -9196,7 +9109,6 @@ zeke.scea.com
 .digisfera.com
 .digital-id.ch
 .digital-rb.com
-.digitalassetlinks.org
 .digitalattackmap.com
 .digitalcertvalidation.com
 .digitalhub.com
@@ -9551,7 +9463,6 @@ zeke.scea.com
 .docker.io
 .dockerhub.com
 .dockerizer.com
-.docs.com
 .docs.rs
 .docstoc.com
 .docstrans.com
@@ -9579,6 +9490,7 @@ zeke.scea.com
 .doh.applied-privacy.net
 .doh.appliedprivacy.net
 .doh.au.ahadns.net
+.doh.dns.apple.com
 .doh.dnslify.com
 .doh.doh.my.id
 .doh.eastus.pi-dns.com
@@ -9641,7 +9553,6 @@ zeke.scea.com
 .dorcelclub.com
 .dorceltv.com
 .dorjeshugden.com
-.dot.net
 .dotcernpilot.info
 .dotclub.com
 .dotdeb.org
@@ -9974,7 +9885,6 @@ zeke.scea.com
 .dynamicdns.co.uk
 .dynamicdns.me.uk
 .dynamicdns.org.uk
-.dynamics.com
 .dynathome.net
 .dynawebinc.com
 .dyncdn.me
@@ -10359,7 +10269,6 @@ zeke.scea.com
 .efksoft.com
 .efmoe.com
 .efoodking.com
-.efproject.net
 .efukt.com
 .eg1111.com
 .eg1900.com
@@ -10578,7 +10487,6 @@ zeke.scea.com
 .epinions.com
 .episcopalchurch.org
 .episcopalchurch.org.tw
-.episodic.com
 .epoch.cloud
 .epochbuy.com
 .epochcar.com
@@ -10737,6 +10645,7 @@ zeke.scea.com
 .europalace.com
 .europalibera.org
 .europapress.es
+.europe-west1-mth-web.cloudfunctions.net
 .europepmc.org
 .europornstar.com
 .europroxy.eu
@@ -11280,8 +11189,6 @@ zeke.scea.com
 .fastener.tw
 .fastest-proxy.com.de
 .fastestvpn.com
-.fastlane.ci
-.fastlane.tools
 .fastlanecommission.com
 .fastly-terrarium.com
 .fastly.com
@@ -11294,7 +11201,6 @@ zeke.scea.com
 .fastssh.com
 .faststone.org
 .fasttext.cc
-.fasttrackreadysupport.com
 .fastusaproxy.com
 .fastxzp.com
 .fatbtc.com
@@ -11418,7 +11324,6 @@ zeke.scea.com
 .feitianacademy.org
 .feixiaohao.com
 .felixcat.net
-.femalefounderscomp.com
 .fembed.com
 .femefun.com
 .feministteacher.com
@@ -11508,7 +11413,6 @@ zeke.scea.com
 .filthdump.com
 .fin24.com
 .finalcutpro.com
-.financeleadsonline.com
 .financetwitter.com
 .financialadvisoriq.com
 .finchvpn.com
@@ -11551,7 +11455,6 @@ zeke.scea.com
 .firearmsworld.net
 .fireballrs.de
 .firebase.com
-.firebaseapp.com
 .firebaseio.com
 .firecams.com
 .firech.at
@@ -11628,7 +11531,6 @@ zeke.scea.com
 .flipkart.com
 .flipnotestudio.com
 .flipshare.com
-.flipwithsurface.com
 .flitto.com
 .fljsq.cn
 .fll.cc
@@ -11639,11 +11541,8 @@ zeke.scea.com
 .flow.org
 .flowerofchange.de
 .flowtype.org
-.fluidpreview.com
 .fluimec.com.br
 .flushingcn.com
-.flutter.dev
-.flutterapp.com
 .flyercenter.com
 .flyflv.com
 .flyingcloudproductions.com
@@ -11691,7 +11590,6 @@ zeke.scea.com
 .fontsinuse.com
 .foodking.com.cn
 .foodking.com.tw
-.foofle.com
 .fookpan.com
 .foolsmountain.com
 .fooooo.com
@@ -11738,9 +11636,6 @@ zeke.scea.com
 .forums.tripwireinteractive.com
 .forusex.com
 .forwarddemocracy.com
-.forzamotorsport.net
-.forzaracingchampionship.com
-.forzarc.com
 .fos-ff.net
 .fosebook.com
 .fosunhani.com
@@ -12187,7 +12082,6 @@ zeke.scea.com
 .frontiersin.org
 .frontlinedefenders.org
 .frontzp.com
-.froogle.com
 .frootvpn.com
 .frostaura.net
 .frostbite.com
@@ -12392,14 +12286,11 @@ zeke.scea.com
 .g-area.org
 .g-queen.com
 .g-technology.com
-.g-tun.com
 .g-tvapp.com
 .g.alexyang.me
 .g.co
 .g.codery.ga
-.g.dev
 .g.libnull.com
-.g.page
 .g.starmoe.xyz
 .g.zmirrordemo.com
 .g00gle.pw
@@ -12466,12 +12357,10 @@ zeke.scea.com
 .gamer.com.tw
 .gameroom.com
 .gamerp.jp
-.gamesstack.com
 .gamestlbb.com
 .gametime.in
 .gametrailer.com
 .gametrailers.com
-.gameuxmasterguide.com
 .gamez.com.tw
 .gaming-notebooks.com
 .gamingbrowsers.com
@@ -12510,7 +12399,6 @@ zeke.scea.com
 .gate.huang.cool
 .gate.io
 .gatecoin.com
-.gateway.dev
 .gateway.jb88app.com
 .gateway.jbo25.com
 .gateway.tlc801.com
@@ -12618,9 +12506,6 @@ zeke.scea.com
 .gdssecurity.com
 .gdthing.com
 .gdzf.org
-.gears5.com
-.gearspop.com
-.gearstactics.com
 .geek-art.net
 .geek-squad-support.com
 .geek-squad.net
@@ -12686,8 +12571,8 @@ zeke.scea.com
 .germandeli.com
 .germany-proxy.com.de
 .germany-webproxy.de
-.gerritcodereview.com
 .gesgxsj.com
+.gestion-voyage-796ae.firebaseapp.com
 .gesundteam.se
 .get-a-fuck-tonight.com
 .get-out.co
@@ -12702,7 +12587,6 @@ zeke.scea.com
 .getbootstrap.com
 .getboxer.com
 .getbraintree.com
-.getbumptop.com
 .getchu.com
 .getcloak.com
 .getcloudapp.com
@@ -12816,7 +12700,6 @@ zeke.scea.com
 .ggg16.net
 .ggg36.net
 .ggg626.net
-.ggoogle.com
 .ggpht.com
 .ggso.co
 .ggso.me
@@ -12854,7 +12737,6 @@ zeke.scea.com
 .gigadomo.com
 .giganews.com
 .gigavest.com
-.gigjam.com
 .gigporno.ru
 .gigscity.com
 .giize.com
@@ -12862,7 +12744,6 @@ zeke.scea.com
 .gingerpeople.com
 .ginx.com
 .ginzasonypark.jp
-.gipscorp.com
 .giratina.com
 .girlbanker.com
 .girlfriendvideos.com
@@ -12918,7 +12799,6 @@ zeke.scea.com
 .global-sci.org
 .global.ishadowx.net
 .globaleast.org
-.globaledu.org
 .globalfishingwatch.org
 .globaljihad.net
 .globalmediaoutreach.com
@@ -12989,9 +12869,6 @@ zeke.scea.com
 .gnu.org
 .gnuradio.org
 .go-disneyworldgo.com
-.go-lang.com
-.go-lang.net
-.go-lang.org
 .go-pki.com
 .go.com
 .go.dev
@@ -13042,14 +12919,12 @@ zeke.scea.com
 .gogo2sex.com
 .gogoanime.wiki
 .gogocdn.net
-.gogole.com
 .gogotunnel.com
 .goihoa.com
 .gojdu91.ro
 .gokbayrak.com
 .gol777.com
 .golang.com
-.golang.net
 .golang.org
 .goldbet.com
 .goldbetsports.com
@@ -13072,7 +12947,6 @@ zeke.scea.com
 .gommehd.net
 .gomokuworld.com
 .gonfuxtv.com
-.gonglchuangl.net
 .gongm.in
 .gongmeng.info
 .gongminliliang.com
@@ -13099,11 +12973,8 @@ zeke.scea.com
 .goodtv.org
 .goodtv.tv
 .goofind.com
-.googel.com
-.googil.com
 .googl.com
 .google-melange.com
-.google-syndication.com
 .google.ac
 .google.ad
 .google.ae
@@ -13118,7 +12989,6 @@ zeke.scea.com
 .google.az
 .google.ba
 .google.be
-.google.berlin
 .google.bf
 .google.bg
 .google.bi
@@ -13327,12 +13197,10 @@ zeke.scea.com
 .google.ua
 .google.uk
 .google.us
-.google.ventures
 .google.vg
 .google.vn
 .google.vu
 .google.ws
-.googleacquisitionmigration.com
 .googleapis.cn
 .googleapis.com
 .googleapps.com
@@ -13341,17 +13209,13 @@ zeke.scea.com
 .googleartproject.com
 .googleblog.com
 .googlebot.com
-.googlecapital.com
-.googlecert.net
 .googlechinawebmaster.com
 .googlecode.com
-.googledanmark.com
 .googledomains.com
 .googledrive.com
 .googlee.com
 .googleearth.com
 .googlefiber.net
-.googlefinland.com
 .googleforchina.com
 .googlegroups.com
 .googlehosted.com
@@ -13359,20 +13223,15 @@ zeke.scea.com
 .googleinsidesearch.com
 .googlelabs.com
 .googlemail.com
-.googlemaps.com
 .googlemashups.com
 .googlepagecreator.com
-.googlephotos.com
 .googleplay.com
 .googleplus.com
 .googlescholar.com
 .googlescholar.comusa
 .googlesile.com
 .googlesource.com
-.googlestore.com
-.googlesverige.com
 .googleusercontent.com
-.googleventures.com
 .googlevideo.com
 .googleweblight.com
 .googleyoutube.com
@@ -13400,7 +13259,6 @@ zeke.scea.com
 .gosq.com
 .gostorego.com
 .got-game.org
-.gotcosmos.com
 .gotdns.ch
 .gotgayporn.com
 .gotgeeks.com
@@ -13447,7 +13305,6 @@ zeke.scea.com
 .grantland.com
 .grapecartoons.com
 .graph.org
-.graphengine.io
 .graphic-line.at
 .graphis.ne.jp
 .graphql.org
@@ -13490,7 +13347,6 @@ zeke.scea.com
 .greenvpn.org
 .greyhurst.ca
 .greyling.org.za
-.gridaware.app
 .grik.gr
 .griyalestari.com
 .grjsq.me
@@ -13520,11 +13376,9 @@ zeke.scea.com
 .gso.hk
 .gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
 .gspe19-cn.ls-apple.com.akadns.net
-.gsrc.io
 .gstatic.cn
 .gstatic.com
 .gstf.org
-.gsuite.com
 .gt0000.com
 .gt000111.com
 .gt3322.com
@@ -13597,10 +13451,6 @@ zeke.scea.com
 .gvt0.com
 .gvt1.com
 .gvt3.com
-.gvt5.com
-.gvt6.com
-.gvt7.com
-.gvt9.com
 .gvtube.com
 .gw.ipfspin.com
 .gw.poscointl.com
@@ -13879,7 +13729,6 @@ zeke.scea.com
 .hdpornfull.com
 .hdpost.top
 .hdroute.org
-.hdrplusdata.org
 .hdsky.me
 .hdstreet.club
 .hdtime.org
@@ -14116,7 +13965,6 @@ zeke.scea.com
 .himemix.com
 .himemix.net
 .hindawi.com
-.hindiweb.com
 .hinduismtoday.com
 .hinet.net
 .hip2save.com
@@ -14348,7 +14196,6 @@ zeke.scea.com
 .hola.org
 .holeinthewallhosting.net
 .holeyfuck.com
-.hololens.com
 .holymountaincn.com
 .holyshit.com
 .holyspiritspeaks.org
@@ -14731,7 +14578,6 @@ zeke.scea.com
 .humanrightshouse.org
 .humansofnewyork.com
 .humblebundle.com
-.hummingbird.ms
 .hung-ya.com
 .hungerstrikeforaids.org
 .hungyatw.com
@@ -14764,7 +14610,6 @@ zeke.scea.com
 .hwayue.org.tw
 .hwcdn.net
 .hwcp33.com
-.hwgo.com
 .hwinfo.com
 .hwslabs.com
 .hwtang.com
@@ -14833,7 +14678,6 @@ zeke.scea.com
 .iamakamai.com
 .iamakamai.net
 .iamjohnoliver.com
-.iamremarkable.org
 .iamtopone.com
 .iansparham.org.uk
 .iask.bz
@@ -14927,14 +14771,10 @@ zeke.scea.com
 .idsam.com
 .idservice.inc
 .idv.tw
-.ie10.com
-.ie11.com
 .ie1810.com
 .ie2201.com
 .ie2205.com
 .ie2206.com
-.ie8.co
-.ie9.com
 .ieasy5.com
 .iebay.com
 .ied2k.net
@@ -15162,7 +15002,6 @@ zeke.scea.com
 .imperial.insendi.com
 .imperialbusiness.school
 .imperialceo.com
-.impermium.com
 .importruck.cl
 .impp.mn
 .improv4business.com
@@ -15241,7 +15080,6 @@ zeke.scea.com
 .infowars.com
 .infowarsmedia.com
 .infrapedia.com
-.ingads.com
 .ingarden.pt
 .ingka.com
 .ingka.dev
@@ -15289,7 +15127,6 @@ zeke.scea.com
 .insidemacintosh.com
 .insider-intelligence.com
 .insider.com
-.insiderdevtour.com
 .insiderintelligence.com
 .insidevoa.com
 .insightcced.com
@@ -15582,7 +15419,6 @@ zeke.scea.com
 .intporn.com
 .intrade.com
 .intralot.it
-.intunewiki.com
 .inversionesmatulic.cl
 .investing.com
 .investusa-eb5.weebly.com
@@ -15601,7 +15437,6 @@ zeke.scea.com
 .ionic.cf
 .iosapps.itunes.g.aaplimg.com
 .iosinthecar.com
-.iotinactionevents.com
 .iownyour.biz
 .iownyour.org
 .ioxoxi.club
@@ -15879,7 +15714,6 @@ zeke.scea.com
 .itunes-apple.com.akadns.net
 .itunes-radio.net
 .itunes.co
-.itunes.com
 .itunes.org
 .itunes.rio
 .itunes12days.com
@@ -15955,7 +15789,6 @@ zeke.scea.com
 .j088088.com
 .j2.jygnet.org
 .j2268.com
-.j2objc.org
 .j32aa.com
 .j35.co
 .j4b4.com
@@ -16202,7 +16035,6 @@ zeke.scea.com
 .jiaoyou8.com
 .jiayoulu.com
 .jiayuan.uk
-.jibemobile.com
 .jiduvpn.com
 .jie.idv.tw
 .jiehua.cz
@@ -16452,7 +16284,6 @@ zeke.scea.com
 .jwplatform.com
 .jwplayer.com
 .jwpsrv.com
-.jwt.ms
 .jwzzgw6.com
 .jx2833.com
 .jx3747.com
@@ -16498,8 +16329,6 @@ zeke.scea.com
 .kaboodle.com
 .kadinlarkulubu.com
 .kadokawa.co.jp
-.kaggle.com
-.kaggle.io
 .kagyu-sfla.org
 .kagyu.org
 .kagyu.org.nz
@@ -16615,9 +16444,6 @@ zeke.scea.com
 .key.visualarts.gr.jp
 .keycdn.com
 .keyhole.com
-.keytransparency.com
-.keytransparency.foo
-.keytransparency.org
 .kfc2002.com
 .kfc2003.com
 .kfc2006.com
@@ -16642,7 +16468,6 @@ zeke.scea.com
 .kicksnike1.com
 .kicu.tv
 .kidc.net
-.kidgrid.tv
 .kids.president.gov.tw
 .kidsnikeshoes.com
 .kielconsulting.org
@@ -16964,7 +16789,6 @@ zeke.scea.com
 .lanking.web44.net
 .lansis.com.ar
 .lantern.io
-.lanternal.com
 .lanterncn.cn
 .lanterncn.org
 .lantosfoundation.org
@@ -17004,7 +16828,6 @@ zeke.scea.com
 .lastpass.com
 .lasvegasbmw.com
 .lasvegaschinesedailynews.com
-.latampartneruniversity.com
 .latamvmwareforum.com
 .latelinenews.com
 .latencytop.com
@@ -17458,7 +17281,6 @@ zeke.scea.com
 .livingonline.us
 .livingotherwise.com
 .livingstream.com
-.livingyourambition.com
 .livrariart.com.br
 .liwangyang.com
 .liyuwiki.com
@@ -17988,7 +17810,6 @@ zeke.scea.com
 .mak.com.au
 .makaan.com
 .makebettercode.com
-.makecode.org
 .makeeu.com
 .makeitopen.com
 .makemymood.com
@@ -18011,7 +17832,6 @@ zeke.scea.com
 .mamingzhe.com
 .mammothtube.com
 .managed-pki.ch
-.managedmeetingrooms.com
 .manager-magazin.de
 .manarat.com
 .manausclass.com.br
@@ -18119,7 +17939,6 @@ zeke.scea.com
 .maryfloo.cl
 .masalalu.gq
 .masalili.tw
-.masalladeloslimites.com
 .mash.to
 .mashaalradio.com
 .mashable.com
@@ -18299,15 +18118,12 @@ zeke.scea.com
 .medium.systems
 .medley.com
 .medrxiv.org
-.meet.new
 .meetav.com
 .meetchat.club
-.meetfasttrack.com
 .meeting.yunghsuan.me
 .meetme.com
 .meetsmartbook.com
 .meetup.com
-.meetyourdevices.com
 .meexpress.net
 .mefeedia.com
 .meforum.org
@@ -18363,7 +18179,6 @@ zeke.scea.com
 .mentadulce.cl
 .meow.idv.tw
 .mephistonet.nl
-.mepn.com
 .meraki-go.com
 .meraki.hk
 .merakigo.com
@@ -18424,7 +18239,6 @@ zeke.scea.com
 .mf3888.com
 .mfcclub.com
 .mfetu.com
-.mfg-inspector.com
 .mfs-shatel-training.maaii.com
 .mfxmedia.com
 .mg3333.com
@@ -18472,13 +18286,7 @@ zeke.scea.com
 .mickymouse.site44.com
 .micorsoft.com.br
 .micro.blog
-.microbit.org
 .microcycas.com
-.microsoft-give.com
-.microsoft-int.com
-.microsoft-ppe.com
-.microsoft-sap-events.com
-.microsoft-sbs-domains.com
 .microsoft.be
 .microsoft.cat
 .microsoft.ch
@@ -18492,30 +18300,8 @@ zeke.scea.com
 .microsoft.red
 .microsoft.rs
 .microsoft.tv
-.microsoft365.com
-.microsoftaccountguard.com
-.microsoftadc.com
-.microsoftads.com
-.microsoftadvertising.com
-.microsoftadvertisingregionalawards.com
-.microsoftaffiliates.com
-.microsoftcloud.com
-.microsoftcloudsummit.com
-.microsoftcloudworkshop.com
-.microsoftcommunitytraining.com
-.microsoftdiplomados.com
-.microsofteca.com
-.microsoftedge.com
-.microsoftgamestack.com
 .microsofthouse.com
 .microsofthouse.net
-.microsoftinternetsafety.net
-.microsoftiotcentral.com
-.microsoftiotinsiderlabs.com
-.microsoftlatamaitour.com
-.microsoftlatamholiday.com
-.microsoftlinc.com
-.microsoftmxfilantropia.com
 .microsoftnews.cc
 .microsoftnews.com
 .microsoftnews.net
@@ -18526,24 +18312,14 @@ zeke.scea.com
 .microsoftnewskids.com
 .microsoftnewskids.net
 .microsoftnewskids.org
-.microsoftonline-p.com
-.microsoftpartnercommunity.com
-.microsoftpartnersolutions.com
 .microsoftreactor.info
 .microsoftreactor.net
 .microsoftreactor.org
-.microsoftready.com
 .microsoftsilverlight.com
 .microsoftsilverlight.net
 .microsoftsilverlight.org
-.microsoftsiteselection.com
-.microsoftsqlserver.com
 .microsoftstore.com
-.microsoftstream.com
-.microsoftteams.com
-.microsofttradein.com
 .microsofttranslator.com
-.microsoftuwp.com
 .microvpn.com
 .micstl.com
 .midatlanticbmwmotorcycles.com
@@ -18579,9 +18355,7 @@ zeke.scea.com
 .mindmeld.com
 .mindnode.com
 .mindrolling.org
-.minecraft.net
 .minecraftr.us
-.minecraftshop.com
 .mineirinhanalemanha.de
 .minesword.ml
 .mingbairen.com.au
@@ -18914,7 +18688,6 @@ zeke.scea.com
 .mm831.com
 .mm94168.com
 .mmacademyedu.com
-.mmdnn.com
 .mmgal.com
 .mmk.dyn.mk
 .mmm-office.com
@@ -18941,7 +18714,6 @@ zeke.scea.com
 .mobilefacebook.com
 .mobileinternational.com
 .mobilemarketo.com
-.mobileview.page
 .mobileways.de
 .mobily.com.sa
 .moby.to
@@ -18978,7 +18750,6 @@ zeke.scea.com
 .mohu.rocks
 .mohu.tw
 .moi.gov.sa
-.mojang.com
 .mojim.com
 .mok.com.my
 .mokagames.com
@@ -18987,7 +18758,6 @@ zeke.scea.com
 .mol.im
 .molesports.com
 .molihua.org
-.momentumms.com
 .mommyfucktube.com
 .mommyninicenter.ir
 .momo.dm
@@ -19018,7 +18788,6 @@ zeke.scea.com
 .monitrix.net
 .monkeywerks.net
 .monlamit.org
-.mono-project.com
 .monocloud.com.au
 .monotype.com
 .monotypeimaging.com
@@ -19092,7 +18861,6 @@ zeke.scea.com
 .monvpn.com
 .moo.im
 .moodle.stmartins.edu
-.moodstocks.com
 .moodys.com
 .moodyz.com
 .moon.com
@@ -19113,7 +18881,6 @@ zeke.scea.com
 .morningsun.org
 .moromie-av.com
 .moroneta.com
-.morphcharts.com
 .mortein.com
 .mortein.com.pk
 .morteincam.com
@@ -19183,7 +18950,6 @@ zeke.scea.com
 .mpfinance.com
 .mpfive.com
 .mpinews.com
-.mpnevolution.com
 .mponline.hk
 .mps.kcg.gov.tw
 .mpv.io
@@ -19225,11 +18991,9 @@ zeke.scea.com
 .mrtc88.com
 .mrtweet.com
 .mrvip100.com
-.ms-studiosmedia.com
 .ms014.com
 .ms196.com
 .ms196.net
-.ms365surfaceoffer.com
 .ms378.com
 .ms4dre.com
 .ms52.cf
@@ -19237,18 +19001,11 @@ zeke.scea.com
 .ms6588.com
 .msa-it.org
 .msb.strikewin.com
-.mschallenge2018.com
-.msdn.com
 .msft.info
-.msft.net
-.msftauth.net
-.msftnet.org
 .msg.vg
-.msgamesresearch.com
 .msgforex.com
 .msguancha.com
 .msha.gov
-.msinnovationchallenge.com
 .msn.com
 .msn.com.tw
 .msnapk.com
@@ -19256,17 +19013,10 @@ zeke.scea.com
 .msnewskids.com
 .msnewskids.net
 .msnewskids.org
-.msnkids.com
-.msocsp.com
 .msp2.czxujiwq.com
-.mspairlift.com
 .msper.freeiz.com
-.msropendata.com
 .mstage.io
 .mstdn.io
-.msturing.org
-.msudalosti.com
-.msunlimitedcloudsummit.com
 .mswe1.org
 .mtanos.com
 .mthruf.com
@@ -19497,7 +19247,6 @@ zeke.scea.com
 .mylogiclab.com
 .mymaji.com
 .mymediarom.com
-.mymicrosoft.com
 .myminiso.com
 .mymmode.com
 .mymoe.moe
@@ -19938,7 +19687,6 @@ zeke.scea.com
 .nextcomm.com.ar
 .nextdigital.com.hk
 .nextdoor.com
-.nextechafrica.net
 .nextgenerationcenter.com
 .nextgenvpn.com
 .nextjav.com
@@ -20274,7 +20022,6 @@ zeke.scea.com
 .nolencasa.com
 .nomadlandmovie.ch
 .nomadproject.io
-.nomulus.foo
 .non-fakenews.org
 .nonesovile.com
 .nonktube.com
@@ -20425,8 +20172,6 @@ zeke.scea.com
 .nudevista.com
 .nudezz.com
 .nuexpo.com
-.nuget.org
-.nugettest.org
 .nukistream.com
 .numbr.com
 .nunuyy.cc
@@ -20498,7 +20243,6 @@ zeke.scea.com
 .nwsuaf6.edu.cn
 .nwtca.org
 .nxgx.com
-.nxta.org
 .ny1.com
 .nyaa.com
 .nyaa.eu
@@ -20545,9 +20289,6 @@ zeke.scea.com
 .nzz.ch
 .o0-2.com
 .o33285.com
-.o365weve-dev.com
-.o365weve-ppe.com
-.o365weve.com
 .o50.jp
 .o53xo.pfxxk5dvmjss4y3pnu.nblk.ru
 .o8919.com
@@ -20563,7 +20304,6 @@ zeke.scea.com
 .oath.cloud
 .oath.com
 .oauth.net
-.oauthz.com
 .objects.dreamhost.com
 .observable.net
 .observechina.net
@@ -20616,8 +20356,6 @@ zeke.scea.com
 .offbeatchina.com
 .offerairjordanlebron.com
 .office365.com
-.office365love.com
-.office365tw.com
 .officemax.com
 .officeoftibet.com
 .officialbeatsbydreshop.com
@@ -20716,7 +20454,6 @@ zeke.scea.com
 .on-sir.tk
 .on-the-web.tv
 .on.cc
-.on.here
 .on2.com
 .onapp.com
 .onavo.com
@@ -20739,18 +20476,14 @@ zeke.scea.com
 .onedrive.org
 .onedumb.com
 .oneeightyeightbet.com
-.onefifteen.net
-.onefifteen.org
 .onegospel.co.za
 .oneintranet.veolia.com
 .onejav.com
 .onenote.com
 .onestore.co.kr
-.onestore.ms
 .onetechsa.com.ar
 .onevps.com
 .oneworldgaming.com
-.oneworldmanystories.com
 .onexxtv.com
 .oninstagram.com
 .onion.city
@@ -20848,14 +20581,11 @@ zeke.scea.com
 .opentable.com
 .opentech.fund
 .opentechfund.org
-.openthread.io
-.opentranslatorstothings.org
 .openvinotoolkit.org
 .openvpn.com
 .openvpn.net
 .openvpn.org
 .openvpn.se
-.openweave.io
 .openwebster.com
 .openwrt.org
 .openwrt.org.cn
@@ -20878,7 +20608,6 @@ zeke.scea.com
 .optibrium.co.uk
 .optica.org
 .opticalize.com
-.opticsforthecloud.net
 .optimumssl.com
 .opus-gaming.com
 .oraclecloud.com
@@ -20886,7 +20615,6 @@ zeke.scea.com
 .oracleimg.com
 .orangemail.okstate.edu
 .oranges.idv.tw
-.orbitera.com
 .orchid.com
 .orchidbbs.com
 .order.shadowsocks.at
@@ -20919,7 +20647,6 @@ zeke.scea.com
 .origin.tv
 .originalhulu.com
 .originsoft.co.uk
-.orithegame.com
 .orkut.co.in
 .orkut.com
 .orl.ly
@@ -20975,7 +20702,6 @@ zeke.scea.com
 .ourxxtv.com
 .outbound.io
 .outfw.net
-.outingsapp.com
 .outletbeatsshop.com
 .outletnike.com
 .outlooktibet.com
@@ -21142,8 +20868,6 @@ zeke.scea.com
 .pagecdn.io
 .pages.dev
 .pagesjaunes.fr
-.pagespeedmobilizer.com
-.pageview.mobi
 .pagodabox.com
 .pahabicilemezsurprizler.com
 .pahaunts.com
@@ -21217,7 +20941,6 @@ zeke.scea.com
 .parstream.net
 .parstream.org
 .partizy.com
-.partylikeits1986.org
 .pascalau.ro
 .pascherbeatsmonster.com
 .pashtovoa.com
@@ -21229,7 +20952,6 @@ zeke.scea.com
 .passion.com
 .passionhdfan.com
 .passiontimes.hk
-.passport.net
 .paste.ee
 .pastebin.com
 .pastel.ink
@@ -21583,6 +21305,7 @@ zeke.scea.com
 .phimvideo.org
 .phmsociety.org
 .phncdn.com
+.phobos.apple.com
 .phoenixnewtimes.com
 .phoeshow.me
 .phoile.tender88.com
@@ -21627,8 +21350,6 @@ zeke.scea.com
 .picacomiccn.com
 .picasa.com
 .picasaweb.com
-.picasaweb.net
-.picasaweb.org
 .pichunter.com
 .picidae.net
 .picknicekicks.net
@@ -21714,13 +21435,10 @@ zeke.scea.com
 .pise.pw
 .piss.com
 .pissmops.com
-.pittpatt.com
 .pivotalinitiative.com
 .pivx.com
 .piwheels.org
 .pixandvideo.com
-.pixapp.net
-.pixate.com
 .pixegram.com
 .pixelmator.com
 .pixelqi.com
@@ -21896,7 +21614,6 @@ zeke.scea.com
 .polygon.com
 .polymer-project.org
 .polymerhk.com
-.polymerproject.org
 .polysolve.com
 .pomf.cat
 .pomf.io
@@ -22016,7 +21733,6 @@ zeke.scea.com
 .porzo.com
 .pose.com
 .poshserv.ml
-.poshtestgallery.com
 .positivessl.com
 .poskotanews.com
 .possessed.us
@@ -22041,18 +21757,14 @@ zeke.scea.com
 .powells.com
 .power.com
 .powerapple.com
-.powerappscdn.net
-.powerautomate.com
 .powerbeats2wireless.com
 .powerbeatsbydrdre.com
 .powerbeatsbydre.com
-.powerbi.com
 .powercx.com
 .poweredbyintel.com
 .powerofresolve.com
 .powerphoto.org
 .powerpointninja.com
-.powershellgallery.com
 .powersunitedvr.com
 .powerwave.com
 .poyopara.com
@@ -22145,7 +21857,6 @@ zeke.scea.com
 .pritunl.com
 .privacybox.de
 .privacyprotector.eu
-.privacysandbox.com
 .privacysimplified.com
 .privacytools.io
 .private.com
@@ -22179,13 +21890,9 @@ zeke.scea.com
 .prohub.com
 .project-syndicate.org
 .projectapex.com
-.projectara.com
-.projectbaseline.com
 .projecteuclid.org
 .projecth.us
 .projectinterfaith.org
-.projectmurphy.net
-.projectsangam.com
 .projectsecretidentity.org
 .projectus-grupa.hr
 .prokher.pro
@@ -22371,7 +22078,6 @@ zeke.scea.com
 .publicaffairsbooks.com
 .publicagent.com
 .publicdomainreview.org
-.publishproxy.com
 .pubu.com.tw
 .pubu.tw
 .puddlehunters.net
@@ -22425,14 +22131,12 @@ zeke.scea.com
 .pvzheroes.com
 .pw.fiddlefish.net
 .pwa-as.kmyuntai.cn
-.pwabuilder.com
 .pwmnet.com
 .pwned.com
 .pwnedpasswords.com
 .pwnwiki.org
 .px.mystakidis.gr
 .pximg.net
-.pxt.io
 .pycon.org
 .pydabogados.com.ar
 .pyhapp.com
@@ -22623,7 +22327,6 @@ zeke.scea.com
 .quick.likeso.ml
 .quickconnect.to
 .quickleft.net
-.quickoffice.com
 .quickpornsearch.com
 .quicksilvermail.net
 .quicktake.video
@@ -22631,7 +22334,6 @@ zeke.scea.com
 .quicktime.com
 .quicktime.net
 .quicktime.tv
-.quiksee.com
 .quilt.com
 .quip-cdn.com
 .quip.com
@@ -23008,8 +22710,6 @@ zeke.scea.com
 .renchead.com
 .renkrip.com
 .renminjiandu.com
-.renovacionoffice.com
-.renovacionxboxlive.com
 .renovohill.com
 .rentaride.com
 .rentaride.de
@@ -23070,7 +22770,6 @@ zeke.scea.com
 .revleft.com
 .revocationcheck.com
 .revolutionradiomiami.com
-.revolv.com
 .revver.com
 .reward.ggcarry888.com
 .rewrite-anime.tv
@@ -23113,7 +22812,6 @@ zeke.scea.com
 .ricochet.im
 .riddim.com.ar
 .rideexpress.com
-.ridepenguin.com
 .ridgeline-roofing.com
 .rigaero.com
 .rightbtc.com
@@ -23278,7 +22976,6 @@ zeke.scea.com
 .rule34.xxx
 .rumah123.com
 .rumahsabiq.com
-.run.app
 .runbtx.com
 .runescape.com
 .runhomefast.com
@@ -23317,7 +23014,6 @@ zeke.scea.com
 .s-cashonmobile.com
 .s-cute.com
 .s-dragon.org
-.s-msn.com
 .s-nbcnews.com
 .s-rewards.hk
 .s-xoom.com
@@ -23460,7 +23156,6 @@ zeke.scea.com
 .sankei-kurashi.com
 .sankei-tours.com
 .sankei.com
-.sankie.net
 .sanmin.com.tw
 .sans.edu
 .sanspo.com
@@ -23499,7 +23194,6 @@ zeke.scea.com
 .say2.info
 .saycheese.hk
 .saygcup.com
-.saynow.com
 .sb-cd.com
 .sb-results.188bet.com
 .sb-telecom.net
@@ -23561,7 +23255,6 @@ zeke.scea.com
 .sceper.ws
 .schalk.com.br
 .schema.org
-.schemer.com
 .schiffvitamins.com
 .schneider-electric.com
 .schneiderhome.us
@@ -23609,8 +23302,6 @@ zeke.scea.com
 .scpwiki.com
 .scramble.io
 .screens-lab.jp
-.screenwisetrends.com
-.screenwisetrendspanel.com
 .scribd.com
 .scribserver.ga
 .scriptspot.com
@@ -23746,7 +23437,6 @@ zeke.scea.com
 .serveminecraft.net
 .server.qqjlbvip1.com
 .serverfault.com
-.serverlesslibrary.net
 .servernas.ml
 .serverunblock.com
 .servervpn.net
@@ -23824,8 +23514,6 @@ zeke.scea.com
 .sexytv.cc
 .sexzy4.com
 .sf.net
-.sfbassets.com
-.sfbassets.net
 .sfbbq.com
 .sfdcstatic.com
 .sfi.se
@@ -24180,7 +23868,6 @@ zeke.scea.com
 .skyoyue.com
 .skype.com
 .skype.net
-.skypeassets.com
 .skypeassets.net
 .skypost.hk
 .skypost.ulifestyle.com.hk
@@ -24262,6 +23949,7 @@ zeke.scea.com
 .smhric.org
 .sminted.com
 .smith.edu
+.smoot.apple.com
 .smpte.org
 .smt.live
 .smutcam.com
@@ -24282,7 +23970,6 @@ zeke.scea.com
 .snapdragon.cn
 .snapdragonbooth.com
 .snapkit.co
-.snapseed.com
 .snapstore.io
 .snaptu.com
 .snapvolumes.com
@@ -24370,7 +24057,6 @@ zeke.scea.com
 .solidfiles.com
 .solostudioksale.com
 .solv.finance
-.solveforx.com
 .soma.im
 .somcloud.com
 .somee.com
@@ -24654,7 +24340,6 @@ zeke.scea.com
 .spring4u.info
 .springboardplatform.com
 .springernature.com
-.sprinklesapp.com
 .sprint.com
 .sprint0.net
 .sprite.org
@@ -24667,7 +24352,6 @@ zeke.scea.com
 .spys.ru
 .sq.itimemachine.net
 .sqlite.org
-.sqlserveronlinux.com
 .square-jbty.scgpbl.cn
 .squarecapital.com
 .squarecdn.com
@@ -24774,8 +24458,6 @@ zeke.scea.com
 .stacksnippets.net
 .stacloud.seagull.no
 .stadia.com
-.stadia.dev
-.staffhub.ms
 .stagadish.com
 .stage.18luck.tech
 .stage64.hk
@@ -24890,8 +24572,6 @@ zeke.scea.com
 .stboy.net
 .stc-server.com
 .stc.com.sa
-.stcroixmosquito.com
-.stcroixmosquitoproject.com
 .stcroixsource.com
 .stealthproxy.co.uk
 .stealthvisitor.com
@@ -25017,8 +24697,6 @@ zeke.scea.com
 .studiodata.com.ar
 .studioluxfm.com
 .studylink.govt.nz
-.studywatchbyverily.com
-.studywatchbyverily.org
 .stuff-4-sale.us
 .stuffseek.com
 .stuffyoushouldknow.com
@@ -25026,10 +24704,6 @@ zeke.scea.com
 .stunnel.org
 .stupidbeauty.com
 .stupidvideos.com
-.stxmosquito.com
-.stxmosquitoproject.com
-.stxmosquitoproject.net
-.stxmosquitoproject.org
 .styrsky.com.ar
 .sub.kamigami.org
 .sub147.com
@@ -25046,7 +24720,6 @@ zeke.scea.com
 .subscene.com
 .substack.com
 .successfn.com
-.successwithteams.com
 .suche.gmx.net
 .sudoproxy.net
 .sudouest.fr
@@ -25164,7 +24837,6 @@ zeke.scea.com
 .supremacy.com
 .supremacy.net
 .suprememastertv.com
-.surface.com
 .surfbouncer.com
 .surfeasy.com
 .surfeasy.com.au
@@ -25202,8 +24874,6 @@ zeke.scea.com
 .swagbucks.com
 .swaghub.cc
 .swarajyamag.com
-.sway-cdn.com
-.sway.com
 .swc5555.com
 .swc888.com
 .swcatalog-cdn.apple.com.akadns.net
@@ -25292,7 +24962,6 @@ zeke.scea.com
 .syosetu.com
 .syria-news.com
 .syrianchurch.org
-.sysinternals.com
 .sysresccd.org
 .sytes.net
 .syx86.com
@@ -25346,7 +25015,6 @@ zeke.scea.com
 .tahr.org.tw
 .tail-f.com
 .tailf.com
-.tailwindtraders.com
 .taipei.gov.tw
 .taipeisociety.org
 .taipeitimes.com
@@ -25514,7 +25182,6 @@ zeke.scea.com
 .techatbloomberg.com
 .techcrunch.com
 .techglue.me
-.techhub.ms
 .techliquidators.com
 .technews.tw
 .technics.com
@@ -25577,7 +25244,6 @@ zeke.scea.com
 .telex.cc
 .telkom.co.id
 .tellme.pw
-.tellmewhygame.com
 .temp.al
 .templeinstitute.org
 .tenacy-free.com
@@ -25617,6 +25283,7 @@ zeke.scea.com
 .teslamotors.com.cn
 .test-idc-3.fjla37itnf5dpsen.com
 .test-wiki-01.site88.net
+.test.cloudfunctions.net
 .test.domain888.pw
 .test.freepac.pw
 .test.hao999.ml
@@ -25640,7 +25307,6 @@ zeke.scea.com
 .tfhub.dev
 .tfiflve.com
 .tfino.com
-.tfsallin.net
 .tfsu.tw
 .tfvip33.com
 .tfvip88.com
@@ -25694,7 +25360,6 @@ zeke.scea.com
 .thechineset.com
 .theclasshroom.com
 .theclassicporn.com
-.thecleversense.com
 .theclub.com.hk
 .thecompaqstore.com
 .theconservativetreehouse.com
@@ -25733,7 +25398,6 @@ zeke.scea.com
 .theglobeandmail.com
 .theglue.si
 .thegly.com
-.thegooglestore.com
 .thegrouplet.com
 .theguardian.co
 .theguardian.com
@@ -25856,7 +25520,6 @@ zeke.scea.com
 .thinkgeek.com
 .thinkingtaiwan.com
 .thinkofliving.com
-.thinkquarterly.com
 .thinkstockphotos.com
 .thinkwithgoogle.com
 .thirdmovies.com
@@ -26059,7 +25722,6 @@ zeke.scea.com
 .time.com
 .time2speak.com.au
 .timeinc.net
-.timelinestoryteller.com
 .times-bignews.com
 .times.com
 .timesdispatch.com
@@ -26317,12 +25979,10 @@ zeke.scea.com
 .trading212.com
 .tradingview.com
 .traeumtgerade.de
-.trafficmanager.net
 .trakt.tv
 .transferstudentcn.weebly.com
 .translate.goog
 .translate.google
-.translatetheweb.com
 .translatewiki.net
 .translatewiki.org
 .transmissionzero.co.uk
@@ -26403,7 +26063,6 @@ zeke.scea.com
 .trydurex.net
 .trydurex.tv
 .tryengineering.org
-.tryfunctions.com
 .tryheart.jp
 .tryoffshore.com
 .tryrating.com
@@ -26552,6 +26211,7 @@ zeke.scea.com
 .tuvpn.com
 .tuxing.live
 .tuzaijidi.com
+.tv.apple.com
 .tv.com
 .tv.domain888.pw
 .tv.endlessmovie.com
@@ -26765,12 +26425,10 @@ zeke.scea.com
 .tx2600.net
 .tx69.net
 .tx8588.com
-.txcloud.net
 .txdirectv.com
 .txe.gp9697.com
 .txmao.xyz
 .txmblr.com
-.txvia.com
 .txvip888.com
 .txxx.com
 .txyu.sp5178.com
@@ -27027,7 +26685,6 @@ zeke.scea.com
 .unknownspace.org
 .unlocator.com
 .unlock-iceland.com
-.unlocklimitlesslearning.com
 .unlockriver.com
 .unodedos.com
 .unpkg.com
@@ -27074,6 +26731,7 @@ zeke.scea.com
 .uporn.net
 .upornia.com
 .uproxy.org
+.uproxysite.cloudfunctions.net
 .upsc.co.uk
 .uptodown.com
 .uptown.pw
@@ -27103,6 +26761,13 @@ zeke.scea.com
 .uryoutube.com
 .uryu.com.br
 .us-189-255-4.fri-gate.biz
+.us-central1-celebrity-voice.cloudfunctions.net
+.us-central1-ecai2020-prod.cloudfunctions.net
+.us-central1-invue-live.cloudfunctions.net
+.us-central1-kirichilli-cart.cloudfunctions.net
+.us-central1-metronaut-dev-fa32c.cloudfunctions.net
+.us-central1-ripple-3dc2d.cloudfunctions.net
+.us-central1.cloudfunctions.net
 .us.32bit.top
 .us.44.14.iamallama.com
 .us.ddns.me
@@ -27134,13 +26799,11 @@ zeke.scea.com
 .uscti.org
 .usdehua.com
 .usembassy.gov
-.useplannr.com
 .user.jojoex.com
 .userapi.com
 .usercenter.firemon.com
 .usercontent.dev
 .userproxy.com
-.userpxt.io
 .users.firigames.com
 .userscloud.com
 .usersfiles.com
@@ -27165,8 +26828,6 @@ zeke.scea.com
 .ustv123.com
 .usunitednews.com
 .usus.cc
-.usvimosquito.com
-.usvimosquitoproject.com
 .usvpn.co
 .ut888.com.tw
 .utahtibetanassociation.org
@@ -27210,7 +26871,6 @@ zeke.scea.com
 .uwants.com
 .uwants.com.hk
 .uwants.net
-.uwpcommunitytoolkit.com
 .uxdesign.cc
 .uxdict.io
 .uy500.com
@@ -27261,10 +26921,8 @@ zeke.scea.com
 .v66612.com
 .v6ss.xyz
 .v78929.com
-.v8.dev
 .v8293.com
 .v89168.com
-.v8project.org
 .v9.com
 .v9366.com
 .v952.ccdior.com
@@ -27362,7 +27020,6 @@ zeke.scea.com
 .vel.velikiyustyug.ru
 .velkaepocha.sk
 .velocloud.com
-.velostrata.com
 .venbbs.com
 .venchina.com
 .vending24.weebly.com
@@ -27383,11 +27040,6 @@ zeke.scea.com
 .vercel.app
 .vercel.com
 .vercel.link
-.verily.com
-.verilylifesciences.com
-.verilystudyhub.com
-.verilystudywatch.com
-.verilystudywatch.org
 .verisign.asia
 .verisign.biz
 .verisign.ch
@@ -27490,13 +27142,11 @@ zeke.scea.com
 .video.lwdh.org.tw
 .video.xgfemdom.com
 .videobam.com
-.videobreakdown.com
 .videochampion.com
 .videocyborg.com
 .videodelivery.net
 .videodetective.com
 .videogameheat.com
-.videoindexer.ai
 .videoixir.net
 .videojs.com
 .videojug.com
@@ -27601,7 +27251,6 @@ zeke.scea.com
 .virsto.net
 .virtapay.com
 .virtuagirl2.com
-.virtualearth.net
 .virtualrealporn.com
 .virtuata.com
 .visa-atm.com
@@ -27740,7 +27389,6 @@ zeke.scea.com
 .visit.uncensoredlibrary.com
 .visko.com.au
 .vista888.com
-.visualstudio-staging.com
 .visualstudio.co
 .visualstudio.net
 .vita.tw
@@ -28064,8 +27712,6 @@ zeke.scea.com
 .vs8866.com
 .vs8989.com
 .vs9933.com
-.vsallin.net
-.vsassets.io
 .vsb.edsby.com
 .vsco.co
 .vsco.com
@@ -28226,7 +27872,6 @@ zeke.scea.com
 .wal-mart.com
 .wal.co
 .walibee.com
-.wallet.com
 .wallmama.com
 .wallornot.org
 .wallpapercasa.com
@@ -28309,7 +27954,6 @@ zeke.scea.com
 .wb.aeweb.xyz
 .wb.graylady.us
 .wballiance.com
-.wbd.ms
 .wby118.com
 .wbyl058.com
 .wc.yooooo.us
@@ -28342,7 +27986,6 @@ zeke.scea.com
 .weatherchannel
 .weathtown.com
 .web-instagram.net
-.web.app
 .web.cec.gov.tw
 .web.dev
 .web.edapp.com
@@ -28358,7 +28001,6 @@ zeke.scea.com
 .web3.castleagegame.com
 .web3.ga
 .web4proxy.com
-.webappfieldguide.com
 .webapptv.com
 .webbang.net
 .webbrain.com
@@ -28423,7 +28065,6 @@ zeke.scea.com
 .webok.tw
 .weboproxy.com
 .webpack.de
-.webpkgcache.com
 .webproxy-service.de
 .webproxy.ca
 .webproxy.ru
@@ -28530,7 +28171,6 @@ zeke.scea.com
 .wh.freepac.pw
 .wh72.gq
 .wha.la
-.what-fan.net
 .whatblocked.com
 .whatbrowser.org
 .whatisairwatch.com
@@ -28678,14 +28318,7 @@ zeke.scea.com
 .win123.ml
 .win77.vip
 .winandmac.com
-.windows-int.net
-.windowsazure.com
-.windowscommunity.net
-.windowsmarketplace.com
-.windowsphone-int.com
-.windowsphone.com
 .windowsphoneme.com
-.windowssearch.com
 .windowsuem.com
 .windowsxpsucks.weebly.com
 .windscribe.com
@@ -28808,8 +28441,6 @@ zeke.scea.com
 .womany.net
 .wombo.ai
 .womensnikeshox.com
-.womenwill.com
-.womenwill.id
 .woolite.com
 .woolitecarpet.com
 .woolyss.com
@@ -30313,6 +29944,7 @@ zeke.scea.com
 .www.darwinex.cn
 .www.dashaqi.ga
 .www.datadefiner.com
+.www.dataliberation.org
 .www.datibike.com
 .www.davidrevoy.com
 .www.dazhi500.com
@@ -30865,6 +30497,7 @@ zeke.scea.com
 .www.goindietv.com
 .www.goldenfrog.ch
 .www.goodthaigirl.com
+.www.googel.com
 .www.googke.me
 .www.google-ch.com
 .www.google.co.hu
@@ -30874,6 +30507,7 @@ zeke.scea.com
 .www.googlechinablog.com
 .www.googlehelper.net
 .www.googlesciencefair.com
+.www.googlestore.com
 .www.googlie.com
 .www.googto.com
 .www.googto.net
@@ -31680,6 +31314,7 @@ zeke.scea.com
 .www.mindmaple.com
 .www.mindprince.in
 .www.minecraft.com
+.www.minecraft.net
 .www.minepi.com
 .www.ming-jian.net
 .www.miniweather.com
@@ -32710,6 +32345,7 @@ zeke.scea.com
 .www.traininn.com
 .www.trample7.com
 .www.tranbert.com
+.www.translatetheweb.com
 .www.transocks.com
 .www.traveldudes.org
 .www.treasurybrisbane.com.au
@@ -33350,7 +32986,6 @@ zeke.scea.com
 .x.company
 .x.loixtv.com
 .x.org
-.x.team
 .x1337x.ws
 .x188betx.com
 .x18r.com
@@ -33389,7 +33024,6 @@ zeke.scea.com
 .xam82.com
 .xam90.com
 .xam93.com
-.xamarin.com
 .xamylc.org
 .xandr.com
 .xanga.com
@@ -33409,18 +33043,12 @@ zeke.scea.com
 .xbox360.co
 .xbox360.com
 .xbox360.org
-.xboxab.com
-.xboxgamepass.com
-.xboxgamestudios.com
 .xboxone.co
 .xboxone.com
-.xboxplayanywhere.com
-.xboxstudios.com
 .xbrowser.me
 .xbsj6789.site
 .xbsj7654.xyz
 .xbtce.com
-.xbx.lv
 .xc.domain888.pw
 .xcafe.in
 .xcams.com
@@ -33616,9 +33244,7 @@ zeke.scea.com
 .xn--74q035i.xn--hxt814e
 .xn--7hv594h.com
 .xn--90wwvt03e.com
-.xn--9kr7l.com
 .xn--9pr62r24a.com
-.xn--9trs65b.com
 .xn--bnq297cix3a.cn
 .xn--cer18jcpe41t.com
 .xn--czq75pvv1aj5c.org
@@ -33626,10 +33252,6 @@ zeke.scea.com
 .xn--d4ty0ojsqzfd.com
 .xn--fiq681d48s.org
 .xn--fiqs8sxootzz.xn--hxt814e
-.xn--flw351e.com
-.xn--ggle-55da.com
-.xn--gogl-0nd52e.com
-.xn--gogl-1nd42e.com
 .xn--gtvq61aiijy0b.xn--hxt814e
 .xn--gtvz22d.wang
 .xn--gtvz22d.xn--hxt814e
@@ -33687,7 +33309,6 @@ zeke.scea.com
 .xpj000999.com
 .xpj66.cn
 .xpjyl688.com
-.xplr.co
 .xposed.info
 .xpud.org
 .xqmobile.po888.net
@@ -34012,7 +33633,6 @@ zeke.scea.com
 .yamaxun.cn
 .yamaxun.com
 .yamigama.com
-.yammer.com
 .yande.re
 .yandex
 .yandex.aero

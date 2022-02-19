@@ -19,19 +19,19 @@
 
 ## 规则统计
 
-总计规则：83986 条。
+总计规则：83827 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | USER-AGENT | 62 |
-| DOMAIN-SUFFIX | 72167 |
+| DOMAIN-SUFFIX | 72011 |
 | PROCESS-NAME | 5 |
 | DOMAIN | 80 |
-| IP-CIDR | 6176 |
+| IP-CIDR | 6174 |
 | DOMAIN-KEYWORD | 14 |
-| IP-CIDR6 | 5482 |
+| IP-CIDR6 | 5481 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。

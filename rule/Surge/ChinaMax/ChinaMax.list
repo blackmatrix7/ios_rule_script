@@ -1,15 +1,15 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-18 02:12:07
+# UPDATED: 2022-02-19 12:55:38
 # USER-AGENT: 62
-# DOMAIN-SUFFIX: 72167
+# DOMAIN-SUFFIX: 72011
 # PROCESS-NAME: 5
 # DOMAIN: 80
-# IP-CIDR: 6176
+# IP-CIDR: 6174
 # DOMAIN-KEYWORD: 14
-# IP-CIDR6: 5482
-# TOTAL: 83986
+# IP-CIDR6: 5481
+# TOTAL: 83827
 DOMAIN-KEYWORD,-cn
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -3059,7 +3059,6 @@ IP-CIDR,153.99.0.0/16,no-resolve
 IP-CIDR,154.209.251.0/24,no-resolve
 IP-CIDR,154.211.126.0/23,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
-IP-CIDR,154.82.72.0/21,no-resolve
 IP-CIDR,154.82.92.0/22,no-resolve
 IP-CIDR,154.82.96.0/22,no-resolve
 IP-CIDR,155.102.0.0/16,no-resolve
@@ -3130,8 +3129,7 @@ IP-CIDR,160.202.152.0/22,no-resolve
 IP-CIDR,160.202.212.0/22,no-resolve
 IP-CIDR,160.202.216.0/21,no-resolve
 IP-CIDR,160.202.224.0/19,no-resolve
-IP-CIDR,160.202.60.0/23,no-resolve
-IP-CIDR,160.202.62.0/24,no-resolve
+IP-CIDR,160.202.60.0/22,no-resolve
 IP-CIDR,160.238.64.0/22,no-resolve
 IP-CIDR,160.62.10.0/24,no-resolve
 IP-CIDR,160.83.109.0/24,no-resolve
@@ -6284,6 +6282,7 @@ IP-CIDR6,2001:df4:c780::/48,no-resolve
 IP-CIDR6,2001:df4:cf00::/48,no-resolve
 IP-CIDR6,2001:df4:d80::/48,no-resolve
 IP-CIDR6,2001:df4:de80::/48,no-resolve
+IP-CIDR6,2001:df5:2080::/48,no-resolve
 IP-CIDR6,2001:df5:5f80::/48,no-resolve
 IP-CIDR6,2001:df5:7800::/48,no-resolve
 IP-CIDR6,2001:df6:100::/48,no-resolve
@@ -6750,14 +6749,12 @@ IP-CIDR6,2401:ec40::/32,no-resolve
 IP-CIDR6,2401:f300::/32,no-resolve
 IP-CIDR6,2401:f7c0::/32,no-resolve
 IP-CIDR6,2401:f9c0:cdcd::/48,no-resolve
-IP-CIDR6,2401:fa00:40::/47,no-resolve
-IP-CIDR6,2401:fa00:44::/48,no-resolve
-IP-CIDR6,2401:fa00:46:400::/54,no-resolve
-IP-CIDR6,2401:fa00:47::/48,no-resolve
+IP-CIDR6,2401:fa00:40::/43,no-resolve
 IP-CIDR6,2401:fa00:480:7600::/55,no-resolve
-IP-CIDR6,2401:fa00:48::/48,no-resolve
-IP-CIDR6,2401:fa00:5f:c000::/54,no-resolve
-IP-CIDR6,2401:fa00:5f:c500::/56,no-resolve
+IP-CIDR6,2401:fa00:62::/48,no-resolve
+IP-CIDR6,2401:fa00:64::/47,no-resolve
+IP-CIDR6,2401:fa00:6c::/46,no-resolve
+IP-CIDR6,2401:fa00:70::/44,no-resolve
 IP-CIDR6,2401:fa80::/32,no-resolve
 IP-CIDR6,2401:fb80::/32,no-resolve
 IP-CIDR6,2401:fc80::/32,no-resolve

@@ -1,8 +1,8 @@
 #!name=重定向
-#!desc=最后更新时间 2022-01-18 23:35:38
+#!desc=最后更新时间 2022-02-20 02:11:18
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=60
+#!rewrite=61
 #!script=0
 #!force_http_engine_hosts=0
 #!mitm=5
@@ -52,6 +52,7 @@
 "^https?:\/\/(www.)?mindmapper\.cc\/" https://www.mindmapper.com/ 302
 "^https?:\/\/(www.)?nicelabel\.cc\/" https://www.nicelabel.com/zh/ 302
 "^https?:\/\/(www.)?ntfsformac\.cc\/" https://china.paragon-software.com/home-mac/ntfs-for-mac/ 302
+"^https?:\/\/(www.)?officesoftcn\.com\/" https://www.microsoft.com/zh-cn/microsoft-365 302
 "^https?:\/\/(www.)?overturechina\.com\/" https://sonicscores.com/ 302
 "^https?:\/\/(www.)?passwordrecovery\.cn\/" https://cn.elcomsoft.com/aopr.html 302
 "^https?:\/\/(www.)?pdfexpert\.cc\/" https://pdfexpert.com/zh 302

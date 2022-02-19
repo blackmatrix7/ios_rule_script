@@ -1,13 +1,13 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-19 12:55:43
-# DOMAIN-SUFFIX: 31933
+# UPDATED: 2022-02-20 02:10:58
+# DOMAIN-SUFFIX: 32514
 # DOMAIN: 33
-# DOMAIN-KEYWORD: 26
-# IP-CIDR: 89
+# DOMAIN-KEYWORD: 29
+# IP-CIDR: 91
 # IP-CIDR6: 3
-# TOTAL: 32084
+# TOTAL: 32670
 payload:
   - DOMAIN-KEYWORD,-tiktokcdn-com
   - DOMAIN-KEYWORD,1e100
@@ -15,11 +15,14 @@ payload:
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,avtb
   - DOMAIN-KEYWORD,beetalk
+  - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,dlercloud
   - DOMAIN-KEYWORD,dropbox
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,fbcdn
   - DOMAIN-KEYWORD,github
+  - DOMAIN-KEYWORD,gmail
+  - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,instagram
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,paypal
@@ -75,6 +78,7 @@ payload:
   - IP-CIDR,17.252.156.0/23
   - IP-CIDR,173.192.222.160/27
   - IP-CIDR,173.192.231.32/27
+  - IP-CIDR,173.194.0.0/16
   - IP-CIDR,173.252.64.0/18
   - IP-CIDR,174.37.0.0/16
   - IP-CIDR,179.60.192.0/22
@@ -121,6 +125,7 @@ payload:
   - IP-CIDR,69.171.0.0/16
   - IP-CIDR,69.63.176.0/20
   - IP-CIDR,74.119.76.0/22
+  - IP-CIDR,74.125.0.0/16
   - IP-CIDR,74.86.0.0/16
   - IP-CIDR,75.126.0.0/16
   - IP-CIDR,91.108.0.0/16

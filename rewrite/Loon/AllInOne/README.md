@@ -16,8 +16,8 @@
 | ---- | ---- |
 | mitm | 550 |
 | URL-REGEX | 7 |
-| USER-AGENT | 1 |
 | DOMAIN | 6 |
+| USER-AGENT | 1 |
 | DOMAIN-SUFFIX | 2 |
 | IP-CIDR6 | 1 |
 | IP-CIDR | 1 |

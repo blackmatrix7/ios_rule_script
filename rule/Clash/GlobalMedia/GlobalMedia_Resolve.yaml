@@ -1,12 +1,12 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-16 02:10:57
+# UPDATED: 2022-02-22 02:11:38
 # DOMAIN: 42
 # DOMAIN-SUFFIX: 225
-# DOMAIN-KEYWORD: 24
+# DOMAIN-KEYWORD: 25
 # IP-CIDR: 863
-# TOTAL: 1154
+# TOTAL: 1155
 payload:
   - DOMAIN,api.okzy.tv
   - DOMAIN,apm-misaka.biliapi.net
@@ -290,6 +290,7 @@ payload:
   - DOMAIN-KEYWORD,japronx
   - DOMAIN-KEYWORD,jooxweb-api
   - DOMAIN-KEYWORD,netflix
+  - DOMAIN-KEYWORD,netflixdnstest
   - DOMAIN-KEYWORD,nflx
   - DOMAIN-KEYWORD,nowtv100
   - DOMAIN-KEYWORD,rthklive

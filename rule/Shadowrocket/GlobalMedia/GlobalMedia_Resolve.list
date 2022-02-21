@@ -1,15 +1,15 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-16 02:10:59
+# UPDATED: 2022-02-22 02:11:39
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN: 42
 # USER-AGENT: 65
 # DOMAIN-SUFFIX: 225
-# DOMAIN-KEYWORD: 24
+# DOMAIN-KEYWORD: 25
 # IP-CIDR: 863
 # URL-REGEX: 1
-# TOTAL: 1220
+# TOTAL: 1221
 DOMAIN,api.okzy.tv
 DOMAIN,apm-misaka.biliapi.net
 DOMAIN,apple.comscoreresearch.com
@@ -292,6 +292,7 @@ DOMAIN-KEYWORD,japonx
 DOMAIN-KEYWORD,japronx
 DOMAIN-KEYWORD,jooxweb-api
 DOMAIN-KEYWORD,netflix
+DOMAIN-KEYWORD,netflixdnstest
 DOMAIN-KEYWORD,nflx
 DOMAIN-KEYWORD,nowtv100
 DOMAIN-KEYWORD,rthklive

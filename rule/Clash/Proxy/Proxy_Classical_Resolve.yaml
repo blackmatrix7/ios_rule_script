@@ -1,7 +1,7 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-14 10:59:43
+# UPDATED: 2022-02-22 02:11:37
 # DOMAIN-SUFFIX: 25436
 # DOMAIN: 8
 # DOMAIN-KEYWORD: 32
@@ -14074,6 +14074,7 @@ payload:
   - DOMAIN-SUFFIX,oktvusa.com
   - DOMAIN-SUFFIX,oktw.6te.net
   - DOMAIN-SUFFIX,okvpn.cn
+  - DOMAIN-SUFFIX,okx.com
   - DOMAIN-SUFFIX,olabloga.pl
   - DOMAIN-SUFFIX,olcl.com
   - DOMAIN-SUFFIX,old-cat.net
@@ -16616,7 +16617,6 @@ payload:
   - DOMAIN-SUFFIX,snowlionpub.com
   - DOMAIN-SUFFIX,snowpear.com
   - DOMAIN-SUFFIX,snowpick.co.il
-  - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,so-net.net.tw
   - DOMAIN-SUFFIX,sobees.com
   - DOMAIN-SUFFIX,soc.mil
@@ -25453,7 +25453,6 @@ payload:
   - DOMAIN-SUFFIX,zzy.namedns.xyz
   - DOMAIN-SUFFIX,zzz.healthsection.xyz
   - DOMAIN-SUFFIX,zzz36.net
-  - DOMAIN-KEYWORD,-tiktokcdn-com
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,1e100
   - DOMAIN-KEYWORD,abema
@@ -25479,6 +25478,7 @@ payload:
   - DOMAIN-KEYWORD,telegram
   - DOMAIN-KEYWORD,tesla
   - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,tiktokcdn-
   - DOMAIN-KEYWORD,tiktokv
   - DOMAIN-KEYWORD,ttvnw
   - DOMAIN-KEYWORD,twitter

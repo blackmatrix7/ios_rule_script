@@ -1,13 +1,13 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-22 02:11:38
-# DOMAIN-SUFFIX: 32518
-# DOMAIN: 33
+# UPDATED: 2022-02-24 02:11:29
+# DOMAIN-SUFFIX: 32522
+# DOMAIN: 37
 # DOMAIN-KEYWORD: 29
 # IP-CIDR: 91
 # IP-CIDR6: 3
-# TOTAL: 32674
+# TOTAL: 32682
 payload:
   - DOMAIN,angle.com.tw
   - DOMAIN,api-p.videomarket.jp
@@ -16,6 +16,9 @@ payload:
   - DOMAIN,aqi.aqicn.org
   - DOMAIN,beck-online.beck.de
   - DOMAIN,blizzard.nefficient.co.kr
+  - DOMAIN,cbsi.live.ott.irdeto.com
+  - DOMAIN,cbsplaylistserver.aws.syncbak.com
+  - DOMAIN,cbsservice.aws.syncbak.com
   - DOMAIN,cdn77.scoreuniverse.com
   - DOMAIN,cisco.evergage.com
   - DOMAIN,courier-push-apple.com.akadns.net
@@ -30,6 +33,7 @@ payload:
   - DOMAIN,hpstore.corpmerchandise.com
   - DOMAIN,i.jeded.com
   - DOMAIN,imperial.insendi.com
+  - DOMAIN,link.theplatform.com
   - DOMAIN,mdn.mozillademos.org
   - DOMAIN,media.prod.mdn.mozit.cloud
   - DOMAIN,muse.jhu.edu
@@ -3359,6 +3363,7 @@ payload:
   - DOMAIN-SUFFIX,amitabhafoundation.us
   - DOMAIN-SUFFIX,amittal.in
   - DOMAIN-SUFFIX,amjs669.com
+  - DOMAIN-SUFFIX,amlg.io
   - DOMAIN-SUFFIX,amnesty.org
   - DOMAIN-SUFFIX,amnesty.org.au
   - DOMAIN-SUFFIX,amnesty.org.hk
@@ -17886,6 +17891,7 @@ payload:
   - DOMAIN-SUFFIX,mtt.org
   - DOMAIN-SUFFIX,mtu.sp5178.net
   - DOMAIN-SUFFIX,mtvav.com
+  - DOMAIN-SUFFIX,mtvnservices.com
   - DOMAIN-SUFFIX,mtw.tl
   - DOMAIN-SUFFIX,mua6sf.net
   - DOMAIN-SUFFIX,muadness.com
@@ -19686,6 +19692,7 @@ payload:
   - DOMAIN-SUFFIX,parallels.com
   - DOMAIN-SUFFIX,paramitadirect.com
   - DOMAIN-SUFFIX,paramount.com
+  - DOMAIN-SUFFIX,paramountplus.com
   - DOMAIN-SUFFIX,parastorage.com
   - DOMAIN-SUFFIX,parcocolosseo.it
   - DOMAIN-SUFFIX,parenting.com
@@ -20511,6 +20518,7 @@ payload:
   - DOMAIN-SUFFIX,pp59.net
   - DOMAIN-SUFFIX,pp9444.com
   - DOMAIN-SUFFIX,ppaypal.com
+  - DOMAIN-SUFFIX,pplusstatic.com
   - DOMAIN-SUFFIX,ppnycaction.org
   - DOMAIN-SUFFIX,ppp626.net
   - DOMAIN-SUFFIX,pppds.com

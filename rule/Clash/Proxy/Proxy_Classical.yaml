@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-22 02:11:37
-# DOMAIN-SUFFIX: 25436
+# UPDATED: 2022-02-25 02:12:35
+# DOMAIN-SUFFIX: 25437
 # DOMAIN: 8
 # DOMAIN-KEYWORD: 32
 # IP-CIDR: 92
 # IP-CIDR6: 3
-# TOTAL: 25571
+# TOTAL: 25572
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -18139,6 +18139,7 @@ payload:
   - DOMAIN-SUFFIX,truth.atspace.eu
   - DOMAIN-SUFFIX,truthontour.org
   - DOMAIN-SUFFIX,truthortrust.com
+  - DOMAIN-SUFFIX,truthsocial.com
   - DOMAIN-SUFFIX,truthtalkradio.net
   - DOMAIN-SUFFIX,truveo.com
   - DOMAIN-SUFFIX,tryheart.jp

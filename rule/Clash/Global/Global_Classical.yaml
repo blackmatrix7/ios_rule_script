@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-22 02:11:38
-# DOMAIN-SUFFIX: 25551
+# UPDATED: 2022-02-25 02:12:36
+# DOMAIN-SUFFIX: 25552
 # DOMAIN: 32
 # DOMAIN-KEYWORD: 45
 # IP-CIDR: 110
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 25743
+# TOTAL: 25744
 payload:
   - DOMAIN,amp-api.podcasts.apple.com
   - DOMAIN,api.waqi.info
@@ -18278,6 +18278,7 @@ payload:
   - DOMAIN-SUFFIX,truth.atspace.eu
   - DOMAIN-SUFFIX,truthontour.org
   - DOMAIN-SUFFIX,truthortrust.com
+  - DOMAIN-SUFFIX,truthsocial.com
   - DOMAIN-SUFFIX,truthtalkradio.net
   - DOMAIN-SUFFIX,truveo.com
   - DOMAIN-SUFFIX,tryheart.jp

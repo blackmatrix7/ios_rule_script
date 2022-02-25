@@ -21,7 +21,7 @@
 
 ## 规则统计
 
-总计规则：35877 条。
+总计规则：36706 条。
 
 各类型规则统计：
 
@@ -30,7 +30,7 @@
 | DOMAIN-SUFFIX | 34461 |
 | DOMAIN | 74 |
 | DOMAIN-KEYWORD | 75 |
-| IP-CIDR | 1180 |
+| IP-CIDR | 2009 |
 | IP-CIDR6 | 31 |
 | PROCESS-NAME | 56 |
 ## 配置说明
@@ -899,6 +899,7 @@ GlobalMax_Classical.yaml 可以单独使用，其他规则必须同时使用。
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/telegramcidr.txt
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list
+- https://raw.githubusercontent.com/QiuSimons/Netflix_IP/master/getflix.txt
 - https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list
 - https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Ruleset/Loon/Clubhouse-ip.list
 - https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Ruleset/Loon/Clubhouse.list

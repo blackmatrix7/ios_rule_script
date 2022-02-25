@@ -21,7 +21,7 @@
 
 ## 规则统计
 
-总计规则：35894 条。
+总计规则：36723 条。
 
 各类型规则统计：
 
@@ -31,7 +31,7 @@
 | USER-AGENT | 73 |
 | HOST | 74 |
 | HOST-KEYWORD | 75 |
-| IP-CIDR | 1180 |
+| IP-CIDR | 2009 |
 | IP6-CIDR | 31 |
 ## 配置说明
 
@@ -875,6 +875,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/telegramcidr.txt
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list
+- https://raw.githubusercontent.com/QiuSimons/Netflix_IP/master/getflix.txt
 - https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list
 - https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Ruleset/Loon/Clubhouse-ip.list
 - https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Ruleset/Loon/Clubhouse.list

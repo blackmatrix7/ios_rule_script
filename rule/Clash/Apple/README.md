@@ -10,14 +10,14 @@
 
 ## 规则统计
 
-总计规则：116 条。
+总计规则：103 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN | 3 |
-| DOMAIN-SUFFIX | 90 |
+| DOMAIN-SUFFIX | 77 |
 | DOMAIN-KEYWORD | 7 |
 | PROCESS-NAME | 6 |
 | IP-CIDR | 10 |
@@ -45,8 +45,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 当前分流规则，已包含以下子规则：
 
 - AppStore
-
-- AppleDaily
 
 - AppleMail
 
@@ -107,7 +105,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/iCloud.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/AppleDaily.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt

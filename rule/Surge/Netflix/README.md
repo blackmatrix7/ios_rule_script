@@ -10,7 +10,7 @@
 
 ## 规则统计
 
-总计规则：96 条。
+总计规则：943 条。
 
 各类型规则统计：
 
@@ -18,7 +18,7 @@
 | ---- | ---- |
 | DOMAIN-SUFFIX | 25 |
 | USER-AGENT | 1 |
-| IP-CIDR | 57 |
+| IP-CIDR | 904 |
 | DOMAIN-KEYWORD | 6 |
 | DOMAIN | 2 |
 | PROCESS-NAME | 1 |
@@ -58,6 +58,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netflix.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list
+- https://raw.githubusercontent.com/QiuSimons/Netflix_IP/master/getflix.txt
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Netflix.list
 
 

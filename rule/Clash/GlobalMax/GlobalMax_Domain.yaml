@@ -1,18 +1,17 @@
 # NAME: GlobalMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-25 14:58:40
-# DOMAIN-SUFFIX: 34461
-# DOMAIN: 74
+# UPDATED: 2022-02-26 02:12:03
+# DOMAIN-SUFFIX: 34460
+# DOMAIN: 56
 # DOMAIN-KEYWORD: 75
 # IP-CIDR: 2009
 # IP-CIDR6: 31
 # PROCESS-NAME: 56
-# TOTAL: 36706
+# TOTAL: 36687
 payload:
   - 'akmcdnoversea-tw.inter.iqiyi.com'
   - 'akmcdnoversea-tw.inter.ptqy.gitv.tv'
-  - 'amp-api.podcasts.apple.com'
   - 'angle.com.tw'
   - 'ap-oversea-tls.agora.io'
   - 'ap-oversea.agora.io'
@@ -25,9 +24,7 @@ payload:
   - 'aqi.aqicn.org'
   - 'artcdnsecure.ribob01.net'
   - 'beck-online.beck.de'
-  - 'beta.music.apple.com'
   - 'blizzard.nefficient.co.kr'
-  - 'books.apple.com'
   - 'cache.video.iqiyi.com'
   - 'cdn.apple-cloudkit.com'
   - 'cdn77.scoreuniverse.com'
@@ -39,9 +36,6 @@ payload:
   - 'courier-push-apple.com.akadns.net'
   - 'cvws.icloud-content.com'
   - 'deutschewelle.h-cdn.com'
-  - 'developer.apple.com'
-  - 'devimages-cdn.apple.com'
-  - 'devstreaming-cdn.apple.com'
   - 'dl.begellhouse.com'
   - 'edge.cwtv-vod-ext.top.comcast.net'
   - 'elib.maruzen.co.jp'
@@ -51,24 +45,14 @@ payload:
   - 'github-avatars.oss-cn-hongkong.aliyuncs.com'
   - 'gs-sec.ww.np.dl.playstation.n'
   - 'gs2.ww.prod.dl.playstation.ne'
-  - 'gspe1-ssl.ls.apple.com'
   - 'i.jeded.com'
   - 'imap-mail.outlook.com'
   - 'intl-rcd.iqiyi.com'
   - 'intl-subscription.iqiyi.com'
   - 'intl.iqiyi.com'
-  - 'js-cdn.music.apple.com'
-  - 'lookup-api.apple.com'
   - 'mobileso.bz.mgtv.com'
-  - 'news-assets.apple.com'
-  - 'news-client-search.apple.com'
-  - 'news-client.apple.com'
-  - 'news-edge.apple.com'
-  - 'news-events.apple.com'
-  - 'np-edge.itunes.apple.com'
   - 'p.bstarstatic.com'
   - 'pchomeonline.com.tw'
-  - 'play-edge.itunes.apple.com'
   - 'playstation.sony.akadns.net'
   - 'push-apple.com.akadns.net'
   - 'report-oversea.agora.io'
@@ -76,9 +60,7 @@ payload:
   - 'smtp-mail.outlook.com'
   - 'static-resource.np.community.playstation.n'
   - 'tesla-cdn.thron.com'
-  - 'testflight.apple.com'
   - 'tv.applemusic.com'
-  - 'uts-api.itunes.apple.com'
   - 'widgets.stripst.com'
   - 'wmff.warnermediacdn.com'
   - 'wrds-www.wharton.upenn.edu'
@@ -3892,6 +3874,7 @@ payload:
   - '+.apple-hk.com'
   - '+.apple-imac.com'
   - '+.apple-inc.net'
+  - '+.apple-mapkit.com'
   - '+.apple-online.com'
   - '+.apple-pay.com'
   - '+.apple-pay.rs'
@@ -3902,6 +3885,7 @@ payload:
   - '+.apple.be'
   - '+.apple.ch'
   - '+.apple.co'
+  - '+.apple.com'
   - '+.apple.com.co'
   - '+.apple.com.do'
   - '+.apple.com.pr'
@@ -5582,7 +5566,6 @@ payload:
   - '+.blm888888.com'
   - '+.blm898.com'
   - '+.blmdc7.com'
-  - '+.blobstore.apple.com'
   - '+.blockbuster.com'
   - '+.blockcn.com'
   - '+.blockedbyhk.com'
@@ -8357,6 +8340,7 @@ payload:
   - '+.createspace.com'
   - '+.creativecloud.com'
   - '+.creativecommons.engineering'
+  - '+.creativecommons.org'
   - '+.creativelab5.com'
   - '+.creativesdk.com'
   - '+.crececonebay.com'
@@ -9541,7 +9525,6 @@ payload:
   - '+.doh.applied-privacy.net'
   - '+.doh.appliedprivacy.net'
   - '+.doh.au.ahadns.net'
-  - '+.doh.dns.apple.com'
   - '+.doh.dnslify.com'
   - '+.doh.doh.my.id'
   - '+.doh.eastus.pi-dns.com'
@@ -15814,6 +15797,7 @@ payload:
   - '+.itunes-apple.com.akadns.net'
   - '+.itunes-radio.net'
   - '+.itunes.co'
+  - '+.itunes.com'
   - '+.itunes.org'
   - '+.itunes.rio'
   - '+.itunes12days.com'
@@ -21431,7 +21415,6 @@ payload:
   - '+.phimvideo.org'
   - '+.phmsociety.org'
   - '+.phncdn.com'
-  - '+.phobos.apple.com'
   - '+.phoenixnewtimes.com'
   - '+.phoeshow.me'
   - '+.phoile.tender88.com'
@@ -24094,7 +24077,6 @@ payload:
   - '+.smhric.org'
   - '+.sminted.com'
   - '+.smith.edu'
-  - '+.smoot.apple.com'
   - '+.smpte.org'
   - '+.smt.live'
   - '+.smutcam.com'
@@ -26371,7 +26353,6 @@ payload:
   - '+.tuvpn.com'
   - '+.tuxing.live'
   - '+.tuzaijidi.com'
-  - '+.tv.apple.com'
   - '+.tv.com'
   - '+.tv.domain888.pw'
   - '+.tv.endlessmovie.com'

@@ -1,18 +1,17 @@
 # NAME: GlobalMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-25 14:58:41
-# DOMAIN-SUFFIX: 34461
-# DOMAIN: 74
+# UPDATED: 2022-02-26 02:12:03
+# DOMAIN-SUFFIX: 34460
+# DOMAIN: 56
 # DOMAIN-KEYWORD: 75
 # IP-CIDR: 2009
 # IP-CIDR6: 31
 # PROCESS-NAME: 56
-# TOTAL: 36706
+# TOTAL: 36687
 payload:
   - DOMAIN,akmcdnoversea-tw.inter.iqiyi.com
   - DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
-  - DOMAIN,amp-api.podcasts.apple.com
   - DOMAIN,angle.com.tw
   - DOMAIN,ap-oversea-tls.agora.io
   - DOMAIN,ap-oversea.agora.io
@@ -25,9 +24,7 @@ payload:
   - DOMAIN,aqi.aqicn.org
   - DOMAIN,artcdnsecure.ribob01.net
   - DOMAIN,beck-online.beck.de
-  - DOMAIN,beta.music.apple.com
   - DOMAIN,blizzard.nefficient.co.kr
-  - DOMAIN,books.apple.com
   - DOMAIN,cache.video.iqiyi.com
   - DOMAIN,cdn.apple-cloudkit.com
   - DOMAIN,cdn77.scoreuniverse.com
@@ -39,9 +36,6 @@ payload:
   - DOMAIN,courier-push-apple.com.akadns.net
   - DOMAIN,cvws.icloud-content.com
   - DOMAIN,deutschewelle.h-cdn.com
-  - DOMAIN,developer.apple.com
-  - DOMAIN,devimages-cdn.apple.com
-  - DOMAIN,devstreaming-cdn.apple.com
   - DOMAIN,dl.begellhouse.com
   - DOMAIN,edge.cwtv-vod-ext.top.comcast.net
   - DOMAIN,elib.maruzen.co.jp
@@ -51,24 +45,14 @@ payload:
   - DOMAIN,github-avatars.oss-cn-hongkong.aliyuncs.com
   - DOMAIN,gs-sec.ww.np.dl.playstation.n
   - DOMAIN,gs2.ww.prod.dl.playstation.ne
-  - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN,i.jeded.com
   - DOMAIN,imap-mail.outlook.com
   - DOMAIN,intl-rcd.iqiyi.com
   - DOMAIN,intl-subscription.iqiyi.com
   - DOMAIN,intl.iqiyi.com
-  - DOMAIN,js-cdn.music.apple.com
-  - DOMAIN,lookup-api.apple.com
   - DOMAIN,mobileso.bz.mgtv.com
-  - DOMAIN,news-assets.apple.com
-  - DOMAIN,news-client-search.apple.com
-  - DOMAIN,news-client.apple.com
-  - DOMAIN,news-edge.apple.com
-  - DOMAIN,news-events.apple.com
-  - DOMAIN,np-edge.itunes.apple.com
   - DOMAIN,p.bstarstatic.com
   - DOMAIN,pchomeonline.com.tw
-  - DOMAIN,play-edge.itunes.apple.com
   - DOMAIN,playstation.sony.akadns.net
   - DOMAIN,push-apple.com.akadns.net
   - DOMAIN,report-oversea.agora.io
@@ -76,9 +60,7 @@ payload:
   - DOMAIN,smtp-mail.outlook.com
   - DOMAIN,static-resource.np.community.playstation.n
   - DOMAIN,tesla-cdn.thron.com
-  - DOMAIN,testflight.apple.com
   - DOMAIN,tv.applemusic.com
-  - DOMAIN,uts-api.itunes.apple.com
   - DOMAIN,widgets.stripst.com
   - DOMAIN,wmff.warnermediacdn.com
   - DOMAIN,wrds-www.wharton.upenn.edu
@@ -3892,6 +3874,7 @@ payload:
   - DOMAIN-SUFFIX,apple-hk.com
   - DOMAIN-SUFFIX,apple-imac.com
   - DOMAIN-SUFFIX,apple-inc.net
+  - DOMAIN-SUFFIX,apple-mapkit.com
   - DOMAIN-SUFFIX,apple-online.com
   - DOMAIN-SUFFIX,apple-pay.com
   - DOMAIN-SUFFIX,apple-pay.rs
@@ -3902,6 +3885,7 @@ payload:
   - DOMAIN-SUFFIX,apple.be
   - DOMAIN-SUFFIX,apple.ch
   - DOMAIN-SUFFIX,apple.co
+  - DOMAIN-SUFFIX,apple.com
   - DOMAIN-SUFFIX,apple.com.co
   - DOMAIN-SUFFIX,apple.com.do
   - DOMAIN-SUFFIX,apple.com.pr
@@ -5582,7 +5566,6 @@ payload:
   - DOMAIN-SUFFIX,blm888888.com
   - DOMAIN-SUFFIX,blm898.com
   - DOMAIN-SUFFIX,blmdc7.com
-  - DOMAIN-SUFFIX,blobstore.apple.com
   - DOMAIN-SUFFIX,blockbuster.com
   - DOMAIN-SUFFIX,blockcn.com
   - DOMAIN-SUFFIX,blockedbyhk.com
@@ -8357,6 +8340,7 @@ payload:
   - DOMAIN-SUFFIX,createspace.com
   - DOMAIN-SUFFIX,creativecloud.com
   - DOMAIN-SUFFIX,creativecommons.engineering
+  - DOMAIN-SUFFIX,creativecommons.org
   - DOMAIN-SUFFIX,creativelab5.com
   - DOMAIN-SUFFIX,creativesdk.com
   - DOMAIN-SUFFIX,crececonebay.com
@@ -9541,7 +9525,6 @@ payload:
   - DOMAIN-SUFFIX,doh.applied-privacy.net
   - DOMAIN-SUFFIX,doh.appliedprivacy.net
   - DOMAIN-SUFFIX,doh.au.ahadns.net
-  - DOMAIN-SUFFIX,doh.dns.apple.com
   - DOMAIN-SUFFIX,doh.dnslify.com
   - DOMAIN-SUFFIX,doh.doh.my.id
   - DOMAIN-SUFFIX,doh.eastus.pi-dns.com
@@ -15814,6 +15797,7 @@ payload:
   - DOMAIN-SUFFIX,itunes-apple.com.akadns.net
   - DOMAIN-SUFFIX,itunes-radio.net
   - DOMAIN-SUFFIX,itunes.co
+  - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,itunes.org
   - DOMAIN-SUFFIX,itunes.rio
   - DOMAIN-SUFFIX,itunes12days.com
@@ -21431,7 +21415,6 @@ payload:
   - DOMAIN-SUFFIX,phimvideo.org
   - DOMAIN-SUFFIX,phmsociety.org
   - DOMAIN-SUFFIX,phncdn.com
-  - DOMAIN-SUFFIX,phobos.apple.com
   - DOMAIN-SUFFIX,phoenixnewtimes.com
   - DOMAIN-SUFFIX,phoeshow.me
   - DOMAIN-SUFFIX,phoile.tender88.com
@@ -24094,7 +24077,6 @@ payload:
   - DOMAIN-SUFFIX,smhric.org
   - DOMAIN-SUFFIX,sminted.com
   - DOMAIN-SUFFIX,smith.edu
-  - DOMAIN-SUFFIX,smoot.apple.com
   - DOMAIN-SUFFIX,smpte.org
   - DOMAIN-SUFFIX,smt.live
   - DOMAIN-SUFFIX,smutcam.com
@@ -26371,7 +26353,6 @@ payload:
   - DOMAIN-SUFFIX,tuvpn.com
   - DOMAIN-SUFFIX,tuxing.live
   - DOMAIN-SUFFIX,tuzaijidi.com
-  - DOMAIN-SUFFIX,tv.apple.com
   - DOMAIN-SUFFIX,tv.com
   - DOMAIN-SUFFIX,tv.domain888.pw
   - DOMAIN-SUFFIX,tv.endlessmovie.com

@@ -1,13 +1,13 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-25 02:12:36
-# DOMAIN-SUFFIX: 32523
+# UPDATED: 2022-02-26 02:12:03
+# DOMAIN-SUFFIX: 32528
 # DOMAIN: 37
 # DOMAIN-KEYWORD: 29
 # IP-CIDR: 91
 # IP-CIDR6: 3
-# TOTAL: 32683
+# TOTAL: 32688
 payload:
   - DOMAIN,angle.com.tw
   - DOMAIN,api-p.videomarket.jp
@@ -3699,6 +3699,7 @@ payload:
   - DOMAIN-SUFFIX,apple-hk.com
   - DOMAIN-SUFFIX,apple-imac.com
   - DOMAIN-SUFFIX,apple-inc.net
+  - DOMAIN-SUFFIX,apple-mapkit.com
   - DOMAIN-SUFFIX,apple-online.com
   - DOMAIN-SUFFIX,apple-pay.com
   - DOMAIN-SUFFIX,apple-pay.rs
@@ -3708,6 +3709,8 @@ payload:
   - DOMAIN-SUFFIX,apple-usa.net
   - DOMAIN-SUFFIX,apple.be
   - DOMAIN-SUFFIX,apple.ch
+  - DOMAIN-SUFFIX,apple.co
+  - DOMAIN-SUFFIX,apple.com
   - DOMAIN-SUFFIX,apple.com.co
   - DOMAIN-SUFFIX,apple.com.do
   - DOMAIN-SUFFIX,apple.com.pr
@@ -7788,6 +7791,7 @@ payload:
   - DOMAIN-SUFFIX,createspace.com
   - DOMAIN-SUFFIX,creativecloud.com
   - DOMAIN-SUFFIX,creativecommons.engineering
+  - DOMAIN-SUFFIX,creativecommons.org
   - DOMAIN-SUFFIX,creativelab5.com
   - DOMAIN-SUFFIX,creativesdk.com
   - DOMAIN-SUFFIX,crececonebay.com
@@ -14772,6 +14776,7 @@ payload:
   - DOMAIN-SUFFIX,itunes-apple.com.akadns.net
   - DOMAIN-SUFFIX,itunes-radio.net
   - DOMAIN-SUFFIX,itunes.co
+  - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,itunes.org
   - DOMAIN-SUFFIX,itunes.rio
   - DOMAIN-SUFFIX,itunes12days.com

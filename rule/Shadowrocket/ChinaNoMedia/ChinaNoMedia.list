@@ -1,13 +1,13 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-01 02:13:32
+# UPDATED: 2022-03-03 02:13:37
 # USER-AGENT: 32
 # DOMAIN-SUFFIX: 7088
 # DOMAIN: 16
-# IP-CIDR: 6171
+# IP-CIDR: 6170
 # DOMAIN-KEYWORD: 12
-# TOTAL: 13319
+# TOTAL: 13318
 DOMAIN-KEYWORD,-cn
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -1313,6 +1313,7 @@ IP-CIDR,103.35.0.0/19,no-resolve
 IP-CIDR,103.35.104.0/22,no-resolve
 IP-CIDR,103.35.180.0/23,no-resolve
 IP-CIDR,103.35.220.0/22,no-resolve
+IP-CIDR,103.35.254.0/24,no-resolve
 IP-CIDR,103.35.32.0/20,no-resolve
 IP-CIDR,103.35.48.0/22,no-resolve
 IP-CIDR,103.36.132.0/22,no-resolve
@@ -3017,7 +3018,6 @@ IP-CIDR,150.242.0.0/21,no-resolve
 IP-CIDR,150.242.112.0/21,no-resolve
 IP-CIDR,150.242.120.0/22,no-resolve
 IP-CIDR,150.242.152.0/22,no-resolve
-IP-CIDR,150.242.156.0/23,no-resolve
 IP-CIDR,150.242.158.0/24,no-resolve
 IP-CIDR,150.242.160.0/21,no-resolve
 IP-CIDR,150.242.168.0/22,no-resolve
@@ -3373,11 +3373,9 @@ IP-CIDR,193.17.120.0/22,no-resolve
 IP-CIDR,193.20.64.0/22,no-resolve
 IP-CIDR,193.200.196.0/24,no-resolve
 IP-CIDR,193.200.222.160/28,no-resolve
-IP-CIDR,194.0.0.0/24,no-resolve
 IP-CIDR,194.138.136.0/24,no-resolve
 IP-CIDR,194.138.202.0/23,no-resolve
 IP-CIDR,194.138.245.0/24,no-resolve
-IP-CIDR,194.246.96.0/24,no-resolve
 IP-CIDR,195.142.215.0/24,no-resolve
 IP-CIDR,197.199.0.0/18,no-resolve
 IP-CIDR,197.210.163.0/24,no-resolve
@@ -6152,6 +6150,7 @@ IP-CIDR,67.198.188.0/23,no-resolve
 IP-CIDR,67.198.192.0/23,no-resolve
 IP-CIDR,67.198.195.0/24,no-resolve
 IP-CIDR,67.198.199.0/24,no-resolve
+IP-CIDR,67.198.201.0/24,no-resolve
 IP-CIDR,67.198.207.0/24,no-resolve
 IP-CIDR,67.198.208.0/24,no-resolve
 IP-CIDR,67.198.221.0/24,no-resolve

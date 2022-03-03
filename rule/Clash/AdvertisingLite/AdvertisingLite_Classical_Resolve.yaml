@@ -1,13 +1,13 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-15 02:11:01
+# UPDATED: 2022-03-04 02:12:15
 # DOMAIN: 23559
 # DOMAIN-KEYWORD: 27
-# DOMAIN-SUFFIX: 13272
+# DOMAIN-SUFFIX: 13287
 # IP-CIDR: 158
 # IP-CIDR6: 1
-# TOTAL: 37017
+# TOTAL: 37032
 payload:
   - DOMAIN,00-gov.cn
   - DOMAIN,0024aadd.com
@@ -25623,7 +25623,6 @@ payload:
   - DOMAIN-SUFFIX,analytics.thenewslens.com
   - DOMAIN-SUFFIX,analytics.thetab.com
   - DOMAIN-SUFFIX,analytics.tool.lu
-  - DOMAIN-SUFFIX,analytics.tradedoubler.com
   - DOMAIN-SUFFIX,analytics.twitter.com
   - DOMAIN-SUFFIX,analytics.upworthy.com
   - DOMAIN-SUFFIX,analytics.us.archive.org
@@ -28366,6 +28365,7 @@ payload:
   - DOMAIN-SUFFIX,ethod.gzgmjcx.com
   - DOMAIN-SUFFIX,etl.xlmc.sec.miui.com
   - DOMAIN-SUFFIX,etsmercisely.site
+  - DOMAIN-SUFFIX,eulerian.brandalley.fr
   - DOMAIN-SUFFIX,eulerian.splendia.com
   - DOMAIN-SUFFIX,eum-appdynamics.com
   - DOMAIN-SUFFIX,eunformeranothe.info
@@ -29485,6 +29485,7 @@ payload:
   - DOMAIN-SUFFIX,histormedengi.site
   - DOMAIN-SUFFIX,hit-pool.upscore.io
   - DOMAIN-SUFFIX,hit.dogannet.tv
+  - DOMAIN-SUFFIX,hit.interia.pl
   - DOMAIN-SUFFIX,hit.webcentre.lycos.co.uk
   - DOMAIN-SUFFIX,hitlog2.chosun.com
   - DOMAIN-SUFFIX,hits.sys.lv
@@ -31284,6 +31285,7 @@ payload:
   - DOMAIN-SUFFIX,m.symac.cn
   - DOMAIN-SUFFIX,m.tcksbz888.com
   - DOMAIN-SUFFIX,m.tiantianedu.net
+  - DOMAIN-SUFFIX,m.trb.com
   - DOMAIN-SUFFIX,m.tuopp.com
   - DOMAIN-SUFFIX,m.uc123.com
   - DOMAIN-SUFFIX,m.uczzd.cn
@@ -31384,7 +31386,9 @@ payload:
   - DOMAIN-SUFFIX,marketing.888.com
   - DOMAIN-SUFFIX,marketing.etouch.cn
   - DOMAIN-SUFFIX,marketing.kalahari.net
+  - DOMAIN-SUFFIX,marketing.net.jumia.com.ng
   - DOMAIN-SUFFIX,marketing.nodesource.com
+  - DOMAIN-SUFFIX,marketing.tr.netsalesmedia.pl
   - DOMAIN-SUFFIX,marketo.net
   - DOMAIN-SUFFIX,marwinhitted.site
   - DOMAIN-SUFFIX,masdk.3g.qq.com
@@ -31507,13 +31511,16 @@ payload:
   - DOMAIN-SUFFIX,metric.inetcore.com
   - DOMAIN-SUFFIX,metric.ipv6test.net
   - DOMAIN-SUFFIX,metricfast.com
+  - DOMAIN-SUFFIX,metrics.cbn.com
   - DOMAIN-SUFFIX,metrics.cbslocal.com
+  - DOMAIN-SUFFIX,metrics.ee.co.uk
   - DOMAIN-SUFFIX,metrics.extremetech.com
   - DOMAIN-SUFFIX,metrics.feedroom.com
   - DOMAIN-SUFFIX,metrics.seenon.com
   - DOMAIN-SUFFIX,metrics.sonymusicd2c.com
   - DOMAIN-SUFFIX,metrics.tbliab.net
   - DOMAIN-SUFFIX,metrics.ted.com
+  - DOMAIN-SUFFIX,metrics.toptenreviews.com
   - DOMAIN-SUFFIX,metrics.upcload.com
   - DOMAIN-SUFFIX,metrics.wikinvest.com
   - DOMAIN-SUFFIX,metrigo.zalan.do
@@ -32280,6 +32287,7 @@ payload:
   - DOMAIN-SUFFIX,olpvimg.onlylady.com
   - DOMAIN-SUFFIX,olstats.onlylady.com
   - DOMAIN-SUFFIX,olxt.top
+  - DOMAIN-SUFFIX,om.cbsi.com
   - DOMAIN-SUFFIX,om.rogersmedia.com
   - DOMAIN-SUFFIX,omaceran.pw
   - DOMAIN-SUFFIX,omafaren.pw
@@ -32288,9 +32296,12 @@ payload:
   - DOMAIN-SUFFIX,omgmta1.qq.com
   - DOMAIN-SUFFIX,omgnjvrjgpeg.com
   - DOMAIN-SUFFIX,ommodatesjoin.info
+  - DOMAIN-SUFFIX,omni.nine.com.au
   - DOMAIN-SUFFIX,omnikool.discovery.com
+  - DOMAIN-SUFFIX,omniture.stuff.co.nz
   - DOMAIN-SUFFIX,omniture.theglobeandmail.com
   - DOMAIN-SUFFIX,omoaxaus.net
+  - DOMAIN-SUFFIX,oms.expedia.com
   - DOMAIN-SUFFIX,omtrdc.net
   - DOMAIN-SUFFIX,omztf.cn
   - DOMAIN-SUFFIX,on.maxspeedcdn.com
@@ -33613,6 +33624,7 @@ payload:
   - DOMAIN-SUFFIX,sbpb1.qulishi.com
   - DOMAIN-SUFFIX,sbroughhig.info
   - DOMAIN-SUFFIX,sbrqp.com
+  - DOMAIN-SUFFIX,sc.cc.com
   - DOMAIN-SUFFIX,sc.chinaiiss.com
   - DOMAIN-SUFFIX,sc.csai.cn
   - DOMAIN-SUFFIX,sc.ggfeng.com
@@ -34083,6 +34095,8 @@ payload:
   - DOMAIN-SUFFIX,sssgao999.com
   - DOMAIN-SUFFIX,sssvd.china.com
   - DOMAIN-SUFFIX,sstar.vip
+  - DOMAIN-SUFFIX,sstats.mora.jp
+  - DOMAIN-SUFFIX,sstats.oui.sncf
   - DOMAIN-SUFFIX,sstc360.com
   - DOMAIN-SUFFIX,st-n.ads3-adnow.com
   - DOMAIN-SUFFIX,st.arte.tv
@@ -34522,6 +34536,7 @@ payload:
   - DOMAIN-SUFFIX,tbinq.com
   - DOMAIN-SUFFIX,tbjfw.com
   - DOMAIN-SUFFIX,tbskip.taobao.com
+  - DOMAIN-SUFFIX,tc.airfrance.com
   - DOMAIN-SUFFIX,tc.ci123.com
   - DOMAIN-SUFFIX,tc.hometogo.net
   - DOMAIN-SUFFIX,tc600.com
@@ -34778,7 +34793,6 @@ payload:
   - DOMAIN-SUFFIX,track.eyeviewads.com
   - DOMAIN-SUFFIX,track.fxstreet.com
   - DOMAIN-SUFFIX,track.hubspot.com
-  - DOMAIN-SUFFIX,track.hujiang.com
   - DOMAIN-SUFFIX,track.leadin.com
   - DOMAIN-SUFFIX,track.mopo.de
   - DOMAIN-SUFFIX,track.ning.com
@@ -34810,7 +34824,6 @@ payload:
   - DOMAIN-SUFFIX,tracker.lolalytics.com
   - DOMAIN-SUFFIX,tracker.mattel.com
   - DOMAIN-SUFFIX,tracker.neon-images.com
-  - DOMAIN-SUFFIX,tracker.nitropay.com
   - DOMAIN-SUFFIX,tracker.pandora.com
   - DOMAIN-SUFFIX,tracker.pinnaclesports.com
   - DOMAIN-SUFFIX,tracker.realclearpolitics.com
@@ -35389,6 +35402,7 @@ payload:
   - DOMAIN-SUFFIX,viralvideos.pw
   - DOMAIN-SUFFIX,virashux.net
   - DOMAIN-SUFFIX,virgo8.cn
+  - DOMAIN-SUFFIX,visit.asb.co.nz
   - DOMAIN-SUFFIX,visit.dealspwn.com
   - DOMAIN-SUFFIX,visit.mobot.net
   - DOMAIN-SUFFIX,vista.tgbus.com
@@ -35411,6 +35425,7 @@ payload:
   - DOMAIN-SUFFIX,vn543.com
   - DOMAIN-SUFFIX,vn6e8w2w92.com
   - DOMAIN-SUFFIX,vnanf.com
+  - DOMAIN-SUFFIX,vnf4.belleetbio.com
   - DOMAIN-SUFFIX,vnnv777.cn
   - DOMAIN-SUFFIX,vns3359.com
   - DOMAIN-SUFFIX,vns800600.net

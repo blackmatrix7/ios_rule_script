@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-25 02:12:36
-# DOMAIN-SUFFIX: 25552
+# UPDATED: 2022-03-04 02:12:17
+# DOMAIN-SUFFIX: 25553
 # DOMAIN: 32
 # DOMAIN-KEYWORD: 45
 # IP-CIDR: 110
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 25744
+# TOTAL: 25745
 payload:
   - DOMAIN,amp-api.podcasts.apple.com
   - DOMAIN,api.waqi.info
@@ -17333,6 +17333,7 @@ payload:
   - DOMAIN-SUFFIX,swc5555.com
   - DOMAIN-SUFFIX,swc888.com
   - DOMAIN-SUFFIX,swdevelop.de
+  - DOMAIN-SUFFIX,swebanalytics.acs.org
   - DOMAIN-SUFFIX,sweetkiss.me
   - DOMAIN-SUFFIX,sweetpacks-search.com
   - DOMAIN-SUFFIX,swell.cl

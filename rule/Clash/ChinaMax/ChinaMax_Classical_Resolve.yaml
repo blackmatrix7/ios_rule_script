@@ -1,11 +1,11 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-04 16:25:41
-# DOMAIN-SUFFIX: 71851
+# UPDATED: 2022-03-05 02:12:47
+# DOMAIN-SUFFIX: 71852
 # PROCESS-NAME: 5
 # DOMAIN: 80
-# IP-CIDR: 6173
+# IP-CIDR: 6172
 # DOMAIN-KEYWORD: 14
 # IP-CIDR6: 5471
 # TOTAL: 83594
@@ -17066,6 +17066,7 @@ payload:
   - DOMAIN-SUFFIX,cmoct.com
   - DOMAIN-SUFFIX,cmodes.com
   - DOMAIN-SUFFIX,cmol.com
+  - DOMAIN-SUFFIX,cmpassport.com
   - DOMAIN-SUFFIX,cmpay.com
   - DOMAIN-SUFFIX,cmread.com
   - DOMAIN-SUFFIX,cmri.cc
@@ -73249,7 +73250,6 @@ payload:
   - IP-CIDR,103.35.104.0/22
   - IP-CIDR,103.35.180.0/23
   - IP-CIDR,103.35.220.0/22
-  - IP-CIDR,103.35.254.0/24
   - IP-CIDR,103.35.32.0/20
   - IP-CIDR,103.35.48.0/22
   - IP-CIDR,103.36.132.0/22

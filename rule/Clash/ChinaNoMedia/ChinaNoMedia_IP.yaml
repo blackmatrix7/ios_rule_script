@@ -1,14 +1,14 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-04 02:12:17
+# UPDATED: 2022-03-05 02:12:47
 # DOMAIN-SUFFIX: 7089
 # PROCESS-NAME: 3
 # DOMAIN: 16
-# IP-CIDR: 6170
+# IP-CIDR: 6169
 # DOMAIN-KEYWORD: 12
 # IP-CIDR6: 5471
-# TOTAL: 18761
+# TOTAL: 18760
 payload:
   - '1.0.1.0/24'
   - '1.0.2.0/23'
@@ -1303,7 +1303,6 @@ payload:
   - '103.35.104.0/22'
   - '103.35.180.0/23'
   - '103.35.220.0/22'
-  - '103.35.254.0/24'
   - '103.35.32.0/20'
   - '103.35.48.0/22'
   - '103.36.132.0/22'

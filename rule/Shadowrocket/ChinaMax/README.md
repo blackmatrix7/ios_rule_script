@@ -26,9 +26,9 @@
 | 类型 | 数量(条) |
 | ---- | ---- |
 | USER-AGENT | 62 |
-| DOMAIN-SUFFIX | 71851 |
+| DOMAIN-SUFFIX | 71852 |
 | DOMAIN | 80 |
-| IP-CIDR | 6173 |
+| IP-CIDR | 6172 |
 | DOMAIN-KEYWORD | 14 |
 ## 配置说明
 

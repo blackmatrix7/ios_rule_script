@@ -14,15 +14,15 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 550 |
-| DOMAIN-SUFFIX | 2 |
+| mitm | 546 |
+| DOMAIN-SUFFIX | 1 |
 | DOMAIN | 6 |
-| URL-REGEX | 7 |
+| URL-REGEX | 4 |
 | USER-AGENT | 1 |
-| IP-CIDR6 | 1 |
 | IP-CIDR | 1 |
-| reject | 734 |
-| http-response | 33 |
+| IP-CIDR6 | 1 |
+| reject | 729 |
+| http-response | 27 |
 | http-request | 3 |
 | redirect | 49 |
 ## 配置说明
@@ -67,7 +67,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/RewriteRules.sgmodule
 - https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Loon/Advertising.conf
 - https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/Advertising.plugin
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.lnplugin
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.lnplugin

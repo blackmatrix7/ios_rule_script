@@ -8,22 +8,21 @@
 
 请通过我国(中华人民共和国)合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 ## 规则说明
-整合知乎、BiliBili、什么值得买三个APP去广告，及脚本去除开屏广告复写。
+整合知乎、 什么值得买等APP去广告，及脚本去除开屏广告复写。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 27 |
+| mitm | 23 |
 | force_http_engine_hosts | 0 |
-| URL-REGEX | 7 |
-| DOMAIN | 4 |
+| URL-REGEX | 4 |
 | USER-AGENT | 1 |
-| DOMAIN-SUFFIX | 1 |
 | IP-CIDR | 1 |
+| DOMAIN | 4 |
 | IP-CIDR6 | 1 |
-| reject | 22 |
-| http-response | 33 |
+| reject | 17 |
+| http-response | 27 |
 | http-request | 1 |
 ## 配置说明
 
@@ -65,7 +64,6 @@ AdvertisingScript_Classical.sgmodule 采用传统的reject方式直接拒绝请�
 
 如果你正在使用这些复写规则，建议不要与本项目的脚本去广告复写规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.lnplugin
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.lnplugin

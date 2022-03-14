@@ -1,13 +1,13 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-14 02:11:06
-# DOMAIN-SUFFIX: 31937
+# UPDATED: 2022-03-15 02:13:04
+# DOMAIN-SUFFIX: 31983
 # USER-AGENT: 5
 # DOMAIN: 37
 # DOMAIN-KEYWORD: 26
-# IP-CIDR: 89
-# TOTAL: 32094
+# IP-CIDR: 90
+# TOTAL: 32141
 DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,abema
 DOMAIN-KEYWORD,appledaily
@@ -85,6 +85,7 @@ IP-CIDR,180.163.150.162/32,no-resolve
 IP-CIDR,180.163.150.34/32,no-resolve
 IP-CIDR,180.163.151.162/32,no-resolve
 IP-CIDR,180.163.151.34/32,no-resolve
+IP-CIDR,183.131.48.0/20,no-resolve
 IP-CIDR,184.173.128.0/17,no-resolve
 IP-CIDR,185.60.216.0/22,no-resolve
 IP-CIDR,203.104.103.0/24,no-resolve

@@ -1,28 +1,75 @@
 # NAME: SystemOTA
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-18 23:33:30
+# UPDATED: 2022-03-15 02:12:59
 # HOST-SUFFIX: 13
-# HOST: 18
-# TOTAL: 31
+# HOST: 65
+# TOTAL: 78
+HOST,appldnld-cdn.apple.com.akadns.net,SystemOTA
+HOST,appldnld-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,appldnld.apple.com.mwcname.com,SystemOTA
 HOST,configuration.apple.com,SystemOTA
+HOST,gdmf-cdn.apple.com.akadns.net,SystemOTA
+HOST,gdmf-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,gdmf-lb.apple.com.akadns.net,SystemOTA
+HOST,gdmf.apple.com.mwcname.com,SystemOTA
+HOST,gdmf.g.aaplimg.com,SystemOTA
+HOST,gg-cdn.apple.com.akadns.net,SystemOTA
+HOST,gg-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,gg-lb.apple.com.akadns.net,SystemOTA
 HOST,gg.apple.com,SystemOTA
+HOST,gg.apple.com.akadns.net,SystemOTA
+HOST,gg.apple.com.mwcname.com,SystemOTA
+HOST,gg.g.aaplimg.com,SystemOTA
 HOST,gnf-mdn.apple.com,SystemOTA
 HOST,gnf-mr.apple.com,SystemOTA
 HOST,gs.apple.com,SystemOTA
 HOST,ig.apple.com,SystemOTA
+HOST,iphonesubmissions-cdn.apple.com.akadns.net,SystemOTA
+HOST,iphonesubmissions-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,iphonesubmissions-lb.apple.com.akadns.net,SystemOTA
+HOST,iphonesubmissions.apple.com,SystemOTA
+HOST,iphonesubmissions.apple.com.akadns.net,SystemOTA
+HOST,iphonesubmissions.apple.com.mwcname.com,SystemOTA
+HOST,iphonesubmissions.g.aaplimg.com,SystemOTA
+HOST,mesu-lb.apple.com.akadns.net,SystemOTA
+HOST,mesu.apple.com.akadns.net,SystemOTA
+HOST,mesu.apple.com.mwcname.com,SystemOTA
 HOST,ns.itunes.apple.com,SystemOTA
+HOST,ocsp-cdn.apple.com.akadns.net,SystemOTA
+HOST,ocsp-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,ocsp.apple.com.akadns.net,SystemOTA
+HOST,ocsp.apple.com.mwcname.com,SystemOTA
 HOST,oscdn.apple.com,SystemOTA
 HOST,osrecovery.apple.com,SystemOTA
+HOST,radarsubmissions-cdn.apple.com.akadns.net,SystemOTA
+HOST,radarsubmissions-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,radarsubmissions-lb.apple.com.akadns.net,SystemOTA
+HOST,radarsubmissions.apple.com,SystemOTA
+HOST,radarsubmissions.apple.com.akadns.net,SystemOTA
+HOST,radarsubmissions.apple.com.mwcname.com,SystemOTA
+HOST,radarsubmissions.g.aaplimg.com,SystemOTA
 HOST,skl.apple.com,SystemOTA
 HOST,swcdn.apple.com,SystemOTA
 HOST,swdist.apple.com,SystemOTA
 HOST,swdownload.apple.com,SystemOTA
 HOST,swpost.apple.com,SystemOTA
+HOST,swscan-cdn.apple.com.akadns.net,SystemOTA
+HOST,swscan-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,swscan-lb.apple.com.akadns.net,SystemOTA
 HOST,swscan.apple.com,SystemOTA
+HOST,swscan.apple.com.akadns.net,SystemOTA
+HOST,swscan.apple.com.mwcname.com,SystemOTA
+HOST,swscan.g.aaplimg.com,SystemOTA
 HOST,updates-http.cdn-apple.com,SystemOTA
 HOST,updates.cdn-apple.com,SystemOTA
+HOST,xp-cdn.apple.com.akadns.net,SystemOTA
+HOST,xp-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,xp-lb.apple.com.akadns.net,SystemOTA
 HOST,xp.apple.com,SystemOTA
+HOST,xp.apple.com.akadns.net,SystemOTA
+HOST,xp.apple.com.mwcname.com,SystemOTA
+HOST,xp.g.aaplimg.com,SystemOTA
 HOST-SUFFIX,appldnld-lb.apple.com.akadns.net,SystemOTA
 HOST-SUFFIX,appldnld.apple.com,SystemOTA
 HOST-SUFFIX,appldnld.apple.com.akadns.net,SystemOTA

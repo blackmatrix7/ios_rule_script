@@ -1,13 +1,13 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-19 12:55:43
+# UPDATED: 2022-03-28 02:11:51
 # PROCESS-NAME: 5
-# DOMAIN-SUFFIX: 642
+# DOMAIN-SUFFIX: 646
 # DOMAIN-KEYWORD: 8
 # IP-CIDR: 4
 # IP-CIDR6: 1
-# TOTAL: 660
+# TOTAL: 664
 payload:
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,1e100.net
@@ -182,6 +182,8 @@ payload:
   - DOMAIN-SUFFIX,debugproject.com
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deja.com
+  - DOMAIN-SUFFIX,deps.dev
+  - DOMAIN-SUFFIX,deps.info
   - DOMAIN-SUFFIX,devsitetest.how
   - DOMAIN-SUFFIX,dialogflow.com
   - DOMAIN-SUFFIX,digisfera.com
@@ -538,6 +540,8 @@ payload:
   - DOMAIN-SUFFIX,onefifteen.net
   - DOMAIN-SUFFIX,onefifteen.org
   - DOMAIN-SUFFIX,oneworldmanystories.com
+  - DOMAIN-SUFFIX,opensourceinsight.dev
+  - DOMAIN-SUFFIX,opensourceinsights.dev
   - DOMAIN-SUFFIX,openthread.io
   - DOMAIN-SUFFIX,openweave.io
   - DOMAIN-SUFFIX,orbitera.com

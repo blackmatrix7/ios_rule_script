@@ -1,13 +1,13 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-16 02:12:10
-# DOMAIN-SUFFIX: 31986
-# DOMAIN: 37
+# UPDATED: 2022-03-28 02:11:51
+# DOMAIN-SUFFIX: 31988
+# DOMAIN: 36
 # DOMAIN-KEYWORD: 26
 # IP-CIDR: 90
 # IP-CIDR6: 3
-# TOTAL: 32142
+# TOTAL: 32143
 payload:
   - DOMAIN,angle.com.tw
   - DOMAIN,api-p.videomarket.jp
@@ -28,7 +28,6 @@ payload:
   - DOMAIN,elib.maruzen.co.jp
   - DOMAIN,faronics.kayako.com
   - DOMAIN,firstsearch.oclc.org
-  - DOMAIN,github-avatars.oss-cn-hongkong.aliyuncs.com
   - DOMAIN,gitlab-assets.oss-cn-hongkong.aliyuncs.com
   - DOMAIN,hpstore.corpmerchandise.com
   - DOMAIN,i.jeded.com
@@ -2597,7 +2596,6 @@ payload:
   - DOMAIN-SUFFIX,a2646.com
   - DOMAIN-SUFFIX,a2776.com
   - DOMAIN-SUFFIX,a2z.com
-  - DOMAIN-SUFFIX,a2zapk.com
   - DOMAIN-SUFFIX,a3236.com
   - DOMAIN-SUFFIX,a3285.com
   - DOMAIN-SUFFIX,a33285.com
@@ -7481,6 +7479,7 @@ payload:
   - DOMAIN-SUFFIX,comico.tw
   - DOMAIN-SUFFIX,commandandconquer.com
   - DOMAIN-SUFFIX,commandarms.com
+  - DOMAIN-SUFFIX,comments.app
   - DOMAIN-SUFFIX,commentshk.com
   - DOMAIN-SUFFIX,commercebank.com
   - DOMAIN-SUFFIX,commerceos.com
@@ -17163,6 +17162,7 @@ payload:
   - DOMAIN-SUFFIX,mocloudplus.com
   - DOMAIN-SUFFIX,mocovideo.jp
   - DOMAIN-SUFFIX,mod-reborn.weebly.com
+  - DOMAIN-SUFFIX,mod.io
   - DOMAIN-SUFFIX,mod.red
   - DOMAIN-SUFFIX,mod.run
   - DOMAIN-SUFFIX,modelhub.com
@@ -31329,6 +31329,7 @@ payload:
   - DOMAIN-SUFFIX,yahoofinance.com
   - DOMAIN-SUFFIX,yahoohealth.com
   - DOMAIN-SUFFIX,yahoomusic.com
+  - DOMAIN-SUFFIX,yahoosandbox.com
   - DOMAIN-SUFFIX,yahoosportsbook.com
   - DOMAIN-SUFFIX,yakbutterblues.com
   - DOMAIN-SUFFIX,yaksi.name.tr

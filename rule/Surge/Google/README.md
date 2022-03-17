@@ -13,7 +13,7 @@
 
 ## 规则统计
 
-总计规则：663 条。
+总计规则：667 条。
 
 各类型规则统计：
 
@@ -21,7 +21,7 @@
 | ---- | ---- |
 | PROCESS-NAME | 5 |
 | USER-AGENT | 3 |
-| DOMAIN-SUFFIX | 642 |
+| DOMAIN-SUFFIX | 646 |
 | DOMAIN-KEYWORD | 8 |
 | IP-CIDR | 4 |
 | IP-CIDR6 | 1 |

@@ -1,15 +1,16 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-15 02:13:03
-# DOMAIN-SUFFIX: 25532
-# DOMAIN: 32
+# UPDATED: 2022-03-28 02:11:51
+# DOMAIN-SUFFIX: 25531
+# DOMAIN: 33
 # DOMAIN-KEYWORD: 45
 # IP-CIDR: 110
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
 # TOTAL: 25724
 payload:
+  - DOMAIN,addons.mozilla.org
   - DOMAIN,amp-api.podcasts.apple.com
   - DOMAIN,api.waqi.info
   - DOMAIN,apple.comscoreresearch.com
@@ -2538,7 +2539,6 @@ payload:
   - DOMAIN-SUFFIX,a2299.com
   - DOMAIN-SUFFIX,a2646.com
   - DOMAIN-SUFFIX,a2776.com
-  - DOMAIN-SUFFIX,a2zapk.com
   - DOMAIN-SUFFIX,a3236.com
   - DOMAIN-SUFFIX,a3285.com
   - DOMAIN-SUFFIX,a33285.com
@@ -6957,7 +6957,6 @@ payload:
   - DOMAIN-SUFFIX,dumisa.tv
   - DOMAIN-SUFFIX,dumpbhh.org
   - DOMAIN-SUFFIX,dunyabulteni.net
-  - DOMAIN-SUFFIX,duolingo.cn
   - DOMAIN-SUFFIX,duosuccess.com
   - DOMAIN-SUFFIX,duotai.org
   - DOMAIN-SUFFIX,duoweitimes.com
@@ -13081,6 +13080,7 @@ payload:
   - DOMAIN-SUFFIX,mochimedia.com
   - DOMAIN-SUFFIX,mocovideo.jp
   - DOMAIN-SUFFIX,mod-reborn.weebly.com
+  - DOMAIN-SUFFIX,mod.io
   - DOMAIN-SUFFIX,mod.red
   - DOMAIN-SUFFIX,mod.run
   - DOMAIN-SUFFIX,modelhub.com

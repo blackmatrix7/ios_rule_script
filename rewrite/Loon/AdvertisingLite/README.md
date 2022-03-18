@@ -23,8 +23,8 @@ AdvertisingLite 不直接抽取数据源中MITM的hostname，仅用正则推导�
 | 类型 | 数量(条) |
 | ---- | ---- |
 | mitm | 515 |
-| DOMAIN-SUFFIX | 1 |
 | DOMAIN | 2 |
+| DOMAIN-SUFFIX | 1 |
 | reject | 701 |
 ## 配置说明
 

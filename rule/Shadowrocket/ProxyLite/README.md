@@ -19,9 +19,9 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 31985 |
+| DOMAIN-SUFFIX | 31986 |
 | USER-AGENT | 5 |
-| DOMAIN | 37 |
+| DOMAIN | 36 |
 | DOMAIN-KEYWORD | 26 |
 | IP-CIDR | 90 |
 ## 配置说明

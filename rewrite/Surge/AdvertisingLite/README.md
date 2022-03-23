@@ -24,8 +24,8 @@ AdvertisingLite 不直接抽取数据源中MITM的hostname，仅用正则推导�
 | ---- | ---- |
 | mitm | 515 |
 | force_http_engine_hosts | 12 |
-| DOMAIN | 2 |
 | DOMAIN-SUFFIX | 1 |
+| DOMAIN | 2 |
 | reject | 701 |
 ## 配置说明
 

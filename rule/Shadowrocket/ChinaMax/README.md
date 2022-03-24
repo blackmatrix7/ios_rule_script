@@ -19,15 +19,15 @@
 
 ## 规则统计
 
-总计规则：77934 条。
+总计规则：77861 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | USER-AGENT | 62 |
-| DOMAIN-SUFFIX | 71596 |
-| DOMAIN | 80 |
+| DOMAIN-SUFFIX | 71524 |
+| DOMAIN | 79 |
 | IP-CIDR | 6182 |
 | DOMAIN-KEYWORD | 14 |
 ## 配置说明
@@ -490,6 +490,8 @@ ChinaMax_Domain.list 请使用DOMAIN-SET。
 - Steam
 
 - SteamCN
+
+- TikTok
 
 ## 数据来源
 

@@ -19,15 +19,15 @@
 
 ## 规则统计
 
-总计规则：84355 条。
+总计规则：84282 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 71596 |
+| DOMAIN-SUFFIX | 71524 |
 | PROCESS-NAME | 5 |
-| DOMAIN | 80 |
+| DOMAIN | 79 |
 | IP-CIDR | 6182 |
 | DOMAIN-KEYWORD | 14 |
 | IP-CIDR6 | 6478 |
@@ -503,6 +503,8 @@ ChinaMax_Classical.yaml 可以单独使用，其他规则必须同时使用。
 - Steam
 
 - SteamCN
+
+- TikTok
 
 ## 数据来源
 

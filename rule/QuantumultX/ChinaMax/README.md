@@ -19,15 +19,15 @@
 
 ## 规则统计
 
-总计规则：84412 条。
+总计规则：84339 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | USER-AGENT | 62 |
-| HOST-SUFFIX | 71596 |
-| HOST | 80 |
+| HOST-SUFFIX | 71524 |
+| HOST | 79 |
 | IP-CIDR | 6182 |
 | HOST-KEYWORD | 14 |
 | IP6-CIDR | 6478 |
@@ -479,6 +479,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - Steam
 
 - SteamCN
+
+- TikTok
 
 ## 数据来源
 

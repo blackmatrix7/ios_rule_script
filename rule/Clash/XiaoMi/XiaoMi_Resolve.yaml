@@ -1,10 +1,11 @@
 # NAME: XiaoMi
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-18 23:33:36
+# UPDATED: 2022-04-30 02:15:45
 # DOMAIN-SUFFIX: 118
+# PROCESS-NAME: 2
 # IP-CIDR: 2
-# TOTAL: 120
+# TOTAL: 122
 payload:
   - DOMAIN-SUFFIX,408399.com
   - DOMAIN-SUFFIX,408399.net
@@ -126,3 +127,5 @@ payload:
   - DOMAIN-SUFFIX,zhutidasai.com
   - IP-CIDR,58.220.58.152/31
   - IP-CIDR,58.220.59.2/32
+  - PROCESS-NAME,com.xiaomi.mibrain.speech
+  - PROCESS-NAME,小米云服务.exe

@@ -50,6 +50,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 如果你正在使用这些复写规则，建议不要与本项目的HBO(美国)复写规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list
+- https://raw.githubusercontent.com/luuanng/surge/main/HBOUSA.list
 
 
 感谢以上复写规则作者的辛勤付出（排名不分先后）。

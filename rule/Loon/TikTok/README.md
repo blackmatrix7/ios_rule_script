@@ -10,14 +10,14 @@
 
 ## 规则统计
 
-总计规则：20 条。
+总计规则：19 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 13 |
 | USER-AGENT | 1 |
+| DOMAIN-SUFFIX | 12 |
 | DOMAIN-KEYWORD | 5 |
 | DOMAIN | 1 |
 ## 配置说明
@@ -51,7 +51,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 如果你正在使用这些复写规则，建议不要与本项目的TikTok复写规则混合使用，以免造成规则重复。
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
-- https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Media/TikTok.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/TikTok.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TikTok.list
 - https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list

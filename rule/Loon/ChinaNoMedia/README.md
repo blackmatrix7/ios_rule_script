@@ -13,18 +13,18 @@
 
 ## 规则统计
 
-总计规则：19806 条。
+总计规则：17470 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | USER-AGENT | 32 |
-| DOMAIN-SUFFIX | 7089 |
-| DOMAIN | 16 |
-| IP-CIDR | 6179 |
-| DOMAIN-KEYWORD | 12 |
-| IP-CIDR6 | 6478 |
+| DOMAIN-SUFFIX | 7092 |
+| DOMAIN | 17 |
+| IP-CIDR | 6150 |
+| DOMAIN-KEYWORD | 13 |
+| IP-CIDR6 | 4166 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -476,7 +476,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 如果你正在使用这些复写规则，建议不要与本项目的ChinaNoMedia复写规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/360.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/4399.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list
@@ -502,6 +501,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Podcast/Himalaya.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/bilibili.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/iQIYI.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list
 - https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt

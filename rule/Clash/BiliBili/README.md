@@ -10,7 +10,7 @@
 
 ## 规则统计
 
-总计规则：108 条。
+总计规则：112 条。
 
 各类型规则统计：
 
@@ -18,7 +18,7 @@
 | ---- | ---- |
 | DOMAIN-SUFFIX | 51 |
 | PROCESS-NAME | 2 |
-| DOMAIN | 48 |
+| DOMAIN | 52 |
 | IP-CIDR | 7 |
 ## 配置说明
 
@@ -50,6 +50,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 如果你正在使用这些复写规则，建议不要与本项目的BiliBili复写规则混合使用，以免造成规则重复。
 
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/bilibili.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Bilibili.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/Bilibili.list

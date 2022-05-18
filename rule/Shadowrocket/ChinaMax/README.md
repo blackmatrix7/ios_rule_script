@@ -15,21 +15,21 @@
 
 引用此规则后，不要再引用其他的国内规则，否则可能造成大量规则重复。
 
-实验性规则，效果待观察，请谨慎评估后使用。
+实验性规则，效果待观察，不建议使用，不建议使用，不建议使用，已考虑进行删除。
 
 ## 规则统计
 
-总计规则：77866 条。
+总计规则：76378 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | USER-AGENT | 62 |
-| DOMAIN-SUFFIX | 71529 |
-| DOMAIN | 79 |
-| IP-CIDR | 6182 |
-| DOMAIN-KEYWORD | 14 |
+| DOMAIN-SUFFIX | 69980 |
+| DOMAIN | 76 |
+| IP-CIDR | 6245 |
+| DOMAIN-KEYWORD | 15 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -98,8 +98,6 @@ ChinaMax_Domain.list 请使用DOMAIN-SET。
 - Agora
 
 - AliPay
-
-- Alibaba
 
 - AnTianKeJi
 
@@ -487,6 +485,8 @@ ChinaMax_Domain.list 请使用DOMAIN-SET。
 
 - AdvertisingTest
 
+- Proxy
+
 - Steam
 
 - SteamCN
@@ -499,10 +499,8 @@ ChinaMax_Domain.list 请使用DOMAIN-SET。
 
 如果你正在使用这些复写规则，建议不要与本项目的国内网站/IP合集复写规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/360.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/4399.list
-- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/CCTV.list
@@ -527,6 +525,7 @@ ChinaMax_Domain.list 请使用DOMAIN-SET。
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Podcast/Himalaya.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/bilibili.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/iQIYI.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/CMedia.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list
@@ -549,7 +548,6 @@ ChinaMax_Domain.list 请使用DOMAIN-SET。
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AcFun.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Agora.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AliPay.list
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AnTianKeJi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Anjuke.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BOC.list

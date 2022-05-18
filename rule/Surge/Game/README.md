@@ -13,16 +13,16 @@
 
 ## 规则统计
 
-总计规则：551 条。
+总计规则：557 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-SUFFIX | 483 |
+| DOMAIN-SUFFIX | 503 |
 | IP-CIDR | 45 |
-| DOMAIN | 21 |
-| DOMAIN-KEYWORD | 1 |
+| DOMAIN-KEYWORD | 4 |
+| DOMAIN | 4 |
 | PROTOCOL | 1 |
 ## 配置说明
 
@@ -135,6 +135,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Purikonejp.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Riot.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Rockstar.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Steam.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/UBI.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Xbox.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Garena.list

@@ -1,0 +1,22 @@
+# NAME: WeChat
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2022-04-03 10:56:33
+# DOMAIN: 5
+# IP-CIDR: 9
+# TOTAL: 14
+payload:
+  - DOMAIN,dl.wechat.com
+  - DOMAIN,sglong.wechat.com
+  - DOMAIN,sgminorshort.wechat.com
+  - DOMAIN,sgshort.wechat.com
+  - DOMAIN,tencentmap.wechat.com
+  - IP-CIDR,101.32.104.4/32
+  - IP-CIDR,101.32.104.41/32
+  - IP-CIDR,101.32.104.56/32
+  - IP-CIDR,101.32.118.25/32
+  - IP-CIDR,101.32.133.16/32
+  - IP-CIDR,101.32.133.209/32
+  - IP-CIDR,101.32.133.53/32
+  - IP-CIDR,129.226.107.244/32
+  - IP-CIDR,129.226.3.47/32

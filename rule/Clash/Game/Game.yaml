@@ -1,34 +1,17 @@
 # NAME: Game
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-11 16:03:17
-# DOMAIN-SUFFIX: 483
+# UPDATED: 2022-04-03 10:56:32
+# DOMAIN-SUFFIX: 503
 # IP-CIDR: 45
-# DOMAIN: 21
-# DOMAIN-KEYWORD: 1
-# TOTAL: 550
+# DOMAIN-KEYWORD: 4
+# DOMAIN: 4
+# TOTAL: 556
 payload:
-  - DOMAIN,csgo.wmsj.cn
-  - DOMAIN,dl.steam.clngaa.com
-  - DOMAIN,dl.steam.ksyna.com
-  - DOMAIN,dota2.wmsj.cn
   - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN,login.live.com
   - DOMAIN,logincdn.msauth.net
-  - DOMAIN,st.dl.bscstorage.net
-  - DOMAIN,st.dl.eccdnx.com
-  - DOMAIN,st.dl.pinyuncloud.com
-  - DOMAIN,steambroadcast.akamaized.net
-  - DOMAIN,steamcommunity-a.akamaihd.net
-  - DOMAIN,steampipe.akamaized.net
-  - DOMAIN,steampipe.steamcontent.tnkjmec.com
-  - DOMAIN,steampowered.com.8686c.com
-  - DOMAIN,steamstatic.com.8686c.com
-  - DOMAIN,steamstore-a.akamaihd.net
-  - DOMAIN,steamusercontent-a.akamaihd.net
-  - DOMAIN,steamuserimages-a.akamaihd.net
   - DOMAIN,store-images.s-microsoft.com
-  - DOMAIN,wmsjsteam.com
   - DOMAIN-SUFFIX,100classicbooks.com
   - DOMAIN-SUFFIX,ac-pocketcamp.com
   - DOMAIN-SUFFIX,amiibo.com
@@ -98,6 +81,7 @@ payload:
   - DOMAIN-SUFFIX,conquerwithcharacter.com
   - DOMAIN-SUFFIX,convrgencegame.com
   - DOMAIN-SUFFIX,crysis.jp
+  - DOMAIN-SUFFIX,csgo.wmsj.cn
   - DOMAIN-SUFFIX,daoc.net
   - DOMAIN-SUFFIX,darkageofcamelot.com
   - DOMAIN-SUFFIX,darkness-risen.com
@@ -114,8 +98,11 @@ payload:
   - DOMAIN-SUFFIX,dicela.net
   - DOMAIN-SUFFIX,diddykongracing.com
   - DOMAIN-SUFFIX,dkr.com
+  - DOMAIN-SUFFIX,dl.steam.clngaa.com
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com
   - DOMAIN-SUFFIX,dlmobilegarena-a.akamaihd.net
   - DOMAIN-SUFFIX,donkeykongcountryreturns.com
+  - DOMAIN-SUFFIX,dota2.wmsj.cn
   - DOMAIN-SUFFIX,dragonage.com
   - DOMAIN-SUFFIX,dragonagekeep.com
   - DOMAIN-SUFFIX,dragonagemovie.com
@@ -410,6 +397,9 @@ payload:
   - DOMAIN-SUFFIX,spore.com
   - DOMAIN-SUFFIX,spyjinx.com
   - DOMAIN-SUFFIX,ssx3.com
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com
+  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
   - DOMAIN-SUFFIX,starcraft.com
   - DOMAIN-SUFFIX,starcraft2.com
   - DOMAIN-SUFFIX,starfox.com
@@ -418,16 +408,28 @@ payload:
   - DOMAIN-SUFFIX,starwarsfallenorder.com
   - DOMAIN-SUFFIX,starwarsjedifallenorder.com
   - DOMAIN-SUFFIX,starwarstheoldrepublic.com
+  - DOMAIN-SUFFIX,steam-api.com
   - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steambroadcast.akamaized.net
   - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
   - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
   - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,steampipe.akamaized.net
   - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com
   - DOMAIN-SUFFIX,steamstat.us
   - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
+  - DOMAIN-SUFFIX,steamstore-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamunlocked.net
+  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
   - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
   - DOMAIN-SUFFIX,supermario.com
   - DOMAIN-SUFFIX,supermario3dworld.com
   - DOMAIN-SUFFIX,supermariobros.com.cn
@@ -483,6 +485,7 @@ payload:
   - DOMAIN-SUFFIX,wiisportsresort.com
   - DOMAIN-SUFFIX,wiiugamepad.com
   - DOMAIN-SUFFIX,wiivc.net
+  - DOMAIN-SUFFIX,wmsjsteam.com
   - DOMAIN-SUFFIX,worldofwarcraft.com
   - DOMAIN-SUFFIX,wow.nosdn.127.net
   - DOMAIN-SUFFIX,wowchina.com
@@ -513,6 +516,9 @@ payload:
   - DOMAIN-SUFFIX,yogify.com
   - DOMAIN-SUFFIX,yoshisnewisland.com
   - DOMAIN-KEYWORD,epicgames
+  - DOMAIN-KEYWORD,steambroadcast
+  - DOMAIN-KEYWORD,steamstore
+  - DOMAIN-KEYWORD,steamuserimages
   - IP-CIDR,103.4.114.233/32,no-resolve
   - IP-CIDR,103.4.115.248/32,no-resolve
   - IP-CIDR,13.210.25.233/32,no-resolve

@@ -1,33 +1,16 @@
 # NAME: Game
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-11 16:03:15
-# HOST-SUFFIX: 483
+# UPDATED: 2022-04-03 10:56:29
+# HOST-SUFFIX: 503
 # IP-CIDR: 45
-# HOST: 21
-# HOST-KEYWORD: 1
-# TOTAL: 550
-HOST,csgo.wmsj.cn,Game
-HOST,dl.steam.clngaa.com,Game
-HOST,dl.steam.ksyna.com,Game
-HOST,dota2.wmsj.cn,Game
+# HOST-KEYWORD: 4
+# HOST: 4
+# TOTAL: 556
 HOST,img-prod-cms-rt-microsoft-com.akamaized.net,Game
 HOST,login.live.com,Game
 HOST,logincdn.msauth.net,Game
-HOST,st.dl.bscstorage.net,Game
-HOST,st.dl.eccdnx.com,Game
-HOST,st.dl.pinyuncloud.com,Game
-HOST,steambroadcast.akamaized.net,Game
-HOST,steamcommunity-a.akamaihd.net,Game
-HOST,steampipe.akamaized.net,Game
-HOST,steampipe.steamcontent.tnkjmec.com,Game
-HOST,steampowered.com.8686c.com,Game
-HOST,steamstatic.com.8686c.com,Game
-HOST,steamstore-a.akamaihd.net,Game
-HOST,steamusercontent-a.akamaihd.net,Game
-HOST,steamuserimages-a.akamaihd.net,Game
 HOST,store-images.s-microsoft.com,Game
-HOST,wmsjsteam.com,Game
 HOST-SUFFIX,100classicbooks.com,Game
 HOST-SUFFIX,ac-pocketcamp.com,Game
 HOST-SUFFIX,amiibo.com,Game
@@ -97,6 +80,7 @@ HOST-SUFFIX,commandandconquer.com,Game
 HOST-SUFFIX,conquerwithcharacter.com,Game
 HOST-SUFFIX,convrgencegame.com,Game
 HOST-SUFFIX,crysis.jp,Game
+HOST-SUFFIX,csgo.wmsj.cn,Game
 HOST-SUFFIX,daoc.net,Game
 HOST-SUFFIX,darkageofcamelot.com,Game
 HOST-SUFFIX,darkness-risen.com,Game
@@ -113,8 +97,11 @@ HOST-SUFFIX,dicela.com,Game
 HOST-SUFFIX,dicela.net,Game
 HOST-SUFFIX,diddykongracing.com,Game
 HOST-SUFFIX,dkr.com,Game
+HOST-SUFFIX,dl.steam.clngaa.com,Game
+HOST-SUFFIX,dl.steam.ksyna.com,Game
 HOST-SUFFIX,dlmobilegarena-a.akamaihd.net,Game
 HOST-SUFFIX,donkeykongcountryreturns.com,Game
+HOST-SUFFIX,dota2.wmsj.cn,Game
 HOST-SUFFIX,dragonage.com,Game
 HOST-SUFFIX,dragonagekeep.com,Game
 HOST-SUFFIX,dragonagemovie.com,Game
@@ -409,6 +396,9 @@ HOST-SUFFIX,splatoon2tournament.com,Game
 HOST-SUFFIX,spore.com,Game
 HOST-SUFFIX,spyjinx.com,Game
 HOST-SUFFIX,ssx3.com,Game
+HOST-SUFFIX,st.dl.bscstorage.net,Game
+HOST-SUFFIX,st.dl.eccdnx.com,Game
+HOST-SUFFIX,st.dl.pinyuncloud.com,Game
 HOST-SUFFIX,starcraft.com,Game
 HOST-SUFFIX,starcraft2.com,Game
 HOST-SUFFIX,starfox.com,Game
@@ -417,16 +407,28 @@ HOST-SUFFIX,starwarsbattlefront2.com,Game
 HOST-SUFFIX,starwarsfallenorder.com,Game
 HOST-SUFFIX,starwarsjedifallenorder.com,Game
 HOST-SUFFIX,starwarstheoldrepublic.com,Game
+HOST-SUFFIX,steam-api.com,Game
 HOST-SUFFIX,steam-chat.com,Game
+HOST-SUFFIX,steambroadcast.akamaized.net,Game
 HOST-SUFFIX,steamcdn-a.akamaihd.net,Game
 HOST-SUFFIX,steamchina.com,Game
+HOST-SUFFIX,steamcommunity-a.akamaihd.net,Game
 HOST-SUFFIX,steamcommunity.com,Game
 HOST-SUFFIX,steamcontent.com,Game
+HOST-SUFFIX,steamcontent.tnkjmec.com,Game
 HOST-SUFFIX,steamgames.com,Game
+HOST-SUFFIX,steampipe.akamaized.net,Game
 HOST-SUFFIX,steampowered.com,Game
+HOST-SUFFIX,steampowered.com.8686c.com,Game
 HOST-SUFFIX,steamstat.us,Game
 HOST-SUFFIX,steamstatic.com,Game
+HOST-SUFFIX,steamstatic.com.8686c.com,Game
+HOST-SUFFIX,steamstore-a.akamaihd.net,Game
+HOST-SUFFIX,steamunlocked.net,Game
+HOST-SUFFIX,steamusercontent-a.akamaihd.net,Game
 HOST-SUFFIX,steamusercontent.com,Game
+HOST-SUFFIX,steamuserimages-a.akamaihd.net,Game
+HOST-SUFFIX,steamvideo-a.akamaihd.net,Game
 HOST-SUFFIX,supermario.com,Game
 HOST-SUFFIX,supermario3dworld.com,Game
 HOST-SUFFIX,supermariobros.com.cn,Game
@@ -482,6 +484,7 @@ HOST-SUFFIX,wiisports.com,Game
 HOST-SUFFIX,wiisportsresort.com,Game
 HOST-SUFFIX,wiiugamepad.com,Game
 HOST-SUFFIX,wiivc.net,Game
+HOST-SUFFIX,wmsjsteam.com,Game
 HOST-SUFFIX,worldofwarcraft.com,Game
 HOST-SUFFIX,wow.nosdn.127.net,Game
 HOST-SUFFIX,wowchina.com,Game
@@ -512,6 +515,9 @@ HOST-SUFFIX,xn--mts47c3w9b1qr.net,Game
 HOST-SUFFIX,yogify.com,Game
 HOST-SUFFIX,yoshisnewisland.com,Game
 HOST-KEYWORD,epicgames,Game
+HOST-KEYWORD,steambroadcast,Game
+HOST-KEYWORD,steamstore,Game
+HOST-KEYWORD,steamuserimages,Game
 IP-CIDR,103.4.114.233/32,Game
 IP-CIDR,103.4.115.248/32,Game
 IP-CIDR,13.210.25.233/32,Game

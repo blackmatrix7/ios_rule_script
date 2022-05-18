@@ -13,15 +13,15 @@
 
 ## 规则统计
 
-总计规则：135308 条。
+总计规则：137320 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 45301 |
-| DOMAIN-KEYWORD | 86 |
-| DOMAIN-SUFFIX | 89665 |
+| DOMAIN | 46608 |
+| DOMAIN-KEYWORD | 85 |
+| DOMAIN-SUFFIX | 90371 |
 | IP-CIDR | 255 |
 | IP-CIDR6 | 1 |
 ## 配置说明
@@ -131,9 +131,6 @@ AdvertisingTest_Classical.yaml 可以单独使用，其他规则必须同时使�
 - https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.list
 - https://raw.githubusercontent.com/mieqq/mieqq/master/In-AppTracker.txt
 - https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Tide.list
-- https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
-- https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt
-- https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt
 - https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list
 - https://raw.githubusercontent.com/scomper/surge-list/master/reject.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list

@@ -10,13 +10,13 @@
 
 ## 规则统计
 
-总计规则：6159 条。
+总计规则：6217 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| IP-CIDR | 6159 |
+| IP-CIDR | 6217 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -47,7 +47,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 
 如果你正在使用这些复写规则，建议不要与本项目的ChinaIPs复写规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
 - https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt

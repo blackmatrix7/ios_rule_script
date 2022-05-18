@@ -1,13 +1,13 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-15 02:13:02
-# DOMAIN-SUFFIX: 548
-# DOMAIN: 15
+# UPDATED: 2022-05-13 02:13:58
+# DOMAIN-SUFFIX: 549
+# DOMAIN: 16
 # IP-CIDR: 7
 # DOMAIN-KEYWORD: 10
 # IP-CIDR6: 4
-# TOTAL: 584
+# TOTAL: 586
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -24,6 +24,7 @@ payload:
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,sms.imagetasks.com
+  - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,10089.cn
   - DOMAIN-SUFFIX,12306.cn
@@ -215,6 +216,7 @@ payload:
   - DOMAIN-SUFFIX,gifshow.com
   - DOMAIN-SUFFIX,godic.net
   - DOMAIN-SUFFIX,goodread.com
+  - DOMAIN-SUFFIX,goofish.com
   - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN-SUFFIX,gtimg.com
   - DOMAIN-SUFFIX,haibian.com
@@ -468,7 +470,6 @@ payload:
   - DOMAIN-SUFFIX,sspai.com
   - DOMAIN-SUFFIX,startssl.com
   - DOMAIN-SUFFIX,staticdn.net
-  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
   - DOMAIN-SUFFIX,suning.com
   - DOMAIN-SUFFIX,t.tt
   - DOMAIN-SUFFIX,takungpao.com
@@ -535,6 +536,7 @@ payload:
   - DOMAIN-SUFFIX,xiachufang.com
   - DOMAIN-SUFFIX,xiami.com
   - DOMAIN-SUFFIX,xiami.net
+  - DOMAIN-SUFFIX,xiaohongshu.com
   - DOMAIN-SUFFIX,xiaojukeji.com
   - DOMAIN-SUFFIX,xiaomi.com
   - DOMAIN-SUFFIX,xiaomi.net

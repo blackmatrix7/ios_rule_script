@@ -10,7 +10,7 @@
 
 ## 规则统计
 
-总计规则：249 条。
+总计规则：253 条。
 
 各类型规则统计：
 
@@ -18,7 +18,7 @@
 | ---- | ---- |
 | DOMAIN-SUFFIX | 166 |
 | PROCESS-NAME | 2 |
-| DOMAIN | 52 |
+| DOMAIN | 56 |
 | IP-CIDR | 27 |
 | DOMAIN-KEYWORD | 2 |
 ## 配置说明
@@ -59,6 +59,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/CCTV.list
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/DomesticMedia.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/bilibili.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/CMedia.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CCTV.list

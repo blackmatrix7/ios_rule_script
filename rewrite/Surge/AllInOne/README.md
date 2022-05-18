@@ -14,15 +14,15 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| mitm | 547 |
+| mitm | 545 |
 | force_http_engine_hosts | 12 |
 | DOMAIN | 6 |
 | USER-AGENT | 1 |
 | URL-REGEX | 4 |
 | IP-CIDR6 | 1 |
-| IP-CIDR | 1 |
 | DOMAIN-SUFFIX | 1 |
-| reject | 729 |
+| IP-CIDR | 1 |
+| reject | 794 |
 | http-response | 27 |
 | http-request | 3 |
 | redirect | 49 |

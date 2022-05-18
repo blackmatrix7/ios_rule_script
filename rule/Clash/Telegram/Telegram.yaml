@@ -1,13 +1,13 @@
 # NAME: Telegram
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-22 02:12:42
+# UPDATED: 2022-05-13 02:14:00
 # IP-CIDR: 6
 # IP-CIDR6: 4
 # DOMAIN-KEYWORD: 2
-# DOMAIN-SUFFIX: 18
+# DOMAIN-SUFFIX: 19
 # PROCESS-NAME: 3
-# TOTAL: 33
+# TOTAL: 34
 payload:
   - DOMAIN-SUFFIX,comments.app
   - DOMAIN-SUFFIX,contest.com
@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,tdesktop.com
   - DOMAIN-SUFFIX,telega.one
   - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,telegram-cdn.org
   - DOMAIN-SUFFIX,telegram.dog
   - DOMAIN-SUFFIX,telegram.me
   - DOMAIN-SUFFIX,telegram.org

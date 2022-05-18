@@ -9,7 +9,7 @@ let magicJS = MagicJS(scriptName, "INFO");
 function SynoAuth(synoUrl, account, passwd) {
   return new Promise((resolve, reject) => {
     let options = {
-      url: `${synoUrl}/webapi/entry.cgi?api=SYNO.API.Auth&version=6&method=login&account=${account}&passwd=${passwd}`,
+      url: `${synoUrl}/webapi/auth.cgi?api=SYNO.API.Auth&version=2&method=login&account=${account}&passwd=${passwd}&session=DownloadStation&format=cookie`,
       headers: {
         "User-Agent": "Mozilla/5.0",
       },

@@ -1,4 +1,9 @@
-# 知乎去广告
+#!name= 知乎助手Lite
+#!desc= 知乎助手Lite，只提供最纯粹的去广告功能。
+#!openUrl=https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu
+#!author= blackmatrix7
+#!homepage= https://github.com/blackmatrix7/ios_rule_script
+#!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.png
 
 [Rule]
 # 知乎去广告
@@ -9,6 +14,8 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 USER-AGENT,AVOS*,REJECT
+# 拦截知乎开屏广告
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\?,REJECT
 # 拦截知乎回答下的广告
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
 # 拦截知乎品牌提问广告

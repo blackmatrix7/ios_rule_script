@@ -1,5 +1,5 @@
 #!name= AdvertisingScript
-#!desc= 最后更新时间 2022-05-19 16:20:29
+#!desc= 最后更新时间 2022-05-19 16:52:14
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
@@ -49,69 +49,69 @@ USER-AGENT,AVOS*,REJECT
 ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject-dict
 [Script]
 # 知乎_屏蔽关键字解锁
-http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_屏蔽关键字解锁
+http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_屏蔽关键字解锁
 # BiliBili_开屏去广告
-http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/dc29cf91928fc9cd4f90ade43877ba13.js,requires-body=1,tag=BiliBili_开屏去广告
+http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/dc29cf91928fc9cd4f90ade43877ba13.js,requires-body=1,tag=BiliBili_开屏去广告
 # Fa米家_开屏去广告
-http-response ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/c34dc3226966fd23aaf8a3af2fbb7dad.js,requires-body=1,tag=Fa米家_开屏去广告
+http-response ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/c34dc3226966fd23aaf8a3af2fbb7dad.js,requires-body=1,tag=Fa米家_开屏去广告
 # 京东_开屏去广告
-http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/823b94ab6aa0a805fb572fb03492f029.js,requires-body=1,tag=京东_开屏去广告
+http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/823b94ab6aa0a805fb572fb03492f029.js,requires-body=1,tag=京东_开屏去广告
 # 什么值得买_值会员权益中心banner广告
-http-response ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_值会员权益中心banner广告
-http-response ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_值会员权益中心banner广告
+http-response ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_值会员权益中心banner广告
+http-response ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_值会员权益中心banner广告
 # 什么值得买_好价去广告
-http-response ^https?:\/\/haojia-api\.smzdm\.com\/home\/list\? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_好价去广告
-http-response ^https?:\/\/haojia-api\.smzdm\.com\/home\/list\? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_好价去广告
+http-response ^https?:\/\/haojia-api\.smzdm\.com\/home\/list\? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_好价去广告
+http-response ^https?:\/\/haojia-api\.smzdm\.com\/home\/list\? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_好价去广告
 # 什么值得买_好价详情页去广告
-http-response ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_好价详情页去广告
-http-response ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_好价详情页去广告
+http-response ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_好价详情页去广告
+http-response ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_好价详情页去广告
 # 什么值得买_开屏去广告
-http-response ^https?:\/\/app-api\.smzdm\.com\/util\/loading script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_开屏去广告
-http-response ^https?:\/\/app-api\.smzdm\.com\/util\/loading script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_开屏去广告
+http-response ^https?:\/\/app-api\.smzdm\.com\/util\/loading script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_开屏去广告
+http-response ^https?:\/\/app-api\.smzdm\.com\/util\/loading script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_开屏去广告
 # 什么值得买_搜索标签去广告
-http-response ^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_搜索标签去广告
-http-response ^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_搜索标签去广告
+http-response ^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_搜索标签去广告
+http-response ^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_搜索标签去广告
 # 什么值得买_搜索结果去广告
-http-response ^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10 script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_搜索结果去广告
-http-response ^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10 script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_搜索结果去广告
+http-response ^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10 script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_搜索结果去广告
+http-response ^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10 script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_搜索结果去广告
 # 什么值得买_百科去广告
-http-response ^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_百科去广告
-http-response ^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_百科去广告
+http-response ^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_百科去广告
+http-response ^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_百科去广告
 # 什么值得买_首页去广告
-http-response ^https?:\/\/homepage-api\.smzdm\.com\/v3\/home script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_首页去广告
-http-response ^https?:\/\/homepage-api\.smzdm\.com\/v3\/home script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_首页去广告
+http-response ^https?:\/\/homepage-api\.smzdm\.com\/v3\/home script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1# 什么值得买_首页去广告
+http-response ^https?:\/\/homepage-api\.smzdm\.com\/v3\/home script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/7abc2b807287bb592981145658b7b20b.js,requires-body=1,timeout=10,tag=什么值得买_首页去广告
 # 嘀嗒出行_开屏去广告
-http-response ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/823b94ab6aa0a805fb572fb03492f029.js,requires-body=1,tag=嘀嗒出行_开屏去广告
+http-response ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/823b94ab6aa0a805fb572fb03492f029.js,requires-body=1,tag=嘀嗒出行_开屏去广告
 # 多点_开屏去广告
-http-response ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/823b94ab6aa0a805fb572fb03492f029.js,requires-body=1,tag=多点_开屏去广告
+http-response ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/823b94ab6aa0a805fb572fb03492f029.js,requires-body=1,tag=多点_开屏去广告
 # 小爱音箱_开屏去广告
-http-response ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/823b94ab6aa0a805fb572fb03492f029.js,requires-body=1,tag=小爱音箱_开屏去广告
+http-response ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/823b94ab6aa0a805fb572fb03492f029.js,requires-body=1,tag=小爱音箱_开屏去广告
 # 知乎_优化软件配置
-http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_优化软件配置
+http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_优化软件配置
 # 知乎_信息流去广告及黑名单增强
-http-response ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people) script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_信息流去广告及黑名单增强
+http-response ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people) script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_信息流去广告及黑名单增强
 # 知乎_回答内容优化
-http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_回答内容优化
+http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_回答内容优化
 # 知乎_回答列表去广告
-http-response ^https?:\/\/api\.zhihu\.com\/v4\/questions script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_回答列表去广告
+http-response ^https?:\/\/api\.zhihu\.com\/v4\/questions script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_回答列表去广告
 # 知乎_处理用户信息
-http-response ^https?:\/\/api\.zhihu\.com\/people script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_处理用户信息
+http-response ^https?:\/\/api\.zhihu\.com\/people script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_处理用户信息
 # 知乎_官方消息去广告
-http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message) script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_官方消息去广告
+http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message) script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_官方消息去广告
 # 知乎_热搜去广告
-http-response ^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_热搜去广告
+http-response ^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_热搜去广告
 # 知乎_热榜去广告
-http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_热榜去广告
+http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_热榜去广告
 # 知乎_获取黑名单
-http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_获取黑名单
+http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_获取黑名单
 # 知乎_评论去广告
-http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_评论去广告
+http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_评论去广告
 # 知乎_预置关键词去广告
-http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_预置关键词去广告
+http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/576875ff1c6a706bc2ac0cfc005c74f9.js,requires-body=1,tag=知乎_预置关键词去广告
 # 美团外卖_开屏去广告
-http-response ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/823b94ab6aa0a805fb572fb03492f029.js,requires-body=1,tag=美团外卖_开屏去广告
+http-response ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo? script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/823b94ab6aa0a805fb572fb03492f029.js,requires-body=1,tag=美团外卖_开屏去广告
 # 联享家_开屏去广告
-http-response ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg script-path=https://github.com/blackmatrix7/ios_rule_script/tree/master/source/javascript/823b94ab6aa0a805fb572fb03492f029.js,requires-body=1,tag=联享家_开屏去广告
+http-response ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/823b94ab6aa0a805fb572fb03492f029.js,requires-body=1,tag=联享家_开屏去广告
 
 [MITM]
 hostname = 103.41.167.226,103.41.167.234,103.41.167.235,103.41.167.236,api.m.jd.com,api.zhihu.com,app-api.smzdm.com,app.bilibili.com,appcloud2.zhihu.com,baike-api.smzdm.com,capis*.didapinche.com,cmsapi.dmall.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,hd.mina.mi.com,homepage-api.smzdm.com,mi.gdt.qq.com,s-api.smzdm.com,wmapi.meituan.com,www.zhihu.com,zhiyou.m.smzdm.com,zhuanlan.zhihu.com

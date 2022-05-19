@@ -1,5 +1,5 @@
 #!name= TestFlight
-#!desc= 最后更新时间 2022-05-19 16:52:15
+#!desc= 最后更新时间 2022-05-19 17:57:38
 #!openUrl= https://github.com/NobyDa/Script/tree/master
 #!author= NobyDa
 #!homepage= https://github.com/NobyDa/Script/tree/master
@@ -10,7 +10,7 @@
 
 [Script]
 # TestFlight_下载修正
-http-request ^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*\/builds\/\d*\/install script-path=https://github.com/blackmatrix7/ios_rule_script/tree/test/source/javascript/043922e05c79445b6da818d0864c1b7d.js,requires-body=1,tag=TestFlight_下载修正
+http-request ^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*\/builds\/\d*\/install script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/test/source/javascript/043922e05c79445b6da818d0864c1b7d.js,requires-body=1,tag=TestFlight_下载修正
 
 [MITM]
 hostname = testflight.apple.com

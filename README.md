@@ -2,12 +2,13 @@
 
 ## 前言
 
-各平台的分流规则、复写规则及自动化脚本。
+分流规则、重写规则及脚本。
 
 ## 特别声明
 
+1. 请勿对外宣传此项目。
 1. 本项目内所有资源文件，禁止任何公众号、自媒体进行任何形式的转载、发布。
-2. 编写本项目主要目的为学习和研究ES6，无法保证项目内容的合法性、准确性、完整性和有效性。
+2. 编写本项目主要目的为学习和研究，无法保证项目内容的合法性、准确性、完整性和有效性。
 3. 本项目涉及的数据由使用的个人或组织自行填写，本项目不对数据内容负责，包括但不限于数据的真实性、准确性、合法性。使用本项目所造成的一切后果，与本项目的所有贡献者无关，由使用的个人或组织完全承担。
 4. 本项目中涉及的第三方硬件、软件等，与本项目没有任何直接或间接的关系。本项目仅对部署和使用过程进行客观描述，不代表支持使用任何第三方硬件、软件。使用任何第三方硬件、软件，所造成的一切后果由使用的个人或组织承担，与本项目无关。
 5. 本项目中所有内容只供学习和研究使用，不得将本项目中任何内容用于违反国家/地区/组织等的法律法规或相关规定的其他用途。
@@ -23,35 +24,13 @@
 
 https://github.com/blackmatrix7/ios_rule_script/tree/master/rule
 
-复写规则
+重写规则
 
 https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite
 
 所有规则数据都来自互联网，感谢开源规则项目作者的辛勤付出。
 
 ## 脚本
-
-### 支持情况
-
-自动化脚本在不同平台支持情况：
-
-|          | Surge       | Quantumult X | Loon        | Shadowrocket | Node.js          |
-| -------- | ----------- | ------------ | ----------- | ------------ | ---------------- |
-| 需要硬件 | iPhone/iPad | iPhone/iPad  | iPhone/iPad | iPhone/iPad  | 可长期运行的电脑 |
-| 脚本更新 | 自动更新    | 自动更新     | 自动更新    | 自动更新     | 手动更新         |
-| 推送通知 | 手机推送    | 手机推送     | 手机推送    | 手机推送     | 无               |
-| 使用成本 | 付费App     | 付费App      | 付费App     | 付费App      | 免费             |
-| 支持情况 | 优先支持    | 兼容支持     | 兼容支持    | 部分支持     | 部分支持         |
-
-优先支持：优先确保运行正常，出现异常优先解决
-
-兼容支持：代码层面做兼容，会做测试
-
-随缘支持：代码层面做兼容，偶尔做测试
-
-部分支持：代码层面做兼容，部分功能可用，不做测试
-
-支持优先级：Surge > Quantumult X > Loon > Shadowrocket ≥  Node.js
 
 ### 脚本说明
 
@@ -61,18 +40,18 @@ https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite
 | ~~[哔哩哔哩](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/bilibili)~~ | ~~没有广告的哔哩哔哩更值得干杯~~     | 停止     |
 | [什么值得买](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/smzdm) | 什么值得买签到和去广告脚本           | 正常     |
 | [百度贴吧](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/tieba) | 带重试功能的贴吧签到，提高签到成功率 | 正常     |
-| [中国联通](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/10010) | 每日自动签到                         | 正常     |
+| ~~[中国联通](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/10010)~~ | ~~每日自动签到~~                     | 停止     |
 | [开屏去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/startup) | 通过脚本去除缓存到本地的APP开屏广告  | 正常     |
 | [家长帮](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/jiazhangbang) | 每日自动签到                         | 正常     |
 | [慢慢买](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/manmanbuy) | 每日自动签到                         | 正常     |
 | [叮咚买菜](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/dingdong) | 每日自动签到                         | 正常     |
-| [万达电影](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/wanda) | 每日自动签到，月末将剩余能量抽奖     | 正常     |
+| ~~[万达电影](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/wanda)~~ | ~~每日自动签到，月末将剩余能量抽奖~~ | 停止     |
 | [饿了么](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/eleme) | 每日自动领取会员任务                 | 正常     |
 | [Fa米家](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/famijia) | 每日自动签到                         | 正常     |
 | [Luka](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/luka) | 每日自动签到                         | 正常     |
 | [美团买菜](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/meituan) | 每日自动签到                         | 正常     |
 | [Synology](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/synology) | 群晖Download Station资源离线下载     | 正常     |
-| [AppleStore](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/applestore) | AppleStore 商品库存监控              | 正常     |
+| ~~[AppleStore](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/applestore)~~ | ~~AppleStore 商品库存监控~~          | 停止     |
 
 #### Quantumult X Gallery
 

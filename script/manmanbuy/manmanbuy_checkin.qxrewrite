@@ -1,7 +1,0 @@
-# 慢慢买每日自动签到
-# [task_local]
-# 5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js, tag=慢慢买_每日签到, enabled=true
-
-^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx) url script-request-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js
-
-hostname = apph5.manmanbuy.com

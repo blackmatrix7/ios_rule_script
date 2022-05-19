@@ -1,40 +1,50 @@
-# 易车
+# 🧸 易车
 
 ## 前言
 
-本项目的易车规则由《规则生成器》自动整合与去重。
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
-分流规则是互联网公共服务的域名和IP地址汇总，所有数据均收集自开源项目，仅为解决引用过多外部资源引起的规则重复问题，不代表我们支持或使用这些服务。
+易车规则由《RULE GENERATOR 规则生成器》自动生成。
+
+分流规则是互联网公共服务的域名和IP地址汇总，所有数据均收集自互联网公开信息，不代表我们支持或使用这些服务。
 
 请通过我国(中华人民共和国)合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 
 ## 规则统计
 
-总计规则：5 条。
+最后更新时间：2022-05-19 13:06:15
 
 各类型规则统计：
+| 类型 | 数量(条)  | 
+| ---- | ----  |
+| DOMAIN-SUFFIX | 5  | 
+| TOTAL | 5  | 
 
-| 类型 | 数量(条) |
-| ---- | ---- |
-| DOMAIN-SUFFIX | 5 |
-## 配置说明
 
-实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
+## Shadowrocket 
 
-稳定版：不定时手动更新，更新频率低，适合不希望规则频繁变化的人。
+#### 使用说明
+- YiChe.list，请使用RULE-SET。
 
-### Shadowrocket 
-实时版：
+#### 配置建议
+- YiChe.list 单独使用。
+
+#### 规则链接
+**实时版**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YiChe/YiChe.list
 
-稳定版：
+**实时版CDN**
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/YiChe/YiChe.list
+
+**稳定版**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shadowrocket/YiChe/YiChe.list
 
+**稳定版CDN**
 
-
-如果稳定版无法访问 ，可能是尚未从实时版的分支合并，建议您先使用实时版，或等待下次稳定版分支合并。
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Shadowrocket/YiChe/YiChe.list
 
 ## 子规则/排除规则
 
@@ -43,14 +53,12 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shad
 
 ## 数据来源
 
-本项目的易车复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。
-
-如果你正在使用这些复写规则，建议不要与本项目的易车复写规则混合使用，以免造成规则重复。
+《易车》的数据来自以下链接，如与本项目的《易车》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YiChe.list
 
 
-感谢以上复写规则作者的辛勤付出（排名不分先后）。
+感谢以上规则作者的辛勤付出（排名不分先后）。
 
 ## 最后
 

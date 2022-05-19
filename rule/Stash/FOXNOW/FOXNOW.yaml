@@ -1,0 +1,13 @@
+# NAME: FOXNOW
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2022-05-19 13:06:30
+# DOMAIN-SUFFIX: 4
+# USER-AGENT: 1
+# TOTAL: 5
+payload:
+  - DOMAIN-SUFFIX,fox.com
+  - DOMAIN-SUFFIX,foxdcg.com
+  - DOMAIN-SUFFIX,theplatform.com
+  - DOMAIN-SUFFIX,uplynk.com
+  - USER-AGENT,FOX%20NOW*

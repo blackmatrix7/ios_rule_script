@@ -1,10 +1,12 @@
-# ChinaIPsBGP
+# 🧸 ChinaIPsBGP
 
 ## 前言
 
-本项目的ChinaIPsBGP规则由《规则生成器》自动整合与去重。
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
-分流规则是互联网公共服务的域名和IP地址汇总，所有数据均收集自开源项目，仅为解决引用过多外部资源引起的规则重复问题，不代表我们支持或使用这些服务。
+ChinaIPsBGP规则由《RULE GENERATOR 规则生成器》自动生成。
+
+分流规则是互联网公共服务的域名和IP地址汇总，所有数据均收集自互联网公开信息，不代表我们支持或使用这些服务。
 
 请通过我国(中华人民共和国)合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 
@@ -17,49 +19,63 @@
 
 ## 规则统计
 
-总计规则：3389 条。
+最后更新时间：2022-05-19 13:06:44
 
 各类型规则统计：
+| 类型 | 数量(条)  | 
+| ---- | ----  |
+| IP-CIDR | 3391  | 
+| TOTAL | 3391  | 
 
-| 类型 | 数量(条) |
-| ---- | ---- |
-| IP-CIDR | 3389 |
-## 配置说明
 
-实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
+## Clash 
 
-稳定版：不定时手动更新，更新频率低，适合不希望规则频繁变化的人。
+#### 使用说明
+- ChinaIPsBGP_Classical.yaml，请使用 behavior: "classical"。
+- ChinaIPsBGP_Classical_No_Resolve.yaml，请使用 behavior: "classical"。
+- ChinaIPsBGP_IP.yaml，请使用 behavior: "ipcidr"。
+- ChinaIPsBGP_IP_No_IPv6.yaml，请使用 behavior: "ipcidr"。
 
-### Clash 
-实时版：
+#### 文件区别
+- ChinaIPsBGP_Classical.yaml与ChinaIPsBGP_Classical_No_Resolve.yaml的区别在于后者IP-CIDR(6)类型带no-resolve。
 
+#### 配置建议
+- ChinaIPsBGP_IP.yaml 单独使用。
+- ChinaIPsBGP_Classical.yaml 单独使用。
+- ChinaIPsBGP_Classical_No_Resolve.yaml 单独使用。
+
+#### 规则链接
+**实时版**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_IP.yaml
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical.yaml
 
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical_No_Resolve.yaml
 
-稳定版：
+**实时版CDN**
 
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_IP.yaml
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical.yaml
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical_No_Resolve.yaml
+
+**稳定版**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_IP.yaml
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical.yaml
 
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical_No_Resolve.yaml
 
-如果稳定版无法访问 ，可能是尚未从实时版的分支合并，建议您先使用实时版，或等待下次稳定版分支合并。
+**稳定版CDN**
 
-### 特别说明
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_IP.yaml
 
-ChinaIPsBGP_Classical.yaml 请使用 behavior: "classical"。
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical.yaml
 
-ChinaIPsBGP_IP.yaml 请使用 behavior: "ipcidr"。
-
-ChinaIPsBGP_Classical.yaml 可以单独使用，其他规则必须同时使用。
-
-文件名带Resolve，指对于IP-CIDR、IP-CIDR6的规则，不增加no-resolve，其余与上述相同。
-
-#### 最简单的用法
-
-使用 ChinaIPsBGP_Classical.yaml。
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical_No_Resolve.yaml
 
 ## 子规则/排除规则
 
@@ -68,14 +84,12 @@ ChinaIPsBGP_Classical.yaml 可以单独使用，其他规则必须同时使用�
 
 ## 数据来源
 
-本项目的ChinaIPsBGP复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。
-
-如果你正在使用这些复写规则，建议不要与本项目的ChinaIPsBGP复写规则混合使用，以免造成规则重复。
+《ChinaIPsBGP》的数据来自以下链接，如与本项目的《ChinaIPsBGP》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 
 
-感谢以上复写规则作者的辛勤付出（排名不分先后）。
+感谢以上规则作者的辛勤付出（排名不分先后）。
 
 ## 最后
 

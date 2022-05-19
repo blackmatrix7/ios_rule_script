@@ -1,0 +1,13 @@
+# NAME: TencentVideo
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2022-05-19 13:06:02
+# DOMAIN-SUFFIX: 3
+# USER-AGENT: 2
+# TOTAL: 5
+payload:
+  - DOMAIN-SUFFIX,mfm.video.qq.com
+  - DOMAIN-SUFFIX,v.smtcdns.com
+  - DOMAIN-SUFFIX,vv.video.qq.com
+  - USER-AGENT,MOO*
+  - USER-AGENT,TencentMidasConnect*

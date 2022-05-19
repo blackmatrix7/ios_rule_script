@@ -1,0 +1,84 @@
+# 复写去广告
+
+## 前言
+
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-MITM--HOSTNAME合并-brightgreen) ![](https://shields.io/badge/-正则推导HOSTNAME-033da7) 
+
+本项目的复写去广告规则由《规则生成器》自动整合与去重。
+
+重写规则所有数据均收集自开源项目，不代表我们支持或使用这些服务。
+
+请通过我国(中华人民共和国)合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
+## 规则说明
+与AdvertisingLite的区别：
+
+数据源完全相同，AdvertisingLite会去除一些过于宽泛的匹配规则，减少MITM的数量。
+
+## 规则统计
+
+最后更新时间：2022-05-19 13:07:11
+
+各类型规则统计：
+| 类型 | 数量(条)  | 
+| ---- | ----  |
+| REJECT | 360  | 
+| MITM | 288  | 
+| FORCE—HTTP-ENGINE-HOSTS | 6  | 
+| TOTAL | 654  | 
+
+
+## Stash 
+
+#### 规则链接
+**实时版**
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Stash/Advertising/Advertising.stoverride
+
+**实时版CDN**
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rewrite/Stash/Advertising/Advertising.stoverride
+
+**稳定版**
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Stash/Advertising/Advertising.stoverride
+
+**稳定版CDN**
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Stash/Advertising/Advertising.stoverride
+
+## 子规则
+
+当前分流规则，未包含其他子规则。
+
+
+## 数据来源
+
+《复写去广告》的数据来自以下链接，如与本项目的《复写去广告》规则混合使用，可能造成部分重写重复。
+
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.sgmodule
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/Advertising.sgmodule
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Shortcuts/reject.txt
+- https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Rewrite.txt
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.qxrewrite
+- https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Rewrite/Rewrite.list
+- https://raw.githubusercontent.com/eHpo1/Rules/master/Loon/Rewrite.conf
+- https://raw.githubusercontent.com/GeQ1an/Rules/master/Loon/Rewrite/Rewrite.list
+- https://raw.githubusercontent.com/GFBG-IT/QuantumultX/main/Advertising.conf
+- https://raw.githubusercontent.com/githubacct001/QuantumultX/master/Rewrite/githubacct001.conf
+- https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/Advertising.plugin
+
+
+感谢以上规则作者的辛勤付出（排名不分先后）。
+
+## 最后
+
+### 感谢
+
+[@Tartarus2014](https://github.com/Tartarus2014)  [@chenyiping1995](https://github.com/chenyiping1995) 
+
+提供规则数据源及改进建议。
+
+### 其他
+
+请不要对外宣传本项目。

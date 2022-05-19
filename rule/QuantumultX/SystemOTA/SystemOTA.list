@@ -1,17 +1,23 @@
 # NAME: SystemOTA
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-15 02:12:59
+# UPDATED: 2022-05-19 13:05:01
+# HOST: 78
 # HOST-SUFFIX: 13
-# HOST: 65
-# TOTAL: 78
+# TOTAL: 91
 HOST,appldnld-cdn.apple.com.akadns.net,SystemOTA
 HOST,appldnld-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,appldnld-lb.apple.com.akadns.net,SystemOTA
+HOST,appldnld.apple.com,SystemOTA
+HOST,appldnld.apple.com.akadns.net,SystemOTA
 HOST,appldnld.apple.com.mwcname.com,SystemOTA
+HOST,appldnld.g.aaplimg.com,SystemOTA
 HOST,configuration.apple.com,SystemOTA
 HOST,gdmf-cdn.apple.com.akadns.net,SystemOTA
 HOST,gdmf-cdn.origin-apple.com.akadns.net,SystemOTA
 HOST,gdmf-lb.apple.com.akadns.net,SystemOTA
+HOST,gdmf.apple.com,SystemOTA
+HOST,gdmf.apple.com.akadns.net,SystemOTA
 HOST,gdmf.apple.com.mwcname.com,SystemOTA
 HOST,gdmf.g.aaplimg.com,SystemOTA
 HOST,gg-cdn.apple.com.akadns.net,SystemOTA
@@ -32,14 +38,21 @@ HOST,iphonesubmissions.apple.com,SystemOTA
 HOST,iphonesubmissions.apple.com.akadns.net,SystemOTA
 HOST,iphonesubmissions.apple.com.mwcname.com,SystemOTA
 HOST,iphonesubmissions.g.aaplimg.com,SystemOTA
+HOST,mesu-cdn.apple.com.akadns.net,SystemOTA
+HOST,mesu-cdn.origin-apple.com.akadns.net,SystemOTA
 HOST,mesu-lb.apple.com.akadns.net,SystemOTA
+HOST,mesu.apple.com,SystemOTA
 HOST,mesu.apple.com.akadns.net,SystemOTA
 HOST,mesu.apple.com.mwcname.com,SystemOTA
+HOST,mesu.g.aaplimg.com,SystemOTA
 HOST,ns.itunes.apple.com,SystemOTA
 HOST,ocsp-cdn.apple.com.akadns.net,SystemOTA
 HOST,ocsp-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,ocsp-lb.apple.com.akadns.net,SystemOTA
+HOST,ocsp.apple.com,SystemOTA
 HOST,ocsp.apple.com.akadns.net,SystemOTA
 HOST,ocsp.apple.com.mwcname.com,SystemOTA
+HOST,ocsp.g.aaplimg.com,SystemOTA
 HOST,oscdn.apple.com,SystemOTA
 HOST,osrecovery.apple.com,SystemOTA
 HOST,radarsubmissions-cdn.apple.com.akadns.net,SystemOTA

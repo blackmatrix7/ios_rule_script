@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-05-13 02:13:58
-# DOMAIN-SUFFIX: 25462
+# UPDATED: 2022-05-19 13:05:20
 # DOMAIN: 8
-# DOMAIN-KEYWORD: 32
+# DOMAIN-KEYWORD: 30
+# DOMAIN-SUFFIX: 25480
 # IP-CIDR: 92
 # IP-CIDR6: 3
-# TOTAL: 25597
+# TOTAL: 25613
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -1344,6 +1344,7 @@ payload:
   - DOMAIN-SUFFIX,51xtv.me
   - DOMAIN-SUFFIX,51xtv.net
   - DOMAIN-SUFFIX,51xtv.tv
+  - DOMAIN-SUFFIX,52.onmypc.net
   - DOMAIN-SUFFIX,52.win7.us
   - DOMAIN-SUFFIX,52003333.com
   - DOMAIN-SUFFIX,52004444.com
@@ -3206,6 +3207,7 @@ payload:
   - DOMAIN-SUFFIX,api-login.kkbox.com.tw
   - DOMAIN-SUFFIX,api.a5188yes.com
   - DOMAIN-SUFFIX,api.ai
+  - DOMAIN-SUFFIX,api.amplitude.com
   - DOMAIN-SUFFIX,api.arcadia.pncle8.com
   - DOMAIN-SUFFIX,api.chess.com
   - DOMAIN-SUFFIX,api.citizenvpn.com
@@ -3897,6 +3899,7 @@ payload:
   - DOMAIN-SUFFIX,bdy365.com
   - DOMAIN-SUFFIX,be4.herokuapp.com
   - DOMAIN-SUFFIX,beaconevents.com
+  - DOMAIN-SUFFIX,beacons4.gvt2.com
   - DOMAIN-SUFFIX,beansbook.com
   - DOMAIN-SUFFIX,beapinkflamingo.gr
   - DOMAIN-SUFFIX,bearnaked.com
@@ -5902,6 +5905,7 @@ payload:
   - DOMAIN-SUFFIX,crabriones.com.ar
   - DOMAIN-SUFFIX,crackle.com
   - DOMAIN-SUFFIX,craighamilton.biz
+  - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,crazedtechs.com
   - DOMAIN-SUFFIX,crazymike.tw
   - DOMAIN-SUFFIX,crazys.cc
@@ -6108,6 +6112,7 @@ payload:
   - DOMAIN-SUFFIX,cwb.gov.tw
   - DOMAIN-SUFFIX,cwbbooks.com
   - DOMAIN-SUFFIX,cweb-pix.com
+  - DOMAIN-SUFFIX,cx.atdmt.com
   - DOMAIN-SUFFIX,cx.v2ray.cx
   - DOMAIN-SUFFIX,cxf51.t28.net
   - DOMAIN-SUFFIX,cy.cynaver.com
@@ -6291,6 +6296,7 @@ payload:
   - DOMAIN-SUFFIX,dastrassi.org
   - DOMAIN-SUFFIX,data-cdn.mbamupdates.com
   - DOMAIN-SUFFIX,data-vocabulary.org
+  - DOMAIN-SUFFIX,data.flurry.com
   - DOMAIN-SUFFIX,data.gouv.fr
   - DOMAIN-SUFFIX,data.gov.tw
   - DOMAIN-SUFFIX,data.hugoboss.com
@@ -8910,6 +8916,7 @@ payload:
   - DOMAIN-SUFFIX,goodtv.tv
   - DOMAIN-SUFFIX,goofind.com
   - DOMAIN-SUFFIX,googl.com
+  - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,google-melange.com
   - DOMAIN-SUFFIX,google.ac
   - DOMAIN-SUFFIX,google.ad
@@ -9137,6 +9144,7 @@ payload:
   - DOMAIN-SUFFIX,google.vn
   - DOMAIN-SUFFIX,google.vu
   - DOMAIN-SUFFIX,google.ws
+  - DOMAIN-SUFFIX,googleanalytics.com
   - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,googleapps.com
@@ -9638,6 +9646,7 @@ payload:
   - DOMAIN-SUFFIX,hentai.to
   - DOMAIN-SUFFIX,hentai.xxx
   - DOMAIN-SUFFIX,hentai4manga.com
+  - DOMAIN-SUFFIX,hentaicloud.com
   - DOMAIN-SUFFIX,hentaifox.com
   - DOMAIN-SUFFIX,hentaigasm.com
   - DOMAIN-SUFFIX,hentaihaven.org
@@ -12494,6 +12503,7 @@ payload:
   - DOMAIN-SUFFIX,mailchimp.com
   - DOMAIN-SUFFIX,maildns.xyz
   - DOMAIN-SUFFIX,mailfence.com
+  - DOMAIN-SUFFIX,mailnuaaeducn.dynamic-dns.net
   - DOMAIN-SUFFIX,mailp.in
   - DOMAIN-SUFFIX,mailsevera.com
   - DOMAIN-SUFFIX,main.ga
@@ -12980,6 +12990,7 @@ payload:
   - DOMAIN-SUFFIX,mmmca.com
   - DOMAIN-SUFFIX,mmmglobal.org
   - DOMAIN-SUFFIX,mmmoffice.com
+  - DOMAIN-SUFFIX,mmotraffic.com
   - DOMAIN-SUFFIX,mms333.ga
   - DOMAIN-SUFFIX,mms333.gq
   - DOMAIN-SUFFIX,mmsishow.com
@@ -14526,6 +14537,7 @@ payload:
   - DOMAIN-SUFFIX,pbxes.com
   - DOMAIN-SUFFIX,pbxes.org
   - DOMAIN-SUFFIX,pc.olife.org
+  - DOMAIN-SUFFIX,pc.onmypc.net
   - DOMAIN-SUFFIX,pc.php5.us
   - DOMAIN-SUFFIX,pc.tv333.us
   - DOMAIN-SUFFIX,pc1.9baf1.com
@@ -17969,6 +17981,7 @@ payload:
   - DOMAIN-SUFFIX,tntt.org
   - DOMAIN-SUFFIX,to-porno.com
   - DOMAIN-SUFFIX,to.hacked.jp
+  - DOMAIN-SUFFIX,to.onmypc.net
   - DOMAIN-SUFFIX,to68.net
   - DOMAIN-SUFFIX,tobet.io
   - DOMAIN-SUFFIX,tobing.id
@@ -18109,6 +18122,7 @@ payload:
   - DOMAIN-SUFFIX,trading212.com
   - DOMAIN-SUFFIX,tradingview.com
   - DOMAIN-SUFFIX,traeumtgerade.de
+  - DOMAIN-SUFFIX,traffichaus.com
   - DOMAIN-SUFFIX,trakt.tv
   - DOMAIN-SUFFIX,transferstudentcn.weebly.com
   - DOMAIN-SUFFIX,translate.goog
@@ -18809,6 +18823,7 @@ payload:
   - DOMAIN-SUFFIX,usdehua.com
   - DOMAIN-SUFFIX,usembassy.gov
   - DOMAIN-SUFFIX,user.jojoex.com
+  - DOMAIN-SUFFIX,userapi.nytlog.com
   - DOMAIN-SUFFIX,usercenter.firemon.com
   - DOMAIN-SUFFIX,userproxy.com
   - DOMAIN-SUFFIX,users.firigames.com
@@ -23439,6 +23454,7 @@ payload:
   - DOMAIN-SUFFIX,www.shayunet.net
   - DOMAIN-SUFFIX,www.shelfari.com
   - DOMAIN-SUFFIX,www.shellfire.net
+  - DOMAIN-SUFFIX,www.shenzhoufilm.com
   - DOMAIN-SUFFIX,www.sheshaft.com
   - DOMAIN-SUFFIX,www.shibo8888.com
   - DOMAIN-SUFFIX,www.shidaixianfeng.tk
@@ -25220,6 +25236,8 @@ payload:
   - DOMAIN-SUFFIX,yzzk.com
   - DOMAIN-SUFFIX,z-lib.org
   - DOMAIN-SUFFIX,z.com
+  - DOMAIN-SUFFIX,z02.01.dynamic-dns.net
+  - DOMAIN-SUFFIX,z05.01.dynamic-dns.net
   - DOMAIN-SUFFIX,z2r7921695617528q7n48n6805r7594oqp11o0718.tf
   - DOMAIN-SUFFIX,z3641.com
   - DOMAIN-SUFFIX,z58955.com
@@ -25504,105 +25522,103 @@ payload:
   - DOMAIN-KEYWORD,telegram
   - DOMAIN-KEYWORD,tesla
   - DOMAIN-KEYWORD,tiktok
-  - DOMAIN-KEYWORD,tiktokcdn-
-  - DOMAIN-KEYWORD,tiktokv
   - DOMAIN-KEYWORD,ttvnw
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,uk-live
   - DOMAIN-KEYWORD,whatsapp
   - DOMAIN-KEYWORD,youtube
-  - IP-CIDR,1.201.0.0/24,no-resolve
-  - IP-CIDR,101.32.118.0/23,no-resolve
-  - IP-CIDR,101.32.96.0/20,no-resolve
-  - IP-CIDR,103.2.28.0/22,no-resolve
-  - IP-CIDR,103.246.56.0/22,no-resolve
-  - IP-CIDR,103.27.148.0/22,no-resolve
-  - IP-CIDR,103.4.96.0/22,no-resolve
-  - IP-CIDR,108.168.0.0/16,no-resolve
-  - IP-CIDR,109.239.140.0/24,no-resolve
-  - IP-CIDR,110.76.140.0/22,no-resolve
-  - IP-CIDR,113.61.104.0/22,no-resolve
-  - IP-CIDR,119.235.224.0/21,no-resolve
-  - IP-CIDR,119.235.232.0/23,no-resolve
-  - IP-CIDR,119.235.235.0/24,no-resolve
-  - IP-CIDR,119.235.236.0/23,no-resolve
-  - IP-CIDR,120.232.181.162/32,no-resolve
-  - IP-CIDR,120.241.147.226/32,no-resolve
-  - IP-CIDR,120.253.253.226/32,no-resolve
-  - IP-CIDR,120.253.255.162/32,no-resolve
-  - IP-CIDR,120.253.255.34/32,no-resolve
-  - IP-CIDR,120.253.255.98/32,no-resolve
-  - IP-CIDR,125.209.208.0/20,no-resolve
-  - IP-CIDR,125.6.146.0/24,no-resolve
-  - IP-CIDR,125.6.149.0/24,no-resolve
-  - IP-CIDR,125.6.190.0/24,no-resolve
-  - IP-CIDR,129.134.0.0/17,no-resolve
-  - IP-CIDR,129.226.0.0/16,no-resolve
-  - IP-CIDR,13.251.24.0/24,no-resolve
-  - IP-CIDR,13.251.41.0/24,no-resolve
-  - IP-CIDR,13.32.0.0/15,no-resolve
-  - IP-CIDR,13.35.0.0/17,no-resolve
-  - IP-CIDR,147.92.128.0/17,no-resolve
-  - IP-CIDR,149.154.160.0/20,no-resolve
-  - IP-CIDR,157.240.0.0/17,no-resolve
-  - IP-CIDR,158.85.224.160/27,no-resolve
-  - IP-CIDR,158.85.46.128/27,no-resolve
-  - IP-CIDR,158.85.5.192/27,no-resolve
-  - IP-CIDR,17.252.156.0/23,no-resolve
-  - IP-CIDR,173.192.222.160/27,no-resolve
-  - IP-CIDR,173.192.231.32/27,no-resolve
-  - IP-CIDR,173.194.0.0/16,no-resolve
-  - IP-CIDR,173.252.64.0/18,no-resolve
-  - IP-CIDR,174.37.0.0/16,no-resolve
-  - IP-CIDR,179.60.192.0/22,no-resolve
-  - IP-CIDR,18.184.0.0/15,no-resolve
-  - IP-CIDR,18.194.0.0/15,no-resolve
-  - IP-CIDR,18.208.0.0/13,no-resolve
-  - IP-CIDR,18.232.0.0/14,no-resolve
-  - IP-CIDR,180.163.150.162/32,no-resolve
-  - IP-CIDR,180.163.150.34/32,no-resolve
-  - IP-CIDR,180.163.151.162/32,no-resolve
-  - IP-CIDR,180.163.151.34/32,no-resolve
-  - IP-CIDR,183.131.48.0/20,no-resolve
-  - IP-CIDR,184.173.128.0/17,no-resolve
-  - IP-CIDR,185.60.216.0/22,no-resolve
-  - IP-CIDR,203.104.103.0/24,no-resolve
-  - IP-CIDR,203.104.128.0/19,no-resolve
-  - IP-CIDR,203.174.66.64/26,no-resolve
-  - IP-CIDR,203.174.77.0/24,no-resolve
-  - IP-CIDR,203.208.39.0/24,no-resolve
-  - IP-CIDR,203.208.40.0/23,no-resolve
-  - IP-CIDR,203.208.43.0/24,no-resolve
-  - IP-CIDR,203.208.50.0/24,no-resolve
-  - IP-CIDR,204.15.20.0/22,no-resolve
-  - IP-CIDR,208.43.0.0/16,no-resolve
-  - IP-CIDR,220.181.174.162/32,no-resolve
-  - IP-CIDR,220.181.174.226/32,no-resolve
-  - IP-CIDR,220.181.174.34/32,no-resolve
-  - IP-CIDR,27.0.236.0/22,no-resolve
-  - IP-CIDR,31.13.24.0/21,no-resolve
-  - IP-CIDR,31.13.64.0/18,no-resolve
-  - IP-CIDR,34.224.0.0/12,no-resolve
-  - IP-CIDR,45.64.40.0/22,no-resolve
-  - IP-CIDR,50.22.198.204/30,no-resolve
-  - IP-CIDR,52.200.0.0/13,no-resolve
-  - IP-CIDR,52.58.0.0/15,no-resolve
-  - IP-CIDR,52.74.0.0/16,no-resolve
-  - IP-CIDR,52.77.0.0/16,no-resolve
-  - IP-CIDR,52.84.0.0/15,no-resolve
-  - IP-CIDR,54.156.0.0/14,no-resolve
-  - IP-CIDR,54.226.0.0/15,no-resolve
-  - IP-CIDR,54.230.156.0/22,no-resolve
-  - IP-CIDR,54.242.0.0/15,no-resolve
-  - IP-CIDR,54.93.0.0/16,no-resolve
-  - IP-CIDR,66.220.144.0/20,no-resolve
-  - IP-CIDR,69.171.0.0/16,no-resolve
-  - IP-CIDR,69.63.176.0/20,no-resolve
-  - IP-CIDR,74.119.76.0/22,no-resolve
-  - IP-CIDR,74.125.0.0/16,no-resolve
-  - IP-CIDR,74.86.0.0/16,no-resolve
-  - IP-CIDR,75.126.0.0/16,no-resolve
-  - IP-CIDR,91.108.0.0/16,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,no-resolve
+  - IP-CIDR,1.201.0.0/24
+  - IP-CIDR,101.32.118.0/23
+  - IP-CIDR,101.32.96.0/20
+  - IP-CIDR,103.2.28.0/22
+  - IP-CIDR,103.246.56.0/22
+  - IP-CIDR,103.27.148.0/22
+  - IP-CIDR,103.4.96.0/22
+  - IP-CIDR,108.168.0.0/16
+  - IP-CIDR,109.239.140.0/24
+  - IP-CIDR,110.76.140.0/22
+  - IP-CIDR,113.61.104.0/22
+  - IP-CIDR,119.235.224.0/21
+  - IP-CIDR,119.235.232.0/23
+  - IP-CIDR,119.235.235.0/24
+  - IP-CIDR,119.235.236.0/23
+  - IP-CIDR,120.232.181.162/32
+  - IP-CIDR,120.241.147.226/32
+  - IP-CIDR,120.253.253.226/32
+  - IP-CIDR,120.253.255.162/32
+  - IP-CIDR,120.253.255.34/32
+  - IP-CIDR,120.253.255.98/32
+  - IP-CIDR,125.209.208.0/20
+  - IP-CIDR,125.6.146.0/24
+  - IP-CIDR,125.6.149.0/24
+  - IP-CIDR,125.6.190.0/24
+  - IP-CIDR,129.134.0.0/17
+  - IP-CIDR,129.226.0.0/16
+  - IP-CIDR,13.251.24.0/24
+  - IP-CIDR,13.251.41.0/24
+  - IP-CIDR,13.32.0.0/15
+  - IP-CIDR,13.35.0.0/17
+  - IP-CIDR,147.92.128.0/17
+  - IP-CIDR,149.154.160.0/20
+  - IP-CIDR,157.240.0.0/17
+  - IP-CIDR,158.85.224.160/27
+  - IP-CIDR,158.85.46.128/27
+  - IP-CIDR,158.85.5.192/27
+  - IP-CIDR,17.252.156.0/23
+  - IP-CIDR,173.192.222.160/27
+  - IP-CIDR,173.192.231.32/27
+  - IP-CIDR,173.194.0.0/16
+  - IP-CIDR,173.252.64.0/18
+  - IP-CIDR,174.37.0.0/16
+  - IP-CIDR,179.60.192.0/22
+  - IP-CIDR,18.184.0.0/15
+  - IP-CIDR,18.194.0.0/15
+  - IP-CIDR,18.208.0.0/13
+  - IP-CIDR,18.232.0.0/14
+  - IP-CIDR,180.163.150.162/32
+  - IP-CIDR,180.163.150.34/32
+  - IP-CIDR,180.163.151.162/32
+  - IP-CIDR,180.163.151.34/32
+  - IP-CIDR,183.131.48.0/20
+  - IP-CIDR,184.173.128.0/17
+  - IP-CIDR,185.60.216.0/22
+  - IP-CIDR,203.104.103.0/24
+  - IP-CIDR,203.104.128.0/19
+  - IP-CIDR,203.174.66.64/26
+  - IP-CIDR,203.174.77.0/24
+  - IP-CIDR,203.208.39.0/24
+  - IP-CIDR,203.208.40.0/23
+  - IP-CIDR,203.208.43.0/24
+  - IP-CIDR,203.208.50.0/24
+  - IP-CIDR,204.15.20.0/22
+  - IP-CIDR,208.43.0.0/16
+  - IP-CIDR,220.181.174.162/32
+  - IP-CIDR,220.181.174.226/32
+  - IP-CIDR,220.181.174.34/32
+  - IP-CIDR,27.0.236.0/22
+  - IP-CIDR,31.13.24.0/21
+  - IP-CIDR,31.13.64.0/18
+  - IP-CIDR,34.224.0.0/12
+  - IP-CIDR,45.64.40.0/22
+  - IP-CIDR,50.22.198.204/30
+  - IP-CIDR,52.200.0.0/13
+  - IP-CIDR,52.58.0.0/15
+  - IP-CIDR,52.74.0.0/16
+  - IP-CIDR,52.77.0.0/16
+  - IP-CIDR,52.84.0.0/15
+  - IP-CIDR,54.156.0.0/14
+  - IP-CIDR,54.226.0.0/15
+  - IP-CIDR,54.230.156.0/22
+  - IP-CIDR,54.242.0.0/15
+  - IP-CIDR,54.93.0.0/16
+  - IP-CIDR,66.220.144.0/20
+  - IP-CIDR,69.171.0.0/16
+  - IP-CIDR,69.63.176.0/20
+  - IP-CIDR,74.119.76.0/22
+  - IP-CIDR,74.125.0.0/16
+  - IP-CIDR,74.86.0.0/16
+  - IP-CIDR,75.126.0.0/16
+  - IP-CIDR,91.108.0.0/16
+  - IP-CIDR6,2001:67c:4e8::/48
+  - IP-CIDR6,2001:b28:f23d::/48
+  - IP-CIDR6,2001:b28:f23f::/48

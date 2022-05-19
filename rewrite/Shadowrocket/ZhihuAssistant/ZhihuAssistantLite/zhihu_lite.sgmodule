@@ -1,0 +1,19 @@
+#!name=ZhihuAssistantLite
+#!desc=最后更新时间 2022-05-19 13:07:20
+#!author=blackmatrix7
+#!repo=https://github.com/blackmatrix7/ios_rule_script
+#!http-response-script=8
+#!mitm=4
+#!total=12
+
+[Script]
+知乎_优化软件配置 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config,requires-body=1
+知乎_信息流去广告 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people),requires-body=1
+知乎_回答列表去广告 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/v4\/questions,requires-body=1
+知乎_处理用户信息 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/people,requires-body=1
+知乎_热搜去广告 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items,requires-body=1
+知乎_热榜去广告 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/),requires-body=1
+知乎_评论去广告 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments?,requires-body=1
+知乎_预置关键词去广告 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/search\/preset_words\?,requires-body=1
+[MITM]
+hostname = %APPEND% api.zhihu.com,appcloud2.zhihu.com,www.zhihu.com,zhuanlan.zhihu.com

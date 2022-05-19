@@ -1,56 +1,61 @@
-# Proxy
+# 🧸 Proxy
 
 ## 前言
 
-本项目的Proxy规则由《规则生成器》自动整合与去重。
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
-分流规则是互联网公共服务的域名和IP地址汇总，所有数据均收集自开源项目，仅为解决引用过多外部资源引起的规则重复问题，不代表我们支持或使用这些服务。
+Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
+
+分流规则是互联网公共服务的域名和IP地址汇总，所有数据均收集自互联网公开信息，不代表我们支持或使用这些服务。
 
 请通过我国(中华人民共和国)合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 
 ## 规则统计
 
-总计规则：25601 条。
+最后更新时间：2022-05-19 13:05:20
 
 各类型规则统计：
+| 类型 | 数量(条)  | 
+| ---- | ----  |
+| DOMAIN | 8  | 
+| DOMAIN-KEYWORD | 30  | 
+| DOMAIN-SUFFIX | 25480  | 
+| IP-CIDR | 92  | 
+| IP-CIDR6 | 3  | 
+| USER-AGENT | 7  | 
+| TOTAL | 25620  | 
 
-| 类型 | 数量(条) |
-| ---- | ---- |
-| DOMAIN-SUFFIX | 25462 |
-| USER-AGENT | 7 |
-| DOMAIN | 8 |
-| DOMAIN-KEYWORD | 32 |
-| IP-CIDR | 92 |
-## 配置说明
 
-实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
+## Shadowrocket 
 
-稳定版：不定时手动更新，更新频率低，适合不希望规则频繁变化的人。
+#### 使用说明
+- Proxy.list，请使用RULE-SET。
+- Proxy_Resolve.list，请使用RULE-SET。
+- Proxy_Domain.list，请使用DOMAIN-SET。
 
-### Shadowrocket 
-实时版：
+#### 文件区别
+- Proxy_Resolve.list与Proxy.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
+
+#### 配置建议
+- Proxy.list、Proxy_Domain.list 共同使用。
+- Proxy_Resolve.list、Proxy_Domain.list 共同使用。
+
+#### 规则链接
+**实时版**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Proxy/Proxy.list
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Proxy/Proxy_Domain.list
+**实时版CDN**
 
-稳定版：
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/Proxy/Proxy.list
+
+**稳定版**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shadowrocket/Proxy/Proxy.list
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shadowrocket/Proxy/Proxy_Domain.list
+**稳定版CDN**
 
-
-
-如果稳定版无法访问 ，可能是尚未从实时版的分支合并，建议您先使用实时版，或等待下次稳定版分支合并。
-
-### 特别说明
-
-Proxy.list 请使用RULE-SET。
-
-Proxy_Domain.list 请使用DOMAIN-SET。
-
-两者必须同时使用。
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Shadowrocket/Proxy/Proxy.list
 
 ## 子规则/排除规则
 
@@ -58,29 +63,28 @@ Proxy_Domain.list 请使用DOMAIN-SET。
 当前分流规则，未包含其他子规则。
 
 当前分流规则，已排除以下规则：
-
-- Advertising
+| 排除规则  | 
+| ----  |
+| Advertising  | 
 
 ## 数据来源
 
-本项目的Proxy复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。
+《Proxy》的数据来自以下链接，如与本项目的《Proxy》规则混合使用，可能会造成规则大量重复。
 
-如果你正在使用这些复写规则，建议不要与本项目的Proxy复写规则混合使用，以免造成规则重复。
-
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
-- https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Proxy/Proxy.list
+- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt
+- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
+- https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
-- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
-- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Proxy/Proxy.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list
 
 
-感谢以上复写规则作者的辛勤付出（排名不分先后）。
+感谢以上规则作者的辛勤付出（排名不分先后）。
 
 ## 最后
 

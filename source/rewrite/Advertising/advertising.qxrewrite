@@ -1,7 +1,0 @@
-# 嘀嗒出行
-^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/ride\/detail\? url reject-dict
-^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/event? url reject-dict
-# 二柄
-^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads url reject-dict
-
-hostname = capis*.didapinche.com,capis-*.didapinche.com,api-access.pangolin-sdk-toutiao.com

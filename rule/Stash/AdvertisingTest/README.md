@@ -15,17 +15,17 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-19 13:04:51
+最后更新时间：2022-05-19 16:17:58
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 46088  | 
+| DOMAIN | 46087  | 
 | DOMAIN-KEYWORD | 84  | 
-| DOMAIN-SUFFIX | 87632  | 
+| DOMAIN-SUFFIX | 87697  | 
 | IP-CIDR | 254  | 
 | URL-REGEX | 305  | 
-| TOTAL | 134363  | 
+| TOTAL | 134427  | 
 
 
 ## Stash 
@@ -41,7 +41,7 @@
 - AdvertisingTest.yaml、AdvertisingTest_Domain.txt 共同使用。
 
 #### 规则链接
-**实时版**
+**MASTER分支 (每日更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Stash/AdvertisingTest/AdvertisingTest.yaml
 
@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Stash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Stash/AdvertisingTest/AdvertisingTest_Domain.txt
 
-**实时版CDN**
+**MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Stash/AdvertisingTest/AdvertisingTest.yaml
 
@@ -57,7 +57,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Stash/Adver
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Stash/AdvertisingTest/AdvertisingTest_Domain.txt
 
-**稳定版**
+**RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Stash/AdvertisingTest/AdvertisingTest.yaml
 
@@ -65,7 +65,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Stas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Stash/AdvertisingTest/AdvertisingTest_Domain.txt
 
-**稳定版CDN**
+**RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Stash/AdvertisingTest/AdvertisingTest.yaml
 

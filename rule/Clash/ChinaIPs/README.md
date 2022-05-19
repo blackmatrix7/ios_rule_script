@@ -12,7 +12,7 @@ ChinaIPs规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-19 13:06:00
+最后更新时间：2022-05-19 16:19:09
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -47,7 +47,7 @@ ChinaIPs规则由《RULE GENERATOR 规则生成器》自动生成。
 - ChinaIPs_Classical_No_IPv6_No_Resolve.yaml 纯IPv4网络，单独使用。
 
 #### 规则链接
-**实时版**
+**MASTER分支 (每日更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
 
@@ -61,7 +61,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPs_Classical_No_IPv6_No_Resolve.yaml
 
-**实时版CDN**
+**MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
 
@@ -75,7 +75,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPs_Classical_No_IPv6_No_Resolve.yaml
 
-**稳定版**
+**RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
 
@@ -89,7 +89,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPs/ChinaIPs_Classical_No_IPv6_No_Resolve.yaml
 
-**稳定版CDN**
+**RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
 

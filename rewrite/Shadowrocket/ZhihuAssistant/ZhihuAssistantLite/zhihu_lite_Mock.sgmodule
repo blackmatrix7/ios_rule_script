@@ -1,0 +1,47 @@
+#!name=ZhihuAssistantLite
+#!desc=最后更新时间 2022-05-19 16:20:30
+#!author=blackmatrix7
+#!repo=https://github.com/blackmatrix7/ios_rule_script
+#!domain=4
+#!ip-cidr=1
+#!ip-cidr6=1
+#!url-regex=4
+#!user-agent=1
+#!http-response-script=8
+#!reject=7
+#!mitm=8
+#!total=34
+
+[Rule]
+DOMAIN,118.89.204.198,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,mqtt.zhihu.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+IP-CIDR,118.89.204.198/32,no-resolve,REJECT
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve,REJECT-DROP
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\?,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
+USER-AGENT,AVOS*,REJECT
+
+
+[Map Local]
+^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+[Script]
+知乎_优化软件配置 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config,requires-body=1
+知乎_信息流去广告 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people),requires-body=1
+知乎_回答列表去广告 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/v4\/questions,requires-body=1
+知乎_处理用户信息 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/people,requires-body=1
+知乎_热搜去广告 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items,requires-body=1
+知乎_热榜去广告 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/),requires-body=1
+知乎_评论去广告 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments?,requires-body=1
+知乎_预置关键词去广告 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,pattern=^https?:\/\/api\.zhihu\.com\/search\/preset_words\?,requires-body=1
+[MITM]
+hostname = %APPEND% 103.41.167.226,103.41.167.234,103.41.167.235,103.41.167.236,api.zhihu.com,appcloud2.zhihu.com,www.zhihu.com,zhuanlan.zhihu.com

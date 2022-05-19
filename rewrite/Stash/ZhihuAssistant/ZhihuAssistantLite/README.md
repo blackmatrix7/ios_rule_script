@@ -16,32 +16,38 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-19 13:07:20
+最后更新时间：2022-05-19 16:20:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
+| DOMAIN | 4  | 
+| IP-CIDR | 1  | 
+| IP-CIDR6 | 1  | 
+| URL-REGEX | 4  | 
+| USER-AGENT | 1  | 
 | HTTP-RESPONSE-SCRIPT | 8  | 
-| MITM | 4  | 
-| TOTAL | 12  | 
+| REJECT | 7  | 
+| MITM | 8  | 
+| TOTAL | 34  | 
 
 
 ## Stash 
 
 #### 规则链接
-**实时版**
+**MASTER分支 (每日更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Stash/ZhihuAssistant/ZhihuAssistantLite/zhihu_lite.stoverride
 
-**实时版CDN**
+**MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rewrite/Stash/ZhihuAssistant/ZhihuAssistantLite/zhihu_lite.stoverride
 
-**稳定版**
+**RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Stash/ZhihuAssistant/ZhihuAssistantLite/zhihu_lite.stoverride
 
-**稳定版CDN**
+**RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Stash/ZhihuAssistant/ZhihuAssistantLite/zhihu_lite.stoverride
 
@@ -54,7 +60,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Stash/Z
 
 《知乎助手Lite》的数据来自以下链接，如与本项目的《知乎助手Lite》规则混合使用，可能造成部分重写重复。
 
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.sgmodule
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.lnplugin
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

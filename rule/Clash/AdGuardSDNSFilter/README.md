@@ -21,7 +21,7 @@ AdGuard DNS Filter 规则！！
 
 ## 规则统计
 
-最后更新时间：2022-05-19 13:07:04
+最后更新时间：2022-05-19 16:20:12
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -43,25 +43,25 @@ AdGuard DNS Filter 规则！！
 - AdGuardSDNSFilter.yaml、AdGuardSDNSFilter_Domain.yaml 共同使用。
 
 #### 规则链接
-**实时版**
+**MASTER分支 (每日更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.yaml
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter_Classical.yaml
 
-**实时版CDN**
+**MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.yaml
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter_Classical.yaml
 
-**稳定版**
+**RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.yaml
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter_Classical.yaml
 
-**稳定版CDN**
+**RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.yaml
 

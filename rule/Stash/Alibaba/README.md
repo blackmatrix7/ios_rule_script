@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-19 13:06:02
+最后更新时间：2022-05-19 16:19:11
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -34,7 +34,7 @@
 - Alibaba.yaml、Alibaba_Domain.txt 共同使用。
 
 #### 规则链接
-**实时版**
+**MASTER分支 (每日更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Stash/Alibaba/Alibaba.yaml
 
@@ -42,7 +42,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Stash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Stash/Alibaba/Alibaba_Domain.txt
 
-**实时版CDN**
+**MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Stash/Alibaba/Alibaba.yaml
 
@@ -50,7 +50,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Stash/Aliba
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Stash/Alibaba/Alibaba_Domain.txt
 
-**稳定版**
+**RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Stash/Alibaba/Alibaba.yaml
 
@@ -58,7 +58,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Stas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Stash/Alibaba/Alibaba_Domain.txt
 
-**稳定版CDN**
+**RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Stash/Alibaba/Alibaba.yaml
 

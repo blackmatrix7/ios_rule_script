@@ -12,7 +12,7 @@ AsianMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-19 13:05:26
+最后更新时间：2022-05-19 16:18:32
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -39,19 +39,19 @@ AsianMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 - AsianMedia_Resolve.list 单独使用。
 
 #### 规则链接
-**实时版**
+**MASTER分支 (每日更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AsianMedia/AsianMedia.list
 
-**实时版CDN**
+**MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/AsianMedia/AsianMedia.list
 
-**稳定版**
+**RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shadowrocket/AsianMedia/AsianMedia.list
 
-**稳定版CDN**
+**RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Shadowrocket/AsianMedia/AsianMedia.list
 

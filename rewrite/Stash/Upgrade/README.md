@@ -14,7 +14,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-19 13:07:19
+最后更新时间：2022-05-19 16:20:29
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -27,19 +27,19 @@
 ## Stash 
 
 #### 规则链接
-**实时版**
+**MASTER分支 (每日更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Stash/Upgrade/Upgrade.stoverride
 
-**实时版CDN**
+**MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rewrite/Stash/Upgrade/Upgrade.stoverride
 
-**稳定版**
+**RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Stash/Upgrade/Upgrade.stoverride
 
-**稳定版CDN**
+**RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Stash/Upgrade/Upgrade.stoverride
 

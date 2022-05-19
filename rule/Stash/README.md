@@ -164,7 +164,7 @@
 |🚫Reject|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Stash/AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Stash/Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Stash/AdvertisingTest) |[反劫持](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Stash/Hijacking) |[隐私保护](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Stash/Privacy) ||||
-|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Stash/ZhihuAds) |[AdGuardSDNSFilter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Stash/AdGuardSDNSFilter) |||
+|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Stash/ZhihuAds) |[AdGuardSDNSFilter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Stash/AdGuardSDNSFilter) |[EasyPrivacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Stash/EasyPrivacy) |||
 
 
 |🖥️Other|  |  |  |  |

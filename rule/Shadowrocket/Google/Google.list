@@ -1,11 +1,10 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-05-19 17:55:17
+# UPDATED: 2022-05-20 10:59:39
 # DOMAIN-KEYWORD: 6
 # DOMAIN-SUFFIX: 661
-# IP-CIDR: 4
-# IP-CIDR6: 1
+# IP-CIDR: 5
 # USER-AGENT: 3
 # TOTAL: 675
 DOMAIN-SUFFIX,0emm.com
@@ -681,5 +680,5 @@ USER-AGENT,Google.Drive*
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
 IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR,2620:120:e000::/40,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
-IP-CIDR6,2620:120:e000::/40,no-resolve

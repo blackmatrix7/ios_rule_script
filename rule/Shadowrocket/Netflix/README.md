@@ -12,7 +12,7 @@ Netflix规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-20 02:20:01
+最后更新时间：2022-05-20 11:00:02
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -20,8 +20,7 @@ Netflix规则由《RULE GENERATOR 规则生成器》自动生成。
 | DOMAIN | 2  | 
 | DOMAIN-KEYWORD | 4  | 
 | DOMAIN-SUFFIX | 25  | 
-| IP-CIDR | 924  | 
-| IP-CIDR6 | 4  | 
+| IP-CIDR | 928  | 
 | USER-AGENT | 1  | 
 | TOTAL | 960  | 
 

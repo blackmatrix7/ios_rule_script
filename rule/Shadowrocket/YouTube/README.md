@@ -12,15 +12,14 @@ YouTube规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-20 02:19:38
+最后更新时间：2022-05-20 10:59:39
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 1  | 
 | DOMAIN-SUFFIX | 172  | 
-| IP-CIDR | 2  | 
-| IP-CIDR6 | 1  | 
+| IP-CIDR | 3  | 
 | USER-AGENT | 3  | 
 | TOTAL | 179  | 
 

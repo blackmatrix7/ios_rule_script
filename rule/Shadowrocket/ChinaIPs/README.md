@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) ![](https://shields.io/badge/-生成纯IPv4规则-89ed5d) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
 ChinaIPs规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,13 +12,12 @@ ChinaIPs规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-20 02:20:37
+最后更新时间：2022-05-20 11:00:38
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| IP-CIDR | 6216  | 
-| IP-CIDR6 | 4162  | 
+| IP-CIDR | 10378  | 
 | TOTAL | 10378  | 
 
 
@@ -27,19 +26,13 @@ ChinaIPs规则由《RULE GENERATOR 规则生成器》自动生成。
 #### 使用说明
 - ChinaIPs.list，请使用RULE-SET。
 - ChinaIPs_Resolve.list，请使用RULE-SET。
-- ChinaIPs_No_IPv6.list，请使用RULE-SET。
-- ChinaIPs_No_IPv6_Resolve.list，请使用RULE-SET。
 
 #### 文件区别
 - ChinaIPs_Resolve.list与ChinaIPs.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
-- ChinaIPs.list与ChinaIPs_No_IPv6.list的区别仅在于后者不带IPv6类型的规则，适用纯IPv4网络。
-- ChinaIPs_Resolve.list与ChinaIPs_No_IPv6_Resolve.list的区别仅在于后者不带IPv6类型的规则，且不带no-resolve，适用纯IPv4网络。
 
 #### 配置建议
 - ChinaIPs.list 单独使用。
 - ChinaIPs_Resolve.list 单独使用。
-- ChinaIPs_No_IPv6.list 纯IPv4网络，单独使用。
-- ChinaIPs_No_IPv6_Resolve.list 纯IPv4网络，单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

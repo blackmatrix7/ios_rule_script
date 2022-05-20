@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) ![](https://shields.io/badge/-生成纯IPv4规则-89ed5d) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
 国内网站/IP合集规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -21,7 +21,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-20 02:21:29
+最后更新时间：2022-05-20 11:01:28
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -29,8 +29,7 @@
 | DOMAIN | 83  | 
 | DOMAIN-KEYWORD | 15  | 
 | DOMAIN-SUFFIX | 69970  | 
-| IP-CIDR | 6247  | 
-| IP-CIDR6 | 4166  | 
+| IP-CIDR | 10413  | 
 | USER-AGENT | 63  | 
 | TOTAL | 80544  | 
 
@@ -40,20 +39,14 @@
 #### 使用说明
 - ChinaMax.list，请使用RULE-SET。
 - ChinaMax_Resolve.list，请使用RULE-SET。
-- ChinaMax_No_IPv6.list，请使用RULE-SET。
-- ChinaMax_No_IPv6_Resolve.list，请使用RULE-SET。
 - ChinaMax_Domain.list，请使用DOMAIN-SET。
 
 #### 文件区别
 - ChinaMax_Resolve.list与ChinaMax.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
-- ChinaMax.list与ChinaMax_No_IPv6.list的区别仅在于后者不带IPv6类型的规则，适用纯IPv4网络。
-- ChinaMax_Resolve.list与ChinaMax_No_IPv6_Resolve.list的区别仅在于后者不带IPv6类型的规则，且不带no-resolve，适用纯IPv4网络。
 
 #### 配置建议
 - ChinaMax.list、ChinaMax_Domain.list 共同使用。
 - ChinaMax_Resolve.list、ChinaMax_Domain.list 共同使用。
-- ChinaMax_No_IPv6.list、ChinaMax_Domain.list 纯IPv4网络，共同使用。
-- ChinaMax_No_IPv6_Resolve.list、ChinaMax_Domain.list 纯IPv4网络，共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

@@ -1,10 +1,9 @@
 #!name=ZhihuAssistantPlus
-#!desc=最后更新时间 2022-05-19 17:57:25
+#!desc=最后更新时间 2022-05-20 11:01:45
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!domain=4
-#!ip-cidr=1
-#!ip-cidr6=1
+#!ip-cidr=2
 #!url-regex=8
 #!user-agent=1
 #!http-request-script=1
@@ -19,7 +18,7 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 IP-CIDR,118.89.204.198/32,no-resolve,REJECT-DROP
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve,REJECT-DROP
+IP-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve,REJECT-DROP
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\?,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings,REJECT-TINYGIF
@@ -32,20 +31,20 @@ USER-AGENT,AVOS*,REJECT
 
 
 [URL Rewrite]
-^https?:\/\/api\.zhihu\.com/moments/hybrid\? - reject
-^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations) - reject
-^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
-^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject
-^https?:\/\/api\.zhihu\.com\/moments\/recent - reject
-^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 - reject
-^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject
-^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject
-^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject
-^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject
-^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject
+^https?:\/\/api\.zhihu\.com/moments/hybrid\? - reject-dict
+^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations) - reject-dict
+^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject-200
+^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject-dict
+^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict
+^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 - reject-dict
+^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject-200
+^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject-dict
 ^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) - reject
-^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject
-^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
+^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject-dict
+^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject-dict
 
 
 [Script]

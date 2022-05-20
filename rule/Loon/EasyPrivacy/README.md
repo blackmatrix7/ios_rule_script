@@ -17,13 +17,13 @@ AdBlock Plus EasyPrivacy，仅抽取DOMAIN-SUFFIX类型。
 
 ## 规则统计
 
-最后更新时间：2022-05-19 17:57:24
+最后更新时间：2022-05-20 11:01:44
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 12823  | 
-| TOTAL | 12823  | 
+| DOMAIN-SUFFIX | 12824  | 
+| TOTAL | 12824  | 
 
 
 ## Loon 

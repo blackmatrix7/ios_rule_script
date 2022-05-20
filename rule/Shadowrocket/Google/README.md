@@ -15,15 +15,14 @@ Google规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-20 02:19:38
+最后更新时间：2022-05-20 10:59:39
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 6  | 
 | DOMAIN-SUFFIX | 661  | 
-| IP-CIDR | 4  | 
-| IP-CIDR6 | 1  | 
+| IP-CIDR | 5  | 
 | USER-AGENT | 3  | 
 | TOTAL | 675  | 
 

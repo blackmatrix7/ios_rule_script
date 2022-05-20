@@ -1,12 +1,11 @@
 # NAME: Netflix
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-05-19 17:55:40
+# UPDATED: 2022-05-20 11:00:02
 # DOMAIN: 2
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 25
-# IP-CIDR: 924
-# IP-CIDR6: 4
+# IP-CIDR: 928
 # USER-AGENT: 1
 # TOTAL: 960
 DOMAIN,api.fast.com
@@ -443,6 +442,10 @@ IP-CIDR,218.102.32.0/19,no-resolve
 IP-CIDR,219.76.0.0/17,no-resolve
 IP-CIDR,23.240.0.0/12,no-resolve
 IP-CIDR,23.78.0.0/16,no-resolve
+IP-CIDR,2607:fb10::/32,no-resolve
+IP-CIDR,2620:10c:7000::/44,no-resolve
+IP-CIDR,2a00:86c0::/32,no-resolve
+IP-CIDR,2a03:5640::/32,no-resolve
 IP-CIDR,3.0.5.224/27,no-resolve
 IP-CIDR,3.0.5.32/29,no-resolve
 IP-CIDR,3.10.127.32/27,no-resolve
@@ -965,7 +968,3 @@ IP-CIDR,99.79.20.192/26,no-resolve
 IP-CIDR,99.80.34.48/28,no-resolve
 IP-CIDR,99.80.34.64/26,no-resolve
 IP-CIDR,99.80.88.0/25,no-resolve
-IP-CIDR6,2607:fb10::/32,no-resolve
-IP-CIDR6,2620:10c:7000::/44,no-resolve
-IP-CIDR6,2a00:86c0::/32,no-resolve
-IP-CIDR6,2a03:5640::/32,no-resolve

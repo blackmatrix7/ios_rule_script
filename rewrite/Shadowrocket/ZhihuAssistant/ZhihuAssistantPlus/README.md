@@ -16,14 +16,13 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-20 02:21:39
+最后更新时间：2022-05-20 11:01:45
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 4  | 
-| IP-CIDR | 1  | 
-| IP-CIDR6 | 1  | 
+| IP-CIDR | 2  | 
 | URL-REGEX | 8  | 
 | USER-AGENT | 1  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
@@ -35,33 +34,22 @@
 
 ## Shadowrocket 
 
-#### 文件区别
-- zhihu_plus.sgmodule与zhihu_plus_Mock.sgmodule的区别在于后者通过Surge的Mock模拟Reject规则。
-
 #### 规则链接
 **MASTER分支 (每日更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Shadowrocket/ZhihuAssistant/ZhihuAssistantPlus/zhihu_plus.sgmodule
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Shadowrocket/ZhihuAssistant/ZhihuAssistantPlus/zhihu_plus_Mock.sgmodule
-
 **MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rewrite/Shadowrocket/ZhihuAssistant/ZhihuAssistantPlus/zhihu_plus.sgmodule
-
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rewrite/Shadowrocket/ZhihuAssistant/ZhihuAssistantPlus/zhihu_plus_Mock.sgmodule
 
 **RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Shadowrocket/ZhihuAssistant/ZhihuAssistantPlus/zhihu_plus.sgmodule
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Shadowrocket/ZhihuAssistant/ZhihuAssistantPlus/zhihu_plus_Mock.sgmodule
-
 **RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Shadowrocket/ZhihuAssistant/ZhihuAssistantPlus/zhihu_plus.sgmodule
-
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Shadowrocket/ZhihuAssistant/ZhihuAssistantPlus/zhihu_plus_Mock.sgmodule
 
 ## 子规则
 

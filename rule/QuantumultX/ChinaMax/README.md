@@ -21,18 +21,18 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-20 11:01:27
+最后更新时间：2022-05-20 20:42:26
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 83  | 
 | HOST-KEYWORD | 15  | 
-| HOST-SUFFIX | 69970  | 
-| IP-CIDR | 6247  | 
-| IP6-CIDR | 4166  | 
+| HOST-SUFFIX | 69966  | 
+| IP-CIDR | 6246  | 
+| IP6-CIDR | 4172  | 
 | USER-AGENT | 63  | 
-| TOTAL | 80544  | 
+| TOTAL | 80545  | 
 
 
 ## QuantumultX 
@@ -431,7 +431,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Quantumult
 
 ### 感谢
 
-[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) 
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) [@vhdj](https://github.com/vhdj)
 
 提供规则数据源及改进建议。
 

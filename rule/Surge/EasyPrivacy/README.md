@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) 
 
 EasyPrivacy规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -17,21 +17,47 @@ AdBlock Plus EasyPrivacy，仅抽取DOMAIN-SUFFIX类型。
 
 ## 规则统计
 
-最后更新时间：2022-05-20 11:01:44
+最后更新时间：2022-05-20 20:42:47
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 12824  | 
-| TOTAL | 12824  | 
+| DOMAIN | 12837  | 
+| IP-CIDR | 7  | 
+| TOTAL | 12844  | 
 
 
 ## Surge 
 
 #### 使用说明
+- EasyPrivacy.list，请使用RULE-SET。
+- EasyPrivacy_Resolve.list，请使用RULE-SET。
 - EasyPrivacy_Domain.list，请使用DOMAIN-SET。
 
+#### 文件区别
+- EasyPrivacy_Resolve.list与EasyPrivacy.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
+
+#### 配置建议
+- EasyPrivacy.list、EasyPrivacy_Domain.list 共同使用。
+- EasyPrivacy_Resolve.list、EasyPrivacy_Domain.list 共同使用。
+
 #### 规则链接
+**MASTER分支 (每日更新)**
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/EasyPrivacy/EasyPrivacy.list
+
+**MASTER分支 CDN (每日更新)**
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/EasyPrivacy/EasyPrivacy.list
+
+**RELEASE分支 (不定时更新)**
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/EasyPrivacy/EasyPrivacy.list
+
+**RELEASE分支CDN (不定时更新)**
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/EasyPrivacy/EasyPrivacy.list
+
 ## 子规则/排除规则
 
 
@@ -50,7 +76,7 @@ AdBlock Plus EasyPrivacy，仅抽取DOMAIN-SUFFIX类型。
 
 ### 感谢
 
-[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) 
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) [@vhdj](https://github.com/vhdj)
 
 提供规则数据源及改进建议。
 

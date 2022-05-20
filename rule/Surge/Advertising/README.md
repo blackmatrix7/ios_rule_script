@@ -15,17 +15,17 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-20 10:58:52
+最后更新时间：2022-05-20 20:39:22
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 51303  | 
+| DOMAIN | 51302  | 
 | DOMAIN-KEYWORD | 84  | 
-| DOMAIN-SUFFIX | 70435  | 
+| DOMAIN-SUFFIX | 70505  | 
 | IP-CIDR | 254  | 
 | URL-REGEX | 305  | 
-| TOTAL | 122381  | 
+| TOTAL | 122450  | 
 
 
 ## Surge 
@@ -122,7 +122,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Adve
 
 ### 感谢
 
-[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) 
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) [@vhdj](https://github.com/vhdj)
 
 提供规则数据源及改进建议。
 

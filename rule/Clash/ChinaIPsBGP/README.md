@@ -19,30 +19,25 @@ ChinaIPsBGP规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-20 11:01:22
+最后更新时间：2022-05-20 20:42:20
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| IP-CIDR | 3389  | 
-| TOTAL | 3389  | 
+| IP-CIDR | 3386  | 
+| TOTAL | 3386  | 
 
 
 ## Clash 
 
 #### 使用说明
 - ChinaIPsBGP_Classical.yaml，请使用 behavior: "classical"。
-- ChinaIPsBGP_Classical_No_Resolve.yaml，请使用 behavior: "classical"。
 - ChinaIPsBGP_IP.yaml，请使用 behavior: "ipcidr"。
 - ChinaIPsBGP_IP_No_IPv6.yaml，请使用 behavior: "ipcidr"。
-
-#### 文件区别
-- ChinaIPsBGP_Classical.yaml与ChinaIPsBGP_Classical_No_Resolve.yaml的区别在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
 - ChinaIPsBGP_IP.yaml 单独使用。
 - ChinaIPsBGP_Classical.yaml 单独使用。
-- ChinaIPsBGP_Classical_No_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -51,15 +46,11 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical_No_Resolve.yaml
-
 **MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_IP.yaml
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical.yaml
-
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical_No_Resolve.yaml
 
 **RELEASE分支 (不定时更新)**
 
@@ -67,15 +58,11 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical_No_Resolve.yaml
-
 **RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_IP.yaml
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical.yaml
-
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_Classical_No_Resolve.yaml
 
 ## 子规则/排除规则
 
@@ -95,7 +82,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Chin
 
 ### 感谢
 
-[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) 
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) [@vhdj](https://github.com/vhdj)
 
 提供规则数据源及改进建议。
 

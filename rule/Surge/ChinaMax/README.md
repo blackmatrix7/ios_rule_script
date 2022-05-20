@@ -21,19 +21,19 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-20 11:01:26
+最后更新时间：2022-05-20 20:42:26
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 83  | 
 | DOMAIN-KEYWORD | 15  | 
-| DOMAIN-SUFFIX | 69970  | 
-| IP-CIDR | 6247  | 
-| IP-CIDR6 | 4166  | 
+| DOMAIN-SUFFIX | 69966  | 
+| IP-CIDR | 6246  | 
+| IP-CIDR6 | 4172  | 
 | PROCESS-NAME | 5  | 
 | USER-AGENT | 63  | 
-| TOTAL | 80549  | 
+| TOTAL | 80550  | 
 
 
 ## Surge 
@@ -446,7 +446,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Chin
 
 ### 感谢
 
-[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) 
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) [@vhdj](https://github.com/vhdj)
 
 提供规则数据源及改进建议。
 

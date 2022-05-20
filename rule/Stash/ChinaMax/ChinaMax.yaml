@@ -1,14 +1,14 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-05-20 11:01:29
+# UPDATED: 2022-05-20 20:42:29
 # DOMAIN: 83
 # DOMAIN-KEYWORD: 15
-# DOMAIN-SUFFIX: 69970
-# IP-CIDR: 6247
-# IP-CIDR6: 4166
+# DOMAIN-SUFFIX: 69966
+# IP-CIDR: 6246
+# IP-CIDR6: 4172
 # USER-AGENT: 63
-# TOTAL: 80544
+# TOTAL: 80545
 payload:
   - DOMAIN-KEYWORD,-cn
   - DOMAIN-KEYWORD,.tmall.com
@@ -21,11 +21,10 @@ payload:
   - DOMAIN-KEYWORD,officecdn
   - DOMAIN-KEYWORD,taobao
   - DOMAIN-KEYWORD,bilibili
+  - DOMAIN-KEYWORD,qiyi
   - DOMAIN-KEYWORD,hnagroup
   - DOMAIN-KEYWORD,netease
   - DOMAIN-KEYWORD,weibo
-  - DOMAIN-KEYWORD,qiyi
-  - USER-AGENT,AcFun*
   - USER-AGENT,*bili*
   - USER-AGENT,Bilibili*
   - USER-AGENT,bili*
@@ -60,13 +59,25 @@ payload:
   - USER-AGENT,ting_en
   - USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
   - USER-AGENT,*QIYI*
-  - USER-AGENT,MGTV*
+  - USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
   - USER-AGENT,MOO*
+  - USER-AGENT,PPStream*
+  - USER-AGENT,QIYI*
+  - USER-AGENT,QQ%E9%9F%B3%E4%B9%90
   - USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
   - USER-AGENT,QQMusic*
+  - USER-AGENT,QYPlayer*
+  - USER-AGENT,TencentMidasConnect*
   - USER-AGENT,Youku*
   - USER-AGENT,baiduyinyue
+  - USER-AGENT,iQiYi*
+  - USER-AGENT,live4iphone*
+  - USER-AGENT,qqlive4iphone*
+  - USER-AGENT,walkman*
+  - USER-AGENT,xiami*
   - USER-AGENT,Himalaya*
+  - USER-AGENT,MGTV*
+  - USER-AGENT,AcFun*
   - USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
   - USER-AGENT,MiguVideo*
   - USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
@@ -76,15 +87,4 @@ payload:
   - USER-AGENT,NeteaseMusic**
   - USER-AGENT,网易云音乐*
   - USER-AGENT,网易云音乐**
-  - USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
-  - USER-AGENT,QQ%E9%9F%B3%E4%B9%90
-  - USER-AGENT,TencentMidasConnect*
-  - USER-AGENT,live4iphone*
-  - USER-AGENT,qqlive4iphone*
-  - USER-AGENT,walkman*
-  - USER-AGENT,xiami*
-  - USER-AGENT,PPStream*
-  - USER-AGENT,QIYI*
-  - USER-AGENT,QYPlayer*
   - USER-AGENT,iQIYI*
-  - USER-AGENT,iQiYi*

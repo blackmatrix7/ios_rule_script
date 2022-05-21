@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN与DOMAIN--KEYWORD合并-9cf) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) 
 
 AdGuardSDNSFilter规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -21,13 +21,13 @@ AdGuard DNS Filter 规则！！
 
 ## 规则统计
 
-最后更新时间：2022-05-21 00:52:45
+最后更新时间：2022-05-21 19:21:00
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 45223  | 
-| TOTAL | 45223  | 
+| DOMAIN | 45218  | 
+| TOTAL | 45218  | 
 
 
 ## Shadowrocket 

@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) 
 
 EasyPrivacy规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -17,7 +17,7 @@ AdBlock Plus EasyPrivacy，仅抽取DOMAIN-SUFFIX类型。
 
 ## 规则统计
 
-最后更新时间：2022-05-21 00:52:49
+最后更新时间：2022-05-21 19:21:02
 
 各类型规则统计：
 | 类型 | 数量(条)  | 

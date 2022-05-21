@@ -12,7 +12,7 @@ Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-21 19:19:17
+最后更新时间：2022-05-21 21:06:12
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -62,9 +62,9 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Shadowrock
 当前分流规则，未包含其他子规则。
 
 当前分流规则，已排除以下规则：
-| 排除规则  | 
-| ----  |
-| Advertising  | 
+| 排除规则  |  | 
+| ---- | ----  |
+| Advertising | Direct  | 
 
 ## 数据来源
 

@@ -15,7 +15,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-21 19:18:44
+最后更新时间：2022-05-21 21:05:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -63,9 +63,10 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Shadowrock
 ## 子规则/排除规则
 
 当前分流规则，已包含以下子规则，除非特殊需求否则不建议重复引用：
-| 子规则  |  |  | 
-| ---- | ---- | ----  |
-| AdGuardSDNSFilter | Advertising | EasyPrivacy  | 
+| 子规则  |  |  |  |  | 
+| ---- | ---- | ---- | ---- | ----  |
+| AdGuardSDNSFilter | Advertising | AdvertisingLite | EasyPrivacy | Hijacking  | 
+| Privacy  |  |  |  |  | 
 
 
 ## 数据来源

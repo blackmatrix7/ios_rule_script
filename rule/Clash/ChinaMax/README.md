@@ -21,7 +21,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-21 19:20:50
+最后更新时间：2022-05-21 21:07:44
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -29,10 +29,10 @@
 | DOMAIN | 83  | 
 | DOMAIN-KEYWORD | 15  | 
 | DOMAIN-SUFFIX | 69937  | 
-| IP-CIDR | 6246  | 
+| IP-CIDR | 6247  | 
 | IP-CIDR6 | 4172  | 
 | PROCESS-NAME | 6  | 
-| TOTAL | 80459  | 
+| TOTAL | 80460  | 
 
 
 ## Clash 
@@ -157,8 +157,9 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Chin
 | 排除规则  |  |  |  |  | 
 | ---- | ---- | ---- | ---- | ----  |
 | Advertising | AdvertisingLite | AdvertisingMiTV | AdvertisingTest | Chromecast  | 
-| Google | GoogleDrive | GoogleSearch | GoogleVoice | Proxy  | 
-| Steam | SteamCN | TikTok | YouTube | YouTubeMusic  | 
+| Direct | Google | GoogleDrive | GoogleSearch | GoogleVoice  | 
+| Hijacking | Privacy | Proxy | Steam | SteamCN  | 
+| TikTok | YouTube | YouTubeMusic  |  |  | 
 
 ## 数据来源
 

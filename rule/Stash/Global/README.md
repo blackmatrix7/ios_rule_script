@@ -12,7 +12,7 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-21 19:19:08
+最后更新时间：2022-05-21 21:06:03
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -79,9 +79,10 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Stash/Glob
 
 
 当前分流规则，已排除以下规则：
-| 排除规则  |  | 
-| ---- | ----  |
-| AdvertisingLite | China  | 
+| 排除规则  |  |  |  |  | 
+| ---- | ---- | ---- | ---- | ----  |
+| Advertising | AdvertisingLite | China | Direct | Hijacking  | 
+| Privacy | Proxy | Steam | SteamCN  |  | 
 
 ## 数据来源
 

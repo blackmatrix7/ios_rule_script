@@ -15,17 +15,17 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-21 13:35:00
+最后更新时间：2022-05-21 15:03:14
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 46105  | 
+| DOMAIN | 46195  | 
 | DOMAIN-KEYWORD | 84  | 
 | DOMAIN-SUFFIX | 87746  | 
-| IP-CIDR | 254  | 
+| IP-CIDR | 255  | 
 | URL-REGEX | 305  | 
-| TOTAL | 134494  | 
+| TOTAL | 134585  | 
 
 
 ## Stash 
@@ -76,9 +76,9 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Stash/Adve
 ## 子规则/排除规则
 
 当前分流规则，已包含以下子规则，除非特殊需求否则不建议重复引用：
-| 子规则  | 
-| ----  |
-| Advertising  | 
+| 子规则  |  |  | 
+| ---- | ---- | ----  |
+| AdGuardSDNSFilter | Advertising | EasyPrivacy  | 
 
 
 ## 数据来源
@@ -145,6 +145,8 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Stash/Adve
 - https://raw.githubusercontent.com/mieqq/mieqq/master/In-AppTracker.txt
 - https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
+- https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+- https://easylist-downloads.adblockplus.org/easyprivacy.txt
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

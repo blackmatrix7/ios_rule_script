@@ -1,12 +1,12 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-05-21 21:04:57
-# DOMAIN: 51306
+# UPDATED: 2022-05-21 23:07:24
+# DOMAIN: 51546
 # DOMAIN-KEYWORD: 84
-# DOMAIN-SUFFIX: 70523
-# IP-CIDR: 254
-# TOTAL: 122167
+# DOMAIN-SUFFIX: 69278
+# IP-CIDR: 255
+# TOTAL: 121163
 payload:
   - DOMAIN-KEYWORD,112wan
   - DOMAIN-KEYWORD,789htbet
@@ -92,6 +92,7 @@ payload:
   - DOMAIN-KEYWORD,stsdk.vivoglobal.com
   - DOMAIN-KEYWORD,supersonicads
   - DOMAIN-KEYWORD,zjtoolbar
+  - IP-CIDR,0.0.0.1/32
   - IP-CIDR,1.3.0.10/32
   - IP-CIDR,10.72.25.0/24
   - IP-CIDR,101.124.19.122/32

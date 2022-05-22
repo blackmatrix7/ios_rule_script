@@ -1,16 +1,14 @@
 name: 知乎助手Lite
-desc: 最后更新时间 2022-05-22 14:33:26
+desc: 最后更新时间 2022-05-22 18:13:51
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 4
 # ip-cidr: 1
 # ip-cidr6: 1
-# url-regex: 4
-# user-agent: 1
 # http-response-script: 8
 # reject: 7
 # mitm: 8
-# total: 34
+# total: 29
 
 rules:
   - DOMAIN,118.89.204.198,REJECT
@@ -19,11 +17,6 @@ rules:
   - DOMAIN,sugar.zhihu.com,REJECT
   - IP-CIDR,118.89.204.198/32,REJECT
   - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
-  - URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
-  - URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\?,REJECT
-  - URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
-  - URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
-  - USER-AGENT,AVOS*,REJECT
 
 
 http:

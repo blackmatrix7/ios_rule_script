@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-MITM--HOSTNAME合并-brightgreen) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-MITM--HOSTNAME合并-brightgreen) ![](https://shields.io/badge/-Stash定制化规则-7cd1e3) ![](https://shields.io/badge/-URL--REGEX转REWRITE-945431) 
 
 本项目的知乎助手Plus规则由《规则生成器》自动整合与去重。
 
@@ -16,7 +16,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-22 14:33:13
+最后更新时间：2022-05-22 18:13:34
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -24,13 +24,11 @@
 | DOMAIN | 4  | 
 | IP-CIDR | 1  | 
 | IP-CIDR6 | 1  | 
-| URL-REGEX | 8  | 
-| USER-AGENT | 1  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
 | HTTP-RESPONSE-SCRIPT | 11  | 
-| REJECT | 14  | 
+| REJECT | 15  | 
 | MITM | 8  | 
-| TOTAL | 49  | 
+| TOTAL | 41  | 
 
 
 ## Stash 

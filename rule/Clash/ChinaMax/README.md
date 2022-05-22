@@ -21,18 +21,18 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-21 23:10:19
+最后更新时间：2022-05-22 14:33:01
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 83  | 
 | DOMAIN-KEYWORD | 15  | 
-| DOMAIN-SUFFIX | 69938  | 
-| IP-CIDR | 6247  | 
+| DOMAIN-SUFFIX | 69935  | 
+| IP-CIDR | 6246  | 
 | IP-CIDR6 | 4172  | 
 | PROCESS-NAME | 6  | 
-| TOTAL | 80461  | 
+| TOTAL | 80457  | 
 
 
 ## Clash 
@@ -68,6 +68,12 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical_No_IPv6.yaml
 
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Domain.txt
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_IP.txt
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_IP_No_IPv6.txt
+
 **MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax.yaml
@@ -79,6 +85,12 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Classical_No_IPv6.yaml
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Domain.txt
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_IP.txt
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_IP_No_IPv6.txt
 
 **RELEASE分支 (不定时更新)**
 
@@ -92,6 +104,12 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaMax/ChinaMax_Classical_No_IPv6.yaml
 
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaMax/ChinaMax_Domain.txt
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaMax/ChinaMax_IP.txt
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaMax/ChinaMax_IP_No_IPv6.txt
+
 **RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaMax/ChinaMax.yaml
@@ -103,6 +121,12 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Chin
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaMax/ChinaMax_Classical_No_IPv6.yaml
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaMax/ChinaMax_Domain.txt
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaMax/ChinaMax_IP.txt
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaMax/ChinaMax_IP_No_IPv6.txt
 
 ## 子规则/排除规则
 

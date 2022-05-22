@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-21 23:08:55
+最后更新时间：2022-05-22 14:31:47
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -60,7 +60,6 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Sina
 《新浪》的数据来自以下链接，如与本项目的《新浪》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sina.list
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Weibo/Weibo.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Weibo/Weibo.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Sina.list
 

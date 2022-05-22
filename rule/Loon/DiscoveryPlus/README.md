@@ -12,16 +12,16 @@ DiscoveryPlus规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-21 23:10:11
+最后更新时间：2022-05-22 14:32:54
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 1  | 
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 10  | 
+| DOMAIN-SUFFIX | 11  | 
 | USER-AGENT | 2  | 
-| TOTAL | 14  | 
+| TOTAL | 15  | 
 
 
 ## Loon 

@@ -15,7 +15,7 @@ Google规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-21 23:08:21
+最后更新时间：2022-05-22 14:31:19
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -75,17 +75,13 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Shadowrock
 《Google》的数据来自以下链接，如与本项目的《Google》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Google/GoogleDrive.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Google/GoogleDrive.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Google/GoogleSearch.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Google/GoogleSearch.list
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/google.txt
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Google/GoogleSearch.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Google/Google.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Google.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Google/GoogleDrive.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Google/GoogleDrive.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Google/GoogleVoice.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Google/GoogleVoice.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt
 

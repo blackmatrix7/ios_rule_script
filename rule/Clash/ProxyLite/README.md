@@ -15,17 +15,17 @@ ProxyLite规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-21 23:10:08
+最后更新时间：2022-05-22 14:32:53
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 163  | 
 | DOMAIN-KEYWORD | 22  | 
-| DOMAIN-SUFFIX | 33650  | 
+| DOMAIN-SUFFIX | 33647  | 
 | IP-CIDR | 92  | 
 | IP-CIDR6 | 3  | 
-| TOTAL | 33930  | 
+| TOTAL | 33927  | 
 
 
 ## Clash 
@@ -47,11 +47,15 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite/ProxyLite_Classical.yaml
 
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite/ProxyLite_Domain.txt
+
 **MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ProxyLite/ProxyLite.yaml
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ProxyLite/ProxyLite_Classical.yaml
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ProxyLite/ProxyLite_Domain.txt
 
 **RELEASE分支 (不定时更新)**
 
@@ -59,11 +63,15 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ProxyLite/ProxyLite_Classical.yaml
 
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ProxyLite/ProxyLite_Domain.txt
+
 **RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ProxyLite/ProxyLite.yaml
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ProxyLite/ProxyLite_Classical.yaml
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ProxyLite/ProxyLite_Domain.txt
 
 ## 子规则/排除规则
 

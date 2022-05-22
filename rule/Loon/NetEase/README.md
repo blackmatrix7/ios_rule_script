@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
 网易规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,19 +12,25 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-21 23:09:23
+最后更新时间：2022-05-22 14:32:18
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
+| DOMAIN | 1  | 
 | DOMAIN-SUFFIX | 113  | 
-| TOTAL | 113  | 
+| IP-CIDR | 28  | 
+| TOTAL | 142  | 
 
 
 ## Loon 
 
+#### 文件区别
+- NetEase_Resolve.list与NetEase.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
+
 #### 配置建议
 - NetEase.list 单独使用。
+- NetEase_Resolve.list 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

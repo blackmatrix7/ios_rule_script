@@ -15,13 +15,13 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-21 23:08:12
+最后更新时间：2022-05-22 14:31:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 133716  | 
-| TOTAL | 133716  | 
+| DOMAIN-SUFFIX | 133742  | 
+| TOTAL | 133742  | 
 
 
 ## AdGuard 
@@ -85,8 +85,6 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/AdGuard/Ad
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/video-ad.list
 - https://raw.githubusercontent.com/an0na/R/master/Filter/AdBlock.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list
-- https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list
-- https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list
 - https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRuleTest.list
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRuleTest.list

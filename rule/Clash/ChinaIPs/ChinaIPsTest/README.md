@@ -19,14 +19,14 @@ ChinaIPsTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-21 23:10:28
+最后更新时间：2022-05-22 14:33:11
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| IP-CIDR | 6628  | 
-| IP-CIDR6 | 4465  | 
-| TOTAL | 11093  | 
+| IP-CIDR | 6626  | 
+| IP-CIDR6 | 4469  | 
+| TOTAL | 11095  | 
 
 
 ## Clash 
@@ -58,6 +58,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Classical_No_IPv6.yaml
 
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP.txt
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP_No_IPv6.txt
+
 **MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP.yaml
@@ -67,6 +71,10 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Classical.yaml
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Classical_No_IPv6.yaml
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP.txt
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP_No_IPv6.txt
 
 **RELEASE分支 (不定时更新)**
 
@@ -78,6 +86,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Classical_No_IPv6.yaml
 
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP.txt
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP_No_IPv6.txt
+
 **RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP.yaml
@@ -87,6 +99,10 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Chin
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Classical.yaml
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Classical_No_IPv6.yaml
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP.txt
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP_No_IPv6.txt
 
 ## 子规则/排除规则
 

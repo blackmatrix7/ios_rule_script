@@ -15,16 +15,16 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-21 23:08:08
+最后更新时间：2022-05-22 14:31:07
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 46170  | 
+| HOST | 46167  | 
 | HOST-KEYWORD | 84  | 
-| HOST-SUFFIX | 87555  | 
+| HOST-SUFFIX | 87584  | 
 | IP-CIDR | 255  | 
-| TOTAL | 134064  | 
+| TOTAL | 134090  | 
 
 
 ## QuantumultX 
@@ -91,8 +91,6 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Quantumult
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/video-ad.list
 - https://raw.githubusercontent.com/an0na/R/master/Filter/AdBlock.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list
-- https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list
-- https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list
 - https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRuleTest.list
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRuleTest.list

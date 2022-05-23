@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) ![](https://shields.io/badge/-生成纯IPv4规则-89ed5d) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) ![](https://shields.io/badge/-生成纯IPv4规则-89ed5d) 
 
 国内网站/IP合集规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -21,19 +21,19 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-23 02:11:13
+最后更新时间：2022-05-23 21:26:13
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 83  | 
 | DOMAIN-KEYWORD | 15  | 
-| DOMAIN-SUFFIX | 69934  | 
+| DOMAIN-SUFFIX | 69924  | 
 | IP-CIDR | 6247  | 
 | IP-CIDR6 | 4172  | 
 | PROCESS-NAME | 5  | 
 | USER-AGENT | 63  | 
-| TOTAL | 80519  | 
+| TOTAL | 80509  | 
 
 
 ## Surge 

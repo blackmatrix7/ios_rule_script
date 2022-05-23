@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-MITM--HOSTNAME合并-brightgreen) ![](https://shields.io/badge/-正则推导HOSTNAME-033da7) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-MITM--HOSTNAME合并-brightgreen) ![](https://shields.io/badge/-安全重定向-c07ce3) ![](https://shields.io/badge/-正则推导HOSTNAME-033da7) 
 
 本项目的安全重定向规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -22,7 +22,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-23 02:11:34
+最后更新时间：2022-05-23 21:26:39
 
 各类型规则统计：
 | 类型 | 数量(条)  | 

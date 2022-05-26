@@ -21,19 +21,19 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-26 02:09:33
+最后更新时间：2022-05-27 02:12:50
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 83  | 
 | DOMAIN-KEYWORD | 15  | 
-| DOMAIN-SUFFIX | 69916  | 
-| IP-CIDR | 6246  | 
+| DOMAIN-SUFFIX | 69906  | 
+| IP-CIDR | 6251  | 
 | IP-CIDR6 | 4172  | 
 | PROCESS-NAME | 5  | 
 | USER-AGENT | 63  | 
-| TOTAL | 80500  | 
+| TOTAL | 80495  | 
 
 
 ## Surge 
@@ -140,6 +140,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Chin
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
 - https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt

@@ -1,13 +1,13 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-05-27 02:12:52
+# UPDATED: 2022-05-28 02:11:23
 # DOMAIN: 83
 # DOMAIN-KEYWORD: 15
-# DOMAIN-SUFFIX: 69906
-# IP-CIDR: 10423
+# DOMAIN-SUFFIX: 69898
+# IP-CIDR: 10433
 # USER-AGENT: 63
-# TOTAL: 80490
+# TOTAL: 80492
 DOMAIN-KEYWORD,-cn
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -352,6 +352,7 @@ IP-CIDR,2400:7740::/32,no-resolve
 IP-CIDR,2400:77c0::/32,no-resolve
 IP-CIDR,2400:79c0::/32,no-resolve
 IP-CIDR,2400:7ac0::/32,no-resolve
+IP-CIDR,2400:7ae0::/32,no-resolve
 IP-CIDR,2400:7bc0::/32,no-resolve
 IP-CIDR,2400:7f80::/32,no-resolve
 IP-CIDR,2400:7fc0::/32,no-resolve
@@ -2831,7 +2832,12 @@ IP-CIDR,2406:840:8000::/34,no-resolve
 IP-CIDR,2406:840::/33,no-resolve
 IP-CIDR,2406:840:c000::/36,no-resolve
 IP-CIDR,2406:840:e000::/38,no-resolve
-IP-CIDR,2406:840:e400::/39,no-resolve
+IP-CIDR,2406:840:e400::/40,no-resolve
+IP-CIDR,2406:840:e508::/45,no-resolve
+IP-CIDR,2406:840:e510::/44,no-resolve
+IP-CIDR,2406:840:e520::/43,no-resolve
+IP-CIDR,2406:840:e540::/42,no-resolve
+IP-CIDR,2406:840:e580::/41,no-resolve
 IP-CIDR,2406:840:e600::/42,no-resolve
 IP-CIDR,2406:840:e640::/43,no-resolve
 IP-CIDR,2406:840:e660::/46,no-resolve
@@ -4212,6 +4218,10 @@ IP-CIDR,2a07:f480::/29,no-resolve
 IP-CIDR,2a09:2702:48::/48,no-resolve
 IP-CIDR,2a09:3680::/29,no-resolve
 IP-CIDR,2a09:4c0:0:30::/64,no-resolve
+IP-CIDR,2a09:be41:8c00::/38,no-resolve
+IP-CIDR,2a09:be41:9000::/40,no-resolve
+IP-CIDR,2a09:be41:f400::/39,no-resolve
+IP-CIDR,2a09:be41:f600::/40,no-resolve
 IP-CIDR,2a09:be45:8c00::/38,no-resolve
 IP-CIDR,2a09:be45:9000::/40,no-resolve
 IP-CIDR,2a09:be45:f400::/39,no-resolve

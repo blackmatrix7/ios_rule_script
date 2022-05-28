@@ -1,10 +1,10 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-05-28 02:11:28
-# IP-CIDR: 6640
-# IP-CIDR6: 4479
-# TOTAL: 11119
+# UPDATED: 2022-05-28 19:52:22
+# IP-CIDR: 6637
+# IP-CIDR6: 4478
+# TOTAL: 11115
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
 IP-CIDR,1.0.32.0/19,no-resolve
@@ -509,7 +509,7 @@ IP-CIDR,103.147.198.0/23,no-resolve
 IP-CIDR,103.147.206.0/23,no-resolve
 IP-CIDR,103.147.211.0/24,no-resolve
 IP-CIDR,103.148.174.0/23,no-resolve
-IP-CIDR,103.149.110.0/24,no-resolve
+IP-CIDR,103.149.110.0/23,no-resolve
 IP-CIDR,103.149.17.0/24,no-resolve
 IP-CIDR,103.149.181.0/24,no-resolve
 IP-CIDR,103.149.190.0/23,no-resolve
@@ -3323,8 +3323,7 @@ IP-CIDR,154.85.32.0/19,no-resolve
 IP-CIDR,154.88.3.0/24,no-resolve
 IP-CIDR,154.91.32.0/23,no-resolve
 IP-CIDR,154.91.34.0/24,no-resolve
-IP-CIDR,154.92.24.0/23,no-resolve
-IP-CIDR,154.92.26.0/24,no-resolve
+IP-CIDR,154.92.24.0/22,no-resolve
 IP-CIDR,154.92.28.0/24,no-resolve
 IP-CIDR,154.92.30.0/23,no-resolve
 IP-CIDR,154.95.2.0/23,no-resolve
@@ -3470,6 +3469,7 @@ IP-CIDR,163.181.78.0/23,no-resolve
 IP-CIDR,163.181.8.0/22,no-resolve
 IP-CIDR,163.181.80.0/22,no-resolve
 IP-CIDR,163.181.88.0/23,no-resolve
+IP-CIDR,163.181.90.0/24,no-resolve
 IP-CIDR,163.181.92.0/24,no-resolve
 IP-CIDR,163.181.94.0/24,no-resolve
 IP-CIDR,163.197.0.0/19,no-resolve
@@ -6248,8 +6248,6 @@ IP-CIDR,45.146.112.0/23,no-resolve
 IP-CIDR,45.147.6.0/24,no-resolve
 IP-CIDR,45.157.88.0/24,no-resolve
 IP-CIDR,45.192.128.0/24,no-resolve
-IP-CIDR,45.192.177.0/24,no-resolve
-IP-CIDR,45.192.178.0/23,no-resolve
 IP-CIDR,45.195.4.0/24,no-resolve
 IP-CIDR,45.195.6.0/23,no-resolve
 IP-CIDR,45.199.155.0/24,no-resolve
@@ -6581,15 +6579,14 @@ IP-CIDR,67.198.188.0/23,no-resolve
 IP-CIDR,67.198.192.0/23,no-resolve
 IP-CIDR,67.198.195.0/24,no-resolve
 IP-CIDR,67.198.199.0/24,no-resolve
+IP-CIDR,67.198.201.0/24,no-resolve
 IP-CIDR,67.198.207.0/24,no-resolve
 IP-CIDR,67.198.208.0/24,no-resolve
 IP-CIDR,67.198.221.0/24,no-resolve
-IP-CIDR,67.198.229.0/24,no-resolve
 IP-CIDR,67.198.235.0/24,no-resolve
 IP-CIDR,67.198.239.0/24,no-resolve
 IP-CIDR,67.198.244.0/24,no-resolve
 IP-CIDR,67.198.255.0/24,no-resolve
-IP-CIDR,67.229.1.0/24,no-resolve
 IP-CIDR,68.79.0.0/18,no-resolve
 IP-CIDR,69.163.102.0/23,no-resolve
 IP-CIDR,69.163.104.0/24,no-resolve
@@ -8104,7 +8101,6 @@ IP-CIDR6,2404:f4c0:ff01::/48,no-resolve
 IP-CIDR6,2404:f4c0:ff04::/46,no-resolve
 IP-CIDR6,2404:f4c0:ff0f::/48,no-resolve
 IP-CIDR6,2404:f4c0:ff10::/46,no-resolve
-IP-CIDR6,2404:f4c0:ff14::/48,no-resolve
 IP-CIDR6,2404:f4c0:ff1f::/48,no-resolve
 IP-CIDR6,2404:f4c0:fff0::/48,no-resolve
 IP-CIDR6,2404:f7c0::/32,no-resolve
@@ -9878,7 +9874,7 @@ IP-CIDR6,2600:70ff:a89b::/48,no-resolve
 IP-CIDR6,2600:70ff:a89c::/47,no-resolve
 IP-CIDR6,2602:fbda:600::/48,no-resolve
 IP-CIDR6,2602:fbda:666::/48,no-resolve
-IP-CIDR6,2602:fbda:700::/43,no-resolve
+IP-CIDR6,2602:fbda:700::/44,no-resolve
 IP-CIDR6,2602:fc1d::/47,no-resolve
 IP-CIDR6,2602:fd92:800::/40,no-resolve
 IP-CIDR6,2602:fe9f:a00::/48,no-resolve
@@ -10972,13 +10968,12 @@ IP-CIDR6,2a06:a005:280::/42,no-resolve
 IP-CIDR6,2a06:a005:510::/44,no-resolve
 IP-CIDR6,2a06:a005:520::/43,no-resolve
 IP-CIDR6,2a06:a005:540::/43,no-resolve
-IP-CIDR6,2a06:a005:561::/48,no-resolve
-IP-CIDR6,2a06:a005:562::/48,no-resolve
+IP-CIDR6,2a06:a005:560::/46,no-resolve
 IP-CIDR6,2a06:a005:580::/44,no-resolve
 IP-CIDR6,2a06:a005:660::/44,no-resolve
 IP-CIDR6,2a06:a005:7c0::/44,no-resolve
 IP-CIDR6,2a06:a005:8b0::/44,no-resolve
-IP-CIDR6,2a06:a005:8c0::/43,no-resolve
+IP-CIDR6,2a06:a005:8c0::/44,no-resolve
 IP-CIDR6,2a06:a005:950::/44,no-resolve
 IP-CIDR6,2a06:a005:990::/44,no-resolve
 IP-CIDR6,2a06:a005:f0::/44,no-resolve
@@ -11046,6 +11041,7 @@ IP-CIDR6,2a0e:7584::/30,no-resolve
 IP-CIDR6,2a0e:800:6666::/48,no-resolve
 IP-CIDR6,2a0e:8f02:2184::/48,no-resolve
 IP-CIDR6,2a0e:8f02:f006::/48,no-resolve
+IP-CIDR6,2a0e:97c0:330::/48,no-resolve
 IP-CIDR6,2a0e:97c0:550::/44,no-resolve
 IP-CIDR6,2a0e:97c0:5ee::/47,no-resolve
 IP-CIDR6,2a0e:97c0:68e::/47,no-resolve

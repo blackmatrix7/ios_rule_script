@@ -15,17 +15,17 @@ ProxyLite规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-28 02:11:13
+最后更新时间：2022-05-28 19:52:06
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 163  | 
 | DOMAIN-KEYWORD | 22  | 
-| DOMAIN-SUFFIX | 33661  | 
+| DOMAIN-SUFFIX | 33662  | 
 | IP-CIDR | 95  | 
 | USER-AGENT | 7  | 
-| TOTAL | 33948  | 
+| TOTAL | 33949  | 
 
 
 ## Shadowrocket 

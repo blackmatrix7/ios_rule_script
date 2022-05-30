@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-25 21:52:35
+最后更新时间：2022-05-30 17:10:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -50,7 +50,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/external/Loon/T
 
 《TestFlight下载修正》的数据来自以下链接，如与本项目的《TestFlight下载修正》规则混合使用，可能造成部分重写重复。
 
-- https://raw.githubusercontent.com/zc-nju-med/own_JS/master/tf.sgmodule
+- https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightDownload.sgmodule
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

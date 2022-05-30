@@ -1,12 +1,19 @@
 #!name=TestFlight
-#!desc=最后更新时间 2022-05-25 21:52:35
+#!desc=最后更新时间 2022-05-30 17:10:30
 #!author=NobyDa
 #!repo=https://github.com/NobyDa/Script/tree/master
 #!http-request-script=1
 #!mitm=1
-#!total=2
+#!skip-proxy=1
+#!total=3
+
+[General]
+
+skip-proxy = %APPEND% iosapps.itunes.apple.com
+
+
 
 [Script]
-TestFlight_下载修正 = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/test/source/javascript/043922e05c79445b6da818d0864c1b7d.js,pattern="^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*\/builds\/\d*\/install",requires-body=1
+TestFlight_下载修正 = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/test/source/javascript/043922e05c79445b6da818d0864c1b7d.js,pattern="^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$",requires-body=1
 [MITM]
 hostname = %APPEND% testflight.apple.com

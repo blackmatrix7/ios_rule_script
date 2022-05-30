@@ -12,7 +12,7 @@ PT下载规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-05-30 17:23:55
+最后更新时间：2022-05-30 23:37:11
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -57,6 +57,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Priv
 《PT下载》的数据来自以下链接，如与本项目的《PT下载》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list
+- https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/list/PrivateTracker.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

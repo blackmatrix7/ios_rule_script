@@ -12,8 +12,6 @@
 ## 规则说明
 AdvertisingLite 与 Advertising的区别：
 
-数据源完全相同。
-
 AdvertisingLite 不直接抽取数据源中MITM的hostname，仅用正则推导的方式，推导对应hostname。
 
 无法推导出MITM的规则会被直接丢弃。
@@ -22,14 +20,15 @@ AdvertisingLite 不直接抽取数据源中MITM的hostname，仅用正则推导�
 
 ## 规则统计
 
-最后更新时间：2022-05-30 17:24:47
+最后更新时间：2022-05-31 00:41:36
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| REJECT | 396  | 
-| MITM | 303  | 
-| TOTAL | 699  | 
+| REJECT | 359  | 
+| MITM | 288  | 
+| FORCE-HTTP-ENGINE-HOSTS | 6  | 
+| TOTAL | 653  | 
 
 
 ## Surge 

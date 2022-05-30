@@ -16,15 +16,15 @@
 
 ## 规则统计
 
-最后更新时间：2022-05-30 17:24:38
+最后更新时间：2022-05-31 00:41:28
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| REJECT | 360  | 
-| MITM | 288  | 
-| FORCE—HTTP-ENGINE-HOSTS | 6  | 
-| TOTAL | 654  | 
+| REJECT | 401  | 
+| MITM | 346  | 
+| FORCE-HTTP-ENGINE-HOSTS | 6  | 
+| TOTAL | 753  | 
 
 
 ## Surge 

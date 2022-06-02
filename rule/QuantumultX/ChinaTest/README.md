@@ -12,18 +12,18 @@ ChinaTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-02 02:11:12
+最后更新时间：2022-06-03 02:10:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 88  | 
 | HOST-KEYWORD | 10  | 
-| HOST-SUFFIX | 67006  | 
+| HOST-SUFFIX | 67012  | 
 | IP-CIDR | 10  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 31  | 
-| TOTAL | 67149  | 
+| TOTAL | 67155  | 
 
 
 ## QuantumultX 

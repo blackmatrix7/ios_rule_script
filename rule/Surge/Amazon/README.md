@@ -12,18 +12,18 @@ Amazon规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-02 02:11:01
+最后更新时间：2022-06-03 02:10:31
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 176  | 
+| DOMAIN-SUFFIX | 182  | 
 | IP-CIDR | 15  | 
 | PROCESS-NAME | 1  | 
 | URL-REGEX | 1  | 
 | USER-AGENT | 2  | 
-| TOTAL | 196  | 
+| TOTAL | 202  | 
 
 
 ## Surge 

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2022-05-31 14:38:13
+desc: 最后更新时间 2022-06-04 02:13:53
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 401
-# mitm: 346
+# reject: 402
+# mitm: 347
 # force-http-engine-hosts: 6
-# total: 753
+# total: 755
 
 
 
@@ -13,6 +13,7 @@ desc: 最后更新时间 2022-05-31 14:38:13
 
 http:
   rewrite:
+    - ^https:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
@@ -731,6 +732,7 @@ http:
     - "thor.weidian.com"
     - "tiasdk.app.wechat.com"
     - "tieba.baidu.com"
+    - "tiku.fenbi.com"
     - "tiku.zhan.com"
     - "tj.playcvn.com"
     - "tracker-download.oss-cn-beijing.aliyuncs.com"

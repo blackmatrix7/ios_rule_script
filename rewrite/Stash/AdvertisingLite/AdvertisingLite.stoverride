@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2022-05-31 14:38:19
+desc: 最后更新时间 2022-06-04 02:13:57
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 349
+# reject: 350
 # mitm: 286
 # force-http-engine-hosts: 6
-# total: 641
+# total: 642
 
 
 
@@ -13,6 +13,7 @@ desc: 最后更新时间 2022-05-31 14:38:19
 
 http:
   rewrite:
+    - ^https:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject

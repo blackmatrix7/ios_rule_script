@@ -1,15 +1,16 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2022-05-31 14:38:19
+#!desc= 最后更新时间 2022-06-04 02:13:57
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 349
+#!reject= 350
 #!mitm= 286
-#!total= 635
+#!total= 636
 
 
 [URL Rewrite]
+^https:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
 ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
 ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject-200
 ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject

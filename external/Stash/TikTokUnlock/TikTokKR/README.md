@@ -10,15 +10,15 @@
 
 请通过【中华人民共和国 People's Republic of China】合法的互联网出入口信道访问规则中的相关服务，并确保在使用过程中符合相关法律法规。
 ## 规则说明
-TikTok 解锁，来自于Semporia的https://github.com/Semporia/TikTok-Unlock。
-
-请多支持原作者，此处仅为备份。
-
+TikTok 解锁，来自于Semporia的https://github.com/Semporia/TikTok-Unlock。
+
+请多支持原作者，此处仅为备份。
+
 未验证是否可用，请自行测试。
 
 ## 规则统计
 
-最后更新时间：2022-06-04 17:33:20
+最后更新时间：2022-06-04 18:38:09
 
 各类型规则统计：
 | 类型 | 数量(条)  | 

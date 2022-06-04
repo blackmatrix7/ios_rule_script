@@ -11,15 +11,15 @@ ChinaIPsBGP规则由《RULE GENERATOR 规则生成器》自动生成。
 请通过【中华人民共和国 People's Republic of China】合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 
 ## 规则说明
-应 https://github.com/blackmatrix7/ios_rule_script/issues/365 增加的ChinaIPS规则
-
-原作者仓库 https://github.com/misakaio/chnroutes2
-
+应 https://github.com/blackmatrix7/ios_rule_script/issues/365 增加的ChinaIPS规则
+
+原作者仓库 https://github.com/misakaio/chnroutes2
+
 这里仅作备份，及进行各种客户端格式的转换
 
 ## 规则统计
 
-最后更新时间：2022-06-04 17:27:15
+最后更新时间：2022-06-04 18:37:39
 
 各类型规则统计：
 | 类型 | 数量(条)  | 

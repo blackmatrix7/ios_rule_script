@@ -11,13 +11,13 @@ AdGuardS DNS Filter Direct规则由《RULE GENERATOR 规则生成器》自动生
 请通过【中华人民共和国 People's Republic of China】合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 
 ## 规则说明
-AdGuard DNS Filter 中的例外规则，现在单独作为Direct文件。
-
+AdGuard DNS Filter 中的例外规则，现在单独作为Direct文件。
+
 请将其放到AdGuard DNS Filter规则之前进行放行。
 
 ## 规则统计
 
-最后更新时间：2022-06-04 17:27:44
+最后更新时间：2022-06-04 18:37:53
 
 各类型规则统计：
 | 类型 | 数量(条)  | 

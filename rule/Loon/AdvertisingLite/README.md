@@ -15,7 +15,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-04 17:20:10
+最后更新时间：2022-06-04 18:34:54
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -77,6 +77,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Loon/Adver
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
 - https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule

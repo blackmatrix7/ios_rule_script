@@ -11,17 +11,17 @@
 请通过【中华人民共和国 People's Republic of China】合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 
 ## 规则说明
-包含所有China、ChinaIPs、Mainland等类型的规则，定义为已收集的国内网站/IP合集。
-
-排除Advertising规则，便于和去广告规则搭配使用。
-
-引用此规则后，不要再引用其他的国内规则，否则可能造成大量规则重复。
-
+包含所有China、ChinaIPs、Mainland等类型的规则，定义为已收集的国内网站/IP合集。
+
+排除Advertising规则，便于和去广告规则搭配使用。
+
+引用此规则后，不要再引用其他的国内规则，否则可能造成大量规则重复。
+
 实验性规则，效果待观察，请谨慎评估后使用。
 
 ## 规则统计
 
-最后更新时间：2022-06-04 17:27:30
+最后更新时间：2022-06-04 18:37:45
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -132,6 +132,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Shadowrock
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
 - https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt
@@ -164,6 +165,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Shadowrock
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Steam.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list
@@ -200,12 +202,14 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Shadowrock
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ByteDance.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Domestic.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/CN.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/China/China.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/China.list
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic%20IPs.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
 - https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt
@@ -218,16 +222,19 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Shadowrock
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Tencent.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Tencent.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/ChinaMedia.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Tencent%20Video.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/CMedia.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/DomesticMedia.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEase.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Netease.list
 - https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/NetEaseCloudMusic.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list
 - https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NeteaseMusic.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Youku.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentVideo.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/Tencent.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/iQiyi.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/iQiyi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Douyu.list

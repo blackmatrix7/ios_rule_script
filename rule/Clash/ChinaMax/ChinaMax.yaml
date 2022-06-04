@@ -1,14 +1,14 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-05-18 23:27:26
-# DOMAIN-SUFFIX: 69928
-# PROCESS-NAME: 6
-# DOMAIN: 75
-# IP-CIDR: 6245
-# DOMAIN-KEYWORD: 15
-# IP-CIDR6: 4166
-# TOTAL: 80435
+# UPDATED: 2022-06-27 02:27:43
+# DOMAIN: 83
+# DOMAIN-KEYWORD: 14
+# DOMAIN-SUFFIX: 69604
+# IP-CIDR: 6254
+# IP-CIDR6: 4184
+# PROCESS-NAME: 7
+# TOTAL: 80146
 payload:
   - DOMAIN-KEYWORD,-cn
   - DOMAIN-KEYWORD,.tmall.com
@@ -17,17 +17,17 @@ payload:
   - DOMAIN-KEYWORD,aliyun
   - DOMAIN-KEYWORD,baidu
   - DOMAIN-KEYWORD,beplay
-  - DOMAIN-KEYWORD,bilibili
-  - DOMAIN-KEYWORD,hnagroup
   - DOMAIN-KEYWORD,microsoft
-  - DOMAIN-KEYWORD,netease
   - DOMAIN-KEYWORD,officecdn
-  - DOMAIN-KEYWORD,qiyi
   - DOMAIN-KEYWORD,taobao
+  - DOMAIN-KEYWORD,bilibili
+  - DOMAIN-KEYWORD,qiyi
+  - DOMAIN-KEYWORD,hnagroup
   - DOMAIN-KEYWORD,weibo
   - PROCESS-NAME,com.bilibili.app.in
-  - PROCESS-NAME,com.jjwxc.reader
-  - PROCESS-NAME,com.qiyi.video
-  - PROCESS-NAME,com.xiaomi.mibrain.speech
   - PROCESS-NAME,tv.danmaku.bili
+  - PROCESS-NAME,com.zhiliaoapp.musically
+  - PROCESS-NAME,com.jjwxc.reader
+  - PROCESS-NAME,com.xiaomi.mibrain.speech
   - PROCESS-NAME,小米云服务.exe
+  - PROCESS-NAME,com.qiyi.video

@@ -2,61 +2,81 @@
 
 ## 前言
 
-本项目的重定向规则由《规则生成器》自动整合与去重。
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-MITM--HOSTNAME合并-brightgreen) ![](https://shields.io/badge/-正则推导HOSTNAME-033da7) 
 
-复写规则所有数据均收集自开源项目，仅为解决引用过多外部资源引起的规则重复问题，不代表我们支持或使用这些服务。
+本项目的重定向规则由《RULE GENERATOR 规则生成器》自动生成。
 
-请通过我国(中华人民共和国)合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
+所有数据均收集自互联网公开信息，不代表我们支持或使用这些服务。
+
+请通过【中华人民共和国 People's Republic of China】合法的互联网出入口信道访问规则中的相关服务，并确保在使用过程中符合相关法律法规。
 ## 规则说明
-重定向的复写策略，可能存在安全风险。如将正常的网站重定向到钓鱼网站，以窃取输入的数据。当前重定向复写规则仅为程序自动爬取整合，未对安全性做任何校验，如使用此复写规则需要自行承担风险。建议使用前逐条阅读重定向的目标地址，确认无安全问题后再使用。同时禁止此复写规则自动更新，或将此复写规则的内容复制到本地作为本地文件使用。
+重定向的重写策略，可能存在安全风险。
 
-## 复写统计
+如将正常的网站重定向到钓鱼网站，以窃取输入的数据。
 
-| 类型 | 数量(条) |
-| ---- | ---- |
-| mitm | 5 |
-| redirect | 59 |
-## 配置说明
+当前重定向重写规则仅为程序自动爬取整合，未对安全性做任何校验，如使用此重写规则需要自行承担风险。
 
-实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
+建议使用前逐条阅读重定向的目标地址，确认无安全问题后再使用。同时禁止此重写规则自动更新，或将此重写规则的内容复制到本地作为本地文件使用。
 
-稳定版：不定时手动更新，更新频率低，适合不希望规则频繁变化的人。
+## 规则统计
 
-稳定版中如含有JavaScript脚本，所引用的脚本链接为实时版或外部链接，可能会与预期效果有出入，建议使用实时版。
+最后更新时间：2022-06-23 17:34:12
 
-### QuantumultX 
+各类型规则统计：
+| 类型 | 数量(条)  | 
+| ---- | ----  |
+| REDIRECT | 62  | 
+| MITM | 123  | 
+| TOTAL | 185  | 
 
-实时版：
 
+## QuantumultX 
+
+#### 规则链接
+**MASTER分支 (每日更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Redirect/Redirect.conf
 
+**MASTER分支 CDN (每日更新)**
 
-稳定版：
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rewrite/QuantumultX/Redirect/Redirect.conf
 
+**MASTER分支 GHProxy (每日更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Redirect/Redirect.conf
+
+**RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/QuantumultX/Redirect/Redirect.conf
 
+**RELEASE分支CDN (不定时更新)**
 
-如果稳定版无法访问 ，可能是尚未从实时版的分支合并，建议您先使用实时版，或等待下次稳定版分支合并。
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/QuantumultX/Redirect/Redirect.conf
+
+**RELEASE分支 GHProxy (不定时更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/QuantumultX/Redirect/Redirect.conf
+
+## 子规则
+
+当前分流规则，未包含其他子规则。
+
 
 ## 数据来源
 
-本项目的重定向复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。
+《重定向》的数据来自以下链接，如与本项目的《重定向》规则混合使用，可能造成部分重写重复。
 
-如果你正在使用这些复写规则，建议不要与本项目的重定向复写规则混合使用，以免造成规则重复。
-
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/General.sgmodule
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf
 
 
-感谢以上复写规则作者的辛勤付出（排名不分先后）。
+感谢以上规则作者的辛勤付出（排名不分先后）。
 
 ## 最后
 
 ### 感谢
 
-[@Tartarus2014](https://github.com/Tartarus2014)  [@chenyiping1995](https://github.com/chenyiping1995) 
+[@Tartarus2014](https://github.com/Tartarus2014)  [@chenyiping1995](https://github.com/chenyiping1995) [@vhdj](https://github.com/vhdj)**
 
 提供规则数据源及改进建议。
 

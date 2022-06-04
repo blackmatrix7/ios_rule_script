@@ -1,12 +1,14 @@
-# AdvertisingMiTV
+# 🧸 AdvertisingMiTV
 
 ## 前言
 
-本项目的AdvertisingMiTV规则由《规则生成器》自动整合与去重。
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) 
 
-分流规则是互联网公共服务的域名和IP地址汇总，所有数据均收集自开源项目，仅为解决引用过多外部资源引起的规则重复问题，不代表我们支持或使用这些服务。
+AdvertisingMiTV规则由《RULE GENERATOR 规则生成器》自动生成。
 
-请通过我国(中华人民共和国)合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
+分流规则是互联网公共服务的域名和IP地址汇总，所有数据均收集自互联网公开信息，不代表我们支持或使用这些服务。
+
+请通过【中华人民共和国 People's Republic of China】合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 
 ## 规则说明
 应要求添加手动整理的小米电视去广告，数据来自：
@@ -17,31 +19,47 @@ https://www.zhihu.com/question/307466160
 
 ## 规则统计
 
-总计规则：41 条。
+最后更新时间：2022-06-23 17:33:45
 
 各类型规则统计：
+| 类型 | 数量(条)  | 
+| ---- | ----  |
+| DOMAIN | 41  | 
+| TOTAL | 41  | 
 
-| 类型 | 数量(条) |
-| ---- | ---- |
-| DOMAIN | 41 |
-## 配置说明
 
-实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
+## Clash 
 
-稳定版：不定时手动更新，更新频率低，适合不希望规则频繁变化的人。
+#### 使用说明
+- AdvertisingMiTV.yaml，请使用 behavior: "classical"。
 
-### Clash 
-实时版：
+#### 配置建议
+- AdvertisingMiTV.yaml 单独使用。
+
+#### 规则链接
+**MASTER分支 (每日更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.yaml
 
+**MASTER分支 CDN (每日更新)**
 
-稳定版：
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.yaml
+
+**MASTER分支 GHProxy (每日更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.yaml
+
+**RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.yaml
 
+**RELEASE分支CDN (不定时更新)**
 
-如果稳定版无法访问 ，可能是尚未从实时版的分支合并，建议您先使用实时版，或等待下次稳定版分支合并。
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.yaml
+
+**RELEASE分支 GHProxy (不定时更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.yaml
 
 ## 子规则/排除规则
 
@@ -56,7 +74,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 ### 感谢
 
-[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) 
+[@fiiir](https://github.com/fiiir) [@Tartarus2014](https://github.com/Tartarus2014) [@zjcfynn](https://github.com/zjcfynn) [@chenyiping1995](https://github.com/chenyiping1995) [@vhdj](https://github.com/vhdj)
 
 提供规则数据源及改进建议。
 

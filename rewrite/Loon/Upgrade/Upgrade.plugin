@@ -1,10 +1,13 @@
-# NAME: 屏蔽APP更新检查
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-14 20:00:00
-# REWRITE: 12
-# SCRIPT: 0
-# MITM: 12
+#!name= Upgrade
+#!desc= 最后更新时间 2022-06-23 17:37:38
+#!openUrl= https://github.com/blackmatrix7/ios_rule_script
+#!author= blackmatrix7
+#!homepage= https://github.com/blackmatrix7/ios_rule_script
+#!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
+#!reject= 11
+#!mitm= 11
+#!total= 22
+
 
 [URL Rewrite]
 ^https?:\/\/api\.ishansong\.com\/app\/check\/v\d+\/check - reject
@@ -15,10 +18,9 @@
 ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject-dict
 ^https?:\/\/consumer\.fcbox\.com\/v1\/version\/getNewVersion - reject-dict
 ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/biz\/base\/appversion\/latest - reject
-^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm - reject-dict
+^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) - reject-dict
 ^https?:\/\/sso\.lxjapp\.com\/\/chims\/servlet\/csGetLatestSoftwareVersionServlet - reject-dict
 ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
-^https?:\/\/app\.ftms\.com\.cn\/V2\/index\/appversion - reject-dict
 
 [MITM]
-hostname = api.ishansong.com,api.m.jd.com,apimobile.meituan.com,apprn.pizzahut.com.cn,capis*.didapinche.com,ccsp-egmas.sf-express.com,consumer.fcbox.com,fmapp.chinafamilymart.com.cn,m.client.10010.com,sso.lxjapp.com,www.meituan.com,*.ftms.com.cn
+hostname = api.ishansong.com,api.m.jd.com,apimobile.meituan.com,apprn.pizzahut.com.cn,capis*.didapinche.com,ccsp-egmas.sf-express.com,consumer.fcbox.com,fmapp.chinafamilymart.com.cn,m.client.10010.com,sso.lxjapp.com,www.meituan.com

@@ -1,13 +1,12 @@
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-11 16:03:17
-# PROCESS-NAME: 2
-# DOMAIN-SUFFIX: 417
+# UPDATED: 2022-06-23 17:32:16
 # DOMAIN-KEYWORD: 4
+# DOMAIN-SUFFIX: 417
+# PROCESS-NAME: 2
 # TOTAL: 423
 payload:
-  - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,a-msedge.net
   - DOMAIN-SUFFIX,a1158.g.akamai.net
   - DOMAIN-SUFFIX,a122.dscg3.akamai.net
@@ -166,7 +165,6 @@ payload:
   - DOMAIN-SUFFIX,latampartneruniversity.com
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,live.net
-  - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net
   - DOMAIN-SUFFIX,livingyourambition.com
   - DOMAIN-SUFFIX,localytics.com
@@ -307,7 +305,6 @@ payload:
   - DOMAIN-SUFFIX,officeppe.net
   - DOMAIN-SUFFIX,omniroot.com
   - DOMAIN-SUFFIX,onecollector.cloudapp.aria
-  - DOMAIN-SUFFIX,onedrive.com
   - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,onenote.net
   - DOMAIN-SUFFIX,onestore.ms
@@ -352,12 +349,9 @@ payload:
   - DOMAIN-SUFFIX,sfbassets.com
   - DOMAIN-SUFFIX,sfbassets.net
   - DOMAIN-SUFFIX,sfx.ms
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,sharepointonline.com
   - DOMAIN-SUFFIX,skype.com
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,skypeforbusiness.com
-  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
   - DOMAIN-SUFFIX,sprinklesapp.com
   - DOMAIN-SUFFIX,sqlserveronlinux.com
   - DOMAIN-SUFFIX,staffhub.ms
@@ -424,8 +418,14 @@ payload:
   - DOMAIN-SUFFIX,xbx.lv
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
-  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-SUFFIX,1drv.com
+  - DOMAIN-SUFFIX,livefilestore.com
+  - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,sharepointonline.com
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
   - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
   - PROCESS-NAME,onedrive

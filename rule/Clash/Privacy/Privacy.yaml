@@ -1,15 +1,16 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-04-23 19:01:45
+# UPDATED: 2022-06-23 17:32:13
 # DOMAIN: 13
-# DOMAIN-SUFFIX: 12412
-# IP-CIDR: 6
-# TOTAL: 12431
+# DOMAIN-SUFFIX: 12570
+# IP-CIDR: 7
+# TOTAL: 12590
 payload:
-  - IP-CIDR,185.165.169.108/32,no-resolve
-  - IP-CIDR,185.193.38.148/32,no-resolve
-  - IP-CIDR,35.194.26.233/32,no-resolve
-  - IP-CIDR,35.239.57.233/32,no-resolve
-  - IP-CIDR,45.32.105.134/32,no-resolve
-  - IP-CIDR,77.162.125.199/32,no-resolve
+  - IP-CIDR,0.0.0.1/32
+  - IP-CIDR,185.165.169.108/32
+  - IP-CIDR,185.193.38.148/32
+  - IP-CIDR,35.194.26.233/32
+  - IP-CIDR,35.239.57.233/32
+  - IP-CIDR,45.32.105.134/32
+  - IP-CIDR,77.162.125.199/32

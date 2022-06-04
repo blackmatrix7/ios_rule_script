@@ -1,0 +1,14 @@
+# NAME: Pornhub
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2022-05-09 00:50:32
+# DOMAIN-SUFFIX: 5
+# PROCESS-NAME: 1
+# TOTAL: 6
+payload:
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,pronstore.com
+  - PROCESS-NAME,com.app.pornhub

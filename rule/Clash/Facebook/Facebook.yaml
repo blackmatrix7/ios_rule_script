@@ -1,11 +1,11 @@
 # NAME: Facebook
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-05-08 19:59:14
-# IP-CIDR: 37
-# DOMAIN-SUFFIX: 544
+# UPDATED: 2022-06-23 17:32:40
 # DOMAIN-KEYWORD: 1
-# TOTAL: 582
+# DOMAIN-SUFFIX: 544
+# IP-CIDR: 33
+# TOTAL: 578
 payload:
   - DOMAIN-SUFFIX,aboutfacebook.com
   - DOMAIN-SUFFIX,accessfacebookfromschool.com
@@ -552,40 +552,36 @@ payload:
   - DOMAIN-SUFFIX,zuckerberg.com
   - DOMAIN-SUFFIX,zuckerberg.net
   - DOMAIN-KEYWORD,facebook
-  - IP-CIDR,102.132.96.0/20,no-resolve
-  - IP-CIDR,103.4.96.0/22,no-resolve
-  - IP-CIDR,108.168.176.192/26,no-resolve
-  - IP-CIDR,108.168.177.0/27,no-resolve
-  - IP-CIDR,108.168.180.96/27,no-resolve
-  - IP-CIDR,108.168.254.65/32,no-resolve
-  - IP-CIDR,108.168.255.224/32,no-resolve
-  - IP-CIDR,108.168.255.227/32,no-resolve
-  - IP-CIDR,108.177.8.0/21,no-resolve
-  - IP-CIDR,119.235.224.0/24,no-resolve
-  - IP-CIDR,119.235.232.0/24,no-resolve
-  - IP-CIDR,119.235.236.0/23,no-resolve
-  - IP-CIDR,129.134.0.0/17,no-resolve
-  - IP-CIDR,129.134.160.0/24,no-resolve
-  - IP-CIDR,157.240.0.0/17,no-resolve
-  - IP-CIDR,157.240.192.0/18,no-resolve
-  - IP-CIDR,169.45.248.118/32,no-resolve
-  - IP-CIDR,173.252.64.0/18,no-resolve
-  - IP-CIDR,179.60.192.0/22,no-resolve
-  - IP-CIDR,185.60.216.0/22,no-resolve
-  - IP-CIDR,185.89.218.0/23,no-resolve
-  - IP-CIDR,204.15.20.0/22,no-resolve
-  - IP-CIDR,3.123.36.126/32,no-resolve
-  - IP-CIDR,31.13.24.0/21,no-resolve
-  - IP-CIDR,31.13.64.0/18,no-resolve
-  - IP-CIDR,35.157.215.84/32,no-resolve
-  - IP-CIDR,35.157.217.255/32,no-resolve
-  - IP-CIDR,45.64.40.0/22,no-resolve
-  - IP-CIDR,52.58.209.134/32,no-resolve
-  - IP-CIDR,54.162.243.80/32,no-resolve
-  - IP-CIDR,54.173.34.141/32,no-resolve
-  - IP-CIDR,54.235.23.242/32,no-resolve
-  - IP-CIDR,54.93.124.31/32,no-resolve
-  - IP-CIDR,66.220.144.0/20,no-resolve
-  - IP-CIDR,69.171.224.0/19,no-resolve
-  - IP-CIDR,69.63.176.0/20,no-resolve
-  - IP-CIDR,74.119.76.0/22,no-resolve
+  - IP-CIDR,103.4.96.0/22
+  - IP-CIDR,108.168.176.192/26
+  - IP-CIDR,108.168.177.0/27
+  - IP-CIDR,108.168.180.96/27
+  - IP-CIDR,108.168.254.65/32
+  - IP-CIDR,108.168.255.224/32
+  - IP-CIDR,108.168.255.227/32
+  - IP-CIDR,108.177.8.0/21
+  - IP-CIDR,119.235.224.0/24
+  - IP-CIDR,119.235.232.0/24
+  - IP-CIDR,119.235.236.0/23
+  - IP-CIDR,129.134.0.0/17
+  - IP-CIDR,157.240.0.0/17
+  - IP-CIDR,169.45.248.118/32
+  - IP-CIDR,173.252.64.0/18
+  - IP-CIDR,179.60.192.0/22
+  - IP-CIDR,185.60.216.0/22
+  - IP-CIDR,204.15.20.0/22
+  - IP-CIDR,3.123.36.126/32
+  - IP-CIDR,31.13.24.0/21
+  - IP-CIDR,31.13.64.0/18
+  - IP-CIDR,35.157.215.84/32
+  - IP-CIDR,35.157.217.255/32
+  - IP-CIDR,45.64.40.0/22
+  - IP-CIDR,52.58.209.134/32
+  - IP-CIDR,54.162.243.80/32
+  - IP-CIDR,54.173.34.141/32
+  - IP-CIDR,54.235.23.242/32
+  - IP-CIDR,54.93.124.31/32
+  - IP-CIDR,66.220.144.0/20
+  - IP-CIDR,69.171.224.0/19
+  - IP-CIDR,69.63.176.0/20
+  - IP-CIDR,74.119.76.0/22

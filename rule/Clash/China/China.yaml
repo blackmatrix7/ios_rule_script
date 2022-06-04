@@ -1,29 +1,31 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-05-13 02:13:58
-# DOMAIN-SUFFIX: 549
-# DOMAIN: 16
-# IP-CIDR: 7
+# UPDATED: 2022-06-23 17:32:48
+# DOMAIN: 18
 # DOMAIN-KEYWORD: 10
+# DOMAIN-SUFFIX: 554
+# IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 586
+# TOTAL: 596
 payload:
   - DOMAIN,analytics.strava.com
+  - DOMAIN,api.steampowered.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
+  - DOMAIN,cdp.cloud.unity3d.com
   - DOMAIN,client.amplifi.com
   - DOMAIN,dl.google.com
   - DOMAIN,download.jetbrains.com
-  - DOMAIN,file-igamecj.akamaized.net
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,mtalk.google.com
-  - DOMAIN,officecdn-microsoft-com.akamaized.net
   - DOMAIN,origin-a.akamaihd.ne
   - DOMAIN,origin-a.akamaihd.net
+  - DOMAIN,outlook.office365.com
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,sms.imagetasks.com
+  - DOMAIN,smtp.office365.com
   - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,10089.cn
@@ -65,6 +67,7 @@ payload:
   - DOMAIN-SUFFIX,airhotels.cn
   - DOMAIN-SUFFIX,aixifan.com
   - DOMAIN-SUFFIX,akadns.net
+  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-SUFFIX,alibaba.com
   - DOMAIN-SUFFIX,alibabacloud.com
@@ -158,7 +161,6 @@ payload:
   - DOMAIN-SUFFIX,cnlang.org
   - DOMAIN-SUFFIX,com-hs-hkdy.com
   - DOMAIN-SUFFIX,cootekservice.com
-  - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,csdn.net
   - DOMAIN-SUFFIX,ctrip.com
   - DOMAIN-SUFFIX,cz88.net
@@ -217,6 +219,7 @@ payload:
   - DOMAIN-SUFFIX,godic.net
   - DOMAIN-SUFFIX,goodread.com
   - DOMAIN-SUFFIX,goofish.com
+  - DOMAIN-SUFFIX,google.cn
   - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN-SUFFIX,gtimg.com
   - DOMAIN-SUFFIX,haibian.com
@@ -260,6 +263,7 @@ payload:
   - DOMAIN-SUFFIX,iop.org
   - DOMAIN-SUFFIX,ip-cdn.com
   - DOMAIN-SUFFIX,ip.la
+  - DOMAIN-SUFFIX,ip138.com
   - DOMAIN-SUFFIX,ipip.net
   - DOMAIN-SUFFIX,ipv6-test.com
   - DOMAIN-SUFFIX,iqiyi.com
@@ -384,7 +388,9 @@ payload:
   - DOMAIN-SUFFIX,p4pfile.com
   - DOMAIN-SUFFIX,passthepopcorn.me
   - DOMAIN-SUFFIX,paypal-mktg.com
+  - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
+  - DOMAIN-SUFFIX,paypalobjects.com
   - DOMAIN-SUFFIX,pgyer.com
   - DOMAIN-SUFFIX,pingan.com
   - DOMAIN-SUFFIX,pingan.com.cn
@@ -533,6 +539,7 @@ payload:
   - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,xdrig.com
   - DOMAIN-SUFFIX,xhostfire.com
+  - DOMAIN-SUFFIX,xhscdn.com
   - DOMAIN-SUFFIX,xiachufang.com
   - DOMAIN-SUFFIX,xiami.com
   - DOMAIN-SUFFIX,xiami.net
@@ -584,14 +591,17 @@ payload:
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,officecdn
   - DOMAIN-KEYWORD,taobao
-  - IP-CIDR,1.255.62.0/24,no-resolve
-  - IP-CIDR,119.28.28.28/32,no-resolve
-  - IP-CIDR,182.254.116.0/24,no-resolve
-  - IP-CIDR,183.128.0.0/11,no-resolve
-  - IP-CIDR,185.188.32.0/22,no-resolve
-  - IP-CIDR,203.205.238.0/23,no-resolve
-  - IP-CIDR,203.205.254.0/23,no-resolve
-  - IP-CIDR6,2a0b:b580::/48,no-resolve
-  - IP-CIDR6,2a0b:b581::/48,no-resolve
-  - IP-CIDR6,2a0b:b582::/48,no-resolve
-  - IP-CIDR6,2a0b:b583::/48,no-resolve
+  - IP-CIDR,1.255.62.0/24
+  - IP-CIDR,101.32.118.0/23
+  - IP-CIDR,101.32.96.0/20
+  - IP-CIDR,119.28.28.28/32
+  - IP-CIDR,129.226.0.0/16
+  - IP-CIDR,182.254.116.0/24
+  - IP-CIDR,183.128.0.0/11
+  - IP-CIDR,185.188.32.0/22
+  - IP-CIDR,203.205.238.0/23
+  - IP-CIDR,203.205.254.0/23
+  - IP-CIDR6,2a0b:b580::/48
+  - IP-CIDR6,2a0b:b581::/48
+  - IP-CIDR6,2a0b:b582::/48
+  - IP-CIDR6,2a0b:b583::/48

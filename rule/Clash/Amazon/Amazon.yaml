@@ -1,12 +1,12 @@
 # NAME: Amazon
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-18 23:33:35
+# UPDATED: 2022-06-23 17:32:41
 # DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 176
+# DOMAIN-SUFFIX: 182
 # IP-CIDR: 15
 # PROCESS-NAME: 1
-# TOTAL: 193
+# TOTAL: 199
 payload:
   - DOMAIN-SUFFIX,a2z.com
   - DOMAIN-SUFFIX,aboutamazon.cn
@@ -30,6 +30,7 @@ payload:
   - DOMAIN-SUFFIX,alexafund.cn
   - DOMAIN-SUFFIX,alexafund.com.cn
   - DOMAIN-SUFFIX,amaaozn.com
+  - DOMAIN-SUFFIX,amazon
   - DOMAIN-SUFFIX,amazon-adsystem.com
   - DOMAIN-SUFFIX,amazon-fashions.com
   - DOMAIN-SUFFIX,amazon-jp-recruiting.com
@@ -100,6 +101,7 @@ payload:
   - DOMAIN-SUFFIX,amazonworkdocs.com.cn
   - DOMAIN-SUFFIX,amplifyapp.com
   - DOMAIN-SUFFIX,amplifyframework.com
+  - DOMAIN-SUFFIX,amzn.asia
   - DOMAIN-SUFFIX,amzn.com
   - DOMAIN-SUFFIX,amzn.to
   - DOMAIN-SUFFIX,amznl.com
@@ -181,23 +183,27 @@ payload:
   - DOMAIN-SUFFIX,wholefoodsmarket.com
   - DOMAIN-SUFFIX,wholekidsfoundation.org
   - DOMAIN-SUFFIX,wholeplanetfoundation.org
+  - DOMAIN-SUFFIX,xn--cckwcxetd
+  - DOMAIN-SUFFIX,xn--jlq480n2rg
+  - DOMAIN-SUFFIX,yamaxun
   - DOMAIN-SUFFIX,yamaxun.cn
   - DOMAIN-SUFFIX,yamaxun.com
   - DOMAIN-SUFFIX,z.cn
+  - DOMAIN-SUFFIX,zappos
   - DOMAIN-KEYWORD,avoddashs
-  - IP-CIDR,13.32.0.0/15,no-resolve
-  - IP-CIDR,13.35.0.0/17,no-resolve
-  - IP-CIDR,18.184.0.0/15,no-resolve
-  - IP-CIDR,18.194.0.0/15,no-resolve
-  - IP-CIDR,18.208.0.0/13,no-resolve
-  - IP-CIDR,18.232.0.0/14,no-resolve
-  - IP-CIDR,52.200.0.0/13,no-resolve
-  - IP-CIDR,52.58.0.0/15,no-resolve
-  - IP-CIDR,52.74.0.0/16,no-resolve
-  - IP-CIDR,52.77.0.0/16,no-resolve
-  - IP-CIDR,52.84.0.0/15,no-resolve
-  - IP-CIDR,54.156.0.0/14,no-resolve
-  - IP-CIDR,54.226.0.0/15,no-resolve
-  - IP-CIDR,54.230.156.0/22,no-resolve
-  - IP-CIDR,54.93.0.0/16,no-resolve
+  - IP-CIDR,13.32.0.0/15
+  - IP-CIDR,13.35.0.0/17
+  - IP-CIDR,18.184.0.0/15
+  - IP-CIDR,18.194.0.0/15
+  - IP-CIDR,18.208.0.0/13
+  - IP-CIDR,18.232.0.0/14
+  - IP-CIDR,52.200.0.0/13
+  - IP-CIDR,52.58.0.0/15
+  - IP-CIDR,52.74.0.0/16
+  - IP-CIDR,52.77.0.0/16
+  - IP-CIDR,52.84.0.0/15
+  - IP-CIDR,54.156.0.0/14
+  - IP-CIDR,54.226.0.0/15
+  - IP-CIDR,54.230.156.0/22
+  - IP-CIDR,54.93.0.0/16
   - PROCESS-NAME,com.amazon.avod.thirdpartyclient

@@ -1,13 +1,13 @@
 # NAME: Telegram
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-05-13 02:13:55
-# IP-CIDR: 6
-# IP-CIDR6: 4
+# UPDATED: 2022-06-23 17:32:39
 # DOMAIN-KEYWORD: 2
 # DOMAIN-SUFFIX: 19
-# PROCESS-NAME: 3
-# TOTAL: 34
+# IP-CIDR: 6
+# IP-CIDR6: 4
+# PROCESS-NAME: 2
+# TOTAL: 33
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,contest.com
 DOMAIN-SUFFIX,graph.org
@@ -41,4 +41,3 @@ IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
 PROCESS-NAME,nekox.messenger
 PROCESS-NAME,org.telegram.messenger
-PROCESS-NAME,telegram.exe

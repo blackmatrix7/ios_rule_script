@@ -1,0 +1,285 @@
+name: 脚本去广告
+desc: 最后更新时间 2022-06-23 17:37:38
+# author: blackmatrix7
+# repo: https://github.com/blackmatrix7/ios_rule_script
+# domain: 4
+# ip-cidr: 1
+# ip-cidr6: 1
+# http-request-script: 1
+# http-response-script: 27
+# reject: 17
+# mitm: 23
+# total: 74
+
+
+
+rules:
+  - DOMAIN,118.89.204.198,REJECT
+  - DOMAIN,appcloud2.in.zhihu.com,REJECT
+  - DOMAIN,mqtt.zhihu.com,REJECT
+  - DOMAIN,sugar.zhihu.com,REJECT
+  - IP-CIDR,118.89.204.198/32,REJECT
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+
+
+http:
+  rewrite:
+    - ^https?:\/\/api\.zhihu\.com/moments/hybrid\? - reject
+    - ^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations) - reject
+    - ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
+    - ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject
+    - ^https?:\/\/api\.zhihu\.com\/moments\/recent - reject
+    - ^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 - reject
+    - ^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject
+    - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul - reject
+    - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul - reject
+    - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul - reject
+    - ^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject
+    - ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject
+    - ^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject
+    - ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject
+    - ^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) - reject
+    - ^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject
+    - ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
+
+
+  script:
+    # 知乎_屏蔽关键字解锁
+    - match: ^https?:\/\/api\.zhihu\.com\/feed-root\/block
+      name: zhihu.js_c61fcb13
+      type: request
+      require-body: true
+      timeout: 30
+      argument:
+    # BiliBili_开屏去广告
+    - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list
+      name: bilibili_plus.js_243478f2
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # Fa米家_开屏去广告
+    - match: ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad
+      name: famijia_checkin.js_515b8868
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 京东_开屏去广告
+    - match: ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start
+      name: startup.js_5686edbb
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 什么值得买_值会员权益中心banner广告
+    - match: ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner
+      name: smzdm_remove_ads.js_bf08360d
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+    # 什么值得买_好价去广告
+    - match: ^https?:\/\/haojia-api\.smzdm\.com\/home\/list\?
+      name: smzdm_remove_ads.js_bf08360d
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+    # 什么值得买_好价详情页去广告
+    - match: ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul
+      name: smzdm_remove_ads.js_bf08360d
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+    # 什么值得买_开屏去广告
+    - match: ^https?:\/\/app-api\.smzdm\.com\/util\/loading
+      name: smzdm_remove_ads.js_bf08360d
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+    # 什么值得买_搜索标签去广告
+    - match: ^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags
+      name: smzdm_remove_ads.js_bf08360d
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+    # 什么值得买_搜索结果去广告
+    - match: ^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10
+      name: smzdm_remove_ads.js_bf08360d
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+    # 什么值得买_百科去广告
+    - match: ^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list
+      name: smzdm_remove_ads.js_bf08360d
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+    # 什么值得买_首页去广告
+    - match: ^https?:\/\/homepage-api\.smzdm\.com\/v3\/home
+      name: smzdm_remove_ads.js_bf08360d
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+    # 嘀嗒出行_开屏去广告
+    - match: ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\?
+      name: startup.js_5686edbb
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 多点_开屏去广告
+    - match: ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic
+      name: startup.js_5686edbb
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 小爱音箱_开屏去广告
+    - match: ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert
+      name: startup.js_5686edbb
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 知乎_优化软件配置
+    - match: ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config
+      name: zhihu.js_c61fcb13
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 知乎_信息流去广告及黑名单增强
+    - match: ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people)
+      name: zhihu.js_c61fcb13
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 知乎_回答内容优化
+    - match: ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))?
+      name: zhihu.js_c61fcb13
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 知乎_回答列表去广告
+    - match: ^https?:\/\/api\.zhihu\.com\/v4\/questions
+      name: zhihu.js_c61fcb13
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 知乎_处理用户信息
+    - match: ^https?:\/\/api\.zhihu\.com\/people
+      name: zhihu.js_c61fcb13
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 知乎_官方消息去广告
+    - match: ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message)
+      name: zhihu.js_c61fcb13
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 知乎_热搜去广告
+    - match: ^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items
+      name: zhihu.js_c61fcb13
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 知乎_热榜去广告
+    - match: ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/)
+      name: zhihu.js_c61fcb13
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 知乎_获取黑名单
+    - match: ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users
+      name: zhihu.js_c61fcb13
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 知乎_评论去广告
+    - match: ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments?
+      name: zhihu.js_c61fcb13
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 知乎_预置关键词去广告
+    - match: ^https?:\/\/api\.zhihu\.com\/search\/preset_words\?
+      name: zhihu.js_c61fcb13
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 美团外卖_开屏去广告
+    - match: ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo?
+      name: startup.js_5686edbb
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 联享家_开屏去广告
+    - match: ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg
+      name: startup.js_5686edbb
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+
+  mitm:
+    - "103.41.167.226"
+    - "103.41.167.234"
+    - "103.41.167.235"
+    - "103.41.167.236"
+    - "api.m.jd.com"
+    - "api.zhihu.com"
+    - "app-api.smzdm.com"
+    - "app.bilibili.com"
+    - "appcloud2.zhihu.com"
+    - "baike-api.smzdm.com"
+    - "capis*.didapinche.com"
+    - "cmsapi.dmall.com"
+    - "fmapp.chinafamilymart.com.cn"
+    - "haojia-api.smzdm.com"
+    - "haojia.m.smzdm.com"
+    - "hd.mina.mi.com"
+    - "homepage-api.smzdm.com"
+    - "mi.gdt.qq.com"
+    - "s-api.smzdm.com"
+    - "wmapi.meituan.com"
+    - "www.zhihu.com"
+    - "zhiyou.m.smzdm.com"
+    - "zhuanlan.zhihu.com"
+
+script-providers:
+  bilibili_plus.js_243478f2:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
+    interval: 86400
+  famijia_checkin.js_515b8868:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js
+    interval: 86400
+  smzdm_remove_ads.js_bf08360d:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+    interval: 86400
+  startup.js_5686edbb:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
+    interval: 86400
+  zhihu.js_c61fcb13:
+    url: https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+    interval: 86400
+

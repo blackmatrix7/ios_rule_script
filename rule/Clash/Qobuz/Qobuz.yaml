@@ -1,7 +1,7 @@
 # NAME: Qobuz
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-18 23:33:38
+# UPDATED: 2022-06-23 17:32:45
 # DOMAIN-SUFFIX: 31
 # IP-CIDR: 2
 # TOTAL: 33
@@ -37,5 +37,5 @@ payload:
   - DOMAIN-SUFFIX,quobuz.com
   - DOMAIN-SUFFIX,quobuz.fr
   - DOMAIN-SUFFIX,static-qobuz.com
-  - IP-CIDR,52.211.1.180/32,no-resolve
-  - IP-CIDR,99.81.97.56/32,no-resolve
+  - IP-CIDR,52.211.1.180/32
+  - IP-CIDR,99.81.97.56/32

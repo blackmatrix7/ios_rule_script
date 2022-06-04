@@ -1,13 +1,16 @@
-# NAME: TestFlight下载修正
-# AUTHOR: NobyDa
-# REPO: https://github.com/NobyDa/Script/tree/master
-# UPDATED: 2022-01-18 23:35:38
-# REWRITE: 0
-# SCRIPT: 1
-# MITM: 1
+#!name= TestFlight
+#!desc= 最后更新时间 2022-06-23 17:37:43
+#!openUrl= https://github.com/NobyDa/Script/tree/master
+#!author= NobyDa
+#!homepage= https://github.com/NobyDa/Script/tree/master
+#!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
+#!http-request-script= 1
+#!mitm= 1
+#!total= 2
 
 [Script]
-http-request ^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/043922e05c79445b6da818d0864c1b7d.js,tag=TestFlight_下载修正
+# TestFlight_下载修正
+http-request ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/javascript/043922e05c79445b6da818d0864c1b7d.js,requires-body=1,tag=TestFlight_下载修正
 
 [MITM]
 hostname = testflight.apple.com

@@ -1,16 +1,13 @@
 # NAME: YouTube
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-11 16:03:17
-# DOMAIN-SUFFIX: 172
-# DOMAIN: 2
+# UPDATED: 2022-06-23 17:32:16
 # DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 172
 # IP-CIDR: 2
 # IP-CIDR6: 1
-# TOTAL: 178
+# TOTAL: 176
 payload:
-  - DOMAIN,youtubei.googleapis.com
-  - DOMAIN,yt3.ggpht.com
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googlevideo.com
@@ -184,6 +181,6 @@ payload:
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-KEYWORD,youtube
-  - IP-CIDR,172.110.32.0/21,no-resolve
-  - IP-CIDR,216.73.80.0/20,no-resolve
-  - IP-CIDR6,2620:120:e000::/40,no-resolve
+  - IP-CIDR,172.110.32.0/21
+  - IP-CIDR,216.73.80.0/20
+  - IP-CIDR6,2620:120:e000::/40

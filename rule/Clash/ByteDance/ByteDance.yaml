@@ -1,10 +1,11 @@
 # NAME: ByteDance
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-04 02:12:16
-# DOMAIN-SUFFIX: 268
+# UPDATED: 2022-06-23 17:32:47
+# DOMAIN-SUFFIX: 270
 # IP-CIDR: 1
-# TOTAL: 269
+# PROCESS-NAME: 1
+# TOTAL: 272
 payload:
   - DOMAIN-SUFFIX,2333333333333.com
   - DOMAIN-SUFFIX,365yg.com
@@ -42,6 +43,8 @@ payload:
   - DOMAIN-SUFFIX,bytescm.com
   - DOMAIN-SUFFIX,bytesfield.com
   - DOMAIN-SUFFIX,bytesmanager.com
+  - DOMAIN-SUFFIX,bytetcc.com
+  - DOMAIN-SUFFIX,bytetos.com
   - DOMAIN-SUFFIX,bytexservice.com
   - DOMAIN-SUFFIX,cdndns1.com
   - DOMAIN-SUFFIX,cdndns2.com
@@ -114,6 +117,7 @@ payload:
   - DOMAIN-SUFFIX,huoshanzhibo.cn
   - DOMAIN-SUFFIX,huoshanzhibo.com
   - DOMAIN-SUFFIX,huoshanzhibo.net
+  - DOMAIN-SUFFIX,ibytedapm.com
   - DOMAIN-SUFFIX,icphoto.cn
   - DOMAIN-SUFFIX,idouyinpic.com
   - DOMAIN-SUFFIX,idouyinstatic.com
@@ -194,7 +198,6 @@ payload:
   - DOMAIN-SUFFIX,smartisan.com
   - DOMAIN-SUFFIX,smartisanos.cn
   - DOMAIN-SUFFIX,smartisanos.com
-  - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,tekkenthree.com
   - DOMAIN-SUFFIX,tetrisone.com
   - DOMAIN-SUFFIX,toscdn.com
@@ -274,4 +277,5 @@ payload:
   - DOMAIN-SUFFIX,zjcdn.com
   - DOMAIN-SUFFIX,zjgslb.com
   - DOMAIN-SUFFIX,zjurl.cn
-  - IP-CIDR,114.246.10.65/32,no-resolve
+  - IP-CIDR,114.246.10.65/32
+  - PROCESS-NAME,com.zhiliaoapp.musically

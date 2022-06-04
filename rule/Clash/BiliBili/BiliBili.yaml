@@ -1,11 +1,11 @@
 # NAME: BiliBili
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-04-03 10:56:31
-# DOMAIN-SUFFIX: 51
-# PROCESS-NAME: 2
+# UPDATED: 2022-06-23 17:32:46
 # DOMAIN: 52
+# DOMAIN-SUFFIX: 51
 # IP-CIDR: 7
+# PROCESS-NAME: 2
 # TOTAL: 112
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
@@ -111,12 +111,12 @@ payload:
   - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
   - DOMAIN-SUFFIX,yo9.com
-  - IP-CIDR,106.75.74.76/32,no-resolve
-  - IP-CIDR,111.206.25.147/32,no-resolve
-  - IP-CIDR,119.3.238.64/32,no-resolve
-  - IP-CIDR,120.92.108.182/32,no-resolve
-  - IP-CIDR,120.92.113.99/32,no-resolve
-  - IP-CIDR,120.92.153.217/32,no-resolve
-  - IP-CIDR,134.175.207.130/32,no-resolve
+  - IP-CIDR,106.75.74.76/32
+  - IP-CIDR,111.206.25.147/32
+  - IP-CIDR,119.3.238.64/32
+  - IP-CIDR,120.92.108.182/32
+  - IP-CIDR,120.92.113.99/32
+  - IP-CIDR,120.92.153.217/32
+  - IP-CIDR,134.175.207.130/32
   - PROCESS-NAME,com.bilibili.app.in
   - PROCESS-NAME,tv.danmaku.bili

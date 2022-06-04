@@ -1,11 +1,12 @@
 # NAME: Protonmail
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-18 23:33:38
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
+# UPDATED: 2022-06-23 17:33:36
+# DOMAIN-SUFFIX: 5
+# TOTAL: 5
 payload:
   - DOMAIN-SUFFIX,pm.me
+  - DOMAIN-SUFFIX,proton.me
   - DOMAIN-SUFFIX,protonmail.ch
   - DOMAIN-SUFFIX,protonmail.com
   - DOMAIN-SUFFIX,protonstatus.com

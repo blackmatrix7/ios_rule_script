@@ -1,13 +1,27 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-04-22 02:13:11
-# USER-AGENT: 3
-# HOST-SUFFIX: 664
-# HOST-KEYWORD: 8
+# UPDATED: 2022-06-04 17:24:38
+# HOST: 13
+# HOST-KEYWORD: 6
+# HOST-SUFFIX: 661
 # IP-CIDR: 4
 # IP6-CIDR: 1
-# TOTAL: 680
+# USER-AGENT: 3
+# TOTAL: 688
+HOST,crl.pki.goog,Google
+HOST,fonts.googleapis.com,Google
+HOST,fonts.gstatic.com,Google
+HOST,mtalk.google.com,Google
+HOST,ocsp.pki.goog,Google
+HOST,redirector.c.bigcache.googleapis.com,Google
+HOST,redirector.gvt1.com,Google
+HOST,safebrowsing-cache.google.com,Google
+HOST,safebrowsing.googleapis.com,Google
+HOST,translate.googleapis.com,Google
+HOST,voice.telephony.goog,Google
+HOST,www.googleapis.com,Google
+HOST,lens.l.google.com,Google
 HOST-SUFFIX,0emm.com,Google
 HOST-SUFFIX,1e100.net,Google
 HOST-SUFFIX,1ucrs.com,Google
@@ -54,6 +68,9 @@ HOST-SUFFIX,baselinestudy.com,Google
 HOST-SUFFIX,baselinestudy.org,Google
 HOST-SUFFIX,bazel.build,Google
 HOST-SUFFIX,bdn.dev,Google
+HOST-SUFFIX,beacons.gvt2.com,Google
+HOST-SUFFIX,beacons2.gvt2.com,Google
+HOST-SUFFIX,beacons3.gvt2.com,Google
 HOST-SUFFIX,beatthatquote.com,Google
 HOST-SUFFIX,blink.org,Google
 HOST-SUFFIX,blogblog.com,Google
@@ -214,6 +231,7 @@ HOST-SUFFIX,g.co,Google
 HOST-SUFFIX,g.dev,Google
 HOST-SUFFIX,g.page,Google
 HOST-SUFFIX,gateway.dev,Google
+HOST-SUFFIX,gcp.gvt2.com,Google
 HOST-SUFFIX,gcr.io,Google
 HOST-SUFFIX,gerritcodereview.com,Google
 HOST-SUFFIX,get.app,Google
@@ -224,8 +242,6 @@ HOST-SUFFIX,getbumptop.com,Google
 HOST-SUFFIX,getmdl.io,Google
 HOST-SUFFIX,getoutline.org,Google
 HOST-SUFFIX,ggoogle.com,Google
-HOST-SUFFIX,ggpht.cn,Google
-HOST-SUFFIX,ggpht.com,Google
 HOST-SUFFIX,gipscorp.com,Google
 HOST-SUFFIX,gkecnapps.cn,Google
 HOST-SUFFIX,globaledu.org,Google
@@ -465,7 +481,6 @@ HOST-SUFFIX,googlecommerce.com,Google
 HOST-SUFFIX,googlecompare.co.uk,Google
 HOST-SUFFIX,googledanmark.com,Google
 HOST-SUFFIX,googledomains.com,Google
-HOST-SUFFIX,googledrive.com,Google
 HOST-SUFFIX,googlee.com,Google
 HOST-SUFFIX,googleearth.com,Google
 HOST-SUFFIX,googlefiber.net,Google
@@ -492,10 +507,8 @@ HOST-SUFFIX,googletagservices-cn.com,Google
 HOST-SUFFIX,googletagservices.com,Google
 HOST-SUFFIX,googletraveladservices-cn.com,Google
 HOST-SUFFIX,googletraveladservices.com,Google
-HOST-SUFFIX,googleusercontent.com,Google
 HOST-SUFFIX,googlevads-cn.com,Google
 HOST-SUFFIX,googleventures.com,Google
-HOST-SUFFIX,googlevideo.com,Google
 HOST-SUFFIX,googlr.com,Google
 HOST-SUFFIX,goolge.com,Google
 HOST-SUFFIX,gooogle.com,Google
@@ -510,7 +523,6 @@ HOST-SUFFIX,gvt0.com,Google
 HOST-SUFFIX,gvt1-cn.com,Google
 HOST-SUFFIX,gvt1.com,Google
 HOST-SUFFIX,gvt2-cn.com,Google
-HOST-SUFFIX,gvt2.com,Google
 HOST-SUFFIX,gvt3.com,Google
 HOST-SUFFIX,gvt5.com,Google
 HOST-SUFFIX,gvt6.com,Google
@@ -667,19 +679,16 @@ HOST-SUFFIX,xn--gogl-1nd42e.com,Google
 HOST-SUFFIX,xn--ngstr-lra8j.com,Google
 HOST-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Google
 HOST-SUFFIX,xplr.co,Google
-HOST-SUFFIX,youtu.be,Google
-HOST-SUFFIX,yt.be,Google
-HOST-SUFFIX,ytimg.com,Google
 HOST-SUFFIX,zukunftswerkstatt.de,Google
 HOST-SUFFIX,zynamics.com,Google
+HOST-SUFFIX,googledrive.com,Google
+HOST-SUFFIX,googleusercontent.com,Google
 HOST-KEYWORD,appspot,Google
 HOST-KEYWORD,blogspot,Google
 HOST-KEYWORD,gmail,Google
 HOST-KEYWORD,google,Google
-HOST-KEYWORD,googlesource,Google
 HOST-KEYWORD,gstatic,Google
 HOST-KEYWORD,recaptcha,Google
-HOST-KEYWORD,www.google.,Google
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,Google
 USER-AGENT,*com.google.Drive*,Google
 USER-AGENT,Google.Drive*,Google

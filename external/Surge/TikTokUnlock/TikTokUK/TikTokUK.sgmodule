@@ -1,0 +1,17 @@
+#!name=TikTokUK
+#!desc=最后更新时间 2022-06-04 17:33:20
+#!author=Semporia
+#!repo=https://github.com/Semporia/TikTok-Unlock
+#!redirect=4
+#!mitm=3
+#!total=7
+
+[URL Rewrite]
+"(?<=&mcc_mnc=)4" 2 307
+"(?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&)" 18.4 307
+"(?<=_region=)CN(?=&)" UK 307
+"^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+)" $1$4 302
+
+
+[MITM]
+hostname = %APPEND% *.byteoversea.com,*.tik-tokapi.com,*.tiktokv.com

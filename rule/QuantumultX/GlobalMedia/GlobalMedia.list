@@ -1,13 +1,13 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-03 02:13:31
+# UPDATED: 2022-06-04 17:25:11
 # HOST: 42
-# USER-AGENT: 65
-# HOST-SUFFIX: 225
-# HOST-KEYWORD: 26
+# HOST-KEYWORD: 23
+# HOST-SUFFIX: 226
 # IP-CIDR: 863
-# TOTAL: 1221
+# USER-AGENT: 65
+# TOTAL: 1219
 HOST,api.okzy.tv,GlobalMedia
 HOST,apm-misaka.biliapi.net,GlobalMedia
 HOST,apple.comscoreresearch.com,GlobalMedia
@@ -97,6 +97,7 @@ HOST-SUFFIX,dazn.com,GlobalMedia
 HOST-SUFFIX,dazndn.com,GlobalMedia
 HOST-SUFFIX,deezer.com,GlobalMedia
 HOST-SUFFIX,disco-api.com,GlobalMedia
+HOST-SUFFIX,discovery.com,GlobalMedia
 HOST-SUFFIX,discoveryplus.co.uk,GlobalMedia
 HOST-SUFFIX,discoveryplus.com,GlobalMedia
 HOST-SUFFIX,discoveryplus.in,GlobalMedia
@@ -276,8 +277,6 @@ HOST-SUFFIX,yt.be,GlobalMedia
 HOST-SUFFIX,ytimg.com,GlobalMedia
 HOST-SUFFIX,zype.com,GlobalMedia
 HOST-KEYWORD,-spotify-com,GlobalMedia
-HOST-KEYWORD,-tiktokcdn-com,GlobalMedia
-HOST-KEYWORD,.hbogoasia.,GlobalMedia
 HOST-KEYWORD,abematv.akamaized.net,GlobalMedia
 HOST-KEYWORD,apiproxy-device-prod-nlb-,GlobalMedia
 HOST-KEYWORD,avoddashs,GlobalMedia
@@ -291,7 +290,6 @@ HOST-KEYWORD,japonx,GlobalMedia
 HOST-KEYWORD,japronx,GlobalMedia
 HOST-KEYWORD,jooxweb-api,GlobalMedia
 HOST-KEYWORD,netflix,GlobalMedia
-HOST-KEYWORD,netflixdnstest,GlobalMedia
 HOST-KEYWORD,nflx,GlobalMedia
 HOST-KEYWORD,nowtv100,GlobalMedia
 HOST-KEYWORD,rthklive,GlobalMedia

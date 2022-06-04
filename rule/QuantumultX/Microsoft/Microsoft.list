@@ -1,12 +1,13 @@
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-11 16:03:15
+# UPDATED: 2022-06-04 17:24:39
+# HOST: 1
+# HOST-KEYWORD: 4
 # HOST-SUFFIX: 417
 # USER-AGENT: 3
-# HOST-KEYWORD: 4
-# TOTAL: 424
-HOST-SUFFIX,1drv.com,Microsoft
+# TOTAL: 425
+HOST,oneclient.sfx.ms,Microsoft
 HOST-SUFFIX,a-msedge.net,Microsoft
 HOST-SUFFIX,a1158.g.akamai.net,Microsoft
 HOST-SUFFIX,a122.dscg3.akamai.net,Microsoft
@@ -165,7 +166,6 @@ HOST-SUFFIX,kumo.com,Microsoft
 HOST-SUFFIX,latampartneruniversity.com,Microsoft
 HOST-SUFFIX,live.com,Microsoft
 HOST-SUFFIX,live.net,Microsoft
-HOST-SUFFIX,livefilestore.com,Microsoft
 HOST-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net,Microsoft
 HOST-SUFFIX,livingyourambition.com,Microsoft
 HOST-SUFFIX,localytics.com,Microsoft
@@ -306,7 +306,6 @@ HOST-SUFFIX,officeplus.cn,Microsoft
 HOST-SUFFIX,officeppe.net,Microsoft
 HOST-SUFFIX,omniroot.com,Microsoft
 HOST-SUFFIX,onecollector.cloudapp.aria,Microsoft
-HOST-SUFFIX,onedrive.com,Microsoft
 HOST-SUFFIX,onenote.com,Microsoft
 HOST-SUFFIX,onenote.net,Microsoft
 HOST-SUFFIX,onestore.ms,Microsoft
@@ -351,12 +350,9 @@ HOST-SUFFIX,serverlesslibrary.net,Microsoft
 HOST-SUFFIX,sfbassets.com,Microsoft
 HOST-SUFFIX,sfbassets.net,Microsoft
 HOST-SUFFIX,sfx.ms,Microsoft
-HOST-SUFFIX,sharepoint.com,Microsoft
-HOST-SUFFIX,sharepointonline.com,Microsoft
 HOST-SUFFIX,skype.com,Microsoft
 HOST-SUFFIX,skypeassets.com,Microsoft
 HOST-SUFFIX,skypeforbusiness.com,Microsoft
-HOST-SUFFIX,spoprod-a.akamaihd.net,Microsoft
 HOST-SUFFIX,sprinklesapp.com,Microsoft
 HOST-SUFFIX,sqlserveronlinux.com,Microsoft
 HOST-SUFFIX,staffhub.ms,Microsoft
@@ -423,8 +419,14 @@ HOST-SUFFIX,xboxstudios.com,Microsoft
 HOST-SUFFIX,xbx.lv,Microsoft
 HOST-SUFFIX,yammer.com,Microsoft
 HOST-SUFFIX,yammerusercontent.com,Microsoft
-HOST-KEYWORD,1drv,Microsoft
+HOST-SUFFIX,1drv.com,Microsoft
+HOST-SUFFIX,livefilestore.com,Microsoft
+HOST-SUFFIX,onedrive.com,Microsoft
+HOST-SUFFIX,sharepoint.com,Microsoft
+HOST-SUFFIX,sharepointonline.com,Microsoft
+HOST-SUFFIX,spoprod-a.akamaihd.net,Microsoft
 HOST-KEYWORD,microsoft,Microsoft
+HOST-KEYWORD,1drv,Microsoft
 HOST-KEYWORD,onedrive,Microsoft
 HOST-KEYWORD,skydrive,Microsoft
 USER-AGENT,Microsoft*,Microsoft

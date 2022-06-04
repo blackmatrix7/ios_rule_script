@@ -1,10 +1,14 @@
 # NAME: ByteDance
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-04 02:12:14
-# HOST-SUFFIX: 268
+# UPDATED: 2022-06-04 17:25:28
+# HOST: 1
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 282
 # IP-CIDR: 1
-# TOTAL: 269
+# USER-AGENT: 1
+# TOTAL: 286
+HOST,p16-tiktokcdn-com.akamaized.net,ByteDance
 HOST-SUFFIX,2333333333333.com,ByteDance
 HOST-SUFFIX,365yg.com,ByteDance
 HOST-SUFFIX,activitybyte.com,ByteDance
@@ -38,9 +42,12 @@ HOST-SUFFIX,bytednsdoc.com,ByteDance
 HOST-SUFFIX,bytefcdn.com,ByteDance
 HOST-SUFFIX,bytegoofy.com,ByteDance
 HOST-SUFFIX,byteimg.com,ByteDance
+HOST-SUFFIX,byteoversea.com,ByteDance
 HOST-SUFFIX,bytescm.com,ByteDance
 HOST-SUFFIX,bytesfield.com,ByteDance
 HOST-SUFFIX,bytesmanager.com,ByteDance
+HOST-SUFFIX,bytetcc.com,ByteDance
+HOST-SUFFIX,bytetos.com,ByteDance
 HOST-SUFFIX,bytexservice.com,ByteDance
 HOST-SUFFIX,cdndns1.com,ByteDance
 HOST-SUFFIX,cdndns2.com,ByteDance
@@ -113,6 +120,9 @@ HOST-SUFFIX,huoshanxiaoshipin.net,ByteDance
 HOST-SUFFIX,huoshanzhibo.cn,ByteDance
 HOST-SUFFIX,huoshanzhibo.com,ByteDance
 HOST-SUFFIX,huoshanzhibo.net,ByteDance
+HOST-SUFFIX,ibytedapm.com,ByteDance
+HOST-SUFFIX,ibytedtos.com,ByteDance
+HOST-SUFFIX,ibyteimg.com,ByteDance
 HOST-SUFFIX,icphoto.cn,ByteDance
 HOST-SUFFIX,idouyinpic.com,ByteDance
 HOST-SUFFIX,idouyinstatic.com,ByteDance
@@ -131,6 +141,7 @@ HOST-SUFFIX,ihst8.com,ByteDance
 HOST-SUFFIX,ihuoshanimg.com,ByteDance
 HOST-SUFFIX,ihuoshanvod.com,ByteDance
 HOST-SUFFIX,inluckcalendar.com,ByteDance
+HOST-SUFFIX,ipstatp.com,ByteDance
 HOST-SUFFIX,ixgvideo.com,ByteDance
 HOST-SUFFIX,ixigua.com,ByteDance
 HOST-SUFFIX,ixiguavideo.com,ByteDance
@@ -157,6 +168,8 @@ HOST-SUFFIX,luckincalendar.com,ByteDance
 HOST-SUFFIX,luckycalendar.cn,ByteDance
 HOST-SUFFIX,mobilelegends.com,ByteDance
 HOST-SUFFIX,moonton.com,ByteDance
+HOST-SUFFIX,muscdn.com,ByteDance
+HOST-SUFFIX,musical.ly,ByteDance
 HOST-SUFFIX,muyewx.com,ByteDance
 HOST-SUFFIX,neihancommunity.cn,ByteDance
 HOST-SUFFIX,neihancommunity.com,ByteDance
@@ -189,6 +202,7 @@ HOST-SUFFIX,qmoji.net,ByteDance
 HOST-SUFFIX,ribaoapi.com,ByteDance
 HOST-SUFFIX,ribaocdn.com,ByteDance
 HOST-SUFFIX,samasty.com,ByteDance
+HOST-SUFFIX,sgpstatp.com,ByteDance
 HOST-SUFFIX,smartisan.cn,ByteDance
 HOST-SUFFIX,smartisan.com,ByteDance
 HOST-SUFFIX,smartisanos.cn,ByteDance
@@ -196,6 +210,10 @@ HOST-SUFFIX,smartisanos.com,ByteDance
 HOST-SUFFIX,snssdk.com,ByteDance
 HOST-SUFFIX,tekkenthree.com,ByteDance
 HOST-SUFFIX,tetrisone.com,ByteDance
+HOST-SUFFIX,tik-tokapi.com,ByteDance
+HOST-SUFFIX,tiktok.com,ByteDance
+HOST-SUFFIX,tiktokcdn.com,ByteDance
+HOST-SUFFIX,tiktokv.com,ByteDance
 HOST-SUFFIX,toscdn.com,ByteDance
 HOST-SUFFIX,toutiao.com,ByteDance
 HOST-SUFFIX,toutiao11.com,ByteDance
@@ -273,4 +291,6 @@ HOST-SUFFIX,zjbyte.net,ByteDance
 HOST-SUFFIX,zjcdn.com,ByteDance
 HOST-SUFFIX,zjgslb.com,ByteDance
 HOST-SUFFIX,zjurl.cn,ByteDance
+HOST-KEYWORD,-tiktokcdn-com,ByteDance
+USER-AGENT,TikTok*,ByteDance
 IP-CIDR,114.246.10.65/32,ByteDance

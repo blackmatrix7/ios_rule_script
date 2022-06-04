@@ -1,0 +1,35 @@
+#!name= TikTokJP
+#!desc= 最后更新时间 2022-06-04 17:33:19
+#!openUrl= https://github.com/Semporia/TikTok-Unlock
+#!author= Semporia
+#!homepage= https://github.com/Semporia/TikTok-Unlock
+#!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
+#!domain-keyword= 1
+#!domain-suffix= 9
+#!user-agent= 1
+#!redirect= 4
+#!mitm= 3
+#!total= 18
+
+[Rule]
+DOMAIN-KEYWORD,-tiktokcdn-com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+USER-AGENT,tiktok*
+
+
+[URL Rewrite]
+(?<=&mcc_mnc=)4 2 307
+(?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) 18.4 307
+(?<=_region=)CN(?=&) JP 307
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$4 302
+
+[MITM]
+hostname = *.byteoversea.com,*.tik-tokapi.com,*.tiktokv.com

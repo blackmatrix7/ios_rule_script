@@ -1,15 +1,32 @@
 # NAME: NetEaseMusic
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-11 16:03:15
+# UPDATED: 2022-06-04 17:26:17
+# HOST: 20
 # HOST-SUFFIX: 8
-# IP-CIDR: 18
-# HOST: 2
+# IP-CIDR: 19
 # USER-AGENT: 7
-# HOST-KEYWORD: 1
-# TOTAL: 36
+# TOTAL: 54
+HOST,admusicpic.music.126.net,NetEaseMusic
+HOST,apm.music.163.com,NetEaseMusic
+HOST,apm3.music.163.com,NetEaseMusic
 HOST,iadmat.nosdn.127.net,NetEaseMusic
+HOST,iadmusicmat.music.126.net,NetEaseMusic
+HOST,iadmusicmatvideo.music.126.net,NetEaseMusic
+HOST,interface.music.163.com,NetEaseMusic
+HOST,interface3.music.163.com,NetEaseMusic
+HOST,music.163.com,NetEaseMusic
 HOST,netease.ugcvideoss.ourdvs.com,NetEaseMusic
+HOST,p1.music.126.net,NetEaseMusic
+HOST,p10.music.126.net,NetEaseMusic
+HOST,p2.music.126.net,NetEaseMusic
+HOST,p3.music.126.net,NetEaseMusic
+HOST,p4.music.126.net,NetEaseMusic
+HOST,p5.music.126.net,NetEaseMusic
+HOST,p6.music.126.net,NetEaseMusic
+HOST,p7.music.126.net,NetEaseMusic
+HOST,p8.music.126.net,NetEaseMusic
+HOST,p9.music.126.net,NetEaseMusic
 HOST-SUFFIX,163yun.com,NetEaseMusic
 HOST-SUFFIX,api.iplay.163.com,NetEaseMusic
 HOST-SUFFIX,hz.netease.com,NetEaseMusic
@@ -18,14 +35,13 @@ HOST-SUFFIX,music.126.com,NetEaseMusic
 HOST-SUFFIX,music.126.net,NetEaseMusic
 HOST-SUFFIX,music.163.com,NetEaseMusic
 HOST-SUFFIX,music.163.com.163jiasu.com,NetEaseMusic
-HOST-KEYWORD,netease,NetEaseMusic
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**,NetEaseMusic
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,NetEaseMusic
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90,NetEaseMusic
-USER-AGENT,NeteaseMusic**,NetEaseMusic
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,NetEaseMusic
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**,NetEaseMusic
 USER-AGENT,NeteaseMusic*,NetEaseMusic
-USER-AGENT,网易云音乐**,NetEaseMusic
+USER-AGENT,NeteaseMusic**,NetEaseMusic
 USER-AGENT,网易云音乐*,NetEaseMusic
+USER-AGENT,网易云音乐**,NetEaseMusic
 IP-CIDR,101.71.154.241/32,NetEaseMusic
 IP-CIDR,103.126.92.13/32,NetEaseMusic
 IP-CIDR,103.126.92.132/31,NetEaseMusic
@@ -43,4 +59,5 @@ IP-CIDR,39.105.63.80/32,NetEaseMusic
 IP-CIDR,45.254.48.1/32,NetEaseMusic
 IP-CIDR,47.100.127.239/32,NetEaseMusic
 IP-CIDR,59.111.128.0/17,NetEaseMusic
+IP-CIDR,59.111.19.33/32,NetEaseMusic
 IP-CIDR,59.111.21.14/31,NetEaseMusic

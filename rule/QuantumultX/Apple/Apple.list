@@ -1,22 +1,79 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-25 14:58:35
-# HOST: 3
+# UPDATED: 2022-06-04 17:24:41
+# HOST: 64
+# HOST-KEYWORD: 6
 # HOST-SUFFIX: 77
-# HOST-KEYWORD: 7
-# USER-AGENT: 7
 # IP-CIDR: 10
-# TOTAL: 104
+# USER-AGENT: 7
+# TOTAL: 164
+HOST,apps.apple.com,Apple
 HOST,api.smoot.apple.cn,Apple
+HOST,appldnld.apple.com,Apple
 HOST,apple-events.akamaized.net,Apple
+HOST,appstoreconnect.apple.com,Apple
+HOST,apptrailers.itunes.apple.com,Apple
+HOST,cdn.apple-cloudkit.com,Apple
+HOST,devimages-cdn.apple.com,Apple
+HOST,devstreaming-cdn.apple.com,Apple
+HOST,gs-loc-cn.apple.com,Apple
+HOST,init-p01md.apple.com,Apple
+HOST,init-p01st.push.apple.com,Apple
+HOST,init-s01st.push.apple.com,Apple
+HOST,iosapps-ssl.itunes.apple.com,Apple
+HOST,iosapps.itunes.apple.com,Apple
+HOST,itcmobile.itunes.apple.com,Apple
+HOST,js-cdn.music.apple.com,Apple
+HOST,music.apple.com,Apple
+HOST,osxapps.itunes.apple.com,Apple
+HOST,ppq.apple.com,Apple
+HOST,supportdownload.apple.com,Apple
+HOST,swcdn.apple.com,Apple
+HOST,updates-http.cdn-apple.com,Apple
+HOST,aod-ssl.itunes.apple.com,Apple
+HOST,aod.itunes.apple.com,Apple
+HOST,audio-ssl.itunes.apple.com,Apple
+HOST,audio.itunes.apple.com,Apple
+HOST,mvod.itunes.apple.com,Apple
+HOST,streamingaudio.itunes.apple.com,Apple
 HOST,apple.comscoreresearch.com,Apple
+HOST,gateway.icloud.com,Apple
+HOST,gspe1-ssl.ls.apple.com,Apple
+HOST,news-assets.apple.com,Apple
+HOST,news-client-search.apple.com,Apple
+HOST,news-client.apple.com,Apple
+HOST,news-edge.apple.com,Apple
+HOST,news-events.apple.com,Apple
+HOST,api-glb-sea.smoot.apple.com,Apple
+HOST,books.itunes.apple.com,Apple
+HOST,cvws.icloud-content.com,Apple
+HOST,developer.apple.com,Apple
+HOST,hls.itunes.apple.com,Apple
+HOST,itunes.apple.com,Apple
+HOST,lookup-api.apple.com,Apple
+HOST,sandbox.itunes.apple.com,Apple
+HOST,testflight.apple.com,Apple
+HOST,hls-amt.itunes.apple.com,Apple
+HOST,np-edge.itunes.apple.com,Apple
+HOST,play-edge.itunes.apple.com,Apple
+HOST,tv.applemusic.com,Apple
+HOST,uts-api.itunes.apple.com,Apple
+HOST,fmfmobile.icloud.com,Apple
+HOST,fmipmobile.icloud.com,Apple
+HOST,statici.icloud.com,Apple
+HOST,hls-svod.itunes.apple.com,Apple
+HOST,guzzoni.apple.com,Apple
+HOST,beta.apple.com,Apple
+HOST,www-cdn.icloud.com.akadns.net,Apple
+HOST,mask-api.fe.apple-dns.net,Apple
+HOST,mask-api.icloud.com,Apple
+HOST,mask-h2.icloud.com,Apple
+HOST,mask-t.apple-dns.net,Apple
+HOST,mask.apple-dns.net,Apple
+HOST,mask.icloud.com,Apple
 HOST-SUFFIX,aaplimg.com,Apple
 HOST-SUFFIX,akadns.net,Apple
-HOST-SUFFIX,apple-cloudkit.com,Apple
-HOST-SUFFIX,apple-dns.net,Apple
-HOST-SUFFIX,apple-icloud.cn,Apple
-HOST-SUFFIX,apple-livephotoskit.com,Apple
 HOST-SUFFIX,apple-mapkit.com,Apple
 HOST-SUFFIX,apple.co,Apple
 HOST-SUFFIX,apple.com,Apple
@@ -24,21 +81,31 @@ HOST-SUFFIX,apple.com.cdn20.com,Apple
 HOST-SUFFIX,apple.com.cn,Apple
 HOST-SUFFIX,apple.com.mwcloudcdn.com,Apple
 HOST-SUFFIX,apple.com.mwcname.com,Apple
-HOST-SUFFIX,apple.news,Apple
-HOST-SUFFIX,appleicloud.cn,Apple
-HOST-SUFFIX,applemusic.com,Apple
-HOST-SUFFIX,applemx-icloud.com,Apple
-HOST-SUFFIX,appsto.re,Apple
 HOST-SUFFIX,appstore.com,Apple
+HOST-SUFFIX,crashlytics.com,Apple
+HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,Apple
+HOST-SUFFIX,icloud-sandbox.com,Apple
+HOST-SUFFIX,itunes.com,Apple
+HOST-SUFFIX,itunes.com.edgekey.net,Apple
+HOST-SUFFIX,mzstatic.com,Apple
+HOST-SUFFIX,safebrowsing.apple,Apple
+HOST-SUFFIX,store.apple.com.edgekey.net,Apple
+HOST-SUFFIX,www.apple.com.edgekey.net,Apple
+HOST-SUFFIX,applemusic.com,Apple
+HOST-SUFFIX,apple.news,Apple
+HOST-SUFFIX,apple-dns.net,Apple
+HOST-SUFFIX,appsto.re,Apple
+HOST-SUFFIX,digicert.com,Apple
+HOST-SUFFIX,apple-cloudkit.com,Apple
+HOST-SUFFIX,apple-icloud.cn,Apple
+HOST-SUFFIX,apple-livephotoskit.com,Apple
+HOST-SUFFIX,appleicloud.cn,Apple
+HOST-SUFFIX,applemx-icloud.com,Apple
 HOST-SUFFIX,apzones.com,Apple
 HOST-SUFFIX,cdn-apple.com,Apple
-HOST-SUFFIX,crashlytics.com,Apple
-HOST-SUFFIX,digicert.com,Apple
-HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-content.com,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple
-HOST-SUFFIX,icloud-sandbox.com,Apple
 HOST-SUFFIX,icloud.ch,Apple
 HOST-SUFFIX,icloud.com,Apple
 HOST-SUFFIX,icloud.com.cn,Apple
@@ -78,29 +145,22 @@ HOST-SUFFIX,icloudpay.net,Apple
 HOST-SUFFIX,icloudsecure.net,Apple
 HOST-SUFFIX,icloudsetup.com,Apple
 HOST-SUFFIX,ios-icloud.com,Apple
-HOST-SUFFIX,itunes.com,Apple
-HOST-SUFFIX,itunes.com.edgekey.net,Apple
 HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,myicloud.net,Apple
 HOST-SUFFIX,mylcloud.net,Apple
-HOST-SUFFIX,mzstatic.com,Apple
-HOST-SUFFIX,safebrowsing.apple,Apple
-HOST-SUFFIX,store.apple.com.edgekey.net,Apple
-HOST-SUFFIX,www.apple.com.edgekey.net,Apple
 HOST-SUFFIX,wwwicloud.com,Apple
 HOST-KEYWORD,apple-support.akadns.net,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,apple.com.edgekey.net,Apple
-HOST-KEYWORD,icloud.com.akadns.net,Apple
 HOST-KEYWORD,icoudo,Apple
-HOST-KEYWORD,icoudos,Apple
 HOST-KEYWORD,testflight,Apple
-USER-AGENT,AppleNews*,Apple
-USER-AGENT,AppleTV*,Apple
-USER-AGENT,Music*,Apple
+HOST-KEYWORD,icloud.com.akadns.net,Apple
 USER-AGENT,com.apple.appstored*,Apple
+USER-AGENT,Music*,Apple
+USER-AGENT,AppleNews*,Apple
 USER-AGENT,com.apple.news*,Apple
 USER-AGENT,com.apple.trustd*,Apple
+USER-AGENT,AppleTV*,Apple
 USER-AGENT,com.apple.tv*,Apple
 IP-CIDR,139.178.128.0/18,Apple
 IP-CIDR,144.178.0.0/19,Apple

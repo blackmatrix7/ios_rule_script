@@ -1,15 +1,14 @@
-#!name=重定向
-#!desc=最后更新时间 2022-02-20 02:11:18
+#!name=Redirect
+#!desc=最后更新时间 2022-06-04 17:33:09
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=61
-#!script=0
-#!force_http_engine_hosts=0
-#!mitm=5
+#!redirect=62
+#!mitm=123
+#!total=185
 
 [URL Rewrite]
-"(^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d/msgfeed).+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+)" $1&s_locale=zh-Hans_PH$6&sim_code=51503$8 header
-"(^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+)" $1&s_locale=zh-Hans_PH$35&sim_code=51503$5 header
+"(^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d\/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+)" $1&s_locale=zh-Hans_PH$6&sim_code=51503$8 302
+"(^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+)" $1&s_locale=zh-Hans_PH$35&sim_code=51503$5 302
 "^http:\/\/(www.)?aicoin\.cn\/$" https://www.aicoin.com/ 302
 "^http?:\/\/(www.)?jd\.com\/" https://www.jd.com/ 302
 "^https?:\/\/(ditu|maps).google\.cn" https://maps.google.com 302
@@ -18,7 +17,7 @@
 "^https?:\/\/(www.)?(mycleanmymac|xitongqingli)\.com\/" https://macpaw.com/ 302
 "^https?:\/\/(www.)?abbyychina\.com\/" https://www.abbyy.cn/ 302
 "^https?:\/\/(www.)?alienskins\.cn\/" https://exposure.software/ 302
-"^https?:\/\/(www.)?anydeskchina.cn/" https://anydesk.com/zhs 302
+"^https?:\/\/(www.)?anydeskchina\.cn\/" https://anydesk.com/zhs 302
 "^https?:\/\/(www.)?bartender\.cc\/" https://www.macbartender.com/ 302
 "^https?:\/\/(www.)?beyondcompare\.cc\/" https://www.scootersoftware.com/ 302
 "^https?:\/\/(www.)?bingdianhuanyuan\.cn\/" https://www.faronics.com/zh-hans/products/deep-freeze 302
@@ -51,7 +50,7 @@
 "^https?:\/\/(www.)?mindmanager\.(cc|cn)\/" https://www.mindjet.com/cn/ 302
 "^https?:\/\/(www.)?mindmapper\.cc\/" https://www.mindmapper.com/ 302
 "^https?:\/\/(www.)?nicelabel\.cc\/" https://www.nicelabel.com/zh/ 302
-"^https?:\/\/(www.)?ntfsformac\.cc\/" https://china.paragon-software.com/home-mac/ntfs-for-mac/ 302
+"^https?:\/\/(www.)?ntfsformac\.cn\/" https://china.paragon-software.com/home-mac/ntfs-for-mac/ 302
 "^https?:\/\/(www.)?officesoftcn\.com\/" https://www.microsoft.com/zh-cn/microsoft-365 302
 "^https?:\/\/(www.)?overturechina\.com\/" https://sonicscores.com/ 302
 "^https?:\/\/(www.)?passwordrecovery\.cn\/" https://cn.elcomsoft.com/aopr.html 302
@@ -65,10 +64,12 @@
 "^https?:\/\/(www.)?yhd\.com\/" https://yhd.com/ 302
 "^https?:\/\/(www.)?yuanchengxiezuo\.com\/" https://www.teamviewer.com/ 302
 "^https?:\/\/(www.)?zbrushcn.com/" https://pixologic.com/ 302
+"^https?:\/\/(www.)?zbrushcn\.com/" https://pixologic.com/ 302
 "^https?:\/\/cn\.ultraiso\.net\/" https://cn.ezbsystems.com/ultraiso/ 302
 "^https?:\/\/hypersnap\.mairuan\.com\/" https://www.keyshot.com/ 302
 "^https?:\/\/logoshejishi\.mairuan\.com\/" https://www.sothink.com/product/logo-design-software/ 302
 "^https?:\/\/you\.163\.com\/" https://you.163.com/ 302
 
+
 [MITM]
-hostname = %APPEND% *.google.cn,api.abema.io,app.biliintl.com,passport.biliintl.com,www.firefox.com.cn
+hostname = %APPEND% abbyychina.com,aicoin.cn,alienskins.cn,anydeskchina.cn,app.biliintl.com,bartender.cc,beyondcompare.cc,bingdianhuanyuan.cn,chemdraw.com.cn,cn.ultraiso.net,codesoftchina.com,coreldrawchina.com,crossoverchina.com,ditu.google.cn,dongmansoft.com,earmasterchina.cn,easyrecoverychina.com,ediuschina.com,firefox.com.cn,flstudiochina.com,folxchina.cn,formysql.com,g.cn,google.cn,guitarpro.cc,huishenghuiying.com.cn,hypeapp.cn,hypersnap.mairuan.com,iconworkshop.cn,idmchina.net,ign.xn--fiqs8s,imazingchina.com,imindmap.cc,jd.com,jihehuaban.com.cn,kingdeecn.cn,logoshejishi.com,logoshejishi.mairuan.com,luping.net.cn,map.google.cn,mathtype.cn,mi.com,mindmanager.cc,mindmanager.cn,mindmapper.cc,mycleanmymac.com,nicelabel.cc,ntfsformac.cn,officesoftcn.com,overturechina.com,passport.biliintl.com,passwordrecovery.cn,pdfexpert.cc,photozoomchina.com,shankejingling.com,suning.com,taobao.com,vegaschina.cn,www.abbyychina.com,www.aicoin.cn,www.alienskins.cn,www.anydeskchina.cn,www.bartender.cc,www.betterzip.com,www.betterzip.net,www.betterzipcn.com,www.betterzipcn.net,www.beyondcompare.cc,www.bingdianhuanyuan.cn,www.chemdraw.com.cn,www.codesoftchina.com,www.coreldrawchina.com,www.crossoverchina.com,www.dongmansoft.com,www.earmasterchina.cn,www.easyrecoverychina.com,www.ediuschina.com,www.firefox.com.cn,www.flstudiochina.com,www.folxchina.cn,www.formysql.com,www.g.cn,www.google.cn,www.guitarpro.cc,www.huishenghuiying.com.cn,www.hypeapp.cn,www.iconworkshop.cn,www.idmchina.net,www.ign.xn--fiqs8s,www.imazingchina.com,www.imindmap.cc,www.jd.com,www.jihehuaban.com.cn,www.kingdeecn.cn,www.logoshejishi.com,www.luping.net.cn,www.mathtype.cn,www.mi.com,www.mindmanager.cc,www.mindmanager.cn,www.mindmapper.cc,www.mycleanmymac.com,www.nicelabel.cc,www.ntfsformac.cn,www.officesoftcn.com,www.overturechina.com,www.passwordrecovery.cn,www.pdfexpert.cc,www.photozoomchina.com,www.shankejingling.com,www.suning.com,www.taobao.com,www.xitongqingli.com,www.xshellcn.com,www.yhd.com,www.yuanchengxiezuo.com,www.zbrushcn.com,xitongqingli.com,xshellcn.com,yhd.com,you.163.com,yuanchengxiezuo.com,zbrushcn.com

@@ -1,10 +1,14 @@
 # NAME: ByteDance
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-04 02:12:14
-# DOMAIN-SUFFIX: 268
+# UPDATED: 2022-06-04 17:25:28
+# DOMAIN: 1
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 282
 # IP-CIDR: 1
-# TOTAL: 269
+# USER-AGENT: 1
+# TOTAL: 286
+DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN-SUFFIX,2333333333333.com
 DOMAIN-SUFFIX,365yg.com
 DOMAIN-SUFFIX,activitybyte.com
@@ -38,9 +42,12 @@ DOMAIN-SUFFIX,bytednsdoc.com
 DOMAIN-SUFFIX,bytefcdn.com
 DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,bytescm.com
 DOMAIN-SUFFIX,bytesfield.com
 DOMAIN-SUFFIX,bytesmanager.com
+DOMAIN-SUFFIX,bytetcc.com
+DOMAIN-SUFFIX,bytetos.com
 DOMAIN-SUFFIX,bytexservice.com
 DOMAIN-SUFFIX,cdndns1.com
 DOMAIN-SUFFIX,cdndns2.com
@@ -113,6 +120,9 @@ DOMAIN-SUFFIX,huoshanxiaoshipin.net
 DOMAIN-SUFFIX,huoshanzhibo.cn
 DOMAIN-SUFFIX,huoshanzhibo.com
 DOMAIN-SUFFIX,huoshanzhibo.net
+DOMAIN-SUFFIX,ibytedapm.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,icphoto.cn
 DOMAIN-SUFFIX,idouyinpic.com
 DOMAIN-SUFFIX,idouyinstatic.com
@@ -131,6 +141,7 @@ DOMAIN-SUFFIX,ihst8.com
 DOMAIN-SUFFIX,ihuoshanimg.com
 DOMAIN-SUFFIX,ihuoshanvod.com
 DOMAIN-SUFFIX,inluckcalendar.com
+DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,ixgvideo.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,ixiguavideo.com
@@ -157,6 +168,8 @@ DOMAIN-SUFFIX,luckincalendar.com
 DOMAIN-SUFFIX,luckycalendar.cn
 DOMAIN-SUFFIX,mobilelegends.com
 DOMAIN-SUFFIX,moonton.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,muyewx.com
 DOMAIN-SUFFIX,neihancommunity.cn
 DOMAIN-SUFFIX,neihancommunity.com
@@ -189,6 +202,7 @@ DOMAIN-SUFFIX,qmoji.net
 DOMAIN-SUFFIX,ribaoapi.com
 DOMAIN-SUFFIX,ribaocdn.com
 DOMAIN-SUFFIX,samasty.com
+DOMAIN-SUFFIX,sgpstatp.com
 DOMAIN-SUFFIX,smartisan.cn
 DOMAIN-SUFFIX,smartisan.com
 DOMAIN-SUFFIX,smartisanos.cn
@@ -196,6 +210,10 @@ DOMAIN-SUFFIX,smartisanos.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,tekkenthree.com
 DOMAIN-SUFFIX,tetrisone.com
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,toscdn.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,toutiao11.com
@@ -273,4 +291,6 @@ DOMAIN-SUFFIX,zjbyte.net
 DOMAIN-SUFFIX,zjcdn.com
 DOMAIN-SUFFIX,zjgslb.com
 DOMAIN-SUFFIX,zjurl.cn
+DOMAIN-KEYWORD,-tiktokcdn-com
+USER-AGENT,TikTok*
 IP-CIDR,114.246.10.65/32,no-resolve

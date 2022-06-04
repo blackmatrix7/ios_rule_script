@@ -1,0 +1,19 @@
+#!name= TikTokUS
+#!desc= 最后更新时间 2022-06-04 17:33:19
+#!openUrl= https://github.com/Semporia/TikTok-Unlock
+#!author= Semporia
+#!homepage= https://github.com/Semporia/TikTok-Unlock
+#!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
+#!redirect= 4
+#!mitm= 3
+#!total= 7
+
+
+[URL Rewrite]
+(?<=&mcc_mnc=)4 2 307
+(?<=_region=)CN(?=&) KR 307
+(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+
+[MITM]
+hostname = *.byteoversea.com,*.tik-tokapi.com,*.tiktokv.com

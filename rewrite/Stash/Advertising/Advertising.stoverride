@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2022-06-04 18:37:59
+desc: 最后更新时间 2022-06-06 02:27:51
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 403
-# mitm: 348
+# reject: 404
+# mitm: 349
 # force-http-engine-hosts: 6
-# total: 757
+# total: 759
 
 
 
@@ -13,6 +13,7 @@ desc: 最后更新时间 2022-06-04 18:37:59
 
 http:
   rewrite:
+    - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
     - ^https:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData - reject
@@ -600,6 +601,7 @@ http:
     - "gateway.shouqiev.com:0"
     - "gfp.veta.naver.com"
     - "gg*.cmvideo.cn"
+    - "god.gameyw.netease.com"
     - "gw-passenger.01zhuanche.com"
     - "gw.aihuishou.com"
     - "gw.alicdn.com"

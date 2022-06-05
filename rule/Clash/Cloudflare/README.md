@@ -12,15 +12,15 @@ Cloudflare规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-04 18:36:38
+最后更新时间：2022-06-06 02:26:33
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 22  | 
+| DOMAIN-SUFFIX | 23  | 
 | IP-CIDR | 14  | 
 | IP-CIDR6 | 7  | 
-| TOTAL | 43  | 
+| TOTAL | 44  | 
 
 
 ## Clash 

@@ -19,7 +19,7 @@ https://www.zhihu.com/question/307466160
 
 ## 规则统计
 
-最后更新时间：2022-06-04 18:37:39
+最后更新时间：2022-06-07 14:45:18
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -33,19 +33,19 @@ https://www.zhihu.com/question/307466160
 #### 规则链接
 **MASTER分支 (每日更新)**
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.txt
 
 **MASTER分支 CDN (每日更新)**
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.list
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.txt
 
 **RELEASE分支 (不定时更新)**
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.txt
 
 **RELEASE分支CDN (不定时更新)**
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.list
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.txt
 
 ## 子规则/排除规则
 

@@ -21,13 +21,13 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-07 02:26:56
+最后更新时间：2022-06-07 14:43:27
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 134413  | 
-| TOTAL | 134413  | 
+| DOMAIN-SUFFIX | 133823  | 
+| TOTAL | 133823  | 
 
 
 ## AdGuard 
@@ -35,19 +35,19 @@
 #### 规则链接
 **MASTER分支 (每日更新)**
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/AdvertisingTest/AdvertisingTest.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/AdvertisingTest/AdvertisingTest.txt
 
 **MASTER分支 CDN (每日更新)**
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/AdGuard/AdvertisingTest/AdvertisingTest.list
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/AdGuard/AdvertisingTest/AdvertisingTest.txt
 
 **RELEASE分支 (不定时更新)**
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/AdGuard/AdvertisingTest/AdvertisingTest.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/AdGuard/AdvertisingTest/AdvertisingTest.txt
 
 **RELEASE分支CDN (不定时更新)**
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/AdGuard/AdvertisingTest/AdvertisingTest.list
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/AdGuard/AdvertisingTest/AdvertisingTest.txt
 
 ## 子规则/排除规则
 

@@ -15,15 +15,15 @@ QuickConnect规则由《RULE GENERATOR 规则生成器》自动生成。
 
 并且在套件中心可安装国区被下架的套件，如Synology Chat。
 
-成功注册QuickConnect后，如果需要在手机上通过QuickConnectId登录，则手机客户端也需要使用此规则，否则会连接到国区QuickConnect，导致无法访问。
-
 此规则主要解决使用外区QuickConnect时，Synology Chat的推送问题。
 
-如果仅是为了远程访问，建议使用国区的QuickConnect以获得更好的连接体验。
+并不能帮你通过外区的QuickConnect访问NAS。
+
+为了远程访问，建议使用国区的QuickConnect以获得更好的连接体验。
 
 ## 规则统计
 
-最后更新时间：2022-06-07 02:28:41
+最后更新时间：2022-06-07 14:45:38
 
 各类型规则统计：
 | 类型 | 数量(条)  | 

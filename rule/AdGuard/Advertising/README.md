@@ -15,13 +15,13 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-07 02:26:13
+最后更新时间：2022-06-07 14:42:37
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 121512  | 
-| TOTAL | 121512  | 
+| DOMAIN-SUFFIX | 121313  | 
+| TOTAL | 121313  | 
 
 
 ## AdGuard 
@@ -29,19 +29,19 @@
 #### 规则链接
 **MASTER分支 (每日更新)**
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/Advertising/Advertising.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/Advertising/Advertising.txt
 
 **MASTER分支 CDN (每日更新)**
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/AdGuard/Advertising/Advertising.list
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/AdGuard/Advertising/Advertising.txt
 
 **RELEASE分支 (不定时更新)**
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/AdGuard/Advertising/Advertising.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/AdGuard/Advertising/Advertising.txt
 
 **RELEASE分支CDN (不定时更新)**
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/AdGuard/Advertising/Advertising.list
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/AdGuard/Advertising/Advertising.txt
 
 ## 子规则/排除规则
 

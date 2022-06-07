@@ -1,11 +1,11 @@
 # NAME: Download
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-06-04 18:36:44
+# UPDATED: 2022-06-07 14:44:11
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN-KEYWORD: 5
-# URL-REGEX: 5
-# TOTAL: 10
+# URL-REGEX: 4
+# TOTAL: 9
 DOMAIN-KEYWORD,aria2
 DOMAIN-KEYWORD,thunder
 DOMAIN-KEYWORD,xlliveud
@@ -15,4 +15,3 @@ URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
 URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
 URL-REGEX,(Subject|HELO|SMTP)
 URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
-URL-REGEX,(torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=)

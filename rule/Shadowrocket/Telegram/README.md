@@ -12,7 +12,7 @@ Telegram规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-07 02:27:27
+最后更新时间：2022-06-07 14:44:03
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -79,6 +79,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Shadowrock
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Telegram/TelegramSG.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Telegram/TelegramUS.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt
+- https://core.telegram.org/resources/cidr.txt
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

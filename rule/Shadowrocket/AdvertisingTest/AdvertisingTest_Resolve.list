@@ -1,14 +1,14 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-06-07 02:26:55
+# UPDATED: 2022-06-07 14:43:26
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
-# DOMAIN: 46200
+# DOMAIN: 45977
 # DOMAIN-KEYWORD: 256
-# DOMAIN-SUFFIX: 88222
+# DOMAIN-SUFFIX: 87855
 # IP-CIDR: 256
-# URL-REGEX: 305
-# TOTAL: 135239
+# URL-REGEX: 303
+# TOTAL: 134647
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,adashx
@@ -302,7 +302,6 @@ URL-REGEX,^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/
 URL-REGEX,^https?:\/\/7n\.bczcdn\.com\/launchad\/
 URL-REGEX,^https?:\/\/9377\w{2}\.com
 URL-REGEX,^https?:\/\/[\s\s]*baidu\.com/.*ad[xs]\.php
-URL-REGEX,^https?:\/\/[^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(/|\.js)
 URL-REGEX,^https?:\/\/[^bbs].tianya\.cn
 URL-REGEX,^https?:\/\/\w+?\.ximalaya\.com\/api\/v\d\/adRealTime
 URL-REGEX,^https?:\/\/\w+\.cloudfront\.net\/banner
@@ -456,7 +455,6 @@ URL-REGEX,^https?:\/\/impservice.+?youdao.com
 URL-REGEX,^https?:\/\/ios\.lantouzi\.com\/api\/startpage
 URL-REGEX,^https?:\/\/ios\.wps\.cn\/ad-statistics-service
 URL-REGEX,^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/(guanggao|ts_ad)\/
-URL-REGEX,^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903
 URL-REGEX,^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\?
 URL-REGEX,^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml
 URL-REGEX,^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm

@@ -12,14 +12,14 @@ Download规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-07 02:27:34
+最后更新时间：2022-06-07 14:44:11
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 5  | 
-| URL-REGEX | 5  | 
-| TOTAL | 10  | 
+| URL-REGEX | 4  | 
+| TOTAL | 9  | 
 
 
 ## Shadowrocket 

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2022-06-07 16:03:26
+desc: 最后更新时间 2022-06-08 02:28:57
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 403
-# mitm: 348
+# reject: 406
+# mitm: 351
 # force-http-engine-hosts: 6
-# total: 757
+# total: 763
 
 
 
@@ -15,6 +15,9 @@ http:
   rewrite:
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
     - ^https:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
+    - ^https?://amap\-aos\-info\-nogw\.amap\.com/ws/aos/alimama/ - reject
+    - ^https?://gab\.122\.gov\.cn/eapp/m/sysquery - reject
+    - ^https?://zone\.guiderank-app\.com/guiderank-web/app/ad/listLaunchADByCity\.do - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
@@ -473,6 +476,7 @@ http:
     - "adpai.thepaper.cn"
     - "aes.acfun.cn"
     - "agent-count.pconline.com.cn"
+    - "amap-aos-info-nogw.amap.com"
     - "ap*.smzdm.com"
     - "api*.futunn.com"
     - "api-access.pangolin-sdk-toutiao.com"
@@ -595,6 +599,7 @@ http:
     - "flowplus.meituan.net"
     - "foodie-api.yiruikecorp.com"
     - "g.cdn.pengpengla.com"
+    - "gab.122.gov.cn"
     - "games.mobileapi.hupu.com"
     - "gateway.shouqiev.com"
     - "gateway.shouqiev.com:0"
@@ -775,3 +780,4 @@ http:
     - "yxyapi*.drcuiyutao.com"
     - "zhidao.baidu.com"
     - "zjh5api.189smarthome.com"
+    - "zone.guiderank-app.com"

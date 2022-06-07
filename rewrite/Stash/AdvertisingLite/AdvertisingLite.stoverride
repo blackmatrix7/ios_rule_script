@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2022-06-07 16:03:32
+desc: 最后更新时间 2022-06-08 02:29:02
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 350
-# mitm: 286
+# reject: 353
+# mitm: 289
 # force-http-engine-hosts: 6
-# total: 642
+# total: 648
 
 
 
@@ -15,6 +15,9 @@ http:
   rewrite:
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
     - ^https:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
+    - ^https?://amap\-aos\-info\-nogw\.amap\.com/ws/aos/alimama/ - reject
+    - ^https?://gab\.122\.gov\.cn/eapp/m/sysquery - reject
+    - ^https?://zone\.guiderank-app\.com/guiderank-web/app/ad/listLaunchADByCity\.do - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
@@ -388,6 +391,7 @@ http:
     - "adpai.thepaper.cn"
     - "aes.acfun.cn"
     - "agent-count.pconline.com.cn"
+    - "amap-aos-info-nogw.amap.com"
     - "api*.futunn.com"
     - "api-access.pangolin-sdk-toutiao.com"
     - "api-ks.wtzw.com"
@@ -506,6 +510,7 @@ http:
     - "flowplus.meituan.net"
     - "foodie-api.yiruikecorp.com"
     - "g.cdn.pengpengla.com"
+    - "gab.122.gov.cn"
     - "games.mobileapi.hupu.com"
     - "gateway.shouqiev.com"
     - "gfp.veta.naver.com"
@@ -660,3 +665,4 @@ http:
     - "y.gtimg.cn"
     - "yxyapi*.drcuiyutao.com"
     - "zjh5api.189smarthome.com"
+    - "zone.guiderank-app.com"

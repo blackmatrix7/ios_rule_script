@@ -1,15 +1,15 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-06-07 16:02:05
+# UPDATED: 2022-06-08 02:27:08
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
-# DOMAIN: 42
+# DOMAIN: 43
 # DOMAIN-KEYWORD: 23
-# DOMAIN-SUFFIX: 226
+# DOMAIN-SUFFIX: 231
 # IP-CIDR: 863
 # URL-REGEX: 1
 # USER-AGENT: 65
-# TOTAL: 1220
+# TOTAL: 1226
 DOMAIN,api.okzy.tv
 DOMAIN,apm-misaka.biliapi.net
 DOMAIN,apple.comscoreresearch.com
@@ -36,6 +36,7 @@ DOMAIN,intl.iqiyi.com
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN,kktv-theater.kk.stream
 DOMAIN,ktpx.amazon.com
+DOMAIN,mobile-collector.newrelic.com
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN,netflix.com.edgesuite.net
@@ -79,6 +80,7 @@ DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
 DOMAIN-SUFFIX,bidi.net.uk
 DOMAIN-SUFFIX,biliintl.com
+DOMAIN-SUFFIX,bitmovin.com
 DOMAIN-SUFFIX,boltdns.net
 DOMAIN-SUFFIX,bootstrapcdn.com
 DOMAIN-SUFFIX,braze.com
@@ -122,8 +124,12 @@ DOMAIN-SUFFIX,emarsys.net
 DOMAIN-SUFFIX,emome.net
 DOMAIN-SUFFIX,encoretvb.com
 DOMAIN-SUFFIX,ext-twitch.tv
+DOMAIN-SUFFIX,f1esports.com
+DOMAIN-SUFFIX,f1manager.com
+DOMAIN-SUFFIX,f1play.com
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,formula1.com
 DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxdcg.com
 DOMAIN-SUFFIX,foxplay.com

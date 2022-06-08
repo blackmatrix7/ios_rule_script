@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2022-06-08 02:29:00
+desc: 最后更新时间 2022-06-08 17:47:50
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 4
@@ -8,10 +8,10 @@ desc: 最后更新时间 2022-06-08 02:29:00
 # http-request-script: 1
 # http-response-script: 27
 # redirect: 8
-# reject: 369
-# mitm: 388
+# reject: 374
+# mitm: 419
 # force-http-engine-hosts: 6
-# total: 805
+# total: 841
 
 
 
@@ -34,6 +34,11 @@ http:
     - ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302
     - ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
     - ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
+    - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
+    - ^https:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
+    - ^https?://amap\-aos\-info\-nogw\.amap\.com/ws/aos/alimama/ - reject
+    - ^https?://gab\.122\.gov\.cn/eapp/m/sysquery - reject
+    - ^https?://zone\.guiderank-app\.com/guiderank-web/app/ad/listLaunchADByCity\.do - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
@@ -250,7 +255,6 @@ http:
     - ^https?:\/\/ios\.lantouzi\.com\/api\/startpage - reject
     - ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
     - ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/(guanggao|ts_ad)\/ - reject
-    - ^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903 - reject
     - ^https?:\/\/js\.dilidd\.com\/top\.php - reject
     - ^https?:\/\/jxd524\.github\.io\/iFreeTime\/xid32uxaoecnfv2\/ - reject
     - ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? - reject
@@ -400,6 +404,7 @@ http:
     - ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d - reject
     - ^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$ - reject
     - ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ - reject
+    - ^https?:\/\/yxhd\.hori-gz\.com\/\/jfmsApi\/commandWord\/commandWordInfo - reject
     - ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
     - ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
@@ -604,29 +609,45 @@ http:
       argument:
 
   force-http-engine:
-    - "*.ott.cibntv.net"
     - "intl.iqiyi.com"
     - "maicai.api.ddxq.mobi"
     - "mobileapi-v6.elong.com"
-    - "weibointl.api.weibo.cn"
     - "wmapi.meituan.com"
+    - "weibointl.api.weibo.cn"
+    - "*.ott.cibntv.net"
 
   mitm:
     - "*.58cdn.com.cn"
+    - "*.bebi.com"
+    - "*.google.cn"
+    - "*.iiilab.com"
     - "*.iydsj.com"
     - "*.jstucdn.com"
+    - "*.k.sohu.com"
     - "*.kakamobi.cn"
     - "*.kingsoft-office-service.com"
+    - "*.musical.ly"
+    - "*.nfmovies.com"
     - "*.ott.cibntv.net"
+    - "*.pornhub.com"
     - "*.pstatp.com"
     - "*.tc.qq.com"
+    - "*.tiktokv.com"
     - "*.tv.sohu.com"
+    - "*.uve.weibo.com"
+    - "*.weibo.cn"
+    - "*.wtzw.com"
     - "*.ximalaya.com"
     - "*.zhangle.com"
-    - "103.41.167.226"
-    - "103.41.167.234"
-    - "103.41.167.235"
-    - "103.41.167.236"
+    - "101.201.175.228"
+    - "103.41.167.*"
+    - "115.159.231.79"
+    - "119.18.193.135"
+    - "122.14.246.33"
+    - "123.59.31.1"
+    - "154.8.131.171"
+    - "175.102.178.52"
+    - "182.92.251.113"
     - "203.205.255.16"
     - "3gimg.qq.com"
     - "47.97.20.12"
@@ -640,10 +661,11 @@ http:
     - "adpai.thepaper.cn"
     - "aes.acfun.cn"
     - "agent-count.pconline.com.cn"
+    - "amap-aos-info-nogw.amap.com"
+    - "ap*.smzdm.com"
     - "api*.futunn.com"
     - "api-access.pangolin-sdk-toutiao.com"
-    - "api-ks.wtzw.com"
-    - "api-mifit.huami.com"
+    - "api-mifit*.huami.com"
     - "api-new.app.acfun.cn"
     - "api-one.wallstcn.com"
     - "api-release.wuta-cam.com"
@@ -670,7 +692,6 @@ http:
     - "api.izuiyou.com"
     - "api.jr.mi.com"
     - "api.jxedt.com"
-    - "api.k.sohu.com"
     - "api.kkmh.com"
     - "api.laifeng.com"
     - "api.m.jd.com"
@@ -686,6 +707,7 @@ http:
     - "api.vistopia.com.cn"
     - "api.vuevideo.net"
     - "api.waitwaitpay.com"
+    - "api.wallstcn.com"
     - "api.wallstreetcn.com"
     - "api.xiachufang.com"
     - "api.xueqiu.com"
@@ -696,7 +718,6 @@ http:
     - "apimobile.meituan.com"
     - "app-api.jinse.com"
     - "app-api.niu.com"
-    - "app-api.smzdm.com"
     - "app-gw.csdn.net"
     - "app.58.com"
     - "app.api.ke.com"
@@ -744,7 +765,6 @@ http:
     - "cms.daydaycook.com.cn"
     - "cmsapi.dmall.com"
     - "cmsapi.wifi8.com"
-    - "cn.pornhub.com"
     - "cn.ultraiso.net"
     - "cntv.hls.cdn.myqcloud.com"
     - "consumer.fcbox.com"
@@ -757,8 +777,8 @@ http:
     - "daoyu.sdo.com"
     - "dict-mobile.iciba.com"
     - "dili.bdatu.com"
-    - "ditu.google.cn"
     - "dl.app.gtja.com"
+    - "dmhy.anoneko.com"
     - "dsa-mfp.fengshows.cn"
     - "dsp-impr2.youdao.com"
     - "dsp-x.jd.com"
@@ -772,10 +792,13 @@ http:
     - "fmapp.chinafamilymart.com.cn"
     - "foodie-api.yiruikecorp.com"
     - "g.cdn.pengpengla.com"
+    - "gab.122.gov.cn"
     - "games.mobileapi.hupu.com"
     - "gateway.shouqiev.com"
+    - "gateway.shouqiev.com:0"
     - "gfp.veta.naver.com"
     - "gg*.cmvideo.cn"
+    - "god.gameyw.netease.com"
     - "gw-passenger.01zhuanche.com"
     - "gw.aihuishou.com"
     - "gw.alicdn.com"
@@ -797,7 +820,7 @@ http:
     - "images.client.vip.xunlei.com"
     - "imeclient.openspeech.cn"
     - "img*.10101111cdn.com"
-    - "img.360buyimg.com"
+    - "img*.360buyimg.com"
     - "img.jiemian.com"
     - "img.meituan.net"
     - "img.umetrip.com"
@@ -806,9 +829,10 @@ http:
     - "ios.lantouzi.com"
     - "ios.wps.cn"
     - "issuecdn.baidupcs.com"
-    - "itunes.apple.com"
     - "js.dilidd.com"
+    - "jump2.bdimg.com"
     - "jxd524.github.io"
+    - "kaola-haitao.oss.kaolacdn.com"
     - "learn.chaoxing.com"
     - "list-app-m.i4.cn"
     - "logoshejishi.mairuan.com"
@@ -819,22 +843,26 @@ http:
     - "m.ctrip.com"
     - "m.ibuscloud.com"
     - "m.tuniu.com"
+    - "m.yap.yahoo.com"
     - "m.yhdm.io"
+    - "m.youdao.com"
     - "ma.ofo.com"
     - "mage.if.qidian.com"
     - "magev6.if.qidian.com"
     - "maicai.api.ddxq.mobi"
     - "mangaapi.manhuaren.com"
-    - "map.google.cn"
     - "mapi.dangdang.com"
     - "mapi.mafengwo.cn"
+    - "mapi.weibo.com"
     - "media.qyer.com"
     - "mi.gdt.qq.com"
     - "mime.baidu.com"
     - "mlife.jf365.boc.cn"
     - "mm.app.joox.com"
+    - "mob.mddcloud.com"
     - "mob.mddcloud.com.cn"
     - "mobi.360doc.com"
+    - "mobile-api2011.elong.com"
     - "mobile-pic.cache.iciba.com"
     - "mobileapi-v6.elong.com"
     - "mp.weixin.qq.com"
@@ -845,8 +873,11 @@ http:
     - "ms.jr.jd.com"
     - "msg.umengcloud.com"
     - "msspjh.emarbox.com"
+    - "newclient.map.baidu.com"
     - "news.ssp.qq.com"
+    - "newsso.map.qq.com"
     - "nnapp.cloudbae.cn"
+    - "nnapp.cloudbae.cn:0"
     - "nochange.ggsafe.com"
     - "notch.qdaily.com"
     - "oimage*.ydstatic.com"
@@ -859,11 +890,12 @@ http:
     - "pan.baidu.com"
     - "passport.biliintl.com"
     - "pic*.ajkimg.com"
+    - "pic*.chelaile.net"
     - "pic.edaijia.cn"
-    - "pic.k.sohu.com"
     - "pic1.chelaile.net.cn"
     - "pic1cdn.cmbchina.com"
     - "portal-xunyou.qingcdn.com"
+    - "promo.xueqiu.com"
     - "pss.txffp.com"
     - "qt.qq.com"
     - "r.inews.qq.com"
@@ -871,6 +903,7 @@ http:
     - "render.alipay.com"
     - "res-release.wuta-cam.com"
     - "res.xiaojukeji.com"
+    - "resrelease.wuta-cam.com"
     - "restapi.iyunmai.com"
     - "richmanapi.jxedt.com"
     - "rtbapi.douyucdn.cn"
@@ -879,7 +912,6 @@ http:
     - "s1.api.tv.itc.cn"
     - "s3plus.meituan.net"
     - "saad.ms.zhangyue.net"
-    - "sdkapp.uve.weibo.com"
     - "service.4gtv.tv"
     - "service.iciba.com"
     - "sh-gateway.shihuo.cn"
@@ -892,15 +924,17 @@ http:
     - "ssl.kohsocialapp.qq.com"
     - "sso.lxjapp.com"
     - "static.vuevideo.net"
+    - "static1.keepcdn.com"
     - "status.boohee.com"
     - "support.you.163.com"
     - "supportda.ofo.com"
     - "syh.zybang.com"
     - "thor.weidian.com"
     - "tiasdk.app.wechat.com"
+    - "tieba.baidu.com"
+    - "tiku.fenbi.com"
     - "tiku.zhan.com"
     - "tj.playcvn.com"
-    - "tqt.weibo.cn"
     - "tracker-download.oss-cn-beijing.aliyuncs.com"
     - "u*.iqiyipic.com"
     - "v*-api.miaopai.com"
@@ -909,8 +943,8 @@ http:
     - "vali.cp31.ott.cibntv.net"
     - "video.dispatch.tc.qq.com"
     - "vv.video.qq.com"
+    - "wap.js.10086.cn"
     - "wap.ngchina.cn"
-    - "wbapp.uve.weibo.com"
     - "web.chelaile.net.cn"
     - "webboot.zhangyue.com"
     - "weibointl.api.weibo.cn"
@@ -946,7 +980,6 @@ http:
     - "www.folxchina.cn"
     - "www.formysql.com"
     - "www.g.cn"
-    - "www.google.cn"
     - "www.guitarpro.cc"
     - "www.huishenghuiying.com.cn"
     - "www.hxeduonline.com"
@@ -979,11 +1012,11 @@ http:
     - "www.passwordrecovery.cn"
     - "www.pdfexpert.cc"
     - "www.photozoomchina.com"
-    - "www.pornhub.com"
     - "www.shankejingling.com"
     - "www.shihuo.cn"
     - "www.suning.com"
     - "www.taobao.com"
+    - "www.tieba.com"
     - "www.xiaohongshu.com"
     - "www.xitongqingli.com"
     - "www.xshellcn.com"
@@ -996,10 +1029,13 @@ http:
     - "xyz.cnki.net"
     - "y.gtimg.cn"
     - "you.163.com"
+    - "yxhd.hori-gz.com"
     - "yxyapi*.drcuiyutao.com"
+    - "zhidao.baidu.com"
     - "zhiyou.m.smzdm.com"
     - "zhuanlan.zhihu.com"
     - "zjh5api.189smarthome.com"
+    - "zone.guiderank-app.com"
 
 script-providers:
   bilibili_plus.js_243478f2:

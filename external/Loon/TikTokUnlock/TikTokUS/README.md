@@ -18,7 +18,7 @@ TikTok 解锁，来自于Semporia的https://github.com/Semporia/TikTok-Unlock。
 
 ## 规则统计
 
-最后更新时间：2022-06-08 17:47:57
+最后更新时间：2022-06-10 02:30:44
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -56,7 +56,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/external/Loon/T
 
 《TikTok(美国解锁)》的数据来自以下链接，如与本项目的《TikTok(美国解锁)》规则混合使用，可能造成部分重写重复。
 
-- https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-kR.sgmodule
+- https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-US.sgmodule
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

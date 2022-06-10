@@ -12,17 +12,17 @@ China规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-08 17:46:18
+最后更新时间：2022-06-10 15:11:33
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 18  | 
 | DOMAIN-KEYWORD | 10  | 
-| DOMAIN-SUFFIX | 553  | 
+| DOMAIN-SUFFIX | 554  | 
 | IP-CIDR | 10  | 
 | IP-CIDR6 | 4  | 
-| TOTAL | 595  | 
+| TOTAL | 596  | 
 
 
 ## Clash 

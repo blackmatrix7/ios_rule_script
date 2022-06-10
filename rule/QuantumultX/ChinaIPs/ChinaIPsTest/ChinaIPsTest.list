@@ -1,10 +1,10 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-06-10 02:29:52
+# UPDATED: 2022-06-10 15:12:37
 # IP-CIDR: 6644
-# IP6-CIDR: 4515
-# TOTAL: 11159
+# IP6-CIDR: 4479
+# TOTAL: 11123
 IP-CIDR,1.0.1.0/24,ChinaIPsTest
 IP-CIDR,1.0.2.0/23,ChinaIPsTest
 IP-CIDR,1.0.32.0/19,ChinaIPsTest
@@ -6678,7 +6678,6 @@ IP6-CIDR,2001:df0:26c0::/48,ChinaIPsTest
 IP6-CIDR,2001:df0:2d80::/48,ChinaIPsTest
 IP6-CIDR,2001:df0:2e00::/48,ChinaIPsTest
 IP6-CIDR,2001:df0:2e80::/48,ChinaIPsTest
-IP6-CIDR,2001:df0:423::/48,ChinaIPsTest
 IP6-CIDR,2001:df0:59c0::/48,ChinaIPsTest
 IP6-CIDR,2001:df0:85c0::/48,ChinaIPsTest
 IP6-CIDR,2001:df0:8d40::/48,ChinaIPsTest
@@ -6726,7 +6725,6 @@ IP6-CIDR,2001:df4:1500::/48,ChinaIPsTest
 IP6-CIDR,2001:df4:1880::/48,ChinaIPsTest
 IP6-CIDR,2001:df4:2780::/48,ChinaIPsTest
 IP6-CIDR,2001:df4:2e80::/48,ChinaIPsTest
-IP6-CIDR,2001:df4:2f00::/48,ChinaIPsTest
 IP6-CIDR,2001:df4:3c80::/48,ChinaIPsTest
 IP6-CIDR,2001:df4:3d80::/48,ChinaIPsTest
 IP6-CIDR,2001:df4:4b80::/48,ChinaIPsTest
@@ -8071,7 +8069,7 @@ IP6-CIDR,2404:f4c0:f54e::/48,ChinaIPsTest
 IP6-CIDR,2404:f4c0:f700::/47,ChinaIPsTest
 IP6-CIDR,2404:f4c0:f703::/48,ChinaIPsTest
 IP6-CIDR,2404:f4c0:f704::/48,ChinaIPsTest
-IP6-CIDR,2404:f4c0:f706::/47,ChinaIPsTest
+IP6-CIDR,2404:f4c0:f706::/48,ChinaIPsTest
 IP6-CIDR,2404:f4c0:f708::/48,ChinaIPsTest
 IP6-CIDR,2404:f4c0:f70f::/48,ChinaIPsTest
 IP6-CIDR,2404:f4c0:f720::/48,ChinaIPsTest
@@ -8096,7 +8094,6 @@ IP6-CIDR,2404:f4c0:fd04::/47,ChinaIPsTest
 IP6-CIDR,2404:f4c0:fd06::/48,ChinaIPsTest
 IP6-CIDR,2404:f4c0:fe10::/44,ChinaIPsTest
 IP6-CIDR,2404:f4c0:feff::/48,ChinaIPsTest
-IP6-CIDR,2404:f4c0:ff01::/48,ChinaIPsTest
 IP6-CIDR,2404:f4c0:ff04::/48,ChinaIPsTest
 IP6-CIDR,2404:f4c0:ff06::/47,ChinaIPsTest
 IP6-CIDR,2404:f4c0:ff0f::/48,ChinaIPsTest
@@ -8104,16 +8101,6 @@ IP6-CIDR,2404:f4c0:ff10::/46,ChinaIPsTest
 IP6-CIDR,2404:f4c0:ff1f::/48,ChinaIPsTest
 IP6-CIDR,2404:f4c0:fff0::/48,ChinaIPsTest
 IP6-CIDR,2404:f7c0::/32,ChinaIPsTest
-IP6-CIDR,2404:f801:9001::/48,ChinaIPsTest
-IP6-CIDR,2404:f801:9002::/47,ChinaIPsTest
-IP6-CIDR,2404:f801:9004::/46,ChinaIPsTest
-IP6-CIDR,2404:f801:9008::/45,ChinaIPsTest
-IP6-CIDR,2404:f801:9010::/44,ChinaIPsTest
-IP6-CIDR,2404:f801:9020::/43,ChinaIPsTest
-IP6-CIDR,2404:f801:9040::/42,ChinaIPsTest
-IP6-CIDR,2404:f801:9080::/41,ChinaIPsTest
-IP6-CIDR,2404:f801:9100::/40,ChinaIPsTest
-IP6-CIDR,2404:f801:9200::/39,ChinaIPsTest
 IP6-CIDR,2404:f80::/32,ChinaIPsTest
 IP6-CIDR,2405:1080::/32,ChinaIPsTest
 IP6-CIDR,2405:1180::/32,ChinaIPsTest
@@ -9356,8 +9343,6 @@ IP6-CIDR,2405:e80::/32,ChinaIPsTest
 IP6-CIDR,2405:ed40::/32,ChinaIPsTest
 IP6-CIDR,2405:ee80::/32,ChinaIPsTest
 IP6-CIDR,2405:ef40::/30,ChinaIPsTest
-IP6-CIDR,2405:f080:400::/39,ChinaIPsTest
-IP6-CIDR,2405:f080:600::/48,ChinaIPsTest
 IP6-CIDR,2405:f340::/32,ChinaIPsTest
 IP6-CIDR,2405:f380::/32,ChinaIPsTest
 IP6-CIDR,2405:f3c0::/32,ChinaIPsTest
@@ -9903,31 +9888,8 @@ IP6-CIDR,2602:feda:2f0::/48,ChinaIPsTest
 IP6-CIDR,2602:feda:3ab::/48,ChinaIPsTest
 IP6-CIDR,2602:feda:ae7::/48,ChinaIPsTest
 IP6-CIDR,2602:feda:af3::/48,ChinaIPsTest
-IP6-CIDR,2602:feda:c00::/42,ChinaIPsTest
-IP6-CIDR,2602:feda:c40::/44,ChinaIPsTest
-IP6-CIDR,2602:feda:c60::/43,ChinaIPsTest
-IP6-CIDR,2602:feda:c80::/43,ChinaIPsTest
-IP6-CIDR,2602:feda:ca0::/48,ChinaIPsTest
-IP6-CIDR,2602:feda:ca2::/47,ChinaIPsTest
-IP6-CIDR,2602:feda:ca4::/46,ChinaIPsTest
-IP6-CIDR,2602:feda:ca8::/45,ChinaIPsTest
-IP6-CIDR,2602:feda:cb0::/44,ChinaIPsTest
-IP6-CIDR,2602:feda:cc0::/42,ChinaIPsTest
-IP6-CIDR,2602:feda:d00::/42,ChinaIPsTest
-IP6-CIDR,2602:feda:d40::/43,ChinaIPsTest
-IP6-CIDR,2602:feda:d60::/44,ChinaIPsTest
-IP6-CIDR,2602:feda:d80::/42,ChinaIPsTest
-IP6-CIDR,2602:feda:dc0::/44,ChinaIPsTest
-IP6-CIDR,2602:feda:de0::/47,ChinaIPsTest
-IP6-CIDR,2602:feda:de4::/46,ChinaIPsTest
-IP6-CIDR,2602:feda:de8::/45,ChinaIPsTest
-IP6-CIDR,2602:feda:df0::/44,ChinaIPsTest
-IP6-CIDR,2602:feda:e00::/44,ChinaIPsTest
-IP6-CIDR,2602:feda:e20::/44,ChinaIPsTest
-IP6-CIDR,2602:feda:e30::/48,ChinaIPsTest
-IP6-CIDR,2602:feda:e40::/42,ChinaIPsTest
-IP6-CIDR,2602:feda:e80::/41,ChinaIPsTest
-IP6-CIDR,2602:feda:f00::/40,ChinaIPsTest
+IP6-CIDR,2602:feda:d30::/44,ChinaIPsTest
+IP6-CIDR,2602:feda:d80::/48,ChinaIPsTest
 IP6-CIDR,2605:3e80:1b00::/40,ChinaIPsTest
 IP6-CIDR,2605:640f:bcd7::/48,ChinaIPsTest
 IP6-CIDR,2605:9d80:8001::/48,ChinaIPsTest
@@ -10961,6 +10923,7 @@ IP6-CIDR,2a03:f900::/29,ChinaIPsTest
 IP6-CIDR,2a04:4e41:27:1::/64,ChinaIPsTest
 IP6-CIDR,2a04:4e41:29:1::/64,ChinaIPsTest
 IP6-CIDR,2a04:4e41:30::/64,ChinaIPsTest
+IP6-CIDR,2a04:4e41:64:1::/64,ChinaIPsTest
 IP6-CIDR,2a04:f580:8000::/48,ChinaIPsTest
 IP6-CIDR,2a04:f580:8010::/47,ChinaIPsTest
 IP6-CIDR,2a04:f580:8090::/48,ChinaIPsTest
@@ -11091,6 +11054,7 @@ IP6-CIDR,2a0e:97c0:68e::/47,ChinaIPsTest
 IP6-CIDR,2a0e:aa01:1fff::/48,ChinaIPsTest
 IP6-CIDR,2a0e:aa06:300::/40,ChinaIPsTest
 IP6-CIDR,2a0e:aa06:406::/48,ChinaIPsTest
+IP6-CIDR,2a0e:aa06:40d::/48,ChinaIPsTest
 IP6-CIDR,2a0e:aa06:40e::/48,ChinaIPsTest
 IP6-CIDR,2a0e:aa06:440::/48,ChinaIPsTest
 IP6-CIDR,2a0e:aa06:490::/44,ChinaIPsTest
@@ -11109,7 +11073,7 @@ IP6-CIDR,2a0e:aa07:f008::/48,ChinaIPsTest
 IP6-CIDR,2a0e:aa07:f012::/48,ChinaIPsTest
 IP6-CIDR,2a0e:aa07:f0d0::/47,ChinaIPsTest
 IP6-CIDR,2a0e:aa07:f0d2::/48,ChinaIPsTest
-IP6-CIDR,2a0e:aa07:f0d4::/48,ChinaIPsTest
+IP6-CIDR,2a0e:aa07:f0d4::/47,ChinaIPsTest
 IP6-CIDR,2a0e:b107:11b0::/44,ChinaIPsTest
 IP6-CIDR,2a0e:b107:12c0::/44,ChinaIPsTest
 IP6-CIDR,2a0e:b107:147d::/48,ChinaIPsTest

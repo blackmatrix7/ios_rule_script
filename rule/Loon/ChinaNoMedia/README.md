@@ -15,18 +15,18 @@ ChinaNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-08 17:47:34
+最后更新时间：2022-06-10 15:12:36
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 18  | 
 | DOMAIN-KEYWORD | 10  | 
-| DOMAIN-SUFFIX | 518  | 
+| DOMAIN-SUFFIX | 519  | 
 | IP-CIDR | 10  | 
 | IP-CIDR6 | 4  | 
 | USER-AGENT | 31  | 
-| TOTAL | 591  | 
+| TOTAL | 592  | 
 
 
 ## Loon 

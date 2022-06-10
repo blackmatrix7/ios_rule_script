@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN与DOMAIN--KEYWORD合并-9cf) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) ![](https://shields.io/badge/-MITM--HOSTNAME合并-brightgreen) ![](https://shields.io/badge/-正则推导HOSTNAME-033da7) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN与DOMAIN--KEYWORD合并-9cf) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) ![](https://shields.io/badge/-MITM--HOSTNAME合并-brightgreen) ![](https://shields.io/badge/-QuantumultX定制化规则-7cd1e3) ![](https://shields.io/badge/-正则推导HOSTNAME-033da7) 
 
 本项目的AllInOne规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -18,21 +18,17 @@ QuantumultX需要添加部分分流规则才能生效，具体配置请参照数
 
 ## 规则统计
 
-最后更新时间：2022-06-10 02:30:37
+最后更新时间：2022-06-10 17:28:37
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 4  | 
-| IP-CIDR | 1  | 
-| IP6-CIDR | 1  | 
-| USER-AGENT | 1  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
 | HTTP-RESPONSE-SCRIPT | 27  | 
-| REDIRECT | 8  | 
-| REJECT | 369  | 
-| MITM | 388  | 
-| TOTAL | 800  | 
+| REDIRECT | 62  | 
+| REJECT | 467  | 
+| MITM | 482  | 
+| TOTAL | 1039  | 
 
 
 ## QuantumultX 
@@ -84,14 +80,15 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Quantum
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Rewrite/Rewrite.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Loon/Rewrite.conf
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/Loon/Rewrite/Rewrite.list
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.lnplugin
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.lnplugin
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.sgmodule
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/General.sgmodule
 - https://raw.githubusercontent.com/GFBG-IT/QuantumultX/main/Advertising.conf
 - https://raw.githubusercontent.com/githubacct001/QuantumultX/master/Rewrite/githubacct001.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf
 - https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/Advertising.plugin
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.qxrewrite
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

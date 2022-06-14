@@ -12,17 +12,15 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-14 14:42:51
+最后更新时间：2022-06-14 16:16:12
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 1  | 
-| DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 282  | 
+| DOMAIN-SUFFIX | 270  | 
 | IP-CIDR | 1  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 286  | 
+| TOTAL | 272  | 
 
 
 ## Clash 
@@ -54,6 +52,11 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Byte
 
 
 当前分流规则，未包含其他子规则。
+
+当前分流规则，已排除以下规则：
+| 排除规则  | 
+| ----  |
+| TikTok  | 
 
 ## 数据来源
 

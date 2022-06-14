@@ -14,16 +14,20 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-14 14:44:30
+最后更新时间：2022-06-14 16:17:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
+| HOST | 3  | 
+| IP-CIDR | 1  | 
+| IP6-CIDR | 1  | 
+| USER-AGENT | 1  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
 | HTTP-RESPONSE-SCRIPT | 27  | 
 | REJECT | 16  | 
 | MITM | 23  | 
-| TOTAL | 67  | 
+| TOTAL | 73  | 
 
 
 ## QuantumultX 
@@ -65,6 +69,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Quantum
 
 《脚本去广告》的数据来自以下链接，如与本项目的《脚本去广告》规则混合使用，可能造成部分重写重复。
 
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_remove_ads.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.qxrewrite
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite

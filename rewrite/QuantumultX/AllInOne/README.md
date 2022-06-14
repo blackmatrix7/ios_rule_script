@@ -18,17 +18,21 @@ QuantumultX需要添加部分分流规则才能生效，具体配置请参照数
 
 ## 规则统计
 
-最后更新时间：2022-06-14 14:44:30
+最后更新时间：2022-06-14 16:17:38
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HTTP-REQUEST-SCRIPT | 1  | 
+| HOST | 3  | 
+| IP-CIDR | 1  | 
+| IP6-CIDR | 1  | 
+| USER-AGENT | 1  | 
+| HTTP-REQUEST-SCRIPT | 3  | 
 | HTTP-RESPONSE-SCRIPT | 27  | 
 | REDIRECT | 62  | 
 | REJECT | 467  | 
 | MITM | 482  | 
-| TOTAL | 1039  | 
+| TOTAL | 1047  | 
 
 
 ## QuantumultX 
@@ -80,6 +84,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Quantum
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Rewrite/Rewrite.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Loon/Rewrite.conf
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/Loon/Rewrite/Rewrite.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_remove_ads.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/General.sgmodule
 - https://raw.githubusercontent.com/GFBG-IT/QuantumultX/main/Advertising.conf
 - https://raw.githubusercontent.com/githubacct001/QuantumultX/master/Rewrite/githubacct001.conf

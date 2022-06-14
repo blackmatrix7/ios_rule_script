@@ -3,9 +3,9 @@
 
 |📵Advertising|  |  |  |
 | ---- | ---- | ---- | ---- |
-|[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/masterE:\Projects\RuleGenerator\temp\Github\rule\AdGuard\AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/masterE:\Projects\RuleGenerator\temp\Github\rule\AdGuard\Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/masterE:\Projects\RuleGenerator\temp\Github\rule\AdGuard\AdvertisingTest) |[AdvertisingMiTV](https://github.com/blackmatrix7/ios_rule_script/tree/masterE:\Projects\RuleGenerator\temp\Github\rule\AdGuard\AdvertisingMiTV) |
+|[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/AdvertisingTest) |[AdvertisingMiTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/AdvertisingMiTV) |
 
 
 |🚫Reject|  |  |  |
 | ---- | ---- | ---- | ---- |
-|[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/masterE:\Projects\RuleGenerator\temp\Github\rule\AdGuard\AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/masterE:\Projects\RuleGenerator\temp\Github\rule\AdGuard\Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/masterE:\Projects\RuleGenerator\temp\Github\rule\AdGuard\AdvertisingTest) |[隐私保护](https://github.com/blackmatrix7/ios_rule_script/tree/masterE:\Projects\RuleGenerator\temp\Github\rule\AdGuard\Privacy) |
+|[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/AdvertisingTest) |[隐私保护](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/Privacy) |

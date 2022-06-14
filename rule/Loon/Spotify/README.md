@@ -12,7 +12,7 @@ Spotify规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-10 21:20:45
+最后更新时间：2022-06-14 14:42:42
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -59,7 +59,6 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Loon/Spoti
 
 《Spotify》的数据来自以下链接，如与本项目的《Spotify》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Spotify.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Spotify.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Spotify.list

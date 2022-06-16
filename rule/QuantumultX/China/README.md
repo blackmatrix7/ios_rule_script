@@ -12,7 +12,7 @@ China规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-16 02:28:00
+最后更新时间：2022-06-17 02:30:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -64,6 +64,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Quantumult
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Domestic.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/CN.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/China/China.list

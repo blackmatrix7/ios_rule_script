@@ -12,17 +12,18 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-16 02:27:52
+最后更新时间：2022-06-17 02:30:20
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 43  | 
-| HOST-KEYWORD | 23  | 
-| HOST-SUFFIX | 231  | 
-| IP-CIDR | 863  | 
-| USER-AGENT | 65  | 
-| TOTAL | 1225  | 
+| HOST | 19  | 
+| HOST-KEYWORD | 21  | 
+| HOST-SUFFIX | 1190  | 
+| IP-CIDR | 912  | 
+| IP6-CIDR | 5  | 
+| USER-AGENT | 57  | 
+| TOTAL | 2204  | 
 
 
 ## QuantumultX 
@@ -57,6 +58,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Quantumult
 《GlobalMedia》的数据来自以下链接，如与本项目的《GlobalMedia》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/connershua/Quantumult/X/Filter/ForeignMedia.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/GMedia.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list

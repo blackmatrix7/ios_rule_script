@@ -12,42 +12,63 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-16 02:27:52
+最后更新时间：2022-06-17 02:30:20
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 43  | 
-| DOMAIN-KEYWORD | 23  | 
-| DOMAIN-SUFFIX | 231  | 
-| IP-CIDR | 863  | 
-| TOTAL | 1160  | 
+| DOMAIN | 19  | 
+| DOMAIN-KEYWORD | 21  | 
+| DOMAIN-SUFFIX | 1190  | 
+| IP-CIDR | 912  | 
+| IP-CIDR6 | 5  | 
+| TOTAL | 2147  | 
 
 
 ## Clash 
 
 #### 使用说明
 - GlobalMedia.yaml，请使用 behavior: "classical"。
+- GlobalMedia_Classical.yaml，请使用 behavior: "classical"。
+- GlobalMedia_Domain.yaml，请使用 behavior: "domain"。
 
 #### 配置建议
-- GlobalMedia.yaml 单独使用。
+- GlobalMedia_Domain.yaml 单独使用。
+- GlobalMedia_Classical.yaml 单独使用。
+- GlobalMedia.yaml、GlobalMedia_Domain.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
 
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain.txt
+
 **MASTER分支 CDN (每日更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Domain.txt
 
 **RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/GlobalMedia/GlobalMedia.yaml
 
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/GlobalMedia/GlobalMedia_Domain.txt
+
 **RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/GlobalMedia/GlobalMedia.yaml
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
+
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/GlobalMedia/GlobalMedia_Domain.txt
 
 ## 子规则/排除规则
 
@@ -59,6 +80,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Glob
 《GlobalMedia》的数据来自以下链接，如与本项目的《GlobalMedia》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/connershua/Quantumult/X/Filter/ForeignMedia.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/GMedia.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list

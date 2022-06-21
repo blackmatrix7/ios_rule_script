@@ -1,12 +1,12 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-06-21 02:28:58
-# DOMAIN: 46007
-# DOMAIN-KEYWORD: 259
-# DOMAIN-SUFFIX: 88510
+# UPDATED: 2022-06-22 02:28:33
+# DOMAIN: 46001
+# DOMAIN-KEYWORD: 264
+# DOMAIN-SUFFIX: 88424
 # IP-CIDR: 256
-# TOTAL: 135032
+# TOTAL: 134945
 payload:
   - DOMAIN-KEYWORD,112wan
   - DOMAIN-KEYWORD,789htbet
@@ -126,6 +126,7 @@ payload:
   - DOMAIN-KEYWORD,assets.51downapp.cn
   - DOMAIN-KEYWORD,audid-api.taobao.com
   - DOMAIN-KEYWORD,av1.xdrig.com
+  - DOMAIN-KEYWORD,bds.snssdk.com
   - DOMAIN-KEYWORD,bdsp.x.jd.com
   - DOMAIN-KEYWORD,biz.weibo.com
   - DOMAIN-KEYWORD,bj.imp.voiceads.cn
@@ -201,9 +202,12 @@ payload:
   - DOMAIN-KEYWORD,nbcollectretry.kugou.com
   - DOMAIN-KEYWORD,news-log.51y5.net
   - DOMAIN-KEYWORD,news.51y5.net
+  - DOMAIN-KEYWORD,ossgw.alicdn.com
   - DOMAIN-KEYWORD,ossp.voicecloud.cn
   - DOMAIN-KEYWORD,p3-be-pack-sign.pglstatp-toutiao.com
   - DOMAIN-KEYWORD,p3-pack.byteimg.com
+  - DOMAIN-KEYWORD,p3.pstatp.com
+  - DOMAIN-KEYWORD,p6-ad-sign.byteimg.com
   - DOMAIN-KEYWORD,p6-pack.byteimg.com
   - DOMAIN-KEYWORD,p9-be-pack-sign.pglstatp-toutiao.com
   - DOMAIN-KEYWORD,pangolin.snssdk.com
@@ -212,6 +216,7 @@ payload:
   - DOMAIN-KEYWORD,pdds.ucweb.com
   - DOMAIN-KEYWORD,policy.jd.com
   - DOMAIN-KEYWORD,promote.biz.weibo.cn
+  - DOMAIN-KEYWORD,pt-starimg.didistatic.com
   - DOMAIN-KEYWORD,puds.ucweb.com
   - DOMAIN-KEYWORD,r1.ykimg.com
   - DOMAIN-KEYWORD,rescn.u3.ucweb.com

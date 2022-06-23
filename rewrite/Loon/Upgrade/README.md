@@ -14,7 +14,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-14 16:54:27
+最后更新时间：2022-06-23 17:37:38
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -35,6 +35,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Lo
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rewrite/Loon/Upgrade/Upgrade.plugin
 
+**MASTER分支 GHProxy (每日更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Loon/Upgrade/Upgrade.plugin
+
 **RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Loon/Upgrade/Upgrade.plugin
@@ -42,6 +46,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 **RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Loon/Upgrade/Upgrade.plugin
+
+**RELEASE分支 GHProxy (不定时更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Loon/Upgrade/Upgrade.plugin
 
 ## 子规则
 

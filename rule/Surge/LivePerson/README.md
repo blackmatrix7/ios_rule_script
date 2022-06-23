@@ -12,7 +12,7 @@ LivePerson规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-14 16:53:40
+最后更新时间：2022-06-23 17:33:35
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -38,6 +38,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/LivePerson/LivePerson.list
 
+**MASTER分支 GHProxy (每日更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LivePerson/LivePerson.list
+
 **RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/LivePerson/LivePerson.list
@@ -45,6 +49,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 **RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/LivePerson/LivePerson.list
+
+**RELEASE分支 GHProxy (不定时更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/LivePerson/LivePerson.list
 
 ## 子规则/排除规则
 

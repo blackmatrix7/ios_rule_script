@@ -19,14 +19,14 @@ ChinaIPsTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-23 02:32:27
+最后更新时间：2022-06-23 17:34:02
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | IP-CIDR | 6648  | 
-| IP6-CIDR | 4474  | 
-| TOTAL | 11122  | 
+| IP6-CIDR | 4481  | 
+| TOTAL | 11129  | 
 
 
 ## QuantumultX 
@@ -44,6 +44,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list
 
+**MASTER分支 GHProxy (每日更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list
+
 **RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/QuantumultX/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list
@@ -51,6 +55,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 **RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/QuantumultX/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list
+
+**RELEASE分支 GHProxy (不定时更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/QuantumultX/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list
 
 ## 子规则/排除规则
 
@@ -64,7 +72,6 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Quantumult
 
 《ChinaIPsTest》的数据来自以下链接，如与本项目的《ChinaIPsTest》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic%20IPs.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
 - https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt

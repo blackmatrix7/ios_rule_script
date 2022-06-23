@@ -16,7 +16,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-17 02:32:24
+最后更新时间：2022-06-23 17:34:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -45,6 +45,12 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rewrite/Surge/Ad
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule
 
+**MASTER分支 GHProxy (每日更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/Advertising/Advertising.sgmodule
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule
+
 **RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Surge/Advertising/Advertising.sgmodule
@@ -57,6 +63,12 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Surge/A
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Surge/Advertising/Advertising_Mock.sgmodule
 
+**RELEASE分支 GHProxy (不定时更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Surge/Advertising/Advertising.sgmodule
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Surge/Advertising/Advertising_Mock.sgmodule
+
 ## 子规则
 
 当前分流规则，未包含其他子规则。
@@ -68,13 +80,11 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rewrite/Surge/A
 
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.sgmodule
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/Advertising.sgmodule
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Shortcuts/reject.txt
 - https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Rewrite.txt
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.qxrewrite
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Rewrite/Rewrite.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Loon/Rewrite.conf
-- https://raw.githubusercontent.com/GeQ1an/Rules/master/Loon/Rewrite/Rewrite.list
 - https://raw.githubusercontent.com/GFBG-IT/QuantumultX/main/Advertising.conf
 - https://raw.githubusercontent.com/githubacct001/QuantumultX/master/Rewrite/githubacct001.conf
 - https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/Advertising.plugin

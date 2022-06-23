@@ -18,7 +18,7 @@ TikTok 解锁，来自于Semporia的https://github.com/Semporia/TikTok-Unlock。
 
 ## 规则统计
 
-最后更新时间：2022-06-14 16:54:34
+最后更新时间：2022-06-23 17:37:44
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -42,6 +42,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/L
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/external/Loon/TikTokUnlock/TikTokKR/TikTokKR.plugin
 
+**MASTER分支 GHProxy (每日更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/Loon/TikTokUnlock/TikTokKR/TikTokKR.plugin
+
 **RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/external/Loon/TikTokUnlock/TikTokKR/TikTokKR.plugin
@@ -50,6 +54,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/external/
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/external/Loon/TikTokUnlock/TikTokKR/TikTokKR.plugin
 
+**RELEASE分支 GHProxy (不定时更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/external/Loon/TikTokUnlock/TikTokKR/TikTokKR.plugin
+
 ## 子规则
 
 当前分流规则，未包含其他子规则。
@@ -57,12 +65,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/external/Loon/T
 
 ## 数据来源
 
-《TikTok(韩国解锁)》的数据来自以下链接，如与本项目的《TikTok(韩国解锁)》规则混合使用，可能造成部分重写重复。
-
-- https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokKR.plugin
-
-
-感谢以上规则作者的辛勤付出（排名不分先后）。
+当前规则未直接引用数据源。
 
 ## 最后
 

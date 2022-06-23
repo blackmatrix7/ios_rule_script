@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-14 16:53:28
+最后更新时间：2022-06-23 17:33:24
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -44,6 +44,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/KuangShi/KuangShi.list
 
+**MASTER分支 GHProxy (每日更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KuangShi/KuangShi.list
+
 **RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/KuangShi/KuangShi.list
@@ -51,6 +55,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 **RELEASE分支CDN (不定时更新)**
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/KuangShi/KuangShi.list
+
+**RELEASE分支 GHProxy (不定时更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/KuangShi/KuangShi.list
 
 ## 子规则/排除规则
 

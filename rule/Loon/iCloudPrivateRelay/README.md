@@ -12,7 +12,7 @@ iCloudPrivateRelay规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-14 16:54:06
+最后更新时间：2022-06-23 17:33:56
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -35,6 +35,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Loon/iCloudPrivateRelay/iCloudPrivateRelay.list
 
+**MASTER分支 GHProxy (每日更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/iCloudPrivateRelay/iCloudPrivateRelay.list
+
 **RELEASE分支 (不定时更新)**
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/iCloudPrivateRelay/iCloudPrivateRelay.list
@@ -43,6 +47,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Loon/iCloudPrivateRelay/iCloudPrivateRelay.list
 
+**RELEASE分支 GHProxy (不定时更新)**
+
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/iCloudPrivateRelay/iCloudPrivateRelay.list
+
 ## 子规则/排除规则
 
 
@@ -50,12 +58,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Loon/iClou
 
 ## 数据来源
 
-《iCloudPrivateRelay》的数据来自以下链接，如与本项目的《iCloudPrivateRelay》规则混合使用，可能会造成规则大量重复。
-
-- https://raw.githubusercontent.com/VirgilClyne/iRingo/main/RuleSet/iCloud_Private_Relay.yaml
-
-
-感谢以上规则作者的辛勤付出（排名不分先后）。
+当前规则未直接引用数据源。
 
 ## 最后
 

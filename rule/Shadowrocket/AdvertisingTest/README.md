@@ -21,17 +21,17 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-23 17:32:06
+最后更新时间：2022-06-24 02:29:59
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 46078  | 
+| DOMAIN | 46082  | 
 | DOMAIN-KEYWORD | 264  | 
 | DOMAIN-SUFFIX | 88526  | 
 | IP-CIDR | 256  | 
 | URL-REGEX | 303  | 
-| TOTAL | 135427  | 
+| TOTAL | 135431  | 
 
 
 ## Shadowrocket 
@@ -93,6 +93,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
 - https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt
@@ -105,6 +106,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/scomper/surge-list/master/reject.list
 - https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list
 - https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Tide.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/connershua/Quantumult/X/Filter/Advertising.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list

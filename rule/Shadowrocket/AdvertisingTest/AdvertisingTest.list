@@ -1,14 +1,14 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-06-27 02:26:04
+# UPDATED: 2022-06-29 02:33:02
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
-# DOMAIN: 46002
+# DOMAIN: 46013
 # DOMAIN-KEYWORD: 264
-# DOMAIN-SUFFIX: 88725
+# DOMAIN-SUFFIX: 89001
 # IP-CIDR: 256
 # URL-REGEX: 303
-# TOTAL: 135550
+# TOTAL: 135837
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,adashx
@@ -205,6 +205,7 @@ DOMAIN-KEYWORD,news-log.51y5.net
 DOMAIN-KEYWORD,news.51y5.net
 DOMAIN-KEYWORD,ossgw.alicdn.com,REJECT
 DOMAIN-KEYWORD,ossp.voicecloud.cn
+DOMAIN-KEYWORD,p26-be-pack-sign.pglstatp-toutiao.com
 DOMAIN-KEYWORD,p3-be-pack-sign.pglstatp-toutiao.com
 DOMAIN-KEYWORD,p3-pack.byteimg.com
 DOMAIN-KEYWORD,p3.pstatp.com
@@ -217,7 +218,6 @@ DOMAIN-KEYWORD,pc.suishenyun.net
 DOMAIN-KEYWORD,pdds.ucweb.com
 DOMAIN-KEYWORD,policy.jd.com
 DOMAIN-KEYWORD,promote.biz.weibo.cn,REJECT
-DOMAIN-KEYWORD,pt-starimg.didistatic.com
 DOMAIN-KEYWORD,puds.ucweb.com
 DOMAIN-KEYWORD,r1.ykimg.com
 DOMAIN-KEYWORD,rescn.u3.ucweb.com

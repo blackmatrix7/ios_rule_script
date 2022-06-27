@@ -17,7 +17,7 @@
     {
       "id": "blackmatrix7.bilibili",
       "name": "哔哩哔哩去广告",
-      "keys": ["bilibili_story_aid", "bilibili_feed_black"],
+      "keys": ["bilibili_story_aid", "bilibili_feed_black", "bilibili_disable_index_story", "bilibili_enable_mall"],
       "settings": [
         {
           "id": "bilibili_feed_black",
@@ -28,6 +28,20 @@
           "autoGrow": true,
           "rows": 5,
           "desc": "以英文逗号分隔多个号码"
+        },
+        {
+          "id": "bilibili_disable_index_story",
+          "name": "停用首页竖屏播放器",
+          "val": false,
+          "type": "boolean",
+          "desc": "首页推荐竖屏视频转为普通播放器"
+        },
+        {
+          "id": "bilibili_enable_mall",
+          "name": "启用会员购",
+          "val": false,
+          "type": "boolean",
+          "desc": "我的tab-更多服务-添加会员购入口"
         }
       ],
       "author": "@blackmatrix7",

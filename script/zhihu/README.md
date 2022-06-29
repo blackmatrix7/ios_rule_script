@@ -25,27 +25,28 @@
 15. 客户端中显示自己是盐选会员
 16. 直接运行脚本可清理客户端内持久化的数据
 17. 部分功能支持BoxJS配置
-18. 付费内容文首提醒✨
-19. 推广内容文首提醒✨
+18. 推广/付费内容文首提醒✨
+20. 拦截部分回答预加载以节约流量✨
 21. 去除官方账号的推广消息✨
-22. 去除推荐页中黑名单用户的回答✨
-23. 去除回答列表中黑名单用户的回答✨
+22. 去除推荐页和回答列表中黑名单用户的回答✨
 24. 去除关注页顶部的最常访问✨
-25. 精简首页顶部的标签页✨
 26. 屏蔽消息页面的知乎活动助手✨
 27. 新旧版评论区黑名单用户过滤✨
 28. 屏蔽转发的黑名单用户的想法✨
 29. 推荐页屏蔽关键词解锁(支持正则)✨
-30. ~~知乎网页版去广告 [#21](https://github.com/blackmatrix7/ios_rule_script/issues/21)~~❓
+27. 精简知乎8.3.0版本推荐页顶部项 [#465](https://github.com/blackmatrix7/ios_rule_script/issues/465)✨
+28. 精简知乎6.x版本首页顶部的标签页✨
+30. ~~知乎网页版去广告~~ [#21](https://github.com/blackmatrix7/ios_rule_script/issues/21)❓
 31. ~~去除热搜内的广告~~❓
-32. ~~屏蔽推荐页中的盐选推荐内容~~❓
 33. ~~拦截知乎下发的配置，如皮肤(alpha)~~✨❓
 34. ~~减少推荐页内的视频(alpha)~~✨❓
 35. ~~去除推荐页的付费推荐内容~~✨❓
 
 ## 最近更新
 
-1. 适配至8.3.0 (8020)
+1. 适配至8.22.0 (9926)
+1. 去除视频标签页红点
+1. 增加知乎纯净版模块
 
 ## 版本切换
 
@@ -59,7 +60,7 @@
 
 脚本的执行依赖于规则对`118.89.204.198`、`2402:4e00:1200:ed00:0:9089:6dac:96b6`两个IP地址的屏蔽。出现异常请先抓包确认上述两个地址的请求已经全部被正确拦截，无法屏蔽上述两个地址将导致所有功能失效！
 
-**知乎 8.3.0 (8020)版本**
+**知乎 8.3版本**
 
 适配情况请访问：https://github.com/blackmatrix7/ios_rule_script/issues/465
 
@@ -138,7 +139,7 @@ Lite版本请确保所有Plus版本的选项都为关闭状态，以减少不必
 使用模块
 
 ```ini
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.sgmodule
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_plus.sgmodule
 ```
 
 ### Loon
@@ -147,7 +148,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhi
 
 ```ini
 [Plugin]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.lnplugin, tag=知乎助手_去广告及体验增强, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_plus.lnplugin, tag=知乎助手_去广告及体验增强, enabled=true
 ```
 
 ### Quantumult X
@@ -159,7 +160,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhi
 # 知乎去广告，以下规则请放置在filter_local最顶部
 IP-CIDR,118.89.204.198/32,REJECT
 IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
-HOST,118.89.204.198,REJECT
 # 知乎去广告，以下规则的位置越前方越好
 HOST,appcloud2.in.zhihu.com,REJECT
 HOST,mqtt.zhihu.com,reject
@@ -167,7 +167,7 @@ HOST,sugar.zhihu.com,reject
 USER-AGENT,AVOS*,REJECT
 
 [rewrite_remote]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎助手_去广告及体验增强, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_plus.qxrewrite, tag=知乎助手_去广告及体验增强, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 ## 配置说明(Lite)
@@ -179,14 +179,14 @@ Plus版本功能较多，需要消耗较多的系统资源。如果出现VPN自�
 使用模块
 
 ```ini
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.sgmodule
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_lite.sgmodule
 ```
 
 ### Loon
 
 ```ini
 [Plugin]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.lnplugin, tag=知乎助手_去广告, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_lite.lnplugin, tag=知乎助手_去广告, enabled=true
 ```
 
 #### Quantumult X
@@ -206,7 +206,7 @@ HOST,sugar.zhihu.com,reject
 USER-AGENT,AVOS*,REJECT
 
 [rewrite_remote]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.qxrewrite, tag=知乎助手_去广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_lite.qxrewrite, tag=知乎助手_去广告, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 ## 其他问题

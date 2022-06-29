@@ -1,0 +1,33 @@
+#!name=知乎
+#!desc=知乎纯净版，屏蔽更多请求，需搭配知乎助手使用
+
+[Rule]
+# 屏蔽知乎8.3.0版本首页顶部的视频角标
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/explore\/entry\/tips,REJECT-TINYGIF
+# 屏蔽正在发生
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/feed-root\/happening,REJECT-TINYGIF
+# 可能是内购之类的
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/order\/v1\/records\/iap,REJECT-TINYGIF
+# 可能是某些通知相关的配置
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/settings\/new\/notification,REJECT-TINYGIF
+# 不清楚作用，屏蔽暂时不影响正常运行
+DOMAIN,zhihu-web-analytics.zhihu.com,REJECT,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/zst\/events\/s,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/account\/attach_info,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/slytherin\/plus_panel_v2,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/creator_board,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/account\/toggle,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/market\/popovers_v2,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/api\/v4\/member\/login\/record,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/versioning\/ironman\/latest\?,REJECT-TINYGIF
+URL-REGEX,^https:\/\/appcloud2\.zhihu\.com\/v3\/resource,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/usertask-core\/action\/read_content,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(www\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/api\/v4\/mcn\/goods\/incontent,REJECT-TINYGIF
+URL-REGEX,^https:\/\/zhuanlan\.zhihu\.com\/check_health,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/check_health,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(www\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/check_health,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/pluton_v2\/qa_recommend\/card,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(www\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/sc-profiler,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/zst\/events\/p,REJECT-TINYGIF
+# URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/pluton\/ab\?,REJECT-TINYGIF
+# URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/poisson\/flow\/free,REJECT-TINYGIF

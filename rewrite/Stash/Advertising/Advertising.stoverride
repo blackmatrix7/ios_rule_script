@@ -1,5 +1,5 @@
 name: 复写去广告
-desc: 最后更新时间 2022-06-23 17:34:10
+desc: 最后更新时间 2022-06-30 22:48:36
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 406
@@ -14,10 +14,6 @@ desc: 最后更新时间 2022-06-23 17:34:10
 http:
   rewrite:
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
-    - ^https:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
-    - ^https?://amap\-aos\-info\-nogw\.amap\.com/ws/aos/alimama/ - reject
-    - ^https?://gab\.122\.gov\.cn/eapp/m/sysquery - reject
-    - ^https?://zone\.guiderank-app\.com/guiderank-web/app/ad/listLaunchADByCity\.do - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
@@ -101,6 +97,7 @@ http:
     - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
     - ^https?:\/\/aes\.acfun\.cn\/s\?adzones - reject
     - ^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
+    - ^https?:\/\/amap\-aos\-info\-nogw\.amap\.com\/ws\/aos\/alimama\/ - reject
     - ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads - reject
     - ^https?:\/\/api-ks\.wtzw\.com\/api\/v(1|2)\/(float-adv|init-adv|reader-adv|bookshelf-adv|coopen-adv) - reject
     - ^https?:\/\/api-mifit\.huami\.com\/(discovery\/mi\/discovery\/(homepage|sleep|sport(_(summary|training))?|step_detail|training_video)_ad|v1\/app\/startpages\.json)\? - reject
@@ -230,6 +227,7 @@ http:
     - ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
     - ^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview - reject
     - ^https?:\/\/g\.cdn\.pengpengla\.com\/starfantuan\/boot-screen-info\/ - reject
+    - ^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery - reject
     - ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(interfaceAdMonitor|interfaceAd)\/ - reject
     - ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/status\/init - reject
     - ^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json - reject
@@ -244,6 +242,7 @@ http:
     - ^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement - reject
     - ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd - reject
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner - reject
+    - ^https?:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
     - ^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ - reject
     - ^https?:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport - reject
     - ^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd - reject
@@ -419,6 +418,7 @@ http:
     - ^https?:\/\/yxhd\.hori-gz\.com\/\/jfmsApi\/commandWord\/commandWordInfo - reject
     - ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
+    - ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do - reject
 
 
   force-http-engine:

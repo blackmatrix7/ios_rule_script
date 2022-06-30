@@ -1,5 +1,5 @@
 name: 知乎助手Plus
-desc: 最后更新时间 2022-06-30 10:11:17
+desc: 最后更新时间 2022-06-30 22:48:34
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 4
@@ -77,7 +77,7 @@ http:
       timeout: 30
       argument:
     # 知乎_回答列表去广告
-    - match: ^https?:\/\/api\.zhihu\.com\/v4\/questions
+    - match: ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+
       name: zhihu.js_fc22d04a
       type: response
       require-body: true

@@ -16,20 +16,20 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-23 17:34:08
+最后更新时间：2022-06-30 10:11:17
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 4  | 
 | IP-CIDR | 2  | 
-| URL-REGEX | 8  | 
+| URL-REGEX | 11  | 
 | USER-AGENT | 1  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
-| HTTP-RESPONSE-SCRIPT | 11  | 
-| REJECT | 14  | 
+| HTTP-RESPONSE-SCRIPT | 12  | 
+| REJECT | 15  | 
 | MITM | 8  | 
-| TOTAL | 49  | 
+| TOTAL | 54  | 
 
 
 ## Shadowrocket 

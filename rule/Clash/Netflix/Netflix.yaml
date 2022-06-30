@@ -1,14 +1,14 @@
 # NAME: Netflix
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-06-23 17:32:40
+# UPDATED: 2022-06-30 10:09:31
 # DOMAIN: 2
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 25
-# IP-CIDR: 931
+# IP-CIDR: 932
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 967
+# TOTAL: 968
 payload:
   - DOMAIN,api.fast.com
   - DOMAIN,netflix.com.edgesuite.net
@@ -422,6 +422,7 @@ payload:
   - IP-CIDR,18.252.145.156/30
   - IP-CIDR,18.252.145.160/28
   - IP-CIDR,18.252.145.192/27
+  - IP-CIDR,18.252.165.140/30
   - IP-CIDR,18.252.4.0/30
   - IP-CIDR,18.252.4.16/29
   - IP-CIDR,18.252.56.0/23

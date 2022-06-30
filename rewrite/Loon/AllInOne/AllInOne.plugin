@@ -1,5 +1,5 @@
 #!name= AllInOne
-#!desc= 最后更新时间 2022-06-23 17:34:14
+#!desc= 最后更新时间 2022-06-30 10:11:22
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
@@ -10,11 +10,11 @@
 #!url-regex= 4
 #!user-agent= 1
 #!http-request-script= 1
-#!http-response-script= 27
+#!http-response-script= 28
 #!redirect= 8
-#!reject= 374
+#!reject= 375
 #!mitm= 419
-#!total= 840
+#!total= 842
 
 [Rule]
 DOMAIN,118.89.204.198,REJECT
@@ -24,9 +24,9 @@ DOMAIN,sugar.zhihu.com,REJECT
 IP-CIDR,118.89.204.198/32,REJECT,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\?,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription),REJECT
 USER-AGENT,AVOS*,REJECT
 
 
@@ -134,6 +134,7 @@ USER-AGENT,AVOS*,REJECT
 ^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations) - reject-dict
 ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject-200
 ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject-dict
+^https?:\/\/api\.zhihu\.com\/explore\/entry\/tips - reject
 ^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict
 ^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 - reject-dict
 ^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject-200
@@ -415,7 +416,7 @@ USER-AGENT,AVOS*,REJECT
 ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
 [Script]
 # 知乎_屏蔽关键字解锁
-http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,requires-body=1,tag=知乎_屏蔽关键字解锁
+http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_屏蔽关键字解锁
 # BiliBili_开屏去广告
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,requires-body=1,tag=BiliBili_开屏去广告
 # Fa米家_开屏去广告
@@ -445,27 +446,29 @@ http-response ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic scri
 # 小爱音箱_开屏去广告
 http-response ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=小爱音箱_开屏去广告
 # 知乎_优化软件配置
-http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,requires-body=1,tag=知乎_优化软件配置
+http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_优化软件配置
 # 知乎_信息流去广告及黑名单增强
-http-response ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people) script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,requires-body=1,tag=知乎_信息流去广告及黑名单增强
+http-response ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_信息流去广告及黑名单增强
 # 知乎_回答内容优化
-http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,requires-body=1,tag=知乎_回答内容优化
+http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_回答内容优化
 # 知乎_回答列表去广告
-http-response ^https?:\/\/api\.zhihu\.com\/v4\/questions script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,requires-body=1,tag=知乎_回答列表去广告
+http-response ^https?:\/\/api\.zhihu\.com\/v4\/questions script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_回答列表去广告
 # 知乎_处理用户信息
-http-response ^https?:\/\/api\.zhihu\.com\/people script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,requires-body=1,tag=知乎_处理用户信息
+http-response ^https?:\/\/api\.zhihu\.com\/people script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_处理用户信息
 # 知乎_官方消息去广告
-http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message) script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,requires-body=1,tag=知乎_官方消息去广告
+http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_官方消息去广告
 # 知乎_热搜去广告
-http-response ^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,requires-body=1,tag=知乎_热搜去广告
+http-response ^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_热搜去广告
 # 知乎_热榜去广告
-http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,requires-body=1,tag=知乎_热榜去广告
+http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_热榜去广告
+# 知乎_移除推荐页顶部项
+http-response ^https?:\/\/api\.zhihu\.com\/feed-root\/sections\/query\/v2 script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_移除推荐页顶部项
 # 知乎_获取黑名单
-http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,requires-body=1,tag=知乎_获取黑名单
+http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_获取黑名单
 # 知乎_评论去广告
-http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,requires-body=1,tag=知乎_评论去广告
+http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_评论去广告
 # 知乎_预置关键词去广告
-http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js,requires-body=1,tag=知乎_预置关键词去广告
+http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_预置关键词去广告
 # 美团外卖_开屏去广告
 http-response ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=美团外卖_开屏去广告
 # 联享家_开屏去广告

@@ -1,17 +1,17 @@
 name: AllInOne
-desc: 最后更新时间 2022-06-23 17:34:14
+desc: 最后更新时间 2022-06-30 10:11:23
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 4
 # ip-cidr: 1
 # ip-cidr6: 1
 # http-request-script: 1
-# http-response-script: 27
+# http-response-script: 28
 # redirect: 8
-# reject: 374
+# reject: 375
 # mitm: 419
 # force-http-engine-hosts: 6
-# total: 841
+# total: 843
 
 
 
@@ -129,6 +129,7 @@ http:
     - ^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations) - reject
     - ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
     - ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject
+    - ^https?:\/\/api\.zhihu\.com\/explore\/entry\/tips - reject
     - ^https?:\/\/api\.zhihu\.com\/moments\/recent - reject
     - ^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 - reject
     - ^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject
@@ -413,7 +414,7 @@ http:
   script:
     # 知乎_屏蔽关键字解锁
     - match: ^https?:\/\/api\.zhihu\.com\/feed-root\/block
-      name: zhihu.js_c61fcb13
+      name: zhihu.js_fc22d04a
       type: request
       require-body: true
       timeout: 30
@@ -518,77 +519,84 @@ http:
       argument:
     # 知乎_优化软件配置
     - match: ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config
-      name: zhihu.js_c61fcb13
+      name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
       argument:
     # 知乎_信息流去广告及黑名单增强
     - match: ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people)
-      name: zhihu.js_c61fcb13
+      name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
       argument:
     # 知乎_回答内容优化
     - match: ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))?
-      name: zhihu.js_c61fcb13
+      name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
       argument:
     # 知乎_回答列表去广告
     - match: ^https?:\/\/api\.zhihu\.com\/v4\/questions
-      name: zhihu.js_c61fcb13
+      name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
       argument:
     # 知乎_处理用户信息
     - match: ^https?:\/\/api\.zhihu\.com\/people
-      name: zhihu.js_c61fcb13
+      name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
       argument:
     # 知乎_官方消息去广告
     - match: ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message)
-      name: zhihu.js_c61fcb13
+      name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
       argument:
     # 知乎_热搜去广告
     - match: ^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items
-      name: zhihu.js_c61fcb13
+      name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
       argument:
     # 知乎_热榜去广告
     - match: ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/)
-      name: zhihu.js_c61fcb13
+      name: zhihu.js_fc22d04a
+      type: response
+      require-body: true
+      timeout: 30
+      argument:
+    # 知乎_移除推荐页顶部项
+    - match: ^https?:\/\/api\.zhihu\.com\/feed-root\/sections\/query\/v2
+      name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
       argument:
     # 知乎_获取黑名单
     - match: ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users
-      name: zhihu.js_c61fcb13
+      name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
       argument:
     # 知乎_评论去广告
     - match: ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments?
-      name: zhihu.js_c61fcb13
+      name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
       argument:
     # 知乎_预置关键词去广告
     - match: ^https?:\/\/api\.zhihu\.com\/search\/preset_words\?
-      name: zhihu.js_c61fcb13
+      name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
@@ -1050,7 +1058,7 @@ script-providers:
   startup.js_5686edbb:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
     interval: 86400
-  zhihu.js_c61fcb13:
-    url: https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+  zhihu.js_fc22d04a:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js
     interval: 86400
 

@@ -21,18 +21,18 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-30 22:47:55
+最后更新时间：2022-07-03 02:27:55
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 83  | 
 | HOST-KEYWORD | 14  | 
-| HOST-SUFFIX | 69559  | 
-| IP-CIDR | 6256  | 
-| IP6-CIDR | 4184  | 
+| HOST-SUFFIX | 69552  | 
+| IP-CIDR | 6258  | 
+| IP6-CIDR | 4192  | 
 | USER-AGENT | 64  | 
-| TOTAL | 80160  | 
+| TOTAL | 80163  | 
 
 
 ## QuantumultX 
@@ -119,9 +119,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 | 排除规则  |  |  |  |  | 
 | ---- | ---- | ---- | ---- | ----  |
 | Advertising | AdvertisingLite | AdvertisingMiTV | AdvertisingTest | Chromecast  | 
-| Direct | Google | GoogleDrive | GoogleSearch | GoogleVoice  | 
-| Hijacking | Privacy | Proxy | Steam | SteamCN  | 
-| TikTok | YouTube | YouTubeMusic  |  |  | 
+| Google | GoogleDrive | GoogleSearch | GoogleVoice | Proxy  | 
+| Steam | SteamCN | TikTok | YouTube | YouTubeMusic  | 
 
 ## 数据来源
 

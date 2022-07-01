@@ -15,7 +15,7 @@ ProxyLite规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-24 02:31:49
+最后更新时间：2022-07-02 02:32:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -72,11 +72,10 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 | ---- | ---- | ---- | ---- | ----  |
 | Advertising | AppStore | Apple | AppleDaily | AppleMail  | 
 | AppleMusic | AppleNews | AppleProxy | AppleTV | China  | 
-| ChinaIPs | Chromecast | Direct | FindMy | FitnessPlus  | 
-| GitHub | Google | GoogleDrive | GoogleSearch | GoogleVoice  | 
-| Microsoft | OneDrive | Proxy | Siri | Steam  | 
-| SteamCN | SystemOTA | Teams | TestFlight | YouTube  | 
-| YouTubeMusic | iCloud | iCloudPrivateRelay  |  |  | 
+| ChinaIPs | Chromecast | FindMy | FitnessPlus | GitHub  | 
+| Google | GoogleDrive | GoogleSearch | GoogleVoice | Microsoft  | 
+| OneDrive | Siri | SystemOTA | Teams | TestFlight  | 
+| YouTube | YouTubeMusic | iCloud | iCloudPrivateRelay  |  | 
 
 ## 数据来源
 

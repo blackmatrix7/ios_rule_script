@@ -12,7 +12,7 @@ Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-23 17:32:38
+最后更新时间：2022-07-02 02:31:42
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -62,9 +62,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 当前分流规则，未包含其他子规则。
 
 当前分流规则，已排除以下规则：
-| 排除规则  |  | 
-| ---- | ----  |
-| Advertising | Direct  | 
+| 排除规则  | 
+| ----  |
+| Advertising  | 
 
 ## 数据来源
 

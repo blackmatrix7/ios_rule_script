@@ -12,7 +12,7 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-23 17:32:36
+最后更新时间：2022-07-02 02:31:37
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -65,10 +65,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 
 当前分流规则，已排除以下规则：
-| 排除规则  |  |  |  |  | 
-| ---- | ---- | ---- | ---- | ----  |
-| Advertising | AdvertisingLite | China | Direct | Hijacking  | 
-| Privacy | Proxy | Steam | SteamCN  |  | 
+| 排除规则  |  | 
+| ---- | ----  |
+| AdvertisingLite | China  | 
 
 ## 数据来源
 

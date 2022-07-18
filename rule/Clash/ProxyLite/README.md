@@ -15,17 +15,17 @@ ProxyLite规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-24 02:31:49
+最后更新时间：2022-07-21 02:30:03
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 4  | 
 | DOMAIN-KEYWORD | 22  | 
-| DOMAIN-SUFFIX | 24548  | 
+| DOMAIN-SUFFIX | 24547  | 
 | IP-CIDR | 92  | 
 | IP-CIDR6 | 3  | 
-| TOTAL | 24669  | 
+| TOTAL | 24668  | 
 
 
 ## Clash 
@@ -102,11 +102,10 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 | ---- | ---- | ---- | ---- | ----  |
 | Advertising | AppStore | Apple | AppleDaily | AppleMail  | 
 | AppleMusic | AppleNews | AppleProxy | AppleTV | China  | 
-| ChinaIPs | Chromecast | Direct | FindMy | FitnessPlus  | 
-| GitHub | Google | GoogleDrive | GoogleSearch | GoogleVoice  | 
-| Microsoft | OneDrive | Proxy | Siri | Steam  | 
-| SteamCN | SystemOTA | Teams | TestFlight | YouTube  | 
-| YouTubeMusic | iCloud | iCloudPrivateRelay  |  |  | 
+| ChinaIPs | Chromecast | FindMy | FitnessPlus | GitHub  | 
+| Google | GoogleDrive | GoogleSearch | GoogleVoice | Microsoft  | 
+| OneDrive | Siri | SystemOTA | Teams | TestFlight  | 
+| YouTube | YouTubeMusic | iCloud | iCloudPrivateRelay  |  | 
 
 ## 数据来源
 
@@ -163,6 +162,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

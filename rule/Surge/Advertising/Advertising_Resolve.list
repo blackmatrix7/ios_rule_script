@@ -1,14 +1,15 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-06-30 10:08:14
+# UPDATED: 2022-07-21 02:27:46
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
-# DOMAIN: 51326
+# AND: 1
+# DOMAIN: 51479
 # DOMAIN-KEYWORD: 84
-# DOMAIN-SUFFIX: 71252
-# IP-CIDR: 255
+# DOMAIN-SUFFIX: 70270
+# IP-CIDR: 256
 # URL-REGEX: 303
-# TOTAL: 123220
+# TOTAL: 122393
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,adashx
@@ -216,6 +217,7 @@ IP-CIDR,156.232.37.2/32
 IP-CIDR,156.246.162.2/32
 IP-CIDR,162.209.213.66/32
 IP-CIDR,162.212.181.32/32
+IP-CIDR,162.252.214.4/32
 IP-CIDR,163.197.136.33/32
 IP-CIDR,163.197.167.236/32
 IP-CIDR,164.155.185.254/32
@@ -651,3 +653,4 @@ URL-REGEX,^https?:\/\/www\.zybang\.com\/adx\/
 URL-REGEX,^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d
 URL-REGEX,^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$
 URL-REGEX,^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/
+AND,((USER-AGENT,Frodo*),(DOMAIN,119.29.29.29))

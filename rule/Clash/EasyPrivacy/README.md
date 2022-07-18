@@ -17,14 +17,14 @@ AdBlock Plus EasyPrivacy，仅抽取DOMAIN-SUFFIX类型。
 
 ## 规则统计
 
-最后更新时间：2022-06-23 17:34:01
+最后更新时间：2022-07-19 20:16:42
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 12917  | 
+| DOMAIN | 13000  | 
 | IP-CIDR | 7  | 
-| TOTAL | 12924  | 
+| TOTAL | 13007  | 
 
 
 ## Clash 

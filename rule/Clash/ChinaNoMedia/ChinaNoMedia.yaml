@@ -1,13 +1,13 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-06-23 17:33:57
+# UPDATED: 2022-07-19 20:16:37
 # DOMAIN: 18
 # DOMAIN-KEYWORD: 10
-# DOMAIN-SUFFIX: 519
+# DOMAIN-SUFFIX: 521
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 561
+# TOTAL: 563
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,api.steampowered.com
@@ -68,6 +68,7 @@ payload:
   - DOMAIN-SUFFIX,alibaba.com
   - DOMAIN-SUFFIX,alibabacloud.com
   - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,alicloudccp.com
   - DOMAIN-SUFFIX,alikunlun.com
   - DOMAIN-SUFFIX,alipay.com
   - DOMAIN-SUFFIX,alipayobjects.com
@@ -145,6 +146,7 @@ payload:
   - DOMAIN-SUFFIX,cmct.tv
   - DOMAIN-SUFFIX,cmfu.com
   - DOMAIN-SUFFIX,cn
+  - DOMAIN-SUFFIX,cn88.net
   - DOMAIN-SUFFIX,cnbeta.com
   - DOMAIN-SUFFIX,cnbetacdn.com
   - DOMAIN-SUFFIX,cnlang.org

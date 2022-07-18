@@ -12,7 +12,7 @@ PayPal规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-24 02:30:39
+最后更新时间：2022-07-19 20:15:13
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -70,6 +70,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/PayPal.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Paypal.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PayPal.list
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/PayPal.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

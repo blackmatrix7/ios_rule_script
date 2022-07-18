@@ -12,17 +12,17 @@ ChinaTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-30 10:09:44
+最后更新时间：2022-07-21 02:29:17
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 88  | 
 | DOMAIN-KEYWORD | 10  | 
-| DOMAIN-SUFFIX | 66739  | 
+| DOMAIN-SUFFIX | 66599  | 
 | IP-CIDR | 10  | 
 | IP-CIDR6 | 4  | 
-| TOTAL | 66851  | 
+| TOTAL | 66711  | 
 
 
 ## Clash 
@@ -168,6 +168,10 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

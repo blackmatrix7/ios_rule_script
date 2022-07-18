@@ -12,7 +12,7 @@ BiliBili规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-24 02:30:45
+最后更新时间：2022-07-19 20:15:19
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -20,8 +20,8 @@ BiliBili规则由《RULE GENERATOR 规则生成器》自动生成。
 | DOMAIN | 52  | 
 | DOMAIN-SUFFIX | 51  | 
 | IP-CIDR | 7  | 
-| PROCESS-NAME | 2  | 
-| TOTAL | 112  | 
+| PROCESS-NAME | 6  | 
+| TOTAL | 116  | 
 
 
 ## Clash 

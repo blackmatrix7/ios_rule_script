@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN与DOMAIN--KEYWORD合并-9cf) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) ![](https://shields.io/badge/-MITM--HOSTNAME合并-brightgreen) ![](https://shields.io/badge/-正则推导HOSTNAME-033da7) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN与DOMAIN--KEYWORD合并-9cf) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) ![](https://shields.io/badge/-MITM--HOSTNAME合并-brightgreen) ![](https://shields.io/badge/-Surge定制化规则-7cd1e3) ![](https://shields.io/badge/-正则推导HOSTNAME-033da7) 
 
 本项目的TestFlight下载修正规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-23 17:37:43
+最后更新时间：2022-07-19 20:17:06
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -59,7 +59,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《TestFlight下载修正》的数据来自以下链接，如与本项目的《TestFlight下载修正》规则混合使用，可能造成部分重写重复。
 
-- https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightDownload.sgmodule
+- https://raw.githubusercontent.com/smartmimi/conf/master/surge/TestFlight.sgmodule
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

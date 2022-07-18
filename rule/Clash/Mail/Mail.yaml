@@ -1,9 +1,10 @@
 # NAME: Mail
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-06-23 17:32:41
+# UPDATED: 2022-07-19 20:15:13
 # DOMAIN: 7
-# TOTAL: 7
+# DOMAIN-SUFFIX: 2
+# TOTAL: 9
 payload:
   - DOMAIN,imap-mail.outlook.com
   - DOMAIN,imap.gmail.com
@@ -12,3 +13,5 @@ payload:
   - DOMAIN,smtp-mail.outlook.com
   - DOMAIN,smtp.gmail.com
   - DOMAIN,smtp.office365.com
+  - DOMAIN-SUFFIX,apple.imap.mail.yahoo.com
+  - DOMAIN-SUFFIX,m.hotmail.com

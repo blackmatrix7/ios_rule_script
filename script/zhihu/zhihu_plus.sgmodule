@@ -5,7 +5,7 @@
 # 屏蔽知乎8.3.0版本首页顶部的视频角标
 URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/explore\/entry\/tips,REJECT-TINYGIF
 # 知乎广告拦截
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_remove_ads.list,REJECT-NO-DROP
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_remove_ads.list,REJECT-NO-DROP
 
 
 [URL Rewrite]
@@ -14,7 +14,7 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/z
 
 [Map Local]
 # 屏蔽知乎下发的配置，如皮肤等
-^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank" header="Content-Type: application/x-protobuf"
+^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json" header="Content-Type: application/x-protobuf"
 # 知乎去除Tab页关注人头像
 ^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/moments\/tab_v2 data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 # 知乎去除最常访问

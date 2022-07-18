@@ -139,7 +139,7 @@ Lite版本请确保所有Plus版本的选项都为关闭状态，以减少不必
 使用模块
 
 ```ini
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_plus.sgmodule
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.sgmodule
 ```
 
 ### Loon
@@ -148,7 +148,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhih
 
 ```ini
 [Plugin]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_plus.lnplugin, tag=知乎助手_去广告及体验增强, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.lnplugin, tag=知乎助手_去广告及体验增强, enabled=true
 ```
 
 ### Quantumult X
@@ -167,7 +167,7 @@ HOST,sugar.zhihu.com,reject
 USER-AGENT,AVOS*,REJECT
 
 [rewrite_remote]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_plus.qxrewrite, tag=知乎助手_去广告及体验增强, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎助手_去广告及体验增强, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 ## 配置说明(Lite)
@@ -179,14 +179,14 @@ Plus版本功能较多，需要消耗较多的系统资源。如果出现VPN自�
 使用模块
 
 ```ini
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_lite.sgmodule
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.sgmodule
 ```
 
 ### Loon
 
 ```ini
 [Plugin]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_lite.lnplugin, tag=知乎助手_去广告, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.lnplugin, tag=知乎助手_去广告, enabled=true
 ```
 
 #### Quantumult X
@@ -206,7 +206,7 @@ HOST,sugar.zhihu.com,reject
 USER-AGENT,AVOS*,REJECT
 
 [rewrite_remote]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/zhihu/zhihu_lite.qxrewrite, tag=知乎助手_去广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_lite.qxrewrite, tag=知乎助手_去广告, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 ## 其他问题

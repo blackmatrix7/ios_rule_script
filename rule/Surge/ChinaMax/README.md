@@ -21,19 +21,19 @@
 
 ## 规则统计
 
-最后更新时间：2022-06-30 10:10:38
+最后更新时间：2022-07-18 22:45:17
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 83  | 
 | DOMAIN-KEYWORD | 14  | 
-| DOMAIN-SUFFIX | 69559  | 
+| DOMAIN-SUFFIX | 69431  | 
 | IP-CIDR | 6258  | 
-| IP-CIDR6 | 4184  | 
-| PROCESS-NAME | 6  | 
+| IP-CIDR6 | 4200  | 
+| PROCESS-NAME | 10  | 
 | USER-AGENT | 64  | 
-| TOTAL | 80168  | 
+| TOTAL | 80060  | 
 
 
 ## Surge 
@@ -134,9 +134,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 | 排除规则  |  |  |  |  | 
 | ---- | ---- | ---- | ---- | ----  |
 | Advertising | AdvertisingLite | AdvertisingMiTV | AdvertisingTest | Chromecast  | 
-| Direct | Google | GoogleDrive | GoogleSearch | GoogleVoice  | 
-| Hijacking | Privacy | Proxy | Steam | SteamCN  | 
-| TikTok | YouTube | YouTubeMusic  |  |  | 
+| Google | GoogleDrive | GoogleSearch | GoogleVoice | Proxy  | 
+| Steam | SteamCN | TikTok | YouTube | YouTubeMusic  | 
 
 ## 数据来源
 

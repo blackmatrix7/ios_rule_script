@@ -1,10 +1,10 @@
 name: 安全重定向
-desc: 最后更新时间 2022-06-23 17:37:38
+desc: 最后更新时间 2022-07-18 22:45:42
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # redirect: 60
-# mitm: 123
-# total: 183
+# mitm: 122
+# total: 182
 
 
 
@@ -15,6 +15,7 @@ http:
     - (^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d\/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$6&sim_code=51503$8 302
     - (^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$35&sim_code=51503$5 302
     - ^http:\/\/(www.)?aicoin\.cn\/$ https://www.aicoin.com/ 302
+    - ^http:\/\/(www.)?taobao\.com\/ https://taobao.com/ 302
     - ^http?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
     - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
     - ^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)\/ https://macitbetter.com/ 302
@@ -63,7 +64,6 @@ http:
     - ^https?:\/\/(www.)?photozoomchina\.com\/ https://www.benvista.com/ 302
     - ^https?:\/\/(www.)?shankejingling\.com\/ https://www.sothink.com/product/flashdecompiler/ 302
     - ^https?:\/\/(www.)?suning\.com\/ https://suning.com/ 302
-    - ^https?:\/\/(www.)?taobao\.com\/ https://taobao.com/ 302
     - ^https?:\/\/(www.)?vegaschina\.cn\/ https://www.vegascreativesoftware.com/ 302
     - ^https?:\/\/(www.)?xshellcn\.com\/ https://www.netsarang.com/zh/xshell/ 302
     - ^https?:\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
@@ -186,7 +186,6 @@ http:
     - "www.photozoomchina.com"
     - "www.shankejingling.com"
     - "www.suning.com"
-    - "www.taobao.com"
     - "www.xitongqingli.com"
     - "www.xshellcn.com"
     - "www.yhd.com"

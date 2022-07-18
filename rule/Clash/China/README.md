@@ -12,17 +12,17 @@ China规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-24 02:30:47
+最后更新时间：2022-07-18 22:44:17
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 18  | 
 | DOMAIN-KEYWORD | 10  | 
-| DOMAIN-SUFFIX | 554  | 
+| DOMAIN-SUFFIX | 555  | 
 | IP-CIDR | 10  | 
 | IP-CIDR6 | 4  | 
-| TOTAL | 596  | 
+| TOTAL | 597  | 
 
 
 ## Clash 
@@ -64,9 +64,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 当前分流规则，未包含其他子规则。
 
 当前分流规则，已排除以下规则：
-| 排除规则  |  |  |  |  | 
-| ---- | ---- | ---- | ---- | ----  |
-| Advertising | Direct | Proxy | Steam | SteamCN  | 
+| 排除规则  |  |  | 
+| ---- | ---- | ----  |
+| Proxy | Steam | SteamCN  | 
 
 ## 数据来源
 

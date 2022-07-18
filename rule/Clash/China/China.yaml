@@ -1,13 +1,13 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-06-23 17:32:48
+# UPDATED: 2022-07-18 22:44:17
 # DOMAIN: 18
 # DOMAIN-KEYWORD: 10
-# DOMAIN-SUFFIX: 554
+# DOMAIN-SUFFIX: 555
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 596
+# TOTAL: 597
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,api.steampowered.com
@@ -72,6 +72,7 @@ payload:
   - DOMAIN-SUFFIX,alibaba.com
   - DOMAIN-SUFFIX,alibabacloud.com
   - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,alicloudccp.com
   - DOMAIN-SUFFIX,alikunlun.com
   - DOMAIN-SUFFIX,alipay.com
   - DOMAIN-SUFFIX,alipayobjects.com

@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2022-06-30 10:11:23
+desc: 最后更新时间 2022-07-18 22:45:38
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 4
@@ -9,9 +9,9 @@ desc: 最后更新时间 2022-06-30 10:11:23
 # http-response-script: 28
 # redirect: 8
 # reject: 375
-# mitm: 419
+# mitm: 418
 # force-http-engine-hosts: 6
-# total: 843
+# total: 842
 
 
 
@@ -35,10 +35,6 @@ http:
     - ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
     - ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
-    - ^https:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
-    - ^https?://amap\-aos\-info\-nogw\.amap\.com/ws/aos/alimama/ - reject
-    - ^https?://gab\.122\.gov\.cn/eapp/m/sysquery - reject
-    - ^https?://zone\.guiderank-app\.com/guiderank-web/app/ad/listLaunchADByCity\.do - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
@@ -70,6 +66,7 @@ http:
     - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
     - ^https?:\/\/aes\.acfun\.cn\/s\?adzones - reject
     - ^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
+    - ^https?:\/\/amap\-aos\-info\-nogw\.amap\.com\/ws\/aos\/alimama\/ - reject
     - ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads - reject
     - ^https?:\/\/api-ks\.wtzw\.com\/api\/v(1|2)\/(float-adv|init-adv|reader-adv|bookshelf-adv|coopen-adv) - reject
     - ^https?:\/\/api-mifit\.huami\.com\/(discovery\/mi\/discovery\/(homepage|sleep|sport(_(summary|training))?|step_detail|training_video)_ad|v1\/app\/startpages\.json)\? - reject
@@ -213,6 +210,7 @@ http:
     - ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/biz\/base\/appversion\/latest - reject
     - ^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview - reject
     - ^https?:\/\/g\.cdn\.pengpengla\.com\/starfantuan\/boot-screen-info\/ - reject
+    - ^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery - reject
     - ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(interfaceAdMonitor|interfaceAd)\/ - reject
     - ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/status\/init - reject
     - ^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json - reject
@@ -230,6 +228,7 @@ http:
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul - reject
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul - reject
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul - reject
+    - ^https?:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
     - ^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ - reject
     - ^https?:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport - reject
     - ^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd - reject
@@ -409,6 +408,7 @@ http:
     - ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
     - ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
+    - ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do - reject
 
 
   script:
@@ -418,211 +418,211 @@ http:
       type: request
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # BiliBili_开屏去广告
     - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list
       name: bilibili_plus.js_243478f2
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # Fa米家_开屏去广告
     - match: ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad
       name: famijia_checkin.js_515b8868
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 京东_开屏去广告
     - match: ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start
       name: startup.js_5686edbb
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 什么值得买_值会员权益中心banner广告
     - match: ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner
       name: smzdm_remove_ads.js_bf08360d
       type: response
       require-body: true
       timeout: 10
-      argument:
+      argument: 
     # 什么值得买_好价去广告
     - match: ^https?:\/\/haojia-api\.smzdm\.com\/home\/list\?
       name: smzdm_remove_ads.js_bf08360d
       type: response
       require-body: true
       timeout: 10
-      argument:
+      argument: 
     # 什么值得买_好价详情页去广告
     - match: ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul
       name: smzdm_remove_ads.js_bf08360d
       type: response
       require-body: true
       timeout: 10
-      argument:
+      argument: 
     # 什么值得买_开屏去广告
     - match: ^https?:\/\/app-api\.smzdm\.com\/util\/loading
       name: smzdm_remove_ads.js_bf08360d
       type: response
       require-body: true
       timeout: 10
-      argument:
+      argument: 
     # 什么值得买_搜索标签去广告
     - match: ^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags
       name: smzdm_remove_ads.js_bf08360d
       type: response
       require-body: true
       timeout: 10
-      argument:
+      argument: 
     # 什么值得买_搜索结果去广告
     - match: ^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10
       name: smzdm_remove_ads.js_bf08360d
       type: response
       require-body: true
       timeout: 10
-      argument:
+      argument: 
     # 什么值得买_百科去广告
     - match: ^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list
       name: smzdm_remove_ads.js_bf08360d
       type: response
       require-body: true
       timeout: 10
-      argument:
+      argument: 
     # 什么值得买_首页去广告
     - match: ^https?:\/\/homepage-api\.smzdm\.com\/v3\/home
       name: smzdm_remove_ads.js_bf08360d
       type: response
       require-body: true
       timeout: 10
-      argument:
+      argument: 
     # 嘀嗒出行_开屏去广告
     - match: ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\?
       name: startup.js_5686edbb
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 多点_开屏去广告
     - match: ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic
       name: startup.js_5686edbb
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 小爱音箱_开屏去广告
     - match: ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert
       name: startup.js_5686edbb
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 知乎_优化软件配置
     - match: ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config
       name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 知乎_信息流去广告及黑名单增强
     - match: ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people)
       name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 知乎_回答内容优化
     - match: ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))?
       name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 知乎_回答列表去广告
-    - match: ^https?:\/\/api\.zhihu\.com\/v4\/questions
+    - match: ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+
       name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 知乎_处理用户信息
     - match: ^https?:\/\/api\.zhihu\.com\/people
       name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 知乎_官方消息去广告
     - match: ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message)
       name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 知乎_热搜去广告
     - match: ^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items
       name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 知乎_热榜去广告
     - match: ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/)
       name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 知乎_移除推荐页顶部项
     - match: ^https?:\/\/api\.zhihu\.com\/feed-root\/sections\/query\/v2
       name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 知乎_获取黑名单
     - match: ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users
       name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 知乎_评论去广告
     - match: ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments?
       name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 知乎_预置关键词去广告
     - match: ^https?:\/\/api\.zhihu\.com\/search\/preset_words\?
       name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 美团外卖_开屏去广告
     - match: ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo?
       name: startup.js_5686edbb
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
     # 联享家_开屏去广告
     - match: ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg
       name: startup.js_5686edbb
       type: response
       require-body: true
       timeout: 30
-      argument:
+      argument: 
 
   force-http-engine:
+    - "*.ott.cibntv.net"
     - "intl.iqiyi.com"
     - "maicai.api.ddxq.mobi"
     - "mobileapi-v6.elong.com"
-    - "wmapi.meituan.com"
     - "weibointl.api.weibo.cn"
-    - "*.ott.cibntv.net"
+    - "wmapi.meituan.com"
 
   mitm:
     - "*.58cdn.com.cn"
@@ -1023,7 +1023,6 @@ http:
     - "www.shankejingling.com"
     - "www.shihuo.cn"
     - "www.suning.com"
-    - "www.taobao.com"
     - "www.tieba.com"
     - "www.xiaohongshu.com"
     - "www.xitongqingli.com"

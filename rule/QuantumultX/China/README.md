@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-QuantumultX定制化规则-7cd1e3) 
 
 China规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,18 +12,18 @@ China规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-06-24 02:30:47
+最后更新时间：2022-07-18 22:44:17
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 18  | 
+| HOST | 24  | 
 | HOST-KEYWORD | 10  | 
-| HOST-SUFFIX | 554  | 
-| IP-CIDR | 10  | 
+| HOST-SUFFIX | 552  | 
+| IP-CIDR | 15  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 31  | 
-| TOTAL | 627  | 
+| TOTAL | 636  | 
 
 
 ## QuantumultX 
@@ -62,9 +62,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 当前分流规则，未包含其他子规则。
 
 当前分流规则，已排除以下规则：
-| 排除规则  |  |  |  |  | 
-| ---- | ---- | ---- | ---- | ----  |
-| Advertising | Direct | Proxy | Steam | SteamCN  | 
+| 排除规则  |  |  | 
+| ---- | ---- | ----  |
+| Proxy | Steam | SteamCN  | 
 
 ## 数据来源
 

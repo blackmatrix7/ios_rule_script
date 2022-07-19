@@ -30,18 +30,18 @@ QuantumultX 远程脚本配置:
 **********************
 [task_local]
 # 爱奇艺会员签到
-0 9 * * * https://raw.githubusercontent.com/xzxiaoshan/ios_rule_script/master/script/iqiyi/iQIYI.js
+0 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/iqiyi/iQIYI.js
 [rewrite_local]
 # 获取Cookie
-^https:\/\/passport\.iqiyi\.com\/apis\/profile\/info\.action url script-request-header https://raw.githubusercontent.com/xzxiaoshan/ios_rule_script/master/script/iqiyi/iQIYI.js
+^https:\/\/passport\.iqiyi\.com\/apis\/profile\/info\.action url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/iqiyi/iQIYI.js
 [mitm]
 hostname= passport.iqiyi.com
 **********************
 Surge 4.2.0+ 脚本配置:
 **********************
 [Script]
-爱奇艺签到 = type=cron,cronexp=0 9 * * *,timeout=120,script-path=https://raw.githubusercontent.com/xzxiaoshan/ios_rule_script/master/script/iqiyi/iQIYI.js
-爱奇艺获取Cookie = type=http-request,pattern=^https:\/\/passport\.iqiyi\.com\/apis\/profile\/info\.action,script-path=https://raw.githubusercontent.com/xzxiaoshan/ios_rule_script/master/script/iqiyi/iQIYI.js
+爱奇艺签到 = type=cron,cronexp=0 9 * * *,timeout=120,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/iqiyi/iQIYI.js
+爱奇艺获取Cookie = type=http-request,pattern=^https:\/\/passport\.iqiyi\.com\/apis\/profile\/info\.action,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/iqiyi/iQIYI.js
 [MITM]
 hostname= passport.iqiyi.com
 ************************
@@ -49,9 +49,9 @@ Loon 2.1.0+ 脚本配置:
 ************************
 [Script]
 # 爱奇艺签到
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/xzxiaoshan/ios_rule_script/master/script/iqiyi/iQIYI.js
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/iqiyi/iQIYI.js
 # 获取Cookie
-http-request ^https:\/\/passport\.iqiyi\.com\/apis\/profile\/info\.action script-path=https://raw.githubusercontent.com/xzxiaoshan/ios_rule_script/master/script/iqiyi/iQIYI.js
+http-request ^https:\/\/passport\.iqiyi\.com\/apis\/profile\/info\.action script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/iqiyi/iQIYI.js
 [Mitm]
 hostname= passport.iqiyi.com
 */

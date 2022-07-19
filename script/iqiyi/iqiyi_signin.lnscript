@@ -1,6 +1,6 @@
 # 爱奇艺每日自动签到
 
-http-request ^https:\/\/passport\.iqiyi\.com\/apis\/profile\/info\.action requires-body=1,script-path=https://raw.githubusercontent.com/xzxiaoshan/ios_rule_script/master/script/iqiyi/iQIYI.js,tag=爱奇艺_获取cookie
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/xzxiaoshan/ios_rule_script/master/script/iqiyi/iQIYI.js,timeout=120,tag=爱奇艺_每日任务
+http-request ^https:\/\/passport\.iqiyi\.com\/apis\/profile\/info\.action requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/iqiyi/iQIYI.js,tag=爱奇艺_获取cookie
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/iqiyi/iQIYI.js,timeout=120,tag=爱奇艺_每日任务
 
 hostname = passport.iqiyi.com

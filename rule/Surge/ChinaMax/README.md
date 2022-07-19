@@ -21,19 +21,19 @@
 
 ## 规则统计
 
-最后更新时间：2022-07-18 22:45:17
+最后更新时间：2022-07-19 20:16:29
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 83  | 
 | DOMAIN-KEYWORD | 14  | 
-| DOMAIN-SUFFIX | 69431  | 
+| DOMAIN-SUFFIX | 69427  | 
 | IP-CIDR | 6258  | 
 | IP-CIDR6 | 4200  | 
 | PROCESS-NAME | 10  | 
 | USER-AGENT | 64  | 
-| TOTAL | 80060  | 
+| TOTAL | 80056  | 
 
 
 ## Surge 
@@ -100,34 +100,35 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 | ChuangKeTie | ChunYou | DaMai | DanDanZan | Dandanplay  | 
 | DangDang | Dedao | Deepin | DiDi | DiLianWangLuo  | 
 | DiSiFanShi | DianCeWangKe | DingTalk | DingXiangYuan | Domob  | 
-| DouBan | Douyu | DuoWan | EastMoney | Eleme  | 
-| FanFou | FeiZhu | FengHuangWang | FengXiaWangLuo | Fiio  | 
-| Funshion | GaoDe | GuiGuDongLi | HaiNanHangKong | HanYi  | 
-| HeMa | HibyMusic | Himalaya | Hpplay | HuYa  | 
-| HuaShuTV | HuanJu | Huawei | HunanTV | Hupu  | 
-| ICBC | JiGuangTuiSong | JianGuoYun | JianShu | JinJiangWenXue  | 
-| JingDong | JueJin | Keep | KingSmith | Kingsoft  | 
-| KouDaiShiShang | Ku6 | KuKeMusic | KuaiDi100 | KuaiShou  | 
-| KuangShi | KugouKuwo | LanZouYun | LeJu | LeTV  | 
-| Lenovo | LianMeng | LuDaShi | LvMiLianChuang | Maocloud  | 
-| MeiTu | MeiTuan | MeiZu | MiWu | Migu  | 
-| MingLueZhaoHui | Mogujie | Mojitianqi | NGAA | NetEase  | 
-| NetEaseMusic | OPPO | OnePlus | OuPeng | PPTV  | 
-| PSBC | Pinduoduo | PingAn | QiNiuYun | QingCloud  | 
-| RuanMei | SFExpress | SMZDM | ShangHaiJuXiao | Shanling  | 
-| ShenMa | ShiJiChaoXing | ShiNongZhiKe | Sina | Sohu  | 
-| SouFang | SuNing | SuiShiChuanMei | TCL | TaiKang  | 
-| TaiheMusic | Teambition | Tencent | TencentVideo | TianTianKanKan  | 
-| TianWeiChengXin | TianYaForum | TigerFintech | TongCheng | U17  | 
-| UC | UCloud | UPYun | UnionPay | Vancl  | 
-| VipShop | Vivo | WanKaHuanJu | WanMeiShiJie | WangSuKeJi  | 
-| WangXinKeJi | WeiZhiYunDong | Weibo | WenJuanXing | WiFiMaster  | 
-| WoLai | XiamiMusic | XianYu | XiaoGouKeJi | XiaoMi  | 
-| XiaoYuanKeJi | XieCheng | XueErSi | XueQiu | Xunlei  | 
-| YYeTs | YiChe | YiXiaKeJi | YiZhiBo | YouMengChuangXiang  | 
-| YouZan | Youku | YuanFuDao | YunFanJiaSu | ZDNS  | 
-| ZhangYue | ZhiYinManKe | ZhiYunZhong | ZhongGuoShiHua | ZhongWeiShiJi  | 
-| ZhongYuanYiShang | ZhuanZhuan | iFlytek | iQIYI | ifanr  | 
+| DouBan | DouYin | Douyu | DuoWan | EastMoney  | 
+| Eleme | FanFou | FeiZhu | FengHuangWang | FengXiaWangLuo  | 
+| Fiio | Funshion | GaoDe | GuiGuDongLi | HaiNanHangKong  | 
+| HanYi | HeMa | HibyMusic | Himalaya | Hpplay  | 
+| HuYa | HuaShuTV | HuanJu | Huawei | HunanTV  | 
+| Hupu | ICBC | JiGuangTuiSong | JianGuoYun | JianShu  | 
+| JinJiangWenXue | JingDong | JueJin | Keep | KingSmith  | 
+| Kingsoft | KouDaiShiShang | Ku6 | KuKeMusic | KuaiDi100  | 
+| KuaiShou | KuangShi | KugouKuwo | LanZouYun | LeJu  | 
+| LeTV | Lenovo | LianMeng | LuDaShi | LvMiLianChuang  | 
+| Maocloud | MeiTu | MeiTuan | MeiZu | MiWu  | 
+| Migu | MingLueZhaoHui | Mogujie | Mojitianqi | NGAA  | 
+| NetEase | NetEaseMusic | OPPO | OnePlus | OuPeng  | 
+| PPTV | PSBC | Pinduoduo | PingAn | QiNiuYun  | 
+| QingCloud | RuanMei | SFExpress | SMZDM | ShangHaiJuXiao  | 
+| Shanling | ShenMa | ShiJiChaoXing | ShiNongZhiKe | Sina  | 
+| Sohu | SouFang | SuNing | SuiShiChuanMei | TCL  | 
+| TaiKang | TaiheMusic | Teambition | Tencent | TencentVideo  | 
+| TianTianKanKan | TianWeiChengXin | TianYaForum | TigerFintech | TongCheng  | 
+| U17 | UC | UCloud | UPYun | UnionPay  | 
+| Vancl | VipShop | Vivo | WanKaHuanJu | WanMeiShiJie  | 
+| WangSuKeJi | WangXinKeJi | WeiZhiYunDong | Weibo | WenJuanXing  | 
+| WiFiMaster | WoLai | XiamiMusic | XianYu | XiaoGouKeJi  | 
+| XiaoMi | XiaoYuanKeJi | XieCheng | XueErSi | XueQiu  | 
+| Xunlei | YYeTs | YiChe | YiXiaKeJi | YiZhiBo  | 
+| YouMengChuangXiang | YouZan | Youku | YuanFuDao | YunFanJiaSu  | 
+| ZDNS | ZhangYue | ZhiYinManKe | ZhiYunZhong | ZhongGuoShiHua  | 
+| ZhongWeiShiJi | ZhongYuanYiShang | ZhuanZhuan | iFlytek | iQIYI  | 
+| ifanr  |  |  |  |  | 
 
 
 当前分流规则，已排除以下规则：
@@ -452,6 +453,12 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/bilibili.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ShiJiChaoXing.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WoLai.list
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic%20IPs.yaml
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Douyin.yaml
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

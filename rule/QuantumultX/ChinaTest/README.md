@@ -12,18 +12,18 @@ ChinaTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-07-18 22:44:21
+最后更新时间：2022-07-19 20:15:26
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 88  | 
 | HOST-KEYWORD | 10  | 
-| HOST-SUFFIX | 66623  | 
+| HOST-SUFFIX | 66616  | 
 | IP-CIDR | 10  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 31  | 
-| TOTAL | 66766  | 
+| TOTAL | 66759  | 
 
 
 ## QuantumultX 
@@ -138,6 +138,10 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

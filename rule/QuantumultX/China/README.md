@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-QuantumultX定制化规则-7cd1e3) 
 
 China规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,18 +12,18 @@ China规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-07-19 02:27:53
+最后更新时间：2022-07-19 20:15:20
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 18  | 
+| HOST | 24  | 
 | HOST-KEYWORD | 10  | 
-| HOST-SUFFIX | 555  | 
-| IP-CIDR | 10  | 
+| HOST-SUFFIX | 553  | 
+| IP-CIDR | 15  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 31  | 
-| TOTAL | 628  | 
+| TOTAL | 637  | 
 
 
 ## QuantumultX 
@@ -78,6 +78,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/China/China.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/China.list
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

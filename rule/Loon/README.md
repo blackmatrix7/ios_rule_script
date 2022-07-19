@@ -57,7 +57,7 @@
 |[Dood](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Dood) |[Tesla](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Tesla) |[Embl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Embl) |[HashiCorp](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HashiCorp) |[Scaleflex](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Scaleflex) |
 |[CWSeed](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/CWSeed) |[EHGallery](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/EHGallery) |[FuboTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/FuboTV) |[NBC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NBC) |[Faronics](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Faronics) |
 |[Salesforce](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Salesforce) |[Ubuntu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Ubuntu) |[iQIYIIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQIYIIntl) |[QuickConnect](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/QuickConnect) |[HamiVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HamiVideo) |
-|[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Emby) |
+|[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Emby) |[PikPak](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/PikPak) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -116,12 +116,14 @@
 |[微至云动](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WeiZhiYunDong) |[8btc](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/8btc) |[ChinaIPsBGP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPsBGP) |[城通网盘](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChengTongWangPan) |[国内网站/IP合集](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMax) |
 |[多玩](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DuoWan) |[玩咖欢聚](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WanKaHuanJu) |[知音漫客](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ZhiYinManKe) |[ChinaNoMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaNoMedia) |[微信](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WeChat) |
 |[世纪超星](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ShiJiChaoXing) |[ChinaIPsTest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs/ChinaIPsTest) |[QuickConnect](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/QuickConnect) |[我来](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WoLai) |[知乎](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Zhihu) |
+|[NGA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NGA) |[抖音](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DouYin) |
 
 
 |🇨🇳MainlandMedia|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[BiliBili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BiliBili) |[CCTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/CCTV) |[ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia) |[网易云音乐](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic) |[优酷](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youku) ||||
 |[腾讯视频](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TencentVideo) |[爱奇艺](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQIYI) |[斗鱼](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Douyu) |[喜马拉雅](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Himalaya) |[国内网站/IP合集](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMax) |||
+|[抖音](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DouYin) ||
 
 
 |📺Media|  |  |  |  |
@@ -130,7 +132,7 @@
 |[Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spotify) |[BBC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BBC) |[AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia) |[Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut) |[BiliBili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BiliBili) |||
 |[CCTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/CCTV) |[腾讯](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Tencent) |[ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia) |[网易云音乐](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NetEaseMusic) |[腾讯视频](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TencentVideo) ||
 |[爱奇艺](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQIYI) |[喜马拉雅](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Himalaya) |[HBO(香港)](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HBOHK) |[HBO(美国)](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HBOUSA) |[HuluJP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HuluJP) |
-|[HuluUSA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HuluUSA) |
+|[HuluUSA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HuluUSA) |[抖音](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DouYin) |
 
 
 |🎮Game|  |  |  |  |
@@ -141,6 +143,7 @@
 |[Riot](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Riot) |[UBI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/UBI) |[Xbox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Xbox) |[Sony](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Sony) |[Battle](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Battle) |
 |[Classic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Classic) |[DiabloIII](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DiabloIII) |[Hearthstone](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hearthstone) |[HeroesoftheStorm](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HeroesoftheStorm) |[Overwatch](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Overwatch) |
 |[StarCraftII](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/StarCraftII) |[WorldofWarcraft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WorldofWarcraft) |[Origin](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Origin) |[雀魂](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Majsoul) |[米哈游HoYoverse](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HoYoverse) |
+|[NGA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NGA) |
 
 
 |🍎Apple|  |  |  |  |

@@ -19,14 +19,14 @@ ChinaIPsTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-07-18 22:45:29
+最后更新时间：2022-07-19 20:16:44
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| IP-CIDR | 6668  | 
+| IP-CIDR | 6669  | 
 | IP6-CIDR | 4525  | 
-| TOTAL | 11193  | 
+| TOTAL | 11194  | 
 
 
 ## QuantumultX 
@@ -95,6 +95,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/tietong6.txt
 - https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/unicom.txt
 - https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/unicom6.txt
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic%20IPs.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

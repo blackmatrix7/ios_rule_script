@@ -21,16 +21,16 @@
 
 ## 规则统计
 
-最后更新时间：2022-07-19 02:27:13
+最后更新时间：2022-07-19 20:14:32
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 46038  | 
+| HOST | 45986  | 
 | HOST-KEYWORD | 264  | 
-| HOST-SUFFIX | 89517  | 
+| HOST-SUFFIX | 88929  | 
 | IP-CIDR | 257  | 
-| TOTAL | 136076  | 
+| TOTAL | 135436  | 
 
 
 ## QuantumultX 
@@ -137,6 +137,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 - https://easylist-downloads.adblockplus.org/easyprivacy.txt
 - https://raw.githubusercontent.com/28413761/QX/main/fenliu.list
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

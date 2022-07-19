@@ -29,6 +29,8 @@ http-request https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login sc
 http-request ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,tag=贴吧_获取新版cookie
 # 饿了么_获取cookie
 http-request ^https?:\/\/h5\.ele\.me\/restapi\/biz\.svip_scene\/svip\/engine\/queryTrafficSupply script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,tag=饿了么_获取cookie
+# 爱奇艺cookie
+http-request ^https:\/\/passport\.iqiyi\.com\/apis\/profile\/info\.action script-path=https://raw.githubusercontent.com/xzxiaoshan/ios_rule_script/master/script/iqiyi/iQIYI.js,tag=爱奇艺_获取cookie
 
 [MITM]
-hostname = apph5.manmanbuy.com,c.tieba.baidu.com,fmapp.chinafamilymart.com.cn,h5.ele.me,luka-graphql.ling.cn,maicai.api.ddxq.mobi,mall.meituan.com,mp.jzb.com,pgc-cms.jzb.com,zhiyou.smzdm.com
+hostname = apph5.manmanbuy.com,c.tieba.baidu.com,fmapp.chinafamilymart.com.cn,h5.ele.me,luka-graphql.ling.cn,maicai.api.ddxq.mobi,mall.meituan.com,mp.jzb.com,pgc-cms.jzb.com,zhiyou.smzdm.com,passport.iqiyi.com

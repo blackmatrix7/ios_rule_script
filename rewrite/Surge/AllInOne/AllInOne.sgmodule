@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2022-07-25 21:14:57
+#!desc=最后更新时间 2022-07-25 22:17:00
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!domain=4
@@ -10,10 +10,10 @@
 #!http-request-script=1
 #!http-response-script=28
 #!redirect=62
-#!reject=435
+#!reject=434
 #!mitm=488
 #!force-http-engine-hosts=6
-#!total=1031
+#!total=1030
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -346,7 +346,6 @@ USER-AGENT,AVOS*,REJECT
 "^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul" - reject
 "^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul" - reject
 "^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul" - reject
-"^https?:\/\/heic\.alicdn\.com\/imgextra.*\.heic" - reject
 "^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$" - reject
 "^https?:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport" - reject
 "^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd" - reject

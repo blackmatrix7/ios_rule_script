@@ -1,11 +1,11 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2022-07-25 21:16:40
+#!desc=最后更新时间 2022-07-25 22:17:02
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=354
+#!reject=353
 #!mitm=290
 #!force-http-engine-hosts=6
-#!total=650
+#!total=649
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -197,7 +197,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement" - reject
 "^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd" - reject
 "^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner" - reject
-"^https?:\/\/heic\.alicdn\.com\/imgextra.*\.heic" - reject
 "^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$" - reject
 "^https?:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport" - reject
 "^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd" - reject

@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2022-07-25 21:16:40
+#!desc= 最后更新时间 2022-07-25 22:17:02
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 354
+#!reject= 353
 #!mitm= 290
-#!total= 644
+#!total= 643
 
 
 [URL Rewrite]
@@ -193,7 +193,6 @@
 ^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement - reject
 ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd - reject
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner - reject
-^https?:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
 ^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ - reject-200
 ^https?:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport - reject-200
 ^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd - reject-200

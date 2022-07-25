@@ -1,5 +1,5 @@
 #!name= AllInOne
-#!desc= 最后更新时间 2022-07-25 21:13:13
+#!desc= 最后更新时间 2022-07-25 22:16:56
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
@@ -12,9 +12,9 @@
 #!http-request-script= 1
 #!http-response-script= 28
 #!redirect= 8
-#!reject= 376
+#!reject= 375
 #!mitm= 420
-#!total= 844
+#!total= 843
 
 [Rule]
 DOMAIN,118.89.204.198,REJECT
@@ -233,7 +233,6 @@ USER-AGENT,AVOS*,REJECT
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul - reject
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul - reject
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul - reject
-^https?:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
 ^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ - reject-200
 ^https?:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport - reject-200
 ^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd - reject-200

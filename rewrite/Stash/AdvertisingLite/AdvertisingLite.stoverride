@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2022-07-19 20:17:02
+desc: 最后更新时间 2022-07-25 21:16:40
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 353
-# mitm: 289
+# reject: 354
+# mitm: 290
 # force-http-engine-hosts: 6
-# total: 648
+# total: 650
 
 
 
@@ -202,6 +202,7 @@ http:
     - ^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd - reject
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner - reject
     - ^https?:\/\/i\.ys7\.com\/api\/ads - reject
+    - ^https?:\/\/iadmusicmat\.music\.126\.net\/.*?jpg$ - reject
     - ^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/ - reject
     - ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
     - ^https?:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad\/ - reject
@@ -216,7 +217,7 @@ http:
     - ^https?:\/\/img\.umetrip\.com\/fs\/advert/ - reject
     - ^https?:\/\/img\d+\.10101111cdn\.com\/adpos\/ - reject
     - ^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/ - reject
-    - ^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/ - reject
+    - ^https?:\/\/interface(\d)?\.music\.163\.com\/eapi\/(ad|abtest|sp|hot|store|search\/(specialkeyword|defaultkeyword|hot)) - reject
     - ^https?:\/\/intl\.iqiyi\.com\/ad_external\/ - reject
     - ^https?:\/\/intl\.iqiyi\.com\/video\/advertise - reject
     - ^https?:\/\/ios\.lantouzi\.com\/api\/startpage - reject
@@ -226,6 +227,7 @@ http:
     - ^https?:\/\/jxd524\.github\.io\/iFreeTime\/xid32uxaoecnfv2\/ - reject
     - ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? - reject
     - ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml - reject
+    - ^https?:\/\/m\.ads\.8le8le\.com\/adShow - reject
     - ^https?:\/\/m\.caijing\.com\.cn\/startup_ad_ios\.html$ - reject
     - ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) - reject
     - ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject
@@ -293,7 +295,6 @@ http:
     - ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
     - ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getBannerAds|getFullScreenPic|getNewsRemoteConfig|getQQNewsRemoteConfig|searchHotCatList|upLoadLoc) - reject
     - ^https?:\/\/render-oss-cdn\.amap\.com\/render\/studio-dev\/image\/ - reject
-    - ^https?:\/\/render\.alipay\.com\/p\/s\/h5data\/prod\/spring-festival-2019-h5data\/popup-h5data\.json - reject
     - ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
     - ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) - reject
     - ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget - reject
@@ -526,6 +527,7 @@ http:
     - "hk.app.joox.com"
     - "home.mi.com"
     - "i.ys7.com"
+    - "iadmusicmat.music.126.net"
     - "iapi.bishijie.com"
     - "iface.iqiyi.com"
     - "ih2.ireader.com"
@@ -547,6 +549,7 @@ http:
     - "learn.chaoxing.com"
     - "list-app-m.i4.cn"
     - "m*.amap.com"
+    - "m.ads.8le8le.com"
     - "m.caijing.com.cn"
     - "m.client.10010.com"
     - "m.creditcard.ecitic.com"
@@ -599,7 +602,6 @@ http:
     - "qt.qq.com"
     - "r.inews.qq.com"
     - "render-oss-cdn.amap.com"
-    - "render.alipay.com"
     - "res-release.wuta-cam.com"
     - "res.xiaojukeji.com"
     - "restapi.iyunmai.com"

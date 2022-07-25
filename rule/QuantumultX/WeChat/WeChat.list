@@ -1,10 +1,12 @@
 # NAME: WeChat
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-19 20:16:38
+# UPDATED: 2022-07-25 21:12:53
 # HOST: 7
+# HOST-SUFFIX: 12
 # IP-CIDR: 9
-# TOTAL: 16
+# USER-AGENT: 2
+# TOTAL: 30
 HOST,dl.wechat.com,WeChat
 HOST,sgfindershort.wechat.com,WeChat
 HOST,sgilinkshort.wechat.com,WeChat
@@ -12,6 +14,20 @@ HOST,sglong.wechat.com,WeChat
 HOST,sgminorshort.wechat.com,WeChat
 HOST,sgshort.wechat.com,WeChat
 HOST,tencentmap.wechat.com,WeChat
+HOST-SUFFIX,qlogo.cn,WeChat
+HOST-SUFFIX,qpic.cn,WeChat
+HOST-SUFFIX,servicewechat.com,WeChat
+HOST-SUFFIX,tenpay.com,WeChat
+HOST-SUFFIX,wechat.com,WeChat
+HOST-SUFFIX,wechatlegal.net,WeChat
+HOST-SUFFIX,wechatpay.com,WeChat
+HOST-SUFFIX,weixin.com,WeChat
+HOST-SUFFIX,weixin.qq.com,WeChat
+HOST-SUFFIX,weixinbridge.com,WeChat
+HOST-SUFFIX,weixinsxy.com,WeChat
+HOST-SUFFIX,wxapp.tc.qq.com,WeChat
+USER-AGENT,MicroMessenger*,WeChat
+USER-AGENT,WeChat*,WeChat
 IP-CIDR,101.32.104.4/32,WeChat
 IP-CIDR,101.32.104.41/32,WeChat
 IP-CIDR,101.32.104.56/32,WeChat

@@ -21,17 +21,17 @@
 
 ## 规则统计
 
-最后更新时间：2022-07-21 02:28:32
+最后更新时间：2022-07-25 21:11:01
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 45997  | 
+| DOMAIN | 9535  | 
 | DOMAIN-KEYWORD | 264  | 
-| DOMAIN-SUFFIX | 89259  | 
-| IP-CIDR | 257  | 
-| URL-REGEX | 303  | 
-| TOTAL | 136080  | 
+| DOMAIN-SUFFIX | 89706  | 
+| IP-CIDR | 241  | 
+| URL-REGEX | 301  | 
+| TOTAL | 100047  | 
 
 
 ## Shadowrocket 
@@ -93,20 +93,13 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
-- https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt
-- https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt
-- https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block_Add.txt
-- https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block_Plus.txt
-- https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Liby.txt
 - https://raw.githubusercontent.com/scomper/surge-list/master/reject.list
 - https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list
 - https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Tide.list
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/connershua/Quantumult/X/Filter/Advertising.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
@@ -132,12 +125,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/WhiteList/WhiteList.list
-- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Unbreak.list
-- https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Unbreak.list
-- https://raw.githubusercontent.com/githubacct001/QuantumultX/master/Filters/githubacct001_AD.list
 - https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/annoyances-filter.txt
 - https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/social-media-filter.txt
 - https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/dns-filter.txt
@@ -149,6 +136,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://easylist-downloads.adblockplus.org/easyprivacy.txt
 - https://raw.githubusercontent.com/28413761/QX/main/fenliu.list
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

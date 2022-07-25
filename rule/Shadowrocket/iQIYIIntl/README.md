@@ -12,14 +12,15 @@ iQIYIIntl规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-07-19 20:16:37
+最后更新时间：2022-07-25 21:12:52
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
+| DOMAIN | 1  | 
 | DOMAIN-SUFFIX | 5  | 
 | IP-CIDR | 14  | 
-| TOTAL | 19  | 
+| TOTAL | 20  | 
 
 
 ## Shadowrocket 
@@ -70,6 +71,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《iQIYIIntl》的数据来自以下链接，如与本项目的《iQIYIIntl》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/iQIYI-Intl.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/IqiyiHMT.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

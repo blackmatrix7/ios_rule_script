@@ -1,7 +1,7 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-25 21:12:40
+# UPDATED: 2022-07-27 17:13:32
 # DOMAIN: 18
 # DOMAIN-KEYWORD: 23
 # DOMAIN-SUFFIX: 826
@@ -56,6 +56,7 @@ payload:
   - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN-SUFFIX,amazon.com
   - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,anaconda.com
   - DOMAIN-SUFFIX,anchor.fm
   - DOMAIN-SUFFIX,ancsconf.org
@@ -65,7 +66,6 @@ payload:
   - DOMAIN-SUFFIX,aol.com
   - DOMAIN-SUFFIX,aolcdn.com
   - DOMAIN-SUFFIX,apache.org
-  - DOMAIN-SUFFIX,api.amplitude.com
   - DOMAIN-SUFFIX,api.mixpanel.com
   - DOMAIN-SUFFIX,api.termius.com
   - DOMAIN-SUFFIX,apk-dl.com

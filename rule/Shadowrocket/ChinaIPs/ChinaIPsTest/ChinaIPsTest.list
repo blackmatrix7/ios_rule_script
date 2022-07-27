@@ -1,9 +1,9 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-27 02:30:43
-# IP-CIDR: 11236
-# TOTAL: 11236
+# UPDATED: 2022-07-27 17:13:44
+# IP-CIDR: 11238
+# TOTAL: 11238
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
 IP-CIDR,1.0.32.0/19,no-resolve
@@ -3643,7 +3643,6 @@ IP-CIDR,182.238.0.0/16,no-resolve
 IP-CIDR,182.239.0.0/19,no-resolve
 IP-CIDR,182.240.0.0/13,no-resolve
 IP-CIDR,182.254.0.0/16,no-resolve
-IP-CIDR,182.255.33.0/24,no-resolve
 IP-CIDR,182.32.0.0/12,no-resolve
 IP-CIDR,182.48.96.0/19,no-resolve
 IP-CIDR,182.49.0.0/16,no-resolve
@@ -7021,6 +7020,7 @@ IP-CIDR,2404:edc0::/32,no-resolve
 IP-CIDR,2404:f00::/32,no-resolve
 IP-CIDR,2404:f040::/32,no-resolve
 IP-CIDR,2404:f4c0:100::/40,no-resolve
+IP-CIDR,2404:f4c0:2233::/48,no-resolve
 IP-CIDR,2404:f4c0:6660::/48,no-resolve
 IP-CIDR,2404:f4c0:6666::/48,no-resolve
 IP-CIDR,2404:f4c0:7000::/36,no-resolve
@@ -8858,7 +8858,6 @@ IP-CIDR,2602:feda:1d1::/48,no-resolve
 IP-CIDR,2602:feda:1d2::/48,no-resolve
 IP-CIDR,2602:feda:2d0::/47,no-resolve
 IP-CIDR,2602:feda:2f0::/48,no-resolve
-IP-CIDR,2602:feda:3ab::/48,no-resolve
 IP-CIDR,2602:feda:ae7::/48,no-resolve
 IP-CIDR,2602:feda:af3::/48,no-resolve
 IP-CIDR,2602:feda:d30::/44,no-resolve
@@ -9984,8 +9983,10 @@ IP-CIDR,2a06:a005:1200::/43,no-resolve
 IP-CIDR,2a06:a005:1220::/44,no-resolve
 IP-CIDR,2a06:a005:1310::/44,no-resolve
 IP-CIDR,2a06:a005:1320::/44,no-resolve
+IP-CIDR,2a06:a005:1340::/43,no-resolve
 IP-CIDR,2a06:a005:260::/43,no-resolve
 IP-CIDR,2a06:a005:280::/42,no-resolve
+IP-CIDR,2a06:a005:45a::/48,no-resolve
 IP-CIDR,2a06:a005:510::/44,no-resolve
 IP-CIDR,2a06:a005:520::/44,no-resolve
 IP-CIDR,2a06:a005:547::/48,no-resolve
@@ -10107,6 +10108,7 @@ IP-CIDR,2a0e:aa07:e030::/48,no-resolve
 IP-CIDR,2a0e:aa07:e035::/48,no-resolve
 IP-CIDR,2a0e:aa07:e039::/48,no-resolve
 IP-CIDR,2a0e:aa07:e042::/47,no-resolve
+IP-CIDR,2a0e:aa07:e045::/48,no-resolve
 IP-CIDR,2a0e:aa07:e200::/44,no-resolve
 IP-CIDR,2a0e:aa07:f000::/48,no-resolve
 IP-CIDR,2a0e:aa07:f004::/48,no-resolve

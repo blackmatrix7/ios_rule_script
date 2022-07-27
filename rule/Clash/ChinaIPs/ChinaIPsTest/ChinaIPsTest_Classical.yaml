@@ -1,10 +1,10 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-27 02:30:43
-# IP-CIDR: 6679
-# IP-CIDR6: 4557
-# TOTAL: 11236
+# UPDATED: 2022-07-27 17:13:44
+# IP-CIDR: 6678
+# IP-CIDR6: 4560
+# TOTAL: 11238
 payload:
   - IP-CIDR,1.0.1.0/24
   - IP-CIDR,1.0.2.0/23
@@ -3645,7 +3645,6 @@ payload:
   - IP-CIDR,182.239.0.0/19
   - IP-CIDR,182.240.0.0/13
   - IP-CIDR,182.254.0.0/16
-  - IP-CIDR,182.255.33.0/24
   - IP-CIDR,182.32.0.0/12
   - IP-CIDR,182.48.96.0/19
   - IP-CIDR,182.49.0.0/16
@@ -8107,6 +8106,7 @@ payload:
   - IP-CIDR6,2404:f00::/32
   - IP-CIDR6,2404:f040::/32
   - IP-CIDR6,2404:f4c0:100::/40
+  - IP-CIDR6,2404:f4c0:2233::/48
   - IP-CIDR6,2404:f4c0:6660::/48
   - IP-CIDR6,2404:f4c0:6666::/48
   - IP-CIDR6,2404:f4c0:7000::/36
@@ -9944,7 +9944,6 @@ payload:
   - IP-CIDR6,2602:feda:1d2::/48
   - IP-CIDR6,2602:feda:2d0::/47
   - IP-CIDR6,2602:feda:2f0::/48
-  - IP-CIDR6,2602:feda:3ab::/48
   - IP-CIDR6,2602:feda:ae7::/48
   - IP-CIDR6,2602:feda:af3::/48
   - IP-CIDR6,2602:feda:d30::/44
@@ -11031,8 +11030,10 @@ payload:
   - IP-CIDR6,2a06:a005:1220::/44
   - IP-CIDR6,2a06:a005:1310::/44
   - IP-CIDR6,2a06:a005:1320::/44
+  - IP-CIDR6,2a06:a005:1340::/43
   - IP-CIDR6,2a06:a005:260::/43
   - IP-CIDR6,2a06:a005:280::/42
+  - IP-CIDR6,2a06:a005:45a::/48
   - IP-CIDR6,2a06:a005:510::/44
   - IP-CIDR6,2a06:a005:520::/44
   - IP-CIDR6,2a06:a005:547::/48
@@ -11154,6 +11155,7 @@ payload:
   - IP-CIDR6,2a0e:aa07:e035::/48
   - IP-CIDR6,2a0e:aa07:e039::/48
   - IP-CIDR6,2a0e:aa07:e042::/47
+  - IP-CIDR6,2a0e:aa07:e045::/48
   - IP-CIDR6,2a0e:aa07:e200::/44
   - IP-CIDR6,2a0e:aa07:f000::/48
   - IP-CIDR6,2a0e:aa07:f004::/48

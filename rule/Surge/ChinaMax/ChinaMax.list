@@ -1,7 +1,7 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-31 02:28:42
+# UPDATED: 2022-08-01 02:28:02
 # DOMAIN: 84
 # DOMAIN-KEYWORD: 14
 # DOMAIN-SUFFIX: 69372
@@ -701,6 +701,7 @@ IP-CIDR,103.183.26.0/23,no-resolve
 IP-CIDR,103.183.66.0/23,no-resolve
 IP-CIDR,103.184.46.0/23,no-resolve
 IP-CIDR,103.186.4.0/23,no-resolve
+IP-CIDR,103.189.154.0/23,no-resolve
 IP-CIDR,103.189.93.0/24,no-resolve
 IP-CIDR,103.19.12.0/22,no-resolve
 IP-CIDR,103.19.232.0/22,no-resolve
@@ -5009,6 +5010,7 @@ IP-CIDR,204.74.96.0/24,no-resolve
 IP-CIDR,206.219.44.0/23,no-resolve
 IP-CIDR,206.219.50.0/23,no-resolve
 IP-CIDR,206.219.52.0/23,no-resolve
+IP-CIDR,206.238.255.0/24,no-resolve
 IP-CIDR,207.68.174.8/29,no-resolve
 IP-CIDR,207.89.20.0/24,no-resolve
 IP-CIDR,210.12.0.0/15,no-resolve
@@ -5328,7 +5330,6 @@ IP-CIDR,23.211.15.99/32,no-resolve
 IP-CIDR,23.236.64.0/25,no-resolve
 IP-CIDR,23.236.64.128/26,no-resolve
 IP-CIDR,23.236.64.192/27,no-resolve
-IP-CIDR,23.247.137.0/24,no-resolve
 IP-CIDR,23.40.241.251/32,no-resolve
 IP-CIDR,23.40.242.10/32,no-resolve
 IP-CIDR,23.53.32.88/32,no-resolve
@@ -5842,7 +5843,6 @@ IP-CIDR,43.255.64.0/20,no-resolve
 IP-CIDR,43.255.8.0/22,no-resolve
 IP-CIDR,43.255.84.0/22,no-resolve
 IP-CIDR,43.255.96.0/22,no-resolve
-IP-CIDR,44.68.205.0/24,no-resolve
 IP-CIDR,45.112.132.0/22,no-resolve
 IP-CIDR,45.112.188.0/22,no-resolve
 IP-CIDR,45.112.208.0/20,no-resolve
@@ -10518,7 +10518,6 @@ IP-CIDR6,2a12:49c4:9000::/40,no-resolve
 IP-CIDR6,2a12:49c4:f400::/39,no-resolve
 IP-CIDR6,2a12:49c4:f600::/40,no-resolve
 IP-CIDR6,2a13:1800::/29,no-resolve
-USER-AGENT,AcFun*
 USER-AGENT,*bili*
 USER-AGENT,Bilibili*
 USER-AGENT,bili*
@@ -10555,18 +10554,16 @@ USER-AGENT,eusoft_ting_en_iphone,DIRECT
 USER-AGENT,hearthstone*
 USER-AGENT,hide*,DIRECT
 USER-AGENT,ting_en,DIRECT
-USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
 USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,*QIYI*
-USER-AGENT,MGTV*
-USER-AGENT,MiguVideo*
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
-USER-AGENT,Youku*
 USER-AGENT,baiduyinyue
-USER-AGENT,walkman*
-USER-AGENT,xiami*
 USER-AGENT,Himalaya*
+USER-AGENT,MGTV*
+USER-AGENT,AcFun*
+USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
+USER-AGENT,MiguVideo*
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**
 USER-AGENT,NeteaseMusic**
@@ -10574,10 +10571,13 @@ USER-AGENT,网易云音乐*
 USER-AGENT,网易云音乐**
 USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
 USER-AGENT,QQ%E9%9F%B3%E4%B9%90
+USER-AGENT,TencentMidasConnect*
 USER-AGENT,live4iphone*
 USER-AGENT,qqlive4iphone*
 USER-AGENT,MOO*
-USER-AGENT,TencentMidasConnect*
+USER-AGENT,walkman*
+USER-AGENT,xiami*
+USER-AGENT,Youku*
 USER-AGENT,PPStream*
 USER-AGENT,QIYI*
 USER-AGENT,QYPlayer*

@@ -1,11 +1,11 @@
 # NAME: HBO
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-25 21:11:38
+# UPDATED: 2022-08-05 02:29:38
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 36
+# DOMAIN-SUFFIX: 46
 # PROCESS-NAME: 1
-# TOTAL: 38
+# TOTAL: 48
 payload:
   - DOMAIN,wmff.warnermediacdn.com
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
@@ -16,6 +16,9 @@ payload:
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,forthethrone.com
   - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,hbo.com.c.footprint.net
+  - DOMAIN-SUFFIX,hbo.com.edgesuite.net
+  - DOMAIN-SUFFIX,hbo.map.fastly.net
   - DOMAIN-SUFFIX,hboasia.com
   - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
   - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net
@@ -24,13 +27,20 @@ payload:
   - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net
   - DOMAIN-SUFFIX,hboasialive.akamaized.net
   - DOMAIN-SUFFIX,hbogeo.cust.footprint.net
+  - DOMAIN-SUFFIX,hbogo.co.th
   - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbogo.eu
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN-SUFFIX,hbogoasia.id
+  - DOMAIN-SUFFIX,hbogoasia.ph
+  - DOMAIN-SUFFIX,hbogoasia.sg
+  - DOMAIN-SUFFIX,hbogoasia.tw
   - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
   - DOMAIN-SUFFIX,hbolb.onwardsmg.com
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,hbounify-prod.evergent.com
   - DOMAIN-SUFFIX,manifest.prod.boltdns.net

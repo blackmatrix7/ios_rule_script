@@ -58,7 +58,7 @@
 |[CWSeed](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/CWSeed) |[EHGallery](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/EHGallery) |[FuboTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/FuboTV) |[NBC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NBC) |[Faronics](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Faronics) |
 |[Salesforce](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Salesforce) |[Ubuntu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Ubuntu) |[iQIYIIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/iQIYIIntl) |[谷歌推送](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GoogleFCM) |[QuickConnect](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/QuickConnect) |
 |[HamiVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/HamiVideo) |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Emby) |[PikPak](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/PikPak) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Cake) |[币安交易所](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Binance) |
-|[GoogleEarth](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GoogleEarth) |[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TeraBox) |
+|[GoogleEarth](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GoogleEarth) |[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TeraBox) |[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BritboxUK) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -69,7 +69,7 @@
 |[HBO(美国)](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/HBOUSA) |[HuluJP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/HuluJP) |[HuluUSA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/HuluUSA) |[FOX NOW](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/FOXNOW) |[FOXPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/FOXPlus) |
 |[KKTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/KKTV) |[NaverTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NaverTV) |[NowE](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NowE) |[ParamountPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ParamountPlus) |[PrimeVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/PrimeVideo) |
 |[TVer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TVer) |[myTVSUPER](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/myTVSUPER) |[HBOAsia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/HBOAsia) |[BiliBiliIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BiliBiliIntl) |[DiscoveryPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/DiscoveryPlus) |
-|[Overcast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Overcast) |[Peacock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Peacock) |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Emby) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Cake) |
+|[Overcast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Overcast) |[Peacock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Peacock) |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Emby) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Cake) |[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BritboxUK) |
 
 
 |🇨🇳Mainland|  |  |  |  |
@@ -156,9 +156,9 @@
 |[AppleFirmware](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleFirmware) |[AppleHardware](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleHardware) |[AppleMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleMedia) |[Beats](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Beats) |
 
 
-|🗄️Microsoft|  |  |  |
-| ---- | ---- | ---- | ---- |
-|[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Teams) |
+|🗄️Microsoft|  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- |
+|[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Teams) |[MicrosoftEdge](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/MicrosoftEdge) |
 
 
 |📟Google|  |  |  |  |

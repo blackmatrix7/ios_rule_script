@@ -58,7 +58,7 @@
 |[CWSeed](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/CWSeed) |[EHGallery](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/EHGallery) |[FuboTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/FuboTV) |[NBC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/NBC) |[Faronics](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Faronics) |
 |[Salesforce](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Salesforce) |[Ubuntu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Ubuntu) |[iQIYIIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/iQIYIIntl) |[QuickConnect](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/QuickConnect) |[HamiVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/HamiVideo) |
 |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Emby) |[PikPak](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/PikPak) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Cake) |[币安交易所](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Binance) |[GoogleEarth](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GoogleEarth) |
-|[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/TeraBox) |
+|[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/TeraBox) |[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/BritboxUK) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -69,7 +69,7 @@
 |[HBO(美国)](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/HBOUSA) |[HuluJP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/HuluJP) |[HuluUSA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/HuluUSA) |[FOX NOW](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/FOXNOW) |[FOXPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/FOXPlus) |
 |[KKTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/KKTV) |[NaverTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/NaverTV) |[NowE](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/NowE) |[ParamountPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ParamountPlus) |[PrimeVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/PrimeVideo) |
 |[TVer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/TVer) |[myTVSUPER](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/myTVSUPER) |[HBOAsia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/HBOAsia) |[BiliBiliIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/BiliBiliIntl) |[DiscoveryPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/DiscoveryPlus) |
-|[Overcast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Overcast) |[Peacock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Peacock) |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Emby) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Cake) |
+|[Overcast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Overcast) |[Peacock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Peacock) |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Emby) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Cake) |[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/BritboxUK) |
 
 
 |🇨🇳Mainland|  |  |  |  |
@@ -156,9 +156,9 @@
 |[AppleFirmware](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AppleFirmware) |[AppleHardware](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AppleHardware) |[AppleMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AppleMedia) |[Beats](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Beats) |
 
 
-|🗄️Microsoft|  |  |  |
-| ---- | ---- | ---- | ---- |
-|[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Teams) |
+|🗄️Microsoft|  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- |
+|[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Teams) |[MicrosoftEdge](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/MicrosoftEdge) |
 
 
 |📟Google|  |  |  |  |

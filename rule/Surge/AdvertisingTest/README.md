@@ -21,18 +21,18 @@
 
 ## 规则统计
 
-最后更新时间：2022-08-05 02:29:01
+最后更新时间：2022-08-05 22:36:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | AND | 1  | 
-| DOMAIN | 9581  | 
+| DOMAIN | 9596  | 
 | DOMAIN-KEYWORD | 263  | 
-| DOMAIN-SUFFIX | 91660  | 
+| DOMAIN-SUFFIX | 91732  | 
 | IP-CIDR | 241  | 
 | URL-REGEX | 301  | 
-| TOTAL | 102047  | 
+| TOTAL | 102134  | 
 
 
 ## Surge 

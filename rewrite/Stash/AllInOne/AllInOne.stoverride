@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2022-07-25 22:16:56
+desc: 最后更新时间 2022-08-05 22:38:16
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 4
@@ -9,9 +9,9 @@ desc: 最后更新时间 2022-07-25 22:16:56
 # http-response-script: 28
 # redirect: 8
 # reject: 375
-# mitm: 420
+# mitm: 416
 # force-http-engine-hosts: 6
-# total: 844
+# total: 840
 
 
 
@@ -28,12 +28,12 @@ http:
   rewrite:
     - (^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d\/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$6&sim_code=51503$8 302
     - (^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$35&sim_code=51503$5 302
+    - ^http:\/\/you\.163\.com\/ https://you.163.com/ 302
     - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
     - ^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)\/ https://macitbetter.com/ 302
     - ^https?:\/\/cn\.ultraiso\.net\/ https://cn.ezbsystems.com/ultraiso/ 302
     - ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302
     - ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
-    - ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
@@ -1002,14 +1002,12 @@ http:
     - "www.imindmap.cc"
     - "www.inoreader.com"
     - "www.iyingdi.cn"
-    - "www.jd.com"
     - "www.jihehuaban.com.cn"
     - "www.kingdeecn.cn"
     - "www.logoshejishi.com"
     - "www.luping.net.cn"
     - "www.mathtype.cn"
     - "www.meituan.com"
-    - "www.mi.com"
     - "www.mindmanager.cc"
     - "www.mindmanager.cn"
     - "www.mindmapper.cc"
@@ -1024,12 +1022,10 @@ http:
     - "www.photozoomchina.com"
     - "www.shankejingling.com"
     - "www.shihuo.cn"
-    - "www.suning.com"
     - "www.tieba.com"
     - "www.xiaohongshu.com"
     - "www.xitongqingli.com"
     - "www.xshellcn.com"
-    - "www.yhd.com"
     - "www.yuanchengxiezuo.com"
     - "www.zbrushcn.com"
     - "www.zhihu.com"

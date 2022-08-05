@@ -59,6 +59,7 @@
 |[EHGallery](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/EHGallery) |[FuboTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/FuboTV) |[NBC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NBC) |[Faronics](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Faronics) |[Salesforce](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Salesforce) |
 |[Ubuntu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Ubuntu) |[iQIYIIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iQIYIIntl) |[QuickConnect](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/QuickConnect) |[HamiVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HamiVideo) |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Emby) |
 |[PikPak](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PikPak) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cake) |[币安交易所](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Binance) |[GoogleEarth](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GoogleEarth) |[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TeraBox) |
+|[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BritboxUK) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -70,6 +71,7 @@
 |[FOXPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/FOXPlus) |[KKTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/KKTV) |[NaverTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NaverTV) |[NowE](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NowE) |[ParamountPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ParamountPlus) |
 |[PrimeVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PrimeVideo) |[TVer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TVer) |[myTVSUPER](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/myTVSUPER) |[HBOAsia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HBOAsia) |[BiliBiliIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BiliBiliIntl) |
 |[DiscoveryPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DiscoveryPlus) |[Overcast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Overcast) |[Peacock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Peacock) |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Emby) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cake) |
+|[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BritboxUK) |
 
 
 |🇨🇳Mainland|  |  |  |  |
@@ -159,7 +161,8 @@
 
 |🗄️Microsoft|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
-|[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Teams) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Teams) |
+|[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Teams) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Teams) ||||
+|[MicrosoftEdge](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/MicrosoftEdge) |||
 
 
 |📟Google|  |  |  |  |

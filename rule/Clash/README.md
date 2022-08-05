@@ -58,7 +58,7 @@
 |[CWSeed](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CWSeed) |[EHGallery](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/EHGallery) |[FuboTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FuboTV) |[NBC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NBC) |[Faronics](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Faronics) |
 |[Salesforce](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Salesforce) |[Ubuntu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Ubuntu) |[iQIYIIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iQIYIIntl) |[谷歌推送](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleFCM) |[QuickConnect](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/QuickConnect) |
 |[HamiVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HamiVideo) |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Emby) |[PikPak](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PikPak) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cake) |[币安交易所](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Binance) |
-|[GoogleEarth](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleEarth) |[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TeraBox) |
+|[GoogleEarth](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleEarth) |[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TeraBox) |[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BritboxUK) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -69,7 +69,7 @@
 |[HBO(美国)](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HBOUSA) |[HuluJP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HuluJP) |[HuluUSA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HuluUSA) |[FOX NOW](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FOXNOW) |[FOXPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FOXPlus) |
 |[KKTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/KKTV) |[NaverTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NaverTV) |[NowE](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NowE) |[ParamountPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ParamountPlus) |[PrimeVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PrimeVideo) |
 |[TVer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TVer) |[myTVSUPER](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/myTVSUPER) |[HBOAsia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HBOAsia) |[BiliBiliIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BiliBiliIntl) |[DiscoveryPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DiscoveryPlus) |
-|[Overcast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Overcast) |[Peacock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Peacock) |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Emby) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cake) |
+|[Overcast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Overcast) |[Peacock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Peacock) |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Emby) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cake) |[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BritboxUK) |
 
 
 |🇨🇳Mainland|  |  |  |  |
@@ -156,9 +156,9 @@
 |[AppleFirmware](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleFirmware) |[AppleHardware](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleHardware) |[AppleMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleMedia) |[Beats](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Beats) |
 
 
-|🗄️Microsoft|  |  |  |
-| ---- | ---- | ---- | ---- |
-|[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Teams) |
+|🗄️Microsoft|  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- |
+|[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Teams) |[MicrosoftEdge](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MicrosoftEdge) |
 
 
 |📟Google|  |  |  |  |

@@ -1,0 +1,11 @@
+# NAME: MicrosoftEdge
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2022-08-05 22:38:08
+# DOMAIN: 4
+# TOTAL: 4
+payload:
+  - DOMAIN,edge.activity.windows.com
+  - DOMAIN,edge.microsoft.com
+  - DOMAIN,iecvlist.microsoft.com
+  - DOMAIN,msedge.api.cdp.microsoft.com

@@ -58,7 +58,7 @@
 |[CWSeed](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/CWSeed) |[EHGallery](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/EHGallery) |[FuboTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/FuboTV) |[NBC](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NBC) |[Faronics](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Faronics) |
 |[Salesforce](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Salesforce) |[Ubuntu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Ubuntu) |[iQIYIIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQIYIIntl) |[QuickConnect](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/QuickConnect) |[HamiVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HamiVideo) |
 |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Emby) |[PikPak](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/PikPak) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Cake) |[币安交易所](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Binance) |[GoogleEarth](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GoogleEarth) |
-|[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TeraBox) |
+|[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TeraBox) |[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BritboxUK) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -69,7 +69,7 @@
 |[HBO(美国)](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HBOUSA) |[HuluJP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HuluJP) |[HuluUSA](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HuluUSA) |[FOX NOW](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/FOXNOW) |[FOXPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/FOXPlus) |
 |[KKTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/KKTV) |[NaverTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NaverTV) |[NowE](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/NowE) |[ParamountPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ParamountPlus) |[PrimeVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/PrimeVideo) |
 |[TVer](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TVer) |[myTVSUPER](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/myTVSUPER) |[HBOAsia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HBOAsia) |[BiliBiliIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BiliBiliIntl) |[DiscoveryPlus](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DiscoveryPlus) |
-|[Overcast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Overcast) |[Peacock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Peacock) |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Emby) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Cake) |
+|[Overcast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Overcast) |[Peacock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Peacock) |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Emby) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Cake) |[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BritboxUK) |
 
 
 |🇨🇳Mainland|  |  |  |  |
@@ -156,9 +156,9 @@
 |[AppleFirmware](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleFirmware) |[AppleHardware](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleHardware) |[AppleMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleMedia) |[Beats](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Beats) |
 
 
-|🗄️Microsoft|  |  |  |
-| ---- | ---- | ---- | ---- |
-|[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Teams) |
+|🗄️Microsoft|  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- |
+|[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Teams) |[MicrosoftEdge](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/MicrosoftEdge) |
 
 
 |📟Google|  |  |  |  |

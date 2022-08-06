@@ -12,14 +12,14 @@ Disney规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:36:44
+最后更新时间：2022-08-07 02:27:45
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 157  | 
+| DOMAIN-SUFFIX | 159  | 
 | PROCESS-NAME | 2  | 
-| TOTAL | 159  | 
+| TOTAL | 161  | 
 
 
 ## Clash 

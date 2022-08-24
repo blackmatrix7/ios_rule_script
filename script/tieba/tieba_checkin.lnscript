@@ -1,7 +1,0 @@
-# 百度贴吧签到
-
-http-request ^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,tag=贴吧_获取Cookie
-http-request ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,tag=贴吧_获取新版Cookie
-cron "30 0 * * *" script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,timeout=60,tag=贴吧_每日签到
-
-hostname = c.tieba.baidu.com

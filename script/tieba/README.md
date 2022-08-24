@@ -21,6 +21,10 @@
 
 使用模块
 
+Surge在获取Cookie时，需要在MITM中设置h2=false，即关闭 MITM over HTTP/2，否则会提示获取Cookie出现异常。
+
+建议在获取Cookie时临时关闭，获取成功后再开启，或者等待客户端修复。
+
 ```ini
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.sgmodule
 ```
@@ -32,16 +36,16 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tie
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.qxrewrite, tag=贴吧_获取Cookie, update-interval=86400, opt-parser=false, enabled=true
 
 [task_local]
-30 0 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js, tag=贴吧_每日签到, enabled=true
+30 9 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js, tag=贴吧_每日签到, enabled=true
 ```
 
 ### Loon
 
-配置文件
+使用插件
 
 ```ini
 [Remote Script]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.lnscript, tag=贴吧_每日签到, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.lnplugin, tag=贴吧_每日签到, enabled=true
 ```
 
 ## 获取Cookie

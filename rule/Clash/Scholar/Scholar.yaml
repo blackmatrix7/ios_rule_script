@@ -1,10 +1,20 @@
 # NAME: Scholar
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-19 20:15:14
-# DOMAIN-SUFFIX: 182
-# TOTAL: 182
+# UPDATED: 2022-08-05 22:36:46
+# DOMAIN-SUFFIX: 220
+# TOTAL: 220
 payload:
+  - DOMAIN-SUFFIX,1lib.cloud
+  - DOMAIN-SUFFIX,1lib.domains
+  - DOMAIN-SUFFIX,1lib.education
+  - DOMAIN-SUFFIX,1lib.eu
+  - DOMAIN-SUFFIX,1lib.limited
+  - DOMAIN-SUFFIX,1lib.pl
+  - DOMAIN-SUFFIX,1lib.to
+  - DOMAIN-SUFFIX,1lib.tw
+  - DOMAIN-SUFFIX,2lib.org
+  - DOMAIN-SUFFIX,3lib.net
   - DOMAIN-SUFFIX,aclweb.org
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acs.org
@@ -19,18 +29,33 @@ payload:
   - DOMAIN-SUFFIX,apa.org
   - DOMAIN-SUFFIX,apress.com
   - DOMAIN-SUFFIX,aps.org
+  - DOMAIN-SUFFIX,art1lib.com
   - DOMAIN-SUFFIX,arxiv.org
   - DOMAIN-SUFFIX,ascelibrary.org
   - DOMAIN-SUFFIX,asha.org
   - DOMAIN-SUFFIX,asm.org
   - DOMAIN-SUFFIX,asme.org
   - DOMAIN-SUFFIX,astm.org
+  - DOMAIN-SUFFIX,b-ok.africa
+  - DOMAIN-SUFFIX,b-ok.asia
+  - DOMAIN-SUFFIX,b-ok.cc
+  - DOMAIN-SUFFIX,b-ok.global
+  - DOMAIN-SUFFIX,b-ok.org
   - DOMAIN-SUFFIX,berkeley.edu
   - DOMAIN-SUFFIX,biomedcentral.com
   - DOMAIN-SUFFIX,biorxiv.org
   - DOMAIN-SUFFIX,blackstonespoliceservice.com
   - DOMAIN-SUFFIX,blackwell-synergy.com
   - DOMAIN-SUFFIX,bmj.com
+  - DOMAIN-SUFFIX,book4you.org
+  - DOMAIN-SUFFIX,bookfi.net
+  - DOMAIN-SUFFIX,booksc.eu
+  - DOMAIN-SUFFIX,booksc.me
+  - DOMAIN-SUFFIX,booksc.org
+  - DOMAIN-SUFFIX,booksc.xyz
+  - DOMAIN-SUFFIX,bookshome.info
+  - DOMAIN-SUFFIX,bookshome.net
+  - DOMAIN-SUFFIX,bookshome.world
   - DOMAIN-SUFFIX,brill.com
   - DOMAIN-SUFFIX,cabdirect.org
   - DOMAIN-SUFFIX,cambridge.org
@@ -45,6 +70,7 @@ payload:
   - DOMAIN-SUFFIX,cqvip.com
   - DOMAIN-SUFFIX,crossref.org
   - DOMAIN-SUFFIX,csiro.au
+  - DOMAIN-SUFFIX,de1lib.org
   - DOMAIN-SUFFIX,deepdyve.com
   - DOMAIN-SUFFIX,degruyter.com
   - DOMAIN-SUFFIX,dentalhypotheses.com
@@ -67,6 +93,7 @@ payload:
   - DOMAIN-SUFFIX,galegroup.com
   - DOMAIN-SUFFIX,ggsrv.com
   - DOMAIN-SUFFIX,hindawi.com
+  - DOMAIN-SUFFIX,hk1lib.org
   - DOMAIN-SUFFIX,ic.ac.uk
   - DOMAIN-SUFFIX,icevirtuallibrary.com
   - DOMAIN-SUFFIX,ieee.org
@@ -91,7 +118,11 @@ payload:
   - DOMAIN-SUFFIX,kuke.com
   - DOMAIN-SUFFIX,lawdata.com.tw
   - DOMAIN-SUFFIX,libguides.com
+  - DOMAIN-SUFFIX,libsolutions.app
+  - DOMAIN-SUFFIX,libsolutions.domains
+  - DOMAIN-SUFFIX,libsolutions.net
   - DOMAIN-SUFFIX,literatumonline.com
+  - DOMAIN-SUFFIX,ma1lib.org
   - DOMAIN-SUFFIX,madsrevolution.net
   - DOMAIN-SUFFIX,mdpi.com
   - DOMAIN-SUFFIX,mit
@@ -155,8 +186,11 @@ payload:
   - DOMAIN-SUFFIX,scopus.com
   - DOMAIN-SUFFIX,semanticscholar.org
   - DOMAIN-SUFFIX,serialssolutions.com
+  - DOMAIN-SUFFIX,sg1lib.org
   - DOMAIN-SUFFIX,siam.org
   - DOMAIN-SUFFIX,silverchair-cdn.com
+  - DOMAIN-SUFFIX,singlelogin.app
+  - DOMAIN-SUFFIX,singlelogin.me
   - DOMAIN-SUFFIX,sipriyearbook.org
   - DOMAIN-SUFFIX,spiedigitallibrary.org
   - DOMAIN-SUFFIX,springer.com
@@ -186,4 +220,8 @@ payload:
   - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,worldscientific.com
   - DOMAIN-SUFFIX,yale.edu
+  - DOMAIN-SUFFIX,z-lib.org
+  - DOMAIN-SUFFIX,zlib.life
+  - DOMAIN-SUFFIX,zlibcdn.com
+  - DOMAIN-SUFFIX,zlibcdn2.com
   - DOMAIN-SUFFIX,zotero.org

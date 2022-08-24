@@ -1,15 +1,15 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-19 20:13:08
+# UPDATED: 2022-08-22 10:38:05
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # AND: 1
-# DOMAIN: 23692
+# DOMAIN: 23683
 # DOMAIN-KEYWORD: 27
-# DOMAIN-SUFFIX: 13399
+# DOMAIN-SUFFIX: 13481
 # IP-CIDR: 190
-# URL-REGEX: 297
-# TOTAL: 37606
+# URL-REGEX: 295
+# TOTAL: 37677
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,adsage
@@ -242,8 +242,6 @@ URL-REGEX,^https?:\/\/.+?\.atm\.youku\.com
 URL-REGEX,^https?:\/\/.+?\.iydsj\.com\/api\/.+?\/ad
 URL-REGEX,^https?:\/\/.+?\.mp4\?ccode=0902
 URL-REGEX,^https?:\/\/.+?\.mp4\?sid=
-URL-REGEX,^https?:\/\/.+?\.pstatp\.com\/img\/ad
-URL-REGEX,^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/
 URL-REGEX,^https?:\/\/.+?\/(mixer|track2)\?
 URL-REGEX,^https?:\/\/.+?\/allOne\.php\?ad_name
 URL-REGEX,^https?:\/\/.+?\/cdn-adn\/
@@ -478,7 +476,7 @@ URL-REGEX,^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json
 URL-REGEX,^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php
 URL-REGEX,^https?:\/\/sax\w?\.sina\.cn
 URL-REGEX,^https?:\/\/sax\w?\.sina\.com\.cn
-URL-REGEX,^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(actionad|sdkad)\.php
+URL-REGEX,^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/actionad\.php
 URL-REGEX,^https?:\/\/server-\w+.imrworldwide.com
 URL-REGEX,^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(GetAD|ADLog)
 URL-REGEX,^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson

@@ -1,10 +1,10 @@
 # NAME: Xbox
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-19 20:14:45
+# UPDATED: 2022-08-05 22:36:19
 # DOMAIN: 4
-# DOMAIN-SUFFIX: 36
-# TOTAL: 40
+# DOMAIN-SUFFIX: 38
+# TOTAL: 42
 payload:
   - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN,login.live.com
@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,xbox360.eu
   - DOMAIN-SUFFIX,xbox360.org
   - DOMAIN-SUFFIX,xboxab.com
+  - DOMAIN-SUFFIX,xboxab.net
   - DOMAIN-SUFFIX,xboxgamepass.com
   - DOMAIN-SUFFIX,xboxgamestudios.com
   - DOMAIN-SUFFIX,xboxlive.cn
@@ -43,6 +44,7 @@ payload:
   - DOMAIN-SUFFIX,xboxone.com
   - DOMAIN-SUFFIX,xboxone.eu
   - DOMAIN-SUFFIX,xboxplayanywhere.com
+  - DOMAIN-SUFFIX,xboxservice.com
   - DOMAIN-SUFFIX,xboxservices.com
   - DOMAIN-SUFFIX,xboxstudios.com
   - DOMAIN-SUFFIX,xbx.lv

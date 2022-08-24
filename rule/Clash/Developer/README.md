@@ -12,13 +12,13 @@ Developer规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-07-19 20:15:13
+最后更新时间：2022-08-05 22:36:46
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 27  | 
-| TOTAL | 27  | 
+| DOMAIN-SUFFIX | 63  | 
+| TOTAL | 63  | 
 
 
 ## Clash 
@@ -56,8 +56,11 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ## 子规则/排除规则
 
+当前分流规则，已包含以下子规则，除非特殊需求否则不建议重复引用：
+| 子规则  | 
+| ----  |
+| AppleDev  | 
 
-当前分流规则，未包含其他子规则。
 
 ## 数据来源
 
@@ -65,6 +68,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Developer.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Developer/Developer.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleDev.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Developer.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

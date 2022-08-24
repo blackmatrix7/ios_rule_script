@@ -1,0 +1,11 @@
+# NAME: DigitalOcean
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2022-08-15 14:27:05
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+payload:
+  - DOMAIN-SUFFIX,digitalocean.com
+  - DOMAIN-SUFFIX,digitaloceanspaces.com
+  - DOMAIN-SUFFIX,do.co
+  - DOMAIN-SUFFIX,nginxconfig.io

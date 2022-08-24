@@ -12,16 +12,17 @@ Twitch规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-07-19 20:16:16
+最后更新时间：2022-08-05 22:37:41
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
+| DOMAIN-KEYWORD | 1  | 
 | DOMAIN-SUFFIX | 7  | 
 | IP-CIDR | 11  | 
 | IP-CIDR6 | 1  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 20  | 
+| TOTAL | 21  | 
 
 
 ## Clash 
@@ -68,6 +69,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Twitch.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Live/Twitch.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Twitch.yaml
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitch.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

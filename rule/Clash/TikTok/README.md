@@ -12,16 +12,16 @@ TikTok规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-07-19 20:15:12
+最后更新时间：2022-08-22 10:39:33
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 1  | 
 | DOMAIN-KEYWORD | 2  | 
-| DOMAIN-SUFFIX | 12  | 
+| DOMAIN-SUFFIX | 13  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 16  | 
+| TOTAL | 17  | 
 
 
 ## Clash 

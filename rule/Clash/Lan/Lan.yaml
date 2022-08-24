@@ -1,12 +1,12 @@
 # NAME: Lan
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-19 20:15:19
+# UPDATED: 2022-08-14 02:28:27
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 114
+# DOMAIN-SUFFIX: 115
 # IP-CIDR: 14
 # IP-CIDR6: 3
-# TOTAL: 134
+# TOTAL: 135
 payload:
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,router.asus.com
@@ -124,6 +124,7 @@ payload:
   - DOMAIN-SUFFIX,router.ctc
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,tendawifi.com
+  - DOMAIN-SUFFIX,tplinkwifi.net
   - DOMAIN-SUFFIX,zte.home
   - IP-CIDR,0.0.0.0/8
   - IP-CIDR,10.0.0.0/8

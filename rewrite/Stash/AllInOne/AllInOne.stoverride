@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2022-07-19 20:16:55
+desc: 最后更新时间 2022-08-19 10:33:30
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 4
@@ -8,10 +8,10 @@ desc: 最后更新时间 2022-07-19 20:16:55
 # http-request-script: 1
 # http-response-script: 28
 # redirect: 8
-# reject: 375
+# reject: 377
 # mitm: 418
 # force-http-engine-hosts: 6
-# total: 842
+# total: 844
 
 
 
@@ -28,13 +28,15 @@ http:
   rewrite:
     - (^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d\/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$6&sim_code=51503$8 302
     - (^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$35&sim_code=51503$5 302
+    - ^http:\/\/you\.163\.com\/ https://you.163.com/ 302
     - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
     - ^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)\/ https://macitbetter.com/ 302
     - ^https?:\/\/cn\.ultraiso\.net\/ https://cn.ezbsystems.com/ultraiso/ 302
     - ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302
     - ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
-    - ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
+    - ^https?://cdn\.fivecdm\.com/cr/ - reject
+    - ^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
@@ -228,12 +230,12 @@ http:
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul - reject
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul - reject
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul - reject
-    - ^https?:\/\/heic\.alicdn\.com\/imgextra.*\.heic - reject
     - ^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ - reject
     - ^https?:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport - reject
     - ^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd - reject
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner - reject
     - ^https?:\/\/i\.ys7\.com\/api\/ads - reject
+    - ^https?:\/\/iadmusicmat\.music\.126\.net\/.*?jpg$ - reject
     - ^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/ - reject
     - ^https?:\/\/iapi\.bishijie\.com\/actopen\/v\d\/advertising\/ - reject
     - ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
@@ -249,7 +251,7 @@ http:
     - ^https?:\/\/img\.umetrip\.com\/fs\/advert/ - reject
     - ^https?:\/\/img\d+\.10101111cdn\.com\/adpos\/ - reject
     - ^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/ - reject
-    - ^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/ - reject
+    - ^https?:\/\/interface(\d)?\.music\.163\.com\/eapi\/(ad|abtest|sp|hot|store|search\/(specialkeyword|defaultkeyword|hot)) - reject
     - ^https?:\/\/intl\.iqiyi\.com\/ad_external\/ - reject
     - ^https?:\/\/intl\.iqiyi\.com\/video\/advertise - reject
     - ^https?:\/\/ios\.lantouzi\.com\/api\/startpage - reject
@@ -259,6 +261,7 @@ http:
     - ^https?:\/\/jxd524\.github\.io\/iFreeTime\/xid32uxaoecnfv2\/ - reject
     - ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? - reject
     - ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml - reject
+    - ^https?:\/\/m\.ads\.8le8le\.com\/adShow - reject
     - ^https?:\/\/m\.caijing\.com\.cn\/startup_ad_ios\.html$ - reject
     - ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) - reject
     - ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject
@@ -326,7 +329,6 @@ http:
     - ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
     - ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getBannerAds|getFullScreenPic|getNewsRemoteConfig|getQQNewsRemoteConfig|searchHotCatList|upLoadLoc) - reject
     - ^https?:\/\/render-oss-cdn\.amap\.com\/render\/studio-dev\/image\/ - reject
-    - ^https?:\/\/render\.alipay\.com\/p\/s\/h5data\/prod\/spring-festival-2019-h5data\/popup-h5data\.json - reject
     - ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
     - ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) - reject
     - ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget - reject
@@ -336,7 +338,7 @@ http:
     - ^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json - reject
     - ^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php - reject
     - ^https?:\/\/saad\.ms\.zhangyue\.net\/ad - reject
-    - ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(actionad|sdkad)\.php - reject
+    - ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/actionad\.php - reject
     - ^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(GetAD|ADLog) - reject
     - ^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson - reject
     - ^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/screen - reject
@@ -764,6 +766,7 @@ http:
     - "ccsp-egmas.sf-express.com"
     - "cdn.api.fotoable.com"
     - "cdn.dianshihome.com"
+    - "cdn.fivecdm.com"
     - "cdn.moji.com"
     - "cdnfile1.msstatic.com"
     - "channel.beitaichufang.com"
@@ -821,6 +824,8 @@ http:
     - "homepage-api.smzdm.com"
     - "hypersnap.mairuan.com"
     - "i.ys7.com"
+    - "iadmusicmat.music.126.net"
+    - "iadmusicmat.music.com"
     - "iapi.bishijie.com"
     - "iface.iqiyi.com"
     - "ih2.ireader.com"
@@ -845,6 +850,7 @@ http:
     - "list-app-m.i4.cn"
     - "logoshejishi.mairuan.com"
     - "m*.amap.com"
+    - "m.ads.8le8le.com"
     - "m.caijing.com.cn"
     - "m.client.10010.com"
     - "m.creditcard.ecitic.com"
@@ -908,7 +914,6 @@ http:
     - "qt.qq.com"
     - "r.inews.qq.com"
     - "render-oss-cdn.amap.com"
-    - "render.alipay.com"
     - "res-release.wuta-cam.com"
     - "res.xiaojukeji.com"
     - "resrelease.wuta-cam.com"
@@ -931,6 +936,7 @@ http:
     - "ss0.bdstatic.com"
     - "ssl.kohsocialapp.qq.com"
     - "sso.lxjapp.com"
+    - "ssp.dzh.com.cn"
     - "static.vuevideo.net"
     - "static1.keepcdn.com"
     - "status.boohee.com"
@@ -1000,14 +1006,12 @@ http:
     - "www.imindmap.cc"
     - "www.inoreader.com"
     - "www.iyingdi.cn"
-    - "www.jd.com"
     - "www.jihehuaban.com.cn"
     - "www.kingdeecn.cn"
     - "www.logoshejishi.com"
     - "www.luping.net.cn"
     - "www.mathtype.cn"
     - "www.meituan.com"
-    - "www.mi.com"
     - "www.mindmanager.cc"
     - "www.mindmanager.cn"
     - "www.mindmapper.cc"
@@ -1022,12 +1026,10 @@ http:
     - "www.photozoomchina.com"
     - "www.shankejingling.com"
     - "www.shihuo.cn"
-    - "www.suning.com"
     - "www.tieba.com"
     - "www.xiaohongshu.com"
     - "www.xitongqingli.com"
     - "www.xshellcn.com"
-    - "www.yhd.com"
     - "www.yuanchengxiezuo.com"
     - "www.zbrushcn.com"
     - "www.zhihu.com"

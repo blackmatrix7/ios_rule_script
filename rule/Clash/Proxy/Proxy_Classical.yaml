@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-19 20:15:09
+# UPDATED: 2022-08-22 02:28:34
 # DOMAIN: 7
 # DOMAIN-KEYWORD: 30
-# DOMAIN-SUFFIX: 24695
+# DOMAIN-SUFFIX: 24700
 # IP-CIDR: 92
 # IP-CIDR6: 3
-# TOTAL: 24827
+# TOTAL: 24832
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -362,6 +362,8 @@ payload:
   - DOMAIN-SUFFIX,13bwin.com
   - DOMAIN-SUFFIX,13js.vip
   - DOMAIN-SUFFIX,13tang.top
+  - DOMAIN-SUFFIX,14.102.250.18
+  - DOMAIN-SUFFIX,14.102.250.19
   - DOMAIN-SUFFIX,141529.com
   - DOMAIN-SUFFIX,141hongkong.com
   - DOMAIN-SUFFIX,141jj.com
@@ -469,6 +471,7 @@ payload:
   - DOMAIN-SUFFIX,17.live
   - DOMAIN-SUFFIX,171gifs.com
   - DOMAIN-SUFFIX,173ng.com
+  - DOMAIN-SUFFIX,174.142.105.153
   - DOMAIN-SUFFIX,1748097.com
   - DOMAIN-SUFFIX,17598732.com
   - DOMAIN-SUFFIX,1762187.com
@@ -1691,6 +1694,9 @@ payload:
   - DOMAIN-SUFFIX,66dofan.com
   - DOMAIN-SUFFIX,66go.vip
   - DOMAIN-SUFFIX,66van.com
+  - DOMAIN-SUFFIX,67.220.91.15
+  - DOMAIN-SUFFIX,67.220.91.18
+  - DOMAIN-SUFFIX,67.220.91.23
   - DOMAIN-SUFFIX,6723119.com
   - DOMAIN-SUFFIX,6733030.com
   - DOMAIN-SUFFIX,67555708.com
@@ -1722,6 +1728,7 @@ payload:
   - DOMAIN-SUFFIX,6896385.com
   - DOMAIN-SUFFIX,68db.com
   - DOMAIN-SUFFIX,68letou.com
+  - DOMAIN-SUFFIX,69.65.19.160
   - DOMAIN-SUFFIX,69.mu
   - DOMAIN-SUFFIX,6934901.com
   - DOMAIN-SUFFIX,694452.cc
@@ -1791,6 +1798,7 @@ payload:
   - DOMAIN-SUFFIX,7154744.com
   - DOMAIN-SUFFIX,71588.com
   - DOMAIN-SUFFIX,7167584.com
+  - DOMAIN-SUFFIX,72.52.81.22
   - DOMAIN-SUFFIX,72.cr.rs
   - DOMAIN-SUFFIX,72.iseoz.com
   - DOMAIN-SUFFIX,7230874.com
@@ -3012,6 +3020,7 @@ payload:
   - DOMAIN-SUFFIX,ampj662.com
   - DOMAIN-SUFFIX,ampj665.com
   - DOMAIN-SUFFIX,ampj90.com
+  - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,amplusmarketing.com
   - DOMAIN-SUFFIX,ampproject.com
   - DOMAIN-SUFFIX,ampproject.net
@@ -3184,7 +3193,6 @@ payload:
   - DOMAIN-SUFFIX,api-login.kkbox.com.tw
   - DOMAIN-SUFFIX,api.a5188yes.com
   - DOMAIN-SUFFIX,api.ai
-  - DOMAIN-SUFFIX,api.amplitude.com
   - DOMAIN-SUFFIX,api.arcadia.pncle8.com
   - DOMAIN-SUFFIX,api.chess.com
   - DOMAIN-SUFFIX,api.citizenvpn.com
@@ -7681,6 +7689,7 @@ payload:
   - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,firecams.com
   - DOMAIN-SUFFIX,firech.at
+  - DOMAIN-SUFFIX,firefox.com
   - DOMAIN-SUFFIX,firefoxfan.com
   - DOMAIN-SUFFIX,fireofliberty.org
   - DOMAIN-SUFFIX,firetell.net
@@ -7833,7 +7842,6 @@ payload:
   - DOMAIN-SUFFIX,fpmt.org
   - DOMAIN-SUFFIX,fpmt.tw
   - DOMAIN-SUFFIX,fpmtmexico.org
-  - DOMAIN-SUFFIX,fpn.firefox.com
   - DOMAIN-SUFFIX,fpraognet.xmx-134-1.com
   - DOMAIN-SUFFIX,fpraognet.xmx-134.com
   - DOMAIN-SUFFIX,fproxy.nl
@@ -8281,6 +8289,7 @@ payload:
   - DOMAIN-SUFFIX,gandhidham.com
   - DOMAIN-SUFFIX,ganetstudio.com
   - DOMAIN-SUFFIX,ganges.com
+  - DOMAIN-SUFFIX,ganjingworld.com
   - DOMAIN-SUFFIX,gaoloumi.cc
   - DOMAIN-SUFFIX,gaoming.net
   - DOMAIN-SUFFIX,gaopi.net
@@ -12493,7 +12502,6 @@ payload:
   - DOMAIN-SUFFIX,mmmca.com
   - DOMAIN-SUFFIX,mmmglobal.org
   - DOMAIN-SUFFIX,mmmoffice.com
-  - DOMAIN-SUFFIX,mmotraffic.com
   - DOMAIN-SUFFIX,mms333.ga
   - DOMAIN-SUFFIX,mms333.gq
   - DOMAIN-SUFFIX,mmsishow.com
@@ -13998,6 +14006,7 @@ payload:
   - DOMAIN-SUFFIX,pastie.org
   - DOMAIN-SUFFIX,patelbrothersusa.com
   - DOMAIN-SUFFIX,pathtosharepoint.com
+  - DOMAIN-SUFFIX,patreon.com
   - DOMAIN-SUFFIX,patriademarti.com
   - DOMAIN-SUFFIX,patrickemaher.com
   - DOMAIN-SUFFIX,patrulator.ro
@@ -14499,6 +14508,7 @@ payload:
   - DOMAIN-SUFFIX,prosiben.de
   - DOMAIN-SUFFIX,proteinalactea.com
   - DOMAIN-SUFFIX,protempproducts.com
+  - DOMAIN-SUFFIX,proton.me
   - DOMAIN-SUFFIX,protonvpn.com
   - DOMAIN-SUFFIX,protv.ro
   - DOMAIN-SUFFIX,protvi.ro
@@ -15038,7 +15048,6 @@ payload:
   - DOMAIN-SUFFIX,rejoiceatsameway.org.au
   - DOMAIN-SUFFIX,relaxbbs.com
   - DOMAIN-SUFFIX,relay.com.tw
-  - DOMAIN-SUFFIX,relay.firefox.com
   - DOMAIN-SUFFIX,relearnings.com
   - DOMAIN-SUFFIX,releaseinternational.org
   - DOMAIN-SUFFIX,releenc.org
@@ -15594,7 +15603,6 @@ payload:
   - DOMAIN-SUFFIX,seminar.shoplineapp.cn
   - DOMAIN-SUFFIX,seminars.tca.org.tw
   - DOMAIN-SUFFIX,semprot.com
-  - DOMAIN-SUFFIX,send.firefox.com
   - DOMAIN-SUFFIX,send6.com
   - DOMAIN-SUFFIX,sendlove.to
   - DOMAIN-SUFFIX,sendsmtp.com
@@ -16923,7 +16931,6 @@ payload:
   - DOMAIN-SUFFIX,test.nadeo.com
   - DOMAIN-SUFFIX,testapi.xinbet.net
   - DOMAIN-SUFFIX,testmakeer.weebly.com
-  - DOMAIN-SUFFIX,testpilot.firefox.com
   - DOMAIN-SUFFIX,tew.org
   - DOMAIN-SUFFIX,texasartsacademics.org
   - DOMAIN-SUFFIX,texasboyschoir.org
@@ -17476,7 +17483,6 @@ payload:
   - DOMAIN-SUFFIX,trace.org
   - DOMAIN-SUFFIX,tracfone.com
   - DOMAIN-SUFFIX,tracking.rb88.com
-  - DOMAIN-SUFFIX,trackingclick.net
   - DOMAIN-SUFFIX,trade.kgieworld.com
   - DOMAIN-SUFFIX,trader.lcg.com
   - DOMAIN-SUFFIX,trader711.com
@@ -17484,7 +17490,6 @@ payload:
   - DOMAIN-SUFFIX,trading212.com
   - DOMAIN-SUFFIX,tradingview.com
   - DOMAIN-SUFFIX,traeumtgerade.de
-  - DOMAIN-SUFFIX,traffichaus.com
   - DOMAIN-SUFFIX,trakt.tv
   - DOMAIN-SUFFIX,transferstudentcn.weebly.com
   - DOMAIN-SUFFIX,translate.goog

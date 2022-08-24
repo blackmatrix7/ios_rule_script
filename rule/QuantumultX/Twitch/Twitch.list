@@ -1,11 +1,12 @@
 # NAME: Twitch
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-19 20:16:16
+# UPDATED: 2022-08-05 22:37:41
+# HOST-KEYWORD: 1
 # HOST-SUFFIX: 7
 # IP-CIDR: 11
 # IP6-CIDR: 1
-# TOTAL: 19
+# TOTAL: 20
 HOST-SUFFIX,ext-twitch.tv,Twitch
 HOST-SUFFIX,jtvnw.net,Twitch
 HOST-SUFFIX,ttvnw.net,Twitch
@@ -13,6 +14,7 @@ HOST-SUFFIX,twitch-ext.rootonline.de,Twitch
 HOST-SUFFIX,twitch.tv,Twitch
 HOST-SUFFIX,twitchcdn.net,Twitch
 HOST-SUFFIX,twitchsvc.net,Twitch
+HOST-KEYWORD,ttvnw,Twitch
 IP-CIDR,103.53.48.0/23,Twitch
 IP-CIDR,185.42.204.0/22,Twitch
 IP-CIDR,192.108.239.0/24,Twitch

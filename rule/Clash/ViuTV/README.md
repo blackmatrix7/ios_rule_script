@@ -12,14 +12,14 @@ ViuTV规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-07-19 20:15:18
+最后更新时间：2022-08-05 22:36:50
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 8  | 
+| DOMAIN-SUFFIX | 11  | 
 | PROCESS-NAME | 3  | 
-| TOTAL | 11  | 
+| TOTAL | 14  | 
 
 
 ## Clash 
@@ -66,6 +66,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ViuTV.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/ViuTV.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ViuTV.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

@@ -1,11 +1,13 @@
 # NAME: Download
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-19 20:15:19
+# UPDATED: 2022-08-05 22:36:50
 # DOMAIN-KEYWORD: 5
+# DOMAIN-SUFFIX: 1
 # PROCESS-NAME: 28
-# TOTAL: 33
+# TOTAL: 34
 payload:
+  - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,thunder
   - DOMAIN-KEYWORD,xlliveud

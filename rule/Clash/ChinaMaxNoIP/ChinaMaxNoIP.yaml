@@ -1,0 +1,37 @@
+# NAME: ChinaMaxNoIP
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2022-08-24 02:30:09
+# DOMAIN: 81
+# DOMAIN-KEYWORD: 14
+# DOMAIN-SUFFIX: 68839
+# PROCESS-NAME: 13
+# TOTAL: 68947
+payload:
+  - DOMAIN-KEYWORD,-cn
+  - DOMAIN-KEYWORD,.tmall.com
+  - DOMAIN-KEYWORD,alicdn
+  - DOMAIN-KEYWORD,alipay
+  - DOMAIN-KEYWORD,aliyun
+  - DOMAIN-KEYWORD,baidu
+  - DOMAIN-KEYWORD,beplay
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,officecdn
+  - DOMAIN-KEYWORD,taobao
+  - DOMAIN-KEYWORD,bilibili
+  - DOMAIN-KEYWORD,hnagroup
+  - DOMAIN-KEYWORD,weibo
+  - DOMAIN-KEYWORD,qiyi
+  - PROCESS-NAME,com.bilibili.app.blue
+  - PROCESS-NAME,com.bilibili.app.in
+  - PROCESS-NAME,com.bilibili.comic
+  - PROCESS-NAME,com.bilibili.comic.intl
+  - PROCESS-NAME,tv.danmaku.bili
+  - PROCESS-NAME,tv.danmaku.bilibilihd
+  - PROCESS-NAME,com.zhiliaoapp.musically
+  - PROCESS-NAME,com.jjwxc.reader
+  - PROCESS-NAME,com.xiaomi.mibrain.speech
+  - PROCESS-NAME,小米云服务.exe
+  - PROCESS-NAME,thunder
+  - PROCESS-NAME,thunder.exe
+  - PROCESS-NAME,com.qiyi.video

@@ -1,0 +1,16 @@
+# NAME: JingDongCloud
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2022-08-05 22:38:05
+# IP-CIDR: 4
+# IP-CIDR6: 4
+# TOTAL: 8
+payload:
+  - IP-CIDR,101.124.0.0/16
+  - IP-CIDR,103.224.220.0/22
+  - IP-CIDR,114.67.128.0/17
+  - IP-CIDR,117.72.248.0/22
+  - IP-CIDR6,2402:db40::/33
+  - IP-CIDR6,2402:dfc0:50::/44
+  - IP-CIDR6,2402:dfc0::/44
+  - IP-CIDR6,2403:1ec0:1200::/48

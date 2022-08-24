@@ -12,15 +12,15 @@ Disney规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-07-19 20:15:12
+最后更新时间：2022-08-18 02:29:28
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 1  | 
-| HOST-SUFFIX | 157  | 
+| HOST-SUFFIX | 164  | 
 | USER-AGENT | 1  | 
-| TOTAL | 159  | 
+| TOTAL | 166  | 
 
 
 ## QuantumultX 

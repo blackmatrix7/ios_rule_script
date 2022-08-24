@@ -12,15 +12,15 @@ Bahamut规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-07-19 20:15:14
+最后更新时间：2022-08-15 14:25:36
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 3  | 
-| HOST-SUFFIX | 2  | 
+| HOST | 1  | 
+| HOST-SUFFIX | 7  | 
 | USER-AGENT | 1  | 
-| TOTAL | 6  | 
+| TOTAL | 9  | 
 
 
 ## QuantumultX 
@@ -65,6 +65,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Bahamut.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Bahamut.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Bahamut.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

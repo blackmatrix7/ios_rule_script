@@ -15,18 +15,18 @@
 
 ## 规则统计
 
-最后更新时间：2022-07-21 02:27:46
+最后更新时间：2022-08-24 02:27:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | AND | 1  | 
-| DOMAIN | 51479  | 
-| DOMAIN-KEYWORD | 84  | 
-| DOMAIN-SUFFIX | 70270  | 
-| IP-CIDR | 256  | 
-| URL-REGEX | 303  | 
-| TOTAL | 122393  | 
+| DOMAIN | 14154  | 
+| DOMAIN-KEYWORD | 77  | 
+| DOMAIN-SUFFIX | 73771  | 
+| IP-CIDR | 241  | 
+| URL-REGEX | 301  | 
+| TOTAL | 88545  | 
 
 
 ## Surge 
@@ -95,11 +95,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
-- https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt
-- https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt
-- https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block_Add.txt
-- https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block_Plus.txt
-- https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Liby.txt
 - https://raw.githubusercontent.com/scomper/surge-list/master/reject.list

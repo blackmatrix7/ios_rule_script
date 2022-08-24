@@ -1,33 +1,44 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-08-24 20:52:25
+# UPDATED: 2022-08-25 02:39:00
 # DOMAIN: 9566
 # DOMAIN-KEYWORD: 263
 # DOMAIN-SUFFIX: 91851
 # IP-CIDR: 242
 # TOTAL: 101922
 payload:
+  - DOMAIN,3p-geo.yahoo.com
+  - DOMAIN,3p-udc.yahoo.com
   - DOMAIN,40f7d44ed7.com
   - DOMAIN,46186911.vtt
   - DOMAIN,80055404.vtt
   - DOMAIN,absurdapple.com
+  - DOMAIN,adfox.yandex.ru
   - DOMAIN,adfstat.yandex.ru
   - DOMAIN,ads.yahoo.com
   - DOMAIN,ads.youtube.com
+  - DOMAIN,adsdk.yandex.ru
+  - DOMAIN,an.yandex.ru
   - DOMAIN,anxiousapples.com
   - DOMAIN,api.sec.miui.com
   - DOMAIN,app.ssp.yahoo.com
   - DOMAIN,appboy-images.com
+  - DOMAIN,apple.www.letv.com
   - DOMAIN,applebarq.com
   - DOMAIN,applequan.com
   - DOMAIN,applescringe.com
+  - DOMAIN,awaps.yandex.ru
   - DOMAIN,awsync.yandex.ru
+  - DOMAIN,bats.video.yahoo.com
   - DOMAIN,beacon.search.yahoo.com
   - DOMAIN,beap-bc.yahoo.com
   - DOMAIN,brocode1s.com
+  - DOMAIN,bs.yandex.ru
   - DOMAIN,cdn.sgmntfy.com
+  - DOMAIN,collector2c.zhihuishu.com
   - DOMAIN,compactyunker.com
+  - DOMAIN,cookiex.ngd.yahoo.com
   - DOMAIN,crypta.js
   - DOMAIN,currierfrank.com
   - DOMAIN,cylish.com
@@ -43,22 +54,29 @@ payload:
   - DOMAIN,fisetinmedius.com
   - DOMAIN,fool.ink
   - DOMAIN,fpb1.apple886.com
+  - DOMAIN,ganon.yahoo.com
+  - DOMAIN,geo.yahoo.com
   - DOMAIN,https-apple.com
   - DOMAIN,iadsdk.apple.com
   - DOMAIN,ib.snssdk.com
   - DOMAIN,imatrk.net
+  - DOMAIN,informer.yandex.ru
+  - DOMAIN,jill.fc.yahoo.com
   - DOMAIN,jpaasne.e.shifen.com
   - DOMAIN,kougloar.com
   - DOMAIN,log.strm.yandex.ru
   - DOMAIN,lwbxqxmmqwmk.top
   - DOMAIN,marketingsolutions.yahoo.com
+  - DOMAIN,mc.yandex.ru
   - DOMAIN,mediaappletree.com
   - DOMAIN,meitaolianmeng.ltd
   - DOMAIN,mm.n3w1d0ma1n
   - DOMAIN,mo.vlpyj.xy
+  - DOMAIN,nol.yahoo.com
   - DOMAIN,oaksafta.com
   - DOMAIN,powjk.com
   - DOMAIN,pr.comet.yahoo.com
+  - DOMAIN,pv.sohu.com
   - DOMAIN,qzbpamhgqy.com
   - DOMAIN,remedyeloise.com
   - DOMAIN,rnzqde.xyz
@@ -70,8 +88,11 @@ payload:
   - DOMAIN,ssdp.xyz
   - DOMAIN,stats.video.search.yahoo.com
   - DOMAIN,sub.powerapple.com
+  - DOMAIN,supportmetrics.apple.com
+  - DOMAIN,test.vast
   - DOMAIN,theapple.site
   - DOMAIN,tykinggowd.com
+  - DOMAIN,visit.webhosting.yahoo.com
   - DOMAIN,wjjjmruwucuibfj.com
   - DOMAIN,wkktfuy.cn
   - DOMAIN,wzjs1.oss-accelerate.aliyuncs.com
@@ -6760,6 +6781,7 @@ payload:
   - DOMAIN,tapffdskgjr.com
   - DOMAIN,targetctracker.com
   - DOMAIN,tarteaucitron.ml
+  - DOMAIN,tat.pandora.xiaomi.com
   - DOMAIN,tataget.ru
   - DOMAIN,tatami-solutions.com
   - DOMAIN,tauwhout.net
@@ -8843,7 +8865,6 @@ payload:
   - DOMAIN,zzxosget.com
   - DOMAIN,519332da.rtc.youme.im
   - DOMAIN,gvod.aiseejapp.atianqi.com
-  - DOMAIN,tat.pandora.xiaomi.com
   - DOMAIN,204.scloud.lfengmobile.com
   - DOMAIN,2mdnsys.com
   - DOMAIN,39d83s.com
@@ -9530,36 +9551,18 @@ payload:
   - DOMAIN,ymsdk.apkcar.com
   - DOMAIN,yume.com
   - DOMAIN,zen.sr
-  - DOMAIN,3p-geo.yahoo.com
-  - DOMAIN,3p-udc.yahoo.com
   - DOMAIN,ad.kddi-fs.com
-  - DOMAIN,adfox.yandex.ru
-  - DOMAIN,adsdk.yandex.ru
   - DOMAIN,amethyst.zappos.com
-  - DOMAIN,an.yandex.ru
-  - DOMAIN,apple.www.letv.com
-  - DOMAIN,awaps.yandex.ru
-  - DOMAIN,bats.video.yahoo.com
-  - DOMAIN,bs.yandex.ru
   - DOMAIN,cdtm.cdiscount.com
-  - DOMAIN,collector2c.zhihuishu.com
-  - DOMAIN,cookiex.ngd.yahoo.com
   - DOMAIN,events-logs.doctolib.com
-  - DOMAIN,ganon.yahoo.com
-  - DOMAIN,geo.yahoo.com
   - DOMAIN,gotie.tunein.com
-  - DOMAIN,informer.yandex.ru
-  - DOMAIN,jill.fc.yahoo.com
   - DOMAIN,log.kuwo.cn
-  - DOMAIN,mc.yandex.ru
   - DOMAIN,metrics.apple.com
   - DOMAIN,metrics.cvs.com
   - DOMAIN,metrics.tbs.com
   - DOMAIN,microlearning.att.com
-  - DOMAIN,nol.yahoo.com
   - DOMAIN,ohm-dot-hackster-io.appspot.com
   - DOMAIN,pages.att.com
-  - DOMAIN,pv.sohu.com
   - DOMAIN,pxl.indeed.com
   - DOMAIN,qm.redbull.com
   - DOMAIN,reports.tunein.com
@@ -9569,9 +9572,6 @@ payload:
   - DOMAIN,ssp.rambler.ru
   - DOMAIN,sstats.fintro.be9.kohls.com
   - DOMAIN,sugar.zhihu.com
-  - DOMAIN,supportmetrics.apple.com
-  - DOMAIN,test.vast
-  - DOMAIN,visit.webhosting.yahoo.com
   - DOMAIN,zxvttq.goldapple.ru
   - DOMAIN,opencloud.wostore.cn
   - DOMAIN-SUFFIX,0.code.cotsta.ru

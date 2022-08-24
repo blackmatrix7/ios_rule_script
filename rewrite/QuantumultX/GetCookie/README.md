@@ -14,14 +14,14 @@
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:38:21
+最后更新时间：2022-08-24 20:54:58
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HTTP-REQUEST-SCRIPT | 10  | 
-| MITM | 10  | 
-| TOTAL | 20  | 
+| HTTP-REQUEST-SCRIPT | 11  | 
+| MITM | 11  | 
+| TOTAL | 22  | 
 
 
 ## QuantumultX 

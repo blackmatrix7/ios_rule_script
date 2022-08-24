@@ -1,10 +1,10 @@
 name: 获取签到脚本Cookie
-desc: 最后更新时间 2022-08-05 22:38:21
+desc: 最后更新时间 2022-08-24 20:54:58
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# http-request-script: 10
-# mitm: 10
-# total: 20
+# http-request-script: 11
+# mitm: 11
+# total: 22
 
 
 
@@ -61,15 +61,22 @@ http:
       require-body: false
       timeout: 30
       argument: 
-    # 贴吧_获取cookie
+    # 贴吧_获取cookie1
     - match: https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login
       name: tieba_checkin.js_38377a66
       type: request
       require-body: false
       timeout: 30
       argument: 
-    # 贴吧_获取新版cookie
+    # 贴吧_获取cookie2
     - match: ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig
+      name: tieba_checkin.js_38377a66
+      type: request
+      require-body: false
+      timeout: 30
+      argument: 
+    # 贴吧_获取cookie3
+    - match: ^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo
       name: tieba_checkin.js_38377a66
       type: request
       require-body: false
@@ -93,6 +100,7 @@ http:
     - "mall.meituan.com"
     - "mp.jzb.com"
     - "pgc-cms.jzb.com"
+    - "tiebac.baidu.com"
     - "zhiyou.smzdm.com"
 
 script-providers:

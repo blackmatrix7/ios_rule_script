@@ -6,26 +6,15 @@
 
 自动领取吃货豆，非会员可能能用，我没有非会员账号，无法验证，有兴趣可以自己试试。
 
-## 最近更新
-
-1. 拆分领取吃货豆和领取会员任务的脚本
-2. 支持最新多选一任务
-3. 适配饿了么最新的吃货豆活动
-4. 增加自动领取吃货豆功能
-
 ## 特别说明
 
-目前已将领取吃货豆和领取会员任务的脚本拆分，请按需部署脚本。
+### 获取数据
 
-如果使用现成的Surge模块或Loon插件，则会在0点10分领取吃货豆，在早上10点领取任务列表中第一个可以领取的任务。
-
-### 领取吃货豆
-
-脚本自动领取APP中未领取的吃货豆。
+需要同时获取到Cookie与坐标，脚本才能正常执行，获取方法见后。
 
 ### 多选一任务
 
-对于最新更新的多选一任务，脚本会依次尝试领取所有任务。但因为多选一的关系，通常只会有第一个任务能成功领取。
+脚本会依次尝试领取所有任务。但因为多选一的关系，通常只会有第一个任务能成功领取。
 
 ## 配置说明
 
@@ -33,15 +22,16 @@
 
 使用模块
 
+```ini
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.sgmodule
+```
 
 ### Loon
 
-使用远程脚本配置
+使用插件
 
 ```ini
-[Remote Script]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.lnscript, tag=饿了么_领取吃货豆及任务, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.lnplugin
 ```
 
 ### Quantumult X
@@ -53,67 +43,75 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/ele
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.qxrewrite, tag=饿了么_获取Cookie, enabled=true
 
 [task_local]
-10 00 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取吃货豆, enabled=true
-00 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_mission.js, tag=饿了么_领取会员任务, enabled=true
+05 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取吃货豆, enabled=true
+05 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_mission.js, tag=饿了么_领取会员任务, enabled=true
 ```
 
-## 获取Cookie
+## 获取数据
 
-饿了么APP - 我的 - 超级吃货卡
+### 获取Cookie
 
-## 统一推送
+打开饿了么APP即可。
 
-MagicJS利用Bark，实现了跨设备的统一推送能力，将多个iOS设备的脚本执行结果，统一推送到一个设备上。
+### 获取坐标
 
-执行效果图，以饿了么为例：
+打开饿了么APP - 我的 - 赚吃货豆。
+
+由于获取坐标的请求不是每次都触发的，如果没有正确获取到坐标，建议移除饿了么APP后台，间隔10分钟后，再尝试上述操作。
+
+或者通过其他途径获取自身坐标，通过BoxJS填入。
+
+## Bark推送
+
+通过BoxJS，配置Bark推送链接，可以将脚本通知，通过Bark推送到其他设备上。
+
+以饿了么为例：
 
 ![](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/images/bark.jpg)
 
-### 开启统一推送
+在BoxJS中填写Bark推送链接即可。
 
-你需要安装Bark这个APP，打开后可以得到类似这样的链接：
+<img src="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/images/bark_conf.jpg" style="zoom: 33%;" />
 
-```http
-https://api.day.app/VXTWvaQ18N29bsQAg7DgkT
+## 青龙面板
+
+MagicJS所有的变量，都存储在脚本同级目录下的`magic.json`文件中，不支持通过环境变量读取变量。
+
+在青龙面板中，在左侧菜单选择脚本管理，新建 `magic.json` 文件(文件名不可修改)。
+
+写入如下json：
+
+```json
+{
+    "eleme_app_cookie": "xxxxxxxxxxxxxxxxx",
+    "eleme_app_longitude": "111.1111111111",
+    "eleme_app_latitude": "111.1111111111",
+    "eleme_task_keywords": "美食外卖",
+    "bark_url": "https://api.day.app/xxxxxxxxxxxxxxxxxx/"
+}
 ```
 
-在Surge、Loon、QuantumultX中执行以下代码，将链接写入(如何执行代码请自己动手解决)。
+变量说明
 
-**Surge、Loon**
+| 变量名              | 说明                                           |
+| ------------------- | ---------------------------------------------- |
+| eleme_app_cookie    | 饿了么Cookie                                   |
+| eleme_app_longitude | 饿了么经度                                     |
+| eleme_app_latitude  | 饿了么纬度                                     |
+| eleme_task_keywords | 饿了么任务关键词，含有此关键词的任务才会被领取 |
+| bark_url            | Bark推送地址                                   |
 
-```javascript
-# 开启所有脚本统一推送
-$persistentStore.write("https://api.day.app/VXTWvaQ18N29bsQAg7DgkT", "magicjs_unified_push_url");
+如果你正在使用多个由MagicJS支持的脚本，可以将变量写在同一个`magic.json`文件中，例如：
+
+```json
+{
+    "smzdm_cookie": "xxxxxxxxxxxxxxxxxxxxx",
+    "smzdm_session": "xxxxxxxxxxxxxxxxxxxxx",
+    "eleme_app_cookie": "xxxxxxxxxxxxxxxxx",
+    "eleme_app_longitude": "111.1111111111",
+    "eleme_app_latitude": "111.1111111111",
+    "eleme_task_keywords": "美食外卖",
+    "bark_url": "https://api.day.app/xxxxxxxxxxxxxxxxxx/"
+}
 ```
 
-**Quantumult X**
-
-```javascript
-# 开启所有脚本统一推送
-$prefs.setValueForKey("https://api.day.app/VXTWvaQ18N29bsQAg7DgkT", "magicjs_unified_push_url");
-```
-
-### 关闭统一推送
-
-**Surge、Loon**
-
-```javascript
-# 关闭所有脚本统一推送
-$persistentStore.write("", "magicjs_unified_push_url");
-```
-
-**Quantumult X**
-
-```javascript
-# 关闭所有脚本统一推送
-$prefs.setValueForKey("", "magicjs_unified_push_url");
-```
-
-### 其他
-
-1. 统一推送能力仅对支持的脚本有效。
-2. 开启统一推送后，所有支持统一推送的脚本，都会把通知推送到目标设备上。
-3. 限于Bark的功能，统一推送中的多媒体和链接不可用。
-4. 统一推送需要使用Bark的服务器，推送成功与否，与Bark服务器的可用性有关。
-5. 统一推送不会关闭APP的本地推送，即两个iOS设备都会有推送。
-6. 如有隐私考虑，可以参考Bark的服务端文档，自建服务端。

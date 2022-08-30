@@ -1,23 +1,27 @@
 # NAME: YouTube
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-08-05 22:36:19
+# UPDATED: 2022-08-31 02:29:18
 # HOST: 2
 # HOST-KEYWORD: 1
-# HOST-SUFFIX: 172
+# HOST-SUFFIX: 177
+# HOST-WILDCARD: 3
 # IP-CIDR: 2
 # IP6-CIDR: 1
 # USER-AGENT: 3
-# TOTAL: 181
+# TOTAL: 189
 HOST,youtubei.googleapis.com,YouTube
 HOST,yt3.ggpht.com,YouTube
 HOST-SUFFIX,ggpht.cn,YouTube
 HOST-SUFFIX,ggpht.com,YouTube
 HOST-SUFFIX,googlevideo.com,YouTube
+HOST-SUFFIX,gvt1.com,YouTube
 HOST-SUFFIX,gvt2.com,YouTube
+HOST-SUFFIX,video.google.com,YouTube
 HOST-SUFFIX,withyoutube.com,YouTube
 HOST-SUFFIX,youtu.be,YouTube
 HOST-SUFFIX,youtube-nocookie.com,YouTube
+HOST-SUFFIX,youtube-ui.l.google.com,YouTube
 HOST-SUFFIX,youtube.ae,YouTube
 HOST-SUFFIX,youtube.al,YouTube
 HOST-SUFFIX,youtube.am,YouTube
@@ -113,6 +117,7 @@ HOST-SUFFIX,youtube.es,YouTube
 HOST-SUFFIX,youtube.fi,YouTube
 HOST-SUFFIX,youtube.fr,YouTube
 HOST-SUFFIX,youtube.ge,YouTube
+HOST-SUFFIX,youtube.googleapis.com,YouTube
 HOST-SUFFIX,youtube.gr,YouTube
 HOST-SUFFIX,youtube.gt,YouTube
 HOST-SUFFIX,youtube.hk,YouTube
@@ -170,6 +175,7 @@ HOST-SUFFIX,youtube.ug,YouTube
 HOST-SUFFIX,youtube.uy,YouTube
 HOST-SUFFIX,youtube.vn,YouTube
 HOST-SUFFIX,youtubeeducation.com,YouTube
+HOST-SUFFIX,youtubeembeddedplayer.googleapis.com,YouTube
 HOST-SUFFIX,youtubefanfest.com,YouTube
 HOST-SUFFIX,youtubegaming.com,YouTube
 HOST-SUFFIX,youtubego.co.id,YouTube
@@ -183,6 +189,9 @@ HOST-SUFFIX,youtubekids.com,YouTube
 HOST-SUFFIX,youtubemobilesupport.com,YouTube
 HOST-SUFFIX,yt.be,YouTube
 HOST-SUFFIX,ytimg.com,YouTube
+HOST-WILDCARD,youtube.*,YouTube
+HOST-WILDCARD,youtube.*.*,YouTube
+HOST-WILDCARD,youtube.com.*,YouTube
 HOST-KEYWORD,youtube,YouTube
 USER-AGENT,*youtube*,YouTube
 USER-AGENT,YouTube*,YouTube

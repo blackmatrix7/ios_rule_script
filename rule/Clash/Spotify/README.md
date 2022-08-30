@@ -12,16 +12,16 @@ Spotify规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:36:45
+最后更新时间：2022-08-31 02:29:52
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 2  | 
-| DOMAIN-SUFFIX | 16  | 
+| DOMAIN-SUFFIX | 19  | 
 | IP-CIDR | 1  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 20  | 
+| TOTAL | 23  | 
 
 
 ## Clash 

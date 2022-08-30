@@ -12,18 +12,19 @@ YouTube规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:36:19
+最后更新时间：2022-08-31 02:29:18
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 2  | 
 | HOST-KEYWORD | 1  | 
-| HOST-SUFFIX | 172  | 
+| HOST-SUFFIX | 177  | 
+| HOST-WILDCARD | 3  | 
 | IP-CIDR | 2  | 
 | IP6-CIDR | 1  | 
 | USER-AGENT | 3  | 
-| TOTAL | 181  | 
+| TOTAL | 189  | 
 
 
 ## QuantumultX 

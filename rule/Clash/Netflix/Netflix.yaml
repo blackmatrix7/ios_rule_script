@@ -1,16 +1,17 @@
 # NAME: Netflix
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-08-10 02:28:25
-# DOMAIN: 2
+# UPDATED: 2022-08-31 02:29:51
+# DOMAIN: 3
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 28
 # IP-CIDR: 957
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 996
+# TOTAL: 997
 payload:
-  - DOMAIN,api.fast.com
+  - DOMAIN,e13252.dscg.akamaiedge.net
+  - DOMAIN,h-netflix.online-metrix.net
   - DOMAIN,netflix.com.edgesuite.net
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,flxvpn.net

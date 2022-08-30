@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2022-08-19 10:33:36
+desc: 最后更新时间 2022-08-31 02:32:32
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 355
-# mitm: 292
+# reject: 358
+# mitm: 294
 # force-http-engine-hosts: 6
-# total: 653
+# total: 658
 
 
 
@@ -14,7 +14,10 @@ desc: 最后更新时间 2022-08-19 10:33:36
 http:
   rewrite:
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
+    - ^https?://ads-img-al\.xhscdn\.com/hera/ - reject
     - ^https?://cdn\.fivecdm\.com/cr/ - reject
+    - ^https?://m\d\.amap\.com/ws/message/notice/list? - reject
+    - ^https?://sns\.amap\.com/ws/msgbox/pull? - reject
     - ^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
@@ -391,6 +394,7 @@ http:
     - "act.vip.iqiyi.com"
     - "activity2.api.ofo.com"
     - "adpai.thepaper.cn"
+    - "ads-img-al.xhscdn.com"
     - "aes.acfun.cn"
     - "agent-count.pconline.com.cn"
     - "amap-aos-info-nogw.amap.com"
@@ -621,6 +625,7 @@ http:
     - "slapi.oray.net"
     - "smkmp.96225.com"
     - "smusic.app.wechat.com"
+    - "sns.amap.com"
     - "sp.kaola.com"
     - "ss0.bdstatic.com"
     - "ssl.kohsocialapp.qq.com"

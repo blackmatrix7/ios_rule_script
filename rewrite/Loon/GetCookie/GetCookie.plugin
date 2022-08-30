@@ -1,12 +1,12 @@
 #!name= GetCookie
-#!desc= 最后更新时间 2022-08-24 20:54:58
+#!desc= 最后更新时间 2022-08-31 02:32:29
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!http-request-script= 11
-#!mitm= 11
-#!total= 22
+#!http-request-script= 14
+#!mitm= 13
+#!total= 27
 
 [Script]
 # Fa米家_获取cookie
@@ -29,8 +29,14 @@ http-request https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login sc
 http-request ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,tag=贴吧_获取cookie2
 # 贴吧_获取cookie3
 http-request ^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,tag=贴吧_获取cookie3
-# 饿了么_获取cookie
-http-request ^https?:\/\/h5\.ele\.me\/restapi\/biz\.svip_scene\/svip\/engine\/queryTrafficSupply script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,tag=饿了么_获取cookie
+# 饿了么_Cookies
+http-request ^https?:\/\/air\.tb\.ele\.me\/app\/conch-page\/svip-foodie-card\/home script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,tag=饿了么_Cookies
+# 饿了么_获取坐标1
+http-request ^https?:\/\/air\.tb\.ele\.me\/app\/conch-page\/svip-home-tasklist-new\/home script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,tag=饿了么_获取坐标1
+# 饿了么_获取坐标2
+http-request ^https?:\/\/tb\.ele\.me\/wow\/alsc\/mod script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,tag=饿了么_获取坐标2
+# 饿了么_获取坐标3
+http-request ^https?:\/\/h5\.ele\.me\/restapi\/biz\.svip_scene\/svip\/engine\/queryTrafficSupply script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,tag=饿了么_获取坐标3
 
 [MITM]
-hostname = apph5.manmanbuy.com,c.tieba.baidu.com,fmapp.chinafamilymart.com.cn,h5.ele.me,luka-graphql.ling.cn,maicai.api.ddxq.mobi,mall.meituan.com,mp.jzb.com,pgc-cms.jzb.com,tiebac.baidu.com,zhiyou.smzdm.com
+hostname = air.tb.ele.me,apph5.manmanbuy.com,c.tieba.baidu.com,fmapp.chinafamilymart.com.cn,h5.ele.me,luka-graphql.ling.cn,maicai.api.ddxq.mobi,mall.meituan.com,mp.jzb.com,pgc-cms.jzb.com,tb.ele.me,tiebac.baidu.com,zhiyou.smzdm.com

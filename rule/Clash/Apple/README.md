@@ -12,17 +12,17 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:36:21
+最后更新时间：2022-09-08 01:23:53
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 2  | 
-| DOMAIN-KEYWORD | 6  | 
+| DOMAIN-KEYWORD | 5  | 
 | DOMAIN-SUFFIX | 456  | 
 | IP-CIDR | 10  | 
 | PROCESS-NAME | 6  | 
-| TOTAL | 480  | 
+| TOTAL | 479  | 
 
 
 ## Clash 

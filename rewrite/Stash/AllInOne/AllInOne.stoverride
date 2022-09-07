@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2022-08-19 10:33:30
+desc: 最后更新时间 2022-08-31 02:32:23
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 4
@@ -8,10 +8,10 @@ desc: 最后更新时间 2022-08-19 10:33:30
 # http-request-script: 1
 # http-response-script: 28
 # redirect: 8
-# reject: 377
-# mitm: 418
+# reject: 380
+# mitm: 420
 # force-http-engine-hosts: 6
-# total: 844
+# total: 849
 
 
 
@@ -35,7 +35,10 @@ http:
     - ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302
     - ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
+    - ^https?://ads-img-al\.xhscdn\.com/hera/ - reject
     - ^https?://cdn\.fivecdm\.com/cr/ - reject
+    - ^https?://m\d\.amap\.com/ws/message/notice/list? - reject
+    - ^https?://sns\.amap\.com/ws/msgbox/pull? - reject
     - ^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
@@ -669,6 +672,7 @@ http:
     - "act.vip.iqiyi.com"
     - "activity2.api.ofo.com"
     - "adpai.thepaper.cn"
+    - "ads-img-al.xhscdn.com"
     - "aes.acfun.cn"
     - "agent-count.pconline.com.cn"
     - "amap-aos-info-nogw.amap.com"
@@ -932,6 +936,7 @@ http:
     - "slapi.oray.net"
     - "smkmp.96225.com"
     - "smusic.app.wechat.com"
+    - "sns.amap.com"
     - "sp.kaola.com"
     - "ss0.bdstatic.com"
     - "ssl.kohsocialapp.qq.com"

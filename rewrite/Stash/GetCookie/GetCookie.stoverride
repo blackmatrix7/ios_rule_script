@@ -1,10 +1,10 @@
 name: 获取签到脚本Cookie
-desc: 最后更新时间 2022-08-24 20:54:58
+desc: 最后更新时间 2022-08-31 02:32:29
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# http-request-script: 11
-# mitm: 11
-# total: 22
+# http-request-script: 14
+# mitm: 13
+# total: 27
 
 
 
@@ -82,7 +82,28 @@ http:
       require-body: false
       timeout: 30
       argument: 
-    # 饿了么_获取cookie
+    # 饿了么_Cookies
+    - match: ^https?:\/\/air\.tb\.ele\.me\/app\/conch-page\/svip-foodie-card\/home
+      name: eleme_daily.js_1b50bb89
+      type: request
+      require-body: false
+      timeout: 30
+      argument: 
+    # 饿了么_获取坐标1
+    - match: ^https?:\/\/air\.tb\.ele\.me\/app\/conch-page\/svip-home-tasklist-new\/home
+      name: eleme_daily.js_1b50bb89
+      type: request
+      require-body: false
+      timeout: 30
+      argument: 
+    # 饿了么_获取坐标2
+    - match: ^https?:\/\/tb\.ele\.me\/wow\/alsc\/mod
+      name: eleme_daily.js_1b50bb89
+      type: request
+      require-body: false
+      timeout: 30
+      argument: 
+    # 饿了么_获取坐标3
     - match: ^https?:\/\/h5\.ele\.me\/restapi\/biz\.svip_scene\/svip\/engine\/queryTrafficSupply
       name: eleme_daily.js_1b50bb89
       type: request
@@ -91,6 +112,7 @@ http:
       argument: 
 
   mitm:
+    - "air.tb.ele.me"
     - "apph5.manmanbuy.com"
     - "c.tieba.baidu.com"
     - "fmapp.chinafamilymart.com.cn"
@@ -100,6 +122,7 @@ http:
     - "mall.meituan.com"
     - "mp.jzb.com"
     - "pgc-cms.jzb.com"
+    - "tb.ele.me"
     - "tiebac.baidu.com"
     - "zhiyou.smzdm.com"
 

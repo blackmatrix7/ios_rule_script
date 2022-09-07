@@ -53,6 +53,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/ele
 
 打开饿了么APP即可。
 
+Surge需要关闭MITM over HTTP/2，你可以获取成功后再打开。
+
 ### 获取坐标
 
 打开饿了么APP - 我的 - 赚吃货豆。

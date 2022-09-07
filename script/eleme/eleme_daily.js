@@ -26,7 +26,7 @@ function GetCoordinate() {
     const latitude = arr[2];
     magicJS.write(elemeLongitudeKey, longitude);
     magicJS.write(elemeLatitudeKey, latitude);
-    if (longitude !== hisLongitude || latitude !== hisLatitude){
+    if (longitude !== hisLongitude || latitude !== hisLatitude) {
       magicJS.notify(`更新坐标成功！`)
     }
   }
@@ -37,12 +37,12 @@ function GetCoordinate() {
 }
 
 
-function GetCookies(){
+function GetCookies() {
   let cookie = magicJS.request.headers.Cookie;
   let hisCookie = magicJS.read(elemeCookieKey);
   let compareCookie2 = !!cookie ? /cookie2=([a-zA-Z0-9]*)/.exec(cookie)[1] : null;
   let compareHisCookie2 = !!hisCookie ? /cookie2=([a-zA-Z0-9]*)/.exec(hisCookie)[1] : null;
-  if (!!!hisCookie || compareCookie2 !== compareHisCookie2) {
+  if (cookie && (!hisCookie || compareCookie2 !== compareHisCookie2)) {
     magicJS.write(elemeCookieKey, cookie);
     magicJS.logInfo(`旧的Cookie：${hisCookie}\n新的Cookie：${cookie}\nCookie不同，写入新的Cookie成功！`);
     magicJS.notify('Cookie写入成功！！');
@@ -163,7 +163,7 @@ function DrawPea(cookie, peaId, longitude, latitude) {
     ) && magicJS.request.method == "GET") {
       GetCoordinate();
     }
-    else if (getCookies.test(magicJS.request.url)){
+    else if (getCookies.test(magicJS.request.url)) {
       GetCookies();
     }
   }

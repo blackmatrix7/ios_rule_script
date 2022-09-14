@@ -1,0 +1,15 @@
+#!name= 百度贴吧
+#!desc= 百度贴吧每日签到
+#!openUrl=https://github.com/blackmatrix7/ios_rule_script/tree/master/script/tieba
+#!author= blackmatrix7
+#!homepage= https://github.com/blackmatrix7/ios_rule_script
+#!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png
+
+[Script]
+http-request ^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,tag=贴吧_获取Cookie1
+http-request ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,tag=贴吧_新版Cookie2
+http-request ^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,tag=贴吧_新版Cookie3
+cron "30 9 * * *" script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,timeout=60,tag=贴吧_每日签到
+
+[MITM]
+hostname = c.tieba.baidu.com, tiebac.baidu.com

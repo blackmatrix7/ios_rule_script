@@ -6,24 +6,121 @@
   "repo": "https://github.com/blackmatrix7/ios_rule_script",
   "apps": [
     {
-      "id": "blackmatrix7.bark",
-      "name": "Bark推送",
+      "id": "blackmatrix7.magicjs",
+      "name": "MagicJS",
+      "settings": [
+        {
+          "id": "magic_loglevel",
+          "name": "日志等级",
+          "val": "INFO",
+          "type": "radios",
+          "items": [
+            {
+              "key": "INFO",
+              "label": "INFO"
+            },
+            {
+              "key": "WARNING",
+              "label": "WARNING"
+            },
+            {
+              "key": "ERROR",
+              "label": "ERROR"
+            },
+            {
+              "key": "DEBUG",
+              "label": "DEBUG"
+            },
+            {
+              "key": "SNIFFER",
+              "label": "SNIFFER"
+            }
+          ],
+          "desc": "出现异常时请选择DEBUG提交日志"
+        }
+      ],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/magicjs/images/logo_dark.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/magicjs/images/logo.png"
+      ]
+    },
+    {
+      "id": "blackmatrix7.qinglong",
+      "name": "青龙面板",
       "keys": [
-        "bark_url"
+        "magic_qlurl",
+        "magic_qlclient",
+        "magic_qlsecrt",
+        "magic_qlname",
+        "magic_qlpwd",
+        "magic_qltoken"
       ],
       "settings": [
         {
-          "id": "bark_url",
+          "id": "magic_qlurl",
+          "name": "登录地址",
+          "val": "",
+          "type": "input",
+          "placeholder": "http://qinglong.mydomain.com",
+          "autoGrow": true,
+          "desc": "填写青龙面板的登录地址，如为https请保证证书有效"
+        },
+        {
+          "id": "magic_qlclient",
+          "name": "ClientId",
+          "val": "",
+          "type": "input",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "填写青龙面板的ClientId"
+        },
+        {
+          "id": "magic_qlsecrt",
+          "name": "ClientSecret",
+          "val": "",
+          "type": "input",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "填写青龙面板的ClientSecret"
+        },
+        {
+          "id": "magic_qltoken",
+          "name": "token",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "登录token，正常情况下不需要填写，自动获取"
+        }
+      ],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/bilibili",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/magicjs/images/qinglong_dark.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/magicjs/images/qinglong.png"
+      ]
+    },
+    {
+      "id": "blackmatrix7.bark",
+      "name": "Bark推送",
+      "keys": [
+        "magic_bark_url"
+      ],
+      "settings": [
+        {
+          "id": "magic_bark_url",
           "name": "Bark推送URL",
           "val": "",
           "type": "input",
           "placeholder": "https://api.day.app/xxxxxxxxxxxxxxxxxx/",
           "autoGrow": true,
-          "desc": "填写Bark推送的链接，脚本通知将通过Bark推送"
+          "desc": "填写Bark推送的链接，脚本通知将通过Bark推送。仅基于MagicJS 3的脚本支持。"
         }
       ],
       "author": "@blackmatrix7",
-      "repo": "https://git.codecolor.cool/matrix/script/bilibili",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/bilibili",
       "icons": [
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/matrix/dark/bark.jpg",
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/matrix/color/bark.jpg"
@@ -34,9 +131,7 @@
       "name": "哔哩哔哩去广告",
       "keys": [
         "bilibili_story_aid",
-        "bilibili_feed_black",
-        "bilibili_disable_index_story",
-        "bilibili_enable_mall"
+        "bilibili_feed_black"
       ],
       "settings": [
         {
@@ -48,20 +143,6 @@
           "autoGrow": true,
           "rows": 5,
           "desc": "以英文逗号分隔多个号码"
-        },
-        {
-          "id": "bilibili_disable_index_story",
-          "name": "停用首页竖屏播放器",
-          "val": false,
-          "type": "boolean",
-          "desc": "首页推荐竖屏视频转为普通播放器"
-        },
-        {
-          "id": "bilibili_enable_mall",
-          "name": "启用会员购",
-          "val": false,
-          "type": "boolean",
-          "desc": "我的tab-更多服务-添加会员购入口"
         }
       ],
       "author": "@blackmatrix7",
@@ -96,7 +177,7 @@
         "eleme_task_keywords"
       ],
       "author": "@blackmatrix7",
-      "repo": "https://git.codecolor.cool/matrix/script/eleme",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/eleme",
       "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/elem.png",
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png"
@@ -251,7 +332,11 @@
       "name": "什么值得买",
       "keys": [
         "smzdm_cookie",
-        "smzdm_session"
+        "smzdm_session",
+        "smzdm_signin",
+        "smzdm_mission",
+        "smzdm_lottery",
+        "smzdm_sync_qinglong"
       ],
       "author": "@blackmatrix7",
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/smzdm",
@@ -261,12 +346,38 @@
       ],
       "scripts": [
         {
-          "name": "每日自动任务",
-          "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_mission.js"
+          "name": "执行每日签到与任务",
+          "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js"
+        }
+      ],
+      "settings": [
+        {
+          "id": "smzdm_sync_qinglong",
+          "name": "同步Cookie到青龙面板",
+          "val": false,
+          "type": "boolean",
+          "desc": "需先配置好青龙面板登录参数，并确保手机可以访问青龙面板"
         },
         {
-          "name": "每日自动签到",
-          "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js"
+          "id": "smzdm_signin",
+          "name": "执行每日签到",
+          "val": true,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "smzdm_mission",
+          "name": "执行每日任务",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "smzdm_lottery",
+          "name": "执行每日抽奖",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
         }
       ]
     },
@@ -274,7 +385,8 @@
       "id": "blackmatrix7.tieba",
       "name": "百度贴吧",
       "keys": [
-        "tieba_checkin_cookie"
+        "tieba_signin_cookie",
+        "tieba_sync_qinglong"
       ],
       "author": "@blackmatrix7",
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/tieba",
@@ -282,7 +394,25 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/tieba.png",
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/tieba.png"
       ],
-      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js"
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js",
+      "settings": [
+        {
+          "id": "tieba_sync_qinglong",
+          "name": "同步Cookie到青龙面板",
+          "val": false,
+          "type": "boolean",
+          "desc": "需先配置好青龙面板登录参数，并确保手机可以访问青龙面板"
+        },
+        {
+          "id": "tieba_signin_cookie",
+          "name": "百度贴吧Cookies",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "推荐由脚本自动获取Cookies，如有特殊情况可手动填写，必须为Json格式",
+          "autoGrow": true,
+          "desc": "多账户Cookies，如出现异常，请删除全部内容，避免直接编辑数据"
+        }
+      ]
     },
     {
       "id": "blackmatrix7.zhihu",
@@ -336,7 +466,7 @@
           "name": "显示为盐选会员",
           "val": false,
           "type": "boolean",
-          "desc": "非会员用户显示为盐选会员，仅自己可见，无实际效果"
+          "desc": "非会员用户显示为盐选会员，屏蔽关键词解锁需要开启此功能"
         },
         {
           "id": "zhihu_settings_preset_words",
@@ -344,6 +474,13 @@
           "val": false,
           "type": "boolean",
           "desc": "屏蔽搜索页中的预置关键词广告"
+        },
+        {
+          "id": "zhihu_settings_remove_article",
+          "name": "屏蔽推荐页中的文章",
+          "val": false,
+          "type": "boolean",
+          "desc": "屏蔽推荐页中的文章，默认不启用"
         },
         {
           "id": "zhihu_settings_blocked_users",
@@ -374,11 +511,11 @@
           "desc": "在知乎回答中提示付费或营销内容"
         },
         {
-          "id": "zhihu_settings_remove_yanxuan",
-          "name": "屏蔽“盐选推荐”❓",
-          "val": true,
+          "id": "zhihu_settings_remove_sections",
+          "name": "移除推荐页顶部项✨",
+          "val": false,
           "type": "boolean",
-          "desc": "屏蔽推荐页中的“盐选推荐”"
+          "desc": "知乎8.3.0有效，仅保留全部和直播，直播无法去除"
         },
         {
           "id": "zhihu_settings_app_conf",
@@ -477,35 +614,6 @@
           "placeholder": "",
           "autoGrow": true,
           "desc": "除非无法正常获取Sid，否则保持现在的值，不要修改"
-        },
-        {
-          "id": "magicjs_loglevel",
-          "name": "日志等级",
-          "val": "INFO",
-          "type": "radios",
-          "items": [
-            {
-              "key": "INFO",
-              "label": "INFO"
-            },
-            {
-              "key": "WARNING",
-              "label": "WARNING"
-            },
-            {
-              "key": "ERROR",
-              "label": "ERROR"
-            },
-            {
-              "key": "CRITICAL",
-              "label": "CRITICAL"
-            },
-            {
-              "key": "DEBUG",
-              "label": "DEBUG"
-            }
-          ],
-          "desc": "出现异常时请选择DEBUG提交日志"
         }
       ],
       "author": "@blackmatrix7",
@@ -535,39 +643,10 @@
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/applestore",
       "settings": [
         {
-          "id": "applestore_type",
-          "name": "商店类型",
-          "val": "APPLESTORE",
-          "type": "radios",
-          "items": [
-            {
-              "key": "AppleStore零售店",
-              "label": "INFO"
-            },
-            {
-              "key": "Apple官网",
-              "label": "WARNING"
-            },
-            {
-              "key": "ERROR",
-              "label": "ERROR"
-            },
-            {
-              "key": "CRITICAL",
-              "label": "CRITICAL"
-            },
-            {
-              "key": "DEBUG",
-              "label": "DEBUG"
-            }
-          ],
-          "desc": "出现异常时请选择DEBUG提交日志"
-        },
-        {
           "id": "goods_model",
           "name": "商品型号",
           "val": "",
-          "type": "input",
+          "type": "textarea",
           "placeholder": "Z0YQ#MKMR3CH/A,MJXA3FE/A#AppleWatch 7 石墨色不锈钢;MLDE3CH/A",
           "autoGrow": true,
           "desc": "需要监控的商品型号，option用#分隔，自定义名称在option后以#分隔。多款以;分隔，移动端建议只监控一个。"
@@ -582,45 +661,11 @@
           "desc": "直辖市示例：北京 北京 昌平区"
         },
         {
-          "id": "applestore_bark_url",
-          "name": "Bark推送",
-          "val": "",
-          "type": "input",
-          "placeholder": "https://api.day.app/VXTWvaQ18N29bsQAg7DgkT",
-          "autoGrow": true,
-          "desc": "使用Bark推送到其他设备，比如iPad执行监控，推送结果到iPhone"
-        },
-        {
           "id": "applestore_settings_notify_soldout",
           "name": "查询无货也进行通知",
           "val": false,
           "type": "boolean",
           "desc": "可能会发起大量推送，建议仅在测试时开启"
-        },
-        {
-          "id": "magicjs_loglevel",
-          "name": "日志等级",
-          "val": "INFO",
-          "type": "radios",
-          "items": [
-            {
-              "key": "INFO",
-              "label": "INFO"
-            },
-            {
-              "key": "WARNING",
-              "label": "WARNING"
-            },
-            {
-              "key": "ERROR",
-              "label": "ERROR"
-            },
-            {
-              "key": "DEBUG",
-              "label": "DEBUG"
-            }
-          ],
-          "desc": "出现异常时请选择DEBUG提交日志"
         }
       ],
       "icons": [

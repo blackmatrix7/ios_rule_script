@@ -15,16 +15,16 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2022-09-08 01:25:48
+最后更新时间：2022-09-14 10:45:39
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 80  | 
 | DOMAIN-KEYWORD | 14  | 
-| DOMAIN-SUFFIX | 68901  | 
+| DOMAIN-SUFFIX | 68933  | 
 | PROCESS-NAME | 13  | 
-| TOTAL | 69008  | 
+| TOTAL | 69040  | 
 
 
 ## Clash 
@@ -102,40 +102,40 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 | CCB | CCTV | CEB | CGB | CIBN  | 
 | CITIC | CKJR | CMB | CNKI | CNNIC  | 
 | CSDN | CaiNiao | CaiXinChuanMei | Camera360 | ChengTongWangPan  | 
-| China | ChinaIPs | ChinaIPsBGP | ChinaMax | ChinaMedia  | 
-| ChinaMobile | ChinaNews | ChinaNoMedia | ChinaTelecom | ChinaTest  | 
-| ChinaUnicom | ChuangKeTie | ChunYou | DaMai | DanDanZan  | 
-| Dandanplay | DangDang | Dedao | Deepin | DiDi  | 
-| DiLianWangLuo | DiSiFanShi | DianCeWangKe | DingTalk | DingXiangYuan  | 
-| Domob | DouBan | DouYin | Douyu | DuoWan  | 
-| EastMoney | Eleme | FanFou | FeiZhu | FengHuangWang  | 
-| FengXiaWangLuo | Fiio | Funshion | GaoDe | GuiGuDongLi  | 
-| HaiNanHangKong | HanYi | HeMa | HibyMusic | Himalaya  | 
-| Hpplay | HuYa | HuaShuTV | HuanJu | Huawei  | 
-| HunanTV | Hupu | ICBC | JiGuangTuiSong | JianGuoYun  | 
-| JianShu | JinJiangWenXue | JingDong | JueJin | Keep  | 
-| KingSmith | Kingsoft | KouDaiShiShang | Ku6 | KuKeMusic  | 
-| KuaiDi100 | KuaiShou | KuangShi | KugouKuwo | LanZouYun  | 
-| LeJu | LeTV | Lenovo | LianMeng | LuDaShi  | 
-| LvMiLianChuang | Maocloud | MeiTu | MeiTuan | MeiZu  | 
-| MiWu | Migu | MingLueZhaoHui | Mogujie | Mojitianqi  | 
-| NGAA | NetEase | NetEaseMusic | OPPO | OnePlus  | 
-| OuPeng | PPTV | PSBC | Pinduoduo | PingAn  | 
-| QiNiuYun | QingCloud | RuanMei | SFExpress | SMZDM  | 
-| ShangHaiJuXiao | Shanling | ShenMa | ShiJiChaoXing | ShiNongZhiKe  | 
-| Sina | Sohu | SouFang | SuNing | SuiShiChuanMei  | 
-| TCL | TaiKang | TaiheMusic | Teambition | Tencent  | 
-| TencentVideo | TianTianKanKan | TianWeiChengXin | TianYaForum | TigerFintech  | 
-| TongCheng | U17 | UC | UCloud | UPYun  | 
-| UnionPay | Vancl | VipShop | Vivo | WanKaHuanJu  | 
-| WanMeiShiJie | WangSuKeJi | WangXinKeJi | WeiZhiYunDong | Weibo  | 
-| WenJuanXing | WiFiMaster | WoLai | XiamiMusic | XianYu  | 
-| XiaoGouKeJi | XiaoMi | XiaoYuanKeJi | XieCheng | XueErSi  | 
-| XueQiu | Xunlei | YYeTs | YiChe | YiXiaKeJi  | 
-| YiZhiBo | YouMengChuangXiang | YouZan | Youku | YuanFuDao  | 
-| YunFanJiaSu | ZDNS | ZhangYue | ZhiYinManKe | ZhiYunZhong  | 
-| ZhongGuoShiHua | ZhongWeiShiJi | ZhongYuanYiShang | ZhuanZhuan | iFlytek  | 
-| iQIYI | ifanr  |  |  |  | 
+| China | ChinaASN | ChinaIPs | ChinaIPsBGP | ChinaMax  | 
+| ChinaMedia | ChinaMobile | ChinaNews | ChinaNoMedia | ChinaTelecom  | 
+| ChinaTest | ChinaUnicom | ChuangKeTie | ChunYou | DaMai  | 
+| DanDanZan | Dandanplay | DangDang | Dedao | Deepin  | 
+| DiDi | DiLianWangLuo | DiSiFanShi | DianCeWangKe | DingTalk  | 
+| DingXiangYuan | Domob | DouBan | DouYin | Douyu  | 
+| DuoWan | EastMoney | Eleme | FanFou | FeiZhu  | 
+| FengHuangWang | FengXiaWangLuo | Fiio | Funshion | GaoDe  | 
+| GuiGuDongLi | HaiNanHangKong | HanYi | HeMa | HibyMusic  | 
+| Himalaya | Hpplay | HuYa | HuaShuTV | HuanJu  | 
+| Huawei | HunanTV | Hupu | ICBC | JiGuangTuiSong  | 
+| JianGuoYun | JianShu | JinJiangWenXue | JingDong | JueJin  | 
+| Keep | KingSmith | Kingsoft | KouDaiShiShang | Ku6  | 
+| KuKeMusic | KuaiDi100 | KuaiShou | KuangShi | KugouKuwo  | 
+| LanZouYun | LeJu | LeTV | Lenovo | LianMeng  | 
+| LuDaShi | LvMiLianChuang | Maocloud | MeiTu | MeiTuan  | 
+| MeiZu | MiWu | Migu | MingLueZhaoHui | Mogujie  | 
+| Mojitianqi | NGAA | NetEase | NetEaseMusic | OPPO  | 
+| OnePlus | OuPeng | PPTV | PSBC | Pinduoduo  | 
+| PingAn | QiNiuYun | QingCloud | RuanMei | SFExpress  | 
+| SMZDM | ShangHaiJuXiao | Shanling | ShenMa | ShiJiChaoXing  | 
+| ShiNongZhiKe | Sina | Sohu | SouFang | SuNing  | 
+| SuiShiChuanMei | TCL | TaiKang | TaiheMusic | Teambition  | 
+| Tencent | TencentVideo | TianTianKanKan | TianWeiChengXin | TianYaForum  | 
+| TigerFintech | TongCheng | U17 | UC | UCloud  | 
+| UPYun | UnionPay | Vancl | VipShop | Vivo  | 
+| WanKaHuanJu | WanMeiShiJie | WangSuKeJi | WangXinKeJi | WeiZhiYunDong  | 
+| Weibo | WenJuanXing | WiFiMaster | WoLai | XiamiMusic  | 
+| XianYu | XiaoGouKeJi | XiaoMi | XiaoYuanKeJi | XieCheng  | 
+| XueErSi | XueQiu | Xunlei | YYeTs | YiChe  | 
+| YiXiaKeJi | YiZhiBo | YouMengChuangXiang | YouZan | Youku  | 
+| YuanFuDao | YunFanJiaSu | ZDNS | ZhangYue | ZhiYinManKe  | 
+| ZhiYunZhong | ZhongGuoShiHua | ZhongWeiShiJi | ZhongYuanYiShang | ZhuanZhuan  | 
+| iFlytek | iQIYI | ifanr  |  |  | 
 
 
 ## 数据来源
@@ -409,6 +409,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YYeTs.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml
+- https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

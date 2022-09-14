@@ -12,15 +12,14 @@ Download规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:36:50
+最后更新时间：2022-09-08 01:58:21
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 5  | 
 | DOMAIN-SUFFIX | 1  | 
-| URL-REGEX | 5  | 
-| TOTAL | 11  | 
+| TOTAL | 6  | 
 
 
 ## Loon 

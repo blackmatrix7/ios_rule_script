@@ -12,14 +12,14 @@ ChinaIPs规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-09-08 01:24:56
+最后更新时间：2022-09-14 10:44:54
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | IP-CIDR | 6230  | 
-| IP-CIDR6 | 4255  | 
-| TOTAL | 10485  | 
+| IP-CIDR6 | 4249  | 
+| TOTAL | 10479  | 
 
 
 ## Clash 
@@ -127,8 +127,11 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ## 子规则/排除规则
 
+当前分流规则，已包含以下子规则，除非特殊需求否则不建议重复引用：
+| 子规则  | 
+| ----  |
+| ChinaASN  | 
 
-当前分流规则，未包含其他子规则。
 
 ## 数据来源
 
@@ -142,6 +145,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic%20IPs.yaml
+- https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

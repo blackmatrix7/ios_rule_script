@@ -15,16 +15,16 @@
 
 ## 规则统计
 
-最后更新时间：2022-09-08 01:22:39
+最后更新时间：2022-09-14 23:00:22
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 23682  | 
 | DOMAIN-KEYWORD | 27  | 
-| DOMAIN-SUFFIX | 13485  | 
+| DOMAIN-SUFFIX | 13484  | 
 | IP-CIDR | 190  | 
-| TOTAL | 37384  | 
+| TOTAL | 37383  | 
 
 
 ## Clash 
@@ -108,7 +108,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
 - https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule

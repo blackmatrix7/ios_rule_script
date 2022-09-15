@@ -12,13 +12,13 @@ Qualcomm规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:37:40
+最后更新时间：2022-09-18 02:33:06
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 44  | 
-| TOTAL | 44  | 
+| DOMAIN-SUFFIX | 45  | 
+| TOTAL | 45  | 
 
 
 ## Shadowrocket 

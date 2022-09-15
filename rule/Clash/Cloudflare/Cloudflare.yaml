@@ -1,12 +1,13 @@
 # NAME: Cloudflare
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-08-05 22:36:45
-# DOMAIN-SUFFIX: 23
+# UPDATED: 2022-09-17 02:32:55
+# DOMAIN-SUFFIX: 26
 # IP-CIDR: 14
 # IP-CIDR6: 7
-# TOTAL: 44
+# TOTAL: 47
 payload:
+  - DOMAIN-SUFFIX,cf-ipfs.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudflare-ipfs.com
   - DOMAIN-SUFFIX,cloudflare-quic.com
@@ -21,10 +22,12 @@ payload:
   - DOMAIN-SUFFIX,cloudflareresolve.com
   - DOMAIN-SUFFIX,cloudflaressl.com
   - DOMAIN-SUFFIX,cloudflarestatus.com
+  - DOMAIN-SUFFIX,cloudflarestorage.com
   - DOMAIN-SUFFIX,cloudflarestream.com
   - DOMAIN-SUFFIX,cloudflaretest.com
   - DOMAIN-SUFFIX,cloudflarewarp.com
   - DOMAIN-SUFFIX,one.one.one
+  - DOMAIN-SUFFIX,pacloudflare.com
   - DOMAIN-SUFFIX,pages.dev
   - DOMAIN-SUFFIX,trycloudflare.com
   - DOMAIN-SUFFIX,videodelivery.net

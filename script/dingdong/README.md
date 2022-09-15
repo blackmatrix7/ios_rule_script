@@ -50,7 +50,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/din
 | 名称                          | 类型 | 说明                                   |
 | ----------------------------- | ---- | -------------------------------------- |
 | dingdongmaicai_checkin_cookie | Json | 多账户叮咚买菜Cookies                  |
-| dingdongmaicai_checkin_body   | Json | 多战虎叮咚买菜Body                     |
+| dingdongmaicai_checkin_body   | Json | 多账户叮咚买菜Body                     |
 | dingdongmaicai_sync_qinglong  | Bool | 是否将获取的Cookie和Body同步至青龙面板 |
 
 部分属性示例

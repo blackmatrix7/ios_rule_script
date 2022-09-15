@@ -157,7 +157,8 @@
       "name": "叮咚买菜",
       "keys": [
         "dingdongmaicai_checkin_cookie",
-        "dingdongmaicai_checkin_body"
+        "dingdongmaicai_checkin_body",
+        "dingdongmaicai_sync_qinglong"
       ],
       "author": "@blackmatrix7",
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/dingdong",
@@ -165,7 +166,16 @@
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong.png",
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong.png"
       ],
-      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js"
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js",
+      "settings": [
+        {
+          "id": "dingdongmaicai_sync_qinglong",
+          "name": "同步Cookie到青龙面板",
+          "val": false,
+          "type": "boolean",
+          "desc": "将获取的Cookies和Body同步至青龙面板"
+        }
+      ]
     },
     {
       "id": "blackmatrix7.eleme",

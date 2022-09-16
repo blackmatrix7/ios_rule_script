@@ -35,13 +35,13 @@ https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite
 
 自动化脚本在不同平台支持情况：
 
-|          | Surge       | Quantumult X | Loon        | Shadowrocket | Node.js          |
-| -------- | ----------- | ------------ | ----------- | ------------ | ---------------- |
-| 需要硬件 | iPhone/iPad | iPhone/iPad  | iPhone/iPad | iPhone/iPad  | 可长期运行的电脑 |
-| 脚本更新 | 自动更新    | 自动更新     | 自动更新    | 自动更新     | 手动更新         |
-| 推送通知 | 手机推送    | 手机推送     | 手机推送    | 手机推送     | 无               |
-| 使用成本 | 付费App     | 付费App      | 付费App     | 付费App      | 免费             |
-| 支持情况 | 优先支持    | 兼容支持     | 兼容支持    | 部分支持     | 部分支持         |
+|          | Surge       | Quantumult X | Loon        | Shadowrocket | Node.js  |
+| -------- | ----------- | ------------ | ----------- | ------------ | -------- |
+| 需要硬件 | iPhone/iPad | iPhone/iPad  | iPhone/iPad | iPhone/iPad  | 电脑/NAS |
+| 脚本更新 | 自动更新    | 自动更新     | 自动更新    | 自动更新     | 自动更新 |
+| 推送通知 | 手机推送    | 手机推送     | 手机推送    | 手机推送     | Bark     |
+| 使用成本 | 付费App     | 付费App      | 付费App     | 付费App      | 免费     |
+| 支持情况 | 优先支持    | 兼容支持     | 兼容支持    | 部分支持     | 部分支持 |
 
 优先支持：优先确保运行正常，出现异常优先解决
 
@@ -62,10 +62,9 @@ https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite
 | [什么值得买](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/smzdm) | 什么值得买签到和去广告脚本           | MagicJS 3 | 正常     |
 | [百度贴吧](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/tieba) | 带重试功能的贴吧签到，提高签到成功率 | MagicJS 3 | 正常     |
 | [开屏去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/startup) | 通过脚本去除缓存到本地的APP开屏广告  | MagicJS 2 | 正常     |
-| [家长帮](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/jiazhangbang) | 每日自动签到                         | MagicJS 2 | 正常     |
 | [慢慢买](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/manmanbuy) | 每日自动签到                         | MagicJS 2 | 正常     |
-| [叮咚买菜](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/dingdong) | 每日自动签到                         | MagicJS 2 | 正常     |
-| [饿了么](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/eleme) | 每日自动领取会员任务                 | MagicJS 2 | 正常     |
+| [叮咚买菜](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/dingdong) | 每日自动签到                         | MagicJS 3 | 正常     |
+| [饿了么](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/eleme) | 每日自动领取吃货豆和会员任务         | MagicJS 3 | 正常     |
 | [Fa米家](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/famijia) | 每日自动签到                         | MagicJS 2 | 正常     |
 | [Luka](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/luka) | 每日自动签到                         | MagicJS 2 | 正常     |
 | [美团买菜](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/meituan) | 每日自动签到                         | MagicJS 2 | 正常     |

@@ -309,7 +309,7 @@
       "name": "什么值得买",
       "keys": [
         "smzdm_cookie",
-        "smzdm_session",
+        "smzdm_cookie_id",
         "smzdm_signin",
         "smzdm_mission",
         "smzdm_lottery",
@@ -514,35 +514,6 @@
           "val": "",
           "type": "textarea",
           "desc": "必须是JSON格式，Key为用户Id，不要修改。格式不正确可能导致执行异常。"
-        },
-        {
-          "id": "magicjs_loglevel",
-          "name": "日志等级",
-          "val": "INFO",
-          "type": "radios",
-          "items": [
-            {
-              "key": "INFO",
-              "label": "INFO"
-            },
-            {
-              "key": "WARNING",
-              "label": "WARNING"
-            },
-            {
-              "key": "ERROR",
-              "label": "ERROR"
-            },
-            {
-              "key": "CRITICAL",
-              "label": "CRITICAL"
-            },
-            {
-              "key": "DEBUG",
-              "label": "DEBUG"
-            }
-          ],
-          "desc": "出现异常时请选择DEBUG提交日志"
         }
       ]
     },

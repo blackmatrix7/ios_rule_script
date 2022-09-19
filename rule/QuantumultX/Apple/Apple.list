@@ -1,7 +1,7 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-09-19 02:30:47
+# UPDATED: 2022-09-20 02:34:35
 # HOST: 64
 # HOST-KEYWORD: 5
 # HOST-SUFFIX: 456
@@ -9,7 +9,6 @@
 # USER-AGENT: 7
 # TOTAL: 542
 HOST,apps.apple.com,Apple
-HOST,itunes.apple.com,Apple
 HOST,api.smoot.apple.cn,Apple
 HOST,appldnld.apple.com,Apple
 HOST,apple-events.akamaized.net,Apple
@@ -50,10 +49,12 @@ HOST,api-glb-sea.smoot.apple.com,Apple
 HOST,books.itunes.apple.com,Apple
 HOST,cvws.icloud-content.com,Apple
 HOST,developer.apple.com,Apple
+HOST,hls.itunes.apple.com,Apple
+HOST,itunes.apple.com,Apple
 HOST,lookup-api.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
+HOST,testflight.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple
-HOST,hls.itunes.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
 HOST,play-edge.itunes.apple.com,Apple
 HOST,tv.applemusic.com,Apple
@@ -64,7 +65,6 @@ HOST,statici.icloud.com,Apple
 HOST,hls-svod.itunes.apple.com,Apple
 HOST,guzzoni.apple.com,Apple
 HOST,beta.apple.com,Apple
-HOST,testflight.apple.com,Apple
 HOST,www-cdn.icloud.com.akadns.net,Apple
 HOST,mask-api.fe.apple-dns.net,Apple
 HOST,mask-api.icloud.com,Apple
@@ -160,7 +160,6 @@ HOST-SUFFIX,applepaysupplies.net,Apple
 HOST-SUFFIX,applepaysupplies.tv,Apple
 HOST-SUFFIX,applewallet.com,Apple
 HOST-SUFFIX,applewallet.tv,Apple
-HOST-SUFFIX,appsto.re,Apple
 HOST-SUFFIX,appstore.co.id,Apple
 HOST-SUFFIX,appstore.com,Apple
 HOST-SUFFIX,appstore.hk,Apple
@@ -439,7 +438,6 @@ HOST-SUFFIX,apple.comscoreresearch.com,Apple
 HOST-SUFFIX,appleenews.com,Apple
 HOST-SUFFIX,applemusic.berlin,Apple
 HOST-SUFFIX,applemusic.co,Apple
-HOST-SUFFIX,applemusic.com,Apple
 HOST-SUFFIX,applemusic.com.au,Apple
 HOST-SUFFIX,applemusic.hamburg,Apple
 HOST-SUFFIX,applemusic.wang,Apple
@@ -472,8 +470,10 @@ HOST-SUFFIX,iphoto.se,Apple
 HOST-SUFFIX,iphoto.wang,Apple
 HOST-SUFFIX,musickit.net,Apple
 HOST-SUFFIX,wwwapplemusic.com,Apple
+HOST-SUFFIX,applemusic.com,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,apple-dns.net,Apple
+HOST-SUFFIX,appsto.re,Apple
 HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,apple-cloudkit.com,Apple
 HOST-SUFFIX,apple-icloud.cn,Apple

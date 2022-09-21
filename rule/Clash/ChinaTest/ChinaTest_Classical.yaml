@@ -1,13 +1,13 @@
 # NAME: ChinaTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-09-21 02:33:02
+# UPDATED: 2022-09-22 02:35:54
 # DOMAIN: 87
 # DOMAIN-KEYWORD: 10
-# DOMAIN-SUFFIX: 66194
+# DOMAIN-SUFFIX: 66269
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 66305
+# TOTAL: 66380
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -7959,6 +7959,7 @@ payload:
   - DOMAIN-SUFFIX,abdstem.com
   - DOMAIN-SUFFIX,abe-tech.com
   - DOMAIN-SUFFIX,abeacon.com
+  - DOMAIN-SUFFIX,abhouses.com
   - DOMAIN-SUFFIX,abiechina.com
   - DOMAIN-SUFFIX,abiestem.com
   - DOMAIN-SUFFIX,abifsey.com
@@ -13758,8 +13759,54 @@ payload:
   - DOMAIN-SUFFIX,cdnhwc3.com
   - DOMAIN-SUFFIX,cdnhwc5.com
   - DOMAIN-SUFFIX,cdnhwc6.com
+  - DOMAIN-SUFFIX,cdnhwcajk17.com
+  - DOMAIN-SUFFIX,cdnhwcatq08.com
+  - DOMAIN-SUFFIX,cdnhwcbni108.com
+  - DOMAIN-SUFFIX,cdnhwcbqs106.com
+  - DOMAIN-SUFFIX,cdnhwcbzj102.com
+  - DOMAIN-SUFFIX,cdnhwcchh18.com
+  - DOMAIN-SUFFIX,cdnhwccmz121.com
+  - DOMAIN-SUFFIX,cdnhwcead111.com
+  - DOMAIN-SUFFIX,cdnhwcedi10.com
+  - DOMAIN-SUFFIX,cdnhwcedt124.com
+  - DOMAIN-SUFFIX,cdnhwcggk22.com
+  - DOMAIN-SUFFIX,cdnhwcgnc118.com
+  - DOMAIN-SUFFIX,cdnhwcgqa21.com
   - DOMAIN-SUFFIX,cdnhwchcg02.com
   - DOMAIN-SUFFIX,cdnhwcibv122.com
+  - DOMAIN-SUFFIX,cdnhwcick110.com
+  - DOMAIN-SUFFIX,cdnhwcjlg112.com
+  - DOMAIN-SUFFIX,cdnhwcjog12.com
+  - DOMAIN-SUFFIX,cdnhwcjsb120.com
+  - DOMAIN-SUFFIX,cdnhwckfz116.com
+  - DOMAIN-SUFFIX,cdnhwckon103.com
+  - DOMAIN-SUFFIX,cdnhwcljk104.com
+  - DOMAIN-SUFFIX,cdnhwcllh11.com
+  - DOMAIN-SUFFIX,cdnhwclxu105.com
+  - DOMAIN-SUFFIX,cdnhwclxw05.com
+  - DOMAIN-SUFFIX,cdnhwcoem01.com
+  - DOMAIN-SUFFIX,cdnhwcohm19.com
+  - DOMAIN-SUFFIX,cdnhwcoph123.com
+  - DOMAIN-SUFFIX,cdnhwcprh113.com
+  - DOMAIN-SUFFIX,cdnhwcpsd13.com
+  - DOMAIN-SUFFIX,cdnhwcqgw115.com
+  - DOMAIN-SUFFIX,cdnhwcqir15.com
+  - DOMAIN-SUFFIX,cdnhwcqve117.com
+  - DOMAIN-SUFFIX,cdnhwcqwg14.com
+  - DOMAIN-SUFFIX,cdnhwctnm107.com
+  - DOMAIN-SUFFIX,cdnhwctxz24.com
+  - DOMAIN-SUFFIX,cdnhwcuim119.com
+  - DOMAIN-SUFFIX,cdnhwcupf06.com
+  - DOMAIN-SUFFIX,cdnhwcurq03.com
+  - DOMAIN-SUFFIX,cdnhwcvix16.com
+  - DOMAIN-SUFFIX,cdnhwcxcy07.com
+  - DOMAIN-SUFFIX,cdnhwczba04.com
+  - DOMAIN-SUFFIX,cdnhwczjt20.com
+  - DOMAIN-SUFFIX,cdnhwczks109.com
+  - DOMAIN-SUFFIX,cdnhwczmn114.com
+  - DOMAIN-SUFFIX,cdnhwczth23.com
+  - DOMAIN-SUFFIX,cdnhwcztu09.com
+  - DOMAIN-SUFFIX,cdnhwczxh101.com
   - DOMAIN-SUFFIX,cdni.net
   - DOMAIN-SUFFIX,cdnidc.net
   - DOMAIN-SUFFIX,cdnjtzy.com
@@ -18828,6 +18875,7 @@ payload:
   - DOMAIN-SUFFIX,devqinwei.com
   - DOMAIN-SUFFIX,devsiki.com
   - DOMAIN-SUFFIX,devtang.com
+  - DOMAIN-SUFFIX,devui.design
   - DOMAIN-SUFFIX,devzeng.com
   - DOMAIN-SUFFIX,dewmobile.net
   - DOMAIN-SUFFIX,dewu.com
@@ -24687,6 +24735,10 @@ payload:
   - DOMAIN-SUFFIX,gn168.com
   - DOMAIN-SUFFIX,gnaixx.cc
   - DOMAIN-SUFFIX,gndaily.com
+  - DOMAIN-SUFFIX,gneec.com
+  - DOMAIN-SUFFIX,gneec3.com
+  - DOMAIN-SUFFIX,gneec4.com
+  - DOMAIN-SUFFIX,gneec7.com
   - DOMAIN-SUFFIX,gnehr.com
   - DOMAIN-SUFFIX,gnetis.com
   - DOMAIN-SUFFIX,gng92.com
@@ -27421,6 +27473,7 @@ payload:
   - DOMAIN-SUFFIX,hi2000.net
   - DOMAIN-SUFFIX,hiagr.com
   - DOMAIN-SUFFIX,hiapk.com
+  - DOMAIN-SUFFIX,hiascend.com
   - DOMAIN-SUFFIX,hiavr.com
   - DOMAIN-SUFFIX,hibea.com
   - DOMAIN-SUFFIX,hibixin.com
@@ -27436,6 +27489,7 @@ payload:
   - DOMAIN-SUFFIX,hiceon.com
   - DOMAIN-SUFFIX,hichao.com
   - DOMAIN-SUFFIX,hichina.com
+  - DOMAIN-SUFFIX,hiclc.com
   - DOMAIN-SUFFIX,hicling.com
   - DOMAIN-SUFFIX,hiconey.com
   - DOMAIN-SUFFIX,hicoo.net
@@ -27498,6 +27552,8 @@ payload:
   - DOMAIN-SUFFIX,hikparking.com
   - DOMAIN-SUFFIX,hikrobotics.com
   - DOMAIN-SUFFIX,hikstor.com
+  - DOMAIN-SUFFIX,hikunpeng.com
+  - DOMAIN-SUFFIX,hikunpeng.net
   - DOMAIN-SUFFIX,hikvision-jl.com
   - DOMAIN-SUFFIX,hikvision.com
   - DOMAIN-SUFFIX,hikyun.com
@@ -28702,22 +28758,30 @@ payload:
   - DOMAIN-SUFFIX,huawanyun.com
   - DOMAIN-SUFFIX,huawei-3com.com
   - DOMAIN-SUFFIX,huawei.com
+  - DOMAIN-SUFFIX,huaweiacad.com
+  - DOMAIN-SUFFIX,huaweiapaas.com
   - DOMAIN-SUFFIX,huaweicloud-dns.com
   - DOMAIN-SUFFIX,huaweicloud-dns.net
   - DOMAIN-SUFFIX,huaweicloud-dns.org
+  - DOMAIN-SUFFIX,huaweicloud-smn.com
+  - DOMAIN-SUFFIX,huaweicloud-smn.net
   - DOMAIN-SUFFIX,huaweicloud.com
   - DOMAIN-SUFFIX,huaweicloudapis.com
+  - DOMAIN-SUFFIX,huaweicloudlive.com
   - DOMAIN-SUFFIX,huaweicloudwaf.com
   - DOMAIN-SUFFIX,huaweidevice.com
   - DOMAIN-SUFFIX,huaweidun.com
+  - DOMAIN-SUFFIX,huaweiief.com
   - DOMAIN-SUFFIX,huaweimall.com
   - DOMAIN-SUFFIX,huaweimarine.com
+  - DOMAIN-SUFFIX,huaweimarketplace.com
   - DOMAIN-SUFFIX,huaweimossel.com
   - DOMAIN-SUFFIX,huaweirom.com
   - DOMAIN-SUFFIX,huaweisafedns.com
   - DOMAIN-SUFFIX,huaweistatic.com
   - DOMAIN-SUFFIX,huaweisymantec.com
   - DOMAIN-SUFFIX,huaweiuniversity.com
+  - DOMAIN-SUFFIX,huaweiyun.com
   - DOMAIN-SUFFIX,huaweizdl.com
   - DOMAIN-SUFFIX,huawenfanyi.com
   - DOMAIN-SUFFIX,huawenonline.com
@@ -29205,12 +29269,14 @@ payload:
   - DOMAIN-SUFFIX,hwasmart.com
   - DOMAIN-SUFFIX,hwbs.com
   - DOMAIN-SUFFIX,hwccpc.com
+  - DOMAIN-SUFFIX,hwcdnsre.com
   - DOMAIN-SUFFIX,hwcloudlive.com
   - DOMAIN-SUFFIX,hwclouds-dns.com
   - DOMAIN-SUFFIX,hwclouds-dns.net
   - DOMAIN-SUFFIX,hwclouds.com
   - DOMAIN-SUFFIX,hwclouds.mobi
   - DOMAIN-SUFFIX,hwclouds.net
+  - DOMAIN-SUFFIX,hwcloudvis.com
   - DOMAIN-SUFFIX,hwcrazy.com
   - DOMAIN-SUFFIX,hwehs.com
   - DOMAIN-SUFFIX,hweimall.com
@@ -29220,6 +29286,7 @@ payload:
   - DOMAIN-SUFFIX,hwjyw.com
   - DOMAIN-SUFFIX,hwlantian.com
   - DOMAIN-SUFFIX,hwlpz.com
+  - DOMAIN-SUFFIX,hwocloud.com
   - DOMAIN-SUFFIX,hwrecruit.com
   - DOMAIN-SUFFIX,hwsem.com
   - DOMAIN-SUFFIX,hwshu.com
@@ -30524,6 +30591,7 @@ payload:
   - DOMAIN-SUFFIX,imblog.in
   - DOMAIN-SUFFIX,imbtk.com
   - DOMAIN-SUFFIX,imbusy.me
+  - DOMAIN-SUFFIX,imcapptest.com
   - DOMAIN-SUFFIX,imcaviare.com
   - DOMAIN-SUFFIX,imcec.org
   - DOMAIN-SUFFIX,imcn.me
@@ -40675,6 +40743,8 @@ payload:
   - DOMAIN-SUFFIX,myhostadmin.net
   - DOMAIN-SUFFIX,myhuaweicloud.com
   - DOMAIN-SUFFIX,myhuilv.com
+  - DOMAIN-SUFFIX,myhwcdn.com
+  - DOMAIN-SUFFIX,myhwcloudlive.com
   - DOMAIN-SUFFIX,myhwclouds.com
   - DOMAIN-SUFFIX,myicloud.vip
   - DOMAIN-SUFFIX,myie.me
@@ -42741,6 +42811,7 @@ payload:
   - DOMAIN-SUFFIX,owmy.ga
   - DOMAIN-SUFFIX,owner-api.teslamotors.com
   - DOMAIN-SUFFIX,owomoe.net
+  - DOMAIN-SUFFIX,owsgo.com
   - DOMAIN-SUFFIX,owspace.com
   - DOMAIN-SUFFIX,owulia.com
   - DOMAIN-SUFFIX,ox11.com
@@ -42813,6 +42884,7 @@ payload:
   - DOMAIN-SUFFIX,pageadmin.net
   - DOMAIN-SUFFIX,pagechoice.com
   - DOMAIN-SUFFIX,pagechoice.net
+  - DOMAIN-SUFFIX,pagescube.com
   - DOMAIN-SUFFIX,pageseagle.com
   - DOMAIN-SUFFIX,pagurian.com
   - DOMAIN-SUFFIX,pahaoche.com
@@ -46907,6 +46979,7 @@ payload:
   - DOMAIN-SUFFIX,sa-log.com
   - DOMAIN-SUFFIX,sa20.com
   - DOMAIN-SUFFIX,saasddos.com
+  - DOMAIN-SUFFIX,saasops.tech
   - DOMAIN-SUFFIX,saasruanjian.com
   - DOMAIN-SUFFIX,saaswaf.com
   - DOMAIN-SUFFIX,saayaa.com
@@ -47940,6 +48013,7 @@ payload:
   - DOMAIN-SUFFIX,shangyuer.com
   - DOMAIN-SUFFIX,shangzhang.com
   - DOMAIN-SUFFIX,shangzhibo.tv
+  - DOMAIN-SUFFIX,shanhaitujian.com
   - DOMAIN-SUFFIX,shanhaizhanji.com
   - DOMAIN-SUFFIX,shanhs.com
   - DOMAIN-SUFFIX,shanhu99.com
@@ -51887,6 +51961,7 @@ payload:
   - DOMAIN-SUFFIX,telehr.com
   - DOMAIN-SUFFIX,teleinfoo.com
   - DOMAIN-SUFFIX,teleland.net
+  - DOMAIN-SUFFIX,teleows.com
   - DOMAIN-SUFFIX,telfri.net
   - DOMAIN-SUFFIX,teligen-cloud.com
   - DOMAIN-SUFFIX,teliute.org

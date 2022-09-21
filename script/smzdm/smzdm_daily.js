@@ -34,8 +34,7 @@ async function getWebCookie() {
     currentCookie = $.request.headers.cookie || $.request.headers.Cookie;
     if (currentCookie.length >= 200) {
       $.logger.info(`当前页面获取的Cookie: ${currentCookie}`);
-      const matchStr = currentCookie.match(/__ckguid=[^\s]*;/);
-      const cookieId = matchStr !== null ? matchStr[0] : null;
+      const cookieId = currentCookie.match(/__ckguid=([^;]*)/ig);
       $.logger.info(`当前页面获取的CookieId\n${cookieId}`);
       // 获取新的session_id
       if (cookieId) {

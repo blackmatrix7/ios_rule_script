@@ -15,17 +15,17 @@ Google规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:36:19
+最后更新时间：2022-09-23 02:31:59
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 6  | 
-| DOMAIN-SUFFIX | 662  | 
+| DOMAIN-SUFFIX | 663  | 
 | IP-CIDR | 4  | 
 | IP-CIDR6 | 1  | 
 | PROCESS-NAME | 6  | 
-| TOTAL | 679  | 
+| TOTAL | 680  | 
 
 
 ## Clash 

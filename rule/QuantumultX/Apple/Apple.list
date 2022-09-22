@@ -1,7 +1,7 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-09-22 02:35:17
+# UPDATED: 2022-09-23 02:32:02
 # HOST: 64
 # HOST-KEYWORD: 5
 # HOST-SUFFIX: 456
@@ -9,7 +9,6 @@
 # USER-AGENT: 7
 # TOTAL: 542
 HOST,apps.apple.com,Apple
-HOST,itunes.apple.com,Apple
 HOST,api.smoot.apple.cn,Apple
 HOST,appldnld.apple.com,Apple
 HOST,apple-events.akamaized.net,Apple
@@ -50,10 +49,11 @@ HOST,api-glb-sea.smoot.apple.com,Apple
 HOST,books.itunes.apple.com,Apple
 HOST,cvws.icloud-content.com,Apple
 HOST,developer.apple.com,Apple
+HOST,hls.itunes.apple.com,Apple
+HOST,itunes.apple.com,Apple
 HOST,lookup-api.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple
-HOST,hls.itunes.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
 HOST,play-edge.itunes.apple.com,Apple
 HOST,tv.applemusic.com,Apple
@@ -485,10 +485,10 @@ HOST-SUFFIX,ukipad.com,Apple
 HOST-SUFFIX,wwwipodlounge.com,Apple
 HOST-SUFFIX,wwwmacbookair.com,Apple
 HOST-SUFFIX,apple.comscoreresearch.com,Apple
-HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,appleenews.com,Apple
 HOST-SUFFIX,applemusic.berlin,Apple
 HOST-SUFFIX,applemusic.co,Apple
+HOST-SUFFIX,applemusic.com,Apple
 HOST-SUFFIX,applemusic.com.au,Apple
 HOST-SUFFIX,applemusic.hamburg,Apple
 HOST-SUFFIX,applemusic.wang,Apple
@@ -521,7 +521,7 @@ HOST-SUFFIX,iphoto.se,Apple
 HOST-SUFFIX,iphoto.wang,Apple
 HOST-SUFFIX,musickit.net,Apple
 HOST-SUFFIX,wwwapplemusic.com,Apple
-HOST-SUFFIX,applemusic.com,Apple
+HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,apple-dns.net,Apple
 HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,apple-cloudkit.com,Apple

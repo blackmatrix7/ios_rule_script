@@ -1,13 +1,13 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-09-08 01:24:29
-# DOMAIN: 17
+# UPDATED: 2022-10-09 02:33:09
+# DOMAIN: 16
 # DOMAIN-KEYWORD: 10
-# DOMAIN-SUFFIX: 558
+# DOMAIN-SUFFIX: 557
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 599
+# TOTAL: 597
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -22,7 +22,6 @@ payload:
   - DOMAIN,origin-a.akamaihd.ne
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN,outlook.office365.com
-  - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,sms.imagetasks.com
   - DOMAIN,smtp.office365.com
   - DOMAIN,steamcommunity-a.akamaihd.net
@@ -455,7 +454,6 @@ payload:
   - DOMAIN-SUFFIX,sinaapp.com
   - DOMAIN-SUFFIX,sinaimg.cn
   - DOMAIN-SUFFIX,sinaimg.com
-  - DOMAIN-SUFFIX,sm.ms
   - DOMAIN-SUFFIX,smartisan.com
   - DOMAIN-SUFFIX,smzdm.com
   - DOMAIN-SUFFIX,snapdrop.net

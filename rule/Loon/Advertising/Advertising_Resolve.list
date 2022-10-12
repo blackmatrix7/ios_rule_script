@@ -1,14 +1,14 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-09-21 02:31:34
+# UPDATED: 2022-10-12 02:35:34
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
-# DOMAIN: 14152
+# DOMAIN: 14214
 # DOMAIN-KEYWORD: 77
-# DOMAIN-SUFFIX: 76725
+# DOMAIN-SUFFIX: 76893
 # IP-CIDR: 241
 # URL-REGEX: 301
-# TOTAL: 91496
+# TOTAL: 91726
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,adform
@@ -209,7 +209,7 @@ URL-REGEX,^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/
 URL-REGEX,^https?:\/\/capi\.mwee\.cn\/app-api\/V\d+\/app\/(ad|getstartad)
 URL-REGEX,^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/
 URL-REGEX,^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/
-URL-REGEX,^https?:\/\/cdn-1rtb\.caiyunapp\.com/creative/.*$,REJECT
+URL-REGEX,^https?:\/\/cdn-1rtb\.caiyunapp\.com/creative/.*$
 URL-REGEX,^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/
 URL-REGEX,^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/
 URL-REGEX,^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource
@@ -243,7 +243,7 @@ URL-REGEX,^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json
 URL-REGEX,^https?:\/\/gg\w+?\.cmvideo\.cn\/v\d\/iflyad\/
 URL-REGEX,^https?:\/\/ggic(\d)?\.cmvideo\.cn\/ad\/
 URL-REGEX,^https?:\/\/ggx\.cmvideo\.cn\/request\/
-URL-REGEX,^https?:\/\/goblin\.hupu\.com/[^/]+/[^/]+\/interfaceAd\/,REJECT
+URL-REGEX,^https?:\/\/goblin\.hupu\.com/[^/]+/[^/]+\/interfaceAd\/
 URL-REGEX,^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless
 URL-REGEX,^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs
 URL-REGEX,^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs

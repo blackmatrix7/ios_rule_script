@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-09-14 23:02:07
+# UPDATED: 2022-09-28 02:38:56
 # DOMAIN: 7
 # DOMAIN-KEYWORD: 30
-# DOMAIN-SUFFIX: 24700
+# DOMAIN-SUFFIX: 24701
 # IP-CIDR: 92
 # IP-CIDR6: 3
-# TOTAL: 24832
+# TOTAL: 24833
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -10070,6 +10070,7 @@ payload:
   - DOMAIN-SUFFIX,inredware.com.ar
   - DOMAIN-SUFFIX,insder.co
   - DOMAIN-SUFFIX,insecam.org
+  - DOMAIN-SUFFIX,inside.com.tw
   - DOMAIN-SUFFIX,insideinternetsecurity.com
   - DOMAIN-SUFFIX,insidevoa.com
   - DOMAIN-SUFFIX,insightcced.com
@@ -10558,6 +10559,7 @@ payload:
   - DOMAIN-SUFFIX,jiangweiping.com
   - DOMAIN-SUFFIX,jiaoyou8.com
   - DOMAIN-SUFFIX,jiayuan.uk
+  - DOMAIN-SUFFIX,jichangtj.com
   - DOMAIN-SUFFIX,jiduvpn.com
   - DOMAIN-SUFFIX,jie.idv.tw
   - DOMAIN-SUFFIX,jiehua.cz
@@ -21543,7 +21545,6 @@ payload:
   - DOMAIN-SUFFIX,www.inouyelab.org
   - DOMAIN-SUFFIX,www.inquisition21.com
   - DOMAIN-SUFFIX,www.insect-mall.idv.tw
-  - DOMAIN-SUFFIX,www.inside.com.tw
   - DOMAIN-SUFFIX,www.insidenorthernnevada.com
   - DOMAIN-SUFFIX,www.instaforex.eu
   - DOMAIN-SUFFIX,www.instantfloppy.net

@@ -1,7 +1,7 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-09-21 02:32:25
+# UPDATED: 2022-10-12 02:36:35
 # DOMAIN: 2
 # DOMAIN-KEYWORD: 5
 # DOMAIN-SUFFIX: 456
@@ -374,6 +374,7 @@ DOMAIN-SUFFIX,ukipad.com
 DOMAIN-SUFFIX,wwwipodlounge.com
 DOMAIN-SUFFIX,wwwmacbookair.com
 DOMAIN-SUFFIX,apple.comscoreresearch.com
+DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appleenews.com
 DOMAIN-SUFFIX,applemusic.berlin
 DOMAIN-SUFFIX,applemusic.co
@@ -409,8 +410,7 @@ DOMAIN-SUFFIX,iphoto.se
 DOMAIN-SUFFIX,iphoto.wang
 DOMAIN-SUFFIX,musickit.net
 DOMAIN-SUFFIX,wwwapplemusic.com
-DOMAIN-SUFFIX,applemusic.com,PROXY
-DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,apple-cloudkit.com
@@ -472,7 +472,7 @@ DOMAIN-KEYWORD,apple.com.edgekey.net
 DOMAIN-KEYWORD,testflight
 DOMAIN-KEYWORD,icloud.com.akadns.net
 USER-AGENT,com.apple.appstored*
-USER-AGENT,Music*,PROXY
+USER-AGENT,Music*
 USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
 USER-AGENT,com.apple.trustd*

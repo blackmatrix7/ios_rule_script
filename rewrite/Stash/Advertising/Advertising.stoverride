@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2022-08-31 02:32:19
+desc: 最后更新时间 2022-09-25 02:34:39
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 411
-# mitm: 357
+# reject: 412
+# mitm: 359
 # force-http-engine-hosts: 6
-# total: 774
+# total: 777
 
 
 
@@ -13,6 +13,7 @@ desc: 最后更新时间 2022-08-31 02:32:19
 
 http:
   rewrite:
+    - (?i)\btc\.qq\.com\/[\w\/\.-]+[a-z]\d+\.mp4\? - reject
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
     - ^https?://ads-img-al\.xhscdn\.com/hera/ - reject
     - ^https?://cdn\.fivecdm\.com/cr/ - reject
@@ -459,6 +460,7 @@ http:
     - "*.wtzw.com"
     - "*.ximalaya.com"
     - "*.zhangle.com"
+    - "*api.oray.net"
     - "101.201.175.228"
     - "103.41.167.*"
     - "115.159.231.79"
@@ -488,6 +490,7 @@ http:
     - "api-access.pangolin-sdk-toutiao.com"
     - "api-mifit*.huami.com"
     - "api-new.app.acfun.cn"
+    - "api-one-wscn.awtmt.com"
     - "api-one.wallstcn.com"
     - "api-release.wuta-cam.com"
     - "api.21jingji.com"
@@ -498,6 +501,7 @@ http:
     - "api.catch.gift"
     - "api.cdmcaac.com"
     - "api.chelaile.net.cn"
+    - "api.cloud.189.cn"
     - "api.club.lenovo.cn"
     - "api.dangdang.com"
     - "api.daydaycook.com.cn"
@@ -560,6 +564,7 @@ http:
     - "b-api.ins.miaopai.com"
     - "b.zhuishushenqi.com"
     - "bdsp-x.jd.com"
+    - "btc.qq.com"
     - "btrace.qq.com"
     - "business-cdn.shouji.sogou.com"
     - "business.msstatic.com"
@@ -609,7 +614,6 @@ http:
     - "gab.122.gov.cn"
     - "games.mobileapi.hupu.com"
     - "gateway.shouqiev.com"
-    - "gateway.shouqiev.com:0"
     - "gfp.veta.naver.com"
     - "gg*.cmvideo.cn"
     - "god.gameyw.netease.com"
@@ -730,7 +734,6 @@ http:
     - "service.iciba.com"
     - "sh-gateway.shihuo.cn"
     - "shopic.sf-express.com"
-    - "slapi.oray.net"
     - "smallseotools.com"
     - "smkmp.96225.com"
     - "smusic.app.wechat.com"

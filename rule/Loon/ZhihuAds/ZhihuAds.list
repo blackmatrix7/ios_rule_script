@@ -1,7 +1,7 @@
 # NAME: ZhihuAds
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-08-05 22:37:20
+# UPDATED: 2022-10-09 02:33:36
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN: 3
 # IP-CIDR: 1
@@ -9,16 +9,16 @@
 # URL-REGEX: 7
 # USER-AGENT: 1
 # TOTAL: 13
-DOMAIN,appcloud2.in.zhihu.com,REJECT
-DOMAIN,mqtt.zhihu.com,REJECT
-DOMAIN,sugar.zhihu.com,REJECT
-USER-AGENT,AVOS*,REJECT
-URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/brand\/question\/\d+/card\?,REJECT
-URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/commercial_api\/launch_v2\?,REJECT
-URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/explore\/entry\/tips,REJECT
-URL-REGEX,^https?:\/\/(www\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/api\/v4/(questions|anwsers)\/\d+/related-readings,REJECT
-URL-REGEX,^https?:\/\/(www\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/api\/v4\/answers\/\d+\/recommendations,REJECT
-URL-REGEX,^https?:\/\/(www\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/commercial_api\/banners_v3\/mobile_banner,REJECT
-URL-REGEX,^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation,REJECT
-IP-CIDR,118.89.204.198/32,REJECT,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
+DOMAIN,appcloud2.in.zhihu.com
+DOMAIN,mqtt.zhihu.com
+DOMAIN,sugar.zhihu.com
+USER-AGENT,AVOS*
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/brand\/question\/\d+/card\?
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/commercial_api\/launch_v2\?
+URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/explore\/entry\/tips
+URL-REGEX,^https?:\/\/(www\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/api\/v4/(questions|anwsers)\/\d+/related-readings
+URL-REGEX,^https?:\/\/(www\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/api\/v4\/answers\/\d+\/recommendations
+URL-REGEX,^https?:\/\/(www\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/commercial_api\/banners_v3\/mobile_banner
+URL-REGEX,^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation
+IP-CIDR,118.89.204.198/32,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve

@@ -1,12 +1,12 @@
 #!name= GetCookie
-#!desc= 最后更新时间 2022-08-31 02:32:29
+#!desc= 最后更新时间 2022-10-09 02:35:04
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!http-request-script= 14
-#!mitm= 13
-#!total= 27
+#!http-request-script= 13
+#!mitm= 11
+#!total= 24
 
 [Script]
 # Fa米家_获取cookie
@@ -14,21 +14,19 @@ http-request ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/memb
 # Luka_获取cookie
 http-request ^https?:\/\/luka\-graphql\.ling\.cn\/graphql\/mobile\?operation=UserInfoWithPendingRobotQuery script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka_signin.js,tag=Luka_获取cookie
 # 什么值得买_获取cookie
-http-request ^https?:\/\/zhiyou\.smzdm\.com\/user$ script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js,requires-body=1,tag=什么值得买_获取cookie
+http-request ^https?:\/\/zhiyou\.smzdm\.com\/user$ script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js,tag=什么值得买_获取cookie
 # 叮咚买菜_获取cookie
 http-request ^https?:\/\/maicai\.api\.ddxq\.mobi\/point\/home\?api_version script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js,tag=叮咚买菜_获取cookie
-# 家长帮_获取cookie
-http-request ^https?:\/\/pgc-cms\.jzb\.com\/api\/channel\/recommend script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/jiazhangbang/jiazhangbang_checkin.js,tag=家长帮_获取cookie
 # 慢慢买_获取cookie
 http-request ^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,requires-body=1,tag=慢慢买_获取cookie
 # 美团买菜_获取cookie
 http-request ^https?:\/\/mall\.meituan\.com\/api\/c\/mallcoin\/checkIn\/getWeekCheckInProgressBar\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js,tag=美团买菜_获取cookie
 # 贴吧_获取cookie1
-http-request https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,tag=贴吧_获取cookie1
+http-request https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,tag=贴吧_获取cookie1
 # 贴吧_获取cookie2
-http-request ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,tag=贴吧_获取cookie2
+http-request ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,tag=贴吧_获取cookie2
 # 贴吧_获取cookie3
-http-request ^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,tag=贴吧_获取cookie3
+http-request ^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,tag=贴吧_获取cookie3
 # 饿了么_Cookies
 http-request ^https?:\/\/air\.tb\.ele\.me\/app\/conch-page\/svip-foodie-card\/home script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,tag=饿了么_Cookies
 # 饿了么_获取坐标1
@@ -39,4 +37,4 @@ http-request ^https?:\/\/tb\.ele\.me\/wow\/alsc\/mod script-path=https://raw.git
 http-request ^https?:\/\/h5\.ele\.me\/restapi\/biz\.svip_scene\/svip\/engine\/queryTrafficSupply script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,tag=饿了么_获取坐标3
 
 [MITM]
-hostname = air.tb.ele.me,apph5.manmanbuy.com,c.tieba.baidu.com,fmapp.chinafamilymart.com.cn,h5.ele.me,luka-graphql.ling.cn,maicai.api.ddxq.mobi,mall.meituan.com,mp.jzb.com,pgc-cms.jzb.com,tb.ele.me,tiebac.baidu.com,zhiyou.smzdm.com
+hostname = air.tb.ele.me,apph5.manmanbuy.com,c.tieba.baidu.com,fmapp.chinafamilymart.com.cn,h5.ele.me,luka-graphql.ling.cn,maicai.api.ddxq.mobi,mall.meituan.com,tb.ele.me,tiebac.baidu.com,zhiyou.smzdm.com

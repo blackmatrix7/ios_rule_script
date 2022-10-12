@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2022-08-31 02:32:32
+desc: 最后更新时间 2022-09-25 02:34:50
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 358
-# mitm: 294
+# reject: 359
+# mitm: 295
 # force-http-engine-hosts: 6
-# total: 658
+# total: 660
 
 
 
@@ -13,6 +13,7 @@ desc: 最后更新时间 2022-08-31 02:32:32
 
 http:
   rewrite:
+    - (?i)\btc\.qq\.com\/[\w\/\.-]+[a-z]\d+\.mp4\? - reject
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
     - ^https?://ads-img-al\.xhscdn\.com/hera/ - reject
     - ^https?://cdn\.fivecdm\.com/cr/ - reject
@@ -472,6 +473,7 @@ http:
     - "b-api.ins.miaopai.com"
     - "b.zhuishushenqi.com"
     - "bdsp-x.jd.com"
+    - "btc.qq.com"
     - "btrace.qq.com"
     - "business-cdn.shouji.sogou.com"
     - "business.msstatic.com"

@@ -1,14 +1,14 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-09-21 02:32:15
+# UPDATED: 2022-10-12 02:36:24
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
-# DOMAIN: 10352
+# DOMAIN: 10399
 # DOMAIN-KEYWORD: 264
-# DOMAIN-SUFFIX: 89789
+# DOMAIN-SUFFIX: 91773
 # IP-CIDR: 242
 # URL-REGEX: 301
-# TOTAL: 100948
+# TOTAL: 102979
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,adform
@@ -93,11 +93,11 @@ DOMAIN-KEYWORD,a3.pstatp.com
 DOMAIN-KEYWORD,ad.api.moji.com
 DOMAIN-KEYWORD,ad.ihuman.com
 DOMAIN-KEYWORD,ad.toutiao.com
-DOMAIN-KEYWORD,ad.weibo.com,REJECT
+DOMAIN-KEYWORD,ad.weibo.com
 DOMAIN-KEYWORD,adash.man.aliyuncs.com
 DOMAIN-KEYWORD,adashx
-DOMAIN-KEYWORD,adimg.uve.weibo.com,REJECT
-DOMAIN-KEYWORD,adimg.vue.weibo.com,REJECT
+DOMAIN-KEYWORD,adimg.uve.weibo.com
+DOMAIN-KEYWORD,adimg.vue.weibo.com
 DOMAIN-KEYWORD,adm3.autoimg.cn
 DOMAIN-KEYWORD,adp.atm.youku.com
 DOMAIN-KEYWORD,adproxy.autohome.com
@@ -125,7 +125,7 @@ DOMAIN-KEYWORD,audid-api.taobao.com
 DOMAIN-KEYWORD,av1.xdrig.com
 DOMAIN-KEYWORD,bds.snssdk.com
 DOMAIN-KEYWORD,bdsp.x.jd.com
-DOMAIN-KEYWORD,biz.weibo.com,REJECT
+DOMAIN-KEYWORD,biz.weibo.com
 DOMAIN-KEYWORD,bj.imp.voiceads.cn
 DOMAIN-KEYWORD,business-cdn.shouji.sogou.com
 DOMAIN-KEYWORD,c-hzgt2.getui.com
@@ -135,7 +135,7 @@ DOMAIN-KEYWORD,c1.wkanx.com
 DOMAIN-KEYWORD,c1img.ali.kugou.com
 DOMAIN-KEYWORD,caclick.baidu.com
 DOMAIN-KEYWORD,cds.51y5.net
-DOMAIN-KEYWORD,click.uve.weibo.com,REJECT
+DOMAIN-KEYWORD,click.uve.weibo.com
 DOMAIN-KEYWORD,client-dmp.suishenyun.cn
 DOMAIN-KEYWORD,clk.gentags.net
 DOMAIN-KEYWORD,cm-10-134.getui.com
@@ -149,8 +149,8 @@ DOMAIN-KEYWORD,cpu.baidu.com
 DOMAIN-KEYWORD,dm.bytedance.com
 DOMAIN-KEYWORD,dm.pstatp.com
 DOMAIN-KEYWORD,dm.toutiao.com
-DOMAIN-KEYWORD,dp.im.weibo.cn,REJECT
-DOMAIN-KEYWORD,dsp.edm.weibo.cn,REJECT
+DOMAIN-KEYWORD,dp.im.weibo.cn
+DOMAIN-KEYWORD,dsp.edm.weibo.cn
 DOMAIN-KEYWORD,editor.sm.cn
 DOMAIN-KEYWORD,ems.youku.com
 DOMAIN-KEYWORD,epochtimes
@@ -158,10 +158,10 @@ DOMAIN-KEYWORD,fans.m.tmall.com
 DOMAIN-KEYWORD,fastimage.uve.weibo.com
 DOMAIN-KEYWORD,fc-video.cdn.bcebos.com
 DOMAIN-KEYWORD,fds.api.moji.com
-DOMAIN-KEYWORD,game.weibo.cn,REJECT
-DOMAIN-KEYWORD,game.weibo.com,REJECT
-DOMAIN-KEYWORD,gw5.push.mcp.weibo.cn,REJECT
-DOMAIN-KEYWORD,gw6.push.mcp.weibo.cn,REJECT
+DOMAIN-KEYWORD,game.weibo.cn
+DOMAIN-KEYWORD,game.weibo.com
+DOMAIN-KEYWORD,gw5.push.mcp.weibo.cn
+DOMAIN-KEYWORD,gw6.push.mcp.weibo.cn
 DOMAIN-KEYWORD,huichuan.sm.cn
 DOMAIN-KEYWORD,ichannel.snssdk.com
 DOMAIN-KEYWORD,iflyad.bj.openstorage.cn
@@ -172,8 +172,8 @@ DOMAIN-KEYWORD,is.snssdk.com
 DOMAIN-KEYWORD,js.union-wifi.com
 DOMAIN-KEYWORD,kepler.jd.com
 DOMAIN-KEYWORD,keplerapi.jd.com
-DOMAIN-KEYWORD,kgipadstat.kugou.com,REJECT
-DOMAIN-KEYWORD,kgipadstatbak.kugou.com,REJECT
+DOMAIN-KEYWORD,kgipadstat.kugou.com
+DOMAIN-KEYWORD,kgipadstatbak.kugou.com
 DOMAIN-KEYWORD,kgstaticdlbssdlbig.tx.kugou.com
 DOMAIN-KEYWORD,ktd.m.cn.miaozhen.com
 DOMAIN-KEYWORD,lkme.cc
@@ -183,7 +183,7 @@ DOMAIN-KEYWORD,log-dmp.suishenyun.cn
 DOMAIN-KEYWORD,log.cs.pp.cn
 DOMAIN-KEYWORD,log.snssdk.com
 DOMAIN-KEYWORD,login.push.51y5.net
-DOMAIN-KEYWORD,logwebs.kugou.com,REJECT
+DOMAIN-KEYWORD,logwebs.kugou.com
 DOMAIN-KEYWORD,m.atm.youku.com
 DOMAIN-KEYWORD,m.panda.voiceads.cn
 DOMAIN-KEYWORD,m.suning.com
@@ -199,7 +199,7 @@ DOMAIN-KEYWORD,nbcollect.kugou.com
 DOMAIN-KEYWORD,nbcollectretry.kugou.com
 DOMAIN-KEYWORD,news-log.51y5.net
 DOMAIN-KEYWORD,news.51y5.net
-DOMAIN-KEYWORD,ossgw.alicdn.com,REJECT
+DOMAIN-KEYWORD,ossgw.alicdn.com
 DOMAIN-KEYWORD,ossp.voicecloud.cn
 DOMAIN-KEYWORD,p26-be-pack-sign.pglstatp-toutiao.com
 DOMAIN-KEYWORD,p3-be-pack-sign.pglstatp-toutiao.com
@@ -213,14 +213,14 @@ DOMAIN-KEYWORD,paradisestatic.vivo.com.cn
 DOMAIN-KEYWORD,pc.suishenyun.net
 DOMAIN-KEYWORD,pdds.ucweb.com
 DOMAIN-KEYWORD,policy.jd.com
-DOMAIN-KEYWORD,promote.biz.weibo.cn,REJECT
+DOMAIN-KEYWORD,promote.biz.weibo.cn
 DOMAIN-KEYWORD,puds.ucweb.com
 DOMAIN-KEYWORD,r1.ykimg.com
 DOMAIN-KEYWORD,rescn.u3.ucweb.com
 DOMAIN-KEYWORD,rich.kuwo.cn
 DOMAIN-KEYWORD,rt-m.kugou.com
 DOMAIN-KEYWORD,rtmretry.kugou.com
-DOMAIN-KEYWORD,s.weibo.com,REJECT
+DOMAIN-KEYWORD,s.weibo.com
 DOMAIN-KEYWORD,s1.pstatp.com
 DOMAIN-KEYWORD,s2.pstatp.com
 DOMAIN-KEYWORD,s3-fe-scm.pglstatp-toutiao.com
@@ -230,7 +230,7 @@ DOMAIN-KEYWORD,sdfp.snssdk.com
 DOMAIN-KEYWORD,sdk-conf.getui.com
 DOMAIN-KEYWORD,sdk.open.talk.getui.com
 DOMAIN-KEYWORD,sdk.open.talk.getui.net
-DOMAIN-KEYWORD,sdkapp.uve.weibo.com,REJECT
+DOMAIN-KEYWORD,sdkapp.uve.weibo.com
 DOMAIN-KEYWORD,searchrecommend.kugou.com
 DOMAIN-KEYWORD,server.m.pp.cn
 DOMAIN-KEYWORD,sf1-be-pack.pglstatp-toutiao.com
@@ -249,11 +249,11 @@ DOMAIN-KEYWORD,talkingdata
 DOMAIN-KEYWORD,tosv.boe.byted.org
 DOMAIN-KEYWORD,tosv.byted.org
 DOMAIN-KEYWORD,track.uc.cn
-DOMAIN-KEYWORD,tracker.kugou.com,REJECT
-DOMAIN-KEYWORD,trackercdnbj.kugou.com,REJECT
+DOMAIN-KEYWORD,tracker.kugou.com
+DOMAIN-KEYWORD,trackercdnbj.kugou.com
 DOMAIN-KEYWORD,tracking
 DOMAIN-KEYWORD,traffic
-DOMAIN-KEYWORD,tui.weibo.com,REJECT
+DOMAIN-KEYWORD,tui.weibo.com
 DOMAIN-KEYWORD,tunion-api.m.taobao.com
 DOMAIN-KEYWORD,upload-cdn.orayimg.com
 DOMAIN-KEYWORD,utp-dmp.ucweb.com
@@ -264,11 +264,11 @@ DOMAIN-KEYWORD,v2.reachmax.cn
 DOMAIN-KEYWORD,val.atm.youku.com
 DOMAIN-KEYWORD,vidoza
 DOMAIN-KEYWORD,vs10.bj2ct.u3.ucweb.com
-DOMAIN-KEYWORD,wax.weibo.com,REJECT
-DOMAIN-KEYWORD,wbapp.uve.weibo.com,REJECT
-DOMAIN-KEYWORD,weibomingzi.com,REJECT
+DOMAIN-KEYWORD,wax.weibo.com
+DOMAIN-KEYWORD,wbapp.uve.weibo.com
+DOMAIN-KEYWORD,weibomingzi.com
 DOMAIN-KEYWORD,wgo.mmstat.com
-DOMAIN-KEYWORD,widget.weibo.com,REJECT
+DOMAIN-KEYWORD,widget.weibo.com
 DOMAIN-KEYWORD,wixsite.com
 DOMAIN-KEYWORD,www.qmlog.cn
 DOMAIN-KEYWORD,xn--2qux23c9ziyrq
@@ -396,7 +396,7 @@ URL-REGEX,^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/
 URL-REGEX,^https?:\/\/capi\.mwee\.cn\/app-api\/V\d+\/app\/(ad|getstartad)
 URL-REGEX,^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/
 URL-REGEX,^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/
-URL-REGEX,^https?:\/\/cdn-1rtb\.caiyunapp\.com/creative/.*$,REJECT
+URL-REGEX,^https?:\/\/cdn-1rtb\.caiyunapp\.com/creative/.*$
 URL-REGEX,^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/
 URL-REGEX,^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/
 URL-REGEX,^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource
@@ -430,7 +430,7 @@ URL-REGEX,^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json
 URL-REGEX,^https?:\/\/gg\w+?\.cmvideo\.cn\/v\d\/iflyad\/
 URL-REGEX,^https?:\/\/ggic(\d)?\.cmvideo\.cn\/ad\/
 URL-REGEX,^https?:\/\/ggx\.cmvideo\.cn\/request\/
-URL-REGEX,^https?:\/\/goblin\.hupu\.com/[^/]+/[^/]+\/interfaceAd\/,REJECT
+URL-REGEX,^https?:\/\/goblin\.hupu\.com/[^/]+/[^/]+\/interfaceAd\/
 URL-REGEX,^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless
 URL-REGEX,^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs
 URL-REGEX,^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs

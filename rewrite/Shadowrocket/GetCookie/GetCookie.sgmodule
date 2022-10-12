@@ -1,25 +1,24 @@
 #!name=GetCookie
-#!desc=最后更新时间 2022-08-31 02:32:29
+#!desc=最后更新时间 2022-10-09 02:35:04
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!http-request-script=14
-#!mitm=13
-#!total=27
+#!http-request-script=13
+#!mitm=11
+#!total=24
 
 [Script]
 Fa米家_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js,pattern=^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/member\/(signin\/usersign|sign\/current)
 Luka_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka_signin.js,pattern=^https?:\/\/luka\-graphql\.ling\.cn\/graphql\/mobile\?operation=UserInfoWithPendingRobotQuery
-什么值得买_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js,pattern=^https?:\/\/zhiyou\.smzdm\.com\/user$,requires-body=1
+什么值得买_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js,pattern=^https?:\/\/zhiyou\.smzdm\.com\/user$
 叮咚买菜_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js,pattern=^https?:\/\/maicai\.api\.ddxq\.mobi\/point\/home\?api_version
-家长帮_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/jiazhangbang/jiazhangbang_checkin.js,pattern=^https?:\/\/pgc-cms\.jzb\.com\/api\/channel\/recommend
 慢慢买_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,pattern=^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx),requires-body=1
 美团买菜_获取cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js,pattern=^https?:\/\/mall\.meituan\.com\/api\/c\/mallcoin\/checkIn\/getWeekCheckInProgressBar\?
-贴吧_获取cookie1 = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,pattern=https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login
-贴吧_获取cookie2 = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,pattern=^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig
-贴吧_获取cookie3 = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js,pattern=^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo
+贴吧_获取cookie1 = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,pattern=https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login
+贴吧_获取cookie2 = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,pattern=^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig
+贴吧_获取cookie3 = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,pattern=^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo
 饿了么_Cookies = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,pattern=^https?:\/\/air\.tb\.ele\.me\/app\/conch-page\/svip-foodie-card\/home
 饿了么_获取坐标1 = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,pattern=^https?:\/\/air\.tb\.ele\.me\/app\/conch-page\/svip-home-tasklist-new\/home
 饿了么_获取坐标2 = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,pattern=^https?:\/\/tb\.ele\.me\/wow\/alsc\/mod
 饿了么_获取坐标3 = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js,pattern=^https?:\/\/h5\.ele\.me\/restapi\/biz\.svip_scene\/svip\/engine\/queryTrafficSupply
 [MITM]
-hostname = %APPEND% air.tb.ele.me,apph5.manmanbuy.com,c.tieba.baidu.com,fmapp.chinafamilymart.com.cn,h5.ele.me,luka-graphql.ling.cn,maicai.api.ddxq.mobi,mall.meituan.com,mp.jzb.com,pgc-cms.jzb.com,tb.ele.me,tiebac.baidu.com,zhiyou.smzdm.com
+hostname = %APPEND% air.tb.ele.me,apph5.manmanbuy.com,c.tieba.baidu.com,fmapp.chinafamilymart.com.cn,h5.ele.me,luka-graphql.ling.cn,maicai.api.ddxq.mobi,mall.meituan.com,tb.ele.me,tiebac.baidu.com,zhiyou.smzdm.com

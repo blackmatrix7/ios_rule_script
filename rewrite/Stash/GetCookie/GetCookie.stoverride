@@ -1,10 +1,10 @@
 name: 获取签到脚本Cookie
-desc: 最后更新时间 2022-08-31 02:32:29
+desc: 最后更新时间 2022-10-09 02:35:04
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# http-request-script: 14
-# mitm: 13
-# total: 27
+# http-request-script: 13
+# mitm: 11
+# total: 24
 
 
 
@@ -28,21 +28,14 @@ http:
       argument: 
     # 什么值得买_获取cookie
     - match: ^https?:\/\/zhiyou\.smzdm\.com\/user$
-      name: smzdm_signin.js_95df520f
+      name: smzdm_daily.js_7fcabffe
       type: request
-      require-body: true
+      require-body: false
       timeout: 30
       argument: 
     # 叮咚买菜_获取cookie
     - match: ^https?:\/\/maicai\.api\.ddxq\.mobi\/point\/home\?api_version
       name: dingdong_checkin.js_03462fc2
-      type: request
-      require-body: false
-      timeout: 30
-      argument: 
-    # 家长帮_获取cookie
-    - match: ^https?:\/\/pgc-cms\.jzb\.com\/api\/channel\/recommend
-      name: jiazhangbang_checkin.js_e4bda3b6
       type: request
       require-body: false
       timeout: 30
@@ -63,21 +56,21 @@ http:
       argument: 
     # 贴吧_获取cookie1
     - match: https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login
-      name: tieba_checkin.js_38377a66
+      name: tieba_signin.js_999f9ef4
       type: request
       require-body: false
       timeout: 30
       argument: 
     # 贴吧_获取cookie2
     - match: ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig
-      name: tieba_checkin.js_38377a66
+      name: tieba_signin.js_999f9ef4
       type: request
       require-body: false
       timeout: 30
       argument: 
     # 贴吧_获取cookie3
     - match: ^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo
-      name: tieba_checkin.js_38377a66
+      name: tieba_signin.js_999f9ef4
       type: request
       require-body: false
       timeout: 30
@@ -120,8 +113,6 @@ http:
     - "luka-graphql.ling.cn"
     - "maicai.api.ddxq.mobi"
     - "mall.meituan.com"
-    - "mp.jzb.com"
-    - "pgc-cms.jzb.com"
     - "tb.ele.me"
     - "tiebac.baidu.com"
     - "zhiyou.smzdm.com"
@@ -136,9 +127,6 @@ script-providers:
   famijia_checkin.js_515b8868:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js
     interval: 86400
-  jiazhangbang_checkin.js_e4bda3b6:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/jiazhangbang/jiazhangbang_checkin.js
-    interval: 86400
   luka_signin.js_b550a422:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka_signin.js
     interval: 86400
@@ -148,10 +136,10 @@ script-providers:
   manmanbuy_checkin.js_d03e4443:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js
     interval: 86400
-  smzdm_signin.js_95df520f:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js
+  smzdm_daily.js_7fcabffe:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js
     interval: 86400
-  tieba_checkin.js_38377a66:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js
+  tieba_signin.js_999f9ef4:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js
     interval: 86400
 

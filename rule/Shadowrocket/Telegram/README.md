@@ -12,15 +12,16 @@ Telegram规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-09-15 02:32:06
+最后更新时间：2022-10-11 02:39:52
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 2  | 
 | DOMAIN-SUFFIX | 19  | 
+| IP-ASN | 5  | 
 | IP-CIDR | 12  | 
-| TOTAL | 33  | 
+| TOTAL | 38  | 
 
 
 ## Shadowrocket 

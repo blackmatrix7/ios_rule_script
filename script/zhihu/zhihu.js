@@ -837,7 +837,8 @@ function removeRecommendAds() {
         element["card_type"] === "slot_event_card" ||
         element["card_type"] === "slot_video_event_card" ||
         element.hasOwnProperty("ad") ||
-        element["extra"]["type"] === "Training";
+        // 知乎训练营
+        (element["extra"] && element["extra"]["type"] === "Training");
       // 是否为流媒体
       let isStream =
         isAd != true &&

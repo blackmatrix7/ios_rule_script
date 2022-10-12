@@ -12,18 +12,18 @@ ChinaMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-09-15 02:32:38
+最后更新时间：2022-10-13 02:39:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 56  | 
 | DOMAIN-KEYWORD | 2  | 
-| DOMAIN-SUFFIX | 166  | 
+| DOMAIN-SUFFIX | 174  | 
 | IP-CIDR | 28  | 
 | PROCESS-NAME | 6  | 
 | USER-AGENT | 31  | 
-| TOTAL | 289  | 
+| TOTAL | 297  | 
 
 
 ## Surge 

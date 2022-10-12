@@ -12,15 +12,15 @@ Emby规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:38:04
+最后更新时间：2022-10-13 02:39:46
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 4  | 
-| DOMAIN-SUFFIX | 33  | 
+| DOMAIN-SUFFIX | 34  | 
 | IP-CIDR | 1  | 
-| TOTAL | 38  | 
+| TOTAL | 39  | 
 
 
 ## Shadowrocket 

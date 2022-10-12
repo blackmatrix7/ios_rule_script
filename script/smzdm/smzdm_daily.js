@@ -374,10 +374,10 @@ function clickFavArticle(articleId) {
       .then((resp) => {
         const obj = resp.body;
         if (obj.error_code == 0) {
-          $.logger.debug(`好文${articleId}收藏成功`);
+          $.logger.info(`好文${articleId}收藏成功`);
           resolve(true);
         } else if (obj.error_code == 2) {
-          $.logger.debug(`好文${articleId}取消收藏成功`);
+          $.logger.info(`好文${articleId}取消收藏成功`);
           resolve(true);
         } else {
           $.logger.error(`好文${articleId}收藏失败，${JSON.stringify(obj)}`);
@@ -425,7 +425,7 @@ function favArticles() {
       });
     let favArticlesId = articlesId.splice(0, clickFavArticleMaxTimes);
     if (favArticlesId.length > 0) {
-      // 加入收藏
+      // 加入收藏与取消收藏
       for (let articleId of favArticlesId) {
         await $.utils
           .retry(
@@ -441,10 +441,7 @@ function favArticles() {
           .catch((err) => {
             $.logger.error(`文章加入收藏失败，${err}`);
           });
-        await $.utils.sleep(500);
-      }
-      // 取消收藏
-      for (let articleId of articlesId) {
+        await $.utils.sleep(1000);
         await $.utils
           .retry(
             clickFavArticle,
@@ -454,6 +451,7 @@ function favArticles() {
           .catch((err) => {
             $.logger.error(`文章取消收藏失败，${err}`);
           });
+        await $.utils.sleep(1000);
       }
     }
     resolve(success);

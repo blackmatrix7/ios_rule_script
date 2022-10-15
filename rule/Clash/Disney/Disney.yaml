@@ -1,10 +1,10 @@
 # NAME: Disney
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-08-18 02:29:28
-# DOMAIN-SUFFIX: 164
+# UPDATED: 2022-10-16 02:32:37
+# DOMAIN-SUFFIX: 168
 # PROCESS-NAME: 2
-# TOTAL: 166
+# TOTAL: 170
 payload:
   - DOMAIN-SUFFIX,20thcenturystudios.com.au
   - DOMAIN-SUFFIX,20thcenturystudios.com.br
@@ -136,6 +136,10 @@ payload:
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,go-disneyworldgo.com
   - DOMAIN-SUFFIX,go.com
+  - DOMAIN-SUFFIX,hotstar-cdn.net
+  - DOMAIN-SUFFIX,hotstar.com
+  - DOMAIN-SUFFIX,hotstarext.com
+  - DOMAIN-SUFFIX,hsprepack.akamaized.net
   - DOMAIN-SUFFIX,js-agent.newrelic.com
   - DOMAIN-SUFFIX,marvel.com
   - DOMAIN-SUFFIX,marvel10thanniversary.com

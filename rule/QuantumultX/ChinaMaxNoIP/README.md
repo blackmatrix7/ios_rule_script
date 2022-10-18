@@ -15,16 +15,16 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2022-10-18 02:48:44
+最后更新时间：2022-10-18 21:05:18
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 152  | 
 | HOST-KEYWORD | 14  | 
-| HOST-SUFFIX | 68954  | 
+| HOST-SUFFIX | 68943  | 
 | USER-AGENT | 65  | 
-| TOTAL | 69185  | 
+| TOTAL | 69174  | 
 
 
 ## QuantumultX 
@@ -128,7 +128,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/MI.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Xiaomi.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Bilibili.list
-- https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/Bilibili.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/ByteDance/ByteDance.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list
@@ -142,7 +141,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/China.list
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic%20IPs.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
 - https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt
@@ -155,19 +153,15 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Tencent.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Tencent.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/ChinaMedia.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Tencent%20Video.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/CMedia.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/DomesticMedia.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEase.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Netease.list
 - https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/NetEaseCloudMusic.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list
-- https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NeteaseMusic.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Youku.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentVideo.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/Tencent.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/iQiyi.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/iQiyi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Douyu.list
@@ -347,7 +341,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ifanr.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CMB.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list
-- https://raw.githubusercontent.com/O7Y0/Attached/main/UnblockNeteaseMusic/NeteaseCloudMusic.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaiShanYunKeJi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiLianWangLuo.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WeiZhiYunDong.list

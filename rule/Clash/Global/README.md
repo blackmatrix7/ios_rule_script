@@ -12,18 +12,18 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-10-18 21:03:38
+最后更新时间：2022-10-18 21:36:23
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 36  | 
+| DOMAIN | 159  | 
 | DOMAIN-KEYWORD | 38  | 
-| DOMAIN-SUFFIX | 24853  | 
+| DOMAIN-SUFFIX | 36788  | 
 | IP-CIDR | 110  | 
 | IP-CIDR6 | 4  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 25042  | 
+| TOTAL | 37100  | 
 
 
 ## Clash 
@@ -120,6 +120,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
 
 

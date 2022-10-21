@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2022-10-18 21:11:08
+desc: 最后更新时间 2022-10-22 02:42:04
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 359
-# mitm: 295
+# reject: 363
+# mitm: 299
 # force-http-engine-hosts: 6
-# total: 660
+# total: 668
 
 
 
@@ -17,9 +17,13 @@ http:
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
     - ^https?://ads-img-al\.xhscdn\.com/hera/ - reject
     - ^https?://cdn\.fivecdm\.com/cr/ - reject
+    - ^https?://cn-acs\.m\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn/ - reject
+    - ^https?://img2\.autoimg\.cn/admdfs/ - reject
     - ^https?://m\d\.amap\.com/ws/message/notice/list? - reject
+    - ^https?://oss\.umetrip\.com/fs/advert/polite/ - reject
     - ^https?://sns\.amap\.com/ws/msgbox/pull? - reject
     - ^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson - reject
+    - ^https?://venus\.yhd\.com/memhome/launchConfig - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
@@ -494,6 +498,7 @@ http:
     - "cloud.189.cn"
     - "cms.daydaycook.com.cn"
     - "cmsapi.wifi8.com"
+    - "cn-acs.m.cainiao.com"
     - "cn.pornhub.com"
     - "cntv.hls.cdn.myqcloud.com"
     - "consumer.fcbox.com"
@@ -547,6 +552,7 @@ http:
     - "img.jiemian.com"
     - "img.meituan.net"
     - "img.umetrip.com"
+    - "img2.autoimg.cn"
     - "interface*.music.163.com"
     - "intl.iqiyi.com"
     - "ios.lantouzi.com"
@@ -595,6 +601,7 @@ http:
     - "oimage*.ydstatic.com"
     - "open.qyer.com"
     - "optimus-ads.amap.com"
+    - "oss.umetrip.com"
     - "overseas.weico.cc"
     - "p*.meituan.net"
     - "p.du.163.com"
@@ -648,6 +655,7 @@ http:
     - "v.cctv.com"
     - "v.icbc.com.cn"
     - "vali.cp31.ott.cibntv.net"
+    - "venus.yhd.com"
     - "video.dispatch.tc.qq.com"
     - "vv.video.qq.com"
     - "wap.ngchina.cn"

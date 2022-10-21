@@ -1,13 +1,13 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-10-18 21:04:49
+# UPDATED: 2022-10-22 02:40:34
 # DOMAIN: 18
-# DOMAIN-KEYWORD: 23
+# DOMAIN-KEYWORD: 24
 # DOMAIN-SUFFIX: 829
 # IP-CIDR: 94
 # IP-CIDR6: 4
-# TOTAL: 968
+# TOTAL: 969
 payload:
   - DOMAIN,addons.mozilla.org
   - DOMAIN,amp-api.podcasts.apple.com
@@ -864,6 +864,7 @@ payload:
   - DOMAIN-KEYWORD,beetalk
   - DOMAIN-KEYWORD,dlercloud
   - DOMAIN-KEYWORD,dropbox
+  - DOMAIN-KEYWORD,duolingo
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,fbcdn
   - DOMAIN-KEYWORD,instagram

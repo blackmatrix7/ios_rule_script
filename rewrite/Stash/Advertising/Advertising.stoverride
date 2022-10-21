@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2022-10-18 21:07:37
+desc: 最后更新时间 2022-10-22 02:41:49
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 412
-# mitm: 359
+# reject: 416
+# mitm: 363
 # force-http-engine-hosts: 6
-# total: 777
+# total: 785
 
 
 
@@ -17,9 +17,13 @@ http:
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
     - ^https?://ads-img-al\.xhscdn\.com/hera/ - reject
     - ^https?://cdn\.fivecdm\.com/cr/ - reject
+    - ^https?://cn-acs\.m\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn/ - reject
+    - ^https?://img2\.autoimg\.cn/admdfs/ - reject
     - ^https?://m\d\.amap\.com/ws/message/notice/list? - reject
+    - ^https?://oss\.umetrip\.com/fs/advert/polite/ - reject
     - ^https?://sns\.amap\.com/ws/msgbox/pull? - reject
     - ^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson - reject
+    - ^https?://venus\.yhd\.com/memhome/launchConfig - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
@@ -585,6 +589,7 @@ http:
     - "cloud.189.cn"
     - "cms.daydaycook.com.cn"
     - "cmsapi.wifi8.com"
+    - "cn-acs.m.cainiao.com"
     - "cntv.hls.cdn.myqcloud.com"
     - "consumer.fcbox.com"
     - "creditcardapp.bankcomm.com"
@@ -643,6 +648,7 @@ http:
     - "img.jiemian.com"
     - "img.meituan.net"
     - "img.umetrip.com"
+    - "img2.autoimg.cn"
     - "interface*.music.163.com"
     - "intl.iqiyi.com"
     - "ios.lantouzi.com"
@@ -702,6 +708,7 @@ http:
     - "oimage*.ydstatic.com"
     - "open.qyer.com"
     - "optimus-ads.amap.com"
+    - "oss.umetrip.com"
     - "overseas.weico.cc"
     - "p*.meituan.net"
     - "p.du.163.com"
@@ -761,6 +768,7 @@ http:
     - "v.cctv.com"
     - "v.icbc.com.cn"
     - "vali.cp31.ott.cibntv.net"
+    - "venus.yhd.com"
     - "video.dispatch.tc.qq.com"
     - "vv.video.qq.com"
     - "wap.js.10086.cn"

@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-10-18 21:03:50
+# UPDATED: 2022-10-22 02:39:13
 # HOST: 10
-# HOST-KEYWORD: 30
+# HOST-KEYWORD: 31
 # HOST-SUFFIX: 25471
 # IP-CIDR: 92
 # IP6-CIDR: 3
-# USER-AGENT: 7
-# TOTAL: 25613
+# USER-AGENT: 8
+# TOTAL: 25615
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -6922,6 +6922,7 @@ HOST-SUFFIX,dumb1.com,Proxy
 HOST-SUFFIX,dumisa.tv,Proxy
 HOST-SUFFIX,dumpbhh.org,Proxy
 HOST-SUFFIX,dunyabulteni.net,Proxy
+HOST-SUFFIX,duolingo.com,Proxy
 HOST-SUFFIX,duosuccess.com,Proxy
 HOST-SUFFIX,duotai.org,Proxy
 HOST-SUFFIX,duoweitimes.com,Proxy
@@ -10620,7 +10621,6 @@ HOST-SUFFIX,iphonehacks.com,Proxy
 HOST-SUFFIX,iphonetaiwan.org,Proxy
 HOST-SUFFIX,iphonix.fr,Proxy
 HOST-SUFFIX,ipicture.ru,Proxy
-HOST-SUFFIX,ipinfo.io,Proxy
 HOST-SUFFIX,ipjetable.net,Proxy
 HOST-SUFFIX,ipjlvpn.com,Proxy
 HOST-SUFFIX,ipn.li,Proxy
@@ -25499,6 +25499,7 @@ HOST-KEYWORD,beetalk,Proxy
 HOST-KEYWORD,blogspot,Proxy
 HOST-KEYWORD,dlercloud,Proxy
 HOST-KEYWORD,dropbox,Proxy
+HOST-KEYWORD,duolingo,Proxy
 HOST-KEYWORD,facebook,Proxy
 HOST-KEYWORD,fbcdn,Proxy
 HOST-KEYWORD,github,Proxy
@@ -25520,6 +25521,7 @@ HOST-KEYWORD,twitter,Proxy
 HOST-KEYWORD,uk-live,Proxy
 HOST-KEYWORD,whatsapp,Proxy
 HOST-KEYWORD,youtube,Proxy
+USER-AGENT,Duolingo*,Proxy
 USER-AGENT,OneDrive*,Proxy
 USER-AGENT,PayPal*,Proxy
 USER-AGENT,Roam*,Proxy

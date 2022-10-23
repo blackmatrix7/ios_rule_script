@@ -1,13 +1,14 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-10-22 02:39:15
+# UPDATED: 2022-10-24 02:34:38
 # DOMAIN: 28
 # DOMAIN-KEYWORD: 21
-# DOMAIN-SUFFIX: 1065
+# DOMAIN-SUFFIX: 1066
 # IP-CIDR: 918
 # IP-CIDR6: 6
-# TOTAL: 2038
+# PROCESS-NAME: 3
+# TOTAL: 2042
 payload:
   - DOMAIN-KEYWORD,-spotify-com
   - DOMAIN-KEYWORD,abematv.akamaized.net
@@ -954,3 +955,6 @@ payload:
   - IP-CIDR6,2620:120:e000::/40
   - IP-CIDR6,2a00:86c0::/32
   - IP-CIDR6,2a03:5640::/32
+  - PROCESS-NAME,com.viu.pad
+  - PROCESS-NAME,com.viu.phone
+  - PROCESS-NAME,com.vuclip.viu

@@ -12,18 +12,18 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-10-28 02:34:48
+最后更新时间：2022-10-29 02:31:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 158  | 
+| DOMAIN | 174  | 
 | DOMAIN-KEYWORD | 39  | 
-| DOMAIN-SUFFIX | 36774  | 
+| DOMAIN-SUFFIX | 37184  | 
 | IP-CIDR | 110  | 
 | IP-CIDR6 | 4  | 
 | USER-AGENT | 45  | 
-| TOTAL | 37130  | 
+| TOTAL | 37556  | 
 
 
 ## Loon 
@@ -96,6 +96,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
+- https://rules.kr328.app/geolocation-%21cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

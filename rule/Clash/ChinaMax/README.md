@@ -21,18 +21,18 @@
 
 ## 规则统计
 
-最后更新时间：2022-10-28 02:36:13
+最后更新时间：2022-10-29 02:32:56
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 174  | 
 | DOMAIN-KEYWORD | 14  | 
-| DOMAIN-SUFFIX | 69177  | 
+| DOMAIN-SUFFIX | 69431  | 
 | IP-CIDR | 6313  | 
-| IP-CIDR6 | 4369  | 
+| IP-CIDR6 | 4400  | 
 | PROCESS-NAME | 13  | 
-| TOTAL | 80060  | 
+| TOTAL | 80345  | 
 
 
 ## Clash 
@@ -493,6 +493,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml
 - https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
+- https://rules.kr328.app/geolocation-cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

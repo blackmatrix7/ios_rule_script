@@ -1,13 +1,13 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-10-29 02:33:00
+# UPDATED: 2022-10-31 02:33:48
 # DOMAIN: 20
 # DOMAIN-KEYWORD: 10
-# DOMAIN-SUFFIX: 3983
+# DOMAIN-SUFFIX: 3989
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 4027
+# TOTAL: 4033
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -580,6 +580,7 @@ payload:
   - DOMAIN-SUFFIX,bcfmglobal.com
   - DOMAIN-SUFFIX,bcvbw.com
   - DOMAIN-SUFFIX,bcy.net
+  - DOMAIN-SUFFIX,bcyimg.com
   - DOMAIN-SUFFIX,bdatu.com
   - DOMAIN-SUFFIX,bdcloudapi.com
   - DOMAIN-SUFFIX,bdfund.cn
@@ -676,6 +677,7 @@ payload:
   - DOMAIN-SUFFIX,bystack.com
   - DOMAIN-SUFFIX,bytecdn.cn
   - DOMAIN-SUFFIX,byted-static.com
+  - DOMAIN-SUFFIX,byted.org
   - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN-SUFFIX,bytedance.net
   - DOMAIN-SUFFIX,bytedanceapi.com
@@ -2013,6 +2015,7 @@ payload:
   - DOMAIN-SUFFIX,ishumei.com
   - DOMAIN-SUFFIX,ispqcloud.com
   - DOMAIN-SUFFIX,isvjcloud.com
+  - DOMAIN-SUFFIX,isvjd.com
   - DOMAIN-SUFFIX,isxtv.com
   - DOMAIN-SUFFIX,it165.net
   - DOMAIN-SUFFIX,it168.com
@@ -2129,9 +2132,11 @@ payload:
   - DOMAIN-SUFFIX,jddebug.com
   - DOMAIN-SUFFIX,jddglobal.com
   - DOMAIN-SUFFIX,jdemall.com
+  - DOMAIN-SUFFIX,jdfw1.com
   - DOMAIN-SUFFIX,jdgslb.com
   - DOMAIN-SUFFIX,jdgslb.net
   - DOMAIN-SUFFIX,jdjinrong.com
+  - DOMAIN-SUFFIX,jdl.com
   - DOMAIN-SUFFIX,jdlike.cn
   - DOMAIN-SUFFIX,jdpay.com
   - DOMAIN-SUFFIX,jdpaydns.com
@@ -2379,6 +2384,7 @@ payload:
   - DOMAIN-SUFFIX,letvcdn.com
   - DOMAIN-SUFFIX,letvcloud.com
   - DOMAIN-SUFFIX,letvimg.com
+  - DOMAIN-SUFFIX,lf-rc1.yhgfb-cn-static.com
   - DOMAIN-SUFFIX,lgstatic.com
   - DOMAIN-SUFFIX,lhzq.com
   - DOMAIN-SUFFIX,liangxinyao.com

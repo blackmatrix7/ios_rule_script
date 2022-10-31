@@ -12,16 +12,16 @@
 
 ## 规则统计
 
-最后更新时间：2022-10-18 21:04:00
+最后更新时间：2022-11-01 02:34:06
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 271  | 
+| DOMAIN-SUFFIX | 274  | 
 | IP-CIDR | 1  | 
 | PROCESS-NAME | 1  | 
 | USER-AGENT | 1  | 
-| TOTAL | 274  | 
+| TOTAL | 277  | 
 
 
 ## Surge 

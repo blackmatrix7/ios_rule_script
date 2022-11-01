@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-11-01 02:33:37
+# UPDATED: 2022-11-02 02:33:57
 # DOMAIN: 174
 # DOMAIN-KEYWORD: 39
-# DOMAIN-SUFFIX: 37206
+# DOMAIN-SUFFIX: 37209
 # IP-CIDR: 110
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 37534
+# TOTAL: 37537
 payload:
   - DOMAIN,abematv.akamaized.net
   - DOMAIN,amp.akamaized.net
@@ -11459,6 +11459,7 @@ payload:
   - DOMAIN-SUFFIX,twinkybf.com
   - DOMAIN-SUFFIX,twinprime.com
   - DOMAIN-SUFFIX,twitchsvc.net
+  - DOMAIN-SUFFIX,twitter.biz
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twitter.jp
   - DOMAIN-SUFFIX,twitter.org
@@ -11477,6 +11478,8 @@ payload:
   - DOMAIN-SUFFIX,twnextdigital.com
   - DOMAIN-SUFFIX,twoo.com
   - DOMAIN-SUFFIX,twtrdns.net
+  - DOMAIN-SUFFIX,twttr.net
+  - DOMAIN-SUFFIX,twvid.com
   - DOMAIN-SUFFIX,tx5254.com
   - DOMAIN-SUFFIX,tx5ptbp7.com
   - DOMAIN-SUFFIX,txcloud.net

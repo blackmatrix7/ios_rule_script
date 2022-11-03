@@ -18,12 +18,12 @@ QuantumultX需要添加部分分流规则才能生效，具体配置请参照数
 
 ## 规则统计
 
-最后更新时间：2022-10-22 02:42:00
+最后更新时间：2022-11-03 17:11:50
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 4  | 
+| DOMAIN | 3  | 
 | IP-CIDR | 1  | 
 | IP-CIDR6 | 1  | 
 | URL-REGEX | 4  | 
@@ -34,7 +34,7 @@ QuantumultX需要添加部分分流规则才能生效，具体配置请参照数
 | REJECT | 444  | 
 | MITM | 494  | 
 | FORCE-HTTP-ENGINE-HOSTS | 6  | 
-| TOTAL | 1046  | 
+| TOTAL | 1045  | 
 
 
 ## Surge 

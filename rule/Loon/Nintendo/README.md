@@ -12,19 +12,24 @@ Nintendo规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-10-18 21:03:27
+最后更新时间：2022-11-03 17:09:27
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-SUFFIX | 123  | 
-| TOTAL | 123  | 
+| IP-CIDR | 9  | 
+| TOTAL | 132  | 
 
 
 ## Loon 
 
+#### 文件区别
+- Nintendo_Resolve.list与Nintendo.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
+
 #### 配置建议
 - Nintendo.list 单独使用。
+- Nintendo_Resolve.list 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

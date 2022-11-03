@@ -1,10 +1,10 @@
 #!name= AllInOne
-#!desc= 最后更新时间 2022-10-22 02:41:54
+#!desc= 最后更新时间 2022-11-03 17:11:46
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!domain= 4
+#!domain= 3
 #!ip-cidr= 1
 #!ip-cidr6= 1
 #!url-regex= 4
@@ -14,13 +14,12 @@
 #!redirect= 8
 #!reject= 385
 #!mitm= 426
-#!total= 859
+#!total= 858
 
 [Rule]
 DOMAIN,118.89.204.198,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,mqtt.zhihu.com,REJECT
-DOMAIN,sugar.zhihu.com,REJECT
 IP-CIDR,118.89.204.198/32,REJECT,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT

@@ -1,20 +1,18 @@
 # NAME: AdvertisingScript
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-10-19 02:46:18
-# HOST: 4
+# UPDATED: 2022-11-03 17:11:50
+# HOST: 2
 # IP-CIDR: 1
 # IP6-CIDR: 1
 # USER-AGENT: 1
 # HTTP-REQUEST-SCRIPT: 1
 # HTTP-RESPONSE-SCRIPT: 28
-# REJECT: 18
+# REJECT: 17
 # MITM: 23
-# TOTAL: 77
-HOST,118.89.204.198,AdvertisingScript
+# TOTAL: 74
 HOST,appcloud2.in.zhihu.com,AdvertisingScript
 HOST,mqtt.zhihu.com,AdvertisingScript
-HOST,sugar.zhihu.com,AdvertisingScript
 IP-CIDR,118.89.204.198/32,AdvertisingScript
 IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,AdvertisingScript
 USER-AGENT,AVOS*,AdvertisingScript

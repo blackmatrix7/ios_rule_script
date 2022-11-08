@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-11-07 02:28:32
+# UPDATED: 2022-11-09 02:35:02
 # DOMAIN: 175
 # DOMAIN-KEYWORD: 39
-# DOMAIN-SUFFIX: 37284
+# DOMAIN-SUFFIX: 37287
 # IP-CIDR: 110
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 37613
+# TOTAL: 37616
 payload:
   - DOMAIN,abematv.akamaized.net
   - DOMAIN,amp.akamaized.net
@@ -4181,6 +4181,7 @@ payload:
   - DOMAIN-SUFFIX,ero-kawa.com
   - DOMAIN-SUFFIX,ero-labs.com
   - DOMAIN-SUFFIX,ero-labs.net
+  - DOMAIN-SUFFIX,ero-labs.online
   - DOMAIN-SUFFIX,ero-ma-nia.com
   - DOMAIN-SUFFIX,ero-manga-platinum.net
   - DOMAIN-SUFFIX,ero-mangalife.com
@@ -12065,6 +12066,8 @@ payload:
   - DOMAIN-SUFFIX,vrv.co
   - DOMAIN-SUFFIX,vsallin.net
   - DOMAIN-SUFFIX,vsassets.io
+  - DOMAIN-SUFFIX,vscode-cdn.net
+  - DOMAIN-SUFFIX,vscode-unpkg.net
   - DOMAIN-SUFFIX,vscode.dev
   - DOMAIN-SUFFIX,vsezoo.com
   - DOMAIN-SUFFIX,vsphere.com

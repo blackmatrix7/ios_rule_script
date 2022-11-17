@@ -12,19 +12,19 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-11-03 17:10:05
+最后更新时间：2022-11-18 02:08:24
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 28  | 
-| HOST-KEYWORD | 21  | 
-| HOST-SUFFIX | 1066  | 
+| HOST-KEYWORD | 22  | 
+| HOST-SUFFIX | 1067  | 
 | HOST-WILDCARD | 8  | 
 | IP-CIDR | 918  | 
 | IP6-CIDR | 6  | 
 | USER-AGENT | 56  | 
-| TOTAL | 2103  | 
+| TOTAL | 2105  | 
 
 
 ## QuantumultX 

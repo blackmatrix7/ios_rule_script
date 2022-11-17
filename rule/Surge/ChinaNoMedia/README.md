@@ -15,18 +15,18 @@ ChinaNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-11-07 02:30:01
+最后更新时间：2022-11-18 02:09:35
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 20  | 
 | DOMAIN-KEYWORD | 10  | 
-| DOMAIN-SUFFIX | 3996  | 
+| DOMAIN-SUFFIX | 3995  | 
 | IP-CIDR | 10  | 
 | IP-CIDR6 | 4  | 
 | USER-AGENT | 31  | 
-| TOTAL | 4071  | 
+| TOTAL | 4070  | 
 
 
 ## Surge 

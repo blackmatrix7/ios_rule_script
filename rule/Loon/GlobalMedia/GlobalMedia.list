@@ -1,16 +1,16 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-11-03 17:10:05
+# UPDATED: 2022-11-18 02:08:24
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN: 28
-# DOMAIN-KEYWORD: 21
-# DOMAIN-SUFFIX: 1066
+# DOMAIN-KEYWORD: 22
+# DOMAIN-SUFFIX: 1067
 # IP-CIDR: 918
 # IP-CIDR6: 6
 # URL-REGEX: 1
 # USER-AGENT: 56
-# TOTAL: 2096
+# TOTAL: 2098
 DOMAIN-KEYWORD,-spotify-com
 DOMAIN-KEYWORD,abematv.akamaized.net
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
@@ -19,6 +19,7 @@ DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,discovery.uplynk.com
 DOMAIN-KEYWORD,dualstack.apiproxy-
 DOMAIN-KEYWORD,dualstack.ichnaea-web-
+DOMAIN-KEYWORD,hamivideo.cdn.hinet.net
 DOMAIN-KEYWORD,hbogoasia
 DOMAIN-KEYWORD,japonx
 DOMAIN-KEYWORD,japronx

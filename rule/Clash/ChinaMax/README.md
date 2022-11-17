@@ -21,15 +21,15 @@
 
 ## 规则统计
 
-最后更新时间：2022-11-17 02:10:21
+最后更新时间：2022-11-18 02:09:31
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 174  | 
 | DOMAIN-KEYWORD | 14  | 
-| DOMAIN-SUFFIX | 69465  | 
-| IP-CIDR | 6315  | 
+| DOMAIN-SUFFIX | 69464  | 
+| IP-CIDR | 6316  | 
 | IP-CIDR6 | 4397  | 
 | PROCESS-NAME | 13  | 
 | TOTAL | 80378  | 

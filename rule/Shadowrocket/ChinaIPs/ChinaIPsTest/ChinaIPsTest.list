@@ -1,10 +1,10 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-11-17 02:10:27
+# UPDATED: 2022-11-18 02:09:37
 # IP-ASN: 932
-# IP-CIDR: 11510
-# TOTAL: 12442
+# IP-CIDR: 11513
+# TOTAL: 12445
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
 IP-CIDR,1.0.32.0/19,no-resolve
@@ -176,7 +176,6 @@ IP-CIDR,103.101.144.0/21,no-resolve
 IP-CIDR,103.101.153.0/24,no-resolve
 IP-CIDR,103.101.176.0/21,no-resolve
 IP-CIDR,103.101.184.0/22,no-resolve
-IP-CIDR,103.101.222.0/24,no-resolve
 IP-CIDR,103.101.4.0/22,no-resolve
 IP-CIDR,103.101.60.0/22,no-resolve
 IP-CIDR,103.101.8.0/21,no-resolve
@@ -7177,7 +7176,8 @@ IP-CIDR,2404:f4c0:f72f::/48,no-resolve
 IP-CIDR,2404:f4c0:f810::/44,no-resolve
 IP-CIDR,2404:f4c0:f940::/44,no-resolve
 IP-CIDR,2404:f4c0:fa00::/48,no-resolve
-IP-CIDR,2404:f4c0:fa02::/48,no-resolve
+IP-CIDR,2404:f4c0:fa02::/47,no-resolve
+IP-CIDR,2404:f4c0:fa04::/48,no-resolve
 IP-CIDR,2404:f4c0:fa0a::/47,no-resolve
 IP-CIDR,2404:f4c0:fac0::/48,no-resolve
 IP-CIDR,2404:f4c0:facf::/48,no-resolve
@@ -11072,6 +11072,7 @@ IP-CIDR,45.123.44.0/22,no-resolve
 IP-CIDR,45.123.48.0/20,no-resolve
 IP-CIDR,45.123.64.0/20,no-resolve
 IP-CIDR,45.123.80.0/21,no-resolve
+IP-CIDR,45.123.88.0/22,no-resolve
 IP-CIDR,45.124.0.0/22,no-resolve
 IP-CIDR,45.124.100.0/22,no-resolve
 IP-CIDR,45.124.124.0/22,no-resolve
@@ -11109,6 +11110,8 @@ IP-CIDR,45.146.112.0/23,no-resolve
 IP-CIDR,45.147.6.0/24,no-resolve
 IP-CIDR,45.150.59.0/24,no-resolve
 IP-CIDR,45.153.125.0/24,no-resolve
+IP-CIDR,45.156.220.0/23,no-resolve
+IP-CIDR,45.156.222.0/24,no-resolve
 IP-CIDR,45.192.128.0/24,no-resolve
 IP-CIDR,45.192.186.0/23,no-resolve
 IP-CIDR,45.195.1.0/24,no-resolve

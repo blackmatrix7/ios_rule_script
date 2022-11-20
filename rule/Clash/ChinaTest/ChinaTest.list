@@ -1,13 +1,13 @@
 # NAME: ChinaTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-11-20 02:09:01
+# UPDATED: 2022-11-21 02:08:32
 # DOMAIN: 177
 # DOMAIN-KEYWORD: 10
-# DOMAIN-SUFFIX: 66927
+# DOMAIN-SUFFIX: 66928
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 67128
+# TOTAL: 67129
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,cdp.cloud.unity3d.com
@@ -598,8 +598,10 @@ DOMAIN-SUFFIX,alios.cn
 DOMAIN-SUFFIX,alipay.cn
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,alipay.com.cn
+DOMAIN-SUFFIX,alipay.hk
 DOMAIN-SUFFIX,alipaydns.com
 DOMAIN-SUFFIX,alipaylog.com
+DOMAIN-SUFFIX,alipaymo.com
 DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,alipayplus.com
 DOMAIN-SUFFIX,aliplus.com
@@ -875,9 +877,13 @@ DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,bytedance.net
 DOMAIN-SUFFIX,bytedanceapi.com
 DOMAIN-SUFFIX,bytedns.net
+DOMAIN-SUFFIX,bytedns1.com
 DOMAIN-SUFFIX,bytednsdoc.com
+DOMAIN-SUFFIX,bytefcdn.com
 DOMAIN-SUFFIX,bytegoofy.com
+DOMAIN-SUFFIX,bytegslb.com
 DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bytelb.net
 DOMAIN-SUFFIX,bytescm.com
 DOMAIN-SUFFIX,bytetcc.com
 DOMAIN-SUFFIX,bytetos.com
@@ -1526,6 +1532,8 @@ DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,douding.cn
 DOMAIN-SUFFIX,douxie.com
 DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinliving.com
 DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
@@ -3681,6 +3689,7 @@ DOMAIN-SUFFIX,toutiaoimg.com
 DOMAIN-SUFFIX,toutiaoimg.net
 DOMAIN-SUFFIX,toutiaopage.com
 DOMAIN-SUFFIX,toutiaostatic.com
+DOMAIN-SUFFIX,toutiaovod.com
 DOMAIN-SUFFIX,touzid.com
 DOMAIN-SUFFIX,tpyzq.com
 DOMAIN-SUFFIX,tracup.com
@@ -12181,7 +12190,6 @@ DOMAIN-SUFFIX,alip.biz
 DOMAIN-SUFFIX,alipansou.com
 DOMAIN-SUFFIX,alipay
 DOMAIN-SUFFIX,alipay-eco.com
-DOMAIN-SUFFIX,alipay.hk
 DOMAIN-SUFFIX,alipay.net
 DOMAIN-SUFFIX,alipaycs.com
 DOMAIN-SUFFIX,alipaydev.com
@@ -15878,17 +15886,13 @@ DOMAIN-SUFFIX,bytecdn.com
 DOMAIN-SUFFIX,bytecdntp.com
 DOMAIN-SUFFIX,byted-ug.com
 DOMAIN-SUFFIX,bytedns.com
-DOMAIN-SUFFIX,bytedns1.com
 DOMAIN-SUFFIX,byteedu.com
 DOMAIN-SUFFIX,byteeffecttos.com
 DOMAIN-SUFFIX,bytefae.com
-DOMAIN-SUFFIX,bytefcdn.com
 DOMAIN-SUFFIX,bytegecko.com
 DOMAIN-SUFFIX,bytegeckoext.com
-DOMAIN-SUFFIX,bytegslb.com
 DOMAIN-SUFFIX,bytehwm.com
 DOMAIN-SUFFIX,byteisland.com
-DOMAIN-SUFFIX,bytelb.net
 DOMAIN-SUFFIX,bytemaimg.com
 DOMAIN-SUFFIX,bytemastatic.com
 DOMAIN-SUFFIX,byteoc.com
@@ -22573,9 +22577,7 @@ DOMAIN-SUFFIX,douyaobuy.com
 DOMAIN-SUFFIX,douyapu.com
 DOMAIN-SUFFIX,douyar.com
 DOMAIN-SUFFIX,douyi.com
-DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinec.com
-DOMAIN-SUFFIX,douyinliving.com
 DOMAIN-SUFFIX,douyinvideo.net
 DOMAIN-SUFFIX,douyinvod.xyz
 DOMAIN-SUFFIX,douyinxiaodian10.com
@@ -54273,7 +54275,6 @@ DOMAIN-SUFFIX,toutiaocdn.net
 DOMAIN-SUFFIX,toutiaolite.com
 DOMAIN-SUFFIX,toutiaolite1.com
 DOMAIN-SUFFIX,toutiaonanren.com
-DOMAIN-SUFFIX,toutiaovod.com
 DOMAIN-SUFFIX,toutiaoyule.com
 DOMAIN-SUFFIX,toutiaozb.com
 DOMAIN-SUFFIX,toutoufc.com

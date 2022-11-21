@@ -153,6 +153,10 @@ const enableMall = Boolean(magicJS.read(bilibili_enable_mall));
               });
             }
           });
+
+          // 移除开播领奖提示
+          obj["data"]["live_tip"] = {};
+
           body = JSON.stringify(obj);
         } catch (err) {
           magicJS.logError(`我的页面处理出现异常：${err}`);

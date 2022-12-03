@@ -372,6 +372,12 @@ function modifyAppConfig() {
       );
       obj["config"]["homepage_feed_tab"]["tab_infos"] = tab_infos;
       obj["config"]["zvideo_max_number"] = 1;
+      // 似乎是某个地方的标签，待定
+      delete obj["config"]["hp_channel_tab"];
+      // 灰色模式
+      obj["config"]["gray_mode"]["enable"] = false;
+      obj["config"]["gray_mode"]["start_time"] = '4092566400';
+      obj["config"]["gray_mode"]["end_time"] = '4092566400';
       // 试着去除一些配置，效果待验证
       delete obj["config"]["soso_des"];
       delete obj["config"]["cronet"];

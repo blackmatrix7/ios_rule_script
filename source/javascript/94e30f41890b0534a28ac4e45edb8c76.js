@@ -32,25 +32,28 @@ function getRegexp(re_str) {
 	}
 }
 
+let body;
 if (typeof $argument == "undefined") {
-	$done({});
+	console.log("requires $argument");
 } else {
-	let body;
 	if ($script.type === "http-response") {
 		body = $response.body;
 	} else if ($script.type === "http-request") {
 		body = $request.body;
 	} else {
-		$done({});
+		console.log("script type error");
 	}
-        if (!body) {
-          $done({})
-        }
+}
+
+if (body) {
 	$argument.split("&").forEach((item) => {
 		let [match, replace] = item.split("->");
 		let re = getRegexp(match);
 		body = body.replace(re, replace);
 	});
-
 	$done({ body });
+} else {
+	console.log("Not Modify");
+	$done({});
 }
+

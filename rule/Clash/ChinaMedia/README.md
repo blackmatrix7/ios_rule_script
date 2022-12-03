@@ -12,17 +12,17 @@ ChinaMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-09-15 02:32:38
+最后更新时间：2022-11-30 21:11:49
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 56  | 
 | DOMAIN-KEYWORD | 2  | 
-| DOMAIN-SUFFIX | 166  | 
+| DOMAIN-SUFFIX | 174  | 
 | IP-CIDR | 28  | 
 | PROCESS-NAME | 6  | 
-| TOTAL | 258  | 
+| TOTAL | 266  | 
 
 
 ## Clash 

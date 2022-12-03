@@ -12,17 +12,17 @@ Telegram规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-09-14 10:26:44
+最后更新时间：2022-11-30 21:11:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST-KEYWORD | 2  | 
+| HOST-KEYWORD | 1  | 
 | HOST-SUFFIX | 19  | 
 | IP-ASN | 5  | 
 | IP-CIDR | 8  | 
 | IP6-CIDR | 4  | 
-| TOTAL | 38  | 
+| TOTAL | 37  | 
 
 
 ## QuantumultX 

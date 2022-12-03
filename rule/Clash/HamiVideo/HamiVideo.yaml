@@ -1,13 +1,13 @@
 # NAME: HamiVideo
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-08-05 22:38:04
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
+# UPDATED: 2022-11-30 21:12:37
+# DOMAIN: 1
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 2
+# TOTAL: 4
 payload:
-  - DOMAIN-SUFFIX,apl-hamivideo.cdn.hinet.net
+  - DOMAIN,hls-hichannel.cdn.hinet.net
   - DOMAIN-SUFFIX,hamivideo.hinet.net
-  - DOMAIN-SUFFIX,mobilelive-hamivideo.cdn.hinet.net
-  - DOMAIN-SUFFIX,scc.ott.hinet.net
-  - DOMAIN-SUFFIX,static-hamivideo.cdn.hinet.net
-  - DOMAIN-SUFFIX,weblive-hamivideo.cdn.hinet.net
+  - DOMAIN-SUFFIX,ott.hinet.net
+  - DOMAIN-KEYWORD,hamivideo.cdn.hinet.net

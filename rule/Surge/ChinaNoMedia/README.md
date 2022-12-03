@@ -15,18 +15,18 @@ ChinaNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-10-09 02:34:13
+最后更新时间：2022-11-30 22:30:18
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 16  | 
+| DOMAIN | 18  | 
 | DOMAIN-KEYWORD | 10  | 
-| DOMAIN-SUFFIX | 522  | 
+| DOMAIN-SUFFIX | 3434  | 
 | IP-CIDR | 10  | 
 | IP-CIDR6 | 4  | 
 | USER-AGENT | 31  | 
-| TOTAL | 593  | 
+| TOTAL | 3507  | 
 
 
 ## Surge 
@@ -34,13 +34,14 @@ ChinaNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 #### 使用说明
 - ChinaNoMedia.list，请使用RULE-SET。
 - ChinaNoMedia_Resolve.list，请使用RULE-SET。
+- ChinaNoMedia_Domain.list，请使用DOMAIN-SET。
 
 #### 文件区别
 - ChinaNoMedia_Resolve.list与ChinaNoMedia.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
-- ChinaNoMedia.list 单独使用。
-- ChinaNoMedia_Resolve.list 单独使用。
+- ChinaNoMedia.list、ChinaNoMedia_Domain.list 共同使用。
+- ChinaNoMedia_Resolve.list、ChinaNoMedia_Domain.list 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -93,6 +94,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/China.list
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml
+- https://rules.kr328.app/geolocation-cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

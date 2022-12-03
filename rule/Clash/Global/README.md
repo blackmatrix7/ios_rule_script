@@ -12,18 +12,18 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-09-28 02:38:41
+最后更新时间：2022-12-03 02:08:26
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 36  | 
-| DOMAIN-KEYWORD | 38  | 
-| DOMAIN-SUFFIX | 24853  | 
+| DOMAIN | 171  | 
+| DOMAIN-KEYWORD | 39  | 
+| DOMAIN-SUFFIX | 37346  | 
 | IP-CIDR | 110  | 
 | IP-CIDR6 | 4  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 25042  | 
+| TOTAL | 37671  | 
 
 
 ## Clash 
@@ -96,9 +96,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 
 当前分流规则，已排除以下规则：
-| 排除规则  |  | 
-| ---- | ----  |
-| AdvertisingLite | China  | 
+| 排除规则  |  |  | 
+| ---- | ---- | ----  |
+| AdvertisingLite | China | ChinaMaxNoIP  | 
 
 ## 数据来源
 
@@ -121,7 +121,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
+- https://rules.kr328.app/geolocation-%21cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

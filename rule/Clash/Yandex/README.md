@@ -12,15 +12,15 @@ Yandex规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:37:42
+最后更新时间：2022-11-30 21:12:13
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 35  | 
+| DOMAIN-SUFFIX | 34  | 
 | IP-CIDR | 16  | 
 | IP-CIDR6 | 2  | 
-| TOTAL | 53  | 
+| TOTAL | 52  | 
 
 
 ## Clash 

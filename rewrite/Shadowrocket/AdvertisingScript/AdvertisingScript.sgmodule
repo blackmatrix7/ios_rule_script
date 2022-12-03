@@ -1,8 +1,8 @@
 #!name=AdvertisingScript
-#!desc=最后更新时间 2022-08-05 22:38:20
+#!desc=最后更新时间 2022-11-30 21:13:05
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!domain=4
+#!domain=3
 #!ip-cidr=2
 #!url-regex=4
 #!user-agent=1
@@ -10,13 +10,12 @@
 #!http-response-script=28
 #!reject=18
 #!mitm=23
-#!total=81
+#!total=80
 
 [Rule]
 DOMAIN,118.89.204.198,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,mqtt.zhihu.com,REJECT
-DOMAIN,sugar.zhihu.com,REJECT
 IP-CIDR,118.89.204.198/32,REJECT,no-resolve
 IP-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT

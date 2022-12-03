@@ -1,13 +1,14 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-10-11 02:39:52
-# DOMAIN: 29
-# DOMAIN-KEYWORD: 21
-# DOMAIN-SUFFIX: 1066
+# UPDATED: 2022-11-30 21:11:29
+# DOMAIN: 28
+# DOMAIN-KEYWORD: 22
+# DOMAIN-SUFFIX: 1067
 # IP-CIDR: 918
 # IP-CIDR6: 6
-# TOTAL: 2040
+# PROCESS-NAME: 3
+# TOTAL: 2044
 payload:
   - 'api.okzy.tv'
   - 'apm-misaka.biliapi.net'
@@ -37,7 +38,6 @@ payload:
   - 'rthklive2-lh.akamaihd.net'
   - 'tv.applemusic.com'
   - 'uts-api.itunes.apple.com'
-  - 'www.amazon.com'
   - '+.112263.com'
   - '+.20thcenturystudios.com.au'
   - '+.20thcenturystudios.com.br'
@@ -45,6 +45,7 @@ payload:
   - '+.5itv.tv'
   - '+.abc-studios.com'
   - '+.abc.com'
+  - '+.abema-tv.com'
   - '+.abema.io'
   - '+.abema.tv'
   - '+.aboutamazon.com'
@@ -63,6 +64,7 @@ payload:
   - '+.amazonprimevideo.cn'
   - '+.amazonprimevideo.com.cn'
   - '+.amazonprimevideos.com'
+  - '+.amazonuniversity.jobs'
   - '+.amazonvideo.cc'
   - '+.amazonvideo.com'
   - '+.amazonvideodirect.cc'
@@ -772,7 +774,6 @@ payload:
   - '+.netflix.net'
   - '+.netflixdnstest0.com'
   - '+.netflixdnstest1.com'
-  - '+.netflixdnstest10.com'
   - '+.netflixdnstest2.com'
   - '+.netflixdnstest3.com'
   - '+.netflixdnstest4.com'

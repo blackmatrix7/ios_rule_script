@@ -1,14 +1,14 @@
 # NAME: Netflix
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-10-03 02:33:19
+# UPDATED: 2022-12-02 02:08:52
 # DOMAIN: 3
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 28
-# IP-CIDR: 960
+# IP-CIDR: 965
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 1000
+# TOTAL: 1005
 payload:
   - DOMAIN,e13252.dscg.akamaiedge.net
   - DOMAIN,h-netflix.online-metrix.net
@@ -323,6 +323,8 @@ payload:
   - IP-CIDR,16.163.196.0/22
   - IP-CIDR,16.163.206.0/23
   - IP-CIDR,16.171.48.0/22
+  - IP-CIDR,16.50.69.192/27
+  - IP-CIDR,16.62.56.224/27
   - IP-CIDR,160.1.128.0/24
   - IP-CIDR,176.34.159.192/26
   - IP-CIDR,177.71.207.128/26
@@ -441,6 +443,7 @@ payload:
   - IP-CIDR,18.252.56.0/23
   - IP-CIDR,18.253.186.0/24
   - IP-CIDR,18.254.68.0/23
+  - IP-CIDR,18.60.78.192/27
   - IP-CIDR,185.2.220.0/22
   - IP-CIDR,185.9.188.0/22
   - IP-CIDR,192.173.64.0/18
@@ -681,6 +684,7 @@ payload:
   - IP-CIDR,3.28.70.96/27
   - IP-CIDR,3.30.129.0/24
   - IP-CIDR,3.30.130.0/23
+  - IP-CIDR,3.30.204.0/24
   - IP-CIDR,3.30.40.84/30
   - IP-CIDR,3.32.139.0/24
   - IP-CIDR,3.32.190.244/30
@@ -853,6 +857,7 @@ payload:
   - IP-CIDR,44.206.4.0/22
   - IP-CIDR,44.209.84.0/22
   - IP-CIDR,44.210.64.0/22
+  - IP-CIDR,44.212.176.0/21
   - IP-CIDR,44.224.0.0/16
   - IP-CIDR,44.227.178.0/24
   - IP-CIDR,44.230.0.0/16

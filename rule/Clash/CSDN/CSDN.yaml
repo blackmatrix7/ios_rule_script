@@ -1,16 +1,23 @@
 # NAME: CSDN
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-08-05 22:37:23
-# DOMAIN-SUFFIX: 15
-# TOTAL: 15
+# UPDATED: 2022-11-30 21:11:52
+# DOMAIN-SUFFIX: 22
+# TOTAL: 22
 payload:
+  - DOMAIN-SUFFIX,codechina.net
   - DOMAIN-SUFFIX,csdn.com
   - DOMAIN-SUFFIX,csdn.net
   - DOMAIN-SUFFIX,csdn.net.cn
   - DOMAIN-SUFFIX,csdnimg.cn
   - DOMAIN-SUFFIX,csto.com
+  - DOMAIN-SUFFIX,datasea.cn
+  - DOMAIN-SUFFIX,gitbook.cn
+  - DOMAIN-SUFFIX,gitchat.cn
+  - DOMAIN-SUFFIX,gitcode.com
+  - DOMAIN-SUFFIX,gitcode.net
   - DOMAIN-SUFFIX,iteye.com
+  - DOMAIN-SUFFIX,kaifayun.com
   - DOMAIN-SUFFIX,linuxpower.com.cn
   - DOMAIN-SUFFIX,powerlinux.com.cn
   - DOMAIN-SUFFIX,programmer.com.cn

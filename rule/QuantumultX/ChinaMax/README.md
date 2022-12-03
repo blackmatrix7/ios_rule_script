@@ -21,19 +21,19 @@
 
 ## 规则统计
 
-最后更新时间：2022-10-12 02:38:17
+最后更新时间：2022-12-03 02:09:33
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 174  | 
+| HOST | 171  | 
 | HOST-KEYWORD | 14  | 
-| HOST-SUFFIX | 69378  | 
+| HOST-SUFFIX | 67571  | 
 | IP-ASN | 932  | 
-| IP-CIDR | 6330  | 
-| IP6-CIDR | 4317  | 
+| IP-CIDR | 6808  | 
+| IP6-CIDR | 4714  | 
 | USER-AGENT | 65  | 
-| TOTAL | 81210  | 
+| TOTAL | 80275  | 
 
 
 ## QuantumultX 
@@ -396,6 +396,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml
 - https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
+- https://rules.kr328.app/geolocation-cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

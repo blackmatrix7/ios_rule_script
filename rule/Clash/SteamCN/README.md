@@ -12,14 +12,14 @@ SteamCN规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:36:18
+最后更新时间：2022-11-30 21:10:18
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 11  | 
-| DOMAIN-SUFFIX | 4  | 
-| TOTAL | 15  | 
+| DOMAIN-SUFFIX | 5  | 
+| TOTAL | 16  | 
 
 
 ## Clash 

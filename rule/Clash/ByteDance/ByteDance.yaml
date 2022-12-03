@@ -1,11 +1,11 @@
 # NAME: ByteDance
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-08-05 22:36:52
-# DOMAIN-SUFFIX: 271
+# UPDATED: 2022-11-30 21:11:39
+# DOMAIN-SUFFIX: 278
 # IP-CIDR: 1
 # PROCESS-NAME: 1
-# TOTAL: 273
+# TOTAL: 280
 payload:
   - DOMAIN-SUFFIX,2333333333333.com
   - DOMAIN-SUFFIX,365yg.com
@@ -14,6 +14,8 @@ payload:
   - DOMAIN-SUFFIX,amemv.cn
   - DOMAIN-SUFFIX,amemv.net
   - DOMAIN-SUFFIX,baike.com
+  - DOMAIN-SUFFIX,bcy.net
+  - DOMAIN-SUFFIX,bcyimg.com
   - DOMAIN-SUFFIX,bdactivity.com
   - DOMAIN-SUFFIX,bdgslb.com
   - DOMAIN-SUFFIX,bdurl.net
@@ -39,7 +41,9 @@ payload:
   - DOMAIN-SUFFIX,bytefcdn.com
   - DOMAIN-SUFFIX,bytegecko.com
   - DOMAIN-SUFFIX,bytegoofy.com
+  - DOMAIN-SUFFIX,bytegslb.com
   - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,bytelb.net
   - DOMAIN-SUFFIX,bytescm.com
   - DOMAIN-SUFFIX,bytesfield.com
   - DOMAIN-SUFFIX,bytesmanager.com
@@ -63,15 +67,12 @@ payload:
   - DOMAIN-SUFFIX,douyin.com
   - DOMAIN-SUFFIX,douyinact.com
   - DOMAIN-SUFFIX,douyinact.net
-  - DOMAIN-SUFFIX,douyincdn.com
   - DOMAIN-SUFFIX,douyinclips.com
+  - DOMAIN-SUFFIX,douyinliving.com
   - DOMAIN-SUFFIX,douyinmusicclips.com
   - DOMAIN-SUFFIX,douyinmusicvideo.com
-  - DOMAIN-SUFFIX,douyinpic.com
   - DOMAIN-SUFFIX,douyinshortvideo.com
-  - DOMAIN-SUFFIX,douyinstatic.com
   - DOMAIN-SUFFIX,douyinvideo.net
-  - DOMAIN-SUFFIX,douyinvod.com
   - DOMAIN-SUFFIX,dymusictape.com
   - DOMAIN-SUFFIX,dymusicvideo.com
   - DOMAIN-SUFFIX,dyshortvideo.com
@@ -121,7 +122,6 @@ payload:
   - DOMAIN-SUFFIX,icphoto.cn
   - DOMAIN-SUFFIX,idouyinpic.com
   - DOMAIN-SUFFIX,idouyinstatic.com
-  - DOMAIN-SUFFIX,idouyinvod.com
   - DOMAIN-SUFFIX,iesdouyin.com
   - DOMAIN-SUFFIX,iesdouyin.net
   - DOMAIN-SUFFIX,ieshs.cn
@@ -155,6 +155,7 @@ payload:
   - DOMAIN-SUFFIX,kspkg.com
   - DOMAIN-SUFFIX,larksuite.com
   - DOMAIN-SUFFIX,larksuitecdn.com
+  - DOMAIN-SUFFIX,lf-rc1.yhgfb-cn-static.com
   - DOMAIN-SUFFIX,luckforcalendar.com
   - DOMAIN-SUFFIX,luckincalendar.com
   - DOMAIN-SUFFIX,luckycalendar.cn
@@ -225,6 +226,7 @@ payload:
   - DOMAIN-SUFFIX,toutiaoribao.cn
   - DOMAIN-SUFFIX,toutiaoribao.net
   - DOMAIN-SUFFIX,toutiaostatic.com
+  - DOMAIN-SUFFIX,toutiaovod.com
   - DOMAIN-SUFFIX,toutiaowap.cn
   - DOMAIN-SUFFIX,toutiaowap.com
   - DOMAIN-SUFFIX,toutiaowap.net
@@ -274,6 +276,11 @@ payload:
   - DOMAIN-SUFFIX,zjgslb.com
   - DOMAIN-SUFFIX,zjurl.cn
   - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,douyincdn.com
+  - DOMAIN-SUFFIX,douyinpic.com
+  - DOMAIN-SUFFIX,douyinstatic.com
+  - DOMAIN-SUFFIX,douyinvod.com
+  - DOMAIN-SUFFIX,idouyinvod.com
   - DOMAIN-SUFFIX,ixigua.com
   - DOMAIN-SUFFIX,ixiguavideo.com
   - DOMAIN-SUFFIX,pstatp.com

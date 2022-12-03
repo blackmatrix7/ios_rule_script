@@ -12,18 +12,18 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-09-28 02:38:53
+最后更新时间：2022-12-03 02:08:43
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 84  | 
-| HOST-KEYWORD | 38  | 
-| HOST-SUFFIX | 25589  | 
+| HOST | 399  | 
+| HOST-KEYWORD | 39  | 
+| HOST-SUFFIX | 37676  | 
 | IP-CIDR | 110  | 
 | IP6-CIDR | 4  | 
-| USER-AGENT | 44  | 
-| TOTAL | 25869  | 
+| USER-AGENT | 45  | 
+| TOTAL | 38273  | 
 
 
 ## QuantumultX 
@@ -65,9 +65,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 
 当前分流规则，已排除以下规则：
-| 排除规则  |  | 
-| ---- | ----  |
-| AdvertisingLite | China  | 
+| 排除规则  |  |  | 
+| ---- | ---- | ----  |
+| AdvertisingLite | China | ChinaMaxNoIP  | 
 
 ## 数据来源
 
@@ -90,7 +90,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
+- https://rules.kr328.app/geolocation-%21cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

@@ -1,13 +1,13 @@
 # NAME: ChinaMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-08-15 14:26:15
+# UPDATED: 2022-11-30 21:11:49
 # DOMAIN: 56
 # DOMAIN-KEYWORD: 2
-# DOMAIN-SUFFIX: 166
+# DOMAIN-SUFFIX: 174
 # IP-CIDR: 28
 # PROCESS-NAME: 6
-# TOTAL: 258
+# TOTAL: 266
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
@@ -67,6 +67,10 @@ payload:
   - DOMAIN,moo.qq.com
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
+  - DOMAIN-SUFFIX,animetamashi.cn
+  - DOMAIN-SUFFIX,animetamashi.com
+  - DOMAIN-SUFFIX,anitama.cn
+  - DOMAIN-SUFFIX,anitama.net
   - DOMAIN-SUFFIX,b23.tv
   - DOMAIN-SUFFIX,baka.im
   - DOMAIN-SUFFIX,bigfun.cn
@@ -81,8 +85,10 @@ payload:
   - DOMAIN-SUFFIX,bilibili.cn
   - DOMAIN-SUFFIX,bilibili.co
   - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,bilibili.net
   - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,bilibiligame.cn
+  - DOMAIN-SUFFIX,bilibiligame.co
   - DOMAIN-SUFFIX,bilibiligame.net
   - DOMAIN-SUFFIX,bilibilipay.cn
   - DOMAIN-SUFFIX,bilibilipay.com
@@ -92,6 +98,7 @@ payload:
   - DOMAIN-SUFFIX,bilicdn4.com
   - DOMAIN-SUFFIX,bilicdn5.com
   - DOMAIN-SUFFIX,biligame.cn
+  - DOMAIN-SUFFIX,biligame.co
   - DOMAIN-SUFFIX,biligame.com
   - DOMAIN-SUFFIX,biligame.net
   - DOMAIN-SUFFIX,biligo.com
@@ -109,6 +116,7 @@ payload:
   - DOMAIN-SUFFIX,hdslb.net
   - DOMAIN-SUFFIX,hdslb.org
   - DOMAIN-SUFFIX,im9.com
+  - DOMAIN-SUFFIX,maoercdn.com
   - DOMAIN-SUFFIX,mcbbs.net
   - DOMAIN-SUFFIX,mincdn.com
   - DOMAIN-SUFFIX,sharejoytech.com

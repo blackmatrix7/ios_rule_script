@@ -1,13 +1,14 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-10-11 02:39:52
-# DOMAIN: 29
-# DOMAIN-KEYWORD: 21
-# DOMAIN-SUFFIX: 1066
+# UPDATED: 2022-11-30 21:11:29
+# DOMAIN: 28
+# DOMAIN-KEYWORD: 22
+# DOMAIN-SUFFIX: 1067
 # IP-CIDR: 918
 # IP-CIDR6: 6
-# TOTAL: 2040
+# PROCESS-NAME: 3
+# TOTAL: 2044
 DOMAIN,api.okzy.tv
 DOMAIN,apm-misaka.biliapi.net
 DOMAIN,apple.comscoreresearch.com
@@ -36,7 +37,6 @@ DOMAIN,rpg.pic-imges.com
 DOMAIN,rthklive2-lh.akamaihd.net
 DOMAIN,tv.applemusic.com
 DOMAIN,uts-api.itunes.apple.com
-DOMAIN,www.amazon.com
 DOMAIN-SUFFIX,112263.com
 DOMAIN-SUFFIX,20thcenturystudios.com.au
 DOMAIN-SUFFIX,20thcenturystudios.com.br
@@ -44,6 +44,7 @@ DOMAIN-SUFFIX,20thcenturystudios.jp
 DOMAIN-SUFFIX,5itv.tv
 DOMAIN-SUFFIX,abc-studios.com
 DOMAIN-SUFFIX,abc.com
+DOMAIN-SUFFIX,abema-tv.com
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,aboutamazon.com
@@ -62,6 +63,7 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazonprimevideo.cn
 DOMAIN-SUFFIX,amazonprimevideo.com.cn
 DOMAIN-SUFFIX,amazonprimevideos.com
+DOMAIN-SUFFIX,amazonuniversity.jobs
 DOMAIN-SUFFIX,amazonvideo.cc
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,amazonvideodirect.cc
@@ -771,7 +773,6 @@ DOMAIN-SUFFIX,netflix.com.edgesuite.net
 DOMAIN-SUFFIX,netflix.net
 DOMAIN-SUFFIX,netflixdnstest0.com
 DOMAIN-SUFFIX,netflixdnstest1.com
-DOMAIN-SUFFIX,netflixdnstest10.com
 DOMAIN-SUFFIX,netflixdnstest2.com
 DOMAIN-SUFFIX,netflixdnstest3.com
 DOMAIN-SUFFIX,netflixdnstest4.com
@@ -1111,6 +1112,7 @@ DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,discovery.uplynk.com
 DOMAIN-KEYWORD,dualstack.apiproxy-
 DOMAIN-KEYWORD,dualstack.ichnaea-web-
+DOMAIN-KEYWORD,hamivideo.cdn.hinet.net
 DOMAIN-KEYWORD,hbogoasia
 DOMAIN-KEYWORD,japonx
 DOMAIN-KEYWORD,japronx
@@ -2048,3 +2050,6 @@ IP-CIDR6,2620:10c:7000::/44,no-resolve
 IP-CIDR6,2620:120:e000::/40,no-resolve
 IP-CIDR6,2a00:86c0::/32,no-resolve
 IP-CIDR6,2a03:5640::/32,no-resolve
+PROCESS-NAME,com.viu.pad
+PROCESS-NAME,com.viu.phone
+PROCESS-NAME,com.vuclip.viu

@@ -1,14 +1,14 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-09-14 23:03:19
+# UPDATED: 2022-11-30 22:30:07
 # DOMAIN: 18
-# DOMAIN-KEYWORD: 23
-# DOMAIN-SUFFIX: 829
+# DOMAIN-KEYWORD: 24
+# DOMAIN-SUFFIX: 830
 # IP-CIDR: 94
 # IP-CIDR6: 4
-# USER-AGENT: 5
-# TOTAL: 973
+# USER-AGENT: 6
+# TOTAL: 976
 DOMAIN,addons.mozilla.org
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,api.waqi.info
@@ -384,6 +384,7 @@ DOMAIN-SUFFIX,lithium.com
 DOMAIN-SUFFIX,littlehj.com
 DOMAIN-SUFFIX,livejasmin.com
 DOMAIN-SUFFIX,livestream.com
+DOMAIN-SUFFIX,liyuans.com
 DOMAIN-SUFFIX,llnwd.net
 DOMAIN-SUFFIX,logmein.com
 DOMAIN-SUFFIX,m.me
@@ -864,6 +865,7 @@ DOMAIN-KEYWORD,avtb
 DOMAIN-KEYWORD,beetalk
 DOMAIN-KEYWORD,dlercloud
 DOMAIN-KEYWORD,dropbox
+DOMAIN-KEYWORD,duolingo
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,instagram
@@ -977,6 +979,7 @@ IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23c::/47,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
+USER-AGENT,Duolingo*
 USER-AGENT,OneDrive*
 USER-AGENT,PayPal*
 USER-AGENT,TikTok*

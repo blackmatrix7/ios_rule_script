@@ -12,14 +12,14 @@ ViuTV规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:36:50
+最后更新时间：2022-11-30 21:11:37
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 11  | 
+| DOMAIN-SUFFIX | 8  | 
 | PROCESS-NAME | 3  | 
-| TOTAL | 14  | 
+| TOTAL | 11  | 
 
 
 ## Clash 

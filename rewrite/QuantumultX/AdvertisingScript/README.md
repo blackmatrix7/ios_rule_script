@@ -14,12 +14,12 @@
 
 ## 规则统计
 
-最后更新时间：2022-08-07 02:29:37
+最后更新时间：2022-12-02 02:10:32
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 4  | 
+| HOST | 3  | 
 | IP-CIDR | 1  | 
 | IP6-CIDR | 1  | 
 | USER-AGENT | 1  | 
@@ -27,7 +27,7 @@
 | HTTP-RESPONSE-SCRIPT | 28  | 
 | REJECT | 18  | 
 | MITM | 23  | 
-| TOTAL | 77  | 
+| TOTAL | 76  | 
 
 
 ## QuantumultX 

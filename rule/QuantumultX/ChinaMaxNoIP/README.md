@@ -15,16 +15,16 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2022-10-12 02:38:31
+最后更新时间：2022-12-03 02:09:46
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 152  | 
+| HOST | 149  | 
 | HOST-KEYWORD | 14  | 
-| HOST-SUFFIX | 69063  | 
+| HOST-SUFFIX | 67273  | 
 | USER-AGENT | 65  | 
-| TOTAL | 69294  | 
+| TOTAL | 67501  | 
 
 
 ## QuantumultX 
@@ -379,6 +379,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml
 - https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
+- https://rules.kr328.app/geolocation-cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

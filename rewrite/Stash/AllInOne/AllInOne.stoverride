@@ -1,17 +1,17 @@
 name: AllInOne
-desc: 最后更新时间 2022-09-25 02:34:43
+desc: 最后更新时间 2022-11-30 21:13:00
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# domain: 4
+# domain: 3
 # ip-cidr: 1
 # ip-cidr6: 1
 # http-request-script: 1
 # http-response-script: 28
 # redirect: 8
-# reject: 381
-# mitm: 422
+# reject: 386
+# mitm: 426
 # force-http-engine-hosts: 6
-# total: 852
+# total: 860
 
 
 
@@ -19,7 +19,6 @@ rules:
   - DOMAIN,118.89.204.198,REJECT
   - DOMAIN,appcloud2.in.zhihu.com,REJECT
   - DOMAIN,mqtt.zhihu.com,REJECT
-  - DOMAIN,sugar.zhihu.com,REJECT
   - IP-CIDR,118.89.204.198/32,REJECT
   - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
 
@@ -38,9 +37,14 @@ http:
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
     - ^https?://ads-img-al\.xhscdn\.com/hera/ - reject
     - ^https?://cdn\.fivecdm\.com/cr/ - reject
+    - ^https?://cn-acs\.m\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn/ - reject
+    - ^https?://img2\.autoimg\.cn/admdfs/ - reject
     - ^https?://m\d\.amap\.com/ws/message/notice/list? - reject
+    - ^https?://mangaapi\.manhuaren\.com/v\d/ad/ - reject
+    - ^https?://oss\.umetrip\.com/fs/advert/polite/ - reject
     - ^https?://sns\.amap\.com/ws/msgbox/pull? - reject
     - ^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson - reject
+    - ^https?://venus\.yhd\.com/memhome/launchConfig - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
@@ -785,6 +789,7 @@ http:
     - "cms.daydaycook.com.cn"
     - "cmsapi.dmall.com"
     - "cmsapi.wifi8.com"
+    - "cn-acs.m.cainiao.com"
     - "cn.ultraiso.net"
     - "cntv.hls.cdn.myqcloud.com"
     - "consumer.fcbox.com"
@@ -845,6 +850,7 @@ http:
     - "img.jiemian.com"
     - "img.meituan.net"
     - "img.umetrip.com"
+    - "img2.autoimg.cn"
     - "interface*.music.163.com"
     - "intl.iqiyi.com"
     - "ios.lantouzi.com"
@@ -905,6 +911,7 @@ http:
     - "oimage*.ydstatic.com"
     - "open.qyer.com"
     - "optimus-ads.amap.com"
+    - "oss.umetrip.com"
     - "overseas.weico.cc"
     - "p*.meituan.net"
     - "p.du.163.com"
@@ -963,6 +970,7 @@ http:
     - "v.cctv.com"
     - "v.icbc.com.cn"
     - "vali.cp31.ott.cibntv.net"
+    - "venus.yhd.com"
     - "video.dispatch.tc.qq.com"
     - "vv.video.qq.com"
     - "wap.js.10086.cn"

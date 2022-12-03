@@ -14,19 +14,19 @@
 
 ## 规则统计
 
-最后更新时间：2022-08-05 22:38:20
+最后更新时间：2022-11-30 21:13:05
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 4  | 
+| DOMAIN | 3  | 
 | IP-CIDR | 1  | 
 | IP-CIDR6 | 1  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
 | HTTP-RESPONSE-SCRIPT | 28  | 
 | REJECT | 18  | 
 | MITM | 23  | 
-| TOTAL | 76  | 
+| TOTAL | 75  | 
 
 
 ## Stash 

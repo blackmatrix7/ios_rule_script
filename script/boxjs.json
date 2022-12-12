@@ -8,6 +8,13 @@
     {
       "id": "blackmatrix7.magicjs",
       "name": "MagicJS",
+      "keys": [
+        "magic_test_data",
+        "magic_test_notification",
+        "magic_test_http",
+        "magic_test_qinglong",
+        "magic_test_qinglong_data"
+      ],
       "settings": [
         {
           "id": "magic_loglevel",
@@ -40,7 +47,7 @@
         }
       ],
       "author": "@blackmatrix7",
-      "repo": "https://github.com/blackmatrix7/ios_rule_script/",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/bilibili",
       "icons": [
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/magicjs/images/logo_dark.png",
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/magicjs/images/logo.png"
@@ -86,6 +93,24 @@
           "desc": "填写青龙面板的ClientSecret"
         },
         {
+          "id": "magic_qlname",
+          "name": "账号",
+          "val": "",
+          "type": "input",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "填写青龙面板的账号，当存在ClientId时，填写账号不会生效"
+        },
+        {
+          "id": "magic_qlpwd",
+          "name": "密码",
+          "val": "",
+          "type": "input",
+          "placeholder": "http://qinglong.mydomain.com",
+          "autoGrow": true,
+          "desc": "填写青龙面板的密码，当存在ClientId时，填写密码不会生效"
+        },
+        {
           "id": "magic_qltoken",
           "name": "token",
           "val": "",
@@ -127,29 +152,138 @@
       ]
     },
     {
-      "id": "blackmatrix7.bilibili",
-      "name": "哔哩哔哩去广告",
+      "id": "blackmatrix7.zheye",
+      "name": "哲也同学",
       "keys": [
-        "bilibili_story_aid",
-        "bilibili_feed_black"
+        "zhihu_blocked_users",
+        "zhihu_current_userinfo",
+        "zhihu_keyword_block",
+        "zhihu_black_answers"
+      ],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zheye",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.png"
+      ],
+      "descs_html": [
+        "<h4 align=\"left\">配置说明查看<a href=\"https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zheye#readme\">README.md</a></h4>"
+      ],
+      "scripts": [
       ],
       "settings": [
         {
-          "id": "bilibili_feed_black",
-          "name": "首页UP主黑名单",
+          "id": "zhihu_settings_fake_vip",
+          "name": "显示为盐选会员",
+          "val": false,
+          "type": "boolean",
+          "desc": "非会员用户显示为盐选会员"
+        },
+        {
+          "id": "zhihu_settings_blocked_keywords",
+          "name": "推荐页关键词过滤",
+          "val": true,
+          "type": "boolean",
+          "desc": "除普通关键词外还支持正则表达式过滤，需要开启“显示为盐选会员”"
+        },
+        {
+          "id": "zhihu_settings_recommend_stream",
+          "name": "屏蔽推荐页流媒体",
+          "val": false,
+          "type": "boolean",
+          "desc": "屏蔽推荐页中的视频、直播等流媒体信息"
+        },
+        {
+          "id": "zhihu_settings_recommend_pin",
+          "name": "屏蔽推荐页想法",
+          "val": false,
+          "type": "boolean",
+          "desc": "屏蔽推荐页中的想法"
+        },
+        {
+          "id": "zhihu_settings_blocked_users",
+          "name": "黑名单屏蔽效果增强",
+          "val": true,
+          "type": "boolean",
+          "desc": "增强知乎APP黑名单用户屏蔽效果"
+        },
+        {
+          "id": "zhihu_settings_moments_stream",
+          "name": "屏蔽关注页流媒体",
+          "val": false,
+          "type": "boolean",
+          "desc": "屏蔽关注页中的视频等流媒体"
+        },
+        {
+          "id": "zhihu_settings_moments_recommend",
+          "name": "屏蔽关注页推荐关注人",
+          "val": false,
+          "type": "boolean",
+          "desc": "屏蔽关注页中的“为您推荐”"
+        },
+        {
+          "id": "zhihu_settings_moments_activity",
+          "name": "屏蔽关注页活动更新",
+          "val": false,
+          "type": "boolean",
+          "desc": "屏蔽关注页中的“关注的内容”"
+        },
+        {
+          "id": "zhihu_settings_hot_list",
+          "name": "热榜去广告",
+          "val": true,
+          "type": "boolean",
+          "desc": "去除知乎热榜页面的广告"
+        },
+        {
+          "id": "zhihu_settings_preset_words",
+          "name": "屏蔽预置关键词广告",
+          "val": false,
+          "type": "boolean",
+          "desc": "屏蔽搜索页中的预置关键词广告"
+        },
+        {
+          "id": "zhihu_settings_remove_article",
+          "name": "屏蔽推荐页中的文章",
+          "val": false,
+          "type": "boolean",
+          "desc": "屏蔽推荐页中的文章，默认不启用"
+        },
+        {
+          "id": "zhihu_settings_sys_msg",
+          "name": "屏蔽官方账号推广消息",
+          "val": false,
+          "type": "boolean",
+          "desc": "屏蔽消息页内的官方账号推广消息"
+        },
+        {
+          "id": "zhihu_settings_answer_tip",
+          "name": "付费内容/营销推广/购物推广提醒",
+          "val": true,
+          "type": "boolean",
+          "desc": "在知乎回答中提示付费或营销内容"
+        },
+        {
+          "id": "zhihu_credit_score",
+          "name": "自定义用户盐值",
+          "val": "0",
+          "type": "input",
+          "desc": "修改用户盐值显示，无实际意义，不建议使用。仅当修改的盐值大于真实盐值时生效，关闭此功能请将盐值设置为0。"
+        },
+        {
+          "id": "zhihu_black_answers",
+          "name": "知乎黑名单用户回答Id",
+          "val": "",
+          "type": "input",
+          "desc": "记录知乎黑名单用户的回答Id的临时变量，通常不会有太多数据。如果数据量过大请清空此内容。"
+        },
+        {
+          "id": "zhihu_keyword_block",
+          "name": "知乎屏蔽关键词",
           "val": "",
           "type": "textarea",
-          "placeholder": "UP主名称1;UP主名称2",
-          "autoGrow": true,
-          "rows": 5,
-          "desc": "以英文逗号分隔多个号码"
+          "desc": "必须是JSON格式，Key为用户Id，不要修改。格式不正确可能导致执行异常。"
         }
-      ],
-      "author": "@blackmatrix7",
-      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/bilibili",
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png",
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png"
       ]
     },
     {
@@ -170,70 +304,10 @@
       "settings": [
         {
           "id": "dingdongmaicai_sync_qinglong",
-          "name": "同步Cookie到青龙面板",
+          "name": "同步数据到青龙面板",
           "val": false,
           "type": "boolean",
-          "desc": "将获取的Cookies和Body同步至青龙面板"
-        }
-      ]
-    },
-    {
-      "id": "blackmatrix7.eleme",
-      "name": "饿了么",
-      "keys": [
-        "eleme_cookies",
-        "eleme_coordinate",
-        "eleme_mission",
-        "eleme_task_keywords",
-        "eleme_sync_qinglong"
-      ],
-      "author": "@blackmatrix7",
-      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/eleme",
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/elem.png",
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png"
-      ],
-      "settings": [
-        {
-          "id": "eleme_cookies",
-          "name": "Cookie",
-          "val": "",
-          "type": "textarea",
-          "placeholder": "",
-          "autoGrow": true,
-          "desc": "填写获取的饿了么Cookie"
-        },
-        {
-          "id": "eleme_coordinate",
-          "name": "坐标",
-          "val": "",
-          "type": "textarea",
-          "placeholder": "",
-          "autoGrow": true,
-          "desc": "填写抓包获取的饿了么坐标"
-        },
-        {
-          "id": "eleme_task_keywords",
-          "name": "任务关键字",
-          "val": "美食外卖;",
-          "type": "input",
-          "placeholder": "多个关键词以;分隔，越靠前的关键词优先级越高",
-          "autoGrow": true,
-          "desc": "只领取含有关键字的任务"
-        },
-        {
-          "id": "eleme_mission",
-          "name": "领取会员任务",
-          "val": true,
-          "type": "boolean",
-          "desc": "根据任务关键字领取会员任务"
-        },
-        {
-          "id": "eleme_sync_qinglong",
-          "name": "同步Cookie到青龙面板",
-          "val": false,
-          "type": "boolean",
-          "desc": "将获取的Cookies和坐标同步至青龙面板"
+          "desc": "将必要数据同步至青龙面板，以执行作业"
         }
       ]
     },
@@ -286,25 +360,6 @@
       "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js"
     },
     {
-      "id": "blackmatrix7.meituan",
-      "name": "美团买菜",
-      "keys": [
-        "meituan_mall_cookie",
-        "meituan_mall_t",
-        "meituan_mall_querystring",
-        "meituan_mall_uuid",
-        "meituan_mall_userid",
-        "meituan_mall_body"
-      ],
-      "author": "@blackmatrix7",
-      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/meituan",
-      "icons": [
-        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png",
-        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png"
-      ],
-      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js"
-    },
-    {
       "id": "blackmatrix7.smzdm",
       "name": "什么值得买",
       "keys": [
@@ -330,10 +385,10 @@
       "settings": [
         {
           "id": "smzdm_sync_qinglong",
-          "name": "同步Cookie到青龙面板",
+          "name": "同步数据到青龙面板",
           "val": false,
           "type": "boolean",
-          "desc": "需先配置好青龙面板登录参数，并确保手机可以访问青龙面板"
+          "desc": "将必要数据同步至青龙面板，以执行作业"
         },
         {
           "id": "smzdm_signin",
@@ -375,10 +430,10 @@
       "settings": [
         {
           "id": "tieba_sync_qinglong",
-          "name": "同步Cookie到青龙面板",
+          "name": "同步数据到青龙面板",
           "val": false,
           "type": "boolean",
-          "desc": "需先配置好青龙面板登录参数，并确保手机可以访问青龙面板"
+          "desc": "将必要数据同步至青龙面板，以执行作业"
         },
         {
           "id": "tieba_signin_cookie",
@@ -388,132 +443,6 @@
           "placeholder": "推荐由脚本自动获取Cookies，如有特殊情况可手动填写，必须为Json格式",
           "autoGrow": true,
           "desc": "多账户Cookies，如出现异常，请删除全部内容，避免直接编辑数据"
-        }
-      ]
-    },
-    {
-      "id": "blackmatrix7.zhihu",
-      "name": "知乎助手",
-      "keys": [
-        "zhihu_blocked_users",
-        "zhihu_current_userinfo",
-        "zhihu_keyword_block"
-      ],
-      "author": "@blackmatrix7",
-      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu",
-      "icons": [
-        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.png",
-        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.png"
-      ],
-      "descs_html": [
-        "<h4 align=\"left\">具体功能说明查看<a href=\"https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu#readme\">README.md</a></h4>",
-        "<h4 align=\"left\">✨为Plus版本专属功能，❓为已过时或即将淘汰功能</h4>",
-        "<h4 align=\"left\">切换Lite、Plus版本，或出现异常请执行数据清理</h4>"
-      ],
-      "scripts": [
-        {
-          "name": "知乎助手数据清理",
-          "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js"
-        }
-      ],
-      "settings": [
-        {
-          "id": "zhihu_settings_recommend_stream",
-          "name": "屏蔽推荐页流媒体",
-          "val": false,
-          "type": "boolean",
-          "desc": "屏蔽推荐页中的视频、直播等流媒体信息"
-        },
-        {
-          "id": "zhihu_settings_moments_stream",
-          "name": "屏蔽关注页流媒体",
-          "val": false,
-          "type": "boolean",
-          "desc": "屏蔽关注页中的“最新视频”"
-        },
-        {
-          "id": "zhihu_settings_hot_list",
-          "name": "热榜去广告",
-          "val": true,
-          "type": "boolean",
-          "desc": "去除知乎热榜页面的广告"
-        },
-        {
-          "id": "zhihu_settings_fake_vip",
-          "name": "显示为盐选会员",
-          "val": false,
-          "type": "boolean",
-          "desc": "非会员用户显示为盐选会员，屏蔽关键词解锁需要开启此功能"
-        },
-        {
-          "id": "zhihu_settings_preset_words",
-          "name": "屏蔽预置关键词广告",
-          "val": false,
-          "type": "boolean",
-          "desc": "屏蔽搜索页中的预置关键词广告"
-        },
-        {
-          "id": "zhihu_settings_remove_article",
-          "name": "屏蔽推荐页中的文章",
-          "val": false,
-          "type": "boolean",
-          "desc": "屏蔽推荐页中的文章，默认不启用"
-        },
-        {
-          "id": "zhihu_settings_blocked_users",
-          "name": "黑名单屏蔽效果增强✨",
-          "val": true,
-          "type": "boolean",
-          "desc": "增强知乎APP黑名单用户屏蔽效果"
-        },
-        {
-          "id": "zhihu_settings_blocked_keywords",
-          "name": "推荐页关键词过滤✨",
-          "val": true,
-          "type": "boolean",
-          "desc": "除普通关键词外还支持正则表达式过滤"
-        },
-        {
-          "id": "zhihu_settings_sys_msg",
-          "name": "屏蔽官方账号推广消息✨",
-          "val": false,
-          "type": "boolean",
-          "desc": "屏蔽消息页内的官方账号推广消息"
-        },
-        {
-          "id": "zhihu_settings_answer_tip",
-          "name": "付费内容/营销推广/购物推广提醒✨",
-          "val": true,
-          "type": "boolean",
-          "desc": "在知乎回答中提示付费或营销内容"
-        },
-        {
-          "id": "zhihu_settings_remove_sections",
-          "name": "移除推荐页顶部项✨",
-          "val": false,
-          "type": "boolean",
-          "desc": "知乎8.3.0有效，仅保留全部和直播，直播无法去除"
-        },
-        {
-          "id": "zhihu_settings_app_conf",
-          "name": "去除推荐页多余标签❓",
-          "val": false,
-          "type": "boolean",
-          "desc": "知乎7.x及以上版本无效"
-        },
-        {
-          "id": "zhihu_settings_hot_search",
-          "name": "知乎热搜去广告❓",
-          "val": false,
-          "type": "boolean",
-          "desc": "知乎7.x及以上版本无效"
-        },
-        {
-          "id": "zhihu_keyword_block",
-          "name": "知乎屏蔽关键词",
-          "val": "",
-          "type": "textarea",
-          "desc": "必须是JSON格式，Key为用户Id，不要修改。格式不正确可能导致执行异常。"
         }
       ]
     },
@@ -581,17 +510,16 @@
       "id": "blackmatrix7.applestore",
       "name": "AppleStore",
       "keys": [
-        "goods_model",
+        "applestore_goods_model",
         "applestore_region",
-        "applestore_bark_url",
-        "applestore_stock",
-        "onlinestore_stock"
+        "applestore_goods_stock",
+        "applestore_settings_notify_soldout"
       ],
       "author": "@blackmatrix7",
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/applestore",
       "settings": [
         {
-          "id": "goods_model",
+          "id": "applestore_goods_model",
           "name": "商品型号",
           "val": "",
           "type": "textarea",

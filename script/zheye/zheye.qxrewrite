@@ -1,0 +1,86 @@
+# 哲也同学
+# 哲也同学，你的知乎小助手
+
+# 拦截DNS解析
+^https?:\/\/118\.89\.204\.198 url reject-200
+^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 url reject-200
+
+# 拦截知乎开屏广告
+^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? url reject-dict
+^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? url reject-dict
+
+# 拦截品牌提问广告
+^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? url reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? url reject-dict
+
+# 屏蔽下发的配置，如皮肤等
+^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config url reject
+
+# 去除底部标签页关注人角标
+^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 url reject-dict
+
+# 去除消息通知角标
+^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count) url reject-dict
+
+# 拦截回答下的卡片广告
+^https?:\/\/www\.zhihu\.com\/api\/v\d\/answers\/\d+\/recommendations url reject-dict
+
+# 拦截应用内弹窗
+^https?:\/\/api\.zhihu\.com\/me\/guides url reject-dict
+
+# 去除关注页最常访问
+^https?:\/\/api\.zhihu\.com\/moments\/recent url reject-dict
+
+# 我的页面 - 屏蔽开通盐选会员的卡片
+^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card url reject
+
+# 获取用户信息 - 隔离用户数据，开启本地盐选会员等
+^https?:\/\/api\.zhihu\.com\/people\/ url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 解锁本地的关键词屏蔽功能，需要开启本地VIP
+^https?:\/\/api\.zhihu\.com\/feed-root\/block url script-analyze-echo-response https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 优化知乎软件配置 - 优化下发的配置文件来实现某些效果
+^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config url script-analyze-echo-response https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 用户信息 - 修改用户盐值
+^https?:\/\/api\.zhihu\.com\/user-credit\/basis url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 关注页 - 内容优化及屏蔽转发的黑名单用户想法
+^https?:\/\/api\.zhihu\.com\/moments_v3\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 推荐页 - 移除黑名单用户发布的文章、去除广告，及自定义一些屏蔽项目
+^https:\/\/api\.zhihu\.com\/topstory\/recommend\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 黑名单页 - 同步黑名单数据
+^https?:\/\/api\.zhihu\.com\/settings\/blocked_users url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 问题的回答列表 - 移除黑名单用户的回答、去除广告
+^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+ url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 回答页底部评论摘要 - 移除黑名单用户发表的评论
+^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 评论页及子页面 - 去除黑名单用户发表的评论
+^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 消息页 - 折叠官方消息、屏蔽营销消息
+^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message) url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 回答页 - 内容优化，付费、营销、推广内容文首提醒
+^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 回答页 - 屏蔽下翻出现的黑名单用户的回答
+^https?:\/\/api\.zhihu\.com\/next\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 文章页 - 去除底部广告
+^https?:\/\/www\.zhihu\.com\/api\/v\d\/articles\/\d+\/recommendation\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 热榜页 - 去除广告
+^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 搜索页 - 去除预置广告
+^https?:\/\/api\.zhihu\.com\/search\/preset_words\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+hostname = 118.89.204.198,2402:4e00:1200:ed00:0:9089:6dac:96b6,www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,appcloud2.zhihu.com,m-cloud.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226

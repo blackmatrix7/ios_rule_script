@@ -21,16 +21,16 @@
 
 ## 规则统计
 
-最后更新时间：2022-12-03 02:07:37
+最后更新时间：2022-12-12 02:08:18
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 10436  | 
+| DOMAIN | 10704  | 
 | DOMAIN-KEYWORD | 264  | 
-| DOMAIN-SUFFIX | 97670  | 
+| DOMAIN-SUFFIX | 96831  | 
 | IP-CIDR | 244  | 
-| TOTAL | 108614  | 
+| TOTAL | 108043  | 
 
 
 ## Clash 
@@ -155,11 +155,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/mieqq/mieqq/master/In-AppTracker.txt
 - https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
-- https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-- https://easylist-downloads.adblockplus.org/easyprivacy.txt
-- https://raw.githubusercontent.com/28413761/QX/main/fenliu.list
-- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

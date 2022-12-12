@@ -1,13 +1,13 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-11-30 22:30:18
+# UPDATED: 2022-12-12 02:10:33
 # DOMAIN: 18
 # DOMAIN-KEYWORD: 10
-# DOMAIN-SUFFIX: 3434
+# DOMAIN-SUFFIX: 3435
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3476
+# TOTAL: 3477
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -774,6 +774,7 @@ payload:
   - DOMAIN-SUFFIX,chuanke.com
   - DOMAIN-SUFFIX,chuansong.me
   - DOMAIN-SUFFIX,chuansongme.com
+  - DOMAIN-SUFFIX,chugou360.com
   - DOMAIN-SUFFIX,chuimg.com
   - DOMAIN-SUFFIX,chunbo.com
   - DOMAIN-SUFFIX,chunboimg.com
@@ -1835,6 +1836,7 @@ payload:
   - DOMAIN-SUFFIX,jidian.im
   - DOMAIN-SUFFIX,jiemeng8.com
   - DOMAIN-SUFFIX,jiemian.com
+  - DOMAIN-SUFFIX,jikeiot.cloud
   - DOMAIN-SUFFIX,jikexueyuan.com
   - DOMAIN-SUFFIX,jikipedia.com
   - DOMAIN-SUFFIX,jindidata.com
@@ -2906,9 +2908,6 @@ payload:
   - DOMAIN-SUFFIX,tietuku.com
   - DOMAIN-SUFFIX,tiexue.net
   - DOMAIN-SUFFIX,tieyou.com
-  - DOMAIN-SUFFIX,tiktok.com
-  - DOMAIN-SUFFIX,tiktokcdn.com
-  - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,timedoo.com
   - DOMAIN-SUFFIX,timibase.com
   - DOMAIN-SUFFIX,timmerse.com
@@ -2944,6 +2943,7 @@ payload:
   - DOMAIN-SUFFIX,touqikan.com
   - DOMAIN-SUFFIX,toursbms.com
   - DOMAIN-SUFFIX,toutiao.com
+  - DOMAIN-SUFFIX,toutiaoapi.com
   - DOMAIN-SUFFIX,toutiaocdn.com
   - DOMAIN-SUFFIX,toutiaocloud.com
   - DOMAIN-SUFFIX,toutiaocloud.net
@@ -3263,6 +3263,7 @@ payload:
   - DOMAIN-SUFFIX,ybccode.com
   - DOMAIN-SUFFIX,yccdn.com
   - DOMAIN-SUFFIX,ycgame.com
+  - DOMAIN-SUFFIX,ycrx360.com
   - DOMAIN-SUFFIX,ydamc.com
   - DOMAIN-SUFFIX,ydstatic.com
   - DOMAIN-SUFFIX,yeah.net

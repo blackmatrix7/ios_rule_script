@@ -1,11 +1,11 @@
 # NAME: WeChat
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-11-30 21:12:30
+# UPDATED: 2022-12-07 22:39:35
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 12
-# IP-CIDR: 9
-# TOTAL: 22
+# IP-CIDR: 10
+# TOTAL: 23
 payload:
   - DOMAIN-SUFFIX,qlogo.cn
   - DOMAIN-SUFFIX,qpic.cn
@@ -29,3 +29,4 @@ payload:
   - IP-CIDR,101.32.133.53/32
   - IP-CIDR,129.226.107.244/32
   - IP-CIDR,129.226.3.47/32
+  - IP-CIDR,162.62.163.63/32

@@ -1,14 +1,15 @@
 # NAME: Game
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-12-12 02:08:24
-# DOMAIN: 5
+# UPDATED: 2022-12-14 02:08:23
+# DOMAIN: 6
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 512
 # IP-CIDR: 54
-# TOTAL: 575
+# TOTAL: 576
 payload:
   - DOMAIN,steammobile.akamaized.net
+  - DOMAIN,xz.pphimalayanrt.com
   - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN,login.live.com
   - DOMAIN,logincdn.msauth.net
@@ -533,9 +534,14 @@ payload:
   - IP-CIDR,210.242.235.6/32
   - IP-CIDR,54.94.196.47/32
   - IP-CIDR,182.162.132.1/32
+  - IP-CIDR,103.4.114.233/32
   - IP-CIDR,182.162.116.1/32
+  - IP-CIDR,185.60.112.157/32
+  - IP-CIDR,185.60.112.158/32
   - IP-CIDR,202.9.67.59/32
   - IP-CIDR,203.69.111.4/32
+  - IP-CIDR,24.105.30.129/32
+  - IP-CIDR,24.105.62.129/32
   - IP-CIDR,54.207.104.145/32
   - IP-CIDR,104.192.0.0/12
   - IP-CIDR,130.208.0.0/12
@@ -546,14 +552,9 @@ payload:
   - IP-CIDR,35.176.0.0/12
   - IP-CIDR,35.192.0.0/11
   - IP-CIDR,35.224.0.0/12
-  - IP-CIDR,185.60.112.157/32
-  - IP-CIDR,185.60.114.159/32
   - IP-CIDR,203.66.81.98/32
   - IP-CIDR,211.234.110.1/32
-  - IP-CIDR,24.105.30.129/32
-  - IP-CIDR,24.105.62.129/32
   - IP-CIDR,54.207.107.12/32
-  - IP-CIDR,103.4.114.233/32
   - IP-CIDR,202.9.67.254/32
   - IP-CIDR,222.231.22.1/32
   - IP-CIDR,13.210.25.233/32
@@ -580,6 +581,6 @@ payload:
   - IP-CIDR,54.248.64.192/32
   - IP-CIDR,103.4.115.248/32
   - IP-CIDR,137.221.105.2/32
-  - IP-CIDR,185.60.112.158/32
+  - IP-CIDR,185.60.114.159/32
   - IP-CIDR,210.71.148.11/32
   - IP-CIDR,211.115.104.1/32

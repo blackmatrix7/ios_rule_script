@@ -15,16 +15,16 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2022-12-12 02:10:42
+最后更新时间：2022-12-13 02:10:11
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 149  | 
 | HOST-KEYWORD | 14  | 
-| HOST-SUFFIX | 67249  | 
+| HOST-SUFFIX | 67248  | 
 | USER-AGENT | 65  | 
-| TOTAL | 67477  | 
+| TOTAL | 67476  | 
 
 
 ## QuantumultX 

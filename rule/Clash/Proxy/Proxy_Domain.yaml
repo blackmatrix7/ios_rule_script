@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-12-09 02:09:45
+# UPDATED: 2022-12-17 02:08:45
 # DOMAIN: 7
 # DOMAIN-KEYWORD: 31
-# DOMAIN-SUFFIX: 24710
+# DOMAIN-SUFFIX: 24711
 # IP-CIDR: 92
 # IP-CIDR6: 3
-# TOTAL: 24843
+# TOTAL: 24844
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
@@ -5178,6 +5178,7 @@ payload:
   - '+.charter.com'
   - '+.charter08.com'
   - '+.chase.com'
+  - '+.chat.openai.com'
   - '+.chat.stackexchange.com'
   - '+.chaterbate.com'
   - '+.chatnook.com'

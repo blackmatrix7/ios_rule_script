@@ -1,0 +1,15 @@
+#!name=TestFlight
+#!desc=多账户共存与自动加入测试
+
+[General]
+skip-proxy = %APPEND% iosapps.itunes.apple.com
+
+[Script]
+TestFlight_设置篡改 = type=http-request,requires-body=1,max-size=0,pattern=^https:\/\/testflight\.apple\.com\/v\d\/accounts\/settings\/.*\/apps\/\d+,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/testflight.js
+TestFlight_应用篡改 = type=http-request,requires-body=1,max-size=0,pattern=^https:\/\/testflight\.apple\.com\/v\d\/accounts\/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\/apps\/\d+,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/testflight.js
+TestFlight_状态篡改 = type=http-request,requires-body=1,max-size=0,pattern=^https:\/\/testflight\.apple\.com\/v\d\/apps\/\d+\/\d+\/install\/status$,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/testflight.js
+TestFlight_应用共存 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/testflight\.apple\.com\/v\d\/accounts\/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\/apps$,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/testflight.js
+TestFlight_自动入列 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/testflight\.apple\.com\/v\d\/accounts\/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\/ru\/([a-zA-Z0-9]{8})$,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/testflight.js
+
+[MITM] 
+hostname = %APPEND% testflight.apple.com

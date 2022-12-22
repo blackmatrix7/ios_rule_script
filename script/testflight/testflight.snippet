@@ -1,0 +1,22 @@
+# TestFlight
+# 多账户共存与自动加入测试
+
+# TestFlight_自动入列
+^https:\/\/testflight\.apple\.com\/v\d+\/accounts\/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\/ru\/([a-zA-Z0-9]{8})$ url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/testflight.js
+
+# TestFlight_应用共存
+^https:\/\/testflight\.apple\.com\/v\d+\/accounts\/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\/apps$ url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/testflight.js
+
+# TestFlight_设置篡改
+^https:\/\/testflight\.apple\.com\/v\d+\/accounts\/settings\/.*\/apps\/\d+ url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/testflight.js
+
+# TestFlight_更新篡改
+^https:\/\/testflight\.apple\.com\/v\d+\/accounts\/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\/apps\/\d+\/.*install$ url script-request-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/testflight.js
+
+# TestFlight_状态篡改
+^https:\/\/testflight\.apple\.com\/v\d\/apps\/\d+\/\d+\/install\/status$ url script-request-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/testflight.js
+
+# TestFlight_应用篡改
+^https:\/\/testflight\.apple\.com\/v\d+\/accounts\/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\/apps\/\d+\/(?!install).* url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/testflight.js
+
+hostname = testflight.apple.com

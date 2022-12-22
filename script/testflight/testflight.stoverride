@@ -1,0 +1,54 @@
+name: TestFlight
+desc: 多账户共存与自动加入测试
+
+http:
+  script:
+
+    # TestFlight_设置篡改
+    - match: ^https:\/\/testflight\.apple\.com\/v\d\/accounts\/settings\/.*\/apps\/\d+
+      name: testflight.js
+      type: request
+      require-body: true
+      timeout: 60
+      argument: '' 
+
+    # TestFlight_应用篡改
+    - match: ^https:\/\/testflight\.apple\.com\/v\d\/accounts\/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\/apps\/\d+
+      name: testflight.js
+      type: request
+      require-body: true
+      timeout: 60
+      argument: '' 
+
+    # TestFlight_状态篡改
+    - match: ^https:\/\/testflight\.apple\.com\/v\d\/apps\/\d+\/\d+\/install\/status$
+      name: testflight.js
+      type: request
+      require-body: true
+      timeout: 60
+      argument: '' 
+
+    # TestFlight_获取信息
+    - match: ^https:\/\/testflight\.apple\.com\/v\d\/accounts\/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\/apps$
+      name: testflight.js
+      type: response
+      require-body: true
+      timeout: 60
+      argument: '' 
+
+    # TestFlight_自动入列
+    - match: ^https:\/\/testflight\.apple\.com\/v3\/accounts\/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\/ru\/([a-zA-Z0-9]{8})$
+      name: testflight.js
+      type: response
+      require-body: true
+      timeout: 60
+      argument: ''
+
+  mitm:
+    - "testflight.apple.com"
+
+script-providers:
+  testflight.js:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/testflight.js
+    interval: 86400
+

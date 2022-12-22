@@ -130,9 +130,7 @@
     {
       "id": "blackmatrix7.bark",
       "name": "Bark推送",
-      "keys": [
-        "magic_bark_url"
-      ],
+      "keys": ["magic_bark_url"],
       "settings": [
         {
           "id": "magic_bark_url",
@@ -330,10 +328,7 @@
     {
       "id": "blackmatrix7.luka",
       "name": "Luka阅读养成",
-      "keys": [
-        "luka_checkin_cookie",
-        "luka_signin_auth"
-      ],
+      "keys": ["luka_checkin_cookie", "luka_signin_auth"],
       "author": "@blackmatrix7",
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/luka",
       "icons": [
@@ -393,7 +388,7 @@
         {
           "id": "smzdm_signin",
           "name": "执行每日签到",
-          "val": true,
+          "val": false,
           "type": "boolean",
           "desc": ""
         },
@@ -416,10 +411,7 @@
     {
       "id": "blackmatrix7.tieba",
       "name": "百度贴吧",
-      "keys": [
-        "tieba_signin_cookie",
-        "tieba_sync_qinglong"
-      ],
+      "keys": ["tieba_signin_cookie", "tieba_sync_qinglong"],
       "author": "@blackmatrix7",
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/tieba",
       "icons": [
@@ -449,12 +441,7 @@
     {
       "id": "blackmatrix7.synology",
       "name": "Synology",
-      "keys": [
-        "syno_https_url",
-        "syno_account",
-        "syno_passwd",
-        "syno_sid"
-      ],
+      "keys": ["syno_https_url", "syno_account", "syno_passwd", "syno_sid"],
       "settings": [
         {
           "id": "syno_https_url",
@@ -547,6 +534,122 @@
       "icons": [
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/applestore/icon/applestore_dark.png",
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/applestore/icon/applestore.png"
+      ]
+    },
+    {
+      "id": "blackmatrix7.testflight",
+      "name": "TestFlight",
+      "keys": [
+        "tf_app_id",
+        "tf_join_mode",
+        "tf_loop_count",
+        "tf_session_info",
+        "tf_joined_app_id",
+        "tf_invalid_app_id",
+        "tf_check_account_id",
+        "tf_join_concurrency",
+        "tf_app_use_account_id",
+        "tf_check_session_time",
+        "tf_check_session_time_diff"
+      ],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/testflight",
+      "settings": [
+        {
+          "id": "tf_sync_qinglong",
+          "name": "同步数据到青龙面板",
+          "val": false,
+          "type": "boolean",
+          "desc": "将必要数据同步至青龙面板，以执行作业"
+        },
+        {
+          "id": "tf_join_mode",
+          "name": "执行模式",
+          "val": "1",
+          "type": "radios",
+          "items": [
+            {
+              "key": "0",
+              "label": "温和"
+            },
+            {
+              "key": "1",
+              "label": "标准"
+            },
+            {
+              "key": "2",
+              "label": "暴力"
+            }
+          ],
+          "desc": "推荐使用温和与标准模式，暴力模式风险极高"
+        },
+        {
+          "id": "tf_app_id",
+          "name": "TestFlight App愿望清单",
+          "val": "",
+          "type": "input",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "等待加入的TestFlight APP Id，多个APP Id以;分隔"
+        },
+        {
+          "id": "tf_join_concurrency",
+          "name": "并发数量",
+          "val": 2,
+          "type": "number",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "当App的Beta可加入时，每个账户并发多少个请求尝试加入"
+        },
+        {
+          "id": "tf_loop_count",
+          "name": "每次运行循环次数",
+          "val": 1,
+          "type": "number",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "每次运行脚本时循环多少次，每次循环间隔800毫秒。NodeJS(非青龙面板)可设置为0，表示持续运行"
+        },
+        {
+          "id": "tf_check_session_time_diff",
+          "name": "检查Session有效性的间隔",
+          "val": 7200,
+          "type": "number",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "每间隔多少秒检查一次账户的有效性，默认7200秒"
+        },
+        {
+          "id": "tf_joined_app_id",
+          "name": "TestFlight每个账户已加入成功的AppId",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "多账户的TestFlight已加入的AppId，不建议手动修改"
+        },
+        {
+          "id": "tf_session_info",
+          "name": "TestFlight Session数据",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "多账户的TestFlight数据，仅供查看，请勿手动修改以免引发异常"
+        },
+        {
+          "id": "tf_check_account_id",
+          "name": "用于检查App Beta可否加入的AccountId",
+          "val": "",
+          "type": "input",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "选择一个账号专门用于检测TF是否可以加入，以保护主号"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/icon/testflight.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/icon/testflight.png"
       ]
     }
   ]

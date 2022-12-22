@@ -1,12 +1,12 @@
 # NAME: iQIYI
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-11-30 21:11:49
+# UPDATED: 2022-12-22 20:25:44
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 34
-# IP-CIDR: 22
+# IP-CIDR: 21
 # PROCESS-NAME: 1
-# TOTAL: 58
+# TOTAL: 57
 payload:
   - DOMAIN-SUFFIX,71.am
   - DOMAIN-SUFFIX,71.am.com
@@ -60,7 +60,6 @@ payload:
   - IP-CIDR,210.201.32.8/32
   - IP-CIDR,210.71.227.200/32
   - IP-CIDR,210.71.227.202/32
-  - IP-CIDR,223.119.62.224/28
   - IP-CIDR,23.211.15.99/32
   - IP-CIDR,23.40.241.251/32
   - IP-CIDR,23.40.242.10/32

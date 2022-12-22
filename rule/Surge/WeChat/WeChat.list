@@ -1,14 +1,14 @@
 # NAME: WeChat
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-11-30 21:12:30
+# UPDATED: 2022-12-22 20:26:37
 # DOMAIN: 7
 # DOMAIN-KEYWORD: 234
 # DOMAIN-SUFFIX: 22
-# IP-CIDR: 12
-# IP-CIDR6: 66
+# IP-CIDR: 13
+# IP-CIDR6: 64
 # USER-AGENT: 2
-# TOTAL: 343
+# TOTAL: 342
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,dldir1.qq.com
 DOMAIN,slife.xy-asia.com
@@ -284,6 +284,7 @@ IP-CIDR,112.53.11.0/24,no-resolve
 IP-CIDR,112.53.20.0/24,no-resolve
 IP-CIDR,129.226.107.244/32,no-resolve
 IP-CIDR,129.226.3.47/32,no-resolve
+IP-CIDR,162.62.163.63/32,no-resolve
 IP-CIDR6,2402:4e00:1020:10fb:0:9466::/112,no-resolve
 IP-CIDR6,2402:4e00:1430:2264:0:9467::/96,no-resolve
 IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad0:140a/128,no-resolve
@@ -331,7 +332,6 @@ IP-CIDR6,2409:8c5c:110:63::/72,no-resolve
 IP-CIDR6,240e:928:1400:10::/112,no-resolve
 IP-CIDR6,240e:93c:8:10::/60,no-resolve
 IP-CIDR6,240e:95c:2003:20::/60,no-resolve
-IP-CIDR6,240e:95c:3003:10::/60,no-resolve
 IP-CIDR6,240e:965:802:620::/60,no-resolve
 IP-CIDR6,240e:96c:6400:700::/60,no-resolve
 IP-CIDR6,240e:97c:18:601::/64,no-resolve
@@ -347,7 +347,6 @@ IP-CIDR6,240e:e1:aa00::/48,no-resolve
 IP-CIDR6,240e:e9:6003::/48,no-resolve
 IP-CIDR6,240e:f7:4f00:1f10::/60,no-resolve
 IP-CIDR6,240e:f7:a070:100::/60,no-resolve
-IP-CIDR6,240e:f7:a070:400::/60,no-resolve
 IP-CIDR6,240e:ff:9018:100::/60,no-resolve
 IP-CIDR6,240e:ff:f100::/44,no-resolve
 USER-AGENT,MicroMessenger*

@@ -12,16 +12,16 @@ iQIYIIntl规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-11-30 21:12:29
+最后更新时间：2022-12-22 20:26:37
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 1  | 
 | DOMAIN-SUFFIX | 5  | 
-| IP-CIDR | 14  | 
+| IP-CIDR | 13  | 
 | PROCESS-NAME | 2  | 
-| TOTAL | 22  | 
+| TOTAL | 21  | 
 
 
 ## Clash 

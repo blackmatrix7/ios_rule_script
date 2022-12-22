@@ -12,29 +12,23 @@ Emby规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-11-30 21:12:37
+最后更新时间：2022-12-22 20:27:01
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 3  | 
 | DOMAIN-SUFFIX | 34  | 
-| IP-CIDR | 1  | 
-| TOTAL | 38  | 
+| TOTAL | 37  | 
 
 
 ## Surge 
 
 #### 使用说明
 - Emby.list，请使用RULE-SET。
-- Emby_Resolve.list，请使用RULE-SET。
-
-#### 文件区别
-- Emby_Resolve.list与Emby.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
 - Emby.list 单独使用。
-- Emby_Resolve.list 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

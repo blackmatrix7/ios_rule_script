@@ -12,7 +12,7 @@ Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2022-12-17 02:08:47
+最后更新时间：2022-12-22 20:25:17
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -20,10 +20,10 @@ Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 | HOST | 10  | 
 | HOST-KEYWORD | 31  | 
 | HOST-SUFFIX | 25482  | 
-| IP-CIDR | 92  | 
+| IP-CIDR | 88  | 
 | IP6-CIDR | 3  | 
 | USER-AGENT | 8  | 
-| TOTAL | 25626  | 
+| TOTAL | 25622  | 
 
 
 ## QuantumultX 

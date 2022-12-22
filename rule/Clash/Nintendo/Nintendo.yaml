@@ -1,10 +1,10 @@
 # NAME: Nintendo
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-11-30 21:10:18
+# UPDATED: 2022-12-22 20:23:15
 # DOMAIN-SUFFIX: 126
-# IP-CIDR: 9
-# TOTAL: 135
+# IP-CIDR: 1
+# TOTAL: 127
 payload:
   - DOMAIN-SUFFIX,100classicbooks.com
   - DOMAIN-SUFFIX,ac-pocketcamp.com
@@ -132,12 +132,4 @@ payload:
   - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.cn
   - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net
   - DOMAIN-SUFFIX,yoshisnewisland.com
-  - IP-CIDR,104.192.0.0/12
-  - IP-CIDR,130.208.0.0/12
-  - IP-CIDR,34.112.0.0/12
-  - IP-CIDR,34.128.0.0/12
-  - IP-CIDR,34.160.0.0/12
-  - IP-CIDR,34.64.0.0/12
-  - IP-CIDR,35.176.0.0/12
-  - IP-CIDR,35.192.0.0/11
-  - IP-CIDR,35.224.0.0/12
+  - IP-CIDR,35.192.0.0/12

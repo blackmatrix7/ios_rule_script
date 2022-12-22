@@ -12,13 +12,13 @@
 
 ## 规则统计
 
-最后更新时间：2022-11-30 21:12:30
+最后更新时间：2022-12-22 20:26:37
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 32  | 
-| TOTAL | 32  | 
+| DOMAIN-SUFFIX | 33  | 
+| TOTAL | 33  | 
 
 
 ## Clash 
@@ -61,12 +61,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ## 数据来源
 
-《世纪超星》的数据来自以下链接，如与本项目的《世纪超星》规则混合使用，可能会造成规则大量重复。
-
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ShiJiChaoXing.list
-
-
-感谢以上规则作者的辛勤付出（排名不分先后）。
+当前规则未直接引用数据源。
 
 ## 最后
 

@@ -6,6 +6,7 @@ const tfSessionInfoKey = "tf_session_info";
 const tfCheckSessionTimeKey = "tf_check_session_time";
 const tfCheckSessionTimeDiffKey = "tf_check_session_time_diff";
 const tfAppUseAccountIdKey = "tf_app_use_account_id";
+const tfStorefrontId = "tf_storefront_id";
 const getSessionRegex = /^https:\/\/testflight\.apple\.com\/v3\/accounts\/(\w{8}-\w{4}-\w{4}-\w{4}-\w{12})\/apps$/;
 const getFullAppIdRegex = /^https:\/\/testflight\.apple\.com\/v3\/accounts\/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\/ru\/([a-zA-Z0-9]{8})$/;
 const modifyTFRequest = /^https:\/\/testflight\.apple\.com\/v\d\/accounts\/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\/apps\/\d+/
@@ -79,7 +80,7 @@ function modifyRequest() {
     }
   }
   if (/\/install$/.test($.request.url) && Object.keys(body).length > 0) {
-    body.storefrontId = "143441-19,29";
+    body.storefrontId = $.data.read(tfStorefrontId, "143441-19,29");
   }
   return [url, headers, JSON.stringify(body)];
 }

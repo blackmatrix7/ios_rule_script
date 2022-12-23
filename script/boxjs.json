@@ -545,6 +545,7 @@
         "tf_loop_count",
         "tf_session_info",
         "tf_joined_app_id",
+        "tf_storefront_id",
         "tf_invalid_app_id",
         "tf_check_account_id",
         "tf_join_concurrency",
@@ -645,6 +646,13 @@
           "placeholder": "",
           "autoGrow": true,
           "desc": "选择一个账号专门用于检测TF是否可以加入，以保护主号"
+        },
+        {
+          "id": "tf_storefront_id",
+          "name": "自定义storefrontId",
+          "val": "143441-19,29",
+          "type": "input",
+          "desc": "自定义storefrontId，以解决国区账号TestFlight下载App受限问题"
         }
       ],
       "icons": [

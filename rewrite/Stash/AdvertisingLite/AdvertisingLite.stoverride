@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2022-12-25 18:54:02
+desc: 最后更新时间 2022-12-26 02:12:33
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 499
-# mitm: 400
+# reject: 501
+# mitm: 402
 # force-http-engine-hosts: 6
-# total: 905
+# total: 909
 
 
 
@@ -127,6 +127,7 @@ http:
     - ^https?:\/\/api\.yikaobang\.com\.cn\/client\/main\/homePageSmallAd - reject
     - ^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/Client\/main\/startPage - reject
     - ^https?:\/\/api\.yizhibo\.com\/common\/api\/(api_)?pz$ - reject
+    - ^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd - reject
     - ^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
     - ^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject
     - ^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated - reject
@@ -158,6 +159,7 @@ http:
     - ^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg - reject
     - ^https?:\/\/appapi\.huazhu\.com:\d{4}\/client\/app\/getAppStartPage\/ - reject
     - ^https?:\/\/appconf\.mail\.163\.com\/mmad\/ - reject
+    - ^https?:\/\/apps\.api\.ke\.com\/config\/config\/(bootpage|getactivityconfig) - reject
     - ^https?:\/\/appv6\.55haitao\.com\/IflyAd\/getAd - reject
     - ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad - reject
     - ^https?:\/\/asp\.cntv\.myalicdn\.com\/.+?\?maxbr=850 - reject
@@ -606,6 +608,7 @@ http:
     - "api.yangkeduo.com"
     - "api.yikaobang.com.cn"
     - "api.yizhibo.com"
+    - "api.yonghuivip.com"
     - "api.zhuishushenqi.com"
     - "api4.bybutter.com"
     - "apis.lifeweek.com.cn"
@@ -633,6 +636,7 @@ http:
     - "appactive.1234567.com.cn"
     - "appapi.huazhu.com"
     - "appconf.mail.163.com"
+    - "apps.api.ke.com"
     - "appv6.55haitao.com"
     - "appwk.baidu.com"
     - "asp.cntv.myalicdn.com"

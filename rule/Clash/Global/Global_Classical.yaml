@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-12-25 18:50:39
+# UPDATED: 2022-12-26 02:09:19
 # DOMAIN: 170
 # DOMAIN-KEYWORD: 39
-# DOMAIN-SUFFIX: 37371
+# DOMAIN-SUFFIX: 37372
 # IP-CIDR: 106
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 37691
+# TOTAL: 37692
 payload:
   - DOMAIN,abematv.akamaized.net
   - DOMAIN,amp.akamaized.net
@@ -8836,6 +8836,7 @@ payload:
   - DOMAIN-SUFFIX,oculusrift.com
   - DOMAIN-SUFFIX,oculusvr.com
   - DOMAIN-SUFFIX,oed.com
+  - DOMAIN-SUFFIX,oemssl.cn
   - DOMAIN-SUFFIX,offerairjordanlebron.com
   - DOMAIN-SUFFIX,office365-net.cn
   - DOMAIN-SUFFIX,office365.cn

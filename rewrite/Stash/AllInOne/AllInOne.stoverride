@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2022-12-25 18:53:53
+desc: 最后更新时间 2022-12-26 02:12:25
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 3
@@ -8,10 +8,10 @@ desc: 最后更新时间 2022-12-25 18:53:53
 # http-request-script: 1
 # http-response-script: 28
 # redirect: 8
-# reject: 518
-# mitm: 552
+# reject: 520
+# mitm: 554
 # force-http-engine-hosts: 6
-# total: 1118
+# total: 1122
 
 
 
@@ -144,6 +144,7 @@ http:
     - ^https?:\/\/api\.yikaobang\.com\.cn\/client\/main\/homePageSmallAd - reject
     - ^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/Client\/main\/startPage - reject
     - ^https?:\/\/api\.yizhibo\.com\/common\/api\/(api_)?pz$ - reject
+    - ^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd - reject
     - ^https?:\/\/api\.zhihu\.com/moments/hybrid\? - reject
     - ^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations) - reject
     - ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
@@ -185,6 +186,7 @@ http:
     - ^https?:\/\/appapi\.huazhu\.com:\d{4}\/client\/app\/getAppStartPage\/ - reject
     - ^https?:\/\/appconf\.mail\.163\.com\/mmad\/ - reject
     - ^https?:\/\/apprn\.pizzahut\.com\.cn\/updateCheck\? - reject
+    - ^https?:\/\/apps\.api\.ke\.com\/config\/config\/(bootpage|getactivityconfig) - reject
     - ^https?:\/\/appv6\.55haitao\.com\/IflyAd\/getAd - reject
     - ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad - reject
     - ^https?:\/\/asp\.cntv\.myalicdn\.com\/.+?\?maxbr=850 - reject
@@ -900,6 +902,7 @@ http:
     - "api.yangkeduo.com"
     - "api.yikaobang.com.cn"
     - "api.yizhibo.com"
+    - "api.yonghuivip.com"
     - "api.zhihu.com"
     - "api.zhuishushenqi.com"
     - "api4.bybutter.com"
@@ -933,6 +936,7 @@ http:
     - "appcloud2.zhihu.com"
     - "appconf.mail.163.com"
     - "apprn.pizzahut.com.cn"
+    - "apps.api.ke.com"
     - "appv6.55haitao.com"
     - "appwk.baidu.com"
     - "asp.cntv.myalicdn.com"

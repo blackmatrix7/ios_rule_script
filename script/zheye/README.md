@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhe
 
 ### Quantumult X
 
-重写文件
+重写
 
 ```shell
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.qxrewrite

@@ -45,7 +45,7 @@ http:
       timeout: 30
       argument: '' 
 
-    # 优化知乎软件配置 - 优化下发的配置文件来实现某些效果
+    # 优化软件配置 - 优化下发的配置文件来实现某些效果
     - match: ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?
       name: zheye.js
       type: response
@@ -93,6 +93,14 @@ http:
 
     # 问题的回答列表 - 移除黑名单用户的回答、去除广告
     - match: ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+
+      name: zheye.js
+      type: response
+      require-body: true
+      timeout: 30
+      argument: ''
+
+    # 回答信息流 - 移除黑名单用户的回答、去除广告
+    - match: ^https?:\/\/api\.zhihu\.com\/next-data
       name: zheye.js
       type: response
       require-body: true

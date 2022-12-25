@@ -5,7 +5,7 @@
 ^https?:\/\/118\.89\.204\.198 url reject-200
 ^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 url reject-200
 
-# 拦截知乎开屏广告
+# 拦截开屏广告
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? url reject-dict
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? url reject-dict
 
@@ -40,7 +40,7 @@
 # 解锁本地的关键词屏蔽功能，需要开启本地VIP
 ^https?:\/\/api\.zhihu\.com\/feed-root\/block url script-analyze-echo-response https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
-# 优化知乎软件配置 - 优化下发的配置文件来实现某些效果
+# 优化软件配置 - 优化下发的配置文件来实现某些效果
 ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config url script-analyze-echo-response https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
@@ -58,6 +58,9 @@
 
 # 问题的回答列表 - 移除黑名单用户的回答、去除广告
 ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+ url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+
+# 回答信息流 - 移除黑名单用户的回答、去除广告
+^https?:\/\/api\.zhihu\.com\/next-data url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
 # 回答页底部评论摘要 - 移除黑名单用户发表的评论
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js

@@ -1,9 +1,9 @@
-#!name= 哲也同学
-#!desc= 哲也同学，你的阅读小助手
-#!openUrl= https://github.com/blackmatrix7/ios_rule_script
-#!author= blackmatrix7
-#!homepage= https://github.com/blackmatrix7/ios_rule_script
-#!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.png
+#!name=哲也同学
+#!desc=哲也同学，你的阅读小助手
+#!openUrl=https://github.com/blackmatrix7/ios_rule_script
+#!author=blackmatrix7
+#!homepage=https://github.com/blackmatrix7/ios_rule_script
+#!icon=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.png
 
 [Rule]
 # 拦截开屏广告
@@ -40,53 +40,56 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 
 [Script]
 # 获取用户信息 - 隔离用户数据，开启本地盐选会员等
-http-response ^https?:\/\/api\.zhihu\.com\/people\/ requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_处理用户信息
+http-response ^https?:\/\/api\.zhihu\.com\/people\/ requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=处理用户信息
 
 # 解锁本地的关键词屏蔽功能，需要开启本地VIP
-http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_解锁关键词屏蔽
+http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=解锁关键词屏蔽
 
-# 优化知乎软件配置 - 优化下发的配置文件来实现某些效果
-http-response ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_优化软件配置1
-http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_优化软件配置2
+# 优化软件配置 - 优化下发的配置文件来实现某些效果
+http-response ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=优化软件配置1
+http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=优化软件配置2
 
 # 用户信息 - 修改用户盐值
-http-response ^https?:\/\/api\.zhihu\.com\/user-credit\/basis requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_修改用户盐值
+http-response ^https?:\/\/api\.zhihu\.com\/user-credit\/basis requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=修改用户盐值
 
 # 关注页 - 内容优化及屏蔽转发的黑名单用户想法
-http-response ^https?:\/\/api\.zhihu\.com\/moments_v3\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_关注列表优化
+http-response ^https?:\/\/api\.zhihu\.com\/moments_v3\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=关注列表优化
 
 # 推荐页 - 移除黑名单用户发布的文章、去除广告，及自定义一些屏蔽项目
-http-response ^https:\/\/api\.zhihu\.com\/topstory\/recommend\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_推荐页优化
+http-response ^https:\/\/api\.zhihu\.com\/topstory\/recommend\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=推荐页优化
 
 # 黑名单页 - 同步黑名单数据
-http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_同步黑名单
+http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=同步黑名单
 
 # 问题的回答列表 - 移除黑名单用户的回答、去除广告
-http-response ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+ requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_回答列表优化
+http-response ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+ requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=回答列表优化
+
+# 回答信息流 - 移除黑名单用户的回答、去除广告
+^https?:\/\/api\.zhihu\.com\/next-data requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=回答信息流优化
 
 # 回答页底部评论摘要 - 移除黑名单用户发表的评论
-http-response ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_评论摘要优化
+http-response ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=评论摘要优化
 
 # 评论页及子页面 - 去除黑名单用户发表的评论
-http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_评论优化
+http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=评论优化
 
 # 消息页 - 折叠官方消息、屏蔽营销消息
-http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message) requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_消息优化
+http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message) requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=消息优化
 
 # 回答页 - 内容优化，付费、营销、推广内容文首提醒
-http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_回答内容优化
+http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=回答内容优化
 
 # 回答页 - 屏蔽下翻出现的黑名单用户的回答
-http-response ^https?:\/\/api\.zhihu\.com\/next\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_回答翻页优化
+http-response ^https?:\/\/api\.zhihu\.com\/next\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=回答翻页优化
 
 # 文章页 - 去除底部广告
-http-response ^https?:\/\/www\.zhihu\.com\/api\/v\d\/articles\/\d+\/recommendation\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_文章优化
+http-response ^https?:\/\/www\.zhihu\.com\/api\/v\d\/articles\/\d+\/recommendation\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=文章优化
 
 # 热榜页 - 去除广告
-http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_热榜优化
+http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=热榜优化
 
 # 搜索页 - 去除预置广告
-http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=知乎_预置关键词优化
+http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=预置关键词优化
 
 [MITM]
 hostname = 118.89.204.198,2402:4e00:1200:ed00:0:9089:6dac:96b6,www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,appcloud2.zhihu.com,m-cloud.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226

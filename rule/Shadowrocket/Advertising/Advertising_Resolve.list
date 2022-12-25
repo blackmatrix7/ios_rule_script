@@ -1,14 +1,14 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-12-22 20:22:15
+# UPDATED: 2022-12-25 18:47:40
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
-# DOMAIN: 14572
+# DOMAIN: 14577
 # DOMAIN-KEYWORD: 77
-# DOMAIN-SUFFIX: 77782
+# DOMAIN-SUFFIX: 77758
 # IP-CIDR: 238
-# URL-REGEX: 291
-# TOTAL: 92960
+# URL-REGEX: 286
+# TOTAL: 92936
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,adform
@@ -99,12 +99,6 @@ URL-REGEX,^https?:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[
 URL-REGEX,^https?:\/\/(a?d|sax)\d.sina.com
 URL-REGEX,^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert
 URL-REGEX,^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4)
-URL-REGEX,^https?:\/\/.+/videos/other/.+
-URL-REGEX,^https?:\/\/.+?/V\d\/splash\/getSplashV\d\.action
-URL-REGEX,^https?:\/\/.+?\.58cdn\.com\.cn\/brandads\/
-URL-REGEX,^https?:\/\/.+?\.atm\.youku\.com
-URL-REGEX,^https?:\/\/.+?\.iydsj\.com\/api\/.+?\/ad
-URL-REGEX,^https?:\/\/.+?\/allOne\.php\?ad_name
 URL-REGEX,^https?:\/\/101\.201\.175\.228\/ads\/display
 URL-REGEX,^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/
 URL-REGEX,^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/
@@ -114,6 +108,7 @@ URL-REGEX,^https?:\/\/7n\.bczcdn\.com\/launchad\/
 URL-REGEX,^https?:\/\/[\s\s]*baidu\.com/.*ad[xs]\.php
 URL-REGEX,^https?:\/\/[^bbs].tianya\.cn
 URL-REGEX,^https?:\/\/\w+?\.ximalaya\.com\/api\/v\d\/adRealTime
+URL-REGEX,^https?:\/\/\w+\.58cdn\.com\.cn\/brandads\/
 URL-REGEX,^https?:\/\/\w+\.cloudfront\.net\/banner
 URL-REGEX,^https?:\/\/\w+\.gdt\.qq\.com
 URL-REGEX,^https?:\/\/\w+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/

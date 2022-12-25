@@ -21,13 +21,13 @@ AdGuard DNS Filter 规则！！
 
 ## 规则统计
 
-最后更新时间：2022-12-22 20:26:41
+最后更新时间：2022-12-25 18:52:59
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 46889  | 
-| TOTAL | 46889  | 
+| DOMAIN | 47163  | 
+| TOTAL | 47163  | 
 
 
 ## Clash 
@@ -98,12 +98,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ## 数据来源
 
-《AdGuardSDNSFilter》的数据来自以下链接，如与本项目的《AdGuardSDNSFilter》规则混合使用，可能会造成规则大量重复。
-
-- https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-
-
-感谢以上规则作者的辛勤付出（排名不分先后）。
+当前规则未直接引用数据源。
 
 ## 最后
 

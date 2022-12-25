@@ -17,7 +17,7 @@ AdGuard DNS Filter 中的例外规则，现在单独作为Direct文件。
 
 ## 规则统计
 
-最后更新时间：2022-12-22 20:26:43
+最后更新时间：2022-12-25 18:53:00
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -66,12 +66,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ## 数据来源
 
-《AdGuardS DNS Filter Direct》的数据来自以下链接，如与本项目的《AdGuardS DNS Filter Direct》规则混合使用，可能会造成规则大量重复。
-
-- https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-
-
-感谢以上规则作者的辛勤付出（排名不分先后）。
+当前规则未直接引用数据源。
 
 ## 最后
 

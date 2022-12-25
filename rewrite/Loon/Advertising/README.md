@@ -16,14 +16,14 @@
 
 ## 规则统计
 
-最后更新时间：2022-12-23 02:12:17
+最后更新时间：2022-12-25 18:53:48
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| REJECT | 416  | 
-| MITM | 362  | 
-| TOTAL | 778  | 
+| REJECT | 544  | 
+| MITM | 491  | 
+| TOTAL | 1035  | 
 
 
 ## Loon 
@@ -74,6 +74,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/GFBG-IT/QuantumultX/main/Advertising.conf
 - https://raw.githubusercontent.com/githubacct001/QuantumultX/master/Rewrite/githubacct001.conf
 - https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/Advertising.plugin
+- https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

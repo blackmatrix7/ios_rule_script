@@ -18,7 +18,7 @@ QuantumultX需要添加部分分流规则才能生效，具体配置请参照数
 
 ## 规则统计
 
-最后更新时间：2022-12-23 02:12:21
+最后更新时间：2022-12-25 18:53:53
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -31,9 +31,9 @@ QuantumultX需要添加部分分流规则才能生效，具体配置请参照数
 | HTTP-REQUEST-SCRIPT | 1  | 
 | HTTP-RESPONSE-SCRIPT | 28  | 
 | REDIRECT | 8  | 
-| REJECT | 385  | 
-| MITM | 425  | 
-| TOTAL | 857  | 
+| REJECT | 518  | 
+| MITM | 552  | 
+| TOTAL | 1117  | 
 
 
 ## Loon 
@@ -90,6 +90,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/githubacct001/QuantumultX/master/Rewrite/githubacct001.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf
 - https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/Advertising.plugin
+- https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

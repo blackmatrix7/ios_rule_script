@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2022-12-22 20:27:03
+最后更新时间：2022-12-25 18:53:26
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -62,12 +62,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ## 数据来源
 
-《京东云计算》的数据来自以下链接，如与本项目的《京东云计算》规则混合使用，可能会造成规则大量重复。
-
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/JingdongCCC.list
-
-
-感谢以上规则作者的辛勤付出（排名不分先后）。
+当前规则未直接引用数据源。
 
 ## 最后
 

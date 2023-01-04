@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2022-12-31 02:13:26
+desc: 最后更新时间 2023-01-04 02:13:17
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 3
@@ -8,10 +8,10 @@ desc: 最后更新时间 2022-12-31 02:13:26
 # http-request-script: 1
 # http-response-script: 28
 # redirect: 8
-# reject: 529
-# mitm: 562
+# reject: 520
+# mitm: 560
 # force-http-engine-hosts: 6
-# total: 1139
+# total: 1128
 
 
 
@@ -81,7 +81,6 @@ http:
     - ^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/ - reject
     - ^https?:\/\/api-release\.wuta-cam\.com\/ad_tree - reject
     - ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v1\/sams\/sams-user\/(window\/getGoUpPlus|screen_promotion\/get) - reject
-    - ^https?:\/\/api.gotokeep.com/cauchy/growth/init - reject
     - ^https?:\/\/api4\.bybutter\.com\/v\d\/app\/placements\/\d\/advertisements - reject
     - ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
     - ^https?:\/\/api\.21jingji\.com\/ad\/ - reject
@@ -104,12 +103,7 @@ http:
     - ^https?:\/\/api\.futunn\.com\/v\d\/ad\/ - reject
     - ^https?:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/ - reject
     - ^https?:\/\/api\.gotokeep\.com\/ads - reject
-    - ^https?:\/\/api\.gotokeep\.com\/ads\/v\d\/ads\/preload - reject
-    - ^https?:\/\/api\.gotokeep\.com\/anno\/v\d\/upgrade\/check - reject
-    - ^https?:\/\/api\.gotokeep\.com\/kprime\/v\d\/popups\/primeGuide - reject
     - ^https?:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad/ - reject
-    - ^https?:\/\/api\.gotokeep\.com\/search\/v\d\/default\/keyword\/list - reject
-    - ^https?:\/\/api\.gotokeep\.com\/training\/box\/config - reject
     - ^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? - reject
     - ^https?:\/\/api\.haohaozhu\.cn\/index\.php\/home\/AppInit\/getStartPhoto - reject
     - ^https?:\/\/api\.huomao\.com\/channels\/loginAd - reject
@@ -201,8 +195,7 @@ http:
     - ^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ - reject
     - ^https?:\/\/bdsp-x\.jd\.com\/adx\/ - reject
     - ^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash - reject
-    - ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/c\/home\/searchMark - reject
-    - ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/free\/open\/advertisingV2 - reject
+    - ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/(free\/open\/advertisingV2|c\/home\/searchMark) - reject
     - ^https?:\/\/btrace\.qq\.com - reject
     - ^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+?\.jpg - reject
     - ^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
@@ -415,7 +408,6 @@ http:
     - ^https?:\/\/pages\.xiaohongshu\.com\/data\/native\/matrix_switches - reject
     - ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry - reject
     - ^https?:\/\/pan\.baidu\.com\/act\/v\d\/bchannel\/list - reject
-    - ^https?:\/\/pan\.baidu\.com\/act\/v\d\/welfare\/list - reject
     - ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad - reject
     - ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx - reject
     - ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage - reject
@@ -542,7 +534,6 @@ http:
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
     - ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do - reject
     - https?:\/\/access\.mypikpak\.com\/access_controller\/v1\/area_accessible - reject
-    - https?:\/\/api\.gotokeep\.com\/cauchy\/user\/notice\/growth\/guide - reject
     - https?:\/\/apis\.lifeweek\.com\.cn\/api\/baseConfig\/getIosNewConfig - reject
     - https?:\/\/b\.appsimg\.com\/upload\/momin\/ - reject
     - https?:\/\/dl-cu-hz\.lechange\.cn\/oms-online\/advertisementPush\/* - reject
@@ -860,7 +851,6 @@ http:
     - "api.21jingji.com"
     - "api.abema.io"
     - "api.ahmobile.cn"
-    - "api.aliyundrive.com"
     - "api.applovefrom.com"
     - "api.bjxkhc.com"
     - "api.caijingmobile.com"
@@ -1087,7 +1077,6 @@ http:
     - "js.dilidd.com"
     - "jump2.bdimg.com"
     - "jxd524.github.io"
-    - "kad.gotokeep.com"
     - "kaola-haitao.oss.kaolacdn.com"
     - "lban.spdb.com.cn"
     - "lcen.xiaote.net"

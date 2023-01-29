@@ -8,8 +8,6 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\?,REJ
 # 拦截品牌提问广告
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
-# 我的页面 - 屏蔽开通盐选会员的卡片
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card,REJECT
 # 其他拦截不影响使用的域名
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
@@ -21,9 +19,12 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 [Map Local]
 # 拦截DNS解析
 ^https?:\/\/118\.89\.204\.198 data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+^https?:\/\/103\.41\.167\.237 data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 # 屏蔽下发的配置，如皮肤等
 ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json" header="Content-Type: application/x-protobuf"
+# 屏蔽我的页面开通会员的卡片
+# ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 # 去除底部标签页关注人角标
 ^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 # 去除消息通知角标
@@ -34,9 +35,19 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 ^https?:\/\/api\.zhihu\.com\/me\/guides data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 # 去除关注页最常访问
 ^https?:\/\/api\.zhihu\.com\/moments\/recent data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+# 拦截推荐页顶部广告
+^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+# 底栏加号的广告
+^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+# 推荐页搜索栏左侧图标
+^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+# 疑似推荐页内容更新红点
+^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/tag_config data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+# 暂不清楚作用
+^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 
 [Script]
-# 获取用户信息 - 隔离用户数据，开启本地盐选会员等
+# 获取用户信息 - 隔离用户数据，开启本地会员等
 处理用户信息 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/people\/,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
 # 解锁本地的关键词屏蔽功能，需要开启本地VIP
@@ -47,7 +58,7 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 优化软件配置2 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
 # 用户信息 - 修改用户盐值
-修改用户盐值 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/user-credit\/basis,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+# 修改用户盐值 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/user-credit\/basis,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
 # 关注页 - 内容优化及屏蔽转发的黑名单用户想法
 关注列表优化 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/moments_v3\?,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
@@ -89,4 +100,4 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 预置关键词优化 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/search\/preset_words\?,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
 [MITM]
-hostname = %APPEND% 118.89.204.198,2402:4e00:1200:ed00:0:9089:6dac:96b6,www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,appcloud2.zhihu.com,m-cloud.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226
+hostname = %APPEND% 118.89.204.198,103.41.167.237,2402:4e00:1200:ed00:0:9089:6dac:96b6,www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,appcloud2.zhihu.com,m-cloud.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226

@@ -12,8 +12,6 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\?,REJ
 # 拦截品牌提问广告
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
-# 我的页面 - 屏蔽开通盐选会员的卡片
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card,REJECT
 # 其他拦截不影响使用的域名
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
@@ -24,9 +22,12 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 [URL Rewrite]
 # 拦截DNS解析
 ^https?:\/\/118\.89\.204\.198 - reject-dict
+^https?:\/\/103\.41\.167\.237 - reject-dict
 ^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 - reject-dict
 # 屏蔽下发的配置，如皮肤等
 ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject-dict
+# 屏蔽我的页面开通会员的卡片
+# ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject-dict
 # 去除底部标签页关注人角标
 ^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 - reject-dict
 # 去除消息通知角标
@@ -36,10 +37,20 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 # 拦截应用内弹窗
 ^https?:\/\/api\.zhihu\.com\/me\/guides - reject-dict
 # 去除关注页最常访问
-^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict  
+^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict
+# 拦截推荐页顶部广告
+^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config - reject-dict
+# 底栏加号的广告
+^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings - reject-dict
+# 推荐页搜索栏左侧图标
+^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading - reject-dict
+# 疑似推荐页内容更新红点
+^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/tag_config - reject-dict
+# 暂不清楚作用
+^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner - reject-dict
 
 [Script]
-# 获取用户信息 - 隔离用户数据，开启本地盐选会员等
+# 获取用户信息 - 隔离用户数据，开启本地会员等
 http-response ^https?:\/\/api\.zhihu\.com\/people\/ requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=处理用户信息
 
 # 解锁本地的关键词屏蔽功能，需要开启本地VIP
@@ -92,4 +103,4 @@ http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) requires-
 http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=预置关键词优化
 
 [MITM]
-hostname = 118.89.204.198,2402:4e00:1200:ed00:0:9089:6dac:96b6,www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,appcloud2.zhihu.com,m-cloud.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226
+hostname = 118.89.204.198,103.41.167.237,2402:4e00:1200:ed00:0:9089:6dac:96b6,www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,appcloud2.zhihu.com,m-cloud.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226

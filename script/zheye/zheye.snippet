@@ -2,8 +2,15 @@
 # 哲也同学，你的阅读小助手
 
 # 拦截DNS解析
-^https?:\/\/118\.89\.204\.198 url reject-200
+^https?:\/\/118\.89\.204\.198 url reject-dict
+^https?:\/\/103\.41\.167\.237 url reject-dict
 ^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 url reject-200
+
+# 屏蔽下发的配置，如皮肤等
+^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config url reject
+
+# 屏蔽我的页面开通会员的卡片
+# ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card url reject
 
 # 拦截开屏广告
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? url reject-dict
@@ -12,9 +19,6 @@
 # 拦截品牌提问广告
 ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? url reject-dict
 ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? url reject-dict
-
-# 屏蔽下发的配置，如皮肤等
-^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config url reject
 
 # 去除底部标签页关注人角标
 ^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 url reject-dict
@@ -31,10 +35,22 @@
 # 去除关注页最常访问
 ^https?:\/\/api\.zhihu\.com\/moments\/recent url reject-dict
 
-# 我的页面 - 屏蔽开通盐选会员的卡片
-^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card url reject
+# 拦截推荐页顶部广告
+^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config url reject-dict
 
-# 获取用户信息 - 隔离用户数据，开启本地盐选会员等
+# 底栏加号的广告
+^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings url reject-dict
+
+# 推荐页搜索栏左侧图标
+^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading url reject-dict
+
+# 疑似推荐页内容更新红点
+^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/tag_config url reject-dict
+
+# 暂不清楚作用
+^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner url reject-dict
+
+# 获取用户信息 - 隔离用户数据，开启本地会员等
 ^https?:\/\/api\.zhihu\.com\/people\/ url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
 # 解锁本地的关键词屏蔽功能，需要开启本地VIP
@@ -51,7 +67,7 @@
 ^https?:\/\/api\.zhihu\.com\/moments_v3\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
 # 推荐页 - 移除黑名单用户发布的文章、去除广告，及自定义一些屏蔽项目
-^https:\/\/api\.zhihu\.com\/topstory\/recommend\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+^https:\/\/api\.zhihu\.com\/topstory\/recommend url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
 # 黑名单页 - 同步黑名单数据
 ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
@@ -86,4 +102,4 @@
 # 搜索页 - 去除预置广告
 ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
-hostname = 118.89.204.198,2402:4e00:1200:ed00:0:9089:6dac:96b6,www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,appcloud2.zhihu.com,m-cloud.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226
+hostname = 118.89.204.198,103.41.167.237,2402:4e00:1200:ed00:0:9089:6dac:96b6,www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,appcloud2.zhihu.com,m-cloud.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226

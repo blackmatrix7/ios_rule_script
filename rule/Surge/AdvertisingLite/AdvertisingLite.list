@@ -1,15 +1,15 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-12-25 18:47:14
+# UPDATED: 2023-01-29 23:00:11
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # AND: 1
 # DOMAIN: 23678
 # DOMAIN-KEYWORD: 27
-# DOMAIN-SUFFIX: 13497
+# DOMAIN-SUFFIX: 13527
 # IP-CIDR: 184
-# URL-REGEX: 280
-# TOTAL: 37667
+# URL-REGEX: 279
+# TOTAL: 37696
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,adsage
@@ -333,7 +333,6 @@ URL-REGEX,^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit
 URL-REGEX,^https?:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/
 URL-REGEX,^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/
 URL-REGEX,^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+?\?maxbr=850
-URL-REGEX,^https?:\/\/consumer\.fcbox\.com\/v\d\/ad\/
 URL-REGEX,^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$
 URL-REGEX,^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do
 URL-REGEX,^https?:\/\/d\.zhangle\.com\/pic\/cft\/interaction\/\d{13}-1242-2248\.jpg

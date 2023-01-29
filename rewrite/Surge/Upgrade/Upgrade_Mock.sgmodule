@@ -1,10 +1,10 @@
 #!name=Upgrade
-#!desc=最后更新时间 2022-12-25 18:53:59
+#!desc=最后更新时间 2023-01-29 23:05:49
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=11
-#!mitm=11
-#!total=22
+#!reject=10
+#!mitm=10
+#!total=20
 
 [URL Rewrite]
 "^https?:\/\/api\.ishansong\.com\/app\/check\/v\d+\/check" - reject
@@ -18,8 +18,7 @@
 "^https?:\/\/apprn\.pizzahut\.com\.cn\/updateCheck\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/capis(-?\w*)?\.didapinche\.com\/publish\/api\/upgrade" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/consumer\.fcbox\.com\/v1\/version\/getNewVersion" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/sso\.lxjapp\.com\/\/chims\/servlet\/csGetLatestSoftwareVersionServlet" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 [MITM]
-hostname = %APPEND% api.ishansong.com,api.m.jd.com,apimobile.meituan.com,apprn.pizzahut.com.cn,capis*.didapinche.com,ccsp-egmas.sf-express.com,consumer.fcbox.com,fmapp.chinafamilymart.com.cn,m.client.10010.com,sso.lxjapp.com,www.meituan.com
+hostname = %APPEND% api.ishansong.com,api.m.jd.com,apimobile.meituan.com,apprn.pizzahut.com.cn,capis*.didapinche.com,ccsp-egmas.sf-express.com,fmapp.chinafamilymart.com.cn,m.client.10010.com,sso.lxjapp.com,www.meituan.com

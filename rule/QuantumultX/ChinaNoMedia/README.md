@@ -15,18 +15,18 @@ ChinaNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-01-02 02:11:45
+最后更新时间：2023-01-29 23:04:38
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 18  | 
 | HOST-KEYWORD | 9  | 
-| HOST-SUFFIX | 3447  | 
+| HOST-SUFFIX | 3451  | 
 | IP-CIDR | 10  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 31  | 
-| TOTAL | 3519  | 
+| TOTAL | 3523  | 
 
 
 ## QuantumultX 

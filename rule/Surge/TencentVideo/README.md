@@ -12,23 +12,31 @@
 
 ## 规则统计
 
-最后更新时间：2022-12-25 18:51:48
+最后更新时间：2023-01-29 23:03:48
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
+| DOMAIN | 12  | 
 | DOMAIN-SUFFIX | 3  | 
+| IP-CIDR | 3  | 
+| IP-CIDR6 | 29  | 
 | USER-AGENT | 2  | 
-| TOTAL | 5  | 
+| TOTAL | 49  | 
 
 
 ## Surge 
 
 #### 使用说明
 - TencentVideo.list，请使用RULE-SET。
+- TencentVideo_Resolve.list，请使用RULE-SET。
+
+#### 文件区别
+- TencentVideo_Resolve.list与TencentVideo.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
 - TencentVideo.list 单独使用。
+- TencentVideo_Resolve.list 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

@@ -1,14 +1,14 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-01-02 02:10:40
-# HOST: 18
+# UPDATED: 2023-01-29 23:03:33
+# HOST: 27
 # HOST-KEYWORD: 9
-# HOST-SUFFIX: 3526
-# IP-CIDR: 10
+# HOST-SUFFIX: 3528
+# IP-CIDR: 15
 # IP6-CIDR: 4
 # USER-AGENT: 31
-# TOTAL: 3598
+# TOTAL: 3614
 HOST,analytics.strava.com,China
 HOST,blzddist1-a.akamaihd.net,China
 HOST,cdn.angruo.com,China
@@ -16,16 +16,25 @@ HOST,cdp.cloud.unity3d.com,China
 HOST,client.amplifi.com,China
 HOST,dl.google.com,China
 HOST,download.jetbrains.com,China
+HOST,download.microsoft.com,China
+HOST,file-igamecj.akamaized.net,China
+HOST,geetest.datasink.sensorsdata.cn,China
 HOST,images-cn.ssl-images-amazon.com,China
+HOST,ip.bjango.com,China
 HOST,ip.istatmenus.app,China
 HOST,kc.kexinshe.com,China
+HOST,moocs.unipus.cn,China
 HOST,mtalk.google.com,China
+HOST,ntservicepack.microsoft.com,China
+HOST,officecdn-microsoft-com.akamaized.net,China
 HOST,origin-a.akamaihd.ne,China
 HOST,origin-a.akamaihd.net,China
 HOST,outlook.office365.com,China
 HOST,sms.imagetasks.com,China
+HOST,smtp-mail.outlook.com,China
 HOST,smtp.office365.com,China
-HOST,steamcommunity-a.akamaihd.net,China
+HOST,upos-hz-mirrorakam.akamaized.net,China
+HOST,wustat.windows.com,China
 HOST,www.libvideo.com,China
 HOST-SUFFIX,00cdn.com,China
 HOST-SUFFIX,0123456789.com,China
@@ -65,6 +74,7 @@ HOST-SUFFIX,163industry.com,China
 HOST-SUFFIX,163mail.com,China
 HOST-SUFFIX,163qiyukf.com,China
 HOST-SUFFIX,163yun.com,China
+HOST-SUFFIX,166.com,China
 HOST-SUFFIX,166.net,China
 HOST-SUFFIX,1688.com,China
 HOST-SUFFIX,16888.com,China
@@ -141,6 +151,7 @@ HOST-SUFFIX,360taojin.com,China
 HOST-SUFFIX,360top.com,China
 HOST-SUFFIX,360totalsecurity.com,China
 HOST-SUFFIX,360tpcdn.com,China
+HOST-SUFFIX,360tres.com,China
 HOST-SUFFIX,360webcache.com,China
 HOST-SUFFIX,360zhyx.com,China
 HOST-SUFFIX,360zqaq.com,China
@@ -567,6 +578,7 @@ HOST-SUFFIX,biligame.co,China
 HOST-SUFFIX,biligame.com,China
 HOST-SUFFIX,biligame.net,China
 HOST-SUFFIX,biligo.com,China
+HOST-SUFFIX,biliintl.com,China
 HOST-SUFFIX,bilivideo.com,China
 HOST-SUFFIX,bilivideo.net,China
 HOST-SUFFIX,bio-equip.com,China
@@ -1722,6 +1734,7 @@ HOST-SUFFIX,indienova.com,China
 HOST-SUFFIX,infinitynewtab.com,China
 HOST-SUFFIX,infoq.com,China
 HOST-SUFFIX,infoqstatic.com,China
+HOST-SUFFIX,inftab.com,China
 HOST-SUFFIX,intltencentcos.com,China
 HOST-SUFFIX,iop.org,China
 HOST-SUFFIX,ip-cdn.com,China
@@ -2311,7 +2324,6 @@ HOST-SUFFIX,mubu.com,China
 HOST-SUFFIX,mukewang.com,China
 HOST-SUFFIX,mumayi.com,China
 HOST-SUFFIX,muomou.com,China
-HOST-SUFFIX,musical.ly,China
 HOST-SUFFIX,muwai.com,China
 HOST-SUFFIX,muyewx.com,China
 HOST-SUFFIX,muzhiwan.com,China
@@ -2458,9 +2470,7 @@ HOST-SUFFIX,paopaoche.net,China
 HOST-SUFFIX,papocket.com,China
 HOST-SUFFIX,passthepopcorn.me,China
 HOST-SUFFIX,paypal-mktg.com,China
-HOST-SUFFIX,paypal.com,China
 HOST-SUFFIX,paypal.me,China
-HOST-SUFFIX,paypalobjects.com,China
 HOST-SUFFIX,pc6.com,China
 HOST-SUFFIX,pcbeta.com,China
 HOST-SUFFIX,pchome.net,China
@@ -3509,6 +3519,7 @@ HOST-SUFFIX,zhuancorp.com,China
 HOST-SUFFIX,zhuangjiba.com,China
 HOST-SUFFIX,zhuanspirit.com,China
 HOST-SUFFIX,zhuanyewanjia.com,China
+HOST-SUFFIX,zhuanzfx.com,China
 HOST-SUFFIX,zhuanzhuan.com,China
 HOST-SUFFIX,zhuayoukong.com,China
 HOST-SUFFIX,zhubajie.com,China
@@ -3594,13 +3605,18 @@ USER-AGENT,hearthstone*,China
 USER-AGENT,hide*,China
 USER-AGENT,ting_en,China
 IP-CIDR,1.255.62.0/24,China
+IP-CIDR,101.32.104.0/21,China
 IP-CIDR,101.32.118.0/23,China
 IP-CIDR,101.32.96.0/20,China
 IP-CIDR,119.28.28.28/32,China
 IP-CIDR,129.226.0.0/16,China
 IP-CIDR,182.254.116.0/24,China
 IP-CIDR,183.128.0.0/11,China
-IP-CIDR,185.188.32.0/22,China
+IP-CIDR,183.131.48.0/20,China
+IP-CIDR,185.188.32.0/24,China
+IP-CIDR,185.188.33.0/24,China
+IP-CIDR,185.188.34.0/24,China
+IP-CIDR,185.188.35.0/24,China
 IP-CIDR,203.205.238.0/23,China
 IP-CIDR,203.205.254.0/23,China
 IP6-CIDR,2a0b:b580::/48,China

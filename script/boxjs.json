@@ -366,6 +366,7 @@
         "smzdm_signin",
         "smzdm_mission",
         "smzdm_lottery",
+        "smzdm_blackroom",
         "smzdm_sync_qinglong"
       ],
       "author": "@blackmatrix7",
@@ -405,6 +406,13 @@
         {
           "id": "smzdm_lottery",
           "name": "执行每日抽奖",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "smzdm_blackroom",
+          "name": "脚本运行时进行黑号检测",
           "val": false,
           "type": "boolean",
           "desc": ""

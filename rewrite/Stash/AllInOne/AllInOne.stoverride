@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2023-01-29 23:05:44
+desc: 最后更新时间 2023-02-01 02:15:39
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 3
@@ -8,10 +8,10 @@ desc: 最后更新时间 2023-01-29 23:05:44
 # http-request-script: 1
 # http-response-script: 28
 # redirect: 8
-# reject: 510
-# mitm: 555
+# reject: 512
+# mitm: 557
 # force-http-engine-hosts: 6
-# total: 1113
+# total: 1117
 
 
 
@@ -176,6 +176,7 @@ http:
     - ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/ - reject
     - ^https?:\/\/app\.ddpai\.com\/d\/api\/v\d\/config\/get\/bootscreen - reject
     - ^https?:\/\/app\.dewu\.com\/api\/v\d\/app\/advertisement\/ - reject
+    - ^https?:\/\/app\.homeinns\.com\/api\/landing - reject
     - ^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad - reject
     - ^https?:\/\/app\.peopleapp\.com\/Api\/\d+/HomeApi\/getAdvertImage - reject
     - ^https?:\/\/app\.poizon\.com\/api\/v\d\/app\/advertisement\/ - reject
@@ -397,6 +398,7 @@ http:
     - ^https?:\/\/oss\.umetrip\.com\/fs\/advert\/polite\/ - reject
     - ^https?:\/\/otheve\.beacon\.qq\.com\/analytics\/upload\?sid=.* - reject
     - ^https?:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads - reject
+    - ^https?:\/\/p0\.pipi\.cn\/adAdmin\/\w+.jpg\? - reject
     - ^https?:\/\/p\.du\.163\.com\/ad\/ - reject
     - ^https?:\/\/p\.kuaidi100\.com\/mobile\/(mainapi|mobileapi)\.do - reject
     - ^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg - reject
@@ -914,6 +916,7 @@ http:
     - "app.biliintl.com"
     - "app.ddpai.com"
     - "app.dewu.com"
+    - "app.homeinns.com"
     - "app.mixcapp.com"
     - "app.poizon.com"
     - "app.relxtech.com"
@@ -1137,6 +1140,7 @@ http:
     - "p*.meituan.net"
     - "p.du.163.com"
     - "p.kuaidi100.com"
+    - "p0.pipi.cn"
     - "pan.baidu.com"
     - "passport.biliintl.com"
     - "peisongapi.meituan.com"

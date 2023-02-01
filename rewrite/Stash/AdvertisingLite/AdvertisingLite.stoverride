@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-01-29 23:05:52
+desc: 最后更新时间 2023-02-01 02:15:50
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 492
-# mitm: 404
+# reject: 494
+# mitm: 406
 # force-http-engine-hosts: 6
-# total: 902
+# total: 906
 
 
 
@@ -150,6 +150,7 @@ http:
     - ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/ - reject
     - ^https?:\/\/app\.ddpai\.com\/d\/api\/v\d\/config\/get\/bootscreen - reject
     - ^https?:\/\/app\.dewu\.com\/api\/v\d\/app\/advertisement\/ - reject
+    - ^https?:\/\/app\.homeinns\.com\/api\/landing - reject
     - ^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad - reject
     - ^https?:\/\/app\.peopleapp\.com\/Api\/\d+/HomeApi\/getAdvertImage - reject
     - ^https?:\/\/app\.poizon\.com\/api\/v\d\/app\/advertisement\/ - reject
@@ -367,6 +368,7 @@ http:
     - ^https?:\/\/oss\.umetrip\.com\/fs\/advert\/polite\/ - reject
     - ^https?:\/\/otheve\.beacon\.qq\.com\/analytics\/upload\?sid=.* - reject
     - ^https?:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads - reject
+    - ^https?:\/\/p0\.pipi\.cn\/adAdmin\/\w+.jpg\? - reject
     - ^https?:\/\/p\.du\.163\.com\/ad\/ - reject
     - ^https?:\/\/p\.kuaidi100\.com\/mobile\/(mainapi|mobileapi)\.do - reject
     - ^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg - reject
@@ -616,6 +618,7 @@ http:
     - "app.badmintoncn.com"
     - "app.ddpai.com"
     - "app.dewu.com"
+    - "app.homeinns.com"
     - "app.mixcapp.com"
     - "app.peopleapp.com"
     - "app.poizon.com"
@@ -813,6 +816,7 @@ http:
     - "p*.meituan.net"
     - "p.du.163.com"
     - "p.kuaidi100.com"
+    - "p0.pipi.cn"
     - "pan.baidu.com"
     - "peisongapi.meituan.com"
     - "pic*.ajkimg.com"

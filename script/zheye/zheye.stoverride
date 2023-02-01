@@ -48,7 +48,7 @@ http:
       timeout: 30
       argument: ''
 
-    # 解锁本地的关键词屏蔽功能，需要开启本地VIP
+    # 关键词屏蔽 - 解锁本地的关键词屏蔽功能，需要开启本地VIP
     - match: ^https?:\/\/api\.zhihu\.com\/feed-root\/block
       name: zheye.js
       type: request

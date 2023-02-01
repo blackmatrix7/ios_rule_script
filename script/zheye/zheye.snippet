@@ -53,7 +53,7 @@
 # 获取用户信息 - 隔离用户数据，开启本地会员等
 ^https?:\/\/api\.zhihu\.com\/people\/ url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
-# 解锁本地的关键词屏蔽功能，需要开启本地VIP
+# 关键词屏蔽 - 解锁本地的关键词屏蔽功能，需要开启本地VIP
 ^https?:\/\/api\.zhihu\.com\/feed-root\/block url script-analyze-echo-response https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
 
 # 优化软件配置 - 优化下发的配置文件来实现某些效果

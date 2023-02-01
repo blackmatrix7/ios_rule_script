@@ -6,7 +6,7 @@
 
 模块
 
-```shell
+```ini
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.sgmodule
 ```
 
@@ -14,15 +14,15 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhe
 
 重写
 
-```shell
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.qxrewrite
+```ini
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet
 ```
 
 ### Loon
 
 插件
 
-```shell
+```ini
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.lnplugin
 ```
 
@@ -30,7 +30,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhe
 
 覆写
 
-```shell
+```ini
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.stoverride
 ```
 

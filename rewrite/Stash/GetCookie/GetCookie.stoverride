@@ -1,10 +1,10 @@
 name: 获取签到脚本Cookie
-desc: 最后更新时间 2023-01-29 23:05:49
+desc: 最后更新时间 2023-02-02 14:54:07
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# http-request-script: 13
-# mitm: 11
-# total: 24
+# http-request-script: 8
+# mitm: 7
+# total: 15
 
 
 
@@ -27,7 +27,7 @@ http:
       timeout: 30
       argument: 
     # 什么值得买_获取cookie
-    - match: ^https?:\/\/zhiyou\.smzdm\.com\/user$
+    - match: ^https?:\/\/user-api\.smzdm\.com\/checkin$
       name: smzdm_daily.js_7fcabffe
       type: request
       require-body: false
@@ -45,13 +45,6 @@ http:
       name: manmanbuy_checkin.js_d03e4443
       type: request
       require-body: true
-      timeout: 30
-      argument: 
-    # 美团买菜_获取cookie
-    - match: ^https?:\/\/mall\.meituan\.com\/api\/c\/mallcoin\/checkIn\/getWeekCheckInProgressBar\?
-      name: maicai_checkin.js_b66f2603
-      type: request
-      require-body: false
       timeout: 30
       argument: 
     # 贴吧_获取cookie1
@@ -75,63 +68,25 @@ http:
       require-body: false
       timeout: 30
       argument: 
-    # 饿了么_Cookies
-    - match: ^https?:\/\/air\.tb\.ele\.me\/app\/conch-page\/svip-foodie-card\/home
-      name: eleme_daily.js_1b50bb89
-      type: request
-      require-body: false
-      timeout: 30
-      argument: 
-    # 饿了么_获取坐标1
-    - match: ^https?:\/\/air\.tb\.ele\.me\/app\/conch-page\/svip-home-tasklist-new\/home
-      name: eleme_daily.js_1b50bb89
-      type: request
-      require-body: false
-      timeout: 30
-      argument: 
-    # 饿了么_获取坐标2
-    - match: ^https?:\/\/tb\.ele\.me\/wow\/alsc\/mod
-      name: eleme_daily.js_1b50bb89
-      type: request
-      require-body: false
-      timeout: 30
-      argument: 
-    # 饿了么_获取坐标3
-    - match: ^https?:\/\/h5\.ele\.me\/restapi\/biz\.svip_scene\/svip\/engine\/queryTrafficSupply
-      name: eleme_daily.js_1b50bb89
-      type: request
-      require-body: false
-      timeout: 30
-      argument: 
 
   mitm:
-    - "air.tb.ele.me"
     - "apph5.manmanbuy.com"
     - "c.tieba.baidu.com"
     - "fmapp.chinafamilymart.com.cn"
-    - "h5.ele.me"
     - "luka-graphql.ling.cn"
     - "maicai.api.ddxq.mobi"
-    - "mall.meituan.com"
-    - "tb.ele.me"
     - "tiebac.baidu.com"
-    - "zhiyou.smzdm.com"
+    - "user-api.smzdm.com"
 
 script-providers:
   dingdong_checkin.js_03462fc2:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js
-    interval: 86400
-  eleme_daily.js_1b50bb89:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js
     interval: 86400
   famijia_checkin.js_515b8868:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js
     interval: 86400
   luka_signin.js_b550a422:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka_signin.js
-    interval: 86400
-  maicai_checkin.js_b66f2603:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js
     interval: 86400
   manmanbuy_checkin.js_d03e4443:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js

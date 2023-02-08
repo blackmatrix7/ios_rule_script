@@ -14,21 +14,18 @@
 
 ## 规则统计
 
-最后更新时间：2023-01-29 23:05:49
+最后更新时间：2023-02-02 14:54:06
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 3  | 
-| IP-CIDR | 1  | 
-| IP-CIDR6 | 1  | 
+| DOMAIN | 5  | 
 | URL-REGEX | 4  | 
-| USER-AGENT | 1  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
-| HTTP-RESPONSE-SCRIPT | 28  | 
-| REJECT | 18  | 
-| MITM | 23  | 
-| TOTAL | 80  | 
+| HTTP-RESPONSE-SCRIPT | 31  | 
+| REJECT | 13  | 
+| MITM | 27  | 
+| TOTAL | 81  | 
 
 
 ## Loon 
@@ -67,9 +64,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《脚本去广告》的数据来自以下链接，如与本项目的《脚本去广告》规则混合使用，可能造成部分重写重复。
 
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.lnplugin
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.lnplugin
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.sgmodule
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.lnplugin
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.lnplugin
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

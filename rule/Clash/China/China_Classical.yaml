@@ -1,13 +1,13 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-01-29 23:03:33
+# UPDATED: 2023-02-06 02:10:15
 # DOMAIN: 18
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3531
+# DOMAIN-SUFFIX: 3548
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3572
+# TOTAL: 3589
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -460,6 +460,7 @@ payload:
   - DOMAIN-SUFFIX,apigwtencent.com
   - DOMAIN-SUFFIX,apk3.com
   - DOMAIN-SUFFIX,apk8.com
+  - DOMAIN-SUFFIX,aplaybox.com
   - DOMAIN-SUFFIX,apollo.auto
   - DOMAIN-SUFFIX,appchina.com
   - DOMAIN-SUFFIX,appeeres.com
@@ -740,6 +741,12 @@ payload:
   - DOMAIN-SUFFIX,cecport.com
   - DOMAIN-SUFFIX,centanet.com
   - DOMAIN-SUFFIX,cerambath.org
+  - DOMAIN-SUFFIX,cf-ns.com
+  - DOMAIN-SUFFIX,cf-ns.net
+  - DOMAIN-SUFFIX,cf-ns.site
+  - DOMAIN-SUFFIX,cf-ns.tech
+  - DOMAIN-SUFFIX,cftest7.com
+  - DOMAIN-SUFFIX,cftest8.com
   - DOMAIN-SUFFIX,cfund108.com
   - DOMAIN-SUFFIX,cfzq.com
   - DOMAIN-SUFFIX,cgws.com
@@ -869,6 +876,12 @@ payload:
   - DOMAIN-SUFFIX,clouddatong.com
   - DOMAIN-SUFFIX,clouddn.com
   - DOMAIN-SUFFIX,clouddongying.com
+  - DOMAIN-SUFFIX,cloudflare-cn.com
+  - DOMAIN-SUFFIX,cloudflarecn.net
+  - DOMAIN-SUFFIX,cloudflareinsights-cn.com
+  - DOMAIN-SUFFIX,cloudflareprod.com
+  - DOMAIN-SUFFIX,cloudflarestaging.com
+  - DOMAIN-SUFFIX,cloudflarestoragegw.com
   - DOMAIN-SUFFIX,cloudfoshan.com
   - DOMAIN-SUFFIX,cloudfront-cn.net
   - DOMAIN-SUFFIX,cloudfuqing.com
@@ -1100,6 +1113,7 @@ payload:
   - DOMAIN-SUFFIX,dfham.com
   - DOMAIN-SUFFIX,dfkhgj.com
   - DOMAIN-SUFFIX,dginfo.com
+  - DOMAIN-SUFFIX,dgjy.net
   - DOMAIN-SUFFIX,dgphospital.com
   - DOMAIN-SUFFIX,dgtle.com
   - DOMAIN-SUFFIX,dianchacha.com
@@ -1276,6 +1290,7 @@ payload:
   - DOMAIN-SUFFIX,fanxian.com
   - DOMAIN-SUFFIX,fastapi.net
   - DOMAIN-SUFFIX,fastcdn.com
+  - DOMAIN-SUFFIX,fdcyun.com
   - DOMAIN-SUFFIX,feihuo.com
   - DOMAIN-SUFFIX,feiliao.com
   - DOMAIN-SUFFIX,feiniaomy.com
@@ -2260,6 +2275,7 @@ payload:
   - DOMAIN-SUFFIX,mikecrm.com
   - DOMAIN-SUFFIX,minapp.com
   - DOMAIN-SUFFIX,mincdn.com
+  - DOMAIN-SUFFIX,mingyuanyun.com
   - DOMAIN-SUFFIX,minhangshi.com
   - DOMAIN-SUFFIX,minitiao.com
   - DOMAIN-SUFFIX,mipcdn.com
@@ -2335,6 +2351,7 @@ payload:
   - DOMAIN-SUFFIX,myilibrary.com
   - DOMAIN-SUFFIX,myip.la
   - DOMAIN-SUFFIX,myoppo.com
+  - DOMAIN-SUFFIX,mypaas.com
   - DOMAIN-SUFFIX,myqcloud.com
   - DOMAIN-SUFFIX,myshow360.net
   - DOMAIN-SUFFIX,mysiteres.com

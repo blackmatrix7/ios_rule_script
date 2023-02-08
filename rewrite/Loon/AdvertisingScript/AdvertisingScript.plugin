@@ -1,61 +1,52 @@
 #!name= AdvertisingScript
-#!desc= 最后更新时间 2023-01-29 23:05:49
+#!desc= 最后更新时间 2023-02-02 14:54:06
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!domain= 3
-#!ip-cidr= 1
-#!ip-cidr6= 1
+#!domain= 5
 #!url-regex= 4
-#!user-agent= 1
 #!http-request-script= 1
-#!http-response-script= 28
-#!reject= 18
-#!mitm= 23
-#!total= 80
+#!http-response-script= 31
+#!reject= 13
+#!mitm= 27
+#!total= 81
 
 [Rule]
-DOMAIN,118.89.204.198,REJECT
+DOMAIN,appcloud.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,crash2.zhihu.com,REJECT
 DOMAIN,mqtt.zhihu.com,REJECT
-IP-CIDR,118.89.204.198/32,REJECT,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
+DOMAIN,sugar.zhihu.com,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
-URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\?,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\?,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
-URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription),REJECT
-USER-AGENT,AVOS*,REJECT
 
 
 [URL Rewrite]
-^https?:\/\/api\.zhihu\.com/moments/hybrid\? - reject-dict
-^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations) - reject-dict
-^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject-200
-^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject-dict
-^https?:\/\/api\.zhihu\.com\/explore\/entry\/tips - reject
-^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict
-^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 - reject-dict
-^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject-200
+^https?:\/\/103\.41\.167\.237 - reject-dict
+^https?:\/\/118\.89\.204\.198 - reject-dict
+^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 - reject-dict
+^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count) - reject-dict
+^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject-dict
+^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config - reject-dict
+^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner - reject-dict
+^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings - reject-dict
+^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading - reject-dict
+^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject-dict
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul - reject
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul - reject
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul - reject
-^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject-dict
-^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject-dict
-^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject-dict
-^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject-dict
-^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) - reject
-^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject-dict
-^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject-dict
 [Script]
-# 知乎_屏蔽关键字解锁
-http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_屏蔽关键字解锁
+# 哲也_解锁关键词屏蔽
+http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=哲也_解锁关键词屏蔽
 # BiliBili_开屏去广告
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,requires-body=1,tag=BiliBili_开屏去广告
 # Fa米家_开屏去广告
 http-response ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js,requires-body=1,tag=Fa米家_开屏去广告
 # 京东_开屏去广告
-http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=京东_开屏去广告
+http-response ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=京东_开屏去广告
 # 什么值得买_值会员权益中心banner广告
 http-response ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,requires-body=1,timeout=10,tag=什么值得买_值会员权益中心banner广告
 # 什么值得买_好价去广告
@@ -72,40 +63,46 @@ http-response ^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10 script-path=https://r
 http-response ^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,requires-body=1,timeout=10,tag=什么值得买_百科去广告
 # 什么值得买_首页去广告
 http-response ^https?:\/\/homepage-api\.smzdm\.com\/v3\/home script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,requires-body=1,timeout=10,tag=什么值得买_首页去广告
+# 哲也_优化软件配置1
+http-response ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_优化软件配置1
+# 哲也_优化软件配置2
+http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_优化软件配置2
+# 哲也_修改用户盐值
+http-response ^https?:\/\/api\.zhihu\.com\/user-credit\/basis script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_修改用户盐值
+# 哲也_关注列表优化
+http-response ^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_关注列表优化
+# 哲也_同步黑名单
+http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_同步黑名单
+# 哲也_回答内容优化
+http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_回答内容优化
+# 哲也_回答列表优化
+http-response ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+ script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_回答列表优化
+# 哲也_回答翻页优化
+http-response ^https?:\/\/api\.zhihu\.com\/next\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_回答翻页优化
+# 哲也_处理用户信息
+http-response ^https?:\/\/api\.zhihu\.com\/people script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_处理用户信息
+# 哲也_推荐页优化
+http-response ^https?:\/\/api\.zhihu\.com\/moments\/recent script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_推荐页优化
+# 哲也_文章优化
+http-response ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_文章优化
+# 哲也_消息优化
+http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_消息优化
+# 哲也_热榜优化
+http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_热榜优化
+# 哲也_评论优化
+http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_评论优化
+# 哲也_评论摘要优化
+http-response ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_评论摘要优化
+# 哲也_预置关键词优化
+http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_预置关键词优化
 # 嘀嗒出行_开屏去广告
-http-response ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=嘀嗒出行_开屏去广告
+http-response ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,requires-body=1,tag=嘀嗒出行_开屏去广告
 # 多点_开屏去广告
 http-response ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=多点_开屏去广告
-# 小爱音箱_开屏去广告
-http-response ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=小爱音箱_开屏去广告
-# 知乎_优化软件配置
-http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_优化软件配置
-# 知乎_信息流去广告及黑名单增强
-http-response ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_信息流去广告及黑名单增强
-# 知乎_回答内容优化
-http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_回答内容优化
-# 知乎_回答列表去广告
-http-response ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+ script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_回答列表去广告
-# 知乎_处理用户信息
-http-response ^https?:\/\/api\.zhihu\.com\/people script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_处理用户信息
-# 知乎_官方消息去广告
-http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_官方消息去广告
-# 知乎_热搜去广告
-http-response ^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_热搜去广告
-# 知乎_热榜去广告
-http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_热榜去广告
-# 知乎_移除推荐页顶部项
-http-response ^https?:\/\/api\.zhihu\.com\/feed-root\/sections\/query\/v2 script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_移除推荐页顶部项
-# 知乎_获取黑名单
-http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_获取黑名单
-# 知乎_评论去广告
-http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_评论去广告
-# 知乎_预置关键词去广告
-http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js,requires-body=1,tag=知乎_预置关键词去广告
 # 美团外卖_开屏去广告
 http-response ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=美团外卖_开屏去广告
 # 联享家_开屏去广告
 http-response ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=联享家_开屏去广告
 
 [MITM]
-hostname = 103.41.167.226,103.41.167.234,103.41.167.235,103.41.167.236,api.m.jd.com,api.zhihu.com,app-api.smzdm.com,app.bilibili.com,appcloud2.zhihu.com,baike-api.smzdm.com,capis*.didapinche.com,cmsapi.dmall.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,hd.mina.mi.com,homepage-api.smzdm.com,mi.gdt.qq.com,s-api.smzdm.com,wmapi.meituan.com,www.zhihu.com,zhiyou.m.smzdm.com,zhuanlan.zhihu.com
+hostname = 103.41.167.226,103.41.167.234,103.41.167.235,103.41.167.236,103.41.167.237,118.89.204.198,2402:4e00:1200:ed00:0:9089:6dac:96b6,api.m.jd.com,api.zhihu.com,app-api.smzdm.com,app.bilibili.com,appcloud2.zhihu.com,baike-api.smzdm.com,capis*.didapinche.com,cmsapi.dmall.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,hd.mina.mi.com,homepage-api.smzdm.com,m-cloud.zhihu.com,mi.gdt.qq.com,s-api.smzdm.com,wmapi.meituan.com,www.zhihu.com,zhiyou.m.smzdm.com,zhuanlan.zhihu.com

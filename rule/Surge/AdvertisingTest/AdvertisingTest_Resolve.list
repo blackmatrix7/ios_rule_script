@@ -1,15 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-01 02:08:40
+# UPDATED: 2023-02-08 14:23:32
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # AND: 1
-# DOMAIN: 10009
+# DOMAIN: 11533
 # DOMAIN-KEYWORD: 264
-# DOMAIN-SUFFIX: 104523
+# DOMAIN-SUFFIX: 103290
 # IP-CIDR: 239
 # URL-REGEX: 285
-# TOTAL: 115321
+# TOTAL: 115612
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,adform
@@ -525,6 +525,7 @@ URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d
 URL-REGEX,^https?:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/ting\/preload\/
 URL-REGEX,^https?:\/\/(a?d|sax)\d.sina.com
 URL-REGEX,^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert
+URL-REGEX,^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/
 URL-REGEX,^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4)
 URL-REGEX,^https?:\/\/101\.201\.175\.228\/ads\/display
 URL-REGEX,^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/
@@ -611,7 +612,6 @@ URL-REGEX,^https?:\/\/appconf\.mail\.163\.com\/mmad\/
 URL-REGEX,^https?:\/\/appv6\.55haitao\.com\/IflyAd\/getAd
 URL-REGEX,^https?:\/\/asp\.cntv\.myalicdn\.com\/.+?\?maxbr=850
 URL-REGEX,^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/
-URL-REGEX,^https?:\/\/bdsp-x\.jd\.com\/adx\/
 URL-REGEX,^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+?\.jpg
 URL-REGEX,^https?:\/\/business\.msstatic\.com\/advertiser\/
 URL-REGEX,^https?:\/\/c\.m\.163\.com\/nc\/gl\/

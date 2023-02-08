@@ -1,54 +1,47 @@
 name: 脚本去广告
-desc: 最后更新时间 2023-01-29 23:05:49
+desc: 最后更新时间 2023-02-02 14:54:06
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# domain: 3
-# ip-cidr: 1
-# ip-cidr6: 1
+# domain: 5
 # http-request-script: 1
-# http-response-script: 28
-# reject: 18
-# mitm: 23
-# total: 75
+# http-response-script: 31
+# reject: 13
+# mitm: 27
+# total: 77
 
 
 
 rules:
-  - DOMAIN,118.89.204.198,REJECT
+  - DOMAIN,appcloud.zhihu.com,REJECT
   - DOMAIN,appcloud2.in.zhihu.com,REJECT
+  - DOMAIN,crash2.zhihu.com,REJECT
   - DOMAIN,mqtt.zhihu.com,REJECT
-  - IP-CIDR,118.89.204.198/32,REJECT
-  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+  - DOMAIN,sugar.zhihu.com,REJECT
 
 
 http:
   rewrite:
-    - ^https?:\/\/api\.zhihu\.com/moments/hybrid\? - reject
-    - ^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad|appview\/api\/v\d\/answers\/\d+\/recommendations) - reject
+    - ^https?:\/\/103\.41\.167\.237 - reject
+    - ^https?:\/\/118\.89\.204\.198 - reject
+    - ^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 - reject
+    - ^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count) - reject
     - ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
-    - ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject
-    - ^https?:\/\/api\.zhihu\.com\/explore\/entry\/tips - reject
-    - ^https?:\/\/api\.zhihu\.com\/moments\/recent - reject
-    - ^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 - reject
-    - ^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject
+    - ^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config - reject
+    - ^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner - reject
+    - ^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings - reject
+    - ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading - reject
+    - ^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul - reject
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul - reject
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul - reject
-    - ^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject
-    - ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject
-    - ^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject
-    - ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject
-    - ^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) - reject
-    - ^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject
-    - ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
 
 
   script:
-    # 知乎_屏蔽关键字解锁
+    # 哲也_解锁关键词屏蔽
     - match: ^https?:\/\/api\.zhihu\.com\/feed-root\/block
-      name: zhihu.js_fc22d04a
+      name: zheye.js_0b4fe8e4
       type: request
-      require-body: true
+      require-body: false
       timeout: 30
       argument: 
     # BiliBili_开屏去广告
@@ -66,7 +59,7 @@ http:
       timeout: 30
       argument: 
     # 京东_开屏去广告
-    - match: ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start
+    - match: ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert
       name: startup.js_5686edbb
       type: response
       require-body: true
@@ -128,9 +121,121 @@ http:
       require-body: true
       timeout: 10
       argument: 
+    # 哲也_优化软件配置1
+    - match: ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_优化软件配置2
+    - match: ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_修改用户盐值
+    - match: ^https?:\/\/api\.zhihu\.com\/user-credit\/basis
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_关注列表优化
+    - match: ^https?:\/\/api\.zhihu\.com\/moments\/tab_v2
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_同步黑名单
+    - match: ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_回答内容优化
+    - match: ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))?
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_回答列表优化
+    - match: ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_回答翻页优化
+    - match: ^https?:\/\/api\.zhihu\.com\/next\?
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_处理用户信息
+    - match: ^https?:\/\/api\.zhihu\.com\/people
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_推荐页优化
+    - match: ^https?:\/\/api\.zhihu\.com\/moments\/recent
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_文章优化
+    - match: ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_消息优化
+    - match: ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message)
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_热榜优化
+    - match: ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/)
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_评论优化
+    - match: ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments?
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_评论摘要优化
+    - match: ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\?
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_预置关键词优化
+    - match: ^https?:\/\/api\.zhihu\.com\/search\/preset_words\?
+      name: zheye.js_0b4fe8e4
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
     # 嘀嗒出行_开屏去广告
     - match: ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\?
-      name: startup.js_5686edbb
+      name: bilibili_plus.js_243478f2
       type: response
       require-body: true
       timeout: 30
@@ -138,97 +243,6 @@ http:
     # 多点_开屏去广告
     - match: ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic
       name: startup.js_5686edbb
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 小爱音箱_开屏去广告
-    - match: ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert
-      name: startup.js_5686edbb
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 知乎_优化软件配置
-    - match: ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config
-      name: zhihu.js_fc22d04a
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 知乎_信息流去广告及黑名单增强
-    - match: ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people)
-      name: zhihu.js_fc22d04a
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 知乎_回答内容优化
-    - match: ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))?
-      name: zhihu.js_fc22d04a
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 知乎_回答列表去广告
-    - match: ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+
-      name: zhihu.js_fc22d04a
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 知乎_处理用户信息
-    - match: ^https?:\/\/api\.zhihu\.com\/people
-      name: zhihu.js_fc22d04a
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 知乎_官方消息去广告
-    - match: ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message)
-      name: zhihu.js_fc22d04a
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 知乎_热搜去广告
-    - match: ^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items
-      name: zhihu.js_fc22d04a
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 知乎_热榜去广告
-    - match: ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/)
-      name: zhihu.js_fc22d04a
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 知乎_移除推荐页顶部项
-    - match: ^https?:\/\/api\.zhihu\.com\/feed-root\/sections\/query\/v2
-      name: zhihu.js_fc22d04a
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 知乎_获取黑名单
-    - match: ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users
-      name: zhihu.js_fc22d04a
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 知乎_评论去广告
-    - match: ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments?
-      name: zhihu.js_fc22d04a
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 知乎_预置关键词去广告
-    - match: ^https?:\/\/api\.zhihu\.com\/search\/preset_words\?
-      name: zhihu.js_fc22d04a
       type: response
       require-body: true
       timeout: 30
@@ -253,6 +267,9 @@ http:
     - "103.41.167.234"
     - "103.41.167.235"
     - "103.41.167.236"
+    - "103.41.167.237"
+    - "118.89.204.198"
+    - "2402:4e00:1200:ed00:0:9089:6dac:96b6"
     - "api.m.jd.com"
     - "api.zhihu.com"
     - "app-api.smzdm.com"
@@ -266,6 +283,7 @@ http:
     - "haojia.m.smzdm.com"
     - "hd.mina.mi.com"
     - "homepage-api.smzdm.com"
+    - "m-cloud.zhihu.com"
     - "mi.gdt.qq.com"
     - "s-api.smzdm.com"
     - "wmapi.meituan.com"
@@ -286,7 +304,7 @@ script-providers:
   startup.js_5686edbb:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
     interval: 86400
-  zhihu.js_fc22d04a:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js
+  zheye.js_0b4fe8e4:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
     interval: 86400
 

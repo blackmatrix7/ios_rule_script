@@ -1,0 +1,21 @@
+#!name=Quora
+#!desc=Quora Remove Ads
+
+[URL Rewrite]
+# 去除回答列表中展开内容的广告
+^https:\/\/www\.quora\.com\/graphql\/gql_para_POST\?q=AnswerExpandAdLoaderQuery - reject
+
+[Script]
+# 去除首页广告
+Quora RemoveHomePageAd = type=http-response,pattern=^https:\/\/www\.quora\.com\/(graphql\/gql_para_POST\?q=MultifeedQuery)?$,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/blackmatrix7/7775186471b181e5ad472156ca3c206f/raw/quora.min.js,script-update-interval=86400
+# 去除回答内容的广告
+Quora RemoveAnswerPageAd = type=http-response,pattern=^https:\/\/www\.quora\.com\/graphql\/gql_para_POST\?q=AnswerPageFooterLoaderQuery,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/blackmatrix7/7775186471b181e5ad472156ca3c206f/raw/quora.min.js,script-update-interval=86400
+# 去除回答列表的广告
+Quora RemoveAnswerPageListAd = type=http-response,pattern=^https:\/\/www\.quora\.com\/graphql\/gql_para_POST\?q=(QuestionAnswerPagedListQuery|QuestionPageLoadableBodyQuery),requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/blackmatrix7/7775186471b181e5ad472156ca3c206f/raw/quora.min.js,script-update-interval=86400
+# 去除从回答底部进入的回答列表的广告
+Quora RemoveAnswerPageOtherListAd = type=http-response,pattern=^https:\/\/www\.quora.com\/.*-.*,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/blackmatrix7/7775186471b181e5ad472156ca3c206f/raw/quora.min.js,script-update-interval=86400
+# 去除文章底部的广告
+Quora RemovePostPageFooterAd = type=http-response,pattern=^https:\/\/www\.quora\.com\/graphql\/gql_para_POST\?q=PostPageFooterLoaderQuery,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/blackmatrix7/7775186471b181e5ad472156ca3c206f/raw/quora.min.js,script-update-interval=86400
+
+[MITM]
+hostname = %APPEND% www.quora.com

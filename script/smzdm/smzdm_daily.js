@@ -525,7 +525,7 @@ async function multiUsersSignIn() {
       const beforeUserInfo = await getWebUserInfo();
 
       // 每日签到
-      if ($.data.read(smzdmSigninKey, false) === true) {
+      if ($.data.read(smzdmSigninKey, true) === true) {
         // Android端签到
         await $.utils
           .retry(androidSignin, 5, 1000)(beforeUserInfo["nick_name"])

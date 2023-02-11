@@ -1,0 +1,104 @@
+name: 开屏去广告
+desc: 通过脚本去除部分APP的顽固开屏广告
+
+http:
+  script:
+    # 爱奇艺_开屏去广告
+    - match: ^https?:\/\/(t7z|kjp)\.cupid\.iqiyi\.com\/mixer\?
+      name: startup.js
+      type: response
+      require-body: true
+      timeout: 30
+      argument: ''
+
+    # 嘀嗒出行_开屏去广告
+    - match: ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\?
+      name: startup.js
+      type: response
+      require-body: true
+      timeout: 30
+      argument: ''
+      
+    # Fa米家_开屏去广告
+    - match: ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad
+      name: startup.js
+      type: response
+      require-body: true
+      timeout: 30
+      argument: ''
+      
+    # BiliBili_开屏去广告
+    - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/(show|list)
+      name: startup.js
+      type: response
+      require-body: true
+      timeout: 30
+      argument: ''
+      
+    # 美团外卖_开屏去广告
+    - match: ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo?
+      name: startup.js
+      type: response
+      require-body: true
+      timeout: 30
+      argument: ''
+      
+    # 小爱音箱_开屏去广告
+    - match: ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert
+      name: startup.js
+      type: response
+      require-body: true
+      timeout: 30
+      argument: ''
+      
+    # 京东_开屏去广告
+    - match: ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start
+      name: startup.js
+      type: response
+      require-body: true
+      timeout: 30
+      argument: ''
+      
+    # 联享家_开屏去广告
+    - match: ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview.fcg
+      name: startup.js
+      type: response
+      require-body: true
+      timeout: 30
+      argument: ''
+      
+    # 多点_开屏去广告
+    - match: ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic
+      name: startup.js
+      type: response
+      require-body: true
+      timeout: 30
+      argument: ''
+      
+    # 轻牛健康_开屏去广告
+    - match: ^https?:\/\/gw\.yolanda\.hk\/api\/servlets\?endpoint=banners\/show_launch_banner
+      name: startup.js
+      type: response
+      require-body: true
+      timeout: 30
+      argument: ''
+
+  mitm:
+    - "capis.didapinche.com"
+    - "capis*.didapinche.com"
+    - "fmapp.chinafamilymart.com.cn"
+    - "app.bilibili.com"
+    - "wmapi.meituan.com"
+    - "hd.mina.mi.com"
+    - "api.m.jd.com"
+    - "mi.gdt.qq.com"
+    - "cmsapi.dmall.com"
+    - "gw.yolanda.hk"
+    - "t7z.cupid.iqiyi.com"
+    - "kjp.cupid.iqiyi.com"
+
+script-providers:
+  startup.js:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
+    interval: 86400
+

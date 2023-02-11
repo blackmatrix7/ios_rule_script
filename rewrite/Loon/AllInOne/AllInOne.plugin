@@ -1,5 +1,5 @@
 #!name= AllInOne
-#!desc= 最后更新时间 2023-02-09 02:14:49
+#!desc= 最后更新时间 2023-02-11 10:37:26
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
@@ -9,9 +9,9 @@
 #!http-request-script= 1
 #!http-response-script= 31
 #!redirect= 8
-#!reject= 505
+#!reject= 506
 #!mitm= 560
-#!total= 1114
+#!total= 1115
 
 [Rule]
 DOMAIN,appcloud.zhihu.com,REJECT
@@ -152,6 +152,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 ^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd - reject
 ^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count) - reject-dict
 ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject-dict
+^https?:\/\/api\.zhihu\.com\/ad-style-service\/request - reject-dict
 ^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config - reject-dict
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner - reject-dict
 ^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings - reject-dict
@@ -541,7 +542,7 @@ https?:\/\/top-widgets-api\.xiaozujian\.com\/api\/ad\/config - reject
 https?:\/\/yanxuan.nosdn.127.net\/.*\.mp4 - reject
 [Script]
 # 哲也_解锁关键词屏蔽
-http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,tag=哲也_解锁关键词屏蔽
+http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,tag=哲也_解锁关键词屏蔽
 # BiliBili_开屏去广告
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,requires-body=1,tag=BiliBili_开屏去广告
 # Fa米家_开屏去广告
@@ -565,37 +566,37 @@ http-response ^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list script-path=https
 # 什么值得买_首页去广告
 http-response ^https?:\/\/homepage-api\.smzdm\.com\/v3\/home script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,requires-body=1,timeout=10,tag=什么值得买_首页去广告
 # 哲也_优化软件配置1
-http-response ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_优化软件配置1
+http-response ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_优化软件配置1
 # 哲也_优化软件配置2
-http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_优化软件配置2
+http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_优化软件配置2
 # 哲也_修改用户盐值
-http-response ^https?:\/\/api\.zhihu\.com\/user-credit\/basis script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_修改用户盐值
+http-response ^https?:\/\/api\.zhihu\.com\/user-credit\/basis script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_修改用户盐值
 # 哲也_关注列表优化
-http-response ^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_关注列表优化
+http-response ^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_关注列表优化
 # 哲也_同步黑名单
-http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_同步黑名单
+http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_同步黑名单
 # 哲也_回答内容优化
-http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_回答内容优化
+http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_回答内容优化
 # 哲也_回答列表优化
-http-response ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+ script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_回答列表优化
+http-response ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+ script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_回答列表优化
 # 哲也_回答翻页优化
-http-response ^https?:\/\/api\.zhihu\.com\/next\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_回答翻页优化
+http-response ^https?:\/\/api\.zhihu\.com\/next\? script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_回答翻页优化
 # 哲也_处理用户信息
-http-response ^https?:\/\/api\.zhihu\.com\/people script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_处理用户信息
+http-response ^https?:\/\/api\.zhihu\.com\/people script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_处理用户信息
 # 哲也_推荐页优化
-http-response ^https?:\/\/api\.zhihu\.com\/moments\/recent script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_推荐页优化
+http-response ^https?:\/\/api\.zhihu\.com\/moments\/recent script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_推荐页优化
 # 哲也_文章优化
-http-response ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_文章优化
+http-response ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_文章优化
 # 哲也_消息优化
-http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_消息优化
+http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message\?|timeline\/entry\/system_message) script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_消息优化
 # 哲也_热榜优化
-http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_热榜优化
+http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_热榜优化
 # 哲也_评论优化
-http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_评论优化
+http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_评论优化
 # 哲也_评论摘要优化
-http-response ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_评论摘要优化
+http-response ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\? script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_评论摘要优化
 # 哲也_预置关键词优化
-http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js,requires-body=1,tag=哲也_预置关键词优化
+http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_预置关键词优化
 # 嘀嗒出行_开屏去广告
 http-response ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,requires-body=1,tag=嘀嗒出行_开屏去广告
 # 多点_开屏去广告

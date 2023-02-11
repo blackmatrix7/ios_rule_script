@@ -12,14 +12,14 @@ GameDownload规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:53:04
+最后更新时间：2023-02-11 10:36:06
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 18  | 
-| DOMAIN-SUFFIX | 2  | 
-| TOTAL | 20  | 
+| DOMAIN | 36  | 
+| DOMAIN-SUFFIX | 3  | 
+| TOTAL | 39  | 
 
 
 ## Loon 

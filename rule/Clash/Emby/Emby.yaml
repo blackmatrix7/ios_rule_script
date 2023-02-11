@@ -1,10 +1,11 @@
 # NAME: Emby
 # AUTHOR: justdoiting
 # REPO: https://github.com/justdoiting/emby-rules
-# UPDATED: 2023-02-02 14:52:59
+# UPDATED: 2023-02-11 10:36:04
 # DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 34
-# TOTAL: 37
+# PROCESS-NAME: 1
+# TOTAL: 38
 payload:
   - DOMAIN-SUFFIX,agahk1.jmsooo.com
   - DOMAIN-SUFFIX,agajp1.jmsooo.com
@@ -43,3 +44,4 @@ payload:
   - DOMAIN-KEYWORD,emby.wtf
   - DOMAIN-KEYWORD,jmsooo
   - DOMAIN-KEYWORD,odysseyplus
+  - PROCESS-NAME,com.mb.android

@@ -159,7 +159,8 @@
         "zhihu_blocked_users",
         "zhihu_current_userinfo",
         "zhihu_keyword_block",
-        "zhihu_black_answers"
+        "zhihu_black_answers",
+        "zheye_server_url"
       ],
       "author": "@blackmatrix7",
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zheye",
@@ -265,6 +266,30 @@
           "desc": "在知乎回答中提示付费或营销内容"
         },
         {
+          "id": "zhihu_settings_check_paid_content",
+          "name": "推荐页中提示付费/营销/购物推广",
+          "val": false,
+          "type": "boolean",
+          "desc": "需要额外消耗流量，可能会影响推荐页加载速度"
+        },
+        {
+          "id": "zhihu_settings_request_content",
+          "name": "推荐页主动探测内容的方式",
+          "val": "local",
+          "type": "radios",
+          "items": [
+            {
+              "key": "local",
+              "label": "本地"
+            },
+            {
+              "key": "cloud",
+              "label": "云端"
+            }
+          ],
+          "desc": "开启推荐页中推广内容提示时，需要配置主动探测方式。默认为本地，使用云端需要在下方配置中填写服务端地址。"
+        },
+        {
           "id": "zhihu_credit_score",
           "name": "自定义用户盐值",
           "val": "0",
@@ -284,6 +309,13 @@
           "val": "",
           "type": "textarea",
           "desc": "必须是JSON格式，Key为用户Id，不要修改。格式不正确可能导致执行异常。"
+        },
+        {
+          "id": "zheye_server_url",
+          "name": "哲也同学服务端",
+          "val": "",
+          "type": "input",
+          "desc": "用于解锁更多功能。示例 http://192.168.1.200:52273 。"
         }
       ]
     },

@@ -1,9 +1,8 @@
 name: 哲也同学
-desc: 哲也同学，你的阅读小助手
+desc: 人在航母，刚下蒙古
 
 http:
   rewrite:
-    # 拦截DNS解析
     - ^https?:\/\/118\.89\.204\.198 - reject-dict
     - ^https?:\/\/103\.41\.167\.237 - reject-dict
     - ^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 - reject-dict
@@ -13,7 +12,7 @@ http:
     # 拦截品牌提问广告
     - ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject-dict
     # 屏蔽我的页面开通会员的卡片
-    - ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
+    # - ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
     # 拦截品牌提问广告
     - ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject-dict
     # 屏蔽下发的配置，如皮肤等
@@ -38,6 +37,7 @@ http:
     - ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/tag_config url reject-dict
     # 暂不清楚作用
     - ^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner - reject-dict
+    - ^https?:\/\/api\.zhihu\.com\/ad-style-service\/request - reject-dict
 
   script:
     # 获取用户信息 - 隔离用户数据，开启本地会员等
@@ -198,6 +198,6 @@ http:
 
 script-providers:
   zheye.js:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.js
+    url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
 

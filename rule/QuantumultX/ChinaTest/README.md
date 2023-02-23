@@ -12,18 +12,18 @@ ChinaTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-18 02:10:30
+最后更新时间：2023-02-24 02:15:54
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 174  | 
 | HOST-KEYWORD | 9  | 
-| HOST-SUFFIX | 65708  | 
+| HOST-SUFFIX | 65690  | 
 | IP-CIDR | 10  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 31  | 
-| TOTAL | 65936  | 
+| TOTAL | 65918  | 
 
 
 ## QuantumultX 
@@ -65,9 +65,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 
 当前分流规则，已排除以下规则：
-| 排除规则  |  | 
-| ---- | ----  |
-| Steam | SteamCN  | 
+| 排除规则  |  |  |  |  | 
+| ---- | ---- | ---- | ---- | ----  |
+| PayPal | Proxy | ProxyLite | Steam | SteamCN  | 
 
 ## 数据来源
 

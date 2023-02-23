@@ -87,7 +87,7 @@ http:
       argument: '' 
 
     # 推荐页 - 移除黑名单用户发布的文章、去除广告，及自定义一些屏蔽项目
-    - match: ^https:\/\/api\.zhihu\.com\/topstory\/recommend\?
+    - match: ^https:\/\/api\.zhihu\.com\/topstory\/recommend
       name: zheye.js
       type: response
       require-body: true

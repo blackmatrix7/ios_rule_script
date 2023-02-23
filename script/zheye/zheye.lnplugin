@@ -67,7 +67,7 @@ http-response ^https?:\/\/api\.zhihu\.com\/user-credit\/basis requires-body=1,sc
 http-response ^https?:\/\/api\.zhihu\.com\/moments_v3\? requires-body=1,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,tag=哲也_关注列表优化
 
 # 推荐页 - 移除黑名单用户发布的文章、去除广告，及自定义一些屏蔽项目
-http-response ^https:\/\/api\.zhihu\.com\/topstory\/recommend\? requires-body=1,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,tag=哲也_推荐页优化
+http-response ^https:\/\/api\.zhihu\.com\/topstory\/recommend requires-body=1,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,tag=哲也_推荐页优化
 
 # 黑名单页 - 同步黑名单数据
 http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users requires-body=1,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,tag=哲也_同步黑名单

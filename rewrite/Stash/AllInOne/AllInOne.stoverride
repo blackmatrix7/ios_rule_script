@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-02-11 02:13:06
+desc: 最后更新时间 2023-02-20 02:17:46
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
-# http-response-script: 31
+# http-response-script: 32
 # redirect: 8
-# reject: 506
-# mitm: 560
+# reject: 508
+# mitm: 563
 # force-http-engine-hosts: 6
-# total: 1117
+# total: 1123
 
 
 
@@ -31,6 +31,7 @@ http:
     - ^https?:\/\/cn\.ultraiso\.net\/ https://cn.ezbsystems.com/ultraiso/ 302
     - ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302
     - ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
+    - ^https:\/\/api\.sfacg\.com\/ioscfg - reject
     - ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ - reject
     - ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject
     - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
@@ -81,8 +82,10 @@ http:
     - ^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/ - reject
     - ^https?:\/\/api-release\.wuta-cam\.com\/ad_tree - reject
     - ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v1\/sams\/sams-user\/(window\/getGoUpPlus|screen_promotion\/get) - reject
+    - ^https?:\/\/api3\.cls\.cn\/v1\/boot\/ad - reject
     - ^https?:\/\/api4\.bybutter\.com\/v\d\/app\/placements\/\d\/advertisements - reject
     - ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
+    - ^https?:\/\/api\.00bang\.cn\/llb\/baseinfo\/advertise\/getAdvertiseByPageCode - reject
     - ^https?:\/\/api\.21jingji\.com\/ad\/ - reject
     - ^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
     - ^https?:\/\/api\.ahmobile\.cn:443\/eip\?eip_serv_id=app\.getAllNew - reject
@@ -175,6 +178,7 @@ http:
     - ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/ - reject
     - ^https?:\/\/app\.ddpai\.com\/d\/api\/v\d\/config\/get\/bootscreen - reject
     - ^https?:\/\/app\.dewu\.com\/api\/v\d\/app\/advertisement\/ - reject
+    - ^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list - reject
     - ^https?:\/\/app\.homeinns\.com\/api\/landing - reject
     - ^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad - reject
     - ^https?:\/\/app\.peopleapp\.com\/Api\/\d+/HomeApi\/getAdvertImage - reject
@@ -198,7 +202,6 @@ http:
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image - reject
     - ^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ - reject
     - ^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash - reject
-    - ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/(free\/open\/advertisingV2|c\/home\/searchMark) - reject
     - ^https?:\/\/btrace\.qq\.com - reject
     - ^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+?\.jpg - reject
     - ^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
@@ -248,7 +251,6 @@ http:
     - ^https?:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?adunitid - reject
     - ^https?:\/\/dsp-impr2\.youdao\.com\/adload - reject
     - ^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/ - reject
-    - ^https?:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.(jpg|mp4) - reject
     - ^https?:\/\/e\.dangdang\.com\/media\/api.+?\?action=getDeviceStartPage - reject
     - ^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ - reject
     - ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv - reject
@@ -470,7 +472,6 @@ http:
     - ^https?:\/\/track\.mm\.taou\.com/v\d\/track - reject
     - ^https?:\/\/tracker-download\.oss-cn-beijing\.aliyuncs\.com\/SIMPlus\/(ad_|AD\/) - reject
     - ^https?:\/\/u\d\.iqiyipic\.com\/image\/[\w\/]+\/oad_ - reject
-    - ^https?:\/\/uapi\.huolala\.cn\/\?_m=open.*?advertising - reject
     - ^https?:\/\/us\.l\.qq\.com\/exapp\?spsa=\d - reject
     - ^https?:\/\/v\.cctv\.com\/.+?850 - reject
     - ^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ - reject
@@ -488,6 +489,7 @@ http:
     - ^https?:\/\/webboot\.zhangyue\.com\/zycl\/api\/ad\/ - reject
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - reject
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
+    - ^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/(openscreen\?ad|loadInfo\?|startpicture) - reject
     - ^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture - reject
     - ^https?:\/\/www1\.elecfans\.com\/www\/delivery\/ - reject
     - ^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise - reject
@@ -549,14 +551,14 @@ http:
       argument: 
     # BiliBili_开屏去广告
     - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list
-      name: bilibili_plus.js_243478f2
+      name: startup.js_5686edbb
       type: response
       require-body: true
       timeout: 30
       argument: 
     # Fa米家_开屏去广告
     - match: ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad
-      name: famijia_checkin.js_515b8868
+      name: startup.js_5686edbb
       type: response
       require-body: true
       timeout: 30
@@ -738,13 +740,20 @@ http:
       argument: 
     # 嘀嗒出行_开屏去广告
     - match: ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\?
-      name: bilibili_plus.js_243478f2
+      name: startup.js_5686edbb
       type: response
       require-body: true
       timeout: 30
       argument: 
     # 多点_开屏去广告
     - match: ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic
+      name: startup.js_5686edbb
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 爱奇艺_开屏去广告
+    - match: ^https?:\/\/(t7z|kjp)\.cupid\.iqiyi\.com\/mixer\?
       name: startup.js_5686edbb
       type: response
       require-body: true
@@ -775,10 +784,10 @@ http:
 
   mitm:
     - "*.58cdn.com.cn"
-    - "*.bdstatic.com"
     - "*.bebi.com"
     - "*.chelaile.net.cn"
     - "*.chelaileapp.cn"
+    - "*.cupid.iqiyi.com"
     - "*.google.cn"
     - "*.hoopchina.com"
     - "*.iiilab.com"
@@ -853,6 +862,7 @@ http:
     - "api-one.wallstcn.com"
     - "api-release.wuta-cam.com"
     - "api-sams.walmartmobile.cn"
+    - "api.00bang.cn"
     - "api.21jingji.com"
     - "api.abema.io"
     - "api.ahmobile.cn"
@@ -894,6 +904,7 @@ http:
     - "api.qbb6.com"
     - "api.qiuduoduo.cn"
     - "api.rr.tv"
+    - "api.sfacg.com"
     - "api.shenyin.name"
     - "api.taou.com"
     - "api.tipsoon.com"
@@ -914,6 +925,7 @@ http:
     - "api.yonghuivip.com"
     - "api.zhihu.com"
     - "api.zhuishushenqi.com"
+    - "api3.cls.cn"
     - "api4.bybutter.com"
     - "apimobile.meituan.com"
     - "apis.lifeweek.com.cn"
@@ -930,6 +942,7 @@ http:
     - "app.biliintl.com"
     - "app.ddpai.com"
     - "app.dewu.com"
+    - "app.hbooker.com"
     - "app.homeinns.com"
     - "app.mixcapp.com"
     - "app.poizon.com"
@@ -957,7 +970,6 @@ http:
     - "bdsp-x.jd.com"
     - "beta-api.crunchyroll.com"
     - "bgw.xinyue.qq.com"
-    - "bp-api.bestv.com.cn"
     - "btrace.qq.com"
     - "business-cdn.shouji.sogou.com"
     - "business.msstatic.com"
@@ -1199,6 +1211,7 @@ http:
     - "sns.amap.com"
     - "sp.kaola.com"
     - "spclient.wg.spotify.com"
+    - "ss0.bdstatic.com"
     - "ssl.kohsocialapp.qq.com"
     - "sso.ifanr.com"
     - "sso.lxjapp.com"
@@ -1224,7 +1237,6 @@ http:
     - "track.mm.taou.com"
     - "tracker-download.oss-cn-beijing.aliyuncs.com"
     - "u*.iqiyipic.com"
-    - "uapi.huolala.cn"
     - "us.l.qq.com"
     - "v*-api.miaopai.com"
     - "v.cctv.com"
@@ -1336,12 +1348,6 @@ http:
     - "zone.guiderank-app.com"
 
 script-providers:
-  bilibili_plus.js_243478f2:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
-    interval: 86400
-  famijia_checkin.js_515b8868:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js
-    interval: 86400
   smzdm_remove_ads.js_bf08360d:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
     interval: 86400

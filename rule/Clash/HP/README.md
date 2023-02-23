@@ -12,13 +12,13 @@ HP规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:51:43
+最后更新时间：2023-02-15 23:46:11
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 4  | 
-| TOTAL | 4  | 
+| DOMAIN-SUFFIX | 158  | 
+| TOTAL | 158  | 
 
 
 ## Clash 
@@ -64,6 +64,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《HP》的数据来自以下链接，如与本项目的《HP》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HP.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HP.yaml
+- https://rules.kr328.app/hp.yaml
+- https://rules.kr328.app/hp@cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

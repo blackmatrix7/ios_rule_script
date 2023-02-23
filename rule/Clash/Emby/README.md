@@ -12,15 +12,16 @@ Emby规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-11 10:36:04
+最后更新时间：2023-02-15 23:47:08
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
+| DOMAIN | 1  | 
 | DOMAIN-KEYWORD | 3  | 
 | DOMAIN-SUFFIX | 34  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 38  | 
+| TOTAL | 39  | 
 
 
 ## Clash 

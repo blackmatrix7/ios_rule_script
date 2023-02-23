@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:51:25
+最后更新时间：2023-02-15 23:45:57
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -64,6 +64,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《建设银行》的数据来自以下链接，如与本项目的《建设银行》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CCB.list
+- https://rules.kr328.app/ccb.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

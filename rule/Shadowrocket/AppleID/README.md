@@ -12,7 +12,7 @@ AppleID规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-11 10:36:38
+最后更新时间：2023-02-15 23:47:45
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -61,7 +61,12 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ## 数据来源
 
-当前规则未直接引用数据源。
+《AppleID》的数据来自以下链接，如与本项目的《AppleID》规则混合使用，可能会造成规则大量重复。
+
+- https://gitlab.com/lodepuly/vpn_tool/raw/main/Tool/Loon/Rule/AppleID.list
+
+
+感谢以上规则作者的辛勤付出（排名不分先后）。
 
 ## 最后
 

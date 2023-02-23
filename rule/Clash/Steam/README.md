@@ -12,15 +12,15 @@ Steam规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:48:14
+最后更新时间：2023-02-17 02:08:02
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 1  | 
+| DOMAIN | 4  | 
 | DOMAIN-KEYWORD | 3  | 
-| DOMAIN-SUFFIX | 36  | 
-| TOTAL | 40  | 
+| DOMAIN-SUFFIX | 46  | 
+| TOTAL | 53  | 
 
 
 ## Clash 
@@ -71,9 +71,12 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《Steam》的数据来自以下链接，如与本项目的《Steam》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Steam.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Steam.list
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml
+- https://rules.kr328.app/steam@cn.yaml
+- https://rules.kr328.app/steam.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

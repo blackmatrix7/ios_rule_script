@@ -12,15 +12,16 @@ Microsoft规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:48:17
+最后更新时间：2023-02-19 16:23:03
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
+| DOMAIN | 2  | 
 | DOMAIN-KEYWORD | 4  | 
-| DOMAIN-SUFFIX | 575  | 
+| DOMAIN-SUFFIX | 658  | 
 | PROCESS-NAME | 2  | 
-| TOTAL | 581  | 
+| TOTAL | 666  | 
 
 
 ## Clash 
@@ -64,6 +65,11 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 | MicrosoftEdge | OneDrive | Teams  | 
 
 
+当前分流规则，已排除以下规则：
+| 排除规则  | 
+| ----  |
+| GitHub  | 
+
 ## 数据来源
 
 《Microsoft》的数据来自以下链接，如与本项目的《Microsoft》规则混合使用，可能会造成规则大量重复。
@@ -71,11 +77,17 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Microsoft/OneDrive.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Microsoft.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Microsoft.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Microsoft/Teams.list
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Microsoft.yaml
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml
+- https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Microsoft.list
+- https://rules.kr328.app/microsoft.yaml
+- https://rules.kr328.app/onedrive.yaml
+- https://rules.kr328.app/microsoft@cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

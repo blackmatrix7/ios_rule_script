@@ -1,10 +1,17 @@
 # NAME: Espn
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-02 14:51:42
-# DOMAIN-SUFFIX: 5
-# TOTAL: 5
+# UPDATED: 2023-02-15 23:46:11
+# DOMAIN: 3
+# DOMAIN-SUFFIX: 8
+# TOTAL: 11
 payload:
+  - DOMAIN,espn.api.edge.bamgrid.com
+  - DOMAIN,espn.hb.omtrdc.net
+  - DOMAIN,espndotcom.tt.omtrdc.net
+  - DOMAIN-SUFFIX,dtci.co
+  - DOMAIN-SUFFIX,dtci.technology
+  - DOMAIN-SUFFIX,espn.co.uk
   - DOMAIN-SUFFIX,espn.com
   - DOMAIN-SUFFIX,espn.net
   - DOMAIN-SUFFIX,espncdn.com

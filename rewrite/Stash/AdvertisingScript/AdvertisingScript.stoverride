@@ -1,13 +1,13 @@
 name: 脚本去广告
-desc: 最后更新时间 2023-02-11 02:13:12
+desc: 最后更新时间 2023-02-15 23:48:05
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
-# http-response-script: 31
+# http-response-script: 32
 # reject: 14
-# mitm: 27
-# total: 78
+# mitm: 28
+# total: 80
 
 
 
@@ -47,14 +47,14 @@ http:
       argument: 
     # BiliBili_开屏去广告
     - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list
-      name: bilibili_plus.js_243478f2
+      name: startup.js_5686edbb
       type: response
       require-body: true
       timeout: 30
       argument: 
     # Fa米家_开屏去广告
     - match: ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad
-      name: famijia_checkin.js_515b8868
+      name: startup.js_5686edbb
       type: response
       require-body: true
       timeout: 30
@@ -236,13 +236,20 @@ http:
       argument: 
     # 嘀嗒出行_开屏去广告
     - match: ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\?
-      name: bilibili_plus.js_243478f2
+      name: startup.js_5686edbb
       type: response
       require-body: true
       timeout: 30
       argument: 
     # 多点_开屏去广告
     - match: ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic
+      name: startup.js_5686edbb
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 爱奇艺_开屏去广告
+    - match: ^https?:\/\/(t7z|kjp)\.cupid\.iqiyi\.com\/mixer\?
       name: startup.js_5686edbb
       type: response
       require-body: true
@@ -264,6 +271,7 @@ http:
       argument: 
 
   mitm:
+    - "*.cupid.iqiyi.com"
     - "103.41.167.226"
     - "103.41.167.234"
     - "103.41.167.235"
@@ -293,12 +301,6 @@ http:
     - "zhuanlan.zhihu.com"
 
 script-providers:
-  bilibili_plus.js_243478f2:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
-    interval: 86400
-  famijia_checkin.js_515b8868:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js
-    interval: 86400
   smzdm_remove_ads.js_bf08360d:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
     interval: 86400

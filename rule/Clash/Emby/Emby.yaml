@@ -1,12 +1,14 @@
 # NAME: Emby
 # AUTHOR: justdoiting
 # REPO: https://github.com/justdoiting/emby-rules
-# UPDATED: 2023-02-11 10:36:04
+# UPDATED: 2023-02-15 23:47:08
+# DOMAIN: 1
 # DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 34
 # PROCESS-NAME: 1
-# TOTAL: 38
+# TOTAL: 39
 payload:
+  - DOMAIN,emby.enjoyit.eu.org
   - DOMAIN-SUFFIX,agahk1.jmsooo.com
   - DOMAIN-SUFFIX,agajp1.jmsooo.com
   - DOMAIN-SUFFIX,agasg1.jmsooo.com

@@ -1,5 +1,5 @@
 #!name= AdvertisingScript
-#!desc= 最后更新时间 2023-02-11 02:13:12
+#!desc= 最后更新时间 2023-02-15 23:48:05
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
@@ -7,10 +7,10 @@
 #!domain= 5
 #!url-regex= 4
 #!http-request-script= 1
-#!http-response-script= 31
+#!http-response-script= 32
 #!reject= 14
-#!mitm= 27
-#!total= 82
+#!mitm= 28
+#!total= 84
 
 [Rule]
 DOMAIN,appcloud.zhihu.com,REJECT
@@ -43,9 +43,9 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 # 哲也_解锁关键词屏蔽
 http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,tag=哲也_解锁关键词屏蔽
 # BiliBili_开屏去广告
-http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,requires-body=1,tag=BiliBili_开屏去广告
+http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=BiliBili_开屏去广告
 # Fa米家_开屏去广告
-http-response ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js,requires-body=1,tag=Fa米家_开屏去广告
+http-response ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=Fa米家_开屏去广告
 # 京东_开屏去广告
 http-response ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=京东_开屏去广告
 # 什么值得买_值会员权益中心banner广告
@@ -97,13 +97,15 @@ http-response ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/ab
 # 哲也_预置关键词优化
 http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_预置关键词优化
 # 嘀嗒出行_开屏去广告
-http-response ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,requires-body=1,tag=嘀嗒出行_开屏去广告
+http-response ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=嘀嗒出行_开屏去广告
 # 多点_开屏去广告
 http-response ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=多点_开屏去广告
+# 爱奇艺_开屏去广告
+http-response ^https?:\/\/(t7z|kjp)\.cupid\.iqiyi\.com\/mixer\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=爱奇艺_开屏去广告
 # 美团外卖_开屏去广告
 http-response ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=美团外卖_开屏去广告
 # 联享家_开屏去广告
 http-response ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,requires-body=1,tag=联享家_开屏去广告
 
 [MITM]
-hostname = 103.41.167.226,103.41.167.234,103.41.167.235,103.41.167.236,103.41.167.237,118.89.204.198,2402:4e00:1200:ed00:0:9089:6dac:96b6,api.m.jd.com,api.zhihu.com,app-api.smzdm.com,app.bilibili.com,appcloud2.zhihu.com,baike-api.smzdm.com,capis*.didapinche.com,cmsapi.dmall.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,hd.mina.mi.com,homepage-api.smzdm.com,m-cloud.zhihu.com,mi.gdt.qq.com,s-api.smzdm.com,wmapi.meituan.com,www.zhihu.com,zhiyou.m.smzdm.com,zhuanlan.zhihu.com
+hostname = *.cupid.iqiyi.com,103.41.167.226,103.41.167.234,103.41.167.235,103.41.167.236,103.41.167.237,118.89.204.198,2402:4e00:1200:ed00:0:9089:6dac:96b6,api.m.jd.com,api.zhihu.com,app-api.smzdm.com,app.bilibili.com,appcloud2.zhihu.com,baike-api.smzdm.com,capis*.didapinche.com,cmsapi.dmall.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,hd.mina.mi.com,homepage-api.smzdm.com,m-cloud.zhihu.com,mi.gdt.qq.com,s-api.smzdm.com,wmapi.meituan.com,www.zhihu.com,zhiyou.m.smzdm.com,zhuanlan.zhihu.com

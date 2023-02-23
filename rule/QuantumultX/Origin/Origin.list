@@ -1,12 +1,16 @@
 # NAME: Origin
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-02 14:51:51
+# UPDATED: 2023-02-15 23:46:18
 # HOST: 4
-# HOST-SUFFIX: 1
-# TOTAL: 5
+# HOST-SUFFIX: 5
+# TOTAL: 9
 HOST,cloudsync-prod.s3.amazonaws.com,Origin
 HOST,origin-a.akamaihd.net,Origin
 HOST,rtm.tnt-ea.com,Origin
 HOST,ssl-lvlt.cdn.ea.com,Origin
+HOST-SUFFIX,dawngate.com,Origin
+HOST-SUFFIX,eastore.com,Origin
+HOST-SUFFIX,lordofultima.com,Origin
 HOST-SUFFIX,origin.com,Origin
+HOST-SUFFIX,origin.tv,Origin

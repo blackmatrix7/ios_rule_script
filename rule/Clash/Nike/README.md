@@ -12,13 +12,13 @@ Nike规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:51:45
+最后更新时间：2023-02-15 23:46:13
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 11  | 
-| TOTAL | 11  | 
+| DOMAIN-SUFFIX | 194  | 
+| TOTAL | 194  | 
 
 
 ## Clash 
@@ -64,6 +64,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《Nike》的数据来自以下链接，如与本项目的《Nike》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Nike.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Nike.yaml
+- https://rules.kr328.app/nike.yaml
+- https://rules.kr328.app/nike@cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

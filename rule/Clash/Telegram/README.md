@@ -12,17 +12,17 @@ Telegram规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:50:49
+最后更新时间：2023-02-19 16:29:50
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 19  | 
+| DOMAIN-SUFFIX | 20  | 
 | IP-CIDR | 5  | 
 | IP-CIDR6 | 4  | 
 | PROCESS-NAME | 3  | 
-| TOTAL | 32  | 
+| TOTAL | 33  | 
 
 
 ## Clash 
@@ -70,8 +70,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《Telegram》的数据来自以下链接，如与本项目的《Telegram》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Telegram.list
-- https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Telegram.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/social/Telegram.list
@@ -84,6 +82,11 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Telegram/TelegramSG.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Telegram/TelegramUS.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt
+- https://core.telegram.org/resources/cidr.txt
+- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Telegram.yaml
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Telegram.yaml
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml
+- https://rules.kr328.app/telegram.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

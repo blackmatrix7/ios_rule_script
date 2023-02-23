@@ -12,15 +12,15 @@ Adobe规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:50:53
+最后更新时间：2023-02-15 23:45:32
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 1  | 
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 136  | 
-| TOTAL | 138  | 
+| DOMAIN-SUFFIX | 137  | 
+| TOTAL | 139  | 
 
 
 ## Clash 
@@ -67,6 +67,13 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Adobe.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Adobe.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Adobe.yaml
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Adobe.yaml
+- https://rules.kr328.app/adobe@cn.yaml
+- https://rules.kr328.app/adobe@ads.yaml
+- https://rules.kr328.app/adobe.yaml
+- https://rules.kr328.app/adobe-ads@ads.yaml
+- https://rules.kr328.app/adobe-ads.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

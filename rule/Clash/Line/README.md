@@ -12,14 +12,14 @@ Line规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:50:50
+最后更新时间：2023-02-15 23:45:29
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 8  | 
+| DOMAIN-SUFFIX | 20  | 
 | IP-CIDR | 14  | 
-| TOTAL | 22  | 
+| TOTAL | 34  | 
 
 
 ## Clash 
@@ -65,6 +65,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《Line》的数据来自以下链接，如与本项目的《Line》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Line.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Line.list
+- https://rules.kr328.app/line.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

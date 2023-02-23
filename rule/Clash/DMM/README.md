@@ -12,14 +12,14 @@ DMM规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:52:59
+最后更新时间：2023-02-15 23:47:07
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 18  | 
+| DOMAIN-SUFFIX | 28  | 
 | IP-CIDR | 2  | 
-| TOTAL | 20  | 
+| TOTAL | 30  | 
 
 
 ## Clash 
@@ -66,6 +66,12 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DMM.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DMM.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Dmm.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DMM.yaml
+- https://rules.kr328.app/dmm.yaml
+- https://rules.kr328.app/dmm-ads@ads.yaml
+- https://rules.kr328.app/dmm@ads.yaml
+- https://rules.kr328.app/dmm-ads.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

@@ -12,7 +12,7 @@ iCloud规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:48:17
+最后更新时间：2023-02-15 23:43:29
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -68,6 +68,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/icloud.txt
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/iCloud.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt
+- https://rules.kr328.app/icloud@cn.yaml
+- https://rules.kr328.app/icloud.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

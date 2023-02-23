@@ -12,13 +12,13 @@ Heroku规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:51:43
+最后更新时间：2023-02-15 23:46:11
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 3  | 
-| TOTAL | 3  | 
+| DOMAIN-SUFFIX | 12  | 
+| TOTAL | 12  | 
 
 
 ## Clash 
@@ -61,7 +61,12 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ## 数据来源
 
-当前规则未直接引用数据源。
+《Heroku》的数据来自以下链接，如与本项目的《Heroku》规则混合使用，可能会造成规则大量重复。
+
+- https://rules.kr328.app/heroku.yaml
+
+
+感谢以上规则作者的辛勤付出（排名不分先后）。
 
 ## 最后
 

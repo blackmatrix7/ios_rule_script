@@ -12,13 +12,13 @@
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:51:24
+最后更新时间：2023-02-15 23:45:56
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 8  | 
-| TOTAL | 8  | 
+| DOMAIN-SUFFIX | 10  | 
+| TOTAL | 10  | 
 
 
 ## Clash 
@@ -64,6 +64,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《农业银行》的数据来自以下链接，如与本项目的《农业银行》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ABC.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ABC.list
+- https://rules.kr328.app/abc.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

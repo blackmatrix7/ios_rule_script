@@ -1,13 +1,14 @@
 # NAME: iCloudPrivateRelay
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-02 14:52:28
-# DOMAIN: 6
+# UPDATED: 2023-02-15 23:46:45
+# DOMAIN: 4
+# DOMAIN-SUFFIX: 2
 # TOTAL: 6
 payload:
   - DOMAIN,mask-api.fe.apple-dns.net
   - DOMAIN,mask-api.icloud.com
-  - DOMAIN,mask-h2.icloud.com
   - DOMAIN,mask-t.apple-dns.net
   - DOMAIN,mask.apple-dns.net
-  - DOMAIN,mask.icloud.com
+  - DOMAIN-SUFFIX,mask-h2.icloud.com
+  - DOMAIN-SUFFIX,mask.icloud.com

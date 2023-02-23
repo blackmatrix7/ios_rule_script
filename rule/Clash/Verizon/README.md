@@ -12,13 +12,13 @@ Verizon规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:51:48
+最后更新时间：2023-02-15 23:46:16
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 183  | 
-| TOTAL | 183  | 
+| DOMAIN-SUFFIX | 200  | 
+| TOTAL | 200  | 
 
 
 ## Clash 
@@ -64,6 +64,10 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《Verizon》的数据来自以下链接，如与本项目的《Verizon》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Verizon.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Verizon.yaml
+- https://rules.kr328.app/verizon@ads.yaml
+- https://rules.kr328.app/verizon.yaml
+- https://rules.kr328.app/verizon@cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

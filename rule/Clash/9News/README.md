@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-02-02 14:51:39
+最后更新时间：2023-02-15 23:46:08
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -64,6 +64,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《9News》的数据来自以下链接，如与本项目的《9News》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/9News.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/9News.yaml
+- https://rules.kr328.app/9news.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

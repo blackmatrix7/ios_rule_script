@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-Clash定制化规则-7cd1e3) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) 
 
 ChinaIPs规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,14 +12,14 @@ ChinaIPs规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-24 02:16:50
+最后更新时间：2023-02-25 02:14:59
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| IP-CIDR | 488298  | 
-| IP-CIDR6 | 5046  | 
-| TOTAL | 493344  | 
+| IP-CIDR | 12584  | 
+| IP-CIDR6 | 5055  | 
+| TOTAL | 17639  | 
 
 
 ## Clash 

@@ -1,13 +1,13 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-26 02:08:41
+# UPDATED: 2023-02-27 02:08:23
 # DOMAIN: 7
 # DOMAIN-KEYWORD: 5
-# DOMAIN-SUFFIX: 1542
+# DOMAIN-SUFFIX: 1544
 # IP-CIDR: 10
 # PROCESS-NAME: 6
-# TOTAL: 1570
+# TOTAL: 1572
 payload:
   - 'appldnld.apple.com.edgesuite.net'
   - 'apple-events.akamaized.net'
@@ -343,6 +343,8 @@ payload:
   - '+.beatsbydre-store.com'
   - '+.beatsbydre-studio.com'
   - '+.beatsbydre-us.com'
+  - '+.beatsbydre.com'
+  - '+.beatsbydre.com.cn'
   - '+.beatsbydre.jp'
   - '+.beatsbydre2081.com'
   - '+.beatsbydre411.com'
@@ -1193,7 +1195,6 @@ payload:
   - '+.applepaysupplies.tv'
   - '+.applewallet.com'
   - '+.applewallet.tv'
-  - '+.appsto.re'
   - '+.appstore.co.id'
   - '+.appstore.com'
   - '+.appstore.hk'
@@ -1515,11 +1516,9 @@ payload:
   - '+.wwwipodlounge.com'
   - '+.wwwmacbookair.com'
   - '+.apple.comscoreresearch.com'
-  - '+.apple.news'
   - '+.appleenews.com'
   - '+.applemusic.berlin'
   - '+.applemusic.co'
-  - '+.applemusic.com'
   - '+.applemusic.com.au'
   - '+.applemusic.hamburg'
   - '+.applemusic.wang'
@@ -1552,7 +1551,10 @@ payload:
   - '+.iphoto.wang'
   - '+.musickit.net'
   - '+.wwwapplemusic.com'
+  - '+.applemusic.com'
+  - '+.apple.news'
   - '+.apple-dns.net'
+  - '+.appsto.re'
   - '+.digicert.com'
   - '+.apple-cloudkit.com'
   - '+.apple-livephotoskit.com'

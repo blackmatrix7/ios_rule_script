@@ -1,13 +1,13 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-24 02:17:39
+# UPDATED: 2023-02-27 02:17:20
 # DOMAIN: 18
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3506
+# DOMAIN-SUFFIX: 3511
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3547
+# TOTAL: 3552
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -808,6 +808,7 @@ payload:
   - DOMAIN-SUFFIX,citics.com.hk
   - DOMAIN-SUFFIX,citicsf.com
   - DOMAIN-SUFFIX,city8.com
+  - DOMAIN-SUFFIX,ciweimao.com
   - DOMAIN-SUFFIX,cjol.com
   - DOMAIN-SUFFIX,cjsc.com
   - DOMAIN-SUFFIX,clarivate.com
@@ -1468,6 +1469,7 @@ payload:
   - DOMAIN-SUFFIX,happyhlddz.com
   - DOMAIN-SUFFIX,harmonyos.com
   - DOMAIN-SUFFIX,hazq.com
+  - DOMAIN-SUFFIX,hbooker.com
   - DOMAIN-SUFFIX,hczq.com
   - DOMAIN-SUFFIX,hdbits.org
   - DOMAIN-SUFFIX,hdchina.org
@@ -1980,6 +1982,7 @@ payload:
   - DOMAIN-SUFFIX,kuaikanmanhua.com
   - DOMAIN-SUFFIX,kuaishou.com
   - DOMAIN-SUFFIX,kuaizhan.com
+  - DOMAIN-SUFFIX,kuangxiangit.com
   - DOMAIN-SUFFIX,kumiao.com
   - DOMAIN-SUFFIX,kunlunaq.com
   - DOMAIN-SUFFIX,kunlunar.com
@@ -2307,6 +2310,7 @@ payload:
   - DOMAIN-SUFFIX,myshow360.net
   - DOMAIN-SUFFIX,mysiteres.com
   - DOMAIN-SUFFIX,myunlu.com
+  - DOMAIN-SUFFIX,myypark.com
   - DOMAIN-SUFFIX,myyx618.com
   - DOMAIN-SUFFIX,myzaker.com
   - DOMAIN-SUFFIX,mzres.com
@@ -3052,6 +3056,7 @@ payload:
   - DOMAIN-SUFFIX,udacity.com
   - DOMAIN-SUFFIX,uewaf.com
   - DOMAIN-SUFFIX,ufileos.com
+  - DOMAIN-SUFFIX,ugdtimg.com
   - DOMAIN-SUFFIX,uggame.com
   - DOMAIN-SUFFIX,ugslb.com
   - DOMAIN-SUFFIX,ugslb.info

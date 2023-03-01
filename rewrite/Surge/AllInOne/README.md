@@ -18,7 +18,7 @@ QuantumultX需要添加部分分流规则才能生效，具体配置请参照数
 
 ## 规则统计
 
-最后更新时间：2023-02-24 02:20:09
+最后更新时间：2023-03-02 02:22:00
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -26,12 +26,12 @@ QuantumultX需要添加部分分流规则才能生效，具体配置请参照数
 | DOMAIN | 5  | 
 | URL-REGEX | 4  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
-| HTTP-RESPONSE-SCRIPT | 32  | 
+| HTTP-RESPONSE-SCRIPT | 24  | 
 | REDIRECT | 62  | 
-| REJECT | 565  | 
-| MITM | 640  | 
+| REJECT | 562  | 
+| MITM | 635  | 
 | FORCE-HTTP-ENGINE-HOSTS | 6  | 
-| TOTAL | 1315  | 
+| TOTAL | 1299  | 
 
 
 ## Surge 
@@ -91,7 +91,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.qxrewrite
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Upgrade/Upgrade.qxrewrite
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Rewrite/Rewrite.list
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.lnplugin
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/General.sgmodule
 - https://raw.githubusercontent.com/GFBG-IT/QuantumultX/main/Advertising.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf

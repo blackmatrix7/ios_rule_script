@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-02-24 02:20:04
+desc: 最后更新时间 2023-03-02 02:21:53
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
-# http-response-script: 32
+# http-response-script: 24
 # redirect: 8
-# reject: 509
-# mitm: 564
+# reject: 506
+# mitm: 559
 # force-http-engine-hosts: 6
-# total: 1125
+# total: 1109
 
 
 
@@ -287,9 +287,6 @@ http:
     - ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd - reject
     - ^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v - reject
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner - reject
-    - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul - reject
-    - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul - reject
-    - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul - reject
     - ^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ - reject
     - ^https?:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport - reject
     - ^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd - reject
@@ -570,62 +567,6 @@ http:
       type: response
       require-body: true
       timeout: 30
-      argument: 
-    # 什么值得买_值会员权益中心banner广告
-    - match: ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner
-      name: smzdm_remove_ads.js_bf08360d
-      type: response
-      require-body: true
-      timeout: 10
-      argument: 
-    # 什么值得买_好价去广告
-    - match: ^https?:\/\/haojia-api\.smzdm\.com\/home\/list\?
-      name: smzdm_remove_ads.js_bf08360d
-      type: response
-      require-body: true
-      timeout: 10
-      argument: 
-    # 什么值得买_好价详情页去广告
-    - match: ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul
-      name: smzdm_remove_ads.js_bf08360d
-      type: response
-      require-body: true
-      timeout: 10
-      argument: 
-    # 什么值得买_开屏去广告
-    - match: ^https?:\/\/app-api\.smzdm\.com\/util\/loading
-      name: smzdm_remove_ads.js_bf08360d
-      type: response
-      require-body: true
-      timeout: 10
-      argument: 
-    # 什么值得买_搜索标签去广告
-    - match: ^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags
-      name: smzdm_remove_ads.js_bf08360d
-      type: response
-      require-body: true
-      timeout: 10
-      argument: 
-    # 什么值得买_搜索结果去广告
-    - match: ^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10
-      name: smzdm_remove_ads.js_bf08360d
-      type: response
-      require-body: true
-      timeout: 10
-      argument: 
-    # 什么值得买_百科去广告
-    - match: ^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list
-      name: smzdm_remove_ads.js_bf08360d
-      type: response
-      require-body: true
-      timeout: 10
-      argument: 
-    # 什么值得买_首页去广告
-    - match: ^https?:\/\/homepage-api\.smzdm\.com\/v3\/home
-      name: smzdm_remove_ads.js_bf08360d
-      type: response
-      require-body: true
-      timeout: 10
       argument: 
     # 哲也_优化软件配置1
     - match: ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?
@@ -967,7 +908,6 @@ http:
     - "b-api.ins.miaopai.com"
     - "b.appsimg.com"
     - "b.zhuishushenqi.com"
-    - "baike-api.smzdm.com"
     - "bdsp-x.jd.com"
     - "beta-api.crunchyroll.com"
     - "bgw.xinyue.qq.com"
@@ -1053,7 +993,6 @@ http:
     - "gw.csdn.net"
     - "gw.kaola.com"
     - "gx.10086.cn"
-    - "haojia-api.smzdm.com"
     - "haojia.m.smzdm.com"
     - "hd.mina.mi.com"
     - "heic.alicdn.com"
@@ -1061,7 +1000,6 @@ http:
     - "hk.app.joox.com"
     - "home.mi.com"
     - "homefront.qunar.com"
-    - "homepage-api.smzdm.com"
     - "hypersnap.mairuan.com"
     - "i*.hoopchina.com.cn"
     - "i.ys7.com"
@@ -1197,7 +1135,6 @@ http:
     - "router-app-api.jdcloud.com"
     - "rtbapi.douyucdn.cn"
     - "s*.zdmimg.com"
-    - "s-api.smzdm.com"
     - "s1.api.tv.itc.cn"
     - "s3plus.meituan.net"
     - "saad.ms.zhangyue.net"
@@ -1344,15 +1281,11 @@ http:
     - "yxyapi*.drcuiyutao.com"
     - "zconfig.alibabausercontent.com"
     - "zhidao.baidu.com"
-    - "zhiyou.m.smzdm.com"
     - "zhuanlan.zhihu.com"
     - "zjh5api.189smarthome.com"
     - "zone.guiderank-app.com"
 
 script-providers:
-  smzdm_remove_ads.js_bf08360d:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-    interval: 86400
   startup.js_5686edbb:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
     interval: 86400

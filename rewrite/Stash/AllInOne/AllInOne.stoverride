@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-03-02 02:21:53
+desc: 最后更新时间 2023-03-03 02:18:25
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 506
-# mitm: 559
+# reject: 505
+# mitm: 557
 # force-http-engine-hosts: 6
-# total: 1109
+# total: 1106
 
 
 
@@ -286,7 +286,6 @@ http:
     - ^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement - reject
     - ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd - reject
     - ^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v - reject
-    - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner - reject
     - ^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ - reject
     - ^https?:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport - reject
     - ^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd - reject
@@ -793,7 +792,6 @@ http:
     - "afd.baidu.com"
     - "agent-count.pconline.com.cn"
     - "amap-aos-info-nogw.amap.com"
-    - "ap*.smzdm.com"
     - "ap.dongqiudi.com"
     - "api*.futunn.com"
     - "api-access.pangolin-sdk-toutiao.com"
@@ -993,7 +991,6 @@ http:
     - "gw.csdn.net"
     - "gw.kaola.com"
     - "gx.10086.cn"
-    - "haojia.m.smzdm.com"
     - "hd.mina.mi.com"
     - "heic.alicdn.com"
     - "helper.2bulu.com"

@@ -1,12 +1,13 @@
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-19 16:23:03
+# UPDATED: 2023-03-03 02:08:41
 # HOST: 41
 # HOST-KEYWORD: 4
 # HOST-SUFFIX: 658
+# HOST-WILDCARD: 1
 # USER-AGENT: 3
-# TOTAL: 706
+# TOTAL: 707
 HOST,bg.v4.a.dl.ws.microsoft.com,Microsoft
 HOST,bg4.v4.a.dl.ws.microsoft.com,Microsoft
 HOST,bj1.api.bing.com,Microsoft
@@ -706,6 +707,7 @@ HOST-SUFFIX,onedrive.org,Microsoft
 HOST-SUFFIX,sharepoint.com,Microsoft
 HOST-SUFFIX,sharepointonline.com,Microsoft
 HOST-SUFFIX,spoprod-a.akamaihd.net,Microsoft
+HOST-WILDCARD,onedrive.*,Microsoft
 HOST-KEYWORD,microsoft,Microsoft
 HOST-KEYWORD,1drv,Microsoft
 HOST-KEYWORD,onedrive,Microsoft

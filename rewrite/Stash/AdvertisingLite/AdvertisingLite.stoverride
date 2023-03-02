@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-03-02 02:22:04
+desc: 最后更新时间 2023-03-03 02:18:33
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 497
-# mitm: 409
+# reject: 496
+# mitm: 408
 # force-http-engine-hosts: 6
-# total: 912
+# total: 910
 
 
 
@@ -261,7 +261,6 @@ http:
     - ^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement - reject
     - ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd - reject
     - ^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v - reject
-    - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner - reject
     - ^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ - reject
     - ^https?:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport - reject
     - ^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd - reject
@@ -725,7 +724,6 @@ http:
     - "gw.csdn.net"
     - "gw.kaola.com"
     - "gx.10086.cn"
-    - "haojia.m.smzdm.com"
     - "heic.alicdn.com"
     - "helper.2bulu.com"
     - "hk.app.joox.com"

@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-03-07 02:18:11
+desc: 最后更新时间 2023-03-08 02:23:51
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 506
-# mitm: 557
+# reject: 507
+# mitm: 558
 # force-http-engine-hosts: 6
-# total: 1107
+# total: 1109
 
 
 
@@ -86,6 +86,7 @@ http:
     - ^https?:\/\/api4\.bybutter\.com\/v\d\/app\/placements\/\d\/advertisements - reject
     - ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
     - ^https?:\/\/api\.00bang\.cn\/llb\/baseinfo\/advertise\/getAdvertiseByPageCode - reject
+    - ^https?:\/\/api\.21ec74\.com\/v2\.5\/ad - reject
     - ^https?:\/\/api\.21jingji\.com\/ad\/ - reject
     - ^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
     - ^https?:\/\/api\.ahmobile\.cn:443\/eip\?eip_serv_id=app\.getAllNew - reject
@@ -803,6 +804,7 @@ http:
     - "api-release.wuta-cam.com"
     - "api-sams.walmartmobile.cn"
     - "api.00bang.cn"
+    - "api.21ec74.com"
     - "api.21jingji.com"
     - "api.abema.io"
     - "api.ahmobile.cn"

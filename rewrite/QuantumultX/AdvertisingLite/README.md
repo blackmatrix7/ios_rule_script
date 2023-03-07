@@ -20,16 +20,16 @@ AdvertisingLite 不直接抽取数据源中MITM的hostname，仅用正则推导�
 
 ## 规则统计
 
-最后更新时间：2023-03-05 02:19:33
+最后更新时间：2023-03-08 02:24:07
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST-KEYWORD | 27  | 
 | IP-CIDR | 184  | 
-| REJECT | 522  | 
-| MITM | 429  | 
-| TOTAL | 1162  | 
+| REJECT | 523  | 
+| MITM | 430  | 
+| TOTAL | 1164  | 
 
 
 ## QuantumultX 

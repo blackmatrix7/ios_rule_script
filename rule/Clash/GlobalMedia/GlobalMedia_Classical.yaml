@@ -1,14 +1,14 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-15 23:45:29
+# UPDATED: 2023-03-12 02:14:44
 # DOMAIN: 28
-# DOMAIN-KEYWORD: 22
-# DOMAIN-SUFFIX: 1067
+# DOMAIN-KEYWORD: 24
+# DOMAIN-SUFFIX: 1085
 # IP-CIDR: 918
 # IP-CIDR6: 6
 # PROCESS-NAME: 3
-# TOTAL: 2044
+# TOTAL: 2064
 payload:
   - DOMAIN,api.okzy.tv
   - DOMAIN,apm-misaka.biliapi.net
@@ -121,6 +121,7 @@ payload:
   - DOMAIN-SUFFIX,bidi.net.uk
   - DOMAIN-SUFFIX,bigbigchannel.com.hk
   - DOMAIN-SUFFIX,bigbigshop.com
+  - DOMAIN-SUFFIX,biggggg.com
   - DOMAIN-SUFFIX,biliintl.com
   - DOMAIN-SUFFIX,bitmovin.com
   - DOMAIN-SUFFIX,bootstrapcdn.com
@@ -548,6 +549,7 @@ payload:
   - DOMAIN-SUFFIX,gorin.jp
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,haiwaikan.com
   - DOMAIN-SUFFIX,happyon.jp
   - DOMAIN-SUFFIX,hath.network
   - DOMAIN-SUFFIX,hayabusa.dev
@@ -646,6 +648,7 @@ payload:
   - DOMAIN-SUFFIX,intl-rcd.iqiyi.com
   - DOMAIN-SUFFIX,intl-subscription.iqiyi.com
   - DOMAIN-SUFFIX,intl.iqiyi.com
+  - DOMAIN-SUFFIX,iole.tv
   - DOMAIN-SUFFIX,ipstatp.com
   - DOMAIN-SUFFIX,iq.com
   - DOMAIN-SUFFIX,italkbb.com
@@ -716,6 +719,7 @@ payload:
   - DOMAIN-SUFFIX,moviesanywhere.com
   - DOMAIN-SUFFIX,msnbc.com
   - DOMAIN-SUFFIX,mtvnservices.com
+  - DOMAIN-SUFFIX,mudvod.tv
   - DOMAIN-SUFFIX,muscdn.com
   - DOMAIN-SUFFIX,mushymush.tv
   - DOMAIN-SUFFIX,musical.ly
@@ -766,6 +770,9 @@ payload:
   - DOMAIN-SUFFIX,nbcsports.h-cdn.com
   - DOMAIN-SUFFIX,nbcudigitaladops.com
   - DOMAIN-SUFFIX,nbcuni.com
+  - DOMAIN-SUFFIX,nbys.tv
+  - DOMAIN-SUFFIX,nbys1.tv
+  - DOMAIN-SUFFIX,nbyy.tv
   - DOMAIN-SUFFIX,nebula.app
   - DOMAIN-SUFFIX,netflix.ca
   - DOMAIN-SUFFIX,netflix.com
@@ -786,6 +793,7 @@ payload:
   - DOMAIN-SUFFIX,netflixstudios.com
   - DOMAIN-SUFFIX,netflixtechblog.com
   - DOMAIN-SUFFIX,nettyinternet.com
+  - DOMAIN-SUFFIX,newpppp.com
   - DOMAIN-SUFFIX,newsnowfox.com
   - DOMAIN-SUFFIX,nflxext.com
   - DOMAIN-SUFFIX,nflximg.com
@@ -803,6 +811,9 @@ payload:
   - DOMAIN-SUFFIX,nikkei.com
   - DOMAIN-SUFFIX,nikkei.jp
   - DOMAIN-SUFFIX,nimg.jp
+  - DOMAIN-SUFFIX,nivod.tv
+  - DOMAIN-SUFFIX,nivodi.tv
+  - DOMAIN-SUFFIX,nivodz.com
   - DOMAIN-SUFFIX,nomadlandmovie.ch
   - DOMAIN-SUFFIX,now-ashare.com
   - DOMAIN-SUFFIX,now-tv.com
@@ -825,6 +836,12 @@ payload:
   - DOMAIN-SUFFIX,nytlog.com
   - DOMAIN-SUFFIX,nytstyle.com
   - DOMAIN-SUFFIX,ocnttv.com
+  - DOMAIN-SUFFIX,olehd.com
+  - DOMAIN-SUFFIX,olelive.com
+  - DOMAIN-SUFFIX,olevod.com
+  - DOMAIN-SUFFIX,olevod.io
+  - DOMAIN-SUFFIX,olevod.tv
+  - DOMAIN-SUFFIX,olevodtv.com
   - DOMAIN-SUFFIX,originalhulu.com
   - DOMAIN-SUFFIX,orlandohurricane.com
   - DOMAIN-SUFFIX,overcast.fm
@@ -1057,6 +1074,7 @@ payload:
   - DOMAIN-SUFFIX,voatiengviet.com
   - DOMAIN-SUFFIX,voatour.com
   - DOMAIN-SUFFIX,voazimbabwe.com
+  - DOMAIN-SUFFIX,vod360.net
   - DOMAIN-SUFFIX,vox-cdn.com
   - DOMAIN-SUFFIX,vox.com
   - DOMAIN-SUFFIX,voxcreative.com
@@ -1119,7 +1137,9 @@ payload:
   - DOMAIN-KEYWORD,japronx
   - DOMAIN-KEYWORD,jooxweb-api
   - DOMAIN-KEYWORD,netflixdnstest
+  - DOMAIN-KEYWORD,nivod
   - DOMAIN-KEYWORD,nowtv100
+  - DOMAIN-KEYWORD,olevod
   - DOMAIN-KEYWORD,rthklive
   - DOMAIN-KEYWORD,spotify.com
   - DOMAIN-KEYWORD,tiktokcdn-

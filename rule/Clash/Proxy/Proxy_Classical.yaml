@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-03-03 02:14:50
+# UPDATED: 2023-03-12 02:14:42
 # DOMAIN: 7
 # DOMAIN-KEYWORD: 31
-# DOMAIN-SUFFIX: 24677
+# DOMAIN-SUFFIX: 24678
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 24806
+# TOTAL: 24807
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -2783,6 +2783,7 @@ payload:
   - DOMAIN-SUFFIX,ahri8.com
   - DOMAIN-SUFFIX,ai-kan.net
   - DOMAIN-SUFFIX,ai-wen.net
+  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,ai780.com
   - DOMAIN-SUFFIX,aikeji.tk
   - DOMAIN-SUFFIX,aing01.com
@@ -11168,6 +11169,7 @@ payload:
   - DOMAIN-SUFFIX,la-forum.org
   - DOMAIN-SUFFIX,la4065.com
   - DOMAIN-SUFFIX,lab.gracecode.com
+  - DOMAIN-SUFFIX,lab.skk.moe
   - DOMAIN-SUFFIX,labetulla.ch
   - DOMAIN-SUFFIX,labiblia.com
   - DOMAIN-SUFFIX,labiennale.org
@@ -15943,7 +15945,6 @@ payload:
   - DOMAIN-SUFFIX,skillfeed.com
   - DOMAIN-SUFFIX,skimtube.com
   - DOMAIN-SUFFIX,skirt.com
-  - DOMAIN-SUFFIX,skk.moe
   - DOMAIN-SUFFIX,skn.noip.me
   - DOMAIN-SUFFIX,skop.cl
   - DOMAIN-SUFFIX,skyav.me

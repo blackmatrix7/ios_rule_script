@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-03-12 02:18:15
+desc: 最后更新时间 2023-03-13 02:19:12
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 508
-# mitm: 559
+# reject: 511
+# mitm: 562
 # force-http-engine-hosts: 6
-# total: 1111
+# total: 1117
 
 
 
@@ -31,6 +31,7 @@ http:
     - ^https?:\/\/cn\.ultraiso\.net\/ https://cn.ezbsystems.com/ultraiso/ 302
     - ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302
     - ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
+    - ^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time - reject
     - ^https:\/\/api\.sfacg\.com\/ioscfg - reject
     - ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ - reject
     - ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject
@@ -440,6 +441,7 @@ http:
     - ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
     - ^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson - reject
     - ^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/screen - reject
+    - ^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
     - ^https?:\/\/slapi.oray.net/client/ad - reject
     - ^https?:\/\/slapi\.oray\.net\/adver - reject
@@ -466,6 +468,7 @@ http:
     - ^https?:\/\/tiasdk\.app\.wechat\.com\/retrieval\/getAdInfo$ - reject
     - ^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/ - reject
     - ^https?:\/\/tj\.playcvn\.com\/app\/ads\? - reject
+    - ^https?:\/\/tk\.lanjiyin\.com\.cn\/ad\/getAdList - reject
     - ^https?:\/\/tqt\.weibo\.cn\/api\/advert\/ - reject
     - ^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=(tqt_sdkad|tqtad) - reject
     - ^https?:\/\/track\.mm\.taou\.com/v\d\/track - reject
@@ -1145,6 +1148,7 @@ http:
     - "service.busi.inke.cn"
     - "service.iciba.com"
     - "sh-gateway.shihuo.cn"
+    - "shopapi.io.mi.com"
     - "shopic.sf-express.com"
     - "smkmp.96225.com"
     - "smusic.app.wechat.com"
@@ -1173,6 +1177,8 @@ http:
     - "tiku.fenbi.com"
     - "tiku.zhan.com"
     - "tj.playcvn.com"
+    - "tk.lanjiyin.com"
+    - "tk.lanjiyin.com.cn"
     - "top-widgets-api.xiaozujian.com"
     - "track.mm.taou.com"
     - "tracker-download.oss-cn-beijing.aliyuncs.com"

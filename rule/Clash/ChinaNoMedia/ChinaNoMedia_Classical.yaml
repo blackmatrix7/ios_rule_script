@@ -1,13 +1,13 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-27 02:17:20
+# UPDATED: 2023-03-13 02:17:14
 # DOMAIN: 18
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3511
+# DOMAIN-SUFFIX: 3512
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3552
+# TOTAL: 3553
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -2954,6 +2954,7 @@ payload:
   - DOMAIN-SUFFIX,titanar.com
   - DOMAIN-SUFFIX,tivitv.com
   - DOMAIN-SUFFIX,tjjt360.com
+  - DOMAIN-SUFFIX,tjstats.com
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,tkhealthcare.com
   - DOMAIN-SUFFIX,tlgslb.com

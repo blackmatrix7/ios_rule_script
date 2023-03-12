@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2023-03-12 02:18:11
+desc: 最后更新时间 2023-03-13 02:19:07
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 546
-# mitm: 500
+# reject: 548
+# mitm: 503
 # force-http-engine-hosts: 6
-# total: 1052
+# total: 1057
 
 
 
@@ -13,6 +13,7 @@ desc: 最后更新时间 2023-03-12 02:18:11
 
 http:
   rewrite:
+    - ^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time - reject
     - ^https:\/\/api\.sfacg\.com\/ioscfg - reject
     - ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ - reject
     - ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject
@@ -458,6 +459,7 @@ http:
     - ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
     - ^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson - reject
     - ^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/screen - reject
+    - ^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
     - ^https?:\/\/slapi.oray.net/client/ad - reject
     - ^https?:\/\/slapi\.oray\.net\/adver - reject
@@ -485,6 +487,7 @@ http:
     - ^https?:\/\/tiasdk\.app\.wechat\.com\/retrieval\/getAdInfo$ - reject
     - ^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/ - reject
     - ^https?:\/\/tj\.playcvn\.com\/app\/ads\? - reject
+    - ^https?:\/\/tk\.lanjiyin\.com\.cn\/ad\/getAdList - reject
     - ^https?:\/\/tqt\.weibo\.cn\/api\/advert\/ - reject
     - ^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=(tqt_sdkad|tqtad) - reject
     - ^https?:\/\/track\.mm\.taou\.com/v\d\/track - reject
@@ -521,7 +524,6 @@ http:
     - ^https?:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.getMaxWeightAdvertisement\.rpc - reject
     - ^https?:\/\/www\.inoreader\.com\/adv\/ - reject
     - ^https?:\/\/www\.iyingdi\.cn\/ad - reject
-    - ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
     - ^https?:\/\/www\.myhug\.cn\/ad\/ - reject
     - ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ - reject
@@ -984,6 +986,7 @@ http:
     - "service.busi.inke.cn"
     - "service.iciba.com"
     - "sh-gateway.shihuo.cn"
+    - "shopapi.io.mi.com"
     - "shopic.sf-express.com"
     - "smallseotools.com"
     - "smkmp.96225.com"
@@ -1013,6 +1016,8 @@ http:
     - "tiku.fenbi.com"
     - "tiku.zhan.com"
     - "tj.playcvn.com"
+    - "tk.lanjiyin.com"
+    - "tk.lanjiyin.com.cn"
     - "top-widgets-api.xiaozujian.com"
     - "track.mm.taou.com"
     - "tracker-download.oss-cn-beijing.aliyuncs.com"

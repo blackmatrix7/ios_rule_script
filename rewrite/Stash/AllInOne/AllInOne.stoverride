@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-03-13 02:19:12
+desc: 最后更新时间 2023-03-14 02:19:44
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 511
-# mitm: 562
+# reject: 512
+# mitm: 563
 # force-http-engine-hosts: 6
-# total: 1117
+# total: 1119
 
 
 
@@ -271,6 +271,7 @@ http:
     - ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/status\/init - reject
     - ^https?:\/\/games\.mobileapi\.hupu\.com\/interfaceAdMonitor - reject
     - ^https?:\/\/gateway-api\.dushu365\.com\/chief-orch\/config\/config\/v100\/appConfig - reject
+    - ^https?:\/\/gateway\.36kr\.com\/api\/adx\/ad\/show - reject
     - ^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json - reject
     - ^https?:\/\/gd\.10086\.cn\/gmccapp\/serv\/\?servicename=GMCCAPP_704_002_001_001 - reject
     - ^https?:\/\/gfp\.veta\.naver\.com\/adcall\? - reject
@@ -982,6 +983,7 @@ http:
     - "gab.122.gov.cn"
     - "games.mobileapi.hupu.com"
     - "gateway-api.dushu365.com"
+    - "gateway.36kr.com"
     - "gateway.shouqiev.com"
     - "gd.10086.cn"
     - "gfp.veta.naver.com"

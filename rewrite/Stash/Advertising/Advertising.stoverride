@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2023-03-14 02:19:39
+desc: 最后更新时间 2023-03-18 02:23:45
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 549
-# mitm: 504
+# mitm: 505
 # force-http-engine-hosts: 6
-# total: 1059
+# total: 1060
 
 
 
@@ -603,6 +603,7 @@ http:
     - "*.ximalaya.com"
     - "*.zhangle.com"
     - "*api.oray.net"
+    - "*cupid.iqiyi.com"
     - "*gaoqingdianshi.com"
     - "101.201.175.228"
     - "103.41.167.*"

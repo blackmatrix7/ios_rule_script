@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2023-03-14 02:19:44
+desc: 最后更新时间 2023-03-18 02:23:51
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
@@ -7,9 +7,9 @@ desc: 最后更新时间 2023-03-14 02:19:44
 # http-response-script: 24
 # redirect: 8
 # reject: 512
-# mitm: 563
+# mitm: 564
 # force-http-engine-hosts: 6
-# total: 1119
+# total: 1120
 
 
 
@@ -760,6 +760,7 @@ http:
     - "*.ximalaya.com"
     - "*.zhangle.com"
     - "*api.oray.net"
+    - "*cupid.iqiyi.com"
     - "101.201.175.228"
     - "103.41.167.*"
     - "103.91.210.141"

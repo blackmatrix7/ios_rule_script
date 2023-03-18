@@ -1,15 +1,15 @@
 # NAME: Telegram
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-19 16:29:50
+# UPDATED: 2023-03-19 02:15:27
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 20
 # IP-ASN: 5
 # IP-CIDR: 5
 # IP-CIDR6: 4
 # OR: 1
-# PROCESS-NAME: 2
-# TOTAL: 38
+# PROCESS-NAME: 3
+# TOTAL: 39
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,contest.com
 DOMAIN-SUFFIX,graph.org
@@ -47,4 +47,5 @@ IP-ASN,62014,no-resolve
 IP-ASN,62041,no-resolve
 PROCESS-NAME,nekox.messenger
 PROCESS-NAME,org.telegram.messenger
+PROCESS-NAME,telegram-desktop
 OR,((IP-ASN,44907,no-resolve),(IP-ASN,59930,no-resolve),(IP-ASN,62014,no-resolve),(IP-ASN,62041,no-resolve),(IP-ASN,211157,no-resolve))

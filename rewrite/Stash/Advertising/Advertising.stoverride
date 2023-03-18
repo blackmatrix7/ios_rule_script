@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2023-03-18 02:23:45
+desc: 最后更新时间 2023-03-19 02:19:06
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 549
-# mitm: 505
+# mitm: 506
 # force-http-engine-hosts: 6
-# total: 1060
+# total: 1061
 
 
 
@@ -17,7 +17,6 @@ http:
     - ^https:\/\/api\.sfacg\.com\/ioscfg - reject
     - ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ - reject
     - ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject
-    - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
     - ^https?://spclient.wg.spotify.com/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+promoted_offer) - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData - reject
@@ -451,6 +450,7 @@ http:
     - ^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/ - reject
     - ^https?:\/\/richmanapi\.jxedt\.com\/api\/(ad|adplus|guideplus|banadplus) - reject
     - ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject
+    - ^https?:\/\/run\.api\.qyfxgd\.cn:9313\/api\/v1\/advert - reject
     - ^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json - reject
     - ^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php - reject
     - ^https?:\/\/saad\.ms\.zhangyue\.net\/ad - reject
@@ -979,6 +979,7 @@ http:
     - "richmanapi.jxedt.com"
     - "router-app-api.jdcloud.com"
     - "rtbapi.douyucdn.cn"
+    - "run.api.qyfxgd.cn"
     - "s*.zdmimg.com"
     - "s1.api.tv.itc.cn"
     - "s3plus.meituan.net"

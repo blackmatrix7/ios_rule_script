@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-03-19 02:19:20
+desc: 最后更新时间 2023-03-21 02:24:07
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 502
-# mitm: 413
+# reject: 504
+# mitm: 415
 # force-http-engine-hosts: 6
-# total: 921
+# total: 925
 
 
 
@@ -17,6 +17,7 @@ http:
     - ^https:\/\/api\.sfacg\.com\/ioscfg - reject
     - ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ - reject
     - ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject
+    - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
     - ^https?://spclient.wg.spotify.com/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+promoted_offer) - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
@@ -206,6 +207,7 @@ http:
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject
     - ^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds - reject
     - ^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd - reject
+    - ^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getStartPictureAdvertising - reject
     - ^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject
     - ^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject
     - ^https?:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/ - reject
@@ -677,6 +679,7 @@ http:
     - "client.app.coc.10086.cn"
     - "client.mail.163.com"
     - "client.qunar.com"
+    - "client.tujia.com"
     - "clientaccess.10086.cn"
     - "cloud.189.cn"
     - "cms.daydaycook.com.cn"
@@ -903,6 +906,7 @@ http:
     - "vali.cp31.ott.cibntv.net"
     - "venus.yhd.com"
     - "video.dispatch.tc.qq.com"
+    - "vip7.fzwdyy.cn"
     - "vv.video.qq.com"
     - "wap.ngchina.cn"
     - "wbapp.uve.weibo.com"

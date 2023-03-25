@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2023-03-24 02:19:14
+#!desc= 最后更新时间 2023-03-26 02:16:57
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 503
+#!reject= 502
 #!mitm= 415
-#!total= 918
+#!total= 917
 
 
 [URL Rewrite]
@@ -321,7 +321,6 @@
 ^https?:\/\/ma\.ofo\.com\/ads - reject-200
 ^https?:\/\/mage\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen - reject
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject
-^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/ad\/ - reject
 ^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds - reject-200
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get - reject
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report - reject

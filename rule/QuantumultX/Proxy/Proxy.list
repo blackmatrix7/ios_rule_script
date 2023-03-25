@@ -1,17 +1,18 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-03-22 02:18:10
-# HOST: 10
+# UPDATED: 2023-03-26 02:13:27
+# HOST: 11
 # HOST-KEYWORD: 31
-# HOST-SUFFIX: 25413
+# HOST-SUFFIX: 25416
 # IP-CIDR: 88
 # IP6-CIDR: 3
-# USER-AGENT: 8
-# TOTAL: 25553
+# USER-AGENT: 9
+# TOTAL: 25558
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
+HOST,cdp.cloud.unity3d.com,Proxy
 HOST,cvws.icloud-content.com,Proxy
 HOST,developer.apple.com,Proxy
 HOST,lens.l.google.com,Proxy
@@ -3782,7 +3783,9 @@ HOST-SUFFIX,basketbawful.com,Proxy
 HOST-SUFFIX,bastillepost.com,Proxy
 HOST-SUFFIX,bat.me,Proxy
 HOST-SUFFIX,battle.gtasia777.com,Proxy
+HOST-SUFFIX,battle.net,Proxy
 HOST-SUFFIX,battle1.gtasia777.com,Proxy
+HOST-SUFFIX,battlenet.com,Proxy
 HOST-SUFFIX,bawimydzieci.pl,Proxy
 HOST-SUFFIX,baxyy.com,Proxy
 HOST-SUFFIX,bayescapital.com,Proxy
@@ -4193,6 +4196,7 @@ HOST-SUFFIX,blinkx.com,Proxy
 HOST-SUFFIX,blinw.com,Proxy
 HOST-SUFFIX,blip.tv,Proxy
 HOST-SUFFIX,bliporn.com,Proxy
+HOST-SUFFIX,blizzard.com,Proxy
 HOST-SUFFIX,blm1.app,Proxy
 HOST-SUFFIX,blm2.app,Proxy
 HOST-SUFFIX,blm234.net,Proxy
@@ -25471,6 +25475,7 @@ USER-AGENT,TikTok*,Proxy
 USER-AGENT,WhatsApp*,Proxy
 USER-AGENT,battleroyale*,Proxy
 USER-AGENT,com.apple.trustd*,Proxy
+USER-AGENT,hearthstone*,Proxy
 IP-CIDR,1.201.0.0/24,Proxy
 IP-CIDR,101.32.118.0/23,Proxy
 IP-CIDR,101.32.96.0/20,Proxy

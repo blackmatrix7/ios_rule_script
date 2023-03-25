@@ -1,14 +1,14 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-03-12 02:14:44
+# UPDATED: 2023-03-26 02:13:28
 # DOMAIN: 28
 # DOMAIN-KEYWORD: 24
-# DOMAIN-SUFFIX: 1085
+# DOMAIN-SUFFIX: 1086
 # IP-CIDR: 918
 # IP-CIDR6: 6
 # PROCESS-NAME: 3
-# TOTAL: 2064
+# TOTAL: 2065
 payload:
   - 'api.okzy.tv'
   - 'apm-misaka.biliapi.net'
@@ -200,6 +200,7 @@ payload:
   - '+.daznedge.net'
   - '+.daznfeeds.com'
   - '+.daznservices.com'
+  - '+.dc1-lm-live2dazn.secure.footprint.net'
   - '+.dc2-vodhls-perform.secure.footprint.net'
   - '+.dca-ll-livedazn-dznlivejp.s.llnwi.net'
   - '+.dca-ll-voddazn-dznvodjp.s.llnwi.net'

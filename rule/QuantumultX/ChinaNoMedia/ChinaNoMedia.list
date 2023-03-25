@@ -1,14 +1,15 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-03-22 02:20:29
+# UPDATED: 2023-03-26 02:15:03
 # HOST: 19
 # HOST-KEYWORD: 9
-# HOST-SUFFIX: 3513
+# HOST-SUFFIX: 3510
+# HOST-WILDCARD: 1
 # IP-CIDR: 10
 # IP6-CIDR: 4
 # USER-AGENT: 31
-# TOTAL: 3586
+# TOTAL: 3584
 HOST,analytics.strava.com,ChinaNoMedia
 HOST,blzddist1-a.akamaihd.net,ChinaNoMedia
 HOST,cdn.angruo.com,ChinaNoMedia
@@ -505,9 +506,7 @@ HOST-SUFFIX,banmaaike.com,ChinaNoMedia
 HOST-SUFFIX,baofeng.com,ChinaNoMedia
 HOST-SUFFIX,baomitu.com,ChinaNoMedia
 HOST-SUFFIX,baoxianshichang.com,ChinaNoMedia
-HOST-SUFFIX,battle.net,ChinaNoMedia
 HOST-SUFFIX,battlecare.net,ChinaNoMedia
-HOST-SUFFIX,battlenet.com,ChinaNoMedia
 HOST-SUFFIX,baydn.com,ChinaNoMedia
 HOST-SUFFIX,bazai.com,ChinaNoMedia
 HOST-SUFFIX,bbbcdns.com,ChinaNoMedia
@@ -561,7 +560,6 @@ HOST-SUFFIX,bkapps.com,ChinaNoMedia
 HOST-SUFFIX,bkclouds.cc,ChinaNoMedia
 HOST-SUFFIX,bktencent.com,ChinaNoMedia
 HOST-SUFFIX,blackdragon.com,ChinaNoMedia
-HOST-SUFFIX,blizzard.com,ChinaNoMedia
 HOST-SUFFIX,blogjava.net,ChinaNoMedia
 HOST-SUFFIX,blyun.com,ChinaNoMedia
 HOST-SUFFIX,bmj.com,ChinaNoMedia
@@ -3541,6 +3539,7 @@ HOST-SUFFIX,zuoyebang.com,ChinaNoMedia
 HOST-SUFFIX,zybang.com,ChinaNoMedia
 HOST-SUFFIX,zyh365.com,ChinaNoMedia
 HOST-SUFFIX,zzdtec.com,ChinaNoMedia
+HOST-WILDCARD,windows-*.net,ChinaNoMedia
 HOST-KEYWORD,.tmall.com,ChinaNoMedia
 HOST-KEYWORD,alicdn,ChinaNoMedia
 HOST-KEYWORD,alipay,ChinaNoMedia

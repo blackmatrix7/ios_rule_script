@@ -1,14 +1,14 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-03-14 02:17:25
+# UPDATED: 2023-03-26 02:14:47
 # HOST: 18
 # HOST-KEYWORD: 24
-# HOST-SUFFIX: 830
+# HOST-SUFFIX: 833
 # IP-CIDR: 90
 # IP6-CIDR: 4
-# USER-AGENT: 6
-# TOTAL: 972
+# USER-AGENT: 7
+# TOTAL: 976
 HOST,addons.mozilla.org,ProxyLite
 HOST,amp-api.podcasts.apple.com,ProxyLite
 HOST,api.waqi.info,ProxyLite
@@ -95,6 +95,8 @@ HOST-SUFFIX,badoo.com,ProxyLite
 HOST-SUFFIX,bandcamp.com,ProxyLite
 HOST-SUFFIX,bandisoft.com,ProxyLite
 HOST-SUFFIX,bandwagonhost.com,ProxyLite
+HOST-SUFFIX,battle.net,ProxyLite
+HOST-SUFFIX,battlenet.com,ProxyLite
 HOST-SUFFIX,bbc.co,ProxyLite
 HOST-SUFFIX,bbc.com,ProxyLite
 HOST-SUFFIX,bbtoystore.com,ProxyLite
@@ -121,6 +123,7 @@ HOST-SUFFIX,bitmex.com,ProxyLite
 HOST-SUFFIX,bitshare.com,ProxyLite
 HOST-SUFFIX,bitstamp.net,ProxyLite
 HOST-SUFFIX,bittrex.com,ProxyLite
+HOST-SUFFIX,blizzard.com,ProxyLite
 HOST-SUFFIX,blog.com,ProxyLite
 HOST-SUFFIX,blogcdn.com,ProxyLite
 HOST-SUFFIX,bloglovin.com,ProxyLite
@@ -887,6 +890,7 @@ USER-AGENT,PayPal*,ProxyLite
 USER-AGENT,TikTok*,ProxyLite
 USER-AGENT,WhatsApp*,ProxyLite
 USER-AGENT,battleroyale*,ProxyLite
+USER-AGENT,hearthstone*,ProxyLite
 IP-CIDR,1.201.0.0/24,ProxyLite
 IP-CIDR,101.32.118.0/23,ProxyLite
 IP-CIDR,101.32.96.0/20,ProxyLite

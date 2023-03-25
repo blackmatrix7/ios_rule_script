@@ -1,11 +1,11 @@
 #!name=Advertising
-#!desc=最后更新时间 2023-03-24 02:19:00
+#!desc=最后更新时间 2023-03-26 02:16:44
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=550
+#!reject=549
 #!mitm=507
 #!force-http-engine-hosts=6
-#!total=1063
+#!total=1062
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -367,7 +367,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/ma\.ofo\.com\/ads" - reject
 "^https?:\/\/mage\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen" - reject
 "^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/" - reject
-"^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/ad\/" - reject
 "^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds" - reject
 "^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get" - reject
 "^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report" - reject

@@ -1,15 +1,15 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-03-12 02:14:44
+# UPDATED: 2023-03-26 02:13:28
 # HOST: 28
 # HOST-KEYWORD: 24
-# HOST-SUFFIX: 1085
-# HOST-WILDCARD: 8
+# HOST-SUFFIX: 1086
+# HOST-WILDCARD: 10
 # IP-CIDR: 918
 # IP6-CIDR: 6
 # USER-AGENT: 56
-# TOTAL: 2125
+# TOTAL: 2128
 HOST,api.okzy.tv,GlobalMedia
 HOST,apm-misaka.biliapi.net,GlobalMedia
 HOST,apple.comscoreresearch.com,GlobalMedia
@@ -200,6 +200,7 @@ HOST-SUFFIX,dazndn.com,GlobalMedia
 HOST-SUFFIX,daznedge.net,GlobalMedia
 HOST-SUFFIX,daznfeeds.com,GlobalMedia
 HOST-SUFFIX,daznservices.com,GlobalMedia
+HOST-SUFFIX,dc1-lm-live2dazn.secure.footprint.net,GlobalMedia
 HOST-SUFFIX,dc2-vodhls-perform.secure.footprint.net,GlobalMedia
 HOST-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net,GlobalMedia
 HOST-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net,GlobalMedia
@@ -1123,6 +1124,8 @@ HOST-SUFFIX,zeetv.com,GlobalMedia
 HOST-SUFFIX,zeeuk.com,GlobalMedia
 HOST-SUFFIX,zeriamerikes.com,GlobalMedia
 HOST-SUFFIX,zype.com,GlobalMedia
+HOST-WILDCARD,dc?livedazn.akamaized.net,GlobalMedia
+HOST-WILDCARD,dc?voddazn.akamaized.net,GlobalMedia
 HOST-WILDCARD,netflixdnstest*.com,GlobalMedia
 HOST-WILDCARD,youtube.*,GlobalMedia
 HOST-WILDCARD,youtube.*.*,GlobalMedia

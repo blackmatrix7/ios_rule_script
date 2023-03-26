@@ -1,12 +1,12 @@
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-03-06 02:08:45
+# UPDATED: 2023-03-27 02:08:07
 # DOMAIN: 2
 # DOMAIN-KEYWORD: 4
-# DOMAIN-SUFFIX: 659
+# DOMAIN-SUFFIX: 660
 # PROCESS-NAME: 2
-# TOTAL: 667
+# TOTAL: 668
 payload:
   - DOMAIN,github-cloud.s3.amazonaws.com
   - DOMAIN,vsmarketplacebadge.apphb.com
@@ -332,6 +332,7 @@ payload:
   - DOMAIN-SUFFIX,microsoftaffiliates.com
   - DOMAIN-SUFFIX,microsoftapp.net
   - DOMAIN-SUFFIX,microsoftazuread-sso.com
+  - DOMAIN-SUFFIX,microsoftazuresponsorships.com
   - DOMAIN-SUFFIX,microsoftazurestatus.cn
   - DOMAIN-SUFFIX,microsoftcloud.com
   - DOMAIN-SUFFIX,microsoftcloudsummit.com

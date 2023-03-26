@@ -1,13 +1,13 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-03-26 02:15:03
+# UPDATED: 2023-03-27 02:14:58
 # DOMAIN: 19
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3510
+# DOMAIN-SUFFIX: 3516
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3552
+# TOTAL: 3558
 payload:
   - 'analytics.strava.com'
   - 'blzddist1-a.akamaihd.net'
@@ -1170,6 +1170,7 @@ payload:
   - '+.duoduocdn.com'
   - '+.duokan.com'
   - '+.duokanbox.com'
+  - '+.duolabao.com'
   - '+.duomai.com'
   - '+.duoshuo.com'
   - '+.duote.com'
@@ -1397,6 +1398,7 @@ payload:
   - '+.goofish.com'
   - '+.googletraveladservices.com'
   - '+.goosail.com'
+  - '+.goproxy.io'
   - '+.goselling.com'
   - '+.goto-game.com'
   - '+.goto-game.mobi'
@@ -1475,6 +1477,7 @@ payload:
   - '+.hddolby.com'
   - '+.hdhome.org'
   - '+.hdyxgame.com'
+  - '+.healthjd.com'
   - '+.heavenlywind.cc'
   - '+.hefei.cc'
   - '+.heisha.net'
@@ -1834,6 +1837,7 @@ payload:
   - '+.jdfw1.com'
   - '+.jdgslb.com'
   - '+.jdgslb.net'
+  - '+.jdh.com'
   - '+.jdjinrong.com'
   - '+.jdl.com'
   - '+.jdpay.com'
@@ -3125,6 +3129,8 @@ payload:
   - '+.vip.com'
   - '+.vipdlt.com'
   - '+.vipexam.org'
+  - '+.vipmro.com'
+  - '+.vipmro.net'
   - '+.visualstudio.com'
   - '+.vmall.com'
   - '+.vmallres.com'

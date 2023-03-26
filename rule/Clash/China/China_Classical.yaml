@@ -1,13 +1,13 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-03-26 02:13:37
+# UPDATED: 2023-03-27 02:13:31
 # DOMAIN: 19
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3591
+# DOMAIN-SUFFIX: 3597
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3633
+# TOTAL: 3639
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -1206,6 +1206,7 @@ payload:
   - DOMAIN-SUFFIX,duoduocdn.com
   - DOMAIN-SUFFIX,duokan.com
   - DOMAIN-SUFFIX,duokanbox.com
+  - DOMAIN-SUFFIX,duolabao.com
   - DOMAIN-SUFFIX,duomai.com
   - DOMAIN-SUFFIX,duoshuo.com
   - DOMAIN-SUFFIX,duote.com
@@ -1434,6 +1435,7 @@ payload:
   - DOMAIN-SUFFIX,goofish.com
   - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN-SUFFIX,goosail.com
+  - DOMAIN-SUFFIX,goproxy.io
   - DOMAIN-SUFFIX,goselling.com
   - DOMAIN-SUFFIX,goto-game.com
   - DOMAIN-SUFFIX,goto-game.mobi
@@ -1514,6 +1516,7 @@ payload:
   - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN-SUFFIX,hdslb.org
   - DOMAIN-SUFFIX,hdyxgame.com
+  - DOMAIN-SUFFIX,healthjd.com
   - DOMAIN-SUFFIX,heavenlywind.cc
   - DOMAIN-SUFFIX,hefei.cc
   - DOMAIN-SUFFIX,heisha.net
@@ -1882,6 +1885,7 @@ payload:
   - DOMAIN-SUFFIX,jdfw1.com
   - DOMAIN-SUFFIX,jdgslb.com
   - DOMAIN-SUFFIX,jdgslb.net
+  - DOMAIN-SUFFIX,jdh.com
   - DOMAIN-SUFFIX,jdjinrong.com
   - DOMAIN-SUFFIX,jdl.com
   - DOMAIN-SUFFIX,jdpay.com
@@ -3193,6 +3197,8 @@ payload:
   - DOMAIN-SUFFIX,vip.com
   - DOMAIN-SUFFIX,vipdlt.com
   - DOMAIN-SUFFIX,vipexam.org
+  - DOMAIN-SUFFIX,vipmro.com
+  - DOMAIN-SUFFIX,vipmro.net
   - DOMAIN-SUFFIX,visualstudio.com
   - DOMAIN-SUFFIX,vmall.com
   - DOMAIN-SUFFIX,vmallres.com

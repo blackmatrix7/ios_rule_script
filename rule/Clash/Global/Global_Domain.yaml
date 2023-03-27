@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-03-27 02:12:52
-# DOMAIN: 178
+# UPDATED: 2023-03-28 02:15:13
+# DOMAIN: 183
 # DOMAIN-KEYWORD: 39
-# DOMAIN-SUFFIX: 38142
+# DOMAIN-SUFFIX: 38140
 # IP-CIDR: 106
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 38470
+# TOTAL: 38473
 payload:
   - 'abematv.akamaized.net'
   - 'amp.akamaized.net'
@@ -16,6 +16,7 @@ payload:
   - 'anime-rule34-world.b-cdn.net'
   - 'aod-pod-uk-live.akamaized.net'
   - 'api-p.videomarket.jp'
+  - 'appldnld.g.aaplimg.com'
   - 'apple.com.akadns.net'
   - 'appleworldwidedeveloper.hb-api.omtrdc.net'
   - 'appleworldwidedeveloper.sc.omtrdc.net'
@@ -39,6 +40,7 @@ payload:
   - 'cbsi.live.ott.irdeto.com'
   - 'cbsplaylistserver.aws.syncbak.com'
   - 'cbsservice.aws.syncbak.com'
+  - 'cds-cdn.v.aaplimg.com'
   - 'certs-lb.apple.com.akadns.net'
   - 'cisco.evergage.com'
   - 'clubhouse.pubnubapi.com'
@@ -64,6 +66,7 @@ payload:
   - 'firstsearch.oclc.org'
   - 'gamedownloads-rockstargames-com.akamaized.net'
   - 'gog.qtlglb.com'
+  - 'guzzoni-apple-com.v.aaplimg.com'
   - 'heads-ak-spotify-com.akamaized.net'
   - 'heads4-ak-spotify-com.akamaized.net'
   - 'hearthstone.nosdn.127.net'
@@ -73,6 +76,7 @@ payload:
   - 'img-prod-cms-rt-microsoft-com.akamaized.net'
   - 'img-s-msn-com.akamaized.net'
   - 'imperial.insendi.com'
+  - 'iosapps.itunes.g.aaplimg.com'
   - 'lgelectronics.122.2o7.net'
   - 'licdn.cn.cdn20.com'
   - 'linear-abematv.akamaized.net'
@@ -160,6 +164,7 @@ payload:
   - 'statics-marketingsites-eas-ms-com.akamaized.net'
   - 'statics-marketingsites-eus-ms-com.akamaized.net'
   - 'statics-marketingsites-wcus-ms-com.akamaized.net'
+  - 'swcdn.g.aaplimg.com'
   - 't21.nikkei.co.jp'
   - 't21ipau.nikkei.co.jp'
   - 'tesla-cdn.thron.cn'
@@ -1100,7 +1105,6 @@ payload:
   - '+.appl.com'
   - '+.appl4e.com'
   - '+.appla.com'
-  - '+.appldnld.g.aaplimg.com'
   - '+.apple-appstore.cn'
   - '+.apple-cloudkit.com'
   - '+.apple-darwin.com'
@@ -2920,7 +2924,6 @@ payload:
   - '+.cdnjs.com'
   - '+.cdnlab.live'
   - '+.cdnpure.com'
-  - '+.cds-cdn.v.aaplimg.com'
   - '+.cds.apple.com.akadns.net'
   - '+.cebay.com'
   - '+.cegid-cloud.cn'
@@ -3182,7 +3185,6 @@ payload:
   - '+.cloudflarewarp.com'
   - '+.cloudfront-test.cn'
   - '+.cloudfront.cn'
-  - '+.cloudfunctions.net'
   - '+.cloudhealthtech.com'
   - '+.cloudimage.io'
   - '+.cloudimg.io'
@@ -5956,7 +5958,6 @@ payload:
   - '+.guccitimeless.com'
   - '+.guruofporn.com'
   - '+.guysnightlife.com'
-  - '+.guzzoni-apple-com.v.aaplimg.com'
   - '+.gv.com'
   - '+.gvt1-cn.com'
   - '+.gvt2-cn.com'
@@ -6610,6 +6611,7 @@ payload:
   - '+.hxcsxs.pro'
   - '+.hxdoll.com'
   - '+.hycgm1324.shop'
+  - '+.hydrogenaud.io'
   - '+.hyper.is'
   - '+.hyperdreams.com'
   - '+.hyperscan.io'
@@ -7042,7 +7044,6 @@ payload:
   - '+.ioinformatics.org'
   - '+.iole.tv'
   - '+.ios-icloud.com'
-  - '+.iosapps.itunes.g.aaplimg.com'
   - '+.iosinthecar.com'
   - '+.iotinactionevents.com'
   - '+.ip73.com'
@@ -9521,7 +9522,6 @@ payload:
   - '+.oss-me-east-1.aliyuncs.com'
   - '+.oss-us-east-1.aliyuncs.com'
   - '+.oss-us-west-1.aliyuncs.com'
-  - '+.osxapps.itunes.g.aaplimg.com'
   - '+.otaku-168.com'
   - '+.otbm.com'
   - '+.otokonokoland.com'
@@ -11737,12 +11737,10 @@ payload:
   - '+.svpply.com'
   - '+.svscomics.com'
   - '+.svsgames.org'
-  - '+.swallow-apple-com.v.aaplimg.com'
   - '+.swapsmut.com'
   - '+.sway-cdn.com'
   - '+.sway.com'
   - '+.swcatalog-cdn.apple.com.akadns.net'
-  - '+.swcdn.g.aaplimg.com'
   - '+.swdist.apple.com.akadns.net'
   - '+.sweetadult-tube.com'
   - '+.sweetmlif.net'
@@ -17015,6 +17013,7 @@ payload:
   - '+.anobii.com'
   - '+.anon-v.com'
   - '+.anonasurf.com'
+  - '+.anonfiles.com'
   - '+.anonproxy.eu'
   - '+.anontext.com'
   - '+.anonymise.us'
@@ -19366,6 +19365,7 @@ payload:
   - '+.cloudfoundry.com'
   - '+.cloudfront.glb.cellopoint.com'
   - '+.cloudfront.net'
+  - '+.cloudfunctions.net'
   - '+.cloudgarage.jp'
   - '+.cloudmagic.com'
   - '+.cloudmosa.com'
@@ -24108,6 +24108,7 @@ payload:
   - '+.iteke.ml'
   - '+.iteke.tk'
   - '+.itemdb.com'
+  - '+.itemfix.com'
   - '+.itgonglun.com'
   - '+.ithome.com.tw'
   - '+.itm-tracker.witron.de'
@@ -25122,6 +25123,7 @@ payload:
   - '+.lebtimnetz.de'
   - '+.lecanardenchaine.fr'
   - '+.lecloud.net'
+  - '+.ledger.com'
   - '+.ledongzhibo111.com'
   - '+.ledongzhibo1111.com'
   - '+.ledongzhibo222.com'
@@ -27397,6 +27399,7 @@ payload:
   - '+.oldgoesyoung.com'
   - '+.oldpiratebay.org'
   - '+.ole777.com'
+  - '+.olehdtv.com'
   - '+.olevod.com'
   - '+.olicobrokers.com'
   - '+.olimptrade.com.br'

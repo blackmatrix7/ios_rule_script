@@ -12,7 +12,7 @@ Netflix规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-03-18 02:19:07
+最后更新时间：2023-03-29 02:15:06
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -20,9 +20,9 @@ Netflix规则由《RULE GENERATOR 规则生成器》自动生成。
 | DOMAIN | 3  | 
 | DOMAIN-KEYWORD | 4  | 
 | DOMAIN-SUFFIX | 28  | 
-| IP-CIDR | 991  | 
+| IP-CIDR | 992  | 
 | USER-AGENT | 1  | 
-| TOTAL | 1027  | 
+| TOTAL | 1028  | 
 
 
 ## Shadowrocket 

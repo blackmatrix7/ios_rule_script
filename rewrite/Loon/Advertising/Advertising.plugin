@@ -1,12 +1,12 @@
 #!name= Advertising
-#!desc= 最后更新时间 2023-03-26 02:16:44
+#!desc= 最后更新时间 2023-03-31 02:23:03
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 549
+#!reject= 550
 #!mitm= 507
-#!total= 1056
+#!total= 1057
 
 
 [URL Rewrite]
@@ -351,6 +351,7 @@
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject
 ^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+?\/appStartAdv - reject-200
 ^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/dkkj-system-web\/system\/v\d\/init-config - reject
+^https?:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ - reject
 ^https?:\/\/m\.ctrip\.com\/restapi\/[\w\/]+tripAds - reject
 ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/getAdsList - reject
 ^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage - reject-200

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2023-03-26 02:16:44
+desc: 最后更新时间 2023-03-31 02:23:03
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 549
+# reject: 550
 # mitm: 507
 # force-http-engine-hosts: 6
-# total: 1062
+# total: 1063
 
 
 
@@ -354,6 +354,7 @@ http:
     - ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject
     - ^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+?\/appStartAdv - reject
     - ^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/dkkj-system-web\/system\/v\d\/init-config - reject
+    - ^https?:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ - reject
     - ^https?:\/\/m\.ctrip\.com\/restapi\/[\w\/]+tripAds - reject
     - ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/getAdsList - reject
     - ^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage - reject

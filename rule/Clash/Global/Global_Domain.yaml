@@ -1,22 +1,22 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-02 02:15:38
-# DOMAIN: 183
+# UPDATED: 2023-04-03 02:13:34
+# DOMAIN: 185
 # DOMAIN-KEYWORD: 39
-# DOMAIN-SUFFIX: 38165
+# DOMAIN-SUFFIX: 38176
 # IP-CIDR: 106
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 38498
+# TOTAL: 38511
 payload:
   - 'abematv.akamaized.net'
+  - 'adobeereg.com'
   - 'amp.akamaized.net'
   - 'angle.com.tw'
   - 'anime-rule34-world.b-cdn.net'
   - 'aod-pod-uk-live.akamaized.net'
   - 'api-p.videomarket.jp'
-  - 'appldnld.g.aaplimg.com'
   - 'apple.com.akadns.net'
   - 'appleworldwidedeveloper.hb-api.omtrdc.net'
   - 'appleworldwidedeveloper.sc.omtrdc.net'
@@ -40,13 +40,13 @@ payload:
   - 'cbsi.live.ott.irdeto.com'
   - 'cbsplaylistserver.aws.syncbak.com'
   - 'cbsservice.aws.syncbak.com'
-  - 'cds-cdn.v.aaplimg.com'
   - 'certs-lb.apple.com.akadns.net'
   - 'cisco.evergage.com'
   - 'clubhouse.pubnubapi.com'
   - 'courier-push-apple.com.akadns.net'
   - 'crl-lb.apple.com.akadns.net'
   - 'crl.microsoft.com'
+  - 'crl.versign.net'
   - 'databank.worldbank.org'
   - 'default.exp-tas.com'
   - 'deutschewelle.h-cdn.com'
@@ -66,7 +66,6 @@ payload:
   - 'firstsearch.oclc.org'
   - 'gamedownloads-rockstargames-com.akamaized.net'
   - 'gog.qtlglb.com'
-  - 'guzzoni-apple-com.v.aaplimg.com'
   - 'heads-ak-spotify-com.akamaized.net'
   - 'heads4-ak-spotify-com.akamaized.net'
   - 'hearthstone.nosdn.127.net'
@@ -76,7 +75,6 @@ payload:
   - 'img-prod-cms-rt-microsoft-com.akamaized.net'
   - 'img-s-msn-com.akamaized.net'
   - 'imperial.insendi.com'
-  - 'iosapps.itunes.g.aaplimg.com'
   - 'lgelectronics.122.2o7.net'
   - 'licdn.cn.cdn20.com'
   - 'linear-abematv.akamaized.net'
@@ -93,11 +91,16 @@ payload:
   - 'ocsp2-lb.apple.com.akadns.net'
   - 'officecdn-microsoft-com.akamaized.net'
   - 'oneocsp.microsoft.com'
+  - 'ood.opsource.net'
   - 'opgg-static.akamaized.net'
   - 'overwatch.nosdn.127.net'
   - 'p-events-delivery.akamaized.net'
   - 'p16-tiktokcdn-com.akamaized.net'
   - 'pchomeonline.com.tw'
+  - 'practivate.adobe'
+  - 'practivate.adobe.ipp'
+  - 'practivate.adobe.newoa'
+  - 'practivate.adobe.ntp'
   - 'prd-priconne-redive.akamaized.net'
   - 'push-apple.com.akadns.net'
   - 'qualcomm.sc.omtrdc.net'
@@ -164,7 +167,6 @@ payload:
   - 'statics-marketingsites-eas-ms-com.akamaized.net'
   - 'statics-marketingsites-eus-ms-com.akamaized.net'
   - 'statics-marketingsites-wcus-ms-com.akamaized.net'
-  - 'swcdn.g.aaplimg.com'
   - 't21.nikkei.co.jp'
   - 't21ipau.nikkei.co.jp'
   - 'tesla-cdn.thron.cn'
@@ -626,6 +628,7 @@ payload:
   - '+.adobexdplatform.com'
   - '+.adorable-teens.net'
   - '+.adorevids.com'
+  - '+.ads-pixiv.net'
   - '+.adsensecustomsearchads.com'
   - '+.adsenseformobileapps.com'
   - '+.adult-home-videos.com'
@@ -2307,6 +2310,7 @@ payload:
   - '+.bluekai.com'
   - '+.bluemix.com'
   - '+.bluemix.net'
+  - '+.bluestacks.com'
   - '+.bluffyporn.com'
   - '+.blz-contentstack.com'
   - '+.blzstatic.cn'
@@ -2650,6 +2654,7 @@ payload:
   - '+.brilliant.org'
   - '+.britsexcash.com'
   - '+.brliilantsdates.com'
+  - '+.broadbandreports.com'
   - '+.broadcast.co.nz'
   - '+.brocaproject.com'
   - '+.brokenteens.com'
@@ -4028,6 +4033,8 @@ payload:
   - '+.drunk6.com'
   - '+.drunkenstepfather.com'
   - '+.drunkentop.com'
+  - '+.dslr.net'
+  - '+.dslreports.com'
   - '+.dssott.com'
   - '+.dswz88.xyz'
   - '+.dtci.co'
@@ -7410,6 +7417,7 @@ payload:
   - '+.jos.com'
   - '+.jove.com'
   - '+.joyhentai.com'
+  - '+.joyjoy.net'
   - '+.joylovedolls.com'
   - '+.joyourself.com'
   - '+.joysporn.com'
@@ -9604,6 +9612,7 @@ payload:
   - '+.panasonic.cn'
   - '+.panasonic.com'
   - '+.pandamovies.pw'
+  - '+.pandanet-igs.com'
   - '+.pankwire.com'
   - '+.pantswalker.net'
   - '+.paofu.cloud'
@@ -9977,6 +9986,7 @@ payload:
   - '+.poe.com'
   - '+.pogo.com'
   - '+.pogobeta.com'
+  - '+.poi.moe'
   - '+.poisontube.com'
   - '+.pokedex3d.com'
   - '+.pokemon-moon.com'
@@ -10465,6 +10475,7 @@ payload:
   - '+.proxyadult.org'
   - '+.proxyrarbg.org'
   - '+.prpops.com'
+  - '+.prts.plus'
   - '+.pscdn.co'
   - '+.pse.is'
   - '+.pstatic.net'
@@ -11296,6 +11307,8 @@ payload:
   - '+.shopspeedtv.com'
   - '+.shoptraivip.com'
   - '+.shotwithgeforce.com'
+  - '+.showtime.com'
+  - '+.showtimeanytime.com'
   - '+.showup.tv'
   - '+.showybeauty.com'
   - '+.shp.ee'

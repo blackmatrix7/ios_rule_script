@@ -1,10 +1,10 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-06 02:18:54
-# IP-CIDR: 12820
-# IP-CIDR6: 5076
-# TOTAL: 17896
+# UPDATED: 2023-04-07 02:16:37
+# IP-CIDR: 12829
+# IP-CIDR6: 5081
+# TOTAL: 17910
 payload:
   - IP-CIDR,1.0.1.0/24
   - IP-CIDR,1.0.2.0/23
@@ -6489,6 +6489,7 @@ payload:
   - IP-CIDR,180.184.16.0/24
   - IP-CIDR,180.184.32.0/20
   - IP-CIDR,180.184.48.0/21
+  - IP-CIDR,180.184.56.0/22
   - IP-CIDR,180.184.8.0/22
   - IP-CIDR,180.185.0.0/16
   - IP-CIDR,180.186.0.0/19
@@ -12706,6 +12707,9 @@ payload:
   - IP-CIDR,139.159.164.0/22
   - IP-CIDR,139.159.32.0/22
   - IP-CIDR,139.220.128.0/17
+  - IP-CIDR,155.235.232.0/21
+  - IP-CIDR,155.235.240.0/22
+  - IP-CIDR,166.1.194.0/24
   - IP-CIDR,166.1.218.0/24
   - IP-CIDR,166.1.228.0/24
   - IP-CIDR,166.1.236.0/24
@@ -12715,7 +12719,6 @@ payload:
   - IP-CIDR,175.102.16.0/20
   - IP-CIDR,175.25.16.0/20
   - IP-CIDR,175.25.32.0/19
-  - IP-CIDR,180.184.56.0/22
   - IP-CIDR,182.175.240.0/22
   - IP-CIDR,182.61.0.0/17
   - IP-CIDR,182.61.128.0/18
@@ -12791,6 +12794,8 @@ payload:
   - IP-CIDR,43.241.50.0/23
   - IP-CIDR,45.124.77.0/24
   - IP-CIDR,45.124.78.0/23
+  - IP-CIDR,45.156.220.0/23
+  - IP-CIDR,45.156.223.0/24
   - IP-CIDR,45.253.24.0/22
   - IP-CIDR,58.192.0.0/12
   - IP-CIDR,58.208.0.0/12
@@ -12823,8 +12828,12 @@ payload:
   - IP-CIDR,61.188.0.0/16
   - IP-CIDR,61.189.128.0/17
   - IP-CIDR,61.190.0.0/15
+  - IP-CIDR,64.137.68.0/24
+  - IP-CIDR,64.137.79.0/24
   - IP-CIDR,69.235.184.0/21
   - IP-CIDR,74.80.166.0/24
+  - IP-CIDR,81.161.238.0/24
+  - IP-CIDR,87.121.44.0/24
   - IP-CIDR,87.254.9.0/24
   - IP-CIDR6,2001:2000:3080:c80::/64
   - IP-CIDR6,2001:2030:0:4d::/64
@@ -17794,8 +17803,10 @@ payload:
   - IP-CIDR6,2602:feda:ca1::/48
   - IP-CIDR6,2602:feda:d80::/48
   - IP-CIDR6,2602:feda:d83::/48
+  - IP-CIDR6,2a06:a005:580::/44
   - IP-CIDR6,2a06:a005:8d0::/47
   - IP-CIDR6,2a06:a005:8da::/48
+  - IP-CIDR6,2a0a:280:1501::/48
   - IP-CIDR6,2a0a:2840:20::/43
   - IP-CIDR6,2a0a:2842:100::/48
   - IP-CIDR6,2a0a:2842:416::/48
@@ -17807,98 +17818,101 @@ payload:
   - IP-CIDR6,2a12:3fc2:8010::/44
   - IP-CIDR6,2a12:3fc2:e72c::/47
   - IP-CIDR6,2a12:3fc2:e7fd::/48
+  - IP-CIDR6,2a12:3fc2:e7fe::/48
   - IP-CIDR6,2a12:3fc2:e810::/44
-  - IP-CIDR6,2a12:dd47:4350::/48
-  - IP-CIDR6,2a12:dd47:4384::/48
-  - IP-CIDR6,2a12:dd47:4396::/48
-  - IP-CIDR6,2a12:dd47:439e::/48
-  - IP-CIDR6,2a12:dd47:43fc::/48
-  - IP-CIDR6,2a12:dd47:4460::/48
-  - IP-CIDR6,2a12:dd47:4463::/48
-  - IP-CIDR6,2a12:dd47:4474::/48
-  - IP-CIDR6,2a12:dd47:44bf::/48
-  - IP-CIDR6,2a12:dd47:44d0::/48
-  - IP-CIDR6,2a12:dd47:450b::/48
-  - IP-CIDR6,2a12:dd47:457b::/48
-  - IP-CIDR6,2a12:dd47:4597::/48
-  - IP-CIDR6,2a12:dd47:45a7::/48
-  - IP-CIDR6,2a12:dd47:45db::/48
-  - IP-CIDR6,2a12:dd47:4667::/48
-  - IP-CIDR6,2a12:dd47:466b::/48
-  - IP-CIDR6,2a12:dd47:469c::/48
-  - IP-CIDR6,2a12:dd47:46cc::/48
-  - IP-CIDR6,2a12:dd47:46de::/48
-  - IP-CIDR6,2a12:dd47:622c::/48
-  - IP-CIDR6,2a12:dd47:629a::/48
-  - IP-CIDR6,2a12:dd47:62ad::/48
-  - IP-CIDR6,2a12:dd47:62c0::/48
-  - IP-CIDR6,2a12:dd47:62cc::/48
-  - IP-CIDR6,2a12:dd47:6c14::/48
-  - IP-CIDR6,2a12:dd47:6c57::/48
-  - IP-CIDR6,2a12:dd47:6cce::/48
-  - IP-CIDR6,2a12:dd47:6cd3::/48
-  - IP-CIDR6,2a12:dd47:6cdc::/48
-  - IP-CIDR6,2a12:dd47:6d09::/48
-  - IP-CIDR6,2a12:dd47:6d39::/48
-  - IP-CIDR6,2a12:dd47:6d8c::/48
-  - IP-CIDR6,2a12:dd47:6dd6::/48
-  - IP-CIDR6,2a12:dd47:6dea::/48
-  - IP-CIDR6,2a12:dd47:7020::/48
-  - IP-CIDR6,2a12:dd47:7034::/48
-  - IP-CIDR6,2a12:dd47:704d::/48
-  - IP-CIDR6,2a12:dd47:7075::/48
-  - IP-CIDR6,2a12:dd47:7080::/48
-  - IP-CIDR6,2a12:dd47:7201::/48
-  - IP-CIDR6,2a12:dd47:7210::/48
-  - IP-CIDR6,2a12:dd47:7221::/48
-  - IP-CIDR6,2a12:dd47:7248::/48
-  - IP-CIDR6,2a12:dd47:725d::/48
-  - IP-CIDR6,2a12:dd47:7e37::/48
-  - IP-CIDR6,2a12:dd47:7e8f::/48
-  - IP-CIDR6,2a12:dd47:7e94::/48
-  - IP-CIDR6,2a12:dd47:7ea5::/48
-  - IP-CIDR6,2a12:dd47:7eaf::/48
-  - IP-CIDR6,2a12:dd47:7f07::/48
-  - IP-CIDR6,2a12:dd47:7f09::/48
-  - IP-CIDR6,2a12:dd47:7f2b::/48
-  - IP-CIDR6,2a12:dd47:7f4e::/48
-  - IP-CIDR6,2a12:dd47:7f6a::/48
-  - IP-CIDR6,2a12:dd47:ca21::/48
-  - IP-CIDR6,2a12:dd47:ca4e::/48
-  - IP-CIDR6,2a12:dd47:ca8b::/48
-  - IP-CIDR6,2a12:dd47:ca9b::/48
-  - IP-CIDR6,2a12:dd47:cab4::/48
-  - IP-CIDR6,2a12:dd47:cb90::/48
-  - IP-CIDR6,2a12:dd47:cb97::/48
-  - IP-CIDR6,2a12:dd47:cbcb::/48
-  - IP-CIDR6,2a12:dd47:cbcf::/48
-  - IP-CIDR6,2a12:dd47:cbe4::/48
-  - IP-CIDR6,2a12:dd47:cc0c::/48
-  - IP-CIDR6,2a12:dd47:cc22::/48
-  - IP-CIDR6,2a12:dd47:cc4d::/48
-  - IP-CIDR6,2a12:dd47:ccda::/48
-  - IP-CIDR6,2a12:dd47:cce2::/48
-  - IP-CIDR6,2a12:dd47:e242::/48
-  - IP-CIDR6,2a12:dd47:e248::/48
-  - IP-CIDR6,2a12:dd47:e24c::/48
-  - IP-CIDR6,2a12:dd47:e2be::/48
-  - IP-CIDR6,2a12:dd47:e2f1::/48
-  - IP-CIDR6,2a12:dd47:e328::/48
-  - IP-CIDR6,2a12:dd47:e33c::/48
-  - IP-CIDR6,2a12:dd47:e392::/48
-  - IP-CIDR6,2a12:dd47:e399::/48
-  - IP-CIDR6,2a12:dd47:e3ed::/48
-  - IP-CIDR6,2a12:dd47:e822::/47
-  - IP-CIDR6,2a12:dd47:e82c::/48
-  - IP-CIDR6,2a12:dd47:e854::/48
-  - IP-CIDR6,2a12:dd47:e887::/48
-  - IP-CIDR6,2a12:dd47:ee38::/47
-  - IP-CIDR6,2a12:dd47:ee3a::/48
-  - IP-CIDR6,2a12:dd47:ee5c::/48
-  - IP-CIDR6,2a12:dd47:ee7b::/48
-  - IP-CIDR6,2a12:dd47:ef04::/47
-  - IP-CIDR6,2a12:dd47:ef26::/48
-  - IP-CIDR6,2a12:dd47:ef51::/48
-  - IP-CIDR6,2a12:dd47:ef8e::/48
+  - IP-CIDR6,2a12:dd47:430d::/48
+  - IP-CIDR6,2a12:dd47:4364::/48
+  - IP-CIDR6,2a12:dd47:438d::/48
+  - IP-CIDR6,2a12:dd47:4393::/48
+  - IP-CIDR6,2a12:dd47:43d7::/48
+  - IP-CIDR6,2a12:dd47:441b::/48
+  - IP-CIDR6,2a12:dd47:4467::/48
+  - IP-CIDR6,2a12:dd47:4483::/48
+  - IP-CIDR6,2a12:dd47:44b4::/48
+  - IP-CIDR6,2a12:dd47:44de::/48
+  - IP-CIDR6,2a12:dd47:450e::/48
+  - IP-CIDR6,2a12:dd47:4529::/48
+  - IP-CIDR6,2a12:dd47:4531::/48
+  - IP-CIDR6,2a12:dd47:4544::/48
+  - IP-CIDR6,2a12:dd47:4576::/48
+  - IP-CIDR6,2a12:dd47:4658::/48
+  - IP-CIDR6,2a12:dd47:4660::/48
+  - IP-CIDR6,2a12:dd47:466e::/48
+  - IP-CIDR6,2a12:dd47:46b1::/48
+  - IP-CIDR6,2a12:dd47:46c5::/48
+  - IP-CIDR6,2a12:dd47:620f::/48
+  - IP-CIDR6,2a12:dd47:6219::/48
+  - IP-CIDR6,2a12:dd47:621a::/48
+  - IP-CIDR6,2a12:dd47:6269::/48
+  - IP-CIDR6,2a12:dd47:62e0::/48
+  - IP-CIDR6,2a12:dd47:6c76::/48
+  - IP-CIDR6,2a12:dd47:6cc1::/48
+  - IP-CIDR6,2a12:dd47:6ccb::/48
+  - IP-CIDR6,2a12:dd47:6ccd::/48
+  - IP-CIDR6,2a12:dd47:6ce5::/48
+  - IP-CIDR6,2a12:dd47:6d13::/48
+  - IP-CIDR6,2a12:dd47:6d24::/48
+  - IP-CIDR6,2a12:dd47:6d31::/48
+  - IP-CIDR6,2a12:dd47:6dcd::/48
+  - IP-CIDR6,2a12:dd47:6de3::/48
+  - IP-CIDR6,2a12:dd47:705a::/48
+  - IP-CIDR6,2a12:dd47:706c::/48
+  - IP-CIDR6,2a12:dd47:7074::/48
+  - IP-CIDR6,2a12:dd47:70f8::/48
+  - IP-CIDR6,2a12:dd47:70fe::/48
+  - IP-CIDR6,2a12:dd47:720e::/48
+  - IP-CIDR6,2a12:dd47:7230::/48
+  - IP-CIDR6,2a12:dd47:725b::/48
+  - IP-CIDR6,2a12:dd47:725f::/48
+  - IP-CIDR6,2a12:dd47:727c::/48
+  - IP-CIDR6,2a12:dd47:7e2a::/48
+  - IP-CIDR6,2a12:dd47:7e56::/48
+  - IP-CIDR6,2a12:dd47:7e61::/48
+  - IP-CIDR6,2a12:dd47:7e8d::/48
+  - IP-CIDR6,2a12:dd47:7e9a::/48
+  - IP-CIDR6,2a12:dd47:7f1e::/47
+  - IP-CIDR6,2a12:dd47:7f78::/48
+  - IP-CIDR6,2a12:dd47:7fe9::/48
+  - IP-CIDR6,2a12:dd47:7ff3::/48
+  - IP-CIDR6,2a12:dd47:ca11::/48
+  - IP-CIDR6,2a12:dd47:ca1c::/48
+  - IP-CIDR6,2a12:dd47:ca2b::/48
+  - IP-CIDR6,2a12:dd47:ca86::/48
+  - IP-CIDR6,2a12:dd47:ca88::/48
+  - IP-CIDR6,2a12:dd47:cb04::/48
+  - IP-CIDR6,2a12:dd47:cb10::/48
+  - IP-CIDR6,2a12:dd47:cb22::/48
+  - IP-CIDR6,2a12:dd47:cb73::/48
+  - IP-CIDR6,2a12:dd47:cb7f::/48
+  - IP-CIDR6,2a12:dd47:cc12::/48
+  - IP-CIDR6,2a12:dd47:cc70::/48
+  - IP-CIDR6,2a12:dd47:ccc9::/48
+  - IP-CIDR6,2a12:dd47:ccfc::/48
+  - IP-CIDR6,2a12:dd47:ccff::/48
+  - IP-CIDR6,2a12:dd47:e224::/48
+  - IP-CIDR6,2a12:dd47:e22e::/48
+  - IP-CIDR6,2a12:dd47:e232::/48
+  - IP-CIDR6,2a12:dd47:e249::/48
+  - IP-CIDR6,2a12:dd47:e2a4::/48
+  - IP-CIDR6,2a12:dd47:e30d::/48
+  - IP-CIDR6,2a12:dd47:e30f::/48
+  - IP-CIDR6,2a12:dd47:e322::/48
+  - IP-CIDR6,2a12:dd47:e32d::/48
+  - IP-CIDR6,2a12:dd47:e3fa::/48
+  - IP-CIDR6,2a12:dd47:e85f::/48
+  - IP-CIDR6,2a12:dd47:e89b::/48
+  - IP-CIDR6,2a12:dd47:e8a1::/48
+  - IP-CIDR6,2a12:dd47:e8a3::/48
+  - IP-CIDR6,2a12:dd47:e8eb::/48
+  - IP-CIDR6,2a12:dd47:ee0b::/48
+  - IP-CIDR6,2a12:dd47:ee11::/48
+  - IP-CIDR6,2a12:dd47:ee4c::/48
+  - IP-CIDR6,2a12:dd47:ee60::/48
+  - IP-CIDR6,2a12:dd47:ee74::/48
+  - IP-CIDR6,2a12:dd47:ef08::/48
+  - IP-CIDR6,2a12:dd47:ef1f::/48
+  - IP-CIDR6,2a12:dd47:ef2d::/48
+  - IP-CIDR6,2a12:dd47:ef44::/48
+  - IP-CIDR6,2a12:dd47:efbb::/48
   - IP-CIDR6,2a13:1800:10::/48
   - IP-CIDR6,2a13:1800:80::/44

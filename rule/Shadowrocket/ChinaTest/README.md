@@ -12,17 +12,17 @@ ChinaTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-07 02:14:45
+最后更新时间：2023-04-07 14:50:37
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 176  | 
+| DOMAIN | 167  | 
 | DOMAIN-KEYWORD | 9  | 
-| DOMAIN-SUFFIX | 65328  | 
+| DOMAIN-SUFFIX | 65324  | 
 | IP-CIDR | 14  | 
 | USER-AGENT | 31  | 
-| TOTAL | 65558  | 
+| TOTAL | 65545  | 
 
 
 ## Shadowrocket 

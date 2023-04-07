@@ -59,7 +59,7 @@
 |[Ubuntu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Ubuntu) |[iQIYIIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/iQIYIIntl) |[谷歌推送](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GoogleFCM) |[QuickConnect](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/QuickConnect) |[HamiVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/HamiVideo) |
 |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Emby) |[PikPak](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/PikPak) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Cake) |[币安交易所](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Binance) |[GoogleEarth](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GoogleEarth) |
 |[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/TeraBox) |[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/BritboxUK) |[DigitalOcean](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/DigitalOcean) |[宜家](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/IKEA) |[RemoteDesktop](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/RemoteDesktop) |
-|[VikACG](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/VikACG) |[GlobalScholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GlobalScholar) |
+|[VikACG](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/VikACG) |[GlobalScholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GlobalScholar) |[OpenAI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/OpenAI) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -175,7 +175,7 @@
 |🚫Reject|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingTest) |[反劫持](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Hijacking) |[隐私保护](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Privacy) ||||
-|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ZhihuAds) |[AdGuardSDNSFilter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdGuardSDNSFilter) |[EasyPrivacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/EasyPrivacy) |||
+|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ZhihuAds) |[AdGuardSDNSFilter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdGuardSDNSFilter) |[EasyPrivacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/EasyPrivacy) |[BlockHttpDNS](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/BlockHttpDNS) |||
 
 
 |🖥️Other|  |  |  |  |

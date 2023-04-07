@@ -1,32 +1,25 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 02:13:59
-# DOMAIN: 185
+# UPDATED: 2023-04-07 14:49:51
+# DOMAIN: 143
 # DOMAIN-KEYWORD: 39
-# DOMAIN-SUFFIX: 38185
+# DOMAIN-SUFFIX: 38186
 # IP-CIDR: 106
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 38520
+# TOTAL: 38479
 payload:
-  - DOMAIN,abematv.akamaized.net
   - DOMAIN,adobeereg.com
-  - DOMAIN,amp.akamaized.net
   - DOMAIN,angle.com.tw
   - DOMAIN,anime-rule34-world.b-cdn.net
-  - DOMAIN,aod-pod-uk-live.akamaized.net
   - DOMAIN,api-p.videomarket.jp
   - DOMAIN,apple.com.akadns.net
   - DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
   - DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
-  - DOMAIN,as-dash-uk-live.akamaized.net
-  - DOMAIN,as-hls-uk-live.akamaized.net
   - DOMAIN,asahishimbun.sc.omtrdc.net
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,assets2.xboxlive.com
-  - DOMAIN,audio-ak-spotify-com.akamaized.net
-  - DOMAIN,audio4-ak-spotify-com.akamaized.net
   - DOMAIN,az416426.vo.msecnd.net
   - DOMAIN,az764295.vo.msecnd.net
   - DOMAIN,azure.microsoft.com
@@ -35,8 +28,6 @@ payload:
   - DOMAIN,beck-online.beck.de
   - DOMAIN,blizzard.nefficient.co.kr
   - DOMAIN,blz.nosdn.127.net
-  - DOMAIN,blznav.akamaized.net
-  - DOMAIN,bnetshopus.akamaized.net
   - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN,cbsplaylistserver.aws.syncbak.com
   - DOMAIN,cbsservice.aws.syncbak.com
@@ -55,8 +46,6 @@ payload:
   - DOMAIN,diablo3.nosdn.127.net
   - DOMAIN,dl.begellhouse.com
   - DOMAIN,download.visualstudio.microsoft.com
-  - DOMAIN,ds-linear-abematv.akamaized.net
-  - DOMAIN,ds-vod-abematv.akamaized.net
   - DOMAIN,e122475.dscg.akamaiedge.net
   - DOMAIN,ea.tt.omtrdc.net
   - DOMAIN,elib.maruzen.co.jp
@@ -64,44 +53,31 @@ payload:
   - DOMAIN,espndotcom.tt.omtrdc.net
   - DOMAIN,faronics.kayako.com
   - DOMAIN,firstsearch.oclc.org
-  - DOMAIN,gamedownloads-rockstargames-com.akamaized.net
   - DOMAIN,gog.qtlglb.com
-  - DOMAIN,heads-ak-spotify-com.akamaized.net
-  - DOMAIN,heads4-ak-spotify-com.akamaized.net
   - DOMAIN,hearthstone.nosdn.127.net
   - DOMAIN,heroes.nos.netease.com
   - DOMAIN,hpstore.corpmerchandise.com
   - DOMAIN,i.jeded.com
-  - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
-  - DOMAIN,img-s-msn-com.akamaized.net
   - DOMAIN,imperial.insendi.com
   - DOMAIN,lgelectronics.122.2o7.net
   - DOMAIN,licdn.cn.cdn20.com
-  - DOMAIN,linear-abematv.akamaized.net
   - DOMAIN,linkedin.sc.omtrdc.net
   - DOMAIN,live-patreon-marketing.pantheonsite.io
   - DOMAIN,mdn.mozillademos.org
-  - DOMAIN,media-rockstargames-com.akamaized.net
   - DOMAIN,mscrl.microsoft.com
   - DOMAIN,muse.jhu.edu
-  - DOMAIN,mwf-service.akamaized.net
   - DOMAIN,nationalaustraliaban.tt.omtrdc.net
   - DOMAIN,nvidia.tt.omtrdc.net
   - DOMAIN,ocsp.microsoft.com
   - DOMAIN,ocsp2-lb.apple.com.akadns.net
-  - DOMAIN,officecdn-microsoft-com.akamaized.net
   - DOMAIN,oneocsp.microsoft.com
   - DOMAIN,ood.opsource.net
-  - DOMAIN,opgg-static.akamaized.net
   - DOMAIN,overwatch.nosdn.127.net
-  - DOMAIN,p-events-delivery.akamaized.net
-  - DOMAIN,p16-tiktokcdn-com.akamaized.net
   - DOMAIN,pchomeonline.com.tw
   - DOMAIN,practivate.adobe
   - DOMAIN,practivate.adobe.ipp
   - DOMAIN,practivate.adobe.newoa
   - DOMAIN,practivate.adobe.ntp
-  - DOMAIN,prd-priconne-redive.akamaized.net
   - DOMAIN,push-apple.com.akadns.net
   - DOMAIN,qualcomm.sc.omtrdc.net
   - DOMAIN,sc2.nosdn.127.net
@@ -164,28 +140,11 @@ payload:
   - DOMAIN,scholar.google.se
   - DOMAIN,scholar.google.si
   - DOMAIN,scholar.google.sk
-  - DOMAIN,statics-marketingsites-eas-ms-com.akamaized.net
-  - DOMAIN,statics-marketingsites-eus-ms-com.akamaized.net
-  - DOMAIN,statics-marketingsites-wcus-ms-com.akamaized.net
   - DOMAIN,t21.nikkei.co.jp
   - DOMAIN,t21ipau.nikkei.co.jp
   - DOMAIN,tesla-cdn.thron.cn
   - DOMAIN,tesla-cdn.thron.com
-  - DOMAIN,ve-dash-uk-live.akamaized.net
-  - DOMAIN,ve-uhd-push-uk-live.akamaized.net
-  - DOMAIN,videos-rockstargames-com.akamaized.net
   - DOMAIN,vmware.tt.omtrdc.net
-  - DOMAIN,vod-abematv.akamaized.net
-  - DOMAIN,vod-dash-uk-live.akamaized.net
-  - DOMAIN,vod-dash-ww-live.akamaized.net
-  - DOMAIN,vod-hls-uk-live.akamaized.net
-  - DOMAIN,vod-sub-uk-live.akamaized.net
-  - DOMAIN,vod-thumb-uk-live.akamaized.net
-  - DOMAIN,vod-thumb-ww-live.akamaized.net
-  - DOMAIN,vs-cmaf-push-uk-live.akamaized.net
-  - DOMAIN,vs-cmaf-pushb-ww-live.akamaized.net
-  - DOMAIN,vs-hls-push-uk-live.akamaized.net
-  - DOMAIN,vs-hls-pushb-uk-live.akamaized.net
   - DOMAIN,vscode.search.windows.net
   - DOMAIN,vsmarketplacebadge.apphb.com
   - DOMAIN,widgets.stripst.com
@@ -194,7 +153,6 @@ payload:
   - DOMAIN,www-cdn.icloud.com.akadns.net
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
-  - DOMAIN,assets-priconne-redive-us.akamaized.net
   - DOMAIN-SUFFIX,01.org
   - DOMAIN-SUFFIX,02weqj32.com
   - DOMAIN-SUFFIX,04647.club
@@ -806,6 +764,7 @@ payload:
   - DOMAIN-SUFFIX,akamaitechnologies.com
   - DOMAIN-SUFFIX,akamaitechnologies.net
   - DOMAIN-SUFFIX,akamaized-staging.net
+  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,akamaizercentral.com
   - DOMAIN-SUFFIX,akamak.com
   - DOMAIN-SUFFIX,akamam.com

@@ -1,13 +1,13 @@
 # NAME: ChinaTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 02:14:44
-# DOMAIN: 176
+# UPDATED: 2023-04-07 14:50:37
+# DOMAIN: 167
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 65328
+# DOMAIN-SUFFIX: 65324
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 65527
+# TOTAL: 65514
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -49,18 +49,15 @@ payload:
   - DOMAIN,cache-management-prod.google.com
   - DOMAIN,cache.pack.google.com
   - DOMAIN,cdn.ampproject.org
-  - DOMAIN,checkin.gstatic.com
   - DOMAIN,clickserve.cc-dt.com
   - DOMAIN,clickserve.dartsearch.net
   - DOMAIN,clickserver.googleads.com
   - DOMAIN,cn.actual.battle.net
   - DOMAIN,cn.widevine.com
   - DOMAIN,cnappinstall.googleadapis.com
-  - DOMAIN,connectivitycheck.gstatic.com
   - DOMAIN,content.googleadapis.com
   - DOMAIN,corp.google.com
   - DOMAIN,crl.pki.goog
-  - DOMAIN,csi.gstatic.com
   - DOMAIN,dartsearch-cn.net
   - DOMAIN,dg-meta.video.google.com
   - DOMAIN,distribution.qatp1.net
@@ -78,11 +75,6 @@ payload:
   - DOMAIN,firebase-settings.crashlytics.com
   - DOMAIN,fontfiles.googleadapis.com
   - DOMAIN,fonts.googleadapis.com
-  - DOMAIN,fonts.gstatic.com
-  - DOMAIN,g0.gstatic.com
-  - DOMAIN,g1.gstatic.com
-  - DOMAIN,g2.gstatic.com
-  - DOMAIN,g3.gstatic.com
   - DOMAIN,gcpnode.com
   - DOMAIN,gogalaxy.gog-statics.com
   - DOMAIN,gonglchuangl.net
@@ -161,7 +153,6 @@ payload:
   - DOMAIN,settings.xn--9trs65b.com
   - DOMAIN,ss.bjmu.edu.cn
   - DOMAIN,ssl-google-analytics.l.google.com
-  - DOMAIN,ssl.gstatic.com
   - DOMAIN,staging-controlbe.floonet.goog
   - DOMAIN,staging-databe.floonet.goog
   - DOMAIN,staging.databe.floonet.goog
@@ -175,11 +166,11 @@ payload:
   - DOMAIN,up.gcp.googlers.com
   - DOMAIN,update.crashlytics.com
   - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
+  - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN,www-google-analytics.l.google.com
   - DOMAIN,www-googletagmanager.l.google.com
   - DOMAIN,www.destinationurl.com
   - DOMAIN,www.googleadapis.com
-  - DOMAIN,www.gstatic.com
   - DOMAIN,www.pxcc.com
   - DOMAIN,www.recaptcha.net
   - DOMAIN,www4-static.gog-statics.com
@@ -516,7 +507,6 @@ payload:
   - DOMAIN-SUFFIX,aizhan.com
   - DOMAIN-SUFFIX,ajzq.com
   - DOMAIN-SUFFIX,akadns.net
-  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,aldwx.com
   - DOMAIN-SUFFIX,ali213.net
   - DOMAIN-SUFFIX,aliapp.org
@@ -1396,7 +1386,6 @@ payload:
   - DOMAIN-SUFFIX,elecfans.com
   - DOMAIN-SUFFIX,elemecdn.com
   - DOMAIN-SUFFIX,elong.com
-  - DOMAIN-SUFFIX,elongstatic.com
   - DOMAIN-SUFFIX,emarbox.com
   - DOMAIN-SUFFIX,emas-poc.com
   - DOMAIN-SUFFIX,emerald.com
@@ -2254,7 +2243,6 @@ payload:
   - DOMAIN-SUFFIX,letvcdn.com
   - DOMAIN-SUFFIX,letvcloud.com
   - DOMAIN-SUFFIX,letvimg.com
-  - DOMAIN-SUFFIX,lgstatic.com
   - DOMAIN-SUFFIX,lhzq.com
   - DOMAIN-SUFFIX,liangxinyao.com
   - DOMAIN-SUFFIX,lianjia.com
@@ -13284,7 +13272,6 @@ payload:
   - DOMAIN-SUFFIX,bbfoxgame.com
   - DOMAIN-SUFFIX,bbfstore.com
   - DOMAIN-SUFFIX,bbgsite.com
-  - DOMAIN-SUFFIX,bbgstatic.com
   - DOMAIN-SUFFIX,bbicn.com
   - DOMAIN-SUFFIX,bbioo.com
   - DOMAIN-SUFFIX,bbiquge.com

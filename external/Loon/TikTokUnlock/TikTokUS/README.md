@@ -18,7 +18,7 @@ TikTok 解锁，来自于Semporia的https://github.com/Semporia/TikTok-Unlock。
 
 ## 规则统计
 
-最后更新时间：2023-02-15 23:48:12
+最后更新时间：2023-04-07 14:53:20
 
 各类型规则统计：
 | 类型 | 数量(条)  | 

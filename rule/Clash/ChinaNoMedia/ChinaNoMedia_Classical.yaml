@@ -1,13 +1,13 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:51:44
+# UPDATED: 2023-04-10 02:15:21
 # DOMAIN: 19
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3515
+# DOMAIN-SUFFIX: 3520
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3557
+# TOTAL: 3562
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -952,6 +952,7 @@ payload:
   - DOMAIN-SUFFIX,cnlang.org
   - DOMAIN-SUFFIX,cnlaw.net
   - DOMAIN-SUFFIX,cnmooc.org
+  - DOMAIN-SUFFIX,cnmstl.net
   - DOMAIN-SUFFIX,cnsciedu.com
   - DOMAIN-SUFFIX,cnstock.com
   - DOMAIN-SUFFIX,cnsuning.com
@@ -1291,6 +1292,7 @@ payload:
   - DOMAIN-SUFFIX,flyert.com
   - DOMAIN-SUFFIX,fm3838.com
   - DOMAIN-SUFFIX,fofa.info
+  - DOMAIN-SUFFIX,fofa.so
   - DOMAIN-SUFFIX,ford.com
   - DOMAIN-SUFFIX,foresightfund.com
   - DOMAIN-SUFFIX,founderff.com
@@ -2820,6 +2822,8 @@ payload:
   - DOMAIN-SUFFIX,szhk.com
   - DOMAIN-SUFFIX,szzfgjj.com
   - DOMAIN-SUFFIX,t.tt
+  - DOMAIN-SUFFIX,t00ls.cc
+  - DOMAIN-SUFFIX,t00ls.net
   - DOMAIN-SUFFIX,t1y5.com
   - DOMAIN-SUFFIX,taihuoniao.com
   - DOMAIN-SUFFIX,taikang.com
@@ -2977,6 +2981,7 @@ payload:
   - DOMAIN-SUFFIX,tongji.linezing.com
   - DOMAIN-SUFFIX,tongtaiamc.com
   - DOMAIN-SUFFIX,tongxianghuicn.com
+  - DOMAIN-SUFFIX,tools.team
   - DOMAIN-SUFFIX,tophub.today
   - DOMAIN-SUFFIX,toplife.com
   - DOMAIN-SUFFIX,topthink.com

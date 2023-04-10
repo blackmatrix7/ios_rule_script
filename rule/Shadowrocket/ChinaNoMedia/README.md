@@ -15,17 +15,17 @@ ChinaNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-10 02:15:21
+最后更新时间：2023-04-11 02:12:46
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 19  | 
 | DOMAIN-KEYWORD | 9  | 
-| DOMAIN-SUFFIX | 3520  | 
+| DOMAIN-SUFFIX | 3519  | 
 | IP-CIDR | 14  | 
 | USER-AGENT | 31  | 
-| TOTAL | 3593  | 
+| TOTAL | 3592  | 
 
 
 ## Shadowrocket 

@@ -12,7 +12,7 @@ Spotify规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-02-15 23:45:31
+最后更新时间：2023-04-07 14:50:23
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -20,9 +20,9 @@ Spotify规则由《RULE GENERATOR 规则生成器》自动生成。
 | DOMAIN | 5  | 
 | DOMAIN-KEYWORD | 2  | 
 | DOMAIN-SUFFIX | 19  | 
-| IP-CIDR | 1  | 
+| IP-CIDR | 2  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 28  | 
+| TOTAL | 29  | 
 
 
 ## Clash 

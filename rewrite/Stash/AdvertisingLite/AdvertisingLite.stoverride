@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-02-20 02:17:54
+desc: 最后更新时间 2023-04-07 14:53:15
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 496
-# mitm: 409
+# reject: 503
+# mitm: 415
 # force-http-engine-hosts: 6
-# total: 911
+# total: 924
 
 
 
@@ -13,6 +13,7 @@ desc: 最后更新时间 2023-02-20 02:17:54
 
 http:
   rewrite:
+    - ^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time - reject
     - ^https:\/\/api\.sfacg\.com\/ioscfg - reject
     - ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ - reject
     - ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject
@@ -73,6 +74,7 @@ http:
     - ^https?:\/\/api4\.bybutter\.com\/v\d\/app\/placements\/\d\/advertisements - reject
     - ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
     - ^https?:\/\/api\.00bang\.cn\/llb\/baseinfo\/advertise\/getAdvertiseByPageCode - reject
+    - ^https?:\/\/api\.21ec74\.com\/v2\.5\/ad - reject
     - ^https?:\/\/api\.21jingji\.com\/ad\/ - reject
     - ^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
     - ^https?:\/\/api\.ahmobile\.cn:443\/eip\?eip_serv_id=app\.getAllNew - reject
@@ -205,6 +207,7 @@ http:
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject
     - ^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds - reject
     - ^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd - reject
+    - ^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getStartPictureAdvertising - reject
     - ^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject
     - ^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject
     - ^https?:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/ - reject
@@ -244,6 +247,7 @@ http:
     - ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/status\/init - reject
     - ^https?:\/\/games\.mobileapi\.hupu\.com\/interfaceAdMonitor - reject
     - ^https?:\/\/gateway-api\.dushu365\.com\/chief-orch\/config\/config\/v100\/appConfig - reject
+    - ^https?:\/\/gateway\.36kr\.com\/api\/adx\/ad\/show - reject
     - ^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json - reject
     - ^https?:\/\/gd\.10086\.cn\/gmccapp\/serv\/\?servicename=GMCCAPP_704_002_001_001 - reject
     - ^https?:\/\/gfp\.veta\.naver\.com\/adcall\? - reject
@@ -254,6 +258,7 @@ http:
     - ^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther - reject
     - ^https?:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
     - ^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/app-start - reject
+    - ^https?:\/\/gongdu\.youshu\.cc\/m\/open_screen\/list_by_udid - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passengerController\/notk\/passenger\/recommendADs - reject
@@ -261,7 +266,6 @@ http:
     - ^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement - reject
     - ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd - reject
     - ^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v - reject
-    - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner - reject
     - ^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ - reject
     - ^https?:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport - reject
     - ^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd - reject
@@ -290,6 +294,7 @@ http:
     - ^https?:\/\/intl\.iqiyi\.com\/video\/advertise - reject
     - ^https?:\/\/ios\.lantouzi\.com\/api\/startpage - reject
     - ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
+    - ^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(getSystemConf|bootScreen) - reject
     - ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/(guanggao|ts_ad)\/ - reject
     - ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
     - ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
@@ -320,7 +325,6 @@ http:
     - ^https?:\/\/ma\.ofo\.com\/ads - reject
     - ^https?:\/\/mage\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen - reject
     - ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject
-    - ^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/ad\/ - reject
     - ^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds - reject
     - ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get - reject
     - ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report - reject
@@ -404,6 +408,7 @@ http:
     - ^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/ - reject
     - ^https?:\/\/richmanapi\.jxedt\.com\/api\/(ad|adplus|guideplus|banadplus) - reject
     - ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject
+    - ^https?:\/\/run\.api\.qyfxgd\.cn:9313\/api\/v1\/advert - reject
     - ^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json - reject
     - ^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php - reject
     - ^https?:\/\/saad\.ms\.zhangyue\.net\/ad - reject
@@ -413,6 +418,7 @@ http:
     - ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
     - ^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson - reject
     - ^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/screen - reject
+    - ^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
     - ^https?:\/\/slapi.oray.net/client/ad - reject
     - ^https?:\/\/slapi\.oray\.net\/adver - reject
@@ -438,6 +444,7 @@ http:
     - ^https?:\/\/tiasdk\.app\.wechat\.com\/retrieval\/getAdInfo$ - reject
     - ^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/ - reject
     - ^https?:\/\/tj\.playcvn\.com\/app\/ads\? - reject
+    - ^https?:\/\/tk\.lanjiyin\.com\.cn\/ad\/getAdList - reject
     - ^https?:\/\/tqt\.weibo\.cn\/api\/advert\/ - reject
     - ^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=(tqt_sdkad|tqtad) - reject
     - ^https?:\/\/track\.mm\.taou\.com/v\d\/track - reject
@@ -474,7 +481,6 @@ http:
     - ^https?:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.getMaxWeightAdvertisement\.rpc - reject
     - ^https?:\/\/www\.inoreader\.com\/adv\/ - reject
     - ^https?:\/\/www\.iyingdi\.cn\/ad - reject
-    - ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
     - ^https?:\/\/www\.myhug\.cn\/ad\/ - reject
     - ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ - reject
@@ -489,6 +495,7 @@ http:
     - ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig - reject
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
     - ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do - reject
+    - ^https?:\/\/ztoread\.ziroom\.com\/ymerApi\/v\d\/index\/open - reject
     - https?:\/\/access\.mypikpak\.com\/access_controller\/v1\/area_accessible - reject
     - https?:\/\/apis\.lifeweek\.com\.cn\/api\/baseConfig\/getIosNewConfig - reject
     - https?:\/\/b\.appsimg\.com\/upload\/momin\/ - reject
@@ -552,8 +559,8 @@ http:
     - "api-new.app.acfun.cn"
     - "api-one.wallstcn.com"
     - "api-release.wuta-cam.com"
-    - "api-sams.walmartmobile.cn"
     - "api.00bang.cn"
+    - "api.21ec74.com"
     - "api.21jingji.com"
     - "api.abema.io"
     - "api.ahmobile.cn"
@@ -671,6 +678,7 @@ http:
     - "client.app.coc.10086.cn"
     - "client.mail.163.com"
     - "client.qunar.com"
+    - "client.tujia.com"
     - "clientaccess.10086.cn"
     - "cloud.189.cn"
     - "cms.daydaycook.com.cn"
@@ -711,6 +719,7 @@ http:
     - "gab.122.gov.cn"
     - "games.mobileapi.hupu.com"
     - "gateway-api.dushu365.com"
+    - "gateway.36kr.com"
     - "gateway.shouqiev.com"
     - "gd.10086.cn"
     - "gfp.veta.naver.com"
@@ -718,6 +727,7 @@ http:
     - "gha.ghac.cn"
     - "goblin.hupu.com"
     - "god.gameyw.netease.com"
+    - "gongdu.youshu.cc"
     - "guanyu.longfor.com"
     - "gw-passenger.01zhuanche.com"
     - "gw.aihuishou.com"
@@ -725,7 +735,6 @@ http:
     - "gw.csdn.net"
     - "gw.kaola.com"
     - "gx.10086.cn"
-    - "haojia.m.smzdm.com"
     - "heic.alicdn.com"
     - "helper.2bulu.com"
     - "hk.app.joox.com"
@@ -751,6 +760,7 @@ http:
     - "ios.lantouzi.com"
     - "ios.sspai.com"
     - "ios.wps.cn"
+    - "iphone.ac.qq.com"
     - "issuecdn.baidupcs.com"
     - "j-image.missfresh.cn"
     - "jad-api.jin10.com"
@@ -845,6 +855,7 @@ http:
     - "richmanapi.jxedt.com"
     - "router-app-api.jdcloud.com"
     - "rtbapi.douyucdn.cn"
+    - "run.api.qyfxgd.cn"
     - "s*.zdmimg.com"
     - "s1.api.tv.itc.cn"
     - "s3plus.meituan.net"
@@ -856,6 +867,7 @@ http:
     - "service.iciba.com"
     - "sh-gateway.shihuo.cn"
     - "shop.laichon.com"
+    - "shopapi.io.mi.com"
     - "shopic.sf-express.com"
     - "slapi.oray.net"
     - "smkmp.96225.com"
@@ -880,6 +892,7 @@ http:
     - "tiasdk.app.wechat.com"
     - "tiku.zhan.com"
     - "tj.playcvn.com"
+    - "tk.lanjiyin.com.cn"
     - "top-widgets-api.xiaozujian.com"
     - "tqt.weibo.cn"
     - "track.mm.taou.com"
@@ -913,7 +926,6 @@ http:
     - "www.icourse163.org"
     - "www.inoreader.com"
     - "www.iyingdi.cn"
-    - "www.meituan.com"
     - "www.myhug.cn"
     - "www.pornhub.com"
     - "www.shihuo.cn"
@@ -929,3 +941,4 @@ http:
     - "zconfig.alibabausercontent.com"
     - "zjh5api.189smarthome.com"
     - "zone.guiderank-app.com"
+    - "ztoread.ziroom.com"

@@ -1,15 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-23 02:09:03
+# UPDATED: 2023-04-13 02:08:40
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # AND: 1
-# DOMAIN: 11557
+# DOMAIN: 11538
 # DOMAIN-KEYWORD: 264
-# DOMAIN-SUFFIX: 106251
-# IP-CIDR: 241
+# DOMAIN-SUFFIX: 109511
+# IP-CIDR: 244
 # URL-REGEX: 285
-# TOTAL: 118599
+# TOTAL: 121843
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,adform
@@ -353,6 +353,7 @@ IP-CIDR,121.15.207.243/32,no-resolve
 IP-CIDR,121.199.73.185/32,no-resolve
 IP-CIDR,121.201.108.2/32,no-resolve
 IP-CIDR,121.201.11.95/32,no-resolve
+IP-CIDR,121.204.246.13/32,no-resolve
 IP-CIDR,121.251.255.0/24,no-resolve
 IP-CIDR,121.40.25.88/32,no-resolve
 IP-CIDR,121.43.75.169/32,no-resolve
@@ -387,6 +388,7 @@ IP-CIDR,139.224.74.148/32,no-resolve
 IP-CIDR,142.0.129.74/32,no-resolve
 IP-CIDR,146.148.85.61/32,no-resolve
 IP-CIDR,154.196.143.171/32,no-resolve
+IP-CIDR,154.7.80.158/32,no-resolve
 IP-CIDR,156.232.37.2/32,no-resolve
 IP-CIDR,156.246.162.2/32,no-resolve
 IP-CIDR,162.212.181.32/32,no-resolve
@@ -413,6 +415,7 @@ IP-CIDR,183.59.53.237/32,no-resolve
 IP-CIDR,185.165.169.108/32,no-resolve
 IP-CIDR,185.193.38.148/32,no-resolve
 IP-CIDR,188.89.204.198/32,no-resolve
+IP-CIDR,194.59.220.161/32,no-resolve
 IP-CIDR,198.40.52.11/32,no-resolve
 IP-CIDR,202.104.1.27/32,no-resolve
 IP-CIDR,202.105.165.202/32,no-resolve

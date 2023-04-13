@@ -59,7 +59,7 @@
 |[Ubuntu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Ubuntu) |[iQIYIIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/iQIYIIntl) |[谷歌推送](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GoogleFCM) |[QuickConnect](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/QuickConnect) |[HamiVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/HamiVideo) |
 |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Emby) |[PikPak](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/PikPak) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Cake) |[币安交易所](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Binance) |[GoogleEarth](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GoogleEarth) |
 |[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TeraBox) |[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BritboxUK) |[DigitalOcean](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/DigitalOcean) |[宜家](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IKEA) |[RemoteDesktop](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/RemoteDesktop) |
-|[VikACG](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/VikACG) |[GlobalScholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalScholar) |
+|[VikACG](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/VikACG) |[GlobalScholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalScholar) |[OpenAI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/OpenAI) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -176,7 +176,7 @@
 |🚫Reject|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingTest) |[反劫持](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Hijacking) |[隐私保护](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy) ||||
-|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ZhihuAds) |[AdGuardSDNSFilter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdGuardSDNSFilter) |[EasyPrivacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/EasyPrivacy) |||
+|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ZhihuAds) |[AdGuardSDNSFilter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdGuardSDNSFilter) |[EasyPrivacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/EasyPrivacy) |[BlockHttpDNS](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlockHttpDNS) |||
 
 
 |🖥️Other|  |  |  |  |

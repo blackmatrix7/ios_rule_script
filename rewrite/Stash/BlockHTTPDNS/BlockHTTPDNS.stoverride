@@ -1,0 +1,79 @@
+name: BlockHTTPDNS
+desc: 最后更新时间 2023-04-07 14:53:20
+# author: blackmatrix7
+# repo: https://github.com/blackmatrix7/ios_rule_script
+# domain: 16
+# ip-cidr: 11
+# ip-cidr6: 2
+# reject: 15
+# mitm: 5
+# force-http-engine-hosts: 6
+# total: 55
+
+
+
+rules:
+  - DOMAIN,dns.weibo.cn,REJECT
+  - DOMAIN,dns.weixin.qq.com,REJECT
+  - DOMAIN,dns.weixin.qq.com.cn,REJECT
+  - DOMAIN,httpdns-api.aliyuncs.com,REJECT
+  - DOMAIN,httpdns-sc.aliyuncs.com,REJECT
+  - DOMAIN,httpdns.alicdn.com,REJECT
+  - DOMAIN,httpdns.baidu.com,REJECT
+  - DOMAIN,httpdns.baidubce.com,REJECT
+  - DOMAIN,httpdns.bilivideo.com,REJECT
+  - DOMAIN,httpdns.c.cdnhwc2.com,REJECT
+  - DOMAIN,httpdns.n.netease.com,REJECT
+  - DOMAIN,httpdns.push.oppomobile.com,REJECT
+  - DOMAIN,httpdns.volcengineapi.com,REJECT
+  - DOMAIN,httpsdns.baidu.com,REJECT
+  - DOMAIN,lofter.httpdns.c.163.com,REJECT
+  - DOMAIN,music.httpdns.c.163.com,REJECT
+  - IP-CIDR,123.151.54.50/32,REJECT
+  - IP-CIDR,186.76.76.200/32,REJECT
+  - IP-CIDR,203.107.1.0/24,REJECT
+  - IP-CIDR,39.97.128.148/32,REJECT
+  - IP-CIDR,39.97.130.51/32,REJECT
+  - IP-CIDR,42.187.182.106/32,REJECT
+  - IP-CIDR,42.187.182.123/32,REJECT
+  - IP-CIDR,42.187.184.154/32,REJECT
+  - IP-CIDR,42.81.232.18/32,REJECT
+  - IP-CIDR,59.111.239.61/32,REJECT
+  - IP-CIDR,59.111.239.62/32,REJECT
+  - IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,REJECT
+  - IP-CIDR6,240e:928:1400:10::25/128,REJECT
+
+
+http:
+  rewrite:
+    - ^http:\/\/101\.35\.204\.35\/d - reject
+    - ^http:\/\/103\.37\.155\.60\/fetch - reject
+    - ^http:\/\/114\.110\.96\.26\/d - reject
+    - ^http:\/\/180\.76\.76\.112\/v4\/resolve - reject
+    - ^http:\/\/182\.256\.116\.116\/d - reject
+    - ^http:\/\/203\.107\.1\.65\/\d+\/resolve - reject
+    - ^http:\/\/api\.weibo\.cn\/2\/httpdns\/config - reject
+    - ^https?:\/\/110\.76\.8\.150\/squery - reject
+    - ^https?:\/\/119\.29\.29\.29\/d - reject
+    - ^https?:\/\/203\.209\.230\.39\/squery - reject
+    - ^https?:\/\/2400:B180:6001::18F\/squery - reject
+    - ^https?:\/\/2400:B200:1005:3000::155\/squery - reject
+    - ^https?:\/\/amdc-sibling\.alipay\.com\.cn\/s?query - reject
+    - ^https?:\/\/amdc\.alipay\.com\/s?query - reject
+    - ^https?:\/\/dns\.weixin\.qq\.com\/cgi-bin\/micromsg-bin\/newgetdns - reject
+
+
+  force-http-engine:
+    - "119.29.29.29:80"
+    - "203.107.1.65:80"
+    - "203.107.1.66:80"
+    - "dns.weixin.qq.com:443"
+    - "dns.weixin.qq.com:80"
+    - "dns.weixin.qq.com:8080"
+
+  mitm:
+    - "119.29.29.29"
+    - "amdc-sibling.alipay.com.cn"
+    - "amdc.alipay.com"
+    - "api.weibo.cn"
+    - "dns.weixin.qq.com"

@@ -1,16 +1,19 @@
 # NAME: Lan
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-15 23:45:37
-# DOMAIN: 3
-# DOMAIN-SUFFIX: 117
+# UPDATED: 2023-04-07 14:50:29
+# DOMAIN: 6
+# DOMAIN-SUFFIX: 121
 # IP-CIDR: 14
 # IP-CIDR6: 3
-# TOTAL: 137
+# TOTAL: 144
 payload:
+  - DOMAIN,asusrouter.com
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,router.asus.com
   - DOMAIN,setmeup.arubanetworks.com
+  - DOMAIN,www.asusrouter.com
+  - DOMAIN,www.mifiwi.com
   - DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
   - DOMAIN-SUFFIX,0.in-addr.arpa
   - DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
@@ -108,6 +111,8 @@ payload:
   - DOMAIN-SUFFIX,a.e.f.ip6.arpa
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,b.e.f.ip6.arpa
+  - DOMAIN-SUFFIX,captive.apple.com
+  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
   - DOMAIN-SUFFIX,d.f.ip6.arpa
   - DOMAIN-SUFFIX,hiwifi.com
   - DOMAIN-SUFFIX,home.arpa
@@ -122,11 +127,13 @@ payload:
   - DOMAIN-SUFFIX,p.to
   - DOMAIN-SUFFIX,peiluyou.com
   - DOMAIN-SUFFIX,phicomm.me
+  - DOMAIN-SUFFIX,plex.direct
   - DOMAIN-SUFFIX,router.ctc
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,tendawifi.com
   - DOMAIN-SUFFIX,tplinkwifi.net
   - DOMAIN-SUFFIX,tplogin.cn
+  - DOMAIN-SUFFIX,wifi.cmcc
   - DOMAIN-SUFFIX,zte.home
   - IP-CIDR,0.0.0.0/8
   - IP-CIDR,10.0.0.0/8

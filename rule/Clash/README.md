@@ -59,7 +59,7 @@
 |[Ubuntu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Ubuntu) |[iQIYIIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iQIYIIntl) |[谷歌推送](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleFCM) |[QuickConnect](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/QuickConnect) |[HamiVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HamiVideo) |
 |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Emby) |[PikPak](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PikPak) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cake) |[币安交易所](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Binance) |[GoogleEarth](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleEarth) |
 |[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TeraBox) |[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BritboxUK) |[DigitalOcean](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DigitalOcean) |[宜家](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/IKEA) |[RemoteDesktop](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/RemoteDesktop) |
-|[VikACG](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/VikACG) |[GlobalScholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalScholar) |
+|[VikACG](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/VikACG) |[GlobalScholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalScholar) |[OpenAI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OpenAI) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -176,7 +176,7 @@
 |🚫Reject|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest) |[反劫持](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking) |[隐私保护](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy) ||||
-|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhihuAds) |[AdGuardSDNSFilter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdGuardSDNSFilter) |[EasyPrivacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/EasyPrivacy) |||
+|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhihuAds) |[AdGuardSDNSFilter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdGuardSDNSFilter) |[EasyPrivacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/EasyPrivacy) |[BlockHttpDNS](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlockHttpDNS) |||
 
 
 |🖥️Other|  |  |  |  |

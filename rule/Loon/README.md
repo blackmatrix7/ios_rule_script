@@ -59,7 +59,7 @@
 |[Ubuntu](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Ubuntu) |[iQIYIIntl](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQIYIIntl) |[谷歌推送](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GoogleFCM) |[QuickConnect](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/QuickConnect) |[HamiVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/HamiVideo) |
 |[Emby](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Emby) |[PikPak](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/PikPak) |[Cake](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Cake) |[币安交易所](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Binance) |[GoogleEarth](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GoogleEarth) |
 |[TeraBox](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TeraBox) |[BritboxUK](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BritboxUK) |[DigitalOcean](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DigitalOcean) |[宜家](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/IKEA) |[RemoteDesktop](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/RemoteDesktop) |
-|[VikACG](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/VikACG) |[GlobalScholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalScholar) |
+|[VikACG](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/VikACG) |[GlobalScholar](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalScholar) |[OpenAI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/OpenAI) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -175,7 +175,7 @@
 |🚫Reject|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest) |[反劫持](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking) |[隐私保护](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy) ||||
-|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ZhihuAds) |[AdGuardSDNSFilter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdGuardSDNSFilter) |[EasyPrivacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/EasyPrivacy) |||
+|[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ZhihuAds) |[AdGuardSDNSFilter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdGuardSDNSFilter) |[EasyPrivacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/EasyPrivacy) |[BlockHttpDNS](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlockHttpDNS) |||
 
 
 |🖥️Other|  |  |  |  |

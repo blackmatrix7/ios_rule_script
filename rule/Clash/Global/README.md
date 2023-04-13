@@ -10,20 +10,29 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 请通过【中华人民共和国 People's Republic of China】合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 
+## 规则说明
+.poe.com
+.gmauthority.com
+.pp.ua
+.south-plus.net
+.spring-plus.net
+.level-plus.net
+.hicairo.com
+
 ## 规则统计
 
-最后更新时间：2023-02-23 02:16:40
+最后更新时间：2023-04-12 02:10:41
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 178  | 
+| DOMAIN | 155  | 
 | DOMAIN-KEYWORD | 39  | 
-| DOMAIN-SUFFIX | 37866  | 
+| DOMAIN-SUFFIX | 37338  | 
 | IP-CIDR | 106  | 
 | IP-CIDR6 | 4  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 38194  | 
+| TOTAL | 37643  | 
 
 
 ## Clash 

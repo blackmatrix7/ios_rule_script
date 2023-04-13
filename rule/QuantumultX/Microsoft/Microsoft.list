@@ -1,12 +1,13 @@
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-19 16:23:03
+# UPDATED: 2023-04-07 14:47:37
 # HOST: 41
 # HOST-KEYWORD: 4
-# HOST-SUFFIX: 658
+# HOST-SUFFIX: 660
+# HOST-WILDCARD: 1
 # USER-AGENT: 3
-# TOTAL: 706
+# TOTAL: 709
 HOST,bg.v4.a.dl.ws.microsoft.com,Microsoft
 HOST,bg4.v4.a.dl.ws.microsoft.com,Microsoft
 HOST,bj1.api.bing.com,Microsoft
@@ -312,6 +313,7 @@ HOST-SUFFIX,mesh.com,Microsoft
 HOST-SUFFIX,mgmt-azure-api.cn,Microsoft
 HOST-SUFFIX,microbit.org,Microsoft
 HOST-SUFFIX,microsoft,Microsoft
+HOST-SUFFIX,microsoft-falcon.io,Microsoft
 HOST-SUFFIX,microsoft-give.com,Microsoft
 HOST-SUFFIX,microsoft-int.com,Microsoft
 HOST-SUFFIX,microsoft-online.cn,Microsoft
@@ -369,6 +371,7 @@ HOST-SUFFIX,microsoftadvertisingregionalawards.com,Microsoft
 HOST-SUFFIX,microsoftaffiliates.com,Microsoft
 HOST-SUFFIX,microsoftapp.net,Microsoft
 HOST-SUFFIX,microsoftazuread-sso.com,Microsoft
+HOST-SUFFIX,microsoftazuresponsorships.com,Microsoft
 HOST-SUFFIX,microsoftazurestatus.cn,Microsoft
 HOST-SUFFIX,microsoftcloud.com,Microsoft
 HOST-SUFFIX,microsoftcloudsummit.com,Microsoft
@@ -706,6 +709,7 @@ HOST-SUFFIX,onedrive.org,Microsoft
 HOST-SUFFIX,sharepoint.com,Microsoft
 HOST-SUFFIX,sharepointonline.com,Microsoft
 HOST-SUFFIX,spoprod-a.akamaihd.net,Microsoft
+HOST-WILDCARD,onedrive.*,Microsoft
 HOST-KEYWORD,microsoft,Microsoft
 HOST-KEYWORD,1drv,Microsoft
 HOST-KEYWORD,onedrive,Microsoft

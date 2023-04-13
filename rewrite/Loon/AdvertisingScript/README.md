@@ -9,12 +9,10 @@
 所有数据均收集自互联网公开信息，不代表我们支持或使用这些服务。
 
 请通过【中华人民共和国 People's Republic of China】合法的互联网出入口信道访问规则中的相关服务，并确保在使用过程中符合相关法律法规。
-## 规则说明
-整合知乎 什么值得买APP去广告，及脚本去除开屏广告复写。
 
 ## 规则统计
 
-最后更新时间：2023-02-15 23:48:05
+最后更新时间：2023-04-07 14:53:12
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -22,10 +20,10 @@
 | DOMAIN | 5  | 
 | URL-REGEX | 4  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
-| HTTP-RESPONSE-SCRIPT | 32  | 
-| REJECT | 14  | 
-| MITM | 28  | 
-| TOTAL | 84  | 
+| HTTP-RESPONSE-SCRIPT | 24  | 
+| REJECT | 11  | 
+| MITM | 21  | 
+| TOTAL | 66  | 
 
 
 ## Loon 
@@ -64,7 +62,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《脚本去广告》的数据来自以下链接，如与本项目的《脚本去广告》规则混合使用，可能造成部分重写重复。
 
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.lnplugin
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.lnplugin
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.lnplugin
 

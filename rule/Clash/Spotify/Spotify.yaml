@@ -1,13 +1,13 @@
 # NAME: Spotify
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-15 23:45:31
+# UPDATED: 2023-04-07 14:50:23
 # DOMAIN: 5
 # DOMAIN-KEYWORD: 2
 # DOMAIN-SUFFIX: 19
-# IP-CIDR: 1
+# IP-CIDR: 2
 # PROCESS-NAME: 1
-# TOTAL: 28
+# TOTAL: 29
 payload:
   - DOMAIN,audio4-ak-spotify-com.akamaized.net
   - DOMAIN,heads-ak-spotify-com.akamaized.net
@@ -35,5 +35,6 @@ payload:
   - DOMAIN-SUFFIX,tospotify.com
   - DOMAIN-KEYWORD,-spotify-com
   - DOMAIN-KEYWORD,spotify.com
+  - IP-CIDR,104.154.127.126/32
   - IP-CIDR,35.186.224.47/32
   - PROCESS-NAME,com.spotify.music

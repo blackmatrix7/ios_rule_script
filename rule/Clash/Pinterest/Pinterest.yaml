@@ -1,12 +1,13 @@
 # NAME: Pinterest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-15 23:46:14
-# DOMAIN-SUFFIX: 49
-# TOTAL: 49
+# UPDATED: 2023-04-07 14:51:21
+# DOMAIN-SUFFIX: 52
+# TOTAL: 52
 payload:
   - DOMAIN-SUFFIX,pin.it
   - DOMAIN-SUFFIX,pinimg.com
+  - DOMAIN-SUFFIX,pinimg.com.cdn.cloudflare.net
   - DOMAIN-SUFFIX,pinterest.at
   - DOMAIN-SUFFIX,pinterest.be
   - DOMAIN-SUFFIX,pinterest.ca
@@ -41,7 +42,9 @@ payload:
   - DOMAIN-SUFFIX,pinterest.it
   - DOMAIN-SUFFIX,pinterest.jp
   - DOMAIN-SUFFIX,pinterest.kr
+  - DOMAIN-SUFFIX,pinterest.map.fastly.net
   - DOMAIN-SUFFIX,pinterest.mx
+  - DOMAIN-SUFFIX,pinterest.net
   - DOMAIN-SUFFIX,pinterest.nl
   - DOMAIN-SUFFIX,pinterest.nz
   - DOMAIN-SUFFIX,pinterest.pe

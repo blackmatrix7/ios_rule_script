@@ -16,15 +16,15 @@
 
 ## 规则统计
 
-最后更新时间：2023-02-18 02:13:00
+最后更新时间：2023-04-07 14:53:02
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| REJECT | 543  | 
-| MITM | 500  | 
+| REJECT | 550  | 
+| MITM | 507  | 
 | FORCE-HTTP-ENGINE-HOSTS | 6  | 
-| TOTAL | 1049  | 
+| TOTAL | 1063  | 
 
 
 ## Stash 
@@ -71,6 +71,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/GFBG-IT/QuantumultX/main/Advertising.conf
 - https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/Advertising.plugin
 - https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/YouTubeAds.sgmodule
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

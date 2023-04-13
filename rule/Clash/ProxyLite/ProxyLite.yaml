@@ -1,13 +1,13 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-20 02:15:41
+# UPDATED: 2023-04-07 14:51:26
 # DOMAIN: 18
 # DOMAIN-KEYWORD: 24
-# DOMAIN-SUFFIX: 828
+# DOMAIN-SUFFIX: 833
 # IP-CIDR: 90
 # IP-CIDR6: 4
-# TOTAL: 964
+# TOTAL: 969
 payload:
   - DOMAIN,addons.mozilla.org
   - DOMAIN,amp-api.podcasts.apple.com
@@ -46,6 +46,7 @@ payload:
   - DOMAIN-SUFFIX,aerisapi.com
   - DOMAIN-SUFFIX,aex.com
   - DOMAIN-SUFFIX,ahcdn.com
+  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,aicoin.com
   - DOMAIN-SUFFIX,aimoon.com
   - DOMAIN-SUFFIX,airtable.com
@@ -94,6 +95,8 @@ payload:
   - DOMAIN-SUFFIX,bandcamp.com
   - DOMAIN-SUFFIX,bandisoft.com
   - DOMAIN-SUFFIX,bandwagonhost.com
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,battlenet.com
   - DOMAIN-SUFFIX,bbc.co
   - DOMAIN-SUFFIX,bbc.com
   - DOMAIN-SUFFIX,bbtoystore.com
@@ -120,6 +123,7 @@ payload:
   - DOMAIN-SUFFIX,bitshare.com
   - DOMAIN-SUFFIX,bitstamp.net
   - DOMAIN-SUFFIX,bittrex.com
+  - DOMAIN-SUFFIX,blizzard.com
   - DOMAIN-SUFFIX,blog.com
   - DOMAIN-SUFFIX,blogcdn.com
   - DOMAIN-SUFFIX,bloglovin.com
@@ -420,6 +424,7 @@ payload:
   - DOMAIN-SUFFIX,mvnrepository.com
   - DOMAIN-SUFFIX,mycnnews.com
   - DOMAIN-SUFFIX,myfontastic.com
+  - DOMAIN-SUFFIX,mypikpak.com
   - DOMAIN-SUFFIX,myspace.com
   - DOMAIN-SUFFIX,myspacecdn.com
   - DOMAIN-SUFFIX,myteamspeak.com

@@ -1,13 +1,13 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-23 02:09:18
+# UPDATED: 2023-04-13 02:08:53
 # DOMAIN: 7
 # DOMAIN-KEYWORD: 5
-# DOMAIN-SUFFIX: 1542
+# DOMAIN-SUFFIX: 1544
 # IP-CIDR: 10
 # PROCESS-NAME: 6
-# TOTAL: 1570
+# TOTAL: 1572
 payload:
   - DOMAIN,appldnld.apple.com.edgesuite.net
   - DOMAIN,apple-events.akamaized.net
@@ -343,6 +343,8 @@ payload:
   - DOMAIN-SUFFIX,beatsbydre-store.com
   - DOMAIN-SUFFIX,beatsbydre-studio.com
   - DOMAIN-SUFFIX,beatsbydre-us.com
+  - DOMAIN-SUFFIX,beatsbydre.com
+  - DOMAIN-SUFFIX,beatsbydre.com.cn
   - DOMAIN-SUFFIX,beatsbydre.jp
   - DOMAIN-SUFFIX,beatsbydre2081.com
   - DOMAIN-SUFFIX,beatsbydre411.com
@@ -1515,6 +1517,7 @@ payload:
   - DOMAIN-SUFFIX,wwwipodlounge.com
   - DOMAIN-SUFFIX,wwwmacbookair.com
   - DOMAIN-SUFFIX,apple.comscoreresearch.com
+  - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,appleenews.com
   - DOMAIN-SUFFIX,applemusic.berlin
   - DOMAIN-SUFFIX,applemusic.co
@@ -1551,7 +1554,6 @@ payload:
   - DOMAIN-SUFFIX,musickit.net
   - DOMAIN-SUFFIX,wwwapplemusic.com
   - DOMAIN-SUFFIX,applemusic.com
-  - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,apple-cloudkit.com

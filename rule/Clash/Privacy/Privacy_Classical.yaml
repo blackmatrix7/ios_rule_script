@@ -1,11 +1,11 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-05-08 02:09:18
+# UPDATED: 2023-05-11 02:09:02
 # DOMAIN: 14
-# DOMAIN-SUFFIX: 18420
+# DOMAIN-SUFFIX: 18424
 # IP-CIDR: 7
-# TOTAL: 18441
+# TOTAL: 18445
 payload:
   - DOMAIN,hm.baidu.com
   - DOMAIN,hmma.baidu.com
@@ -2749,6 +2749,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.shareaholic.com
   - DOMAIN-SUFFIX,analytics.shop.hisense.com
   - DOMAIN-SUFFIX,analytics.shopncaasports.com
+  - DOMAIN-SUFFIX,analytics.similarweb.com
   - DOMAIN-SUFFIX,analytics.simplii.com
   - DOMAIN-SUFFIX,analytics.sitewit.com
   - DOMAIN-SUFFIX,analytics.sixfigureswine.com
@@ -4689,6 +4690,7 @@ payload:
   - DOMAIN-SUFFIX,clicks.shakeshack.com
   - DOMAIN-SUFFIX,clicks.staging.worldremit.com
   - DOMAIN-SUFFIX,clicks.tableau.com
+  - DOMAIN-SUFFIX,clicks.tyuwq.com
   - DOMAIN-SUFFIX,clickserver.libero.it
   - DOMAIN-SUFFIX,clicktale.pantherssl.com
   - DOMAIN-SUFFIX,clicktracker.iscan.nl
@@ -5849,7 +5851,6 @@ payload:
   - DOMAIN-SUFFIX,download.withu.fit
   - DOMAIN-SUFFIX,downloads.coface.com
   - DOMAIN-SUFFIX,downtowndirection.com
-  - DOMAIN-SUFFIX,dp.coinbase.com
   - DOMAIN-SUFFIX,dp.mymix.mixtel.com
   - DOMAIN-SUFFIX,dp.shoprunner.com
   - DOMAIN-SUFFIX,dp.tuex.ca
@@ -6738,7 +6739,6 @@ payload:
   - DOMAIN-SUFFIX,eventlog.jackpot.de
   - DOMAIN-SUFFIX,events-logs.doctolib.com
   - DOMAIN-SUFFIX,events-prod.autolist.com
-  - DOMAIN-SUFFIX,events-service.coinbase.com
   - DOMAIN-SUFFIX,events-tracker.deliveroo.net
   - DOMAIN-SUFFIX,events.air.tv
   - DOMAIN-SUFFIX,events.apester.com
@@ -7686,7 +7686,6 @@ payload:
   - DOMAIN-SUFFIX,gz-data.com
   - DOMAIN-SUFFIX,gzads.com
   - DOMAIN-SUFFIX,gzlxvg.papy.co.jp
-  - DOMAIN-SUFFIX,h.imedia.cz
   - DOMAIN-SUFFIX,h00c.sfr.fr
   - DOMAIN-SUFFIX,h353.ncadvertiser.com
   - DOMAIN-SUFFIX,h559.stamfordadvocate.com
@@ -10334,6 +10333,7 @@ payload:
   - DOMAIN-SUFFIX,metrics.ctvdigital.net
   - DOMAIN-SUFFIX,metrics.damart.fr
   - DOMAIN-SUFFIX,metrics.datapipe.com
+  - DOMAIN-SUFFIX,metrics.doppiocdn.org
   - DOMAIN-SUFFIX,metrics.drsfostersmith.com
   - DOMAIN-SUFFIX,metrics.earrieta.dev
   - DOMAIN-SUFFIX,metrics.eiu.com
@@ -15663,6 +15663,7 @@ payload:
   - DOMAIN-SUFFIX,tl.tradetracker.net
   - DOMAIN-SUFFIX,tla.traderlink.com
   - DOMAIN-SUFFIX,tltpyy.saatchiart.com
+  - DOMAIN-SUFFIX,tm-eps.neutrino.nu
   - DOMAIN-SUFFIX,tm.swp.de
   - DOMAIN-SUFFIX,tm.tradetracker.net
   - DOMAIN-SUFFIX,tm.uol.com.br
@@ -16646,6 +16647,7 @@ payload:
   - DOMAIN-SUFFIX,tracker.nbcuas.com
   - DOMAIN-SUFFIX,tracker.nitropay.com
   - DOMAIN-SUFFIX,tracker.novage.com.ua
+  - DOMAIN-SUFFIX,tracker.openwebtorrent.com
   - DOMAIN-SUFFIX,tracker.providence.org
   - DOMAIN-SUFFIX,tracker.publico.pt
   - DOMAIN-SUFFIX,tracker.ranker.com
@@ -17413,6 +17415,7 @@ payload:
   - DOMAIN-SUFFIX,uylodc.ecosa.com.au
   - DOMAIN-SUFFIX,uzd1.madeindesign.com
   - DOMAIN-SUFFIX,uzevnf.realtystore.com
+  - DOMAIN-SUFFIX,v.adblockultimate.net
   - DOMAIN-SUFFIX,v.angha.me
   - DOMAIN-SUFFIX,v.cameo.com
   - DOMAIN-SUFFIX,v.oui.sncf
@@ -17807,6 +17810,7 @@ payload:
   - DOMAIN-SUFFIX,wetr.sportscheck.ch
   - DOMAIN-SUFFIX,wetr.sportscheck.com
   - DOMAIN-SUFFIX,wevbgr.vidaxl.it
+  - DOMAIN-SUFFIX,whale3.io
   - DOMAIN-SUFFIX,whatif.it.adobe.com
   - DOMAIN-SUFFIX,whineattempt.com
   - DOMAIN-SUFFIX,whirlwealth.com

@@ -5,7 +5,7 @@
 #!homepage=https://github.com/blackmatrix7/ios_rule_script
 #!icon=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/quora/quora.png
 
-[URL Rewrite]
+[Rewrite]
 # 去除回答列表中展开内容的广告
 ^https:\/\/www\.quora\.com\/graphql\/gql_para_POST\?q=AnswerExpandAdLoaderQuery - reject
 

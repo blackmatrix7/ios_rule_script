@@ -19,7 +19,7 @@ DOMAIN,crash2.zhihu.com,REJECT
 DOMAIN,appcloud.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 
-[URL Rewrite]
+[Rewrite]
 ^https?:\/\/118\.89\.204\.198 - reject-dict
 ^https?:\/\/103\.41\.167\.237 - reject-dict
 ^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 - reject-dict

@@ -1,14 +1,14 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-13 02:13:21
-# DOMAIN: 168
+# UPDATED: 2023-05-10 02:14:22
+# DOMAIN: 166
 # DOMAIN-KEYWORD: 13
-# DOMAIN-SUFFIX: 66640
-# IP-CIDR: 5404
-# IP-CIDR6: 5137
+# DOMAIN-SUFFIX: 66831
+# IP-CIDR: 5390
+# IP-CIDR6: 5281
 # PROCESS-NAME: 13
-# TOTAL: 77375
+# TOTAL: 77694
 payload:
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -33,6 +33,6 @@ payload:
   - PROCESS-NAME,com.jjwxc.reader
   - PROCESS-NAME,com.xiaomi.mibrain.speech
   - PROCESS-NAME,小米云服务.exe
-  - PROCESS-NAME,thunder
-  - PROCESS-NAME,thunder.exe
+  - PROCESS-NAME,Thunder
+  - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,com.qiyi.video

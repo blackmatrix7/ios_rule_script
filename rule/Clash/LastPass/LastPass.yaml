@@ -1,10 +1,10 @@
 # NAME: LastPass
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:50:23
+# UPDATED: 2023-04-25 02:11:11
 # DOMAIN-SUFFIX: 1
 # PROCESS-NAME: 1
 # TOTAL: 2
 payload:
   - DOMAIN-SUFFIX,lastpass.com
-  - PROCESS-NAME,lastpass
+  - PROCESS-NAME,LastPass

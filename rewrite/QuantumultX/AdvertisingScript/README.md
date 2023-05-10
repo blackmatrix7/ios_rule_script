@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:53:12
+最后更新时间：2023-04-14 02:17:42
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -20,9 +20,9 @@
 | HOST | 5  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
 | HTTP-RESPONSE-SCRIPT | 32  | 
-| REJECT | 14  | 
+| REJECT | 15  | 
 | MITM | 28  | 
-| TOTAL | 80  | 
+| TOTAL | 81  | 
 
 
 ## QuantumultX 

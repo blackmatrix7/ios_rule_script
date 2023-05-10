@@ -1,7 +1,7 @@
 # NAME: Spotify
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:50:23
+# UPDATED: 2023-04-28 02:11:41
 # DOMAIN: 5
 # DOMAIN-KEYWORD: 2
 # DOMAIN-SUFFIX: 19
@@ -33,7 +33,7 @@ payload:
   - DOMAIN-SUFFIX,spotifynewsroom.jp
   - DOMAIN-SUFFIX,spotilocal.com
   - DOMAIN-SUFFIX,tospotify.com
-  - DOMAIN-KEYWORD,-spotify-com
+  - DOMAIN-KEYWORD,-spotify-
   - DOMAIN-KEYWORD,spotify.com
   - IP-CIDR,104.154.127.126/32
   - IP-CIDR,35.186.224.47/32

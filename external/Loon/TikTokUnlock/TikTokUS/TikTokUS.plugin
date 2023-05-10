@@ -1,5 +1,5 @@
 #!name= TikTokUS
-#!desc= 最后更新时间 2023-04-07 14:53:20
+#!desc= 最后更新时间 2023-04-25 02:14:51
 #!openUrl= https://github.com/Semporia/TikTok-Unlock
 #!author= Semporia
 #!homepage= https://github.com/Semporia/TikTok-Unlock
@@ -9,7 +9,7 @@
 #!total= 7
 
 
-[URL Rewrite]
+[Rewrite]
 (?<=&mcc_mnc=)4 2 307
 (?<=_region=)CN(?=&) US 307
 (^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302

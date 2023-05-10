@@ -1,16 +1,16 @@
 # NAME: RemoteDesktop
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:52:29
+# UPDATED: 2023-04-25 02:13:14
 # PROCESS-NAME: 9
 # TOTAL: 9
 payload:
-  - PROCESS-NAME,crashreport.exe
+  - PROCESS-NAME,CrashReport.exe
+  - PROCESS-NAME,DriverInstaller.exe
+  - PROCESS-NAME,SunloginClient.exe
+  - PROCESS-NAME,ToDesk.exe
+  - PROCESS-NAME,ToDesk_Service.exe
+  - PROCESS-NAME,ToDesk_Session.exe
+  - PROCESS-NAME,ToDesk_Setup.exe
   - PROCESS-NAME,devcon.exe
-  - PROCESS-NAME,driverinstaller.exe
   - PROCESS-NAME,mstsc.exe
-  - PROCESS-NAME,sunloginclient.exe
-  - PROCESS-NAME,todesk.exe
-  - PROCESS-NAME,todesk_service.exe
-  - PROCESS-NAME,todesk_session.exe
-  - PROCESS-NAME,todesk_setup.exe

@@ -1,7 +1,7 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:47:38
+# UPDATED: 2023-04-25 02:08:30
 # DOMAIN: 7
 # DOMAIN-KEYWORD: 5
 # DOMAIN-SUFFIX: 1544
@@ -26,7 +26,7 @@ payload:
   - IP-CIDR,65.199.22.0/23
   - PROCESS-NAME,storedownloadd
   - PROCESS-NAME,com.apple.geod
-  - PROCESS-NAME,music
-  - PROCESS-NAME,news
-  - PROCESS-NAME,lookupviewservice
-  - PROCESS-NAME,tv
+  - PROCESS-NAME,Music
+  - PROCESS-NAME,News
+  - PROCESS-NAME,LookupViewService
+  - PROCESS-NAME,TV

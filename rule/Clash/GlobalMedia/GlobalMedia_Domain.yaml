@@ -1,14 +1,14 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:50:21
+# UPDATED: 2023-05-08 02:11:34
 # DOMAIN: 28
-# DOMAIN-KEYWORD: 24
-# DOMAIN-SUFFIX: 1086
+# DOMAIN-KEYWORD: 25
+# DOMAIN-SUFFIX: 1091
 # IP-CIDR: 918
 # IP-CIDR6: 6
 # PROCESS-NAME: 3
-# TOTAL: 2065
+# TOTAL: 2071
 payload:
   - 'api.okzy.tv'
   - 'apm-misaka.biliapi.net'
@@ -55,6 +55,7 @@ payload:
   - '+.afewmomentswith.com'
   - '+.afp.com'
   - '+.afpforum.com'
+  - '+.ai.com'
   - '+.aiv-cdn.net'
   - '+.aiv-delivery.net'
   - '+.akamaized.net'
@@ -160,6 +161,7 @@ payload:
   - '+.cbstelevisioncity.com'
   - '+.cdn.optimizely.com'
   - '+.cf-images.ap-southeast-1.prod.boltdns.net'
+  - '+.challenges.cloudflare.com'
   - '+.channel4.com'
   - '+.channel5.com'
   - '+.chocotv.com.tw'
@@ -843,6 +845,8 @@ payload:
   - '+.olevod.io'
   - '+.olevod.tv'
   - '+.olevodtv.com'
+  - '+.openai.com'
+  - '+.openaiapi-site.azureedge.net'
   - '+.originalhulu.com'
   - '+.orlandohurricane.com'
   - '+.overcast.fm'
@@ -968,6 +972,7 @@ payload:
   - '+.static-qobuz.com'
   - '+.streaks.jp'
   - '+.streamingdisney.net'
+  - '+.stripe.com'
   - '+.syfy.com'
   - '+.teenchoice.com'
   - '+.telemundo.com'

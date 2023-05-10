@@ -1,13 +1,13 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-10 02:09:35
-# DOMAIN-KEYWORD: 6
+# UPDATED: 2023-04-25 02:08:28
+# DOMAIN-KEYWORD: 5
 # DOMAIN-SUFFIX: 718
 # IP-CIDR: 4
 # IP-CIDR6: 1
 # PROCESS-NAME: 6
-# TOTAL: 735
+# TOTAL: 734
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1ucrs.com
@@ -730,16 +730,15 @@ DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,gstatic
 DOMAIN-KEYWORD,recaptcha
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
 IP-CIDR,216.73.80.0/20,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR6,2620:120:e000::/40,no-resolve
+PROCESS-NAME,GoogleDriveFS.exe
 PROCESS-NAME,com.android.vending
 PROCESS-NAME,com.google.android.gms
 PROCESS-NAME,com.google.android.gsf
 PROCESS-NAME,com.google.android.play.games
-PROCESS-NAME,googledrivefs.exe
-PROCESS-NAME,backupandsync
+PROCESS-NAME,BackupandSync

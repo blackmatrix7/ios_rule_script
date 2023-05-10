@@ -15,17 +15,17 @@ ProxyLite规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:51:26
+最后更新时间：2023-04-25 02:12:17
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 18  | 
 | DOMAIN-KEYWORD | 24  | 
-| DOMAIN-SUFFIX | 833  | 
+| DOMAIN-SUFFIX | 834  | 
 | IP-CIDR | 90  | 
 | IP-CIDR6 | 4  | 
-| TOTAL | 969  | 
+| TOTAL | 970  | 
 
 
 ## Clash 

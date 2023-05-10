@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-04-07 14:53:15
+desc: 最后更新时间 2023-05-10 02:17:14
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 503
-# mitm: 415
+# reject: 506
+# mitm: 419
 # force-http-engine-hosts: 6
-# total: 924
+# total: 931
 
 
 
@@ -95,6 +95,7 @@ http:
     - ^https?:\/\/api\.feng\.com\/v\d\/advertisement\/.*Claunch - reject
     - ^https?:\/\/api\.futunn\.com\/v\d\/ad\/ - reject
     - ^https?:\/\/api\.gameplus\.qq\.com\/community\.OnloadSrv\/GetPreloadScreenInfo - reject
+    - ^https?:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v\d\/anime_get_question\.php - reject
     - ^https?:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/ - reject
     - ^https?:\/\/api\.gotokeep\.com\/ads - reject
     - ^https?:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad/ - reject
@@ -227,6 +228,7 @@ http:
     - ^https?:\/\/dispatcher\.camera360\.com\/api\/v1\/list$ - reject
     - ^https?:\/\/djcapp\.game\.qq\.com\/daoju\/igw\/main\/\?_service=welink\.ad\.list - reject
     - ^https?:\/\/dl\.app\.gtja\.com\/dzswem\/kvController\/.+?\.jpg$ - reject
+    - ^https?:\/\/dq\.dxy\.cn\/api\.php\?action=getpostbanners - reject
     - ^https?:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?adunitid - reject
     - ^https?:\/\/dsp-impr2\.youdao\.com\/adload - reject
     - ^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/ - reject
@@ -318,6 +320,7 @@ http:
     - ^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage - reject
     - ^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/ - reject
     - ^https?:\/\/m\.yhdm\.io\/bar\/yfgg.js - reject
+    - ^https?:\/\/m\.you\.163\.com\/activity\/popWindow - reject
     - ^https?:\/\/m\d\.amap\.com\/ws\/message\/notice\/list\? - reject
     - ^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ - reject
     - ^https?:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject
@@ -381,6 +384,7 @@ http:
     - ^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg - reject
     - ^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp - reject
     - ^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg - reject
+    - ^https?:\/\/pan-api\.bitqiu\.com\/activity\/(getPromoteGuide|getUrlList) - reject
     - ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry - reject
     - ^https?:\/\/pan\.baidu\.com\/act\/v\d\/bchannel\/list - reject
     - ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad - reject
@@ -462,7 +466,6 @@ http:
     - ^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
     - ^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd - reject
     - ^https?:\/\/web\.chelaile\.net\.cn\/api\/adpub\/ - reject
-    - ^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v1\/func\/getmarketconfig - reject
     - ^https?:\/\/webboot\.zhangyue\.com\/zyapi\/bookstore\/ad\/ - reject
     - ^https?:\/\/webboot\.zhangyue\.com\/zycl\/api\/ad\/ - reject
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - reject
@@ -489,8 +492,8 @@ http:
     - ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d - reject
     - ^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$ - reject
     - ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ - reject
-    - ^https?:\/\/yanxuan.nosdn.127.net\/(static-union\/)?.*\.gif - reject
     - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A002 - reject
+    - ^https?:\/\/yxyapi2\.yuxueyuan\.cn\/yxy-api-gateway\/api\/json\/advert\/getsAdStartScreen - reject
     - ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
     - ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig - reject
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
@@ -579,6 +582,7 @@ http:
     - "api.douban.com"
     - "api.feng.com"
     - "api.gameplus.qq.com"
+    - "api.gamer.com.tw"
     - "api.gaoqingdianshi.com"
     - "api.gotokeep.com"
     - "api.hanju.koudaibaobao.com"
@@ -701,6 +705,7 @@ http:
     - "djcapp.game.qq.com"
     - "dl-cu-hz.lechange.cn"
     - "dl.app.gtja.com"
+    - "dq.dxy.cn"
     - "dsa-mfp.fengshows.cn"
     - "dsp-impr2.youdao.com"
     - "dsp-x.jd.com"
@@ -782,6 +787,7 @@ http:
     - "m.sd.10086.cn"
     - "m.tuniu.com"
     - "m.yhdm.io"
+    - "m.you.163.com"
     - "ma-adx.ctrip.com"
     - "ma.ofo.com"
     - "mage.if.qidian.com"
@@ -833,6 +839,7 @@ http:
     - "p.du.163.com"
     - "p.kuaidi100.com"
     - "p0.pipi.cn"
+    - "pan-api.bitqiu.com"
     - "pan.baidu.com"
     - "peisongapi.meituan.com"
     - "pic*.ajkimg.com"
@@ -911,7 +918,6 @@ http:
     - "wbapp.uve.weibo.com"
     - "wcprd.hilton.com.cn"
     - "web.chelaile.net.cn"
-    - "webappcfg.paas.cmbchina.com"
     - "webboot.zhangyue.com"
     - "weibointl.api.weibo.cn"
     - "wmapi.meituan.com"
@@ -938,6 +944,7 @@ http:
     - "yanxuan.nosdn.127.net"
     - "yunbusiness.ccb.com"
     - "yxyapi*.drcuiyutao.com"
+    - "yxyapi2.yuxueyuan.cn"
     - "zconfig.alibabausercontent.com"
     - "zjh5api.189smarthome.com"
     - "zone.guiderank-app.com"

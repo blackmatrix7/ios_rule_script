@@ -1,5 +1,5 @@
 #!name= TikTokTW
-#!desc= 最后更新时间 2023-04-07 14:53:20
+#!desc= 最后更新时间 2023-04-25 02:14:51
 #!openUrl= https://github.com/Semporia/TikTok-Unlock
 #!author= Semporia
 #!homepage= https://github.com/Semporia/TikTok-Unlock
@@ -25,7 +25,7 @@ DOMAIN-SUFFIX,tiktokv.com
 USER-AGENT,tiktok*
 
 
-[URL Rewrite]
+[Rewrite]
 (?<=&mcc_mnc=)4 2 307
 (?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) 18.4 307
 (?<=_region=)CN(?=&) TW 307

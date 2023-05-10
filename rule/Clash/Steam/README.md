@@ -12,15 +12,15 @@ Steam规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:47:34
+最后更新时间：2023-04-24 02:09:29
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 4  | 
 | DOMAIN-KEYWORD | 3  | 
-| DOMAIN-SUFFIX | 45  | 
-| TOTAL | 52  | 
+| DOMAIN-SUFFIX | 46  | 
+| TOTAL | 53  | 
 
 
 ## Clash 

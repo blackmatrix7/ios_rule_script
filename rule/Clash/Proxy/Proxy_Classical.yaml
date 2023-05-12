@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-05-12 02:11:03
+# UPDATED: 2023-05-13 02:12:31
 # DOMAIN: 8
 # DOMAIN-KEYWORD: 31
-# DOMAIN-SUFFIX: 5882
+# DOMAIN-SUFFIX: 5883
 # IP-CIDR: 88
 # IP-CIDR6: 3
-# TOTAL: 6012
+# TOTAL: 6013
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -3801,6 +3801,7 @@ payload:
   - DOMAIN-SUFFIX,philborges.com
   - DOMAIN-SUFFIX,philly.com
   - DOMAIN-SUFFIX,phmsociety.org
+  - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phobos.apple.com
   - DOMAIN-SUFFIX,phonegap.com
   - DOMAIN-SUFFIX,photodharma.net

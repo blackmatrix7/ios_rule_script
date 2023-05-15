@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-05-10 02:17:04
+desc: 最后更新时间 2023-05-16 02:16:09
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 517
-# mitm: 570
+# reject: 518
+# mitm: 571
 # force-http-engine-hosts: 6
-# total: 1131
+# total: 1133
 
 
 
@@ -326,6 +326,7 @@ http:
     - ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/(guanggao|ts_ad)\/ - reject
     - ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
     - ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
+    - ^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7\?position - reject
     - ^https?:\/\/jad-api\.jin10\.com\/ad - reject
     - ^https?:\/\/js-ad\.ayximgs\.com\.ad-universe-cdn\.hzhcbkj\.cn\/xgapp\.php\/v2\/top_notice - reject
     - ^https?:\/\/js\.dilidd\.com\/top\.php - reject
@@ -1041,6 +1042,7 @@ http:
     - "iphone.ac.qq.com"
     - "issuecdn.baidupcs.com"
     - "j-image.missfresh.cn"
+    - "j1.pupuapi.com"
     - "jad-api.jin10.com"
     - "jdread-api.jd.com"
     - "js-ad.ayximgs.com"

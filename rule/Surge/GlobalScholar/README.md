@@ -12,13 +12,13 @@ GlobalScholar规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:52:51
+最后更新时间：2023-05-17 02:13:12
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 219  | 
-| TOTAL | 219  | 
+| DOMAIN-SUFFIX | 220  | 
+| TOTAL | 220  | 
 
 
 ## Surge 

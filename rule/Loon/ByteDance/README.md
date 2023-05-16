@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-05-16 02:12:15
+最后更新时间：2023-05-17 02:10:57
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -81,6 +81,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/bytedance-ads@ads.yaml
 - https://rules.kr328.app/bytedance.yaml
 - https://rules.kr328.app/bytedance-ads.yaml
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/ByteDance.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

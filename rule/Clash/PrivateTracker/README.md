@@ -12,17 +12,17 @@ PT下载规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-05-17 02:11:51
+最后更新时间：2023-05-21 02:12:25
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 148  | 
+| DOMAIN | 147  | 
 | DOMAIN-KEYWORD | 3  | 
 | DOMAIN-SUFFIX | 118  | 
 | IP-CIDR | 5  | 
 | IP-CIDR6 | 2  | 
-| TOTAL | 276  | 
+| TOTAL | 275  | 
 
 
 ## Clash 
@@ -69,6 +69,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list
 - https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/list/PrivateTracker.list
+- https://trackerslist.com/all.txt
 - https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/PrivateTracker.yaml
 

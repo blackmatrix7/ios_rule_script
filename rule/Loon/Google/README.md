@@ -15,17 +15,17 @@ Google规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-14 02:09:13
+最后更新时间：2023-05-22 02:08:39
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 5  | 
-| DOMAIN-SUFFIX | 718  | 
+| DOMAIN-SUFFIX | 719  | 
 | IP-CIDR | 4  | 
 | IP-CIDR6 | 1  | 
 | USER-AGENT | 3  | 
-| TOTAL | 731  | 
+| TOTAL | 732  | 
 
 
 ## Loon 

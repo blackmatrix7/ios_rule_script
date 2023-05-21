@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-05-16 02:16:09
+desc: 最后更新时间 2023-05-22 02:14:43
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 518
+# reject: 517
 # mitm: 571
 # force-http-engine-hosts: 6
-# total: 1133
+# total: 1132
 
 
 
@@ -341,7 +341,6 @@ http:
     - ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject
     - ^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+?\/appStartAdv - reject
     - ^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/dkkj-system-web\/system\/v\d\/init-config - reject
-    - ^https?:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ - reject
     - ^https?:\/\/m\.ctrip\.com\/restapi\/[\w\/]+tripAds - reject
     - ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/getAdsList - reject
     - ^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage - reject

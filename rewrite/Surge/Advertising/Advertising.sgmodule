@@ -1,11 +1,11 @@
 #!name=Advertising
-#!desc=最后更新时间 2023-05-16 02:16:03
+#!desc=最后更新时间 2023-05-22 02:14:38
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=554
+#!reject=553
 #!mitm=512
 #!force-http-engine-hosts=6
-#!total=1072
+#!total=1071
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -358,7 +358,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd)" - reject
 "^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+?\/appStartAdv" - reject
 "^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/dkkj-system-web\/system\/v\d\/init-config" - reject
-"^https?:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$" - reject
 "^https?:\/\/m\.ctrip\.com\/restapi\/[\w\/]+tripAds" - reject
 "^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/getAdsList" - reject
 "^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage" - reject

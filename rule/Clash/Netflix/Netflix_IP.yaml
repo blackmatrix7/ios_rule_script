@@ -1,14 +1,14 @@
 # NAME: Netflix
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-05-10 02:12:41
+# UPDATED: 2023-05-25 02:12:40
 # DOMAIN: 3
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 28
-# IP-CIDR: 1003
+# IP-CIDR: 1004
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 1043
+# TOTAL: 1044
 payload:
   - '103.87.204.0/22'
   - '107.23.255.0/26'
@@ -296,6 +296,7 @@ payload:
   - '16.163.196.0/22'
   - '16.163.206.0/23'
   - '16.171.48.0/22'
+  - '16.50.248.32/28'
   - '16.50.67.0/25'
   - '16.50.67.128/26'
   - '16.50.69.192/27'

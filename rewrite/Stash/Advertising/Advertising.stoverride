@@ -1,5 +1,5 @@
 name: 复写去广告
-desc: 最后更新时间 2023-05-22 02:14:38
+desc: 最后更新时间 2023-05-26 02:14:28
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 553
@@ -610,6 +610,7 @@ http:
     - "*api.oray.net"
     - "*cupid.iqiyi.com"
     - "*gaoqingdianshi.com"
+    - "*mangaapi.manhuaren.*"
     - "101.201.175.228"
     - "103.41.167.*"
     - "103.91.210.141"
@@ -910,7 +911,6 @@ http:
     - "ma.ofo.com"
     - "mage*.if.qidian.com"
     - "maicai.api.ddxq.mobi"
-    - "mangaapi.manhuaren.com"
     - "mapi.appvipshop.com"
     - "mapi.dangdang.com"
     - "mapi.mafengwo.cn"

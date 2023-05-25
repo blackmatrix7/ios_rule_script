@@ -1,11 +1,11 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-05-25 02:14:52
+# UPDATED: 2023-05-26 02:13:02
 # IP-ASN: 1216
-# IP-CIDR: 12033
-# IP-CIDR6: 6117
-# TOTAL: 19366
+# IP-CIDR: 12032
+# IP-CIDR6: 6120
+# TOTAL: 19368
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
 IP-CIDR,1.0.32.0/19,no-resolve
@@ -266,6 +266,7 @@ IP-CIDR,101.46.176.0/20,no-resolve
 IP-CIDR,101.46.192.0/19,no-resolve
 IP-CIDR,101.46.232.0/21,no-resolve
 IP-CIDR,101.46.240.0/20,no-resolve
+IP-CIDR,101.46.32.0/19,no-resolve
 IP-CIDR,101.46.32.0/22,no-resolve
 IP-CIDR,101.46.36.0/24,no-resolve
 IP-CIDR,101.46.37.0/25,no-resolve
@@ -282,7 +283,9 @@ IP-CIDR,101.46.37.224/27,no-resolve
 IP-CIDR,101.46.38.0/23,no-resolve
 IP-CIDR,101.46.40.0/21,no-resolve
 IP-CIDR,101.46.48.0/20,no-resolve
+IP-CIDR,101.46.64.0/19,no-resolve
 IP-CIDR,101.46.96.0/19,no-resolve
+IP-CIDR,101.46.96.0/20,no-resolve
 IP-CIDR,101.47.0.0/16,no-resolve
 IP-CIDR,101.47.0.0/19,no-resolve
 IP-CIDR,101.47.112.0/20,no-resolve
@@ -10575,9 +10578,6 @@ IP-CIDR,101.37.0.0/16,no-resolve
 IP-CIDR,101.38.0.0/15,no-resolve
 IP-CIDR,101.4.0.0/14,no-resolve
 IP-CIDR,101.40.0.0/14,no-resolve
-IP-CIDR,101.46.32.0/19,no-resolve
-IP-CIDR,101.46.64.0/19,no-resolve
-IP-CIDR,101.46.96.0/20,no-resolve
 IP-CIDR,101.52.240.0/20,no-resolve
 IP-CIDR,101.64.0.0/13,no-resolve
 IP-CIDR,101.72.0.0/14,no-resolve
@@ -11193,7 +11193,6 @@ IP-CIDR,144.52.0.0/16,no-resolve
 IP-CIDR,146.196.68.0/22,no-resolve
 IP-CIDR,146.56.192.0/18,no-resolve
 IP-CIDR,148.70.0.0/16,no-resolve
-IP-CIDR,149.134.146.0/24,no-resolve
 IP-CIDR,150.138.0.0/15,no-resolve
 IP-CIDR,150.158.0.0/16,no-resolve
 IP-CIDR,150.223.0.0/16,no-resolve

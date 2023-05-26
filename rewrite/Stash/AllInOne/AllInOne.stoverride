@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-05-26 02:14:33
+desc: 最后更新时间 2023-05-27 02:14:34
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 517
-# mitm: 570
+# reject: 514
+# mitm: 569
 # force-http-engine-hosts: 6
-# total: 1131
+# total: 1127
 
 
 
@@ -437,7 +437,6 @@ http:
     - ^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/ - reject
     - ^https?:\/\/richmanapi\.jxedt\.com\/api\/(ad|adplus|guideplus|banadplus) - reject
     - ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject
-    - ^https?:\/\/run\.api\.qyfxgd\.cn:9313\/api\/v1\/advert - reject
     - ^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json - reject
     - ^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php - reject
     - ^https?:\/\/saad\.ms\.zhangyue\.net\/ad - reject
@@ -469,7 +468,6 @@ http:
     - ^https?:\/\/supportda\.ofo\.com\/adaction\? - reject
     - ^https?:\/\/syh\.zybang\.com\/com\/adx\/ - reject
     - ^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/ - reject
-    - ^https?:\/\/tel\.mangaapi\.manhuaren\.com\/(v2\/public\/getStartUpMessage|v1\/public\/getStartPageAds) - reject
     - ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ - reject
     - ^https?:\/\/tiasdk\.app\.wechat\.com\/retrieval\/getAdInfo$ - reject
     - ^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/ - reject
@@ -540,7 +538,6 @@ http:
     - https?:\/\/jdread-api\.jd\.com\/jdread\/api\/channel\/module\/opens - reject
     - https?:\/\/jdread-api\.jd\.com\/jdread\/api\/popup - reject
     - https?:\/\/m\.sd\.10086\.cn\/zapi\/app_common\/homeWelcome\/welcome.do - reject
-    - https?:\/\/mangaapi\.manhuaren\.com\/v2\/public\/getShelfActivity - reject
     - https?:\/\/new-app-api\.ylyk\.com\/v1\/user\/myinfo\/adviser - reject
     - https?:\/\/open3\.vistastory\.com\/v3\/api.*get_popup - reject
     - https?:\/\/open3\.vistastory\.com\/v3\/api\/index\/loading_ad - reject
@@ -1184,7 +1181,6 @@ http:
     - "syh.zybang.com"
     - "t1.market.xiaomi.com"
     - "tagit.hyhuo.com"
-    - "tel.mangaapi.manhuaren.com"
     - "tft-app.cdtft.cn"
     - "thor.weidian.com"
     - "tiasdk.app.wechat.com"

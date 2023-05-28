@@ -12,15 +12,15 @@ BlockHttpDNS规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:52:57
+最后更新时间：2023-05-28 18:23:59
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 16  | 
-| IP-CIDR | 11  | 
-| IP6-CIDR | 2  | 
-| TOTAL | 29  | 
+| HOST | 17  | 
+| IP-CIDR | 15  | 
+| IP6-CIDR | 4  | 
+| TOTAL | 36  | 
 
 
 ## QuantumultX 

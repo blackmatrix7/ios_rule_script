@@ -1,11 +1,11 @@
 # NAME: IPTVMainland
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:52:54
-# DOMAIN: 996
-# IP-CIDR: 1314
-# IP-CIDR6: 7
-# TOTAL: 2317
+# UPDATED: 2023-05-28 18:23:57
+# DOMAIN: 998
+# IP-CIDR: 1308
+# IP-CIDR6: 24
+# TOTAL: 2330
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,1.cache.applinzi.com
@@ -83,11 +83,13 @@ payload:
   - DOMAIN,audiolive.rbc.cn
   - DOMAIN,b.ds.ch.dingtoo.com
   - DOMAIN,badong-live21.cjyun.org
+  - DOMAIN,baidu.live.cqccn.com
   - DOMAIN,bananlive.cbg.cn
   - DOMAIN,bbstv.clouducs.com
   - DOMAIN,bililive.kksmg.com
   - DOMAIN,bktvplay.gdnewmedia.cc
   - DOMAIN,bl.ainaxi.cn
+  - DOMAIN,brics.bonus-tv.ru
   - DOMAIN,bst.broadcast.live.bestvcdn.com.cn
   - DOMAIN,bsyll.qingk.cn
   - DOMAIN,cast.news98.com.tw
@@ -347,6 +349,7 @@ payload:
   - DOMAIN,live-cdn.gxxw.com
   - DOMAIN,live-dft-hls-yf.jstv.com
   - DOMAIN,live-echotv.cdnvideo.ru
+  - DOMAIN,live-hls-web-aje.getaj.net
   - DOMAIN,live-hls.ihzlh.linker.cc
   - DOMAIN,live-stream.lsxrmtzx.com
   - DOMAIN,live-wx.wifiwx.com
@@ -879,7 +882,6 @@ payload:
   - DOMAIN,tv.pull.hebtv.com
   - DOMAIN,tv.scwlqw.cn
   - DOMAIN,tv.uwp.ac.cn
-  - DOMAIN,tv.vtibet.cn
   - DOMAIN,tv.zkxww.com
   - DOMAIN,tvdrs.wsrtv.com.cn
   - DOMAIN,tvfile.jjrm.org.cn
@@ -895,12 +897,12 @@ payload:
   - DOMAIN,tx.hls.huya.com
   - DOMAIN,tx.liveplay.live.kugou.com
   - DOMAIN,txdirect.hls.huya.com
+  - DOMAIN,txycetvbl.centv.cn
   - DOMAIN,ucdn.sd.chinamobile.com
   - DOMAIN,uni6rtmp.tulix.tv
   - DOMAIN,v.btzx.com.cn
   - DOMAIN,v.xstv.net
   - DOMAIN,v1.one-tv.com
-  - DOMAIN,v2.91kds.cn
   - DOMAIN,vfile.cfrtv.cn
   - DOMAIN,video.dztv.tv
   - DOMAIN,video.hannews.com.cn

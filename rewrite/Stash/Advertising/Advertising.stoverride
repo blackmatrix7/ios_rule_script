@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2023-05-27 02:14:29
+desc: 最后更新时间 2023-05-28 18:24:05
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 553
-# mitm: 511
+# reject: 554
+# mitm: 512
 # force-http-engine-hosts: 6
-# total: 1070
+# total: 1072
 
 
 
@@ -278,6 +278,7 @@ http:
     - ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv - reject
     - ^https?:\/\/elemecdn\.com\/.+?\/sitemap - reject
     - ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService - reject
+    - ^https?:\/\/evs\.500\.com\/esinfo\/loading\/loading - reject
     - ^https?:\/\/explorer\.tratao\.com\/api\/client\/v4\/xtransfer\/ad\/ - reject
     - ^https?:\/\/fb\.fbstatic\.cn\/api\/ape-images\/.*.jpg? - reject
     - ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
@@ -819,6 +820,7 @@ http:
     - "edit.sinaapp.com"
     - "elemecdn.com"
     - "emdcadvertise.eastmoney.com"
+    - "evs.500.com"
     - "explorer.tratao.com"
     - "fb.fbstatic.cn"
     - "fbchina.flipchina.cn"

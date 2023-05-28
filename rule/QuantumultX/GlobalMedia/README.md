@@ -12,19 +12,19 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-05-08 02:11:34
+最后更新时间：2023-05-28 18:21:13
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 28  | 
-| HOST-KEYWORD | 25  | 
-| HOST-SUFFIX | 1091  | 
+| HOST | 25  | 
+| HOST-KEYWORD | 24  | 
+| HOST-SUFFIX | 1084  | 
 | HOST-WILDCARD | 10  | 
 | IP-CIDR | 918  | 
 | IP6-CIDR | 6  | 
 | USER-AGENT | 56  | 
-| TOTAL | 2134  | 
+| TOTAL | 2123  | 
 
 
 ## QuantumultX 
@@ -61,6 +61,11 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 
 当前分流规则，未包含其他子规则。
+
+当前分流规则，已排除以下规则：
+| 排除规则  | 
+| ----  |
+| OpenAI  | 
 
 ## 数据来源
 

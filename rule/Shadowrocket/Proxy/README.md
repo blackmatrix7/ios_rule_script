@@ -12,17 +12,17 @@ Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-05-22 02:11:11
+最后更新时间：2023-05-28 18:21:12
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 8  | 
 | DOMAIN-KEYWORD | 31  | 
-| DOMAIN-SUFFIX | 5884  | 
+| DOMAIN-SUFFIX | 5882  | 
 | IP-CIDR | 91  | 
 | USER-AGENT | 9  | 
-| TOTAL | 6023  | 
+| TOTAL | 6021  | 
 
 
 ## Shadowrocket 
@@ -70,9 +70,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 当前分流规则，未包含其他子规则。
 
 当前分流规则，已排除以下规则：
-| 排除规则  | 
-| ----  |
-| Advertising  | 
+| 排除规则  |  | 
+| ---- | ----  |
+| Advertising | OpenAI  | 
 
 ## 数据来源
 

@@ -18,7 +18,7 @@ QuantumultX需要添加部分分流规则才能生效，具体配置请参照数
 
 ## 规则统计
 
-最后更新时间：2023-05-27 02:14:34
+最后更新时间：2023-05-28 18:24:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -28,9 +28,9 @@ QuantumultX需要添加部分分流规则才能生效，具体配置请参照数
 | HTTP-REQUEST-SCRIPT | 1  | 
 | HTTP-RESPONSE-SCRIPT | 24  | 
 | REDIRECT | 8  | 
-| REJECT | 514  | 
-| MITM | 569  | 
-| TOTAL | 1125  | 
+| REJECT | 515  | 
+| MITM | 570  | 
+| TOTAL | 1127  | 
 
 
 ## Loon 

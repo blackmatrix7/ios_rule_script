@@ -1,13 +1,13 @@
 name: 脚本去广告
-desc: 最后更新时间 2023-04-07 14:53:12
+desc: 最后更新时间 2023-05-28 18:24:15
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
-# reject: 11
+# reject: 12
 # mitm: 21
-# total: 62
+# total: 63
 
 
 
@@ -32,6 +32,7 @@ http:
     - ^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings - reject
     - ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading - reject
     - ^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject
+    - ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/search\/related_queries\/answer - reject
 
 
   script:

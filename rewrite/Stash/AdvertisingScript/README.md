@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:53:12
+最后更新时间：2023-05-28 18:24:15
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -20,9 +20,9 @@
 | DOMAIN | 5  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
 | HTTP-RESPONSE-SCRIPT | 24  | 
-| REJECT | 11  | 
+| REJECT | 12  | 
 | MITM | 21  | 
-| TOTAL | 62  | 
+| TOTAL | 63  | 
 
 
 ## Stash 

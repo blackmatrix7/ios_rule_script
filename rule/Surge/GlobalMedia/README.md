@@ -12,20 +12,20 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-05-08 02:11:34
+最后更新时间：2023-05-28 18:21:13
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 28  | 
-| DOMAIN-KEYWORD | 25  | 
-| DOMAIN-SUFFIX | 1091  | 
+| DOMAIN | 25  | 
+| DOMAIN-KEYWORD | 24  | 
+| DOMAIN-SUFFIX | 1084  | 
 | IP-CIDR | 918  | 
 | IP-CIDR6 | 6  | 
 | PROCESS-NAME | 3  | 
 | URL-REGEX | 1  | 
 | USER-AGENT | 56  | 
-| TOTAL | 2128  | 
+| TOTAL | 2117  | 
 
 
 ## Surge 
@@ -72,6 +72,11 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 
 当前分流规则，未包含其他子规则。
+
+当前分流规则，已排除以下规则：
+| 排除规则  | 
+| ----  |
+| OpenAI  | 
 
 ## 数据来源
 

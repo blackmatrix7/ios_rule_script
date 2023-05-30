@@ -15,18 +15,18 @@ ProxyLite规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-05-28 18:22:20
+最后更新时间：2023-05-31 02:13:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 18  | 
+| DOMAIN | 23  | 
 | DOMAIN-KEYWORD | 24  | 
 | DOMAIN-SUFFIX | 832  | 
 | IP-CIDR | 90  | 
 | IP-CIDR6 | 4  | 
 | USER-AGENT | 7  | 
-| TOTAL | 975  | 
+| TOTAL | 980  | 
 
 
 ## Loon 

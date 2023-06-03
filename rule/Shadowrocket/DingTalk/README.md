@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-05-28 18:22:00
+最后更新时间：2023-06-04 02:11:49
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -63,7 +63,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《钉钉》的数据来自以下链接，如与本项目的《钉钉》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DingTalk.list
 - https://rules.kr328.app/dingtalk.yaml
 
 

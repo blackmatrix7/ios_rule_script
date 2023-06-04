@@ -21,19 +21,19 @@
 
 ## 规则统计
 
-最后更新时间：2023-06-04 02:12:22
+最后更新时间：2023-06-05 02:12:54
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 166  | 
 | DOMAIN-KEYWORD | 13  | 
-| DOMAIN-SUFFIX | 67168  | 
+| DOMAIN-SUFFIX | 67174  | 
 | IP-ASN | 1216  | 
 | IP-CIDR | 5399  | 
 | IP-CIDR6 | 4993  | 
 | USER-AGENT | 65  | 
-| TOTAL | 79020  | 
+| TOTAL | 79026  | 
 
 
 ## Loon 
@@ -238,6 +238,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Deepin.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiSiFanShi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DianCeWangKe.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DingTalk.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DingXiangYuan.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Domob.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouBan.list

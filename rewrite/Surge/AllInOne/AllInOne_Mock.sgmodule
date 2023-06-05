@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2023-06-03 02:14:56
+#!desc=最后更新时间 2023-06-06 02:16:03
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!domain=5
@@ -7,10 +7,10 @@
 #!http-request-script=1
 #!http-response-script=24
 #!redirect=62
-#!reject=576
+#!reject=574
 #!mitm=648
 #!force-http-engine-hosts=6
-#!total=1326
+#!total=1324
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -388,7 +388,6 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 "^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/" - reject
 "^https?:\/\/mobileapi-v6\.elong\.com\/adgateway\/" - reject
 "^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport)" - reject
-"^https?:\/\/mp\.weixin\.qq\.com\/mp\/(advertisement_report|cps_product_info|wapcommreport|jsreport|jsmonitor|getappmsgext)" - reject
 "^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info" - reject
 "^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo" - reject
 "^https?:\/\/mpos-pic\.helipay\.com\/upload\/images\/advertisment" - reject
@@ -497,7 +496,6 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 "^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/" - reject
 "^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config" - reject
 "^https?:\/\/www\.zybang\.com\/adx\/" - reject
-"^https?:\/\/wxa\.wxs\.qq\.com\/tmpl\/kf\/base_tmpl\.html" - reject
 "^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/" - reject
 "^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A002" - reject
 "^https?:\/\/yxhd\.hori-gz\.com\/\/jfmsApi\/commandWord\/commandWordInfo" - reject

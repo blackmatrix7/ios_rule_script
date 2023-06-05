@@ -1,11 +1,11 @@
 #!name=Advertising
-#!desc=最后更新时间 2023-06-03 02:14:45
+#!desc=最后更新时间 2023-06-06 02:15:51
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=556
+#!reject=554
 #!mitm=513
 #!force-http-engine-hosts=6
-#!total=1075
+#!total=1073
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -306,7 +306,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/" - reject
 "^https?:\/\/mobileapi-v6\.elong\.com\/adgateway\/" - reject
 "^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport)" - reject
-"^https?:\/\/mp\.weixin\.qq\.com\/mp\/(advertisement_report|cps_product_info|wapcommreport|jsreport|jsmonitor|getappmsgext)" - reject
 "^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info" - reject
 "^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo" - reject
 "^https?:\/\/mpos-pic\.helipay\.com\/upload\/images\/advertisment" - reject
@@ -414,7 +413,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/" - reject
 "^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config" - reject
 "^https?:\/\/www\.zybang\.com\/adx\/" - reject
-"^https?:\/\/wxa\.wxs\.qq\.com\/tmpl\/kf\/base_tmpl\.html" - reject
 "^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/" - reject
 "^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A002" - reject
 "^https?:\/\/yxhd\.hori-gz\.com\/\/jfmsApi\/commandWord\/commandWordInfo" - reject

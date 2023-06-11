@@ -12,17 +12,17 @@ ChinaMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-05-28 18:21:55
+最后更新时间：2023-06-12 02:11:41
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 56  | 
 | HOST-KEYWORD | 2  | 
-| HOST-SUFFIX | 175  | 
+| HOST-SUFFIX | 176  | 
 | IP-CIDR | 28  | 
 | USER-AGENT | 31  | 
-| TOTAL | 292  | 
+| TOTAL | 293  | 
 
 
 ## QuantumultX 

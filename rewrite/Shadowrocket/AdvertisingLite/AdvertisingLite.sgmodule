@@ -1,10 +1,10 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2023-06-06 02:16:07
+#!desc=最后更新时间 2023-06-12 02:14:19
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=504
+#!reject=505
 #!mitm=419
-#!total=923
+#!total=924
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -15,6 +15,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ - reject
 ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject-200
 ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
+^https?://m\d\.amap\.com/ws/shield/scene/recommend - reject-dict
 ^https?://spclient.wg.spotify.com/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+promoted_offer) - reject-img
 ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
 ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject-200
@@ -426,7 +427,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 ^https?:\/\/slapi\.oray\.net\/client\/ad - reject-200
 ^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/ - reject-200
 ^https?:\/\/smusic\.app\.wechat\.com\/commonCgi\/advertisement\/get_orint_egg$ - reject-200
-^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull? - reject-200
+^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull? - reject-dict
 ^https?:\/\/sp\.kaola\.com\/api\/openad - reject-200
 ^https?:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg - reject-200
 ^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons - reject-200

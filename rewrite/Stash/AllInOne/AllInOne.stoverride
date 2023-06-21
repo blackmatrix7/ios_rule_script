@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-06-12 02:14:11
+desc: 最后更新时间 2023-06-22 02:14:43
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 516
-# mitm: 571
+# reject: 517
+# mitm: 572
 # force-http-engine-hosts: 6
-# total: 1131
+# total: 1133
 
 
 
@@ -267,6 +267,7 @@ http:
     - ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
     - ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/biz\/base\/appversion\/latest - reject
     - ^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview - reject
+    - ^https?:\/\/ftapi\.10jqka\.com\.cn\/futgwapi\/api\/om\/v\d\/ad\/common\/transfer - reject
     - ^https?:\/\/fuss10\.elemecdn\.com\/.+?\.mp4 - reject
     - ^https?:\/\/fuss10\.elemecdn\.com\/.+?\/w\/640\/h\/\d{3,4} - reject
     - ^https?:\/\/g\.cdn\.pengpengla\.com\/starfantuan\/boot-screen-info\/ - reject
@@ -987,6 +988,7 @@ http:
     - "flowplus.meituan.net"
     - "fmapp.chinafamilymart.com.cn"
     - "foodie-api.yiruikecorp.com"
+    - "ftapi.10jqka.com.cn"
     - "fuss10.elemecdn.com"
     - "g.cdn.pengpengla.com"
     - "gab.122.gov.cn"

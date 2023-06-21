@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-06-12 02:14:19
+desc: 最后更新时间 2023-06-22 02:14:52
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 505
-# mitm: 419
+# reject: 506
+# mitm: 420
 # force-http-engine-hosts: 6
-# total: 930
+# total: 932
 
 
 
@@ -242,6 +242,7 @@ http:
     - ^https?:\/\/fb\.fbstatic\.cn\/api\/ape-images\/.*.jpg? - reject
     - ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
     - ^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview - reject
+    - ^https?:\/\/ftapi\.10jqka\.com\.cn\/futgwapi\/api\/om\/v\d\/ad\/common\/transfer - reject
     - ^https?:\/\/fuss10\.elemecdn\.com\/.+?\.mp4 - reject
     - ^https?:\/\/fuss10\.elemecdn\.com\/.+?\/w\/640\/h\/\d{3,4} - reject
     - ^https?:\/\/g\.cdn\.pengpengla\.com\/starfantuan\/boot-screen-info\/ - reject
@@ -719,6 +720,7 @@ http:
     - "fbchina.flipchina.cn"
     - "flowplus.meituan.net"
     - "foodie-api.yiruikecorp.com"
+    - "ftapi.10jqka.com.cn"
     - "fuss10.elemecdn.com"
     - "g.cdn.pengpengla.com"
     - "gab.122.gov.cn"

@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2023-06-22 02:14:43
+desc: 最后更新时间 2023-06-27 02:16:50
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
@@ -7,9 +7,9 @@ desc: 最后更新时间 2023-06-22 02:14:43
 # http-response-script: 24
 # redirect: 8
 # reject: 517
-# mitm: 572
+# mitm: 573
 # force-http-engine-hosts: 6
-# total: 1133
+# total: 1134
 
 
 
@@ -1114,6 +1114,7 @@ http:
     - "nochange.ggsafe.com"
     - "notch.qdaily.com"
     - "oimage*.ydstatic.com"
+    - "open-cms-api.quark.cn"
     - "open-cms-api.uc.cn"
     - "open.e.kuaishou.com"
     - "open.fitdays.cn"

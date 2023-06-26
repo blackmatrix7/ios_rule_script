@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2023-06-22 02:14:38
+desc: 最后更新时间 2023-06-27 02:16:43
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 556
-# mitm: 514
+# mitm: 515
 # force-http-engine-hosts: 6
-# total: 1076
+# total: 1077
 
 
 
@@ -954,6 +954,7 @@ http:
     - "nochange.ggsafe.com"
     - "notch.qdaily.com"
     - "oimage*.ydstatic.com"
+    - "open-cms-api.quark.cn"
     - "open-cms-api.uc.cn"
     - "open.e.kuaishou.com"
     - "open.fitdays.cn"

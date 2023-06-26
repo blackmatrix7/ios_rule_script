@@ -21,18 +21,18 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-06-24 02:10:56
+最后更新时间：2023-06-27 02:12:19
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 159  | 
 | DOMAIN-KEYWORD | 39  | 
-| DOMAIN-SUFFIX | 19119  | 
+| DOMAIN-SUFFIX | 19152  | 
 | IP-CIDR | 106  | 
 | IP-CIDR6 | 4  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 19428  | 
+| TOTAL | 19461  | 
 
 
 ## Clash 

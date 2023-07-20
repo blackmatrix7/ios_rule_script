@@ -113,7 +113,7 @@ http:
       argument: ''
 
     # 回答信息流 - 移除黑名单用户的回答、去除广告
-    - match: ^https?:\/\/api\.zhihu\.com\/next-data
+    - match: ^https?:\/\/api\.zhihu\.com\/next-(data|bff|render)
       name: zheye.js
       type: response
       require-body: true

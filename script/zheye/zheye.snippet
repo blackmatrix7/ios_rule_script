@@ -79,7 +79,7 @@
 ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+ url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
 
 # 回答信息流 - 移除黑名单用户的回答、去除广告
-^https?:\/\/api\.zhihu\.com\/next-data url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
+^https?:\/\/api\.zhihu\.com\/next-(data|bff|render) url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
 
 # 回答页底部评论摘要 - 移除黑名单用户发表的评论
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js

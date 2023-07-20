@@ -1,0 +1,23 @@
+# NAME: Clubhouse
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-07-20 23:23:29
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 3
+# IP-CIDR: 9
+# TOTAL: 14
+payload:
+  - DOMAIN,clubhouse.pubnub.com
+  - DOMAIN,clubhouseprod.s3.amazonaws.com
+  - DOMAIN-SUFFIX,clubhouse.com
+  - DOMAIN-SUFFIX,clubhouseapi.com
+  - DOMAIN-SUFFIX,joinclubhouse.com
+  - IP-CIDR,107.155.5.0/24,no-resolve
+  - IP-CIDR,128.1.193.0/24,no-resolve
+  - IP-CIDR,128.14.208.0/24,no-resolve
+  - IP-CIDR,129.227.234.0/24,no-resolve
+  - IP-CIDR,129.227.57.0/24,no-resolve
+  - IP-CIDR,129.227.71.0/24,no-resolve
+  - IP-CIDR,3.0.163.78/32,no-resolve
+  - IP-CIDR,52.52.84.170/32,no-resolve
+  - IP-CIDR,52.58.56.244/32,no-resolve

@@ -12,14 +12,14 @@ BlockHttpDNS规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:52:57
+最后更新时间：2023-07-20 23:25:19
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 16  | 
-| IP-CIDR | 13  | 
-| TOTAL | 29  | 
+| DOMAIN | 18  | 
+| IP-CIDR | 19  | 
+| TOTAL | 37  | 
 
 
 ## Shadowrocket 

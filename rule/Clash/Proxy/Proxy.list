@@ -1,19 +1,22 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-05-08 02:11:33
-# DOMAIN: 8
+# UPDATED: 2023-07-20 23:22:29
+# DOMAIN: 11
 # DOMAIN-KEYWORD: 31
-# DOMAIN-SUFFIX: 5883
-# IP-CIDR: 88
+# DOMAIN-SUFFIX: 5885
+# IP-CIDR: 87
 # IP-CIDR6: 3
-# TOTAL: 6013
+# TOTAL: 6017
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,assets-priconne-redive-us.akamaized.net
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,cloud.oracle.com
 DOMAIN,cvws.icloud-content.com
 DOMAIN,developer.apple.com
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,testflight.apple.com
 DOMAIN,voice.telephony.goog
 DOMAIN-SUFFIX,000webhost.com
@@ -216,7 +219,6 @@ DOMAIN-SUFFIX,agro.hk
 DOMAIN-SUFFIX,ahcdn.com
 DOMAIN-SUFFIX,ai-kan.net
 DOMAIN-SUFFIX,ai-wen.net
-DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,aiph.net
 DOMAIN-SUFFIX,airasia.com
 DOMAIN-SUFFIX,airconsole.com
@@ -538,6 +540,7 @@ DOMAIN-SUFFIX,beric.me
 DOMAIN-SUFFIX,berlinerbericht.de
 DOMAIN-SUFFIX,berm.co.nz
 DOMAIN-SUFFIX,bestforchina.org
+DOMAIN-SUFFIX,bestgore.com
 DOMAIN-SUFFIX,bestvpn.com
 DOMAIN-SUFFIX,bestvpnanalysis.com
 DOMAIN-SUFFIX,bestvpnserver.com
@@ -1003,6 +1006,7 @@ DOMAIN-SUFFIX,clien.net
 DOMAIN-SUFFIX,clinica-tibet.ru
 DOMAIN-SUFFIX,clipfish.de
 DOMAIN-SUFFIX,cloakpoint.com
+DOMAIN-SUFFIX,cloud.cupronickel.goog
 DOMAIN-SUFFIX,cloudcone.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudflare.com
@@ -1285,6 +1289,7 @@ DOMAIN-SUFFIX,dizhuzhishang.com
 DOMAIN-SUFFIX,djangosnippets.org
 DOMAIN-SUFFIX,djorz.com
 DOMAIN-SUFFIX,dl-laby.jp
+DOMAIN-SUFFIX,dler.io
 DOMAIN-SUFFIX,dlive.tv
 DOMAIN-SUFFIX,dlsite.com
 DOMAIN-SUFFIX,dlsite.jp
@@ -3648,7 +3653,6 @@ DOMAIN-SUFFIX,ontrac.com
 DOMAIN-SUFFIX,oopsforum.com
 DOMAIN-SUFFIX,ooyala.com
 DOMAIN-SUFFIX,open.com.hk
-DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openallweb.com
 DOMAIN-SUFFIX,opendemocracy.net
 DOMAIN-SUFFIX,opendn.xyz
@@ -3719,6 +3723,7 @@ DOMAIN-SUFFIX,pacopacomama.com
 DOMAIN-SUFFIX,paddle.com
 DOMAIN-SUFFIX,paddleapi.com
 DOMAIN-SUFFIX,padmanet.com
+DOMAIN-SUFFIX,page.link
 DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,pagodabox.com
 DOMAIN-SUFFIX,palacemoon.com
@@ -3871,7 +3876,6 @@ DOMAIN-SUFFIX,pobieramy.top
 DOMAIN-SUFFIX,podbean.com
 DOMAIN-SUFFIX,podcast.co
 DOMAIN-SUFFIX,podictionary.com
-DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,pokemon.com
 DOMAIN-SUFFIX,pokerstars.com
 DOMAIN-SUFFIX,pokerstars.net
@@ -4375,6 +4379,7 @@ DOMAIN-SUFFIX,sis001.com
 DOMAIN-SUFFIX,sis001.us
 DOMAIN-SUFFIX,site2unblock.com
 DOMAIN-SUFFIX,site90.net
+DOMAIN-SUFFIX,sitebro.tw
 DOMAIN-SUFFIX,sitekreator.com
 DOMAIN-SUFFIX,sitemaps.org
 DOMAIN-SUFFIX,six-degrees.io
@@ -5978,7 +5983,6 @@ IP-CIDR,180.163.150.162/32,no-resolve
 IP-CIDR,180.163.150.34/32,no-resolve
 IP-CIDR,180.163.151.162/32,no-resolve
 IP-CIDR,180.163.151.34/32,no-resolve
-IP-CIDR,183.131.48.0/20,no-resolve
 IP-CIDR,184.173.128.0/17,no-resolve
 IP-CIDR,185.60.216.0/22,no-resolve
 IP-CIDR,203.104.103.0/24,no-resolve

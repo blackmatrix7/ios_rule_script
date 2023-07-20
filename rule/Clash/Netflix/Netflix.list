@@ -1,14 +1,14 @@
 # NAME: Netflix
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-05-10 02:12:41
+# UPDATED: 2023-07-20 23:22:31
 # DOMAIN: 3
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 28
-# IP-CIDR: 1003
+# IP-CIDR: 1010
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 1043
+# TOTAL: 1050
 DOMAIN,e13252.dscg.akamaiedge.net
 DOMAIN,h-netflix.online-metrix.net
 DOMAIN,netflix.com.edgesuite.net
@@ -249,6 +249,8 @@ IP-CIDR,15.152.174.0/23,no-resolve
 IP-CIDR,15.152.176.0/22,no-resolve
 IP-CIDR,15.152.24.0/26,no-resolve
 IP-CIDR,15.152.24.128/29,no-resolve
+IP-CIDR,15.156.152.184/29,no-resolve
+IP-CIDR,15.156.152.192/29,no-resolve
 IP-CIDR,15.160.55.112/29,no-resolve
 IP-CIDR,15.161.135.164/30,no-resolve
 IP-CIDR,15.161.135.64/26,no-resolve
@@ -330,6 +332,7 @@ IP-CIDR,16.162.52.0/24,no-resolve
 IP-CIDR,16.163.196.0/22,no-resolve
 IP-CIDR,16.163.206.0/23,no-resolve
 IP-CIDR,16.171.48.0/22,no-resolve
+IP-CIDR,16.50.248.32/28,no-resolve
 IP-CIDR,16.50.67.0/25,no-resolve
 IP-CIDR,16.50.67.128/26,no-resolve
 IP-CIDR,16.50.69.192/27,no-resolve
@@ -341,6 +344,7 @@ IP-CIDR,160.1.128.0/24,no-resolve
 IP-CIDR,176.34.159.192/26,no-resolve
 IP-CIDR,177.71.207.128/26,no-resolve
 IP-CIDR,18.100.209.192/28,no-resolve
+IP-CIDR,18.100.209.224/27,no-resolve
 IP-CIDR,18.100.64.128/25,no-resolve
 IP-CIDR,18.100.65.0/26,no-resolve
 IP-CIDR,18.102.2.0/23,no-resolve
@@ -922,6 +926,9 @@ IP-CIDR,44.242.180.0/24,no-resolve
 IP-CIDR,44.242.181.0/27,no-resolve
 IP-CIDR,44.242.181.32/28,no-resolve
 IP-CIDR,45.57.0.0/17,no-resolve
+IP-CIDR,51.16.103.16/28,no-resolve
+IP-CIDR,51.16.103.32/27,no-resolve
+IP-CIDR,51.16.183.64/27,no-resolve
 IP-CIDR,52.0.0.0/15,no-resolve
 IP-CIDR,52.10.0.0/15,no-resolve
 IP-CIDR,52.12.0.0/15,no-resolve

@@ -1,20 +1,23 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-05-08 02:11:33
-# DOMAIN: 8
+# UPDATED: 2023-07-20 23:22:29
+# DOMAIN: 11
 # DOMAIN-KEYWORD: 31
-# DOMAIN-SUFFIX: 5883
-# IP-CIDR: 88
+# DOMAIN-SUFFIX: 5885
+# IP-CIDR: 87
 # IP-CIDR6: 3
-# TOTAL: 6013
+# TOTAL: 6017
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
   - 'assets-priconne-redive-us.akamaized.net'
+  - 'chat.openai.com.cdn.cloudflare.net'
   - 'cloud.oracle.com'
   - 'cvws.icloud-content.com'
   - 'developer.apple.com'
+  - 'openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net'
+  - 'openaicomproductionae4b.blob.core.windows.net'
   - 'testflight.apple.com'
   - 'voice.telephony.goog'
   - '+.000webhost.com'
@@ -217,7 +220,6 @@ payload:
   - '+.ahcdn.com'
   - '+.ai-kan.net'
   - '+.ai-wen.net'
-  - '+.ai.com'
   - '+.aiph.net'
   - '+.airasia.com'
   - '+.airconsole.com'
@@ -539,6 +541,7 @@ payload:
   - '+.berlinerbericht.de'
   - '+.berm.co.nz'
   - '+.bestforchina.org'
+  - '+.bestgore.com'
   - '+.bestvpn.com'
   - '+.bestvpnanalysis.com'
   - '+.bestvpnserver.com'
@@ -1004,6 +1007,7 @@ payload:
   - '+.clinica-tibet.ru'
   - '+.clipfish.de'
   - '+.cloakpoint.com'
+  - '+.cloud.cupronickel.goog'
   - '+.cloudcone.com'
   - '+.cloudflare-ipfs.com'
   - '+.cloudflare.com'
@@ -1286,6 +1290,7 @@ payload:
   - '+.djangosnippets.org'
   - '+.djorz.com'
   - '+.dl-laby.jp'
+  - '+.dler.io'
   - '+.dlive.tv'
   - '+.dlsite.com'
   - '+.dlsite.jp'
@@ -3649,7 +3654,6 @@ payload:
   - '+.oopsforum.com'
   - '+.ooyala.com'
   - '+.open.com.hk'
-  - '+.openai.com'
   - '+.openallweb.com'
   - '+.opendemocracy.net'
   - '+.opendn.xyz'
@@ -3720,6 +3724,7 @@ payload:
   - '+.paddle.com'
   - '+.paddleapi.com'
   - '+.padmanet.com'
+  - '+.page.link'
   - '+.pages.dev'
   - '+.pagodabox.com'
   - '+.palacemoon.com'
@@ -3872,7 +3877,6 @@ payload:
   - '+.podbean.com'
   - '+.podcast.co'
   - '+.podictionary.com'
-  - '+.poe.com'
   - '+.pokemon.com'
   - '+.pokerstars.com'
   - '+.pokerstars.net'
@@ -4376,6 +4380,7 @@ payload:
   - '+.sis001.us'
   - '+.site2unblock.com'
   - '+.site90.net'
+  - '+.sitebro.tw'
   - '+.sitekreator.com'
   - '+.sitemaps.org'
   - '+.six-degrees.io'

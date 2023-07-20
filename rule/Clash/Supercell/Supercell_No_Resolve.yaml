@@ -1,0 +1,32 @@
+# NAME: Supercell
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-07-20 23:20:02
+# DOMAIN-SUFFIX: 2
+# IP-CIDR: 22
+# TOTAL: 24
+payload:
+  - DOMAIN-SUFFIX,brawlstars.com
+  - DOMAIN-SUFFIX,brawlstarsgame.com
+  - IP-CIDR,13.210.25.233/32,no-resolve
+  - IP-CIDR,13.212.170.102/32,no-resolve
+  - IP-CIDR,13.212.171.212/32,no-resolve
+  - IP-CIDR,15.161.130.86/32,no-resolve
+  - IP-CIDR,15.254.1.17/32,no-resolve
+  - IP-CIDR,162.62.33.45/32,no-resolve
+  - IP-CIDR,162.62.33.70/32,no-resolve
+  - IP-CIDR,162.62.34.10/32,no-resolve
+  - IP-CIDR,18.141.176.65/32,no-resolve
+  - IP-CIDR,18.156.137.147/32,no-resolve
+  - IP-CIDR,18.231.148.103/32,no-resolve
+  - IP-CIDR,3.1.80.68/32,no-resolve
+  - IP-CIDR,3.25.190.152/32,no-resolve
+  - IP-CIDR,3.82.147.36/32,no-resolve
+  - IP-CIDR,34.220.160.16/32,no-resolve
+  - IP-CIDR,35.154.64.7/32,no-resolve
+  - IP-CIDR,35.72.32.125/32,no-resolve
+  - IP-CIDR,52.13.150.128/32,no-resolve
+  - IP-CIDR,52.13.42.120/32,no-resolve
+  - IP-CIDR,52.50.131.212/32,no-resolve
+  - IP-CIDR,54.207.168.84/32,no-resolve
+  - IP-CIDR,54.248.64.192/32,no-resolve

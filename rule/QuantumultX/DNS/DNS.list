@@ -1,20 +1,17 @@
 # NAME: DNS
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:52:15
-# HOST: 84
+# UPDATED: 2023-07-20 23:24:36
+# HOST: 88
 # IP-CIDR: 22
-# TOTAL: 106
+# TOTAL: 110
 HOST,1dot1dot1dot1.cloudflare-dns.com,DNS
 HOST,8888.google,DNS
 HOST,adblock.mydns.network,DNS
 HOST,applied-privacy.net,DNS
-HOST,captnemo.in,DNS
 HOST,cdn-doh.ssnm.xyz,DNS
 HOST,chrome.cloudflare-dns.com,DNS
 HOST,cloudflare-dns.com,DNS
-HOST,commons.host,DNS
-HOST,digitale-gesellschaft.ch,DNS
 HOST,dns-family.adguard.com,DNS
 HOST,dns-nyc.aaflalo.me,DNS
 HOST,dns-tls.qis.io,DNS
@@ -32,6 +29,7 @@ HOST,dns.flatuslifir.is,DNS
 HOST,dns.google,DNS
 HOST,dns.google.com,DNS
 HOST,dns.hostux.net,DNS
+HOST,dns.ipv6dns.com,DNS
 HOST,dns.keweon.center,DNS
 HOST,dns.nextdns.io,DNS
 HOST,dns.quad9.net,DNS
@@ -57,11 +55,14 @@ HOST,doh.familyshield.opendns.com,DNS
 HOST,doh.ffmuc.net,DNS
 HOST,doh.li,DNS
 HOST,doh.libredns.gr,DNS
+HOST,doh.mullvad.net,DNS
 HOST,doh.northeu.pi-dns.com,DNS
 HOST,doh.opendns.com,DNS
+HOST,doh.powerdns.com,DNS
 HOST,doh.powerdns.org,DNS
 HOST,doh.pub,DNS
 HOST,doh.qis.io,DNS
+HOST,doh.sb,DNS
 HOST,doh.seby.io,DNS
 HOST,doh.securedns.eu,DNS
 HOST,doh.tiar.app,DNS
@@ -86,9 +87,12 @@ HOST,ordns.he.net,DNS
 HOST,private.canadianshield.cira.ca,DNS
 HOST,protected.canadianshield.cira.ca,DNS
 HOST,rdns.faelix.net,DNS
+HOST,rubyfish.cn,DNS
 HOST,sdns.233py.com,DNS
 HOST,security-filter-dns.cleanbrowsing.org,DNS
 HOST,security.cloudflare-dns.com,DNS
+HOST,sm2.doh.pub,DNS
+HOST,unfiltered.adguard-dns.com,DNS
 IP-CIDR,1.1.1.1/32,DNS
 IP-CIDR,101.101.101.101/32,DNS
 IP-CIDR,114.114.114.114/32,DNS

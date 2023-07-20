@@ -1,5 +1,5 @@
 #!name= AdvertisingScript
-#!desc= 最后更新时间 2023-04-07 14:53:12
+#!desc= 最后更新时间 2023-07-20 23:28:55
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
@@ -8,9 +8,9 @@
 #!url-regex= 4
 #!http-request-script= 1
 #!http-response-script= 24
-#!reject= 11
+#!reject= 12
 #!mitm= 21
-#!total= 66
+#!total= 67
 
 [Rule]
 DOMAIN,appcloud.zhihu.com,REJECT
@@ -24,7 +24,7 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\?,REJ
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
 
 
-[URL Rewrite]
+[Rewrite]
 ^https?:\/\/103\.41\.167\.237 - reject-dict
 ^https?:\/\/118\.89\.204\.198 - reject-dict
 ^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 - reject-dict
@@ -36,6 +36,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 ^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings - reject-dict
 ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading - reject-dict
 ^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/search\/related_queries\/answer - reject-dict
 [Script]
 # 哲也_解锁关键词屏蔽
 http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,tag=哲也_解锁关键词屏蔽

@@ -1,0 +1,17 @@
+# NAME: 360Cloud
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-07-20 23:24:37
+# IP-CIDR: 7
+# IP-CIDR6: 2
+# TOTAL: 9
+payload:
+  - IP-CIDR,101.197.0.0/16,no-resolve
+  - IP-CIDR,101.198.0.0/17,no-resolve
+  - IP-CIDR,101.198.128.0/18,no-resolve
+  - IP-CIDR,101.198.192.0/19,no-resolve
+  - IP-CIDR,101.199.32.0/19,no-resolve
+  - IP-CIDR,104.192.108.0/23,no-resolve
+  - IP-CIDR,104.192.110.0/24,no-resolve
+  - IP-CIDR6,2405:a900:ffee::/48,no-resolve
+  - IP-CIDR6,2405:a900:fffe::/48,no-resolve

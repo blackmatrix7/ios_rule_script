@@ -12,16 +12,16 @@
 
 ## 规则统计
 
-最后更新时间：2023-05-01 02:10:48
+最后更新时间：2023-07-20 23:22:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 288  | 
+| DOMAIN-SUFFIX | 304  | 
 | IP-CIDR | 1  | 
 | PROCESS-NAME | 1  | 
 | USER-AGENT | 1  | 
-| TOTAL | 291  | 
+| TOTAL | 307  | 
 
 
 ## Surge 
@@ -86,6 +86,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/bytedance-ads@ads.yaml
 - https://rules.kr328.app/bytedance.yaml
 - https://rules.kr328.app/bytedance-ads.yaml
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/ByteDance.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

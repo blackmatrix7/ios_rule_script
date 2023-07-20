@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:53:12
+最后更新时间：2023-07-20 23:28:55
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -21,9 +21,9 @@
 | URL-REGEX | 4  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
 | HTTP-RESPONSE-SCRIPT | 24  | 
-| REJECT | 11  | 
+| REJECT | 12  | 
 | MITM | 21  | 
-| TOTAL | 66  | 
+| TOTAL | 67  | 
 
 
 ## Loon 

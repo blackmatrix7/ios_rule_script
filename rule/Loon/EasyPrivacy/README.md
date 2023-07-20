@@ -17,50 +17,19 @@ AdBlock Plus EasyPrivacy，仅抽取DOMAIN-SUFFIX类型。
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:51:51
+最后更新时间：2023-07-20 23:24:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 15343  | 
-| IP-CIDR | 7  | 
-| TOTAL | 15350  | 
+| DOMAIN | 7  | 
+| DOMAIN-SUFFIX | 21343  | 
+| TOTAL | 21350  | 
 
 
 ## Loon 
 
-#### 文件区别
-- EasyPrivacy_Resolve.list与EasyPrivacy.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
-
-#### 配置建议
-- EasyPrivacy.list、EasyPrivacy_Domain.list 共同使用。
-- EasyPrivacy_Resolve.list、EasyPrivacy_Domain.list 共同使用。
-
 #### 规则链接
-**MASTER分支 (每日更新)**
-
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/EasyPrivacy/EasyPrivacy.list
-
-**MASTER分支 CDN (每日更新)**
-
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Loon/EasyPrivacy/EasyPrivacy.list
-
-**MASTER分支 GHProxy (每日更新)**
-
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/EasyPrivacy/EasyPrivacy.list
-
-**RELEASE分支 (不定时更新)**
-
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/EasyPrivacy/EasyPrivacy.list
-
-**RELEASE分支CDN (不定时更新)**
-
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Loon/EasyPrivacy/EasyPrivacy.list
-
-**RELEASE分支 GHProxy (不定时更新)**
-
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/EasyPrivacy/EasyPrivacy.list
-
 ## 子规则/排除规则
 
 

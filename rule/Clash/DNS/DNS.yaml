@@ -1,21 +1,18 @@
 # NAME: DNS
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:52:15
-# DOMAIN: 84
+# UPDATED: 2023-07-20 23:24:36
+# DOMAIN: 88
 # IP-CIDR: 22
-# TOTAL: 106
+# TOTAL: 110
 payload:
   - DOMAIN,1dot1dot1dot1.cloudflare-dns.com
   - DOMAIN,8888.google
   - DOMAIN,adblock.mydns.network
   - DOMAIN,applied-privacy.net
-  - DOMAIN,captnemo.in
   - DOMAIN,cdn-doh.ssnm.xyz
   - DOMAIN,chrome.cloudflare-dns.com
   - DOMAIN,cloudflare-dns.com
-  - DOMAIN,commons.host
-  - DOMAIN,digitale-gesellschaft.ch
   - DOMAIN,dns-family.adguard.com
   - DOMAIN,dns-nyc.aaflalo.me
   - DOMAIN,dns-tls.qis.io
@@ -33,6 +30,7 @@ payload:
   - DOMAIN,dns.google
   - DOMAIN,dns.google.com
   - DOMAIN,dns.hostux.net
+  - DOMAIN,dns.ipv6dns.com
   - DOMAIN,dns.keweon.center
   - DOMAIN,dns.nextdns.io
   - DOMAIN,dns.quad9.net
@@ -58,11 +56,14 @@ payload:
   - DOMAIN,doh.ffmuc.net
   - DOMAIN,doh.li
   - DOMAIN,doh.libredns.gr
+  - DOMAIN,doh.mullvad.net
   - DOMAIN,doh.northeu.pi-dns.com
   - DOMAIN,doh.opendns.com
+  - DOMAIN,doh.powerdns.com
   - DOMAIN,doh.powerdns.org
   - DOMAIN,doh.pub
   - DOMAIN,doh.qis.io
+  - DOMAIN,doh.sb
   - DOMAIN,doh.seby.io
   - DOMAIN,doh.securedns.eu
   - DOMAIN,doh.tiar.app
@@ -87,9 +88,12 @@ payload:
   - DOMAIN,private.canadianshield.cira.ca
   - DOMAIN,protected.canadianshield.cira.ca
   - DOMAIN,rdns.faelix.net
+  - DOMAIN,rubyfish.cn
   - DOMAIN,sdns.233py.com
   - DOMAIN,security-filter-dns.cleanbrowsing.org
   - DOMAIN,security.cloudflare-dns.com
+  - DOMAIN,sm2.doh.pub
+  - DOMAIN,unfiltered.adguard-dns.com
   - IP-CIDR,1.1.1.1/32
   - IP-CIDR,101.101.101.101/32
   - IP-CIDR,114.114.114.114/32

@@ -15,14 +15,14 @@ IPTV其他规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:52:56
+最后更新时间：2023-07-20 23:25:18
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 2327  | 
-| IP-CIDR | 515  | 
-| TOTAL | 2842  | 
+| DOMAIN | 2328  | 
+| IP-CIDR | 516  | 
+| TOTAL | 2844  | 
 
 
 ## Clash 
@@ -93,7 +93,13 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ## 数据来源
 
-当前规则未直接引用数据源。
+《IPTV其他》的数据来自以下链接，如与本项目的《IPTV其他》规则混合使用，可能会造成规则大量重复。
+
+- https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/%E5%8F%B0%E6%B9%BE%E9%A6%99%E6%B8%AF%E6%BE%B3%E9%97%A82023.m3u
+- https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/%E5%9B%BD%E5%A4%96%E7%94%B5%E8%A7%86%E5%8F%B02023.m3u8
+
+
+感谢以上规则作者的辛勤付出（排名不分先后）。
 
 ## 最后
 

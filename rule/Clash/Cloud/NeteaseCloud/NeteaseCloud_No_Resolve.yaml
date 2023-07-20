@@ -1,0 +1,36 @@
+# NAME: NeteaseCloud
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-07-20 23:24:37
+# IP-CIDR: 29
+# TOTAL: 29
+payload:
+  - IP-CIDR,103.196.64.0/22,no-resolve
+  - IP-CIDR,103.71.120.0/21,no-resolve
+  - IP-CIDR,103.71.128.0/22,no-resolve
+  - IP-CIDR,103.71.196.0/22,no-resolve
+  - IP-CIDR,103.71.200.0/22,no-resolve
+  - IP-CIDR,103.72.12.0/22,no-resolve
+  - IP-CIDR,103.72.128.0/21,no-resolve
+  - IP-CIDR,103.72.16.0/20,no-resolve
+  - IP-CIDR,103.72.32.0/20,no-resolve
+  - IP-CIDR,103.72.48.0/21,no-resolve
+  - IP-CIDR,103.74.32.0/20,no-resolve
+  - IP-CIDR,106.2.32.0/19,no-resolve
+  - IP-CIDR,106.2.64.0/18,no-resolve
+  - IP-CIDR,114.113.196.0/22,no-resolve
+  - IP-CIDR,114.113.200.0/22,no-resolve
+  - IP-CIDR,123.58.160.0/19,no-resolve
+  - IP-CIDR,223.252.192.0/19,no-resolve
+  - IP-CIDR,42.186.0.0/16,no-resolve
+  - IP-CIDR,45.127.128.0/22,no-resolve
+  - IP-CIDR,45.253.112.0/21,no-resolve
+  - IP-CIDR,45.253.132.0/22,no-resolve
+  - IP-CIDR,45.253.136.0/21,no-resolve
+  - IP-CIDR,45.253.144.0/20,no-resolve
+  - IP-CIDR,45.253.160.0/19,no-resolve
+  - IP-CIDR,45.253.192.0/19,no-resolve
+  - IP-CIDR,45.253.224.0/20,no-resolve
+  - IP-CIDR,45.253.240.0/22,no-resolve
+  - IP-CIDR,45.253.96.0/20,no-resolve
+  - IP-CIDR,59.111.0.0/16,no-resolve

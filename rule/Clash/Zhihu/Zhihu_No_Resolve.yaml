@@ -1,0 +1,16 @@
+# NAME: Zhihu
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-07-20 23:24:35
+# DOMAIN-SUFFIX: 2
+# IP-CIDR: 4
+# IP-CIDR6: 1
+# TOTAL: 7
+payload:
+  - DOMAIN-SUFFIX,zhihu.com
+  - DOMAIN-SUFFIX,zhimg.com
+  - IP-CIDR,103.41.167.226/32,no-resolve
+  - IP-CIDR,103.41.167.234/31,no-resolve
+  - IP-CIDR,103.41.167.236/32,no-resolve
+  - IP-CIDR,118.89.204.198/32,no-resolve
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve

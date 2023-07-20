@@ -1,0 +1,19 @@
+# NAME: WeTV
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-07-20 23:22:38
+# DOMAIN-SUFFIX: 7
+# IP-CIDR: 1
+# PROCESS-NAME: 2
+# TOTAL: 10
+payload:
+  - DOMAIN-SUFFIX,iflix-images.akamaized.net
+  - DOMAIN-SUFFIX,iflix.com
+  - DOMAIN-SUFFIX,v.smtcdns.com
+  - DOMAIN-SUFFIX,v.smtcdns.net
+  - DOMAIN-SUFFIX,vv.video.qq.com
+  - DOMAIN-SUFFIX,wetv.vip
+  - DOMAIN-SUFFIX,wetvinfo.com
+  - IP-CIDR,150.109.28.51/32,no-resolve
+  - PROCESS-NAME,com.tencent.qqlivei18n
+  - PROCESS-NAME,com.tencent.qqlivei18n.us

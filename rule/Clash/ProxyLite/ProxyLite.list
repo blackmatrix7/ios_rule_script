@@ -1,13 +1,13 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-25 02:12:17
-# DOMAIN: 18
+# UPDATED: 2023-07-20 23:23:42
+# DOMAIN: 23
 # DOMAIN-KEYWORD: 24
 # DOMAIN-SUFFIX: 834
-# IP-CIDR: 90
+# IP-CIDR: 89
 # IP-CIDR6: 4
-# TOTAL: 970
+# TOTAL: 974
 DOMAIN,addons.mozilla.org
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,api.waqi.info
@@ -18,10 +18,15 @@ DOMAIN,az416426.vo.msecnd.net
 DOMAIN,az668014.vo.msecnd.net
 DOMAIN,beta.music.apple.com
 DOMAIN,books.apple.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,clubhouse.pubnubapi.com
 DOMAIN,disk.yandex.com
 DOMAIN,lab.skk.moe
 DOMAIN,ocsp.int-x3.letsencrypt.org
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,search.yahoo.co.jp
 DOMAIN,tv.apple.com
 DOMAIN,voice.telephony.goog
@@ -45,7 +50,6 @@ DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,aerisapi.com
 DOMAIN-SUFFIX,aex.com
 DOMAIN-SUFFIX,ahcdn.com
-DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,aicoin.com
 DOMAIN-SUFFIX,aimoon.com
 DOMAIN-SUFFIX,airtable.com
@@ -158,6 +162,7 @@ DOMAIN-SUFFIX,chinadigitaltimes.net
 DOMAIN-SUFFIX,chinatimes.com
 DOMAIN-SUFFIX,cl.ly
 DOMAIN-SUFFIX,clien.net
+DOMAIN-SUFFIX,cloud.cupronickel.goog
 DOMAIN-SUFFIX,cloudcone.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudfront.net
@@ -210,6 +215,7 @@ DOMAIN-SUFFIX,discordstatus.com
 DOMAIN-SUFFIX,disq.us
 DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,disquscdn.com
+DOMAIN-SUFFIX,dler.io
 DOMAIN-SUFFIX,dlive.tv
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dnsimple.com
@@ -467,7 +473,6 @@ DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,omnigroup.com
 DOMAIN-SUFFIX,omny.fm
 DOMAIN-SUFFIX,ooyala.com
-DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openvpn.net
 DOMAIN-SUFFIX,openwrt.org
 DOMAIN-SUFFIX,orkut.com
@@ -932,7 +937,6 @@ IP-CIDR,180.163.150.162/32,no-resolve
 IP-CIDR,180.163.150.34/32,no-resolve
 IP-CIDR,180.163.151.162/32,no-resolve
 IP-CIDR,180.163.151.34/32,no-resolve
-IP-CIDR,183.131.48.0/20,no-resolve
 IP-CIDR,184.173.128.0/17,no-resolve
 IP-CIDR,185.60.216.0/22,no-resolve
 IP-CIDR,185.76.151.0/24,no-resolve

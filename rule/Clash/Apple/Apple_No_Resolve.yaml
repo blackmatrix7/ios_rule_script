@@ -1,0 +1,32 @@
+# NAME: Apple
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-07-20 23:20:06
+# DOMAIN: 7
+# DOMAIN-KEYWORD: 5
+# DOMAIN-SUFFIX: 1544
+# IP-CIDR: 10
+# PROCESS-NAME: 6
+# TOTAL: 1572
+payload:
+  - DOMAIN-KEYWORD,apple-support.akadns.net
+  - DOMAIN-KEYWORD,apple.com.akadns.net
+  - DOMAIN-KEYWORD,apple.com.edgekey.net
+  - DOMAIN-KEYWORD,testflight
+  - DOMAIN-KEYWORD,icloud.com.akadns.net
+  - IP-CIDR,139.178.128.0/18,no-resolve
+  - IP-CIDR,144.178.0.0/19,no-resolve
+  - IP-CIDR,144.178.36.0/22,no-resolve
+  - IP-CIDR,144.178.48.0/20,no-resolve
+  - IP-CIDR,17.0.0.0/8,no-resolve
+  - IP-CIDR,192.35.50.0/24,no-resolve
+  - IP-CIDR,198.183.17.0/24,no-resolve
+  - IP-CIDR,205.180.175.0/24,no-resolve
+  - IP-CIDR,63.92.224.0/19,no-resolve
+  - IP-CIDR,65.199.22.0/23,no-resolve
+  - PROCESS-NAME,storedownloadd
+  - PROCESS-NAME,com.apple.geod
+  - PROCESS-NAME,Music
+  - PROCESS-NAME,News
+  - PROCESS-NAME,LookupViewService
+  - PROCESS-NAME,TV

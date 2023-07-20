@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-QuantumultX定制化规则-7cd1e3) 
 
 TikTok规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,16 +12,16 @@ TikTok规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-08 02:11:29
+最后更新时间：2023-07-20 23:22:31
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 1  | 
 | HOST-KEYWORD | 2  | 
-| HOST-SUFFIX | 13  | 
+| HOST-SUFFIX | 19  | 
 | USER-AGENT | 1  | 
-| TOTAL | 17  | 
+| TOTAL | 23  | 
 
 
 ## QuantumultX 
@@ -68,6 +68,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TikTok.list
 - https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list
 - https://rules.kr328.app/tiktok.yaml
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/TikTok.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

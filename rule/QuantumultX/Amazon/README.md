@@ -12,16 +12,16 @@ Amazon规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:50:24
+最后更新时间：2023-07-20 23:22:33
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST-KEYWORD | 1  | 
-| HOST-SUFFIX | 205  | 
+| HOST-SUFFIX | 206  | 
 | IP-CIDR | 15  | 
 | USER-AGENT | 2  | 
-| TOTAL | 223  | 
+| TOTAL | 224  | 
 
 
 ## QuantumultX 

@@ -1,0 +1,11 @@
+# NAME: Claude
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-07-20 23:25:19
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 2
+# TOTAL: 3
+payload:
+  - DOMAIN,cdn.usefathom.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai

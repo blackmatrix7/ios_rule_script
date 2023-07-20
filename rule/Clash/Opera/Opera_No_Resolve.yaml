@@ -1,0 +1,31 @@
+# NAME: Opera
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-07-20 23:23:35
+# DOMAIN-SUFFIX: 14
+# IP-CIDR: 7
+# IP-CIDR6: 1
+# TOTAL: 22
+payload:
+  - DOMAIN-SUFFIX,1npq4.tk
+  - DOMAIN-SUFFIX,coastbyopera.com
+  - DOMAIN-SUFFIX,gamingbrowsers.com
+  - DOMAIN-SUFFIX,opera-api.com
+  - DOMAIN-SUFFIX,opera-api2.com
+  - DOMAIN-SUFFIX,opera-browser.com
+  - DOMAIN-SUFFIX,opera-mini.net
+  - DOMAIN-SUFFIX,opera.com
+  - DOMAIN-SUFFIX,opera.software
+  - DOMAIN-SUFFIX,operacdn.com
+  - DOMAIN-SUFFIX,operagx.com
+  - DOMAIN-SUFFIX,operasoftware.com
+  - DOMAIN-SUFFIX,otvs.tv
+  - DOMAIN-SUFFIX,xn--cer18jcpe41t.com
+  - IP-CIDR,141.0.8.0/21,no-resolve
+  - IP-CIDR,185.26.180.0/22,no-resolve
+  - IP-CIDR,195.189.142.0/23,no-resolve
+  - IP-CIDR,37.228.104.0/21,no-resolve
+  - IP-CIDR,77.111.244.0/22,no-resolve
+  - IP-CIDR,82.145.208.0/20,no-resolve
+  - IP-CIDR,91.203.97.0/24,no-resolve
+  - IP-CIDR6,2001:4c28::/32,no-resolve

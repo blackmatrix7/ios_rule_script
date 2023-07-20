@@ -1,11 +1,11 @@
 # NAME: IPTVMainland
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:52:54
-# DOMAIN: 996
-# IP-CIDR: 1314
-# IP-CIDR6: 7
-# TOTAL: 2317
+# UPDATED: 2023-07-20 23:25:16
+# DOMAIN: 997
+# IP-CIDR: 1308
+# IP-CIDR6: 13
+# TOTAL: 2318
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,1.cache.applinzi.com
@@ -83,6 +83,7 @@ payload:
   - DOMAIN,audiolive.rbc.cn
   - DOMAIN,b.ds.ch.dingtoo.com
   - DOMAIN,badong-live21.cjyun.org
+  - DOMAIN,baidu.live.cqccn.com
   - DOMAIN,bananlive.cbg.cn
   - DOMAIN,bbstv.clouducs.com
   - DOMAIN,bililive.kksmg.com
@@ -347,6 +348,7 @@ payload:
   - DOMAIN,live-cdn.gxxw.com
   - DOMAIN,live-dft-hls-yf.jstv.com
   - DOMAIN,live-echotv.cdnvideo.ru
+  - DOMAIN,live-hls-web-aje.getaj.net
   - DOMAIN,live-hls.ihzlh.linker.cc
   - DOMAIN,live-stream.lsxrmtzx.com
   - DOMAIN,live-wx.wifiwx.com
@@ -879,7 +881,6 @@ payload:
   - DOMAIN,tv.pull.hebtv.com
   - DOMAIN,tv.scwlqw.cn
   - DOMAIN,tv.uwp.ac.cn
-  - DOMAIN,tv.vtibet.cn
   - DOMAIN,tv.zkxww.com
   - DOMAIN,tvdrs.wsrtv.com.cn
   - DOMAIN,tvfile.jjrm.org.cn
@@ -895,12 +896,12 @@ payload:
   - DOMAIN,tx.hls.huya.com
   - DOMAIN,tx.liveplay.live.kugou.com
   - DOMAIN,txdirect.hls.huya.com
+  - DOMAIN,txycetvbl.centv.cn
   - DOMAIN,ucdn.sd.chinamobile.com
   - DOMAIN,uni6rtmp.tulix.tv
   - DOMAIN,v.btzx.com.cn
   - DOMAIN,v.xstv.net
   - DOMAIN,v1.one-tv.com
-  - DOMAIN,v2.91kds.cn
   - DOMAIN,vfile.cfrtv.cn
   - DOMAIN,video.dztv.tv
   - DOMAIN,video.hannews.com.cn
@@ -1005,7 +1006,6 @@ payload:
   - DOMAIN,zzq12345.gearhostpreview.com
   - IP-CIDR,0.0.0.0/32
   - IP-CIDR,1.180.237.9/32
-  - IP-CIDR,1.195.111.251/32
   - IP-CIDR,1.197.88.197/32
   - IP-CIDR,1.245.74.5/32
   - IP-CIDR,1.31.80.38/32
@@ -1051,6 +1051,7 @@ payload:
   - IP-CIDR,112.17.40.145/32
   - IP-CIDR,112.17.40.200/32
   - IP-CIDR,112.17.40.247/32
+  - IP-CIDR,112.25.48.70/32
   - IP-CIDR,112.26.80.214/32
   - IP-CIDR,112.27.139.242/32
   - IP-CIDR,112.27.89.235/32
@@ -1063,7 +1064,6 @@ payload:
   - IP-CIDR,112.50.243.8/32
   - IP-CIDR,112.74.200.9/32
   - IP-CIDR,113.207.29.195/32
-  - IP-CIDR,113.207.84.197/32
   - IP-CIDR,113.214.24.158/32
   - IP-CIDR,114.104.147.15/32
   - IP-CIDR,115.238.238.218/32
@@ -1097,7 +1097,6 @@ payload:
   - IP-CIDR,117.169.120.138/32
   - IP-CIDR,117.169.120.140/32
   - IP-CIDR,117.169.120.223/32
-  - IP-CIDR,117.169.124.149/32
   - IP-CIDR,117.169.72.6/32
   - IP-CIDR,117.172.215.250/32
   - IP-CIDR,117.190.118.175/32
@@ -1279,7 +1278,6 @@ payload:
   - IP-CIDR,220.180.24.62/32
   - IP-CIDR,221.179.217.70/32
   - IP-CIDR,221.179.217.9/32
-  - IP-CIDR,221.2.36.34/32
   - IP-CIDR,221.209.44.174/32
   - IP-CIDR,221.230.141.225/32
   - IP-CIDR,221.230.141.252/32
@@ -1345,7 +1343,6 @@ payload:
   - IP-CIDR,223.255.28.42/32
   - IP-CIDR,223.82.250.72/32
   - IP-CIDR,223.82.75.3/32
-  - IP-CIDR,223.95.111.98/32
   - IP-CIDR,223.99.186.132/32
   - IP-CIDR,225.1.1.10/32
   - IP-CIDR,225.1.1.102/32
@@ -2177,6 +2174,7 @@ payload:
   - IP-CIDR,39.130.215.166/32
   - IP-CIDR,39.134.115.163/32
   - IP-CIDR,39.134.115.191/32
+  - IP-CIDR,39.134.115.221/32
   - IP-CIDR,39.134.116.30/32
   - IP-CIDR,39.134.13.35/32
   - IP-CIDR,39.134.134.85/32
@@ -2186,8 +2184,6 @@ payload:
   - IP-CIDR,39.134.18.65/32
   - IP-CIDR,39.134.18.66/32
   - IP-CIDR,39.134.19.57/32
-  - IP-CIDR,39.134.24.161/32
-  - IP-CIDR,39.134.24.162/32
   - IP-CIDR,39.134.32.103/32
   - IP-CIDR,39.134.39.31/32
   - IP-CIDR,39.134.39.39/32
@@ -2271,7 +2267,6 @@ payload:
   - IP-CIDR,39.136.48.8/32
   - IP-CIDR,39.136.48.99/32
   - IP-CIDR,39.137.76.32/32
-  - IP-CIDR,39.184.224.99/32
   - IP-CIDR,42.176.185.28/32
   - IP-CIDR,42.236.91.206/32
   - IP-CIDR,47.104.173.199/32
@@ -2317,10 +2312,16 @@ payload:
   - IP-CIDR,61.178.129.74/32
   - IP-CIDR,61.216.177.73/32
   - IP-CIDR,61.244.22.4/32
-  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb0b/128
-  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb23/128
-  - IP-CIDR6,2409:8087:4400:20:1:a0f:11:9/128
-  - IP-CIDR6,2409:8087:4402:20:1:1216:401:38/128
-  - IP-CIDR6,2409:8087:4402:20:1:1216:401:41/128
-  - IP-CIDR6,2409:8087:4402:20:1:1216:401:43/128
-  - IP-CIDR6,2409:8087:4402:20:1:1216:401:46/128
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb02/127
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb05/128
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb08/126
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb0e/128
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb10/126
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb15/128
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb16/127
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb18/128
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb1a/127
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb21/128
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb22/127
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb24/128
+  - IP-CIDR6,2409:8087:2001:20:2800:0:df6e:eb26/127

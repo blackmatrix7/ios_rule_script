@@ -15,16 +15,16 @@ Google规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-14 02:09:13
+最后更新时间：2023-07-20 23:20:04
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 5  | 
-| DOMAIN-SUFFIX | 718  | 
+| DOMAIN-SUFFIX | 723  | 
 | IP-CIDR | 5  | 
 | USER-AGENT | 3  | 
-| TOTAL | 731  | 
+| TOTAL | 736  | 
 
 
 ## Shadowrocket 

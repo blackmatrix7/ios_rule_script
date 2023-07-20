@@ -1,13 +1,16 @@
 # NAME: TikTok
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:50:22
+# UPDATED: 2023-07-20 23:22:31
 # HOST: 1
 # HOST-KEYWORD: 2
-# HOST-SUFFIX: 13
+# HOST-SUFFIX: 19
 # USER-AGENT: 1
-# TOTAL: 17
+# TOTAL: 23
 HOST,p16-tiktokcdn-com.akamaized.net,TikTok
+HOST-SUFFIX,bytedapm.com,TikTok
+HOST-SUFFIX,bytegecko-i18n.com,TikTok
+HOST-SUFFIX,bytegecko.com,TikTok
 HOST-SUFFIX,byteoversea.com,TikTok
 HOST-SUFFIX,ibytedtos.com,TikTok
 HOST-SUFFIX,ibyteimg.com,TikTok
@@ -19,7 +22,10 @@ HOST-SUFFIX,sgpstatp.com,TikTok
 HOST-SUFFIX,snssdk.com,TikTok
 HOST-SUFFIX,tik-tokapi.com,TikTok
 HOST-SUFFIX,tiktok.com,TikTok
+HOST-SUFFIX,tiktokcdn-us.com,TikTok
 HOST-SUFFIX,tiktokcdn.com,TikTok
+HOST-SUFFIX,tiktokd.net,TikTok
+HOST-SUFFIX,tiktokd.org,TikTok
 HOST-SUFFIX,tiktokv.com,TikTok
 HOST-KEYWORD,musical.ly,TikTok
 HOST-KEYWORD,tiktok,TikTok

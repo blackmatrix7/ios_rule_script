@@ -21,50 +21,19 @@ AdGuard DNS Filter 规则！！
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:51:48
+最后更新时间：2023-07-20 23:24:05
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 50256  | 
-| IP-CIDR | 2  | 
-| TOTAL | 50258  | 
+| DOMAIN | 2  | 
+| DOMAIN-SUFFIX | 52909  | 
+| TOTAL | 52911  | 
 
 
 ## Loon 
 
-#### 文件区别
-- AdGuardSDNSFilter_Resolve.list与AdGuardSDNSFilter.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
-
-#### 配置建议
-- AdGuardSDNSFilter.list、AdGuardSDNSFilter_Domain.list 共同使用。
-- AdGuardSDNSFilter_Resolve.list、AdGuardSDNSFilter_Domain.list 共同使用。
-
 #### 规则链接
-**MASTER分支 (每日更新)**
-
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdGuardSDNSFilter/AdGuardSDNSFilter.list
-
-**MASTER分支 CDN (每日更新)**
-
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Loon/AdGuardSDNSFilter/AdGuardSDNSFilter.list
-
-**MASTER分支 GHProxy (每日更新)**
-
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdGuardSDNSFilter/AdGuardSDNSFilter.list
-
-**RELEASE分支 (不定时更新)**
-
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/AdGuardSDNSFilter/AdGuardSDNSFilter.list
-
-**RELEASE分支CDN (不定时更新)**
-
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Loon/AdGuardSDNSFilter/AdGuardSDNSFilter.list
-
-**RELEASE分支 GHProxy (不定时更新)**
-
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/AdGuardSDNSFilter/AdGuardSDNSFilter.list
-
 ## 子规则/排除规则
 
 

@@ -1,0 +1,31 @@
+# NAME: iQIYIIntl
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-07-20 23:24:01
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 5
+# IP-CIDR: 13
+# PROCESS-NAME: 2
+# TOTAL: 21
+payload:
+  - DOMAIN,cache.video.iqiyi.com
+  - DOMAIN-SUFFIX,inter.iqiyi.com
+  - DOMAIN-SUFFIX,intl-rcd.iqiyi.com
+  - DOMAIN-SUFFIX,intl-subscription.iqiyi.com
+  - DOMAIN-SUFFIX,intl.iqiyi.com
+  - DOMAIN-SUFFIX,iq.com
+  - IP-CIDR,104.85.165.17/32,no-resolve
+  - IP-CIDR,110.238.107.47/32,no-resolve
+  - IP-CIDR,118.26.32.162/32,no-resolve
+  - IP-CIDR,159.138.102.146/32,no-resolve
+  - IP-CIDR,184.51.102.0/24,no-resolve
+  - IP-CIDR,203.80.97.203/32,no-resolve
+  - IP-CIDR,210.71.227.202/32,no-resolve
+  - IP-CIDR,23.200.145.146/32,no-resolve
+  - IP-CIDR,23.210.215.186/32,no-resolve
+  - IP-CIDR,23.211.15.0/24,no-resolve
+  - IP-CIDR,23.219.172.0/24,no-resolve
+  - IP-CIDR,23.40.242.10/32,no-resolve
+  - IP-CIDR,23.59.252.0/24,no-resolve
+  - PROCESS-NAME,com.iqiyi.i18n
+  - PROCESS-NAME,com.iqiyi.i18n.tv

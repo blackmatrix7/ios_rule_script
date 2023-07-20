@@ -12,16 +12,16 @@ Amazon规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-04-07 14:50:24
+最后更新时间：2023-07-20 23:22:33
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 205  | 
+| DOMAIN-SUFFIX | 206  | 
 | IP-CIDR | 15  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 222  | 
+| TOTAL | 223  | 
 
 
 ## Clash 

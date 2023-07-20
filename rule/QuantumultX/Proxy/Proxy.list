@@ -1,23 +1,28 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-05-08 02:11:34
-# HOST: 12
+# UPDATED: 2023-07-20 23:22:29
+# HOST: 17
 # HOST-KEYWORD: 31
-# HOST-SUFFIX: 6328
-# IP-CIDR: 88
+# HOST-SUFFIX: 6330
+# IP-CIDR: 87
 # IP6-CIDR: 3
 # USER-AGENT: 9
-# TOTAL: 6471
+# TOTAL: 6477
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
 HOST,cdp.cloud.unity3d.com,Proxy
+HOST,chat.openai.com.cdn.cloudflare.net,Proxy
 HOST,cloud.oracle.com,Proxy
 HOST,cvws.icloud-content.com,Proxy
 HOST,developer.apple.com,Proxy
 HOST,lens.l.google.com,Proxy
+HOST,openaiapi-site.azureedge.net,Proxy
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Proxy
+HOST,openaicomproductionae4b.blob.core.windows.net,Proxy
 HOST,p16-tiktokcdn-com.akamaized.net,Proxy
+HOST,production-openaicom-storage.azureedge.net,Proxy
 HOST,services.googleapis.cn,Proxy
 HOST,testflight.apple.com,Proxy
 HOST,voice.telephony.goog,Proxy
@@ -227,7 +232,6 @@ HOST-SUFFIX,agro.hk,Proxy
 HOST-SUFFIX,ahcdn.com,Proxy
 HOST-SUFFIX,ai-kan.net,Proxy
 HOST-SUFFIX,ai-wen.net,Proxy
-HOST-SUFFIX,ai.com,Proxy
 HOST-SUFFIX,ai.google,Proxy
 HOST-SUFFIX,aiph.net,Proxy
 HOST-SUFFIX,airasia.com,Proxy
@@ -557,6 +561,7 @@ HOST-SUFFIX,berlinerbericht.de,Proxy
 HOST-SUFFIX,berlintwitterwall.com,Proxy
 HOST-SUFFIX,berm.co.nz,Proxy
 HOST-SUFFIX,bestforchina.org,Proxy
+HOST-SUFFIX,bestgore.com,Proxy
 HOST-SUFFIX,bestpornstardb.com,Proxy
 HOST-SUFFIX,bestvpn.com,Proxy
 HOST-SUFFIX,bestvpnanalysis.com,Proxy
@@ -1088,6 +1093,7 @@ HOST-SUFFIX,clien.net,Proxy
 HOST-SUFFIX,clinica-tibet.ru,Proxy
 HOST-SUFFIX,clipfish.de,Proxy
 HOST-SUFFIX,cloakpoint.com,Proxy
+HOST-SUFFIX,cloud.cupronickel.goog,Proxy
 HOST-SUFFIX,cloudcone.com,Proxy
 HOST-SUFFIX,cloudflare-ipfs.com,Proxy
 HOST-SUFFIX,cloudflare.com,Proxy
@@ -1374,6 +1380,7 @@ HOST-SUFFIX,dizhuzhishang.com,Proxy
 HOST-SUFFIX,djangosnippets.org,Proxy
 HOST-SUFFIX,djorz.com,Proxy
 HOST-SUFFIX,dl-laby.jp,Proxy
+HOST-SUFFIX,dler.io,Proxy
 HOST-SUFFIX,dlercloud.com,Proxy
 HOST-SUFFIX,dlive.tv,Proxy
 HOST-SUFFIX,dlsite.com,Proxy
@@ -4018,7 +4025,6 @@ HOST-SUFFIX,ontrac.com,Proxy
 HOST-SUFFIX,oopsforum.com,Proxy
 HOST-SUFFIX,ooyala.com,Proxy
 HOST-SUFFIX,open.com.hk,Proxy
-HOST-SUFFIX,openai.com,Proxy
 HOST-SUFFIX,openallweb.com,Proxy
 HOST-SUFFIX,opendemocracy.net,Proxy
 HOST-SUFFIX,opendn.xyz,Proxy
@@ -4090,6 +4096,7 @@ HOST-SUFFIX,pacopacomama.com,Proxy
 HOST-SUFFIX,paddle.com,Proxy
 HOST-SUFFIX,paddleapi.com,Proxy
 HOST-SUFFIX,padmanet.com,Proxy
+HOST-SUFFIX,page.link,Proxy
 HOST-SUFFIX,pages.dev,Proxy
 HOST-SUFFIX,pagodabox.com,Proxy
 HOST-SUFFIX,palacemoon.com,Proxy
@@ -4244,7 +4251,6 @@ HOST-SUFFIX,pobieramy.top,Proxy
 HOST-SUFFIX,podbean.com,Proxy
 HOST-SUFFIX,podcast.co,Proxy
 HOST-SUFFIX,podictionary.com,Proxy
-HOST-SUFFIX,poe.com,Proxy
 HOST-SUFFIX,pokemon.com,Proxy
 HOST-SUFFIX,pokerstars.com,Proxy
 HOST-SUFFIX,pokerstars.net,Proxy
@@ -4774,6 +4780,7 @@ HOST-SUFFIX,sis001.com,Proxy
 HOST-SUFFIX,sis001.us,Proxy
 HOST-SUFFIX,site2unblock.com,Proxy
 HOST-SUFFIX,site90.net,Proxy
+HOST-SUFFIX,sitebro.tw,Proxy
 HOST-SUFFIX,sitekreator.com,Proxy
 HOST-SUFFIX,sitemaps.org,Proxy
 HOST-SUFFIX,six-degrees.io,Proxy
@@ -6437,7 +6444,6 @@ IP-CIDR,180.163.150.162/32,Proxy
 IP-CIDR,180.163.150.34/32,Proxy
 IP-CIDR,180.163.151.162/32,Proxy
 IP-CIDR,180.163.151.34/32,Proxy
-IP-CIDR,183.131.48.0/20,Proxy
 IP-CIDR,184.173.128.0/17,Proxy
 IP-CIDR,185.60.216.0/22,Proxy
 IP-CIDR,203.104.103.0/24,Proxy

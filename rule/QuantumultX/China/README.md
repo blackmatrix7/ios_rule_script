@@ -12,19 +12,19 @@ China规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-07-21 02:10:59
+最后更新时间：2023-07-24 02:11:16
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 19  | 
 | HOST-KEYWORD | 9  | 
-| HOST-SUFFIX | 3637  | 
+| HOST-SUFFIX | 3638  | 
 | HOST-WILDCARD | 1  | 
 | IP-CIDR | 17  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 31  | 
-| TOTAL | 3718  | 
+| TOTAL | 3719  | 
 
 
 ## QuantumultX 

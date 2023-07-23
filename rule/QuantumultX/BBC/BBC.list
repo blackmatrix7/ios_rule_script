@@ -1,12 +1,12 @@
 # NAME: BBC
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:22:33
+# UPDATED: 2023-07-24 02:11:09
 # HOST: 17
 # HOST-KEYWORD: 2
-# HOST-SUFFIX: 15
+# HOST-SUFFIX: 16
 # USER-AGENT: 1
-# TOTAL: 35
+# TOTAL: 36
 HOST,aod-dash-uk-live.akamaized.net,BBC
 HOST,aod-hls-uk-live.akamaized.net,BBC
 HOST,aod-pod-uk-live.akamaized.net,BBC
@@ -25,6 +25,7 @@ HOST,vs-cmaf-pushb-ww-live.akamaized.net,BBC
 HOST,vs-hls-push-uk-live.akamaized.net,BBC
 HOST,vs-hls-pushb-uk-live.akamaized.net,BBC
 HOST-SUFFIX,bbc,BBC
+HOST-SUFFIX,bbc-reporting-api.app,BBC
 HOST-SUFFIX,bbc.co,BBC
 HOST-SUFFIX,bbc.co.uk,BBC
 HOST-SUFFIX,bbc.com,BBC

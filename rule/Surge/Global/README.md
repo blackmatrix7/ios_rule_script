@@ -21,19 +21,19 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-07-26 02:11:36
+最后更新时间：2023-07-27 02:12:38
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 189  | 
+| DOMAIN | 188  | 
 | DOMAIN-KEYWORD | 39  | 
-| DOMAIN-SUFFIX | 19140  | 
+| DOMAIN-SUFFIX | 19151  | 
 | IP-CIDR | 105  | 
 | IP-CIDR6 | 4  | 
 | PROCESS-NAME | 1  | 
 | USER-AGENT | 46  | 
-| TOTAL | 19524  | 
+| TOTAL | 19534  | 
 
 
 ## Surge 

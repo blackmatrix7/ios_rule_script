@@ -1,12 +1,12 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:18:23
+# UPDATED: 2023-07-28 02:07:45
 # DOMAIN: 23677
 # DOMAIN-KEYWORD: 27
-# DOMAIN-SUFFIX: 13751
+# DOMAIN-SUFFIX: 13757
 # IP-CIDR: 184
-# TOTAL: 37639
+# TOTAL: 37645
 payload:
   - DOMAIN,00-gov.cn
   - DOMAIN,0024aadd.com
@@ -30314,6 +30314,7 @@ payload:
   - DOMAIN-SUFFIX,ip.breitbart.com
   - DOMAIN-SUFFIX,ip.hivps.xyz
   - DOMAIN-SUFFIX,ip.taobao.com
+  - DOMAIN-SUFFIX,ipapi.tmbi.com
   - DOMAIN-SUFFIX,ipchinatelecom.com
   - DOMAIN-SUFFIX,ipengtai.huanqiu.com
   - DOMAIN-SUFFIX,iperceptions.com
@@ -31222,6 +31223,7 @@ payload:
   - DOMAIN-SUFFIX,livep.l.ott.video.qq.com
   - DOMAIN-SUFFIX,lives.l.cp81.ott.cibntv.net
   - DOMAIN-SUFFIX,lives.l.ott.video.qq.com
+  - DOMAIN-SUFFIX,livestats.la7.tv
   - DOMAIN-SUFFIX,liveupdate.mac.sandai.net
   - DOMAIN-SUFFIX,lixiangmo.com
   - DOMAIN-SUFFIX,lixianze.top
@@ -31347,6 +31349,7 @@ payload:
   - DOMAIN-SUFFIX,loobusir.com
   - DOMAIN-SUFFIX,looky.hyves.org
   - DOMAIN-SUFFIX,lopostone.com
+  - DOMAIN-SUFFIX,lore.circulate.com
   - DOMAIN-SUFFIX,loricalreach.info
   - DOMAIN-SUFFIX,lottery.kuaiya.cn
   - DOMAIN-SUFFIX,lotuseed.com
@@ -32712,6 +32715,7 @@ payload:
   - DOMAIN-SUFFIX,p.eyebuydirect-cmr.net
   - DOMAIN-SUFFIX,p.kugou.com
   - DOMAIN-SUFFIX,p.m5bn.com
+  - DOMAIN-SUFFIX,p.milliyet.com.tr
   - DOMAIN-SUFFIX,p.niudashu.com
   - DOMAIN-SUFFIX,p.qijijs.top
   - DOMAIN-SUFFIX,p.raidmedia.com.cn
@@ -34593,6 +34597,7 @@ payload:
   - DOMAIN-SUFFIX,stat.moji.com
   - DOMAIN-SUFFIX,stat.novinky.cz
   - DOMAIN-SUFFIX,stat.pandora.xiaomi.com
+  - DOMAIN-SUFFIX,stat.ppstream.com
   - DOMAIN-SUFFIX,stat.pptv.com
   - DOMAIN-SUFFIX,stat.prsmedia.fr
   - DOMAIN-SUFFIX,stat.radar.imgsmail.ru
@@ -35336,6 +35341,7 @@ payload:
   - DOMAIN-SUFFIX,tracking.ancestry.com
   - DOMAIN-SUFFIX,tracking.batanga.com
   - DOMAIN-SUFFIX,tracking.battleon.com
+  - DOMAIN-SUFFIX,tracking.bd4travel.com
   - DOMAIN-SUFFIX,tracking.beilagen-prospekte.de
   - DOMAIN-SUFFIX,tracking.chacha.com
   - DOMAIN-SUFFIX,tracking.conduit.com

@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-27 02:12:38
+# UPDATED: 2023-07-30 02:11:18
 # DOMAIN: 188
 # DOMAIN-KEYWORD: 39
-# DOMAIN-SUFFIX: 19151
+# DOMAIN-SUFFIX: 19154
 # IP-CIDR: 105
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 19488
+# TOTAL: 19491
 payload:
   - DOMAIN,adcdownload.apple.com.akadns.net
   - DOMAIN,adobeereg.com
@@ -593,6 +593,7 @@ payload:
   - DOMAIN-SUFFIX,addtoany.com
   - DOMAIN-SUFFIX,addyoutube.com
   - DOMAIN-SUFFIX,adgoogle.net
+  - DOMAIN-SUFFIX,adguard-dns.com
   - DOMAIN-SUFFIX,adguard-vpn.com
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adhelpnews.com
@@ -1298,6 +1299,7 @@ payload:
   - DOMAIN-SUFFIX,arabysexy.mobi
   - DOMAIN-SUFFIX,arcadewank.com
   - DOMAIN-SUFFIX,arcgisonline.com
+  - DOMAIN-SUFFIX,archive-it.org
   - DOMAIN-SUFFIX,archiveofourown.net
   - DOMAIN-SUFFIX,archlinux.org
   - DOMAIN-SUFFIX,archlinuxarm.org
@@ -9218,6 +9220,7 @@ payload:
   - DOMAIN-SUFFIX,opengraphprotocol.org
   - DOMAIN-SUFFIX,opengw.net
   - DOMAIN-SUFFIX,openjsf.org
+  - DOMAIN-SUFFIX,openlibrary.org
   - DOMAIN-SUFFIX,openmaps.org
   - DOMAIN-SUFFIX,openresty.org
   - DOMAIN-SUFFIX,opensource.guide
@@ -16033,7 +16036,6 @@ payload:
   - DOMAIN-SUFFIX,israbox.com
   - DOMAIN-SUFFIX,issuu.com
   - DOMAIN-SUFFIX,istars.co.nz
-  - DOMAIN-SUFFIX,istarshine.com
   - DOMAIN-SUFFIX,istef.info
   - DOMAIN-SUFFIX,istiqlalhewer.com
   - DOMAIN-SUFFIX,istockphoto.com
@@ -17150,6 +17152,7 @@ payload:
   - DOMAIN-SUFFIX,overcast.fm
   - DOMAIN-SUFFIX,overdaily.org
   - DOMAIN-SUFFIX,overplay.net
+  - DOMAIN-SUFFIX,oversea.istarshine.com
   - DOMAIN-SUFFIX,ovi.com
   - DOMAIN-SUFFIX,ovpn.com
   - DOMAIN-SUFFIX,ow.ly

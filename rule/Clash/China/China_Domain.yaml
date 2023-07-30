@@ -1,13 +1,13 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-24 02:11:16
+# UPDATED: 2023-07-31 02:11:20
 # DOMAIN: 19
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3638
+# DOMAIN-SUFFIX: 3639
 # IP-CIDR: 17
 # IP-CIDR6: 4
-# TOTAL: 3687
+# TOTAL: 3688
 payload:
   - 'analytics.strava.com'
   - 'blzddist1-a.akamaihd.net'
@@ -636,6 +636,7 @@ payload:
   - '+.bytedance.com'
   - '+.bytedance.net'
   - '+.bytedanceapi.com'
+  - '+.bytedapm.com'
   - '+.bytedns.net'
   - '+.bytedns1.com'
   - '+.bytednsdoc.com'

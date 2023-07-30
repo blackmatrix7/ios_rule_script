@@ -1,14 +1,14 @@
 # NAME: Amazon
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-28 02:12:15
+# UPDATED: 2023-07-31 02:11:13
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 207
+# DOMAIN-SUFFIX: 209
 # IP-CIDR: 15
 # URL-REGEX: 1
 # USER-AGENT: 2
-# TOTAL: 226
+# TOTAL: 228
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,a2z.org.cn
 DOMAIN-SUFFIX,aboutamazon.cn
@@ -49,6 +49,7 @@ DOMAIN-SUFFIX,amazon.com.br
 DOMAIN-SUFFIX,amazon.com.mx
 DOMAIN-SUFFIX,amazon.com.tr
 DOMAIN-SUFFIX,amazon.de
+DOMAIN-SUFFIX,amazon.dev
 DOMAIN-SUFFIX,amazon.es
 DOMAIN-SUFFIX,amazon.fr
 DOMAIN-SUFFIX,amazon.in
@@ -146,6 +147,7 @@ DOMAIN-SUFFIX,cdkworkshop.com
 DOMAIN-SUFFIX,cloudfront-cn.net
 DOMAIN-SUFFIX,cloudfront-test.cn
 DOMAIN-SUFFIX,cloudfront.cn
+DOMAIN-SUFFIX,cloudfront.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,containersonaws.com
 DOMAIN-SUFFIX,createspace.com

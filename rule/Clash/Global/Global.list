@@ -1,15 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-30 02:11:18
-# DOMAIN: 188
+# UPDATED: 2023-07-31 02:10:51
+# DOMAIN: 154
 # DOMAIN-KEYWORD: 39
-# DOMAIN-SUFFIX: 19154
+# DOMAIN-SUFFIX: 19156
 # IP-CIDR: 105
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 19491
-DOMAIN,adcdownload.apple.com.akadns.net
+# TOTAL: 19459
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
 DOMAIN,anime-rule34-world.b-cdn.net
@@ -32,22 +31,12 @@ DOMAIN,blz.nosdn.127.net
 DOMAIN,cbsi.live.ott.irdeto.com
 DOMAIN,cbsplaylistserver.aws.syncbak.com
 DOMAIN,cbsservice.aws.syncbak.com
-DOMAIN,cds.apple.com.akadns.net
-DOMAIN,certs-lb.apple.com.akadns.net
 DOMAIN,cisco.evergage.com
-DOMAIN,cl1-cdn.origin-apple.com.akadns.net
-DOMAIN,cl3-cdn.origin-apple.com.akadns.net
-DOMAIN,cl4-cdn.origin-apple.com.akadns.net
-DOMAIN,cl5-cdn.origin-apple.com.akadns.net
-DOMAIN,clientflow.apple.com.akadns.net
 DOMAIN,clubhouse.pubnubapi.com
-DOMAIN,configuration.apple.com.akadns.net
 DOMAIN,courier-push-apple.com.akadns.net
-DOMAIN,crl-lb.apple.com.akadns.net
 DOMAIN,crl.microsoft.com
 DOMAIN,crl.versign.net
 DOMAIN,databank.worldbank.org
-DOMAIN,dd-cdn.origin-apple.com.akadns.net
 DOMAIN,default.exp-tas.com
 DOMAIN,deutschewelle.h-cdn.com
 DOMAIN,developer.microsoft.com
@@ -62,44 +51,30 @@ DOMAIN,espndotcom.tt.omtrdc.net
 DOMAIN,faronics.kayako.com
 DOMAIN,firstsearch.oclc.org
 DOMAIN,gog.qtlglb.com
-DOMAIN,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN,gspe19-cn.ls-apple.com.akadns.net
 DOMAIN,hearthstone.nosdn.127.net
 DOMAIN,heroes.nos.netease.com
 DOMAIN,hpstore.corpmerchandise.com
 DOMAIN,i.jeded.com
-DOMAIN,icloud-cdn.icloud.com.akadns.net
-DOMAIN,images.apple.com.akadns.net
-DOMAIN,images.apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN,imperial.insendi.com
-DOMAIN,init-p01md-lb.push-apple.com.akadns.net
-DOMAIN,init-p01st-lb.push-apple.com.akadns.net
-DOMAIN,init-s01st-lb.push-apple.com.akadns.net
 DOMAIN,lgelectronics.122.2o7.net
 DOMAIN,licdn.cn.cdn20.com
 DOMAIN,linkedin.sc.omtrdc.net
 DOMAIN,live-patreon-marketing.pantheonsite.io
 DOMAIN,mdn.mozillademos.org
 DOMAIN,medone-education.thieme.com
-DOMAIN,mesu-cdn.apple.com.akadns.net
-DOMAIN,mesu-china.apple.com.akadns.net
 DOMAIN,mscrl.microsoft.com
 DOMAIN,muse.jhu.edu
 DOMAIN,nationalaustraliaban.tt.omtrdc.net
 DOMAIN,nvidia.tt.omtrdc.net
-DOMAIN,ocsp-lb.apple.com.akadns.net
 DOMAIN,ocsp.microsoft.com
-DOMAIN,ocsp2-lb.apple.com.akadns.net
 DOMAIN,oneocsp.microsoft.com
 DOMAIN,ood.opsource.net
-DOMAIN,oscdn.origin-apple.com.akadns.net
 DOMAIN,overwatch.nosdn.127.net
 DOMAIN,pchomeonline.com.tw
 DOMAIN,practivate.adobe
 DOMAIN,practivate.adobe.ipp
 DOMAIN,practivate.adobe.newoa
 DOMAIN,practivate.adobe.ntp
-DOMAIN,prod-support.apple-support.akadns.net
 DOMAIN,push-apple.com.akadns.net
 DOMAIN,qualcomm.sc.omtrdc.net
 DOMAIN,sc2.nosdn.127.net
@@ -174,18 +149,10 @@ DOMAIN,scholar.google.ru
 DOMAIN,scholar.google.se
 DOMAIN,scholar.google.si
 DOMAIN,scholar.google.sk
-DOMAIN,stocks-sparkline-lb.apple.com.akadns.net
-DOMAIN,store.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN,store.storeimages.apple.com.akadns.net
-DOMAIN,support-china.apple-support.akadns.net
-DOMAIN,swcatalog-cdn.apple.com.akadns.net
-DOMAIN,swdist.apple.com.akadns.net
-DOMAIN,swscan-cdn.apple.com.akadns.net
 DOMAIN,t21.nikkei.co.jp
 DOMAIN,t21ipau.nikkei.co.jp
 DOMAIN,tesla-cdn.thron.cn
 DOMAIN,tesla-cdn.thron.com
-DOMAIN,valid.origin-apple.com.akadns.net
 DOMAIN,vmware.tt.omtrdc.net
 DOMAIN,vscode.search.windows.net
 DOMAIN,vsmarketplacebadge.apphb.com
@@ -193,7 +160,6 @@ DOMAIN,widgets.stripst.com
 DOMAIN,wow.nosdn.127.net
 DOMAIN,wrds-www.wharton.upenn.edu
 DOMAIN,www-cdn.icloud.com.akadns.net
-DOMAIN,www.apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,cloud.oracle.com
@@ -3102,6 +3068,7 @@ DOMAIN-SUFFIX,cloudconvert.com
 DOMAIN-SUFFIX,cloudcraze.com
 DOMAIN-SUFFIX,cloudcredibility.com
 DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflare-gateway.com
 DOMAIN-SUFFIX,cloudflare-quic.com
 DOMAIN-SUFFIX,cloudflare.net
 DOMAIN-SUFFIX,cloudflareaccess.com
@@ -3110,6 +3077,7 @@ DOMAIN-SUFFIX,cloudflarebolt.com
 DOMAIN-SUFFIX,cloudflareclient.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,cloudflareok.com
+DOMAIN-SUFFIX,cloudflareportal.com
 DOMAIN-SUFFIX,cloudflarepreview.com
 DOMAIN-SUFFIX,cloudflareresolve.com
 DOMAIN-SUFFIX,cloudflaressl.com
@@ -6942,7 +6910,6 @@ DOMAIN-SUFFIX,itu.int
 DOMAIN-SUFFIX,itunbes.com
 DOMAIN-SUFFIX,ituneas.com
 DOMAIN-SUFFIX,itunes-apple.cn
-DOMAIN-SUFFIX,itunes-apple.com.akadns.net
 DOMAIN-SUFFIX,itunes-radio.net
 DOMAIN-SUFFIX,itunes.co
 DOMAIN-SUFFIX,itunes.com
@@ -9630,6 +9597,8 @@ DOMAIN-SUFFIX,pieceofplastic.com
 DOMAIN-SUFFIX,pifpafarabia.com
 DOMAIN-SUFFIX,pigav.com
 DOMAIN-SUFFIX,pikabu.monster
+DOMAIN-SUFFIX,pikpak.me
+DOMAIN-SUFFIX,pikpakdrive.com
 DOMAIN-SUFFIX,pillbeatsblackfridaysale.com
 DOMAIN-SUFFIX,pinduck.com
 DOMAIN-SUFFIX,pinflix.com
@@ -11068,11 +11037,9 @@ DOMAIN-SUFFIX,sky.com
 DOMAIN-SUFFIX,skyassets.com
 DOMAIN-SUFFIX,skydweller.cn
 DOMAIN-SUFFIX,skyoceanrescue.com
-DOMAIN-SUFFIX,skype-edf.akadns.net
 DOMAIN-SUFFIX,skype.net
 DOMAIN-SUFFIX,skypeassets.com
 DOMAIN-SUFFIX,skypeassets.net
-DOMAIN-SUFFIX,skypedata.akadns.net
 DOMAIN-SUFFIX,skyporn.online
 DOMAIN-SUFFIX,skysports.com
 DOMAIN-SUFFIX,skysportsonline.com
@@ -12511,6 +12478,7 @@ DOMAIN-SUFFIX,wal-mart.com
 DOMAIN-SUFFIX,wal.co
 DOMAIN-SUFFIX,wallet.com
 DOMAIN-SUFFIX,walmart-content.com
+DOMAIN-SUFFIX,walmart.cn
 DOMAIN-SUFFIX,walmart.com
 DOMAIN-SUFFIX,walmart.pharmacy
 DOMAIN-SUFFIX,walmartimages.com

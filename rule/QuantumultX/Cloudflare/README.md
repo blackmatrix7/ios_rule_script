@@ -12,15 +12,15 @@ Cloudflare规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-07-20 23:22:32
+最后更新时间：2023-07-31 02:11:12
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST-SUFFIX | 44  | 
+| HOST-SUFFIX | 46  | 
 | IP-CIDR | 14  | 
 | IP6-CIDR | 7  | 
-| TOTAL | 65  | 
+| TOTAL | 67  | 
 
 
 ## QuantumultX 

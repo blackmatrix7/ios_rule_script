@@ -1,11 +1,11 @@
 #!name=Advertising
-#!desc=最后更新时间 2023-07-20 23:25:25
+#!desc=最后更新时间 2023-08-02 02:14:38
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=557
+#!reject=558
 #!mitm=517
 #!force-http-engine-hosts=6
-#!total=1080
+#!total=1081
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -67,6 +67,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/\w+\.kingsoft-office-service\.com\/ad" - reject
 "^https?:\/\/a\.qiumibao\.com\/activities\/config\.php" - reject
 "^https?:\/\/a\.qiumibao\.com\/ios\/config\/\?version_code=" - reject
+"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.mec\.popup\.get" - reject
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/" - reject
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.allresource" - reject
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/" - reject

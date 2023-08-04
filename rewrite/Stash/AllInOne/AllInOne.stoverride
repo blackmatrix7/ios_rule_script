@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-08-02 02:14:43
+desc: 最后更新时间 2023-08-05 02:15:55
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 519
-# mitm: 575
+# reject: 520
+# mitm: 576
 # force-http-engine-hosts: 6
-# total: 1138
+# total: 1140
 
 
 
@@ -126,6 +126,7 @@ http:
     - ^https?:\/\/api\.jxedt\.com\/ad\/ - reject
     - ^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense - reject
     - ^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/ - reject
+    - ^https?:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/(resource|banner) - reject
     - ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
     - ^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject
     - ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
@@ -850,6 +851,7 @@ http:
     - "api.jr.mi.com"
     - "api.jxedt.com"
     - "api.kkmh.com"
+    - "api.kmovie.gifshow.com"
     - "api.laifeng.com"
     - "api.m.jd.com"
     - "api.m.mi.com"

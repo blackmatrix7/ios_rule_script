@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-08-05 02:16:04
+desc: 最后更新时间 2023-08-07 02:16:47
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 509
-# mitm: 422
+# reject: 510
+# mitm: 423
 # force-http-engine-hosts: 6
-# total: 937
+# total: 939
 
 
 
@@ -496,6 +496,7 @@ http:
     - ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d - reject
     - ^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$ - reject
     - ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ - reject
+    - ^https?:\/\/ytmsout\.radio\.cn\/publish\/recScreen\/getLoadPage - reject
     - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A002 - reject
     - ^https?:\/\/yxyapi2\.yuxueyuan\.cn\/yxy-api-gateway\/api\/json\/advert\/getsAdStartScreen - reject
     - ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
@@ -948,6 +949,7 @@ http:
     - "xyz.cnki.net"
     - "y.gtimg.cn"
     - "yanxuan.nosdn.127.net"
+    - "ytmsout.radio.cn"
     - "yunbusiness.ccb.com"
     - "yxyapi*.drcuiyutao.com"
     - "yxyapi2.yuxueyuan.cn"

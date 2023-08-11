@@ -16,14 +16,14 @@
 
 ## 规则统计
 
-最后更新时间：2023-08-07 02:16:33
+最后更新时间：2023-08-12 02:16:43
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| REJECT | 587  | 
-| MITM | 467  | 
-| TOTAL | 1054  | 
+| REJECT | 751  | 
+| MITM | 555  | 
+| TOTAL | 1306  | 
 
 
 ## QuantumultX 
@@ -72,6 +72,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list
 - https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/YouTubeAds.sgmodule
+- https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet
+- https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/tailadv.conf
+- https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

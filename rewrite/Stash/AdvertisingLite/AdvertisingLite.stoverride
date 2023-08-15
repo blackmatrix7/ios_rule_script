@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-08-14 02:15:09
+desc: 最后更新时间 2023-08-16 02:16:16
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 511
-# mitm: 424
+# reject: 510
+# mitm: 423
 # force-http-engine-hosts: 6
-# total: 941
+# total: 939
 
 
 
@@ -344,7 +344,6 @@ http:
     - ^https?:\/\/mapi\.sfbest\.com\/brokerservice-server\/cms\/getPositionById.* - reject
     - ^https?:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
     - ^https?:\/\/media\.qyer\.com\/ad\/ - reject
-    - ^https?:\/\/mgw\.mpaas\.cn-hangzhou\.aliyuncs\.com\/mgw\.htm - reject
     - ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
     - ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$ - reject
     - ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
@@ -810,7 +809,6 @@ http:
     - "mapi.sfbest.com"
     - "mbd.baidu.com"
     - "media.qyer.com"
-    - "mgw.mpaas.cn-hangzhou.aliyuncs.com"
     - "mi.gdt.qq.com"
     - "mime.baidu.com"
     - "mlife.jf365.boc.cn"

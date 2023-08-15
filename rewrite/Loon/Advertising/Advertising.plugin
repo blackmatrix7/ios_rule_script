@@ -1,12 +1,12 @@
 #!name= Advertising
-#!desc= 最后更新时间 2023-08-14 02:14:53
+#!desc= 最后更新时间 2023-08-16 02:15:57
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 725
+#!reject= 724
 #!mitm= 660
-#!total= 1385
+#!total= 1384
 
 
 [Rewrite]
@@ -523,7 +523,6 @@
 ^https?:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
 ^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg - reject-200
 ^https?:\/\/media\.qyer\.com\/ad\/ - reject
-^https?:\/\/mgw\.mpaas\.cn-hangzhou\.aliyuncs\.com\/mgw\.htm - reject
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
 ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$ - reject
 ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject

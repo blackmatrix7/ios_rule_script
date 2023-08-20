@@ -12,17 +12,17 @@ Amazon规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-07-31 02:11:13
+最后更新时间：2023-08-21 02:11:19
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 209  | 
+| DOMAIN-SUFFIX | 210  | 
 | IP-CIDR | 15  | 
 | URL-REGEX | 1  | 
 | USER-AGENT | 2  | 
-| TOTAL | 228  | 
+| TOTAL | 229  | 
 
 
 ## Loon 

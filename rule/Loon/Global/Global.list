@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-08-23 02:11:59
+# UPDATED: 2023-08-23 13:09:07
 # DOMAIN: 154
-# DOMAIN-KEYWORD: 39
-# DOMAIN-SUFFIX: 19165
-# IP-CIDR: 105
+# DOMAIN-KEYWORD: 38
+# DOMAIN-SUFFIX: 19157
+# IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 19513
+# TOTAL: 19511
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
@@ -41,7 +41,6 @@ DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,skydrive
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,tesla
 DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,twitter
@@ -123,6 +122,7 @@ IP-CIDR,129.134.0.0/17,no-resolve
 IP-CIDR,129.226.0.0/16,no-resolve
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
+IP-CIDR,14.102.250.18/31,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR,157.240.0.0/17,no-resolve
@@ -134,6 +134,7 @@ IP-CIDR,173.192.222.160/27,no-resolve
 IP-CIDR,173.192.231.32/27,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
 IP-CIDR,173.252.64.0/18,no-resolve
+IP-CIDR,174.142.105.153/32,no-resolve
 IP-CIDR,174.37.0.0/16,no-resolve
 IP-CIDR,179.60.192.0/22,no-resolve
 IP-CIDR,18.184.0.0/15,no-resolve
@@ -191,8 +192,13 @@ IP-CIDR,54.93.0.0/16,no-resolve
 IP-CIDR,64.120.128.0/17,no-resolve
 IP-CIDR,66.197.128.0/17,no-resolve
 IP-CIDR,66.220.144.0/20,no-resolve
+IP-CIDR,67.220.91.15/32,no-resolve
+IP-CIDR,67.220.91.18/32,no-resolve
+IP-CIDR,67.220.91.23/32,no-resolve
 IP-CIDR,69.171.224.0/19,no-resolve
 IP-CIDR,69.63.176.0/20,no-resolve
+IP-CIDR,69.65.19.160/32,no-resolve
+IP-CIDR,72.52.81.22/32,no-resolve
 IP-CIDR,74.119.76.0/22,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,74.86.0.0/16,no-resolve

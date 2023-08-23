@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-08-21 02:11:15
+# UPDATED: 2023-08-23 13:09:27
 # HOST: 17
-# HOST-KEYWORD: 31
-# HOST-SUFFIX: 6333
-# IP-CIDR: 87
+# HOST-KEYWORD: 30
+# HOST-SUFFIX: 6325
+# IP-CIDR: 94
 # IP6-CIDR: 3
 # USER-AGENT: 9
-# TOTAL: 6480
+# TOTAL: 6478
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -42,14 +42,11 @@ HOST-SUFFIX,12vpn.com,Proxy
 HOST-SUFFIX,12vpn.net,Proxy
 HOST-SUFFIX,1337x.to,Proxy
 HOST-SUFFIX,138.com,Proxy
-HOST-SUFFIX,14.102.250.18,Proxy
-HOST-SUFFIX,14.102.250.19,Proxy
 HOST-SUFFIX,141hongkong.com,Proxy
 HOST-SUFFIX,141jj.com,Proxy
 HOST-SUFFIX,141tube.com,Proxy
 HOST-SUFFIX,1688.com.au,Proxy
 HOST-SUFFIX,173ng.com,Proxy
-HOST-SUFFIX,174.142.105.153,Proxy
 HOST-SUFFIX,177pic.info,Proxy
 HOST-SUFFIX,17t17p.com,Proxy
 HOST-SUFFIX,18board.com,Proxy
@@ -130,17 +127,12 @@ HOST-SUFFIX,64tianwang.com,Proxy
 HOST-SUFFIX,64wiki.com,Proxy
 HOST-SUFFIX,66.ca,Proxy
 HOST-SUFFIX,666kb.com,Proxy
-HOST-SUFFIX,67.220.91.15,Proxy
-HOST-SUFFIX,67.220.91.18,Proxy
-HOST-SUFFIX,67.220.91.23,Proxy
-HOST-SUFFIX,69.65.19.160,Proxy
 HOST-SUFFIX,6do.news,Proxy
 HOST-SUFFIX,6park.com,Proxy
 HOST-SUFFIX,6parkbbs.com,Proxy
 HOST-SUFFIX,6parker.com,Proxy
 HOST-SUFFIX,6parknews.com,Proxy
 HOST-SUFFIX,7-zip.org,Proxy
-HOST-SUFFIX,72.52.81.22,Proxy
 HOST-SUFFIX,7capture.com,Proxy
 HOST-SUFFIX,7cow.com,Proxy
 HOST-SUFFIX,8-d.com,Proxy
@@ -6383,7 +6375,6 @@ HOST-KEYWORD,sci-hub,Proxy
 HOST-KEYWORD,skydrive,Proxy
 HOST-KEYWORD,spotify,Proxy
 HOST-KEYWORD,telegram,Proxy
-HOST-KEYWORD,tesla,Proxy
 HOST-KEYWORD,tiktok,Proxy
 HOST-KEYWORD,ttvnw,Proxy
 HOST-KEYWORD,twitter,Proxy
@@ -6427,6 +6418,7 @@ IP-CIDR,129.134.0.0/17,Proxy
 IP-CIDR,129.226.0.0/16,Proxy
 IP-CIDR,13.32.0.0/15,Proxy
 IP-CIDR,13.35.0.0/17,Proxy
+IP-CIDR,14.102.250.18/31,Proxy
 IP-CIDR,147.92.128.0/17,Proxy
 IP-CIDR,149.154.160.0/20,Proxy
 IP-CIDR,157.240.0.0/17,Proxy
@@ -6437,6 +6429,7 @@ IP-CIDR,173.192.222.160/27,Proxy
 IP-CIDR,173.192.231.32/27,Proxy
 IP-CIDR,173.194.0.0/16,Proxy
 IP-CIDR,173.252.64.0/18,Proxy
+IP-CIDR,174.142.105.153/32,Proxy
 IP-CIDR,174.37.0.0/16,Proxy
 IP-CIDR,179.60.192.0/22,Proxy
 IP-CIDR,18.184.0.0/15,Proxy
@@ -6479,8 +6472,13 @@ IP-CIDR,54.230.156.0/22,Proxy
 IP-CIDR,54.242.0.0/15,Proxy
 IP-CIDR,54.93.0.0/16,Proxy
 IP-CIDR,66.220.144.0/20,Proxy
+IP-CIDR,67.220.91.15/32,Proxy
+IP-CIDR,67.220.91.18/32,Proxy
+IP-CIDR,67.220.91.23/32,Proxy
 IP-CIDR,69.171.224.0/19,Proxy
 IP-CIDR,69.63.176.0/20,Proxy
+IP-CIDR,69.65.19.160/32,Proxy
+IP-CIDR,72.52.81.22/32,Proxy
 IP-CIDR,74.119.76.0/22,Proxy
 IP-CIDR,74.125.0.0/16,Proxy
 IP-CIDR,74.86.0.0/16,Proxy

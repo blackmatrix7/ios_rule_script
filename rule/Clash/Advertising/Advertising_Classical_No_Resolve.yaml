@@ -1,12 +1,12 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-08-23 13:05:31
-# DOMAIN: 16054
+# UPDATED: 2023-08-25 02:08:16
+# DOMAIN: 16062
 # DOMAIN-KEYWORD: 76
-# DOMAIN-SUFFIX: 94354
+# DOMAIN-SUFFIX: 94366
 # IP-CIDR: 316
-# TOTAL: 110800
+# TOTAL: 110820
 payload:
   - DOMAIN,03.lzzncm.com
   - DOMAIN,04.lzzncm.com
@@ -596,6 +596,7 @@ payload:
   - DOMAIN,api.parse.com
   - DOMAIN,api.platform.letv.com
   - DOMAIN,api.player.xcal.tv
+  - DOMAIN,api.poll.aiseet.atianqi.com
   - DOMAIN,api.postscript.io
   - DOMAIN,api.radar.io
   - DOMAIN,api.sailthru.com
@@ -784,6 +785,7 @@ payload:
   - DOMAIN,bskn.pro
   - DOMAIN,bt49.com
   - DOMAIN,btjhhb.com
+  - DOMAIN,btrace.play.aiseet.atianqi.com
   - DOMAIN,btrace.ysp.cctv.cn
   - DOMAIN,bttn.io
   - DOMAIN,bugsense.com
@@ -1169,6 +1171,7 @@ payload:
   - DOMAIN,download.88kwp.com
   - DOMAIN,download.rising.com.cn
   - DOMAIN,download.youzu.com
+  - DOMAIN,dp3.play.aiseet.atianqi.com
   - DOMAIN,dptr.areyouahuman.com
   - DOMAIN,drivecdn.com
   - DOMAIN,ds-api-public.addthis.com.edgekey.net
@@ -1580,6 +1583,8 @@ payload:
   - DOMAIN,lightstep-collector.api.ua.com
   - DOMAIN,live-api.immomo.com
   - DOMAIN,liveinternet.ru
+  - DOMAIN,livep.l.aiseet.atianqi.com
+  - DOMAIN,lives.l.aiseet.atianqi.com
   - DOMAIN,ll88y.com
   - DOMAIN,lm.6hld.com
   - DOMAIN,load.fomo.com
@@ -1723,6 +1728,7 @@ payload:
   - DOMAIN,mon-va.tiktokv.com
   - DOMAIN,mon.ad.xelements.cn
   - DOMAIN,monetize-api.coronalabs.com
+  - DOMAIN,monitor-uu.play.aiseet.atianqi.com
   - DOMAIN,mookie1.com.edgekey.net
   - DOMAIN,mop1.pyzhtj.com
   - DOMAIN,most-popular-info.g5e.com
@@ -1736,6 +1742,7 @@ payload:
   - DOMAIN,ms994.com
   - DOMAIN,msafe.cn
   - DOMAIN,msecret.cn
+  - DOMAIN,mtrace.play.aiseet.atianqi.com
   - DOMAIN,mtrace.play.cp81.ott.cibntv.net
   - DOMAIN,mtrace.ysp.cctv.cn
   - DOMAIN,mtt.eve.mdt.qq.com
@@ -2094,6 +2101,7 @@ payload:
   - DOMAIN,sdkapicdn.applanga.com
   - DOMAIN,sdkconf.msstatic.com
   - DOMAIN,sdkconfig.ad.india.xiaomi.com
+  - DOMAIN,sdkconfig.play.aiseet.atianqi.com
   - DOMAIN,sdkgw.us1.twilio.com
   - DOMAIN,sdn.gongkao.hn.cn
   - DOMAIN,sec.video.qq.com
@@ -17528,6 +17536,7 @@ payload:
   - DOMAIN-SUFFIX,5jhsbdjfsdf5.monster
   - DOMAIN-SUFFIX,5jshdbjfsdf55.monster
   - DOMAIN-SUFFIX,5kmp7.top
+  - DOMAIN-SUFFIX,5lfgdju.com
   - DOMAIN-SUFFIX,5lna.xyz
   - DOMAIN-SUFFIX,5lpt.cn
   - DOMAIN-SUFFIX,5lu8.com
@@ -23273,6 +23282,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.cloudron.io
   - DOMAIN-SUFFIX,analytics.cn.ru
   - DOMAIN-SUFFIX,analytics.cnd-motionmedia.de
+  - DOMAIN-SUFFIX,analytics.code.illusion.jp
   - DOMAIN-SUFFIX,analytics.crea.ca
   - DOMAIN-SUFFIX,analytics.dap-networks.de
   - DOMAIN-SUFFIX,analytics.dashboard.fingerprint.com
@@ -23291,6 +23301,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.edgesuite.net
   - DOMAIN-SUFFIX,analytics.electro-com.ru
   - DOMAIN-SUFFIX,analytics.elegela.net
+  - DOMAIN-SUFFIX,analytics.elegela.us
   - DOMAIN-SUFFIX,analytics.emarketer.com
   - DOMAIN-SUFFIX,analytics.enjoymobiserver.com
   - DOMAIN-SUFFIX,analytics.evgcdn.net
@@ -23513,6 +23524,7 @@ payload:
   - DOMAIN-SUFFIX,androidtvchannels-pa.googleapis.com
   - DOMAIN-SUFFIX,androidtvwatsonfe-pa.googleapis.com
   - DOMAIN-SUFFIX,andromedawallet.com
+  - DOMAIN-SUFFIX,andrqd.play.aiseet.atianqi.com
   - DOMAIN-SUFFIX,andsedrit.com
   - DOMAIN-SUFFIX,andtheat.buzz
   - DOMAIN-SUFFIX,andwhenmyf.xyz
@@ -38389,6 +38401,7 @@ payload:
   - DOMAIN-SUFFIX,fgceajcbjihgiacceade.ru
   - DOMAIN-SUFFIX,fgddrrr.com
   - DOMAIN-SUFFIX,fgdtln.xyz
+  - DOMAIN-SUFFIX,fgetmzx.icu
   - DOMAIN-SUFFIX,fgfgnbmeieorr910.com
   - DOMAIN-SUFFIX,fghnergyflex.xyz
   - DOMAIN-SUFFIX,fgi90.com
@@ -42178,6 +42191,7 @@ payload:
   - DOMAIN-SUFFIX,hegarberetrof.pro
   - DOMAIN-SUFFIX,hegazedatthewo.com
   - DOMAIN-SUFFIX,hegk01a.top
+  - DOMAIN-SUFFIX,hegk02a.top
   - DOMAIN-SUFFIX,hegk03a.top
   - DOMAIN-SUFFIX,hegk05a.top
   - DOMAIN-SUFFIX,hegk09a.top
@@ -53156,6 +53170,7 @@ payload:
   - DOMAIN-SUFFIX,news-flash.net
   - DOMAIN-SUFFIX,news-headlines.co
   - DOMAIN-SUFFIX,news-host.net
+  - DOMAIN-SUFFIX,news-l.play.aiseet.atianqi.com
   - DOMAIN-SUFFIX,news-mars.com
   - DOMAIN-SUFFIX,news-molixo.cc
   - DOMAIN-SUFFIX,news-muheji.com
@@ -55240,6 +55255,7 @@ payload:
   - DOMAIN-SUFFIX,opt-intelligence.com
   - DOMAIN-SUFFIX,opt8.co
   - DOMAIN-SUFFIX,optad360.io
+  - DOMAIN-SUFFIX,optaivuy.net
   - DOMAIN-SUFFIX,optaroag.com
   - DOMAIN-SUFFIX,optcrockery.com
   - DOMAIN-SUFFIX,opteama.com
@@ -55295,6 +55311,7 @@ payload:
   - DOMAIN-SUFFIX,oqwrba.com
   - DOMAIN-SUFFIX,oqxehynxtckgha.com
   - DOMAIN-SUFFIX,oqxep.cn
+  - DOMAIN-SUFFIX,oqyiapj.cn
   - DOMAIN-SUFFIX,or.5.p2l.info
   - DOMAIN-SUFFIX,oracleinfinity.io
   - DOMAIN-SUFFIX,orahmaggi.xyz
@@ -55484,9 +55501,11 @@ payload:
   - DOMAIN-SUFFIX,othersonline.com
   - DOMAIN-SUFFIX,otherwiseassurednessloaf.com
   - DOMAIN-SUFFIX,otherwiseparticipate.com
+  - DOMAIN-SUFFIX,otheve.play.aiseet.atianqi.com
   - DOMAIN-SUFFIX,otheyrami.xyz
   - DOMAIN-SUFFIX,othoj.xyz
   - DOMAIN-SUFFIX,othonnabusaos.com
+  - DOMAIN-SUFFIX,othstr.play.aiseet.atianqi.com
   - DOMAIN-SUFFIX,otiatryenfeoff.live
   - DOMAIN-SUFFIX,otiatrygetable.uno
   - DOMAIN-SUFFIX,otigainareput.info
@@ -55718,7 +55737,6 @@ payload:
   - DOMAIN-SUFFIX,ovhodsalpm.com
   - DOMAIN-SUFFIX,ovibospeseta.com
   - DOMAIN-SUFFIX,ovintic.ru
-  - DOMAIN-SUFFIX,ovk.xceler8.io
   - DOMAIN-SUFFIX,ovmhwiccikr.com
   - DOMAIN-SUFFIX,ovoadv.com
   - DOMAIN-SUFFIX,ovoordie.xyz
@@ -55852,6 +55870,7 @@ payload:
   - DOMAIN-SUFFIX,p-behacdn.ksmobile.net
   - DOMAIN-SUFFIX,p-digital-server.com
   - DOMAIN-SUFFIX,p-events.ivideosmart.com
+  - DOMAIN-SUFFIX,p-l.play.aiseet.atianqi.com
   - DOMAIN-SUFFIX,p-n.io
   - DOMAIN-SUFFIX,p-td.com
   - DOMAIN-SUFFIX,p.altergeo.ru
@@ -57600,6 +57619,7 @@ payload:
   - DOMAIN-SUFFIX,pnesemr.cn
   - DOMAIN-SUFFIX,pnez8.rut6m.xyz
   - DOMAIN-SUFFIX,pngme.ru
+  - DOMAIN-SUFFIX,pnlhnx.xyz
   - DOMAIN-SUFFIX,pnperf.com
   - DOMAIN-SUFFIX,pnpmreuwqv.xyz
   - DOMAIN-SUFFIX,pnrblholty.com
@@ -65880,7 +65900,6 @@ payload:
   - DOMAIN-SUFFIX,stats.popcap.com
   - DOMAIN-SUFFIX,stats.popscreen.com
   - DOMAIN-SUFFIX,stats.proff.se
-  - DOMAIN-SUFFIX,stats.qmerce.com
   - DOMAIN-SUFFIX,stats.radiostreamlive.com
   - DOMAIN-SUFFIX,stats.rbc.ua
   - DOMAIN-SUFFIX,stats.rdphv.net
@@ -66919,6 +66938,7 @@ payload:
   - DOMAIN-SUFFIX,szzb.xyz
   - DOMAIN-SUFFIX,t-analytics.com
   - DOMAIN-SUFFIX,t-fb-w-sv-bn-7j.ru
+  - DOMAIN-SUFFIX,t-l.play.aiseet.atianqi.com
   - DOMAIN-SUFFIX,t-o-kitano.com
   - DOMAIN-SUFFIX,t-support.net
   - DOMAIN-SUFFIX,t.451.io
@@ -66934,7 +66954,6 @@ payload:
   - DOMAIN-SUFFIX,t.carta.com
   - DOMAIN-SUFFIX,t.cotsta.ru
   - DOMAIN-SUFFIX,t.counter.dev
-  - DOMAIN-SUFFIX,t.custora.com
   - DOMAIN-SUFFIX,t.dgm-au.com
   - DOMAIN-SUFFIX,t.elasticsuite.io
   - DOMAIN-SUFFIX,t.eloqua.com
@@ -68733,7 +68752,6 @@ payload:
   - DOMAIN-SUFFIX,top-performance.work
   - DOMAIN-SUFFIX,top-ro.ro
   - DOMAIN-SUFFIX,top-site-list.com
-  - DOMAIN-SUFFIX,top.eomy.net
   - DOMAIN-SUFFIX,top.gigmir.net
   - DOMAIN-SUFFIX,top.list.ru
   - DOMAIN-SUFFIX,top.lv
@@ -69520,6 +69538,7 @@ payload:
   - DOMAIN-SUFFIX,tracking.smalandsdagblad.se
   - DOMAIN-SUFFIX,tracking.smalanningen.se
   - DOMAIN-SUFFIX,tracking.smt.se
+  - DOMAIN-SUFFIX,tracking.socketlabs.com
   - DOMAIN-SUFFIX,tracking.soderhamnskuriren.se
   - DOMAIN-SUFFIX,tracking.sodran.se
   - DOMAIN-SUFFIX,tracking.st.nu
@@ -73343,6 +73362,7 @@ payload:
   - DOMAIN-SUFFIX,waykingroup.com
   - DOMAIN-SUFFIX,waymarkgentiin.com
   - DOMAIN-SUFFIX,waymentriddel.com
+  - DOMAIN-SUFFIX,wazaki.xyz
   - DOMAIN-SUFFIX,wazbuvdcij.com
   - DOMAIN-SUFFIX,wazensee.net
   - DOMAIN-SUFFIX,wazimo.com
@@ -77504,6 +77524,7 @@ payload:
   - DOMAIN-SUFFIX,zplayer-trk.zdn.vn
   - DOMAIN-SUFFIX,zplayer.trk.zapps.vn
   - DOMAIN-SUFFIX,zpmkwufagp.com
+  - DOMAIN-SUFFIX,zpotkvpy.icu
   - DOMAIN-SUFFIX,zppfjh.xyz
   - DOMAIN-SUFFIX,zpreland.com
   - DOMAIN-SUFFIX,zprelandappslab.com
@@ -79516,7 +79537,6 @@ payload:
   - DOMAIN-SUFFIX,airstossiplarge.info
   - DOMAIN-SUFFIX,ais.abacast.com
   - DOMAIN-SUFFIX,aiseet.aa.atianqi.com
-  - DOMAIN-SUFFIX,aiseet.atianqi.com
   - DOMAIN-SUFFIX,aishake.cn
   - DOMAIN-SUFFIX,aishang.bid
   - DOMAIN-SUFFIX,aishangcan.com

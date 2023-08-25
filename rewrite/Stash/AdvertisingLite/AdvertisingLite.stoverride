@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-08-16 02:16:16
+desc: 最后更新时间 2023-08-26 02:17:13
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 510
-# mitm: 423
+# reject: 512
+# mitm: 425
 # force-http-engine-hosts: 6
-# total: 939
+# total: 943
 
 
 
@@ -324,6 +324,7 @@ http:
     - ^https?:\/\/m\.ctrip\.com\/restapi\/[\w\/]+tripAds - reject
     - ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/getAdsList - reject
     - ^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage - reject
+    - ^https?:\/\/m\.msyc\.cc\/app\/getBootPage\/v\d - reject
     - ^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/ - reject
     - ^https?:\/\/m\.yhdm\.io\/bar\/yfgg.js - reject
     - ^https?:\/\/m\.you\.163\.com\/activity\/popWindow - reject
@@ -448,6 +449,7 @@ http:
     - ^https?:\/\/supportda\.ofo\.com\/adaction\? - reject
     - ^https?:\/\/syh\.zybang\.com\/com\/adx\/ - reject
     - ^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/ - reject
+    - ^https?:\/\/tcmobileapi\.17usoft\.com\/appindexnew\/index\/getappindexconfig - reject
     - ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ - reject
     - ^https?:\/\/tiasdk\.app\.wechat\.com\/retrieval\/getAdInfo$ - reject
     - ^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/ - reject
@@ -793,6 +795,7 @@ http:
     - "m.creditcard.ecitic.com"
     - "m.ctrip.com"
     - "m.ibuscloud.com"
+    - "m.msyc.cc"
     - "m.sd.10086.cn"
     - "m.tuniu.com"
     - "m.yhdm.io"
@@ -902,6 +905,7 @@ http:
     - "syh.zybang.com"
     - "t1.market.xiaomi.com"
     - "tagit.hyhuo.com"
+    - "tcmobileapi.17usoft.com"
     - "thor.weidian.com"
     - "tiasdk.app.wechat.com"
     - "tiku.zhan.com"

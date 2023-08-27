@@ -15,7 +15,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-07-20 23:20:02
+最后更新时间：2023-08-28 02:08:19
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -126,7 +126,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/xbox@cn.yaml
 - https://rules.kr328.app/gog@cn.yaml
 - https://rules.kr328.app/playstation.yaml
-- https://rules.kr328.app/blizzard@cn.yaml
 - https://rules.kr328.app/steam@cn.yaml
 - https://rules.kr328.app/riot.yaml
 - https://rules.kr328.app/nintendo@cn.yaml

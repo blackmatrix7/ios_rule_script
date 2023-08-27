@@ -1,10 +1,10 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-08-27 02:13:48
+# UPDATED: 2023-08-28 02:12:35
 # IP-CIDR: 14791
-# IP-CIDR6: 5707
-# TOTAL: 20498
+# IP-CIDR6: 5706
+# TOTAL: 20497
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
 IP-CIDR,1.0.32.0/19,no-resolve
@@ -19806,6 +19806,7 @@ IP-CIDR6,2406:840:9700::/40,no-resolve
 IP-CIDR6,2406:840:9801::/48,no-resolve
 IP-CIDR6,2406:840:9804::/46,no-resolve
 IP-CIDR6,2406:840:9810::/47,no-resolve
+IP-CIDR6,2406:840:9814::/46,no-resolve
 IP-CIDR6,2406:840:981c::/46,no-resolve
 IP-CIDR6,2406:840:9960::/44,no-resolve
 IP-CIDR6,2406:840:9980::/48,no-resolve
@@ -19884,7 +19885,7 @@ IP-CIDR6,2406:840:fedf::/48,no-resolve
 IP-CIDR6,2406:840:feed::/48,no-resolve
 IP-CIDR6,2406:840:fef0::/46,no-resolve
 IP-CIDR6,2406:840:fef5::/48,no-resolve
-IP-CIDR6,2406:840:fef7::/48,no-resolve
+IP-CIDR6,2406:840:fef6::/47,no-resolve
 IP-CIDR6,2406:840:fef8::/45,no-resolve
 IP-CIDR6,2406:94c0::/48,no-resolve
 IP-CIDR6,2406:b640:100::/48,no-resolve
@@ -20470,8 +20471,7 @@ IP-CIDR6,240c:6:3::/48,no-resolve
 IP-CIDR6,240c:6::/48,no-resolve
 IP-CIDR6,240c::/48,no-resolve
 IP-CIDR6,240e::/20,no-resolve
-IP-CIDR6,2a05:dfc1:1602::/48,no-resolve
-IP-CIDR6,2a05:dfc1:5900::/46,no-resolve
+IP-CIDR6,2a05:dfc1:1606::/48,no-resolve
 IP-CIDR6,2a05:dfc1:7104::/47,no-resolve
 IP-CIDR6,2a06:a005:2a00::/42,no-resolve
 IP-CIDR6,2a06:a005:2af0::/44,no-resolve
@@ -20502,4 +20502,3 @@ IP-CIDR6,2a13:1801:190::/44,no-resolve
 IP-CIDR6,2a13:1802::/44,no-resolve
 IP-CIDR6,2a13:8b40:1::/48,no-resolve
 IP-CIDR6,2a13:8b40:2::/48,no-resolve
-IP-CIDR6,2a13:b487:3201::/48,no-resolve

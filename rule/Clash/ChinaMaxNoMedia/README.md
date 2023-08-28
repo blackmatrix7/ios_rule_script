@@ -12,18 +12,18 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-08-28 02:13:04
+最后更新时间：2023-08-29 02:14:12
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 161  | 
 | DOMAIN-KEYWORD | 11  | 
-| DOMAIN-SUFFIX | 66723  | 
-| IP-CIDR | 5141  | 
+| DOMAIN-SUFFIX | 66714  | 
+| IP-CIDR | 5140  | 
 | IP-CIDR6 | 4785  | 
 | PROCESS-NAME | 13  | 
-| TOTAL | 76834  | 
+| TOTAL | 76824  | 
 
 
 ## Clash 
@@ -48,7 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain_For_Clash.txt
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.txt
 
@@ -60,7 +60,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.txt
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain_For_Clash.txt
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.txt
 
@@ -72,7 +72,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml
 
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.txt
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain_For_Clash.txt
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.txt
 
@@ -84,7 +84,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain_For_Clash.txt
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.txt
 
@@ -96,7 +96,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Chin
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.txt
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain_For_Clash.txt
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.txt
 
@@ -108,7 +108,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml
 
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.txt
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain_For_Clash.txt
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.txt
 

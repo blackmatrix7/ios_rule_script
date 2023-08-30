@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-08-26 02:17:01
+desc: 最后更新时间 2023-08-31 02:18:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 666
-# mitm: 707
+# reject: 667
+# mitm: 708
 # force-http-engine-hosts: 6
-# total: 1417
+# total: 1419
 
 
 
@@ -307,6 +307,7 @@ http:
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/adpub\/ - reject
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image - reject
     - ^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ - reject
+    - ^https?:\/\/bbs-api\.miyoushe\.com\/apihub\/api\/getAppSplash - reject
     - ^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash - reject
     - ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/c\/home\/searchMark - reject
     - ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/free\/open\/advertisingV2 - reject
@@ -1103,6 +1104,7 @@ http:
     - "b-api.ins.miaopai.com"
     - "b.appsimg.com"
     - "b.zhuishushenqi.com"
+    - "bbs-api.miyoushe.com"
     - "bdsp-x.jd.com"
     - "beta-api.crunchyroll.com"
     - "bgw.xinyue.qq.com"

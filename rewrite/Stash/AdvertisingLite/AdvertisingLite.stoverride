@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-08-26 02:17:13
+desc: 最后更新时间 2023-08-31 02:19:05
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 512
-# mitm: 425
+# reject: 513
+# mitm: 426
 # force-http-engine-hosts: 6
-# total: 943
+# total: 945
 
 
 
@@ -182,6 +182,7 @@ http:
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/adpub\/ - reject
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image - reject
     - ^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ - reject
+    - ^https?:\/\/bbs-api\.miyoushe\.com\/apihub\/api\/getAppSplash - reject
     - ^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash - reject
     - ^https?:\/\/btrace\.qq\.com - reject
     - ^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+?\.jpg - reject
@@ -666,6 +667,7 @@ http:
     - "b-api.ins.miaopai.com"
     - "b.appsimg.com"
     - "b.zhuishushenqi.com"
+    - "bbs-api.miyoushe.com"
     - "bdsp-x.jd.com"
     - "bgw.xinyue.qq.com"
     - "btrace.qq.com"

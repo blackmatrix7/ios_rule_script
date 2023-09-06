@@ -1,11 +1,11 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-09-03 02:09:15
+# UPDATED: 2023-09-07 02:09:29
 # DOMAIN: 14
-# DOMAIN-SUFFIX: 21175
+# DOMAIN-SUFFIX: 21186
 # IP-CIDR: 8
-# TOTAL: 21197
+# TOTAL: 21208
 payload:
   - DOMAIN,hm.baidu.com
   - DOMAIN,hmma.baidu.com
@@ -2746,6 +2746,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.nascar.com
   - DOMAIN-SUFFIX,analytics.naturequant.com
   - DOMAIN-SUFFIX,analytics.ncaa.com
+  - DOMAIN-SUFFIX,analytics.neoogilvy.uy
   - DOMAIN-SUFFIX,analytics.netshops.com
   - DOMAIN-SUFFIX,analytics.newscred.com
   - DOMAIN-SUFFIX,analytics.oceanengine.com
@@ -3441,6 +3442,7 @@ payload:
   - DOMAIN-SUFFIX,banstat.nadavi.net
   - DOMAIN-SUFFIX,barbarousnerve.com
   - DOMAIN-SUFFIX,barium.cheezdev.com
+  - DOMAIN-SUFFIX,barnes.send.cm
   - DOMAIN-SUFFIX,baseballbone.com
   - DOMAIN-SUFFIX,basket.mondo.link
   - DOMAIN-SUFFIX,basketballbelieve.com
@@ -5146,6 +5148,7 @@ payload:
   - DOMAIN-SUFFIX,dcs.plussizetech.com
   - DOMAIN-SUFFIX,dcspil.hifiklubben.nl
   - DOMAIN-SUFFIX,dd.auspost.com.au
+  - DOMAIN-SUFFIX,dd.betano.com
   - DOMAIN-SUFFIX,dd.leboncoin.fr
   - DOMAIN-SUFFIX,dd.nytimes.com
   - DOMAIN-SUFFIX,ddlbr.timesclub.co
@@ -5314,6 +5317,7 @@ payload:
   - DOMAIN-SUFFIX,difficultfog.com
   - DOMAIN-SUFFIX,dig.lianjia.com
   - DOMAIN-SUFFIX,dig.ultimedia.com
+  - DOMAIN-SUFFIX,digi-ping.com
   - DOMAIN-SUFFIX,digianalytics.airtel.in
   - DOMAIN-SUFFIX,digital-engineering.de
   - DOMAIN-SUFFIX,digital.acutx.org
@@ -6742,7 +6746,6 @@ payload:
   - DOMAIN-SUFFIX,geo.brobible.com
   - DOMAIN-SUFFIX,geo.emol.cl
   - DOMAIN-SUFFIX,geo.ertya.com
-  - DOMAIN-SUFFIX,geo.gfycat.com
   - DOMAIN-SUFFIX,geo.gorillanation.com
   - DOMAIN-SUFFIX,geo.mezr.com
   - DOMAIN-SUFFIX,geo.mtvnn.com
@@ -10990,6 +10993,7 @@ payload:
   - DOMAIN-SUFFIX,netinsight.actonservice.com
   - DOMAIN-SUFFIX,netlify-rum.netlify.app
   - DOMAIN-SUFFIX,netmailcsr11.net.anwalt.de
+  - DOMAIN-SUFFIX,netstat.yunnan.cn
   - DOMAIN-SUFFIX,network.armycadets.com
   - DOMAIN-SUFFIX,network.cogentco.com
   - DOMAIN-SUFFIX,network.conterra.com
@@ -15920,6 +15924,7 @@ payload:
   - DOMAIN-SUFFIX,ssqwkl.belabef.com
   - DOMAIN-SUFFIX,ssr.streamrail.net
   - DOMAIN-SUFFIX,ssrlot.lotoquebec.com
+  - DOMAIN-SUFFIX,sstats.adobe.com
   - DOMAIN-SUFFIX,sstats.cotswoldoutdoor.com
   - DOMAIN-SUFFIX,sstats.daicompanies.com
   - DOMAIN-SUFFIX,sstats.deloitte.com
@@ -16178,6 +16183,7 @@ payload:
   - DOMAIN-SUFFIX,statistics.klicktel.de
   - DOMAIN-SUFFIX,statistics.rbi-nl.com
   - DOMAIN-SUFFIX,statistics.riskommunal.net
+  - DOMAIN-SUFFIX,statistics.streamdav.com
   - DOMAIN-SUFFIX,statistics.tattermedia.com
   - DOMAIN-SUFFIX,statistics.tuv.com
   - DOMAIN-SUFFIX,statistics.wibiya.com
@@ -19291,6 +19297,7 @@ payload:
   - DOMAIN-SUFFIX,tracking.care.salinasvalleyhealth.com
   - DOMAIN-SUFFIX,tracking.carsales.com.au
   - DOMAIN-SUFFIX,tracking.cat898.com
+  - DOMAIN-SUFFIX,tracking.cdiscount.com
   - DOMAIN-SUFFIX,tracking.cengage.com
   - DOMAIN-SUFFIX,tracking.cerdmann.com
   - DOMAIN-SUFFIX,tracking.changehealthcare.com
@@ -20544,9 +20551,13 @@ payload:
   - DOMAIN-SUFFIX,wkympu.agnesb.co.jp
   - DOMAIN-SUFFIX,wl-analytics.tsp.li
   - DOMAIN-SUFFIX,wl-pixel.index.digital
+  - DOMAIN-SUFFIX,wlct-one.de
+  - DOMAIN-SUFFIX,wlct-two.de
   - DOMAIN-SUFFIX,wlkojk.orange.ro
   - DOMAIN-SUFFIX,wlp3.aegon.es
   - DOMAIN-SUFFIX,wlptux.habitaclia.com
+  - DOMAIN-SUFFIX,wlt-alice.de
+  - DOMAIN-SUFFIX,wlt-jupiter.de
   - DOMAIN-SUFFIX,wlwtcr.toptoon.com
   - DOMAIN-SUFFIX,wmgroup.us
   - DOMAIN-SUFFIX,wmizdm.relax-job.com

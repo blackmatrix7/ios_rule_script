@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-08-31 02:19:05
+desc: 最后更新时间 2023-09-09 02:17:22
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 513
-# mitm: 426
+# reject: 514
+# mitm: 427
 # force-http-engine-hosts: 6
-# total: 945
+# total: 947
 
 
 
@@ -191,6 +191,7 @@ http:
     - ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo - reject
     - ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule - reject
     - ^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ - reject
+    - ^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/(homePage\/contactor\/modules|app\/adposNew) - reject
     - ^https?:\/\/capi\.mwee\.cn\/app-api\/V\d+\/app\/(ad|getstartad) - reject
     - ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/boot\? - reject
     - ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/event? - reject
@@ -676,6 +677,7 @@ http:
     - "c.m.163.com"
     - "c.tieba.baidu.com"
     - "cap.caocaokeji.cn"
+    - "capi.lkcoffee.com"
     - "capi.mwee.cn"
     - "capis*.didapinche.com"
     - "ccsp-egmas.sf-express.com"

@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-09-04 02:15:11
+desc: 最后更新时间 2023-09-09 02:17:10
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 666
-# mitm: 707
+# reject: 667
+# mitm: 708
 # force-http-engine-hosts: 6
-# total: 1417
+# total: 1419
 
 
 
@@ -317,6 +317,7 @@ http:
     - ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo - reject
     - ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule - reject
     - ^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ - reject
+    - ^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/(homePage\/contactor\/modules|app\/adposNew) - reject
     - ^https?:\/\/capi\.mwee\.cn\/app-api\/V\d+\/app\/(ad|getstartad) - reject
     - ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/boot\? - reject
     - ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/event? - reject
@@ -1114,6 +1115,7 @@ http:
     - "c.m.163.com"
     - "c.tieba.baidu.com"
     - "cap.caocaokeji.cn"
+    - "capi.lkcoffee.com"
     - "capi.mwee.cn"
     - "capis*.didapinche.com"
     - "cappapi.alittle-tea.com"

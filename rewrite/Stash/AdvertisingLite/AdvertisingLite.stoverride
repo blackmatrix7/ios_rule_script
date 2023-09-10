@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-09-09 02:17:22
+desc: 最后更新时间 2023-09-11 02:15:24
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 514
-# mitm: 427
+# reject: 515
+# mitm: 428
 # force-http-engine-hosts: 6
-# total: 947
+# total: 949
 
 
 
@@ -413,6 +413,7 @@ http:
     - ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getBannerAds|getFullScreenPic|getNewsRemoteConfig|getQQNewsRemoteConfig|searchHotCatList|upLoadLoc) - reject
     - ^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) - reject
     - ^https?:\/\/render-oss-cdn\.amap\.com\/render\/studio-dev\/image\/ - reject
+    - ^https?:\/\/rengine-platform\.llsapp\.com\/auth\/api\/remoteResource\/darwin - reject
     - ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
     - ^https?:\/\/res\.kfc\.com\.cn\/advertisement\/ - reject
     - ^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome - reject
@@ -870,6 +871,7 @@ http:
     - "qt.qq.com"
     - "r.inews.qq.com"
     - "render-oss-cdn.amap.com"
+    - "rengine-platform.llsapp.com"
     - "res-release.wuta-cam.com"
     - "res.kfc.com.cn"
     - "res.pizzahut.com.cn"

@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-09-09 02:17:10
+desc: 最后更新时间 2023-09-11 02:15:15
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 667
-# mitm: 708
+# reject: 668
+# mitm: 709
 # force-http-engine-hosts: 6
-# total: 1419
+# total: 1421
 
 
 
@@ -565,6 +565,7 @@ http:
     - ^https?:\/\/r\.inews\.qq\.com\/getSplash - reject
     - ^https?:\/\/referee\.xiaohongshu\.com\/v\d\/stateReport - reject
     - ^https?:\/\/render-oss-cdn\.amap\.com\/render\/studio-dev\/image\/ - reject
+    - ^https?:\/\/rengine-platform\.llsapp\.com\/auth\/api\/remoteResource\/darwin - reject
     - ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
     - ^https?:\/\/res\.kfc\.com\.cn\/advertisement\/ - reject
     - ^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome - reject
@@ -1393,6 +1394,7 @@ http:
     - "r2.gzyct.com"
     - "referee.xiaohongshu.com"
     - "render-oss-cdn.amap.com"
+    - "rengine-platform.llsapp.com"
     - "res-release.wuta-cam.com"
     - "res.hongyibo.com.cn"
     - "res.kfc.com.cn"

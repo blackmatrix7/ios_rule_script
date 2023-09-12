@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-09-11 02:15:15
+desc: 最后更新时间 2023-09-13 02:15:48
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 668
-# mitm: 709
+# reject: 674
+# mitm: 712
 # force-http-engine-hosts: 6
-# total: 1421
+# total: 1430
 
 
 
@@ -125,7 +125,13 @@ http:
     - ^https:\/\/wxapp\.bestwehotel\.com\/gw3\/app-mini\/trip-hotel-banner\/activity\/getActivityInfo - reject
     - ^https:\/\/wxproj\.seeyouyima\.com\/data\/today_tips - reject
     - ^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad - reject
-    - ^https?://m\d\.amap\.com/ws/shield/scene/recommend - reject
+    - ^https?://esdk\.tymcdn\.com/dbGold/m/v2/mobileLiveReveal\.do\? - reject
+    - ^https?://gateway\.abite\.com/cotti-capi/customer/position/list\?code\=cotti-launch-window - reject
+    - ^https?://home\.mi\.com/cgi-op/api/v\d/recommendation/(banner|myTab|openingBanner) - reject
+    - ^https?://m\d\.amap\.com/ws/faas/amap-navigation/main-page-(assets|location)? - reject
+    - ^https?://m\d\.amap\.com/ws/mapapi/hint_text/offline_data? - reject
+    - ^https?://m\d\.amap\.com/ws/shield/(scene/recommend|search/new_hotword)? - reject
+    - ^https?://shop-api\.retail\.mi\.com/mtop/navi/skywheel/mishop/splash - reject
     - ^https?://spclient.wg.spotify.com/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+promoted_offer) - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
@@ -1181,6 +1187,7 @@ http:
     - "edit.sinaapp.com"
     - "edith.xiaohongshu.com"
     - "emdcadvertise.eastmoney.com"
+    - "esdk.tymcdn.com"
     - "evs.500.com"
     - "explorer.tratao.com"
     - "fb.fbstatic.cn"
@@ -1200,6 +1207,7 @@ http:
     - "games.mobileapi.hupu.com"
     - "gateway-api.dushu365.com"
     - "gateway.36kr.com"
+    - "gateway.abite.com"
     - "gateway.shouqiev.com"
     - "gd.10086.cn"
     - "gfp.veta.naver.com"
@@ -1419,6 +1427,7 @@ http:
     - "service.iciba.com"
     - "sf3-fe-tos.pglstatp-toutiao.com"
     - "sh-gateway.shihuo.cn"
+    - "shop-api.retail.mi.com"
     - "shopapi.io.mi.com"
     - "shopic.sf-express.com"
     - "smarket.dian.so"

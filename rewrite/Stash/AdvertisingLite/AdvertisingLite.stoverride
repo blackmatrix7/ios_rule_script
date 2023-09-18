@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-09-13 02:15:58
+desc: 最后更新时间 2023-09-19 02:18:32
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 521
-# mitm: 431
+# reject: 522
+# mitm: 432
 # force-http-engine-hosts: 6
-# total: 958
+# total: 960
 
 
 
@@ -137,6 +137,7 @@ http:
     - ^https?:\/\/api\.waitwaitpay\.com\/\/api\/splash - reject
     - ^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/ - reject
     - ^https?:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) - reject
+    - ^https?:\/\/api\.wmpvp\.com\/api\/v\d\/config\/promote - reject
     - ^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ - reject
     - ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/config\?userid=.* - reject
     - ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/mobile\/ads - reject
@@ -630,6 +631,7 @@ http:
     - "api.waitwaitpay.com"
     - "api.wallstreetcn.com"
     - "api.wfdata.club"
+    - "api.wmpvp.com"
     - "api.xiachufang.com"
     - "api.xiaoyi.com"
     - "api.xueqiu.com"

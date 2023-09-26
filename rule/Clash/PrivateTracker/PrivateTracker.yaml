@@ -1,13 +1,13 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-09-26 02:12:38
+# UPDATED: 2023-09-27 02:12:38
 # DOMAIN: 150
 # DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 119
-# IP-CIDR: 7
+# IP-CIDR: 8
 # IP-CIDR6: 2
-# TOTAL: 281
+# TOTAL: 282
 payload:
   - DOMAIN,107.182.30.76.16clouds.com
   - DOMAIN,1337.abcvg.info
@@ -20,10 +20,12 @@ payload:
   - DOMAIN,aegir.sexy
   - DOMAIN,bigfoot1942.sektori.org
   - DOMAIN,boysbitte.be
+  - DOMAIN,bt.endpot.com
   - DOMAIN,bt.ktrackers.com
   - DOMAIN,bt.okmp3.ru
   - DOMAIN,bt1.archive.org
   - DOMAIN,bt2.archive.org
+  - DOMAIN,buny.uk
   - DOMAIN,carr.codes
   - DOMAIN,city21.pk
   - DOMAIN,concen.org
@@ -40,7 +42,6 @@ payload:
   - DOMAIN,incine.ru
   - DOMAIN,ipv6.fuuuuuck.com
   - DOMAIN,isk.richardsw.club
-  - DOMAIN,k.avc.cx
   - DOMAIN,lloria.fr
   - DOMAIN,mail.artixlinux.org
   - DOMAIN,mail.segso.net
@@ -51,7 +52,6 @@ payload:
   - DOMAIN,odd-hd.fr
   - DOMAIN,oh.fuuuuuck.com
   - DOMAIN,open.acgnxtracker.com
-  - DOMAIN,open.acgtracker.com
   - DOMAIN,open.demonii.com
   - DOMAIN,open.dstud.io
   - DOMAIN,open.publictracker.xyz
@@ -66,14 +66,14 @@ payload:
   - DOMAIN,psyco.fr
   - DOMAIN,public-tracker.cf
   - DOMAIN,public.publictracker.xyz
+  - DOMAIN,public.tracker.vraphim.com
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker01-msk-virt.corbina.net
   - DOMAIN,run-2.publictracker.xyz
-  - DOMAIN,run.publictracker.xyz
   - DOMAIN,ryjer.com
-  - DOMAIN,sabross.xyz
   - DOMAIN,sanincode.com
   - DOMAIN,share.camoe.cn
+  - DOMAIN,shubt.net
   - DOMAIN,static.54.161.216.95.clients.your-server.de
   - DOMAIN,t.acg.rip
   - DOMAIN,t.nyaatracker.com
@@ -87,20 +87,20 @@ payload:
   - DOMAIN,torrents.artixlinux.org
   - DOMAIN,torrentsmd.com
   - DOMAIN,tr.burnabyhighstar.com
-  - DOMAIN,tr.ready4.icu
   - DOMAIN,tracker-udp.gbitt.info
   - DOMAIN,tracker.0x7c0.com
   - DOMAIN,tracker.4.babico.name.tr
   - DOMAIN,tracker.6.babico.name.tr
   - DOMAIN,tracker.artixlinux.org
+  - DOMAIN,tracker.auctor.tv
   - DOMAIN,tracker.birkenwald.de
-  - DOMAIN,tracker.bittor.pw
   - DOMAIN,tracker.bt4g.com
   - DOMAIN,tracker.ccp.ovh
   - DOMAIN,tracker.cubonegro.lol
   - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
+  - DOMAIN,tracker.dump.cl
   - DOMAIN,tracker.electro-torrent.pl
   - DOMAIN,tracker.farted.net
   - DOMAIN,tracker.filemail.com
@@ -109,7 +109,6 @@ payload:
   - DOMAIN,tracker.foreverpirates.co
   - DOMAIN,tracker.gbitt.info
   - DOMAIN,tracker.h0me.cc
-  - DOMAIN,tracker.h3o2.me
   - DOMAIN,tracker.imgoingto.icu
   - DOMAIN,tracker.ipfsscan.io
   - DOMAIN,tracker.ipv6tracker.org
@@ -137,6 +136,7 @@ payload:
   - DOMAIN,tracker.therarbg.com
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
+  - DOMAIN,tracker.tryhackx.org
   - DOMAIN,tracker1.520.jp
   - DOMAIN,tracker1.bt.moack.co.kr
   - DOMAIN,tracker1.itzmx.com
@@ -285,6 +285,7 @@ payload:
   - IP-CIDR,184.105.151.166/32
   - IP-CIDR,207.241.226.111/32
   - IP-CIDR,207.241.231.226/32
+  - IP-CIDR,46.17.46.112/32
   - IP-CIDR,49.12.76.8/32
   - IP-CIDR,52.58.128.163/32
   - IP-CIDR,91.216.110.52/32

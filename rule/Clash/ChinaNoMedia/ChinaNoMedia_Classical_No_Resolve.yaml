@@ -1,13 +1,13 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-08-21 02:12:45
+# UPDATED: 2023-09-27 02:12:59
 # DOMAIN: 19
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3558
+# DOMAIN-SUFFIX: 3572
 # IP-CIDR: 11
 # IP-CIDR6: 4
-# TOTAL: 3601
+# TOTAL: 3615
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -1024,6 +1024,7 @@ payload:
   - DOMAIN-SUFFIX,ctfile.com
   - DOMAIN-SUFFIX,ctfund.com
   - DOMAIN-SUFFIX,ctiforum.com
+  - DOMAIN-SUFFIX,ctobsnssdk.com
   - DOMAIN-SUFFIX,ctoutiao.com
   - DOMAIN-SUFFIX,ctrip.co.id
   - DOMAIN-SUFFIX,ctrip.co.kr
@@ -1113,6 +1114,7 @@ payload:
   - DOMAIN-SUFFIX,didiglobal.com
   - DOMAIN-SUFFIX,didimobility.co.jp
   - DOMAIN-SUFFIX,didistatic.com
+  - DOMAIN-SUFFIX,dig.bdurl.net
   - DOMAIN-SUFFIX,dingding.xin
   - DOMAIN-SUFFIX,dingtalk.com
   - DOMAIN-SUFFIX,dingtalk.net
@@ -1228,6 +1230,7 @@ payload:
   - DOMAIN-SUFFIX,ecitic.net
   - DOMAIN-SUFFIX,ecjobhome.com
   - DOMAIN-SUFFIX,ecloud-gdu.com
+  - DOMAIN-SUFFIX,ecombdapi.com
   - DOMAIN-SUFFIX,edu4399.com
   - DOMAIN-SUFFIX,eduei.com
   - DOMAIN-SUFFIX,eeyy.com
@@ -1271,6 +1274,7 @@ payload:
   - DOMAIN-SUFFIX,fang.com
   - DOMAIN-SUFFIX,fangxiaoer.com
   - DOMAIN-SUFFIX,fanli.com
+  - DOMAIN-SUFFIX,fanqienovel.com
   - DOMAIN-SUFFIX,fanxian.com
   - DOMAIN-SUFFIX,fastapi.net
   - DOMAIN-SUFFIX,fastcdn.com
@@ -1317,6 +1321,9 @@ payload:
   - DOMAIN-SUFFIX,foundertype.com
   - DOMAIN-SUFFIX,foxmail.com
   - DOMAIN-SUFFIX,fqjob.net
+  - DOMAIN-SUFFIX,fqnovel.com
+  - DOMAIN-SUFFIX,fqnovelpic.com
+  - DOMAIN-SUFFIX,fqnovelvod.com
   - DOMAIN-SUFFIX,frdic.com
   - DOMAIN-SUFFIX,freebuf.com
   - DOMAIN-SUFFIX,fresh-ideas.cc
@@ -2008,6 +2015,7 @@ payload:
   - DOMAIN-SUFFIX,kuaihou.com
   - DOMAIN-SUFFIX,kuaikanmanhua.com
   - DOMAIN-SUFFIX,kuaishou.com
+  - DOMAIN-SUFFIX,kuaishouzt.com
   - DOMAIN-SUFFIX,kuaizhan.com
   - DOMAIN-SUFFIX,kuangxiangit.com
   - DOMAIN-SUFFIX,kumiao.com
@@ -2034,6 +2042,7 @@ payload:
   - DOMAIN-SUFFIX,kuqin.com
   - DOMAIN-SUFFIX,kuyiso.com
   - DOMAIN-SUFFIX,kuyunbo.club
+  - DOMAIN-SUFFIX,kwaizt.com
   - DOMAIN-SUFFIX,la-north-2.myhuaweicloud.com
   - DOMAIN-SUFFIX,la-south-2.myhuaweicloud.com
   - DOMAIN-SUFFIX,lady8844.com
@@ -2458,6 +2467,7 @@ payload:
   - DOMAIN-SUFFIX,pailitao.com
   - DOMAIN-SUFFIX,paipai.com
   - DOMAIN-SUFFIX,paipaibang.com
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
   - DOMAIN-SUFFIX,paopaoche.net
   - DOMAIN-SUFFIX,papocket.com
   - DOMAIN-SUFFIX,passthepopcorn.me
@@ -2467,6 +2477,7 @@ payload:
   - DOMAIN-SUFFIX,pcpop.com
   - DOMAIN-SUFFIX,pddpic.com
   - DOMAIN-SUFFIX,peccn.com
+  - DOMAIN-SUFFIX,pglstatp-toutiao.com
   - DOMAIN-SUFFIX,pgyer.com
   - DOMAIN-SUFFIX,pgzs.com
   - DOMAIN-SUFFIX,pharmacodia.com
@@ -3171,6 +3182,9 @@ payload:
   - DOMAIN-SUFFIX,vmallres.com
   - DOMAIN-SUFFIX,vobao.com
   - DOMAIN-SUFFIX,vodtcbk.com
+  - DOMAIN-SUFFIX,volceapplog.com
+  - DOMAIN-SUFFIX,volces.com
+  - DOMAIN-SUFFIX,volcvod.com
   - DOMAIN-SUFFIX,vpgame.com
   - DOMAIN-SUFFIX,vxo7tu.com
   - DOMAIN-SUFFIX,vzuu.com

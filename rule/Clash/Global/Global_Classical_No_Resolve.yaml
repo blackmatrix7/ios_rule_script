@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-09-28 02:13:47
+# UPDATED: 2023-09-30 02:11:06
 # DOMAIN: 146
 # DOMAIN-KEYWORD: 38
-# DOMAIN-SUFFIX: 19196
+# DOMAIN-SUFFIX: 19201
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 19497
+# TOTAL: 19502
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -8921,7 +8921,12 @@ payload:
   - DOMAIN-SUFFIX,nikezoom.com
   - DOMAIN-SUFFIX,nikkan-gendai.com
   - DOMAIN-SUFFIX,nikkansports.com
+  - DOMAIN-SUFFIX,nikke-de.com
+  - DOMAIN-SUFFIX,nikke-en.com
+  - DOMAIN-SUFFIX,nikke-fr.com
+  - DOMAIN-SUFFIX,nikke-jp.com
   - DOMAIN-SUFFIX,nikke-kr.com
+  - DOMAIN-SUFFIX,nikke-sea.com
   - DOMAIN-SUFFIX,nikkei4946.com
   - DOMAIN-SUFFIX,nineteentube.com
   - DOMAIN-SUFFIX,ninpu.cyou

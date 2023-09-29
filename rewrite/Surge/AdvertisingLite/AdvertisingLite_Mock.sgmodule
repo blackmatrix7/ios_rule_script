@@ -1,11 +1,11 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2023-09-25 02:17:09
+#!desc=最后更新时间 2023-09-30 02:15:43
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=523
+#!reject=522
 #!mitm=433
 #!force-http-engine-hosts=6
-#!total=962
+#!total=961
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -188,7 +188,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/m\.ads\.8le8le\.com\/adShow" - reject
 "^https?:\/\/m\.caijing\.com\.cn\/startup_ad_ios\.html$" - reject
 "^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd)" - reject
-"^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/dkkj-system-web\/system\/v\d\/init-config" - reject
 "^https?:\/\/m\.ctrip\.com\/restapi\/[\w\/]+tripAds" - reject
 "^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/getAdsList" - reject
 "^https?:\/\/m\.msyc\.cc\/app\/getBootPage\/v\d" - reject

@@ -12,7 +12,7 @@ Netflix规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-09-30 02:11:26
+最后更新时间：2023-10-01 02:12:32
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -21,10 +21,10 @@ Netflix规则由《RULE GENERATOR 规则生成器》自动生成。
 | HOST-KEYWORD | 4  | 
 | HOST-SUFFIX | 30  | 
 | HOST-WILDCARD | 1  | 
-| IP-CIDR | 1026  | 
+| IP-CIDR | 1029  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 1  | 
-| TOTAL | 1069  | 
+| TOTAL | 1072  | 
 
 
 ## QuantumultX 

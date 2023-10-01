@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-09-30 02:11:06
-# DOMAIN: 146
+# UPDATED: 2023-10-02 02:11:34
+# DOMAIN: 147
 # DOMAIN-KEYWORD: 38
-# DOMAIN-SUFFIX: 19201
+# DOMAIN-SUFFIX: 19202
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 19502
+# TOTAL: 19504
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -31,6 +31,7 @@ payload:
   - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN,cbsplaylistserver.aws.syncbak.com
   - DOMAIN,cbsservice.aws.syncbak.com
+  - DOMAIN,cdn-spotify-experiments.conductrics.com
   - DOMAIN,cisco.evergage.com
   - DOMAIN,clubhouse.pubnubapi.com
   - DOMAIN,courier-push-apple.com.akadns.net
@@ -1253,7 +1254,6 @@ payload:
   - DOMAIN-SUFFIX,apress.com
   - DOMAIN-SUFFIX,apture.com
   - DOMAIN-SUFFIX,apyle.com
-  - DOMAIN-SUFFIX,ar.hao123.com
   - DOMAIN-SUFFIX,arabianchicks.com
   - DOMAIN-SUFFIX,arabidopsis.org
   - DOMAIN-SUFFIX,arabnek.com
@@ -3065,6 +3065,7 @@ payload:
   - DOMAIN-SUFFIX,cloudcraze.com
   - DOMAIN-SUFFIX,cloudcredibility.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,cloudflare-ech.com
   - DOMAIN-SUFFIX,cloudflare-gateway.com
   - DOMAIN-SUFFIX,cloudflare-quic.com
   - DOMAIN-SUFFIX,cloudflare.net
@@ -9195,7 +9196,6 @@ payload:
   - DOMAIN-SUFFIX,onlysiterip.com
   - DOMAIN-SUFFIX,onmanorama.com
   - DOMAIN-SUFFIX,onmschina.cn
-  - DOMAIN-SUFFIX,onmypc.net
   - DOMAIN-SUFFIX,onsalekey.com
   - DOMAIN-SUFFIX,onsaletrend.com
   - DOMAIN-SUFFIX,onstream.cc
@@ -13825,6 +13825,7 @@ payload:
   - DOMAIN-SUFFIX,appspot.com
   - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,aptoide.com
+  - DOMAIN-SUFFIX,ar.hao123.com
   - DOMAIN-SUFFIX,arcgis.com
   - DOMAIN-SUFFIX,archive.fo
   - DOMAIN-SUFFIX,archive.is
@@ -17100,6 +17101,7 @@ payload:
   - DOMAIN-SUFFIX,onmoon.net
   - DOMAIN-SUFFIX,onmypc.biz
   - DOMAIN-SUFFIX,onmypc.info
+  - DOMAIN-SUFFIX,onmypc.net
   - DOMAIN-SUFFIX,onmypc.org
   - DOMAIN-SUFFIX,onmypc.us
   - DOMAIN-SUFFIX,onthehunt.com

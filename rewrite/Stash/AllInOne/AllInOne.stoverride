@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-09-30 02:15:33
+desc: 最后更新时间 2023-10-06 02:15:47
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 24
 # redirect: 8
-# reject: 675
-# mitm: 714
+# reject: 676
+# mitm: 715
 # force-http-engine-hosts: 6
-# total: 1433
+# total: 1435
 
 
 
@@ -499,6 +499,7 @@ http:
     - ^https?:\/\/media\.qyer\.com\/ad\/ - reject
     - ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$ - reject
     - ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
+    - ^https?:\/\/mix-api\.camera360\.com\/v\d\/operational-positions - reject
     - ^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\? - reject
     - ^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend - reject
     - ^https?:\/\/mm\.app\.joox\.com\/billsrv\/clientBatchAdReport - reject
@@ -1326,6 +1327,7 @@ http:
     - "minicap.caocaokeji.cn"
     - "minifm.maxxipoint.com"
     - "miniprogram.ishansong.com"
+    - "mix-api.camera360.com"
     - "mlife.jf365.boc.cn"
     - "mlol.qt.qq.com"
     - "mm.app.joox.com"

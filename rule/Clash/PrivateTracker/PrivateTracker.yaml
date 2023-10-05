@@ -1,13 +1,13 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-05 02:13:00
-# DOMAIN: 151
+# UPDATED: 2023-10-06 02:12:48
+# DOMAIN: 153
 # DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 119
 # IP-CIDR: 8
 # IP-CIDR6: 2
-# TOTAL: 283
+# TOTAL: 285
 payload:
   - DOMAIN,107.182.30.76.16clouds.com
   - DOMAIN,1337.abcvg.info
@@ -19,11 +19,13 @@ payload:
   - DOMAIN,aegir.sexy
   - DOMAIN,bigfoot1942.sektori.org
   - DOMAIN,boysbitte.be
+  - DOMAIN,bt.endpot.com
   - DOMAIN,bt.ktrackers.com
   - DOMAIN,bt.okmp3.ru
   - DOMAIN,bt1.archive.org
   - DOMAIN,bt2.archive.org
   - DOMAIN,buny.uk
+  - DOMAIN,bvarf.tracker.sh
   - DOMAIN,carr.codes
   - DOMAIN,ch3oh.ru
   - DOMAIN,city21.pk
@@ -58,15 +60,13 @@ payload:
   - DOMAIN,open.free-tracker.ga
   - DOMAIN,open.publictracker.xyz
   - DOMAIN,open.stealth.si
+  - DOMAIN,open.tracker.cl
   - DOMAIN,open.tracker.ink
-  - DOMAIN,open.u-p.pw
-  - DOMAIN,opentor.org
   - DOMAIN,opentracker.i2p.rocks
   - DOMAIN,opentracker.io
   - DOMAIN,p4p.arenabg.com
   - DOMAIN,private.anonseed.com
   - DOMAIN,public-tracker.cf
-  - DOMAIN,public.publictracker.xyz
   - DOMAIN,public.tracker.vraphim.com
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker01-msk-virt.corbina.net
@@ -81,7 +81,6 @@ payload:
   - DOMAIN,t.nyaatracker.com
   - DOMAIN,t1.hloli.org
   - DOMAIN,tamas3.ynh.fr
-  - DOMAIN,thinking.duckdns.org
   - DOMAIN,thouvenin.cloud
   - DOMAIN,tk1.trackerservers.com
   - DOMAIN,tk1v6.trackerservers.com
@@ -92,7 +91,9 @@ payload:
   - DOMAIN,tracker.0x7c0.com
   - DOMAIN,tracker.4.babico.name.tr
   - DOMAIN,tracker.artixlinux.org
+  - DOMAIN,tracker.auctor.tv
   - DOMAIN,tracker.birkenwald.de
+  - DOMAIN,tracker.bittor.pw
   - DOMAIN,tracker.bt4g.com
   - DOMAIN,tracker.ccp.ovh
   - DOMAIN,tracker.cloudit.top
@@ -100,6 +101,8 @@ payload:
   - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
+  - DOMAIN,tracker.dump.cl
+  - DOMAIN,tracker.edkj.club
   - DOMAIN,tracker.electro-torrent.pl
   - DOMAIN,tracker.farted.net
   - DOMAIN,tracker.filemail.com
@@ -154,7 +157,6 @@ payload:
   - DOMAIN,wepzone.net
   - DOMAIN,www.all4nothin.net
   - DOMAIN,www.peckservers.com
-  - DOMAIN,www.torrent.eu.org
   - DOMAIN,www.wareztorrent.com
   - DOMAIN,x.paranoid.agency
   - DOMAIN,y.paranoid.agency

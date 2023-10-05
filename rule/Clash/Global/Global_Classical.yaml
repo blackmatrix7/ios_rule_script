@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-03 02:14:02
+# UPDATED: 2023-10-06 02:11:18
 # DOMAIN: 147
 # DOMAIN-KEYWORD: 38
-# DOMAIN-SUFFIX: 19205
+# DOMAIN-SUFFIX: 19206
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 19507
+# TOTAL: 19508
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -9078,6 +9078,7 @@ payload:
   - DOMAIN-SUFFIX,o365weve-dev.com
   - DOMAIN-SUFFIX,o365weve-ppe.com
   - DOMAIN-SUFFIX,o365weve.com
+  - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oanencore.com
   - DOMAIN-SUFFIX,oath.cloud
   - DOMAIN-SUFFIX,oath.com

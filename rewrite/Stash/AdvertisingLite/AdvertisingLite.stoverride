@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-10-06 02:15:58
+desc: 最后更新时间 2023-10-07 02:18:45
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 523
-# mitm: 434
+# reject: 524
+# mitm: 435
 # force-http-engine-hosts: 6
-# total: 963
+# total: 965
 
 
 
@@ -456,6 +456,7 @@ http:
     - ^https?:\/\/static\.vuevideo\.net\/styleAssets\/.+?\/splash_ad - reject
     - ^https?:\/\/static\.vuevideo\.net\/styleAssets\/advertisement\/ - reject
     - ^https?:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad - reject
+    - ^https?:\/\/superapp\.xgimi\.com\/api/v1\/app\/ad\/configs\?_sort=createdAt:Adesc - reject
     - ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject
     - ^https?:\/\/supportda\.ofo\.com\/adaction\? - reject
     - ^https?:\/\/syh\.zybang\.com\/com\/adx\/ - reject
@@ -920,6 +921,7 @@ http:
     - "stat.peopleapp.com"
     - "static.vuevideo.net"
     - "status.boohee.com"
+    - "superapp.xgimi.com"
     - "support.you.163.com"
     - "supportda.ofo.com"
     - "syh.zybang.com"

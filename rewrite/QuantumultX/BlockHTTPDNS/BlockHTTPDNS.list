@@ -1,13 +1,14 @@
 # NAME: BlockHTTPDNS
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:29:03
-# HOST: 18
-# IP-CIDR: 15
+# UPDATED: 2023-10-07 14:23:54
+# HOST: 19
+# HOST-SUFFIX: 1
+# IP-CIDR: 19
 # IP6-CIDR: 4
 # REJECT: 16
-# MITM: 6
-# TOTAL: 59
+# MITM: 8
+# TOTAL: 67
 HOST,dns.jd.com,BlockHTTPDNS
 HOST,dns.weibo.cn,BlockHTTPDNS
 HOST,dns.weixin.qq.com,BlockHTTPDNS
@@ -19,6 +20,7 @@ HOST,httpdns.baidu.com,BlockHTTPDNS
 HOST,httpdns.baidubce.com,BlockHTTPDNS
 HOST,httpdns.bilivideo.com,BlockHTTPDNS
 HOST,httpdns.c.cdnhwc2.com,BlockHTTPDNS
+HOST,httpdns.meituan.com,BlockHTTPDNS
 HOST,httpdns.music.163.com,BlockHTTPDNS
 HOST,httpdns.n.netease.com,BlockHTTPDNS
 HOST,httpdns.push.oppomobile.com,BlockHTTPDNS
@@ -26,11 +28,16 @@ HOST,httpdns.volcengineapi.com,BlockHTTPDNS
 HOST,httpsdns.baidu.com,BlockHTTPDNS
 HOST,lofter.httpdns.c.163.com,BlockHTTPDNS
 HOST,music.httpdns.c.163.com,BlockHTTPDNS
+HOST-SUFFIX,httpdns.pro,BlockHTTPDNS
 IP-CIDR,101.124.19.122/32,BlockHTTPDNS
 IP-CIDR,103.224.222.208/32,BlockHTTPDNS
 IP-CIDR,115.236.121.195/32,BlockHTTPDNS
 IP-CIDR,115.236.121.51/32,BlockHTTPDNS
+IP-CIDR,119.29.29.98/32,BlockHTTPDNS
+IP-CIDR,119.29.29.99/32,BlockHTTPDNS
 IP-CIDR,123.151.54.50/32,BlockHTTPDNS
+IP-CIDR,182.254.116.117/32,BlockHTTPDNS
+IP-CIDR,182.254.118.119/32,BlockHTTPDNS
 IP-CIDR,186.76.76.200/32,BlockHTTPDNS
 IP-CIDR,203.107.1.0/24,BlockHTTPDNS
 IP-CIDR,39.97.128.148/32,BlockHTTPDNS

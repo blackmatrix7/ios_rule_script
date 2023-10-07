@@ -1,11 +1,11 @@
 # NAME: BlockHttpDNS
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:25:19
-# DOMAIN: 18
-# IP-CIDR: 15
+# UPDATED: 2023-10-07 14:23:16
+# DOMAIN: 20
+# IP-CIDR: 18
 # IP-CIDR6: 4
-# TOTAL: 37
+# TOTAL: 42
 payload:
   - DOMAIN,dns.jd.com
   - DOMAIN,dns.weibo.cn
@@ -18,18 +18,23 @@ payload:
   - DOMAIN,httpdns.baidubce.com
   - DOMAIN,httpdns.bilivideo.com
   - DOMAIN,httpdns.c.cdnhwc2.com
+  - DOMAIN,httpdns.meituan.com
   - DOMAIN,httpdns.music.163.com
   - DOMAIN,httpdns.n.netease.com
   - DOMAIN,httpdns.push.oppomobile.com
   - DOMAIN,httpdns.volcengineapi.com
   - DOMAIN,httpsdns.baidu.com
+  - DOMAIN,kuaishou.httpdns.pro
   - DOMAIN,lofter.httpdns.c.163.com
   - DOMAIN,music.httpdns.c.163.com
   - IP-CIDR,101.124.19.122/32
   - IP-CIDR,103.224.222.208/32
   - IP-CIDR,115.236.121.195/32
   - IP-CIDR,115.236.121.51/32
+  - IP-CIDR,119.29.29.98/31
   - IP-CIDR,123.151.54.50/32
+  - IP-CIDR,182.254.116.117/32
+  - IP-CIDR,182.254.118.119/32
   - IP-CIDR,186.76.76.200/32
   - IP-CIDR,203.107.1.0/24
   - IP-CIDR,39.97.128.148/32

@@ -12,13 +12,13 @@ BlockHttpDNS规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-07-20 23:25:19
+最后更新时间：2023-10-07 14:23:16
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 18  | 
-| TOTAL | 18  | 
+| DOMAIN-SUFFIX | 20  | 
+| TOTAL | 20  | 
 
 
 ## AdGuard 

@@ -1,12 +1,13 @@
 #!name=BlockHTTPDNS
-#!desc=最后更新时间 2023-07-20 23:29:03
+#!desc=最后更新时间 2023-10-07 14:23:54
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!domain=18
-#!ip-cidr=19
+#!domain=19
+#!domain-suffix=1
+#!ip-cidr=23
 #!reject=16
-#!mitm=6
-#!total=59
+#!mitm=8
+#!total=67
 
 [General]
 force-http-engine-hosts = %APPEND% 119.29.29.29:80,203.107.1.65:80,203.107.1.66:80,dns.weixin.qq.com:443,dns.weixin.qq.com:80,dns.weixin.qq.com:8080
@@ -23,6 +24,7 @@ DOMAIN,httpdns.baidu.com,REJECT
 DOMAIN,httpdns.baidubce.com,REJECT
 DOMAIN,httpdns.bilivideo.com,REJECT
 DOMAIN,httpdns.c.cdnhwc2.com,REJECT
+DOMAIN,httpdns.meituan.com,REJECT
 DOMAIN,httpdns.music.163.com,REJECT
 DOMAIN,httpdns.n.netease.com,REJECT
 DOMAIN,httpdns.push.oppomobile.com,REJECT
@@ -30,11 +32,16 @@ DOMAIN,httpdns.volcengineapi.com,REJECT
 DOMAIN,httpsdns.baidu.com,REJECT
 DOMAIN,lofter.httpdns.c.163.com,REJECT
 DOMAIN,music.httpdns.c.163.com,REJECT
+DOMAIN-SUFFIX,httpdns.pro,REJECT
 IP-CIDR,101.124.19.122/32,REJECT,no-resolve
 IP-CIDR,103.224.222.208/32,REJECT,no-resolve
 IP-CIDR,115.236.121.195/32,REJECT,no-resolve
 IP-CIDR,115.236.121.51/32,REJECT,no-resolve
+IP-CIDR,119.29.29.98/32,REJECT,no-resolve
+IP-CIDR,119.29.29.99/32,REJECT,no-resolve
 IP-CIDR,123.151.54.50/32,REJECT,no-resolve
+IP-CIDR,182.254.116.117/32,REJECT,no-resolve
+IP-CIDR,182.254.118.119/32,REJECT,no-resolve
 IP-CIDR,186.76.76.200/32,REJECT,no-resolve
 IP-CIDR,203.107.1.0/24,REJECT,no-resolve
 IP-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
@@ -71,4 +78,4 @@ IP-CIDR,59.111.239.62/32,REJECT,no-resolve
 
 
 [MITM]
-hostname = %APPEND% 119.29.29.29,amdc-sibling.alipay.com.cn,amdc.alipay.com,api.weibo.cn,dns.jd.com,dns.weixin.qq.com
+hostname = %APPEND% *.httpdns.pro,119.29.29.98,119.29.29.99,amdc-sibling.alipay.com.cn,amdc.alipay.com,api.weibo.cn,dns.jd.com,dns.weixin.qq.com

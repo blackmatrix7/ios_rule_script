@@ -1,13 +1,13 @@
 # NAME: Telegram
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:22:30
+# UPDATED: 2023-10-07 14:20:10
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 20
-# IP-CIDR: 6
+# IP-CIDR: 7
 # IP-CIDR6: 4
 # PROCESS-NAME: 4
-# TOTAL: 35
+# TOTAL: 36
 payload:
   - DOMAIN-SUFFIX,comments.app
   - DOMAIN-SUFFIX,contest.com
@@ -35,6 +35,7 @@ payload:
   - IP-CIDR,5.28.195.163/32
   - IP-CIDR,5.28.195.205/32
   - IP-CIDR,5.28.195.37/32
+  - IP-CIDR,5.28.195.80/32
   - IP-CIDR,91.108.0.0/16
   - IP-CIDR6,2001:67c:4e8::/48
   - IP-CIDR6,2001:b28:f23c::/47

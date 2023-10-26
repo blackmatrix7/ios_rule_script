@@ -1,10 +1,10 @@
 # NAME: Line
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:22:30
+# UPDATED: 2023-10-12 02:11:30
 # DOMAIN-SUFFIX: 20
-# IP-CIDR: 14
-# TOTAL: 34
+# IP-CIDR: 16
+# TOTAL: 36
 payload:
   - DOMAIN-SUFFIX,gcld-line.com
   - DOMAIN-SUFFIX,lin.ee
@@ -32,6 +32,8 @@ payload:
   - IP-CIDR,119.235.235.0/24
   - IP-CIDR,119.235.236.0/23
   - IP-CIDR,125.209.208.0/20
+  - IP-CIDR,125.209.252.103/32
+  - IP-CIDR,125.209.252.208/32
   - IP-CIDR,125.6.146.0/24
   - IP-CIDR,125.6.149.0/24
   - IP-CIDR,125.6.190.0/24

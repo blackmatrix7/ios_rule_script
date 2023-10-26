@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-07-20 23:20:02
+最后更新时间：2023-10-07 14:17:46
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -79,7 +79,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Blizzard/World-of-Warcraft.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Blizzard.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Blizzard.yaml
-- https://rules.kr328.app/blizzard@cn.yaml
 - https://rules.kr328.app/blizzard.yaml
 
 

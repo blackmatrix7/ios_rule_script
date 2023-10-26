@@ -12,15 +12,15 @@ BBC规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-07-20 23:22:33
+最后更新时间：2023-10-07 14:20:13
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 17  | 
 | DOMAIN-KEYWORD | 2  | 
-| DOMAIN-SUFFIX | 15  | 
-| TOTAL | 34  | 
+| DOMAIN-SUFFIX | 16  | 
+| TOTAL | 35  | 
 
 
 ## Clash 

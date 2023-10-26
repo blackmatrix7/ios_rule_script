@@ -1,14 +1,14 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:22:30
+# UPDATED: 2023-10-07 14:20:10
 # DOMAIN: 25
 # DOMAIN-KEYWORD: 24
-# DOMAIN-SUFFIX: 1086
+# DOMAIN-SUFFIX: 1089
 # IP-CIDR: 918
 # IP-CIDR6: 6
 # PROCESS-NAME: 3
-# TOTAL: 2062
+# TOTAL: 2065
 payload:
   - 'api.okzy.tv'
   - 'apm-misaka.biliapi.net'
@@ -60,6 +60,8 @@ payload:
   - '+.amazonaws.com'
   - '+.amazonprimevideo.cn'
   - '+.amazonprimevideos.com'
+  - '+.amazontools.com'
+  - '+.amazontours.com'
   - '+.amazonuniversity.jobs'
   - '+.amazonvideo.cc'
   - '+.amazonvideo.com'
@@ -175,6 +177,7 @@ payload:
   - '+.content.jwplatform.com'
   - '+.control.kochava.com'
   - '+.conviva.com'
+  - '+.cookielaw.org'
   - '+.coronavirusnow.com'
   - '+.cstatic.net'
   - '+.curbed.com'
@@ -214,7 +217,6 @@ payload:
   - '+.disney-asia.com'
   - '+.disney-discount.com'
   - '+.disney-plus.net'
-  - '+.disney-portal.my.onetrust.com'
   - '+.disney-studio.com'
   - '+.disney-studio.net'
   - '+.disney.asia'
@@ -841,6 +843,7 @@ payload:
   - '+.olevod.io'
   - '+.olevod.tv'
   - '+.olevodtv.com'
+  - '+.onetrust.com'
   - '+.originalhulu.com'
   - '+.orlandohurricane.com'
   - '+.overcast.fm'

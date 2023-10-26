@@ -1,14 +1,15 @@
 name: BlockHTTPDNS
-desc: 最后更新时间 2023-07-20 23:29:03
+desc: 最后更新时间 2023-10-07 14:23:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# domain: 18
-# ip-cidr: 15
+# domain: 19
+# domain-suffix: 1
+# ip-cidr: 19
 # ip-cidr6: 4
 # reject: 16
-# mitm: 6
+# mitm: 8
 # force-http-engine-hosts: 6
-# total: 65
+# total: 73
 
 
 
@@ -24,6 +25,7 @@ rules:
   - DOMAIN,httpdns.baidubce.com,REJECT
   - DOMAIN,httpdns.bilivideo.com,REJECT
   - DOMAIN,httpdns.c.cdnhwc2.com,REJECT
+  - DOMAIN,httpdns.meituan.com,REJECT
   - DOMAIN,httpdns.music.163.com,REJECT
   - DOMAIN,httpdns.n.netease.com,REJECT
   - DOMAIN,httpdns.push.oppomobile.com,REJECT
@@ -31,11 +33,16 @@ rules:
   - DOMAIN,httpsdns.baidu.com,REJECT
   - DOMAIN,lofter.httpdns.c.163.com,REJECT
   - DOMAIN,music.httpdns.c.163.com,REJECT
+  - DOMAIN-SUFFIX,httpdns.pro,REJECT
   - IP-CIDR,101.124.19.122/32,REJECT
   - IP-CIDR,103.224.222.208/32,REJECT
   - IP-CIDR,115.236.121.195/32,REJECT
   - IP-CIDR,115.236.121.51/32,REJECT
+  - IP-CIDR,119.29.29.98/32,REJECT
+  - IP-CIDR,119.29.29.99/32,REJECT
   - IP-CIDR,123.151.54.50/32,REJECT
+  - IP-CIDR,182.254.116.117/32,REJECT
+  - IP-CIDR,182.254.118.119/32,REJECT
   - IP-CIDR,186.76.76.200/32,REJECT
   - IP-CIDR,203.107.1.0/24,REJECT
   - IP-CIDR,39.97.128.148/32,REJECT
@@ -81,7 +88,9 @@ http:
     - "dns.weixin.qq.com:8080"
 
   mitm:
-    - "119.29.29.29"
+    - "*.httpdns.pro"
+    - "119.29.29.98"
+    - "119.29.29.99"
     - "amdc-sibling.alipay.com.cn"
     - "amdc.alipay.com"
     - "api.weibo.cn"

@@ -1,42 +1,17 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:22:30
+# UPDATED: 2023-10-07 14:20:09
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN: 25
 # DOMAIN-KEYWORD: 24
-# DOMAIN-SUFFIX: 1086
+# DOMAIN-SUFFIX: 1089
 # IP-CIDR: 918
 # IP-CIDR6: 6
 # PROCESS-NAME: 3
 # URL-REGEX: 1
 # USER-AGENT: 56
-# TOTAL: 2119
-api.okzy.tv
-apm-misaka.biliapi.net
-apple.comscoreresearch.com
-bcbolt446c5271-a.akamaihd.net
-cs428.wpc.edgecastcdn.net
-daznfeeds.com.edgekey.net
-dca-lm-livedazn.secure.footprint.net
-e13252.dscg.akamaiedge.net
-edge.cwtv-vod-ext.top.comcast.net
-gspe1-ssl.ls.apple.com
-h-dazn.online-metrix.net
-h-netflix.online-metrix.net
-hamifans.emome.net
-hulu.com.c.footprint.net
-hulu.map.fastly.net
-images-daznservices-com.cdn.ampproject.org
-itvpnpmobile-a.akamaihd.net
-ktpx.amazon.com
-news-client.apple.com
-news-edge.apple.com
-news-events.apple.com
-p.bstarstatic.com
-rpg.pic-imges.com
-rthklive2-lh.akamaihd.net
-tv.applemusic.com
+# TOTAL: 2122
 .112263.com
 .20thcenturystudios.com.au
 .20thcenturystudios.com.br
@@ -62,6 +37,8 @@ tv.applemusic.com
 .amazonaws.com
 .amazonprimevideo.cn
 .amazonprimevideos.com
+.amazontools.com
+.amazontours.com
 .amazonuniversity.jobs
 .amazonvideo.cc
 .amazonvideo.com
@@ -177,6 +154,7 @@ tv.applemusic.com
 .content.jwplatform.com
 .control.kochava.com
 .conviva.com
+.cookielaw.org
 .coronavirusnow.com
 .cstatic.net
 .curbed.com
@@ -216,7 +194,6 @@ tv.applemusic.com
 .disney-asia.com
 .disney-discount.com
 .disney-plus.net
-.disney-portal.my.onetrust.com
 .disney-studio.com
 .disney-studio.net
 .disney.asia
@@ -843,6 +820,7 @@ tv.applemusic.com
 .olevod.io
 .olevod.tv
 .olevodtv.com
+.onetrust.com
 .originalhulu.com
 .orlandohurricane.com
 .overcast.fm
@@ -1123,3 +1101,28 @@ tv.applemusic.com
 .zeeuk.com
 .zeriamerikes.com
 .zype.com
+api.okzy.tv
+apm-misaka.biliapi.net
+apple.comscoreresearch.com
+bcbolt446c5271-a.akamaihd.net
+cs428.wpc.edgecastcdn.net
+daznfeeds.com.edgekey.net
+dca-lm-livedazn.secure.footprint.net
+e13252.dscg.akamaiedge.net
+edge.cwtv-vod-ext.top.comcast.net
+gspe1-ssl.ls.apple.com
+h-dazn.online-metrix.net
+h-netflix.online-metrix.net
+hamifans.emome.net
+hulu.com.c.footprint.net
+hulu.map.fastly.net
+images-daznservices-com.cdn.ampproject.org
+itvpnpmobile-a.akamaihd.net
+ktpx.amazon.com
+news-client.apple.com
+news-edge.apple.com
+news-events.apple.com
+p.bstarstatic.com
+rpg.pic-imges.com
+rthklive2-lh.akamaihd.net
+tv.applemusic.com

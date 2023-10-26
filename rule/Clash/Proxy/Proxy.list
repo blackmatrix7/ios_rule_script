@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:22:29
+# UPDATED: 2023-10-23 02:11:10
 # DOMAIN: 11
-# DOMAIN-KEYWORD: 31
-# DOMAIN-SUFFIX: 5885
-# IP-CIDR: 87
+# DOMAIN-KEYWORD: 29
+# DOMAIN-SUFFIX: 5881
+# IP-CIDR: 94
 # IP-CIDR6: 3
-# TOTAL: 6017
+# TOTAL: 6018
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,assets-priconne-redive-us.akamaized.net
@@ -35,14 +35,11 @@ DOMAIN-SUFFIX,12vpn.com
 DOMAIN-SUFFIX,12vpn.net
 DOMAIN-SUFFIX,1337x.to
 DOMAIN-SUFFIX,138.com
-DOMAIN-SUFFIX,14.102.250.18
-DOMAIN-SUFFIX,14.102.250.19
 DOMAIN-SUFFIX,141hongkong.com
 DOMAIN-SUFFIX,141jj.com
 DOMAIN-SUFFIX,141tube.com
 DOMAIN-SUFFIX,1688.com.au
 DOMAIN-SUFFIX,173ng.com
-DOMAIN-SUFFIX,174.142.105.153
 DOMAIN-SUFFIX,177pic.info
 DOMAIN-SUFFIX,17t17p.com
 DOMAIN-SUFFIX,18board.com
@@ -122,17 +119,11 @@ DOMAIN-SUFFIX,64tianwang.com
 DOMAIN-SUFFIX,64wiki.com
 DOMAIN-SUFFIX,66.ca
 DOMAIN-SUFFIX,666kb.com
-DOMAIN-SUFFIX,67.220.91.15
-DOMAIN-SUFFIX,67.220.91.18
-DOMAIN-SUFFIX,67.220.91.23
-DOMAIN-SUFFIX,69.65.19.160
 DOMAIN-SUFFIX,6do.news
 DOMAIN-SUFFIX,6park.com
 DOMAIN-SUFFIX,6parkbbs.com
 DOMAIN-SUFFIX,6parker.com
 DOMAIN-SUFFIX,6parknews.com
-DOMAIN-SUFFIX,7-zip.org
-DOMAIN-SUFFIX,72.52.81.22
 DOMAIN-SUFFIX,7capture.com
 DOMAIN-SUFFIX,7cow.com
 DOMAIN-SUFFIX,8-d.com
@@ -989,7 +980,7 @@ DOMAIN-SUFFIX,civilhrfront.org
 DOMAIN-SUFFIX,civiliangunner.com
 DOMAIN-SUFFIX,civilmedia.tw
 DOMAIN-SUFFIX,civisec.org
-DOMAIN-SUFFIX,cjb.net
+DOMAIN-SUFFIX,civitai.com
 DOMAIN-SUFFIX,ck101.com
 DOMAIN-SUFFIX,cl.ly
 DOMAIN-SUFFIX,clarionproject.org
@@ -2094,6 +2085,7 @@ DOMAIN-SUFFIX,greenpeace.org
 DOMAIN-SUFFIX,greenreadings.com
 DOMAIN-SUFFIX,greenvpn.net
 DOMAIN-SUFFIX,greenvpn.org
+DOMAIN-SUFFIX,grindr.com
 DOMAIN-SUFFIX,grotty-monday.com
 DOMAIN-SUFFIX,gs-discuss.com
 DOMAIN-SUFFIX,gsearch.media
@@ -2489,6 +2481,7 @@ DOMAIN-SUFFIX,imagezilla.net
 DOMAIN-SUFFIX,imb.org
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,img.ly
+DOMAIN-SUFFIX,imgasd.com
 DOMAIN-SUFFIX,imgchili.net
 DOMAIN-SUFFIX,imgmega.com
 DOMAIN-SUFFIX,imgur.com
@@ -2893,6 +2886,7 @@ DOMAIN-SUFFIX,lflinkup.org
 DOMAIN-SUFFIX,lfpcontent.com
 DOMAIN-SUFFIX,lhakar.org
 DOMAIN-SUFFIX,lhasocialwork.org
+DOMAIN-SUFFIX,li.taipei
 DOMAIN-SUFFIX,liangyou.net
 DOMAIN-SUFFIX,liangzhichuanmei.com
 DOMAIN-SUFFIX,lianyue.net
@@ -3229,6 +3223,7 @@ DOMAIN-SUFFIX,monar.ch
 DOMAIN-SUFFIX,mondex.org
 DOMAIN-SUFFIX,money-link.com.tw
 DOMAIN-SUFFIX,moneyhome.biz
+DOMAIN-SUFFIX,monica.im
 DOMAIN-SUFFIX,monitorchina.org
 DOMAIN-SUFFIX,monitorware.com
 DOMAIN-SUFFIX,monlamit.org
@@ -3724,7 +3719,6 @@ DOMAIN-SUFFIX,paddle.com
 DOMAIN-SUFFIX,paddleapi.com
 DOMAIN-SUFFIX,padmanet.com
 DOMAIN-SUFFIX,page.link
-DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,pagodabox.com
 DOMAIN-SUFFIX,palacemoon.com
 DOMAIN-SUFFIX,paldengyal.com
@@ -4965,6 +4959,7 @@ DOMAIN-SUFFIX,torguard.net
 DOMAIN-SUFFIX,torlock.com
 DOMAIN-SUFFIX,torproject.org
 DOMAIN-SUFFIX,torrentkitty.tv
+DOMAIN-SUFFIX,torrentmac.net
 DOMAIN-SUFFIX,torrentprivacy.com
 DOMAIN-SUFFIX,torrentproject.se
 DOMAIN-SUFFIX,torrenty.org
@@ -5673,6 +5668,7 @@ DOMAIN-SUFFIX,xiaod.in
 DOMAIN-SUFFIX,xiaohexie.com
 DOMAIN-SUFFIX,xiaolan.me
 DOMAIN-SUFFIX,xiaoma.org
+DOMAIN-SUFFIX,xiaomi.eu
 DOMAIN-SUFFIX,xiaxiaoqiang.net
 DOMAIN-SUFFIX,xiezhua.com
 DOMAIN-SUFFIX,xihua.es
@@ -5913,7 +5909,6 @@ DOMAIN-KEYWORD,beetalk
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,dlercloud
 DOMAIN-KEYWORD,dropbox
-DOMAIN-KEYWORD,duolingo
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,github
@@ -5928,7 +5923,6 @@ DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,skydrive
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,tesla
 DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,twitter
@@ -5963,6 +5957,7 @@ IP-CIDR,129.134.0.0/17,no-resolve
 IP-CIDR,129.226.0.0/16,no-resolve
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
+IP-CIDR,14.102.250.18/31,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR,157.240.0.0/17,no-resolve
@@ -5973,6 +5968,7 @@ IP-CIDR,173.192.222.160/27,no-resolve
 IP-CIDR,173.192.231.32/27,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
 IP-CIDR,173.252.64.0/18,no-resolve
+IP-CIDR,174.142.105.153/32,no-resolve
 IP-CIDR,174.37.0.0/16,no-resolve
 IP-CIDR,179.60.192.0/22,no-resolve
 IP-CIDR,18.184.0.0/15,no-resolve
@@ -6015,8 +6011,13 @@ IP-CIDR,54.230.156.0/22,no-resolve
 IP-CIDR,54.242.0.0/15,no-resolve
 IP-CIDR,54.93.0.0/16,no-resolve
 IP-CIDR,66.220.144.0/20,no-resolve
+IP-CIDR,67.220.91.15/32,no-resolve
+IP-CIDR,67.220.91.18/32,no-resolve
+IP-CIDR,67.220.91.23/32,no-resolve
 IP-CIDR,69.171.224.0/19,no-resolve
 IP-CIDR,69.63.176.0/20,no-resolve
+IP-CIDR,69.65.19.160/32,no-resolve
+IP-CIDR,72.52.81.22/32,no-resolve
 IP-CIDR,74.119.76.0/22,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,74.86.0.0/16,no-resolve

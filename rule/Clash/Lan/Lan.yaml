@@ -1,19 +1,20 @@
 # NAME: Lan
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:22:39
-# DOMAIN: 6
+# UPDATED: 2023-10-17 02:13:11
+# DOMAIN: 7
 # DOMAIN-SUFFIX: 121
 # IP-CIDR: 14
-# IP-CIDR6: 3
-# TOTAL: 144
+# IP-CIDR6: 4
+# TOTAL: 146
 payload:
   - DOMAIN,asusrouter.com
+  - DOMAIN,cp.cloudflare.com
+  - DOMAIN,detectportal.firefox.com
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,router.asus.com
   - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN,www.asusrouter.com
-  - DOMAIN,www.mifiwi.com
   - DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
   - DOMAIN-SUFFIX,0.in-addr.arpa
   - DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
@@ -119,7 +120,6 @@ payload:
   - DOMAIN-SUFFIX,leike.cc
   - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com
   - DOMAIN-SUFFIX,localhost.sec.qq.com
-  - DOMAIN-SUFFIX,miwifi.com
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,my.router
@@ -133,6 +133,7 @@ payload:
   - DOMAIN-SUFFIX,tendawifi.com
   - DOMAIN-SUFFIX,tplinkwifi.net
   - DOMAIN-SUFFIX,tplogin.cn
+  - DOMAIN-SUFFIX,ts.net
   - DOMAIN-SUFFIX,wifi.cmcc
   - DOMAIN-SUFFIX,zte.home
   - IP-CIDR,0.0.0.0/8
@@ -149,6 +150,7 @@ payload:
   - IP-CIDR,198.51.100.0/24
   - IP-CIDR,203.0.113.0/24
   - IP-CIDR,224.0.0.0/3
-  - IP-CIDR6,::1/128
+  - IP-CIDR6,::/127
   - IP-CIDR6,fc00::/7
   - IP-CIDR6,fe80::/10
+  - IP-CIDR6,ff00::/8

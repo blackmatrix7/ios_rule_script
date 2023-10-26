@@ -1,18 +1,19 @@
 # NAME: Netflix
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:22:31
+# UPDATED: 2023-10-20 02:12:00
 # DOMAIN: 3
 # DOMAIN-KEYWORD: 4
-# DOMAIN-SUFFIX: 28
-# IP-CIDR: 1010
+# DOMAIN-SUFFIX: 30
+# IP-CIDR: 1033
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 1050
+# TOTAL: 1075
 payload:
   - DOMAIN,e13252.dscg.akamaiedge.net
   - DOMAIN,h-netflix.online-metrix.net
   - DOMAIN,netflix.com.edgesuite.net
+  - DOMAIN-SUFFIX,cookielaw.org
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,flxvpn.net
   - DOMAIN-SUFFIX,netflix.ca
@@ -40,6 +41,7 @@ payload:
   - DOMAIN-SUFFIX,nflxsearch.net
   - DOMAIN-SUFFIX,nflxso.net
   - DOMAIN-SUFFIX,nflxvideo.net
+  - DOMAIN-SUFFIX,onetrust.com
   - DOMAIN-SUFFIX,us-west-2.amazonaws.com
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,dualstack.apiproxy-

@@ -12,15 +12,15 @@ Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-07-20 23:22:29
+最后更新时间：2023-10-23 02:11:12
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 17  | 
-| HOST-KEYWORD | 31  | 
-| HOST-SUFFIX | 6330  | 
-| IP-CIDR | 87  | 
+| HOST-KEYWORD | 29  | 
+| HOST-SUFFIX | 6325  | 
+| IP-CIDR | 94  | 
 | IP6-CIDR | 3  | 
 | USER-AGENT | 9  | 
 | TOTAL | 6477  | 

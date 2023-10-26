@@ -17,14 +17,14 @@ AdBlock Plus EasyPrivacy，仅抽取DOMAIN-SUFFIX类型。
 
 ## 规则统计
 
-最后更新时间：2023-07-20 23:24:10
+最后更新时间：2023-10-07 14:21:57
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 7  | 
-| HOST-SUFFIX | 21343  | 
-| TOTAL | 21350  | 
+| HOST-SUFFIX | 21518  | 
+| TOTAL | 21525  | 
 
 
 ## QuantumultX 

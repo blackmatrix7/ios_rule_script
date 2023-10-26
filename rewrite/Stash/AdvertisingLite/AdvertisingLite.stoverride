@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-10-12 02:15:18
+desc: 最后更新时间 2023-10-27 02:15:10
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 540
-# mitm: 446
+# reject: 543
+# mitm: 447
 # force-http-engine-hosts: 6
-# total: 992
+# total: 996
 
 
 
@@ -31,6 +31,9 @@ http:
     - ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject
     - ^https:\/\/service\.haiersmarthomes\.com\/management\/banner\/getBannerList\?source=4 - reject
     - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
+    - ^https?://api-mifit-cn2\.zepp\.com/discovery/mi/cards/(startpage_ad|homepage_ad)\? - reject
+    - ^https?://newclient\.map\.baidu\.com/client/crossmarketing - reject
+    - ^https?://newclient\.map\.baidu\.com/client/usersystem/home/dynamic - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
@@ -404,6 +407,7 @@ http:
     - ^https?:\/\/msg\.umengcloud\.com\/admsg\/ - reject
     - ^https?:\/\/msspjh\.emarbox\.com\/getAdConfig - reject
     - ^https?:\/\/new-app-api\.ylyk\.com\/v1\/user\/myinfo\/adviser - reject
+    - ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads - reject
     - ^https?:\/\/news\.ssp\.qq\.com\/app - reject
     - ^https?:\/\/nnapp\.cloudbae\.cn(:\d+)?\/mc\/api\/advert - reject
     - ^https?:\/\/nochange\.ggsafe\.com\/ad\/ - reject
@@ -417,7 +421,6 @@ http:
     - ^https?:\/\/open\.qyer\.com\/qyer\/startpage\/ - reject
     - ^https?:\/\/open\.taou\.com\/maimai\/launch_ad - reject
     - ^https?:\/\/optimus-ads\.amap\.com\/uploadimg\/ - reject
-    - ^https?:\/\/oss\.umetrip\.com\/fs\/advert\/polite\/ - reject
     - ^https?:\/\/otheve\.beacon\.qq\.com\/analytics\/upload\?sid=.* - reject
     - ^https?:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads - reject
     - ^https?:\/\/p0\.pipi\.cn\/adAdmin\/\w+.jpg\? - reject
@@ -592,6 +595,7 @@ http:
     - "api-access.pangolin-sdk-toutiao.com"
     - "api-ad-product.huxiu.com"
     - "api-ks.wtzw.com"
+    - "api-mifit-cn2.zepp.com"
     - "api-mifit.huami.com"
     - "api-new.app.acfun.cn"
     - "api-one.wallstcn.com"
@@ -877,6 +881,7 @@ http:
     - "msspjh.emarbox.com"
     - "mxsa.mxbc.net"
     - "new-app-api.ylyk.com"
+    - "newclient.map.baidu.com"
     - "news.ssp.qq.com"
     - "nnapp.cloudbae.cn"
     - "nochange.ggsafe.com"
@@ -888,7 +893,6 @@ http:
     - "open.taou.com"
     - "open3.vistastory.com"
     - "optimus-ads.amap.com"
-    - "oss.umetrip.com"
     - "otheve.beacon.qq.com"
     - "overseas.weico.cc"
     - "p*.meituan.net"

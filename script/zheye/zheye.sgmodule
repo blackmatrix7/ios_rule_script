@@ -57,6 +57,7 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 # 优化软件配置 - 优化下发的配置文件来实现某些效果
 哲也_优化软件配置1 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
 哲也_优化软件配置2 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
+哲也_优化软件配置3 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/feed\/render\/tab\/config,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
 
 # 用户信息 - 修改用户盐值
 修改用户盐值 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/user-credit\/basis,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js

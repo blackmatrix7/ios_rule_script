@@ -71,6 +71,12 @@ http:
       require-body: true
       timeout: 30
       argument: '' 
+    - match: ^https?:\/\/api\.zhihu\.com\/feed\/render\/tab\/config
+      name: zheye.js
+      type: response
+      require-body: true
+      timeout: 30
+      argument: '' 
 
     # 用户信息 - 修改用户盐值
     - match: ^https?:\/\/api\.zhihu\.com\/user-credit\/basis

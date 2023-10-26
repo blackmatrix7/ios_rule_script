@@ -182,6 +182,20 @@
           "desc": "非会员用户显示为盐选会员"
         },
         {
+          "id": "zhihu_settings_app_conf",
+          "name": "软件配置优化",
+          "val": false,
+          "type": "boolean",
+          "desc": "对下发的软件配置进行一些调整"
+        },
+        {
+          "id": "zhihu_settings_remove_live_tab",
+          "name": "移除推荐页强制标签",
+          "val": false,
+          "type": "boolean",
+          "desc": "强制移除推荐页的强制标签，需配置移除的标签，并开启“软件配置优化”"
+        },
+        {
           "id": "zhihu_settings_blocked_keywords",
           "name": "推荐页关键词过滤",
           "val": true,
@@ -316,6 +330,13 @@
           "val": "",
           "type": "input",
           "desc": "用于解锁更多功能。示例 http://192.168.1.200:52273 。"
+        },
+        {
+          "id": "zheye_remove_feed_tabs",
+          "name": "强制移除指定推荐页标签",
+          "val": "",
+          "type": "input",
+          "desc": "每个标签以;分隔，如“直播;科学”"
         }
       ]
     },

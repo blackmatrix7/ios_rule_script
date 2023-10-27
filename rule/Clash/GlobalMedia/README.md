@@ -12,18 +12,18 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-07 14:20:10
+最后更新时间：2023-10-28 02:12:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 25  | 
-| DOMAIN-KEYWORD | 24  | 
-| DOMAIN-SUFFIX | 1089  | 
+| DOMAIN | 29  | 
+| DOMAIN-KEYWORD | 25  | 
+| DOMAIN-SUFFIX | 1096  | 
 | IP-CIDR | 918  | 
 | IP-CIDR6 | 6  | 
-| PROCESS-NAME | 3  | 
-| TOTAL | 2065  | 
+| PROCESS-NAME | 13  | 
+| TOTAL | 2087  | 
 
 
 ## Clash 
@@ -106,6 +106,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/GMedia.list
+- https://ruleset.isagood.day/stream.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

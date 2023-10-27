@@ -1,16 +1,17 @@
 # NAME: Telegram
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-07 14:20:10
+# UPDATED: 2023-10-29 02:12:23
 # HOST-KEYWORD: 1
-# HOST-SUFFIX: 20
+# HOST-SUFFIX: 21
 # IP-ASN: 5
-# IP-CIDR: 7
+# IP-CIDR: 4
 # IP6-CIDR: 4
-# TOTAL: 37
+# TOTAL: 35
 HOST-SUFFIX,comments.app,Telegram
 HOST-SUFFIX,contest.com,Telegram
 HOST-SUFFIX,graph.org,Telegram
+HOST-SUFFIX,legra.ph,Telegram
 HOST-SUFFIX,mbrx.app,Telegram
 HOST-SUFFIX,quiz.directory,Telegram
 HOST-SUFFIX,stel.com,Telegram
@@ -31,10 +32,7 @@ HOST-SUFFIX,usercontent.dev,Telegram
 HOST-KEYWORD,nicegram,Telegram
 IP-CIDR,109.239.140.0/24,Telegram
 IP-CIDR,149.154.160.0/20,Telegram
-IP-CIDR,5.28.195.163/32,Telegram
-IP-CIDR,5.28.195.205/32,Telegram
-IP-CIDR,5.28.195.37/32,Telegram
-IP-CIDR,5.28.195.80/32,Telegram
+IP-CIDR,5.28.192.0/18,Telegram
 IP-CIDR,91.108.0.0/16,Telegram
 IP6-CIDR,2001:67c:4e8::/48,Telegram
 IP6-CIDR,2001:b28:f23c::/47,Telegram

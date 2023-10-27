@@ -12,17 +12,18 @@ ChinaMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-07 14:20:56
+最后更新时间：2023-11-14 02:13:42
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 57  | 
+| DOMAIN | 71  | 
 | DOMAIN-KEYWORD | 2  | 
-| DOMAIN-SUFFIX | 176  | 
-| IP-CIDR | 28  | 
+| DOMAIN-SUFFIX | 235  | 
+| IP-CIDR | 50  | 
+| IP-CIDR6 | 29  | 
 | PROCESS-NAME | 6  | 
-| TOTAL | 269  | 
+| TOTAL | 393  | 
 
 
 ## Clash 
@@ -82,6 +83,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/CMedia.list
 - https://rules.kr328.app/cctv.yaml
 - https://rules.kr328.app/bilibili.yaml
+- https://ruleset.isagood.day/bilibili.conf
+- https://ruleset.isagood.day/stream_cn.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

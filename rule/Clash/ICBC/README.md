@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-10-07 14:21:03
+最后更新时间：2023-11-08 02:15:59
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -65,6 +65,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ICBC.list
 - https://rules.kr328.app/icbc.yaml
+- https://ruleset.isagood.day/icbc.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

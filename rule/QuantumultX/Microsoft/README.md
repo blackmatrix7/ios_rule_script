@@ -12,17 +12,17 @@ Microsoft规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-07 14:17:48
+最后更新时间：2023-11-08 02:11:06
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 41  | 
 | HOST-KEYWORD | 4  | 
-| HOST-SUFFIX | 660  | 
+| HOST-SUFFIX | 662  | 
 | HOST-WILDCARD | 1  | 
 | USER-AGENT | 3  | 
-| TOTAL | 709  | 
+| TOTAL | 711  | 
 
 
 ## QuantumultX 

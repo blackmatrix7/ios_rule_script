@@ -15,17 +15,17 @@
 
 ## 规则统计
 
-最后更新时间：2023-10-07 14:17:46
+最后更新时间：2023-11-08 02:11:03
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 13  | 
 | DOMAIN-KEYWORD | 4  | 
-| DOMAIN-SUFFIX | 526  | 
+| DOMAIN-SUFFIX | 537  | 
 | IP-CIDR | 46  | 
 | PROTOCOL | 1  | 
-| TOTAL | 590  | 
+| TOTAL | 601  | 
 
 
 ## Surge 
@@ -146,6 +146,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/gog.yaml
 - https://rules.kr328.app/steam.yaml
 - https://rules.kr328.app/nintendo.yaml
+- https://ruleset.isagood.day/global_game.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

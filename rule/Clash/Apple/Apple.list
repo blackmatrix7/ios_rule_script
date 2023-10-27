@@ -1,19 +1,21 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-27 02:09:01
-# DOMAIN: 7
+# UPDATED: 2023-11-17 02:11:35
+# DOMAIN: 9
 # DOMAIN-KEYWORD: 5
-# DOMAIN-SUFFIX: 1544
+# DOMAIN-SUFFIX: 1546
 # IP-CIDR: 10
-# PROCESS-NAME: 6
-# TOTAL: 1572
+# PROCESS-NAME: 7
+# TOTAL: 1577
 DOMAIN,appldnld.apple.com.edgesuite.net
 DOMAIN,apple-events.akamaized.net
 DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
 DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
 DOMAIN,beatselectronicsllc.tt.omtrdc.net
+DOMAIN,e16991.b.akamaiedge.net
 DOMAIN,icons.axm-usercontent-apple.com
+DOMAIN,lookup-api.apple.com.edgekey.net
 DOMAIN,p-events-delivery.akamaized.net
 DOMAIN-SUFFIX,100beatscheap.com
 DOMAIN-SUFFIX,1monsterbeatsbydreus.com
@@ -809,6 +811,7 @@ DOMAIN-SUFFIX,ibeats-uk.com
 DOMAIN-SUFFIX,ibeatsbydre.cc
 DOMAIN-SUFFIX,ibeatsbydre.com
 DOMAIN-SUFFIX,ichat.co.in
+DOMAIN-SUFFIX,icloud-content.com.cn
 DOMAIN-SUFFIX,icloud-sandbox.com
 DOMAIN-SUFFIX,idvd.eu
 DOMAIN-SUFFIX,igoshopping.net
@@ -980,6 +983,7 @@ DOMAIN-SUFFIX,onbeatsbydresale.com
 DOMAIN-SUFFIX,onlinemonsterbeatsonsale.com
 DOMAIN-SUFFIX,onsalekey.com
 DOMAIN-SUFFIX,onsaletrend.com
+DOMAIN-SUFFIX,organicfruitapps.com
 DOMAIN-SUFFIX,outletbeatsshop.com
 DOMAIN-SUFFIX,overapple.com
 DOMAIN-SUFFIX,pascherbeatsmonster.com
@@ -1467,9 +1471,11 @@ DOMAIN-SUFFIX,ukipad.com
 DOMAIN-SUFFIX,wwwipodlounge.com
 DOMAIN-SUFFIX,wwwmacbookair.com
 DOMAIN-SUFFIX,apple.comscoreresearch.com
+DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appleenews.com
 DOMAIN-SUFFIX,applemusic.berlin
 DOMAIN-SUFFIX,applemusic.co
+DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,applemusic.com.au
 DOMAIN-SUFFIX,applemusic.hamburg
 DOMAIN-SUFFIX,applemusic.wang
@@ -1502,8 +1508,6 @@ DOMAIN-SUFFIX,iphoto.se
 DOMAIN-SUFFIX,iphoto.wang
 DOMAIN-SUFFIX,musickit.net
 DOMAIN-SUFFIX,wwwapplemusic.com
-DOMAIN-SUFFIX,applemusic.com
-DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,apple-cloudkit.com
@@ -1574,6 +1578,7 @@ IP-CIDR,198.183.17.0/24,no-resolve
 IP-CIDR,205.180.175.0/24,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
+PROCESS-NAME,/System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
 PROCESS-NAME,storedownloadd
 PROCESS-NAME,com.apple.geod
 PROCESS-NAME,Music

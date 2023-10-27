@@ -12,7 +12,7 @@ Disney规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-07 14:20:11
+最后更新时间：2023-10-28 02:12:42
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -67,6 +67,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Disney.list
 - https://rules.kr328.app/disney.yaml
+- https://ruleset.isagood.day/disney.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

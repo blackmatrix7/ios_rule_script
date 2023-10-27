@@ -1,5 +1,5 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2023-10-27 02:15:10
+#!desc= 最后更新时间 2023-10-28 02:20:34
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
@@ -538,7 +538,7 @@
 ^https?:\/\/www\.iyingdi\.cn\/ad - reject-200
 ^https?:\/\/www\.myhug\.cn\/ad\/ - reject-200
 ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject-200
-^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ - reject
+^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ - reject-200
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
 ^https?:\/\/www\.zybang\.com\/adx\/ - reject-200
 ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d - reject-200

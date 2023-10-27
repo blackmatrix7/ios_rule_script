@@ -12,18 +12,18 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-07 14:17:50
+最后更新时间：2023-10-28 02:09:55
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 229  | 
+| HOST | 231  | 
 | HOST-KEYWORD | 5  | 
-| HOST-SUFFIX | 1544  | 
+| HOST-SUFFIX | 1545  | 
 | HOST-WILDCARD | 7  | 
 | IP-CIDR | 10  | 
 | USER-AGENT | 7  | 
-| TOTAL | 1802  | 
+| TOTAL | 1805  | 
 
 
 ## QuantumultX 
@@ -115,6 +115,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/apple@ads.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleNews.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleTV.yaml
+- https://ruleset.isagood.day/apple_cdn_domain.conf
+- https://ruleset.isagood.day/apple_services.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

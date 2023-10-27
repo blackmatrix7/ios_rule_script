@@ -1,20 +1,24 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-07 14:20:10
-# DOMAIN: 25
-# DOMAIN-KEYWORD: 24
-# DOMAIN-SUFFIX: 1089
+# UPDATED: 2023-10-28 02:12:40
+# DOMAIN: 29
+# DOMAIN-KEYWORD: 25
+# DOMAIN-SUFFIX: 1096
 # IP-CIDR: 918
 # IP-CIDR6: 6
-# PROCESS-NAME: 3
-# TOTAL: 2065
+# PROCESS-NAME: 13
+# TOTAL: 2087
 payload:
+  - DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
   - DOMAIN,api.okzy.tv
   - DOMAIN,apm-misaka.biliapi.net
   - DOMAIN,apple.comscoreresearch.com
   - DOMAIN,bcbolt446c5271-a.akamaihd.net
+  - DOMAIN,cache.video.iqiyi.com
+  - DOMAIN,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv
   - DOMAIN,cs428.wpc.edgecastcdn.net
+  - DOMAIN,dashasiafox.akamaized.netflix
   - DOMAIN,daznfeeds.com.edgekey.net
   - DOMAIN,dca-lm-livedazn.secure.footprint.net
   - DOMAIN,e13252.dscg.akamaiedge.net
@@ -31,14 +35,15 @@ payload:
   - DOMAIN,news-client.apple.com
   - DOMAIN,news-edge.apple.com
   - DOMAIN,news-events.apple.com
+  - DOMAIN,ocvideo.apple.com
   - DOMAIN,p.bstarstatic.com
   - DOMAIN,rpg.pic-imges.com
   - DOMAIN,rthklive2-lh.akamaihd.net
-  - DOMAIN,tv.applemusic.com
   - DOMAIN-SUFFIX,112263.com
   - DOMAIN-SUFFIX,20thcenturystudios.com.au
   - DOMAIN-SUFFIX,20thcenturystudios.com.br
   - DOMAIN-SUFFIX,20thcenturystudios.jp
+  - DOMAIN-SUFFIX,4gtv.tv
   - DOMAIN-SUFFIX,5itv.tv
   - DOMAIN-SUFFIX,abc-studios.com
   - DOMAIN-SUFFIX,abc.com
@@ -81,6 +86,7 @@ payload:
   - DOMAIN-SUFFIX,anidom.com
   - DOMAIN-SUFFIX,api.tv.colnv.com
   - DOMAIN-SUFFIX,apple.news
+  - DOMAIN-SUFFIX,applemusic.com
   - DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
   - DOMAIN-SUFFIX,att.tv
   - DOMAIN-SUFFIX,atttvnow.com
@@ -120,6 +126,7 @@ payload:
   - DOMAIN-SUFFIX,bigbigchannel.com.hk
   - DOMAIN-SUFFIX,bigbigshop.com
   - DOMAIN-SUFFIX,biggggg.com
+  - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,biliintl.com
   - DOMAIN-SUFFIX,bitmovin.com
   - DOMAIN-SUFFIX,bootstrapcdn.com
@@ -651,6 +658,7 @@ payload:
   - DOMAIN-SUFFIX,iole.tv
   - DOMAIN-SUFFIX,ipstatp.com
   - DOMAIN-SUFFIX,iq.com
+  - DOMAIN-SUFFIX,isnssdk.com
   - DOMAIN-SUFFIX,italkbb.com
   - DOMAIN-SUFFIX,italkbbtv.com
   - DOMAIN-SUFFIX,itv.com
@@ -927,6 +935,7 @@ payload:
   - DOMAIN-SUFFIX,screens-lab.jp
   - DOMAIN-SUFFIX,seattlespheres.com
   - DOMAIN-SUFFIX,sgpstatp.com
+  - DOMAIN-SUFFIX,sho.com
   - DOMAIN-SUFFIX,shopdisney.com
   - DOMAIN-SUFFIX,shops-disney.com
   - DOMAIN-SUFFIX,shopspeedtv.com
@@ -1007,6 +1016,7 @@ payload:
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,twitchcdn.net
+  - DOMAIN-SUFFIX,twitchsvc.net
   - DOMAIN-SUFFIX,tynt.com
   - DOMAIN-SUFFIX,universalkids.com
   - DOMAIN-SUFFIX,uplynk.com
@@ -1024,6 +1034,7 @@ payload:
   - DOMAIN-SUFFIX,viacom.com
   - DOMAIN-SUFFIX,viacomcbs.com
   - DOMAIN-SUFFIX,viacomcbspressexpress.com
+  - DOMAIN-SUFFIX,viblast.com
   - DOMAIN-SUFFIX,video.a2z.com
   - DOMAIN-SUFFIX,video.google.com
   - DOMAIN-SUFFIX,videos-f.jwpsrv.com
@@ -1145,6 +1156,7 @@ payload:
   - DOMAIN-KEYWORD,spotify.com
   - DOMAIN-KEYWORD,tiktokcdn
   - DOMAIN-KEYWORD,ttvnw
+  - DOMAIN-KEYWORD,tvbanywhere
   - DOMAIN-KEYWORD,uk-live
   - DOMAIN-KEYWORD,voddazn
   - DOMAIN-KEYWORD,youtube
@@ -2072,6 +2084,16 @@ payload:
   - IP-CIDR6,2620:120:e000::/40,no-resolve
   - IP-CIDR6,2a00:86c0::/32,no-resolve
   - IP-CIDR6,2a03:5640::/32,no-resolve
+  - PROCESS-NAME,com.amazon.avod.thirdpartyclient
+  - PROCESS-NAME,com.bstar.intl
+  - PROCESS-NAME,com.hulu.plus
+  - PROCESS-NAME,com.linecorp.linetv
+  - PROCESS-NAME,com.netflix.mediaclient
+  - PROCESS-NAME,com.tencent.ibg.joox
   - PROCESS-NAME,com.viu.pad
   - PROCESS-NAME,com.viu.phone
   - PROCESS-NAME,com.vuclip.viu
+  - PROCESS-NAME,com.wbd.stream
+  - PROCESS-NAME,music
+  - PROCESS-NAME,tv
+  - PROCESS-NAME,tv.twitch.android.app

@@ -15,15 +15,16 @@
 
 ## 规则统计
 
-最后更新时间：2023-10-07 14:20:18
+最后更新时间：2023-10-28 02:12:49
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 33  | 
-| DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 14  | 
-| TOTAL | 48  | 
+| DOMAIN | 35  | 
+| DOMAIN-KEYWORD | 13  | 
+| DOMAIN-SUFFIX | 128  | 
+| PROCESS-NAME | 36  | 
+| TOTAL | 212  | 
 
 
 ## Clash 
@@ -73,6 +74,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Unbreak.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list
+- https://ruleset.isagood.day/direct.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

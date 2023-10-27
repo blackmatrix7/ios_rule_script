@@ -12,7 +12,7 @@ ChinaMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-07 14:20:56
+最后更新时间：2023-10-28 02:13:31
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -87,6 +87,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/CMedia.list
 - https://rules.kr328.app/cctv.yaml
 - https://rules.kr328.app/bilibili.yaml
+- https://ruleset.isagood.day/bilibili.conf
+- https://ruleset.isagood.day/stream_cn.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

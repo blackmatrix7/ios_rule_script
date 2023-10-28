@@ -12,17 +12,17 @@ Telegram规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-28 02:12:40
+最后更新时间：2023-10-29 02:12:23
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 1  | 
 | DOMAIN-SUFFIX | 21  | 
-| IP-CIDR | 7  | 
+| IP-CIDR | 4  | 
 | IP-CIDR6 | 4  | 
 | PROCESS-NAME | 4  | 
-| TOTAL | 37  | 
+| TOTAL | 34  | 
 
 
 ## Clash 

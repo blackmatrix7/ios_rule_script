@@ -12,20 +12,20 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-03 02:15:11
+最后更新时间：2023-11-07 02:15:48
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 163  | 
 | DOMAIN-KEYWORD | 11  | 
-| DOMAIN-SUFFIX | 66012  | 
-| IP-ASN | 1004  | 
-| IP-CIDR | 5966  | 
-| IP-CIDR6 | 3513  | 
+| DOMAIN-SUFFIX | 65866  | 
+| IP-ASN | 1009  | 
+| IP-CIDR | 5960  | 
+| IP-CIDR6 | 3509  | 
 | PROCESS-NAME | 11  | 
 | USER-AGENT | 65  | 
-| TOTAL | 76745  | 
+| TOTAL | 76594  | 
 
 
 ## Surge 
@@ -406,16 +406,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/bytedance.yaml
 - https://rules.kr328.app/4399.yaml
 - https://rules.kr328.app/ccb.yaml
-- https://rules.kr328.app/letv-ads@ads.yaml
-- https://rules.kr328.app/jd-ads.yaml
-- https://rules.kr328.app/xueqiu.yaml
-- https://rules.kr328.app/icbc.yaml
-- https://rules.kr328.app/kuaishou-ads@ads.yaml
-- https://rules.kr328.app/kingsoft.yaml
-- https://rules.kr328.app/kuaishou-ads.yaml
-- https://rules.kr328.app/keep.yaml
-- https://rules.kr328.app/u17.yaml
-- https://rules.kr328.app/sohu-ads@ads.yaml
 - https://rules.kr328.app/huya.yaml
 - https://rules.kr328.app/hunantv-ads@ads.yaml
 - https://rules.kr328.app/bootcss.yaml

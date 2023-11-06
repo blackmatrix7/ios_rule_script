@@ -21,13 +21,13 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-03 02:09:18
+最后更新时间：2023-11-07 02:10:05
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 139365  | 
-| TOTAL | 139365  | 
+| DOMAIN-SUFFIX | 139738  | 
+| TOTAL | 139738  | 
 
 
 ## AdGuard 
@@ -114,12 +114,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
-- https://ruleset.isagood.day/openaireject.conf
 - https://ruleset.isagood.day/reject.conf
-- https://ruleset.isagood.day/reject_domain.conf
 - https://ruleset.isagood.day/reject_domain1.conf
 - https://ruleset.isagood.day/reject_drop.conf
-- https://ruleset.isagood.day/reject_tinygif.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

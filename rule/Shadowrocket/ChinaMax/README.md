@@ -21,18 +21,18 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-03 02:13:58
+最后更新时间：2023-11-07 02:14:37
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 167  | 
 | DOMAIN-KEYWORD | 13  | 
-| DOMAIN-SUFFIX | 66324  | 
-| IP-ASN | 1004  | 
-| IP-CIDR | 9479  | 
+| DOMAIN-SUFFIX | 66178  | 
+| IP-ASN | 1009  | 
+| IP-CIDR | 9469  | 
 | USER-AGENT | 65  | 
-| TOTAL | 77052  | 
+| TOTAL | 76901  | 
 
 
 ## Shadowrocket 
@@ -416,16 +416,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/bytedance.yaml
 - https://rules.kr328.app/4399.yaml
 - https://rules.kr328.app/ccb.yaml
-- https://rules.kr328.app/letv-ads@ads.yaml
-- https://rules.kr328.app/jd-ads.yaml
-- https://rules.kr328.app/xueqiu.yaml
-- https://rules.kr328.app/icbc.yaml
-- https://rules.kr328.app/kuaishou-ads@ads.yaml
-- https://rules.kr328.app/kingsoft.yaml
-- https://rules.kr328.app/kuaishou-ads.yaml
-- https://rules.kr328.app/keep.yaml
-- https://rules.kr328.app/u17.yaml
-- https://rules.kr328.app/sohu-ads@ads.yaml
 - https://rules.kr328.app/huya.yaml
 - https://rules.kr328.app/hunantv-ads@ads.yaml
 - https://rules.kr328.app/bootcss.yaml

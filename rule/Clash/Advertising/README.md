@@ -15,17 +15,17 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-03 02:08:03
+最后更新时间：2023-11-07 02:08:52
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 16159  | 
+| DOMAIN | 16161  | 
 | DOMAIN-KEYWORD | 115  | 
-| DOMAIN-SUFFIX | 96691  | 
+| DOMAIN-SUFFIX | 97065  | 
 | IP-CIDR | 428  | 
 | PROCESS-NAME | 5  | 
-| TOTAL | 113398  | 
+| TOTAL | 113774  | 
 
 
 ## Clash 
@@ -131,12 +131,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
-- https://ruleset.isagood.day/openaireject.conf
 - https://ruleset.isagood.day/reject.conf
-- https://ruleset.isagood.day/reject_domain.conf
 - https://ruleset.isagood.day/reject_domain1.conf
 - https://ruleset.isagood.day/reject_drop.conf
-- https://ruleset.isagood.day/reject_tinygif.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

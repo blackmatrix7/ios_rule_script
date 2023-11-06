@@ -1,15 +1,16 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-03 02:12:00
-# DOMAIN: 147
+# UPDATED: 2023-11-07 02:12:41
+# DOMAIN: 156
 # DOMAIN-KEYWORD: 37
-# DOMAIN-SUFFIX: 19251
+# DOMAIN-SUFFIX: 19262
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 19552
+# TOTAL: 19572
 payload:
+  - DOMAIN,a.ppy.sh
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
   - DOMAIN,anime-rule34-world.b-cdn.net
@@ -18,6 +19,7 @@ payload:
   - DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
   - DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
   - DOMAIN,asahishimbun.sc.omtrdc.net
+  - DOMAIN,assets.ppy.sh
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,assets2.xboxlive.com
   - DOMAIN,az416426.vo.msecnd.net
@@ -28,6 +30,7 @@ payload:
   - DOMAIN,beatselectronicsllc.tt.omtrdc.net
   - DOMAIN,beck-online.beck.de
   - DOMAIN,blizzard.nefficient.co.kr
+  - DOMAIN,c.ppy.sh
   - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN,cbsplaylistserver.aws.syncbak.com
   - DOMAIN,cbsservice.aws.syncbak.com
@@ -53,19 +56,23 @@ payload:
   - DOMAIN,hpstore.corpmerchandise.com
   - DOMAIN,i.jeded.com
   - DOMAIN,imperial.insendi.com
+  - DOMAIN,lazer.ppy.sh
   - DOMAIN,lgelectronics.122.2o7.net
   - DOMAIN,licdn.cn.cdn20.com
   - DOMAIN,linkedin.sc.omtrdc.net
   - DOMAIN,live-patreon-marketing.pantheonsite.io
+  - DOMAIN,m1.ppy.sh
   - DOMAIN,mdn.mozillademos.org
   - DOMAIN,medone-education.thieme.com
   - DOMAIN,mscrl.microsoft.com
   - DOMAIN,muse.jhu.edu
   - DOMAIN,nationalaustraliaban.tt.omtrdc.net
+  - DOMAIN,notify.ppy.sh
   - DOMAIN,nvidia.tt.omtrdc.net
   - DOMAIN,ocsp.microsoft.com
   - DOMAIN,oneocsp.microsoft.com
   - DOMAIN,ood.opsource.net
+  - DOMAIN,osu.ppy.sh
   - DOMAIN,pchomeonline.com.tw
   - DOMAIN,practivate.adobe
   - DOMAIN,practivate.adobe.ipp
@@ -144,6 +151,8 @@ payload:
   - DOMAIN,scholar.google.se
   - DOMAIN,scholar.google.si
   - DOMAIN,scholar.google.sk
+  - DOMAIN,sentry.ppy.sh
+  - DOMAIN,spectator.ppy.sh
   - DOMAIN,t21.nikkei.co.jp
   - DOMAIN,t21ipau.nikkei.co.jp
   - DOMAIN,tesla-cdn.thron.cn
@@ -206,6 +215,9 @@ payload:
   - DOMAIN-SUFFIX,188channel.com
   - DOMAIN-SUFFIX,18av.pro
   - DOMAIN-SUFFIX,18avx.com
+  - DOMAIN-SUFFIX,18comic-god.cc
+  - DOMAIN-SUFFIX,18comic-god.club
+  - DOMAIN-SUFFIX,18comic-god.xyz
   - DOMAIN-SUFFIX,18comic.cc
   - DOMAIN-SUFFIX,18comic.company
   - DOMAIN-SUFFIX,18comic.org
@@ -560,7 +572,11 @@ payload:
   - DOMAIN-SUFFIX,adgoogle.net
   - DOMAIN-SUFFIX,adguard-dns.com
   - DOMAIN-SUFFIX,adguard-vpn.com
+  - DOMAIN-SUFFIX,adguard-vpn.online
+  - DOMAIN-SUFFIX,adguard.app
   - DOMAIN-SUFFIX,adguard.com
+  - DOMAIN-SUFFIX,adguard.info
+  - DOMAIN-SUFFIX,adguardvpn.com
   - DOMAIN-SUFFIX,adhelpnews.com
   - DOMAIN-SUFFIX,adidas.com
   - DOMAIN-SUFFIX,admeld.com
@@ -606,6 +622,7 @@ payload:
   - DOMAIN-SUFFIX,ads-pixiv.net
   - DOMAIN-SUFFIX,adsensecustomsearchads.com
   - DOMAIN-SUFFIX,adsenseformobileapps.com
+  - DOMAIN-SUFFIX,adtidy.net
   - DOMAIN-SUFFIX,adult-h.com
   - DOMAIN-SUFFIX,adult-home-videos.com
   - DOMAIN-SUFFIX,adult-list.com
@@ -6855,6 +6872,7 @@ payload:
   - DOMAIN-SUFFIX,ipfs.eth.aragon.network
   - DOMAIN-SUFFIX,ipfs.fleek.co
   - DOMAIN-SUFFIX,ipfs.runfission.com
+  - DOMAIN-SUFFIX,ipfs.tech
   - DOMAIN-SUFFIX,iphine.com
   - DOMAIN-SUFFIX,iphone-cd.com
   - DOMAIN-SUFFIX,iphone-cn.com
@@ -7172,6 +7190,7 @@ payload:
   - DOMAIN-SUFFIX,jkf.net
   - DOMAIN-SUFFIX,jkface.net
   - DOMAIN-SUFFIX,jm98.cc
+  - DOMAIN-SUFFIX,jmcomic.ltd
   - DOMAIN-SUFFIX,jmcomic.me
   - DOMAIN-SUFFIX,jmcomic.mobi
   - DOMAIN-SUFFIX,jmcomic.moe
@@ -8381,6 +8400,7 @@ payload:
   - DOMAIN-SUFFIX,moxing.mobi
   - DOMAIN-SUFFIX,moxing.news
   - DOMAIN-SUFFIX,moystoys.com
+  - DOMAIN-SUFFIX,mozgcp.net
   - DOMAIN-SUFFIX,mozilla.com
   - DOMAIN-SUFFIX,mozilla.community
   - DOMAIN-SUFFIX,mozilla.net

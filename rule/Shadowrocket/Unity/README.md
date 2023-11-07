@@ -12,7 +12,7 @@ Unity规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-07 02:14:15
+最后更新时间：2023-11-08 02:16:24
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -66,6 +66,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Unity.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Unity.yaml
 - https://rules.kr328.app/unity-ads@ads.yaml
+- https://rules.kr328.app/unity.yaml
 - https://rules.kr328.app/unity-ads.yaml
 - https://rules.kr328.app/unity@ads.yaml
 

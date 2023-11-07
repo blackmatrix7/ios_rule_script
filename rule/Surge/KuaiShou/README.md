@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-07 02:13:58
+最后更新时间：2023-11-08 02:16:00
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -65,6 +65,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuaiShou.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Kuaishou.list
+- https://rules.kr328.app/kuaishou-ads@ads.yaml
+- https://rules.kr328.app/kuaishou-ads.yaml
 - https://rules.kr328.app/kuaishou@ads.yaml
 - https://rules.kr328.app/kuaishou.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Kuaishou.yaml

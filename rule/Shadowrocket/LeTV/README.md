@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-07 02:13:59
+最后更新时间：2023-11-08 02:16:01
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -65,6 +65,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LeTV.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LeTV.list
+- https://rules.kr328.app/letv-ads@ads.yaml
 - https://rules.kr328.app/letv-ads.yaml
 
 

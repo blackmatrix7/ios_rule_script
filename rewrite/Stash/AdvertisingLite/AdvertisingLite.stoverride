@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-10-29 02:16:41
+desc: 最后更新时间 2023-11-10 02:17:20
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 541
-# mitm: 446
+# reject: 540
+# mitm: 445
 # force-http-engine-hosts: 6
-# total: 993
+# total: 991
 
 
 
@@ -79,7 +79,6 @@ http:
     - ^https?:\/\/aes\.acfun\.cn\/s\?adzones - reject
     - ^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
     - ^https?:\/\/amap\-aos\-info\-nogw\.amap\.com\/ws\/aos\/alimama\/ - reject
-    - ^https?:\/\/ap\.dongqiudi\.com\/plat\/v - reject
     - ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads - reject
     - ^https?:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo - reject
     - ^https?:\/\/api-ks\.wtzw\.com\/api\/v(1|2)\/(float-adv|init-adv|reader-adv|bookshelf-adv|coopen-adv) - reject
@@ -587,7 +586,6 @@ http:
     - "aes.acfun.cn"
     - "agent-count.pconline.com.cn"
     - "amap-aos-info-nogw.amap.com"
-    - "ap.dongqiudi.com"
     - "api*.futunn.com"
     - "api*.musical.ly"
     - "api-access.pangolin-sdk-toutiao.com"

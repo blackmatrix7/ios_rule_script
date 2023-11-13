@@ -1,14 +1,14 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-13 02:09:49
+# UPDATED: 2023-11-14 02:10:08
 # HOST: 231
 # HOST-KEYWORD: 5
-# HOST-SUFFIX: 1545
-# HOST-WILDCARD: 7
+# HOST-SUFFIX: 1546
+# HOST-WILDCARD: 8
 # IP-CIDR: 10
 # USER-AGENT: 7
-# TOTAL: 1805
+# TOTAL: 1807
 HOST,apps.apple.com,Apple
 HOST,itunes.apple.com,Apple
 HOST,a1.mzstatic.com,Apple
@@ -217,10 +217,11 @@ HOST,api-glb-sea.smoot.apple.com,Apple
 HOST,books.itunes.apple.com,Apple
 HOST,cvws.icloud-content.com,Apple
 HOST,developer.apple.com,Apple
+HOST,hls.itunes.apple.com,Apple
 HOST,lookup-api.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
+HOST,testflight.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple
-HOST,hls.itunes.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
 HOST,play-edge.itunes.apple.com,Apple
 HOST,tv.applemusic.com,Apple
@@ -232,7 +233,6 @@ HOST,amp-api.fitness.apple.com,Apple
 HOST,hls-svod.itunes.apple.com,Apple
 HOST,guzzoni.apple.com,Apple
 HOST,beta.apple.com,Apple
-HOST,testflight.apple.com,Apple
 HOST,www-cdn.icloud.com.akadns.net,Apple
 HOST,mask-api.fe.apple-dns.net,Apple
 HOST,mask-api.icloud.com,Apple
@@ -1034,6 +1034,7 @@ HOST-SUFFIX,ibeats-uk.com,Apple
 HOST-SUFFIX,ibeatsbydre.cc,Apple
 HOST-SUFFIX,ibeatsbydre.com,Apple
 HOST-SUFFIX,ichat.co.in,Apple
+HOST-SUFFIX,icloud-content.com.cn,Apple
 HOST-SUFFIX,icloud-sandbox.com,Apple
 HOST-SUFFIX,idvd.eu,Apple
 HOST-SUFFIX,igoshopping.net,Apple
@@ -1785,6 +1786,7 @@ HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,myicloud.net,Apple
 HOST-SUFFIX,mylcloud.net,Apple
 HOST-SUFFIX,wwwicloud.com,Apple
+HOST-WILDCARD,*-content.icloud.com.cn,Apple
 HOST-WILDCARD,apple.*,Apple
 HOST-WILDCARD,apple.com.*,Apple
 HOST-WILDCARD,appleworldwidedeveloper.*.net,Apple

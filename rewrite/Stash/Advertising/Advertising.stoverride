@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2023-11-10 02:17:04
+desc: 最后更新时间 2023-11-14 02:16:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 725
-# mitm: 675
+# reject: 726
+# mitm: 676
 # force-http-engine-hosts: 6
-# total: 1406
+# total: 1408
 
 
 
@@ -64,6 +64,7 @@ http:
     - ^https:\/\/learnywhere\.cn\/api\/activity\/23\/423dsj\/inapp\/bb\/promote - reject
     - ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent - reject
     - ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds - reject
+    - ^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_info - reject
     - ^https:\/\/member\.lxjchina\.com\.cn\/mini-server\/home\/page\/banner - reject
     - ^https:\/\/minicap\.caocaokeji\.cn\/advert-bss\/pullAdvert - reject
     - ^https:\/\/miniprogram\.ishansong\.com\/cms\/faq\/query - reject
@@ -1184,6 +1185,7 @@ http:
     - "mbd.baidu.com"
     - "mbs.boc.cn"
     - "media.qyer.com"
+    - "member.alipan.com"
     - "member.lxjchina.com.cn"
     - "mgw.mpaas.cn-hangzhou.aliyuncs.com"
     - "mi.gdt.qq.com"

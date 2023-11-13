@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-10-29 02:16:31
+desc: 最后更新时间 2023-11-14 02:17:01
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 687
-# mitm: 719
+# reject: 688
+# mitm: 720
 # force-http-engine-hosts: 6
-# total: 1451
+# total: 1453
 
 
 
@@ -80,6 +80,7 @@ http:
     - ^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/mina\/systemSetting - reject
     - ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent - reject
     - ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds - reject
+    - ^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_info - reject
     - ^https:\/\/member\.lxjchina\.com\.cn\/mini-server\/home\/page\/banner - reject
     - ^https:\/\/minicap\.caocaokeji\.cn\/advert-bss\/pullAdvert - reject
     - ^https:\/\/miniprogram\.ishansong\.com\/cms\/faq\/query - reject
@@ -1341,6 +1342,7 @@ http:
     - "mbd.baidu.com"
     - "mbs.boc.cn"
     - "media.qyer.com"
+    - "member.alipan.com"
     - "member.lxjchina.com.cn"
     - "mgw.mpaas.cn-hangzhou.aliyuncs.com"
     - "mi.gdt.qq.com"

@@ -15,17 +15,17 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-15 02:08:56
+最后更新时间：2023-11-16 02:08:52
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 16167  | 
 | DOMAIN-KEYWORD | 115  | 
-| DOMAIN-SUFFIX | 97232  | 
+| DOMAIN-SUFFIX | 97273  | 
 | IP-CIDR | 428  | 
 | PROCESS-NAME | 5  | 
-| TOTAL | 113947  | 
+| TOTAL | 113988  | 
 
 
 ## Clash 

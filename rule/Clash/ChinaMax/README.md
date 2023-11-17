@@ -21,18 +21,18 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-17 02:17:07
+最后更新时间：2023-11-28 02:14:07
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 167  | 
 | DOMAIN-KEYWORD | 13  | 
-| DOMAIN-SUFFIX | 66062  | 
-| IP-CIDR | 5971  | 
-| IP-CIDR6 | 3495  | 
+| DOMAIN-SUFFIX | 65934  | 
+| IP-CIDR | 5983  | 
+| IP-CIDR6 | 3498  | 
 | PROCESS-NAME | 13  | 
-| TOTAL | 75721  | 
+| TOTAL | 75608  | 
 
 
 ## Clash 
@@ -536,11 +536,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/bytedance-ads.yaml
 - https://rules.kr328.app/youku-ads.yaml
 - https://rules.kr328.app/huawei@cn.yaml
-- https://rules.kr328.app/dingtalk.yaml
 - https://rules.kr328.app/youku.yaml
 - https://rules.kr328.app/51job.yaml
 - https://rules.kr328.app/sina-ads.yaml
-- https://rules.kr328.app/baidu.yaml
 - https://rules.kr328.app/jd.yaml
 - https://rules.kr328.app/115.yaml
 - https://rules.kr328.app/xunlei.yaml
@@ -553,21 +551,17 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/chinamobile.yaml
 - https://rules.kr328.app/oppo.yaml
 - https://rules.kr328.app/dedao.yaml
-- https://rules.kr328.app/bilibili.yaml
 - https://rules.kr328.app/meizu.yaml
 - https://rules.kr328.app/sohu-ads.yaml
 - https://rules.kr328.app/8btc.yaml
 - https://rules.kr328.app/acfun.yaml
 - https://rules.kr328.app/chinaunicom.yaml
-- https://rules.kr328.app/sina@ads.yaml
 - https://rules.kr328.app/cas.yaml
 - https://rules.kr328.app/letv-ads.yaml
-- https://rules.kr328.app/duowan.yaml
 - https://rules.kr328.app/acfun@ads.yaml
 - https://rules.kr328.app/teambition.yaml
 - https://rules.kr328.app/netease@ads.yaml
 - https://rules.kr328.app/tencent-ads.yaml
-- https://rules.kr328.app/csdn.yaml
 - https://rules.kr328.app/tencent-ads@ads.yaml
 - https://rules.kr328.app/iflytek.yaml
 - https://rules.kr328.app/vancl.yaml

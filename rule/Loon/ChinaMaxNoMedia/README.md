@@ -12,19 +12,19 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-17 02:18:43
+最后更新时间：2023-11-28 02:15:13
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 163  | 
 | DOMAIN-KEYWORD | 11  | 
-| DOMAIN-SUFFIX | 65715  | 
-| IP-ASN | 1007  | 
-| IP-CIDR | 5971  | 
-| IP-CIDR6 | 3495  | 
+| DOMAIN-SUFFIX | 65587  | 
+| IP-ASN | 1008  | 
+| IP-CIDR | 5983  | 
+| IP-CIDR6 | 3498  | 
 | USER-AGENT | 69  | 
-| TOTAL | 76431  | 
+| TOTAL | 76319  | 
 
 
 ## Loon 
@@ -430,11 +430,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/bytedance-ads.yaml
 - https://rules.kr328.app/youku-ads.yaml
 - https://rules.kr328.app/huawei@cn.yaml
-- https://rules.kr328.app/dingtalk.yaml
 - https://rules.kr328.app/youku.yaml
 - https://rules.kr328.app/51job.yaml
 - https://rules.kr328.app/sina-ads.yaml
-- https://rules.kr328.app/baidu.yaml
 - https://rules.kr328.app/jd.yaml
 - https://rules.kr328.app/115.yaml
 - https://rules.kr328.app/xunlei.yaml
@@ -447,21 +445,17 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/chinamobile.yaml
 - https://rules.kr328.app/oppo.yaml
 - https://rules.kr328.app/dedao.yaml
-- https://rules.kr328.app/bilibili.yaml
 - https://rules.kr328.app/meizu.yaml
 - https://rules.kr328.app/sohu-ads.yaml
 - https://rules.kr328.app/8btc.yaml
 - https://rules.kr328.app/acfun.yaml
 - https://rules.kr328.app/chinaunicom.yaml
-- https://rules.kr328.app/sina@ads.yaml
 - https://rules.kr328.app/cas.yaml
 - https://rules.kr328.app/letv-ads.yaml
-- https://rules.kr328.app/duowan.yaml
 - https://rules.kr328.app/acfun@ads.yaml
 - https://rules.kr328.app/teambition.yaml
 - https://rules.kr328.app/netease@ads.yaml
 - https://rules.kr328.app/tencent-ads.yaml
-- https://rules.kr328.app/csdn.yaml
 - https://rules.kr328.app/tencent-ads@ads.yaml
 - https://rules.kr328.app/iflytek.yaml
 - https://rules.kr328.app/vancl.yaml

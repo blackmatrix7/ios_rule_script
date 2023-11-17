@@ -1,13 +1,13 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-07 14:17:47
+# UPDATED: 2023-11-24 10:35:05
 # DOMAIN-KEYWORD: 5
-# DOMAIN-SUFFIX: 724
+# DOMAIN-SUFFIX: 703
 # IP-CIDR: 4
 # IP-CIDR6: 1
 # PROCESS-NAME: 6
-# TOTAL: 740
+# TOTAL: 719
 payload:
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,1e100.net
@@ -50,8 +50,10 @@ payload:
   - DOMAIN-SUFFIX,apps5.oingo.com
   - DOMAIN-SUFFIX,appspot.com
   - DOMAIN-SUFFIX,apture.com
+  - DOMAIN-SUFFIX,ar
   - DOMAIN-SUFFIX,area120.com
   - DOMAIN-SUFFIX,asp-cc.com
+  - DOMAIN-SUFFIX,au
   - DOMAIN-SUFFIX,autodraw.com
   - DOMAIN-SUFFIX,avail.googleflights.net
   - DOMAIN-SUFFIX,bandpage.com
@@ -64,7 +66,6 @@ payload:
   - DOMAIN-SUFFIX,beacons3.gvt2.com
   - DOMAIN-SUFFIX,beatthatquote.com
   - DOMAIN-SUFFIX,blink.org
-  - DOMAIN-SUFFIX,blog.google
   - DOMAIN-SUFFIX,blogblog.com
   - DOMAIN-SUFFIX,blogger.com
   - DOMAIN-SUFFIX,blogspot.ae
@@ -86,19 +87,12 @@ payload:
   - DOMAIN-SUFFIX,blogspot.co.uk
   - DOMAIN-SUFFIX,blogspot.co.za
   - DOMAIN-SUFFIX,blogspot.com
-  - DOMAIN-SUFFIX,blogspot.com.ar
-  - DOMAIN-SUFFIX,blogspot.com.au
-  - DOMAIN-SUFFIX,blogspot.com.br
   - DOMAIN-SUFFIX,blogspot.com.by
-  - DOMAIN-SUFFIX,blogspot.com.co
   - DOMAIN-SUFFIX,blogspot.com.cy
   - DOMAIN-SUFFIX,blogspot.com.ee
-  - DOMAIN-SUFFIX,blogspot.com.eg
   - DOMAIN-SUFFIX,blogspot.com.es
   - DOMAIN-SUFFIX,blogspot.com.mt
   - DOMAIN-SUFFIX,blogspot.com.ng
-  - DOMAIN-SUFFIX,blogspot.com.tr
-  - DOMAIN-SUFFIX,blogspot.com.uy
   - DOMAIN-SUFFIX,blogspot.cv
   - DOMAIN-SUFFIX,blogspot.cz
   - DOMAIN-SUFFIX,blogspot.de
@@ -106,7 +100,6 @@ payload:
   - DOMAIN-SUFFIX,blogspot.fi
   - DOMAIN-SUFFIX,blogspot.fr
   - DOMAIN-SUFFIX,blogspot.gr
-  - DOMAIN-SUFFIX,blogspot.hk
   - DOMAIN-SUFFIX,blogspot.hr
   - DOMAIN-SUFFIX,blogspot.hu
   - DOMAIN-SUFFIX,blogspot.ie
@@ -120,11 +113,8 @@ payload:
   - DOMAIN-SUFFIX,blogspot.lu
   - DOMAIN-SUFFIX,blogspot.md
   - DOMAIN-SUFFIX,blogspot.mk
-  - DOMAIN-SUFFIX,blogspot.mx
-  - DOMAIN-SUFFIX,blogspot.my
   - DOMAIN-SUFFIX,blogspot.nl
   - DOMAIN-SUFFIX,blogspot.no
-  - DOMAIN-SUFFIX,blogspot.pe
   - DOMAIN-SUFFIX,blogspot.pt
   - DOMAIN-SUFFIX,blogspot.qa
   - DOMAIN-SUFFIX,blogspot.re
@@ -132,14 +122,13 @@ payload:
   - DOMAIN-SUFFIX,blogspot.rs
   - DOMAIN-SUFFIX,blogspot.ru
   - DOMAIN-SUFFIX,blogspot.se
-  - DOMAIN-SUFFIX,blogspot.sg
   - DOMAIN-SUFFIX,blogspot.si
   - DOMAIN-SUFFIX,blogspot.sk
   - DOMAIN-SUFFIX,blogspot.sn
   - DOMAIN-SUFFIX,blogspot.td
-  - DOMAIN-SUFFIX,blogspot.tw
   - DOMAIN-SUFFIX,blogspot.ug
-  - DOMAIN-SUFFIX,blogspot.vn
+  - DOMAIN-SUFFIX,bo
+  - DOMAIN-SUFFIX,br
   - DOMAIN-SUFFIX,brocaproject.com
   - DOMAIN-SUFFIX,brotli.org
   - DOMAIN-SUFFIX,bumpshare.com
@@ -153,7 +142,7 @@ payload:
   - DOMAIN-SUFFIX,certificate-transparency.dev
   - DOMAIN-SUFFIX,certificate-transparency.org
   - DOMAIN-SUFFIX,charlestonroadregistry.com
-  - DOMAIN-SUFFIX,chat.gle
+  - DOMAIN-SUFFIX,chrome
   - DOMAIN-SUFFIX,chrome.com
   - DOMAIN-SUFFIX,chromebook.com
   - DOMAIN-SUFFIX,chromecast.com
@@ -170,6 +159,7 @@ payload:
   - DOMAIN-SUFFIX,cloudfunctions.net
   - DOMAIN-SUFFIX,cloudproxy.app
   - DOMAIN-SUFFIX,cloudrobotics.com
+  - DOMAIN-SUFFIX,co
   - DOMAIN-SUFFIX,cobrasearch.com
   - DOMAIN-SUFFIX,codespot.com
   - DOMAIN-SUFFIX,conscrypt.com
@@ -185,6 +175,7 @@ payload:
   - DOMAIN-SUFFIX,crr.com
   - DOMAIN-SUFFIX,crrev.com
   - DOMAIN-SUFFIX,cs4hs.com
+  - DOMAIN-SUFFIX,cu
   - DOMAIN-SUFFIX,dart.dev
   - DOMAIN-SUFFIX,dartlang.org
   - DOMAIN-SUFFIX,dartpad.dev
@@ -192,6 +183,7 @@ payload:
   - DOMAIN-SUFFIX,dartsearch.net
   - DOMAIN-SUFFIX,data-vocabulary.org
   - DOMAIN-SUFFIX,dataliberation.org
+  - DOMAIN-SUFFIX,dclk
   - DOMAIN-SUFFIX,debug.com
   - DOMAIN-SUFFIX,debugproject.com
   - DOMAIN-SUFFIX,deepmind.com
@@ -206,12 +198,15 @@ payload:
   - DOMAIN-SUFFIX,distribution.qatp1.net
   - DOMAIN-SUFFIX,distribution.qcpp1.net
   - DOMAIN-SUFFIX,distribution.qpdp1.net
+  - DOMAIN-SUFFIX,do
   - DOMAIN-SUFFIX,doubleclick-cn.net
   - DOMAIN-SUFFIX,doubleclick.com
   - DOMAIN-SUFFIX,doubleclick.net
   - DOMAIN-SUFFIX,download.qatp1.net
   - DOMAIN-SUFFIX,download.qcpp1.net
   - DOMAIN-SUFFIX,download.qpdp1.net
+  - DOMAIN-SUFFIX,ec
+  - DOMAIN-SUFFIX,eg
   - DOMAIN-SUFFIX,episodic.com
   - DOMAIN-SUFFIX,fastlane.ci
   - DOMAIN-SUFFIX,fastlane.tools
@@ -229,10 +224,10 @@ payload:
   - DOMAIN-SUFFIX,fuchsia.dev
   - DOMAIN-SUFFIX,g-tun.com
   - DOMAIN-SUFFIX,g.cn
-  - DOMAIN-SUFFIX,g.co
   - DOMAIN-SUFFIX,g.dev
   - DOMAIN-SUFFIX,g.page
   - DOMAIN-SUFFIX,gateway.dev
+  - DOMAIN-SUFFIX,gbiz
   - DOMAIN-SUFFIX,gcp.gvt2.com
   - DOMAIN-SUFFIX,gcpnode.com
   - DOMAIN-SUFFIX,gcr.io
@@ -249,7 +244,9 @@ payload:
   - DOMAIN-SUFFIX,ggoogle.com
   - DOMAIN-SUFFIX,gipscorp.com
   - DOMAIN-SUFFIX,gkecnapps.cn
+  - DOMAIN-SUFFIX,gle
   - DOMAIN-SUFFIX,globaledu.org
+  - DOMAIN-SUFFIX,gmail
   - DOMAIN-SUFFIX,gmail.com
   - DOMAIN-SUFFIX,gmodules.com
   - DOMAIN-SUFFIX,go-lang.com
@@ -264,10 +261,13 @@ payload:
   - DOMAIN-SUFFIX,golang.org
   - DOMAIN-SUFFIX,gonglchuangl.net
   - DOMAIN-SUFFIX,gongyichuangyi.net
+  - DOMAIN-SUFFIX,goo
   - DOMAIN-SUFFIX,goo.gl
+  - DOMAIN-SUFFIX,goog
   - DOMAIN-SUFFIX,googel.com
   - DOMAIN-SUFFIX,googil.com
   - DOMAIN-SUFFIX,googl.com
+  - DOMAIN-SUFFIX,google
   - DOMAIN-SUFFIX,google-access.net
   - DOMAIN-SUFFIX,google-analytics-cn.com
   - DOMAIN-SUFFIX,google-analytics.com
@@ -299,7 +299,6 @@ payload:
   - DOMAIN-SUFFIX,google.cl
   - DOMAIN-SUFFIX,google.cm
   - DOMAIN-SUFFIX,google.cn
-  - DOMAIN-SUFFIX,google.co
   - DOMAIN-SUFFIX,google.co.ao
   - DOMAIN-SUFFIX,google.co.bw
   - DOMAIN-SUFFIX,google.co.ck
@@ -328,60 +327,32 @@ payload:
   - DOMAIN-SUFFIX,google.com.af
   - DOMAIN-SUFFIX,google.com.ag
   - DOMAIN-SUFFIX,google.com.ai
-  - DOMAIN-SUFFIX,google.com.ar
-  - DOMAIN-SUFFIX,google.com.au
   - DOMAIN-SUFFIX,google.com.bd
   - DOMAIN-SUFFIX,google.com.bh
   - DOMAIN-SUFFIX,google.com.bn
-  - DOMAIN-SUFFIX,google.com.bo
-  - DOMAIN-SUFFIX,google.com.br
   - DOMAIN-SUFFIX,google.com.bz
-  - DOMAIN-SUFFIX,google.com.co
-  - DOMAIN-SUFFIX,google.com.cu
   - DOMAIN-SUFFIX,google.com.cy
-  - DOMAIN-SUFFIX,google.com.do
-  - DOMAIN-SUFFIX,google.com.ec
-  - DOMAIN-SUFFIX,google.com.eg
   - DOMAIN-SUFFIX,google.com.et
   - DOMAIN-SUFFIX,google.com.fj
   - DOMAIN-SUFFIX,google.com.gh
   - DOMAIN-SUFFIX,google.com.gi
-  - DOMAIN-SUFFIX,google.com.gt
-  - DOMAIN-SUFFIX,google.com.hk
   - DOMAIN-SUFFIX,google.com.jm
   - DOMAIN-SUFFIX,google.com.kh
   - DOMAIN-SUFFIX,google.com.kw
   - DOMAIN-SUFFIX,google.com.lb
-  - DOMAIN-SUFFIX,google.com.ly
   - DOMAIN-SUFFIX,google.com.mm
   - DOMAIN-SUFFIX,google.com.mt
-  - DOMAIN-SUFFIX,google.com.mx
-  - DOMAIN-SUFFIX,google.com.my
   - DOMAIN-SUFFIX,google.com.na
   - DOMAIN-SUFFIX,google.com.ng
-  - DOMAIN-SUFFIX,google.com.ni
   - DOMAIN-SUFFIX,google.com.np
   - DOMAIN-SUFFIX,google.com.om
-  - DOMAIN-SUFFIX,google.com.pa
-  - DOMAIN-SUFFIX,google.com.pe
   - DOMAIN-SUFFIX,google.com.pg
-  - DOMAIN-SUFFIX,google.com.ph
-  - DOMAIN-SUFFIX,google.com.pk
-  - DOMAIN-SUFFIX,google.com.pr
-  - DOMAIN-SUFFIX,google.com.py
   - DOMAIN-SUFFIX,google.com.qa
   - DOMAIN-SUFFIX,google.com.sa
   - DOMAIN-SUFFIX,google.com.sb
-  - DOMAIN-SUFFIX,google.com.sg
   - DOMAIN-SUFFIX,google.com.sl
-  - DOMAIN-SUFFIX,google.com.sv
   - DOMAIN-SUFFIX,google.com.tj
-  - DOMAIN-SUFFIX,google.com.tr
-  - DOMAIN-SUFFIX,google.com.tw
-  - DOMAIN-SUFFIX,google.com.ua
-  - DOMAIN-SUFFIX,google.com.uy
   - DOMAIN-SUFFIX,google.com.vc
-  - DOMAIN-SUFFIX,google.com.vn
   - DOMAIN-SUFFIX,google.cv
   - DOMAIN-SUFFIX,google.cz
   - DOMAIN-SUFFIX,google.de
@@ -530,6 +501,8 @@ payload:
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,gstaticcnapps.cn
   - DOMAIN-SUFFIX,gsuite.com
+  - DOMAIN-SUFFIX,gt
+  - DOMAIN-SUFFIX,guge
   - DOMAIN-SUFFIX,gv.com
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1-cn.com
@@ -540,11 +513,12 @@ payload:
   - DOMAIN-SUFFIX,gvt7.com
   - DOMAIN-SUFFIX,gvt9.com
   - DOMAIN-SUFFIX,gwtproject.org
+  - DOMAIN-SUFFIX,hangout
   - DOMAIN-SUFFIX,haplorrhini.com
   - DOMAIN-SUFFIX,hdrplusdata.org
   - DOMAIN-SUFFIX,hey.boo
-  - DOMAIN-SUFFIX,hey.gle
   - DOMAIN-SUFFIX,hindiweb.com
+  - DOMAIN-SUFFIX,hk
   - DOMAIN-SUFFIX,howtogetmo.co.uk
   - DOMAIN-SUFFIX,html5rocks.com
   - DOMAIN-SUFFIX,hwgo.com
@@ -566,6 +540,7 @@ payload:
   - DOMAIN-SUFFIX,keytransparency.org
   - DOMAIN-SUFFIX,lanternal.com
   - DOMAIN-SUFFIX,like.com
+  - DOMAIN-SUFFIX,ly
   - DOMAIN-SUFFIX,madewithcode.com
   - DOMAIN-SUFFIX,material.io
   - DOMAIN-SUFFIX,mdialog.com
@@ -576,14 +551,17 @@ payload:
   - DOMAIN-SUFFIX,monitoring.qcpp1.net
   - DOMAIN-SUFFIX,monitoring.qpdp1.net
   - DOMAIN-SUFFIX,moodstocks.com
+  - DOMAIN-SUFFIX,mx
+  - DOMAIN-SUFFIX,my
   - DOMAIN-SUFFIX,near.by
   - DOMAIN-SUFFIX,nest.com
   - DOMAIN-SUFFIX,neverware.com
   - DOMAIN-SUFFIX,new.day
+  - DOMAIN-SUFFIX,nexus
+  - DOMAIN-SUFFIX,ni
   - DOMAIN-SUFFIX,nomulus.foo
   - DOMAIN-SUFFIX,oasisfeng.com
   - DOMAIN-SUFFIX,oauthz.com
-  - DOMAIN-SUFFIX,ok.gle
   - DOMAIN-SUFFIX,on.here
   - DOMAIN-SUFFIX,on2.com
   - DOMAIN-SUFFIX,onefifteen.net
@@ -594,12 +572,15 @@ payload:
   - DOMAIN-SUFFIX,openthread.io
   - DOMAIN-SUFFIX,openweave.io
   - DOMAIN-SUFFIX,orbitera.com
+  - DOMAIN-SUFFIX,pa
   - DOMAIN-SUFFIX,page.link
   - DOMAIN-SUFFIX,pagespeedmobilizer.com
   - DOMAIN-SUFFIX,pageview.mobi
   - DOMAIN-SUFFIX,panoramio.com
   - DOMAIN-SUFFIX,partylikeits1986.org
   - DOMAIN-SUFFIX,paxlicense.org
+  - DOMAIN-SUFFIX,pe
+  - DOMAIN-SUFFIX,ph
   - DOMAIN-SUFFIX,picasa.com
   - DOMAIN-SUFFIX,picasaweb.com
   - DOMAIN-SUFFIX,picasaweb.net
@@ -607,18 +588,17 @@ payload:
   - DOMAIN-SUFFIX,picnik.com
   - DOMAIN-SUFFIX,pittpatt.com
   - DOMAIN-SUFFIX,pixate.com
-  - DOMAIN-SUFFIX,pki.goog
+  - DOMAIN-SUFFIX,pk
   - DOMAIN-SUFFIX,plus.codes
   - DOMAIN-SUFFIX,polymer-project.org
   - DOMAIN-SUFFIX,polymerproject.org
   - DOMAIN-SUFFIX,postini.com
+  - DOMAIN-SUFFIX,pr
   - DOMAIN-SUFFIX,privacysandbox.com
-  - DOMAIN-SUFFIX,prod-controlbe.floonet.goog
-  - DOMAIN-SUFFIX,prod-databe.floonet.goog
-  - DOMAIN-SUFFIX,prod.databe.floonet.goog
   - DOMAIN-SUFFIX,projectara.com
   - DOMAIN-SUFFIX,projectbaseline.com
   - DOMAIN-SUFFIX,publishproxy.com
+  - DOMAIN-SUFFIX,py
   - DOMAIN-SUFFIX,qagpublic.qatp1.net
   - DOMAIN-SUFFIX,qagpublic.qcpp1.net
   - DOMAIN-SUFFIX,qagpublic.qpdp1.net
@@ -641,7 +621,6 @@ payload:
   - DOMAIN-SUFFIX,redirector.gvt1.com
   - DOMAIN-SUFFIX,redirector.offline-maps.gvt1.com
   - DOMAIN-SUFFIX,redirector.snap.gvt1.com
-  - DOMAIN-SUFFIX,registry.google
   - DOMAIN-SUFFIX,revolv.com
   - DOMAIN-SUFFIX,ridepenguin.com
   - DOMAIN-SUFFIX,run.app
@@ -654,13 +633,11 @@ payload:
   - DOMAIN-SUFFIX,schemer.com
   - DOMAIN-SUFFIX,screenwisetrends.com
   - DOMAIN-SUFFIX,screenwisetrendspanel.com
+  - DOMAIN-SUFFIX,sg
   - DOMAIN-SUFFIX,shattered.io
   - DOMAIN-SUFFIX,snapseed.com
   - DOMAIN-SUFFIX,solveforx.com
   - DOMAIN-SUFFIX,stadia.dev
-  - DOMAIN-SUFFIX,staging-controlbe.floonet.goog
-  - DOMAIN-SUFFIX,staging-databe.floonet.goog
-  - DOMAIN-SUFFIX,staging.databe.floonet.goog
   - DOMAIN-SUFFIX,stcroixmosquito.com
   - DOMAIN-SUFFIX,stcroixmosquitoproject.com
   - DOMAIN-SUFFIX,studywatchbyverily.com
@@ -669,9 +646,9 @@ payload:
   - DOMAIN-SUFFIX,stxmosquitoproject.com
   - DOMAIN-SUFFIX,stxmosquitoproject.net
   - DOMAIN-SUFFIX,stxmosquitoproject.org
+  - DOMAIN-SUFFIX,sv
   - DOMAIN-SUFFIX,synergyse.com
   - DOMAIN-SUFFIX,teachparentstech.org
-  - DOMAIN-SUFFIX,telephony.goog
   - DOMAIN-SUFFIX,tensorflow.org
   - DOMAIN-SUFFIX,tfhub.dev
   - DOMAIN-SUFFIX,thecleversense.com
@@ -680,15 +657,18 @@ payload:
   - DOMAIN-SUFFIX,thinkquarterly.com
   - DOMAIN-SUFFIX,thinkwithgoogle.com
   - DOMAIN-SUFFIX,tiltbrush.com
+  - DOMAIN-SUFFIX,tr
+  - DOMAIN-SUFFIX,tw
   - DOMAIN-SUFFIX,txcloud.net
   - DOMAIN-SUFFIX,txvia.com
+  - DOMAIN-SUFFIX,ua
   - DOMAIN-SUFFIX,unfiltered.news
-  - DOMAIN-SUFFIX,up.corp.goog
   - DOMAIN-SUFFIX,up.gcp.googlers.com
   - DOMAIN-SUFFIX,urchin.com
   - DOMAIN-SUFFIX,useplannr.com
   - DOMAIN-SUFFIX,usvimosquito.com
   - DOMAIN-SUFFIX,usvimosquitoproject.com
+  - DOMAIN-SUFFIX,uy
   - DOMAIN-SUFFIX,v8.dev
   - DOMAIN-SUFFIX,v8project.org
   - DOMAIN-SUFFIX,velostrata.com
@@ -697,6 +677,7 @@ payload:
   - DOMAIN-SUFFIX,verilystudyhub.com
   - DOMAIN-SUFFIX,verilystudywatch.com
   - DOMAIN-SUFFIX,verilystudywatch.org
+  - DOMAIN-SUFFIX,vn
   - DOMAIN-SUFFIX,wallet.com
   - DOMAIN-SUFFIX,waveprotocol.org
   - DOMAIN-SUFFIX,waymo.com
@@ -712,10 +693,8 @@ payload:
   - DOMAIN-SUFFIX,widevine.com
   - DOMAIN-SUFFIX,withgoogle.com
   - DOMAIN-SUFFIX,womenwill.com
-  - DOMAIN-SUFFIX,womenwill.com.br
   - DOMAIN-SUFFIX,womenwill.id
   - DOMAIN-SUFFIX,womenwill.in
-  - DOMAIN-SUFFIX,womenwill.mx
   - DOMAIN-SUFFIX,www.destinationurl.com
   - DOMAIN-SUFFIX,www.pxcc.com
   - DOMAIN-SUFFIX,x.company
@@ -728,7 +707,7 @@ payload:
   - DOMAIN-SUFFIX,xn--gogl-1nd42e.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
-  - DOMAIN-SUFFIX,xplr.co
+  - DOMAIN-SUFFIX,xn--qcka1pmc
   - DOMAIN-SUFFIX,zukunftswerkstatt.de
   - DOMAIN-SUFFIX,zynamics.com
   - DOMAIN-SUFFIX,googledrive.com

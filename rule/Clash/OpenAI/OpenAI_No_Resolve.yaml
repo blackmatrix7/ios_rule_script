@@ -1,15 +1,18 @@
 # NAME: OpenAI
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-28 02:15:45
+# UPDATED: 2023-11-24 10:40:38
 # DOMAIN: 1
 # DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 12
-# TOTAL: 14
+# DOMAIN-SUFFIX: 20
+# TOTAL: 22
 payload:
-  - DOMAIN,ai.cn
+  - DOMAIN,static.cloudflareinsights.com
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,algolia.net
+  - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,cdn.cloudflare.net
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,events.statsigapi.net
@@ -17,7 +20,12 @@ payload:
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,observeit.net
   - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-KEYWORD,openai

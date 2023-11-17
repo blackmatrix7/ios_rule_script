@@ -12,7 +12,7 @@ BiliBili规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-28 02:12:49
+最后更新时间：2023-11-28 15:49:35
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -70,7 +70,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/bilibili.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml
-- https://rules.kr328.app/bilibili.yaml
 - https://ruleset.isagood.day/bilibili.conf
 
 

@@ -12,18 +12,18 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-28 02:12:40
+最后更新时间：2023-11-29 02:13:35
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 29  | 
 | DOMAIN-KEYWORD | 25  | 
-| DOMAIN-SUFFIX | 1096  | 
+| DOMAIN-SUFFIX | 1253  | 
 | IP-CIDR | 918  | 
 | IP-CIDR6 | 6  | 
 | PROCESS-NAME | 13  | 
-| TOTAL | 2087  | 
+| TOTAL | 2244  | 
 
 
 ## Clash 
@@ -89,8 +89,11 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ## 子规则/排除规则
 
+当前分流规则，已包含以下子规则，除非特殊需求否则不建议重复引用：
+| 子规则  |  | 
+| ---- | ----  |
+| YouTube | YouTubeMusic  | 
 
-当前分流规则，未包含其他子规则。
 
 当前分流规则，已排除以下规则：
 | 排除规则  | 
@@ -101,12 +104,25 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《GlobalMedia》的数据来自以下链接，如与本项目的《GlobalMedia》规则混合使用，可能会造成规则大量重复。
 
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+- https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/YouTube.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/YouTube.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Music/YouTube-Music.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTubeMusic.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/GMedia.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/GMedia.list
+- https://rules.kr328.app/youtube.yaml
+- https://rules.kr328.app/youtube@cn.yaml
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTubeMusic.yaml
 - https://ruleset.isagood.day/stream.conf
+- https://ruleset.isagood.day/youtube.conf
+- https://ruleset.isagood.day/youtube_all.conf
+- https://ruleset.isagood.day/youtube_music.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

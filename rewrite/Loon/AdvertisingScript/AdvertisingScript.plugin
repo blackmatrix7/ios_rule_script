@@ -1,5 +1,5 @@
 #!name= AdvertisingScript
-#!desc= 最后更新时间 2023-10-07 14:23:39
+#!desc= 最后更新时间 2023-11-28 15:52:56
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
@@ -7,8 +7,8 @@
 #!domain= 5
 #!url-regex= 4
 #!http-request-script= 1
-#!http-response-script= 24
-#!reject= 12
+#!http-response-script= 25
+#!reject= 11
 #!mitm= 21
 #!total= 67
 
@@ -34,7 +34,6 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 ^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config - reject-dict
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner - reject-dict
 ^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings - reject-dict
-^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading - reject-dict
 ^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject-dict
 ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/search\/related_queries\/answer - reject-dict
 [Script]
@@ -50,6 +49,8 @@ http-response ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert script-path=htt
 http-response ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_优化软件配置1
 # 哲也_优化软件配置2
 http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_优化软件配置2
+# 哲也_优化软件配置3
+http-response ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_优化软件配置3
 # 哲也_修改用户盐值
 http-response ^https?:\/\/api\.zhihu\.com\/user-credit\/basis script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,requires-body=1,tag=哲也_修改用户盐值
 # 哲也_关注列表优化

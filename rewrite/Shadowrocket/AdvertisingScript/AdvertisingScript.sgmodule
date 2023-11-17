@@ -1,12 +1,12 @@
 #!name=AdvertisingScript
-#!desc=最后更新时间 2023-10-07 14:23:39
+#!desc=最后更新时间 2023-11-28 15:52:56
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!domain=5
 #!url-regex=4
 #!http-request-script=1
-#!http-response-script=24
-#!reject=12
+#!http-response-script=25
+#!reject=11
 #!mitm=21
 #!total=67
 
@@ -32,7 +32,6 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 ^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config - reject-dict
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner - reject-dict
 ^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings - reject-dict
-^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading - reject-dict
 ^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject-dict
 ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/search\/related_queries\/answer - reject-dict
 
@@ -44,6 +43,7 @@ Fa米家_开屏去广告 = type=http-response,script-path=https://raw.githubuser
 京东_开屏去广告 = type=http-response,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,pattern=^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert,requires-body=1
 哲也_优化软件配置1 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,pattern=^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?,requires-body=1
 哲也_优化软件配置2 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,pattern=^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config,requires-body=1
+哲也_优化软件配置3 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,pattern=^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading,requires-body=1
 哲也_修改用户盐值 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,pattern=^https?:\/\/api\.zhihu\.com\/user-credit\/basis,requires-body=1
 哲也_关注列表优化 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,pattern=^https?:\/\/api\.zhihu\.com\/moments\/tab_v2,requires-body=1
 哲也_同步黑名单 = type=http-response,script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js,pattern=^https?:\/\/api\.zhihu\.com\/settings\/blocked_users,requires-body=1

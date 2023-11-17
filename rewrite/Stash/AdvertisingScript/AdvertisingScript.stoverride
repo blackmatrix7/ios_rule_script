@@ -1,11 +1,11 @@
 name: 脚本去广告
-desc: 最后更新时间 2023-10-07 14:23:39
+desc: 最后更新时间 2023-11-28 15:52:56
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
-# http-response-script: 24
-# reject: 12
+# http-response-script: 25
+# reject: 11
 # mitm: 21
 # total: 63
 
@@ -30,7 +30,6 @@ http:
     - ^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config - reject
     - ^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner - reject
     - ^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings - reject
-    - ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading - reject
     - ^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject
     - ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/search\/related_queries\/answer - reject
 
@@ -73,6 +72,13 @@ http:
       argument: 
     # 哲也_优化软件配置2
     - match: ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config
+      name: zheye.min.js_8a3926f1
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_优化软件配置3
+    - match: ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading
       name: zheye.min.js_8a3926f1
       type: response
       require-body: true

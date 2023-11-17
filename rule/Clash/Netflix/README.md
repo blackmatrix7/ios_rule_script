@@ -12,7 +12,7 @@ Netflix规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-15 02:13:51
+最后更新时间：2023-11-28 15:49:27
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -20,10 +20,10 @@ Netflix规则由《RULE GENERATOR 规则生成器》自动生成。
 | DOMAIN | 3  | 
 | DOMAIN-KEYWORD | 4  | 
 | DOMAIN-SUFFIX | 30  | 
-| IP-CIDR | 1058  | 
+| IP-CIDR | 1059  | 
 | IP-CIDR6 | 4  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 1100  | 
+| TOTAL | 1101  | 
 
 
 ## Clash 
@@ -116,7 +116,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/QiuSimons/Netflix_IP/master/getflix.txt
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Netflix.yaml
-- https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Netflix.list
 - https://rules.kr328.app/netflix.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetflixIP.yaml
 - https://ruleset.isagood.day/netflix.conf

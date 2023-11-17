@@ -1,9 +1,10 @@
 # NAME: Unity
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-07 14:21:21
+# UPDATED: 2023-11-28 15:50:38
 # DOMAIN-SUFFIX: 9
-# TOTAL: 9
+# PROCESS-NAME: 1
+# TOTAL: 10
 payload:
   - DOMAIN-SUFFIX,multiplay.cn
   - DOMAIN-SUFFIX,unity.cn
@@ -14,3 +15,4 @@ payload:
   - DOMAIN-SUFFIX,unityedu.cn
   - DOMAIN-SUFFIX,unityedu.com
   - DOMAIN-SUFFIX,unityedu.com.cn
+  - PROCESS-NAME,UnityHub.exe

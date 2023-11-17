@@ -1,17 +1,18 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-28 02:12:40
+# UPDATED: 2023-11-28 15:49:26
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN: 29
 # DOMAIN-KEYWORD: 25
-# DOMAIN-SUFFIX: 1096
+# DOMAIN-SUFFIX: 1253
 # IP-CIDR: 918
 # IP-CIDR6: 6
 # PROCESS-NAME: 13
 # URL-REGEX: 1
 # USER-AGENT: 62
-# TOTAL: 2150
+# TOTAL: 2307
+DOMAIN-SUFFIX,youtube
 DOMAIN-KEYWORD,-spotify-
 DOMAIN-KEYWORD,abematv.akamaized.net
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
@@ -962,9 +963,6 @@ IP-CIDR6,2620:120:e000::/40,no-resolve
 IP-CIDR6,2a00:86c0::/32,no-resolve
 IP-CIDR6,2a03:5640::/32,no-resolve
 USER-AGENT,*Spotify*
-USER-AGENT,*YouTubeMusic*
-USER-AGENT,*com.google.ios.youtubemusic*
-USER-AGENT,*youtube*
 USER-AGENT,AbemaTV*
 USER-AGENT,All4*
 USER-AGENT,Anime*
@@ -1013,16 +1011,19 @@ USER-AGENT,Viu*
 USER-AGENT,ViuTV*
 USER-AGENT,WeMusic*
 USER-AGENT,WeTV*
-USER-AGENT,YouTube*
-USER-AGENT,YouTubeMusic*
 USER-AGENT,com.apple.tv*
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,com.kktv*
 USER-AGENT,com.kktv.ios.kktv*
 USER-AGENT,discovery+*
 USER-AGENT,encoreTVB*
 USER-AGENT,mytv*
+USER-AGENT,*YouTubeMusic*
+USER-AGENT,*com.google.ios.youtubemusic*
+USER-AGENT,*youtube*
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,com.google.ios.youtubemusic*
 URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
 PROCESS-NAME,com.amazon.avod.thirdpartyclient
 PROCESS-NAME,com.bstar.intl

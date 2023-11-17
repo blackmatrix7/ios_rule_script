@@ -15,7 +15,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-08 02:11:03
+最后更新时间：2023-11-28 15:46:56
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -79,6 +79,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/GamesAll.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Blizzard.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Steam.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Steam.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Rockstar/Rockstar.list
@@ -87,7 +88,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/PlayStation.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/Epic.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Epicgames.list
-- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/WildRift.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/EA.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Garena.list
@@ -129,7 +129,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/xbox@cn.yaml
 - https://rules.kr328.app/gog@cn.yaml
 - https://rules.kr328.app/playstation.yaml
-- https://rules.kr328.app/steam@cn.yaml
 - https://rules.kr328.app/riot.yaml
 - https://rules.kr328.app/nintendo@cn.yaml
 - https://rules.kr328.app/rockstar.yaml
@@ -138,7 +137,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/xbox.yaml
 - https://rules.kr328.app/garena.yaml
 - https://rules.kr328.app/gog.yaml
-- https://rules.kr328.app/steam.yaml
 - https://rules.kr328.app/nintendo.yaml
 - https://ruleset.isagood.day/global_game.conf
 

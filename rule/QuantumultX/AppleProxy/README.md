@@ -12,15 +12,15 @@ AppleProxy规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-08 02:11:20
+最后更新时间：2023-11-29 02:13:44
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 9  | 
-| HOST-SUFFIX | 5  | 
-| USER-AGENT | 1  | 
-| TOTAL | 15  | 
+| HOST | 27  | 
+| HOST-SUFFIX | 12  | 
+| USER-AGENT | 5  | 
+| TOTAL | 44  | 
 
 
 ## QuantumultX 
@@ -64,6 +64,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppleBlock/AppleBlock.list
+- https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleNoChinaCDNRules.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

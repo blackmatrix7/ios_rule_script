@@ -1,16 +1,16 @@
 #!name=BlockHTTPDNS
-#!desc=最后更新时间 2023-10-07 14:23:54
+#!desc=最后更新时间 2023-11-28 15:53:04
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!domain=19
+#!domain=20
 #!domain-suffix=1
 #!ip-cidr=23
 #!reject=16
-#!mitm=8
-#!total=67
+#!mitm=16
+#!total=76
 
 [General]
-force-http-engine-hosts = %APPEND% 119.29.29.29:80,203.107.1.65:80,203.107.1.66:80,dns.weixin.qq.com:443,dns.weixin.qq.com:80,dns.weixin.qq.com:8080
+force-http-engine-hosts = %APPEND% 119.29.29.29:80,dns.weixin.qq.com:443,dns.weixin.qq.com:80,dns.weixin.qq.com:8080
 
 [Rule]
 DOMAIN,dns.jd.com,REJECT
@@ -29,6 +29,7 @@ DOMAIN,httpdns.music.163.com,REJECT
 DOMAIN,httpdns.n.netease.com,REJECT
 DOMAIN,httpdns.push.oppomobile.com,REJECT
 DOMAIN,httpdns.volcengineapi.com,REJECT
+DOMAIN,httpdnsvip.meituan.com,REJECT
 DOMAIN,httpsdns.baidu.com,REJECT
 DOMAIN,lofter.httpdns.c.163.com,REJECT
 DOMAIN,music.httpdns.c.163.com,REJECT
@@ -64,7 +65,6 @@ IP-CIDR,59.111.239.62/32,REJECT,no-resolve
 ^http:\/\/114\.110\.96\.26\/d - reject
 ^http:\/\/180\.76\.76\.112\/v4\/resolve - reject
 ^http:\/\/182\.256\.116\.116\/d - reject
-^http:\/\/203\.107\.1\.65\/\d+\/resolve - reject
 ^http:\/\/api\.weibo\.cn\/2\/httpdns\/config - reject
 ^https:\/\/dns\.jd\.com\/v6\/b - reject
 ^https?:\/\/110\.76\.8\.150\/squery - reject
@@ -75,7 +75,8 @@ IP-CIDR,59.111.239.62/32,REJECT,no-resolve
 ^https?:\/\/amdc-sibling\.alipay\.com\.cn\/s?query - reject
 ^https?:\/\/amdc\.alipay\.com\/s?query - reject
 ^https?:\/\/dns\.weixin\.qq\.com\/cgi-bin\/micromsg-bin\/newgetdns - reject
+^https?:\/\/short\.weixin\.qq\.com\/cgi-bin\/micromsg-bin\/getcdndns - reject
 
 
 [MITM]
-hostname = %APPEND% *.httpdns.pro,119.29.29.98,119.29.29.99,amdc-sibling.alipay.com.cn,amdc.alipay.com,api.weibo.cn,dns.jd.com,dns.weixin.qq.com
+hostname = %APPEND% *.httpdns.pro,101.35.204.35,103.37.155.60,110.76.8.150,114.110.96.26,119.29.29.29,119.29.29.98,119.29.29.99,180.76.76.112,182.256.116.116,amdc-sibling.alipay.com.cn,amdc.alipay.com,api.weibo.cn,dns.jd.com,dns.weixin.qq.com,short.weixin.qq.com

@@ -15,18 +15,18 @@ Google规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-08 02:11:05
+最后更新时间：2023-11-28 15:46:58
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 170  | 
 | HOST-KEYWORD | 5  | 
-| HOST-SUFFIX | 724  | 
+| HOST-SUFFIX | 703  | 
 | IP-CIDR | 4  | 
 | IP6-CIDR | 1  | 
 | USER-AGENT | 3  | 
-| TOTAL | 907  | 
+| TOTAL | 886  | 
 
 
 ## QuantumultX 

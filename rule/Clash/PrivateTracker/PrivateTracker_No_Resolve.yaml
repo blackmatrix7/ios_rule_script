@@ -1,15 +1,14 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-17 02:16:44
-# DOMAIN: 147
+# UPDATED: 2023-11-29 02:14:43
+# DOMAIN: 150
 # DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 119
+# DOMAIN-SUFFIX: 122
 # IP-CIDR: 8
 # IP-CIDR6: 2
-# TOTAL: 279
+# TOTAL: 285
 payload:
-  - DOMAIN,107.182.30.76.16clouds.com
   - DOMAIN,1337.abcvg.info
   - DOMAIN,1c.premierzal.ru
   - DOMAIN,6.pocketnet.app
@@ -38,9 +37,7 @@ payload:
   - DOMAIN,hz.is
   - DOMAIN,incine.ru
   - DOMAIN,ipv6.fuuuuuck.com
-  - DOMAIN,isk.richardsw.club
   - DOMAIN,mail.artixlinux.org
-  - DOMAIN,mail.segso.net
   - DOMAIN,moonburrow.club
   - DOMAIN,movies.zsw.ca
   - DOMAIN,new-line.net
@@ -49,16 +46,18 @@ payload:
   - DOMAIN,odd-hd.fr
   - DOMAIN,oh.fuuuuuck.com
   - DOMAIN,open.acgnxtracker.com
+  - DOMAIN,open.acgtracker.com
   - DOMAIN,open.demonii.com
   - DOMAIN,open.dstud.io
+  - DOMAIN,open.free-tracker.ga
   - DOMAIN,open.stealth.si
-  - DOMAIN,open.tracker.cl
   - DOMAIN,open.tracker.ink
   - DOMAIN,open.u-p.pw
   - DOMAIN,opentor.org
   - DOMAIN,opentracker.i2p.rocks
   - DOMAIN,opentracker.io
   - DOMAIN,p4p.arenabg.com
+  - DOMAIN,private.anonseed.com
   - DOMAIN,public-tracker.cf
   - DOMAIN,public.tracker.vraphim.com
   - DOMAIN,retracker.hotplug.ru
@@ -68,19 +67,18 @@ payload:
   - DOMAIN,ryjer.com
   - DOMAIN,sabross.xyz
   - DOMAIN,sanincode.com
-  - DOMAIN,share.camoe.cn
   - DOMAIN,static.54.161.216.95.clients.your-server.de
   - DOMAIN,su-data.com
   - DOMAIN,t.acg.rip
   - DOMAIN,t.nyaatracker.com
   - DOMAIN,t1.hloli.org
   - DOMAIN,tamas3.ynh.fr
-  - DOMAIN,thinking.duckdns.org
   - DOMAIN,thouvenin.cloud
   - DOMAIN,tk1.trackerservers.com
   - DOMAIN,torrents.artixlinux.org
   - DOMAIN,torrentsmd.com
   - DOMAIN,tr.burnabyhighstar.com
+  - DOMAIN,tr.ready4.icu
   - DOMAIN,tracker-udp.gbitt.info
   - DOMAIN,tracker.0x7c0.com
   - DOMAIN,tracker.4.babico.name.tr
@@ -96,6 +94,7 @@ payload:
   - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
+  - DOMAIN,tracker.dump.cl
   - DOMAIN,tracker.edkj.club
   - DOMAIN,tracker.electro-torrent.pl
   - DOMAIN,tracker.farted.net
@@ -104,8 +103,10 @@ payload:
   - DOMAIN,tracker.fnix.net
   - DOMAIN,tracker.gbitt.info
   - DOMAIN,tracker.imgoingto.icu
+  - DOMAIN,tracker.iperson.xyz
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.ipv6tracker.ru
+  - DOMAIN,tracker.k.vu
   - DOMAIN,tracker.kuroy.me
   - DOMAIN,tracker.lilithraws.cf
   - DOMAIN,tracker.lilithraws.org
@@ -119,6 +120,7 @@ payload:
   - DOMAIN,tracker.publictracker.xyz
   - DOMAIN,tracker.qu.ax
   - DOMAIN,tracker.renfei.net
+  - DOMAIN,tracker.rev.pm
   - DOMAIN,tracker.skynetcloud.site
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
@@ -130,6 +132,7 @@ payload:
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.tryhackx.org
+  - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker1.520.jp
   - DOMAIN,tracker1.bt.moack.co.kr
   - DOMAIN,tracker1.itzmx.com
@@ -157,6 +160,7 @@ payload:
   - DOMAIN,x.t-1.org
   - DOMAIN,y.paranoid.agency
   - DOMAIN-SUFFIX,1ptba.com
+  - DOMAIN-SUFFIX,2xfree.org
   - DOMAIN-SUFFIX,52pt.site
   - DOMAIN-SUFFIX,aidoru-online.me
   - DOMAIN-SUFFIX,alpharatio.cc
@@ -187,6 +191,7 @@ payload:
   - DOMAIN-SUFFIX,cinemaz.to
   - DOMAIN-SUFFIX,classix-unlimited.co.uk
   - DOMAIN-SUFFIX,concertos.live
+  - DOMAIN-SUFFIX,creditracker.net
   - DOMAIN-SUFFIX,dicmusic.club
   - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-SUFFIX,dxdhd.com
@@ -228,6 +233,7 @@ payload:
   - DOMAIN-SUFFIX,j99.info
   - DOMAIN-SUFFIX,joyhd.net
   - DOMAIN-SUFFIX,jpopsuki.eu
+  - DOMAIN-SUFFIX,kamept.com
   - DOMAIN-SUFFIX,karagarga.in
   - DOMAIN-SUFFIX,keepfrds.com
   - DOMAIN-SUFFIX,landof.tv

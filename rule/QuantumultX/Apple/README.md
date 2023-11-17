@@ -12,18 +12,18 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-14 02:10:08
+最后更新时间：2023-11-28 15:47:01
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 231  | 
-| HOST-KEYWORD | 5  | 
-| HOST-SUFFIX | 1546  | 
+| HOST | 235  | 
+| HOST-KEYWORD | 7  | 
+| HOST-SUFFIX | 1549  | 
 | HOST-WILDCARD | 8  | 
 | IP-CIDR | 10  | 
-| USER-AGENT | 7  | 
-| TOTAL | 1807  | 
+| USER-AGENT | 23  | 
+| TOTAL | 1832  | 
 
 
 ## QuantumultX 
@@ -117,6 +117,10 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleTV.yaml
 - https://ruleset.isagood.day/apple_cdn_domain.conf
 - https://ruleset.isagood.day/apple_services.conf
+- https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleAPIRules.conf
+- https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleNoChinaCDNRules.conf
+- https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleCDNRules.conf
+- https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleRules.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

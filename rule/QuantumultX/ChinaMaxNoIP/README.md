@@ -15,17 +15,17 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2023-11-17 02:18:09
+最后更新时间：2023-11-29 02:15:42
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 167  | 
 | HOST-KEYWORD | 13  | 
-| HOST-SUFFIX | 65815  | 
+| HOST-SUFFIX | 65656  | 
 | HOST-WILDCARD | 1  | 
 | USER-AGENT | 69  | 
-| TOTAL | 66065  | 
+| TOTAL | 65906  | 
 
 
 ## QuantumultX 
@@ -355,7 +355,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Douyin.yaml
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/XunLei.list
-- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ABC.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iflytek.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iqiyi.list
@@ -422,11 +421,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/bytedance-ads.yaml
 - https://rules.kr328.app/youku-ads.yaml
 - https://rules.kr328.app/huawei@cn.yaml
-- https://rules.kr328.app/dingtalk.yaml
 - https://rules.kr328.app/youku.yaml
 - https://rules.kr328.app/51job.yaml
 - https://rules.kr328.app/sina-ads.yaml
-- https://rules.kr328.app/baidu.yaml
 - https://rules.kr328.app/jd.yaml
 - https://rules.kr328.app/115.yaml
 - https://rules.kr328.app/xunlei.yaml
@@ -439,21 +436,17 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/chinamobile.yaml
 - https://rules.kr328.app/oppo.yaml
 - https://rules.kr328.app/dedao.yaml
-- https://rules.kr328.app/bilibili.yaml
 - https://rules.kr328.app/meizu.yaml
 - https://rules.kr328.app/sohu-ads.yaml
 - https://rules.kr328.app/8btc.yaml
 - https://rules.kr328.app/acfun.yaml
 - https://rules.kr328.app/chinaunicom.yaml
-- https://rules.kr328.app/sina@ads.yaml
 - https://rules.kr328.app/cas.yaml
 - https://rules.kr328.app/letv-ads.yaml
-- https://rules.kr328.app/duowan.yaml
 - https://rules.kr328.app/acfun@ads.yaml
 - https://rules.kr328.app/teambition.yaml
 - https://rules.kr328.app/netease@ads.yaml
 - https://rules.kr328.app/tencent-ads.yaml
-- https://rules.kr328.app/csdn.yaml
 - https://rules.kr328.app/tencent-ads@ads.yaml
 - https://rules.kr328.app/iflytek.yaml
 - https://rules.kr328.app/vancl.yaml
@@ -478,7 +471,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/hupu.yaml
 - https://rules.kr328.app/didi.yaml
 - https://rules.kr328.app/pingan.yaml
-- https://rules.kr328.app/abc.yaml
 - https://rules.kr328.app/baidu-ads.yaml
 - https://rules.kr328.app/jd@ads.yaml
 - https://rules.kr328.app/pinduoduo.yaml

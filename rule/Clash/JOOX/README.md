@@ -12,15 +12,16 @@ JOOX规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-07 14:20:15
+最后更新时间：2023-11-28 15:49:32
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 1  | 
+| DOMAIN-SUFFIX | 3  | 
+| IP-CIDR | 2  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 3  | 
+| TOTAL | 7  | 
 
 
 ## Clash 

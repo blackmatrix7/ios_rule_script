@@ -1,13 +1,13 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-17 02:11:35
+# UPDATED: 2023-11-29 02:11:06
 # DOMAIN: 9
-# DOMAIN-KEYWORD: 5
-# DOMAIN-SUFFIX: 1546
+# DOMAIN-KEYWORD: 7
+# DOMAIN-SUFFIX: 1549
 # IP-CIDR: 10
 # PROCESS-NAME: 7
-# TOTAL: 1577
+# TOTAL: 1582
 payload:
   - DOMAIN,appldnld.apple.com.edgesuite.net
   - DOMAIN,apple-events.akamaized.net
@@ -591,6 +591,7 @@ payload:
   - DOMAIN-SUFFIX,casquemonsterbeatsbydre2013.com
   - DOMAIN-SUFFIX,casquesbeatsaudio.com
   - DOMAIN-SUFFIX,catalina.hk
+  - DOMAIN-SUFFIX,cdn-apple-mapkit.com
   - DOMAIN-SUFFIX,cheap-beats-by-dre.net
   - DOMAIN-SUFFIX,cheap-beatsbydre.com
   - DOMAIN-SUFFIX,cheapbagshoes.com
@@ -683,6 +684,7 @@ payload:
   - DOMAIN-SUFFIX,discountbeatsbydre-us.com
   - DOMAIN-SUFFIX,discountbeatsstore.com
   - DOMAIN-SUFFIX,discussionsapple.com
+  - DOMAIN-SUFFIX,dispatcher.is.autonavi.com
   - DOMAIN-SUFFIX,dkbeatsbydre.com
   - DOMAIN-SUFFIX,dot-mac.de
   - DOMAIN-SUFFIX,dotmac.de
@@ -854,6 +856,7 @@ payload:
   - DOMAIN-SUFFIX,lojaiphone.com.br
   - DOMAIN-SUFFIX,lovebeatsdr.com
   - DOMAIN-SUFFIX,lovemarca.com
+  - DOMAIN-SUFFIX,ls.apple.com.edgesuite.net
   - DOMAIN-SUFFIX,luckyissue.com
   - DOMAIN-SUFFIX,lyzsxx.com
   - DOMAIN-SUFFIX,mac-mini.com
@@ -1143,6 +1146,7 @@ payload:
   - DOMAIN-SUFFIX,app-store.wang
   - DOMAIN-SUFFIX,appe-store.com
   - DOMAIN-SUFFIX,apple-appstore.cn
+  - DOMAIN-SUFFIX,apple-icloud.cn
   - DOMAIN-SUFFIX,apple-itunes.cn
   - DOMAIN-SUFFIX,apple-pay.com
   - DOMAIN-SUFFIX,apple-pay.rs
@@ -1153,6 +1157,7 @@ payload:
   - DOMAIN-SUFFIX,appleappstore.tv
   - DOMAIN-SUFFIX,appledarwin.com
   - DOMAIN-SUFFIX,appledarwin.net
+  - DOMAIN-SUFFIX,appleicloud.cn
   - DOMAIN-SUFFIX,appleid-applemx.com
   - DOMAIN-SUFFIX,appleid-applemx.us
   - DOMAIN-SUFFIX,appleid-iclou.com
@@ -1161,6 +1166,7 @@ payload:
   - DOMAIN-SUFFIX,appleid.com
   - DOMAIN-SUFFIX,appleid.hamburg
   - DOMAIN-SUFFIX,appleid.hk
+  - DOMAIN-SUFFIX,applemx-icloud.com
   - DOMAIN-SUFFIX,appleone.audio
   - DOMAIN-SUFFIX,appleone.blog
   - DOMAIN-SUFFIX,appleone.chat
@@ -1208,7 +1214,49 @@ payload:
   - DOMAIN-SUFFIX,darwinsource.com
   - DOMAIN-SUFFIX,darwinsource.org
   - DOMAIN-SUFFIX,darwinsourcecode.com
+  - DOMAIN-SUFFIX,icloud-apple.cn
+  - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,icloud-isupport.com
+  - DOMAIN-SUFFIX,icloud.ch
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,icloud.com.cn
+  - DOMAIN-SUFFIX,icloud.de
+  - DOMAIN-SUFFIX,icloud.ee
+  - DOMAIN-SUFFIX,icloud.fi
+  - DOMAIN-SUFFIX,icloud.fr
+  - DOMAIN-SUFFIX,icloud.hu
+  - DOMAIN-SUFFIX,icloud.ie
+  - DOMAIN-SUFFIX,icloud.is
+  - DOMAIN-SUFFIX,icloud.jp
+  - DOMAIN-SUFFIX,icloud.lv
+  - DOMAIN-SUFFIX,icloud.net.cn
+  - DOMAIN-SUFFIX,icloud.om
+  - DOMAIN-SUFFIX,icloud.org
+  - DOMAIN-SUFFIX,icloud.pt
+  - DOMAIN-SUFFIX,icloud.ro
+  - DOMAIN-SUFFIX,icloud.se
+  - DOMAIN-SUFFIX,icloud.si
+  - DOMAIN-SUFFIX,icloud.sk
+  - DOMAIN-SUFFIX,icloud.vn
+  - DOMAIN-SUFFIX,icloudads.net
+  - DOMAIN-SUFFIX,icloudapple.cn
+  - DOMAIN-SUFFIX,icloudbox.net
+  - DOMAIN-SUFFIX,icloudbrowser.net
+  - DOMAIN-SUFFIX,icloude.com
+  - DOMAIN-SUFFIX,icloudhome.com
+  - DOMAIN-SUFFIX,icloudmail.net
+  - DOMAIN-SUFFIX,icloudmusic.net
+  - DOMAIN-SUFFIX,icloudnet.net
+  - DOMAIN-SUFFIX,icloudo.com
+  - DOMAIN-SUFFIX,icloudo.de
+  - DOMAIN-SUFFIX,icloudo.net
+  - DOMAIN-SUFFIX,icloudos.de
+  - DOMAIN-SUFFIX,icloudos.net
+  - DOMAIN-SUFFIX,icloudpay.net
+  - DOMAIN-SUFFIX,icloudsecure.net
+  - DOMAIN-SUFFIX,icloudsetup.com
   - DOMAIN-SUFFIX,ids-apple.com
+  - DOMAIN-SUFFIX,ios-icloud.com
   - DOMAIN-SUFFIX,itun.es
   - DOMAIN-SUFFIX,itunbes.com
   - DOMAIN-SUFFIX,ituneas.com
@@ -1242,8 +1290,12 @@ payload:
   - DOMAIN-SUFFIX,itunesu.com
   - DOMAIN-SUFFIX,itunesu.net
   - DOMAIN-SUFFIX,iutunes.com
+  - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,myappleid.com
+  - DOMAIN-SUFFIX,myicloud.net
+  - DOMAIN-SUFFIX,mylcloud.net
   - DOMAIN-SUFFIX,tvappstore.net
+  - DOMAIN-SUFFIX,wwwicloud.com
   - DOMAIN-SUFFIX,wwwitunes.com
   - DOMAIN-SUFFIX,aplestore.com
   - DOMAIN-SUFFIX,aplleipods.com
@@ -1472,11 +1524,9 @@ payload:
   - DOMAIN-SUFFIX,wwwipodlounge.com
   - DOMAIN-SUFFIX,wwwmacbookair.com
   - DOMAIN-SUFFIX,apple.comscoreresearch.com
-  - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,appleenews.com
   - DOMAIN-SUFFIX,applemusic.berlin
   - DOMAIN-SUFFIX,applemusic.co
-  - DOMAIN-SUFFIX,applemusic.com
   - DOMAIN-SUFFIX,applemusic.com.au
   - DOMAIN-SUFFIX,applemusic.hamburg
   - DOMAIN-SUFFIX,applemusic.wang
@@ -1509,64 +1559,19 @@ payload:
   - DOMAIN-SUFFIX,iphoto.wang
   - DOMAIN-SUFFIX,musickit.net
   - DOMAIN-SUFFIX,wwwapplemusic.com
+  - DOMAIN-SUFFIX,applemusic.com
+  - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,apple-cloudkit.com
-  - DOMAIN-SUFFIX,apple-icloud.cn
   - DOMAIN-SUFFIX,apple-livephotoskit.com
-  - DOMAIN-SUFFIX,appleicloud.cn
-  - DOMAIN-SUFFIX,applemx-icloud.com
   - DOMAIN-SUFFIX,apzones.com
   - DOMAIN-SUFFIX,cdn-apple.com
-  - DOMAIN-SUFFIX,icloud-apple.cn
-  - DOMAIN-SUFFIX,icloud-content.com
-  - DOMAIN-SUFFIX,icloud-isupport.com
-  - DOMAIN-SUFFIX,icloud.ch
-  - DOMAIN-SUFFIX,icloud.com
-  - DOMAIN-SUFFIX,icloud.com.cn
-  - DOMAIN-SUFFIX,icloud.de
-  - DOMAIN-SUFFIX,icloud.ee
-  - DOMAIN-SUFFIX,icloud.fi
-  - DOMAIN-SUFFIX,icloud.fr
-  - DOMAIN-SUFFIX,icloud.hu
-  - DOMAIN-SUFFIX,icloud.ie
-  - DOMAIN-SUFFIX,icloud.is
-  - DOMAIN-SUFFIX,icloud.jp
-  - DOMAIN-SUFFIX,icloud.lv
-  - DOMAIN-SUFFIX,icloud.net.cn
-  - DOMAIN-SUFFIX,icloud.om
-  - DOMAIN-SUFFIX,icloud.org
-  - DOMAIN-SUFFIX,icloud.pt
-  - DOMAIN-SUFFIX,icloud.ro
-  - DOMAIN-SUFFIX,icloud.se
-  - DOMAIN-SUFFIX,icloud.si
-  - DOMAIN-SUFFIX,icloud.sk
-  - DOMAIN-SUFFIX,icloud.vn
-  - DOMAIN-SUFFIX,icloudads.net
-  - DOMAIN-SUFFIX,icloudapple.cn
-  - DOMAIN-SUFFIX,icloudbox.net
-  - DOMAIN-SUFFIX,icloudbrowser.net
-  - DOMAIN-SUFFIX,icloude.com
-  - DOMAIN-SUFFIX,icloudhome.com
-  - DOMAIN-SUFFIX,icloudmail.net
-  - DOMAIN-SUFFIX,icloudmusic.net
-  - DOMAIN-SUFFIX,icloudnet.net
-  - DOMAIN-SUFFIX,icloudo.com
-  - DOMAIN-SUFFIX,icloudo.de
-  - DOMAIN-SUFFIX,icloudo.net
-  - DOMAIN-SUFFIX,icloudos.de
-  - DOMAIN-SUFFIX,icloudos.net
-  - DOMAIN-SUFFIX,icloudpay.net
-  - DOMAIN-SUFFIX,icloudsecure.net
-  - DOMAIN-SUFFIX,icloudsetup.com
-  - DOMAIN-SUFFIX,ios-icloud.com
-  - DOMAIN-SUFFIX,me.com
-  - DOMAIN-SUFFIX,myicloud.net
-  - DOMAIN-SUFFIX,mylcloud.net
-  - DOMAIN-SUFFIX,wwwicloud.com
   - DOMAIN-KEYWORD,apple-support.akadns.net
   - DOMAIN-KEYWORD,apple.com.akadns.net
   - DOMAIN-KEYWORD,apple.com.edgekey.net
+  - DOMAIN-KEYWORD,buy.itunes.apple.com
+  - DOMAIN-KEYWORD,smp-device
   - DOMAIN-KEYWORD,testflight
   - DOMAIN-KEYWORD,icloud.com.akadns.net
   - IP-CIDR,139.178.128.0/18

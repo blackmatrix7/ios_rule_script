@@ -1,9 +1,9 @@
 # NAME: AdGuardSDNSFilterDirect
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-07 14:21:55
-# DOMAIN: 115
-# TOTAL: 115
+# UPDATED: 2023-11-28 15:51:11
+# DOMAIN: 118
+# TOTAL: 118
 payload:
   - DOMAIN,5471782.fls.doubleclick.net
   - DOMAIN,79423.analytics.edgekey.net
@@ -52,6 +52,8 @@ payload:
   - DOMAIN,cs.silverpop.com
   - DOMAIN,cutcaptcha.com
   - DOMAIN,daikoku.ebis.ne.jp
+  - DOMAIN,data.digital.costco.ca
+  - DOMAIN,data.digital.costco.com
   - DOMAIN,e.customeriomail.com
   - DOMAIN,email.awscloud.com
   - DOMAIN,email.elitedangerous.com
@@ -120,3 +122,4 @@ payload:
   - DOMAIN,vcentry3.valuecommerce.ne.jp
   - DOMAIN,www.googleadservices.com
   - DOMAIN,www.jdoqocy.com
+  - DOMAIN,www.statcounter.com

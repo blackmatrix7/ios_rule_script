@@ -12,15 +12,15 @@ Crypto规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-07 14:23:17
+最后更新时间：2023-11-28 15:52:34
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 1  | 
 | DOMAIN-KEYWORD | 4  | 
-| DOMAIN-SUFFIX | 194  | 
-| TOTAL | 199  | 
+| DOMAIN-SUFFIX | 195  | 
+| TOTAL | 200  | 
 
 
 ## Surge 

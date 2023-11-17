@@ -12,18 +12,18 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-17 02:18:47
+最后更新时间：2023-11-18 02:18:49
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 163  | 
 | DOMAIN-KEYWORD | 11  | 
-| DOMAIN-SUFFIX | 65715  | 
-| IP-ASN | 1007  | 
-| IP-CIDR | 9466  | 
+| DOMAIN-SUFFIX | 65708  | 
+| IP-ASN | 1009  | 
+| IP-CIDR | 9490  | 
 | USER-AGENT | 69  | 
-| TOTAL | 76431  | 
+| TOTAL | 76450  | 
 
 
 ## Shadowrocket 

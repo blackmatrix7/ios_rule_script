@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-11-10 02:17:20
+desc: 最后更新时间 2023-11-19 02:19:04
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 540
-# mitm: 445
+# reject: 541
+# mitm: 446
 # force-http-engine-hosts: 6
-# total: 991
+# total: 993
 
 
 
@@ -216,6 +216,7 @@ http:
     - ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/ride\/detail\? - reject
     - ^https?:\/\/capis(-\d)?\.didapinche\.com\/ad\/ - reject
     - ^https?:\/\/capis\.didapinche\.com\/ad\/ - reject
+    - ^https?:\/\/carapp\.gtmc\.com\.cn\/api\/appgtmc\/homePage\/HomePageAction\/queryHomePageImg\.json - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject
     - ^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn\/63c4e3b558bb610008969f89 - reject
@@ -710,6 +711,7 @@ http:
     - "capi.lkcoffee.com"
     - "capi.mwee.cn"
     - "capis*.didapinche.com"
+    - "carapp.gtmc.com.cn"
     - "ccsp-egmas.sf-express.com"
     - "cdke.youdao.com"
     - "cdn-evone-ceph.echargenet.com"

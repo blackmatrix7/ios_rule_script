@@ -12,16 +12,16 @@ YouTube规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-10-28 02:09:52
+最后更新时间：2023-11-23 02:11:03
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 178  | 
+| DOMAIN-SUFFIX | 179  | 
 | IP-CIDR | 3  | 
 | USER-AGENT | 7  | 
-| TOTAL | 189  | 
+| TOTAL | 190  | 
 
 
 ## Shadowrocket 

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2023-11-20 02:18:36
+desc: 最后更新时间 2023-11-24 02:17:55
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 726
-# mitm: 678
+# reject: 728
+# mitm: 679
 # force-http-engine-hosts: 6
-# total: 1410
+# total: 1413
 
 
 
@@ -694,6 +694,8 @@ http:
     - ^https?:\/\/vip7\.fzwdyy\.cn:8083\/api\/getAdvertInfo - reject
     - ^https?:\/\/vip7\.fzwdyy\.cn:8083\/api\/getGOOGAdvert - reject
     - ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
+    - ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/dateSignature\/random - reject
+    - ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog - reject
     - ^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/ - reject
     - ^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
     - ^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd - reject
@@ -1365,6 +1367,7 @@ http:
     - "vip7.fzwdyy.cn"
     - "vod-movie.maoyan.com"
     - "vv.video.qq.com"
+    - "wallpaper.soutushenqi.com"
     - "wap.js.10086.cn"
     - "wap.ngchina.cn"
     - "wcprd.hilton.com"

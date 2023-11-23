@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-11-20 02:18:43
+desc: 最后更新时间 2023-11-24 02:18:03
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 688
-# mitm: 722
+# reject: 690
+# mitm: 723
 # force-http-engine-hosts: 6
-# total: 1455
+# total: 1458
 
 
 
@@ -675,6 +675,8 @@ http:
     - ^https?:\/\/vip7\.fzwdyy\.cn:8083\/api\/getAdvertInfo - reject
     - ^https?:\/\/vip7\.fzwdyy\.cn:8083\/api\/getGOOGAdvert - reject
     - ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
+    - ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/dateSignature\/random - reject
+    - ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog - reject
     - ^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/ - reject
     - ^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
     - ^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd - reject
@@ -1517,6 +1519,7 @@ http:
     - "vip7.fzwdyy.cn"
     - "vod-movie.maoyan.com"
     - "vv.video.qq.com"
+    - "wallpaper.soutushenqi.com"
     - "wap.js.10086.cn"
     - "wap.ngchina.cn"
     - "wcprd.hilton.com"

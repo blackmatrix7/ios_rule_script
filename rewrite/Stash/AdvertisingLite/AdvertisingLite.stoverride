@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-11-20 02:18:54
+desc: 最后更新时间 2023-11-24 02:18:14
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 540
-# mitm: 445
+# reject: 542
+# mitm: 446
 # force-http-engine-hosts: 6
-# total: 991
+# total: 994
 
 
 
@@ -514,6 +514,8 @@ http:
     - ^https?:\/\/venus\.yhd\.com\/memhome\/launchConfig - reject
     - ^https?:\/\/video\.dispatch\.tc\.qq\.com\/\w+\.p20\d\.1\.mp4 - reject
     - ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
+    - ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/dateSignature\/random - reject
+    - ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog - reject
     - ^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/ - reject
     - ^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
     - ^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd - reject
@@ -973,6 +975,7 @@ http:
     - "video.dispatch.tc.qq.com"
     - "vip7.fzwdyy.cn"
     - "vv.video.qq.com"
+    - "wallpaper.soutushenqi.com"
     - "wap.ngchina.cn"
     - "wbapp.uve.weibo.com"
     - "wcprd.hilton.com.cn"

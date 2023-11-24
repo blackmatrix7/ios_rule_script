@@ -21,7 +21,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-24 02:10:03
+最后更新时间：2023-11-24 10:34:47
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -29,11 +29,11 @@
 | AND | 7  | 
 | DOMAIN | 12499  | 
 | DOMAIN-KEYWORD | 302  | 
-| DOMAIN-SUFFIX | 127670  | 
+| DOMAIN-SUFFIX | 127706  | 
 | IP-CIDR | 452  | 
 | PROCESS-NAME | 5  | 
 | URL-REGEX | 303  | 
-| TOTAL | 141238  | 
+| TOTAL | 141274  | 
 
 
 ## Surge 
@@ -114,7 +114,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt
 - https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/neohosts-full.txt
 - https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/tracking-protection-filter.txt
-- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt
+- https://raw.githubusercontent.com/787a68/Rules/master/Surge4/Ruleset/Liby.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/AdBlock.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/antiAD-V4.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/NormalApp/AppAdBlock.list

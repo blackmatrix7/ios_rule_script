@@ -12,7 +12,7 @@ AcFun规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-24 10:38:23
+最后更新时间：2023-11-25 02:13:59
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -61,7 +61,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《AcFun》的数据来自以下链接，如与本项目的《AcFun》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AcFun.list
 - https://rules.kr328.app/acfun-ads.yaml
 - https://rules.kr328.app/acfun-ads@ads.yaml
 - https://rules.kr328.app/acfun.yaml

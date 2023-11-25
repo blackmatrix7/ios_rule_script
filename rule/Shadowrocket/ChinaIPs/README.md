@@ -12,14 +12,14 @@ ChinaIPs规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-25 02:13:44
+最后更新时间：2023-11-26 02:12:43
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| IP-ASN | 1009  | 
-| IP-CIDR | 19627  | 
-| TOTAL | 20636  | 
+| IP-ASN | 1012  | 
+| IP-CIDR | 19629  | 
+| TOTAL | 20641  | 
 
 
 ## Shadowrocket 
@@ -72,7 +72,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《ChinaIPs》的数据来自以下链接，如与本项目的《ChinaIPs》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic%20IPs.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
 - https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt

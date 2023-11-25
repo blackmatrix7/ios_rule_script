@@ -1,21 +1,21 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-25 02:14:39
+# UPDATED: 2023-11-26 02:13:34
 # DOMAIN: 167
 # DOMAIN-KEYWORD: 13
 # DOMAIN-SUFFIX: 65929
-# IP-ASN: 1009
+# IP-ASN: 1012
 # IP-CIDR: 5982
 # IP-CIDR6: 3498
 # USER-AGENT: 69
-# TOTAL: 76667
+# TOTAL: 76670
 DOMAIN-SUFFIX,alipay
+DOMAIN-SUFFIX,citic
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,ms
 DOMAIN-SUFFIX,alibaba
 DOMAIN-SUFFIX,baidu
-DOMAIN-SUFFIX,citic
 DOMAIN-SUFFIX,sohu
 DOMAIN-SUFFIX,taobao
 DOMAIN-SUFFIX,tmall
@@ -43,9 +43,9 @@ DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,officecdn
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,bilibili
+DOMAIN-KEYWORD,qiyi
 DOMAIN-KEYWORD,hnagroup
 DOMAIN-KEYWORD,weibo
-DOMAIN-KEYWORD,qiyi
 USER-AGENT,*bili*
 USER-AGENT,Bilibili*
 USER-AGENT,bili*
@@ -82,39 +82,39 @@ USER-AGENT,eusoft_ting_en_iphone
 USER-AGENT,hearthstone*
 USER-AGENT,hide*
 USER-AGENT,ting_en
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
 USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,*QIYI*
 USER-AGENT,AcFun*
 USER-AGENT,DomesticMedia*
-USER-AGENT,MGTV*
+USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
+USER-AGENT,PPStream*
+USER-AGENT,QIYI*
+USER-AGENT,QQ%E9%9F%B3%E4%B9%90
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
+USER-AGENT,QYPlayer*
+USER-AGENT,Youku*
+USER-AGENT,baiduyinyue
 USER-AGENT,bilibili*
+USER-AGENT,iQiYi*
+USER-AGENT,iQiyi*
+USER-AGENT,live4iphone*
+USER-AGENT,qqlive4iphone*
 USER-AGENT,youku*
 USER-AGENT,Himalaya*
+USER-AGENT,MGTV*
 USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
 USER-AGENT,MiguVideo*
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**
 USER-AGENT,NeteaseMusic**
 USER-AGENT,网易云音乐*
 USER-AGENT,网易云音乐**
-USER-AGENT,baiduyinyue
-USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
-USER-AGENT,QQ%E9%9F%B3%E4%B9%90
-USER-AGENT,TencentMidasConnect*
-USER-AGENT,live4iphone*
-USER-AGENT,qqlive4iphone*
 USER-AGENT,MOO*
+USER-AGENT,TencentMidasConnect*
 USER-AGENT,walkman*
 USER-AGENT,xiami*
-USER-AGENT,Youku*
-USER-AGENT,PPStream*
-USER-AGENT,QIYI*
-USER-AGENT,QYPlayer*
 USER-AGENT,iQIYI*
-USER-AGENT,iQiYi*
-USER-AGENT,iQiyi*
 IP-ASN,10111,no-resolve
 IP-ASN,10206,no-resolve
 IP-ASN,10212,no-resolve
@@ -124,6 +124,7 @@ IP-ASN,131285,no-resolve
 IP-ASN,131325,no-resolve
 IP-ASN,131326,no-resolve
 IP-ASN,131477,no-resolve
+IP-ASN,131484,no-resolve
 IP-ASN,131486,no-resolve
 IP-ASN,131495,no-resolve
 IP-ASN,131497,no-resolve
@@ -332,6 +333,8 @@ IP-ASN,139100,no-resolve
 IP-ASN,139110,no-resolve
 IP-ASN,139112,no-resolve
 IP-ASN,139118,no-resolve
+IP-ASN,139122,no-resolve
+IP-ASN,139133,no-resolve
 IP-ASN,139136,no-resolve
 IP-ASN,139138,no-resolve
 IP-ASN,139139,no-resolve
@@ -587,6 +590,8 @@ IP-ASN,146812,no-resolve
 IP-ASN,146814,no-resolve
 IP-ASN,146817,no-resolve
 IP-ASN,146822,no-resolve
+IP-ASN,146824,no-resolve
+IP-ASN,146827,no-resolve
 IP-ASN,146834,no-resolve
 IP-ASN,146842,no-resolve
 IP-ASN,146845,no-resolve
@@ -596,6 +601,7 @@ IP-ASN,147038,no-resolve
 IP-ASN,148969,no-resolve
 IP-ASN,148981,no-resolve
 IP-ASN,149056,no-resolve
+IP-ASN,149057,no-resolve
 IP-ASN,149163,no-resolve
 IP-ASN,149178,no-resolve
 IP-ASN,149292,no-resolve
@@ -658,6 +664,7 @@ IP-ASN,17968,no-resolve
 IP-ASN,17969,no-resolve
 IP-ASN,18118,no-resolve
 IP-ASN,18239,no-resolve
+IP-ASN,18240,no-resolve
 IP-ASN,18241,no-resolve
 IP-ASN,18242,no-resolve
 IP-ASN,18244,no-resolve
@@ -711,7 +718,6 @@ IP-ASN,203655,no-resolve
 IP-ASN,203664,no-resolve
 IP-ASN,203691,no-resolve
 IP-ASN,203804,no-resolve
-IP-ASN,203874,no-resolve
 IP-ASN,203888,no-resolve
 IP-ASN,203899,no-resolve
 IP-ASN,204185,no-resolve
@@ -737,6 +743,7 @@ IP-ASN,207401,no-resolve
 IP-ASN,208266,no-resolve
 IP-ASN,208618,no-resolve
 IP-ASN,208679,no-resolve
+IP-ASN,208680,no-resolve
 IP-ASN,208698,no-resolve
 IP-ASN,208830,no-resolve
 IP-ASN,208872,no-resolve
@@ -951,6 +958,7 @@ IP-ASN,55967,no-resolve
 IP-ASN,55971,no-resolve
 IP-ASN,55973,no-resolve
 IP-ASN,55982,no-resolve
+IP-ASN,55989,no-resolve
 IP-ASN,55990,no-resolve
 IP-ASN,55992,no-resolve
 IP-ASN,55994,no-resolve
@@ -1041,6 +1049,7 @@ IP-ASN,63548,no-resolve
 IP-ASN,63555,no-resolve
 IP-ASN,63561,no-resolve
 IP-ASN,63565,no-resolve
+IP-ASN,63567,no-resolve
 IP-ASN,63571,no-resolve
 IP-ASN,63580,no-resolve
 IP-ASN,63581,no-resolve
@@ -1109,21 +1118,15 @@ IP-ASN,9811,no-resolve
 IP-ASN,9812,no-resolve
 IP-ASN,9814,no-resolve
 IP-ASN,9818,no-resolve
+IP-ASN,9819,no-resolve
 IP-ASN,9929,no-resolve
 IP-ASN,9939,no-resolve
-IP-ASN,131484,no-resolve
-IP-ASN,139133,no-resolve
 IP-ASN,142582,no-resolve
-IP-ASN,146824,no-resolve
-IP-ASN,146827,no-resolve
-IP-ASN,149057,no-resolve
-IP-ASN,18240,no-resolve
 IP-ASN,200949,no-resolve
+IP-ASN,203874,no-resolve
 IP-ASN,211293,no-resolve
 IP-ASN,55988,no-resolve
-IP-ASN,55989,no-resolve
 IP-ASN,58026,no-resolve
-IP-ASN,9819,no-resolve
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
 IP-CIDR,1.0.32.0/19,no-resolve

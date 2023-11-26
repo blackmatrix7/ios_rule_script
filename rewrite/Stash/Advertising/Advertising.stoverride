@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2023-11-24 10:40:48
+desc: 最后更新时间 2023-11-27 02:16:59
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 728
-# mitm: 679
+# reject: 729
+# mitm: 682
 # force-http-engine-hosts: 6
-# total: 1413
+# total: 1417
 
 
 
@@ -177,6 +177,7 @@ http:
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show - reject
     - ^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads - reject
+    - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$ - reject
     - ^https?:\/\/adapi\.izuiyou\.com\/ - reject
     - ^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend - reject
     - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
@@ -760,6 +761,7 @@ http:
     - "*.chelaileapp.cn"
     - "*.club"
     - "*.ddly666.top"
+    - "*.ecoliving168.com"
     - "*.fun"
     - "*.google.cn"
     - "*.hoopchina.com"
@@ -777,6 +779,7 @@ http:
     - "*.peopleapp.com"
     - "*.pornhub.com"
     - "*.pstatp.com"
+    - "*.qyfxgd.cn"
     - "*.smkj33.top"
     - "*.tc.qq.com"
     - "*.tiktokv.com"
@@ -785,6 +788,7 @@ http:
     - "*.tv.sohu.com"
     - "*.uve.weibo.com"
     - "*.weibo.cn"
+    - "*.weilai555.com"
     - "*.wtzw.com"
     - "*.xima*.*"
     - "*.xmcdn.*"
@@ -830,6 +834,7 @@ http:
     - "activity2.api.ofo.com"
     - "ad.12306.cn"
     - "ad.maoyan.com"
+    - "ad.mcloud.139.com"
     - "ad.xiaotucc.com"
     - "adapi.izuiyou.com"
     - "adm.10jqka.com.cn"
@@ -1291,7 +1296,6 @@ http:
     - "richmanapi.jxedt.com"
     - "router-app-api.jdcloud.com"
     - "rtbapi.douyucdn.cn"
-    - "run.api.qyfxgd.cn"
     - "s*.zdmimg.com"
     - "s.jiediankeji.com"
     - "s1.api.tv.itc.cn"

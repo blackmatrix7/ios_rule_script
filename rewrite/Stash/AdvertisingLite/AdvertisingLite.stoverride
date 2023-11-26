@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-11-24 10:41:03
+desc: 最后更新时间 2023-11-27 02:17:16
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 542
-# mitm: 446
+# reject: 543
+# mitm: 447
 # force-http-engine-hosts: 6
-# total: 994
+# total: 996
 
 
 
@@ -70,6 +70,7 @@ http:
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show - reject
     - ^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads - reject
+    - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$ - reject
     - ^https?:\/\/adapi\.izuiyou\.com\/ - reject
     - ^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend - reject
     - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
@@ -579,6 +580,7 @@ http:
     - "acs.m.taobao.com"
     - "act.vip.iqiyi.com"
     - "activity2.api.ofo.com"
+    - "ad.mcloud.139.com"
     - "adapi.izuiyou.com"
     - "adm.10jqka.com.cn"
     - "adpai.thepaper.cn"

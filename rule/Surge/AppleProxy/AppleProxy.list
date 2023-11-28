@@ -1,25 +1,54 @@
 # NAME: AppleProxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-24 10:37:42
-# DOMAIN: 9
-# DOMAIN-SUFFIX: 5
+# UPDATED: 2023-11-28 11:10:52
+# DOMAIN: 27
+# DOMAIN-SUFFIX: 12
 # PROCESS-NAME: 1
-# USER-AGENT: 1
-# TOTAL: 16
+# USER-AGENT: 5
+# TOTAL: 45
 DOMAIN,api-glb-sea.smoot.apple.com
+DOMAIN,apple.comscoreresearch.com
 DOMAIN,books.itunes.apple.com
+DOMAIN,cdn.apple-cloudkit.com
 DOMAIN,cvws.icloud-content.com
 DOMAIN,developer.apple.com
-DOMAIN,hls.itunes.apple.com
+DOMAIN,devimages-cdn.apple.com
+DOMAIN,devstreaming-cdn.apple.com
+DOMAIN,docs-assets.developer.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,hls-svod.itunes.apple.com
 DOMAIN,itunes.apple.com
+DOMAIN,js-cdn.music.apple.com
 DOMAIN,lookup-api.apple.com
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-h2.icloud.com
+DOMAIN,mask.icloud.com
+DOMAIN,news-assets.apple.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
 DOMAIN,sandbox.itunes.apple.com
 DOMAIN,testflight.apple.com
+DOMAIN,tv.applemusic.com
+DOMAIN,uts-api.itunes.apple.com
 DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
 DOMAIN-SUFFIX,blobstore.apple.com
+DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,hls-amt.itunes.apple.com
+DOMAIN-SUFFIX,hls.itunes.apple.com
+DOMAIN-SUFFIX,ocsp.apple.com
+DOMAIN-SUFFIX,tv.apple.com
+USER-AGENT,AppleNews*
+USER-AGENT,AppleTV*
+USER-AGENT,com.apple.news*
 USER-AGENT,com.apple.trustd*
+USER-AGENT,com.apple.tv*
 PROCESS-NAME,LookupViewService

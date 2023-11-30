@@ -12,31 +12,24 @@ PT下载规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-30 02:15:48
+最后更新时间：2023-12-01 02:14:38
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 148  | 
+| DOMAIN | 137  | 
 | DOMAIN-KEYWORD | 3  | 
 | DOMAIN-SUFFIX | 122  | 
-| IP-CIDR | 8  | 
-| IP-CIDR6 | 2  | 
-| TOTAL | 283  | 
+| TOTAL | 262  | 
 
 
 ## Surge 
 
 #### 使用说明
 - PrivateTracker.list，请使用RULE-SET。
-- PrivateTracker_Resolve.list，请使用RULE-SET。
-
-#### 文件区别
-- PrivateTracker_Resolve.list与PrivateTracker.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
 - PrivateTracker.list 单独使用。
-- PrivateTracker_Resolve.list 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2023-11-28 15:52:44
+desc: 最后更新时间 2023-12-01 02:17:27
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 729
+# reject: 728
 # mitm: 682
 # force-http-engine-hosts: 6
-# total: 1417
+# total: 1416
 
 
 
@@ -80,7 +80,6 @@ http:
     - ^https:\/\/qapi\.huolala\.cn\/home_new_user - reject
     - ^https:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activity - reject
     - ^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp - reject
-    - ^https:\/\/res\.pizzahut\.com\.cn\/CRM - reject
     - ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject
     - ^https:\/\/s\.jiediankeji\.com\/adv - reject
     - ^https:\/\/smarket\.dian\.so - reject

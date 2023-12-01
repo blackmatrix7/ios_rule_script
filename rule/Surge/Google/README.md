@@ -15,18 +15,18 @@ Google规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:46:58
+最后更新时间：2023-12-01 10:34:54
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 5  | 
-| DOMAIN-SUFFIX | 703  | 
+| DOMAIN-SUFFIX | 711  | 
 | IP-CIDR | 4  | 
 | IP-CIDR6 | 1  | 
 | PROCESS-NAME | 5  | 
 | USER-AGENT | 3  | 
-| TOTAL | 721  | 
+| TOTAL | 729  | 
 
 
 ## Surge 

@@ -1,13 +1,13 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-03 02:14:13
-# DOMAIN: 147
+# UPDATED: 2023-12-04 02:16:23
+# DOMAIN: 145
 # DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 122
 # IP-CIDR: 8
 # IP-CIDR6: 2
-# TOTAL: 282
+# TOTAL: 280
 payload:
   - DOMAIN,1337.abcvg.info
   - DOMAIN,1c.premierzal.ru
@@ -19,10 +19,10 @@ payload:
   - DOMAIN,black-bird.ynh.fr
   - DOMAIN,bt.ktrackers.com
   - DOMAIN,bt.okmp3.ru
+  - DOMAIN,bt.rer.lol
   - DOMAIN,bt1.archive.org
   - DOMAIN,bt2.archive.org
   - DOMAIN,bvarf.tracker.sh
-  - DOMAIN,carr.codes
   - DOMAIN,ch3oh.ru
   - DOMAIN,concen.org
   - DOMAIN,d40969.acod.regrucolo.ru
@@ -37,6 +37,7 @@ payload:
   - DOMAIN,hz.is
   - DOMAIN,incine.ru
   - DOMAIN,ipv6.fuuuuuck.com
+  - DOMAIN,isk.richardsw.club
   - DOMAIN,mail.artixlinux.org
   - DOMAIN,moonburrow.club
   - DOMAIN,movies.zsw.ca
@@ -46,10 +47,8 @@ payload:
   - DOMAIN,odd-hd.fr
   - DOMAIN,oh.fuuuuuck.com
   - DOMAIN,open.acgnxtracker.com
-  - DOMAIN,open.acgtracker.com
   - DOMAIN,open.demonii.com
   - DOMAIN,open.dstud.io
-  - DOMAIN,open.free-tracker.ga
   - DOMAIN,open.stealth.si
   - DOMAIN,open.tracker.ink
   - DOMAIN,open.u-p.pw
@@ -59,6 +58,7 @@ payload:
   - DOMAIN,p4p.arenabg.com
   - DOMAIN,private.anonseed.com
   - DOMAIN,public-tracker.cf
+  - DOMAIN,public.tracker.vraphim.com
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker01-msk-virt.corbina.net
   - DOMAIN,run-2.publictracker.xyz
@@ -66,10 +66,8 @@ payload:
   - DOMAIN,ryjer.com
   - DOMAIN,sabross.xyz
   - DOMAIN,sanincode.com
-  - DOMAIN,share.camoe.cn
   - DOMAIN,static.54.161.216.95.clients.your-server.de
   - DOMAIN,su-data.com
-  - DOMAIN,t.acg.rip
   - DOMAIN,t.nyaatracker.com
   - DOMAIN,t1.hloli.org
   - DOMAIN,tamas3.ynh.fr
@@ -101,10 +99,11 @@ payload:
   - DOMAIN,tracker.files.fm
   - DOMAIN,tracker.fnix.net
   - DOMAIN,tracker.gbitt.info
+  - DOMAIN,tracker.gcrreen.xyz
   - DOMAIN,tracker.imgoingto.icu
+  - DOMAIN,tracker.iperson.xyz
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.ipv6tracker.ru
-  - DOMAIN,tracker.k.vu
   - DOMAIN,tracker.kuroy.me
   - DOMAIN,tracker.lilithraws.cf
   - DOMAIN,tracker.lilithraws.org
@@ -134,14 +133,12 @@ payload:
   - DOMAIN,tracker1.bt.moack.co.kr
   - DOMAIN,tracker1.itzmx.com
   - DOMAIN,tracker1.myporn.club
-  - DOMAIN,tracker2.ctix.cn
   - DOMAIN,tracker2.dler.com
   - DOMAIN,tracker2.dler.org
   - DOMAIN,tracker2.itzmx.com
   - DOMAIN,tracker3.itzmx.com
   - DOMAIN,tracker4.itzmx.com
   - DOMAIN,trackers.mlsub.net
-  - DOMAIN,ts.populargamers.co.za
   - DOMAIN,ttk2.nbaonlineservice.com
   - DOMAIN,u4.trakx.crim.ist
   - DOMAIN,u6.trakx.crim.ist
@@ -156,6 +153,7 @@ payload:
   - DOMAIN,x.t-1.org
   - DOMAIN,y.paranoid.agency
   - DOMAIN,yahor.of.by
+  - DOMAIN,yolo.liberbear.com
   - DOMAIN-SUFFIX,1ptba.com
   - DOMAIN-SUFFIX,2xfree.org
   - DOMAIN-SUFFIX,52pt.site

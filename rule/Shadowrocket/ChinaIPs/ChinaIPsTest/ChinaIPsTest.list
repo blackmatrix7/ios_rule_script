@@ -1,10 +1,10 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-04 02:17:37
+# UPDATED: 2023-12-05 02:18:33
 # IP-ASN: 1013
-# IP-CIDR: 20756
-# TOTAL: 21769
+# IP-CIDR: 20761
+# TOTAL: 21774
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
 IP-CIDR,1.0.32.0/19,no-resolve
@@ -20076,7 +20076,6 @@ IP-CIDR,2406:840:e270::/44,no-resolve
 IP-CIDR,2406:840:e280::/48,no-resolve
 IP-CIDR,2406:840:e300::/47,no-resolve
 IP-CIDR,2406:840:e340::/44,no-resolve
-IP-CIDR,2406:840:e360::/48,no-resolve
 IP-CIDR,2406:840:e36f::/48,no-resolve
 IP-CIDR,2406:840:e570::/47,no-resolve
 IP-CIDR,2406:840:e576::/48,no-resolve
@@ -20711,43 +20710,49 @@ IP-CIDR,240c:6:3::/48,no-resolve
 IP-CIDR,240c:6::/48,no-resolve
 IP-CIDR,240e::/20,no-resolve
 IP-CIDR,2a05:dfc1:8c1d::/48,no-resolve
-IP-CIDR,2a06:de01:80c::/48,no-resolve
-IP-CIDR,2a06:de01:817::/48,no-resolve
-IP-CIDR,2a06:de01:83d::/48,no-resolve
-IP-CIDR,2a06:de01:84b::/48,no-resolve
-IP-CIDR,2a06:de01:8a6::/48,no-resolve
-IP-CIDR,2a06:de01:8b2::/48,no-resolve
-IP-CIDR,2a06:de01:8ba::/48,no-resolve
-IP-CIDR,2a06:de01:8ef::/48,no-resolve
-IP-CIDR,2a06:de01:8f5::/48,no-resolve
-IP-CIDR,2a06:de01:8f6::/48,no-resolve
-IP-CIDR,2a06:de01:915::/48,no-resolve
-IP-CIDR,2a06:de01:924::/48,no-resolve
-IP-CIDR,2a06:de01:958::/48,no-resolve
-IP-CIDR,2a06:de01:95d::/48,no-resolve
-IP-CIDR,2a06:de01:969::/48,no-resolve
-IP-CIDR,2a06:de01:988::/48,no-resolve
-IP-CIDR,2a06:de01:98e::/48,no-resolve
-IP-CIDR,2a06:de01:994::/48,no-resolve
-IP-CIDR,2a06:de01:a02::/48,no-resolve
-IP-CIDR,2a06:de01:a05::/48,no-resolve
-IP-CIDR,2a06:de01:a13::/48,no-resolve
-IP-CIDR,2a06:de01:a5e::/48,no-resolve
-IP-CIDR,2a06:de01:a6e::/48,no-resolve
-IP-CIDR,2a06:de01:a70::/48,no-resolve
-IP-CIDR,2a06:de01:ad9::/48,no-resolve
-IP-CIDR,2a06:de01:b16::/48,no-resolve
-IP-CIDR,2a06:de01:b2d::/48,no-resolve
+IP-CIDR,2a06:de01:830::/48,no-resolve
+IP-CIDR,2a06:de01:836::/48,no-resolve
+IP-CIDR,2a06:de01:83b::/48,no-resolve
+IP-CIDR,2a06:de01:840::/48,no-resolve
+IP-CIDR,2a06:de01:855::/48,no-resolve
+IP-CIDR,2a06:de01:867::/48,no-resolve
+IP-CIDR,2a06:de01:8af::/48,no-resolve
+IP-CIDR,2a06:de01:8b8::/47,no-resolve
+IP-CIDR,2a06:de01:8cc::/48,no-resolve
+IP-CIDR,2a06:de01:8d9::/48,no-resolve
+IP-CIDR,2a06:de01:92d::/48,no-resolve
+IP-CIDR,2a06:de01:92f::/48,no-resolve
+IP-CIDR,2a06:de01:936::/48,no-resolve
+IP-CIDR,2a06:de01:952::/48,no-resolve
+IP-CIDR,2a06:de01:96e::/48,no-resolve
+IP-CIDR,2a06:de01:976::/48,no-resolve
+IP-CIDR,2a06:de01:998::/48,no-resolve
+IP-CIDR,2a06:de01:9ad::/48,no-resolve
+IP-CIDR,2a06:de01:9af::/48,no-resolve
+IP-CIDR,2a06:de01:a0c::/48,no-resolve
+IP-CIDR,2a06:de01:a0f::/48,no-resolve
+IP-CIDR,2a06:de01:a2a::/48,no-resolve
+IP-CIDR,2a06:de01:a49::/48,no-resolve
+IP-CIDR,2a06:de01:a4b::/48,no-resolve
+IP-CIDR,2a06:de01:a54::/48,no-resolve
+IP-CIDR,2a06:de01:a6c::/48,no-resolve
+IP-CIDR,2a06:de01:ad4::/48,no-resolve
+IP-CIDR,2a06:de01:ad6::/48,no-resolve
+IP-CIDR,2a06:de01:b30::/48,no-resolve
+IP-CIDR,2a06:de01:b3c::/48,no-resolve
 IP-CIDR,2a0a:2840:20::/43,no-resolve
 IP-CIDR,2a0a:6040:a730::/48,no-resolve
+IP-CIDR,2a0a:6040:d610::/48,no-resolve
 IP-CIDR,2a0c:b641:210::/48,no-resolve
+IP-CIDR,2a0c:b641:312::/48,no-resolve
+IP-CIDR,2a0e:b107:2222::/48,no-resolve
 IP-CIDR,2a13:1800:10::/48,no-resolve
 IP-CIDR,2a13:1800:300::/44,no-resolve
 IP-CIDR,2a13:1800:80::/44,no-resolve
 IP-CIDR,2a13:1800::/48,no-resolve
 IP-CIDR,2a13:1801:180::/43,no-resolve
 IP-CIDR,2a13:1802::/44,no-resolve
-IP-CIDR,2a13:a5c4:1000::/40,no-resolve
+IP-CIDR,2a13:a5c7:1500::/40,no-resolve
 IP-CIDR,2a13:a5c7:1604::/47,no-resolve
 IP-CIDR,43.240.126.0/23,no-resolve
 IP-CIDR,45.192.160.0/20,no-resolve
@@ -21354,7 +21359,6 @@ IP-ASN,200895,no-resolve
 IP-ASN,200907,no-resolve
 IP-ASN,200912,no-resolve
 IP-ASN,200936,no-resolve
-IP-ASN,200949,no-resolve
 IP-ASN,200954,no-resolve
 IP-ASN,200959,no-resolve
 IP-ASN,202256,no-resolve
@@ -21418,6 +21422,7 @@ IP-ASN,210872,no-resolve
 IP-ASN,210903,no-resolve
 IP-ASN,210934,no-resolve
 IP-ASN,211051,no-resolve
+IP-ASN,211293,no-resolve
 IP-ASN,211481,no-resolve
 IP-ASN,211571,no-resolve
 IP-ASN,211843,no-resolve
@@ -21769,8 +21774,8 @@ IP-ASN,138211,no-resolve
 IP-ASN,140720,no-resolve
 IP-ASN,142582,no-resolve
 IP-ASN,197626,no-resolve
+IP-ASN,200949,no-resolve
 IP-ASN,203874,no-resolve
-IP-ASN,211293,no-resolve
 IP-ASN,55988,no-resolve
 IP-ASN,55989,no-resolve
 IP-ASN,58026,no-resolve

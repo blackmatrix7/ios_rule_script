@@ -1,12 +1,12 @@
 # NAME: Direct
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-28 15:49:35
+# UPDATED: 2023-12-06 02:12:47
 # DOMAIN: 35
-# DOMAIN-KEYWORD: 13
+# DOMAIN-KEYWORD: 10
 # DOMAIN-SUFFIX: 127
 # PROCESS-NAME: 36
-# TOTAL: 211
+# TOTAL: 208
 payload:
   - DOMAIN,ad.10010.com
   - DOMAIN,alt1-mtalk.google.com
@@ -44,6 +44,7 @@ payload:
   - DOMAIN,vd.l.qq.com
   - DOMAIN,vi.l.qq.com
   - DOMAIN-SUFFIX,52pt.site
+  - DOMAIN-SUFFIX,acg.rip
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,aidoru-online.me
   - DOMAIN-SUFFIX,alpharatio.cc
@@ -73,6 +74,7 @@ payload:
   - DOMAIN-SUFFIX,cinematik.net
   - DOMAIN-SUFFIX,cinemaz.to
   - DOMAIN-SUFFIX,classix-unlimited.co.uk
+  - DOMAIN-SUFFIX,comicat.org
   - DOMAIN-SUFFIX,concertos.live
   - DOMAIN-SUFFIX,dicmusic.club
   - DOMAIN-SUFFIX,discfan.net
@@ -111,6 +113,7 @@ payload:
   - DOMAIN-SUFFIX,hitpt.com
   - DOMAIN-SUFFIX,hitpt.org
   - DOMAIN-SUFFIX,hudbt.hust.edu.cn
+  - DOMAIN-SUFFIX,icetorrent.org
   - DOMAIN-SUFFIX,ieee.org
   - DOMAIN-SUFFIX,j99.info
   - DOMAIN-SUFFIX,jiasule.com
@@ -135,7 +138,6 @@ payload:
   - DOMAIN-SUFFIX,nebulance.io
   - DOMAIN-SUFFIX,nicept.net
   - DOMAIN-SUFFIX,npupt.com
-  - DOMAIN-SUFFIX,nwsuaf6.edu.cn
   - DOMAIN-SUFFIX,ol.epicgames.com
   - DOMAIN-SUFFIX,open.cd
   - DOMAIN-SUFFIX,oppaiti.me
@@ -154,7 +156,6 @@ payload:
   - DOMAIN-SUFFIX,sciencemag.org
   - DOMAIN-SUFFIX,scopus.com
   - DOMAIN-SUFFIX,sdbits.org
-  - DOMAIN-SUFFIX,sjtu.edu.cn
   - DOMAIN-SUFFIX,skyey2.com
   - DOMAIN-SUFFIX,soulvoice.club
   - DOMAIN-SUFFIX,springer.com
@@ -168,9 +169,7 @@ payload:
   - DOMAIN-SUFFIX,uhdbits.org
   - DOMAIN-SUFFIX,upaiyun.com
   - DOMAIN-SUFFIX,wiley.com
-  - DOMAIN-SUFFIX,xauat6.edu.cn
   - DOMAIN-SUFFIX,xunlei.com
-  - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,cnki.net
   - DOMAIN-KEYWORD,deepdyve
   - DOMAIN-KEYWORD,els-cdn
@@ -178,8 +177,6 @@ payload:
   - DOMAIN-KEYWORD,pkulaw
   - DOMAIN-KEYWORD,readcube
   - DOMAIN-KEYWORD,sciencedirect
-  - DOMAIN-KEYWORD,torrent
-  - DOMAIN-KEYWORD,tracker
   - DOMAIN-KEYWORD,wanfangdata
   - DOMAIN-KEYWORD,wb_ad
   - DOMAIN-KEYWORD,westlawchina

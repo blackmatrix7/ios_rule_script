@@ -21,17 +21,17 @@
 
 ## 规则统计
 
-最后更新时间：2023-12-05 02:11:29
+最后更新时间：2023-12-06 02:09:50
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 12496  | 
-| HOST-KEYWORD | 302  | 
-| HOST-SUFFIX | 128744  | 
+| HOST-KEYWORD | 303  | 
+| HOST-SUFFIX | 129292  | 
 | HOST-WILDCARD | 1  | 
 | IP-CIDR | 452  | 
-| TOTAL | 141995  | 
+| TOTAL | 142544  | 
 
 
 ## QuantumultX 

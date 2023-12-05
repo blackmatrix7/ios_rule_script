@@ -12,7 +12,7 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-29 02:13:35
+最后更新时间：2023-12-06 02:12:38
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -22,8 +22,8 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 | DOMAIN-SUFFIX | 1253  | 
 | IP-CIDR | 918  | 
 | IP-CIDR6 | 6  | 
-| PROCESS-NAME | 13  | 
-| TOTAL | 2244  | 
+| PROCESS-NAME | 15  | 
+| TOTAL | 2246  | 
 
 
 ## Clash 

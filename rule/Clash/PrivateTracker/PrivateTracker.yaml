@@ -1,13 +1,13 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-10 02:16:50
-# DOMAIN: 145
+# UPDATED: 2023-12-11 02:14:18
+# DOMAIN: 146
 # DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 122
 # IP-CIDR: 8
 # IP-CIDR6: 2
-# TOTAL: 280
+# TOTAL: 281
 payload:
   - DOMAIN,1337.abcvg.info
   - DOMAIN,1c.premierzal.ru
@@ -18,7 +18,6 @@ payload:
   - DOMAIN,black-bird.ynh.fr
   - DOMAIN,bt.ktrackers.com
   - DOMAIN,bt.okmp3.ru
-  - DOMAIN,bt.rer.lol
   - DOMAIN,bt1.archive.org
   - DOMAIN,bt2.archive.org
   - DOMAIN,bvarf.tracker.sh
@@ -49,6 +48,7 @@ payload:
   - DOMAIN,open.acgtracker.com
   - DOMAIN,open.demonii.com
   - DOMAIN,open.dstud.io
+  - DOMAIN,open.free-tracker.ga
   - DOMAIN,open.stealth.si
   - DOMAIN,open.tracker.ink
   - DOMAIN,open.u-p.pw
@@ -58,16 +58,15 @@ payload:
   - DOMAIN,opentracker.io
   - DOMAIN,p4p.arenabg.com
   - DOMAIN,private.anonseed.com
-  - DOMAIN,public-tracker.cf
   - DOMAIN,public.tracker.vraphim.com
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker01-msk-virt.corbina.net
   - DOMAIN,ryjer.com
   - DOMAIN,sabross.xyz
   - DOMAIN,sanincode.com
-  - DOMAIN,share.camoe.cn
   - DOMAIN,static.54.161.216.95.clients.your-server.de
   - DOMAIN,t.nyaatracker.com
+  - DOMAIN,t.overflow.biz
   - DOMAIN,t1.hloli.org
   - DOMAIN,tamas3.ynh.fr
   - DOMAIN,thinking.duckdns.org
@@ -91,13 +90,14 @@ payload:
   - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
-  - DOMAIN,tracker.dump.cl
   - DOMAIN,tracker.edkj.club
   - DOMAIN,tracker.electro-torrent.pl
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.files.fm
   - DOMAIN,tracker.fnix.net
   - DOMAIN,tracker.gbitt.info
+  - DOMAIN,tracker.gcrreen.xyz
+  - DOMAIN,tracker.imgoingto.icu
   - DOMAIN,tracker.iperson.xyz
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.ipv6tracker.ru
@@ -107,6 +107,7 @@ payload:
   - DOMAIN,tracker.lilithraws.org
   - DOMAIN,tracker.loligirl.cn
   - DOMAIN,tracker.mirrorbay.org
+  - DOMAIN,tracker.moeblog.cn
   - DOMAIN,tracker.moeking.me
   - DOMAIN,tracker.mywaifu.best
   - DOMAIN,tracker.netmap.top

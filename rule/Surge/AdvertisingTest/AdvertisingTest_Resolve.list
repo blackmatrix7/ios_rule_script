@@ -1,18 +1,17 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-10 02:11:15
+# UPDATED: 2023-12-11 02:09:51
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
-# AND: 7
-# DOMAIN: 12498
-# DOMAIN-KEYWORD: 303
-# DOMAIN-SUFFIX: 129646
+# AND: 1
+# DOMAIN: 12442
+# DOMAIN-KEYWORD: 302
+# DOMAIN-SUFFIX: 129641
 # IP-CIDR: 452
-# URL-REGEX: 303
-# TOTAL: 143209
+# URL-REGEX: 285
+# TOTAL: 143123
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-spiky.clevertap-prod.com
-DOMAIN-KEYWORD,-tracker.biliapi.net
 DOMAIN-KEYWORD,.engage.3m.
 DOMAIN-KEYWORD,.estream.
 DOMAIN-KEYWORD,.freecontent.
@@ -765,24 +764,6 @@ IP-CIDR,74.117.182.77/32
 IP-CIDR,77.162.125.199/32
 IP-CIDR,78.140.131.214/32
 IP-CIDR,88.42.84.136/32
-URL-REGEX,^https://img-ys011.didistatic.com/static/ad_oss/
-URL-REGEX,^https?://.+/v\d/iflyad/
-URL-REGEX,^https?://.+\.mp4\?cdncode=.+&guid=
-URL-REGEX,^https?://.+\.mp4\?cdncode=.+&sdtfrom=v3004
-URL-REGEX,^https?://47.97.20.12/ad/
-URL-REGEX,^https?://a.sfansclub.com/business/t/ad/
-URL-REGEX,^https?://a.sfansclub.com/business/t/boot/screen/index
-URL-REGEX,^https?://adse.ximalaya.com/[a-z]{4}/loading\?appid=
-URL-REGEX,^https?://api.jr.mi.com/v\d/adv/
-URL-REGEX,^https?://api01pbmp.zhuishushenqi.com/gameAdvert
-URL-REGEX,^https?://c.m.163.com/nc/gl/
-URL-REGEX,^https?://dsp-x.jd.com/adx/
-URL-REGEX,^https?://dspsdk.abreader.com/v\d/api/ad\?
-URL-REGEX,^https?://ma.ofo.com/ads/
-URL-REGEX,^https?://manga.bilibili.com/twirp/comic\.v\d\.comic/(flash|Flash|ListFlash)
-URL-REGEX,^https?://mp.weixin.qq.com/mp/report
-URL-REGEX,^https?://newsso.map.qq.com/\?&attime=
-URL-REGEX,^https?://www.facebook.com/.+video_click_to_advertiser_site
 URL-REGEX,^https?:\/\/.+?\.beacon\.qq\.com
 URL-REGEX,^https?:\/\/.+?\.l\.qq\.com
 URL-REGEX,^https?:\/\/ad\d\.sina\.com
@@ -1068,10 +1049,4 @@ URL-REGEX,^https?:\/\/www\.zybang\.com\/adx\/
 URL-REGEX,^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d
 URL-REGEX,^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$
 URL-REGEX,^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/
-AND,((DOMAIN-KEYWORD,f-log),(DOMAIN-SUFFIX,grammarly.io))
-AND,((DOMAIN-KEYWORD,genuine),(DOMAIN-KEYWORD,autodesk))
-AND,((DOMAIN-SUFFIX,msa.cdn.mediaset.net),(DOMAIN-KEYWORD,adv0))
-AND,((DOMAIN-SUFFIX,prod.hosts.ooklaserver.net),(DOMAIN-KEYWORD,.ad.))
-AND,((OR,((DOMAIN-SUFFIX,gvt0.com),(DOMAIN-SUFFIX,gvt2.com),(DOMAIN-SUFFIX,gvt3.com))),(DOMAIN-KEYWORD,beacon))
-AND,((USER-AGENT,bili*),(NOT,((OR,((DOMAIN-SUFFIX,bilibili.com),(DOMAIN-SUFFIX,hdslb.com),(DOMAIN-SUFFIX,wo.cn),(DOMAIN-SUFFIX,biligame.com),(DOMAIN-SUFFIX,bilivideo.com),(DOMAIN-SUFFIX,biliapi.com),(DOMAIN-SUFFIX,biliapi.net),(DOMAIN-SUFFIX,biliintl.com),(DOMAIN-SUFFIX,bstarstatic.com),(DOMAIN,pic-bstarstatic.akamaized.net))))))
 AND,((USER-AGENT,Frodo*),(DOMAIN,119.29.29.29))

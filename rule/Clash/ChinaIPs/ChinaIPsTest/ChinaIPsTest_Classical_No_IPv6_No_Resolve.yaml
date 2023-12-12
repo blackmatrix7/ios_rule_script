@@ -1,10 +1,10 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-12 02:16:18
+# UPDATED: 2023-12-13 02:17:30
 # IP-CIDR: 16155
-# IP-CIDR6: 5223
-# TOTAL: 21378
+# IP-CIDR6: 5229
+# TOTAL: 21384
 payload:
   - IP-CIDR,1.0.1.0/24,no-resolve
   - IP-CIDR,1.0.2.0/23,no-resolve
@@ -1291,7 +1291,6 @@ payload:
   - IP-CIDR,103.2.200.0/22,no-resolve
   - IP-CIDR,103.2.212.0/22,no-resolve
   - IP-CIDR,103.20.12.0/22,no-resolve
-  - IP-CIDR,103.20.128.0/22,no-resolve
   - IP-CIDR,103.20.160.0/22,no-resolve
   - IP-CIDR,103.20.44.0/22,no-resolve
   - IP-CIDR,103.20.68.0/22,no-resolve
@@ -14949,6 +14948,7 @@ payload:
   - IP-CIDR,103.192.8.0/21,no-resolve
   - IP-CIDR,103.197.0.0/22,no-resolve
   - IP-CIDR,103.2.108.0/22,no-resolve
+  - IP-CIDR,103.20.128.0/22,no-resolve
   - IP-CIDR,103.20.248.0/22,no-resolve
   - IP-CIDR,103.202.144.0/22,no-resolve
   - IP-CIDR,103.204.72.0/22,no-resolve

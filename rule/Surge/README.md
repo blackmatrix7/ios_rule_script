@@ -72,7 +72,7 @@
 |[AMP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AMP) |[Anaconda](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Anaconda) |[AnandTech](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AnandTech) |[Android](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Android) |[Anime](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Anime) |
 |[Anonv](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Anonv) |[Anthropic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Anthropic) |[APKCombo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/APKCombo) |[AppLovin](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppLovin) |[Threads](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Threads) |
 |[Duolingo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Duolingo) |[Civitai](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Civitai) |[LinkedIn](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/LinkedIn) |[OKX](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/OKX) |[TruthSocial](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TruthSocial) |
-|[Zoom](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Zoom) |
+|[Zoom](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Zoom) |[Zalo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Zalo) |
 
 
 |🌏GlobalMedia|  |  |  |  |

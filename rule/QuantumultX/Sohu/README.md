@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-12-07 16:37:46
+最后更新时间：2023-12-13 14:43:20
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -63,7 +63,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Sohu.list
 - https://rules.kr328.app/sohu-ads@ads.yaml
 - https://rules.kr328.app/sohu.yaml
-- https://rules.kr328.app/sohu-ads.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-12-07 16:37:50
+最后更新时间：2023-12-13 14:43:23
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -63,7 +63,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《猿辅导》的数据来自以下链接，如与本项目的《猿辅导》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YuanFuDao.list
 - https://rules.kr328.app/yuanfudao.yaml
 
 

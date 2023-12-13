@@ -1,11 +1,11 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2023-12-07 16:41:34
+#!desc=最后更新时间 2023-12-13 14:46:21
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=543
+#!reject=540
 #!mitm=447
 #!force-http-engine-hosts=6
-#!total=996
+#!total=993
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -472,9 +472,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash" - reject
 "^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig" - reject
 "^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen" - reject
-"^https?:\/\/slapi.oray.net/client/ad" - reject
-"^https?:\/\/slapi\.oray\.net\/adver" - reject
-"^https?:\/\/slapi\.oray\.net\/client\/ad" - reject
 "^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/" - reject
 "^https?:\/\/smusic\.app\.wechat\.com\/commonCgi\/advertisement\/get_orint_egg$" - reject
 "^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull?" - reject

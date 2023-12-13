@@ -12,7 +12,7 @@ Amazon规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-12-07 16:36:28
+最后更新时间：2023-12-13 14:42:20
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -77,7 +77,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Amazon.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Amazon.yaml
 - https://rules.kr328.app/amazon-ads.yaml
-- https://rules.kr328.app/amazon@cn.yaml
 - https://rules.kr328.app/amazon@ads.yaml
 - https://rules.kr328.app/amazon.yaml
 - https://rules.kr328.app/amazon-ads@ads.yaml

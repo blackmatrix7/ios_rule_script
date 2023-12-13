@@ -1,11 +1,11 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2023-12-07 16:41:34
+#!desc=最后更新时间 2023-12-13 14:46:21
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=543
+#!reject=540
 #!mitm=447
 #!force-http-engine-hosts=6
-#!total=996
+#!total=993
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -259,8 +259,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/screen" - reject
 "^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig" - reject
 "^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen" - reject
-"^https?:\/\/slapi.oray.net/client/ad" - reject
-"^https?:\/\/slapi\.oray\.net\/adver" - reject
 "^https?:\/\/sso\.ifanr\.com\/jiong\/IOS\/appso\/splash\/" - reject
 "^https?:\/\/ssp\.dzh\.com\.cn\/v2api\/adgroupjson" - reject
 "^https?:\/\/stat\.peopleapp\.com\/" - reject
@@ -519,7 +517,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/actionad\.php" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(GetAD|ADLog)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/slapi\.oray\.net\/client\/ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/smusic\.app\.wechat\.com\/commonCgi\/advertisement\/get_orint_egg$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"

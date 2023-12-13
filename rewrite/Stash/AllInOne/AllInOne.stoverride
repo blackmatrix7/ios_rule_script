@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-12-07 16:41:22
+desc: 最后更新时间 2023-12-13 14:46:11
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 690
+# reject: 687
 # mitm: 726
 # force-http-engine-hosts: 6
-# total: 1461
+# total: 1458
 
 
 
@@ -618,9 +618,6 @@ http:
     - ^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash - reject
     - ^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
-    - ^https?:\/\/slapi.oray.net/client/ad - reject
-    - ^https?:\/\/slapi\.oray\.net\/adver - reject
-    - ^https?:\/\/slapi\.oray\.net\/client\/ad - reject
     - ^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/ - reject
     - ^https?:\/\/smusic\.app\.wechat\.com\/commonCgi\/advertisement\/get_orint_egg$ - reject
     - ^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull? - reject

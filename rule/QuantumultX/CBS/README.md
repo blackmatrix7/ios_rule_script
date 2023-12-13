@@ -12,15 +12,15 @@ CBS规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-12-13 14:42:21
+最后更新时间：2023-12-14 02:14:46
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 1  | 
-| HOST-SUFFIX | 33  | 
+| HOST-SUFFIX | 34  | 
 | USER-AGENT | 1  | 
-| TOTAL | 35  | 
+| TOTAL | 36  | 
 
 
 ## QuantumultX 

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2023-12-13 14:46:04
+desc: 最后更新时间 2023-12-14 02:20:10
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 725
-# mitm: 682
+# reject: 726
+# mitm: 683
 # force-http-engine-hosts: 6
-# total: 1413
+# total: 1415
 
 
 
@@ -667,6 +667,7 @@ http:
     - ^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/ - reject
     - ^https?:\/\/tagit\.hyhuo\.com\/recover\/list - reject
     - ^https?:\/\/tcmobileapi\.17usoft\.com\/appindexnew\/index\/getappindexconfig - reject
+    - ^https?:\/\/td\.cgmcare\.cn\/api\/ad - reject
     - ^https?:\/\/tel\.mangaapi\.manhuaren\.com\/(v2\/public\/getStartUpMessage|v1\/public\/getStartPageAds) - reject
     - ^https?:\/\/tel\.mangaapi\.manhuaren\.com\/v2\/ad\/getMultiAdsStrategy - reject
     - ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ - reject
@@ -1336,6 +1337,7 @@ http:
     - "tagit.hyhuo.com"
     - "tan.ipnas.ltd"
     - "tcmobileapi.17usoft.com"
+    - "td.cgmcare.cn"
     - "tel.mangaapi.manhuaren.com"
     - "tft-app.cdtft.cn"
     - "thor.weidian.com"

@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-12-13 14:46:11
+desc: 最后更新时间 2023-12-14 02:20:18
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 687
-# mitm: 726
+# reject: 688
+# mitm: 727
 # force-http-engine-hosts: 6
-# total: 1458
+# total: 1460
 
 
 
@@ -648,6 +648,7 @@ http:
     - ^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/ - reject
     - ^https?:\/\/tagit\.hyhuo\.com\/recover\/list - reject
     - ^https?:\/\/tcmobileapi\.17usoft\.com\/appindexnew\/index\/getappindexconfig - reject
+    - ^https?:\/\/td\.cgmcare\.cn\/api\/ad - reject
     - ^https?:\/\/tel\.mangaapi\.manhuaren\.com\/(v2\/public\/getStartUpMessage|v1\/public\/getStartPageAds) - reject
     - ^https?:\/\/tel\.mangaapi\.manhuaren\.com\/v2\/ad\/getMultiAdsStrategy - reject
     - ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ - reject
@@ -1490,6 +1491,7 @@ http:
     - "tagit.hyhuo.com"
     - "tan.ipnas.ltd"
     - "tcmobileapi.17usoft.com"
+    - "td.cgmcare.cn"
     - "tel.mangaapi.manhuaren.com"
     - "tft-app.cdtft.cn"
     - "thor.weidian.com"

@@ -1,7 +1,7 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-13 14:39:28
+# UPDATED: 2023-12-14 02:10:56
 # HOST: 235
 # HOST-KEYWORD: 7
 # HOST-SUFFIX: 1549
@@ -10,6 +10,7 @@
 # USER-AGENT: 23
 # TOTAL: 1832
 HOST,apps.apple.com,Apple
+HOST,itunes.apple.com,Apple
 HOST,a1.mzstatic.com,Apple
 HOST,a2.mzstatic.com,Apple
 HOST,a3.mzstatic.com,Apple
@@ -217,7 +218,6 @@ HOST,docs-assets.developer.apple.com,Apple
 HOST,gspe1-ssl.ls.apple.com,Apple
 HOST,hls-svod.itunes.apple.com,Apple
 HOST,hls.itunes.apple.com,Apple
-HOST,itunes.apple.com,Apple
 HOST,js-cdn.music.apple.com,Apple
 HOST,lookup-api.apple.com,Apple
 HOST,mask-api.fe.apple-dns.net,Apple
@@ -233,7 +233,6 @@ HOST,news-events.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
 HOST,play-edge.itunes.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
-HOST,testflight.apple.com,Apple
 HOST,tv.applemusic.com,Apple
 HOST,uts-api.itunes.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple
@@ -243,6 +242,7 @@ HOST,statici.icloud.com,Apple
 HOST,amp-api.fitness.apple.com,Apple
 HOST,guzzoni.apple.com,Apple
 HOST,beta.apple.com,Apple
+HOST,testflight.apple.com,Apple
 HOST,www-cdn.icloud.com.akadns.net,Apple
 HOST-SUFFIX,100beatscheap.com,Apple
 HOST-SUFFIX,1monsterbeatsbydreus.com,Apple
@@ -1739,7 +1739,6 @@ HOST-SUFFIX,wwwapplemusic.com,Apple
 HOST-SUFFIX,apple-dns.net,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,appsto.re,Apple
-HOST-SUFFIX,cdn-apple.com,Apple
 HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,apple-cloudkit.com,Apple
 HOST-SUFFIX,apple-icloud.cn,Apple
@@ -1747,6 +1746,7 @@ HOST-SUFFIX,apple-livephotoskit.com,Apple
 HOST-SUFFIX,appleicloud.cn,Apple
 HOST-SUFFIX,applemx-icloud.com,Apple
 HOST-SUFFIX,apzones.com,Apple
+HOST-SUFFIX,cdn-apple.com,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-content.com,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple

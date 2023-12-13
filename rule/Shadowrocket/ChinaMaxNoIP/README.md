@@ -15,7 +15,7 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2023-12-13 14:45:10
+最后更新时间：2023-12-14 02:17:56
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -115,6 +115,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《国内域名合集》的数据来自以下链接，如与本项目的《国内域名合集》规则混合使用，可能会造成规则大量重复。
 
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiDi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiDi.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Meitu.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PDD.list
@@ -126,21 +127,21 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/360.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/360.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/4399.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/4399.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Vip.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/MI.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Xiaomi.list
-- https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Bilibili.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/ByteDance/ByteDance.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ByteDance.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list
-- https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Domestic.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/CN.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/China/China.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/China.list
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic%20IPs.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
 - https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt
@@ -152,20 +153,14 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuaWei.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Tencent.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Tencent.list
-- https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/ChinaMedia.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Tencent%20Video.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/CMedia.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/DomesticMedia.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEase.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Netease.list
 - https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/NetEaseCloudMusic.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list
-- https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NeteaseMusic.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Youku.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentVideo.list
-- https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/Tencent.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/iQiyi.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/iQiyi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Douyu.list
@@ -195,6 +190,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Bootcss.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CAS.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CCB.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CEB.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CGB.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CIBN.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CITIC.list
@@ -241,7 +237,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HibyMusic.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuYa.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuaShuTV.list
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuanJu.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HunanTV.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Hupu.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ICBC.list
@@ -293,8 +288,10 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ShenMa.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ShiNongZhiKe.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Sohu.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SouFang.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SuNing.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SuiShiChuanMei.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TCL.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TaiKang.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TaiheMusic.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Teambition.list
@@ -321,23 +318,28 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XiaoYuanKeJi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XieCheng.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XueErSi.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XueQiu.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YYeTs.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YiChe.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YiXiaKeJi.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YiZhiBo.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YouMengChuangXiang.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YouZan.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Youku%26Tudou.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YuanFuDao.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YunFanJiaSu.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZDNS.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhangYue.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhiYunZhong.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhongGuoShiHua.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhongWeiShiJi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhongYuanYiShang.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhuanZhuan.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/hpplay.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iFlytek.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ifanr.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CMB.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list
-- https://raw.githubusercontent.com/O7Y0/Attached/main/UnblockNeteaseMusic/NeteaseCloudMusic.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaiShanYunKeJi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiLianWangLuo.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WeiZhiYunDong.list
@@ -390,6 +392,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/yuanfudao.yaml
 - https://rules.kr328.app/bytedance.yaml
 - https://rules.kr328.app/4399.yaml
+- https://rules.kr328.app/u17.yaml
 - https://rules.kr328.app/sohu-ads@ads.yaml
 - https://rules.kr328.app/huya.yaml
 - https://rules.kr328.app/hunantv-ads@ads.yaml

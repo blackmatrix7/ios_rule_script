@@ -21,20 +21,20 @@
 
 ## 规则统计
 
-最后更新时间：2023-12-14 02:16:42
+最后更新时间：2023-12-14 16:57:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 168  | 
 | HOST-KEYWORD | 13  | 
-| HOST-SUFFIX | 66065  | 
+| HOST-SUFFIX | 66064  | 
 | HOST-WILDCARD | 1  | 
 | IP-ASN | 1016  | 
 | IP-CIDR | 6109  | 
 | IP6-CIDR | 3479  | 
 | USER-AGENT | 69  | 
-| TOTAL | 76920  | 
+| TOTAL | 76919  | 
 
 
 ## QuantumultX 
@@ -407,6 +407,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/yuanfudao.yaml
 - https://rules.kr328.app/bytedance.yaml
 - https://rules.kr328.app/4399.yaml
+- https://rules.kr328.app/kuaishou-ads.yaml
+- https://rules.kr328.app/keep.yaml
 - https://rules.kr328.app/u17.yaml
 - https://rules.kr328.app/sohu-ads@ads.yaml
 - https://rules.kr328.app/huya.yaml

@@ -12,7 +12,7 @@ OpenAI规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-12-13 14:45:52
+最后更新时间：2023-12-14 16:59:57
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -76,7 +76,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/OpenAi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/OpenAi.yaml
-- https://ruleset.isagood.day/openai.conf
+- https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list
+- https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChatGPT_Voice.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

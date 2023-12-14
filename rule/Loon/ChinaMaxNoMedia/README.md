@@ -12,19 +12,19 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-12-14 02:18:29
+最后更新时间：2023-12-14 16:59:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 164  | 
 | DOMAIN-KEYWORD | 11  | 
-| DOMAIN-SUFFIX | 65718  | 
+| DOMAIN-SUFFIX | 65717  | 
 | IP-ASN | 1016  | 
 | IP-CIDR | 6109  | 
 | IP-CIDR6 | 3479  | 
 | USER-AGENT | 69  | 
-| TOTAL | 76566  | 
+| TOTAL | 76565  | 
 
 
 ## Loon 
@@ -397,6 +397,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/yuanfudao.yaml
 - https://rules.kr328.app/bytedance.yaml
 - https://rules.kr328.app/4399.yaml
+- https://rules.kr328.app/kuaishou-ads.yaml
+- https://rules.kr328.app/keep.yaml
 - https://rules.kr328.app/u17.yaml
 - https://rules.kr328.app/sohu-ads@ads.yaml
 - https://rules.kr328.app/huya.yaml

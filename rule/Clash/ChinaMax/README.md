@@ -21,7 +21,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-12-15 02:13:57
+最后更新时间：2023-12-16 02:16:32
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -29,10 +29,10 @@
 | DOMAIN | 168  | 
 | DOMAIN-KEYWORD | 13  | 
 | DOMAIN-SUFFIX | 66062  | 
-| IP-CIDR | 6109  | 
-| IP-CIDR6 | 3479  | 
+| IP-CIDR | 6113  | 
+| IP-CIDR6 | 3469  | 
 | PROCESS-NAME | 13  | 
-| TOTAL | 75844  | 
+| TOTAL | 75838  | 
 
 
 ## Clash 
@@ -503,8 +503,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/yuanfudao.yaml
 - https://rules.kr328.app/bytedance.yaml
 - https://rules.kr328.app/4399.yaml
-- https://rules.kr328.app/kuaishou-ads.yaml
-- https://rules.kr328.app/keep.yaml
 - https://rules.kr328.app/u17.yaml
 - https://rules.kr328.app/sohu-ads@ads.yaml
 - https://rules.kr328.app/huya.yaml

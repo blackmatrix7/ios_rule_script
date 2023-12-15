@@ -12,15 +12,15 @@ CBS规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-12-14 16:55:53
+最后更新时间：2023-12-16 02:14:51
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 1  | 
-| DOMAIN-SUFFIX | 33  | 
+| DOMAIN-SUFFIX | 34  | 
 | USER-AGENT | 1  | 
-| TOTAL | 35  | 
+| TOTAL | 36  | 
 
 
 ## Loon 

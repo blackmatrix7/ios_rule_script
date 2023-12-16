@@ -1,19 +1,19 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-16 02:16:30
+# UPDATED: 2023-12-17 02:14:23
 # DOMAIN: 168
 # DOMAIN-KEYWORD: 13
-# DOMAIN-SUFFIX: 66062
-# IP-ASN: 1017
+# DOMAIN-SUFFIX: 66067
+# IP-ASN: 1020
 # IP-CIDR: 6113
-# IP-CIDR6: 3469
+# IP-CIDR6: 3470
 # USER-AGENT: 69
-# TOTAL: 76911
-DOMAIN-SUFFIX,alipay
+# TOTAL: 76920
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,ms
 DOMAIN-SUFFIX,alibaba
+DOMAIN-SUFFIX,alipay
 DOMAIN-SUFFIX,baidu
 DOMAIN-SUFFIX,citic
 DOMAIN-SUFFIX,icbc
@@ -76,7 +76,6 @@ USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
 USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*
 USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
 USER-AGENT,%E5%8D%B3%E5%88%BB*
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,*Vainglory*
 USER-AGENT,AdBlock*
 USER-AGENT,Best%20Trace*
@@ -86,7 +85,6 @@ USER-AGENT,MicroMessenger*
 USER-AGENT,MicroMessengerClient*
 USER-AGENT,Microsoft*
 USER-AGENT,Moke*
-USER-AGENT,NeteaseMusic*
 USER-AGENT,QQ*
 USER-AGENT,RemotePlay*
 USER-AGENT,TIM*
@@ -102,31 +100,33 @@ USER-AGENT,eusoft_ting_en_iphone
 USER-AGENT,hearthstone*
 USER-AGENT,hide*
 USER-AGENT,ting_en
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
 USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,*QIYI*
 USER-AGENT,DomesticMedia*
+USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
+USER-AGENT,QQ%E9%9F%B3%E4%B9%90
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
+USER-AGENT,baiduyinyue
 USER-AGENT,bilibili*
-USER-AGENT,walkman*
-USER-AGENT,xiami*
+USER-AGENT,live4iphone*
+USER-AGENT,qqlive4iphone*
 USER-AGENT,youku*
 USER-AGENT,Himalaya*
 USER-AGENT,MGTV*
 USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
 USER-AGENT,MiguVideo*
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**
+USER-AGENT,NeteaseMusic*
 USER-AGENT,NeteaseMusic**
 USER-AGENT,网易云音乐*
 USER-AGENT,网易云音乐**
-USER-AGENT,baiduyinyue
-USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
-USER-AGENT,QQ%E9%9F%B3%E4%B9%90
-USER-AGENT,live4iphone*
-USER-AGENT,qqlive4iphone*
 USER-AGENT,MOO*
 USER-AGENT,TencentMidasConnect*
+USER-AGENT,walkman*
+USER-AGENT,xiami*
 USER-AGENT,%E4%BC%98%E9%85%B7*
 USER-AGENT,Youku*
 USER-AGENT,PPStream*
@@ -148,6 +148,7 @@ IP-ASN,131486,no-resolve
 IP-ASN,131495,no-resolve
 IP-ASN,131497,no-resolve
 IP-ASN,131506,no-resolve
+IP-ASN,131516,no-resolve
 IP-ASN,131519,no-resolve
 IP-ASN,131521,no-resolve
 IP-ASN,131522,no-resolve
@@ -359,7 +360,6 @@ IP-ASN,139139,no-resolve
 IP-ASN,139141,no-resolve
 IP-ASN,139148,no-resolve
 IP-ASN,139154,no-resolve
-IP-ASN,139161,no-resolve
 IP-ASN,139172,no-resolve
 IP-ASN,139177,no-resolve
 IP-ASN,139178,no-resolve
@@ -659,7 +659,9 @@ IP-ASN,151782,no-resolve
 IP-ASN,151785,no-resolve
 IP-ASN,151814,no-resolve
 IP-ASN,151823,no-resolve
+IP-ASN,151841,no-resolve
 IP-ASN,152092,no-resolve
+IP-ASN,152157,no-resolve
 IP-ASN,17428,no-resolve
 IP-ASN,17429,no-resolve
 IP-ASN,17430,no-resolve
@@ -693,7 +695,6 @@ IP-ASN,197433,no-resolve
 IP-ASN,197626,no-resolve
 IP-ASN,197856,no-resolve
 IP-ASN,197866,no-resolve
-IP-ASN,198025,no-resolve
 IP-ASN,198266,no-resolve
 IP-ASN,198304,no-resolve
 IP-ASN,198527,no-resolve
@@ -1142,8 +1143,10 @@ IP-ASN,9929,no-resolve
 IP-ASN,9939,no-resolve
 IP-ASN,131477,no-resolve
 IP-ASN,138211,no-resolve
+IP-ASN,139161,no-resolve
 IP-ASN,140720,no-resolve
 IP-ASN,142582,no-resolve
+IP-ASN,198025,no-resolve
 IP-ASN,203083,no-resolve
 IP-ASN,203691,no-resolve
 IP-ASN,203874,no-resolve
@@ -9591,6 +9594,7 @@ IP-CIDR6,2600:1f01:4814::/47,no-resolve
 IP-CIDR6,2602:2a3::/40,no-resolve
 IP-CIDR6,2602:2a4:ff::/48,no-resolve
 IP-CIDR6,2602:2a9:d10::/44,no-resolve
+IP-CIDR6,2602:814:f006::/48,no-resolve
 IP-CIDR6,2602:f9df:410::/48,no-resolve
 IP-CIDR6,2602:f9f6:400::/44,no-resolve
 IP-CIDR6,2602:f9f6:c01::/48,no-resolve

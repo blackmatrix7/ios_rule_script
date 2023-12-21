@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-12-14 17:00:31
+desc: 最后更新时间 2023-12-22 02:20:41
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 541
-# mitm: 448
+# reject: 542
+# mitm: 449
 # force-http-engine-hosts: 6
-# total: 995
+# total: 997
 
 
 
@@ -538,6 +538,7 @@ http:
     - ^https?:\/\/www\.inoreader\.com\/adv\/ - reject
     - ^https?:\/\/www\.iyingdi\.cn\/ad - reject
     - ^https?:\/\/www\.myhug\.cn\/ad\/ - reject
+    - ^https?:\/\/www\.pansearch\.me\/api\/adsite - reject
     - ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
@@ -996,6 +997,7 @@ http:
     - "www.inoreader.com"
     - "www.iyingdi.cn"
     - "www.myhug.cn"
+    - "www.pansearch.me"
     - "www.pornhub.com"
     - "www.shihuo.cn"
     - "www.xiaohongshu.com"

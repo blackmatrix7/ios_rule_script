@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-12-14 17:00:19
+desc: 最后更新时间 2023-12-22 02:20:30
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 688
-# mitm: 727
+# reject: 689
+# mitm: 728
 # force-http-engine-hosts: 6
-# total: 1460
+# total: 1462
 
 
 
@@ -699,6 +699,7 @@ http:
     - ^https?:\/\/www\.iyingdi\.cn\/ad - reject
     - ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
     - ^https?:\/\/www\.myhug\.cn\/ad\/ - reject
+    - ^https?:\/\/www\.pansearch\.me\/api\/adsite - reject
     - ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
@@ -1602,6 +1603,7 @@ http:
     - "www.ntfsformac.cn"
     - "www.officesoftcn.com"
     - "www.overturechina.com"
+    - "www.pansearch.me"
     - "www.passwordrecovery.cn"
     - "www.pdfexpert.cc"
     - "www.photozoomchina.com"

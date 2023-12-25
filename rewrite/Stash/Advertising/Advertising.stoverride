@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2023-12-23 02:19:30
+desc: 最后更新时间 2023-12-26 02:19:55
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 728
-# mitm: 684
+# reject: 729
+# mitm: 685
 # force-http-engine-hosts: 6
-# total: 1418
+# total: 1420
 
 
 
@@ -354,6 +354,7 @@ http:
     - ^https?:\/\/cdn\.moji\.com\/advert\/ - reject
     - ^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource - reject
     - ^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v1\/promote\/ios\/start\/page - reject
+    - ^https?:\/\/client-api-v2\.oray\.com\/materials\/(SLCC_IOS_STARTUP_ADV|SLCC_iOS_DEVICE_FREE|SLCC_iOS_DEVICE_LIST_ADV|SLCC_IOS_DEVICE_ADV|SUNLOGIN_CLIENT_IOS_PROMOTION|SLCC_IOS_DEVICE|SLCC_IOS_STARTUP) - reject
     - ^https?:\/\/client-api\.oray\.com\/materials\/SLCC_IOS_STARTUP\?lang=zh-Hans-CN - reject
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject
     - ^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds - reject
@@ -1010,6 +1011,7 @@ http:
     - "cdn.moji.com"
     - "cdnfile1.msstatic.com"
     - "channel.beitaichufang.com"
+    - "client-api-v2.oray.com"
     - "client-api.oray.com"
     - "client.app.coc.10086.cn"
     - "client.mail.163.com"

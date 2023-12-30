@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2023-12-26 02:20:02
+desc: 最后更新时间 2023-12-31 02:21:29
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 691
-# mitm: 729
+# reject: 692
+# mitm: 730
 # force-http-engine-hosts: 6
-# total: 1465
+# total: 1467
 
 
 
@@ -162,6 +162,7 @@ http:
     - ^https?:\/\/adproxy\.autohome\.com\.cn\/AdvertiseService\/ - reject
     - ^https?:\/\/ads-img-al\.xhscdn\.com\/hera\/ - reject
     - ^https?:\/\/ads\.zhinengxiyifang\.cn\/api\/v1\.1\/ads\/* - reject
+    - ^https?:\/\/adv\.ccb\.com\/ebda\/ctm_adv - reject
     - ^https?:\/\/adx-cn\.anythinktech\.com\/bid - reject
     - ^https?:\/\/aes\.acfun\.cn\/s\?adzones - reject
     - ^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
@@ -1002,6 +1003,7 @@ http:
     - "ads.ishansong.com"
     - "ads.zhinengxiyifang.cn"
     - "adsoss.zhinengxiyifang.cn"
+    - "adv.ccb.com"
     - "adx-cn.anythinktech.com"
     - "aes.acfun.cn"
     - "afd.baidu.com"

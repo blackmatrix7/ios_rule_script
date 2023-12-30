@@ -1,10 +1,10 @@
 # NAME: ChinaIPs
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-30 02:13:52
+# UPDATED: 2023-12-31 02:16:47
 # IP-ASN: 1026
-# IP-CIDR: 20355
-# TOTAL: 21381
+# IP-CIDR: 20385
+# TOTAL: 21411
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
 IP-CIDR,1.0.32.0/19,no-resolve
@@ -1078,6 +1078,7 @@ IP-CIDR,103.157.212.0/23,no-resolve
 IP-CIDR,103.157.234.0/23,no-resolve
 IP-CIDR,103.157.254.0/23,no-resolve
 IP-CIDR,103.157.30.0/23,no-resolve
+IP-CIDR,103.158.14.0/23,no-resolve
 IP-CIDR,103.158.190.0/23,no-resolve
 IP-CIDR,103.158.200.0/23,no-resolve
 IP-CIDR,103.158.224.0/23,no-resolve
@@ -2824,6 +2825,7 @@ IP-CIDR,103.40.158.0/23,no-resolve
 IP-CIDR,103.40.16.0/20,no-resolve
 IP-CIDR,103.40.16.0/22,no-resolve
 IP-CIDR,103.40.164.0/22,no-resolve
+IP-CIDR,103.40.174.0/23,no-resolve
 IP-CIDR,103.40.176.0/22,no-resolve
 IP-CIDR,103.40.20.0/22,no-resolve
 IP-CIDR,103.40.212.0/22,no-resolve
@@ -6882,6 +6884,7 @@ IP-CIDR,123.108.136.0/21,no-resolve
 IP-CIDR,123.108.138.0/23,no-resolve
 IP-CIDR,123.108.140.0/24,no-resolve
 IP-CIDR,123.108.142.0/24,no-resolve
+IP-CIDR,123.108.88.0/23,no-resolve
 IP-CIDR,123.112.0.0/12,no-resolve
 IP-CIDR,123.117.128.0/17,no-resolve
 IP-CIDR,123.128.0.0/13,no-resolve
@@ -7426,7 +7429,6 @@ IP-CIDR,131.253.12.80/28,no-resolve
 IP-CIDR,132.232.0.0/16,no-resolve
 IP-CIDR,132.237.150.0/24,no-resolve
 IP-CIDR,134.175.0.0/16,no-resolve
-IP-CIDR,134.73.192.0/19,no-resolve
 IP-CIDR,134.73.227.0/24,no-resolve
 IP-CIDR,134.73.228.0/22,no-resolve
 IP-CIDR,134.73.232.0/21,no-resolve
@@ -13553,6 +13555,8 @@ IP-CIDR,2401:58a0::/32,no-resolve
 IP-CIDR,2401:5960::/32,no-resolve
 IP-CIDR,2401:59c0::/32,no-resolve
 IP-CIDR,2401:5b40::/32,no-resolve
+IP-CIDR,2401:5c20::/32,no-resolve
+IP-CIDR,2401:5c60::/32,no-resolve
 IP-CIDR,2401:5c80::/32,no-resolve
 IP-CIDR,2401:60::/32,no-resolve
 IP-CIDR,2401:620::/32,no-resolve
@@ -15043,6 +15047,31 @@ IP-CIDR,2406:840:9500::/41,no-resolve
 IP-CIDR,2406:840:9580::/43,no-resolve
 IP-CIDR,2406:840:95c0::/42,no-resolve
 IP-CIDR,2406:840:9600::/39,no-resolve
+IP-CIDR,2406:840:9600::/41,no-resolve
+IP-CIDR,2406:840:9680:4000::/51,no-resolve
+IP-CIDR,2406:840:9680:6000::/54,no-resolve
+IP-CIDR,2406:840:9680:6400::/55,no-resolve
+IP-CIDR,2406:840:9680:6600::/58,no-resolve
+IP-CIDR,2406:840:9680:6640::/59,no-resolve
+IP-CIDR,2406:840:9680:6660::/62,no-resolve
+IP-CIDR,2406:840:9680:6664::/63,no-resolve
+IP-CIDR,2406:840:9680:6667::/64,no-resolve
+IP-CIDR,2406:840:9680:6668::/61,no-resolve
+IP-CIDR,2406:840:9680:6670::/60,no-resolve
+IP-CIDR,2406:840:9680:6680::/57,no-resolve
+IP-CIDR,2406:840:9680:6700::/56,no-resolve
+IP-CIDR,2406:840:9680:6800::/53,no-resolve
+IP-CIDR,2406:840:9680:7000::/52,no-resolve
+IP-CIDR,2406:840:9680:8000::/49,no-resolve
+IP-CIDR,2406:840:9680::/50,no-resolve
+IP-CIDR,2406:840:9681::/48,no-resolve
+IP-CIDR,2406:840:9682::/47,no-resolve
+IP-CIDR,2406:840:9684::/46,no-resolve
+IP-CIDR,2406:840:9688::/45,no-resolve
+IP-CIDR,2406:840:9690::/44,no-resolve
+IP-CIDR,2406:840:96a0::/43,no-resolve
+IP-CIDR,2406:840:96c0::/42,no-resolve
+IP-CIDR,2406:840:9700::/40,no-resolve
 IP-CIDR,2406:840:9800::/42,no-resolve
 IP-CIDR,2406:840:9850::/44,no-resolve
 IP-CIDR,2406:840:9860::/43,no-resolve
@@ -15980,6 +16009,7 @@ IP-CIDR,2a06:e881:6602::/47,no-resolve
 IP-CIDR,2a07:54c7:3010::/48,no-resolve
 IP-CIDR,2a07:54c7:3011::/48,no-resolve
 IP-CIDR,2a07:f480::/29,no-resolve
+IP-CIDR,2a09:2700:2800::/40,no-resolve
 IP-CIDR,2a09:2702:48::/48,no-resolve
 IP-CIDR,2a09:3680::/29,no-resolve
 IP-CIDR,2a09:4c0:0:30::/64,no-resolve
@@ -20585,6 +20615,7 @@ IP-ASN,139139,no-resolve
 IP-ASN,139141,no-resolve
 IP-ASN,139148,no-resolve
 IP-ASN,139154,no-resolve
+IP-ASN,139161,no-resolve
 IP-ASN,139172,no-resolve
 IP-ASN,139177,no-resolve
 IP-ASN,139178,no-resolve
@@ -21373,7 +21404,6 @@ IP-ASN,9929,no-resolve
 IP-ASN,9939,no-resolve
 IP-ASN,131477,no-resolve
 IP-ASN,138211,no-resolve
-IP-ASN,139161,no-resolve
 IP-ASN,140720,no-resolve
 IP-ASN,142582,no-resolve
 IP-ASN,198025,no-resolve

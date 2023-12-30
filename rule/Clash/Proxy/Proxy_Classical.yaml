@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-15 02:13:02
+# UPDATED: 2023-12-31 02:15:56
 # DOMAIN: 11
 # DOMAIN-KEYWORD: 29
-# DOMAIN-SUFFIX: 5892
+# DOMAIN-SUFFIX: 5897
 # IP-CIDR: 94
 # IP-CIDR6: 3
-# TOTAL: 6029
+# TOTAL: 6034
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -1277,6 +1277,7 @@ payload:
   - DOMAIN-SUFFIX,discuss.com.hk
   - DOMAIN-SUFFIX,discuss4u.com
   - DOMAIN-SUFFIX,dish.com
+  - DOMAIN-SUFFIX,disk.yandex.ru
   - DOMAIN-SUFFIX,disp.cc
   - DOMAIN-SUFFIX,disq.us
   - DOMAIN-SUFFIX,disqus.com
@@ -3595,6 +3596,7 @@ payload:
   - DOMAIN-SUFFIX,oauth.net
   - DOMAIN-SUFFIX,observechina.net
   - DOMAIN-SUFFIX,obutu.com
+  - DOMAIN-SUFFIX,obyte.org
   - DOMAIN-SUFFIX,ocaspro.com
   - DOMAIN-SUFFIX,occupytiananmen.com
   - DOMAIN-SUFFIX,oclp.hk
@@ -3957,6 +3959,7 @@ payload:
   - DOMAIN-SUFFIX,psiphon.ca
   - DOMAIN-SUFFIX,psiphon3.com
   - DOMAIN-SUFFIX,psiphontoday.com
+  - DOMAIN-SUFFIX,pstatic.net
   - DOMAIN-SUFFIX,pt.im
   - DOMAIN-SUFFIX,pts.org.tw
   - DOMAIN-SUFFIX,ptt.cc
@@ -4811,6 +4814,7 @@ payload:
   - DOMAIN-SUFFIX,thomasbernhard.org
   - DOMAIN-SUFFIX,thongdreams.com
   - DOMAIN-SUFFIX,threadreaderapp.com
+  - DOMAIN-SUFFIX,threads.net
   - DOMAIN-SUFFIX,threatchaos.com
   - DOMAIN-SUFFIX,throughnightsfire.com
   - DOMAIN-SUFFIX,thumbzilla.com
@@ -5588,6 +5592,7 @@ payload:
   - DOMAIN-SUFFIX,witopia.net
   - DOMAIN-SUFFIX,wizcrafts.net
   - DOMAIN-SUFFIX,wjbk.org
+  - DOMAIN-SUFFIX,wmflabs.org
   - DOMAIN-SUFFIX,wn.com
   - DOMAIN-SUFFIX,wnacg.com
   - DOMAIN-SUFFIX,wnacg.org

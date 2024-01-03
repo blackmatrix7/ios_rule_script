@@ -1,21 +1,21 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-03 02:15:49
+# UPDATED: 2024-01-04 02:16:57
 # DOMAIN: 168
 # DOMAIN-KEYWORD: 13
 # DOMAIN-SUFFIX: 65905
 # IP-ASN: 1027
-# IP-CIDR: 6121
-# IP-CIDR6: 3494
+# IP-CIDR: 6123
+# IP-CIDR6: 3495
 # USER-AGENT: 69
-# TOTAL: 76797
+# TOTAL: 76800
+DOMAIN-SUFFIX,alipay
+DOMAIN-SUFFIX,citic
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,ms
 DOMAIN-SUFFIX,alibaba
-DOMAIN-SUFFIX,alipay
 DOMAIN-SUFFIX,baidu
-DOMAIN-SUFFIX,citic
 DOMAIN-SUFFIX,icbc
 DOMAIN-SUFFIX,sohu
 DOMAIN-SUFFIX,taobao
@@ -66,6 +66,7 @@ DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,qiyi
 DOMAIN-KEYWORD,hnagroup
 DOMAIN-KEYWORD,weibo
+USER-AGENT,AcFun*
 USER-AGENT,*bili*
 USER-AGENT,Bilibili*
 USER-AGENT,bili*
@@ -104,11 +105,9 @@ USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,*QIYI*
-USER-AGENT,AcFun*
 USER-AGENT,DomesticMedia*
 USER-AGENT,MGTV*
 USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
-USER-AGENT,MOO*
 USER-AGENT,MiguVideo*
 USER-AGENT,NeteaseMusic*
 USER-AGENT,PPStream*
@@ -117,7 +116,6 @@ USER-AGENT,QQ%E9%9F%B3%E4%B9%90
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
 USER-AGENT,QYPlayer*
-USER-AGENT,TencentMidasConnect*
 USER-AGENT,YYeTs*
 USER-AGENT,Youku*
 USER-AGENT,baiduyinyue
@@ -126,14 +124,16 @@ USER-AGENT,iQiYi*
 USER-AGENT,iQiyi*
 USER-AGENT,live4iphone*
 USER-AGENT,qqlive4iphone*
-USER-AGENT,walkman*
-USER-AGENT,xiami*
 USER-AGENT,youku*
 USER-AGENT,Himalaya*
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**
 USER-AGENT,NeteaseMusic**
 USER-AGENT,网易云音乐*
 USER-AGENT,网易云音乐**
+USER-AGENT,MOO*
+USER-AGENT,TencentMidasConnect*
+USER-AGENT,walkman*
+USER-AGENT,xiami*
 USER-AGENT,iQIYI*
 IP-ASN,10111,no-resolve
 IP-ASN,10206,no-resolve
@@ -353,7 +353,6 @@ IP-ASN,139110,no-resolve
 IP-ASN,139112,no-resolve
 IP-ASN,139118,no-resolve
 IP-ASN,139122,no-resolve
-IP-ASN,139133,no-resolve
 IP-ASN,139136,no-resolve
 IP-ASN,139138,no-resolve
 IP-ASN,139139,no-resolve
@@ -1148,6 +1147,7 @@ IP-ASN,9929,no-resolve
 IP-ASN,9939,no-resolve
 IP-ASN,131477,no-resolve
 IP-ASN,138211,no-resolve
+IP-ASN,139133,no-resolve
 IP-ASN,140720,no-resolve
 IP-ASN,142582,no-resolve
 IP-ASN,198025,no-resolve
@@ -6417,6 +6417,8 @@ IP-CIDR,36.37.39.0/24,no-resolve
 IP-CIDR,36.37.40.0/21,no-resolve
 IP-CIDR,36.37.48.0/20,no-resolve
 IP-CIDR,36.40.0.0/13,no-resolve
+IP-CIDR,36.50.226.0/23,no-resolve
+IP-CIDR,36.50.254.0/23,no-resolve
 IP-CIDR,36.51.0.0/16,no-resolve
 IP-CIDR,36.69.0.0/21,no-resolve
 IP-CIDR,36.69.128.0/17,no-resolve
@@ -7833,6 +7835,7 @@ IP-CIDR6,2401:5b40::/32,no-resolve
 IP-CIDR6,2401:5c20::/32,no-resolve
 IP-CIDR6,2401:5c60::/32,no-resolve
 IP-CIDR6,2401:5c80::/32,no-resolve
+IP-CIDR6,2401:5fa0::/32,no-resolve
 IP-CIDR6,2401:60::/32,no-resolve
 IP-CIDR6,2401:620::/32,no-resolve
 IP-CIDR6,2401:7180::/32,no-resolve

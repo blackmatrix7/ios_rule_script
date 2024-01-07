@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2023-12-31 02:21:42
+desc: 最后更新时间 2024-01-08 02:16:34
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 545
-# mitm: 451
+# reject: 546
+# mitm: 452
 # force-http-engine-hosts: 6
-# total: 1002
+# total: 1004
 
 
 
@@ -265,6 +265,7 @@ http:
     - ^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ - reject
     - ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv - reject
     - ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService - reject
+    - ^https?:\/\/entry\.ubixioe\.com\/mob\/sdk\/v\d\/endpoint - reject
     - ^https?:\/\/esdk\.tymcdn\.com\/dbGold\/m\/v2\/mobileLiveReveal\.do\? - reject
     - ^https?:\/\/evs\.500\.com\/esinfo\/loading\/loading - reject
     - ^https?:\/\/explorer\.tratao\.com\/api\/client\/v4\/xtransfer\/ad\/ - reject
@@ -766,6 +767,7 @@ http:
     - "easyreadfs.nosdn.127.net"
     - "edit.sinaapp.com"
     - "emdcadvertise.eastmoney.com"
+    - "entry.ubixioe.com"
     - "esdk.tymcdn.com"
     - "evs.500.com"
     - "explorer.tratao.com"

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-01-06 02:19:17
+desc: 最后更新时间 2024-01-08 02:16:19
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 728
-# mitm: 686
+# reject: 729
+# mitm: 687
 # force-http-engine-hosts: 6
-# total: 1420
+# total: 1422
 
 
 
@@ -391,6 +391,7 @@ http:
     - ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/user\/teenager\/status - reject
     - ^https?:\/\/elemecdn\.com\/.+?\/sitemap - reject
     - ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService - reject
+    - ^https?:\/\/entry\.ubixioe\.com\/mob\/sdk\/v\d\/endpoint - reject
     - ^https?:\/\/esdk\.tymcdn\.com\/dbGold\/m\/v2\/mobileLiveReveal\.do\? - reject
     - ^https?:\/\/evs\.500\.com\/esinfo\/loading\/loading - reject
     - ^https?:\/\/explorer\.tratao\.com\/api\/client\/v4\/xtransfer\/ad\/ - reject
@@ -1065,6 +1066,7 @@ http:
     - "elemecdn.com"
     - "emdcadvertise.eastmoney.com"
     - "emdcadvise.eastmoney.com"
+    - "entry.ubixioe.com"
     - "esdk.tymcdn.com"
     - "evs.500.com"
     - "explorer.tratao.com"

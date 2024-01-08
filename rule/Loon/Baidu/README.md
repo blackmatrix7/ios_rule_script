@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-08 16:00:04
+最后更新时间：2024-01-09 02:15:46
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -60,6 +60,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《百度》的数据来自以下链接，如与本项目的《百度》规则混合使用，可能会造成规则大量重复。
 
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaiDu.list
 - https://rules.kr328.app/baidu-ads@ads.yaml
 - https://rules.kr328.app/baidu@ads.yaml
 - https://rules.kr328.app/baidu.yaml

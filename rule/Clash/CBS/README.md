@@ -12,15 +12,15 @@ CBS规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-08 15:59:59
+最后更新时间：2024-01-09 02:15:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 1  | 
-| DOMAIN-SUFFIX | 33  | 
+| DOMAIN-SUFFIX | 34  | 
 | PROCESS-NAME | 2  | 
-| TOTAL | 36  | 
+| TOTAL | 37  | 
 
 
 ## Clash 

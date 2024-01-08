@@ -1,15 +1,15 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-08 16:01:25
+# UPDATED: 2024-01-09 02:17:31
 # DOMAIN: 548
 # DOMAIN-KEYWORD: 14
 # DOMAIN-SUFFIX: 66727
-# IP-ASN: 1027
+# IP-ASN: 1005
 # IP-CIDR: 6975
-# IP-CIDR6: 3590
+# IP-CIDR6: 3584
 # USER-AGENT: 69
-# TOTAL: 78950
+# TOTAL: 78922
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,ms
 DOMAIN-SUFFIX,alibaba
@@ -63,10 +63,10 @@ DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,officecdn
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,bilibili
-DOMAIN-KEYWORD,qiyi
 DOMAIN-KEYWORD,hnagroup
 DOMAIN-KEYWORD,stripe
 DOMAIN-KEYWORD,weibo
+DOMAIN-KEYWORD,qiyi
 USER-AGENT,*bili*
 USER-AGENT,Bilibili*
 USER-AGENT,bili*
@@ -83,7 +83,6 @@ USER-AGENT,AdBlock*
 USER-AGENT,Best%20Trace*
 USER-AGENT,MegaWerewolf*
 USER-AGENT,MicroMessenger%20Client
-USER-AGENT,MicroMessenger*
 USER-AGENT,MicroMessengerClient*
 USER-AGENT,Microsoft*
 USER-AGENT,Moke*
@@ -92,7 +91,6 @@ USER-AGENT,QQ*
 USER-AGENT,RemotePlay*
 USER-AGENT,TIM*
 USER-AGENT,TeamViewer*
-USER-AGENT,WeChat*
 USER-AGENT,WebTorrent*
 USER-AGENT,YYeTs*
 USER-AGENT,arrowio*
@@ -109,33 +107,35 @@ USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,*QIYI*
 USER-AGENT,AcFun*
 USER-AGENT,DomesticMedia*
-USER-AGENT,MGTV*
-USER-AGENT,MOO*
+USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
 USER-AGENT,MiguVideo*
-USER-AGENT,PPStream*
-USER-AGENT,QIYI*
+USER-AGENT,QQ%E9%9F%B3%E4%B9%90
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
-USER-AGENT,QYPlayer*
 USER-AGENT,Youku*
-USER-AGENT,baiduyinyue
 USER-AGENT,bilibili*
-USER-AGENT,iQiYi*
-USER-AGENT,iQiyi*
+USER-AGENT,live4iphone*
+USER-AGENT,qqlive4iphone*
 USER-AGENT,walkman*
 USER-AGENT,xiami*
 USER-AGENT,youku*
 USER-AGENT,Himalaya*
+USER-AGENT,MGTV*
+USER-AGENT,MOO*
+USER-AGENT,TencentMidasConnect*
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**
 USER-AGENT,NeteaseMusic**
 USER-AGENT,网易云音乐*
 USER-AGENT,网易云音乐**
-USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
-USER-AGENT,QQ%E9%9F%B3%E4%B9%90
-USER-AGENT,TencentMidasConnect*
-USER-AGENT,live4iphone*
-USER-AGENT,qqlive4iphone*
+USER-AGENT,baiduyinyue
+USER-AGENT,MicroMessenger*
+USER-AGENT,WeChat*
+USER-AGENT,PPStream*
+USER-AGENT,QIYI*
+USER-AGENT,QYPlayer*
 USER-AGENT,iQIYI*
+USER-AGENT,iQiYi*
+USER-AGENT,iQiyi*
 IP-ASN,10111,no-resolve
 IP-ASN,10206,no-resolve
 IP-ASN,10212,no-resolve
@@ -144,6 +144,7 @@ IP-ASN,131171,no-resolve
 IP-ASN,131285,no-resolve
 IP-ASN,131325,no-resolve
 IP-ASN,131326,no-resolve
+IP-ASN,131477,no-resolve
 IP-ASN,131484,no-resolve
 IP-ASN,131486,no-resolve
 IP-ASN,131495,no-resolve
@@ -163,7 +164,6 @@ IP-ASN,131578,no-resolve
 IP-ASN,132019,no-resolve
 IP-ASN,132147,no-resolve
 IP-ASN,132153,no-resolve
-IP-ASN,132203,no-resolve
 IP-ASN,132225,no-resolve
 IP-ASN,132437,no-resolve
 IP-ASN,132510,no-resolve
@@ -302,10 +302,10 @@ IP-ASN,137804,no-resolve
 IP-ASN,137806,no-resolve
 IP-ASN,137835,no-resolve
 IP-ASN,137882,no-resolve
-IP-ASN,137897,no-resolve
 IP-ASN,138029,no-resolve
 IP-ASN,138169,no-resolve
 IP-ASN,138182,no-resolve
+IP-ASN,138211,no-resolve
 IP-ASN,138369,no-resolve
 IP-ASN,138371,no-resolve
 IP-ASN,138374,no-resolve
@@ -352,7 +352,7 @@ IP-ASN,139100,no-resolve
 IP-ASN,139110,no-resolve
 IP-ASN,139112,no-resolve
 IP-ASN,139118,no-resolve
-IP-ASN,139122,no-resolve
+IP-ASN,139133,no-resolve
 IP-ASN,139136,no-resolve
 IP-ASN,139138,no-resolve
 IP-ASN,139139,no-resolve
@@ -441,7 +441,6 @@ IP-ASN,140313,no-resolve
 IP-ASN,140314,no-resolve
 IP-ASN,140315,no-resolve
 IP-ASN,140316,no-resolve
-IP-ASN,140317,no-resolve
 IP-ASN,140318,no-resolve
 IP-ASN,140319,no-resolve
 IP-ASN,140320,no-resolve
@@ -550,6 +549,7 @@ IP-ASN,140707,no-resolve
 IP-ASN,140709,no-resolve
 IP-ASN,140716,no-resolve
 IP-ASN,140717,no-resolve
+IP-ASN,140720,no-resolve
 IP-ASN,140726,no-resolve
 IP-ASN,140731,no-resolve
 IP-ASN,140852,no-resolve
@@ -567,7 +567,6 @@ IP-ASN,140863,no-resolve
 IP-ASN,140886,no-resolve
 IP-ASN,140895,no-resolve
 IP-ASN,140903,no-resolve
-IP-ASN,140915,no-resolve
 IP-ASN,140936,no-resolve
 IP-ASN,140979,no-resolve
 IP-ASN,141025,no-resolve
@@ -594,6 +593,7 @@ IP-ASN,142549,no-resolve
 IP-ASN,142551,no-resolve
 IP-ASN,142553,no-resolve
 IP-ASN,142554,no-resolve
+IP-ASN,142582,no-resolve
 IP-ASN,142608,no-resolve
 IP-ASN,142611,no-resolve
 IP-ASN,142642,no-resolve
@@ -602,7 +602,6 @@ IP-ASN,146758,no-resolve
 IP-ASN,146771,no-resolve
 IP-ASN,146772,no-resolve
 IP-ASN,146774,no-resolve
-IP-ASN,146788,no-resolve
 IP-ASN,146792,no-resolve
 IP-ASN,146809,no-resolve
 IP-ASN,146812,no-resolve
@@ -612,7 +611,6 @@ IP-ASN,146822,no-resolve
 IP-ASN,146824,no-resolve
 IP-ASN,146827,no-resolve
 IP-ASN,146834,no-resolve
-IP-ASN,146841,no-resolve
 IP-ASN,146842,no-resolve
 IP-ASN,146845,no-resolve
 IP-ASN,146966,no-resolve
@@ -627,7 +625,6 @@ IP-ASN,149178,no-resolve
 IP-ASN,149292,no-resolve
 IP-ASN,149475,no-resolve
 IP-ASN,149648,no-resolve
-IP-ASN,149793,no-resolve
 IP-ASN,149795,no-resolve
 IP-ASN,149837,no-resolve
 IP-ASN,149979,no-resolve
@@ -653,7 +650,6 @@ IP-ASN,151397,no-resolve
 IP-ASN,151416,no-resolve
 IP-ASN,151418,no-resolve
 IP-ASN,151464,no-resolve
-IP-ASN,151483,no-resolve
 IP-ASN,151493,no-resolve
 IP-ASN,151494,no-resolve
 IP-ASN,151640,no-resolve
@@ -662,11 +658,6 @@ IP-ASN,151674,no-resolve
 IP-ASN,151782,no-resolve
 IP-ASN,151785,no-resolve
 IP-ASN,151814,no-resolve
-IP-ASN,151823,no-resolve
-IP-ASN,151841,no-resolve
-IP-ASN,152092,no-resolve
-IP-ASN,152118,no-resolve
-IP-ASN,152157,no-resolve
 IP-ASN,17428,no-resolve
 IP-ASN,17429,no-resolve
 IP-ASN,17430,no-resolve
@@ -699,10 +690,10 @@ IP-ASN,18257,no-resolve
 IP-ASN,197433,no-resolve
 IP-ASN,197626,no-resolve
 IP-ASN,197856,no-resolve
-IP-ASN,197866,no-resolve
 IP-ASN,198025,no-resolve
 IP-ASN,198266,no-resolve
 IP-ASN,198304,no-resolve
+IP-ASN,198527,no-resolve
 IP-ASN,198764,no-resolve
 IP-ASN,199068,no-resolve
 IP-ASN,199307,no-resolve
@@ -711,6 +702,7 @@ IP-ASN,199392,no-resolve
 IP-ASN,199406,no-resolve
 IP-ASN,199436,no-resolve
 IP-ASN,199684,no-resolve
+IP-ASN,199691,no-resolve
 IP-ASN,199832,no-resolve
 IP-ASN,199932,no-resolve
 IP-ASN,200021,no-resolve
@@ -726,11 +718,11 @@ IP-ASN,200558,no-resolve
 IP-ASN,200592,no-resolve
 IP-ASN,200728,no-resolve
 IP-ASN,200782,no-resolve
-IP-ASN,200789,no-resolve
 IP-ASN,200809,no-resolve
 IP-ASN,200853,no-resolve
 IP-ASN,200890,no-resolve
 IP-ASN,200895,no-resolve
+IP-ASN,200907,no-resolve
 IP-ASN,200912,no-resolve
 IP-ASN,200936,no-resolve
 IP-ASN,200949,no-resolve
@@ -741,7 +733,9 @@ IP-ASN,203083,no-resolve
 IP-ASN,203236,no-resolve
 IP-ASN,203655,no-resolve
 IP-ASN,203664,no-resolve
+IP-ASN,203691,no-resolve
 IP-ASN,203804,no-resolve
+IP-ASN,203874,no-resolve
 IP-ASN,203888,no-resolve
 IP-ASN,203899,no-resolve
 IP-ASN,204185,no-resolve
@@ -767,11 +761,12 @@ IP-ASN,207401,no-resolve
 IP-ASN,208266,no-resolve
 IP-ASN,208618,no-resolve
 IP-ASN,208679,no-resolve
-IP-ASN,208680,no-resolve
+IP-ASN,208698,no-resolve
 IP-ASN,208830,no-resolve
 IP-ASN,208872,no-resolve
 IP-ASN,208993,no-resolve
 IP-ASN,209083,no-resolve
+IP-ASN,209101,no-resolve
 IP-ASN,209218,no-resolve
 IP-ASN,209261,no-resolve
 IP-ASN,209294,no-resolve
@@ -809,12 +804,6 @@ IP-ASN,212690,no-resolve
 IP-ASN,212793,no-resolve
 IP-ASN,213069,no-resolve
 IP-ASN,213115,no-resolve
-IP-ASN,215786,no-resolve
-IP-ASN,215829,no-resolve
-IP-ASN,215832,no-resolve
-IP-ASN,215848,no-resolve
-IP-ASN,215906,no-resolve
-IP-ASN,215969,no-resolve
 IP-ASN,216056,no-resolve
 IP-ASN,216173,no-resolve
 IP-ASN,216243,no-resolve
@@ -880,6 +869,7 @@ IP-ASN,24400,no-resolve
 IP-ASN,24406,no-resolve
 IP-ASN,24409,no-resolve
 IP-ASN,24413,no-resolve
+IP-ASN,24416,no-resolve
 IP-ASN,24422,no-resolve
 IP-ASN,24423,no-resolve
 IP-ASN,24424,no-resolve
@@ -986,6 +976,8 @@ IP-ASN,55967,no-resolve
 IP-ASN,55971,no-resolve
 IP-ASN,55973,no-resolve
 IP-ASN,55982,no-resolve
+IP-ASN,55988,no-resolve
+IP-ASN,55989,no-resolve
 IP-ASN,55990,no-resolve
 IP-ASN,55992,no-resolve
 IP-ASN,55994,no-resolve
@@ -1010,6 +1002,7 @@ IP-ASN,56046,no-resolve
 IP-ASN,56047,no-resolve
 IP-ASN,56048,no-resolve
 IP-ASN,56282,no-resolve
+IP-ASN,58026,no-resolve
 IP-ASN,58251,no-resolve
 IP-ASN,58336,no-resolve
 IP-ASN,58448,no-resolve
@@ -1069,6 +1062,7 @@ IP-ASN,59078,no-resolve
 IP-ASN,59080,no-resolve
 IP-ASN,59083,no-resolve
 IP-ASN,59089,no-resolve
+IP-ASN,59201,no-resolve
 IP-ASN,59265,no-resolve
 IP-ASN,60666,no-resolve
 IP-ASN,63548,no-resolve
@@ -1128,6 +1122,7 @@ IP-ASN,9394,no-resolve
 IP-ASN,9401,no-resolve
 IP-ASN,9405,no-resolve
 IP-ASN,9406,no-resolve
+IP-ASN,9425,no-resolve
 IP-ASN,9516,no-resolve
 IP-ASN,9801,no-resolve
 IP-ASN,9802,no-resolve
@@ -1145,24 +1140,7 @@ IP-ASN,9818,no-resolve
 IP-ASN,9819,no-resolve
 IP-ASN,9929,no-resolve
 IP-ASN,9939,no-resolve
-IP-ASN,131477,no-resolve
-IP-ASN,138211,no-resolve
-IP-ASN,139133,no-resolve
-IP-ASN,140720,no-resolve
-IP-ASN,142582,no-resolve
-IP-ASN,198527,no-resolve
-IP-ASN,199691,no-resolve
-IP-ASN,200907,no-resolve
-IP-ASN,203691,no-resolve
-IP-ASN,203874,no-resolve
-IP-ASN,208698,no-resolve
-IP-ASN,209101,no-resolve
-IP-ASN,24416,no-resolve
-IP-ASN,55988,no-resolve
-IP-ASN,55989,no-resolve
-IP-ASN,58026,no-resolve
-IP-ASN,59201,no-resolve
-IP-ASN,9425,no-resolve
+IP-ASN,132203,no-resolve
 IP-CIDR,0.0.0.0/32,no-resolve
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
@@ -10757,56 +10735,50 @@ IP-CIDR6,2a06:a005:d48::/48,no-resolve
 IP-CIDR6,2a06:a005:f80::/44,no-resolve
 IP-CIDR6,2a06:de00:de04::/47,no-resolve
 IP-CIDR6,2a06:de00:de0e::/47,no-resolve
+IP-CIDR6,2a06:de01:80a::/48,no-resolve
 IP-CIDR6,2a06:de01:81a::/48,no-resolve
-IP-CIDR6,2a06:de01:81d::/48,no-resolve
 IP-CIDR6,2a06:de01:820::/48,no-resolve
 IP-CIDR6,2a06:de01:829::/48,no-resolve
 IP-CIDR6,2a06:de01:82d::/48,no-resolve
-IP-CIDR6,2a06:de01:833::/48,no-resolve
 IP-CIDR6,2a06:de01:839::/48,no-resolve
 IP-CIDR6,2a06:de01:83d::/48,no-resolve
 IP-CIDR6,2a06:de01:845::/48,no-resolve
-IP-CIDR6,2a06:de01:84b::/48,no-resolve
-IP-CIDR6,2a06:de01:851::/48,no-resolve
 IP-CIDR6,2a06:de01:864::/48,no-resolve
+IP-CIDR6,2a06:de01:872::/47,no-resolve
 IP-CIDR6,2a06:de01:878::/48,no-resolve
 IP-CIDR6,2a06:de01:87c::/48,no-resolve
 IP-CIDR6,2a06:de01:87f::/48,no-resolve
 IP-CIDR6,2a06:de01:881::/48,no-resolve
-IP-CIDR6,2a06:de01:885::/48,no-resolve
 IP-CIDR6,2a06:de01:888::/48,no-resolve
 IP-CIDR6,2a06:de01:892::/48,no-resolve
 IP-CIDR6,2a06:de01:895::/48,no-resolve
 IP-CIDR6,2a06:de01:897::/48,no-resolve
-IP-CIDR6,2a06:de01:8a2::/48,no-resolve
 IP-CIDR6,2a06:de01:8bc::/48,no-resolve
 IP-CIDR6,2a06:de01:8c9::/48,no-resolve
 IP-CIDR6,2a06:de01:8ca::/48,no-resolve
-IP-CIDR6,2a06:de01:8cc::/48,no-resolve
 IP-CIDR6,2a06:de01:8df::/48,no-resolve
+IP-CIDR6,2a06:de01:8e4::/48,no-resolve
+IP-CIDR6,2a06:de01:8f1::/48,no-resolve
 IP-CIDR6,2a06:de01:8f3::/48,no-resolve
-IP-CIDR6,2a06:de01:8f9::/48,no-resolve
-IP-CIDR6,2a06:de01:907::/48,no-resolve
-IP-CIDR6,2a06:de01:90e::/48,no-resolve
-IP-CIDR6,2a06:de01:917::/48,no-resolve
+IP-CIDR6,2a06:de01:906::/47,no-resolve
+IP-CIDR6,2a06:de01:90f::/48,no-resolve
 IP-CIDR6,2a06:de01:920::/48,no-resolve
 IP-CIDR6,2a06:de01:929::/48,no-resolve
 IP-CIDR6,2a06:de01:92e::/47,no-resolve
 IP-CIDR6,2a06:de01:93f::/48,no-resolve
-IP-CIDR6,2a06:de01:942::/48,no-resolve
 IP-CIDR6,2a06:de01:94d::/48,no-resolve
 IP-CIDR6,2a06:de01:95b::/48,no-resolve
 IP-CIDR6,2a06:de01:960::/48,no-resolve
 IP-CIDR6,2a06:de01:965::/48,no-resolve
 IP-CIDR6,2a06:de01:966::/48,no-resolve
-IP-CIDR6,2a06:de01:970::/48,no-resolve
+IP-CIDR6,2a06:de01:96b::/48,no-resolve
 IP-CIDR6,2a06:de01:972::/48,no-resolve
+IP-CIDR6,2a06:de01:976::/48,no-resolve
 IP-CIDR6,2a06:de01:97a::/48,no-resolve
 IP-CIDR6,2a06:de01:986::/48,no-resolve
 IP-CIDR6,2a06:de01:98a::/48,no-resolve
-IP-CIDR6,2a06:de01:9a0::/47,no-resolve
+IP-CIDR6,2a06:de01:9a0::/48,no-resolve
 IP-CIDR6,2a06:de01:9a2::/48,no-resolve
-IP-CIDR6,2a06:de01:9a8::/48,no-resolve
 IP-CIDR6,2a06:de01:9af::/48,no-resolve
 IP-CIDR6,2a06:de01:9bb::/48,no-resolve
 IP-CIDR6,2a06:de01:a15::/48,no-resolve
@@ -10816,17 +10788,17 @@ IP-CIDR6,2a06:de01:a48::/48,no-resolve
 IP-CIDR6,2a06:de01:a4d::/48,no-resolve
 IP-CIDR6,2a06:de01:a7b::/48,no-resolve
 IP-CIDR6,2a06:de01:a7d::/48,no-resolve
+IP-CIDR6,2a06:de01:ac5::/48,no-resolve
 IP-CIDR6,2a06:de01:ac7::/48,no-resolve
 IP-CIDR6,2a06:de01:ace::/47,no-resolve
+IP-CIDR6,2a06:de01:ad1::/48,no-resolve
 IP-CIDR6,2a06:de01:ad3::/48,no-resolve
 IP-CIDR6,2a06:de01:ae8::/48,no-resolve
-IP-CIDR6,2a06:de01:aed::/48,no-resolve
 IP-CIDR6,2a06:de01:af3::/48,no-resolve
 IP-CIDR6,2a06:de01:b05::/48,no-resolve
 IP-CIDR6,2a06:de01:b0d::/48,no-resolve
-IP-CIDR6,2a06:de01:b12::/48,no-resolve
 IP-CIDR6,2a06:de01:b15::/48,no-resolve
-IP-CIDR6,2a06:de01:b26::/48,no-resolve
+IP-CIDR6,2a06:de01:b38::/48,no-resolve
 IP-CIDR6,2a06:de01:b3e::/48,no-resolve
 IP-CIDR6,2a06:e881:2509::/48,no-resolve
 IP-CIDR6,2a06:e881:3800::/44,no-resolve

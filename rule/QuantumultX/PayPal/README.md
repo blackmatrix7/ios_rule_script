@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) ![](https://shields.io/badge/-QuantumultX定制化规则-7cd1e3) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
 PayPal规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,16 +12,15 @@ PayPal规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-08 15:59:57
+最后更新时间：2024-01-09 02:15:38
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 2  | 
 | HOST-KEYWORD | 1  | 
 | HOST-SUFFIX | 246  | 
 | USER-AGENT | 1  | 
-| TOTAL | 250  | 
+| TOTAL | 248  | 
 
 
 ## QuantumultX 
@@ -64,10 +63,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《PayPal》的数据来自以下链接，如与本项目的《PayPal》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/PayPal.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/PayPal.list
-- https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/PayPal.list
-- https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/PayPal.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/PayPal.list
+- https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Paypal.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PayPal.list
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/PayPal.yaml
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/PayPal.yaml

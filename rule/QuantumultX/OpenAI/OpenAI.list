@@ -1,13 +1,13 @@
 # NAME: OpenAI
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-14 16:59:57
+# UPDATED: 2024-01-08 16:02:56
 # HOST: 2
 # HOST-KEYWORD: 1
 # HOST-SUFFIX: 23
-# IP-ASN: 2
+# IP-ASN: 1
 # IP-CIDR: 2
-# TOTAL: 30
+# TOTAL: 29
 HOST,browser-intake-datadoghq.com,OpenAI
 HOST,static.cloudflareinsights.com,OpenAI
 HOST-SUFFIX,ai.com,OpenAI
@@ -36,5 +36,4 @@ HOST-SUFFIX,turn.livekit.cloud,OpenAI
 HOST-KEYWORD,openai,OpenAI
 IP-CIDR,24.199.123.28/32,OpenAI
 IP-CIDR,64.23.132.171/32,OpenAI
-IP-ASN,14061,OpenAI
 IP-ASN,20473,OpenAI

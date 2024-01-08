@@ -12,7 +12,7 @@ Scaleflex规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-12-14 16:57:24
+最后更新时间：2024-01-08 16:01:11
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -61,7 +61,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《Scaleflex》的数据来自以下链接，如与本项目的《Scaleflex》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Scaleflex.list
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Scaleflex.yaml
 - https://rules.kr328.app/scaleflex.yaml
 
 

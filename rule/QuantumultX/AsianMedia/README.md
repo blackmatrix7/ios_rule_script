@@ -12,7 +12,7 @@ AsianMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-12-14 16:55:52
+最后更新时间：2024-01-08 15:59:58
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -64,8 +64,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《AsianMedia》的数据来自以下链接，如与本项目的《AsianMedia》规则混合使用，可能会造成规则大量重复。
 
+- https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/AsianMedia.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AsianMedia/AsianMedia.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

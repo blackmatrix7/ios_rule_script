@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) ![](https://shields.io/badge/-QuantumultX定制化规则-7cd1e3) 
 
 YouTubeMusic规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,7 +12,7 @@ YouTubeMusic规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-12-16 02:11:36
+最后更新时间：2024-01-08 15:57:04
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -63,6 +63,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Music/YouTube-Music.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTubeMusic.list
+- https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/YouTubeMusic.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTubeMusic.yaml
 - https://ruleset.isagood.day/youtube_music.conf
 

@@ -12,7 +12,7 @@ Steam规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-12-14 16:52:30
+最后更新时间：2024-01-08 15:57:02
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -73,6 +73,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml
 - https://rules.kr328.app/steam@cn.yaml
+- https://rules.kr328.app/steam.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

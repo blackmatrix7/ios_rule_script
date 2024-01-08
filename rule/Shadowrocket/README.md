@@ -183,7 +183,7 @@
 |🗄️Microsoft|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Teams) |[MicrosoftEdge](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/MicrosoftEdge) ||||
-|[必应](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Bing) |||
+|[必应](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Bing) |[Copilot](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Copilot) |||
 
 
 |📟Google|  |  |  |  |

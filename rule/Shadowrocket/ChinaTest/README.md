@@ -12,17 +12,17 @@ ChinaTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-08 02:12:47
+最后更新时间：2024-01-08 16:00:16
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 167  | 
+| DOMAIN | 111  | 
 | DOMAIN-KEYWORD | 9  | 
-| DOMAIN-SUFFIX | 64297  | 
+| DOMAIN-SUFFIX | 64285  | 
 | IP-CIDR | 15  | 
 | USER-AGENT | 31  | 
-| TOTAL | 64519  | 
+| TOTAL | 64451  | 
 
 
 ## Shadowrocket 
@@ -83,6 +83,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list
+- https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Domestic.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/CN.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/China/China.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list

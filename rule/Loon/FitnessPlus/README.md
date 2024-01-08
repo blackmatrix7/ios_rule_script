@@ -12,7 +12,7 @@ FitnessPlus规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-12-14 16:52:33
+最后更新时间：2024-01-08 15:57:05
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -60,7 +60,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《FitnessPlus》的数据来自以下链接，如与本项目的《FitnessPlus》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/FitnessPlus.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/FitnessPlus.list
 
 

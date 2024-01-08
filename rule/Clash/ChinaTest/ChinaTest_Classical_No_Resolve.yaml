@@ -1,24 +1,22 @@
 # NAME: ChinaTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-08 02:12:45
-# DOMAIN: 167
+# UPDATED: 2024-01-08 16:00:14
+# DOMAIN: 111
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 64297
+# DOMAIN-SUFFIX: 64285
 # IP-CIDR: 11
 # IP-CIDR6: 4
-# TOTAL: 64488
+# TOTAL: 64420
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdp.cloud.unity3d.com
   - DOMAIN,client.amplifi.com
-  - DOMAIN,dl.google.com
   - DOMAIN,download.jetbrains.com
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,kc.kexinshe.com
-  - DOMAIN,mtalk.google.com
   - DOMAIN,origin-a.akamaihd.ne
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN,outlook.office365.com
@@ -29,79 +27,41 @@ payload:
   - DOMAIN,265.com
   - DOMAIN,2mdn-cn.net
   - DOMAIN,2mdn.net
-  - DOMAIN,accounts.googlers.com
   - DOMAIN,accounts.xn--9trs65b.com
   - DOMAIN,accounts.xn--ggle-55da.com
   - DOMAIN,admob-cn.com
-  - DOMAIN,adservice.google.com
   - DOMAIN,ai.ytimg.com
   - DOMAIN,app-measurement-cn.com
   - DOMAIN,app-measurement.com
   - DOMAIN,apps5.oingo.com
-  - DOMAIN,avail.googleflights.net
   - DOMAIN,beacons-handoff.gcp.gvt2.com
   - DOMAIN,beacons.gcp.gvt2.com
   - DOMAIN,beacons.gvt2.com
   - DOMAIN,beacons2.gvt2.com
   - DOMAIN,beacons3.gvt2.com
-  - DOMAIN,borgmon.adz.google.com
   - DOMAIN,c.admob.com
-  - DOMAIN,c.android.clients.google.com
-  - DOMAIN,cache-management-prod.google.com
-  - DOMAIN,cache.pack.google.com
   - DOMAIN,cdn.ampproject.org
   - DOMAIN,cdn.marketplaceimages.windowsphone.com
   - DOMAIN,clickserve.cc-dt.com
   - DOMAIN,clickserve.dartsearch.net
-  - DOMAIN,clickserver.googleads.com
   - DOMAIN,cn.widevine.com
-  - DOMAIN,cnappinstall.googleadapis.com
-  - DOMAIN,content.googleadapis.com
-  - DOMAIN,corp.google.com
   - DOMAIN,crl.pki.goog
   - DOMAIN,dartsearch-cn.net
-  - DOMAIN,dg-meta.video.google.com
   - DOMAIN,distribution.qatp1.net
   - DOMAIN,distribution.qcpp1.net
   - DOMAIN,distribution.qpdp1.net
-  - DOMAIN,dl.l.google.com
   - DOMAIN,doubleclick-cn.net
   - DOMAIN,doubleclick.net
-  - DOMAIN,download.mlcc.google.com
   - DOMAIN,download.qatp1.net
   - DOMAIN,download.qcpp1.net
   - DOMAIN,download.qpdp1.net
-  - DOMAIN,download.tensorflow.google.com
   - DOMAIN,emoi-cncdn.bing.com
-  - DOMAIN,fontfiles.googleadapis.com
-  - DOMAIN,fonts.googleadapis.com
   - DOMAIN,gcpnode.com
   - DOMAIN,global.prd.cdn.globalsign.com
   - DOMAIN,gogalaxy.gog-statics.com
   - DOMAIN,gonglchuangl.net
   - DOMAIN,gongyichuangyi.net
-  - DOMAIN,google-analytics-cn.com
-  - DOMAIN,google-analytics.com
-  - DOMAIN,googleadservices-cn.com
-  - DOMAIN,googleadservices.com
-  - DOMAIN,googleanalytics.com
-  - DOMAIN,googleapis-cn.com
-  - DOMAIN,googleapps-cn.com
-  - DOMAIN,googleflights-cn.net
-  - DOMAIN,googleoptimize-cn.com
-  - DOMAIN,googleoptimize.com
-  - DOMAIN,googleplex.com
-  - DOMAIN,googlesyndication-cn.com
-  - DOMAIN,googlesyndication.com
-  - DOMAIN,googletagmanager-cn.com
-  - DOMAIN,googletagmanager.com
-  - DOMAIN,googletagservices-cn.com
-  - DOMAIN,googletagservices.com
-  - DOMAIN,googletraveladservices-cn.com
-  - DOMAIN,googlevads-cn.com
-  - DOMAIN,goto.google.com
   - DOMAIN,gstatic-cn.com
-  - DOMAIN,gstaticadssl.l.google.com
   - DOMAIN,gtm.oasisfeng.com
   - DOMAIN,gvt1-cn.com
   - DOMAIN,gvt2-cn.com
@@ -113,8 +73,6 @@ payload:
   - DOMAIN,monitoring.qpdp1.net
   - DOMAIN,ocsp.pki.goog
   - DOMAIN,opencourse.pku.edu.cn
-  - DOMAIN,pagead-googlehosted.l.google.com
-  - DOMAIN,pki-goog.l.google.com
   - DOMAIN,play.1ucrs.com
   - DOMAIN,prod-controlbe.floonet.goog
   - DOMAIN,prod-databe.floonet.goog
@@ -126,7 +84,6 @@ payload:
   - DOMAIN,qgadmin.qatp1.net
   - DOMAIN,qgadmin.qcpp1.net
   - DOMAIN,qgadmin.qpdp1.net
-  - DOMAIN,qpx.googleflights.net
   - DOMAIN,qualysapi.qatp1.net
   - DOMAIN,qualysapi.qcpp1.net
   - DOMAIN,qualysapi.qpdp1.net
@@ -135,12 +92,6 @@ payload:
   - DOMAIN,qualysguard.qpdp1.net
   - DOMAIN,recaptcha.net
   - DOMAIN,redirector.bdn.dev
-  - DOMAIN,redirector.c.chat.google.com
-  - DOMAIN,redirector.c.docs.google.com
-  - DOMAIN,redirector.c.drive.google.com
-  - DOMAIN,redirector.c.mail.google.com
-  - DOMAIN,redirector.c.pack.google.com
-  - DOMAIN,redirector.c.play.google.com
   - DOMAIN,redirector.c.youtubeeducation.com
   - DOMAIN,redirector.gcpcdn.gvt1.com
   - DOMAIN,redirector.gvt1.com
@@ -153,7 +104,6 @@ payload:
   - DOMAIN,service.urchin.com
   - DOMAIN,settings.xn--9trs65b.com
   - DOMAIN,ss.bjmu.edu.cn
-  - DOMAIN,ssl-google-analytics.l.google.com
   - DOMAIN,staging-controlbe.floonet.goog
   - DOMAIN,staging-databe.floonet.goog
   - DOMAIN,staging.databe.floonet.goog
@@ -161,16 +111,10 @@ payload:
   - DOMAIN,support.1ucrs.com
   - DOMAIN,test.bugs-qa.chromium.org
   - DOMAIN,test.gbugs-qa.chromium.org
-  - DOMAIN,tools.google.com
-  - DOMAIN,tools.l.google.com
   - DOMAIN,up.corp.goog
-  - DOMAIN,up.gcp.googlers.com
   - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
-  - DOMAIN,www-google-analytics.l.google.com
-  - DOMAIN,www-googletagmanager.l.google.com
   - DOMAIN,www.destinationurl.com
-  - DOMAIN,www.googleadapis.com
   - DOMAIN,www.pxcc.com
   - DOMAIN,www.recaptcha.net
   - DOMAIN,www4-static.gog-statics.com
@@ -1595,7 +1539,6 @@ payload:
   - DOMAIN-SUFFIX,gongyi.xin
   - DOMAIN-SUFFIX,goodread.com
   - DOMAIN-SUFFIX,goofish.com
-  - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN-SUFFIX,goosail.com
   - DOMAIN-SUFFIX,goproxy.io
   - DOMAIN-SUFFIX,goselling.com
@@ -4102,7 +4045,6 @@ payload:
   - DOMAIN-SUFFIX,0523zp.com
   - DOMAIN-SUFFIX,0523zz.com
   - DOMAIN-SUFFIX,05273.com
-  - DOMAIN-SUFFIX,0527ys.com
   - DOMAIN-SUFFIX,0527zz.com
   - DOMAIN-SUFFIX,052yx.com
   - DOMAIN-SUFFIX,0531.com
@@ -5968,7 +5910,6 @@ payload:
   - DOMAIN-SUFFIX,2g88.vip
   - DOMAIN-SUFFIX,2gdt.com
   - DOMAIN-SUFFIX,2gei.com
-  - DOMAIN-SUFFIX,2google.com
   - DOMAIN-SUFFIX,2haohr.com
   - DOMAIN-SUFFIX,2heng.xin
   - DOMAIN-SUFFIX,2hua.com
@@ -7222,7 +7163,6 @@ payload:
   - DOMAIN-SUFFIX,51golife.com
   - DOMAIN-SUFFIX,51gongxiao.com
   - DOMAIN-SUFFIX,51goods.vip
-  - DOMAIN-SUFFIX,51google.com
   - DOMAIN-SUFFIX,51gouke.com
   - DOMAIN-SUFFIX,51gowan.com
   - DOMAIN-SUFFIX,51gran.com
@@ -7310,7 +7250,6 @@ payload:
   - DOMAIN-SUFFIX,51lifes.com
   - DOMAIN-SUFFIX,51lingji.com
   - DOMAIN-SUFFIX,51liucheng.com
-  - DOMAIN-SUFFIX,51ljms.com
   - DOMAIN-SUFFIX,51lucy.com
   - DOMAIN-SUFFIX,51lunwenwang.com
   - DOMAIN-SUFFIX,51luying.com
@@ -17943,6 +17882,7 @@ payload:
   - DOMAIN-SUFFIX,cnbanbao.com
   - DOMAIN-SUFFIX,cnbaowen.net
   - DOMAIN-SUFFIX,cnbct.org
+  - DOMAIN-SUFFIX,cnbeta.com.tw
   - DOMAIN-SUFFIX,cnbidding.com
   - DOMAIN-SUFFIX,cnbigcloud.com
   - DOMAIN-SUFFIX,cnbiocell.com
@@ -21624,7 +21564,6 @@ payload:
   - DOMAIN-SUFFIX,duduyu.net
   - DOMAIN-SUFFIX,duelcn.com
   - DOMAIN-SUFFIX,dugen.com
-  - DOMAIN-SUFFIX,dugoogle.com
   - DOMAIN-SUFFIX,duguying.net
   - DOMAIN-SUFFIX,duhao.net
   - DOMAIN-SUFFIX,dui1dui.com
@@ -26016,11 +25955,6 @@ payload:
   - DOMAIN-SUFFIX,goodtea.cc
   - DOMAIN-SUFFIX,goodtp.com
   - DOMAIN-SUFFIX,goodzuji.com
-  - DOMAIN-SUFFIX,googlebridge.com
-  - DOMAIN-SUFFIX,googlenav.com
-  - DOMAIN-SUFFIX,googlevip8.com
-  - DOMAIN-SUFFIX,googlevoice.org
-  - DOMAIN-SUFFIX,googleyixia.com
   - DOMAIN-SUFFIX,googvv.com
   - DOMAIN-SUFFIX,goolink.org
   - DOMAIN-SUFFIX,gooo8.com
@@ -31261,7 +31195,6 @@ payload:
   - DOMAIN-SUFFIX,imagetotxt.com
   - DOMAIN-SUFFIX,imaginde.com
   - DOMAIN-SUFFIX,imagineadtech.com
-  - DOMAIN-SUFFIX,imags-google.com
   - DOMAIN-SUFFIX,imahui.com
   - DOMAIN-SUFFIX,imaibo.net
   - DOMAIN-SUFFIX,imaijia.com
@@ -35402,7 +35335,6 @@ payload:
   - DOMAIN-SUFFIX,kotex-km.com
   - DOMAIN-SUFFIX,koto.com
   - DOMAIN-SUFFIX,kotoo.com
-  - DOMAIN-SUFFIX,koubeiblog.com
   - DOMAIN-SUFFIX,koubeikc.com
   - DOMAIN-SUFFIX,koucai365.com
   - DOMAIN-SUFFIX,koudaigou.net
@@ -35854,6 +35786,7 @@ payload:
   - DOMAIN-SUFFIX,kye-erp.com
   - DOMAIN-SUFFIX,kyemall.com
   - DOMAIN-SUFFIX,kygf1.com
+  - DOMAIN-SUFFIX,kygf3.com
   - DOMAIN-SUFFIX,kyhtech.com
   - DOMAIN-SUFFIX,kyjxy.com
   - DOMAIN-SUFFIX,kylc.com
@@ -36666,6 +36599,7 @@ payload:
   - DOMAIN-SUFFIX,lezi.com
   - DOMAIN-SUFFIX,lezuan.net
   - DOMAIN-SUFFIX,lezuan9.com
+  - DOMAIN-SUFFIX,lezuocai.com
   - DOMAIN-SUFFIX,lf127.net
   - DOMAIN-SUFFIX,lfan.net
   - DOMAIN-SUFFIX,lfang.com
@@ -46544,6 +46478,7 @@ payload:
   - DOMAIN-SUFFIX,sayabear.com
   - DOMAIN-SUFFIX,sayll.com
   - DOMAIN-SUFFIX,sayloving.com
+  - DOMAIN-SUFFIX,sayodevice.com
   - DOMAIN-SUFFIX,saywash.com
   - DOMAIN-SUFFIX,sbanzu.com
   - DOMAIN-SUFFIX,sbc-mcc.com
@@ -47243,7 +47178,6 @@ payload:
   - DOMAIN-SUFFIX,shandongsannong.com
   - DOMAIN-SUFFIX,shandongyunpin.com
   - DOMAIN-SUFFIX,shandw.com
-  - DOMAIN-SUFFIX,shane-nanyang.com
   - DOMAIN-SUFFIX,shang-chain.com
   - DOMAIN-SUFFIX,shang-ma.com
   - DOMAIN-SUFFIX,shang0898.com
@@ -51184,7 +51118,6 @@ payload:
   - DOMAIN-SUFFIX,th.app
   - DOMAIN-SUFFIX,th38.com
   - DOMAIN-SUFFIX,thamco.com
-  - DOMAIN-SUFFIX,thanhong.me
   - DOMAIN-SUFFIX,thankbabe.com
   - DOMAIN-SUFFIX,thatinterpreter.net
   - DOMAIN-SUFFIX,thatsmags.com
@@ -60425,7 +60358,6 @@ payload:
   - DOMAIN-SUFFIX,ymd88.com
   - DOMAIN-SUFFIX,ymexf.com
   - DOMAIN-SUFFIX,ymfile.com
-  - DOMAIN-SUFFIX,ymgmno.com
   - DOMAIN-SUFFIX,ymhudong.com
   - DOMAIN-SUFFIX,ymiot.net
   - DOMAIN-SUFFIX,ymkuzhan.com

@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-12-16 02:11:33
+最后更新时间：2024-01-08 15:57:00
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -68,6 +68,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
+- https://ruleset.isagood.day/openaireject.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

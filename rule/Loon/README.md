@@ -183,7 +183,7 @@
 |🗄️Microsoft|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Teams) |[MicrosoftEdge](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/MicrosoftEdge) ||||
-|[必应](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bing) |||
+|[必应](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bing) |[Copilot](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Copilot) |||
 
 
 |📟Google|  |  |  |  |

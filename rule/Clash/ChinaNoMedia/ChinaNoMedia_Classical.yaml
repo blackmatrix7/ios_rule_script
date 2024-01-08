@@ -1,25 +1,23 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-14 16:57:52
-# DOMAIN: 19
+# UPDATED: 2024-01-08 16:01:33
+# DOMAIN: 17
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3588
+# DOMAIN-SUFFIX: 3587
 # IP-CIDR: 11
 # IP-CIDR6: 4
-# TOTAL: 3631
+# TOTAL: 3628
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
   - DOMAIN,cdp.cloud.unity3d.com
   - DOMAIN,client.amplifi.com
-  - DOMAIN,dl.google.com
   - DOMAIN,download.jetbrains.com
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,kc.kexinshe.com
-  - DOMAIN,mtalk.google.com
   - DOMAIN,origin-a.akamaihd.ne
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN,outlook.office365.com
@@ -1430,7 +1428,6 @@ payload:
   - DOMAIN-SUFFIX,gongyi.xin
   - DOMAIN-SUFFIX,goodread.com
   - DOMAIN-SUFFIX,goofish.com
-  - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN-SUFFIX,goosail.com
   - DOMAIN-SUFFIX,goproxy.io
   - DOMAIN-SUFFIX,goselling.com

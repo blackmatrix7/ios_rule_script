@@ -15,17 +15,17 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-08 02:08:32
+最后更新时间：2024-01-08 15:55:42
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 16268  | 
+| DOMAIN | 18099  | 
 | DOMAIN-KEYWORD | 115  | 
-| DOMAIN-SUFFIX | 98066  | 
+| DOMAIN-SUFFIX | 98182  | 
 | IP-CIDR | 428  | 
 | URL-REGEX | 285  | 
-| TOTAL | 115162  | 
+| TOTAL | 117109  | 
 
 
 ## Shadowrocket 
@@ -92,11 +92,12 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list
-- https://raw.githubusercontent.com/scomper/surge-list/master/reject.list
-- https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list
-- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
+- https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Liby.txt
+- https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Tide.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/connershua/Quantumult/X/Filter/Advertising.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+- https://raw.githubusercontent.com/787a68/Rules/master/Surge4/Ruleset/Tide.list
 - https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/ad-domains.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/video-ad.list
@@ -110,9 +111,12 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
+- https://ruleset.isagood.day/openaireject.conf
 - https://ruleset.isagood.day/reject.conf
+- https://ruleset.isagood.day/reject_domain.conf
 - https://ruleset.isagood.day/reject_domain1.conf
 - https://ruleset.isagood.day/reject_drop.conf
+- https://ruleset.isagood.day/reject_tinygif.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

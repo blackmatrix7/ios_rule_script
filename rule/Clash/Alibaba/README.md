@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-12-14 16:56:51
+最后更新时间：2024-01-08 16:00:44
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -99,7 +99,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/alibaba-ads@ads.yaml
 - https://rules.kr328.app/alibaba@ads.yaml
 - https://rules.kr328.app/alibaba.yaml
-- https://rules.kr328.app/alibaba-ads.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Alibaba.yaml
 - https://ruleset.isagood.day/alibaba.conf
 - https://ruleset.isagood.day/alibaba_domain.conf

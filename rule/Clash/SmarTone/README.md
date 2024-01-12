@@ -12,7 +12,7 @@ SmarTone规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-08 16:01:04
+最后更新时间：2024-01-13 03:02:49
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -25,9 +25,11 @@ SmarTone规则由《RULE GENERATOR 规则生成器》自动生成。
 
 #### 使用说明
 - SmarTone.yaml，请使用 behavior: "classical"。
+- SmarTone_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - SmarTone.yaml 单独使用。
+- SmarTone_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

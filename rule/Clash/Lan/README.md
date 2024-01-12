@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-08 16:00:03
+最后更新时间：2024-01-13 03:01:46
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -28,9 +28,11 @@
 
 #### 使用说明
 - Lan.yaml，请使用 behavior: "classical"。
+- Lan_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - Lan.yaml 单独使用。
+- Lan_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

@@ -12,30 +12,31 @@ ChinaTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-12 03:02:03
+最后更新时间：2024-01-13 03:01:57
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 111  | 
 | DOMAIN-KEYWORD | 9  | 
-| DOMAIN-SUFFIX | 64558  | 
+| DOMAIN-SUFFIX | 64554  | 
 | IP-CIDR | 11  | 
 | IP-CIDR6 | 4  | 
-| TOTAL | 64693  | 
+| TOTAL | 64689  | 
 
 
 ## Clash 
 
 #### 使用说明
 - ChinaTest.yaml，请使用 behavior: "classical"。
+- ChinaTest_Resolve.yaml，请使用 behavior: "classical"。
 - ChinaTest_Classical.yaml，请使用 behavior: "classical"。
 - ChinaTest_Domain.yaml，请使用 behavior: "domain"。
 
 #### 配置建议
-- ChinaTest_Domain.yaml 单独使用。
 - ChinaTest_Classical.yaml 单独使用。
 - ChinaTest.yaml、ChinaTest_Domain.yaml 共同使用。
+- ChinaTest_Resolve.yaml、ChinaTest_Domain.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

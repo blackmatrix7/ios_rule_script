@@ -21,24 +21,25 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-12 03:03:22
+最后更新时间：2024-01-13 03:03:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 548  | 
 | DOMAIN-KEYWORD | 14  | 
-| DOMAIN-SUFFIX | 67013  | 
+| DOMAIN-SUFFIX | 67010  | 
 | IP-CIDR | 6979  | 
-| IP-CIDR6 | 3453  | 
+| IP-CIDR6 | 3452  | 
 | PROCESS-NAME | 14  | 
-| TOTAL | 78021  | 
+| TOTAL | 78017  | 
 
 
 ## Clash 
 
 #### 使用说明
 - ChinaMax.yaml，请使用 behavior: "classical"。
+- ChinaMax_Resolve.yaml，请使用 behavior: "classical"。
 - ChinaMax_Classical.yaml，请使用 behavior: "classical"。
 - ChinaMax_Classical_No_IPv6.yaml，请使用 behavior: "classical"。
 - ChinaMax_Domain.yaml，请使用 behavior: "domain"。

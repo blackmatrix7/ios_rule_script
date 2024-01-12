@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-08 16:00:50
+最后更新时间：2024-01-13 03:02:35
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -25,9 +25,11 @@
 
 #### 使用说明
 - JingDong.yaml，请使用 behavior: "classical"。
+- JingDong_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - JingDong.yaml 单独使用。
+- JingDong_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

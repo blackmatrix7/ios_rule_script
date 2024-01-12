@@ -15,7 +15,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-08 15:55:00
+最后更新时间：2024-01-13 02:56:24
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -31,13 +31,14 @@
 
 #### 使用说明
 - AdvertisingLite.yaml，请使用 behavior: "classical"。
+- AdvertisingLite_Resolve.yaml，请使用 behavior: "classical"。
 - AdvertisingLite_Classical.yaml，请使用 behavior: "classical"。
 - AdvertisingLite_Domain.yaml，请使用 behavior: "domain"。
 
 #### 配置建议
-- AdvertisingLite_Domain.yaml 单独使用。
 - AdvertisingLite_Classical.yaml 单独使用。
 - AdvertisingLite.yaml、AdvertisingLite_Domain.yaml 共同使用。
+- AdvertisingLite_Resolve.yaml、AdvertisingLite_Domain.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

@@ -12,7 +12,7 @@ iCloud规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-08 15:57:05
+最后更新时间：2024-01-13 02:58:39
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -26,9 +26,11 @@ iCloud规则由《RULE GENERATOR 规则生成器》自动生成。
 
 #### 使用说明
 - iCloud.yaml，请使用 behavior: "classical"。
+- iCloud_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - iCloud.yaml 单独使用。
+- iCloud_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

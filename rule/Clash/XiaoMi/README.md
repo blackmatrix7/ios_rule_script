@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-09 02:15:46
+最后更新时间：2024-01-13 03:01:47
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -27,9 +27,11 @@
 
 #### 使用说明
 - XiaoMi.yaml，请使用 behavior: "classical"。
+- XiaoMi_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - XiaoMi.yaml 单独使用。
+- XiaoMi_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

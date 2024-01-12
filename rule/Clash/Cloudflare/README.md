@@ -12,7 +12,7 @@ Cloudflare规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-11 03:01:45
+最后更新时间：2024-01-13 03:01:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -27,9 +27,11 @@ Cloudflare规则由《RULE GENERATOR 规则生成器》自动生成。
 
 #### 使用说明
 - Cloudflare.yaml，请使用 behavior: "classical"。
+- Cloudflare_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - Cloudflare.yaml 单独使用。
+- Cloudflare_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

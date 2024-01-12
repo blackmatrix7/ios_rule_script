@@ -15,29 +15,30 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-12 02:57:00
+最后更新时间：2024-01-13 02:57:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 18098  | 
 | DOMAIN-KEYWORD | 115  | 
-| DOMAIN-SUFFIX | 98334  | 
+| DOMAIN-SUFFIX | 98410  | 
 | IP-CIDR | 428  | 
-| TOTAL | 116975  | 
+| TOTAL | 117051  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Advertising.yaml，请使用 behavior: "classical"。
+- Advertising_Resolve.yaml，请使用 behavior: "classical"。
 - Advertising_Classical.yaml，请使用 behavior: "classical"。
 - Advertising_Domain.yaml，请使用 behavior: "domain"。
 
 #### 配置建议
-- Advertising_Domain.yaml 单独使用。
 - Advertising_Classical.yaml 单独使用。
 - Advertising.yaml、Advertising_Domain.yaml 共同使用。
+- Advertising_Resolve.yaml、Advertising_Domain.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -130,12 +131,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
-- https://ruleset.isagood.day/openaireject.conf
-- https://ruleset.isagood.day/reject.conf
-- https://ruleset.isagood.day/reject_domain.conf
-- https://ruleset.isagood.day/reject_domain1.conf
-- https://ruleset.isagood.day/reject_drop.conf
-- https://ruleset.isagood.day/reject_tinygif.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

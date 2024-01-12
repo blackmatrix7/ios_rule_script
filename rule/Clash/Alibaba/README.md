@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-08 16:00:44
+最后更新时间：2024-01-13 03:02:29
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -28,13 +28,14 @@
 
 #### 使用说明
 - Alibaba.yaml，请使用 behavior: "classical"。
+- Alibaba_Resolve.yaml，请使用 behavior: "classical"。
 - Alibaba_Classical.yaml，请使用 behavior: "classical"。
 - Alibaba_Domain.yaml，请使用 behavior: "domain"。
 
 #### 配置建议
-- Alibaba_Domain.yaml 单独使用。
 - Alibaba_Classical.yaml 单独使用。
 - Alibaba.yaml、Alibaba_Domain.yaml 共同使用。
+- Alibaba_Resolve.yaml、Alibaba_Domain.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

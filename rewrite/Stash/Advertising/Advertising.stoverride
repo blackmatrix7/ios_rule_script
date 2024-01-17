@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-01-08 16:03:07
+desc: 最后更新时间 2024-01-18 03:09:34
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 729
-# mitm: 687
+# reject: 730
+# mitm: 688
 # force-http-engine-hosts: 6
-# total: 1422
+# total: 1424
 
 
 
@@ -175,6 +175,7 @@ http:
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show - reject
     - ^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads - reject
+    - ^https?:\/\/ad\.lofter\.com\/.*yitou\/madr - reject
     - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$ - reject
     - ^https?:\/\/adapi\.izuiyou\.com\/ - reject
     - ^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend - reject
@@ -835,6 +836,7 @@ http:
     - "act.vip.iqiyi.com"
     - "activity2.api.ofo.com"
     - "ad.12306.cn"
+    - "ad.lofter.com"
     - "ad.maoyan.com"
     - "ad.mcloud.139.com"
     - "ad.xiaotucc.com"

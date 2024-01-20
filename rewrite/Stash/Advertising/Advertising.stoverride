@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-01-20 03:06:13
+desc: 最后更新时间 2024-01-21 03:07:35
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 730
-# mitm: 688
+# reject: 731
+# mitm: 689
 # force-http-engine-hosts: 6
-# total: 1424
+# total: 1426
 
 
 
@@ -425,6 +425,7 @@ http:
     - ^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/app-start - reject
     - ^https?:\/\/gongdu\.youshu\.cc\/m\/open_screen\/list_by_udid - reject
     - ^https?:\/\/guanyu\.longfor\.com\/app-server\/api\/v1\/main\/start - reject
+    - ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/ - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passengerController\/notk\/passenger\/recommendADs - reject
@@ -1101,6 +1102,7 @@ http:
     - "god.gameyw.netease.com"
     - "gongdu.youshu.cc"
     - "guanyu.longfor.com"
+    - "guide-acs.m.taobao.com"
     - "gw-passenger-wap.01zhuanche.com"
     - "gw-passenger.01zhuanche.com"
     - "gw.aihuishou.com"

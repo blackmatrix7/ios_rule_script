@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-01-20 03:06:21
+desc: 最后更新时间 2024-01-22 03:03:11
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 694
-# mitm: 733
+# reject: 695
+# mitm: 734
 # force-http-engine-hosts: 6
-# total: 1472
+# total: 1474
 
 
 
@@ -311,6 +311,7 @@ http:
     - ^https?:\/\/asp\.cntv\.myalicdn\.com\/.+?\?maxbr=850 - reject
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/adpub\/ - reject
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image - reject
+    - ^https?:\/\/axxd\.xmseeyouyima\.com\/v\d\/getad - reject
     - ^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ - reject
     - ^https?:\/\/b\.appsimg\.com\/upload\/momin\/ - reject
     - ^https?:\/\/bbs-api\.miyoushe\.com\/apihub\/api\/getAppSplash - reject
@@ -1149,6 +1150,7 @@ http:
     - "appwk.baidu.com"
     - "asp.cntv.myalicdn.com"
     - "awg.enmonster.com"
+    - "axxd.xmseeyouyima.com"
     - "b-api.ins.miaopai.com"
     - "b.appsimg.com"
     - "b.zhuishushenqi.com"

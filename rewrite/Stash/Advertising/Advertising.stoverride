@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-01-21 03:07:35
+desc: 最后更新时间 2024-01-23 03:08:18
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 731
-# mitm: 689
+# mitm: 687
 # force-http-engine-hosts: 6
-# total: 1426
+# total: 1424
 
 
 
@@ -321,6 +321,7 @@ http:
     - ^https?:\/\/asp\.cntv\.myalicdn\.com\/.+?\?maxbr=850 - reject
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/adpub\/ - reject
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image - reject
+    - ^https?:\/\/axxd\.xmseeyouyima\.com\/v\d\/getad - reject
     - ^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ - reject
     - ^https?:\/\/b\.appsimg\.com\/upload\/momin\/ - reject
     - ^https?:\/\/bbs-api\.miyoushe\.com\/apihub\/api\/getAppSplash - reject
@@ -425,7 +426,6 @@ http:
     - ^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/app-start - reject
     - ^https?:\/\/gongdu\.youshu\.cc\/m\/open_screen\/list_by_udid - reject
     - ^https?:\/\/guanyu\.longfor\.com\/app-server\/api\/v1\/main\/start - reject
-    - ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/ - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passengerController\/notk\/passenger\/recommendADs - reject
@@ -789,6 +789,7 @@ http:
     - "*.tipatipa.xyz"
     - "*.tslt.xyz"
     - "*.tv.sohu.com"
+    - "*.umetrip.com"
     - "*.uve.weibo.com"
     - "*.v2ex.com"
     - "*.weibo.cn"
@@ -986,6 +987,7 @@ http:
     - "asewlfjqwlflkew.com"
     - "asp.cntv.myalicdn.com"
     - "awg.enmonster.com"
+    - "axxd.xmseeyouyima.com"
     - "b-api.ins.miaopai.com"
     - "b.appsimg.com"
     - "b.zhuishushenqi.com"
@@ -1047,7 +1049,6 @@ http:
     - "data-collector.soulapp.cn"
     - "dict-mobile.iciba.com"
     - "dili.bdatu.com"
-    - "discardrp.umetrip.com"
     - "dispatcher.camera360.com"
     - "djcapp.game.qq.com"
     - "dl-cu-hz.lechange.cn"
@@ -1102,7 +1103,6 @@ http:
     - "god.gameyw.netease.com"
     - "gongdu.youshu.cc"
     - "guanyu.longfor.com"
-    - "guide-acs.m.taobao.com"
     - "gw-passenger-wap.01zhuanche.com"
     - "gw-passenger.01zhuanche.com"
     - "gw.aihuishou.com"
@@ -1142,7 +1142,6 @@ http:
     - "img.jiemian.com"
     - "img.meituan.net"
     - "img.rr.tv"
-    - "img.umetrip.com"
     - "img2.autoimg.cn"
     - "interface*.music.163.com"
     - "intl.iqiyi.com"
@@ -1331,7 +1330,6 @@ http:
     - "ssl.kohsocialapp.qq.com"
     - "sso.ifanr.com"
     - "ssp.dzh.com.cn"
-    - "startup.umetrip.com"
     - "static.vuevideo.net"
     - "static1.keepcdn.com"
     - "status.boohee.com"

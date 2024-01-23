@@ -1,10 +1,10 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-08 15:59:55
-# DOMAIN: 29
+# UPDATED: 2024-01-24 03:04:13
+# DOMAIN: 28
 # DOMAIN-KEYWORD: 25
-# DOMAIN-SUFFIX: 1252
+# DOMAIN-SUFFIX: 1253
 # IP-CIDR: 918
 # IP-CIDR6: 6
 # PROCESS-NAME: 3
@@ -36,7 +36,6 @@ payload:
   - 'news-edge.apple.com'
   - 'news-events.apple.com'
   - 'ocvideo.apple.com'
-  - 'p.bstarstatic.com'
   - 'rpg.pic-imges.com'
   - 'rthklive2-lh.akamaihd.net'
   - '+.112263.com'
@@ -133,6 +132,7 @@ payload:
   - '+.boxun.com'
   - '+.bravotv.com'
   - '+.braze.com'
+  - '+.bstarstatic.com'
   - '+.bucketeer.jp'
   - '+.byspotify.com'
   - '+.byteoversea.com'

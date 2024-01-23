@@ -1,15 +1,15 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-21 03:02:53
-# HOST: 29
+# UPDATED: 2024-01-24 03:04:12
+# HOST: 28
 # HOST-KEYWORD: 25
-# HOST-SUFFIX: 1252
+# HOST-SUFFIX: 1253
 # HOST-WILDCARD: 10
 # IP-CIDR: 918
 # IP6-CIDR: 6
-# USER-AGENT: 62
-# TOTAL: 2302
+# USER-AGENT: 63
+# TOTAL: 2303
 HOST,akmcdnoversea-tw.inter.ptqy.gitv.tv,GlobalMedia
 HOST,api.okzy.tv,GlobalMedia
 HOST,apm-misaka.biliapi.net,GlobalMedia
@@ -36,7 +36,6 @@ HOST,news-client.apple.com,GlobalMedia
 HOST,news-edge.apple.com,GlobalMedia
 HOST,news-events.apple.com,GlobalMedia
 HOST,ocvideo.apple.com,GlobalMedia
-HOST,p.bstarstatic.com,GlobalMedia
 HOST,rpg.pic-imges.com,GlobalMedia
 HOST,rthklive2-lh.akamaihd.net,GlobalMedia
 HOST-SUFFIX,112263.com,GlobalMedia
@@ -133,6 +132,7 @@ HOST-SUFFIX,bowenpress.com,GlobalMedia
 HOST-SUFFIX,boxun.com,GlobalMedia
 HOST-SUFFIX,bravotv.com,GlobalMedia
 HOST-SUFFIX,braze.com,GlobalMedia
+HOST-SUFFIX,bstarstatic.com,GlobalMedia
 HOST-SUFFIX,bucketeer.jp,GlobalMedia
 HOST-SUFFIX,byspotify.com,GlobalMedia
 HOST-SUFFIX,byteoversea.com,GlobalMedia
@@ -1375,18 +1375,19 @@ USER-AGENT,Viu*,GlobalMedia
 USER-AGENT,ViuTV*,GlobalMedia
 USER-AGENT,WeMusic*,GlobalMedia
 USER-AGENT,WeTV*,GlobalMedia
+USER-AGENT,app/bstar*,GlobalMedia
 USER-AGENT,com.apple.tv*,GlobalMedia
 USER-AGENT,com.kktv*,GlobalMedia
 USER-AGENT,com.kktv.ios.kktv*,GlobalMedia
 USER-AGENT,discovery+*,GlobalMedia
 USER-AGENT,encoreTVB*,GlobalMedia
 USER-AGENT,mytv*,GlobalMedia
-USER-AGENT,*youtube*,GlobalMedia
-USER-AGENT,YouTube*,GlobalMedia
-USER-AGENT,com.google.ios.youtube*,GlobalMedia
 USER-AGENT,*YouTubeMusic*,GlobalMedia
 USER-AGENT,*com.google.ios.youtubemusic*,GlobalMedia
+USER-AGENT,*youtube*,GlobalMedia
+USER-AGENT,YouTube*,GlobalMedia
 USER-AGENT,YouTubeMusic*,GlobalMedia
+USER-AGENT,com.google.ios.youtube*,GlobalMedia
 USER-AGENT,com.google.ios.youtubemusic*,GlobalMedia
 IP-CIDR,1.201.0.0/24,GlobalMedia
 IP-CIDR,1.37.35.6/32,GlobalMedia

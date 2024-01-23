@@ -12,17 +12,17 @@ ChinaMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-09 02:16:38
+最后更新时间：2024-01-24 03:05:22
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 71  | 
 | DOMAIN-KEYWORD | 2  | 
-| DOMAIN-SUFFIX | 235  | 
+| DOMAIN-SUFFIX | 236  | 
 | IP-CIDR | 79  | 
 | USER-AGENT | 35  | 
-| TOTAL | 422  | 
+| TOTAL | 423  | 
 
 
 ## Shadowrocket 

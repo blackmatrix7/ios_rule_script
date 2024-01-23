@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2024-01-23 03:10:14
+#!desc=最后更新时间 2024-01-24 03:11:40
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!domain=5
@@ -7,10 +7,10 @@
 #!http-request-script=1
 #!http-response-script=25
 #!redirect=62
-#!reject=748
+#!reject=749
 #!mitm=821
 #!force-http-engine-hosts=6
-#!total=1672
+#!total=1673
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -334,6 +334,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 "^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/" - reject
 "^https?:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/(resource|banner)" - reject
 "^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads" - reject
+"^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=home_launchConfig" - reject
 "^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start" - reject
 "^https?:\/\/api\.m\.jd\.com\/openUpgrade" - reject
 "^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start" - reject

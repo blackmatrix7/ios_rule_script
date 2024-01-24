@@ -21,18 +21,18 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-08 15:59:52
+最后更新时间：2024-01-25 03:03:43
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 512  | 
 | HOST-KEYWORD | 37  | 
-| HOST-SUFFIX | 19602  | 
+| HOST-SUFFIX | 19610  | 
 | IP-CIDR | 112  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 46  | 
-| TOTAL | 20313  | 
+| TOTAL | 20321  | 
 
 
 ## QuantumultX 

@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-01-24 03:09:52
+desc: 最后更新时间 2024-01-25 03:09:17
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 696
-# mitm: 732
+# reject: 697
+# mitm: 733
 # force-http-engine-hosts: 6
-# total: 1473
+# total: 1475
 
 
 
@@ -381,6 +381,7 @@ http:
     - ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv - reject
     - ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/user\/teenager\/status - reject
     - ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService - reject
+    - ^https?:\/\/entree-ws\.igetget\.com\/oms\/front\/start\/push - reject
     - ^https?:\/\/entry\.ubixioe\.com\/mob\/sdk\/v\d\/endpoint - reject
     - ^https?:\/\/esdk\.tymcdn\.com\/dbGold\/m\/v2\/mobileLiveReveal\.do\? - reject
     - ^https?:\/\/evs\.500\.com\/esinfo\/loading\/loading - reject
@@ -1234,6 +1235,7 @@ http:
     - "edith.xiaohongshu.com"
     - "emdcadvertise.eastmoney.com"
     - "emdcadvise.eastmoney.com"
+    - "entree-ws.igetget.com"
     - "entry.ubixioe.com"
     - "esdk.tymcdn.com"
     - "evs.500.com"

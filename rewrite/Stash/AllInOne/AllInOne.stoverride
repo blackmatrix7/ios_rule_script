@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-01-25 03:09:17
+desc: 最后更新时间 2024-01-26 03:07:03
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 697
-# mitm: 733
+# reject: 698
+# mitm: 734
 # force-http-engine-hosts: 6
-# total: 1475
+# total: 1477
 
 
 
@@ -525,6 +525,7 @@ http:
     - ^https?:\/\/mob\.bz\.mgtv\.com\/odin\/c1\/channel\/ads\?_ - reject
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert - reject
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/ - reject
+    - ^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.php - reject
     - ^https?:\/\/mobi\.360doc\.com\/v\d{2}\/Ajax\/festival\.ashx\?op=getfestivaltheme - reject
     - ^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ - reject
     - ^https?:\/\/mobile\.api\.mgtv\.com\/mobile\/config\?_support - reject
@@ -1380,6 +1381,7 @@ http:
     - "mob.bz.mgtv.com"
     - "mob.mddcloud.com"
     - "mob.mddcloud.com.cn"
+    - "mobads.baidu.com"
     - "mobi.360doc.com"
     - "mobile-api.imlaidian.com"
     - "mobile-api2011.elong.com"

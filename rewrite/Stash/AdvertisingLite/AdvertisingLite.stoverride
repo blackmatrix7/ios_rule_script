@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-01-24 03:13:25
+desc: 最后更新时间 2024-01-26 03:10:33
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 549
-# mitm: 455
+# reject: 551
+# mitm: 457
 # force-http-engine-hosts: 6
-# total: 1010
+# total: 1014
 
 
 
@@ -268,6 +268,7 @@ http:
     - ^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ - reject
     - ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv - reject
     - ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService - reject
+    - ^https?:\/\/entree-ws\.igetget\.com\/oms\/front\/start\/push - reject
     - ^https?:\/\/entry\.ubixioe\.com\/mob\/sdk\/v\d\/endpoint - reject
     - ^https?:\/\/esdk\.tymcdn\.com\/dbGold\/m\/v2\/mobileLiveReveal\.do\? - reject
     - ^https?:\/\/evs\.500\.com\/esinfo\/loading\/loading - reject
@@ -394,6 +395,7 @@ http:
     - ^https?:\/\/mm\.app\.joox\.com\/retrieval\/getAd - reject
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert - reject
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/ - reject
+    - ^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.php - reject
     - ^https?:\/\/mobi\.360doc\.com\/v\d{2}\/Ajax\/festival\.ashx\?op=getfestivaltheme - reject
     - ^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ - reject
     - ^https?:\/\/mobileapi-v6\.elong\.com\/adgateway\/ - reject
@@ -773,6 +775,7 @@ http:
     - "easyreadfs.nosdn.127.net"
     - "edit.sinaapp.com"
     - "emdcadvertise.eastmoney.com"
+    - "entree-ws.igetget.com"
     - "entry.ubixioe.com"
     - "esdk.tymcdn.com"
     - "evs.500.com"
@@ -877,6 +880,7 @@ http:
     - "mlol.qt.qq.com"
     - "mm.app.joox.com"
     - "mob.mddcloud.com.cn"
+    - "mobads.baidu.com"
     - "mobi.360doc.com"
     - "mobile-pic.cache.iciba.com"
     - "mobile.laichon.com"

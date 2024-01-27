@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-01-26 03:10:33
+desc: 最后更新时间 2024-01-28 03:11:14
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 551
-# mitm: 457
+# reject: 552
+# mitm: 458
 # force-http-engine-hosts: 6
-# total: 1014
+# total: 1016
 
 
 
@@ -451,6 +451,7 @@ http:
     - ^https?:\/\/pipi\.4kya\.com\/\/xgapp\.php\/v3\/advert\.position=[^2]+ - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
+    - ^https?:\/\/promotion\.medlive\.cn\/getcover-v2\?app_name=medlive - reject
     - ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
     - ^https?:\/\/pzoap\.moedot\.net\/xgapp\.php\/v2\/top_notice - reject
     - ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
@@ -924,6 +925,7 @@ http:
     - "pic1cdn.cmbchina.com"
     - "pipi.4kya.com"
     - "portal-xunyou.qingcdn.com"
+    - "promotion.medlive.cn"
     - "pss.txffp.com"
     - "pzoap.moedot.net"
     - "qt.qq.com"

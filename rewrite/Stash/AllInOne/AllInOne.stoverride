@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-01-26 03:07:03
+desc: 最后更新时间 2024-01-28 03:07:42
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 698
-# mitm: 734
+# reject: 699
+# mitm: 735
 # force-http-engine-hosts: 6
-# total: 1477
+# total: 1479
 
 
 
@@ -590,6 +590,7 @@ http:
     - ^https?:\/\/pipi\.4kya\.com\/\/xgapp\.php\/v\d\/top_notice\? - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
+    - ^https?:\/\/promotion\.medlive\.cn\/getcover-v2\?app_name=medlive - reject
     - ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
     - ^https?:\/\/pzoap\.moedot\.net\/xgapp\.php\/v2\/top_notice - reject
     - ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
@@ -925,7 +926,6 @@ http:
 
   mitm:
     - "*.58cdn.com.cn"
-    - "*.ahhhhfs.com"
     - "*.bdstatic.com"
     - "*.bebi.com"
     - "*.chelaile.net.cn"
@@ -963,6 +963,7 @@ http:
     - "*.weibo.cn"
     - "*.weilai555.com"
     - "*.wtzw.com"
+    - "*.xbwpys.com"
     - "*.yuanfudao.com"
     - "*.yuxueyuan.cn"
     - "*.zhangle.com"
@@ -1444,6 +1445,7 @@ http:
     - "plt.yorentown.com"
     - "portal-xunyou.qingcdn.com"
     - "promo.xueqiu.com"
+    - "promotion.medlive.cn"
     - "pss.txffp.com"
     - "pzoap.moedot.com"
     - "pzoap.moedot.net"

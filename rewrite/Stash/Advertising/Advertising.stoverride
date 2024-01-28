@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-01-27 03:05:53
+desc: 最后更新时间 2024-01-29 03:04:53
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 734
-# mitm: 689
+# reject: 735
+# mitm: 691
 # force-http-engine-hosts: 6
-# total: 1429
+# total: 1432
 
 
 
@@ -606,6 +606,7 @@ http:
     - ^https?:\/\/pocketuni\.net\/\?app=api&mod=Message&act=ad - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
+    - ^https?:\/\/promotion\.medlive\.cn\/getcover-v2\?app_name=medlive - reject
     - ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
     - ^https?:\/\/pzoap\.moedot\.net\/xgapp\.php\/v2\/top_notice - reject
     - ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
@@ -798,6 +799,7 @@ http:
     - "*.weibo.cn"
     - "*.weilai555.com"
     - "*.wtzw.com"
+    - "*.xbwpys.com"
     - "*.xima*.*"
     - "*.xmcdn.*"
     - "*.yuanfudao.com"
@@ -1287,6 +1289,7 @@ http:
     - "pocketuni.net"
     - "portal-xunyou.qingcdn.com"
     - "promo.xueqiu.com"
+    - "promotion.medlive.cn"
     - "pss.txffp.com"
     - "pzoap.moedot.com"
     - "pzoap.moedot.net"

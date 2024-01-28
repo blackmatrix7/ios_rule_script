@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2024-01-28 03:07:42
+desc: 最后更新时间 2024-01-29 03:04:59
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
@@ -7,9 +7,9 @@ desc: 最后更新时间 2024-01-28 03:07:42
 # http-response-script: 25
 # redirect: 8
 # reject: 699
-# mitm: 735
+# mitm: 736
 # force-http-engine-hosts: 6
-# total: 1479
+# total: 1480
 
 
 
@@ -926,6 +926,7 @@ http:
 
   mitm:
     - "*.58cdn.com.cn"
+    - "*.ahhhhfs.com"
     - "*.bdstatic.com"
     - "*.bebi.com"
     - "*.chelaile.net.cn"

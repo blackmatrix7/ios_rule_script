@@ -15,15 +15,16 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-13 03:01:46
+最后更新时间：2024-01-31 03:08:05
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 33  | 
-| DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 14  | 
-| TOTAL | 48  | 
+| DOMAIN | 35  | 
+| DOMAIN-KEYWORD | 10  | 
+| DOMAIN-SUFFIX | 126  | 
+| PROCESS-NAME | 36  | 
+| TOTAL | 207  | 
 
 
 ## Clash 

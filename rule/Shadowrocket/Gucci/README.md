@@ -12,7 +12,7 @@ Gucci规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-08 16:01:00
+最后更新时间：2024-01-31 03:09:02
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -65,6 +65,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gucci.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gucci.yaml
+- https://rules.kr328.app/gucci@cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

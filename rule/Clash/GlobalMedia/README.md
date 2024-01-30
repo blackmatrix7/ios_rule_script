@@ -12,18 +12,18 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-24 03:04:13
+最后更新时间：2024-01-31 03:07:57
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 28  | 
+| DOMAIN | 33  | 
 | DOMAIN-KEYWORD | 25  | 
 | DOMAIN-SUFFIX | 1253  | 
 | IP-CIDR | 918  | 
 | IP-CIDR6 | 6  | 
-| PROCESS-NAME | 3  | 
-| TOTAL | 2233  | 
+| PROCESS-NAME | 15  | 
+| TOTAL | 2250  | 
 
 
 ## Clash 

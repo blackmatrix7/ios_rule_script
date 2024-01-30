@@ -1,17 +1,17 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-27 03:01:55
+# UPDATED: 2024-01-31 03:07:57
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
-# DOMAIN: 28
+# DOMAIN: 33
 # DOMAIN-KEYWORD: 25
 # DOMAIN-SUFFIX: 1253
 # IP-CIDR: 918
 # IP-CIDR6: 6
-# PROCESS-NAME: 3
+# PROCESS-NAME: 15
 # URL-REGEX: 1
-# USER-AGENT: 63
-# TOTAL: 2297
+# USER-AGENT: 69
+# TOTAL: 2320
 DOMAIN-SUFFIX,youtube
 DOMAIN-KEYWORD,-spotify-
 DOMAIN-KEYWORD,abematv.akamaized.net
@@ -975,12 +975,15 @@ USER-AGENT,Deezer*
 USER-AGENT,Disney*
 USER-AGENT,Disney+*
 USER-AGENT,FOX%20NOW*
+USER-AGENT,FOXNOW*
 USER-AGENT,FOXPlus*
 USER-AGENT,HBO%20GO%20PROD%20HKG*
 USER-AGENT,HBO%20GO%20PROD*
 USER-AGENT,HBO%20NOW*
 USER-AGENT,HBO*
+USER-AGENT,HBOGOPRODHKG*
 USER-AGENT,HBOMAX*
+USER-AGENT,HBONOW*
 USER-AGENT,HWTVMobile*
 USER-AGENT,Himalaya*
 USER-AGENT,Hulu*
@@ -990,9 +993,11 @@ USER-AGENT,JOOX*
 USER-AGENT,KKTV*
 USER-AGENT,LINE%20TV*
 USER-AGENT,LINE*
+USER-AGENT,LINETV*
 USER-AGENT,Max*
 USER-AGENT,My5*
 USER-AGENT,Naver%20TV*
+USER-AGENT,NaverTV*
 USER-AGENT,Niconico*
 USER-AGENT,Overcast*
 USER-AGENT,PBS*
@@ -1000,6 +1005,7 @@ USER-AGENT,PPlus*
 USER-AGENT,Pandora*
 USER-AGENT,PeacockMobile*
 USER-AGENT,Prime%20Video*
+USER-AGENT,PrimeVideo*
 USER-AGENT,SoundCloud*
 USER-AGENT,Spotify*
 USER-AGENT,TIDAL*
@@ -1018,14 +1024,26 @@ USER-AGENT,com.kktv.ios.kktv*
 USER-AGENT,discovery+*
 USER-AGENT,encoreTVB*
 USER-AGENT,mytv*
-USER-AGENT,*YouTubeMusic*
-USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,*youtube*
 USER-AGENT,YouTube*
-USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtube*
+USER-AGENT,*YouTubeMusic*
+USER-AGENT,*com.google.ios.youtubemusic*
+USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
 URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
+PROCESS-NAME,com.amazon.avod.thirdpartyclient
+PROCESS-NAME,com.bstar.intl
+PROCESS-NAME,com.hktve.viutv
+PROCESS-NAME,com.hulu.plus
+PROCESS-NAME,com.linecorp.linetv
+PROCESS-NAME,com.netflix.mediaclient
+PROCESS-NAME,com.tencent.ibg.joox
+PROCESS-NAME,com.twgood.android
 PROCESS-NAME,com.viu.pad
 PROCESS-NAME,com.viu.phone
 PROCESS-NAME,com.vuclip.viu
+PROCESS-NAME,com.wbd.stream
+PROCESS-NAME,music
+PROCESS-NAME,tv
+PROCESS-NAME,tv.twitch.android.app

@@ -12,7 +12,7 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-13 02:58:40
+最后更新时间：2024-01-31 03:03:15
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -21,8 +21,8 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 | DOMAIN-KEYWORD | 7  | 
 | DOMAIN-SUFFIX | 1549  | 
 | IP-CIDR | 10  | 
-| PROCESS-NAME | 7  | 
-| TOTAL | 1582  | 
+| PROCESS-NAME | 16  | 
+| TOTAL | 1591  | 
 
 
 ## Clash 

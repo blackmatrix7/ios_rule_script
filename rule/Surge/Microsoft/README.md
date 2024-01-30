@@ -12,7 +12,7 @@ Microsoft规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-09 02:11:31
+最后更新时间：2024-01-31 03:03:13
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -86,6 +86,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Microsoft.list
+- https://rules.kr328.app/microsoft.yaml
 - https://rules.kr328.app/onedrive.yaml
 - https://rules.kr328.app/microsoft@cn.yaml
 

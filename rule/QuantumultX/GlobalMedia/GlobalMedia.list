@@ -1,15 +1,15 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-27 03:01:55
-# HOST: 28
+# UPDATED: 2024-01-31 03:07:57
+# HOST: 33
 # HOST-KEYWORD: 25
 # HOST-SUFFIX: 1253
 # HOST-WILDCARD: 10
 # IP-CIDR: 918
 # IP6-CIDR: 6
-# USER-AGENT: 63
-# TOTAL: 2303
+# USER-AGENT: 69
+# TOTAL: 2314
 HOST,akmcdnoversea-tw.inter.ptqy.gitv.tv,GlobalMedia
 HOST,api.okzy.tv,GlobalMedia
 HOST,apm-misaka.biliapi.net,GlobalMedia
@@ -27,6 +27,8 @@ HOST,gspe1-ssl.ls.apple.com,GlobalMedia
 HOST,h-dazn.online-metrix.net,GlobalMedia
 HOST,h-netflix.online-metrix.net,GlobalMedia
 HOST,hamifans.emome.net,GlobalMedia
+HOST,hls-amt.itunes.apple.com,GlobalMedia
+HOST,hls.itunes.apple.com,GlobalMedia
 HOST,hulu.com.c.footprint.net,GlobalMedia
 HOST,hulu.map.fastly.net,GlobalMedia
 HOST,images-daznservices-com.cdn.ampproject.org,GlobalMedia
@@ -35,9 +37,12 @@ HOST,ktpx.amazon.com,GlobalMedia
 HOST,news-client.apple.com,GlobalMedia
 HOST,news-edge.apple.com,GlobalMedia
 HOST,news-events.apple.com,GlobalMedia
+HOST,np-edge.itunes.apple.com,GlobalMedia
 HOST,ocvideo.apple.com,GlobalMedia
+HOST,play-edge.itunes.apple.com,GlobalMedia
 HOST,rpg.pic-imges.com,GlobalMedia
 HOST,rthklive2-lh.akamaihd.net,GlobalMedia
+HOST,uts-api.itunes.apple.com,GlobalMedia
 HOST-SUFFIX,112263.com,GlobalMedia
 HOST-SUFFIX,20thcenturystudios.com.au,GlobalMedia
 HOST-SUFFIX,20thcenturystudios.com.br,GlobalMedia
@@ -1339,12 +1344,15 @@ USER-AGENT,Deezer*,GlobalMedia
 USER-AGENT,Disney*,GlobalMedia
 USER-AGENT,Disney+*,GlobalMedia
 USER-AGENT,FOX%20NOW*,GlobalMedia
+USER-AGENT,FOXNOW*,GlobalMedia
 USER-AGENT,FOXPlus*,GlobalMedia
 USER-AGENT,HBO%20GO%20PROD%20HKG*,GlobalMedia
 USER-AGENT,HBO%20GO%20PROD*,GlobalMedia
 USER-AGENT,HBO%20NOW*,GlobalMedia
 USER-AGENT,HBO*,GlobalMedia
+USER-AGENT,HBOGOPRODHKG*,GlobalMedia
 USER-AGENT,HBOMAX*,GlobalMedia
+USER-AGENT,HBONOW*,GlobalMedia
 USER-AGENT,HWTVMobile*,GlobalMedia
 USER-AGENT,Himalaya*,GlobalMedia
 USER-AGENT,Hulu*,GlobalMedia
@@ -1354,9 +1362,11 @@ USER-AGENT,JOOX*,GlobalMedia
 USER-AGENT,KKTV*,GlobalMedia
 USER-AGENT,LINE%20TV*,GlobalMedia
 USER-AGENT,LINE*,GlobalMedia
+USER-AGENT,LINETV*,GlobalMedia
 USER-AGENT,Max*,GlobalMedia
 USER-AGENT,My5*,GlobalMedia
 USER-AGENT,Naver%20TV*,GlobalMedia
+USER-AGENT,NaverTV*,GlobalMedia
 USER-AGENT,Niconico*,GlobalMedia
 USER-AGENT,Overcast*,GlobalMedia
 USER-AGENT,PBS*,GlobalMedia
@@ -1364,6 +1374,7 @@ USER-AGENT,PPlus*,GlobalMedia
 USER-AGENT,Pandora*,GlobalMedia
 USER-AGENT,PeacockMobile*,GlobalMedia
 USER-AGENT,Prime%20Video*,GlobalMedia
+USER-AGENT,PrimeVideo*,GlobalMedia
 USER-AGENT,SoundCloud*,GlobalMedia
 USER-AGENT,Spotify*,GlobalMedia
 USER-AGENT,TIDAL*,GlobalMedia
@@ -1382,12 +1393,12 @@ USER-AGENT,com.kktv.ios.kktv*,GlobalMedia
 USER-AGENT,discovery+*,GlobalMedia
 USER-AGENT,encoreTVB*,GlobalMedia
 USER-AGENT,mytv*,GlobalMedia
-USER-AGENT,*YouTubeMusic*,GlobalMedia
-USER-AGENT,*com.google.ios.youtubemusic*,GlobalMedia
 USER-AGENT,*youtube*,GlobalMedia
 USER-AGENT,YouTube*,GlobalMedia
-USER-AGENT,YouTubeMusic*,GlobalMedia
 USER-AGENT,com.google.ios.youtube*,GlobalMedia
+USER-AGENT,*YouTubeMusic*,GlobalMedia
+USER-AGENT,*com.google.ios.youtubemusic*,GlobalMedia
+USER-AGENT,YouTubeMusic*,GlobalMedia
 USER-AGENT,com.google.ios.youtubemusic*,GlobalMedia
 IP-CIDR,1.201.0.0/24,GlobalMedia
 IP-CIDR,1.37.35.6/32,GlobalMedia

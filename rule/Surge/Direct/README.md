@@ -15,16 +15,17 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-09 02:15:45
+最后更新时间：2024-01-31 03:08:05
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 33  | 
-| DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 14  | 
-| USER-AGENT | 4  | 
-| TOTAL | 52  | 
+| DOMAIN | 35  | 
+| DOMAIN-KEYWORD | 10  | 
+| DOMAIN-SUFFIX | 126  | 
+| PROCESS-NAME | 36  | 
+| USER-AGENT | 5  | 
+| TOTAL | 212  | 
 
 
 ## Surge 

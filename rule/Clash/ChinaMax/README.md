@@ -21,18 +21,18 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-31 03:09:29
+最后更新时间：2024-02-01 03:11:12
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 548  | 
+| DOMAIN | 545  | 
 | DOMAIN-KEYWORD | 14  | 
-| DOMAIN-SUFFIX | 67066  | 
-| IP-CIDR | 7009  | 
-| IP-CIDR6 | 3450  | 
+| DOMAIN-SUFFIX | 67230  | 
+| IP-CIDR | 6989  | 
+| IP-CIDR6 | 3730  | 
 | PROCESS-NAME | 14  | 
-| TOTAL | 78101  | 
+| TOTAL | 78522  | 
 
 
 ## Clash 
@@ -552,6 +552,16 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/4399.yaml
 - https://rules.kr328.app/antutu.yaml
 - https://rules.kr328.app/aixcoder.yaml
+- https://rules.kr328.app/ccb.yaml
+- https://rules.kr328.app/letv-ads@ads.yaml
+- https://rules.kr328.app/jd-ads.yaml
+- https://rules.kr328.app/xueqiu.yaml
+- https://rules.kr328.app/kuaishou-ads@ads.yaml
+- https://rules.kr328.app/kingsoft.yaml
+- https://rules.kr328.app/wanfang.yaml
+- https://rules.kr328.app/kuaishou-ads.yaml
+- https://rules.kr328.app/keep.yaml
+- https://rules.kr328.app/u17.yaml
 - https://rules.kr328.app/sohu-ads@ads.yaml
 - https://rules.kr328.app/huya.yaml
 - https://rules.kr328.app/hunantv-ads@ads.yaml

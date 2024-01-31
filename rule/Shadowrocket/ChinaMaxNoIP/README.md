@@ -15,16 +15,16 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2024-01-31 03:10:04
+最后更新时间：2024-02-01 03:12:04
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 547  | 
+| DOMAIN | 544  | 
 | DOMAIN-KEYWORD | 14  | 
-| DOMAIN-SUFFIX | 66754  | 
+| DOMAIN-SUFFIX | 66918  | 
 | USER-AGENT | 69  | 
-| TOTAL | 67384  | 
+| TOTAL | 67545  | 
 
 
 ## Shadowrocket 
@@ -441,6 +441,16 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/4399.yaml
 - https://rules.kr328.app/antutu.yaml
 - https://rules.kr328.app/aixcoder.yaml
+- https://rules.kr328.app/ccb.yaml
+- https://rules.kr328.app/letv-ads@ads.yaml
+- https://rules.kr328.app/jd-ads.yaml
+- https://rules.kr328.app/xueqiu.yaml
+- https://rules.kr328.app/kuaishou-ads@ads.yaml
+- https://rules.kr328.app/kingsoft.yaml
+- https://rules.kr328.app/wanfang.yaml
+- https://rules.kr328.app/kuaishou-ads.yaml
+- https://rules.kr328.app/keep.yaml
+- https://rules.kr328.app/u17.yaml
 - https://rules.kr328.app/sohu-ads@ads.yaml
 - https://rules.kr328.app/huya.yaml
 - https://rules.kr328.app/hunantv-ads@ads.yaml

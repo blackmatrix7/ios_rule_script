@@ -12,20 +12,20 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-31 03:10:25
+最后更新时间：2024-02-01 03:12:39
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 543  | 
+| HOST | 540  | 
 | HOST-KEYWORD | 12  | 
-| HOST-SUFFIX | 66653  | 
+| HOST-SUFFIX | 66817  | 
 | HOST-WILDCARD | 1  | 
 | IP-ASN | 1005  | 
-| IP-CIDR | 7009  | 
-| IP6-CIDR | 3450  | 
+| IP-CIDR | 6989  | 
+| IP6-CIDR | 3730  | 
 | USER-AGENT | 69  | 
-| TOTAL | 78742  | 
+| TOTAL | 79163  | 
 
 
 ## QuantumultX 
@@ -443,6 +443,16 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/4399.yaml
 - https://rules.kr328.app/antutu.yaml
 - https://rules.kr328.app/aixcoder.yaml
+- https://rules.kr328.app/ccb.yaml
+- https://rules.kr328.app/letv-ads@ads.yaml
+- https://rules.kr328.app/jd-ads.yaml
+- https://rules.kr328.app/xueqiu.yaml
+- https://rules.kr328.app/kuaishou-ads@ads.yaml
+- https://rules.kr328.app/kingsoft.yaml
+- https://rules.kr328.app/wanfang.yaml
+- https://rules.kr328.app/kuaishou-ads.yaml
+- https://rules.kr328.app/keep.yaml
+- https://rules.kr328.app/u17.yaml
 - https://rules.kr328.app/sohu-ads@ads.yaml
 - https://rules.kr328.app/huya.yaml
 - https://rules.kr328.app/hunantv-ads@ads.yaml

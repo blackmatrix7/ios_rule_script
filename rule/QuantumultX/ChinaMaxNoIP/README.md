@@ -15,17 +15,17 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2024-01-31 03:10:00
+最后更新时间：2024-02-01 03:11:57
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 547  | 
+| HOST | 544  | 
 | HOST-KEYWORD | 14  | 
-| HOST-SUFFIX | 66754  | 
+| HOST-SUFFIX | 66918  | 
 | HOST-WILDCARD | 1  | 
 | USER-AGENT | 69  | 
-| TOTAL | 67385  | 
+| TOTAL | 67546  | 
 
 
 ## QuantumultX 
@@ -438,6 +438,16 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://rules.kr328.app/4399.yaml
 - https://rules.kr328.app/antutu.yaml
 - https://rules.kr328.app/aixcoder.yaml
+- https://rules.kr328.app/ccb.yaml
+- https://rules.kr328.app/letv-ads@ads.yaml
+- https://rules.kr328.app/jd-ads.yaml
+- https://rules.kr328.app/xueqiu.yaml
+- https://rules.kr328.app/kuaishou-ads@ads.yaml
+- https://rules.kr328.app/kingsoft.yaml
+- https://rules.kr328.app/wanfang.yaml
+- https://rules.kr328.app/kuaishou-ads.yaml
+- https://rules.kr328.app/keep.yaml
+- https://rules.kr328.app/u17.yaml
 - https://rules.kr328.app/sohu-ads@ads.yaml
 - https://rules.kr328.app/huya.yaml
 - https://rules.kr328.app/hunantv-ads@ads.yaml

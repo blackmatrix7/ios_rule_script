@@ -12,17 +12,17 @@ PT下载规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-30 02:57:44
+最后更新时间：2024-02-01 03:10:45
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 142  | 
+| DOMAIN | 141  | 
 | DOMAIN-KEYWORD | 4  | 
 | DOMAIN-SUFFIX | 122  | 
 | IP-CIDR | 8  | 
 | IP-CIDR6 | 2  | 
-| TOTAL | 278  | 
+| TOTAL | 277  | 
 
 
 ## Clash 

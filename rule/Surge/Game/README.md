@@ -15,7 +15,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-31 03:03:11
+最后更新时间：2024-02-02 03:01:39
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -130,6 +130,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Nintendo.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list
 - https://rules.kr328.app/riot@cn.yaml
+- https://rules.kr328.app/purikonejp.yaml
 - https://rules.kr328.app/ea.yaml
 - https://rules.kr328.app/xbox@cn.yaml
 - https://rules.kr328.app/gog@cn.yaml

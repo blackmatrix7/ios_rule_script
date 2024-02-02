@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:13
+最后更新时间：2024-02-03 01:47:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -67,10 +67,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/iQIYI.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iqiyi.list
-- https://rules.kr328.app/iqiyi-ads@ads.yaml
-- https://rules.kr328.app/iqiyi-ads.yaml
-- https://rules.kr328.app/iqiyi@ads.yaml
-- https://rules.kr328.app/iqiyi.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Iqiyi.yaml
 
 

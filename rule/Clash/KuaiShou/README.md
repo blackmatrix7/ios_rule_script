@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:21
+最后更新时间：2024-02-03 01:47:17
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -25,9 +25,11 @@
 
 #### 使用说明
 - KuaiShou.yaml，请使用 behavior: "classical"。
+- KuaiShou_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - KuaiShou.yaml 单独使用。
+- KuaiShou_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -65,10 +67,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuaiShou.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Kuaishou.list
-- https://rules.kr328.app/kuaishou-ads@ads.yaml
-- https://rules.kr328.app/kuaishou-ads.yaml
-- https://rules.kr328.app/kuaishou@ads.yaml
-- https://rules.kr328.app/kuaishou.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Kuaishou.yaml
 
 

@@ -15,30 +15,30 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-29 02:09:37
+最后更新时间：2024-02-03 01:42:00
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 16157  | 
-| DOMAIN-KEYWORD | 115  | 
-| DOMAIN-SUFFIX | 98231  | 
+| DOMAIN | 16257  | 
+| DOMAIN-KEYWORD | 117  | 
+| DOMAIN-SUFFIX | 115185  | 
 | IP-CIDR | 428  | 
-| PROCESS-NAME | 5  | 
-| TOTAL | 114936  | 
+| TOTAL | 131987  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Advertising.yaml，请使用 behavior: "classical"。
+- Advertising_Resolve.yaml，请使用 behavior: "classical"。
 - Advertising_Classical.yaml，请使用 behavior: "classical"。
 - Advertising_Domain.yaml，请使用 behavior: "domain"。
 
 #### 配置建议
-- Advertising_Domain.yaml 单独使用。
 - Advertising_Classical.yaml 单独使用。
 - Advertising.yaml、Advertising_Domain.yaml 共同使用。
+- Advertising_Resolve.yaml、Advertising_Domain.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Domain_For_Clash.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Domain.txt
 
 **MASTER分支 CDN (每日更新)**
 
@@ -55,7 +55,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Adver
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Classical.yaml
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Domain_For_Clash.txt
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Domain.txt
 
 **MASTER分支 GHProxy (每日更新)**
 
@@ -63,7 +63,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
 
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Domain_For_Clash.txt
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Domain.txt
 
 **RELEASE分支 (不定时更新)**
 
@@ -71,7 +71,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Advertising/Advertising_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Advertising/Advertising_Domain_For_Clash.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Advertising/Advertising_Domain.txt
 
 **RELEASE分支CDN (不定时更新)**
 
@@ -79,7 +79,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Adve
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Advertising/Advertising_Classical.yaml
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Advertising/Advertising_Domain_For_Clash.txt
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Advertising/Advertising_Domain.txt
 
 **RELEASE分支 GHProxy (不定时更新)**
 
@@ -87,7 +87,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Advertising/Advertising_Classical.yaml
 
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Advertising/Advertising_Domain_For_Clash.txt
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Advertising/Advertising_Domain.txt
 
 ## 子规则/排除规则
 
@@ -132,7 +132,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
 - https://ruleset.isagood.day/reject.conf
-- https://ruleset.isagood.day/reject_domain1.conf
 - https://ruleset.isagood.day/reject_drop.conf
 
 

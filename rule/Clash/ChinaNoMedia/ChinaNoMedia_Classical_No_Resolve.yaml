@@ -1,30 +1,26 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-28 15:51:00
-# DOMAIN: 19
+# UPDATED: 2024-02-03 01:47:59
+# DOMAIN: 15
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3589
+# DOMAIN-SUFFIX: 3588
 # IP-CIDR: 11
 # IP-CIDR6: 4
-# TOTAL: 3632
+# TOTAL: 3627
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
   - DOMAIN,cdp.cloud.unity3d.com
   - DOMAIN,client.amplifi.com
-  - DOMAIN,dl.google.com
   - DOMAIN,download.jetbrains.com
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,kc.kexinshe.com
-  - DOMAIN,mtalk.google.com
   - DOMAIN,origin-a.akamaihd.ne
   - DOMAIN,origin-a.akamaihd.net
-  - DOMAIN,outlook.office365.com
   - DOMAIN,sms.imagetasks.com
-  - DOMAIN,smtp.office365.com
   - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN,www.libvideo.com
   - DOMAIN,www.yxssp.com
@@ -743,7 +739,6 @@ payload:
   - DOMAIN-SUFFIX,chaoxingv.com
   - DOMAIN-SUFFIX,chashebao.com
   - DOMAIN-SUFFIX,chazhengla.com
-  - DOMAIN-SUFFIX,chdbits.co
   - DOMAIN-SUFFIX,che168.com
   - DOMAIN-SUFFIX,checkzeit.com
   - DOMAIN-SUFFIX,cheng.xin
@@ -1431,7 +1426,6 @@ payload:
   - DOMAIN-SUFFIX,gongyi.xin
   - DOMAIN-SUFFIX,goodread.com
   - DOMAIN-SUFFIX,goofish.com
-  - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN-SUFFIX,goosail.com
   - DOMAIN-SUFFIX,goproxy.io
   - DOMAIN-SUFFIX,goselling.com
@@ -2412,6 +2406,7 @@ payload:
   - DOMAIN-SUFFIX,offcn.com
   - DOMAIN-SUFFIX,office.com
   - DOMAIN-SUFFIX,office.net
+  - DOMAIN-SUFFIX,office365.com
   - DOMAIN-SUFFIX,officese.com
   - DOMAIN-SUFFIX,oi-wiki.com
   - DOMAIN-SUFFIX,oicq88.com

@@ -12,25 +12,27 @@ AsianMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:30
+最后更新时间：2024-02-03 01:46:25
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 10  | 
-| DOMAIN-KEYWORD | 3  | 
-| DOMAIN-SUFFIX | 20  | 
-| IP-CIDR | 10  | 
-| TOTAL | 43  | 
+| DOMAIN | 19  | 
+| DOMAIN-KEYWORD | 1  | 
+| DOMAIN-SUFFIX | 4  | 
+| IP-CIDR | 7  | 
+| TOTAL | 31  | 
 
 
 ## Clash 
 
 #### 使用说明
 - AsianMedia.yaml，请使用 behavior: "classical"。
+- AsianMedia_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - AsianMedia.yaml 单独使用。
+- AsianMedia_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

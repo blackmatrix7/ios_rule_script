@@ -21,17 +21,17 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:06
+最后更新时间：2024-02-03 01:46:03
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 156  | 
+| DOMAIN | 157  | 
 | DOMAIN-KEYWORD | 37  | 
-| DOMAIN-SUFFIX | 19278  | 
+| DOMAIN-SUFFIX | 19366  | 
 | IP-CIDR | 116  | 
 | USER-AGENT | 46  | 
-| TOTAL | 19633  | 
+| TOTAL | 19722  | 
 
 
 ## Shadowrocket 
@@ -106,7 +106,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
-- https://rules.kr328.app/geolocation-%21cn.yaml
 - https://ruleset.isagood.day/global.conf
 - https://ruleset.isagood.day/global_domain.conf
 

@@ -12,19 +12,20 @@ Telegram规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:27
+最后更新时间：2024-02-03 01:46:22
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
+| DOMAIN | 2  | 
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 21  | 
+| DOMAIN-SUFFIX | 22  | 
 | IP-ASN | 5  | 
 | IP-CIDR | 4  | 
 | IP-CIDR6 | 4  | 
 | OR | 1  | 
 | PROCESS-NAME | 3  | 
-| TOTAL | 39  | 
+| TOTAL | 42  | 
 
 
 ## Surge 
@@ -93,7 +94,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Telegram.yaml
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Telegram.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml
-- https://rules.kr328.app/telegram.yaml
 - https://ruleset.isagood.day/telegram.conf
 - https://ruleset.isagood.day/telegram_dc1.conf
 - https://ruleset.isagood.day/telegram_dc2.conf

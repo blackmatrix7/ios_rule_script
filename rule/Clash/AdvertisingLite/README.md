@@ -15,29 +15,30 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:44:57
+最后更新时间：2024-02-03 01:41:12
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 23677  | 
+| DOMAIN | 23673  | 
 | DOMAIN-KEYWORD | 27  | 
-| DOMAIN-SUFFIX | 13762  | 
-| IP-CIDR | 184  | 
-| TOTAL | 37650  | 
+| DOMAIN-SUFFIX | 13739  | 
+| IP-CIDR | 170  | 
+| TOTAL | 37609  | 
 
 
 ## Clash 
 
 #### 使用说明
 - AdvertisingLite.yaml，请使用 behavior: "classical"。
+- AdvertisingLite_Resolve.yaml，请使用 behavior: "classical"。
 - AdvertisingLite_Classical.yaml，请使用 behavior: "classical"。
 - AdvertisingLite_Domain.yaml，请使用 behavior: "domain"。
 
 #### 配置建议
-- AdvertisingLite_Domain.yaml 单独使用。
 - AdvertisingLite_Classical.yaml 单独使用。
 - AdvertisingLite.yaml、AdvertisingLite_Domain.yaml 共同使用。
+- AdvertisingLite_Resolve.yaml、AdvertisingLite_Domain.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -46,7 +47,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain_For_Clash.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.txt
 
 **MASTER分支 CDN (每日更新)**
 
@@ -54,7 +55,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Adver
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain_For_Clash.txt
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.txt
 
 **MASTER分支 GHProxy (每日更新)**
 
@@ -62,7 +63,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
 
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain_For_Clash.txt
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.txt
 
 **RELEASE分支 (不定时更新)**
 
@@ -70,7 +71,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AdvertisingLite/AdvertisingLite_Domain_For_Clash.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.txt
 
 **RELEASE分支CDN (不定时更新)**
 
@@ -78,7 +79,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Adve
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/AdvertisingLite/AdvertisingLite_Domain_For_Clash.txt
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.txt
 
 **RELEASE分支 GHProxy (不定时更新)**
 
@@ -86,7 +87,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
 
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AdvertisingLite/AdvertisingLite_Domain_For_Clash.txt
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.txt
 
 ## 子规则/排除规则
 

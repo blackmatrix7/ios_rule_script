@@ -12,17 +12,16 @@ AsianMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:30
+最后更新时间：2024-02-03 01:46:25
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 10  | 
-| DOMAIN-KEYWORD | 3  | 
-| DOMAIN-SUFFIX | 20  | 
-| IP-CIDR | 10  | 
-| USER-AGENT | 5  | 
-| TOTAL | 48  | 
+| DOMAIN | 19  | 
+| DOMAIN-KEYWORD | 1  | 
+| DOMAIN-SUFFIX | 4  | 
+| IP-CIDR | 7  | 
+| TOTAL | 31  | 
 
 
 ## Surge 

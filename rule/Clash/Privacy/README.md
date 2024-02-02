@@ -12,28 +12,29 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:46:54
+最后更新时间：2024-02-03 01:43:24
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 20  | 
-| DOMAIN-SUFFIX | 21369  | 
+| DOMAIN | 19  | 
+| DOMAIN-SUFFIX | 32057  | 
 | IP-CIDR | 8  | 
-| TOTAL | 21397  | 
+| TOTAL | 32084  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Privacy.yaml，请使用 behavior: "classical"。
+- Privacy_Resolve.yaml，请使用 behavior: "classical"。
 - Privacy_Classical.yaml，请使用 behavior: "classical"。
 - Privacy_Domain.yaml，请使用 behavior: "domain"。
 
 #### 配置建议
-- Privacy_Domain.yaml 单独使用。
 - Privacy_Classical.yaml 单独使用。
 - Privacy.yaml、Privacy_Domain.yaml 共同使用。
+- Privacy_Resolve.yaml、Privacy_Domain.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -42,7 +43,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Domain_For_Clash.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Domain.txt
 
 **MASTER分支 CDN (每日更新)**
 
@@ -50,7 +51,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Priva
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy_Classical.yaml
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy_Domain_For_Clash.txt
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy_Domain.txt
 
 **MASTER分支 GHProxy (每日更新)**
 
@@ -58,7 +59,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
 
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Domain_For_Clash.txt
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Domain.txt
 
 **RELEASE分支 (不定时更新)**
 
@@ -66,7 +67,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Privacy/Privacy_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Privacy/Privacy_Domain_For_Clash.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Privacy/Privacy_Domain.txt
 
 **RELEASE分支CDN (不定时更新)**
 
@@ -74,7 +75,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Priv
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Privacy/Privacy_Classical.yaml
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Privacy/Privacy_Domain_For_Clash.txt
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Privacy/Privacy_Domain.txt
 
 **RELEASE分支 GHProxy (不定时更新)**
 
@@ -82,7 +83,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Privacy/Privacy_Classical.yaml
 
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Privacy/Privacy_Domain_For_Clash.txt
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Privacy/Privacy_Domain.txt
 
 ## 子规则/排除规则
 

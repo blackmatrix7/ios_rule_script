@@ -12,22 +12,24 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:24
+最后更新时间：2024-02-03 01:47:21
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 59  | 
-| TOTAL | 59  | 
+| DOMAIN-SUFFIX | 37  | 
+| TOTAL | 37  | 
 
 
 ## Clash 
 
 #### 使用说明
 - UCloud.yaml，请使用 behavior: "classical"。
+- UCloud_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - UCloud.yaml 单独使用。
+- UCloud_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -64,7 +66,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《优刻得》的数据来自以下链接，如与本项目的《优刻得》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UCloud.list
-- https://rules.kr328.app/ucloud.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

@@ -1,14 +1,14 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-28 15:49:26
-# DOMAIN: 29
+# UPDATED: 2024-02-03 01:46:21
+# DOMAIN: 28
 # DOMAIN-KEYWORD: 25
 # DOMAIN-SUFFIX: 1253
 # IP-CIDR: 918
 # IP-CIDR6: 6
-# PROCESS-NAME: 13
-# TOTAL: 2244
+# PROCESS-NAME: 15
+# TOTAL: 2245
 payload:
   - DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
   - DOMAIN,api.okzy.tv
@@ -36,7 +36,6 @@ payload:
   - DOMAIN,news-edge.apple.com
   - DOMAIN,news-events.apple.com
   - DOMAIN,ocvideo.apple.com
-  - DOMAIN,p.bstarstatic.com
   - DOMAIN,rpg.pic-imges.com
   - DOMAIN,rthklive2-lh.akamaihd.net
   - DOMAIN-SUFFIX,112263.com
@@ -63,7 +62,6 @@ payload:
   - DOMAIN-SUFFIX,amazon.jobs
   - DOMAIN-SUFFIX,amazonaws.co.uk
   - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN-SUFFIX,amazonprimevideo.cn
   - DOMAIN-SUFFIX,amazonprimevideos.com
   - DOMAIN-SUFFIX,amazontools.com
   - DOMAIN-SUFFIX,amazontours.com
@@ -134,6 +132,7 @@ payload:
   - DOMAIN-SUFFIX,boxun.com
   - DOMAIN-SUFFIX,bravotv.com
   - DOMAIN-SUFFIX,braze.com
+  - DOMAIN-SUFFIX,bstarstatic.com
   - DOMAIN-SUFFIX,bucketeer.jp
   - DOMAIN-SUFFIX,byspotify.com
   - DOMAIN-SUFFIX,byteoversea.com
@@ -2243,10 +2242,12 @@ payload:
   - IP-CIDR6,2a03:5640::/32
   - PROCESS-NAME,com.amazon.avod.thirdpartyclient
   - PROCESS-NAME,com.bstar.intl
+  - PROCESS-NAME,com.hktve.viutv
   - PROCESS-NAME,com.hulu.plus
   - PROCESS-NAME,com.linecorp.linetv
   - PROCESS-NAME,com.netflix.mediaclient
   - PROCESS-NAME,com.tencent.ibg.joox
+  - PROCESS-NAME,com.twgood.android
   - PROCESS-NAME,com.viu.pad
   - PROCESS-NAME,com.viu.phone
   - PROCESS-NAME,com.vuclip.viu

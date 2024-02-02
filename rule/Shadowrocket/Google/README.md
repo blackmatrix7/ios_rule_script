@@ -15,16 +15,17 @@ Google规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:46:58
+最后更新时间：2024-02-03 01:43:28
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
+| DOMAIN | 1  | 
 | DOMAIN-KEYWORD | 5  | 
-| DOMAIN-SUFFIX | 703  | 
+| DOMAIN-SUFFIX | 710  | 
 | IP-CIDR | 5  | 
 | USER-AGENT | 3  | 
-| TOTAL | 716  | 
+| TOTAL | 724  | 
 
 
 ## Shadowrocket 
@@ -95,11 +96,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Google.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml
-- https://rules.kr328.app/google-ads.yaml
-- https://rules.kr328.app/google.yaml
-- https://rules.kr328.app/google@ads.yaml
-- https://rules.kr328.app/google@cn.yaml
-- https://rules.kr328.app/google-ads@ads.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

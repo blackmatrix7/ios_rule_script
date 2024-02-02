@@ -12,17 +12,16 @@ AsianMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:30
+最后更新时间：2024-02-03 01:46:25
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 10  | 
-| HOST-KEYWORD | 3  | 
-| HOST-SUFFIX | 20  | 
-| IP-CIDR | 10  | 
-| USER-AGENT | 5  | 
-| TOTAL | 48  | 
+| HOST | 19  | 
+| HOST-KEYWORD | 1  | 
+| HOST-SUFFIX | 4  | 
+| IP-CIDR | 7  | 
+| TOTAL | 31  | 
 
 
 ## QuantumultX 

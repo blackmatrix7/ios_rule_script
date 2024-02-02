@@ -15,19 +15,18 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-29 02:09:32
+最后更新时间：2024-02-03 01:41:53
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | AND | 7  | 
-| DOMAIN | 16157  | 
-| DOMAIN-KEYWORD | 115  | 
-| DOMAIN-SUFFIX | 98231  | 
+| DOMAIN | 16257  | 
+| DOMAIN-KEYWORD | 117  | 
+| DOMAIN-SUFFIX | 115185  | 
 | IP-CIDR | 428  | 
-| PROCESS-NAME | 5  | 
-| URL-REGEX | 303  | 
-| TOTAL | 115246  | 
+| URL-REGEX | 34  | 
+| TOTAL | 132028  | 
 
 
 ## Surge 
@@ -39,9 +38,14 @@
 - URL-REGEX类型的规则，在HTTPS协议中，需要配合MITM使用。规则生成器已尝试推导MITM的配置Advertising_MITM.sgmodule，仅供参考。
 
 #### 文件区别
+- Advertising_All.list与Advertising_All_No_Resolve.list为 Surge 5.21.0(2952) 以上版本使用
 - Advertising_Resolve.list与Advertising.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
+- Surge 5.21.0(2952)以上版本使用以下配置：
+- Advertising_All.list 单独使用。
+- Advertising_All_No_Resolve.list 单独使用。
+- Surge 5.21.0(2952)以下版本使用以下配置：
 - Advertising.list、Advertising_Domain.list 共同使用。
 - Advertising_Resolve.list、Advertising_Domain.list 共同使用。
 
@@ -113,7 +117,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
 - https://ruleset.isagood.day/reject.conf
-- https://ruleset.isagood.day/reject_domain1.conf
 - https://ruleset.isagood.day/reject_drop.conf
 
 

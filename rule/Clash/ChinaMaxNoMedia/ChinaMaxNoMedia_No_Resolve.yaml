@@ -1,14 +1,14 @@
 # NAME: ChinaMaxNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-29 02:16:08
-# DOMAIN: 163
-# DOMAIN-KEYWORD: 11
-# DOMAIN-SUFFIX: 65556
-# IP-CIDR: 5984
-# IP-CIDR6: 3498
-# PROCESS-NAME: 13
-# TOTAL: 75225
+# UPDATED: 2024-02-03 01:49:13
+# DOMAIN: 533
+# DOMAIN-KEYWORD: 12
+# DOMAIN-SUFFIX: 66783
+# IP-CIDR: 6982
+# IP-CIDR6: 3733
+# PROCESS-NAME: 14
+# TOTAL: 78057
 payload:
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -20,7 +20,9 @@ payload:
   - DOMAIN-KEYWORD,officecdn
   - DOMAIN-KEYWORD,taobao
   - DOMAIN-KEYWORD,hnagroup
+  - DOMAIN-KEYWORD,stripe
   - DOMAIN-KEYWORD,weibo
+  - PROCESS-NAME,com.taobao.taobao
   - PROCESS-NAME,com.bilibili.app.blue
   - PROCESS-NAME,com.bilibili.app.in
   - PROCESS-NAME,com.bilibili.comic

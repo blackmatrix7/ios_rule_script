@@ -12,25 +12,27 @@ Amazon规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:30
+最后更新时间：2024-02-03 01:46:24
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 210  | 
+| DOMAIN-SUFFIX | 186  | 
 | IP-CIDR | 15  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 227  | 
+| TOTAL | 203  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Amazon.yaml，请使用 behavior: "classical"。
+- Amazon_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - Amazon.yaml 单独使用。
+- Amazon_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -71,11 +73,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Amazon.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Amazon.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Amazon.yaml
-- https://rules.kr328.app/amazon-ads.yaml
-- https://rules.kr328.app/amazon@cn.yaml
-- https://rules.kr328.app/amazon@ads.yaml
-- https://rules.kr328.app/amazon.yaml
-- https://rules.kr328.app/amazon-ads@ads.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

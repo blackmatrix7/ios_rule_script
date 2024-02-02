@@ -12,17 +12,16 @@ Facebook规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:29
+最后更新时间：2024-02-03 01:46:23
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 1  | 
 | HOST-KEYWORD | 2  | 
-| HOST-SUFFIX | 547  | 
+| HOST-SUFFIX | 544  | 
 | IP-ASN | 1  | 
 | IP-CIDR | 23  | 
-| TOTAL | 574  | 
+| TOTAL | 570  | 
 
 
 ## QuantumultX 
@@ -70,7 +69,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Facebook.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list
 - https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Meta.list
-- https://rules.kr328.app/facebook.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Facebook.yaml
 
 

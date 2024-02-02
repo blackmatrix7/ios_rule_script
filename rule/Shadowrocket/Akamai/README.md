@@ -12,13 +12,13 @@ Akamai规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:28
+最后更新时间：2024-02-03 01:47:24
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 68  | 
-| TOTAL | 68  | 
+| DOMAIN-SUFFIX | 6  | 
+| TOTAL | 6  | 
 
 
 ## Shadowrocket 
@@ -65,7 +65,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Akamai.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Akamai.yaml
-- https://rules.kr328.app/akamai.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

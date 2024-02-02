@@ -12,14 +12,14 @@ iOS系统升级规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:47:00
+最后更新时间：2024-02-03 01:43:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 78  | 
-| HOST-SUFFIX | 30  | 
-| TOTAL | 108  | 
+| HOST-SUFFIX | 13  | 
+| TOTAL | 91  | 
 
 
 ## QuantumultX 
@@ -66,7 +66,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/SoftwareUpdate.list
 - https://raw.githubusercontent.com/an0na/R/master/Filter/IOS_OTA.list
 - https://raw.githubusercontent.com/LuzMasonj/Quantumult/master/QuantumultX/Filter/BlockiOSServices.conf
-- https://rules.kr328.app/apple-update.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

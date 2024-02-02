@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:35
+最后更新时间：2024-02-03 01:46:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -25,9 +25,11 @@
 
 #### 使用说明
 - DiDi.yaml，请使用 behavior: "classical"。
+- DiDi_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - DiDi.yaml 单独使用。
+- DiDi_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -65,7 +67,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiDi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiDi.list
-- https://rules.kr328.app/didi.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

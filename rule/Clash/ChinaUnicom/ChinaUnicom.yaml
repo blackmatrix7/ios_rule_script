@@ -1,16 +1,15 @@
 # NAME: ChinaUnicom
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-28 15:50:17
-# DOMAIN-SUFFIX: 35
+# UPDATED: 2024-02-03 01:47:13
+# DOMAIN-SUFFIX: 33
 # IP-CIDR: 1
-# TOTAL: 36
+# TOTAL: 34
 payload:
   - DOMAIN-SUFFIX,10010.cn
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,10010.com.cn
   - DOMAIN-SUFFIX,10010.net
-  - DOMAIN-SUFFIX,114menhu.com
   - DOMAIN-SUFFIX,17wo.cn
   - DOMAIN-SUFFIX,chinaunicom.cn
   - DOMAIN-SUFFIX,chinaunicom.com
@@ -38,7 +37,6 @@ payload:
   - DOMAIN-SUFFIX,wo-link.tech
   - DOMAIN-SUFFIX,wo.cn
   - DOMAIN-SUFFIX,wo.com.cn
-  - DOMAIN-SUFFIX,wo116114.com
   - DOMAIN-SUFFIX,wobaif.com
   - DOMAIN-SUFFIX,wom186.com
   - IP-CIDR,113.200.56.63/32

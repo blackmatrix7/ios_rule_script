@@ -12,15 +12,15 @@ Speedtest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:27
+最后更新时间：2024-02-03 01:46:21
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 14  | 
+| DOMAIN-SUFFIX | 4  | 
 | USER-AGENT | 1  | 
-| TOTAL | 16  | 
+| TOTAL | 6  | 
 
 
 ## Shadowrocket 
@@ -67,7 +67,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Speedtest.yaml
-- https://rules.kr328.app/speedtest.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

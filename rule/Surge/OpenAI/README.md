@@ -12,24 +12,31 @@ OpenAI规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:52:33
+最后更新时间：2024-02-03 01:49:21
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 2  | 
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 20  | 
-| TOTAL | 23  | 
+| DOMAIN-SUFFIX | 23  | 
+| IP-ASN | 1  | 
+| IP-CIDR | 2  | 
+| TOTAL | 29  | 
 
 
 ## Surge 
 
 #### 使用说明
 - OpenAI.list，请使用RULE-SET。
+- OpenAI_Resolve.list，请使用RULE-SET。
+
+#### 文件区别
+- OpenAI_Resolve.list与OpenAI.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
 - OpenAI.list 单独使用。
+- OpenAI_Resolve.list 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -65,12 +72,13 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《OpenAI》的数据来自以下链接，如与本项目的《OpenAI》规则混合使用，可能会造成规则大量重复。
 
-- https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Rule/OpenAI.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OpenAi.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/OpenAi.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/OpenAi.yaml
 - https://ruleset.isagood.day/openai.conf
+- https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list
+- https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChatGPT_Voice.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

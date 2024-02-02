@@ -17,22 +17,24 @@ AdGuard DNS Filter 中的例外规则，现在单独作为Direct文件。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:51:11
+最后更新时间：2024-02-03 01:48:11
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 118  | 
-| TOTAL | 118  | 
+| DOMAIN | 125  | 
+| TOTAL | 125  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Direct.yaml，请使用 behavior: "classical"。
+- Direct_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - Direct.yaml 单独使用。
+- Direct_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

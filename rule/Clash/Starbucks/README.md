@@ -12,22 +12,24 @@ Starbucks规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:35
+最后更新时间：2024-02-03 01:47:31
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 67  | 
-| TOTAL | 67  | 
+| DOMAIN-SUFFIX | 32  | 
+| TOTAL | 32  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Starbucks.yaml，请使用 behavior: "classical"。
+- Starbucks_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - Starbucks.yaml 单独使用。
+- Starbucks_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -65,8 +67,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Starbucks.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Starbucks.yaml
-- https://rules.kr328.app/starbucks@cn.yaml
-- https://rules.kr328.app/starbucks.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

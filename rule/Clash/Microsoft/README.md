@@ -12,25 +12,27 @@ Microsoft规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:46:59
+最后更新时间：2024-02-03 01:43:29
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 2  | 
+| DOMAIN | 1  | 
 | DOMAIN-KEYWORD | 4  | 
 | DOMAIN-SUFFIX | 662  | 
 | PROCESS-NAME | 2  | 
-| TOTAL | 670  | 
+| TOTAL | 669  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Microsoft.yaml，请使用 behavior: "classical"。
+- Microsoft_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - Microsoft.yaml 单独使用。
+- Microsoft_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -85,9 +87,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Microsoft.list
-- https://rules.kr328.app/microsoft.yaml
-- https://rules.kr328.app/onedrive.yaml
-- https://rules.kr328.app/microsoft@cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

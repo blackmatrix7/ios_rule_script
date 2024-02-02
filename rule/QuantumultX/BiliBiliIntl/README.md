@@ -12,14 +12,13 @@ BiliBiliIntl规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:40
+最后更新时间：2024-02-03 01:47:36
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 5  | 
-| HOST-SUFFIX | 2  | 
-| TOTAL | 7  | 
+| HOST-SUFFIX | 1  | 
+| TOTAL | 1  | 
 
 
 ## QuantumultX 

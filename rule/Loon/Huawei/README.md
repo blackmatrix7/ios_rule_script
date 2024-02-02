@@ -12,13 +12,13 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:13
+最后更新时间：2024-02-03 01:47:09
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 272  | 
-| TOTAL | 272  | 
+| DOMAIN-SUFFIX | 160  | 
+| TOTAL | 160  | 
 
 
 ## Loon 
@@ -62,8 +62,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HuaWei.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuaWei.list
-- https://rules.kr328.app/huawei@cn.yaml
-- https://rules.kr328.app/huawei.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/HuaWei.yaml
 
 

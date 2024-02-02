@@ -15,26 +15,29 @@ Google规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:46:58
+最后更新时间：2024-02-03 01:43:28
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
+| DOMAIN | 1  | 
 | DOMAIN-KEYWORD | 5  | 
-| DOMAIN-SUFFIX | 703  | 
+| DOMAIN-SUFFIX | 710  | 
 | IP-CIDR | 4  | 
 | IP-CIDR6 | 1  | 
 | PROCESS-NAME | 6  | 
-| TOTAL | 719  | 
+| TOTAL | 727  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Google.yaml，请使用 behavior: "classical"。
+- Google_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - Google.yaml 单独使用。
+- Google_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -91,11 +94,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Google.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml
-- https://rules.kr328.app/google-ads.yaml
-- https://rules.kr328.app/google.yaml
-- https://rules.kr328.app/google@ads.yaml
-- https://rules.kr328.app/google@cn.yaml
-- https://rules.kr328.app/google-ads@ads.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

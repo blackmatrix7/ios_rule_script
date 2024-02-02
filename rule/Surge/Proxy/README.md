@@ -12,18 +12,18 @@ Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:25
+最后更新时间：2024-02-03 01:46:20
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 11  | 
 | DOMAIN-KEYWORD | 29  | 
-| DOMAIN-SUFFIX | 5875  | 
+| DOMAIN-SUFFIX | 5874  | 
 | IP-CIDR | 94  | 
 | IP-CIDR6 | 3  | 
 | USER-AGENT | 9  | 
-| TOTAL | 6021  | 
+| TOTAL | 6020  | 
 
 
 ## Surge 
@@ -34,9 +34,14 @@ Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 - Proxy_Domain.list，请使用DOMAIN-SET。
 
 #### 文件区别
+- Proxy_All.list与Proxy_All_No_Resolve.list为 Surge 5.21.0(2952) 以上版本使用
 - Proxy_Resolve.list与Proxy.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
+- Surge 5.21.0(2952)以上版本使用以下配置：
+- Proxy_All.list 单独使用。
+- Proxy_All_No_Resolve.list 单独使用。
+- Surge 5.21.0(2952)以下版本使用以下配置：
 - Proxy.list、Proxy_Domain.list 共同使用。
 - Proxy_Resolve.list、Proxy_Domain.list 共同使用。
 

@@ -12,29 +12,29 @@ IPTV大陆规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:52:27
+最后更新时间：2024-02-03 01:49:18
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 997  | 
-| IP-CIDR | 1308  | 
-| IP-CIDR6 | 14  | 
-| TOTAL | 2319  | 
+| DOMAIN | 990  | 
+| IP-CIDR | 1307  | 
+| TOTAL | 2297  | 
 
 
 ## Clash 
 
 #### 使用说明
 - IPTVMainland.yaml，请使用 behavior: "classical"。
+- IPTVMainland_Resolve.yaml，请使用 behavior: "classical"。
 - IPTVMainland_Classical.yaml，请使用 behavior: "classical"。
 - IPTVMainland_IP.yaml，请使用 behavior: "ipcidr"。
 - IPTVMainland_IP_No_IPv6.yaml，请使用 behavior: "ipcidr"。
 
 #### 配置建议
-- IPTVMainland_IP.yaml 单独使用。
 - IPTVMainland_Classical.yaml 单独使用。
 - IPTVMainland.yaml、IPTVMainland_IP.yaml 共同使用。
+- IPTVMainland_Resolve.yaml、IPTVMainland_IP.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -107,7 +107,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《IPTV大陆》的数据来自以下链接，如与本项目的《IPTV大陆》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/%E5%9B%BD%E5%86%85%E7%94%B5%E8%A7%86%E5%8F%B02023.m3u8
-- https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/%E7%99%BE%E8%A7%86TV.m3u
 - https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/%E8%BD%AE%E6%92%AD_%E5%8D%8E%E6%95%B0.%E9%BB%91%E8%8E%93.NewTV.SiTV.CIBN.m3u
 - https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/%E9%87%8D%E5%BA%86%E5%B9%BF%E7%94%B5cqccn.m3u
 

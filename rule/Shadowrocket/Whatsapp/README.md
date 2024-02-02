@@ -12,16 +12,16 @@ Whatsapp规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:30
+最后更新时间：2024-02-03 01:46:25
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 1  | 
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 13  | 
+| DOMAIN-SUFFIX | 4  | 
 | IP-CIDR | 11  | 
-| TOTAL | 26  | 
+| TOTAL | 17  | 
 
 
 ## Shadowrocket 
@@ -73,7 +73,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Whatsapp.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/social/WhatsApp.list
-- https://rules.kr328.app/whatsapp.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Whatsapp.yaml
 
 

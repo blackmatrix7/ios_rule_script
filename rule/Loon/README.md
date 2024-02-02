@@ -72,7 +72,7 @@
 |[AMP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AMP) |[Anaconda](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Anaconda) |[AnandTech](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AnandTech) |[Android](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Android) |[Anime](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Anime) |
 |[Anonv](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Anonv) |[Anthropic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Anthropic) |[APKCombo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/APKCombo) |[AppLovin](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppLovin) |[Threads](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Threads) |
 |[Duolingo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Duolingo) |[Civitai](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Civitai) |[LinkedIn](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/LinkedIn) |[OKX](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/OKX) |[TruthSocial](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TruthSocial) |
-|[Zoom](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Zoom) |
+|[Zoom](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Zoom) |[Zalo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Zalo) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -183,7 +183,7 @@
 |🗄️Microsoft|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[GitHub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GitHub) |[OneDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/OneDrive) |[Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft) |[Teams](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Teams) |[MicrosoftEdge](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/MicrosoftEdge) ||||
-|[必应](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bing) |||
+|[必应](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bing) |[Copilot](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Copilot) |||
 
 
 |📟Google|  |  |  |  |

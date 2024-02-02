@@ -15,15 +15,14 @@ DOMAIN,gspe1-ssl.ls.apple.com  必要，但会导致「地图」使用「TOMTOM�
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:47:00
+最后更新时间：2024-02-03 01:43:29
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 8  | 
-| HOST-SUFFIX | 1  | 
+| HOST | 2  | 
 | USER-AGENT | 2  | 
-| TOTAL | 11  | 
+| TOTAL | 4  | 
 
 
 ## QuantumultX 

@@ -12,23 +12,25 @@ Origin规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:38
+最后更新时间：2024-02-03 01:47:34
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 5  | 
-| DOMAIN-SUFFIX | 6  | 
-| TOTAL | 11  | 
+| DOMAIN-SUFFIX | 2  | 
+| TOTAL | 7  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Origin.yaml，请使用 behavior: "classical"。
+- Origin_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - Origin.yaml 单独使用。
+- Origin_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -65,7 +67,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《Origin》的数据来自以下链接，如与本项目的《Origin》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Origin.list
-- https://rules.kr328.app/origin.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Origin.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list
 

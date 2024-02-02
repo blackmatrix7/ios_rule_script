@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-MITM--HOSTNAME合并-brightgreen) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) 
 
 本项目的知乎助手Plus规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -16,20 +16,16 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:52:41
+最后更新时间：2024-02-03 01:49:27
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 4  | 
+| DOMAIN | 3  | 
 | IP-CIDR | 2  | 
-| URL-REGEX | 11  | 
+| URL-REGEX | 7  | 
 | USER-AGENT | 1  | 
-| HTTP-REQUEST-SCRIPT | 1  | 
-| HTTP-RESPONSE-SCRIPT | 12  | 
-| REJECT | 15  | 
-| MITM | 8  | 
-| TOTAL | 54  | 
+| TOTAL | 13  | 
 
 
 ## Shadowrocket 

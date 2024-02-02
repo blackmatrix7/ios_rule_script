@@ -12,22 +12,24 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:35
+最后更新时间：2024-02-03 01:46:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 4  | 
-| TOTAL | 4  | 
+| DOMAIN-SUFFIX | 3  | 
+| TOTAL | 3  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Pinduoduo.yaml，请使用 behavior: "classical"。
+- Pinduoduo_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - Pinduoduo.yaml 单独使用。
+- Pinduoduo_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -64,7 +66,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《拼多多》的数据来自以下链接，如与本项目的《拼多多》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PDD.list
-- https://rules.kr328.app/pinduoduo.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

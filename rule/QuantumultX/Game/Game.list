@@ -1,20 +1,16 @@
 # NAME: Game
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-29 02:11:03
-# HOST: 13
+# UPDATED: 2024-02-03 01:43:26
+# HOST: 9
 # HOST-KEYWORD: 4
-# HOST-SUFFIX: 537
+# HOST-SUFFIX: 527
 # IP-CIDR: 46
-# TOTAL: 600
+# TOTAL: 586
 HOST,eaasserts-a.akamaihd.net,Game
 HOST,originasserts.akamaized.net,Game
-HOST,dlgarenanow-a.akamaihd.net,Game
 HOST,gog.salesmanago.com,Game
-HOST,f3b7q2p3.ssl.hwcdn.net,Game
 HOST,steammobile.akamaized.net,Game
-HOST,steampipe-kr.akamaized.net,Game
-HOST,steampipe-partner.akamaized.net,Game
 HOST,xz.pphimalayanrt.com,Game
 HOST,img-prod-cms-rt-microsoft-com.akamaized.net,Game
 HOST,login.live.com,Game
@@ -237,6 +233,8 @@ HOST-SUFFIX,shadowcomplex.com,Game
 HOST-SUFFIX,spyjinx.com,Game
 HOST-SUFFIX,unrealengine.com,Game
 HOST-SUFFIX,unrealtournament.com,Game
+HOST-SUFFIX,doom.com,Game
+HOST-SUFFIX,elderscrolls.com,Game
 HOST-SUFFIX,game.maj-soul.com,Game
 HOST-SUFFIX,gateway-cdn.maj-soul.com,Game
 HOST-SUFFIX,gateway-hw.maj-soul.com,Game
@@ -248,6 +246,7 @@ HOST-SUFFIX,lb-hw.maj-soul.com,Game
 HOST-SUFFIX,lb-sy.maj-soul.com,Game
 HOST-SUFFIX,lb-v2.maj-soul.com,Game
 HOST-SUFFIX,majsoul-hk-client.cn-hongkong.log.aliyuncs.com,Game
+HOST-SUFFIX,pokemon-unitepgame.com,Game
 HOST-SUFFIX,sony.com,Game
 HOST-SUFFIX,avatargarenanow-a.akamaihd.net,Game
 HOST-SUFFIX,cdngarenanow-a.akamaihd.net,Game
@@ -349,7 +348,6 @@ HOST-SUFFIX,pokedex3d.com,Game
 HOST-SUFFIX,pokemon-moon.com,Game
 HOST-SUFFIX,pokemon-sun.com,Game
 HOST-SUFFIX,pokemon-sunmoon.com,Game
-HOST-SUFFIX,pokemon-unitepgame.com,Game
 HOST-SUFFIX,pokemon.com,Game
 HOST-SUFFIX,pokemonbank.com,Game
 HOST-SUFFIX,pokemonblackwhite.com,Game
@@ -464,7 +462,6 @@ HOST-SUFFIX,csgo.wmsj.cn,Game
 HOST-SUFFIX,dl.steam.clngaa.com,Game
 HOST-SUFFIX,dl.steam.ksyna.com,Game
 HOST-SUFFIX,dota2.wmsj.cn,Game
-HOST-SUFFIX,edge.steam-dns.top.comcast.net,Game
 HOST-SUFFIX,fanatical.com,Game
 HOST-SUFFIX,humblebundle.com,Game
 HOST-SUFFIX,playartifact.com,Game
@@ -474,20 +471,11 @@ HOST-SUFFIX,st.dl.eccdnx.com,Game
 HOST-SUFFIX,st.dl.pinyuncloud.com,Game
 HOST-SUFFIX,steam-api.com,Game
 HOST-SUFFIX,steam-chat.com,Game
-HOST-SUFFIX,steam.apac.qtlglb.com,Game
-HOST-SUFFIX,steam.cdn.on.net,Game
-HOST-SUFFIX,steam.cdn.orcon.net.nz,Game
-HOST-SUFFIX,steam.cdn.slingshot.co.nz,Game
-HOST-SUFFIX,steam.cdn.webra.ru,Game
-HOST-SUFFIX,steam.eca.qtlglb.com,Game
-HOST-SUFFIX,steam.naeu.qtlglb.com,Game
-HOST-SUFFIX,steam.ru.qtlglb.com,Game
 HOST-SUFFIX,steambroadcast.akamaized.net,Game
 HOST-SUFFIX,steamcdn-a.akamaihd.net,Game
 HOST-SUFFIX,steamcommunity-a.akamaihd.net,Game
 HOST-SUFFIX,steamcommunity.com,Game
 HOST-SUFFIX,steamcontent.tnkjmec.com,Game
-HOST-SUFFIX,steamdeck.com,Game
 HOST-SUFFIX,steamgames.com,Game
 HOST-SUFFIX,steampipe.akamaized.net,Game
 HOST-SUFFIX,steampowered.com,Game
@@ -522,8 +510,6 @@ HOST-SUFFIX,bethesda.net,Game
 HOST-SUFFIX,bethesdagamestudios.com,Game
 HOST-SUFFIX,bethsoft.com,Game
 HOST-SUFFIX,callersbane.com,Game
-HOST-SUFFIX,doom.com,Game
-HOST-SUFFIX,elderscrolls.com,Game
 HOST-SUFFIX,forzamotorsport.net,Game
 HOST-SUFFIX,forzaracingchampionship.com,Game
 HOST-SUFFIX,forzarc.com,Game
@@ -563,8 +549,10 @@ HOST-KEYWORD,steamstore,Game
 HOST-KEYWORD,steamuserimages,Game
 IP-CIDR,182.162.135.1/32,Game
 IP-CIDR,210.242.235.6/32,Game
+IP-CIDR,24.105.30.129/32,Game
 IP-CIDR,54.94.196.47/32,Game
 IP-CIDR,182.162.132.1/32,Game
+IP-CIDR,103.4.114.233/32,Game
 IP-CIDR,182.162.116.1/32,Game
 IP-CIDR,202.9.67.59/32,Game
 IP-CIDR,203.69.111.4/32,Game
@@ -573,10 +561,8 @@ IP-CIDR,35.192.0.0/12,Game
 IP-CIDR,203.66.81.98/32,Game
 IP-CIDR,211.234.110.1/32,Game
 IP-CIDR,54.207.107.12/32,Game
-IP-CIDR,103.4.114.233/32,Game
 IP-CIDR,202.9.67.254/32,Game
 IP-CIDR,222.231.22.1/32,Game
-IP-CIDR,24.105.30.129/32,Game
 IP-CIDR,13.210.25.233/32,Game
 IP-CIDR,13.212.170.102/32,Game
 IP-CIDR,13.212.171.212/32,Game

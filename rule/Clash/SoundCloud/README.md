@@ -12,7 +12,7 @@ SoundCloud规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:34
+最后更新时间：2024-02-03 01:46:28
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -25,9 +25,11 @@ SoundCloud规则由《RULE GENERATOR 规则生成器》自动生成。
 
 #### 使用说明
 - SoundCloud.yaml，请使用 behavior: "classical"。
+- SoundCloud_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - SoundCloud.yaml 单独使用。
+- SoundCloud_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -66,7 +68,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/SoundCloud.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Music/SoundCloud.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SoundCloud.list
-- https://rules.kr328.app/soundcloud.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SoundCloud.yaml
 
 

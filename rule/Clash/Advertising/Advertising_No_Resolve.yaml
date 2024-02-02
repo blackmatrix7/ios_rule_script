@@ -1,16 +1,17 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-29 02:09:37
-# DOMAIN: 16157
-# DOMAIN-KEYWORD: 115
-# DOMAIN-SUFFIX: 98231
+# UPDATED: 2024-02-03 01:41:59
+# DOMAIN: 16257
+# DOMAIN-KEYWORD: 117
+# DOMAIN-SUFFIX: 115185
 # IP-CIDR: 428
-# PROCESS-NAME: 5
-# TOTAL: 114936
+# TOTAL: 131987
 payload:
   - DOMAIN-KEYWORD,-logging.nextmedia.com
+  - DOMAIN-KEYWORD,-s2s.sensic.net
   - DOMAIN-KEYWORD,-spiky.clevertap-prod.com
+  - DOMAIN-KEYWORD,-tracker.biliapi.net
   - DOMAIN-KEYWORD,.engage.3m.
   - DOMAIN-KEYWORD,.estream.
   - DOMAIN-KEYWORD,.freecontent.
@@ -552,8 +553,3 @@ payload:
   - IP-CIDR,77.162.125.199/32,no-resolve
   - IP-CIDR,78.140.131.214/32,no-resolve
   - IP-CIDR,88.42.84.136/32,no-resolve
-  - PROCESS-NAME,LemonAgent
-  - PROCESS-NAME,LemonDaemon
-  - PROCESS-NAME,LemonMonitor
-  - PROCESS-NAME,LemonService
-  - PROCESS-NAME,TencentLemon

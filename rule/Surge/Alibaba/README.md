@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:14
+最后更新时间：2024-02-03 01:47:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -32,9 +32,14 @@
 - Alibaba_Domain.list，请使用DOMAIN-SET。
 
 #### 文件区别
+- Alibaba_All.list与Alibaba_All_No_Resolve.list为 Surge 5.21.0(2952) 以上版本使用
 - Alibaba_Resolve.list与Alibaba.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
+- Surge 5.21.0(2952)以上版本使用以下配置：
+- Alibaba_All.list 单独使用。
+- Alibaba_All_No_Resolve.list 单独使用。
+- Surge 5.21.0(2952)以下版本使用以下配置：
 - Alibaba.list、Alibaba_Domain.list 共同使用。
 - Alibaba_Resolve.list、Alibaba_Domain.list 共同使用。
 
@@ -74,10 +79,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list
-- https://rules.kr328.app/alibaba-ads@ads.yaml
-- https://rules.kr328.app/alibaba@ads.yaml
-- https://rules.kr328.app/alibaba.yaml
-- https://rules.kr328.app/alibaba-ads.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Alibaba.yaml
 - https://ruleset.isagood.day/alibaba.conf
 - https://ruleset.isagood.day/alibaba_domain.conf

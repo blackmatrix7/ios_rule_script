@@ -1,9 +1,9 @@
 # NAME: SystemOTA
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-28 15:47:00
-# DOMAIN: 48
-# DOMAIN-SUFFIX: 30
+# UPDATED: 2024-02-03 01:43:29
+# DOMAIN: 65
+# DOMAIN-SUFFIX: 13
 # TOTAL: 78
 payload:
   - DOMAIN,appldnld-cdn.apple.com.akadns.net
@@ -18,9 +18,14 @@ payload:
   - DOMAIN,gg-cdn.apple.com.akadns.net
   - DOMAIN,gg-cdn.origin-apple.com.akadns.net
   - DOMAIN,gg-lb.apple.com.akadns.net
+  - DOMAIN,gg.apple.com
   - DOMAIN,gg.apple.com.akadns.net
   - DOMAIN,gg.apple.com.mwcname.com
   - DOMAIN,gg.g.aaplimg.com
+  - DOMAIN,gnf-mdn.apple.com
+  - DOMAIN,gnf-mr.apple.com
+  - DOMAIN,gs.apple.com
+  - DOMAIN,ig.apple.com
   - DOMAIN,iphonesubmissions-cdn.apple.com.akadns.net
   - DOMAIN,iphonesubmissions-cdn.origin-apple.com.akadns.net
   - DOMAIN,iphonesubmissions-lb.apple.com.akadns.net
@@ -31,10 +36,13 @@ payload:
   - DOMAIN,mesu-lb.apple.com.akadns.net
   - DOMAIN,mesu.apple.com.akadns.net
   - DOMAIN,mesu.apple.com.mwcname.com
+  - DOMAIN,ns.itunes.apple.com
   - DOMAIN,ocsp-cdn.apple.com.akadns.net
   - DOMAIN,ocsp-cdn.origin-apple.com.akadns.net
   - DOMAIN,ocsp.apple.com.akadns.net
   - DOMAIN,ocsp.apple.com.mwcname.com
+  - DOMAIN,oscdn.apple.com
+  - DOMAIN,osrecovery.apple.com
   - DOMAIN,radarsubmissions-cdn.apple.com.akadns.net
   - DOMAIN,radarsubmissions-cdn.origin-apple.com.akadns.net
   - DOMAIN,radarsubmissions-lb.apple.com.akadns.net
@@ -42,15 +50,24 @@ payload:
   - DOMAIN,radarsubmissions.apple.com.akadns.net
   - DOMAIN,radarsubmissions.apple.com.mwcname.com
   - DOMAIN,radarsubmissions.g.aaplimg.com
+  - DOMAIN,skl.apple.com
+  - DOMAIN,swcdn.apple.com
+  - DOMAIN,swdist.apple.com
+  - DOMAIN,swdownload.apple.com
+  - DOMAIN,swpost.apple.com
   - DOMAIN,swscan-cdn.apple.com.akadns.net
   - DOMAIN,swscan-cdn.origin-apple.com.akadns.net
   - DOMAIN,swscan-lb.apple.com.akadns.net
+  - DOMAIN,swscan.apple.com
   - DOMAIN,swscan.apple.com.akadns.net
   - DOMAIN,swscan.apple.com.mwcname.com
   - DOMAIN,swscan.g.aaplimg.com
+  - DOMAIN,updates-http.cdn-apple.com
+  - DOMAIN,updates.cdn-apple.com
   - DOMAIN,xp-cdn.apple.com.akadns.net
   - DOMAIN,xp-cdn.origin-apple.com.akadns.net
   - DOMAIN,xp-lb.apple.com.akadns.net
+  - DOMAIN,xp.apple.com
   - DOMAIN,xp.apple.com.akadns.net
   - DOMAIN,xp.apple.com.mwcname.com
   - DOMAIN,xp.g.aaplimg.com
@@ -60,27 +77,10 @@ payload:
   - DOMAIN-SUFFIX,appldnld.g.aaplimg.com
   - DOMAIN-SUFFIX,gdmf.apple.com
   - DOMAIN-SUFFIX,gdmf.apple.com.akadns.net
-  - DOMAIN-SUFFIX,gg.apple.com
-  - DOMAIN-SUFFIX,gnf-mdn.apple.com
-  - DOMAIN-SUFFIX,gnf-mr.apple.com
-  - DOMAIN-SUFFIX,gs.apple.com
-  - DOMAIN-SUFFIX,ig.apple.com
   - DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
   - DOMAIN-SUFFIX,mesu-cdn.origin-apple.com.akadns.net
   - DOMAIN-SUFFIX,mesu.apple.com
   - DOMAIN-SUFFIX,mesu.g.aaplimg.com
-  - DOMAIN-SUFFIX,ns.itunes.apple.com
   - DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net
   - DOMAIN-SUFFIX,ocsp.apple.com
   - DOMAIN-SUFFIX,ocsp.g.aaplimg.com
-  - DOMAIN-SUFFIX,oscdn.apple.com
-  - DOMAIN-SUFFIX,osrecovery.apple.com
-  - DOMAIN-SUFFIX,skl.apple.com
-  - DOMAIN-SUFFIX,swcdn.apple.com
-  - DOMAIN-SUFFIX,swdist.apple.com
-  - DOMAIN-SUFFIX,swdownload.apple.com
-  - DOMAIN-SUFFIX,swpost.apple.com
-  - DOMAIN-SUFFIX,swscan.apple.com
-  - DOMAIN-SUFFIX,updates-http.cdn-apple.com
-  - DOMAIN-SUFFIX,updates.cdn-apple.com
-  - DOMAIN-SUFFIX,xp.apple.com

@@ -21,19 +21,18 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-29 02:10:46
+最后更新时间：2024-02-03 01:43:05
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | AND | 7  | 
-| DOMAIN | 12497  | 
-| DOMAIN-KEYWORD | 302  | 
-| DOMAIN-SUFFIX | 128401  | 
-| IP-CIDR | 452  | 
-| PROCESS-NAME | 5  | 
-| URL-REGEX | 303  | 
-| TOTAL | 141967  | 
+| DOMAIN | 12434  | 
+| DOMAIN-KEYWORD | 122  | 
+| DOMAIN-SUFFIX | 142006  | 
+| IP-CIDR | 451  | 
+| URL-REGEX | 34  | 
+| TOTAL | 155054  | 
 
 
 ## Surge 
@@ -45,9 +44,14 @@
 - URL-REGEX类型的规则，在HTTPS协议中，需要配合MITM使用。规则生成器已尝试推导MITM的配置AdvertisingTest_MITM.sgmodule，仅供参考。
 
 #### 文件区别
+- AdvertisingTest_All.list与AdvertisingTest_All_No_Resolve.list为 Surge 5.21.0(2952) 以上版本使用
 - AdvertisingTest_Resolve.list与AdvertisingTest.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
+- Surge 5.21.0(2952)以上版本使用以下配置：
+- AdvertisingTest_All.list 单独使用。
+- AdvertisingTest_All_No_Resolve.list 单独使用。
+- Surge 5.21.0(2952)以下版本使用以下配置：
 - AdvertisingTest.list、AdvertisingTest_Domain.list 共同使用。
 - AdvertisingTest_Resolve.list、AdvertisingTest_Domain.list 共同使用。
 
@@ -134,7 +138,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
 - https://ruleset.isagood.day/reject.conf
-- https://ruleset.isagood.day/reject_domain1.conf
 - https://ruleset.isagood.day/reject_drop.conf
 
 

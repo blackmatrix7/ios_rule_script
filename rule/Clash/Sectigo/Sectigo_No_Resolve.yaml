@@ -1,23 +1,14 @@
 # NAME: Sectigo
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-28 15:50:34
-# DOMAIN-SUFFIX: 16
-# TOTAL: 16
+# UPDATED: 2024-02-03 01:47:30
+# DOMAIN-SUFFIX: 7
+# TOTAL: 7
 payload:
-  - DOMAIN-SUFFIX,aoc.cat
-  - DOMAIN-SUFFIX,catcert.cat
   - DOMAIN-SUFFIX,enterprisessl.com
   - DOMAIN-SUFFIX,hackerguardian.com
-  - DOMAIN-SUFFIX,incommon-rsa.org
   - DOMAIN-SUFFIX,instantssl.com
-  - DOMAIN-SUFFIX,netsolssl.com
-  - DOMAIN-SUFFIX,oemssl.cn
-  - DOMAIN-SUFFIX,oemssl.cn.cdn.cloudflare.net
   - DOMAIN-SUFFIX,optimumssl.com
   - DOMAIN-SUFFIX,positivessl.com
   - DOMAIN-SUFFIX,sectigo.com
-  - DOMAIN-SUFFIX,sectigochina.com
-  - DOMAIN-SUFFIX,trust-provider.cn
-  - DOMAIN-SUFFIX,trust-provider.com
   - DOMAIN-SUFFIX,usertrust.com

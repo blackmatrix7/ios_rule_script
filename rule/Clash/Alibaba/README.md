@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:14
+最后更新时间：2024-02-03 01:47:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -28,13 +28,14 @@
 
 #### 使用说明
 - Alibaba.yaml，请使用 behavior: "classical"。
+- Alibaba_Resolve.yaml，请使用 behavior: "classical"。
 - Alibaba_Classical.yaml，请使用 behavior: "classical"。
 - Alibaba_Domain.yaml，请使用 behavior: "domain"。
 
 #### 配置建议
-- Alibaba_Domain.yaml 单独使用。
 - Alibaba_Classical.yaml 单独使用。
 - Alibaba.yaml、Alibaba_Domain.yaml 共同使用。
+- Alibaba_Resolve.yaml、Alibaba_Domain.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -43,7 +44,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Alibaba/Alibaba_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Alibaba/Alibaba_Domain_For_Clash.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Alibaba/Alibaba_Domain.txt
 
 **MASTER分支 CDN (每日更新)**
 
@@ -51,7 +52,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Aliba
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Alibaba/Alibaba_Classical.yaml
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Alibaba/Alibaba_Domain_For_Clash.txt
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Alibaba/Alibaba_Domain.txt
 
 **MASTER分支 GHProxy (每日更新)**
 
@@ -59,7 +60,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Alibaba/Alibaba_Classical.yaml
 
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Alibaba/Alibaba_Domain_For_Clash.txt
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Alibaba/Alibaba_Domain.txt
 
 **RELEASE分支 (不定时更新)**
 
@@ -67,7 +68,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Alibaba/Alibaba_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Alibaba/Alibaba_Domain_For_Clash.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Alibaba/Alibaba_Domain.txt
 
 **RELEASE分支CDN (不定时更新)**
 
@@ -75,7 +76,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Alib
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Alibaba/Alibaba_Classical.yaml
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Alibaba/Alibaba_Domain_For_Clash.txt
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Alibaba/Alibaba_Domain.txt
 
 **RELEASE分支 GHProxy (不定时更新)**
 
@@ -83,7 +84,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Alibaba/Alibaba_Classical.yaml
 
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Alibaba/Alibaba_Domain_For_Clash.txt
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Alibaba/Alibaba_Domain.txt
 
 ## 子规则/排除规则
 
@@ -96,10 +97,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list
-- https://rules.kr328.app/alibaba-ads@ads.yaml
-- https://rules.kr328.app/alibaba@ads.yaml
-- https://rules.kr328.app/alibaba.yaml
-- https://rules.kr328.app/alibaba-ads.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Alibaba.yaml
 - https://ruleset.isagood.day/alibaba.conf
 - https://ruleset.isagood.day/alibaba_domain.conf

@@ -12,22 +12,24 @@ HP规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:31
+最后更新时间：2024-02-03 01:47:27
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 158  | 
-| TOTAL | 158  | 
+| DOMAIN-SUFFIX | 4  | 
+| TOTAL | 4  | 
 
 
 ## Clash 
 
 #### 使用说明
 - HP.yaml，请使用 behavior: "classical"。
+- HP_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - HP.yaml 单独使用。
+- HP_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -65,8 +67,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HP.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HP.yaml
-- https://rules.kr328.app/hp.yaml
-- https://rules.kr328.app/hp@cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

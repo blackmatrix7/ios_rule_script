@@ -1,8 +1,16 @@
 # NAME: BardAI
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-28 15:52:37
-# DOMAIN-SUFFIX: 1
-# TOTAL: 1
+# UPDATED: 2024-02-03 01:49:23
+# DOMAIN: 4
+# DOMAIN-SUFFIX: 4
+# TOTAL: 8
 payload:
+  - DOMAIN,ai.google.dev
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,makersuite.google.com
   - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,generativeai.google

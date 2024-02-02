@@ -12,24 +12,26 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:13
+最后更新时间：2024-02-03 01:47:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 2  | 
+| DOMAIN | 1  | 
 | DOMAIN-SUFFIX | 9  | 
-| IP-CIDR | 19  | 
-| TOTAL | 30  | 
+| IP-CIDR | 18  | 
+| TOTAL | 28  | 
 
 
 ## Clash 
 
 #### 使用说明
 - NetEaseMusic.yaml，请使用 behavior: "classical"。
+- NetEaseMusic_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - NetEaseMusic.yaml 单独使用。
+- NetEaseMusic_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

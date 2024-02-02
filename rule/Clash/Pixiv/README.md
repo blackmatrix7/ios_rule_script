@@ -12,22 +12,24 @@ Pixiv规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:34
+最后更新时间：2024-02-03 01:47:29
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 9  | 
-| TOTAL | 9  | 
+| DOMAIN-SUFFIX | 8  | 
+| TOTAL | 8  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Pixiv.yaml，请使用 behavior: "classical"。
+- Pixiv_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - Pixiv.yaml 单独使用。
+- Pixiv_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -66,7 +68,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Pixiv.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Pixiv.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Pixiv.list
-- https://rules.kr328.app/pixiv.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Pixiv.yaml
 
 

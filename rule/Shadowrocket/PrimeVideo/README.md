@@ -12,16 +12,16 @@ PrimeVideo规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:39
+最后更新时间：2024-02-03 01:47:34
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 9  | 
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 15  | 
+| DOMAIN-SUFFIX | 6  | 
 | USER-AGENT | 2  | 
-| TOTAL | 27  | 
+| TOTAL | 18  | 
 
 
 ## Shadowrocket 
@@ -67,8 +67,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《PrimeVideo》的数据来自以下链接，如与本项目的《PrimeVideo》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Prime-Video.list
-- https://rules.kr328.app/primevideo.yaml
-- https://rules.kr328.app/primevideo@cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

@@ -12,7 +12,7 @@ PayPal规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:29
+最后更新时间：2024-02-03 01:46:24
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -26,9 +26,11 @@ PayPal规则由《RULE GENERATOR 规则生成器》自动生成。
 
 #### 使用说明
 - PayPal.yaml，请使用 behavior: "classical"。
+- PayPal_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - PayPal.yaml 单独使用。
+- PayPal_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -70,8 +72,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PayPal.list
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/PayPal.yaml
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/PayPal.yaml
-- https://rules.kr328.app/paypal.yaml
-- https://rules.kr328.app/paypal@cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

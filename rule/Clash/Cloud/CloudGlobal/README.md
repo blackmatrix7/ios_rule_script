@@ -12,29 +12,30 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:51:44
+最后更新时间：2024-02-03 01:48:33
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 25  | 
+| DOMAIN-SUFFIX | 19  | 
 | IP-CIDR | 1983  | 
 | IP-CIDR6 | 859  | 
-| TOTAL | 2867  | 
+| TOTAL | 2861  | 
 
 
 ## Clash 
 
 #### 使用说明
 - CloudGlobal.yaml，请使用 behavior: "classical"。
+- CloudGlobal_Resolve.yaml，请使用 behavior: "classical"。
 - CloudGlobal_Classical.yaml，请使用 behavior: "classical"。
 - CloudGlobal_IP.yaml，请使用 behavior: "ipcidr"。
 - CloudGlobal_IP_No_IPv6.yaml，请使用 behavior: "ipcidr"。
 
 #### 配置建议
-- CloudGlobal_IP.yaml 单独使用。
 - CloudGlobal_Classical.yaml 单独使用。
 - CloudGlobal.yaml、CloudGlobal_IP.yaml 共同使用。
+- CloudGlobal_Resolve.yaml、CloudGlobal_IP.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -113,7 +114,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/Amazon.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/HiNet.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global.list
-- https://rules.kr328.app/hinet.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

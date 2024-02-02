@@ -12,20 +12,20 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-29 02:13:35
+最后更新时间：2024-02-03 01:46:21
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 29  | 
+| DOMAIN | 28  | 
 | DOMAIN-KEYWORD | 25  | 
 | DOMAIN-SUFFIX | 1253  | 
 | IP-CIDR | 918  | 
 | IP-CIDR6 | 6  | 
-| PROCESS-NAME | 13  | 
+| PROCESS-NAME | 15  | 
 | URL-REGEX | 1  | 
-| USER-AGENT | 62  | 
-| TOTAL | 2307  | 
+| USER-AGENT | 69  | 
+| TOTAL | 2315  | 
 
 
 ## Surge 
@@ -37,9 +37,14 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 - URL-REGEX类型的规则，在HTTPS协议中，需要配合MITM使用。规则生成器已尝试推导MITM的配置GlobalMedia_MITM.sgmodule，仅供参考。
 
 #### 文件区别
+- GlobalMedia_All.list与GlobalMedia_All_No_Resolve.list为 Surge 5.21.0(2952) 以上版本使用
 - GlobalMedia_Resolve.list与GlobalMedia.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
+- Surge 5.21.0(2952)以上版本使用以下配置：
+- GlobalMedia_All.list 单独使用。
+- GlobalMedia_All_No_Resolve.list 单独使用。
+- Surge 5.21.0(2952)以下版本使用以下配置：
 - GlobalMedia.list、GlobalMedia_Domain.list 共同使用。
 - GlobalMedia_Resolve.list、GlobalMedia_Domain.list 共同使用。
 
@@ -97,8 +102,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/GMedia.list
-- https://rules.kr328.app/youtube.yaml
-- https://rules.kr328.app/youtube@cn.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTubeMusic.yaml
 - https://ruleset.isagood.day/stream.conf
 - https://ruleset.isagood.day/youtube.conf

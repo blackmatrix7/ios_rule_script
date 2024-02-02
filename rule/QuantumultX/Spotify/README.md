@@ -12,17 +12,17 @@ Spotify规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:49:29
+最后更新时间：2024-02-03 01:46:23
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 11  | 
+| HOST | 6  | 
 | HOST-KEYWORD | 2  | 
 | HOST-SUFFIX | 19  | 
 | IP-CIDR | 2  | 
 | USER-AGENT | 1  | 
-| TOTAL | 35  | 
+| TOTAL | 30  | 
 
 
 ## QuantumultX 
@@ -69,9 +69,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Spotify.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Spotify.yaml
-- https://rules.kr328.app/spotify-ads.yaml
-- https://rules.kr328.app/spotify.yaml
-- https://rules.kr328.app/spotify-ads@ads.yaml
 - https://ruleset.isagood.day/spotify.conf
 
 

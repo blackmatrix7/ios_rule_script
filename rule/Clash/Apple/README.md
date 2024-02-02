@@ -12,7 +12,7 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:47:01
+最后更新时间：2024-02-03 01:43:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -21,21 +21,22 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 | DOMAIN-KEYWORD | 7  | 
 | DOMAIN-SUFFIX | 1549  | 
 | IP-CIDR | 10  | 
-| PROCESS-NAME | 7  | 
-| TOTAL | 1582  | 
+| PROCESS-NAME | 14  | 
+| TOTAL | 1589  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Apple.yaml，请使用 behavior: "classical"。
+- Apple_Resolve.yaml，请使用 behavior: "classical"。
 - Apple_Classical.yaml，请使用 behavior: "classical"。
 - Apple_Domain.yaml，请使用 behavior: "domain"。
 
 #### 配置建议
-- Apple_Domain.yaml 单独使用。
 - Apple_Classical.yaml 单独使用。
 - Apple.yaml、Apple_Domain.yaml 共同使用。
+- Apple_Resolve.yaml、Apple_Domain.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -44,7 +45,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Domain_For_Clash.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Domain.txt
 
 **MASTER分支 CDN (每日更新)**
 
@@ -52,7 +53,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Classical.yaml
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Domain_For_Clash.txt
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Domain.txt
 
 **MASTER分支 GHProxy (每日更新)**
 
@@ -60,7 +61,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml
 
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Domain_For_Clash.txt
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Domain.txt
 
 **RELEASE分支 (不定时更新)**
 
@@ -68,7 +69,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Apple/Apple_Classical.yaml
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Apple/Apple_Domain_For_Clash.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Apple/Apple_Domain.txt
 
 **RELEASE分支CDN (不定时更新)**
 
@@ -76,7 +77,7 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Appl
 
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Apple/Apple_Classical.yaml
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Apple/Apple_Domain_For_Clash.txt
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Apple/Apple_Domain.txt
 
 **RELEASE分支 GHProxy (不定时更新)**
 
@@ -84,7 +85,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Apple/Apple_Classical.yaml
 
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Apple/Apple_Domain_For_Clash.txt
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Apple/Apple_Domain.txt
 
 ## 子规则/排除规则
 
@@ -135,14 +136,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleMedia.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Apple.list
-- https://rules.kr328.app/icloud@cn.yaml
-- https://rules.kr328.app/apple-ads@ads.yaml
-- https://rules.kr328.app/apple.yaml
-- https://rules.kr328.app/icloudprivaterelay.yaml
-- https://rules.kr328.app/apple@cn.yaml
-- https://rules.kr328.app/icloud.yaml
-- https://rules.kr328.app/apple-ads.yaml
-- https://rules.kr328.app/apple@ads.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleNews.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleTV.yaml
 - https://ruleset.isagood.day/apple_cdn_domain.conf

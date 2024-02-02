@@ -1,11 +1,11 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2023-11-28 15:52:59
+#!desc=最后更新时间 2024-02-03 01:49:40
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=543
-#!mitm=447
+#!reject=441
+#!mitm=373
 #!force-http-engine-hosts=6
-#!total=996
+#!total=820
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -21,17 +21,18 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?://newclient\.map\.baidu\.com/client/crossmarketing" - reject
 "^https?://newclient\.map\.baidu\.com/client/usersystem/home/dynamic" - reject
 "^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap" - reject
+"^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert" - reject
 "^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/" - reject
 "^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4})" - reject
 "^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4})" - reject
 "^https?:\/\/(mobile|shop)\.laichon\.com\/api\/(v1\/goods\/goodsList|exposureAdvStatistics|getWebAdvList)" - reject
 "^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4)" - reject
-"^https?:\/\/(www|cn)\.pornhub\.com\/_xa\/ads.*" - reject
 "^https?:\/\/3g\.csair\.com\/CSMBP\/bookProcess\/homepopup\/queryAdvertisement" - reject
+"^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/" - reject
 "^https?:\/\/\w+\.58cdn\.com\.cn\/brandads\/" - reject
-"^https?:\/\/\w+\.jstucdn\.com\/(g3\/|js\/ad)" - reject
 "^https?:\/\/\w+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/" - reject
 "^https?:\/\/\w+\.kingsoft-office-service\.com\/ad" - reject
+"^https?:\/\/a\.qiumibao\.com\/activities\/config\.php" - reject
 "^https?:\/\/a\.qiumibao\.com\/ios\/config\/\?version_code=" - reject
 "^https?:\/\/access\.mypikpak\.com\/access_controller\/v1\/area_accessible" - reject
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.mec\.popup\.get" - reject
@@ -39,18 +40,23 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/" - reject
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/" - reject
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/" - reject
+"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.wdk\.render\.querysinglepage" - reject
 "^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do" - reject
 "^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show" - reject
+"^https?:\/\/ad\.lofter\.com\/.*yitou\/madr" - reject
 "^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$" - reject
 "^https?:\/\/adapi\.izuiyou\.com\/" - reject
 "^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend" - reject
+"^https?:\/\/adpai\.thepaper\.cn\/.+?&ad=" - reject
 "^https?:\/\/adproxy\.autohome\.com\.cn\/AdvertiseService\/" - reject
 "^https?:\/\/ads-img-al\.xhscdn\.com\/hera\/" - reject
+"^https?:\/\/adv\.ccb\.com\/ebda\/ctm_adv" - reject
 "^https?:\/\/adx-cn\.anythinktech\.com\/bid" - reject
 "^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads" - reject
 "^https?:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo" - reject
-"^https?:\/\/api-ks\.wtzw\.com\/api\/v(1|2)\/(float-adv|init-adv|reader-adv|bookshelf-adv|coopen-adv)" - reject
+"^https?:\/\/api-mifit\.huami\.com\/(discovery\/mi\/discovery\/(homepage|sleep|sport(_(summary|training))?|step_detail|training_video)_ad|v1\/app\/startpages\.json)\?" - reject
 "^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/" - reject
+"^https?:\/\/api-release\.wuta-cam\.com\/ad_tree" - reject
 "^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v1\/sams\/sams-user\/(window\/getGoUpPlus|screen_promotion\/get)" - reject
 "^https?:\/\/api1\.34580\.com\/wx\/Home\/AdvertisementPhotoshootRequest" - reject
 "^https?:\/\/api4\.bybutter\.com\/v\d\/app\/placements\/\d\/advertisements" - reject
@@ -60,9 +66,12 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/api\.ahmobile\.cn:443\/eip\?eip_serv_id=app\.getAllNew" - reject
 "^https?:\/\/api\.applovefrom\.com\/api\/v\d\/splash\/" - reject
 "^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/ads\/" - reject
+"^https?:\/\/api\.caijingmobile\.com\/(ad|advert)\/" - reject
 "^https?:\/\/api\.caiyunapp\.com\/v1\/activity" - reject
 "^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/" - reject
 "^https?:\/\/api\.cdmcaac\.com\/ad\/" - reject
+"^https?:\/\/api\.chelaile\.net\.cn\/adpub\/" - reject
+"^https?:\/\/api\.chelaile\.net\.cn\/goocity\/advert\/" - reject
 "^https?:\/\/api\.cloud\.189\.cn\/guns\/getOpenscreenBanners" - reject
 "^https?:\/\/api\.club\.lenovo\.cn\/common\/open_ad" - reject
 "^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init" - reject
@@ -73,19 +82,31 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/api\.gotokeep\.com\/ads" - reject
 "^https?:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad/" - reject
 "^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\?" - reject
+"^https?:\/\/api\.haohaozhu\.cn\/index\.php\/home\/AppInit\/getStartPhoto" - reject
 "^https?:\/\/api\.internetofcity\.cn\/api\/resource\/anon\/popups\/getSplashList" - reject
+"^https?:\/\/api\.izuiyou\.com\/ad\/" - reject
 "^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen" - reject
 "^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/" - reject
 "^https?:\/\/api\.jxedt\.com\/ad\/" - reject
+"^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense" - reject
+"^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/" - reject
 "^https?:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/(resource|banner)" - reject
 "^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads" - reject
 "^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start" - reject
+"^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage" - reject
+"^https?:\/\/api\.psy-1\.com\/cosleep\/startup" - reject
+"^https?:\/\/api\.qbb6\.com\/ad\/" - reject
+"^https?:\/\/api\.qiuduoduo\.cn\/guideimage" - reject
+"^https?:\/\/api\.rr\.tv\/ad\/" - reject
 "^https?:\/\/api\.taou\.com\/sdk\/global\/splash_ad" - reject
 "^https?:\/\/api\.touker\.com\/v2\/IAdvertisementAPI\.queryStartAdvertisement" - reject
+"^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement" - reject
 "^https?:\/\/api\.vuevideo\.net\/api\/v\d\/ad\/" - reject
+"^https?:\/\/api\.waitwaitpay\.com\/\/api\/splash" - reject
 "^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/" - reject
 "^https?:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList)" - reject
 "^https?:\/\/api\.wmpvp\.com\/api\/v\d\/config\/promote" - reject
+"^https?:\/\/api\.xiachufang\.com\/v\d\/ad/" - reject
 "^https?:\/\/api\.xiaoyi\.com\/v5\/app\/config\?userid=.*" - reject
 "^https?:\/\/api\.xiaoyi\.com\/v5\/app\/mobile\/ads" - reject
 "^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json" - reject
@@ -93,11 +114,16 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/Client\/main\/startPage" - reject
 "^https?:\/\/api\.yizhibo\.com\/common\/api\/(api_)?pz$" - reject
 "^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd" - reject
+"^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage" - reject
+"^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios" - reject
+"^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated" - reject
+"^https?:\/\/api\d\.futunn\.com\/ad\/" - reject
 "^https?:\/\/apis\.lifeweek\.com\.cn\/api\/baseConfig\/getIosNewConfig" - reject
-"^https?:\/\/app-api\.jinse\.com\/v\d\/ad\/" - reject
 "^https?:\/\/app-api\.niu\.com\/v\d\/advertisement\/" - reject
 "^https?:\/\/app-gw\.csdn\.net\/silkroad-api\/api\/v\d\/assemble\/list\/pub\/channel\/app_open_screen_ad" - reject
 "^https?:\/\/app2\.autoimg\.cn\/appdfs\/" - reject
+"^https?:\/\/app3\.qdaily\.com\/app3\/boot_advertisements\.json" - reject
+"^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv)\/" - reject
 "^https?:\/\/app\.58\.com\/api\/home\/invite\/popupAdv" - reject
 "^https?:\/\/app\.58\.com\/api\/log\/" - reject
 "^https?:\/\/app\.api\.d3yuiw4\.com\/api\/app\/ad" - reject
@@ -108,29 +134,41 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/app\.dewu\.com\/api\/v\d\/app\/advertisement\/" - reject
 "^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list" - reject
 "^https?:\/\/app\.homeinns\.com\/api\/landing" - reject
+"^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad" - reject
 "^https?:\/\/app\.peopleapp\.com\/Api\/\d+/HomeApi\/(adv|getAdvertImage)" - reject
-"^https?:\/\/app\.relxtech\.com\/dianziyan-api\/api\/screen\/advert\/random" - reject
+"^https?:\/\/app\.poizon\.com\/api\/v\d\/app\/advertisement\/" - reject
+"^https?:\/\/app\.variflight\.com\/ad\/" - reject
+"^https?:\/\/app\.variflight\.com\/v\d\/advert\/" - reject
 "^https?:\/\/app\.yinxiang\.com\/ads\/" - reject
+"^https?:\/\/app\.zhuanzhuan\.com\/zzx\/transfer\/getConfigInfo$" - reject
 "^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg" - reject
+"^https?:\/\/appapi\.huazhu\.com:\d{4}\/client\/app\/getAppStartPage\/" - reject
+"^https?:\/\/appconf\.mail\.163\.com\/mmad\/" - reject
 "^https?:\/\/apps\.api\.ke\.com\/config\/config\/(bootpage|getactivityconfig)" - reject
 "^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad" - reject
 "^https?:\/\/atrace\.chelaile\.net\.cn\/adpub\/" - reject
 "^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image" - reject
+"^https?:\/\/axxd\.xmseeyouyima\.com\/v\d\/getad" - reject
 "^https?:\/\/b\.appsimg\.com\/upload\/momin\/" - reject
 "^https?:\/\/bbs-api\.miyoushe\.com\/apihub\/api\/getAppSplash" - reject
 "^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash" - reject
+"^https?:\/\/business\.msstatic\.com\/advertiser\/" - reject
 "^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo" - reject
 "^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule" - reject
+"^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/" - reject
 "^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/(homePage\/contactor\/modules|app\/adposNew)" - reject
+"^https?:\/\/capi\.mwee\.cn\/app-api\/V\d+\/app\/(ad|getstartad)" - reject
 "^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/boot\?" - reject
 "^https?:\/\/capis(-\d)?\.didapinche\.com\/ad\/" - reject
 "^https?:\/\/carapp\.gtmc\.com\.cn\/api\/appgtmc\/homePage\/HomePageAction\/queryHomePageImg\.json" - reject
 "^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/" - reject
 "^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade" - reject
 "^https?:\/\/cdn\.\w{3}\.chelaileapp\.cn\/(api\/)?adpub" - reject
+"^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/" - reject
 "^https?:\/\/cdn\.cmgadx\.com\/sdk\/pool\/\w+\.json" - reject
 "^https?:\/\/cdn\.dianshihome\.com\/static\/ad\/" - reject
 "^https?:\/\/cdn\.moji\.com\/advert\/" - reject
+"^https?:\/\/client-api-v2\.oray\.com\/materials\/(SLCC_IOS_STARTUP_ADV|SLCC_iOS_DEVICE_FREE|SLCC_iOS_DEVICE_LIST_ADV|SLCC_IOS_DEVICE_ADV|SUNLOGIN_CLIENT_IOS_PROMOTION|SLCC_IOS_DEVICE|SLCC_IOS_STARTUP)" - reject
 "^https?:\/\/client-api\.oray\.com\/materials\/SLCC_IOS_STARTUP\?lang=zh-Hans-CN" - reject
 "^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList" - reject
 "^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds" - reject
@@ -138,17 +176,27 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getStartPictureAdvertising" - reject
 "^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit" - reject
 "^https?:\/\/cloud\.189\.cn\/include\/splash\/" - reject
+"^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/" - reject
 "^https?:\/\/creditcardapp\.bankcomm\.cn\/mappweb_interface\/common\/(qryPopAds|qryLaunchAds)\.do" - reject
+"^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do" - reject
 "^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds" - reject
+"^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd" - reject
 "^https?:\/\/data-collector\.soulapp\.cn\/api\/data\/report$" - reject
 "^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?[\w=&]*(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController)" - reject
+"^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/" - reject
 "^https?:\/\/dispatcher\.camera360\.com\/api\/v1\/list$" - reject
 "^https?:\/\/djcapp\.game\.qq\.com\/daoju\/igw\/main\/\?_service=welink\.ad\.list" - reject
 "^https?:\/\/dl-cu-hz\.lechange\.cn\/oms-online\/advertisementPush\/*" - reject
+"^https?:\/\/dl\.app\.gtja\.com\/dzswem\/kvController\/.+?\.jpg$" - reject
 "^https?:\/\/dq\.dxy\.cn\/api\.php\?action=getpostbanners" - reject
+"^https?:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?adunitid" - reject
+"^https?:\/\/e\.dangdang\.com\/media\/api.+?\?action=getDeviceStartPage" - reject
+"^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/" - reject
 "^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService" - reject
+"^https?:\/\/entree-ws\.igetget\.com\/oms\/front\/start\/push" - reject
+"^https?:\/\/entry\.ubixioe\.com\/mob\/sdk\/v\d\/endpoint" - reject
 "^https?:\/\/evs\.500\.com\/esinfo\/loading\/loading" - reject
-"^https?:\/\/fb\.fbstatic\.cn\/api\/ape-images\/.*.jpg?" - reject
+"^https?:\/\/explorer\.tratao\.com\/api\/client\/v4\/xtransfer\/ad\/" - reject
 "^https?:\/\/fbchina\.flipchina\.cn\/v2\/ad\/query\/*" - reject
 "^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4)" - reject
 "^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview" - reject
@@ -158,24 +206,30 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery" - reject
 "^https?:\/\/gateway-api\.dushu365\.com\/chief-orch\/config\/config\/v100\/appConfig" - reject
 "^https?:\/\/gateway\.36kr\.com\/api\/adx\/ad\/show" - reject
+"^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json" - reject
 "^https?:\/\/gd\.10086\.cn\/gmccapp\/serv\/\?servicename=GMCCAPP_704_002_001_001" - reject
 "^https?:\/\/gfp\.veta\.naver\.com\/adcall\?" - reject
 "^https?:\/\/gha\.ghac\.cn\:8081\/base\/app\/api\/ad\/query\?adType" - reject
 "^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther" - reject
-"^https?:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.*" - reject
 "^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/app-start" - reject
 "^https?:\/\/gongdu\.youshu\.cc\/m\/open_screen\/list_by_udid" - reject
 "^https?:\/\/guanyu\.longfor\.com\/app-server\/api\/v1\/main\/start" - reject
 "^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passengerController\/notk\/passenger\/recommendADs" - reject
+"^https?:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement" - reject
 "^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement" - reject
 "^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v" - reject
 "^https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex)" - reject
 "^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner" - reject
 "^https?:\/\/homefront\.qunar\.com\/front\/splash\/ad" - reject
+"^https?:\/\/i\.ys7\.com\/api\/ads" - reject
 "^https?:\/\/iadmusicmat\.music\.126\.net\/.*?jpg$" - reject
 "^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo" - reject
+"^https?:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad\/" - reject
+"^https?:\/\/ih2\.ireader\.com\/zyapi\/self\/screen\/ad" - reject
 "^https?:\/\/image\.suning\.cn\/uimg\/ma\/ad\/" - reject
+"^https?:\/\/imeclient\.openspeech\.cn\/adservice\/" - reject
 "^https?:\/\/img2\.autoimg\.cn\/admdfs\/" - reject
+"^https?:\/\/img\.jiemian\.com\/ads\/" - reject
 "^https?:\/\/img\.meituan\.net\/(adunion|display|dpmobile|midas)\/\w+\.(gif|jpg|jpg\.webp)$" - reject
 "^https?:\/\/img\.umetrip\.com\/fs\/advert/" - reject
 "^https?:\/\/img\d+\.10101111cdn\.com\/adpos\/" - reject
@@ -189,18 +243,21 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/(guanggao|ts_ad)\/" - reject
 "^https?:\/\/jad-api\.jin10\.com\/ad" - reject
 "^https?:\/\/js-ad\.ayximgs\.com\.ad-universe-cdn\.hzhcbkj\.cn\/xgapp\.php\/v2\/top_notice" - reject
-"^https?:\/\/js\.dilidd\.com\/top\.php" - reject
 "^https?:\/\/jxd524\.github\.io\/iFreeTime\/xid32uxaoecnfv2\/" - reject
 "^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah" - reject
 "^https?:\/\/lchttpapi\.xczim\.com\/1\.1\/functions\/getLaunchImageForIOS" - reject
+"^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\?" - reject
+"^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml" - reject
 "^https?:\/\/m\.ads\.8le8le\.com\/adShow" - reject
 "^https?:\/\/m\.caijing\.com\.cn\/startup_ad_ios\.html$" - reject
+"^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv)" - reject
 "^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd)" - reject
 "^https?:\/\/m\.ctrip\.com\/restapi\/[\w\/]+tripAds" - reject
 "^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/getAdsList" - reject
+"^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage" - reject
 "^https?:\/\/m\.msyc\.cc\/app\/getBootPage\/v\d" - reject
 "^https?:\/\/m\.sd\.10086\.cn\/zapi\/app_common\/homeWelcome\/welcome.do" - reject
-"^https?:\/\/m\.yhdm\.io\/bar\/yfgg.js" - reject
+"^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/" - reject
 "^https?:\/\/m\.you\.163\.com\/activity\/popWindow" - reject
 "^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/" - reject
 "^https?:\/\/ma-adx\.ctrip\.com\/_ma\.gif" - reject
@@ -208,32 +265,45 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/" - reject
 "^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get" - reject
 "^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report" - reject
+"^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init" - reject
+"^https?:\/\/mapi\.mafengwo\.cn\/(travelguide/)?ad\/" - reject
 "^https?:\/\/mapi\.mafengwo\.cn\/ad\/get_launch_ad_list\/v2" - reject
 "^https?:\/\/mapi\.sfbest\.com\/brokerservice-server\/cms\/getPositionById.*" - reject
 "^https?:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare" - reject
+"^https?:\/\/media\.qyer\.com\/ad\/" - reject
 "^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg" - reject
 "^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$" - reject
 "^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement" - reject
 "^https?:\/\/mix-api\.camera360\.com\/v\d\/operational-positions" - reject
 "^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend" - reject
 "^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert" - reject
+"^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/" - reject
+"^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.php" - reject
 "^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/" - reject
 "^https?:\/\/mobileapi-v6\.elong\.com\/adgateway\/" - reject
-"^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport)" - reject
 "^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info" - reject
 "^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo" - reject
 "^https?:\/\/mpos-pic\.helipay\.com\/upload\/images\/advertisment" - reject
 "^https?:\/\/mrobot\.(pcauto|pconline)\.com\.cn\/v\d\/ad\dp" - reject
+"^https?:\/\/mrobot\.pcauto\.com\.cn\/xsp\/s\/auto\/info\/(ad|preload)" - reject
+"^https?:\/\/mrobot\.pconline\.com\.cn\/s\/onlineinfo\/ad\/" - reject
 "^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture" - reject
+"^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo" - reject
 "^https?:\/\/msg\.umengcloud\.com\/admsg\/" - reject
 "^https?:\/\/new-app-api\.ylyk\.com\/v1\/user\/myinfo\/adviser" - reject
 "^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads" - reject
+"^https?:\/\/news\.ssp\.qq\.com\/app" - reject
+"^https?:\/\/nnapp\.cloudbae\.cn(:\d+)?\/mc\/api\/advert" - reject
 "^https?:\/\/open3\.vistastory\.com\/v3\/api.*get_popup" - reject
 "^https?:\/\/open3\.vistastory\.com\/v3\/api\/index\/loading_ad" - reject
 "^https?:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ" - reject
 "^https?:\/\/open\.fitdays\.cn\/uploads\/ad\/" - reject
+"^https?:\/\/open\.qyer\.com\/qyer\/config\/get" - reject
+"^https?:\/\/open\.qyer\.com\/qyer\/startpage\/" - reject
 "^https?:\/\/open\.taou\.com\/maimai\/launch_ad" - reject
 "^https?:\/\/otheve\.beacon\.qq\.com\/analytics\/upload\?sid=.*" - reject
+"^https?:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads" - reject
+"^https?:\/\/p\.du\.163\.com\/ad\/" - reject
 "^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg" - reject
 "^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner|brandCpt)\/\w+\.jpg" - reject
 "^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp" - reject
@@ -243,36 +313,56 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad" - reject
 "^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx" - reject
 "^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage" - reject
+"^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/" - reject
+"^https?:\/\/pic\.edaijia\.cn\/adsplash\/" - reject
+"^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/" - reject
+"^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$" - reject
 "^https?:\/\/pipi\.4kya\.com\/\/xgapp\.php\/v3\/advert\.position=[^2]+" - reject
+"^https?:\/\/promotion\.medlive\.cn\/getcover-v2\?app_name=medlive" - reject
+"^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/" - reject
 "^https?:\/\/pzoap\.moedot\.net\/xgapp\.php\/v2\/top_notice" - reject
+"^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info" - reject
+"^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getBannerAds|getFullScreenPic|getNewsRemoteConfig|getQQNewsRemoteConfig|searchHotCatList|upLoadLoc)" - reject
 "^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc)" - reject
 "^https?:\/\/rengine-platform\.llsapp\.com\/auth\/api\/remoteResource\/darwin" - reject
+"^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json" - reject
 "^https?:\/\/res\.kfc\.com\.cn\/advertisement\/" - reject
 "^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome" - reject
+"^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices)" - reject
 "^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget" - reject
+"^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo" - reject
+"^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json" - reject
 "^https?:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time" - reject
-"^https?:\/\/saad\.ms\.zhangyue\.net\/ad" - reject
+"^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php" - reject
 "^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/.*?\/v\d\/(version|top_notice\?|advert\?position=[^2]+)" - reject
+"^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(GetAD|ADLog)" - reject
 "^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen" - reject
 "^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson" - reject
 "^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/(screen|ad)" - reject
 "^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/screen" - reject
 "^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig" - reject
 "^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen" - reject
-"^https?:\/\/slapi.oray.net/client/ad" - reject
-"^https?:\/\/slapi\.oray\.net\/adver" - reject
+"^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/" - reject
+"^https?:\/\/sp\.kaola\.com\/api\/openad" - reject
+"^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons" - reject
 "^https?:\/\/sso\.ifanr\.com\/jiong\/IOS\/appso\/splash\/" - reject
 "^https?:\/\/ssp\.dzh\.com\.cn\/v2api\/adgroupjson" - reject
 "^https?:\/\/stat\.peopleapp\.com\/" - reject
+"^https?:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad" - reject
 "^https?:\/\/superapp\.xgimi\.com\/api/v1\/app\/ad\/configs\?_sort=createdAt:Adesc" - reject
 "^https?:\/\/support\.you\.163\.com\/appversync\/check.do" - reject
+"^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json" - reject
 "^https?:\/\/syh\.zybang\.com\/com\/adx\/" - reject
 "^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/" - reject
 "^https?:\/\/tagit\.hyhuo\.com\/recover\/list" - reject
 "^https?:\/\/tcmobileapi\.17usoft\.com\/appindexnew\/index\/getappindexconfig" - reject
-"^https?:\/\/tj\.playcvn\.com\/app\/ads\?" - reject
+"^https?:\/\/td\.cgmcare\.cn\/api\/ad" - reject
+"^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/" - reject
+"^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/" - reject
 "^https?:\/\/tk\.lanjiyin\.com\.cn\/ad\/getAdList" - reject
 "^https?:\/\/top-widgets-api\.xiaozujian\.com\/api\/ad\/config" - reject
+"^https?:\/\/tqt\.weibo\.cn\/api\/advert\/" - reject
+"^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=(tqt_sdkad|tqtad)" - reject
 "^https?:\/\/track\.mm\.taou\.com/v\d\/track" - reject
 "^https?:\/\/tracker-download\.oss-cn-beijing\.aliyuncs\.com\/SIMPlus\/(ad_|AD\/)" - reject
 "^https?:\/\/u\d\.iqiyipic\.com\/image\/[\w\/]+\/oad_" - reject
@@ -283,22 +373,25 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/vv\.video\.qq\.com\/getvmind\?" - reject
 "^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/dateSignature\/random" - reject
 "^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog" - reject
+"^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/" - reject
 "^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd" - reject
 "^https?:\/\/web\.chelaile\.net\.cn\/api\/adpub\/" - reject
 "^https?:\/\/webboot\.zhangyue\.com\/zyapi\/bookstore\/ad\/" - reject
 "^https?:\/\/webboot\.zhangyue\.com\/zycl\/api\/ad\/" - reject
-"^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.*" - reject
+"^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads" - reject
 "^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/(openscreen\?ad|loadInfo\?|startpicture)" - reject
 "^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture" - reject
 "^https?:\/\/www1\.elecfans\.com\/www\/delivery\/" - reject
-"^https?:\/\/www\.dililitv\.com\/wp-author\/tga\/.*ad=.*" - reject
+"^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise" - reject
+"^https?:\/\/www\.cntv\.com\/nettv\/adp\/" - reject
+"^https?:\/\/www\.didapinche\.com\/app\/adstat\/" - reject
 "^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis" - reject
 "^https?:\/\/www\.inoreader\.com\/adv\/" - reject
-"^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config" - reject
-"^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/" - reject
+"^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d" - reject
 "^https?:\/\/yanxuan\.nosdn\.127\.net\/.*\.mp4" - reject
 "^https?:\/\/ytmsout\.radio\.cn\/publish\/recScreen\/getLoadPage" - reject
 "^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A002" - reject
+"^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/" - reject
 "^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig" - reject
 "^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData" - reject
 "^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do" - reject
@@ -321,244 +414,49 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getPopAdData" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https:\/\/service\.haiersmarthomes\.com\/management\/banner\/getBannerList\?source=4" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3,4}-\d{4}\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q90\.jpg_\.(heic|webp)$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/7n\.bczcdn\.com\/launchad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/\w+?\.ximalaya\.com\/api\/v\d\/adRealTime" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/a\.apicloud\.com\/start_page\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/a\.qiumibao\.com\/activities\/config\.php" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/adpai\.thepaper\.cn\/.+?&ad=" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/aes\.acfun\.cn\/s\?adzones" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/amap\-aos\-info\-nogw\.amap\.com\/ws\/aos\/alimama\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api-mifit\.huami\.com\/(discovery\/mi\/discovery\/(homepage|sleep|sport(_(summary|training))?|step_detail|training_video)_ad|v1\/app\/startpages\.json)\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api-release\.wuta-cam\.com\/ad_tree" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api3\.cls\.cn\/v1\/boot\/ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/api\.00bang\.cn\/llb\/baseinfo\/advertise\/getAdvertiseByPageCode" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api\.abema\.io\/v\d\/ip\/check" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.caijingmobile\.com\/(ad|advert)\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.chelaile\.net\.cn\/adpub\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.chelaile\.net\.cn\/goocity\/advert\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.feng\.com\/v\d\/advertisement\/.*Claunch" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v\d\/anime_get_question\.php" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/api\.haohaozhu\.cn\/index\.php\/home\/AppInit\/getStartPhoto" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.huomao\.com\/channels\/loginAd" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.intsig\.net\/user\/cs\/operating\/app\/get_startpic\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.izuiyou\.com\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.meipian\.me.+?advert" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.psy-1\.com\/cosleep\/startup" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.qbb6\.com\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.qiuduoduo\.cn\/guideimage" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.rr\.tv\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
+"^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=home_launchConfig" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api\.tipsoon\.com\/api\/v\d\/top\/ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.waitwaitpay\.com\/\/api\/splash" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.xiachufang\.com\/v\d\/ad/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.xueqiu\.com\/ads\/display" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api\d?\.musical\.ly\/api\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/api\d\.futunn\.com\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/app3\.qdaily\.com\/app3\/boot_advertisements\.json" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv)\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/app\.poizon\.com\/api\/v\d\/app\/advertisement\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/app\.variflight\.com\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/app\.variflight\.com\/v\d\/advert\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/app\.wy\.guahao\.com\/json\/white\/dayquestion\/getpopad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/app\.xinpianchang\.com\/open_screen\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/app\.zhuanzhuan\.com\/zzx\/transfer\/getConfigInfo$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/appapi\.huazhu\.com:\d{4}\/client\/app\/getAppStartPage\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/appconf\.mail\.163\.com\/mmad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/appv6\.55haitao\.com\/IflyAd\/getAd" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/asp\.cntv\.myalicdn\.com\/.+?\?maxbr=850" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/btrace\.qq\.com" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+?\.jpg" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/business\.msstatic\.com\/advertiser\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/c\.m\.163\.com\/nc\/gl\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/capi\.mwee\.cn\/app-api\/V\d+\/app\/(ad|getstartad)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/event?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/ride\/detail\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/capis\.didapinche\.com\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn\/63c4e3b558bb610008969f89" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v1\/promote\/ios\/start\/page" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+?\?maxbr=850" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/ctrl\.(playcvn|zmzapi)\.(com|net)\/app\/(ads|init)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/d\.zhangle\.com\/pic\/cft\/interaction\/\d{13}-1242-2248\.jpg" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/dl\.app\.gtja\.com\/dzswem\/kvController\/.+?\.jpg$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?adunitid" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/dsp-impr2\.youdao\.com\/adload" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/e\.dangdang\.com\/media\/api.+?\?action=getDeviceStartPage" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/esdk\.tymcdn\.com\/dbGold\/m\/v2\/mobileLiveReveal\.do\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/explorer\.tratao\.com\/api\/client\/v4\/xtransfer\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/g\.cdn\.pengpengla\.com\/starfantuan\/boot-screen-info\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(interfaceAdMonitor|interfaceAd)\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\." data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/status\/init" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/games\.mobileapi\.hupu\.com\/interfaceAdMonitor" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/gateway\.abite\.com\/cotti-capi\/customer\/position\/list\?code\=cotti-launch-window" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/gg\w+?\.cmvideo\.cn\/v\d\/iflyad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/ggic(\d)?\.cmvideo\.cn\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/ggx\.cmvideo\.cn\/request\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/hk\.app\.joox\.com\/retrieval\/getAd" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/(banner|myTab|openingBanner)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+?_\d{3}x\d{4}" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/i\.ys7\.com\/api\/ads" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\/\d+\/\d+\/BbsImg\.(?<=(big.(png|jpg)))$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/igetcool-gateway\.igetcool\.com\/app-api-other-server\/white\/open\/ads.json" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/ih2\.ireader\.com\/zyapi\/self\/screen\/ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/ih2\.ireader\.com\/zycl\/api\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/rBsZ.+(4038|0571|M511)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/images\.client\.vip\.xunlei\.com\/.+?\/advert\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/imeclient\.openspeech\.cn\/adservice\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/img01\.10101111cdn\.com\/adpos\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/img\.jiemian\.com\/ads\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/ios\.lantouzi\.com\/api\/startpage" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/channel\/module\/opens" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/popup" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+?\/appStartAdv" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/m\d\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/m\d\.amap\.com\/ws\/mapapi\/hint_text\/offline_data?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/m\d\.amap\.com\/ws\/message\/notice\/list\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/ma\.ofo\.com\/adImage\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/ma\.ofo\.com\/ads" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mapi\.mafengwo\.cn\/(travelguide/)?ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mapi\.mafengwo\.cn\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/media\.qyer\.com\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mm\.app\.joox\.com\/billsrv\/clientBatchAdReport" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mm\.app\.joox\.com\/retrieval\/getAd" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mobi\.360doc\.com\/v\d{2}\/Ajax\/festival\.ashx\?op=getfestivaltheme" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mrobot\.pcauto\.com\.cn\/v\d\/ad2p" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mrobot\.pcauto\.com\.cn\/xsp\/s\/auto\/info\/(ad|preload)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mrobot\.pconline\.com\.cn\/s\/onlineinfo\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mrobot\.pconline\.com\.cn\/v\d\/ad2p" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/msspjh\.emarbox\.com\/getAdConfig" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/news\.ssp\.qq\.com\/app" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/nnapp\.cloudbae\.cn(:\d+)?\/mc\/api\/advert" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/nochange\.ggsafe\.com\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/notch\.qdaily\.com\/api\/v\d\/boot_ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+?adpublish" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/open\.qyer\.com\/qyer\/config\/get" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/open\.qyer\.com\/qyer\/startpage\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/optimus-ads\.amap\.com\/uploadimg\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/p0\.pipi\.cn\/adAdmin\/\w+.jpg\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/p\.du\.163\.com\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/p\.kuaidi100\.com\/mobile\/(mainapi|mobileapi)\.do" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/pic\.edaijia\.cn\/adsplash\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getBannerAds|getFullScreenPic|getNewsRemoteConfig|getQQNewsRemoteConfig|searchHotCatList|upLoadLoc)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/render-oss-cdn\.amap\.com\/render\/studio-dev\/image\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/richmanapi\.jxedt\.com\/api\/(ad|adplus|guideplus|banadplus)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/actionad\.php" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(GetAD|ADLog)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/slapi\.oray\.net\/client\/ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/smusic\.app\.wechat\.com\/commonCgi\/advertisement\/get_orint_egg$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/sp\.kaola\.com\/api\/openad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/spclient\.wg\.spotify\.com\/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+promoted_offer)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/.+\/(.+1125?.+2436|.+60176|.+_qx\.|.+SC5\.)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/static\.vuevideo\.net\/styleAssets\/.+?\/splash_ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/static\.vuevideo\.net\/styleAssets\/advertisement\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/supportda\.ofo\.com\/adaction\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/tiasdk\.app\.wechat\.com\/retrieval\/getAdInfo$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/tqt\.weibo\.cn\/api\/advert\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=(tqt_sdkad|tqtad)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/v\.cctv\.com\/.+?850" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+?\.mp4\?sid=" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/www\.cmbc\.com\.cn\/m\/image\/loadingpage\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/www\.cntv\.com\/nettv\/adp\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/www\.dandanzan\.com\/res\/gdsefse\.js" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/www\.didapinche\.com\/app\/adstat\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/www\.hxeduonline\.com\/mobileapi2\/index\.php\?act=index&op=interdict" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.getMaxWeightAdvertisement\.rpc" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/www\.iyingdi\.cn\/ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/www\.myhug\.cn\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
+"^https?:\/\/www\.pansearch\.me\/api\/adsite" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/www\.zybang\.com\/adx\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
+"^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/yxyapi2\.yuxueyuan\.cn\/yxy-api-gateway\/api\/json\/advert\/getsAdStartScreen" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 [MITM]
-hostname = %APPEND% *.ott.cibntv.net,*.tc.qq.com,*.tv.sohu.com,3g.csair.com,3gimg.qq.com,4gimg.map.qq.com,7n.bczcdn.com,a.apicloud.com,a.qiumibao.com,access.mypikpak.com,acs.m.taobao.com,act.vip.iqiyi.com,activity2.api.ofo.com,ad.mcloud.139.com,adapi.izuiyou.com,adm.10jqka.com.cn,adpai.thepaper.cn,adproxy.autohome.com.cn,ads-img-al.xhscdn.com,adx-cn.anythinktech.com,aes.acfun.cn,agent-count.pconline.com.cn,amap-aos-info-nogw.amap.com,api*.futunn.com,api*.musical.ly,api-access.pangolin-sdk-toutiao.com,api-ad-product.huxiu.com,api-ks.wtzw.com,api-mifit-cn2.zepp.com,api-mifit.huami.com,api-new.app.acfun.cn,api-one.wallstcn.com,api-overmind.youdao.com,api-release.wuta-cam.com,api.00bang.cn,api.21ec74.com,api.21jingji.com,api.abema.io,api.ahmobile.cn,api.applovefrom.com,api.bjxkhc.com,api.caijingmobile.com,api.caiyunapp.com,api.catch.gift,api.cdmcaac.com,api.chelaile.net.cn,api.cloud.189.cn,api.club.lenovo.cn,api.coolapk.com,api.dangdang.com,api.daydaycook.com.cn,api.douban.com,api.feng.com,api.gameplus.qq.com,api.gamer.com.tw,api.gaoqingdianshi.com,api.gotokeep.com,api.hanju.koudaibaobao.com,api.haohaozhu.cn,api.huomao.com,api.internetofcity.cn,api.intsig.net,api.izuiyou.com,api.jr.mi.com,api.jxedt.com,api.k.sohu.com,api.kkmh.com,api.kmovie.gifshow.com,api.laifeng.com,api.m.mi.com,api.meipian.me,api.mgzf.com,api.pinduoduo.com,api.psy-1.com,api.qbb6.com,api.qiuduoduo.cn,api.rr.tv,api.sfacg.com,api.taou.com,api.tipsoon.com,api.touker.com,api.videozhishi.com,api.vistopia.com.cn,api.vuevideo.net,api.waitwaitpay.com,api.wallstreetcn.com,api.wfdata.club,api.wmpvp.com,api.xiachufang.com,api.xiaoyi.com,api.xueqiu.com,api.yangkeduo.com,api.yikaobang.com.cn,api.yizhibo.com,api.yonghuivip.com,api.zhuishushenqi.com,api1.34580.com,api3.cls.cn,api4.bybutter.com,apicloud.zol.com.cn,apis.lifeweek.com.cn,app-api.jinse.com,app-api.niu.com,app-gw.csdn.net,app.58.com,app.api.d3yuiw4.com,app.api.ke.com,app.api.versa-ai.com,app.badmintoncn.com,app.ddpai.com,app.dewu.com,app.hbooker.com,app.homeinns.com,app.mixcapp.com,app.peopleapp.com,app.poizon.com,app.relxtech.com,app.variflight.com,app.wy.guahao.com,app.xinpianchang.com,app.yinxiang.com,app.zhuanzhuan.com,app2.autoimg.cn,app3.qdaily.com,appactive.1234567.com.cn,appapi.huazhu.com,appconf.mail.163.com,apps.api.ke.com,appv6.55haitao.com,appwk.baidu.com,asp.cntv.myalicdn.com,atrace.chelaile.net.cn,b-api.ins.miaopai.com,b.appsimg.com,b.zhuishushenqi.com,bbs-api.miyoushe.com,bdsp-x.jd.com,bgw.xinyue.qq.com,btrace.qq.com,business-cdn.shouji.sogou.com,business.msstatic.com,c.m.163.com,c.tieba.baidu.com,cap.caocaokeji.cn,capi.lkcoffee.com,capi.mwee.cn,capis*.didapinche.com,carapp.gtmc.com.cn,ccsp-egmas.sf-express.com,cdke.youdao.com,cdn-evone-ceph.echargenet.com,cdn.api.fotoable.com,cdn.cmgadx.com,cdn.dianshihome.com,cdn.fivecdm.com,cdn.moji.com,cdnfile1.msstatic.com,channel.beitaichufang.com,client-api.oray.com,client.app.coc.10086.cn,client.mail.163.com,client.qunar.com,client.tujia.com,clientaccess.10086.cn,cloud.189.cn,cms.daydaycook.com.cn,cmsapi.wifi8.com,cn-acs.m.cainiao.com,cn.pornhub.com,cntv.hls.cdn.myqcloud.com,creditcardapp.bankcomm.cn,creditcardapp.bankcomm.com,ct.xiaojukeji.com,ctrl.playcvn.com,ctrl.playcvn.net,ctrl.zmzapi.com,ctrl.zmzapi.net,daoyu.sdo.com,data-collector.soulapp.cn,dict-mobile.iciba.com,dict.youdao.com,dili.bdatu.com,dispatcher.camera360.com,djcapp.game.qq.com,dl-cu-hz.lechange.cn,dl.app.gtja.com,dq.dxy.cn,dsa-mfp.fengshows.cn,dsp-impr2.youdao.com,dsp-x.jd.com,dsp.toutiao.com,e.dangdang.com,easyreadfs.nosdn.127.net,edit.sinaapp.com,emdcadvertise.eastmoney.com,esdk.tymcdn.com,evs.500.com,explorer.tratao.com,fb.fbstatic.cn,fbchina.flipchina.cn,flowplus.meituan.net,foodie-api.yiruikecorp.com,ftapi.10jqka.com.cn,fuss10.elemecdn.com,g.cdn.pengpengla.com,gab.122.gov.cn,games.mobileapi.hupu.com,gateway-api.dushu365.com,gateway.36kr.com,gateway.abite.com,gateway.shouqiev.com,gd.10086.cn,gfp.veta.naver.com,gg*.cmvideo.cn,gha.ghac.cn,go.babytree.com,goblin.hupu.com,god.gameyw.netease.com,gongdu.youshu.cc,guanyu.longfor.com,gw-passenger.01zhuanche.com,gw.aihuishou.com,gw.alicdn.com,gw.csdn.net,gw.kaola.com,gx.10086.cn,heic.alicdn.com,helper.2bulu.com,hk.app.joox.com,home.mi.com,homefront.qunar.com,i*.hoopchina.com.cn,i.ys7.com,iadmusicmat.music.126.net,iapi.bishijie.com,iface.iqiyi.com,igetcool-gateway.igetcool.com,ih2.ireader.com,image.spdbccc.com.cn,image.suning.cn,images.client.vip.xunlei.com,imcs.citicbank.com,imeclient.openspeech.cn,img*.10101111cdn.com,img.360buyimg.com,img.jiemian.com,img.meituan.net,img.umetrip.com,img2.autoimg.cn,interface*.music.163.com,intl.iqiyi.com,ios.lantouzi.com,ios.sspai.com,ios.wps.cn,iphone.ac.qq.com,issuecdn.baidupcs.com,jad-api.jin10.com,jdread-api.jd.com,js-ad.ayximgs.com.ad-universe-cdn.hzhcbkj.cn,js.dilidd.com,jxd524.github.io,lban.spdb.com.cn,lchttpapi.xczim.com,learn.chaoxing.com,list-app-m.i4.cn,live.inst-service.htsc.com,m*.amap.com,m.ads.8le8le.com,m.caijing.com.cn,m.client.10010.com,m.creditcard.ecitic.com,m.ctrip.com,m.ibuscloud.com,m.msyc.cc,m.sd.10086.cn,m.tuniu.com,m.yhdm.io,m.you.163.com,ma-adx.ctrip.com,ma.ofo.com,mage.if.qidian.com,magev6.if.qidian.com,maicai.api.ddxq.mobi,mapi.appvipshop.com,mapi.dangdang.com,mapi.mafengwo.cn,mapi.sfbest.com,mbd.baidu.com,media.qyer.com,mi.gdt.qq.com,midc.cdn-static.abchina.com.cn,mime.baidu.com,minipro.95504.net,mix-api.camera360.com,mlife.jf365.boc.cn,mlol.qt.qq.com,mm.app.joox.com,mob.mddcloud.com.cn,mobi.360doc.com,mobile-pic.cache.iciba.com,mobile.laichon.com,mobileapi-v6.elong.com,mp.weixin.qq.com,mpcs.suning.com,mpos-pic.helipay.com,mps.95508.com,mrobot.pcauto.com.cn,mrobot.pconline.com.cn,ms.jr.jd.com,msg.umengcloud.com,msspjh.emarbox.com,mxsa.mxbc.net,new-app-api.ylyk.com,newclient.map.baidu.com,news.ssp.qq.com,nnapp.cloudbae.cn,nochange.ggsafe.com,notch.qdaily.com,oimage*.ydstatic.com,open.e.kuaishou.com,open.fitdays.cn,open.qyer.com,open.taou.com,open3.vistastory.com,optimus-ads.amap.com,otheve.beacon.qq.com,overseas.weico.cc,p*.meituan.net,p.du.163.com,p.kuaidi100.com,p0.pipi.cn,pan-api.bitqiu.com,pan.baidu.com,peisongapi.meituan.com,pic*.ajkimg.com,pic.edaijia.cn,pic.k.sohu.com,pic1.chelaile.net.cn,pic1cdn.cmbchina.com,pipi.4kya.com,portal-xunyou.qingcdn.com,pss.txffp.com,pzoap.moedot.net,qt.qq.com,r.inews.qq.com,render-oss-cdn.amap.com,rengine-platform.llsapp.com,res-release.wuta-cam.com,res.kfc.com.cn,res.pizzahut.com.cn,res.xiaojukeji.com,restapi.iyunmai.com,richmanapi.jxedt.com,router-app-api.jdcloud.com,rtbapi.douyucdn.cn,s*.zdmimg.com,s1.api.tv.itc.cn,s3plus.meituan.net,saad.ms.zhangyue.net,sdk.alibaba.com.ailbaba.me,sdkapp.uve.weibo.com,service.4gtv.tv,service.busi.inke.cn,service.haiersmarthomes.com,service.iciba.com,sh-gateway.shihuo.cn,shop-api.retail.mi.com,shop.laichon.com,shopapi.io.mi.com,shopic.sf-express.com,slapi.oray.net,smkmp.96225.com,smusic.app.wechat.com,sns.amap.com,sp.kaola.com,spclient.wg.spotify.com,ss0.bdstatic.com,ssl.kohsocialapp.qq.com,sso.ifanr.com,ssp.dzh.com.cn,stat.peopleapp.com,static.95508.com,static.vuevideo.net,status.boohee.com,superapp.xgimi.com,support.you.163.com,supportda.ofo.com,syh.zybang.com,t1.market.xiaomi.com,tagit.hyhuo.com,tcmobileapi.17usoft.com,thor.weidian.com,tiasdk.app.wechat.com,tiku.zhan.com,tj.playcvn.com,tk.lanjiyin.com.cn,top-widgets-api.xiaozujian.com,tqt.weibo.cn,track.mm.taou.com,tracker-download.oss-cn-beijing.aliyuncs.com,u*.iqiyipic.com,us.l.qq.com,v*-api.miaopai.com,v.cctv.com,v.icbc.com.cn,vali.cp31.ott.cibntv.net,venus.yhd.com,video.dispatch.tc.qq.com,vip7.fzwdyy.cn,vv.video.qq.com,wallpaper.soutushenqi.com,wap.ngchina.cn,wbapp.uve.weibo.com,wcprd.hilton.com.cn,web.chelaile.net.cn,webboot.zhangyue.com,weibointl.api.weibo.cn,wmapi.meituan.com,www.bodivis.com.cn,www.cmbc.com.cn,www.cntv.com,www.dandanzan.com,www.didapinche.com,www.dililitv.com,www.flyertea.com,www.hxeduonline.com,www.icourse163.org,www.inoreader.com,www.iyingdi.cn,www.myhug.cn,www.pornhub.com,www.shihuo.cn,www.xiaohongshu.com,www.zybang.com,www1.elecfans.com,xyst.yuanfudao.com,xyz.cnki.net,y.gtimg.cn,yanxuan.nosdn.127.net,ytmsout.radio.cn,yunbusiness.ccb.com,yxyapi*.drcuiyutao.com,yxyapi2.yuxueyuan.cn,zconfig.alibabausercontent.com,zjh5api.189smarthome.com,zone.guiderank-app.com,ztoread.ziroom.com
+hostname = %APPEND% *.ott.cibntv.net,*.tv.sohu.com,3g.csair.com,4gimg.map.qq.com,a.qiumibao.com,access.mypikpak.com,acs.m.taobao.com,act.vip.iqiyi.com,ad.lofter.com,ad.mcloud.139.com,adapi.izuiyou.com,adm.10jqka.com.cn,adpai.thepaper.cn,adproxy.autohome.com.cn,ads-img-al.xhscdn.com,adv.ccb.com,adx-cn.anythinktech.com,amap-aos-info-nogw.amap.com,api*.futunn.com,api*.musical.ly,api-access.pangolin-sdk-toutiao.com,api-ad-product.huxiu.com,api-mifit-cn2.zepp.com,api-mifit.huami.com,api-new.app.acfun.cn,api-one.wallstcn.com,api-overmind.youdao.com,api-release.wuta-cam.com,api.00bang.cn,api.21ec74.com,api.21jingji.com,api.abema.io,api.ahmobile.cn,api.applovefrom.com,api.bjxkhc.com,api.caijingmobile.com,api.caiyunapp.com,api.catch.gift,api.cdmcaac.com,api.chelaile.net.cn,api.cloud.189.cn,api.club.lenovo.cn,api.coolapk.com,api.dangdang.com,api.douban.com,api.gameplus.qq.com,api.gamer.com.tw,api.gaoqingdianshi.com,api.gotokeep.com,api.hanju.koudaibaobao.com,api.haohaozhu.cn,api.internetofcity.cn,api.izuiyou.com,api.jr.mi.com,api.jxedt.com,api.k.sohu.com,api.kkmh.com,api.kmovie.gifshow.com,api.laifeng.com,api.m.jd.com,api.m.mi.com,api.mgzf.com,api.pinduoduo.com,api.psy-1.com,api.qbb6.com,api.qiuduoduo.cn,api.rr.tv,api.sfacg.com,api.taou.com,api.tipsoon.com,api.touker.com,api.vistopia.com.cn,api.vuevideo.net,api.waitwaitpay.com,api.wallstreetcn.com,api.wfdata.club,api.wmpvp.com,api.xiachufang.com,api.xiaoyi.com,api.xueqiu.com,api.yangkeduo.com,api.yikaobang.com.cn,api.yizhibo.com,api.yonghuivip.com,api.zhuishushenqi.com,api1.34580.com,api3.cls.cn,api4.bybutter.com,apicloud.zol.com.cn,apis.lifeweek.com.cn,app-api.niu.com,app-gw.csdn.net,app.58.com,app.api.d3yuiw4.com,app.api.ke.com,app.api.versa-ai.com,app.badmintoncn.com,app.ddpai.com,app.dewu.com,app.hbooker.com,app.homeinns.com,app.mixcapp.com,app.peopleapp.com,app.poizon.com,app.variflight.com,app.yinxiang.com,app.zhuanzhuan.com,app2.autoimg.cn,app3.qdaily.com,appactive.1234567.com.cn,appapi.huazhu.com,appconf.mail.163.com,apps.api.ke.com,appwk.baidu.com,atrace.chelaile.net.cn,axxd.xmseeyouyima.com,b.appsimg.com,b.zhuishushenqi.com,bbs-api.miyoushe.com,bdsp-x.jd.com,bgw.xinyue.qq.com,business.msstatic.com,c.tieba.baidu.com,cap.caocaokeji.cn,capi.lkcoffee.com,capi.mwee.cn,capis*.didapinche.com,carapp.gtmc.com.cn,ccsp-egmas.sf-express.com,cdke.youdao.com,cdn-evone-ceph.echargenet.com,cdn.api.fotoable.com,cdn.cmgadx.com,cdn.dianshihome.com,cdn.fivecdm.com,client-api-v2.oray.com,client-api.oray.com,client.app.coc.10086.cn,client.mail.163.com,client.qunar.com,client.tujia.com,clientaccess.10086.cn,cloud.189.cn,cmsapi.wifi8.com,cn-acs.m.cainiao.com,creditcardapp.bankcomm.cn,creditcardapp.bankcomm.com,ct.xiaojukeji.com,daoyu.sdo.com,data-collector.soulapp.cn,dict-mobile.iciba.com,dict.youdao.com,dili.bdatu.com,dispatcher.camera360.com,djcapp.game.qq.com,dl-cu-hz.lechange.cn,dl.app.gtja.com,dq.dxy.cn,dsa-mfp.fengshows.cn,dsp-x.jd.com,e.dangdang.com,easyreadfs.nosdn.127.net,emdcadvertise.eastmoney.com,entree-ws.igetget.com,entry.ubixioe.com,esdk.tymcdn.com,evs.500.com,explorer.tratao.com,fbchina.flipchina.cn,flowplus.meituan.net,foodie-api.yiruikecorp.com,ftapi.10jqka.com.cn,fuss10.elemecdn.com,gab.122.gov.cn,games.mobileapi.hupu.com,gateway-api.dushu365.com,gateway.36kr.com,gateway.abite.com,gateway.shouqiev.com,gd.10086.cn,gfp.veta.naver.com,gha.ghac.cn,go.babytree.com,goblin.hupu.com,god.gameyw.netease.com,gongdu.youshu.cc,guanyu.longfor.com,gw-passenger.01zhuanche.com,gw.aihuishou.com,gw.alicdn.com,gw.csdn.net,gw.kaola.com,gx.10086.cn,heic.alicdn.com,helper.2bulu.com,home.mi.com,homefront.qunar.com,i*.hoopchina.com.cn,i.ys7.com,iadmusicmat.music.126.net,iface.iqiyi.com,igetcool-gateway.igetcool.com,ih2.ireader.com,image.spdbccc.com.cn,image.suning.cn,imcs.citicbank.com,imeclient.openspeech.cn,img*.10101111cdn.com,img.360buyimg.com,img.jiemian.com,img.meituan.net,img.umetrip.com,img2.autoimg.cn,interface*.music.163.com,intl.iqiyi.com,ios.sspai.com,ios.wps.cn,iphone.ac.qq.com,issuecdn.baidupcs.com,jad-api.jin10.com,jdread-api.jd.com,js-ad.ayximgs.com.ad-universe-cdn.hzhcbkj.cn,jxd524.github.io,lban.spdb.com.cn,lchttpapi.xczim.com,learn.chaoxing.com,list-app-m.i4.cn,live.inst-service.htsc.com,m*.amap.com,m.ads.8le8le.com,m.caijing.com.cn,m.client.10010.com,m.ctrip.com,m.ibuscloud.com,m.msyc.cc,m.sd.10086.cn,m.tuniu.com,m.you.163.com,ma-adx.ctrip.com,mage.if.qidian.com,magev6.if.qidian.com,maicai.api.ddxq.mobi,mapi.appvipshop.com,mapi.dangdang.com,mapi.mafengwo.cn,mapi.sfbest.com,mbd.baidu.com,media.qyer.com,mi.gdt.qq.com,midc.cdn-static.abchina.com.cn,mime.baidu.com,minipro.95504.net,mix-api.camera360.com,mlol.qt.qq.com,mob.mddcloud.com.cn,mobads.baidu.com,mobile-pic.cache.iciba.com,mobile.laichon.com,mobileapi-v6.elong.com,mp.weixin.qq.com,mpcs.suning.com,mpos-pic.helipay.com,mrobot.pcauto.com.cn,mrobot.pconline.com.cn,ms.jr.jd.com,msg.umengcloud.com,mxsa.mxbc.net,new-app-api.ylyk.com,newclient.map.baidu.com,news.ssp.qq.com,nnapp.cloudbae.cn,open.e.kuaishou.com,open.fitdays.cn,open.qyer.com,open.taou.com,open3.vistastory.com,optimus-ads.amap.com,otheve.beacon.qq.com,overseas.weico.cc,p*.meituan.net,p.du.163.com,p0.pipi.cn,pan-api.bitqiu.com,pan.baidu.com,peisongapi.meituan.com,pic*.ajkimg.com,pic.edaijia.cn,pic.k.sohu.com,pic1.chelaile.net.cn,pipi.4kya.com,promotion.medlive.cn,pss.txffp.com,pzoap.moedot.net,qt.qq.com,r.inews.qq.com,render-oss-cdn.amap.com,rengine-platform.llsapp.com,res-release.wuta-cam.com,res.kfc.com.cn,res.pizzahut.com.cn,res.xiaojukeji.com,router-app-api.jdcloud.com,rtbapi.douyucdn.cn,s*.zdmimg.com,s1.api.tv.itc.cn,s3plus.meituan.net,sdk.alibaba.com.ailbaba.me,service.4gtv.tv,service.busi.inke.cn,service.haiersmarthomes.com,service.iciba.com,sh-gateway.shihuo.cn,shop-api.retail.mi.com,shop.laichon.com,shopapi.io.mi.com,shopic.sf-express.com,slapi.oray.net,smkmp.96225.com,sns.amap.com,sp.kaola.com,spclient.wg.spotify.com,ssl.kohsocialapp.qq.com,sso.ifanr.com,ssp.dzh.com.cn,stat.peopleapp.com,static.95508.com,status.boohee.com,superapp.xgimi.com,support.you.163.com,syh.zybang.com,t1.market.xiaomi.com,tagit.hyhuo.com,tcmobileapi.17usoft.com,td.cgmcare.cn,thor.weidian.com,tiku.zhan.com,tk.lanjiyin.com.cn,top-widgets-api.xiaozujian.com,tqt.weibo.cn,track.mm.taou.com,tracker-download.oss-cn-beijing.aliyuncs.com,u*.iqiyipic.com,us.l.qq.com,v*-api.miaopai.com,venus.yhd.com,video.dispatch.tc.qq.com,vip7.fzwdyy.cn,vv.video.qq.com,wallpaper.soutushenqi.com,wap.ngchina.cn,wcprd.hilton.com.cn,web.chelaile.net.cn,webboot.zhangyue.com,weibointl.api.weibo.cn,wmapi.meituan.com,www.bodivis.com.cn,www.cntv.com,www.didapinche.com,www.flyertea.com,www.inoreader.com,www.pansearch.me,www.xiaohongshu.com,www1.elecfans.com,xyst.yuanfudao.com,yanxuan.nosdn.127.net,ytmsout.radio.cn,yunbusiness.ccb.com,yxyapi*.drcuiyutao.com,yxyapi2.yuxueyuan.cn,zconfig.alibabausercontent.com,zjh5api.189smarthome.com,zone.guiderank-app.com,ztoread.ziroom.com

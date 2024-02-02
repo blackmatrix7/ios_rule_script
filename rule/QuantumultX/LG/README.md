@@ -12,16 +12,15 @@ LG规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:50:32
+最后更新时间：2024-02-03 01:47:28
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 1  | 
-| HOST-SUFFIX | 12  | 
+| HOST-SUFFIX | 4  | 
 | IP-CIDR | 25  | 
 | IP6-CIDR | 4  | 
-| TOTAL | 42  | 
+| TOTAL | 33  | 
 
 
 ## QuantumultX 
@@ -65,7 +64,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/LG.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/LG.yaml
-- https://rules.kr328.app/lg.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

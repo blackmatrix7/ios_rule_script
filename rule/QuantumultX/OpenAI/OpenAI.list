@@ -1,12 +1,14 @@
 # NAME: OpenAI
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-28 15:52:33
+# UPDATED: 2024-02-03 01:49:21
 # HOST: 2
 # HOST-KEYWORD: 1
-# HOST-SUFFIX: 20
-# TOTAL: 23
-HOST,chatgpt.livekit.cloud,OpenAI
+# HOST-SUFFIX: 23
+# IP-ASN: 1
+# IP-CIDR: 2
+# TOTAL: 29
+HOST,browser-intake-datadoghq.com,OpenAI
 HOST,static.cloudflareinsights.com,OpenAI
 HOST-SUFFIX,ai.com,OpenAI
 HOST-SUFFIX,algolia.net,OpenAI
@@ -14,9 +16,11 @@ HOST-SUFFIX,api.statsig.com,OpenAI
 HOST-SUFFIX,auth0.com,OpenAI
 HOST-SUFFIX,cdn.cloudflare.net,OpenAI
 HOST-SUFFIX,challenges.cloudflare.com,OpenAI
+HOST-SUFFIX,chatgpt.livekit.cloud,OpenAI
 HOST-SUFFIX,client-api.arkoselabs.com,OpenAI
 HOST-SUFFIX,events.statsigapi.net,OpenAI
 HOST-SUFFIX,featuregates.org,OpenAI
+HOST-SUFFIX,host.livekit.cloud,OpenAI
 HOST-SUFFIX,identrust.com,OpenAI
 HOST-SUFFIX,intercom.io,OpenAI
 HOST-SUFFIX,intercomcdn.com,OpenAI
@@ -28,4 +32,8 @@ HOST-SUFFIX,poe.com,OpenAI
 HOST-SUFFIX,segment.io,OpenAI
 HOST-SUFFIX,sentry.io,OpenAI
 HOST-SUFFIX,stripe.com,OpenAI
+HOST-SUFFIX,turn.livekit.cloud,OpenAI
 HOST-KEYWORD,openai,OpenAI
+IP-CIDR,24.199.123.28/32,OpenAI
+IP-CIDR,64.23.132.171/32,OpenAI
+IP-ASN,20473,OpenAI

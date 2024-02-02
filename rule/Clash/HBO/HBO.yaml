@@ -1,11 +1,11 @@
 # NAME: HBO
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-28 15:49:32
+# UPDATED: 2024-02-03 01:46:26
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 47
+# DOMAIN-SUFFIX: 45
 # PROCESS-NAME: 1
-# TOTAL: 49
+# TOTAL: 47
 payload:
   - DOMAIN,wmff.warnermediacdn.com
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
@@ -38,7 +38,6 @@ payload:
   - DOMAIN-SUFFIX,hbogoasia.tw
   - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
   - DOMAIN-SUFFIX,hbolb.onwardsmg.com
-  - DOMAIN-SUFFIX,hbomax-images.warnermediacdn.com
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
@@ -53,6 +52,5 @@ payload:
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,nowe.hk
   - DOMAIN-SUFFIX,players.brightcove.net
-  - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
   - DOMAIN-SUFFIX,youboranqs01.com
   - PROCESS-NAME,com.hbo.hbonow

@@ -15,7 +15,7 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:51:42
+最后更新时间：2024-02-03 01:48:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -28,9 +28,11 @@
 
 #### 使用说明
 - NeteaseCloud.yaml，请使用 behavior: "classical"。
+- NeteaseCloud_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - NeteaseCloud.yaml 单独使用。
+- NeteaseCloud_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

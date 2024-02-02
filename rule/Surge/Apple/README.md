@@ -12,7 +12,7 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:47:00
+最后更新时间：2024-02-03 01:43:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -21,9 +21,9 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 | DOMAIN-KEYWORD | 7  | 
 | DOMAIN-SUFFIX | 1549  | 
 | IP-CIDR | 10  | 
-| PROCESS-NAME | 7  | 
+| PROCESS-NAME | 14  | 
 | USER-AGENT | 23  | 
-| TOTAL | 1605  | 
+| TOTAL | 1612  | 
 
 
 ## Surge 
@@ -34,9 +34,14 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 - Apple_Domain.list，请使用DOMAIN-SET。
 
 #### 文件区别
+- Apple_All.list与Apple_All_No_Resolve.list为 Surge 5.21.0(2952) 以上版本使用
 - Apple_Resolve.list与Apple.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
+- Surge 5.21.0(2952)以上版本使用以下配置：
+- Apple_All.list 单独使用。
+- Apple_All_No_Resolve.list 单独使用。
+- Surge 5.21.0(2952)以下版本使用以下配置：
 - Apple.list、Apple_Domain.list 共同使用。
 - Apple_Resolve.list、Apple_Domain.list 共同使用。
 
@@ -114,14 +119,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleMedia.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Apple.list
-- https://rules.kr328.app/icloud@cn.yaml
-- https://rules.kr328.app/apple-ads@ads.yaml
-- https://rules.kr328.app/apple.yaml
-- https://rules.kr328.app/icloudprivaterelay.yaml
-- https://rules.kr328.app/apple@cn.yaml
-- https://rules.kr328.app/icloud.yaml
-- https://rules.kr328.app/apple-ads.yaml
-- https://rules.kr328.app/apple@ads.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleNews.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleTV.yaml
 - https://ruleset.isagood.day/apple_cdn_domain.conf

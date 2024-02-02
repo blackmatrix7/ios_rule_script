@@ -15,25 +15,27 @@
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:46:56
+最后更新时间：2024-02-03 01:43:26
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 13  | 
+| DOMAIN | 9  | 
 | DOMAIN-KEYWORD | 4  | 
-| DOMAIN-SUFFIX | 537  | 
+| DOMAIN-SUFFIX | 527  | 
 | IP-CIDR | 46  | 
-| TOTAL | 600  | 
+| TOTAL | 586  | 
 
 
 ## Clash 
 
 #### 使用说明
 - Game.yaml，请使用 behavior: "classical"。
+- Game_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - Game.yaml 单独使用。
+- Game_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -79,7 +81,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/GamesAll.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Blizzard.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list
-- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Steam.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Steam.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Rockstar/Rockstar.list
@@ -88,6 +89,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/PlayStation.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/Epic.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Epicgames.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/WildRift.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/EA.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Garena.list
@@ -123,21 +125,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xbox.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Nintendo.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list
-- https://rules.kr328.app/riot@cn.yaml
-- https://rules.kr328.app/purikonejp.yaml
-- https://rules.kr328.app/ea.yaml
-- https://rules.kr328.app/xbox@cn.yaml
-- https://rules.kr328.app/gog@cn.yaml
-- https://rules.kr328.app/playstation.yaml
-- https://rules.kr328.app/riot.yaml
-- https://rules.kr328.app/nintendo@cn.yaml
-- https://rules.kr328.app/rockstar.yaml
-- https://rules.kr328.app/op.yaml
-- https://rules.kr328.app/blizzard.yaml
-- https://rules.kr328.app/xbox.yaml
-- https://rules.kr328.app/garena.yaml
-- https://rules.kr328.app/gog.yaml
-- https://rules.kr328.app/nintendo.yaml
 - https://ruleset.isagood.day/global_game.conf
 
 

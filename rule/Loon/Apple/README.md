@@ -12,7 +12,7 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2023-11-28 15:47:01
+最后更新时间：2024-02-03 01:43:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -108,14 +108,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleMedia.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Apple.list
-- https://rules.kr328.app/icloud@cn.yaml
-- https://rules.kr328.app/apple-ads@ads.yaml
-- https://rules.kr328.app/apple.yaml
-- https://rules.kr328.app/icloudprivaterelay.yaml
-- https://rules.kr328.app/apple@cn.yaml
-- https://rules.kr328.app/icloud.yaml
-- https://rules.kr328.app/apple-ads.yaml
-- https://rules.kr328.app/apple@ads.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleNews.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleTV.yaml
 - https://ruleset.isagood.day/apple_cdn_domain.conf

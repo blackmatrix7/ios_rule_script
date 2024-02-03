@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-02-03 01:49:29
+desc: 最后更新时间 2024-02-04 02:20:28
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 647
-# mitm: 598
+# reject: 648
+# mitm: 599
 # force-http-engine-hosts: 6
-# total: 1251
+# total: 1253
 
 
 
@@ -393,6 +393,7 @@ http:
     - ^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v - reject
     - ^https?:\/\/hcz-member\.pingan\.com\.cn\/micro-api\/homepage\/do\/app\/popbox\/getTopPopBox - reject
     - ^https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex) - reject
+    - ^https?:\/\/hfapp-service\.qweather\.net\/.*\/ad\/ - reject
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/(banner|myTab|openingBanner) - reject
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner - reject
     - ^https?:\/\/homefront\.qunar\.com\/front\/splash\/ad - reject
@@ -987,6 +988,7 @@ http:
     - "hdgateway.zto.com"
     - "heic.alicdn.com"
     - "helper.2bulu.com"
+    - "hfapp-service.qweather.net"
     - "hkj178.com"
     - "home.mi.com"
     - "homefront.qunar.com"

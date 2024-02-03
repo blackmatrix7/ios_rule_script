@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-02-03 01:49:34
+desc: 最后更新时间 2024-02-04 02:20:33
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 621
-# mitm: 650
+# reject: 622
+# mitm: 651
 # force-http-engine-hosts: 6
-# total: 1316
+# total: 1318
 
 
 
@@ -390,6 +390,7 @@ http:
     - ^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v - reject
     - ^https?:\/\/hcz-member\.pingan\.com\.cn\/micro-api\/homepage\/do\/app\/popbox\/getTopPopBox - reject
     - ^https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex) - reject
+    - ^https?:\/\/hfapp-service\.qweather\.net\/.*\/ad\/ - reject
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/(banner|myTab|openingBanner) - reject
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner - reject
     - ^https?:\/\/homefront\.qunar\.com\/front\/splash\/ad - reject
@@ -1165,6 +1166,7 @@ http:
     - "hdgateway.zto.com"
     - "heic.alicdn.com"
     - "helper.2bulu.com"
+    - "hfapp-service.qweather.net"
     - "home.mi.com"
     - "homefront.qunar.com"
     - "htwkop.xiaojukeji.com"

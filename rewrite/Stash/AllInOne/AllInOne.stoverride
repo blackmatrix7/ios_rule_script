@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-02-04 02:20:33
+desc: 最后更新时间 2024-02-05 02:18:30
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 622
-# mitm: 651
+# reject: 623
+# mitm: 652
 # force-http-engine-hosts: 6
-# total: 1318
+# total: 1320
 
 
 
@@ -274,6 +274,7 @@ http:
     - ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/ - reject
     - ^https?:\/\/app\.ddpai\.com\/d\/api\/v\d\/config\/get\/bootscreen - reject
     - ^https?:\/\/app\.dewu\.com\/api\/v\d\/app\/advertisement\/ - reject
+    - ^https?:\/\/app\.flymodem\.com\.cn\/Appapi\/Public\/welecome - reject
     - ^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list - reject
     - ^https?:\/\/app\.homeinns\.com\/api\/landing - reject
     - ^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad - reject
@@ -1031,6 +1032,7 @@ http:
     - "app.biliintl.com"
     - "app.ddpai.com"
     - "app.dewu.com"
+    - "app.flymodem.com.cn"
     - "app.hbooker.com"
     - "app.homeinns.com"
     - "app.mixcapp.com"

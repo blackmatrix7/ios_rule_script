@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-02-05 02:18:30
+desc: 最后更新时间 2024-02-08 02:14:45
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 623
-# mitm: 652
+# reject: 624
+# mitm: 653
 # force-http-engine-hosts: 6
-# total: 1320
+# total: 1322
 
 
 
@@ -272,6 +272,7 @@ http:
     - ^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage - reject
     - ^https?:\/\/app\.api\.versa-ai\.com\/launch\/ads\? - reject
     - ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/ - reject
+    - ^https?:\/\/app\.c\.nf\.migu\.cn\/.*column\/start(-)?up-pic - reject
     - ^https?:\/\/app\.ddpai\.com\/d\/api\/v\d\/config\/get\/bootscreen - reject
     - ^https?:\/\/app\.dewu\.com\/api\/v\d\/app\/advertisement\/ - reject
     - ^https?:\/\/app\.flymodem\.com\.cn\/Appapi\/Public\/welecome - reject
@@ -1030,6 +1031,7 @@ http:
     - "app.badmintoncn.com"
     - "app.bilibili.com"
     - "app.biliintl.com"
+    - "app.c.nf.migu.cn"
     - "app.ddpai.com"
     - "app.dewu.com"
     - "app.flymodem.com.cn"

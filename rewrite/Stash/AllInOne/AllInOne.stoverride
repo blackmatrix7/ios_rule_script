@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-02-08 02:14:45
+desc: 最后更新时间 2024-02-10 02:16:25
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 624
-# mitm: 653
+# reject: 625
+# mitm: 654
 # force-http-engine-hosts: 6
-# total: 1322
+# total: 1324
 
 
 
@@ -262,6 +262,7 @@ http:
     - ^https?:\/\/apis\.lifeweek\.com\.cn\/api\/baseConfig\/getIosNewConfig - reject
     - ^https?:\/\/app-api\.jinse\.com\/v\d\/ad\/ - reject
     - ^https?:\/\/app-api\.niu\.com\/v\d\/advertisement\/ - reject
+    - ^https?:\/\/app-gateway\.leisuapi\.com\/v\d\/app\/mobile\/(banners|ads) - reject
     - ^https?:\/\/app-gw\.csdn\.net\/silkroad-api\/api\/v\d\/assemble\/list\/pub\/channel\/app_open_screen_ad - reject
     - ^https?:\/\/app2\.autoimg\.cn\/appdfs\/ - reject
     - ^https?:\/\/app3\.qdaily\.com\/app3\/boot_advertisements\.json - reject
@@ -1022,6 +1023,7 @@ http:
     - "apis.lifeweek.com.cn"
     - "app-api.jinse.com"
     - "app-api.niu.com"
+    - "app-gateway.leisuapi.com"
     - "app-gw.csdn.net"
     - "app.58.com"
     - "app.ap.d3yuiw4.com"

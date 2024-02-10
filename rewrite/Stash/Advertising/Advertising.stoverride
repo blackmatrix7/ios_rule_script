@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-02-10 02:16:21
+desc: 最后更新时间 2024-02-11 02:16:15
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 651
-# mitm: 602
+# reject: 652
+# mitm: 603
 # force-http-engine-hosts: 6
-# total: 1259
+# total: 1261
 
 
 
@@ -105,6 +105,7 @@ http:
     - ^https:\/\/wxproj\.seeyouyima\.com\/data\/today_tips - reject
     - ^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad - reject
     - ^https?://api-mifit-cn2\.zepp\.com/discovery/mi/cards/(startpage_ad|homepage_ad)\? - reject
+    - ^https?://mbasecc\.bas\.cmbchina\.com/Edge/api/mlife\.clientface\.clientservice\.api\.advertiseService/preCacheAdvertiseSec - reject
     - ^https?://newclient\.map\.baidu\.com/client/crossmarketing - reject
     - ^https?://newclient\.map\.baidu\.com/client/usersystem/home/dynamic - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
@@ -1067,6 +1068,7 @@ http:
     - "mapi.sfbest.com"
     - "mapi.weibo.com"
     - "mapi.xiaotucc.com"
+    - "mbasecc.bas.cmbchina.com"
     - "mbd.baidu.com"
     - "mbs.boc.cn"
     - "media.qyer.com"

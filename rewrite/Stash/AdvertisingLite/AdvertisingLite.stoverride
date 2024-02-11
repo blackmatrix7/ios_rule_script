@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-02-11 02:16:26
+desc: 最后更新时间 2024-02-12 02:17:00
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 446
-# mitm: 378
+# reject: 447
+# mitm: 379
 # force-http-engine-hosts: 6
-# total: 830
+# total: 832
 
 
 
@@ -375,6 +375,7 @@ http:
     - ^https?:\/\/promotion\.medlive\.cn\/getcover-v2\?app_name=medlive - reject
     - ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
     - ^https?:\/\/pzoap\.moedot\.net\/xgapp\.php\/v2\/top_notice - reject
+    - ^https?:\/\/qadx\.qinlinad\.com\/ad\/ - reject
     - ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
     - ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getBannerAds|getFullScreenPic|getNewsRemoteConfig|getQQNewsRemoteConfig|searchHotCatList|upLoadLoc) - reject
     - ^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) - reject
@@ -768,6 +769,7 @@ http:
     - "promotion.medlive.cn"
     - "pss.txffp.com"
     - "pzoap.moedot.net"
+    - "qadx.qinlinad.com"
     - "qt.qq.com"
     - "r.inews.qq.com"
     - "render-oss-cdn.amap.com"

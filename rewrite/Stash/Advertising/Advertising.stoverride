@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-02-11 02:16:15
+desc: 最后更新时间 2024-02-12 02:16:49
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 652
-# mitm: 603
+# reject: 653
+# mitm: 604
 # force-http-engine-hosts: 6
-# total: 1261
+# total: 1263
 
 
 
@@ -545,6 +545,7 @@ http:
     - ^https?:\/\/promotion\.medlive\.cn\/getcover-v2\?app_name=medlive - reject
     - ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
     - ^https?:\/\/pzoap\.moedot\.net\/xgapp\.php\/v2\/top_notice - reject
+    - ^https?:\/\/qadx\.qinlinad\.com\/ad\/ - reject
     - ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
     - ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getBannerAds|getFullScreenPic|getNewsRemoteConfig|getQQNewsRemoteConfig|searchHotCatList|upLoadLoc) - reject
     - ^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) - reject
@@ -1144,6 +1145,7 @@ http:
     - "pss.txffp.com"
     - "pzoap.moedot.com"
     - "pzoap.moedot.net"
+    - "qadx.qinlinad.com"
     - "qapi.huolala.cn"
     - "qj.bpojie.com"
     - "qt.qq.com"

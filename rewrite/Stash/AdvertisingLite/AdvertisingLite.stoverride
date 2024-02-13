@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-02-12 02:17:00
+desc: 最后更新时间 2024-02-14 02:22:45
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 447
-# mitm: 379
+# reject: 448
+# mitm: 380
 # force-http-engine-hosts: 6
-# total: 832
+# total: 834
 
 
 
@@ -203,7 +203,7 @@ http:
     - ^https?:\/\/cdn\.cmgadx\.com\/sdk\/pool\/\w+\.json - reject
     - ^https?:\/\/cdn\.dianshihome\.com\/static\/ad\/ - reject
     - ^https?:\/\/cdn\.moji\.com\/advert\/ - reject
-    - ^https?:\/\/client-api-v2\.oray\.com\/materials\/(SLCC_IOS_STARTUP_ADV|SLCC_iOS_DEVICE_FREE|SLCC_iOS_DEVICE_LIST_ADV|SLCC_IOS_DEVICE_ADV|SUNLOGIN_CLIENT_IOS_PROMOTION|SLCC_IOS_DEVICE|SLCC_IOS_STARTUP) - reject
+    - ^https?:\/\/client-api-v2\.oray\.com\/materials\/(SUNLOGIN_CLIENT_IOS_PROMOTION|SLCC_IOS_DEVICE|SLCC_IOS_STARTUP) - reject
     - ^https?:\/\/client-api\.oray\.com\/materials\/SLCC_IOS_STARTUP\?lang=zh-Hans-CN - reject
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject
     - ^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds - reject
@@ -259,6 +259,7 @@ http:
     - ^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement - reject
     - ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd - reject
     - ^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v - reject
+    - ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert - reject
     - ^https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex) - reject
     - ^https?:\/\/hfapp-service\.qweather\.net\/.*\/ad\/ - reject
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/(banner|myTab|openingBanner) - reject
@@ -667,6 +668,7 @@ http:
     - "gw.csdn.net"
     - "gw.kaola.com"
     - "gx.10086.cn"
+    - "hd.mina.mi.com"
     - "heic.alicdn.com"
     - "helper.2bulu.com"
     - "hfapp-service.qweather.net"

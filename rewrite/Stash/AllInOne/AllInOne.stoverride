@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-02-08 02:14:45
+desc: 最后更新时间 2024-02-14 02:22:37
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 624
-# mitm: 653
+# reject: 627
+# mitm: 658
 # force-http-engine-hosts: 6
-# total: 1322
+# total: 1330
 
 
 
@@ -121,6 +121,7 @@ http:
     - ^https:\/\/wxproj\.seeyouyima\.com\/data\/today_tips - reject
     - ^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad - reject
     - ^https?://api-mifit-cn2\.zepp\.com/discovery/mi/cards/(startpage_ad|homepage_ad)\? - reject
+    - ^https?://mbasecc\.bas\.cmbchina\.com/Edge/api/mlife\.clientface\.clientservice\.api\.advertiseService/preCacheAdvertiseSec - reject
     - ^https?://newclient\.map\.baidu\.com/client/crossmarketing - reject
     - ^https?://newclient\.map\.baidu\.com/client/usersystem/home/dynamic - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
@@ -262,6 +263,7 @@ http:
     - ^https?:\/\/apis\.lifeweek\.com\.cn\/api\/baseConfig\/getIosNewConfig - reject
     - ^https?:\/\/app-api\.jinse\.com\/v\d\/ad\/ - reject
     - ^https?:\/\/app-api\.niu\.com\/v\d\/advertisement\/ - reject
+    - ^https?:\/\/app-gateway\.leisuapi\.com\/v\d\/app\/mobile\/(banners|ads) - reject
     - ^https?:\/\/app-gw\.csdn\.net\/silkroad-api\/api\/v\d\/assemble\/list\/pub\/channel\/app_open_screen_ad - reject
     - ^https?:\/\/app2\.autoimg\.cn\/appdfs\/ - reject
     - ^https?:\/\/app3\.qdaily\.com\/app3\/boot_advertisements\.json - reject
@@ -328,7 +330,7 @@ http:
     - ^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/ - reject
     - ^https?:\/\/cdn\.moji\.com\/advert\/ - reject
     - ^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v1\/promote\/ios\/start\/page - reject
-    - ^https?:\/\/client-api-v2\.oray\.com\/materials\/(SLCC_IOS_STARTUP_ADV|SLCC_iOS_DEVICE_FREE|SLCC_iOS_DEVICE_LIST_ADV|SLCC_IOS_DEVICE_ADV|SUNLOGIN_CLIENT_IOS_PROMOTION|SLCC_IOS_DEVICE|SLCC_IOS_STARTUP) - reject
+    - ^https?:\/\/client-api-v2\.oray\.com\/materials\/(SUNLOGIN_CLIENT_IOS_PROMOTION|SLCC_IOS_DEVICE|SLCC_IOS_STARTUP) - reject
     - ^https?:\/\/client-api\.oray\.com\/materials\/SLCC_IOS_STARTUP\?lang=zh-Hans-CN - reject
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject
     - ^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds - reject
@@ -537,6 +539,7 @@ http:
     - ^https?:\/\/promotion\.medlive\.cn\/getcover-v2\?app_name=medlive - reject
     - ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
     - ^https?:\/\/pzoap\.moedot\.net\/xgapp\.php\/v2\/top_notice - reject
+    - ^https?:\/\/qadx\.qinlinad\.com\/ad\/ - reject
     - ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
     - ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getBannerAds|getFullScreenPic|getNewsRemoteConfig|getQQNewsRemoteConfig|searchHotCatList|upLoadLoc) - reject
     - ^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) - reject
@@ -893,6 +896,7 @@ http:
     - "140.179.224.63"
     - "175.102.178.52"
     - "182.92.251.113"
+    - "212.129.159.79"
     - "3dd0be8a-54fe-43ff-a0e7-f670c4f20432.bspapp.com"
     - "3g.csair.com"
     - "3pp.starbucks.com.cn"
@@ -1022,6 +1026,7 @@ http:
     - "apis.lifeweek.com.cn"
     - "app-api.jinse.com"
     - "app-api.niu.com"
+    - "app-gateway.leisuapi.com"
     - "app-gw.csdn.net"
     - "app.58.com"
     - "app.ap.d3yuiw4.com"
@@ -1194,6 +1199,7 @@ http:
     - "img.meituan.net"
     - "img.rr.tv"
     - "img2.autoimg.cn"
+    - "info.mina.mi.com"
     - "interface*.music.163.com"
     - "intl.iqiyi.com"
     - "iobs.pingan.com.cn"
@@ -1239,6 +1245,7 @@ http:
     - "mapi.sfbest.com"
     - "mapi.weibo.com"
     - "mapi.xiaotucc.com"
+    - "mbasecc.bas.cmbchina.com"
     - "mbd.baidu.com"
     - "mbs.boc.cn"
     - "media.qyer.com"
@@ -1313,6 +1320,7 @@ http:
     - "pss.txffp.com"
     - "pzoap.moedot.com"
     - "pzoap.moedot.net"
+    - "qadx.qinlinad.com"
     - "qapi.huolala.cn"
     - "qj.bpojie.com"
     - "qt.qq.com"

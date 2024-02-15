@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-02-14 02:22:45
+desc: 最后更新时间 2024-02-16 02:20:13
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 448
-# mitm: 380
+# reject: 449
+# mitm: 381
 # force-http-engine-hosts: 6
-# total: 834
+# total: 836
 
 
 
@@ -387,6 +387,7 @@ http:
     - ^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome - reject
     - ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) - reject
     - ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget - reject
+    - ^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/ - reject
     - ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject
     - ^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json - reject
     - ^https?:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time - reject
@@ -780,6 +781,7 @@ http:
     - "res.kfc.com.cn"
     - "res.pizzahut.com.cn"
     - "res.xiaojukeji.com"
+    - "restapi.iyunmai.com"
     - "router-app-api.jdcloud.com"
     - "rtbapi.douyucdn.cn"
     - "s*.zdmimg.com"

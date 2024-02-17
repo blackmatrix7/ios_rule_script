@@ -15,16 +15,16 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2024-02-17 02:17:06
+最后更新时间：2024-02-18 02:15:55
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 531  | 
+| DOMAIN | 532  | 
 | DOMAIN-KEYWORD | 14  | 
-| DOMAIN-SUFFIX | 70118  | 
+| DOMAIN-SUFFIX | 70209  | 
 | USER-AGENT | 65  | 
-| TOTAL | 70728  | 
+| TOTAL | 70820  | 
 
 
 ## Shadowrocket 

@@ -1,24 +1,24 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-19 02:16:44
-# DOMAIN: 533
+# UPDATED: 2024-02-20 02:15:48
+# DOMAIN: 529
 # DOMAIN-KEYWORD: 14
-# DOMAIN-SUFFIX: 70529
+# DOMAIN-SUFFIX: 73473
 # IP-ASN: 1005
-# IP-CIDR: 7037
-# IP-CIDR6: 3757
+# IP-CIDR: 7036
+# IP-CIDR6: 3755
 # USER-AGENT: 65
-# TOTAL: 82940
-DOMAIN-SUFFIX,alipay
-DOMAIN-SUFFIX,alibaba
-DOMAIN-SUFFIX,taobao
-DOMAIN-SUFFIX,tmall
+# TOTAL: 85877
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,ms
+DOMAIN-SUFFIX,alibaba
+DOMAIN-SUFFIX,alipay
 DOMAIN-SUFFIX,baidu
 DOMAIN-SUFFIX,citic
 DOMAIN-SUFFIX,sohu
+DOMAIN-SUFFIX,taobao
+DOMAIN-SUFFIX,tmall
 DOMAIN-SUFFIX,unicom
 DOMAIN-SUFFIX,wang
 DOMAIN-SUFFIX,xn--1qqw23a
@@ -63,10 +63,10 @@ DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,officecdn
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,bilibili
-DOMAIN-KEYWORD,qiyi
 DOMAIN-KEYWORD,hnagroup
 DOMAIN-KEYWORD,stripe
 DOMAIN-KEYWORD,weibo
+DOMAIN-KEYWORD,qiyi
 USER-AGENT,*bili*
 USER-AGENT,Bilibili*
 USER-AGENT,bili*
@@ -111,27 +111,27 @@ USER-AGENT,AcFun*
 USER-AGENT,DomesticMedia*
 USER-AGENT,MGTV*
 USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
-USER-AGENT,MOO*
 USER-AGENT,MiguVideo*
-USER-AGENT,PPStream*
-USER-AGENT,QIYI*
 USER-AGENT,QQ%E9%9F%B3%E4%B9%90
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
-USER-AGENT,QYPlayer*
-USER-AGENT,TencentMidasConnect*
 USER-AGENT,Youku*
 USER-AGENT,baiduyinyue
 USER-AGENT,bilibili*
-USER-AGENT,iQiYi*
-USER-AGENT,iQiyi*
 USER-AGENT,live4iphone*
 USER-AGENT,qqlive4iphone*
 USER-AGENT,youku*
 USER-AGENT,Himalaya*
+USER-AGENT,MOO*
+USER-AGENT,TencentMidasConnect*
 USER-AGENT,walkman*
 USER-AGENT,xiami*
+USER-AGENT,PPStream*
+USER-AGENT,QIYI*
+USER-AGENT,QYPlayer*
 USER-AGENT,iQIYI*
+USER-AGENT,iQiYi*
+USER-AGENT,iQiyi*
 IP-ASN,10111,no-resolve
 IP-ASN,10206,no-resolve
 IP-ASN,10212,no-resolve
@@ -4652,7 +4652,6 @@ IP-CIDR,173.44.2.0/24,no-resolve
 IP-CIDR,173.44.26.0/23,no-resolve
 IP-CIDR,173.44.4.0/23,no-resolve
 IP-CIDR,173.44.6.0/24,no-resolve
-IP-CIDR,174.139.171.0/24,no-resolve
 IP-CIDR,175.0.0.0/12,no-resolve
 IP-CIDR,175.102.0.0/16,no-resolve
 IP-CIDR,175.106.128.0/17,no-resolve
@@ -10760,7 +10759,7 @@ IP-CIDR6,2a05:dfc1:6607::/48,no-resolve
 IP-CIDR6,2a05:dfc1:7100::/46,no-resolve
 IP-CIDR6,2a05:dfc1:7104::/47,no-resolve
 IP-CIDR6,2a05:dfc1:7108::/47,no-resolve
-IP-CIDR6,2a05:dfc1:8c01::/48,no-resolve
+IP-CIDR6,2a05:dfc1:8c00::/47,no-resolve
 IP-CIDR6,2a05:dfc1:8c02::/48,no-resolve
 IP-CIDR6,2a05:dfc1:8c05::/48,no-resolve
 IP-CIDR6,2a05:dfc1:8c09::/48,no-resolve
@@ -10771,6 +10770,7 @@ IP-CIDR6,2a05:dfc1:8c1b::/48,no-resolve
 IP-CIDR6,2a05:dfc1:8c1d::/48,no-resolve
 IP-CIDR6,2a05:dfc1:8c22::/48,no-resolve
 IP-CIDR6,2a05:dfc1:8c24::/48,no-resolve
+IP-CIDR6,2a05:dfc1:8c30::/48,no-resolve
 IP-CIDR6,2a05:dfc1:8c3a::/48,no-resolve
 IP-CIDR6,2a05:dfc1:8c40::/48,no-resolve
 IP-CIDR6,2a05:dfc1:8c90::/47,no-resolve
@@ -10834,21 +10834,19 @@ IP-CIDR6,2a06:a005:f80::/44,no-resolve
 IP-CIDR6,2a06:de00:de04::/47,no-resolve
 IP-CIDR6,2a06:de00:de0e::/47,no-resolve
 IP-CIDR6,2a06:de01:801::/48,no-resolve
-IP-CIDR6,2a06:de01:80e::/48,no-resolve
-IP-CIDR6,2a06:de01:812::/48,no-resolve
+IP-CIDR6,2a06:de01:80b::/48,no-resolve
 IP-CIDR6,2a06:de01:816::/48,no-resolve
 IP-CIDR6,2a06:de01:81a::/48,no-resolve
-IP-CIDR6,2a06:de01:820::/48,no-resolve
+IP-CIDR6,2a06:de01:820::/47,no-resolve
 IP-CIDR6,2a06:de01:82d::/48,no-resolve
 IP-CIDR6,2a06:de01:82e::/48,no-resolve
-IP-CIDR6,2a06:de01:831::/48,no-resolve
 IP-CIDR6,2a06:de01:839::/48,no-resolve
 IP-CIDR6,2a06:de01:845::/48,no-resolve
-IP-CIDR6,2a06:de01:856::/48,no-resolve
+IP-CIDR6,2a06:de01:84c::/48,no-resolve
+IP-CIDR6,2a06:de01:863::/48,no-resolve
 IP-CIDR6,2a06:de01:864::/48,no-resolve
-IP-CIDR6,2a06:de01:86a::/48,no-resolve
+IP-CIDR6,2a06:de01:871::/48,no-resolve
 IP-CIDR6,2a06:de01:872::/47,no-resolve
-IP-CIDR6,2a06:de01:875::/48,no-resolve
 IP-CIDR6,2a06:de01:878::/48,no-resolve
 IP-CIDR6,2a06:de01:87a::/48,no-resolve
 IP-CIDR6,2a06:de01:87c::/47,no-resolve
@@ -10858,41 +10856,42 @@ IP-CIDR6,2a06:de01:887::/48,no-resolve
 IP-CIDR6,2a06:de01:888::/48,no-resolve
 IP-CIDR6,2a06:de01:892::/48,no-resolve
 IP-CIDR6,2a06:de01:896::/48,no-resolve
-IP-CIDR6,2a06:de01:8a1::/48,no-resolve
-IP-CIDR6,2a06:de01:8b4::/48,no-resolve
+IP-CIDR6,2a06:de01:8a0::/48,no-resolve
+IP-CIDR6,2a06:de01:8bb::/48,no-resolve
 IP-CIDR6,2a06:de01:8bc::/48,no-resolve
-IP-CIDR6,2a06:de01:8c2::/48,no-resolve
+IP-CIDR6,2a06:de01:8be::/47,no-resolve
 IP-CIDR6,2a06:de01:8cd::/48,no-resolve
-IP-CIDR6,2a06:de01:8d3::/48,no-resolve
 IP-CIDR6,2a06:de01:8d6::/48,no-resolve
+IP-CIDR6,2a06:de01:8d8::/48,no-resolve
 IP-CIDR6,2a06:de01:8df::/48,no-resolve
 IP-CIDR6,2a06:de01:8f3::/48,no-resolve
+IP-CIDR6,2a06:de01:904::/48,no-resolve
 IP-CIDR6,2a06:de01:907::/48,no-resolve
+IP-CIDR6,2a06:de01:908::/48,no-resolve
 IP-CIDR6,2a06:de01:910::/48,no-resolve
+IP-CIDR6,2a06:de01:912::/48,no-resolve
 IP-CIDR6,2a06:de01:924::/48,no-resolve
-IP-CIDR6,2a06:de01:928::/48,no-resolve
 IP-CIDR6,2a06:de01:92e::/47,no-resolve
 IP-CIDR6,2a06:de01:930::/48,no-resolve
-IP-CIDR6,2a06:de01:94f::/48,no-resolve
-IP-CIDR6,2a06:de01:951::/48,no-resolve
 IP-CIDR6,2a06:de01:953::/48,no-resolve
-IP-CIDR6,2a06:de01:95b::/48,no-resolve
+IP-CIDR6,2a06:de01:95f::/48,no-resolve
 IP-CIDR6,2a06:de01:960::/48,no-resolve
-IP-CIDR6,2a06:de01:963::/48,no-resolve
+IP-CIDR6,2a06:de01:962::/47,no-resolve
 IP-CIDR6,2a06:de01:965::/48,no-resolve
-IP-CIDR6,2a06:de01:966::/48,no-resolve
+IP-CIDR6,2a06:de01:967::/48,no-resolve
 IP-CIDR6,2a06:de01:972::/48,no-resolve
 IP-CIDR6,2a06:de01:97a::/48,no-resolve
+IP-CIDR6,2a06:de01:97c::/48,no-resolve
 IP-CIDR6,2a06:de01:97e::/48,no-resolve
+IP-CIDR6,2a06:de01:980::/48,no-resolve
 IP-CIDR6,2a06:de01:985::/48,no-resolve
-IP-CIDR6,2a06:de01:991::/48,no-resolve
 IP-CIDR6,2a06:de01:992::/48,no-resolve
+IP-CIDR6,2a06:de01:99c::/48,no-resolve
 IP-CIDR6,2a06:de01:9a0::/48,no-resolve
 IP-CIDR6,2a06:de01:9a2::/48,no-resolve
+IP-CIDR6,2a06:de01:9ad::/48,no-resolve
 IP-CIDR6,2a06:de01:9b1::/48,no-resolve
-IP-CIDR6,2a06:de01:9b9::/48,no-resolve
 IP-CIDR6,2a06:de01:9bb::/48,no-resolve
-IP-CIDR6,2a06:de01:9bd::/48,no-resolve
 IP-CIDR6,2a06:de01:a15::/48,no-resolve
 IP-CIDR6,2a06:de01:a34::/48,no-resolve
 IP-CIDR6,2a06:de01:a3c::/48,no-resolve
@@ -10901,19 +10900,17 @@ IP-CIDR6,2a06:de01:a4d::/48,no-resolve
 IP-CIDR6,2a06:de01:a7b::/48,no-resolve
 IP-CIDR6,2a06:de01:a7d::/48,no-resolve
 IP-CIDR6,2a06:de01:ac7::/48,no-resolve
-IP-CIDR6,2a06:de01:ac8::/48,no-resolve
-IP-CIDR6,2a06:de01:acd::/48,no-resolve
 IP-CIDR6,2a06:de01:ad6::/48,no-resolve
 IP-CIDR6,2a06:de01:adb::/48,no-resolve
+IP-CIDR6,2a06:de01:ae6::/48,no-resolve
 IP-CIDR6,2a06:de01:ae8::/48,no-resolve
 IP-CIDR6,2a06:de01:af3::/48,no-resolve
-IP-CIDR6,2a06:de01:af5::/48,no-resolve
-IP-CIDR6,2a06:de01:af9::/48,no-resolve
+IP-CIDR6,2a06:de01:af6::/48,no-resolve
+IP-CIDR6,2a06:de01:afc::/48,no-resolve
 IP-CIDR6,2a06:de01:b01::/48,no-resolve
 IP-CIDR6,2a06:de01:b05::/48,no-resolve
-IP-CIDR6,2a06:de01:b1a::/48,no-resolve
 IP-CIDR6,2a06:de01:b24::/48,no-resolve
-IP-CIDR6,2a06:de01:b3b::/48,no-resolve
+IP-CIDR6,2a06:de01:b36::/48,no-resolve
 IP-CIDR6,2a06:de01:b3e::/48,no-resolve
 IP-CIDR6,2a06:e881:2509::/48,no-resolve
 IP-CIDR6,2a06:e881:3800::/44,no-resolve

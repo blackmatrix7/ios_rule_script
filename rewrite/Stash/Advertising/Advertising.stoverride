@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-02-19 02:19:58
+desc: 最后更新时间 2024-02-21 02:20:40
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 654
-# mitm: 608
+# reject: 656
+# mitm: 610
 # force-http-engine-hosts: 6
-# total: 1268
+# total: 1272
 
 
 
@@ -13,6 +13,8 @@ desc: 最后更新时间 2024-02-19 02:19:58
 
 http:
   rewrite:
+    - ^http:\/\/.*babytree\.com/(plough\.do|go_search\/api\/mobile_search_new\/get_multi_search_default_keywords) - reject
+    - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup - reject
     - ^https:\/\/aag\.enmonster\.com\/apa\/(index\/)?advert\/(skin|multi\/positions|demand\/home\/poster) - reject
@@ -889,6 +891,7 @@ http:
     - "b-api.ins.miaopai.com"
     - "b.appsimg.com"
     - "b.zhuishushenqi.com"
+    - "babytree.com"
     - "bbs-api.miyoushe.com"
     - "bdsp-x.jd.com"
     - "beta-api.crunchyroll.com"
@@ -1059,6 +1062,7 @@ http:
     - "m.client.10010.com"
     - "m.ctrip.com"
     - "m.ibuscloud.com"
+    - "m.meitun.com"
     - "m.msyc.cc"
     - "m.sd.10086.cn"
     - "m.tuniu.com"

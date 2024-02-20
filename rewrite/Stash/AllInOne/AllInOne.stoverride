@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-02-19 02:20:03
+desc: 最后更新时间 2024-02-21 02:20:46
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 627
-# mitm: 659
+# reject: 628
+# mitm: 660
 # force-http-engine-hosts: 6
-# total: 1331
+# total: 1333
 
 
 
@@ -31,6 +31,7 @@ http:
     - ^https?:\/\/cn\.ultraiso\.net\/ https://cn.ezbsystems.com/ultraiso/ 302
     - ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302
     - ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
+    - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup - reject
     - ^https:\/\/aag\.enmonster\.com\/apa\/(index\/)?advert\/(skin|multi\/positions|demand\/home\/poster) - reject
@@ -1231,6 +1232,7 @@ http:
     - "m.client.10010.com"
     - "m.ctrip.com"
     - "m.ibuscloud.com"
+    - "m.meitun.com"
     - "m.msyc.cc"
     - "m.sd.10086.cn"
     - "m.tuniu.com"

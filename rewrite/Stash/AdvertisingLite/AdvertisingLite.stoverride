@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-02-16 02:20:13
+desc: 最后更新时间 2024-02-21 02:20:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 449
-# mitm: 381
+# reject: 450
+# mitm: 382
 # force-http-engine-hosts: 6
-# total: 836
+# total: 838
 
 
 
@@ -15,6 +15,7 @@ http:
   rewrite:
     - ^http:\/\/apicloud\.zol\.com\.cn\/Article\/WapLaunchLogo - reject
     - ^http:\/\/go\.babytree\.com\/go_tool\/api\/feeding_record\/get_home_banner_info - reject
+    - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
     - ^https:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig - reject
     - ^https:\/\/api\.sfacg\.com\/ioscfg - reject
     - ^https:\/\/cdke\.youdao\.com\/course3\/recommend\/dict\/startup - reject
@@ -712,6 +713,7 @@ http:
     - "m.client.10010.com"
     - "m.ctrip.com"
     - "m.ibuscloud.com"
+    - "m.meitun.com"
     - "m.msyc.cc"
     - "m.sd.10086.cn"
     - "m.tuniu.com"

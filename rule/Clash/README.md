@@ -72,7 +72,7 @@
 |[AMP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AMP) |[Anaconda](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Anaconda) |[AnandTech](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AnandTech) |[Android](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Android) |[Anime](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Anime) |
 |[Anonv](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Anonv) |[Anthropic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Anthropic) |[APKCombo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/APKCombo) |[AppLovin](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppLovin) |[Threads](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Threads) |
 |[Duolingo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Duolingo) |[Civitai](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Civitai) |[LinkedIn](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LinkedIn) |[OKX](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OKX) |[TruthSocial](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TruthSocial) |
-|[Zoom](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Zoom) |[Zalo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Zalo) |
+|[Zoom](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Zoom) |[Zalo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Zalo) |[Gemini](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Gemini) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -189,7 +189,7 @@
 |📟Google|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google) |[GoogleDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleDrive) |[YouTubeMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTubeMusic) |[GoogleSearch](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleSearch) |[GoogleVoice](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleVoice) ||||
-|[Chromecast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Chromecast) |[谷歌推送](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleFCM) |[BardAI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BardAI) |||
+|[Chromecast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Chromecast) |[谷歌推送](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleFCM) |[BardAI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BardAI) |[Gemini](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Gemini) |||
 
 
 |🚫Reject|  |  |  |  |

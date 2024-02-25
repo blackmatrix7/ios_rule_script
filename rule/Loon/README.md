@@ -72,7 +72,7 @@
 |[AMP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AMP) |[Anaconda](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Anaconda) |[AnandTech](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AnandTech) |[Android](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Android) |[Anime](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Anime) |
 |[Anonv](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Anonv) |[Anthropic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Anthropic) |[APKCombo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/APKCombo) |[AppLovin](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppLovin) |[Threads](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Threads) |
 |[Duolingo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Duolingo) |[Civitai](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Civitai) |[LinkedIn](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/LinkedIn) |[OKX](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/OKX) |[TruthSocial](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TruthSocial) |
-|[Zoom](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Zoom) |[Zalo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Zalo) |
+|[Zoom](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Zoom) |[Zalo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Zalo) |[Gemini](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Gemini) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -189,7 +189,7 @@
 |📟Google|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google) |[GoogleDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GoogleDrive) |[YouTubeMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/YouTubeMusic) |[GoogleSearch](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GoogleSearch) |[GoogleVoice](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GoogleVoice) ||||
-|[Chromecast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Chromecast) |[谷歌推送](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GoogleFCM) |[BardAI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BardAI) |||
+|[Chromecast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Chromecast) |[谷歌推送](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GoogleFCM) |[BardAI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BardAI) |[Gemini](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Gemini) |||
 
 
 |🚫Reject|  |  |  |  |

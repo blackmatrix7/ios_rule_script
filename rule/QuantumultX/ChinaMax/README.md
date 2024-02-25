@@ -21,20 +21,20 @@
 
 ## 规则统计
 
-最后更新时间：2024-02-25 02:13:41
+最后更新时间：2024-02-25 16:04:27
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 527  | 
-| HOST-KEYWORD | 14  | 
-| HOST-SUFFIX | 75248  | 
+| HOST | 453  | 
+| HOST-KEYWORD | 13  | 
+| HOST-SUFFIX | 75234  | 
 | HOST-WILDCARD | 1  | 
 | IP-ASN | 1  | 
 | IP-CIDR | 8031  | 
-| IP6-CIDR | 4291  | 
+| IP6-CIDR | 4277  | 
 | USER-AGENT | 65  | 
-| TOTAL | 88178  | 
+| TOTAL | 88075  | 
 
 
 ## QuantumultX 
@@ -129,9 +129,10 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 当前分流规则，已排除以下规则：
 | 排除规则  |  |  |  |  | 
 | ---- | ---- | ---- | ---- | ----  |
-| Advertising | AdvertisingLite | AdvertisingMiTV | AdvertisingTest | PayPal  | 
-| Proxy | Steam | SteamCN | TikTok | YouTube  | 
-| YouTubeMusic  |  |  |  |  | 
+| Advertising | AdvertisingLite | AdvertisingMiTV | AdvertisingTest | Bing  | 
+| Copilot | GitHub | Microsoft | MicrosoftEdge | OneDrive  | 
+| PayPal | Proxy | Steam | SteamCN | Teams  | 
+| TikTok | YouTube | YouTubeMusic  |  |  | 
 
 ## 数据来源
 

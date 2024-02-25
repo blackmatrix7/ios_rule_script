@@ -12,23 +12,31 @@ Copilot规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-02-03 01:49:23
+最后更新时间：2024-02-25 16:06:06
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 12  | 
-| DOMAIN-SUFFIX | 2  | 
-| TOTAL | 14  | 
+| DOMAIN | 18  | 
+| DOMAIN-KEYWORD | 1  | 
+| DOMAIN-SUFFIX | 27  | 
+| IP-ASN | 2  | 
+| IP-CIDR | 2  | 
+| TOTAL | 50  | 
 
 
 ## Shadowrocket 
 
 #### 使用说明
 - Copilot.list，请使用RULE-SET。
+- Copilot_Resolve.list，请使用RULE-SET。
+
+#### 文件区别
+- Copilot_Resolve.list与Copilot.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
 - Copilot.list 单独使用。
+- Copilot_Resolve.list 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -62,7 +70,13 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ## 数据来源
 
-当前规则未直接引用数据源。
+《Copilot》的数据来自以下链接，如与本项目的《Copilot》规则混合使用，可能会造成规则大量重复。
+
+- https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list
+- https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChatGPT_Voice.list
+
+
+感谢以上规则作者的辛勤付出（排名不分先后）。
 
 ## 最后
 

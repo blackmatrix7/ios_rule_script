@@ -72,7 +72,7 @@
 |[AMP](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AMP) |[Anaconda](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Anaconda) |[AnandTech](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AnandTech) |[Android](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Android) |[Anime](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Anime) |
 |[Anonv](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Anonv) |[Anthropic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Anthropic) |[APKCombo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/APKCombo) |[AppLovin](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AppLovin) |[Threads](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Threads) |
 |[Duolingo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Duolingo) |[Civitai](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Civitai) |[LinkedIn](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/LinkedIn) |[OKX](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/OKX) |[TruthSocial](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/TruthSocial) |
-|[Zoom](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Zoom) |[Zalo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Zalo) |
+|[Zoom](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Zoom) |[Zalo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Zalo) |[Gemini](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Gemini) |
 
 
 |🌏GlobalMedia|  |  |  |  |
@@ -189,7 +189,7 @@
 |📟Google|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Google) |[GoogleDrive](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GoogleDrive) |[YouTubeMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/YouTubeMusic) |[GoogleSearch](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GoogleSearch) |[GoogleVoice](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GoogleVoice) ||||
-|[Chromecast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Chromecast) |[谷歌推送](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GoogleFCM) |[BardAI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/BardAI) |||
+|[Chromecast](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Chromecast) |[谷歌推送](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/GoogleFCM) |[BardAI](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/BardAI) |[Gemini](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Gemini) |||
 
 
 |🚫Reject|  |  |  |  |

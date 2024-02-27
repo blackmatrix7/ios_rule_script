@@ -1,14 +1,14 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-27 02:09:56
-# HOST: 235
+# UPDATED: 2024-02-28 02:09:57
+# HOST: 242
 # HOST-KEYWORD: 7
 # HOST-SUFFIX: 1549
 # HOST-WILDCARD: 8
 # IP-CIDR: 10
 # USER-AGENT: 23
-# TOTAL: 1832
+# TOTAL: 1839
 HOST,apps.apple.com,Apple
 HOST,a1.mzstatic.com,Apple
 HOST,a2.mzstatic.com,Apple
@@ -121,6 +121,7 @@ HOST,iosapps.itunes.apple.com,Apple
 HOST,iosapps.itunes.g.aaplimg.com,Apple
 HOST,ipcdn.apple.com,Apple
 HOST,iphone-ld.apple.com,Apple
+HOST,iphone-ld.origin-apple.com.akadns.net,Apple
 HOST,is1-ssl.mzstatic.com,Apple
 HOST,is1.mzstatic.com,Apple
 HOST,is2-ssl.mzstatic.com,Apple
@@ -140,6 +141,7 @@ HOST,maps.apple.com,Apple
 HOST,mesu-cdn.apple.com.akadns.net,Apple
 HOST,mesu-china.apple.com.akadns.net,Apple
 HOST,mesu.apple.com,Apple
+HOST,ml.cdn-apple.com,Apple
 HOST,music.apple.com,Apple
 HOST,ocsp-lb.apple.com.akadns.net,Apple
 HOST,ocsp.apple.com,Apple
@@ -148,6 +150,7 @@ HOST,ocsp2.apple.com,Apple
 HOST,oscdn.apple.com,Apple
 HOST,oscdn.origin-apple.com.akadns.net,Apple
 HOST,osxapps.itunes.apple.com,Apple
+HOST,osxapps.itunes.g.aaplimg.com,Apple
 HOST,p-events-delivery.akamaized.net,Apple
 HOST,pancake.apple.com,Apple
 HOST,pancake.cdn-apple.com.akadns.net,Apple
@@ -177,6 +180,7 @@ HOST,su.itunes.apple.com,Apple
 HOST,support-china.apple-support.akadns.net,Apple
 HOST,support.apple.com,Apple
 HOST,supportdownload.apple.com,Apple
+HOST,swallow-apple-com.v.aaplimg.com,Apple
 HOST,swallow.apple.com,Apple
 HOST,swcatalog-cdn.apple.com.akadns.net,Apple
 HOST,swcatalog.apple.com,Apple
@@ -194,6 +198,9 @@ HOST,upp.itunes.apple.com,Apple
 HOST,valid.apple.com,Apple
 HOST,valid.origin-apple.com.akadns.net,Apple
 HOST,weather-data.apple.com,Apple
+HOST,weather-data.apple.com.akadns.net,Apple
+HOST,weather-map.apple.com,Apple
+HOST,weather-map2.apple.com,Apple
 HOST,www.apple.com,Apple
 HOST,www.apple.com.edgekey.net,Apple
 HOST,www.apple.com.edgekey.net.globalredir.akadns.net,Apple
@@ -215,6 +222,7 @@ HOST,devimages-cdn.apple.com,Apple
 HOST,devstreaming-cdn.apple.com,Apple
 HOST,docs-assets.developer.apple.com,Apple
 HOST,gspe1-ssl.ls.apple.com,Apple
+HOST,hls-svod.itunes.apple.com,Apple
 HOST,hls.itunes.apple.com,Apple
 HOST,itunes.apple.com,Apple
 HOST,js-cdn.music.apple.com,Apple
@@ -232,6 +240,7 @@ HOST,news-events.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
 HOST,play-edge.itunes.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
+HOST,testflight.apple.com,Apple
 HOST,tv.applemusic.com,Apple
 HOST,uts-api.itunes.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple
@@ -239,10 +248,8 @@ HOST,fmfmobile.icloud.com,Apple
 HOST,fmipmobile.icloud.com,Apple
 HOST,statici.icloud.com,Apple
 HOST,amp-api.fitness.apple.com,Apple
-HOST,hls-svod.itunes.apple.com,Apple
 HOST,guzzoni.apple.com,Apple
 HOST,beta.apple.com,Apple
-HOST,testflight.apple.com,Apple
 HOST,www-cdn.icloud.com.akadns.net,Apple
 HOST-SUFFIX,100beatscheap.com,Apple
 HOST-SUFFIX,1monsterbeatsbydreus.com,Apple

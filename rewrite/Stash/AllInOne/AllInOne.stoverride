@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-02-25 16:06:18
+desc: 最后更新时间 2024-02-28 02:16:36
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 630
-# mitm: 661
+# reject: 631
+# mitm: 662
 # force-http-engine-hosts: 6
-# total: 1336
+# total: 1338
 
 
 
@@ -348,6 +348,7 @@ http:
     - ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds - reject
     - ^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd - reject
     - ^https?:\/\/data-collector\.soulapp\.cn\/api\/data\/report$ - reject
+    - ^https?:\/\/device-box\.onethingpcs\.com\/.+\/adConf - reject
     - ^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?[\w=&]*(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController) - reject
     - ^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/ - reject
     - ^https?:\/\/dispatcher\.camera360\.com\/api\/v1\/list$ - reject
@@ -1116,6 +1117,7 @@ http:
     - "d.syshhc.top"
     - "daoyu.sdo.com"
     - "data-collector.soulapp.cn"
+    - "device-box.onethingpcs.com"
     - "dict-mobile.iciba.com"
     - "dili.bdatu.com"
     - "dispatcher.camera360.com"

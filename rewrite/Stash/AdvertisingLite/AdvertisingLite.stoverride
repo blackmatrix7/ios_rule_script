@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-02-25 16:06:24
+desc: 最后更新时间 2024-02-28 02:16:42
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 452
-# mitm: 383
+# reject: 453
+# mitm: 384
 # force-http-engine-hosts: 6
-# total: 841
+# total: 843
 
 
 
@@ -220,6 +220,7 @@ http:
     - ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds - reject
     - ^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd - reject
     - ^https?:\/\/data-collector\.soulapp\.cn\/api\/data\/report$ - reject
+    - ^https?:\/\/device-box\.onethingpcs\.com\/.+\/adConf - reject
     - ^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?[\w=&]*(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController) - reject
     - ^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/ - reject
     - ^https?:\/\/dispatcher\.camera360\.com\/api\/v1\/list$ - reject
@@ -629,6 +630,7 @@ http:
     - "ct.xiaojukeji.com"
     - "daoyu.sdo.com"
     - "data-collector.soulapp.cn"
+    - "device-box.onethingpcs.com"
     - "dict-mobile.iciba.com"
     - "dict.youdao.com"
     - "dili.bdatu.com"

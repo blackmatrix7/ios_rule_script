@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-02-28 02:16:42
+desc: 最后更新时间 2024-02-29 02:16:22
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 453
-# mitm: 384
+# reject: 455
+# mitm: 386
 # force-http-engine-hosts: 6
-# total: 843
+# total: 847
 
 
 
@@ -224,6 +224,7 @@ http:
     - ^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?[\w=&]*(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController) - reject
     - ^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/ - reject
     - ^https?:\/\/dispatcher\.camera360\.com\/api\/v1\/list$ - reject
+    - ^https?:\/\/dj\.palmestore\.com\/zybk\/api\/ad - reject
     - ^https?:\/\/djcapp\.game\.qq\.com\/daoju\/igw\/main\/\?_service=welink\.ad\.list - reject
     - ^https?:\/\/dl-cu-hz\.lechange\.cn\/oms-online\/advertisementPush\/* - reject
     - ^https?:\/\/dl\.app\.gtja\.com\/dzswem\/kvController\/.+?\.jpg$ - reject
@@ -395,6 +396,7 @@ http:
     - ^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json - reject
     - ^https?:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time - reject
     - ^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php - reject
+    - ^https?:\/\/saad\.ms\.zhangyue\.net\/ad - reject
     - ^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/.*?\/v\d\/(version|top_notice\?|advert\?position=[^2]+) - reject
     - ^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(GetAD|ADLog) - reject
     - ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
@@ -635,6 +637,7 @@ http:
     - "dict.youdao.com"
     - "dili.bdatu.com"
     - "dispatcher.camera360.com"
+    - "dj.palmestore.com"
     - "djcapp.game.qq.com"
     - "dl-cu-hz.lechange.cn"
     - "dl.app.gtja.com"
@@ -793,6 +796,7 @@ http:
     - "s*.zdmimg.com"
     - "s1.api.tv.itc.cn"
     - "s3plus.meituan.net"
+    - "saad.ms.zhangyue.net"
     - "sdk.alibaba.com.ailbaba.me"
     - "service.4gtv.tv"
     - "service.busi.inke.cn"

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-02-29 02:16:11
+desc: 最后更新时间 2024-03-01 02:18:03
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 660
-# mitm: 613
+# reject: 661
+# mitm: 616
 # force-http-engine-hosts: 6
-# total: 1279
+# total: 1283
 
 
 
@@ -13,6 +13,7 @@ desc: 最后更新时间 2024-02-29 02:16:11
 
 http:
   rewrite:
+    - ^http:\/\/.*aastocks\.com\/ad\/ - reject
     - ^http:\/\/.*babytree\.com/(plough\.do|go_search\/api\/mobile_search_new\/get_multi_search_default_keywords) - reject
     - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner - reject
@@ -742,6 +743,7 @@ http:
     - "a.jxjt888.top"
     - "a.qiumibao.com"
     - "aag.enmonster.com"
+    - "aastocks.com"
     - "access.mypikpak.com"
     - "acs.m.taobao.com"
     - "act.vip.iqiyi.com"
@@ -850,6 +852,7 @@ http:
     - "api.yikaobang.com.cn"
     - "api.yizhibo.com"
     - "api.yonghuivip.com"
+    - "api.ys7.com"
     - "api.zhuishushenqi.com"
     - "api1.34580.com"
     - "api3.cls.cn"
@@ -1265,6 +1268,7 @@ http:
     - "www.deppon.com"
     - "www.didapinche.com"
     - "www.firefox.com.cn"
+    - "www.flyert.com"
     - "www.flyertea.com"
     - "www.freeheikeji.cn"
     - "www.i3zh.com"

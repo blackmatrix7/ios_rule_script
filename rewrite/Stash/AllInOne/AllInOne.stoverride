@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-03-01 02:18:08
+desc: 最后更新时间 2024-03-02 02:16:18
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 632
-# mitm: 665
+# reject: 633
+# mitm: 666
 # force-http-engine-hosts: 6
-# total: 1342
+# total: 1344
 
 
 
@@ -661,6 +661,7 @@ http:
     - ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
     - ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig - reject
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
+    - ^https?:\/\/zjmbank\.js96008\.com:8090\/gw\/advert\/oprAdvertQry - reject
     - ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do - reject
     - ^https?:\/\/ztoread\.ziroom\.com\/ymerApi\/v\d\/index\/open - reject
 
@@ -1521,6 +1522,7 @@ http:
     - "zconfig.alibabausercontent.com"
     - "zhuanlan.zhihu.com"
     - "zjh5api.189smarthome.com"
+    - "zjmbank.js96008.com"
     - "zone.guiderank-app.com"
     - "ztoread.ziroom.com"
 

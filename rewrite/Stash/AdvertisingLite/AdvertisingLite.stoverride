@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-02-29 02:16:22
+desc: 最后更新时间 2024-03-02 02:16:24
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 455
-# mitm: 386
+# reject: 456
+# mitm: 387
 # force-http-engine-hosts: 6
-# total: 847
+# total: 849
 
 
 
@@ -466,6 +466,7 @@ http:
     - ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
     - ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig - reject
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
+    - ^https?:\/\/zjmbank\.js96008\.com:8090\/gw\/advert\/oprAdvertQry - reject
     - ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do - reject
     - ^https?:\/\/ztoread\.ziroom\.com\/ymerApi\/v\d\/index\/open - reject
 
@@ -863,5 +864,6 @@ http:
     - "yxyapi2.yuxueyuan.cn"
     - "zconfig.alibabausercontent.com"
     - "zjh5api.189smarthome.com"
+    - "zjmbank.js96008.com"
     - "zone.guiderank-app.com"
     - "ztoread.ziroom.com"

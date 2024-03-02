@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-02 02:16:24
+desc: 最后更新时间 2024-03-03 02:17:01
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 456
-# mitm: 387
+# reject: 457
+# mitm: 388
 # force-http-engine-hosts: 6
-# total: 849
+# total: 851
 
 
 
@@ -52,6 +52,7 @@ http:
     - ^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
     - ^https?:\/\/a\.qiumibao\.com\/ios\/config\/\?version_code= - reject
     - ^https?:\/\/access\.mypikpak\.com\/access_controller\/v1\/area_accessible - reject
+    - ^https?:\/\/acs-m\.freshippo\.com\/gw\/mtop\.wdk\.render\.querysinglepage - reject
     - ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv - reject
     - ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise - reject
     - ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.mec\.popup\.get - reject
@@ -486,6 +487,7 @@ http:
     - "4gimg.map.qq.com"
     - "a.qiumibao.com"
     - "access.mypikpak.com"
+    - "acs-m.freshippo.com"
     - "acs.m.taobao.com"
     - "act.vip.iqiyi.com"
     - "ad.lofter.com"

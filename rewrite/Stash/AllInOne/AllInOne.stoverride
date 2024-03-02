@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-03-02 02:16:18
+desc: 最后更新时间 2024-03-03 02:16:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 633
-# mitm: 666
+# reject: 634
+# mitm: 667
 # force-http-engine-hosts: 6
-# total: 1344
+# total: 1346
 
 
 
@@ -138,6 +138,7 @@ http:
     - ^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
     - ^https?:\/\/a\.qiumibao\.com\/ios\/config\/\?version_code= - reject
     - ^https?:\/\/access\.mypikpak\.com\/access_controller\/v1\/area_accessible - reject
+    - ^https?:\/\/acs-m\.freshippo\.com\/gw\/mtop\.wdk\.render\.querysinglepage - reject
     - ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv - reject
     - ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise - reject
     - ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.mec\.popup\.get - reject
@@ -913,6 +914,7 @@ http:
     - "a.qiumibao.com"
     - "aag.enmonster.com"
     - "access.mypikpak.com"
+    - "acs-m.freshippo.com"
     - "acs.m.taobao.com"
     - "act.vip.iqiyi.com"
     - "ad.12306.cn"

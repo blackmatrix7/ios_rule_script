@@ -1,12 +1,12 @@
 #!name= Advertising
-#!desc= 最后更新时间 2024-03-04 02:16:00
+#!desc= 最后更新时间 2024-03-05 02:17:05
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 664
+#!reject= 666
 #!mitm= 619
-#!total= 1283
+#!total= 1285
 
 
 [Rewrite]
@@ -237,6 +237,7 @@
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=home_launchConfig - reject
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start - reject
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
+^https?:\/\/api\.mcd\.cn\/bff\/portal\/(richpop|home\/splash) - reject-200
 ^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
 ^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
 ^https?:\/\/api\.qbb6\.com\/ad\/ - reject
@@ -560,6 +561,7 @@
 ^https?:\/\/render-oss-cdn\.amap\.com\/render\/studio-dev\/image\/ - reject-200
 ^https?:\/\/rengine-platform\.llsapp\.com\/auth\/api\/remoteResource\/darwin - reject-200
 ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
+^https?:\/\/res.kfc.com.cn\/(CRM\/kfcad|advertisement\/) - reject-200
 ^https?:\/\/res\.kfc\.com\.cn\/advertisement\/ - reject
 ^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome - reject-200
 ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) - reject-200

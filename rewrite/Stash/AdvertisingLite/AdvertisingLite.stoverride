@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-04 02:16:12
+desc: 最后更新时间 2024-03-05 02:17:18
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 458
-# mitm: 389
+# reject: 459
+# mitm: 390
 # force-http-engine-hosts: 6
-# total: 853
+# total: 855
 
 
 
@@ -122,6 +122,7 @@ http:
     - ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
     - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=home_launchConfig - reject
     - ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
+    - ^https?:\/\/api\.mcd\.cn\/bff\/portal\/(richpop|home\/splash) - reject
     - ^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
     - ^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
     - ^https?:\/\/api\.qbb6\.com\/ad\/ - reject
@@ -389,7 +390,7 @@ http:
     - ^https?:\/\/render-oss-cdn\.amap\.com\/render\/studio-dev\/image\/ - reject
     - ^https?:\/\/rengine-platform\.llsapp\.com\/auth\/api\/remoteResource\/darwin - reject
     - ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
-    - ^https?:\/\/res\.kfc\.com\.cn\/advertisement\/ - reject
+    - ^https?:\/\/res.kfc.com.cn\/(CRM\/kfcad|advertisement\/) - reject
     - ^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome - reject
     - ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) - reject
     - ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget - reject
@@ -544,6 +545,7 @@ http:
     - "api.laifeng.com"
     - "api.m.jd.com"
     - "api.m.mi.com"
+    - "api.mcd.cn"
     - "api.mgzf.com"
     - "api.pinduoduo.com"
     - "api.psy-1.com"

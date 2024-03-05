@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-03-05 02:17:05
+desc: 最后更新时间 2024-03-06 02:16:55
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 666
+# reject: 667
 # mitm: 619
 # force-http-engine-hosts: 6
-# total: 1291
+# total: 1292
 
 
 
@@ -15,6 +15,7 @@ http:
   rewrite:
     - ^http:\/\/.*aastocks\.com\/ad\/ - reject
     - ^http:\/\/.*babytree\.com/(plough\.do|go_search\/api\/mobile_search_new\/get_multi_search_default_keywords) - reject
+    - ^http:\/\/gateway2\.etnet\.com\.hk\/etnetApp\/theme\/seasonal\/v30\/theme.json - reject
     - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup - reject
@@ -697,6 +698,7 @@ http:
     - "*.chelaile.net.cn"
     - "*.chelaileapp.cn"
     - "*.ddly666.top"
+    - "*.didapinche.com"
     - "*.ecoliving168.com"
     - "*.google.cn"
     - "*.hoopchina.com"
@@ -917,7 +919,6 @@ http:
     - "cap.caocaokeji.cn"
     - "capi.lkcoffee.com"
     - "capi.mwee.cn"
-    - "capis*.didapinche.com"
     - "cappapi.alittle-tea.com"
     - "carapp.gtmc.com.cn"
     - "ccmsupport-sz.tenpay.com"
@@ -995,6 +996,7 @@ http:
     - "gateway.36kr.com"
     - "gateway.abite.com"
     - "gateway.shouqiev.com"
+    - "gateway2.etnet.com.hk"
     - "gd.10086.cn"
     - "gfp.veta.naver.com"
     - "gg.caixin.com"
@@ -1273,7 +1275,6 @@ http:
     - "www.bodivis.com.cn"
     - "www.cntv.com"
     - "www.deppon.com"
-    - "www.didapinche.com"
     - "www.firefox.com.cn"
     - "www.flyert.com"
     - "www.flyertea.com"

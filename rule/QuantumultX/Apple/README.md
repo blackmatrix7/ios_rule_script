@@ -12,18 +12,18 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-02-28 02:09:57
+最后更新时间：2024-03-06 02:09:48
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 242  | 
+| HOST | 267  | 
 | HOST-KEYWORD | 7  | 
 | HOST-SUFFIX | 1549  | 
 | HOST-WILDCARD | 8  | 
 | IP-CIDR | 10  | 
 | USER-AGENT | 23  | 
-| TOTAL | 1839  | 
+| TOTAL | 1864  | 
 
 
 ## QuantumultX 

@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-05 02:17:18
+desc: 最后更新时间 2024-03-06 02:17:07
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 459
-# mitm: 390
+# reject: 461
+# mitm: 391
 # force-http-engine-hosts: 6
-# total: 855
+# total: 858
 
 
 
@@ -14,6 +14,7 @@ desc: 最后更新时间 2024-03-05 02:17:18
 http:
   rewrite:
     - ^http:\/\/apicloud\.zol\.com\.cn\/Article\/WapLaunchLogo - reject
+    - ^http:\/\/gateway2\.etnet\.com\.hk\/etnetApp\/theme\/seasonal\/v30\/theme.json - reject
     - ^http:\/\/go\.babytree\.com\/go_tool\/api\/feeding_record\/get_home_banner_info - reject
     - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
     - ^https:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig - reject
@@ -198,6 +199,7 @@ http:
     - ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/event? - reject
     - ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/ride\/detail\? - reject
     - ^https?:\/\/capis(-\d)?\.didapinche\.com\/ad\/ - reject
+    - ^https?:\/\/capis\.didapinche\.com\/ad\/ - reject
     - ^https?:\/\/carapp\.gtmc\.com\.cn\/api\/appgtmc\/homePage\/HomePageAction\/queryHomePageImg\.json - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject
@@ -670,6 +672,7 @@ http:
     - "gateway.36kr.com"
     - "gateway.abite.com"
     - "gateway.shouqiev.com"
+    - "gateway2.etnet.com.hk"
     - "gd.10086.cn"
     - "gfp.veta.naver.com"
     - "gha.ghac.cn"

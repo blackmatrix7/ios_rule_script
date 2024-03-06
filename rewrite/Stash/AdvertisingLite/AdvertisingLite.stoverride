@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-06 02:17:07
+desc: 最后更新时间 2024-03-07 02:19:45
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 461
-# mitm: 391
+# reject: 462
+# mitm: 392
 # force-http-engine-hosts: 6
-# total: 858
+# total: 860
 
 
 
@@ -439,6 +439,7 @@ http:
     - ^https?:\/\/track\.mm\.taou\.com/v\d\/track - reject
     - ^https?:\/\/tracker-download\.oss-cn-beijing\.aliyuncs\.com\/SIMPlus\/(ad_|AD\/) - reject
     - ^https?:\/\/u\d\.iqiyipic\.com\/image\/[\w\/]+\/oad_ - reject
+    - ^https?:\/\/ump\.sz\.creditcard\.ecitic\.com\/citiccard\/cm-ump\/ump-gateway\/ump-net-app\/ump-net-app\/adv - reject
     - ^https?:\/\/us\.l\.qq\.com\/exapp\?spsa=\d - reject
     - ^https?:\/\/v\d-api\.miaopai\.com\/miaopai\/advertisement\/ - reject
     - ^https?:\/\/venus\.yhd\.com\/memhome\/launchConfig - reject
@@ -844,6 +845,7 @@ http:
     - "track.mm.taou.com"
     - "tracker-download.oss-cn-beijing.aliyuncs.com"
     - "u*.iqiyipic.com"
+    - "ump.sz.creditcard.ecitic.com"
     - "us.l.qq.com"
     - "v*-api.miaopai.com"
     - "venus.yhd.com"

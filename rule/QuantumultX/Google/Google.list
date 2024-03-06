@@ -1,14 +1,14 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-03-02 02:09:46
+# UPDATED: 2024-03-07 02:11:03
 # HOST: 14
 # HOST-KEYWORD: 5
-# HOST-SUFFIX: 707
+# HOST-SUFFIX: 708
 # IP-CIDR: 4
 # IP6-CIDR: 1
 # USER-AGENT: 3
-# TOTAL: 734
+# TOTAL: 735
 HOST,clientservices.googleapis.com,Google
 HOST,crl.pki.goog,Google
 HOST,fonts.googleapis.com,Google
@@ -624,6 +624,7 @@ HOST-SUFFIX,qagpublic.qpdp1.net,Google
 HOST-SUFFIX,qgadmin.qatp1.net,Google
 HOST-SUFFIX,qgadmin.qcpp1.net,Google
 HOST-SUFFIX,qgadmin.qpdp1.net,Google
+HOST-SUFFIX,qiao-cn.com,Google
 HOST-SUFFIX,qpx.googleflights.net,Google
 HOST-SUFFIX,qualysapi.qatp1.net,Google
 HOST-SUFFIX,qualysapi.qcpp1.net,Google

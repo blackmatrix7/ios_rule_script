@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-03-06 02:17:00
+desc: 最后更新时间 2024-03-07 02:19:36
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 638
-# mitm: 668
+# reject: 639
+# mitm: 669
 # force-http-engine-hosts: 6
-# total: 1351
+# total: 1353
 
 
 
@@ -622,6 +622,7 @@ http:
     - ^https?:\/\/tracker-download\.oss-cn-beijing\.aliyuncs\.com\/SIMPlus\/(ad_|AD\/) - reject
     - ^https?:\/\/u\d\.iqiyipic\.com\/image\/[\w\/]+\/oad_ - reject
     - ^https?:\/\/ucmp\.sf-express\.com\/proxy\/operation-platform\/info-flow-adver\/query$ - reject
+    - ^https?:\/\/ump\.sz\.creditcard\.ecitic\.com\/citiccard\/cm-ump\/ump-gateway\/ump-net-app\/ump-net-app\/adv - reject
     - ^https?:\/\/us\.l\.qq\.com\/exapp\?spsa=\d - reject
     - ^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ - reject
     - ^https?:\/\/v\d-api\.miaopai\.com\/miaopai\/advertisement\/ - reject
@@ -1412,6 +1413,7 @@ http:
     - "u*.iqiyipic.com"
     - "ucmp.sf-express.com"
     - "ump.ems.com.cn"
+    - "ump.sz.creditcard.ecitic.com"
     - "uranus.sharedaka.com"
     - "us.l.qq.com"
     - "v*-api.miaopai.com"

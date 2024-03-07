@@ -1,5 +1,5 @@
 name: 复写去广告
-desc: 最后更新时间 2024-03-07 02:19:30
+desc: 最后更新时间 2024-03-08 02:17:22
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 668
@@ -565,7 +565,6 @@ http:
     - ^https?:\/\/render-oss-cdn\.amap\.com\/render\/studio-dev\/image\/ - reject
     - ^https?:\/\/rengine-platform\.llsapp\.com\/auth\/api\/remoteResource\/darwin - reject
     - ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
-    - ^https?:\/\/res.kfc.com.cn\/(CRM\/kfcad|advertisement\/) - reject
     - ^https?:\/\/res\.kfc\.com\.cn\/advertisement\/ - reject
     - ^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome - reject
     - ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) - reject
@@ -681,6 +680,7 @@ http:
     - ^https?:\/\/zjmbank\.js96008\.com:8090\/gw\/advert\/oprAdvertQry - reject
     - ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do - reject
     - ^https?:\/\/ztoread\.ziroom\.com\/ymerApi\/v\d\/index\/open - reject
+    - https://dynamicad.kfc.com.cn/api/app5/homepage/ai/popup - reject
 
 
   force-http-engine:

@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-08 02:17:35
+desc: 最后更新时间 2024-03-09 02:15:00
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 463
-# mitm: 393
+# reject: 466
+# mitm: 396
 # force-http-engine-hosts: 6
-# total: 862
+# total: 868
 
 
 
@@ -33,6 +33,7 @@ http:
     - ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject
     - ^https:\/\/service\.haiersmarthomes\.com\/management\/banner\/getBannerList\?source=4 - reject
     - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
+    - ^https?://advertise\.bczeducation\.cn\/rpc\/advertise - reject
     - ^https?://api-mifit-cn2\.zepp\.com/discovery/mi/cards/(startpage_ad|homepage_ad)\? - reject
     - ^https?://mbasecc\.bas\.cmbchina\.com/Edge/api/mlife\.clientface\.clientservice\.api\.advertiseService/preCacheAdvertiseSec - reject
     - ^https?://newclient\.map\.baidu\.com/client/crossmarketing - reject
@@ -163,6 +164,7 @@ http:
     - ^https?:\/\/app\.58\.com\/api\/log\/ - reject
     - ^https?:\/\/app\.api\.d3yuiw4\.com\/api\/app\/ad - reject
     - ^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage - reject
+    - ^https?:\/\/app\.api\.qjjfin\.com\/publicize\/allList - reject
     - ^https?:\/\/app\.api\.versa-ai\.com\/launch\/ads\? - reject
     - ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/ - reject
     - ^https?:\/\/app\.c\.nf\.migu\.cn\/.*column\/start(-)?up-pic - reject
@@ -356,6 +358,7 @@ http:
     - ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads - reject
     - ^https?:\/\/news\.ssp\.qq\.com\/app - reject
     - ^https?:\/\/nnapp\.cloudbae\.cn(:\d+)?\/mc\/api\/advert - reject
+    - ^https?:\/\/notify\.baicizhan\.com\/rpc\/notify\/get_latest_notify - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api.*get_popup - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api\/index\/loading_ad - reject
     - ^https?:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ - reject
@@ -504,6 +507,7 @@ http:
     - "adproxy.autohome.com.cn"
     - "ads-img-al.xhscdn.com"
     - "adv.ccb.com"
+    - "advertise.bczeducation.cn"
     - "adx-cn.anythinktech.com"
     - "amap-aos-info-nogw.amap.com"
     - "api*.futunn.com"
@@ -585,6 +589,7 @@ http:
     - "app.58.com"
     - "app.api.d3yuiw4.com"
     - "app.api.ke.com"
+    - "app.api.qjjfin.com"
     - "app.api.versa-ai.com"
     - "app.badmintoncn.com"
     - "app.c.nf.migu.cn"
@@ -772,6 +777,7 @@ http:
     - "newclient.map.baidu.com"
     - "news.ssp.qq.com"
     - "nnapp.cloudbae.cn"
+    - "notify.baicizhan.com"
     - "open.e.kuaishou.com"
     - "open.fitdays.cn"
     - "open.qyer.com"

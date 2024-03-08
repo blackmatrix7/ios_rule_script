@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-03-08 02:17:22
+desc: 最后更新时间 2024-03-09 02:14:51
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 668
-# mitm: 620
+# reject: 671
+# mitm: 623
 # force-http-engine-hosts: 6
-# total: 1294
+# total: 1300
 
 
 
@@ -108,6 +108,7 @@ http:
     - ^https:\/\/wxapp\.bestwehotel\.com\/gw3\/app-mini\/trip-hotel-banner\/activity\/getActivityInfo - reject
     - ^https:\/\/wxproj\.seeyouyima\.com\/data\/today_tips - reject
     - ^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad - reject
+    - ^https?://advertise\.bczeducation\.cn\/rpc\/advertise - reject
     - ^https?://api-mifit-cn2\.zepp\.com/discovery/mi/cards/(startpage_ad|homepage_ad)\? - reject
     - ^https?://mbasecc\.bas\.cmbchina\.com/Edge/api/mlife\.clientface\.clientservice\.api\.advertiseService/preCacheAdvertiseSec - reject
     - ^https?://newclient\.map\.baidu\.com/client/crossmarketing - reject
@@ -283,6 +284,7 @@ http:
     - ^https?:\/\/app\.58\.com\/api\/log\/ - reject
     - ^https?:\/\/app\.api\.d3yuiw4\.com\/api\/app\/ad - reject
     - ^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage - reject
+    - ^https?:\/\/app\.api\.qjjfin\.com\/publicize\/allList - reject
     - ^https?:\/\/app\.api\.versa-ai\.com\/launch\/ads\? - reject
     - ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/ - reject
     - ^https?:\/\/app\.c\.nf\.migu\.cn\/.*column\/start(-)?up-pic - reject
@@ -519,6 +521,7 @@ http:
     - ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads - reject
     - ^https?:\/\/news\.ssp\.qq\.com\/app - reject
     - ^https?:\/\/nnapp\.cloudbae\.cn(:\d+)?\/mc\/api\/advert - reject
+    - ^https?:\/\/notify\.baicizhan\.com\/rpc\/notify\/get_latest_notify - reject
     - ^https?:\/\/nuc\.api\.mgtv.com\/Logout - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api.*get_popup - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api\/index\/loading_ad - reject
@@ -770,6 +773,7 @@ http:
     - "ads.zhinengxiyifang.cn"
     - "adsoss.zhinengxiyifang.cn"
     - "adv.ccb.com"
+    - "advertise.bczeducation.cn"
     - "afd.baidu.com"
     - "agent-count.pconline.com.cn"
     - "alittle-tea.oss-cn-shanghai.aliyuncs.com"
@@ -877,6 +881,7 @@ http:
     - "app.ap.d3yuiw4.com"
     - "app.api.d3yuiw4.com"
     - "app.api.ke.com"
+    - "app.api.qjjfin.com"
     - "app.api.versa-ai.com"
     - "app.badmintoncn.com"
     - "app.biliintl.com"
@@ -1139,6 +1144,7 @@ http:
     - "newton.gumingnc.com"
     - "nnapp.cloudbae.cn"
     - "nnapp.cloudbae.cn:0"
+    - "notify.baicizhan.com"
     - "nuc.api.mgtv.com"
     - "open-cms-api.quark.cn"
     - "open-cms-api.uc.cn"

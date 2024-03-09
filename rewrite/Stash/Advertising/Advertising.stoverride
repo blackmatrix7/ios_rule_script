@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-03-09 02:14:51
+desc: 最后更新时间 2024-03-10 02:14:21
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 671
-# mitm: 623
+# reject: 673
+# mitm: 625
 # force-http-engine-hosts: 6
-# total: 1300
+# total: 1304
 
 
 
@@ -243,6 +243,7 @@ http:
     - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start - reject
     - ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
     - ^https?:\/\/api\.mcd\.cn\/bff\/portal\/(richpop|home\/splash) - reject
+    - ^https?:\/\/api\.merach\.com\/app\/AppAdvertisingController\/getAdvert - reject
     - ^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
     - ^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
     - ^https?:\/\/api\.qbb6\.com\/ad\/ - reject
@@ -681,6 +682,7 @@ http:
     - ^https?:\/\/zjdr666\.com\/zjdr\.php\/v\d\/(version|top_notice\?|advert\?position=[^2]+) - reject
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
     - ^https?:\/\/zjmbank\.js96008\.com:8090\/gw\/advert\/oprAdvertQry - reject
+    - ^https?:\/\/zlsdk\.1rtb\.net\/sdk\/req_ad\? - reject
     - ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do - reject
     - ^https?:\/\/ztoread\.ziroom\.com\/ymerApi\/v\d\/index\/open - reject
     - https://dynamicad.kfc.com.cn/api/app5/homepage/ai/popup - reject
@@ -834,6 +836,7 @@ http:
     - "api.m.mi.com"
     - "api.maoyan.com"
     - "api.mcd.cn"
+    - "api.merach.com"
     - "api.mgzf.com"
     - "api.mwee.cn"
     - "api.pinduoduo.com"
@@ -1316,5 +1319,6 @@ http:
     - "zjdr666.com"
     - "zjh5api.189smarthome.com"
     - "zjmbank.js96008.com"
+    - "zlsdk.1rtb.net"
     - "zone.guiderank-app.com"
     - "ztoread.ziroom.com"

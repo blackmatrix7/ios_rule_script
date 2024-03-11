@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-03-11 02:13:50
+desc: 最后更新时间 2024-03-12 02:19:59
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 672
-# mitm: 625
+# mitm: 626
 # force-http-engine-hosts: 6
-# total: 1303
+# total: 1304
 
 
 
@@ -740,6 +740,7 @@ http:
     - "116.85.2.14"
     - "116.85.2.15"
     - "118.178.214.118"
+    - "120.241.*"
     - "122.14.246.33"
     - "140.179.224.63"
     - "175.102.178.52"

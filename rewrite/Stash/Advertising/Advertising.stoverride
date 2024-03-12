@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-03-12 02:19:59
+desc: 最后更新时间 2024-03-13 02:14:42
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 672
-# mitm: 626
+# reject: 673
+# mitm: 627
 # force-http-engine-hosts: 6
-# total: 1304
+# total: 1306
 
 
 
@@ -276,6 +276,7 @@ http:
     - ^https?:\/\/apis\.lifeweek\.com\.cn\/api\/baseConfig\/getIosNewConfig - reject
     - ^https?:\/\/app-api\.jinse\.com\/v\d\/ad\/ - reject
     - ^https?:\/\/app-api\.niu\.com\/v\d\/advertisement\/ - reject
+    - ^https?:\/\/app-cdn\.2q10\.com\/app\/\w+\/honored - reject
     - ^https?:\/\/app-gateway\.leisuapi\.com\/v\d\/app\/mobile\/(banners|ads) - reject
     - ^https?:\/\/app-gw\.csdn\.net\/silkroad-api\/api\/v\d\/assemble\/list\/pub\/channel\/app_open_screen_ad - reject
     - ^https?:\/\/app2\.autoimg\.cn\/appdfs\/ - reject
@@ -878,6 +879,7 @@ http:
     - "apis.lifeweek.com.cn"
     - "app-api.jinse.com"
     - "app-api.niu.com"
+    - "app-cdn.2q10.com"
     - "app-gateway.leisuapi.com"
     - "app-gw.csdn.net"
     - "app.58.com"

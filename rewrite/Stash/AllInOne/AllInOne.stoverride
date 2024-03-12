@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-03-12 02:20:06
+desc: 最后更新时间 2024-03-13 02:14:45
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 643
-# mitm: 675
+# reject: 644
+# mitm: 676
 # force-http-engine-hosts: 6
-# total: 1363
+# total: 1365
 
 
 
@@ -270,6 +270,7 @@ http:
     - ^https?:\/\/apis\.lifeweek\.com\.cn\/api\/baseConfig\/getIosNewConfig - reject
     - ^https?:\/\/app-api\.jinse\.com\/v\d\/ad\/ - reject
     - ^https?:\/\/app-api\.niu\.com\/v\d\/advertisement\/ - reject
+    - ^https?:\/\/app-cdn\.2q10\.com\/app\/\w+\/honored - reject
     - ^https?:\/\/app-gateway\.leisuapi\.com\/v\d\/app\/mobile\/(banners|ads) - reject
     - ^https?:\/\/app-gw\.csdn\.net\/silkroad-api\/api\/v\d\/assemble\/list\/pub\/channel\/app_open_screen_ad - reject
     - ^https?:\/\/app2\.autoimg\.cn\/appdfs\/ - reject
@@ -1048,6 +1049,7 @@ http:
     - "apis.lifeweek.com.cn"
     - "app-api.jinse.com"
     - "app-api.niu.com"
+    - "app-cdn.2q10.com"
     - "app-gateway.leisuapi.com"
     - "app-gw.csdn.net"
     - "app.58.com"

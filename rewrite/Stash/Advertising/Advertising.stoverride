@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-03-13 02:14:42
+desc: 最后更新时间 2024-03-14 02:14:28
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 673
-# mitm: 627
+# reject: 675
+# mitm: 629
 # force-http-engine-hosts: 6
-# total: 1306
+# total: 1310
 
 
 
@@ -168,6 +168,7 @@ http:
     - ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.wdk\.render\.querysinglepage - reject
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show - reject
+    - ^https?:\/\/ad\.cj\.sina\.cn\/(osa\/adpreload|fax\/impress) - reject
     - ^https?:\/\/ad\.lofter\.com\/.*yitou\/madr - reject
     - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$ - reject
     - ^https?:\/\/adapi\.izuiyou\.com\/ - reject
@@ -562,6 +563,7 @@ http:
     - ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
     - ^https?:\/\/pzoap\.moedot\.net\/xgapp\.php\/v2\/top_notice - reject
     - ^https?:\/\/qadx\.qinlinad\.com\/ad\/ - reject
+    - ^https?:\/\/qcwx\.medproad\.com:8080\/ad\/ - reject
     - ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
     - ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getBannerAds|getFullScreenPic|getNewsRemoteConfig|getQQNewsRemoteConfig|searchHotCatList|upLoadLoc) - reject
     - ^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) - reject
@@ -763,6 +765,7 @@ http:
     - "acs.m.taobao.com"
     - "act.vip.iqiyi.com"
     - "ad.12306.cn"
+    - "ad.cj.sina.cn"
     - "ad.lofter.com"
     - "ad.maoyan.com"
     - "ad.mcloud.139.com"
@@ -1186,6 +1189,7 @@ http:
     - "pzoap.moedot.net"
     - "qadx.qinlinad.com"
     - "qapi.huolala.cn"
+    - "qcwx.medproad.com"
     - "qj.bpojie.com"
     - "qt.qq.com"
     - "r.inews.qq.com"

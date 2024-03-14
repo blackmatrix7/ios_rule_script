@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-14 02:14:37
+desc: 最后更新时间 2024-03-15 02:18:21
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 470
-# mitm: 401
+# mitm: 402
 # force-http-engine-hosts: 6
-# total: 877
+# total: 878
 
 
 
@@ -204,7 +204,6 @@ http:
     - ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/event? - reject
     - ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/ride\/detail\? - reject
     - ^https?:\/\/capis(-\d)?\.didapinche\.com\/ad\/ - reject
-    - ^https?:\/\/capis\.didapinche\.com\/ad\/ - reject
     - ^https?:\/\/carapp\.gtmc\.com\.cn\/api\/appgtmc\/homePage\/HomePageAction\/queryHomePageImg\.json - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject
@@ -404,6 +403,7 @@ http:
     - ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) - reject
     - ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget - reject
     - ^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/ - reject
+    - ^https?:\/\/richmanapi\.jxedt\.com\/api\/(ad|adplus|guideplus|banadplus) - reject
     - ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject
     - ^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json - reject
     - ^https?:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time - reject
@@ -818,6 +818,7 @@ http:
     - "res.pizzahut.com.cn"
     - "res.xiaojukeji.com"
     - "restapi.iyunmai.com"
+    - "richmanapi.jxedt.com"
     - "router-app-api.jdcloud.com"
     - "rtbapi.douyucdn.cn"
     - "s*.zdmimg.com"

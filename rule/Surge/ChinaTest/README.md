@@ -12,18 +12,18 @@ ChinaTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-03-14 02:11:00
+最后更新时间：2024-03-15 02:12:52
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 108  | 
 | DOMAIN-KEYWORD | 9  | 
-| DOMAIN-SUFFIX | 73708  | 
+| DOMAIN-SUFFIX | 73718  | 
 | IP-CIDR | 11  | 
 | IP-CIDR6 | 4  | 
 | USER-AGENT | 31  | 
-| TOTAL | 73871  | 
+| TOTAL | 73881  | 
 
 
 ## Surge 

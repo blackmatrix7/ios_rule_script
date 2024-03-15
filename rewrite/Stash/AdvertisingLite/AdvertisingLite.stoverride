@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-15 02:18:21
+desc: 最后更新时间 2024-03-16 02:15:26
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 470
-# mitm: 402
+# reject: 471
+# mitm: 403
 # force-http-engine-hosts: 6
-# total: 878
+# total: 880
 
 
 
@@ -156,6 +156,7 @@ http:
     - ^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ - reject
     - ^https?:\/\/api\d\.futunn\.com\/ad\/ - reject
     - ^https?:\/\/apis\.lifeweek\.com\.cn\/api\/baseConfig\/getIosNewConfig - reject
+    - ^https?:\/\/app-api\.medsci\.cn\/app-advertisement-space\/showAdList - reject
     - ^https?:\/\/app-api\.niu\.com\/v\d\/advertisement\/ - reject
     - ^https?:\/\/app-cdn\.2q10\.com\/app\/\w+\/honored - reject
     - ^https?:\/\/app-gateway\.leisuapi\.com\/v\d\/app\/mobile\/(banners|ads) - reject
@@ -589,6 +590,7 @@ http:
     - "api4.bybutter.com"
     - "apicloud.zol.com.cn"
     - "apis.lifeweek.com.cn"
+    - "app-api.medsci.cn"
     - "app-api.niu.com"
     - "app-cdn.2q10.com"
     - "app-gateway.leisuapi.com"

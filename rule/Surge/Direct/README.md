@@ -15,17 +15,17 @@
 
 ## 规则统计
 
-最后更新时间：2024-02-25 16:03:04
+最后更新时间：2024-03-21 15:50:41
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 35  | 
-| DOMAIN-KEYWORD | 10  | 
-| DOMAIN-SUFFIX | 126  | 
+| DOMAIN | 58  | 
+| DOMAIN-KEYWORD | 35  | 
+| DOMAIN-SUFFIX | 129  | 
 | PROCESS-NAME | 36  | 
 | USER-AGENT | 1  | 
-| TOTAL | 208  | 
+| TOTAL | 259  | 
 
 
 ## Surge 
@@ -76,6 +76,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Unbreak.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list
 - https://ruleset.isagood.day/direct.conf
+- https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

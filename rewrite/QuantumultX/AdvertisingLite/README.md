@@ -20,16 +20,17 @@ AdvertisingLite 不直接抽取数据源中MITM的hostname，仅用正则推导�
 
 ## 规则统计
 
-最后更新时间：2024-03-16 02:15:27
+最后更新时间：2024-03-21 15:58:29
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
+| HOST | 2  | 
 | HOST-KEYWORD | 27  | 
 | IP-CIDR | 170  | 
-| REJECT | 495  | 
-| MITM | 419  | 
-| TOTAL | 1111  | 
+| REJECT | 1074  | 
+| MITM | 793  | 
+| TOTAL | 2066  | 
 
 
 ## QuantumultX 
@@ -92,6 +93,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list
 - https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingLite/AdvertisingLite.list
+- https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

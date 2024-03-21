@@ -15,18 +15,19 @@
 
 ## 规则统计
 
-最后更新时间：2024-02-25 15:58:50
+最后更新时间：2024-03-21 15:44:22
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | AND | 1  | 
-| DOMAIN | 23673  | 
-| DOMAIN-KEYWORD | 27  | 
-| DOMAIN-SUFFIX | 13739  | 
-| IP-CIDR | 170  | 
+| DOMAIN | 23739  | 
+| DOMAIN-KEYWORD | 218  | 
+| DOMAIN-SUFFIX | 13808  | 
+| IP-CIDR | 188  | 
+| IP-CIDR6 | 1  | 
 | URL-REGEX | 2  | 
-| TOTAL | 37612  | 
+| TOTAL | 37957  | 
 
 
 ## Surge 
@@ -95,6 +96,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
 - https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule
+- https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

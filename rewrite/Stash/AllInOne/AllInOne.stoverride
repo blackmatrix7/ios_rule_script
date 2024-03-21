@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-03-18 02:14:11
+desc: 最后更新时间 2024-03-22 02:17:57
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 648
+# reject: 649
 # mitm: 681
 # force-http-engine-hosts: 6
-# total: 1374
+# total: 1375
 
 
 
@@ -334,6 +334,7 @@ http:
     - ^https?:\/\/carapp\.gtmc\.com\.cn\/api\/appgtmc\/homePage\/HomePageAction\/queryHomePageImg\.json - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject
+    - ^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn - reject
     - ^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn\/63c4e3b558bb610008969f89 - reject
     - ^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/ - reject
     - ^https?:\/\/cdn\.cmgadx\.com\/sdk\/pool\/\w+\.json - reject

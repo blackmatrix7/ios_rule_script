@@ -1,12 +1,12 @@
 #!name= Advertising
-#!desc= 最后更新时间 2024-03-18 02:14:08
+#!desc= 最后更新时间 2024-03-22 02:17:51
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 677
+#!reject= 678
 #!mitm= 632
-#!total= 1309
+#!total= 1310
 
 
 [Rewrite]
@@ -335,6 +335,7 @@
 ^https?:\/\/carapp\.gtmc\.com\.cn\/api\/appgtmc\/homePage\/HomePageAction\/queryHomePageImg\.json - reject-200
 ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ - reject-dict
 ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject-dict
+^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn - reject-200
 ^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn\/63c4e3b558bb610008969f89 - reject-200
 ^https?:\/\/cdn\.\w{3}\.chelaileapp\.cn\/(api\/)?adpub - reject-dict
 ^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/ - reject

@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-23 02:15:31
+desc: 最后更新时间 2024-03-24 02:14:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1053
-# mitm: 783
+# reject: 1054
+# mitm: 784
 # force-http-engine-hosts: 6
-# total: 1842
+# total: 1844
 
 
 
@@ -556,6 +556,7 @@ http:
     - ^https?:\/\/h5app\.kuwo\.cn\/m\/bdvipact2205\/index\.html\?fromsrc=huodong - reject
     - ^https?:\/\/h5app\.kuwo\.cn\/m\/kwtemplatePage\/index\.html\?id=1157&app=bodianhdzx - reject
     - ^https?:\/\/hb-boom\.api\.mgtv\.com\/release\/pullReleaseInfo - reject
+    - ^https?:\/\/hc-ssp\.sm\.cn - reject
     - ^https?:\/\/hcz-member\.pingan\.com\.cn\/micro-api\/homepage\/do\/app\/popbox\/getTopPopBox - reject
     - ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert - reject
     - ^https?:\/\/hd\.xiaojukeji\.com\/d - reject
@@ -1459,6 +1460,7 @@ http:
     - "h5api.sginput.qq.com"
     - "h5app.kuwo.cn"
     - "hb-boom.api.mgtv.com"
+    - "hc-ssp.sm.cn"
     - "hcz-member.pingan.com.cn"
     - "hd.mina.mi.com"
     - "hd.xiaojukeji.com"

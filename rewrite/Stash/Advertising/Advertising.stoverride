@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-03-23 02:15:07
+desc: 最后更新时间 2024-03-24 02:14:31
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 679
-# mitm: 634
+# reject: 680
+# mitm: 635
 # force-http-engine-hosts: 6
-# total: 1319
+# total: 1321
 
 
 
@@ -413,6 +413,7 @@ http:
     - ^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement - reject
     - ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd - reject
     - ^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v - reject
+    - ^https?:\/\/hc-ssp\.sm\.cn - reject
     - ^https?:\/\/hcz-member\.pingan\.com\.cn\/micro-api\/homepage\/do\/app\/popbox\/getTopPopBox - reject
     - ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert - reject
     - ^https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex) - reject
@@ -1037,6 +1038,7 @@ http:
     - "gw.kaola.com"
     - "gx.10086.cn"
     - "gz.gongzijx.com"
+    - "hc-ssp.sm.cn"
     - "hcz-member.pingan.com.cn"
     - "hd.mina.mi.com"
     - "hdgateway.zto.com"

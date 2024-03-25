@@ -12,18 +12,18 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-03-25 02:16:06
+最后更新时间：2024-03-26 02:13:46
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 449  | 
 | HOST-KEYWORD | 11  | 
-| HOST-SUFFIX | 75753  | 
+| HOST-SUFFIX | 75755  | 
 | HOST-WILDCARD | 1  | 
 | IP-ASN | 1  | 
 | IP-CIDR | 8050  | 
-| IP6-CIDR | 4278  | 
+| IP6-CIDR | 4276  | 
 | USER-AGENT | 65  | 
 | TOTAL | 88608  | 
 

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-03-24 02:14:31
+desc: 最后更新时间 2024-03-26 02:15:17
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 680
-# mitm: 635
+# reject: 682
+# mitm: 638
 # force-http-engine-hosts: 6
-# total: 1321
+# total: 1326
 
 
 
@@ -284,6 +284,7 @@ http:
     - ^https?:\/\/app-gw\.csdn\.net\/silkroad-api\/api\/v\d\/assemble\/list\/pub\/channel\/app_open_screen_ad - reject
     - ^https?:\/\/app2\.autoimg\.cn\/appdfs\/ - reject
     - ^https?:\/\/app3\.qdaily\.com\/app3\/boot_advertisements\.json - reject
+    - ^https?:\/\/app\.10099\.com\.cn\/contact-web\/api\/version\/getFlashScreenPage - reject
     - ^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv)\/ - reject
     - ^https?:\/\/app\.58\.com\/api\/home\/invite\/popupAdv - reject
     - ^https?:\/\/app\.58\.com\/api\/log\/ - reject
@@ -337,6 +338,7 @@ http:
     - ^https?:\/\/capis-slb\.didapinche\.com\/ad\/ - reject
     - ^https?:\/\/capis\.didapinche\.com\/ad\/ - reject
     - ^https?:\/\/carapp\.gtmc\.com\.cn\/api\/appgtmc\/homePage\/HomePageAction\/queryHomePageImg\.json - reject
+    - ^https?:\/\/careapi\.oclean\.com\/mall\/v\d\/Temporary\/SafetyGetStartAdvert - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject
     - ^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn - reject
@@ -892,6 +894,7 @@ http:
     - "app-cdn.2q10.com"
     - "app-gateway.leisuapi.com"
     - "app-gw.csdn.net"
+    - "app.10099.com.cn"
     - "app.58.com"
     - "app.ap.d3yuiw4.com"
     - "app.api.d3yuiw4.com"
@@ -943,6 +946,7 @@ http:
     - "capi.mwee.cn"
     - "cappapi.alittle-tea.com"
     - "carapp.gtmc.com.cn"
+    - "careapi.oclean.com"
     - "ccmsupport-sz.tenpay.com"
     - "ccsp-egmas.sf-express.com"
     - "cdn-evone-ceph.echargenet.com"
@@ -1222,6 +1226,7 @@ http:
     - "s1.api.tv.itc.cn"
     - "s3plus.meituan.net"
     - "saad.ms.zhangyue.net"
+    - "sdk.1rtb.net"
     - "sdk.alibaba.com.ailbaba.me"
     - "security.wechat.com"
     - "service.4gtv.tv"

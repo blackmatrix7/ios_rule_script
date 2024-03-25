@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-24 02:14:54
+desc: 最后更新时间 2024-03-26 02:15:40
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1054
-# mitm: 784
+# reject: 1055
+# mitm: 785
 # force-http-engine-hosts: 6
-# total: 1844
+# total: 1846
 
 
 
@@ -385,6 +385,7 @@ http:
     - ^https?:\/\/capis(-\d)?\.didapinche\.com\/ad\/ - reject
     - ^https?:\/\/capis-slb\.didapinche\.com\/ad\/ - reject
     - ^https?:\/\/carapp\.gtmc\.com\.cn\/api\/appgtmc\/homePage\/HomePageAction\/queryHomePageImg\.json - reject
+    - ^https?:\/\/careapi\.oclean\.com\/mall\/v\d\/Temporary\/SafetyGetStartAdvert - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-video\/video\/app\/video\/labelClusterList - reject
@@ -1320,6 +1321,7 @@ http:
     - "capi.mwee.cn"
     - "capis*.didapinche.com"
     - "carapp.gtmc.com.cn"
+    - "careapi.oclean.com"
     - "ccmsupport-sz.tenpay.com"
     - "ccsp-egmas.sf-express.com"
     - "cdke.youdao.com"

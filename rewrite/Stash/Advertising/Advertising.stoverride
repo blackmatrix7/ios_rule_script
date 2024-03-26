@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-03-26 02:15:17
+desc: 最后更新时间 2024-03-27 02:14:50
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 682
-# mitm: 638
+# reject: 683
+# mitm: 639
 # force-http-engine-hosts: 6
-# total: 1326
+# total: 1328
 
 
 
@@ -480,6 +480,7 @@ http:
     - ^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage - reject
     - ^https?:\/\/m\.msyc\.cc\/app\/getBootPage\/v\d - reject
     - ^https?:\/\/m\.sd\.10086\.cn\/zapi\/app_common\/homeWelcome\/welcome.do - reject
+    - ^https?:\/\/m\.stock\.pingan\.com\/restapi\/rmd\/open\/O\/api\/openAd - reject
     - ^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/ - reject
     - ^https?:\/\/m\.you\.163\.com\/activity\/popWindow - reject
     - ^https?:\/\/m\d\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)? - reject
@@ -1111,6 +1112,7 @@ http:
     - "m.meitun.com"
     - "m.msyc.cc"
     - "m.sd.10086.cn"
+    - "m.stock.pingan.com"
     - "m.tuniu.com"
     - "m.xgjyouhui.com"
     - "m.you.163.com"

@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-26 02:15:40
+desc: 最后更新时间 2024-03-27 02:15:14
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1055
-# mitm: 785
+# reject: 1056
+# mitm: 786
 # force-http-engine-hosts: 6
-# total: 1846
+# total: 1848
 
 
 
@@ -691,6 +691,7 @@ http:
     - ^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping - reject
     - ^https?:\/\/m\.qianbao\.qq\.com\/pages\/walletHome\?invisible - reject
     - ^https?:\/\/m\.sd\.10086\.cn\/zapi\/app_common\/homeWelcome\/welcome.do - reject
+    - ^https?:\/\/m\.stock\.pingan\.com\/restapi\/rmd\/open\/O\/api\/openAd - reject
     - ^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/ - reject
     - ^https?:\/\/m\.you\.163\.com\/activity\/popWindow - reject
     - ^https?:\/\/m\d\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)? - reject
@@ -1563,6 +1564,7 @@ http:
     - "m.pvp.xoyo.com"
     - "m.qianbao.qq.com"
     - "m.sd.10086.cn"
+    - "m.stock.pingan.com"
     - "m.tuniu.com"
     - "m.you.163.com"
     - "m1.ad.10010.com"

@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-27 02:15:14
+desc: 最后更新时间 2024-03-28 02:14:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1056
-# mitm: 786
+# reject: 1057
+# mitm: 787
 # force-http-engine-hosts: 6
-# total: 1848
+# total: 1850
 
 
 
@@ -542,6 +542,7 @@ http:
     - ^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther - reject
     - ^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/app-start - reject
     - ^https?:\/\/gongdu\.youshu\.cc\/m\/open_screen\/list_by_udid - reject
+    - ^https?:\/\/gorgon\.youdao\.com\/gorgon - reject
     - ^https?:\/\/gsp\.gacmotor\.com\/gateway\/app-api\/app\/version\/latestupdate\?flatform=2&innerVersion= - reject
     - ^https?:\/\/gsp\.gacmotor\.com\/gateway\/webapi\/baseinfo\/advertise\/getAdvertiseByPositionCode\?positionCode=1 - reject
     - ^https?:\/\/gss0\.bdstatic\.com\/.+?\/static\/wiseindex\/img\/bd_red_packet\.png - reject
@@ -1451,6 +1452,7 @@ http:
     - "goblin.hupu.com"
     - "god.gameyw.netease.com"
     - "gongdu.youshu.cc"
+    - "gorgon.youdao.com"
     - "gsp.gacmotor.com"
     - "gss0.bdstatic.com"
     - "guanyu.longfor.com"

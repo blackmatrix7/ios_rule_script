@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-03-27 02:14:50
+desc: 最后更新时间 2024-03-28 02:14:31
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 683
-# mitm: 639
+# reject: 685
+# mitm: 641
 # force-http-engine-hosts: 6
-# total: 1328
+# total: 1332
 
 
 
@@ -47,6 +47,7 @@ http:
     - ^https:\/\/app\.homeinns\.com\/api\/v6\/indexs - reject
     - ^https:\/\/appuser-static\.huolala\.cn\/imgs - reject
     - ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
+    - ^https:\/\/cdke\.youdao\.com\/course3\/recommend\/dict\/startup - reject
     - ^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/core - reject
     - ^https:\/\/customer-app\.sto\.cn\/api\/app\/banner\/banner - reject
     - ^https:\/\/dsp\.fcbox\.com - reject
@@ -409,6 +410,7 @@ http:
     - ^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther - reject
     - ^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/app-start - reject
     - ^https?:\/\/gongdu\.youshu\.cc\/m\/open_screen\/list_by_udid - reject
+    - ^https?:\/\/gorgon\.youdao\.com\/gorgon - reject
     - ^https?:\/\/guanyu\.longfor\.com\/app-server\/api\/v1\/main\/start - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passengerController\/notk\/passenger\/recommendADs - reject
     - ^https?:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement - reject
@@ -950,6 +952,7 @@ http:
     - "careapi.oclean.com"
     - "ccmsupport-sz.tenpay.com"
     - "ccsp-egmas.sf-express.com"
+    - "cdke.youdao.com"
     - "cdn-evone-ceph.echargenet.com"
     - "cdn.*.chelaileapp.cn"
     - "cdn.api.fotoable.com"
@@ -1034,6 +1037,7 @@ http:
     - "goblin.hupu.com"
     - "god.gameyw.netease.com"
     - "gongdu.youshu.cc"
+    - "gorgon.youdao.com"
     - "guanyu.longfor.com"
     - "gw-passenger-wap.01zhuanche.com"
     - "gw-passenger.01zhuanche.com"

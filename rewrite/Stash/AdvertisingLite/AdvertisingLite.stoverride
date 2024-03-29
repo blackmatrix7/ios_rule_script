@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-28 02:14:54
+desc: 最后更新时间 2024-03-30 02:14:58
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1057
-# mitm: 787
+# reject: 1061
+# mitm: 791
 # force-http-engine-hosts: 6
-# total: 1850
+# total: 1858
 
 
 
@@ -41,6 +41,7 @@ http:
     - ^https:\/\/dict\.youdao\.com\/homepage\/tile - reject
     - ^https:\/\/dict\.youdao\.com\/vip\/activity\/couponinfo - reject
     - ^https:\/\/file\.dian\.so\/c\/leto - reject
+    - ^https:\/\/gw\.chuangkit\.com\/team\/app\/common\/ad\/ - reject
     - ^https:\/\/hdgateway\.zto\.com\/getAdInfo - reject
     - ^https:\/\/hdgateway\.zto\.com\/getApolloConfig - reject
     - ^https:\/\/hdgateway\.zto\.com\/listJumperShow - reject
@@ -52,6 +53,7 @@ http:
     - ^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getPopAdData - reject
     - ^https:\/\/mobile-api\.imlaidian\.com\/api\/args - reject
     - ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ - reject
+    - ^https:\/\/qiye\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/ios-splash\/ - reject
     - ^https:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activity - reject
     - ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject
     - ^https:\/\/s\.jiediankeji\.com\/adv - reject
@@ -125,6 +127,7 @@ http:
     - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
     - ^https?:\/\/adproxy\.autohome\.com\.cn\/AdvertiseService\/ - reject
     - ^https?:\/\/ads-img-al\.xhscdn\.com\/hera\/ - reject
+    - ^https?:\/\/ads\.closeli\.cn\/ - reject
     - ^https?:\/\/ads\.iconntech\.com\/resource-delivery\/*\/.*.(jpg|png) - reject
     - ^https?:\/\/ads\.zhinengxiyifang\.cn\/api\/v1\.1\/ads\/* - reject
     - ^https?:\/\/adstatic\.peopleapp\.com\/upload\/AppLoad\/.*.(jpg|png) - reject
@@ -657,6 +660,7 @@ http:
     - ^https?:\/\/jiucaigongshe\.oss-cn-beijing\.aliyuncs\.com\/[A-Z0-9]{8}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{12}\.png - reject
     - ^https?:\/\/js-ad\.ayximgs\.com\.ad-universe-cdn\.hzhcbkj\.cn\/xgapp\.php\/v2\/top_notice - reject
     - ^https?:\/\/jxd524\.github\.io\/iFreeTime\/xid32uxaoecnfv2\/ - reject
+    - ^https?:\/\/jz\.wacaijizhang\.com\/api\/banners\/newSplash - reject
     - ^https?:\/\/kano\.guahao\.cn\/.+?\?resize=\d{3}-\d{4} - reject
     - ^https?:\/\/kano\.guahao\.cn\/[a-zA-Z0-9]{12} - reject
     - ^https?:\/\/lamb\.lakala\.com\/lamo\/adv\/access\/queryMaterialUrl - reject
@@ -1111,6 +1115,7 @@ http:
     - "adpai.thepaper.cn"
     - "adproxy.autohome.com.cn"
     - "ads-img-al.xhscdn.com"
+    - "ads.closeli.cn"
     - "ads.iconntech.com"
     - "ads.zhinengxiyifang.cn"
     - "adsoss.zhinengxiyifang.cn"
@@ -1459,6 +1464,7 @@ http:
     - "gw-passenger.01zhuanche.com"
     - "gw.aihuishou.com"
     - "gw.alicdn.com"
+    - "gw.chuangkit.com"
     - "gw.csdn.net"
     - "gw.kaola.com"
     - "gx.10086.cn"
@@ -1538,6 +1544,7 @@ http:
     - "jiucaigongshe.oss-cn-beijing.aliyuncs.com"
     - "js-ad.ayximgs.com.ad-universe-cdn.hzhcbkj.cn"
     - "jxd524.github.io"
+    - "jz.wacaijizhang.com"
     - "kano.guahao.cn"
     - "lamb.lakala.com"
     - "lban.spdb.com.cn"
@@ -1694,6 +1701,7 @@ http:
     - "qde.qunar.com"
     - "qidian.qpic.cn"
     - "qimg.cdnmama.com"
+    - "qiye.gaoding.com"
     - "qt.qq.com"
     - "quanguo.mygolbs.com"
     - "qzonestyle.gtimg.cn"

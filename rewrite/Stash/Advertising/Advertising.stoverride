@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-03-28 02:14:31
+desc: 最后更新时间 2024-03-30 02:14:34
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 685
-# mitm: 641
+# reject: 687
+# mitm: 643
 # force-http-engine-hosts: 6
-# total: 1332
+# total: 1336
 
 
 
@@ -178,6 +178,7 @@ http:
     - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
     - ^https?:\/\/adproxy\.autohome\.com\.cn\/AdvertiseService\/ - reject
     - ^https?:\/\/ads-img-al\.xhscdn\.com\/hera\/ - reject
+    - ^https?:\/\/ads\.closeli\.cn\/ - reject
     - ^https?:\/\/ads\.zhinengxiyifang\.cn\/api\/v1\.1\/ads\/* - reject
     - ^https?:\/\/adv\.ccb\.com\/ebda\/ctm_adv - reject
     - ^https?:\/\/adx-cn\.anythinktech\.com\/bid - reject
@@ -467,6 +468,7 @@ http:
     - ^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/popup - reject
     - ^https?:\/\/js-ad\.ayximgs\.com\.ad-universe-cdn\.hzhcbkj\.cn\/xgapp\.php\/v2\/top_notice - reject
     - ^https?:\/\/jxd524\.github\.io\/iFreeTime\/xid32uxaoecnfv2\/ - reject
+    - ^https?:\/\/jz\.wacaijizhang\.com\/api\/banners\/newSplash - reject
     - ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah - reject
     - ^https?:\/\/lchttpapi\.xczim\.com\/1\.1\/functions\/getLaunchImageForIOS - reject
     - ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? - reject
@@ -786,6 +788,7 @@ http:
     - "adpai.thepaper.cn"
     - "adproxy.autohome.com.cn"
     - "ads-img-al.xhscdn.com"
+    - "ads.closeli.cn"
     - "ads.ishansong.com"
     - "ads.zhinengxiyifang.cn"
     - "adsoss.zhinengxiyifang.cn"
@@ -1098,6 +1101,7 @@ http:
     - "js-ad.ayximgs.com.ad-universe-cdn.hzhcbkj.cn"
     - "jt.jxjt888.top"
     - "jxd524.github.io"
+    - "jz.wacaijizhang.com"
     - "kad.gotokeep.com"
     - "lawsonapi.yorentown.com"
     - "lban.spdb.com.cn"

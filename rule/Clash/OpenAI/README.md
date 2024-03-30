@@ -12,16 +12,16 @@ OpenAI规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-02-25 16:06:04
+最后更新时间：2024-03-31 02:13:21
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 2  | 
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 23  | 
+| DOMAIN-SUFFIX | 22  | 
 | IP-CIDR | 2  | 
-| TOTAL | 28  | 
+| TOTAL | 27  | 
 
 
 ## Clash 

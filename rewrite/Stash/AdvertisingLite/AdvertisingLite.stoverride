@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-03-30 02:14:58
+desc: 最后更新时间 2024-04-03 02:14:27
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1061
-# mitm: 791
+# reject: 1065
+# mitm: 792
 # force-http-engine-hosts: 6
-# total: 1858
+# total: 1863
 
 
 
@@ -49,6 +49,9 @@ http:
     - ^https:\/\/imcs\.citicbank\.com\/cloud\/.+(1125.+2436|1242.+2688) - reject
     - ^https:\/\/live\.inst-service\.htsc\.com\/live - reject
     - ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds - reject
+    - ^https:\/\/mgesq\.api\.mgtv\.com\/search\/goods\/rank - reject
+    - ^https:\/\/mgesq\.api\.mgtv\.com\/user\/center\/config - reject
+    - ^https:\/\/mgesq\.api\.mgtv\.com\/v2\/goods\/guess_you_like - reject
     - ^https:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/bdfb4 - reject
     - ^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getPopAdData - reject
     - ^https:\/\/mobile-api\.imlaidian\.com\/api\/args - reject
@@ -1072,6 +1075,7 @@ http:
     - https://ci.xiaohongshu.com/system_config/watermark - reject
     - https://dynamicad.kfc.com.cn/api/app5/homepage/ai/popup - reject
     - https://imgx.jampp.com/imgsrv/tn - reject
+    - https://mgesq.api.mgtv.com/v2/user/center/icon - reject
     - https?:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? - reject
     - https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert\/skin) - reject
 
@@ -1602,6 +1606,7 @@ http:
     - "mea.meitudata.com"
     - "media.qyer.com"
     - "message.shuqireader.com"
+    - "mgesq.api.mgtv.com"
     - "mi.gdt.qq.com"
     - "midc.cdn-static.abchina.com.cn"
     - "middle.yun.139.com"

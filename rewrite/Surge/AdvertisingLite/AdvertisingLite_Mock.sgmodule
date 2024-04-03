@@ -1,12 +1,12 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-04-03 02:14:27
+#!desc=最后更新时间 2024-04-04 02:14:54
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
-#!reject=1065
+#!reject=1068
 #!mitm=792
 #!force-http-engine-hosts=6
-#!total=1863
+#!total=1866
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -320,6 +320,8 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/" - reject
 "^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report" - reject
 "^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init" - reject
+"^https?:\/\/mapi\.mafengwo\.cn\/system\/config\/mark_alert_config" - reject
+"^https?:\/\/mapi\.mafengwo\.cn\/widget\/note\/get_widget_note" - reject
 "^https?:\/\/mapi\.sfbest\.com\/brokerservice-server\/cms\/getPositionById.*" - reject
 "^https?:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare" - reject
 "^https?:\/\/mea\.meitudata\.com\/kaiping" - reject
@@ -874,6 +876,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/coupon\/float_entrance\/get\?api_key" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/mapi\.mafengwo\.cn\/(travelguide/)?ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/mapi\.mafengwo\.cn\/ad\/get_launch_ad_list\/v2" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
+"^https?:\/\/mapi\.mafengwo\.cn\/system\/update\/check_update" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/mapi\.sichuanair\.com\/zt\/tribeport\/encrypt_translate_key" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/mapi\.txcmapp\.com\/api\/open\/atx2\/ad\.php" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/mapiweb\.babytree\.com\/newapi\/luban\/behavior\/receive" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"

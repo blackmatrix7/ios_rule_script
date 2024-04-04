@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-03-30 02:10:33
+# UPDATED: 2024-04-05 02:11:44
 # DOMAIN: 78
 # DOMAIN-KEYWORD: 37
-# DOMAIN-SUFFIX: 24078
+# DOMAIN-SUFFIX: 24079
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 24310
+# TOTAL: 24311
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -5609,6 +5609,7 @@ payload:
   - DOMAIN-SUFFIX,episodic.com
   - DOMAIN-SUFFIX,epoch.cloud
   - DOMAIN-SUFFIX,epoch.org.il
+  - DOMAIN-SUFFIX,epochbase.com
   - DOMAIN-SUFFIX,epochbuy.com
   - DOMAIN-SUFFIX,epochcar.com
   - DOMAIN-SUFFIX,epochmall.com

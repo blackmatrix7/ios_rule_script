@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-04-04 02:14:54
+desc: 最后更新时间 2024-04-07 02:14:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1068
-# mitm: 792
+# reject: 1069
+# mitm: 793
 # force-http-engine-hosts: 6
-# total: 1866
+# total: 1868
 
 
 
@@ -25,6 +25,7 @@ http:
     - ^https:\/\/ad\.xiaotucc\.com\/advert - reject
     - ^https:\/\/adsoss\.zhinengxiyifang\.cn\/ads - reject
     - ^https:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig - reject
+    - ^https:\/\/api5\.youonbike\.com\/ibike-rest-service\/user\/fun_IBF_GetAdvert - reject
     - ^https:\/\/api\.sfacg\.com\/ioscfg - reject
     - ^https:\/\/api\.sodalife\.xyz\/v1\/goods - reject
     - ^https:\/\/api\.sodalife\.xyz\/v1\/posters\?location=SODA_APP%3AHOME%3ABOTTOM - reject
@@ -1251,6 +1252,7 @@ http:
     - "api2.helper.qq.com"
     - "api3.cls.cn"
     - "api4.bybutter.com"
+    - "api5.youonbike.com"
     - "apicloud.zol.com.cn"
     - "apimobile.meituan.com"
     - "apio.zhengqi100.com"

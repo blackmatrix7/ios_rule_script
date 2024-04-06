@@ -1,16 +1,17 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-04-06 02:12:01
-# DOMAIN: 135
+# UPDATED: 2024-04-07 02:11:48
+# DOMAIN: 140
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 122
-# TOTAL: 261
+# IP-CIDR: 6
+# TOTAL: 272
 payload:
   - DOMAIN,1337.abcvg.info
-  - DOMAIN,1c.premierzal.ru
   - DOMAIN,6ahddutb1ucc3cp.ru
   - DOMAIN,aarsen.me
+  - DOMAIN,aboutbeautifulgallopinghorsesinthegreenpasture.online
   - DOMAIN,aegir.sexy
   - DOMAIN,amigacity.xyz
   - DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
@@ -22,7 +23,6 @@ payload:
   - DOMAIN,btt.service.gongt.me
   - DOMAIN,bubu.mapfactor.com
   - DOMAIN,bvarf.tracker.sh
-  - DOMAIN,canardscitrons.nohost.me
   - DOMAIN,ch3oh.ru
   - DOMAIN,concen.org
   - DOMAIN,d40969.acod.regrucolo.ru
@@ -36,9 +36,11 @@ payload:
   - DOMAIN,ipv4.rer.lol
   - DOMAIN,ipv6.fuuuuuck.com
   - DOMAIN,ipv6.rer.lol
+  - DOMAIN,isk.richardsw.club
   - DOMAIN,jutone.com
   - DOMAIN,martin-gebhardt.eu
   - DOMAIN,moonburrow.club
+  - DOMAIN,movies.zsw.ca
   - DOMAIN,new-line.net
   - DOMAIN,ns1.monolithindustries.com
   - DOMAIN,nyaa.tracker.wf
@@ -47,8 +49,7 @@ payload:
   - DOMAIN,open.acgnxtracker.com
   - DOMAIN,open.acgtracker.com
   - DOMAIN,open.demonii.com
-  - DOMAIN,open.demonoid.ch
-  - DOMAIN,open.dstud.io
+  - DOMAIN,open.free-tracker.ga
   - DOMAIN,open.stealth.si
   - DOMAIN,open.tracker.cl
   - DOMAIN,open.tracker.ink
@@ -59,8 +60,10 @@ payload:
   - DOMAIN,opentracker.io
   - DOMAIN,p2p.publictracker.xyz
   - DOMAIN,p4p.arenabg.com
-  - DOMAIN,pirate.t-1.org
+  - DOMAIN,public.demonoid.ch
   - DOMAIN,public.publictracker.xyz
+  - DOMAIN,public.tracker.vraphim.com
+  - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
   - DOMAIN,retracker01-msk-virt.corbina.net
   - DOMAIN,run-2.publictracker.xyz
@@ -72,7 +75,7 @@ payload:
   - DOMAIN,t.acg.rip
   - DOMAIN,t1.hloli.org
   - DOMAIN,tamas3.ynh.fr
-  - DOMAIN,tinfoil.space
+  - DOMAIN,tcq.zhuqiy.eu.org
   - DOMAIN,tk.greedland.net
   - DOMAIN,tk1.trackerservers.com
   - DOMAIN,torrents.artixlinux.org
@@ -92,6 +95,7 @@ payload:
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
   - DOMAIN,tracker.edkj.club
+  - DOMAIN,tracker.electro-torrent.pl
   - DOMAIN,tracker.farted.net
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.files.fm
@@ -110,7 +114,6 @@ payload:
   - DOMAIN,tracker.mywaifu.best
   - DOMAIN,tracker.netmap.top
   - DOMAIN,tracker.opentrackr.org
-  - DOMAIN,tracker.openwebtorrent.com
   - DOMAIN,tracker.picotorrent.one
   - DOMAIN,tracker.publictracker.xyz
   - DOMAIN,tracker.qu.ax
@@ -134,12 +137,15 @@ payload:
   - DOMAIN,tracker1.myporn.club
   - DOMAIN,tracker2.dler.com
   - DOMAIN,tracker2.dler.org
-  - DOMAIN,trackers.mlsub.net
+  - DOMAIN,tracker2.itzmx.com
+  - DOMAIN,tracker3.itzmx.com
+  - DOMAIN,tracker4.itzmx.com
   - DOMAIN,ttk2.nbaonlineservice.com
   - DOMAIN,u4.trakx.crim.ist
-  - DOMAIN,u6.trakx.crim.ist
   - DOMAIN,wepzone.net
+  - DOMAIN,www.all4nothin.net
   - DOMAIN,www.peckservers.com
+  - DOMAIN,www.torrent.eu.org
   - DOMAIN,www.wareztorrent.com
   - DOMAIN,yolo.liberbear.com
   - DOMAIN-SUFFIX,1ptba.com
@@ -268,3 +274,9 @@ payload:
   - DOMAIN-KEYWORD,chdbits
   - DOMAIN-KEYWORD,m-team
   - DOMAIN-KEYWORD,torrent
+  - IP-CIDR,207.241.226.111/32
+  - IP-CIDR,207.241.231.226/32
+  - IP-CIDR,46.17.46.112/32
+  - IP-CIDR,49.12.76.8/32
+  - IP-CIDR,52.58.128.163/32
+  - IP-CIDR,91.216.110.52/32

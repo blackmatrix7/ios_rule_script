@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-04-07 02:14:54
+desc: 最后更新时间 2024-04-08 02:14:46
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1069
-# mitm: 793
+# reject: 1070
+# mitm: 794
 # force-http-engine-hosts: 6
-# total: 1868
+# total: 1870
 
 
 
@@ -1045,6 +1045,7 @@ http:
     - ^https?:\/\/www\.xiaoxiongmeishu\.com\/api\/home\/v1\/config\/appInit\?uid=588888763519696896 - reject
     - ^https?:\/\/wx\.17u\.cn\/crapi\/query\/getAdImgUrlByCode - reject
     - ^https?:\/\/wx\.17u\.cn\/xcxhomeapi\/((aggregator\/index)|(home\/(screen|banner|converge)))$ - reject
+    - ^https?:\/\/xapi\.xinmanhua\.net\/splashgroups\?include=splashs - reject
     - ^https?:\/\/xhtz.oss-cn-guangzhou\.aliyuncs\.com\/home\/member\/.+\.png$ - reject
     - ^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ - reject
     - ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d - reject
@@ -1864,6 +1865,7 @@ http:
     - "www1.elecfans.com"
     - "wx.17u.cn"
     - "wxs-weixin.sd.zhumanggroup.com"
+    - "xapi.xinmanhua.net"
     - "xhtz.oss-cn-guangzhou.aliyuncs.com"
     - "xqimg.imedao.com"
     - "xyst.yuanfudao.com"

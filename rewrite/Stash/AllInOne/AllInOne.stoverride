@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-04-06 02:14:51
+desc: 最后更新时间 2024-04-08 02:14:26
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 658
-# mitm: 692
+# reject: 659
+# mitm: 693
 # force-http-engine-hosts: 6
-# total: 1395
+# total: 1397
 
 
 
@@ -672,6 +672,7 @@ http:
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
     - ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/search\/related_queries\/answer - reject
     - ^https?:\/\/www\.zybang\.com\/adx\/ - reject
+    - ^https?:\/\/xapi\.xinmanhua\.net\/splashgroups\?include=splashs - reject
     - ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d - reject
     - ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ - reject
     - ^https?:\/\/yanxuan\.nosdn\.127\.net\/(static-union\/)?.*\.gif - reject
@@ -1561,6 +1562,7 @@ http:
     - "wxapp.bestwehotel.com"
     - "wxproj.seeyouyima.com"
     - "wxs-weixin.sd.zhumanggroup.com"
+    - "xapi.xinmanhua.net"
     - "xcx.xianbaow.com"
     - "y.gtimg.cn"
     - "yanxuan.nosdn.127.net"

@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-04-08 02:14:46
+desc: 最后更新时间 2024-04-09 02:16:19
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1070
-# mitm: 794
+# reject: 1071
+# mitm: 795
 # force-http-engine-hosts: 6
-# total: 1870
+# total: 1872
 
 
 
@@ -994,6 +994,7 @@ http:
     - ^https?:\/\/vapp\.tmuyun\.com\/api\/app_start_page\/list\/new - reject
     - ^https?:\/\/venus\.yhd\.com\/memhome\/launchConfig - reject
     - ^https?:\/\/video\.dispatch\.tc\.qq\.com\/\w+\.p20\d\.1\.mp4 - reject
+    - ^https?:\/\/vidz\.3hxq\.cn\/api\/app\/(miscs\/mine\/extensions|announcements\/home) - reject
     - ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
     - ^https?:\/\/wallet\.lakala\.com\/m\/a\/message\/v3\/fetchMsgList - reject
     - ^https?:\/\/wallet\.lakala\.com\/m\/lama\/mgt\/activity\/bank\/query\/list - reject
@@ -1825,6 +1826,7 @@ http:
     - "vapp.tmuyun.com"
     - "venus.yhd.com"
     - "video.dispatch.tc.qq.com"
+    - "vidz.3hxq.cn"
     - "vip7.fzwdyy.cn"
     - "vv.video.qq.com"
     - "wallet.lakala.com"

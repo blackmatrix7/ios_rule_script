@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-04-08 02:14:23
+desc: 最后更新时间 2024-04-09 02:15:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 690
-# mitm: 645
+# reject: 691
+# mitm: 646
 # force-http-engine-hosts: 6
-# total: 1341
+# total: 1343
 
 
 
@@ -657,6 +657,7 @@ http:
     - ^https?:\/\/v\d-api\.miaopai\.com\/miaopai\/advertisement\/ - reject
     - ^https?:\/\/venus\.yhd\.com\/memhome\/launchConfig - reject
     - ^https?:\/\/video\.dispatch\.tc\.qq\.com\/\w+\.p20\d\.1\.mp4 - reject
+    - ^https?:\/\/vidz\.3hxq\.cn\/api\/app\/(miscs\/mine\/extensions|announcements\/home) - reject
     - ^https?:\/\/vip7\.fzwdyy\.cn:8083\/api\/getAdvertInfo - reject
     - ^https?:\/\/vip7\.fzwdyy\.cn:8083\/api\/getGOOGAdvert - reject
     - ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
@@ -1300,6 +1301,7 @@ http:
     - "v.icbc.com.cn"
     - "venus.yhd.com"
     - "video.dispatch.tc.qq.com"
+    - "vidz.3hxq.cn"
     - "vip7.fzwdyy.cn"
     - "vod-movie.maoyan.com"
     - "vv.video.qq.com"

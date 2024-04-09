@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # 每30分钟同步一次，你可以根据需要调整这个时间
+    - cron: '0 */2 * * *'  # 每两小时同步一次
   workflow_dispatch:
 
 jobs:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3  # 更新到支持 Node.js 20 的版本
+      uses: actions/checkout@v3  # 确保此处为最新或兼容Node.js 20的版本
     - name: Sync fork
       uses: repo-sync/github-sync@v2
       with:

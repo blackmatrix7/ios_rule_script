@@ -1,0 +1,20 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # 每30分钟同步一次，你可以根据需要调整这个时间
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Sync fork
+      uses: repo-sync/github-sync@v2
+      with:
+        source_repo: "blackmatrix7/ios_rule_script"
+        source_branch: "main"
+        destination_branch: "main"
+        github_token: ${{ secrets.GITHUB_TOKEN }}

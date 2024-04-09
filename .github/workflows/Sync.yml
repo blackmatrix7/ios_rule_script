@@ -1,20 +1,16 @@
 name: Sync Fork
 
 on:
+  push: # push 时触发, 主要是为了测试配置有没有问题
   schedule:
-    - cron: '0 */2 * * *'  # 每两小时同步一次
-  workflow_dispatch:
-
+    - cron: '* */3 * * *' # 每3小时触发, 对于一些更新不那么频繁的项目可以设置为每天一次, 低碳一点
 jobs:
-  sync:
+  repo-sync:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3  # 确保此处为最新或兼容Node.js 20的版本
-    - name: Sync fork
-      uses: repo-sync/github-sync@v2
-      with:
-        source_repo: "blackmatrix7/ios_rule_script"
-        source_branch: "main"
-        destination_branch: "main"
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: TG908/fork-sync@v1.6.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          owner: blackmatrix7 # fork 的上游仓库 user
+          head: master # fork 的上游仓库 branch
+          base: master # 本地仓库 branch

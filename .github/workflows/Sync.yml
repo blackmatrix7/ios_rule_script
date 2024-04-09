@@ -1,16 +1,34 @@
-name: Sync Fork
+name: Upstream Sync
+
+permissions:
+    contents: write
 
 on:
-  push: # push 时触发, 主要是为了测试配置有没有问题
-  schedule:
-    - cron: '* */3 * * *' # 每3小时触发, 对于一些更新不那么频繁的项目可以设置为每天一次, 低碳一点
+    schedule:
+        - cron: "0 0 * * *"
+    workflow_dispatch:
+
 jobs:
-  repo-sync:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: TG908/fork-sync@v1.6.3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          owner: blackmatrix7 # fork 的上游仓库 user
-          head: master # fork 的上游仓库 branch
-          base: master # 本地仓库 branch
+    sync_with_upstream:
+        name: Sync with Upstream
+        runs-on: ubuntu-latest
+        if: ${{ github.event.repository.fork }}
+
+        steps:
+            - name: Checkout target repo
+              uses: actions/checkout@v3
+
+            - name: Sync Upstream
+              uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
+              with:
+                  target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+                  upstream_sync_repo: blackmatrix7/ios_rule_script
+                  upstream_sync_branch: master
+                  target_sync_branch: master
+                  test_mode: false
+
+            - name: Check for Failure
+              if: failure()
+              run: |
+                  echo "[Error] Due to a change in the workflow file of the upstream repository, GitHub has automatically suspended the scheduled automatic update. You need to manually sync your fork."
+                  exit 1

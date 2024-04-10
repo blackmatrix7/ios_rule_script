@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-04-09 02:16:19
+desc: 最后更新时间 2024-04-11 02:16:17
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1071
-# mitm: 795
+# reject: 1073
+# mitm: 797
 # force-http-engine-hosts: 6
-# total: 1872
+# total: 1876
 
 
 
@@ -345,6 +345,7 @@ http:
     - ^https?:\/\/appdmkj\.5idream\.net\/appPic\/homepage - reject
     - ^https?:\/\/appdmkj\.5idream\.net\/v2\/login\/message\/tip - reject
     - ^https?:\/\/appgw\.ddpai\.com.*\/ad\/list.* - reject
+    - ^https?:\/\/apphw\.ddpai\.com:\d+\/onroad\/api\/v\d\/\w+\/list - reject
     - ^https?:\/\/apps\.api\.ke\.com\/config\/config\/(bootpage|getactivityconfig) - reject
     - ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad - reject
     - ^https?:\/\/as\.xiaojukeji\.com\/ep\/as\/conf\?ns=daijia-front&name= - reject
@@ -790,6 +791,7 @@ http:
     - ^https?:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/index\.html - reject
     - ^https?:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/js\/.+\.js - reject
     - ^https?:\/\/new-app-api\.ylyk\.com\/v1\/user\/myinfo\/adviser - reject
+    - ^https?:\/\/newapp2\.szsmk\.com\/app\/config\/queryMainAd - reject
     - ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads - reject
     - ^https?:\/\/news\.ssp\.qq\.com\/app - reject
     - ^https?:\/\/nex\.163\.com\/q - reject
@@ -1301,6 +1303,7 @@ http:
     - "appconf.mail.163.com"
     - "appdmkj.5idream.net"
     - "appgw.ddpai.com"
+    - "apphw.ddpai.com"
     - "apps.api.ke.com"
     - "appwk.baidu.com"
     - "as.xiaojukeji.com"
@@ -1649,6 +1652,7 @@ http:
     - "mxsa.mxbc.net"
     - "ndstatic.cdn.bcebos.com"
     - "new-app-api.ylyk.com"
+    - "newapp2.szsmk.com"
     - "newclient.map.baidu.com"
     - "news.ssp.qq.com"
     - "nex.163.com"

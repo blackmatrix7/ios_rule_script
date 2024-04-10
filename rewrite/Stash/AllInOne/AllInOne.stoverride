@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-04-09 02:15:58
+desc: 最后更新时间 2024-04-11 02:15:57
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 660
-# mitm: 694
+# reject: 661
+# mitm: 695
 # force-http-engine-hosts: 6
-# total: 1399
+# total: 1401
 
 
 
@@ -522,6 +522,7 @@ http:
     - ^https?:\/\/msg\.umengcloud\.com\/admsg\/ - reject
     - ^https?:\/\/msspjh\.emarbox\.com\/getAdConfig - reject
     - ^https?:\/\/new-app-api\.ylyk\.com\/v1\/user\/myinfo\/adviser - reject
+    - ^https?:\/\/newapp2\.szsmk\.com\/app\/config\/queryMainAd - reject
     - ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads - reject
     - ^https?:\/\/news\.ssp\.qq\.com\/app - reject
     - ^https?:\/\/nnapp\.cloudbae\.cn(:\d+)?\/mc\/api\/advert - reject
@@ -1340,6 +1341,7 @@ http:
     - "mystore-gw.watsonsvip.com.cn"
     - "new-app-api.ylyk.com"
     - "new.vip.weibo.cn"
+    - "newapp2.szsmk.com"
     - "newclient.map.baidu.com"
     - "news.ssp.qq.com"
     - "newton.gumingnc.com"

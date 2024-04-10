@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-04-09 02:15:54
+desc: 最后更新时间 2024-04-11 02:15:53
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 691
-# mitm: 646
+# reject: 692
+# mitm: 647
 # force-http-engine-hosts: 6
-# total: 1343
+# total: 1345
 
 
 
@@ -533,6 +533,7 @@ http:
     - ^https?:\/\/msg\.umengcloud\.com\/admsg\/ - reject
     - ^https?:\/\/msspjh\.emarbox\.com\/getAdConfig - reject
     - ^https?:\/\/new-app-api\.ylyk\.com\/v1\/user\/myinfo\/adviser - reject
+    - ^https?:\/\/newapp2\.szsmk\.com\/app\/config\/queryMainAd - reject
     - ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads - reject
     - ^https?:\/\/news\.ssp\.qq\.com\/app - reject
     - ^https?:\/\/nnapp\.cloudbae\.cn(:\d+)?\/mc\/api\/advert - reject
@@ -1175,6 +1176,7 @@ http:
     - "mystore-gw.watsonsvip.com.cn"
     - "new-app-api.ylyk.com"
     - "new.vip.weibo.cn"
+    - "newapp2.szsmk.com"
     - "newclient.map.baidu.com"
     - "news.ssp.qq.com"
     - "newton.gumingnc.com"

@@ -12,18 +12,18 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-03-21 15:50:30
+最后更新时间：2024-04-14 02:10:27
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 28  | 
 | DOMAIN-KEYWORD | 25  | 
-| DOMAIN-SUFFIX | 1254  | 
+| DOMAIN-SUFFIX | 1255  | 
 | IP-CIDR | 924  | 
 | URL-REGEX | 1  | 
 | USER-AGENT | 69  | 
-| TOTAL | 2301  | 
+| TOTAL | 2302  | 
 
 
 ## Shadowrocket 

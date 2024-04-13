@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-04-13 02:14:02
+desc: 最后更新时间 2024-04-14 02:14:11
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 693
-# mitm: 648
+# reject: 694
+# mitm: 649
 # force-http-engine-hosts: 6
-# total: 1347
+# total: 1349
 
 
 
@@ -681,6 +681,7 @@ http:
     - ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ - reject
     - ^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
     - ^https?:\/\/www\.inoreader\.com\/adv\/ - reject
+    - ^https?:\/\/www\.kujiale\.com\/app\/queryOpenPage - reject
     - ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
     - ^https?:\/\/www\.pansearch\.me\/api\/adsite - reject
     - ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject
@@ -1334,6 +1335,7 @@ http:
     - "www.freeheikeji.cn"
     - "www.i3zh.com"
     - "www.inoreader.com"
+    - "www.kujiale.com"
     - "www.laoguikeji.cn"
     - "www.meituan.com"
     - "www.pansearch.me"

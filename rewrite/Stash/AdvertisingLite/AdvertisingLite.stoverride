@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-04-13 02:14:27
+desc: 最后更新时间 2024-04-14 02:14:35
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1074
-# mitm: 798
+# reject: 1075
+# mitm: 799
 # force-http-engine-hosts: 6
-# total: 1878
+# total: 1880
 
 
 
@@ -1034,6 +1034,7 @@ http:
     - ^https?:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.getMaxWeightAdvertisement\.rpc - reject
     - ^https?:\/\/www\.inoreader\.com\/adv\/ - reject
     - ^https?:\/\/www\.iyingdi\.cn\/ad - reject
+    - ^https?:\/\/www\.kujiale\.com\/app\/queryOpenPage - reject
     - ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
     - ^https?:\/\/www\.nfmovies\.com\/pic\/tu\/ - reject
     - ^https?:\/\/www\.nfmovies\.com\/templets\/default\/images\/logos - reject
@@ -1862,6 +1863,7 @@ http:
     - "www.icourse163.org"
     - "www.inoreader.com"
     - "www.iyingdi.cn"
+    - "www.kujiale.com"
     - "www.meituan.com"
     - "www.nfmovies.com"
     - "www.onstar.com.cn"

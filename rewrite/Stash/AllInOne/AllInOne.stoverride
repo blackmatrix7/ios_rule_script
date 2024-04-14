@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-04-13 02:14:06
+desc: 最后更新时间 2024-04-14 02:14:15
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 662
-# mitm: 696
+# reject: 663
+# mitm: 697
 # force-http-engine-hosts: 6
-# total: 1403
+# total: 1405
 
 
 
@@ -668,6 +668,7 @@ http:
     - ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ - reject
     - ^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
     - ^https?:\/\/www\.inoreader\.com\/adv\/ - reject
+    - ^https?:\/\/www\.kujiale\.com\/app\/queryOpenPage - reject
     - ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
     - ^https?:\/\/www\.pansearch\.me\/api\/adsite - reject
     - ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject
@@ -1530,6 +1531,7 @@ http:
     - "www.jd.com"
     - "www.jihehuaban.com.cn"
     - "www.kingdeecn.cn"
+    - "www.kujiale.com"
     - "www.laoguikeji.cn"
     - "www.logoshejishi.com"
     - "www.luping.net.cn"

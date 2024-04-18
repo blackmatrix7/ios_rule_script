@@ -12,7 +12,7 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-02-25 16:01:11
+最后更新时间：2024-04-18 02:11:53
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -21,9 +21,9 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 | DOMAIN-KEYWORD | 7  | 
 | DOMAIN-SUFFIX | 1549  | 
 | IP-CIDR | 10  | 
-| PROCESS-NAME | 14  | 
+| PROCESS-NAME | 4  | 
 | USER-AGENT | 23  | 
-| TOTAL | 1612  | 
+| TOTAL | 1602  | 
 
 
 ## Surge 

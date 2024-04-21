@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-04-14 02:14:35
+desc: 最后更新时间 2024-04-21 02:15:30
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1075
-# mitm: 799
+# reject: 1076
+# mitm: 800
 # force-http-engine-hosts: 6
-# total: 1880
+# total: 1882
 
 
 
@@ -48,6 +48,7 @@ http:
     - ^https:\/\/hdgateway\.zto\.com\/listJumperShow - reject
     - ^https:\/\/hdgateway\.zto\.com\/track - reject
     - ^https:\/\/imcs\.citicbank\.com\/cloud\/.+(1125.+2436|1242.+2688) - reject
+    - ^https:\/\/img01\.51jobcdn\.com\/im\/mkt/(?:tg/((19|20)\d{2})banner/(?!jcgz2/)|\d{4}/bd/\d{4}/).*\.jpg - reject
     - ^https:\/\/live\.inst-service\.htsc\.com\/live - reject
     - ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds - reject
     - ^https:\/\/mgesq\.api\.mgtv\.com\/search\/goods\/rank - reject
@@ -1532,6 +1533,7 @@ http:
     - "img.umetrip.com"
     - "img.wukongtv.com"
     - "img.yun.01zhuanche.com"
+    - "img01.51jobcdn.com"
     - "img1.126.net"
     - "img11.360buyimg.com"
     - "img14.360buyimg.com"

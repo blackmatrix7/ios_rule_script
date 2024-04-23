@@ -1,14 +1,14 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-04-23 02:08:29
+# UPDATED: 2024-04-24 02:08:06
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN: 16340
 # DOMAIN-KEYWORD: 277
-# DOMAIN-SUFFIX: 124829
+# DOMAIN-SUFFIX: 124972
 # IP-CIDR: 442
-# URL-REGEX: 32
-# TOTAL: 141920
+# URL-REGEX: 12
+# TOTAL: 142043
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-s2s.sensic.net
 DOMAIN-KEYWORD,-spiky.clevertap-prod.com
@@ -286,26 +286,6 @@ DOMAIN-KEYWORD,xxshuyuan
 DOMAIN-KEYWORD,ynuf.alipay.com
 DOMAIN-KEYWORD,zjtoolbar
 DOMAIN-KEYWORD,zymo.mps.weibo.com
-URL-REGEX,^http://(114\.115\.217\.129)|(home\.umetrip\.com)/gateway/api/umetrip/native$
-URL-REGEX,^https://img-ys011.didistatic.com/static/ad_oss/
-URL-REGEX,^https?://.+/v\d/iflyad/
-URL-REGEX,^https?://47.97.20.12/ad/
-URL-REGEX,^https?://a.sfansclub.com/business/t/ad/
-URL-REGEX,^https?://a.sfansclub.com/business/t/boot/screen/index
-URL-REGEX,^https?://adse.ximalaya.com/[a-z]{4}/loading\?appid=
-URL-REGEX,^https?://api-mifit.huami.com/discovery/mi/discovery/(homepage_ad|sleep_ad|sport_ad|sport_summary_ad|sport_training_ad|step_detail_ad|training_video_ad)\?
-URL-REGEX,^https?://api.jr.mi.com/v\d/adv/
-URL-REGEX,^https?://api01pbmp.zhuishushenqi.com/gameAdvert
-URL-REGEX,^https?://c.m.163.com/nc/gl/
-URL-REGEX,^https?://dsp-x.jd.com/adx/
-URL-REGEX,^https?://dspsdk.abreader.com/v\d/api/ad\?
-URL-REGEX,^https?://home\.mi\.com/cgi-op/api/v1/recommendation/(banner|carousel/banners|myTab|openingBanner)
-URL-REGEX,^https?://ma.ofo.com/ads/
-URL-REGEX,^https?://manga.bilibili.com/twirp/comic\.v\d\.comic/(flash|Flash|ListFlash)
-URL-REGEX,^https?://mp.weixin.qq.com/mp/(advertisement_report|ad_complaint|ad_video|getappmsgad|report)
-URL-REGEX,^https?://newsso.map.qq.com/\?&attime=
-URL-REGEX,^https?://www.facebook.com/.+video_click_to_advertiser_site
-URL-REGEX,^https?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native
 URL-REGEX,^https?:\/\/.+?\.beacon\.qq\.com
 URL-REGEX,^https?:\/\/.+?\.l\.qq\.com
 URL-REGEX,^https?:\/\/\w+\.gdt\.qq\.com

@@ -12,17 +12,17 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-02-25 16:01:11
+最后更新时间：2024-04-26 02:09:29
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 9  | 
+| DOMAIN | 10  | 
 | DOMAIN-KEYWORD | 7  | 
 | DOMAIN-SUFFIX | 1549  | 
 | IP-CIDR | 10  | 
 | USER-AGENT | 23  | 
-| TOTAL | 1598  | 
+| TOTAL | 1599  | 
 
 
 ## Shadowrocket 

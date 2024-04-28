@@ -1,10 +1,10 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-04-21 02:15:30
+#!desc=最后更新时间 2024-04-29 02:15:38
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=1076
+#!reject=1074
 #!mitm=800
-#!total=1876
+#!total=1874
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -504,9 +504,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 ^https?:\/\/esdk\.tymcdn\.com\/dbGold\/m\/v2\/mobileLiveReveal\.do\? - reject-dict
 ^https?:\/\/evs\.500\.com\/esinfo\/loading\/loading - reject
 ^https?:\/\/explorer\.tratao\.com\/api\/client\/v4\/xtransfer\/ad\/ - reject
-^https?:\/\/facade-api\.black-unique\.com\/advertise\/v1\/get\?cityId=102923&positions=mine_popup - reject-dict
 ^https?:\/\/facade-api\.black-unique\.com\/app\/v1\/startScreen\?.* - reject-dict
-^https?:\/\/facade-api\.black-unique\.com\/app\/v1\/startScreen\?cityId=102923&channelId=0&width=1170&height=2532 - reject-dict
 ^https?:\/\/fastbuyer\.zbj\.com\/configure\/screenAdConfig\/v2 - reject-200
 ^https?:\/\/fbchina\.flipchina\.cn\/v2\/ad\/query\/* - reject
 ^https?:\/\/fc-video\.cdn\.bcebos\.com - reject

@@ -1,10 +1,10 @@
 # NAME: Battle
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-25 16:04:08
+# UPDATED: 2024-04-29 13:35:31
 # DOMAIN: 5
-# DOMAIN-SUFFIX: 2
-# TOTAL: 7
+# DOMAIN-SUFFIX: 3
+# TOTAL: 8
 payload:
   - DOMAIN,blizzard.nefficient.co.kr
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -12,4 +12,5 @@ payload:
   - DOMAIN,bnetproduct-a.akamaihd.net
   - DOMAIN,cdn.blz-contentstack.com
   - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,battlenet.com.cn
   - DOMAIN-SUFFIX,blizzard.com

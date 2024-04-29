@@ -12,18 +12,18 @@ Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-04-21 02:11:18
+最后更新时间：2024-04-29 13:34:26
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 11  | 
 | DOMAIN-KEYWORD | 29  | 
-| DOMAIN-SUFFIX | 5899  | 
+| DOMAIN-SUFFIX | 5897  | 
 | IP-CIDR | 94  | 
 | IP-CIDR6 | 3  | 
 | USER-AGENT | 9  | 
-| TOTAL | 6045  | 
+| TOTAL | 6043  | 
 
 
 ## Loon 
@@ -66,9 +66,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 当前分流规则，未包含其他子规则。
 
 当前分流规则，已排除以下规则：
-| 排除规则  |  | 
-| ---- | ----  |
-| Advertising | OpenAI  | 
+| 排除规则  |  |  | 
+| ---- | ---- | ----  |
+| Advertising | Claude | OpenAI  | 
 
 ## 数据来源
 

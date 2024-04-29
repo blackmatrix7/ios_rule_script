@@ -1,10 +1,11 @@
 # NAME: WeChat
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-25 16:04:37
+# UPDATED: 2024-04-29 13:35:55
 # DOMAIN: 8
 # DOMAIN-SUFFIX: 22
-# TOTAL: 30
+# IP-ASN: 1
+# TOTAL: 31
 payload:
   - DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
   - DOMAIN,btrace.qq.com
@@ -36,3 +37,4 @@ payload:
   - DOMAIN-SUFFIX,wxapp.tc.qq.com
   - DOMAIN-SUFFIX,wxs.qq.com
   - DOMAIN-SUFFIX,yun-hl.3g.qq.com
+  - IP-ASN,132203,no-resolve

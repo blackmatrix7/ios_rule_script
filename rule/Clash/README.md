@@ -4,7 +4,7 @@
 |📵Advertising|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest) |[直连](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Direct) |[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhihuAds) ||||
-|[AdvertisingMiTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingMiTV) |||
+|[小米电视去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingMiTV) |||
 
 
 |🌏Global|  |  |  |  |

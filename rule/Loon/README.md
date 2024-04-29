@@ -4,7 +4,7 @@
 |📵Advertising|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingTest) |[直连](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Direct) |[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ZhihuAds) ||||
-|[AdvertisingMiTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingMiTV) |||
+|[小米电视去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingMiTV) |||
 
 
 |🌏Global|  |  |  |  |

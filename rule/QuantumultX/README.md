@@ -4,7 +4,7 @@
 |📵Advertising|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingTest) |[直连](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Direct) |[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ZhihuAds) ||||
-|[AdvertisingMiTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingMiTV) |||
+|[小米电视去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingMiTV) |||
 
 
 |🌏Global|  |  |  |  |

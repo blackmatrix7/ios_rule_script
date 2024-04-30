@@ -1,13 +1,13 @@
 #!name=BlockHTTPDNS
-#!desc=最后更新时间 2024-02-25 16:06:27
+#!desc=最后更新时间 2024-04-29 13:37:59
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!domain=20
 #!domain-suffix=1
-#!ip-cidr=23
-#!reject=16
+#!ip-cidr=39
+#!reject=18
 #!mitm=16
-#!total=76
+#!total=94
 
 [General]
 force-http-engine-hosts = %APPEND% 119.29.29.29:80,dns.weixin.qq.com:443,dns.weixin.qq.com:80,dns.weixin.qq.com:8080
@@ -35,11 +35,25 @@ DOMAIN,lofter.httpdns.c.163.com,REJECT
 DOMAIN,music.httpdns.c.163.com,REJECT
 DOMAIN-SUFFIX,httpdns.pro,REJECT
 IP-CIDR,101.124.19.122/32,REJECT,no-resolve
+IP-CIDR,101.91.140.124/32,REJECT,no-resolve
+IP-CIDR,101.91.140.224/32,REJECT,no-resolve
 IP-CIDR,103.224.222.208/32,REJECT,no-resolve
+IP-CIDR,112.64.218.119/32,REJECT,no-resolve
+IP-CIDR,112.65.200.117/32,REJECT,no-resolve
+IP-CIDR,114.116.215.110/32,REJECT,no-resolve
 IP-CIDR,115.236.121.195/32,REJECT,no-resolve
 IP-CIDR,115.236.121.51/32,REJECT,no-resolve
+IP-CIDR,116.63.10.135/32,REJECT,no-resolve
+IP-CIDR,116.63.10.31/32,REJECT,no-resolve
+IP-CIDR,117.144.238.29/32,REJECT,no-resolve
+IP-CIDR,117.185.228.108/32,REJECT,no-resolve
 IP-CIDR,119.29.29.98/32,REJECT,no-resolve
 IP-CIDR,119.29.29.99/32,REJECT,no-resolve
+IP-CIDR,120.46.169.234/32,REJECT,no-resolve
+IP-CIDR,121.36.72.124/32,REJECT,no-resolve
+IP-CIDR,122.9.13.79/32,REJECT,no-resolve
+IP-CIDR,122.9.15.129/32,REJECT,no-resolve
+IP-CIDR,122.9.7.134/32,REJECT,no-resolve
 IP-CIDR,123.151.54.50/32,REJECT,no-resolve
 IP-CIDR,182.254.116.117/32,REJECT,no-resolve
 IP-CIDR,182.254.118.119/32,REJECT,no-resolve
@@ -55,6 +69,8 @@ IP-CIDR,42.187.182.106/32,REJECT,no-resolve
 IP-CIDR,42.187.182.123/32,REJECT,no-resolve
 IP-CIDR,42.187.184.154/32,REJECT,no-resolve
 IP-CIDR,42.81.232.18/32,REJECT,no-resolve
+IP-CIDR,47.100.123.169/32,REJECT,no-resolve
+IP-CIDR,47.101.175.206/32,REJECT,no-resolve
 IP-CIDR,59.111.239.61/32,REJECT,no-resolve
 IP-CIDR,59.111.239.62/32,REJECT,no-resolve
 
@@ -63,6 +79,8 @@ IP-CIDR,59.111.239.62/32,REJECT,no-resolve
 ^http:\/\/101\.35\.204\.35\/d - reject
 ^http:\/\/103\.37\.155\.60\/fetch - reject
 ^http:\/\/114\.110\.96\.26\/d - reject
+^http:\/\/116\.63\.10\.135\/resolve - reject
+^http:\/\/117\.185\.228\.108\/resolve - reject
 ^http:\/\/180\.76\.76\.112\/v4\/resolve - reject
 ^http:\/\/182\.256\.116\.116\/d - reject
 ^http:\/\/api\.weibo\.cn\/2\/httpdns\/config - reject

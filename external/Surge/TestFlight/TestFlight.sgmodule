@@ -1,12 +1,11 @@
 #!name=TestFlight
-#!desc=最后更新时间 2024-02-25 16:06:27
+#!desc=最后更新时间 2024-04-29 13:37:58
 #!author=NobyDa
 #!repo=https://github.com/NobyDa/Script/tree/master
 #!category=blackmatrix7
-#!http-request-script=1
 #!mitm=1
 #!skip-proxy=1
-#!total=3
+#!total=2
 
 [General]
 
@@ -14,7 +13,5 @@ skip-proxy = %APPEND% iosapps.itunes.apple.com
 
 
 
-[Script]
-TestFlight_下载修正 = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/javascript/94e30f41890b0534a28ac4e45edb8c76.js,pattern="^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$",requires-body=1,argument="\d+-\d+,\d+->143441-19,29"
 [MITM]
 hostname = %APPEND% testflight.apple.com

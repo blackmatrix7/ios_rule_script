@@ -4,7 +4,7 @@
 |📵Advertising|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingLite) |[去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Advertising) |[去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingTest) |[直连](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Direct) |[知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/ZhihuAds) ||||
-|[AdvertisingMiTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingMiTV) |||
+|[小米电视去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/AdvertisingMiTV) |||
 
 
 |🌏Global|  |  |  |  |

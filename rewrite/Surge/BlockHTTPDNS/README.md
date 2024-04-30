@@ -12,19 +12,19 @@
 
 ## 规则统计
 
-最后更新时间：2024-02-25 16:06:27
+最后更新时间：2024-04-29 13:37:59
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 20  | 
 | DOMAIN-SUFFIX | 1  | 
-| IP-CIDR | 19  | 
+| IP-CIDR | 35  | 
 | IP-CIDR6 | 4  | 
-| REJECT | 16  | 
+| REJECT | 18  | 
 | MITM | 16  | 
 | FORCE-HTTP-ENGINE-HOSTS | 4  | 
-| TOTAL | 80  | 
+| TOTAL | 98  | 
 
 
 ## Surge 

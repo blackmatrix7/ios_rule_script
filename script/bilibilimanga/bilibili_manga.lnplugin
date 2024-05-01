@@ -1,0 +1,20 @@
+# BiliBiliManga去广告
+
+[Rewrite]
+# 打开首页漫画推荐弹窗
+^https?:\/\/i\d\.hdslb\.com\/bfs\/fawkes - reject-dict
+^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(jpg|png)$ - reject-dict
+# 开屏广告及横幅及活动相关信息
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Recommend|Flash|ListFlash|GetBubbles|GetActivityTab|GetCommonBanner|GetComicConfigPicList) - reject-dict
+# 漫画底部-商品推荐
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Shop\/GetShopItems - reject-dict
+# 我的页-去除赛季挑战信息
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.SeasonV\d\/GetSeasonInfo - reject-dict
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.Read\/ActInfo - reject-dict
+
+[Script]
+http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf requires-body=1,script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js,tag=BiliBiliManga_我的页去除多余的按钮
+http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo requires-body=1,script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js,tag=BiliBiliManga_我的页去除关注官方号提示
+
+[MITM]
+hostname = manga.bilibili.com, i*.hdslb.com

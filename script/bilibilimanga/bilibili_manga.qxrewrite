@@ -1,0 +1,17 @@
+# > 哔哩哔哩漫画 - BILIBILIMANGA
+# 打开首页漫画推荐弹窗
+^https?:\/\/i\d\.hdslb\.com\/bfs\/fawkes url reject-dict
+^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(jpg|png)$ url reject-200
+# 开屏广告及横幅及活动相关信息
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Recommend|Flash|ListFlash|GetBubbles|GetActivityTab|GetCommonBanner|GetComicConfigPicList) url reject-200
+# 漫画底部-商品推荐
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Shop\/GetShopItems url reject-dict
+# 我的页-去除赛季挑战信息
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.SeasonV\d\/GetSeasonInfo url reject-dict
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.Read\/ActInfo url reject-200
+# 我的页-去除多余的按钮
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
+# 我的页-关注官方号提示
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
+
+hostname = manga.bilibili.com, i*.hdslb.com

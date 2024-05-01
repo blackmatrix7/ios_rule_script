@@ -1,0 +1,22 @@
+#!name=BilibiliManga
+#!desc=BilibiliManga去广告
+#!system=ios
+
+[URL Rewrite]
+# 打开首页漫画推荐弹窗
+^https?:\/\/i\d\.hdslb\.com\/bfs\/fawkes - reject
+^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(jpg|png)$ - reject
+# 开屏广告及横幅及活动相关信息
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Recommend|Flash|ListFlash|GetBubbles|GetActivityTab|GetCommonBanner|GetComicConfigPicList) - reject
+# 漫画底部-商品推荐
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Shop\/GetShopItems - reject
+# 我的页-去除赛季挑战信息
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.SeasonV\d\/GetSeasonInfo - reject
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.Read\/ActInfo - reject
+
+[Script]
+BiliBiliManga_我的页去除多余的按钮 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf,script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
+BiliBiliManga_我的页去除关注官方号提示 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo,script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
+
+[MITM]
+hostname = %APPEND% manga.bilibili.com, i*.hdslb.com

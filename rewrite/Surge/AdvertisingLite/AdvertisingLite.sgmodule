@@ -1,5 +1,5 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-05-02 02:14:58
+#!desc=最后更新时间 2024-05-07 02:16:09
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
@@ -150,6 +150,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/agn\.aty\.sohu\.com\/m?" - reject
 "^https?:\/\/aimg\.babytreeimg\.com\/group1\/M00\/*\/*\/.*.jpg" - reject
 "^https?:\/\/als\.baidu\.com\/clog\/clog" - reject
+"^https?:\/\/alt-r\.my\.com\/mobile" - reject
 "^https?:\/\/amap\-aos\-info\-nogw\.amap\.com\/ws\/aos\/alimama\/" - reject
 "^https?:\/\/ams-cdn\.cdtft\.cn\/prod\/tft-ams\/" - reject
 "^https?:\/\/ap\.dongqiudi\.com\/plat\/v" - reject
@@ -640,6 +641,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/" - reject
 "^https?:\/\/img\d\.doubanio\.com\/view\/dale-online\/dale_ad\/" - reject
 "^https?:\/\/imgcache\.qq\.com\/qqlive\/" - reject
+"^https?:\/\/imgx\.jampp\.com\/imgsrv\/tn" - reject
 "^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request" - reject
 "^https?:\/\/init\.sms\.mob\.com\/.*sdk\/init.*" - reject
 "^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec" - reject
@@ -1086,12 +1088,10 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/ztoread\.ziroom\.com\/ymerApi\/v\d\/index\/open" - reject
 "^https?:\/\/zua\.zhidiantianxia\.cn\/api\/adverts" - reject
 "http:\/\/analytics\.163\.com\/ntes" - reject
-"https://alt-r.my.com/mobile" - reject
 "https://api-global.soulapp.me/app/open/get" - reject
 "https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON" - reject
 "https://ci.xiaohongshu.com/system_config/watermark" - reject
 "https://dynamicad.kfc.com.cn/api/app5/homepage/ai/popup" - reject
-"https://imgx.jampp.com/imgsrv/tn" - reject
 "https://mgesq.api.mgtv.com/v2/user/center/icon" - reject
 "https?:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\?" - reject
 "https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert\/skin)" - reject

@@ -21,17 +21,17 @@
 
 ## 规则统计
 
-最后更新时间：2024-05-09 02:10:14
+最后更新时间：2024-05-10 02:09:45
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 12849  | 
 | DOMAIN-KEYWORD | 281  | 
-| DOMAIN-SUFFIX | 152100  | 
+| DOMAIN-SUFFIX | 152112  | 
 | IP-CIDR | 470  | 
 | URL-REGEX | 12  | 
-| TOTAL | 165712  | 
+| TOTAL | 165724  | 
 
 
 ## Shadowrocket 

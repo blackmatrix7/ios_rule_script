@@ -1,12 +1,12 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-05-11 02:11:59
-# DOMAIN: 143
+# UPDATED: 2024-05-12 02:12:30
+# DOMAIN: 146
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
 # IP-CIDR: 4
-# TOTAL: 274
+# TOTAL: 277
 payload:
   - DOMAIN,1337.abcvg.info
   - DOMAIN,1c.premierzal.ru
@@ -28,10 +28,12 @@ payload:
   - DOMAIN,epider.me
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
+  - DOMAIN,explodie.org
   - DOMAIN,fh2.cmp-gaming.com
   - DOMAIN,free.publictracker.xyz
   - DOMAIN,inferno.demonoid.is
   - DOMAIN,ipv4.rer.lol
+  - DOMAIN,ipv4announce.sktorrent.eu
   - DOMAIN,ipv6.fuuuuuck.com
   - DOMAIN,ipv6.rer.lol
   - DOMAIN,isk.richardsw.club
@@ -50,6 +52,7 @@ payload:
   - DOMAIN,open.acgtracker.com
   - DOMAIN,open.demonii.com
   - DOMAIN,open.demonoid.ch
+  - DOMAIN,open.dstud.io
   - DOMAIN,open.free-tracker.ga
   - DOMAIN,open.publictracker.xyz
   - DOMAIN,open.stealth.si
@@ -61,18 +64,15 @@ payload:
   - DOMAIN,p2p.publictracker.xyz
   - DOMAIN,p4p.arenabg.com
   - DOMAIN,public.tracker.vraphim.com
-  - DOMAIN,region.nl1.privex.cc
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
   - DOMAIN,retracker01-msk-virt.corbina.net
-  - DOMAIN,run-2.publictracker.xyz
   - DOMAIN,run.publictracker.xyz
   - DOMAIN,ryjer.com
   - DOMAIN,seedpeer.net
   - DOMAIN,t.overflow.biz
   - DOMAIN,t.peer-exchange.download
   - DOMAIN,t1.aag.moe
-  - DOMAIN,t1.hloli.org
   - DOMAIN,tamas3.ynh.fr
   - DOMAIN,tk.greedland.net
   - DOMAIN,tk1.trackerservers.com
@@ -106,6 +106,7 @@ payload:
   - DOMAIN,tracker.gbitt.info
   - DOMAIN,tracker.gcrenwp.top
   - DOMAIN,tracker.gcrreen.xyz
+  - DOMAIN,tracker.imgoingto.icu
   - DOMAIN,tracker.ipfsscan.io
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.ipv6tracker.ru
@@ -126,7 +127,9 @@ payload:
   - DOMAIN,tracker.silksa.co.za
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
+  - DOMAIN,tracker.t-rb.org
   - DOMAIN,tracker.tamersunion.org
+  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.therarbg.com
   - DOMAIN,tracker.therarbg.to
   - DOMAIN,tracker.tiny-vps.com

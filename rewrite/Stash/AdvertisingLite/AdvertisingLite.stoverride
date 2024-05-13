@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-05-10 02:15:36
+desc: 最后更新时间 2024-05-13 02:14:39
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1081
-# mitm: 801
+# reject: 1086
+# mitm: 803
 # force-http-engine-hosts: 6
-# total: 1888
+# total: 1895
 
 
 
@@ -50,6 +50,7 @@ http:
     - ^https:\/\/hdgateway\.zto\.com\/getApolloConfig - reject
     - ^https:\/\/hdgateway\.zto\.com\/listJumperShow - reject
     - ^https:\/\/hdgateway\.zto\.com\/track - reject
+    - ^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|png) - reject
     - ^https:\/\/imcs\.citicbank\.com\/cloud\/.+(1125.+2436|1242.+2688) - reject
     - ^https:\/\/img01\.51jobcdn\.com\/im\/mkt/(?:tg/((19|20)\d{2})banner/(?!jcgz2/)|\d{4}/bd/\d{4}/).*\.jpg - reject
     - ^https:\/\/live\.inst-service\.htsc\.com\/live - reject
@@ -69,6 +70,8 @@ http:
     - ^https:\/\/smarket\.dian\.so - reject
     - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
     - ^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad - reject
+    - ^https:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/activity\/show - reject
+    - ^https:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/agent_ad - reject
     - ^https:\/\/zlsdk\.1rtb\.net\/sdk\/req_ad\?sdk_version=\d+\.\d+\.\d+\.\d+&device_os=iOS&accept_ad_type=\d+&app_id=\d+&pid=\d+&sdk_version_code=\d+ - reject
     - ^https?://advertise\.bczeducation\.cn\/rpc\/advertise - reject
     - ^https?://api-mifit-cn2\.zepp\.com/discovery/mi/cards/(startpage_ad|homepage_ad)\? - reject
@@ -323,6 +326,8 @@ http:
     - ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/ - reject
     - ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/listNotEndByPlace\?place=first_page - reject
     - ^https?:\/\/app\.c\.nf\.migu\.cn\/.*column\/start(-)?up-pic - reject
+    - ^https?:\/\/app\.ceair\.com\/customize\/main\/adScreen - reject
+    - ^https?:\/\/app\.ceair\.com\/customize\/security\/update - reject
     - ^https?:\/\/app\.chinahxzq\.com\.cn:9302\/starway-api\/ad - reject
     - ^https?:\/\/app\.chinahxzq\.com\.cn\/starway\/adShow - reject
     - ^https?:\/\/app\.ddpai\.com\/d\/api\/v\d\/config\/get\/bootscreen - reject
@@ -1285,6 +1290,7 @@ http:
     - "app.api.versa-ai.com"
     - "app.badmintoncn.com"
     - "app.c.nf.migu.cn"
+    - "app.ceair.com"
     - "app.chinahxzq.com.cn"
     - "app.ddpai.com"
     - "app.dewu.com"
@@ -1886,6 +1892,7 @@ http:
     - "xapi.xinmanhua.net"
     - "xhtz.oss-cn-guangzhou.aliyuncs.com"
     - "xqimg.imedao.com"
+    - "xxyx-client-api.xiaoxiaoyouxuan.com"
     - "xyst.yuanfudao.com"
     - "xyz.cnki.net"
     - "y.gtimg.cn"

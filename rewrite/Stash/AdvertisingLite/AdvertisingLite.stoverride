@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-05-13 02:14:39
+desc: 最后更新时间 2024-05-16 02:17:59
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1086
-# mitm: 803
+# reject: 1087
+# mitm: 804
 # force-http-engine-hosts: 6
-# total: 1895
+# total: 1897
 
 
 
@@ -1091,6 +1091,7 @@ http:
     - ^https?:\/\/ztoread\.ziroom\.com\/foka-card-api\/popup\/v2\/get - reject
     - ^https?:\/\/ztoread\.ziroom\.com\/ymerApi\/v\d\/index\/open - reject
     - ^https?:\/\/zua\.zhidiantianxia\.cn\/api\/adverts - reject
+    - http:\/\/ad\.myfriday\.cn\/d\/json\/1\.1 - reject
     - http:\/\/analytics\.163\.com\/ntes - reject
     - https://api-global.soulapp.me/app/open/get - reject
     - https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON - reject
@@ -1132,6 +1133,7 @@ http:
     - "ad.life.360.cn"
     - "ad.lofter.com"
     - "ad.mcloud.139.com"
+    - "ad.myfriday.cn"
     - "ad.shunchangzhixing.com"
     - "ad.xiaotucc.com"
     - "ad.ysepay.com"

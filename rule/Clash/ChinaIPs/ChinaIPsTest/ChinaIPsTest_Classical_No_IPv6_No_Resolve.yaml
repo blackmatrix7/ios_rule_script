@@ -1,10 +1,10 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-05-16 02:12:34
+# UPDATED: 2024-05-17 02:13:06
 # IP-CIDR: 17639
-# IP-CIDR6: 5857
-# TOTAL: 23496
+# IP-CIDR6: 5862
+# TOTAL: 23501
 payload:
   - IP-CIDR,1.0.1.0/24,no-resolve
   - IP-CIDR,1.0.2.0/23,no-resolve
@@ -2173,7 +2173,6 @@ payload:
   - IP-CIDR,103.229.20.0/22,no-resolve
   - IP-CIDR,103.229.216.0/21,no-resolve
   - IP-CIDR,103.229.216.0/22,no-resolve
-  - IP-CIDR,103.229.220.0/22,no-resolve
   - IP-CIDR,103.229.228.0/22,no-resolve
   - IP-CIDR,103.229.240.0/22,no-resolve
   - IP-CIDR,103.229.28.0/24,no-resolve
@@ -13530,6 +13529,7 @@ payload:
   - IP-CIDR,103.107.0.0/22,no-resolve
   - IP-CIDR,103.107.188.0/22,no-resolve
   - IP-CIDR,103.107.216.0/22,no-resolve
+  - IP-CIDR,103.108.224.0/24,no-resolve
   - IP-CIDR,103.108.244.0/24,no-resolve
   - IP-CIDR,103.108.247.0/24,no-resolve
   - IP-CIDR,103.110.132.0/22,no-resolve
@@ -13741,6 +13741,7 @@ payload:
   - IP-CIDR,103.228.228.0/22,no-resolve
   - IP-CIDR,103.229.148.0/22,no-resolve
   - IP-CIDR,103.229.212.0/22,no-resolve
+  - IP-CIDR,103.229.220.0/22,no-resolve
   - IP-CIDR,103.229.236.0/22,no-resolve
   - IP-CIDR,103.23.160.0/22,no-resolve
   - IP-CIDR,103.23.8.0/22,no-resolve
@@ -16776,8 +16777,6 @@ payload:
   - IP-CIDR,52.80.0.0/15,no-resolve
   - IP-CIDR,52.82.0.0/17,no-resolve
   - IP-CIDR,52.82.128.0/23,no-resolve
-  - IP-CIDR,52.82.131.0/24,no-resolve
-  - IP-CIDR,52.82.132.0/24,no-resolve
   - IP-CIDR,52.82.134.0/23,no-resolve
   - IP-CIDR,52.82.136.0/24,no-resolve
   - IP-CIDR,52.82.144.0/23,no-resolve
@@ -17379,7 +17378,6 @@ payload:
   - IP-CIDR,175.25.32.0/20,no-resolve
   - IP-CIDR,175.25.48.0/22,no-resolve
   - IP-CIDR,175.25.56.0/21,no-resolve
-  - IP-CIDR,180.178.232.0/22,no-resolve
   - IP-CIDR,180.184.168.0/21,no-resolve
   - IP-CIDR,180.184.56.0/21,no-resolve
   - IP-CIDR,180.188.16.0/20,no-resolve
@@ -17628,6 +17626,8 @@ payload:
   - IP-CIDR,45.252.106.0/23,no-resolve
   - IP-CIDR,45.253.26.0/23,no-resolve
   - IP-CIDR,49.4.32.0/20,no-resolve
+  - IP-CIDR,52.82.131.0/24,no-resolve
+  - IP-CIDR,52.82.132.0/24,no-resolve
   - IP-CIDR,58.192.0.0/12,no-resolve
   - IP-CIDR,58.82.0.0/23,no-resolve
   - IP-CIDR,58.83.17.0/24,no-resolve

@@ -18,7 +18,7 @@ QuantumultX需要添加部分分流规则才能生效，具体配置请参照数
 
 ## 规则统计
 
-最后更新时间：2024-05-16 02:16:02
+最后更新时间：2024-05-18 02:16:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -98,9 +98,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf
 - https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet
 - https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/tailadv.conf
+- https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.lnplugin
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.lnplugin
-- https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf
 - https://raw.githubusercontent.com/GFBG-IT/QuantumultX/main/Advertising.conf
 - https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/Advertising.plugin
 

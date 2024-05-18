@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-05-16 02:14:14
+desc: 最后更新时间 2024-05-19 02:14:50
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 695
-# mitm: 650
+# reject: 696
+# mitm: 651
 # force-http-engine-hosts: 6
-# total: 1351
+# total: 1353
 
 
 
@@ -365,6 +365,7 @@ http:
     - ^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/ - reject
     - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/ - reject
     - ^https?:\/\/comicapi\.manhuashe\.com\/v\d\/(ads\/adstrategys|public\/startupactivity) - reject
+    - ^https?:\/\/compus\.xiaofubao\.com\/compus\/advertising - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.cn\/mappweb_interface\/common\/(qryPopAds|qryLaunchAds)\.do - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$ - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do - reject
@@ -989,6 +990,7 @@ http:
     - "comic.321mh.com"
     - "comicapi.manhuashe.com"
     - "common.diditaxi.com.cn"
+    - "compus.xiaofubao.com"
     - "conf.diditaxi.com.cn"
     - "creditcardapp.bankcomm.cn"
     - "creditcardapp.bankcomm.com"

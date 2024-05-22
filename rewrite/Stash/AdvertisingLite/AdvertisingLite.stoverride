@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-05-16 02:17:59
+desc: 最后更新时间 2024-05-22 02:17:34
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1087
+# reject: 1088
 # mitm: 804
 # force-http-engine-hosts: 6
-# total: 1897
+# total: 1898
 
 
 
@@ -69,6 +69,7 @@ http:
     - ^https:\/\/service\.haiersmarthomes\.com\/management\/banner\/getBannerList\?source=4 - reject
     - ^https:\/\/smarket\.dian\.so - reject
     - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
+    - ^https:\/\/www\.ymm56\.com\/short-distance-match-app\/openAppAd - reject
     - ^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad - reject
     - ^https:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/activity\/show - reject
     - ^https:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/agent_ad - reject
@@ -460,6 +461,7 @@ http:
     - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cncreditmarket\.hit\.getactivityhit\.cn - reject
     - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.longquan\.place\.getpageresourcecontent\.cn - reject
     - ^https?:\/\/comicapi\.manhuashe\.com\/v\d\/(ads\/adstrategys|public\/startupactivity) - reject
+    - ^https?:\/\/compus\.xiaofubao\.com\/compus\/advertising - reject
     - ^https?:\/\/compus\.xiaofubao\.com\/compus\/advertising\/getStartupAdvertising - reject
     - ^https?:\/\/conf-darwin\.xycdn\.com - reject
     - ^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ - reject
@@ -1092,7 +1094,6 @@ http:
     - ^https?:\/\/ztoread\.ziroom\.com\/ymerApi\/v\d\/index\/open - reject
     - ^https?:\/\/zua\.zhidiantianxia\.cn\/api\/adverts - reject
     - http:\/\/ad\.myfriday\.cn\/d\/json\/1\.1 - reject
-    - http:\/\/analytics\.163\.com\/ntes - reject
     - https://api-global.soulapp.me/app/open/get - reject
     - https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON - reject
     - https://ci.xiaohongshu.com/system_config/watermark - reject
@@ -1159,7 +1160,6 @@ http:
     - "alt-r.my.com"
     - "amap-aos-info-nogw.amap.com"
     - "ams-cdn.cdtft.cn"
-    - "analytics.163.com"
     - "ap.dongqiudi.com"
     - "apd-*.v.smtcdns.com"
     - "apd-vlive.apdcdn.tc.qq.com"
@@ -1888,6 +1888,7 @@ http:
     - "www.tsytv.com.cn"
     - "www.xiaohongshu.com"
     - "www.xiaoxiongmeishu.com"
+    - "www.ymm56.com"
     - "www1.elecfans.com"
     - "wx.17u.cn"
     - "wxs-weixin.sd.zhumanggroup.com"

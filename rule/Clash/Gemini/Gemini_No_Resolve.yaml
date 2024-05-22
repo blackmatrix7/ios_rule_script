@@ -1,0 +1,22 @@
+# NAME: Gemini
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-04-29 13:37:09
+# DOMAIN: 3
+# DOMAIN-KEYWORD: 3
+# DOMAIN-SUFFIX: 7
+# TOTAL: 13
+payload:
+  - DOMAIN,ai.google.dev
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,makersuite.google.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-KEYWORD,colab
+  - DOMAIN-KEYWORD,developerprofiles
+  - DOMAIN-KEYWORD,generativelanguage

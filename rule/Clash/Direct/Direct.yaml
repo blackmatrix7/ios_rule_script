@@ -1,14 +1,16 @@
 # NAME: Direct
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-03 01:46:29
-# DOMAIN: 35
-# DOMAIN-KEYWORD: 10
-# DOMAIN-SUFFIX: 126
+# UPDATED: 2024-04-29 13:34:35
+# DOMAIN: 58
+# DOMAIN-KEYWORD: 35
+# DOMAIN-SUFFIX: 129
 # PROCESS-NAME: 36
-# TOTAL: 207
+# TOTAL: 258
 payload:
   - DOMAIN,ad.10010.com
+  - DOMAIN,ad.12306.cn
+  - DOMAIN,ain.bgm.tv
   - DOMAIN,alt1-mtalk.google.com
   - DOMAIN,alt2-mtalk.google.com
   - DOMAIN,alt3-mtalk.google.com
@@ -22,27 +24,48 @@ payload:
   - DOMAIN,app.adjust.com
   - DOMAIN,app.appsflyer.com
   - DOMAIN,bdtj.tagtic.cn
+  - DOMAIN,cdn.jsdelivr.net
   - DOMAIN,clientservices.googleapis.com
+  - DOMAIN,deo.shopeemobile.com
   - DOMAIN,dl.google.com
   - DOMAIN,dl.l.google.com
   - DOMAIN,eco-push-api-client.meiqia.com
   - DOMAIN,errlog.umeng.com
   - DOMAIN,fairplay.l.qq.com
+  - DOMAIN,image.maimn.com
+  - DOMAIN,img.bfzypic.com
+  - DOMAIN,img.ffzypic.com
+  - DOMAIN,img.kuaikanzy.net
+  - DOMAIN,img.liangzipic.com
+  - DOMAIN,init.ess.apple.com
   - DOMAIN,injections.adguard.org
+  - DOMAIN,itunes.apple.com
+  - DOMAIN,lain.bgm.tv
   - DOMAIN,livew.l.qq.com
   - DOMAIN,local.adguard.org
   - DOMAIN,log.mmstat.com
+  - DOMAIN,m3u8.255tv.tk
+  - DOMAIN,m3u8.mstopq.com
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
   - DOMAIN,mtalk.google.com
   - DOMAIN,new-api.meiqia.com
+  - DOMAIN,ok.zuidapic.com
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN,rewards.hypixel.net
+  - DOMAIN,sdk.alibaba.com.ailbaba.me
+  - DOMAIN,smp-device-content.apple.com
+  - DOMAIN,static.jssp.tv
   - DOMAIN,sycm.mmstat.com
+  - DOMAIN,tiao.cjkypo.com
+  - DOMAIN,time.apple.com
   - DOMAIN,tracking.miui.com
+  - DOMAIN,ts.thefilehosting.com
   - DOMAIN,update.googleapis.com
   - DOMAIN,vd.l.qq.com
   - DOMAIN,vi.l.qq.com
+  - DOMAIN,vip.ffzyread.com
+  - DOMAIN,vip.imgffzy.com
   - DOMAIN-SUFFIX,52pt.site
   - DOMAIN-SUFFIX,acg.rip
   - DOMAIN-SUFFIX,acm.org
@@ -167,17 +190,45 @@ payload:
   - DOMAIN-SUFFIX,trontv.com
   - DOMAIN-SUFFIX,uhdbits.org
   - DOMAIN-SUFFIX,upaiyun.com
+  - DOMAIN-SUFFIX,weather-analytics-events.apple.com
+  - DOMAIN-SUFFIX,weather-data.apple.com
+  - DOMAIN-SUFFIX,weather-map.apple.com
   - DOMAIN-SUFFIX,wiley.com
   - DOMAIN-SUFFIX,xunlei.com
+  - DOMAIN-KEYWORD,anti-ad.net
+  - DOMAIN-KEYWORD,api-adservices.apple.com
+  - DOMAIN-KEYWORD,api.smoot.apple.cn
+  - DOMAIN-KEYWORD,api.smoot.apple.com
+  - DOMAIN-KEYWORD,aw-s.tripcdn.com
+  - DOMAIN-KEYWORD,ax1x.com
+  - DOMAIN-KEYWORD,bfzycdn.com
+  - DOMAIN-KEYWORD,buy.itunes.apple.com
   - DOMAIN-KEYWORD,cnki.net
+  - DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com
   - DOMAIN-KEYWORD,deepdyve
   - DOMAIN-KEYWORD,els-cdn
   - DOMAIN-KEYWORD,elsevier
+  - DOMAIN-KEYWORD,ess.apple.com
+  - DOMAIN-KEYWORD,gsa.apple.com
+  - DOMAIN-KEYWORD,humb.apple.com
+  - DOMAIN-KEYWORD,icloud.com
+  - DOMAIN-KEYWORD,ls.apple.com
+  - DOMAIN-KEYWORD,o.lencr.org
   - DOMAIN-KEYWORD,pkulaw
+  - DOMAIN-KEYWORD,push.apple.com
   - DOMAIN-KEYWORD,readcube
   - DOMAIN-KEYWORD,sciencedirect
+  - DOMAIN-KEYWORD,ssl.apple.com
+  - DOMAIN-KEYWORD,trip.com
+  - DOMAIN-KEYWORD,ttcdn-tos.kkimg.cc
+  - DOMAIN-KEYWORD,vip.ffzy-online
+  - DOMAIN-KEYWORD,vip.ffzy-play
+  - DOMAIN-KEYWORD,vip.kuaikan-cdn
+  - DOMAIN-KEYWORD,vip.lz-cdn
   - DOMAIN-KEYWORD,wanfangdata
   - DOMAIN-KEYWORD,wb_ad
+  - DOMAIN-KEYWORD,weather-adge.apple.com
+  - DOMAIN-KEYWORD,weather-edge.apple.com
   - DOMAIN-KEYWORD,westlawchina
   - PROCESS-NAME,BaiduNetdisk_mac
   - PROCESS-NAME,BitComet

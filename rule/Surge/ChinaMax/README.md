@@ -21,20 +21,20 @@
 
 ## 规则统计
 
-最后更新时间：2024-02-03 01:47:50
+最后更新时间：2024-05-22 02:11:58
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 538  | 
-| DOMAIN-KEYWORD | 14  | 
-| DOMAIN-SUFFIX | 67196  | 
-| IP-ASN | 1005  | 
-| IP-CIDR | 6982  | 
-| IP-CIDR6 | 3733  | 
+| DOMAIN | 449  | 
+| DOMAIN-KEYWORD | 13  | 
+| DOMAIN-SUFFIX | 77174  | 
+| IP-ASN | 1  | 
+| IP-CIDR | 8108  | 
+| IP-CIDR6 | 3697  | 
 | PROCESS-NAME | 12  | 
 | USER-AGENT | 65  | 
-| TOTAL | 79545  | 
+| TOTAL | 89519  | 
 
 
 ## Surge 
@@ -102,55 +102,56 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 | Baidu | BaoFengYingYin | BeStore | BesTV | BianFeng  | 
 | BiliBili | Bootcss | ByteDance | CAS | CCB  | 
 | CCTV | CEB | CETV | CGB | CIBN  | 
-| CITIC | CKJR | CMB | CNKI | CNNIC  | 
-| CSDN | CaiNiao | CaiXinChuanMei | Camera360 | ChengTongWangPan  | 
-| China | ChinaASN | ChinaIPs | ChinaIPsBGP | ChinaIPsTest  | 
-| ChinaMedia | ChinaMobile | ChinaNews | ChinaNoMedia | ChinaTelecom  | 
-| ChinaTest | ChinaUnicom | ChuangKeTie | ChunYou | Coolapk  | 
-| DaMai | DanDanZan | Dandanplay | DangDang | Dedao  | 
-| Deepin | DiDi | DiLianWangLuo | DiSiFanShi | DianCeWangKe  | 
-| DingTalk | DingXiangYuan | Domob | DouBan | DouYin  | 
-| Douyu | DuoWan | EastMoney | Eleme | FanFou  | 
-| FangZhengDianZi | FeiZhu | FengHuangWang | FengXiaWangLuo | Fiio  | 
-| Funshion | GaoDe | Geely | Gitee | GovCN  | 
-| GuiGuDongLi | HaiNanHangKong | HanYi | HeMa | HibyMusic  | 
-| Himalaya | Hpplay | HuYa | HuaShuTV | HuanJu  | 
-| Huawei | HunanTV | Hupu | ICBC | IPTVMainland  | 
-| JiGuangTuiSong | JianGuoYun | JianShu | JinJiangWenXue | JingDong  | 
-| JueJin | Keep | KingSmith | Kingsoft | KouDaiShiShang  | 
-| Ku6 | KuKeMusic | KuaiDi100 | KuaiShou | KuangShi  | 
-| KugouKuwo | LanZouYun | LeJu | LeTV | Lenovo  | 
-| LianMeng | LuDaShi | LvMiLianChuang | MOOMusic | Maocloud  | 
-| Marketing | MeiTu | MeiTuan | MeiZu | MiWu  | 
-| Migu | MingLueZhaoHui | Mogujie | Mojitianqi | NGA  | 
-| NGAA | NetEase | NetEaseMusic | OPPO | OnePlus  | 
-| OuPeng | PPTV | PSBC | Picacg | Pinduoduo  | 
-| PingAn | QiNiuYun | QingCloud | Qyyjt | RuanMei  | 
-| SFExpress | SMG | SMZDM | ShangHaiJuXiao | Shanling  | 
-| ShenMa | ShiJiChaoXing | ShiNongZhiKe | Sina | Sohu  | 
-| SouFang | Stripe | SuNing | SuiShiChuanMei | TCL  | 
-| TaiKang | TaiheMusic | TapTap | Teambition | Tencent  | 
-| TencentVideo | TianTianKanKan | TianWeiChengXin | TianYaForum | TigerFintech  | 
-| TongCheng | U17 | UC | UCloud | UPYun  | 
-| UnionPay | Vancl | VipShop | Vivo | W3schools  | 
-| WanKaHuanJu | WanMeiShiJie | Wanfang | WangSuKeJi | WangXinKeJi  | 
-| WeChat | WeType | WeiZhiYunDong | Weibo | WenJuanXing  | 
-| WiFiMaster | WoLai | Wteam | XiamiMusic | XianYu  | 
-| XiaoGouKeJi | XiaoMi | XiaoYuanKeJi | XieCheng | XingKongWuXian  | 
-| XueErSi | XueQiu | Xunlei | YYeTs | YiChe  | 
-| YiXiaKeJi | YiZhiBo | YouMengChuangXiang | YouZan | Youku  | 
-| YuanFuDao | YunFanJiaSu | ZDNS | ZhangYue | ZhiYinManKe  | 
-| ZhiYunZhong | Zhihu | ZhongGuoShiHua | ZhongWeiShiJi | ZhongXingTongXun  | 
-| ZhongYuanYiShang | ZhuanZhuan | aiXcoder | iFlytek | iQIYI  | 
-| ifanr | zhanqi  |  |  |  | 
+| CKJR | CMB | CNKI | CNNIC | CSDN  | 
+| CaiNiao | CaiXinChuanMei | Camera360 | ChengTongWangPan | China  | 
+| ChinaASN | ChinaIPs | ChinaIPsBGP | ChinaIPsTest | ChinaMedia  | 
+| ChinaMobile | ChinaNews | ChinaNoMedia | ChinaTelecom | ChinaTest  | 
+| ChinaUnicom | ChuangKeTie | ChunYou | Coolapk | DaMai  | 
+| DanDanZan | Dandanplay | DangDang | Dedao | Deepin  | 
+| DiDi | DiLianWangLuo | DiSiFanShi | DianCeWangKe | DingTalk  | 
+| DingXiangYuan | Domob | DouBan | DouYin | Douyu  | 
+| DuoWan | EastMoney | Eleme | FanFou | FangZhengDianZi  | 
+| FeiZhu | FengHuangWang | FengXiaWangLuo | Fiio | Funshion  | 
+| GaoDe | Geely | Gitee | GovCN | GuiGuDongLi  | 
+| HaiNanHangKong | HanYi | HeMa | HibyMusic | Himalaya  | 
+| Hpplay | HuYa | HuaShuTV | HuanJu | Huawei  | 
+| HunanTV | Hupu | ICBC | IPTVMainland | JiGuangTuiSong  | 
+| JianGuoYun | JianShu | JinJiangWenXue | JingDong | JueJin  | 
+| Keep | KingSmith | Kingsoft | KouDaiShiShang | Ku6  | 
+| KuKeMusic | KuaiDi100 | KuaiShou | KuangShi | KugouKuwo  | 
+| LanZouYun | LeJu | LeTV | Lenovo | LianMeng  | 
+| LuDaShi | LvMiLianChuang | MOOMusic | Maocloud | Marketing  | 
+| MeiTu | MeiTuan | MeiZu | MiWu | Migu  | 
+| MingLueZhaoHui | Mogujie | Mojitianqi | NGA | NGAA  | 
+| NetEase | NetEaseMusic | OPPO | OnePlus | OuPeng  | 
+| PPTV | PSBC | Picacg | Pinduoduo | PingAn  | 
+| QiNiuYun | QingCloud | Qyyjt | RuanMei | SFExpress  | 
+| SMG | SMZDM | ShangHaiJuXiao | Shanling | ShenMa  | 
+| ShiJiChaoXing | ShiNongZhiKe | Sina | Sohu | SouFang  | 
+| Stripe | SuNing | SuiShiChuanMei | TCL | TaiKang  | 
+| TaiheMusic | TapTap | Teambition | Tencent | TencentVideo  | 
+| TianTianKanKan | TianWeiChengXin | TianYaForum | TigerFintech | TongCheng  | 
+| U17 | UC | UCloud | UPYun | UnionPay  | 
+| Vancl | VipShop | Vivo | W3schools | WanKaHuanJu  | 
+| WanMeiShiJie | Wanfang | WangSuKeJi | WangXinKeJi | WeChat  | 
+| WeType | WeiZhiYunDong | Weibo | WenJuanXing | WiFiMaster  | 
+| WoLai | Wteam | XiamiMusic | XianYu | XiaoGouKeJi  | 
+| XiaoMi | XiaoYuanKeJi | XieCheng | XingKongWuXian | XueErSi  | 
+| XueQiu | Xunlei | YYeTs | YiChe | YiXiaKeJi  | 
+| YiZhiBo | YouMengChuangXiang | YouZan | Youku | YuanFuDao  | 
+| YunFanJiaSu | ZDNS | ZhangYue | ZhiYinManKe | ZhiYunZhong  | 
+| Zhihu | ZhongGuoShiHua | ZhongWeiShiJi | ZhongXingTongXun | ZhongYuanYiShang  | 
+| ZhuanZhuan | aiXcoder | iFlytek | iQIYI | ifanr  | 
+| zhanqi  |  |  |  |  | 
 
 
 当前分流规则，已排除以下规则：
 | 排除规则  |  |  |  |  | 
 | ---- | ---- | ---- | ---- | ----  |
-| Advertising | AdvertisingLite | AdvertisingMiTV | AdvertisingTest | PayPal  | 
-| Proxy | Steam | SteamCN | TikTok | YouTube  | 
-| YouTubeMusic  |  |  |  |  | 
+| Advertising | AdvertisingLite | AdvertisingMiTV | AdvertisingTest | Bing  | 
+| Copilot | GitHub | Microsoft | MicrosoftEdge | OneDrive  | 
+| PayPal | Proxy | Steam | SteamCN | Teams  | 
+| TikTok | YouTube | YouTubeMusic  |  |  | 
 
 ## 数据来源
 
@@ -236,7 +237,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CEB.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CGB.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CIBN.list
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CITIC.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CKJR.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNKI.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNNIC.list

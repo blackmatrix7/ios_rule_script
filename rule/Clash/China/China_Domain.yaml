@@ -1,18 +1,17 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-03 01:46:31
+# UPDATED: 2024-04-29 13:34:36
 # DOMAIN: 15
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3679
+# DOMAIN-SUFFIX: 3674
 # IP-CIDR: 17
 # IP-CIDR6: 4
-# TOTAL: 3724
+# TOTAL: 3719
 payload:
   - 'analytics.strava.com'
   - 'blzddist1-a.akamaihd.net'
   - 'cdn.angruo.com'
-  - 'cdp.cloud.unity3d.com'
   - 'client.amplifi.com'
   - 'download.jetbrains.com'
   - 'images-cn.ssl-images-amazon.com'
@@ -22,6 +21,7 @@ payload:
   - 'origin-a.akamaihd.net'
   - 'sms.imagetasks.com'
   - 'steamcommunity-a.akamaihd.net'
+  - 'weixin.com'
   - 'www.libvideo.com'
   - 'www.yxssp.com'
   - '+.00cdn.com'
@@ -1518,7 +1518,6 @@ payload:
   - '+.haidilao.com'
   - '+.hainanairlines.com'
   - '+.haishun.com'
-  - '+.hamreus.com'
   - '+.hanboshi.com'
   - '+.handanjob.com'
   - '+.hangjiayun.com'
@@ -2566,9 +2565,6 @@ payload:
   - '+.pipix.com'
   - '+.pkoplink.com'
   - '+.pkulaw.com'
-  - '+.playstation.com'
-  - '+.playstation.net'
-  - '+.playstationnetwork.com'
   - '+.pmphmooc.com'
   - '+.pn1waq.com'
   - '+.pnas.org'
@@ -3308,7 +3304,6 @@ payload:
   - '+.weiphone.com'
   - '+.weiphone.net'
   - '+.weixinbridge.com'
-  - '+.weixing.com'
   - '+.weiyangx.com'
   - '+.weiyun.com'
   - '+.welltrend-edu.com'

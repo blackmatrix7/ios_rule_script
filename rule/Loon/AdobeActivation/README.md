@@ -12,19 +12,24 @@ AdobeActivation规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-08 16:02:58
+最后更新时间：2024-04-29 13:37:08
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 138  | 
-| TOTAL | 138  | 
+| DOMAIN | 88  | 
+| IP-CIDR | 30  | 
+| TOTAL | 118  | 
 
 
 ## Loon 
 
+#### 文件区别
+- AdobeActivation_Resolve.list与AdobeActivation.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
+
 #### 配置建议
 - AdobeActivation.list 单独使用。
+- AdobeActivation_Resolve.list 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

@@ -723,6 +723,30 @@
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/icon/testflight.png",
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/testflight/icon/testflight.png"
       ]
+    },
+    {
+      "id": "blackmatrix7.findmy",
+      "name": "Find My",
+      "keys": [
+        "find_my_device_discovery_id"
+      ],
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/findmy",
+      "icons": [
+          "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/findmy/icon/findmy_gray.jpg",
+          "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/findmy/icon/findmy.jpg"
+      ],
+      "settings": [
+          {
+          "id": "find_my_device_discovery_id",
+          "name": "Find My设备ID",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "",
+          "autoGrow": true,
+          "desc": "Find My设备ID，多个设备以;分隔"
+          }
+      ]
     }
   ]
 }

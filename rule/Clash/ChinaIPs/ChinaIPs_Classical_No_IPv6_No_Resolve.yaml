@@ -1,10 +1,10 @@
 # NAME: ChinaIPs
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-05-24 02:11:24
-# IP-CIDR: 16933
-# IP-CIDR6: 4946
-# TOTAL: 21879
+# UPDATED: 2024-05-25 02:11:52
+# IP-CIDR: 16929
+# IP-CIDR6: 4960
+# TOTAL: 21889
 payload:
   - IP-CIDR,1.0.1.0/24,no-resolve
   - IP-CIDR,1.0.2.0/23,no-resolve
@@ -7408,7 +7408,6 @@ payload:
   - IP-CIDR,122.10.144.0/21,no-resolve
   - IP-CIDR,122.10.160.0/24,no-resolve
   - IP-CIDR,122.10.162.0/23,no-resolve
-  - IP-CIDR,122.10.162.0/24,no-resolve
   - IP-CIDR,122.10.164.0/22,no-resolve
   - IP-CIDR,122.10.168.0/21,no-resolve
   - IP-CIDR,122.10.176.0/20,no-resolve
@@ -8097,8 +8096,6 @@ payload:
   - IP-CIDR,125.98.0.0/16,no-resolve
   - IP-CIDR,125.98.122.0/23,no-resolve
   - IP-CIDR,125.98.128.0/17,no-resolve
-  - IP-CIDR,128.1.12.0/23,no-resolve
-  - IP-CIDR,128.1.15.0/24,no-resolve
   - IP-CIDR,128.107.24.0/23,no-resolve
   - IP-CIDR,128.108.0.0/16,no-resolve
   - IP-CIDR,128.177.173.46/32,no-resolve
@@ -8928,7 +8925,7 @@ payload:
   - IP-CIDR,163.181.188.0/24,no-resolve
   - IP-CIDR,163.181.191.0/24,no-resolve
   - IP-CIDR,163.181.192.0/23,no-resolve
-  - IP-CIDR,163.181.198.0/24,no-resolve
+  - IP-CIDR,163.181.198.0/23,no-resolve
   - IP-CIDR,163.181.2.0/24,no-resolve
   - IP-CIDR,163.181.22.0/23,no-resolve
   - IP-CIDR,163.181.25.0/24,no-resolve
@@ -10370,6 +10367,7 @@ payload:
   - IP-CIDR,202.55.0.0/19,no-resolve
   - IP-CIDR,202.57.192.0/20,no-resolve
   - IP-CIDR,202.57.192.0/22,no-resolve
+  - IP-CIDR,202.57.192.0/24,no-resolve
   - IP-CIDR,202.57.196.0/22,no-resolve
   - IP-CIDR,202.57.200.0/22,no-resolve
   - IP-CIDR,202.57.204.0/22,no-resolve
@@ -12168,7 +12166,6 @@ payload:
   - IP-CIDR,210.5.128.0/20,no-resolve
   - IP-CIDR,210.5.144.0/20,no-resolve
   - IP-CIDR,210.5.18.0/24,no-resolve
-  - IP-CIDR,210.5.29.0/24,no-resolve
   - IP-CIDR,210.5.56.0/21,no-resolve
   - IP-CIDR,210.5.60.0/22,no-resolve
   - IP-CIDR,210.5.60.0/24,no-resolve
@@ -13389,7 +13386,6 @@ payload:
   - IP-CIDR,222.126.140.0/23,no-resolve
   - IP-CIDR,222.126.144.0/23,no-resolve
   - IP-CIDR,222.126.150.0/23,no-resolve
-  - IP-CIDR,222.126.157.0/24,no-resolve
   - IP-CIDR,222.126.160.0/21,no-resolve
   - IP-CIDR,222.126.168.0/22,no-resolve
   - IP-CIDR,222.126.172.0/23,no-resolve
@@ -14485,6 +14481,7 @@ payload:
   - IP-CIDR,43.228.156.0/24,no-resolve
   - IP-CIDR,43.228.158.0/24,no-resolve
   - IP-CIDR,43.228.16.0/22,no-resolve
+  - IP-CIDR,43.228.180.0/24,no-resolve
   - IP-CIDR,43.228.188.0/22,no-resolve
   - IP-CIDR,43.228.20.0/22,no-resolve
   - IP-CIDR,43.228.204.0/22,no-resolve
@@ -15655,11 +15652,9 @@ payload:
   - IP-CIDR,45.147.6.0/24,no-resolve
   - IP-CIDR,45.149.16.0/22,no-resolve
   - IP-CIDR,45.151.47.0/24,no-resolve
-  - IP-CIDR,45.151.62.0/24,no-resolve
   - IP-CIDR,45.152.24.0/22,no-resolve
   - IP-CIDR,45.154.104.0/24,no-resolve
   - IP-CIDR,45.154.244.0/24,no-resolve
-  - IP-CIDR,45.157.88.0/24,no-resolve
   - IP-CIDR,45.192.160.0/20,no-resolve
   - IP-CIDR,45.192.184.0/24,no-resolve
   - IP-CIDR,45.192.187.0/24,no-resolve
@@ -16097,6 +16092,7 @@ payload:
   - IP-CIDR,45.78.80.0/20,no-resolve
   - IP-CIDR,45.82.236.0/22,no-resolve
   - IP-CIDR,45.82.241.0/24,no-resolve
+  - IP-CIDR,45.84.102.0/24,no-resolve
   - IP-CIDR,45.87.53.0/24,no-resolve
   - IP-CIDR,45.87.54.0/24,no-resolve
   - IP-CIDR,45.9.11.0/24,no-resolve
@@ -16108,9 +16104,8 @@ payload:
   - IP-CIDR,46.232.20.0/24,no-resolve
   - IP-CIDR,46.248.24.0/23,no-resolve
   - IP-CIDR,46.3.111.0/24,no-resolve
-  - IP-CIDR,46.8.177.0/24,no-resolve
   - IP-CIDR,46.8.178.0/23,no-resolve
-  - IP-CIDR,46.8.180.0/22,no-resolve
+  - IP-CIDR,46.8.181.0/24,no-resolve
   - IP-CIDR,47.112.0.0/13,no-resolve
   - IP-CIDR,47.120.0.0/15,no-resolve
   - IP-CIDR,47.122.0.0/17,no-resolve
@@ -16917,6 +16912,7 @@ payload:
   - IP-CIDR,81.173.20.0/22,no-resolve
   - IP-CIDR,81.173.28.0/24,no-resolve
   - IP-CIDR,81.68.0.0/14,no-resolve
+  - IP-CIDR,82.153.50.0/24,no-resolve
   - IP-CIDR,82.156.0.0/15,no-resolve
   - IP-CIDR,85.12.7.192/28,no-resolve
   - IP-CIDR,85.184.245.0/24,no-resolve

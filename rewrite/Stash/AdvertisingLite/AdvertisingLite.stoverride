@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-05-22 02:17:34
+desc: 最后更新时间 2024-05-27 02:13:25
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1088
-# mitm: 804
+# reject: 1089
+# mitm: 805
 # force-http-engine-hosts: 6
-# total: 1898
+# total: 1900
 
 
 
@@ -26,6 +26,7 @@ http:
     - ^https:\/\/adsoss\.zhinengxiyifang\.cn\/ads - reject
     - ^https:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig - reject
     - ^https:\/\/api5\.youonbike\.com\/ibike-rest-service\/user\/fun_IBF_GetAdvert - reject
+    - ^https:\/\/api\.flydigi\.com\/android\/v2\/ad - reject
     - ^https:\/\/api\.huachenjie\.com\/run-front\/ad - reject
     - ^https:\/\/api\.huachenjie\.com\/run-front\/ai\/getAICategory - reject
     - ^https:\/\/api\.huachenjie\.com\/run-front\/home\/sports\/getPopup - reject
@@ -1207,6 +1208,7 @@ http:
     - "api.daydaycook.com.cn"
     - "api.douban.com"
     - "api.fengshows.com"
+    - "api.flydigi.com"
     - "api.gameplus.qq.com"
     - "api.gamer.com.tw"
     - "api.gaoqingdianshi.com"

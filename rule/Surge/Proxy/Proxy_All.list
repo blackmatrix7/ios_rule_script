@@ -1,23 +1,27 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-05-08 02:11:16
-# DOMAIN: 11
+# UPDATED: 2024-05-30 02:10:40
+# DOMAIN: 15
 # DOMAIN-KEYWORD: 29
-# DOMAIN-SUFFIX: 5896
-# IP-CIDR: 94
-# IP-CIDR6: 3
+# DOMAIN-SUFFIX: 5899
+# IP-CIDR: 96
+# IP-CIDR6: 4
 # USER-AGENT: 9
-# TOTAL: 6042
+# TOTAL: 6052
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,assets-priconne-redive-us.akamaized.net
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,cloud.oracle.com
+DOMAIN,copilot.microsoft.com
 DOMAIN,cvws.icloud-content.com
 DOMAIN,developer.apple.com
+DOMAIN,location.microsoft.com
+DOMAIN,login.microsoftonline.com
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,self.events.data.microsoft.com
 DOMAIN,testflight.apple.com
 DOMAIN,voice.telephony.goog
 DOMAIN-SUFFIX,000webhost.com
@@ -573,6 +577,7 @@ DOMAIN-SUFFIX,billypan.com
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.net
+DOMAIN-SUFFIX,bingapis.com
 DOMAIN-SUFFIX,bintray.com
 DOMAIN-SUFFIX,binux.me
 DOMAIN-SUFFIX,binwang.me
@@ -3147,6 +3152,8 @@ DOMAIN-SUFFIX,mgstage.com
 DOMAIN-SUFFIX,mh4u.org
 DOMAIN-SUFFIX,michaelanti.com
 DOMAIN-SUFFIX,michaelmarketl.com
+DOMAIN-SUFFIX,microsoft-falcon.io
+DOMAIN-SUFFIX,microsoftapp.net
 DOMAIN-SUFFIX,microsofttranslator.com
 DOMAIN-SUFFIX,microvpn.com
 DOMAIN-SUFFIX,middle-way.net
@@ -5997,6 +6004,7 @@ IP-CIDR,180.163.151.162/32
 IP-CIDR,180.163.151.34/32
 IP-CIDR,184.173.128.0/17
 IP-CIDR,185.60.216.0/22
+IP-CIDR,185.76.151.0/24
 IP-CIDR,203.104.103.0/24
 IP-CIDR,203.104.128.0/19
 IP-CIDR,203.174.66.64/26
@@ -6038,10 +6046,12 @@ IP-CIDR,74.119.76.0/22
 IP-CIDR,74.125.0.0/16
 IP-CIDR,74.86.0.0/16
 IP-CIDR,75.126.0.0/16
+IP-CIDR,91.105.192.0/23
 IP-CIDR,91.108.0.0/16
 IP-CIDR6,2001:67c:4e8::/48
 IP-CIDR6,2001:b28:f23d::/48
 IP-CIDR6,2001:b28:f23f::/48
+IP-CIDR6,2a0a:f280::/32
 USER-AGENT,Duolingo*
 USER-AGENT,OneDrive*
 USER-AGENT,PayPal*

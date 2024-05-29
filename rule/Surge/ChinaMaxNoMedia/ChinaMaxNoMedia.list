@@ -1,22 +1,22 @@
 # NAME: ChinaMaxNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-05-29 02:12:44
+# UPDATED: 2024-05-30 02:12:29
 # DOMAIN: 444
 # DOMAIN-KEYWORD: 11
-# DOMAIN-SUFFIX: 76848
+# DOMAIN-SUFFIX: 76828
 # IP-ASN: 1
 # IP-CIDR: 8114
-# IP-CIDR6: 3705
+# IP-CIDR6: 3719
 # PROCESS-NAME: 12
 # USER-AGENT: 65
-# TOTAL: 89200
-DOMAIN-SUFFIX,alibaba
-DOMAIN-SUFFIX,tmall
+# TOTAL: 89194
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,ms
+DOMAIN-SUFFIX,alibaba
 DOMAIN-SUFFIX,citic
 DOMAIN-SUFFIX,sohu
+DOMAIN-SUFFIX,tmall
 DOMAIN-SUFFIX,unicom
 DOMAIN-SUFFIX,wang
 DOMAIN-SUFFIX,xn--1qqw23a
@@ -8880,6 +8880,7 @@ IP-CIDR6,2401:e140::/32,no-resolve
 IP-CIDR6,2401:e240::/32,no-resolve
 IP-CIDR6,2401:e2c0::/32,no-resolve
 IP-CIDR6,2401:e340::/32,no-resolve
+IP-CIDR6,2401:e60:10::/44,no-resolve
 IP-CIDR6,2401:e6c0::/32,no-resolve
 IP-CIDR6,2401:e840::/32,no-resolve
 IP-CIDR6,2401:e8c0::/32,no-resolve
@@ -10792,6 +10793,7 @@ IP-CIDR6,2a02:5744:67::/48,no-resolve
 IP-CIDR6,2a02:5745:67::/48,no-resolve
 IP-CIDR6,2a02:5746:67::/48,no-resolve
 IP-CIDR6,2a02:5747:67::/48,no-resolve
+IP-CIDR6,2a03:5840:290::/48,no-resolve
 IP-CIDR6,2a03:5840:f3::/48,no-resolve
 IP-CIDR6,2a03:83e0:1111::/48,no-resolve
 IP-CIDR6,2a03:83e0:1211::/48,no-resolve
@@ -10848,6 +10850,7 @@ IP-CIDR6,2a04:f580:9290::/48,no-resolve
 IP-CIDR6,2a05:1085::/32,no-resolve
 IP-CIDR6,2a05:1087::/32,no-resolve
 IP-CIDR6,2a05:4140:319::/48,no-resolve
+IP-CIDR6,2a05:4140:66::/48,no-resolve
 IP-CIDR6,2a05:dfc1:1600::/40,no-resolve
 IP-CIDR6,2a05:dfc1:5900::/41,no-resolve
 IP-CIDR6,2a05:dfc1:5efb:141::/64,no-resolve
@@ -10917,28 +10920,39 @@ IP-CIDR6,2a06:de00:de04::/48,no-resolve
 IP-CIDR6,2a06:de00:de0e::/47,no-resolve
 IP-CIDR6,2a06:de01:815::/48,no-resolve
 IP-CIDR6,2a06:de01:81d::/48,no-resolve
+IP-CIDR6,2a06:de01:838::/48,no-resolve
+IP-CIDR6,2a06:de01:83c::/48,no-resolve
+IP-CIDR6,2a06:de01:848::/48,no-resolve
+IP-CIDR6,2a06:de01:851::/48,no-resolve
+IP-CIDR6,2a06:de01:858::/48,no-resolve
 IP-CIDR6,2a06:de01:85a::/48,no-resolve
 IP-CIDR6,2a06:de01:86e::/48,no-resolve
-IP-CIDR6,2a06:de01:879::/48,no-resolve
 IP-CIDR6,2a06:de01:88b::/48,no-resolve
-IP-CIDR6,2a06:de01:88c::/48,no-resolve
+IP-CIDR6,2a06:de01:891::/48,no-resolve
+IP-CIDR6,2a06:de01:89a::/48,no-resolve
+IP-CIDR6,2a06:de01:89c::/48,no-resolve
 IP-CIDR6,2a06:de01:89f::/48,no-resolve
-IP-CIDR6,2a06:de01:8c7::/48,no-resolve
+IP-CIDR6,2a06:de01:8c2::/48,no-resolve
 IP-CIDR6,2a06:de01:8c8::/48,no-resolve
 IP-CIDR6,2a06:de01:8d3::/48,no-resolve
-IP-CIDR6,2a06:de01:8d7::/48,no-resolve
-IP-CIDR6,2a06:de01:8ee::/48,no-resolve
-IP-CIDR6,2a06:de01:904::/48,no-resolve
+IP-CIDR6,2a06:de01:8de::/48,no-resolve
+IP-CIDR6,2a06:de01:90f::/48,no-resolve
+IP-CIDR6,2a06:de01:91a::/48,no-resolve
+IP-CIDR6,2a06:de01:924::/48,no-resolve
 IP-CIDR6,2a06:de01:926::/48,no-resolve
 IP-CIDR6,2a06:de01:937::/48,no-resolve
+IP-CIDR6,2a06:de01:941::/48,no-resolve
+IP-CIDR6,2a06:de01:94c::/48,no-resolve
 IP-CIDR6,2a06:de01:94e::/48,no-resolve
 IP-CIDR6,2a06:de01:968::/48,no-resolve
-IP-CIDR6,2a06:de01:970::/48,no-resolve
+IP-CIDR6,2a06:de01:985::/48,no-resolve
+IP-CIDR6,2a06:de01:986::/48,no-resolve
 IP-CIDR6,2a06:de01:98c::/48,no-resolve
+IP-CIDR6,2a06:de01:99a::/48,no-resolve
 IP-CIDR6,2a06:de01:9a8::/48,no-resolve
-IP-CIDR6,2a06:de01:9be::/48,no-resolve
 IP-CIDR6,2a06:de01:ac1::/48,no-resolve
-IP-CIDR6,2a06:de01:ae1::/48,no-resolve
+IP-CIDR6,2a06:de01:ac6::/48,no-resolve
+IP-CIDR6,2a06:de01:aee::/48,no-resolve
 IP-CIDR6,2a06:de01:afe::/48,no-resolve
 IP-CIDR6,2a06:de01:b04::/48,no-resolve
 IP-CIDR6,2a06:e881:2509::/48,no-resolve
@@ -11882,6 +11896,7 @@ IP-CIDR6,::ffff:60.171.183.161/128,no-resolve
 IP-CIDR6,::ffff:60.171.183.186/128,no-resolve
 IP-CIDR6,::ffff:60.171.183.98/128,no-resolve
 IP-ASN,132203,no-resolve
+USER-AGENT,AcFun*
 USER-AGENT,*bili*
 USER-AGENT,Bilibili*
 USER-AGENT,bili*
@@ -11890,7 +11905,9 @@ USER-AGENT,TikTok*
 USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
 USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*
 USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
+USER-AGENT,%E4%BC%98%E9%85%B7*
 USER-AGENT,%E5%8D%B3%E5%88%BB*
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,*Vainglory*
 USER-AGENT,AdBlock*
 USER-AGENT,Best%20Trace*
@@ -11900,12 +11917,14 @@ USER-AGENT,MicroMessenger*
 USER-AGENT,MicroMessengerClient*
 USER-AGENT,Microsoft*
 USER-AGENT,Moke*
+USER-AGENT,NeteaseMusic*
 USER-AGENT,QQ*
 USER-AGENT,RemotePlay*
 USER-AGENT,TIM*
 USER-AGENT,TeamViewer*
 USER-AGENT,WeChat*
 USER-AGENT,WebTorrent*
+USER-AGENT,YYeTs*
 USER-AGENT,arrowio*
 USER-AGENT,balls*
 USER-AGENT,cmb*
@@ -11914,33 +11933,28 @@ USER-AGENT,eusoft_ting_en_iphone
 USER-AGENT,hearthstone*
 USER-AGENT,hide*
 USER-AGENT,ting_en
-USER-AGENT,%E4%BC%98%E9%85%B7*
-USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,*QIYI*
-USER-AGENT,AcFun*
 USER-AGENT,DomesticMedia*
 USER-AGENT,MGTV*
 USER-AGENT,MOO*
-USER-AGENT,MiguVideo*
-USER-AGENT,NeteaseMusic*
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
-USER-AGENT,YYeTs*
 USER-AGENT,Youku*
+USER-AGENT,baiduyinyue
 USER-AGENT,bilibili*
-USER-AGENT,walkman*
-USER-AGENT,xiami*
 USER-AGENT,youku*
 USER-AGENT,Himalaya*
-USER-AGENT,baiduyinyue
+USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
+USER-AGENT,MiguVideo*
 USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
 USER-AGENT,QQ%E9%9F%B3%E4%B9%90
 USER-AGENT,TencentMidasConnect*
 USER-AGENT,live4iphone*
 USER-AGENT,qqlive4iphone*
+USER-AGENT,walkman*
+USER-AGENT,xiami*
 USER-AGENT,PPStream*
 USER-AGENT,QIYI*
 USER-AGENT,QYPlayer*

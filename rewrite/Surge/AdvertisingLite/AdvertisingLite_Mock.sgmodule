@@ -1,5 +1,5 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-05-27 02:13:25
+#!desc=最后更新时间 2024-06-01 02:14:40
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
@@ -422,6 +422,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad" - reject
 "^https?:\/\/support\.you\.163\.com\/appversync\/check.do" - reject
 "^https?:\/\/supportda\.ofo\.com\/adaction\?" - reject
+"^https?:\/\/switch\.jumpvg\.com\/jump\/(getlaunchad|recommend\/ad_conf)" - reject
 "^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/" - reject
 "^https?:\/\/tagit\.hyhuo\.com\/recover\/list" - reject
 "^https?:\/\/tb1\.bdstatic\.com\/tb\/cms\/ngmis\/adsense\/*\.jpg" - reject
@@ -1022,7 +1023,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/staticlive\.douyucdn\.cn\/.+?\/getStartSend" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/superapp\.xgimi\.com\/api/v1\/app\/ad\/configs\?_sort=createdAt:Adesc" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/switch\.jumpvg\.com\/jump\/(getlaunchad|recommend\/ad_conf)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/syh\.zybang\.com\/com\/adx\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/szdmobile\.suzhou\.gov\.cn\/thirdapp-center\/appUpdate\/update" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/t-dsp\.pinduoduo\.com" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"

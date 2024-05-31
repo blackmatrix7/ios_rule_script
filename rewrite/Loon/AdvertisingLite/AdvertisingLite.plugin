@@ -1,5 +1,5 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2024-05-27 02:13:25
+#!desc= 最后更新时间 2024-06-01 02:14:40
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
@@ -970,7 +970,7 @@
 ^https?:\/\/support\.you\.163\.com\/appversync\/check.do - reject
 ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject-200
 ^https?:\/\/supportda\.ofo\.com\/adaction\? - reject
-^https?:\/\/switch\.jumpvg\.com\/jump\/(getlaunchad|recommend\/ad_conf) - reject-200
+^https?:\/\/switch\.jumpvg\.com\/jump\/(getlaunchad|recommend\/ad_conf) - reject
 ^https?:\/\/syh\.zybang\.com\/com\/adx\/ - reject-200
 ^https?:\/\/szdmobile\.suzhou\.gov\.cn\/thirdapp-center\/appUpdate\/update - reject-dict
 ^https?:\/\/t-dsp\.pinduoduo\.com - reject-200

@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2024-05-30 02:13:44
+#!desc=最后更新时间 2024-06-01 02:14:23
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
@@ -213,6 +213,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 "^https?:\/\/api\.xiaoyi\.com\/v5\/app\/config\?userid=.*" - reject
 "^https?:\/\/api\.xiaoyi\.com\/v5\/app\/mobile\/ads" - reject
 "^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json" - reject
+"^https?:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json" - reject
 "^https?:\/\/api\.yikaobang\.com\.cn\/client\/main\/homePageSmallAd" - reject
 "^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/Client\/main\/startPage" - reject
 "^https?:\/\/api\.yizhibo\.com\/common\/api\/(api_)?pz$" - reject
@@ -436,6 +437,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 "^https?:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad" - reject
 "^https?:\/\/support\.you\.163\.com\/appversync\/check.do" - reject
 "^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json" - reject
+"^https?:\/\/switch\.jumpvg\.com\/jump\/(getlaunchad|recommend\/ad_conf)" - reject
 "^https?:\/\/syh\.zybang\.com\/com\/adx\/" - reject
 "^https?:\/\/tagit\.hyhuo\.com\/recover\/list" - reject
 "^https?:\/\/tel\.mangaapi\.manhuaren\.com\/(v2\/public\/getStartUpMessage|v1\/public\/getStartPageAds)" - reject
@@ -624,7 +626,6 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 "^https?:\/\/api\.merach\.com\/app\/AppAdvertisingController\/getAdvert" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api\.tipsoon\.com\/api\/v\d\/top\/ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api\.wmpvp\.com\/api\/v\d\/config\/promote" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
@@ -780,7 +781,6 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 "^https?:\/\/spclient\.wg\.spotify\.com\/ads\/*" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/sso\.lxjapp\.com\/\/chims\/servlet\/csGetLatestSoftwareVersionServlet" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/superapp\.xgimi\.com\/api/v1\/app\/ad\/configs\?_sort=createdAt:Adesc" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/switch\.jumpvg\.com\/jump\/(getlaunchad|recommend\/ad_conf)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/tcmobileapi\.17usoft\.com\/appindexnew\/index\/getappindexconfig" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/td\.cgmcare\.cn\/api\/ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"

@@ -1,5 +1,5 @@
 #!name= AllInOne
-#!desc= 最后更新时间 2024-05-30 02:13:40
+#!desc= 最后更新时间 2024-06-01 02:14:19
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
@@ -255,7 +255,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/config\?userid=.* - reject
 ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/mobile\/ads - reject
 ^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json - reject
-^https?:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json - reject-200
+^https?:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json - reject
 ^https?:\/\/api\.yikaobang\.com\.cn\/client\/main\/homePageSmallAd - reject
 ^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/Client\/main\/startPage - reject
 ^https?:\/\/api\.yizhibo\.com\/common\/api\/(api_)?pz$ - reject
@@ -628,7 +628,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 ^https?:\/\/superapp\.xgimi\.com\/api/v1\/app\/ad\/configs\?_sort=createdAt:Adesc - reject-200
 ^https?:\/\/support\.you\.163\.com\/appversync\/check.do - reject
 ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject
-^https?:\/\/switch\.jumpvg\.com\/jump\/(getlaunchad|recommend\/ad_conf) - reject-200
+^https?:\/\/switch\.jumpvg\.com\/jump\/(getlaunchad|recommend\/ad_conf) - reject
 ^https?:\/\/syh\.zybang\.com\/com\/adx\/ - reject
 ^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/ - reject-200
 ^https?:\/\/tagit\.hyhuo\.com\/recover\/list - reject

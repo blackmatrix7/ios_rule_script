@@ -12,18 +12,18 @@ Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-05-30 02:10:40
+最后更新时间：2024-06-01 02:11:19
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 15  | 
 | DOMAIN-KEYWORD | 29  | 
-| DOMAIN-SUFFIX | 5899  | 
+| DOMAIN-SUFFIX | 5900  | 
 | IP-CIDR | 96  | 
 | IP-CIDR6 | 4  | 
 | USER-AGENT | 9  | 
-| TOTAL | 6052  | 
+| TOTAL | 6053  | 
 
 
 ## Surge 

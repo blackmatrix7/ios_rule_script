@@ -12,17 +12,17 @@ China规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-05-30 02:10:50
+最后更新时间：2024-06-02 02:10:57
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 15  | 
 | DOMAIN-KEYWORD | 9  | 
-| DOMAIN-SUFFIX | 3675  | 
+| DOMAIN-SUFFIX | 3676  | 
 | IP-CIDR | 17  | 
 | IP-CIDR6 | 4  | 
-| TOTAL | 3720  | 
+| TOTAL | 3721  | 
 
 
 ## Clash 
@@ -101,8 +101,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《China》的数据来自以下链接，如与本项目的《China》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/CN.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/China/China.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list

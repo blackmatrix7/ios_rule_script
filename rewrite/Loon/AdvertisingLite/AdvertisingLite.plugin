@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2024-06-01 02:14:40
+#!desc= 最后更新时间 2024-06-02 02:14:09
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 1089
+#!reject= 1090
 #!mitm= 805
-#!total= 1894
+#!total= 1895
 
 
 [Rewrite]
@@ -948,6 +948,7 @@
 ^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons - reject-200
 ^https?:\/\/sso\.ifanr\.com\/jiong\/IOS\/appso\/splash\/ - reject
 ^https?:\/\/ssp\.dzh\.com\.cn\/v2api\/adgroupjson - reject
+^https?:\/\/ssp\.soulapp\.cn\/api\/ad\/config - reject-dict
 ^https?:\/\/ssp\.soulapp\.cn\/api\/q - reject-dict
 ^https?:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad - reject-dict
 ^https?:\/\/stat\.peopleapp\.com\/ - reject

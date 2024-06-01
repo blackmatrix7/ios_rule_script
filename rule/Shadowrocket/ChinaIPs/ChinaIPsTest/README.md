@@ -19,13 +19,13 @@ ChinaIPsTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-06-01 02:12:36
+最后更新时间：2024-06-02 02:12:05
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| IP-CIDR | 24066  | 
-| TOTAL | 24066  | 
+| IP-CIDR | 24071  | 
+| TOTAL | 24071  | 
 
 
 ## Shadowrocket 
@@ -78,7 +78,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《ChinaIPsTest》的数据来自以下链接，如与本项目的《ChinaIPsTest》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
 - https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/ChinaIP.list

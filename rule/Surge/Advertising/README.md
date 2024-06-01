@@ -15,19 +15,19 @@
 
 ## 规则统计
 
-最后更新时间：2024-06-01 02:08:43
+最后更新时间：2024-06-02 02:08:11
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | AND | 3  | 
-| DOMAIN | 16390  | 
+| DOMAIN | 16389  | 
 | DOMAIN-KEYWORD | 278  | 
-| DOMAIN-SUFFIX | 133787  | 
+| DOMAIN-SUFFIX | 133842  | 
 | IP-CIDR | 447  | 
 | IP-CIDR6 | 1  | 
 | URL-REGEX | 12  | 
-| TOTAL | 150918  | 
+| TOTAL | 150972  | 
 
 
 ## Surge 
@@ -95,10 +95,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 - https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list
 - https://raw.githubusercontent.com/scomper/surge-list/master/reject.list
 - https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
@@ -110,8 +108,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/an0na/R/master/Filter/AdBlock.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
 - https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt

@@ -1,10 +1,10 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-06-01 02:14:40
+#!desc=最后更新时间 2024-06-02 02:14:09
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=1089
+#!reject=1090
 #!mitm=805
-#!total=1894
+#!total=1895
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -948,6 +948,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 ^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons - reject-200
 ^https?:\/\/sso\.ifanr\.com\/jiong\/IOS\/appso\/splash\/ - reject
 ^https?:\/\/ssp\.dzh\.com\.cn\/v2api\/adgroupjson - reject
+^https?:\/\/ssp\.soulapp\.cn\/api\/ad\/config - reject-dict
 ^https?:\/\/ssp\.soulapp\.cn\/api\/q - reject-dict
 ^https?:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad - reject-dict
 ^https?:\/\/stat\.peopleapp\.com\/ - reject

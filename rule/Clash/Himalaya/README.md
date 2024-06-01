@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:35:11
+最后更新时间：2024-06-02 02:11:16
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -65,7 +65,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《喜马拉雅》的数据来自以下链接，如与本项目的《喜马拉雅》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Podcast/Himalaya.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Ximalaya.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XiMaLaYa.list
 

@@ -16,7 +16,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:37:59
+最后更新时间：2024-06-02 02:14:26
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -61,12 +61,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ## 数据来源
 
-《General》的数据来自以下链接，如与本项目的《General》规则混合使用，可能造成部分重写重复。
-
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/General.sgmodule
-
-
-感谢以上规则作者的辛勤付出（排名不分先后）。
+当前规则未直接引用数据源。
 
 ## 最后
 

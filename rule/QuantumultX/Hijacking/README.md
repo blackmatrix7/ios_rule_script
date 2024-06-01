@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:32:49
+最后更新时间：2024-06-02 02:09:28
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -63,7 +63,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《反劫持》的数据来自以下链接，如与本项目的《反劫持》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

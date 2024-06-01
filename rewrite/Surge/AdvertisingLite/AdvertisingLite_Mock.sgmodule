@@ -1,12 +1,12 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-06-01 02:14:40
+#!desc=最后更新时间 2024-06-02 02:14:09
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
-#!reject=1089
+#!reject=1090
 #!mitm=805
 #!force-http-engine-hosts=6
-#!total=1900
+#!total=1901
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -1009,6 +1009,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6}" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
+"^https?:\/\/ssp\.soulapp\.cn\/api\/ad\/config" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/ssp\.soulapp\.cn\/api\/q" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/static.psbc.com:8090\/mbank_f\/images\/[0-9]+\.png" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"

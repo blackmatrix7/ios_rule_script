@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-06-04 02:11:41
+# UPDATED: 2024-06-05 02:11:23
 # DOMAIN: 15
 # DOMAIN-KEYWORD: 29
-# DOMAIN-SUFFIX: 5903
+# DOMAIN-SUFFIX: 5906
 # IP-CIDR: 96
 # IP-CIDR6: 4
-# TOTAL: 6047
+# TOTAL: 6050
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -870,6 +870,7 @@ payload:
   - DOMAIN-SUFFIX,channelnewsasia.com
   - DOMAIN-SUFFIX,chaoex.com
   - DOMAIN-SUFFIX,chapm25.com
+  - DOMAIN-SUFFIX,chat.lmsys.org
   - DOMAIN-SUFFIX,chatnook.com
   - DOMAIN-SUFFIX,chaturbate.com
   - DOMAIN-SUFFIX,checkgfw.com
@@ -4046,6 +4047,7 @@ payload:
   - DOMAIN-SUFFIX,ra.gg
   - DOMAIN-SUFFIX,radicalparty.org
   - DOMAIN-SUFFIX,radiko.jp
+  - DOMAIN-SUFFIX,radio-canada.ca
   - DOMAIN-SUFFIX,radio.garden
   - DOMAIN-SUFFIX,radioaustralia.net.au
   - DOMAIN-SUFFIX,radiohilight.net
@@ -4671,6 +4673,7 @@ payload:
   - DOMAIN-SUFFIX,taipei.gov.tw
   - DOMAIN-SUFFIX,taipeisociety.org
   - DOMAIN-SUFFIX,taipeitimes.com
+  - DOMAIN-SUFFIX,taisounds.com
   - DOMAIN-SUFFIX,taiwan-sex.com
   - DOMAIN-SUFFIX,taiwanbible.com
   - DOMAIN-SUFFIX,taiwancon.com

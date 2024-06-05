@@ -15,16 +15,16 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2024-06-05 02:12:49
+最后更新时间：2024-06-06 02:12:02
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 447  | 
 | DOMAIN-KEYWORD | 13  | 
-| DOMAIN-SUFFIX | 77198  | 
+| DOMAIN-SUFFIX | 77192  | 
 | USER-AGENT | 65  | 
-| TOTAL | 77723  | 
+| TOTAL | 77717  | 
 
 
 ## Loon 
@@ -425,7 +425,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://ruleset.isagood.day/icbc.conf
 - https://ruleset.isagood.day/sina.conf
 - https://ruleset.isagood.day/stream_cn.conf
-- https://ruleset.isagood.day/wechat.conf
 - https://raw.githubusercontent.com/missuo/ASN-China/main/IP.China.list
 
 

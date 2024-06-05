@@ -21,20 +21,20 @@
 
 ## 规则统计
 
-最后更新时间：2024-06-05 02:12:27
+最后更新时间：2024-06-06 02:11:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 448  | 
 | HOST-KEYWORD | 13  | 
-| HOST-SUFFIX | 77527  | 
+| HOST-SUFFIX | 77522  | 
 | HOST-WILDCARD | 1  | 
 | IP-ASN | 1  | 
 | IP-CIDR | 8120  | 
-| IP6-CIDR | 4278  | 
+| IP6-CIDR | 4319  | 
 | USER-AGENT | 65  | 
-| TOTAL | 90453  | 
+| TOTAL | 90489  | 
 
 
 ## QuantumultX 
@@ -444,7 +444,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://ruleset.isagood.day/icbc.conf
 - https://ruleset.isagood.day/sina.conf
 - https://ruleset.isagood.day/stream_cn.conf
-- https://ruleset.isagood.day/wechat.conf
 - https://raw.githubusercontent.com/missuo/ASN-China/main/IP.China.list
 
 

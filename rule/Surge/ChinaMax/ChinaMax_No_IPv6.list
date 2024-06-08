@@ -1,26 +1,26 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-06-08 02:13:24
+# UPDATED: 2024-06-09 02:11:36
 # DOMAIN: 448
 # DOMAIN-KEYWORD: 13
 # DOMAIN-SUFFIX: 77522
 # IP-ASN: 1
-# IP-CIDR: 8127
-# IP-CIDR6: 4319
+# IP-CIDR: 8124
+# IP-CIDR6: 4312
 # PROCESS-NAME: 12
 # USER-AGENT: 65
-# TOTAL: 90507
-DOMAIN-SUFFIX,alibaba
-DOMAIN-SUFFIX,taobao
-DOMAIN-SUFFIX,tmall
+# TOTAL: 90497
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,ms
+DOMAIN-SUFFIX,alibaba
 DOMAIN-SUFFIX,alipay
 DOMAIN-SUFFIX,baidu
 DOMAIN-SUFFIX,citic
 DOMAIN-SUFFIX,icbc
 DOMAIN-SUFFIX,sohu
+DOMAIN-SUFFIX,taobao
+DOMAIN-SUFFIX,tmall
 DOMAIN-SUFFIX,unicom
 DOMAIN-SUFFIX,wang
 DOMAIN-SUFFIX,xn--1qqw23a
@@ -3758,15 +3758,14 @@ IP-CIDR,154.203.4.0/22,no-resolve
 IP-CIDR,154.203.8.0/21,no-resolve
 IP-CIDR,154.204.16.0/21,no-resolve
 IP-CIDR,154.204.181.0/24,no-resolve
-IP-CIDR,154.205.8.0/22,no-resolve
 IP-CIDR,154.208.144.0/20,no-resolve
-IP-CIDR,154.209.2.0/23,no-resolve
 IP-CIDR,154.209.230.0/23,no-resolve
 IP-CIDR,154.209.24.0/21,no-resolve
 IP-CIDR,154.209.242.0/23,no-resolve
 IP-CIDR,154.209.244.0/24,no-resolve
 IP-CIDR,154.209.248.0/24,no-resolve
 IP-CIDR,154.209.250.0/23,no-resolve
+IP-CIDR,154.209.3.0/24,no-resolve
 IP-CIDR,154.212.129.0/24,no-resolve
 IP-CIDR,154.213.4.0/23,no-resolve
 IP-CIDR,154.218.6.0/23,no-resolve
@@ -4407,7 +4406,6 @@ IP-CIDR,185.217.122.0/24,no-resolve
 IP-CIDR,185.228.135.48/32,no-resolve
 IP-CIDR,185.234.214.0/23,no-resolve
 IP-CIDR,185.241.211.0/24,no-resolve
-IP-CIDR,185.241.43.0/24,no-resolve
 IP-CIDR,185.242.244.0/22,no-resolve
 IP-CIDR,185.243.43.0/24,no-resolve
 IP-CIDR,185.255.152.0/24,no-resolve
@@ -7805,7 +7803,6 @@ IP-CIDR,45.192.184.0/24,no-resolve
 IP-CIDR,45.192.187.0/24,no-resolve
 IP-CIDR,45.192.189.0/24,no-resolve
 IP-CIDR,45.192.190.0/24,no-resolve
-IP-CIDR,45.195.198.0/24,no-resolve
 IP-CIDR,45.195.6.0/24,no-resolve
 IP-CIDR,45.207.128.0/19,no-resolve
 IP-CIDR,45.207.176.0/20,no-resolve
@@ -8212,7 +8209,6 @@ USER-AGENT,AdBlock*
 USER-AGENT,Best%20Trace*
 USER-AGENT,MegaWerewolf*
 USER-AGENT,MicroMessenger%20Client
-USER-AGENT,MicroMessenger*
 USER-AGENT,MicroMessengerClient*
 USER-AGENT,Microsoft*
 USER-AGENT,Moke*
@@ -8221,7 +8217,6 @@ USER-AGENT,QQ*
 USER-AGENT,RemotePlay*
 USER-AGENT,TIM*
 USER-AGENT,TeamViewer*
-USER-AGENT,WeChat*
 USER-AGENT,WebTorrent*
 USER-AGENT,YYeTs*
 USER-AGENT,arrowio*
@@ -8242,18 +8237,20 @@ USER-AGENT,MiguVideo*
 USER-AGENT,QQ%E9%9F%B3%E4%B9%90
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
+USER-AGENT,Youku*
+USER-AGENT,baiduyinyue
 USER-AGENT,bilibili*
 USER-AGENT,live4iphone*
 USER-AGENT,qqlive4iphone*
+USER-AGENT,walkman*
+USER-AGENT,xiami*
 USER-AGENT,youku*
 USER-AGENT,Himalaya*
 USER-AGENT,MGTV*
 USER-AGENT,MOO*
 USER-AGENT,TencentMidasConnect*
-USER-AGENT,baiduyinyue
-USER-AGENT,walkman*
-USER-AGENT,xiami*
-USER-AGENT,Youku*
+USER-AGENT,MicroMessenger*
+USER-AGENT,WeChat*
 USER-AGENT,PPStream*
 USER-AGENT,QIYI*
 USER-AGENT,QYPlayer*

@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2024-05-30 02:13:40
+desc: 最后更新时间 2024-06-09 02:13:34
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
@@ -7,9 +7,9 @@ desc: 最后更新时间 2024-05-30 02:13:40
 # http-response-script: 25
 # redirect: 8
 # reject: 665
-# mitm: 700
+# mitm: 701
 # force-http-engine-hosts: 6
-# total: 1410
+# total: 1411
 
 
 
@@ -561,7 +561,6 @@ http:
     - ^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/ - reject
     - ^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$ - reject
     - ^https?:\/\/pipi\.4kya\.com\/\/xgapp\.php\/v3\/advert\.position=[^2]+ - reject
-    - ^https?:\/\/pipi\.4kya\.com\/\/xgapp\.php\/v\d\/top_notice\? - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
     - ^https?:\/\/promotion\.medlive\.cn\/getcover-v2\?app_name=medlive - reject
@@ -677,6 +676,7 @@ http:
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
     - ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/search\/related_queries\/answer - reject
+    - ^https?:\/\/www\.zjyilin\.com\/hykweb\/\/index\/openImg - reject
     - ^https?:\/\/www\.zybang\.com\/adx\/ - reject
     - ^https?:\/\/xapi\.xinmanhua\.net\/splashgroups\?include=splashs - reject
     - ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d - reject
@@ -1565,6 +1565,7 @@ http:
     - "www.yuanchengxiezuo.com"
     - "www.zbrushcn.com"
     - "www.zhihu.com"
+    - "www.zjyilin.com"
     - "www.zybang.com"
     - "www1.elecfans.com"
     - "wx.bthhotels.com"

@@ -1,5 +1,5 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-06-09 02:13:55
+desc: 最后更新时间 2024-06-13 02:15:06
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 1091
@@ -40,6 +40,7 @@ http:
     - ^https:\/\/api\.ulife\.group\/signintask\/adServing - reject
     - ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
     - ^https:\/\/cdke\.youdao\.com\/course3\/recommend\/dict\/startup - reject
+    - ^https:\/\/chat-live\.soulapp\.cn\/live\/planet\/recListV2 - reject
     - ^https:\/\/dict\.youdao\.com\/commonsearch - reject
     - ^https:\/\/dict\.youdao\.com\/course\/tab\/translateTab - reject
     - ^https:\/\/dict\.youdao\.com\/dictusertask\/system - reject
@@ -161,7 +162,6 @@ http:
     - ^https?:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+ - reject
     - ^https?:\/\/api-ac\.liepin\.com\/api\/com\.liepin\.cyclops\.live\.get-ad-cards - reject
     - ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads - reject
-    - ^https?:\/\/api-account\.soulapp\.cn\/teenager\/config - reject
     - ^https?:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo - reject
     - ^https?:\/\/api-cslp-emt\.amazon\.cn\/gateway\/content\/widget\/popup - reject
     - ^https?:\/\/api-cslp-emt\.amazon\.cn\/gateway\/recommend - reject
@@ -1171,7 +1171,6 @@ http:
     - "api*.sparke.cn"
     - "api-ac.liepin.com"
     - "api-access.pangolin-sdk-toutiao.com"
-    - "api-account.soulapp.cn"
     - "api-ad-product.huxiu.com"
     - "api-cfg.wtzw.com"
     - "api-cslp-emt.amazon.cn"
@@ -1385,6 +1384,7 @@ http:
     - "cds.wifi188.com"
     - "cgbank.oss-cn-shenzhen.aliyuncs.com"
     - "channel.beitaichufang.com"
+    - "chat-live.soulapp.cn"
     - "cheyouapi.ycapp.yiche.com"
     - "chl.tf.cn"
     - "ci.xiaohongshu.com"

@@ -1,7 +1,7 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-05-08 02:07:54
+# UPDATED: 2024-06-14 02:07:43
 # DOMAIN: 23739
 # DOMAIN-KEYWORD: 216
 # DOMAIN-SUFFIX: 13824
@@ -9,7 +9,6 @@
 # IP-CIDR6: 1
 # TOTAL: 37968
 payload:
-  - DOMAIN-KEYWORD,-tos.pstatp.com
   - DOMAIN-KEYWORD,112wan
   - DOMAIN-KEYWORD,789htbet
   - DOMAIN-KEYWORD,a.9game.cn
@@ -194,6 +193,7 @@ payload:
   - DOMAIN-KEYWORD,supersonicads
   - DOMAIN-KEYWORD,talk.bz.getui.com
   - DOMAIN-KEYWORD,toateeli
+  - DOMAIN-KEYWORD,tos.pstatp.com
   - DOMAIN-KEYWORD,tosv.boe.byted.org
   - DOMAIN-KEYWORD,tosv.byted.org
   - DOMAIN-KEYWORD,track.uc.cn

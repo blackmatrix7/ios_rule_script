@@ -1,13 +1,13 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-06-13 02:09:07
+# UPDATED: 2024-06-14 02:08:19
 # DOMAIN: 16390
 # DOMAIN-KEYWORD: 278
-# DOMAIN-SUFFIX: 134597
+# DOMAIN-SUFFIX: 134613
 # IP-CIDR: 447
 # IP-CIDR6: 1
-# TOTAL: 151713
+# TOTAL: 151729
 payload:
   - DOMAIN-KEYWORD,-logging.nextmedia.com
   - DOMAIN-KEYWORD,-s2s.sensic.net
@@ -73,7 +73,6 @@ payload:
   - DOMAIN-KEYWORD,umtrack
   - DOMAIN-KEYWORD,wxsnsdy
   - DOMAIN-KEYWORD,zymerget
-  - DOMAIN-KEYWORD,-tos.pstatp.com
   - DOMAIN-KEYWORD,112wan
   - DOMAIN-KEYWORD,789htbet
   - DOMAIN-KEYWORD,a.9game.cn
@@ -257,6 +256,7 @@ payload:
   - DOMAIN-KEYWORD,supersonicads
   - DOMAIN-KEYWORD,talk.bz.getui.com
   - DOMAIN-KEYWORD,toateeli
+  - DOMAIN-KEYWORD,tos.pstatp.com
   - DOMAIN-KEYWORD,tosv.boe.byted.org
   - DOMAIN-KEYWORD,tosv.byted.org
   - DOMAIN-KEYWORD,track.uc.cn

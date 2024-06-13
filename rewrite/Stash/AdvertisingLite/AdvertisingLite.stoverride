@@ -1,5 +1,5 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-06-13 02:15:06
+desc: 最后更新时间 2024-06-14 02:14:06
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 1091
@@ -163,6 +163,7 @@ http:
     - ^https?:\/\/api-ac\.liepin\.com\/api\/com\.liepin\.cyclops\.live\.get-ad-cards - reject
     - ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads - reject
     - ^https?:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo - reject
+    - ^https?:\/\/api-chat\.soulapp\.cn\/chat\/entrance\/first - reject
     - ^https?:\/\/api-cslp-emt\.amazon\.cn\/gateway\/content\/widget\/popup - reject
     - ^https?:\/\/api-cslp-emt\.amazon\.cn\/gateway\/recommend - reject
     - ^https?:\/\/api-marketing\.zhinengxiyifang\.cn\/api\/v2\/cloudcode\/wechat\/bid - reject
@@ -466,7 +467,6 @@ http:
     - ^https?:\/\/compus\.xiaofubao\.com\/compus\/advertising\/getStartupAdvertising - reject
     - ^https?:\/\/conf-darwin\.xycdn\.com - reject
     - ^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ - reject
-    - ^https?:\/\/creditcard\.bankcomm\.com\/tfimg\/public00\/M00\/4C\/6F - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.cn\/mappweb_interface\/common\/(qryPopAds|qryLaunchAds)\.do - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do - reject
     - ^https?:\/\/cstore-en-public-tx\.seewo\.com\/easinote5_public - reject
@@ -1173,6 +1173,7 @@ http:
     - "api-access.pangolin-sdk-toutiao.com"
     - "api-ad-product.huxiu.com"
     - "api-cfg.wtzw.com"
+    - "api-chat.soulapp.cn"
     - "api-cslp-emt.amazon.cn"
     - "api-global.soulapp.me"
     - "api-marketing.zhinengxiyifang.cn"
@@ -1404,7 +1405,6 @@ http:
     - "compus.xiaofubao.com"
     - "conf-darwin.xycdn.com"
     - "cover.baidu.com"
-    - "creditcard.bankcomm.com"
     - "creditcardapp.bankcomm.cn"
     - "creditcardapp.bankcomm.com"
     - "cstore-en-public-tx.seewo.com"

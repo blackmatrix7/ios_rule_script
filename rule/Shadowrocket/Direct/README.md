@@ -15,16 +15,16 @@
 
 ## 规则统计
 
-最后更新时间：2024-06-02 02:10:56
+最后更新时间：2024-06-16 02:11:11
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 58  | 
+| DOMAIN | 56  | 
 | DOMAIN-KEYWORD | 35  | 
 | DOMAIN-SUFFIX | 129  | 
 | USER-AGENT | 1  | 
-| TOTAL | 223  | 
+| TOTAL | 221  | 
 
 
 ## Shadowrocket 

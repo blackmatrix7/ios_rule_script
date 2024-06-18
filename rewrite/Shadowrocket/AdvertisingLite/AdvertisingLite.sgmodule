@@ -1,10 +1,10 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-06-16 02:14:19
+#!desc=最后更新时间 2024-06-19 02:16:27
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=1087
+#!reject=1088
 #!mitm=804
-#!total=1891
+#!total=1892
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -668,6 +668,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/(guanggao|ts_ad)\/ - reject
 ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
 ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
+^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v1\? - reject-dict
 ^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7\?position - reject
 ^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7\?position_types=(?!2)(.*)&store_id - reject
 ^https?:\/\/j5\.dfcfw\.com\/WG\/conf\/202[0-9]{5}/.*.(jpg|png) - reject-200

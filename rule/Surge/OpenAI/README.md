@@ -40,7 +40,8 @@ OpenAI规则由《RULE GENERATOR 规则生成器》自动生成。
 
 #### 常见问题
 - 分流规则不生效，被识别真实IP
-  由于OpenAI使用了,基于 quic,基于 udp,最简单的办法是把浏览器的 http3 支持给关了。
+  由于OpenAI使用了Http3,基于 quic,基于 udp  
+  最简单的办法是把浏览器的 http3 支持给关了
   ```
     chrome://flags/#enable-quic
     edge://flags/#enable-quic

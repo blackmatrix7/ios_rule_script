@@ -47,6 +47,7 @@ OpenAI规则由《RULE GENERATOR 规则生成器》自动生成。
     chrome://flags/#enable-quic
     edge://flags/#enable-quic
     Settings > Safari > Advanced > Experimental Features > HTTP/3
+    about:config -> search network.http.http3.enabled
   ```
 
 

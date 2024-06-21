@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2024-06-09 02:13:38
+#!desc=最后更新时间 2024-06-22 02:14:53
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
@@ -8,10 +8,10 @@
 #!http-request-script=1
 #!http-response-script=25
 #!redirect=62
-#!reject=712
+#!reject=713
 #!mitm=786
 #!force-http-engine-hosts=6
-#!total=1601
+#!total=1602
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -776,6 +776,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 "^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise" - reject
 "^https?:\/\/www\.cntv\.com\/nettv\/adp\/" - reject
 "^https?:\/\/www\.didapinche\.com\/app\/adstat\/" - reject
+"^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?module=advis" - reject
 "^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis" - reject
 "^https?:\/\/www\.inoreader\.com\/adv\/" - reject
 "^https?:\/\/www\.kujiale\.com\/app\/queryOpenPage" - reject

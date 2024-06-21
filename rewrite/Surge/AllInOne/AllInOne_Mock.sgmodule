@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2024-06-09 02:13:38
+#!desc=最后更新时间 2024-06-22 02:14:53
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
@@ -8,10 +8,10 @@
 #!http-request-script=1
 #!http-response-script=25
 #!redirect=62
-#!reject=712
+#!reject=713
 #!mitm=786
 #!force-http-engine-hosts=6
-#!total=1601
+#!total=1602
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -792,6 +792,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 "^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/(openscreen\?ad|loadInfo\?|startpicture)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
+"^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?module=advis" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/www\.kujiale\.com\/app\/queryOpenPage" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/www\.pansearch\.me\/api\/adsite" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"

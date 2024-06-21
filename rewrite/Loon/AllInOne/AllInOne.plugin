@@ -1,5 +1,5 @@
 #!name= AllInOne
-#!desc= 最后更新时间 2024-06-09 02:13:34
+#!desc= 最后更新时间 2024-06-22 02:14:49
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
@@ -9,9 +9,9 @@
 #!http-request-script= 1
 #!http-response-script= 25
 #!redirect= 8
-#!reject= 665
+#!reject= 666
 #!mitm= 701
-#!total= 1409
+#!total= 1410
 
 [Rule]
 DOMAIN,appcloud.zhihu.com,REJECT
@@ -670,6 +670,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 ^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise - reject
 ^https?:\/\/www\.cntv\.com\/nettv\/adp\/ - reject
 ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ - reject
+^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?module=advis - reject-200
 ^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
 ^https?:\/\/www\.inoreader\.com\/adv\/ - reject
 ^https?:\/\/www\.kujiale\.com\/app\/queryOpenPage - reject-200

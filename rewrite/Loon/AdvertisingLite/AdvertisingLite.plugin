@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2024-06-19 02:16:27
+#!desc= 最后更新时间 2024-06-22 02:15:07
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 1088
+#!reject= 1089
 #!mitm= 804
-#!total= 1892
+#!total= 1893
 
 
 [Rewrite]
@@ -1041,6 +1041,7 @@
 ^https?:\/\/www\.cntv\.com\/nettv\/adp\/ - reject-200
 ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ - reject-200
 ^https?:\/\/www\.flyert\.com\/.*\.php\?module=advis - reject-dict
+^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?module=advis - reject-200
 ^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
 ^https?:\/\/www\.gcores\.com\/gapi\/v1\/app-start-pages\?page - reject-dict
 ^https?:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.getMaxWeightAdvertisement\.rpc - reject-200

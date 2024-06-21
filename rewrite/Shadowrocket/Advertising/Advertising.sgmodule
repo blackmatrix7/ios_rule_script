@@ -1,10 +1,10 @@
 #!name=Advertising
-#!desc=最后更新时间 2024-06-09 02:13:30
+#!desc=最后更新时间 2024-06-22 02:14:45
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=696
+#!reject=697
 #!mitm=653
-#!total=1349
+#!total=1350
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -677,6 +677,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 ^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise - reject
 ^https?:\/\/www\.cntv\.com\/nettv\/adp\/ - reject
 ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ - reject
+^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?module=advis - reject-200
 ^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
 ^https?:\/\/www\.inoreader\.com\/adv\/ - reject
 ^https?:\/\/www\.kujiale\.com\/app\/queryOpenPage - reject-200

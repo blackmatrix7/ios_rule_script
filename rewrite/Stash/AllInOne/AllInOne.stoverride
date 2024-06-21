@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-06-09 02:13:34
+desc: 最后更新时间 2024-06-22 02:14:49
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 665
+# reject: 666
 # mitm: 701
 # force-http-engine-hosts: 6
-# total: 1411
+# total: 1412
 
 
 
@@ -667,6 +667,7 @@ http:
     - ^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise - reject
     - ^https?:\/\/www\.cntv\.com\/nettv\/adp\/ - reject
     - ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ - reject
+    - ^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?module=advis - reject
     - ^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
     - ^https?:\/\/www\.inoreader\.com\/adv\/ - reject
     - ^https?:\/\/www\.kujiale\.com\/app\/queryOpenPage - reject

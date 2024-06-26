@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-06-22 02:15:07
+desc: 最后更新时间 2024-06-27 02:14:28
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1089
-# mitm: 804
+# reject: 1090
+# mitm: 805
 # force-http-engine-hosts: 6
-# total: 1899
+# total: 1901
 
 
 
@@ -188,6 +188,7 @@ http:
     - ^https?:\/\/api.xueqiu.com\/ucprofile\/api\/user\/batchGetUserBasicInfo.json - reject
     - ^https?:\/\/api1\.34580\.com\/wx\/Home\/AdvertisementPhotoshootRequest - reject
     - ^https?:\/\/api2\.helper\.qq\.com\/game\/buttons - reject
+    - ^https?:\/\/api2\.yaduo\.com\/atourlife\/activity\/appLaunch - reject
     - ^https?:\/\/api3\.cls\.cn\/v1\/boot\/ad - reject
     - ^https?:\/\/api4\.bybutter\.com\/v\d\/app\/placements\/\d\/advertisements - reject
     - ^https?:\/\/api\-cfg\.wtzw\.com\/v1\/(adv|reward|operation) - reject
@@ -1270,6 +1271,7 @@ http:
     - "api.zhuishushenqi.com"
     - "api1.34580.com"
     - "api2.helper.qq.com"
+    - "api2.yaduo.com"
     - "api3.cls.cn"
     - "api4.bybutter.com"
     - "api5.youonbike.com"

@@ -12,7 +12,7 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-06-26 02:13:29
+最后更新时间：2024-06-27 02:13:01
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -22,10 +22,10 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 | HOST-SUFFIX | 77402  | 
 | HOST-WILDCARD | 1  | 
 | IP-ASN | 1  | 
-| IP-CIDR | 8123  | 
-| IP6-CIDR | 3737  | 
+| IP-CIDR | 8122  | 
+| IP6-CIDR | 3734  | 
 | USER-AGENT | 65  | 
-| TOTAL | 89786  | 
+| TOTAL | 89782  | 
 
 
 ## QuantumultX 

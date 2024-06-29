@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-06-27 02:14:28
+desc: 最后更新时间 2024-06-30 02:13:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1090
-# mitm: 805
+# reject: 1092
+# mitm: 806
 # force-http-engine-hosts: 6
-# total: 1901
+# total: 1904
 
 
 
@@ -17,6 +17,7 @@ http:
     - ^http:\/\/gateway2\.etnet\.com\.hk\/etnetApp\/theme\/seasonal\/v30\/theme.json - reject
     - ^http:\/\/go\.babytree\.com\/go_tool\/api\/feeding_record\/get_home_banner_info - reject
     - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
+    - ^http:\/\/res1\.hubcloud\.com\.cn - reject
     - ^http?:\/\/images\.pinduoduo\.com\/marketing\_api - reject
     - ^http?:\/\/sfo\.mddcloud\.com\.cn\/api\/v2\/sfo\/popup_displays? - reject
     - ^http?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds\.php - reject
@@ -75,6 +76,7 @@ http:
     - ^https:\/\/s\.jiediankeji\.com\/adv - reject
     - ^https:\/\/service\.haiersmarthomes\.com\/management\/banner\/getBannerList\?source=4 - reject
     - ^https:\/\/smarket\.dian\.so - reject
+    - ^https:\/\/vapp\.tmuyun\.com\/api\/buoy\/list - reject
     - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
     - ^https:\/\/www\.ymm56\.com\/short-distance-match-app\/openAppAd - reject
     - ^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad - reject
@@ -1754,6 +1756,7 @@ http:
     - "res.mi.baidu.com"
     - "res.pizzahut.com.cn"
     - "res.xiaojukeji.com"
+    - "res1.hubcloud.com.cn"
     - "restapi.iyunmai.com"
     - "richmanapi.jxedt.com"
     - "richmanrules.ksedt.com"

@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-01 02:10:18
-# DOMAIN: 80
-# DOMAIN-KEYWORD: 37
-# DOMAIN-SUFFIX: 24794
+# UPDATED: 2024-07-03 16:15:51
+# DOMAIN: 81
+# DOMAIN-KEYWORD: 36
+# DOMAIN-SUFFIX: 24795
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 25028
+# TOTAL: 25029
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -76,6 +76,7 @@ payload:
   - DOMAIN,push-apple.com.akadns.net
   - DOMAIN,qualcomm.sc.omtrdc.net
   - DOMAIN,tesla-cdn.thron.com
+  - DOMAIN,translomatic.foxfortmobile.com
   - DOMAIN,vmware.tt.omtrdc.net
   - DOMAIN,vscode.search.windows.net
   - DOMAIN,vsmarketplacebadge.apphb.com
@@ -3490,6 +3491,7 @@ payload:
   - DOMAIN-SUFFIX,bookclubcorner.com
   - DOMAIN-SUFFIX,bookclubgirl.com
   - DOMAIN-SUFFIX,bookfi.net
+  - DOMAIN-SUFFIX,booking.com
   - DOMAIN-SUFFIX,booklive.jp
   - DOMAIN-SUFFIX,bookmark.xxx
   - DOMAIN-SUFFIX,bookmybridgestonetyre.com
@@ -24903,7 +24905,6 @@ payload:
   - DOMAIN-KEYWORD,dropbox
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,fbcdn
-  - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,instagram

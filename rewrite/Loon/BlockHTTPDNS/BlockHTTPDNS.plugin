@@ -1,16 +1,16 @@
 #!name= BlockHTTPDNS
-#!desc= 最后更新时间 2024-04-29 13:37:59
+#!desc= 最后更新时间 2024-07-03 16:19:12
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!domain= 20
+#!domain= 21
 #!domain-suffix= 1
 #!ip-cidr= 35
 #!ip-cidr6= 4
 #!reject= 18
 #!mitm= 16
-#!total= 94
+#!total= 95
 
 [Rule]
 DOMAIN,dns.jd.com,REJECT
@@ -29,6 +29,7 @@ DOMAIN,httpdns.music.163.com,REJECT
 DOMAIN,httpdns.n.netease.com,REJECT
 DOMAIN,httpdns.push.oppomobile.com,REJECT
 DOMAIN,httpdns.volcengineapi.com,REJECT
+DOMAIN,httpdns.yunxindns.com,REJECT
 DOMAIN,httpdnsvip.meituan.com,REJECT
 DOMAIN,httpsdns.baidu.com,REJECT
 DOMAIN,lofter.httpdns.c.163.com,REJECT

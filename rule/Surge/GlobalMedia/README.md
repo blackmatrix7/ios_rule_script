@@ -12,12 +12,12 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-06-07 02:11:27
+最后更新时间：2024-07-03 16:16:08
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 28  | 
+| DOMAIN | 27  | 
 | DOMAIN-KEYWORD | 25  | 
 | DOMAIN-SUFFIX | 1255  | 
 | IP-CIDR | 918  | 
@@ -25,7 +25,7 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 | PROCESS-NAME | 3  | 
 | URL-REGEX | 1  | 
 | USER-AGENT | 69  | 
-| TOTAL | 2305  | 
+| TOTAL | 2304  | 
 
 
 ## Surge 

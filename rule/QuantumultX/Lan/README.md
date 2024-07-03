@@ -12,7 +12,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:34:35
+最后更新时间：2024-07-03 16:16:16
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -66,7 +66,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt
-- https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/LAN.yaml
 

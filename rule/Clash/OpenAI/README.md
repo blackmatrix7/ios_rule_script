@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN与DOMAIN--KEYWORD合并-9cf) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
 OpenAI规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,17 +12,17 @@ OpenAI规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:37:08
+最后更新时间：2024-07-03 16:18:28
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 2  | 
+| DOMAIN | 8  | 
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 21  | 
+| DOMAIN-SUFFIX | 24  | 
 | IP-ASN | 1  | 
 | IP-CIDR | 2  | 
-| TOTAL | 27  | 
+| TOTAL | 36  | 
 
 
 ## Clash 

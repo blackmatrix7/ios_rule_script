@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2024-06-30 02:13:54
+#!desc= 最后更新时间 2024-07-03 16:18:57
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 1092
+#!reject= 1091
 #!mitm= 806
-#!total= 1898
+#!total= 1897
 
 
 [Rewrite]
@@ -52,7 +52,6 @@
 ^https:\/\/hdgateway\.zto\.com\/listJumperShow - reject-dict
 ^https:\/\/hdgateway\.zto\.com\/track - reject-dict
 ^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 - reject-dict
-^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|png) - reject
 ^https:\/\/imcs\.citicbank\.com\/cloud\/.+(1125.+2436|1242.+2688) - reject-200
 ^https:\/\/img01\.51jobcdn\.com\/im\/mkt/(?:tg/((19|20)\d{2})banner/(?!jcgz2/)|\d{4}/bd/\d{4}/).*\.jpg - reject
 ^https:\/\/live\.inst-service\.htsc\.com\/live - reject-dict

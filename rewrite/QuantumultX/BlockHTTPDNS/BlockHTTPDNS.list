@@ -1,14 +1,14 @@
 # NAME: BlockHTTPDNS
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-04-29 13:37:59
-# HOST: 20
+# UPDATED: 2024-07-03 16:19:12
+# HOST: 21
 # HOST-SUFFIX: 1
 # IP-CIDR: 35
 # IP6-CIDR: 4
 # REJECT: 18
 # MITM: 16
-# TOTAL: 94
+# TOTAL: 95
 HOST,dns.jd.com,BlockHTTPDNS
 HOST,dns.weibo.cn,BlockHTTPDNS
 HOST,dns.weixin.qq.com,BlockHTTPDNS
@@ -25,6 +25,7 @@ HOST,httpdns.music.163.com,BlockHTTPDNS
 HOST,httpdns.n.netease.com,BlockHTTPDNS
 HOST,httpdns.push.oppomobile.com,BlockHTTPDNS
 HOST,httpdns.volcengineapi.com,BlockHTTPDNS
+HOST,httpdns.yunxindns.com,BlockHTTPDNS
 HOST,httpdnsvip.meituan.com,BlockHTTPDNS
 HOST,httpsdns.baidu.com,BlockHTTPDNS
 HOST,lofter.httpdns.c.163.com,BlockHTTPDNS

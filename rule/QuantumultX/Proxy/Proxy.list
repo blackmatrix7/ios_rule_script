@@ -1,21 +1,20 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-01 02:10:34
-# HOST: 22
-# HOST-KEYWORD: 29
-# HOST-SUFFIX: 6351
+# UPDATED: 2024-07-03 16:16:07
+# HOST: 18
+# HOST-KEYWORD: 28
+# HOST-SUFFIX: 6352
 # IP-CIDR: 96
 # IP6-CIDR: 4
 # USER-AGENT: 9
-# TOTAL: 6511
+# TOTAL: 6507
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
 HOST,assets.msn.com,Proxy
 HOST,cdp.cloud.unity3d.com,Proxy
-HOST,chat.openai.com.cdn.cloudflare.net,Proxy
 HOST,cloud.oracle.com,Proxy
 HOST,copilot.microsoft.com,Proxy
 HOST,cvws.icloud-content.com,Proxy
@@ -24,10 +23,7 @@ HOST,lens.l.google.com,Proxy
 HOST,location.microsoft.com,Proxy
 HOST,login.microsoftonline.com,Proxy
 HOST,openaiapi-site.azureedge.net,Proxy
-HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Proxy
-HOST,openaicomproductionae4b.blob.core.windows.net,Proxy
 HOST,p16-tiktokcdn-com.akamaized.net,Proxy
-HOST,production-openaicom-storage.azureedge.net,Proxy
 HOST,self.events.data.microsoft.com,Proxy
 HOST,testflight.apple.com,Proxy
 HOST,voice.telephony.goog,Proxy
@@ -960,6 +956,7 @@ HOST-SUFFIX,changsa.net,Proxy
 HOST-SUFFIX,channelnewsasia.com,Proxy
 HOST-SUFFIX,chaoex.com,Proxy
 HOST-SUFFIX,chapm25.com,Proxy
+HOST-SUFFIX,chat.openai.com,Proxy
 HOST-SUFFIX,chatnook.com,Proxy
 HOST-SUFFIX,chaturbate.com,Proxy
 HOST-SUFFIX,checkgfw.com,Proxy
@@ -6393,7 +6390,6 @@ HOST-KEYWORD,dlercloud,Proxy
 HOST-KEYWORD,dropbox,Proxy
 HOST-KEYWORD,facebook,Proxy
 HOST-KEYWORD,fbcdn,Proxy
-HOST-KEYWORD,github,Proxy
 HOST-KEYWORD,gmail,Proxy
 HOST-KEYWORD,google,Proxy
 HOST-KEYWORD,instagram,Proxy

@@ -1,15 +1,15 @@
 name: BlockHTTPDNS
-desc: 最后更新时间 2024-04-29 13:37:59
+desc: 最后更新时间 2024-07-03 16:19:12
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# domain: 20
+# domain: 21
 # domain-suffix: 1
 # ip-cidr: 35
 # ip-cidr6: 4
 # reject: 18
 # mitm: 16
 # force-http-engine-hosts: 4
-# total: 98
+# total: 99
 
 
 
@@ -30,6 +30,7 @@ rules:
   - DOMAIN,httpdns.n.netease.com,REJECT
   - DOMAIN,httpdns.push.oppomobile.com,REJECT
   - DOMAIN,httpdns.volcengineapi.com,REJECT
+  - DOMAIN,httpdns.yunxindns.com,REJECT
   - DOMAIN,httpdnsvip.meituan.com,REJECT
   - DOMAIN,httpsdns.baidu.com,REJECT
   - DOMAIN,lofter.httpdns.c.163.com,REJECT

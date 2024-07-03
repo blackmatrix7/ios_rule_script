@@ -1,15 +1,15 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 02:08:34
+# UPDATED: 2024-07-03 16:13:26
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
-# DOMAIN: 16391
-# DOMAIN-KEYWORD: 252
-# DOMAIN-SUFFIX: 135255
-# IP-CIDR: 447
+# DOMAIN: 16331
+# DOMAIN-KEYWORD: 260
+# DOMAIN-SUFFIX: 134044
+# IP-CIDR: 445
 # IP-CIDR6: 1
 # URL-REGEX: 12
-# TOTAL: 152358
+# TOTAL: 151093
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-s2s.sensic.net
 DOMAIN-KEYWORD,-spiky.clevertap-prod.com
@@ -110,7 +110,6 @@ DOMAIN-KEYWORD,api.sobot.com
 DOMAIN-KEYWORD,apiinit.amap.com
 DOMAIN-KEYWORD,apimg.qunliao.info
 DOMAIN-KEYWORD,app.51y5.net
-DOMAIN-KEYWORD,applog.uc.cn
 DOMAIN-KEYWORD,applogapi.autohome.com
 DOMAIN-KEYWORD,applovin
 DOMAIN-KEYWORD,appsflyer
@@ -262,6 +261,15 @@ DOMAIN-KEYWORD,xn--2qux23c9ziyrq
 DOMAIN-KEYWORD,xxshuyuan
 DOMAIN-KEYWORD,ynuf.alipay.com
 DOMAIN-KEYWORD,zjtoolbar
+DOMAIN-KEYWORD,analytics.
+DOMAIN-KEYWORD,app-analytics
+DOMAIN-KEYWORD,app-log.
+DOMAIN-KEYWORD,applog.
+DOMAIN-KEYWORD,fzlm
+DOMAIN-KEYWORD,ios-log.
+DOMAIN-KEYWORD,ioslog.
+DOMAIN-KEYWORD,pc-log.
+DOMAIN-KEYWORD,pclog.
 URL-REGEX,^https?:\/\/.+?\.beacon\.qq\.com
 URL-REGEX,^https?:\/\/.+?\.l\.qq\.com
 URL-REGEX,^https?:\/\/\w+\.gdt\.qq\.com
@@ -359,13 +367,11 @@ IP-CIDR,120.198.116.0/24,no-resolve
 IP-CIDR,120.209.138.64/32,no-resolve
 IP-CIDR,120.240.95.37/32,no-resolve
 IP-CIDR,120.26.151.246/32,no-resolve
-IP-CIDR,120.27.235.201/32,no-resolve
 IP-CIDR,120.27.34.156/32,no-resolve
 IP-CIDR,120.55.199.139/32,no-resolve
 IP-CIDR,120.76.189.132/32,no-resolve
 IP-CIDR,120.80.57.123/32,no-resolve
 IP-CIDR,121.15.207.243/32,no-resolve
-IP-CIDR,121.196.197.147/32,no-resolve
 IP-CIDR,121.199.73.185/32,no-resolve
 IP-CIDR,121.201.108.2/32,no-resolve
 IP-CIDR,121.201.11.95/32,no-resolve
@@ -433,6 +439,7 @@ IP-CIDR,154.22.214.2/32,no-resolve
 IP-CIDR,154.7.80.158/32,no-resolve
 IP-CIDR,156.232.37.2/32,no-resolve
 IP-CIDR,156.246.162.2/32,no-resolve
+IP-CIDR,157.148.47.204/32,no-resolve
 IP-CIDR,158.247.208.115/32,no-resolve
 IP-CIDR,162.212.181.32/32,no-resolve
 IP-CIDR,162.252.214.4/32,no-resolve
@@ -558,6 +565,7 @@ IP-CIDR,218.68.250.118/31,no-resolve
 IP-CIDR,218.68.250.120/31,no-resolve
 IP-CIDR,218.93.127.37/32,no-resolve
 IP-CIDR,218.94.207.205/32,no-resolve
+IP-CIDR,219.143.187.136/32,no-resolve
 IP-CIDR,219.146.13.36/32,no-resolve
 IP-CIDR,219.234.83.60/32,no-resolve
 IP-CIDR,220.115.251.25/32,no-resolve
@@ -684,8 +692,6 @@ IP-CIDR,47.90.50.177/32,no-resolve
 IP-CIDR,47.93.103.196/32,no-resolve
 IP-CIDR,47.94.89.32/32,no-resolve
 IP-CIDR,47.96.162.122/32,no-resolve
-IP-CIDR,47.97.215.55/32,no-resolve
-IP-CIDR,47.99.42.29/32,no-resolve
 IP-CIDR,49.71.37.101/32,no-resolve
 IP-CIDR,51.77.227.96/29,no-resolve
 IP-CIDR,51.89.187.136/29,no-resolve

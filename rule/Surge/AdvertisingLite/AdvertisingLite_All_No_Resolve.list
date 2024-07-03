@@ -1,16 +1,16 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-06-30 02:07:20
+# UPDATED: 2024-07-03 16:12:50
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # AND: 1
-# DOMAIN: 23746
-# DOMAIN-KEYWORD: 190
-# DOMAIN-SUFFIX: 13858
-# IP-CIDR: 188
+# DOMAIN: 23748
+# DOMAIN-KEYWORD: 189
+# DOMAIN-SUFFIX: 13859
+# IP-CIDR: 184
 # IP-CIDR6: 1
 # URL-REGEX: 2
-# TOTAL: 37986
+# TOTAL: 37984
 DOMAIN,00-gov.cn
 DOMAIN,0024aadd.com
 DOMAIN,0026645142c89aeb1.com
@@ -8640,6 +8640,7 @@ DOMAIN,givingsol.com
 DOMAIN,gixmo.dk
 DOMAIN,giyjhogjmfmc.com
 DOMAIN,gizgxhqqdngfh.com
+DOMAIN,gjapplog.uc.cn
 DOMAIN,gjbgesaromnb.com
 DOMAIN,gjdawsvqs.com
 DOMAIN,gjdnksgfwoj.com
@@ -9418,6 +9419,7 @@ DOMAIN,hlserve.com
 DOMAIN,hlsqjrgeuw.com
 DOMAIN,hlvzvisiwbtuwv.com
 DOMAIN,hlykwstrvxa.com
+DOMAIN,hm.baidu.com
 DOMAIN,hm.baidu.com.jnsiematcnc.com
 DOMAIN,hm.baidu.com.zzsdtzb.com
 DOMAIN,hm252.cn
@@ -26014,6 +26016,7 @@ DOMAIN-SUFFIX,applifier.com
 DOMAIN-SUFFIX,applift.com
 DOMAIN-SUFFIX,applog.mobike.com
 DOMAIN-SUFFIX,applog.musical.ly
+DOMAIN-SUFFIX,applog.uc.cn
 DOMAIN-SUFFIX,applogios.uc.cn
 DOMAIN-SUFFIX,applvn.com
 DOMAIN-SUFFIX,appnext-a.akamaihd.net
@@ -27213,6 +27216,7 @@ DOMAIN-SUFFIX,click.engage.xbox.com
 DOMAIN-SUFFIX,click.eyk.net
 DOMAIN-SUFFIX,click.ganji.com
 DOMAIN-SUFFIX,click.hd.sohu.com
+DOMAIN-SUFFIX,click.hm.baidu.com
 DOMAIN-SUFFIX,click.hunantv.com
 DOMAIN-SUFFIX,click.jasmin.com
 DOMAIN-SUFFIX,click.livedoor.com
@@ -29876,7 +29880,6 @@ DOMAIN-SUFFIX,hljhufengling.cn
 DOMAIN-SUFFIX,hljyjm.cn
 DOMAIN-SUFFIX,hlrcv.stage.adobe.com
 DOMAIN-SUFFIX,hm.baidu.cn
-DOMAIN-SUFFIX,hm.baidu.com
 DOMAIN-SUFFIX,hmhqp.com
 DOMAIN-SUFFIX,hmma.baidu.cn
 DOMAIN-SUFFIX,hmma.baidu.com
@@ -37651,7 +37654,6 @@ DOMAIN-KEYWORD,api.sobot.com
 DOMAIN-KEYWORD,apiinit.amap.com
 DOMAIN-KEYWORD,apimg.qunliao.info
 DOMAIN-KEYWORD,app.51y5.net
-DOMAIN-KEYWORD,applog.uc.cn
 DOMAIN-KEYWORD,applogapi.autohome.com
 DOMAIN-KEYWORD,applovin
 DOMAIN-KEYWORD,appsflyer
@@ -37860,13 +37862,11 @@ IP-CIDR,120.197.89.239/32,no-resolve
 IP-CIDR,120.198.116.0/24,no-resolve
 IP-CIDR,120.240.95.37/32,no-resolve
 IP-CIDR,120.26.151.246/32,no-resolve
-IP-CIDR,120.27.235.201/32,no-resolve
 IP-CIDR,120.27.34.156/32,no-resolve
 IP-CIDR,120.55.199.139/32,no-resolve
 IP-CIDR,120.76.189.132/32,no-resolve
 IP-CIDR,120.80.57.123/32,no-resolve
 IP-CIDR,121.15.207.243/32,no-resolve
-IP-CIDR,121.196.197.147/32,no-resolve
 IP-CIDR,121.199.73.185/32,no-resolve
 IP-CIDR,121.201.108.2/32,no-resolve
 IP-CIDR,121.201.11.95/32,no-resolve
@@ -37970,8 +37970,6 @@ IP-CIDR,47.90.50.177/32,no-resolve
 IP-CIDR,47.93.103.196/32,no-resolve
 IP-CIDR,47.94.89.32/32,no-resolve
 IP-CIDR,47.96.162.122/32,no-resolve
-IP-CIDR,47.97.215.55/32,no-resolve
-IP-CIDR,47.99.42.29/32,no-resolve
 IP-CIDR,49.71.37.101/32,no-resolve
 IP-CIDR,58.215.179.159/32,no-resolve
 IP-CIDR,58.221.28.166/32,no-resolve

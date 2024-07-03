@@ -1,13 +1,13 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-01 02:11:24
-# DOMAIN: 29
+# UPDATED: 2024-07-03 16:17:00
+# DOMAIN: 25
 # DOMAIN-KEYWORD: 22
 # DOMAIN-SUFFIX: 842
 # IP-CIDR: 89
 # IP-CIDR6: 4
-# TOTAL: 986
+# TOTAL: 982
 payload:
   - DOMAIN,addons.mozilla.org
   - DOMAIN,amp-api.podcasts.apple.com
@@ -22,7 +22,6 @@ payload:
   - DOMAIN,beta.music.apple.com
   - DOMAIN,books.apple.com
   - DOMAIN,cdp.cloud.unity3d.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN,clubhouse.pubnubapi.com
   - DOMAIN,copilot.microsoft.com
   - DOMAIN,disk.yandex.com
@@ -31,9 +30,6 @@ payload:
   - DOMAIN,login.microsoftonline.com
   - DOMAIN,ocsp.int-x3.letsencrypt.org
   - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,search.yahoo.co.jp
   - DOMAIN,self.events.data.microsoft.com
   - DOMAIN,tv.apple.com

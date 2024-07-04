@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) ![](https://shields.io/badge/-QuantumultX定制化规则-7cd1e3) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
 PayPal规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,16 +12,15 @@ PayPal规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-07-03 16:16:11
+最后更新时间：2024-07-05 02:11:12
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 1  | 
 | HOST-KEYWORD | 1  | 
 | HOST-SUFFIX | 246  | 
 | USER-AGENT | 1  | 
-| TOTAL | 249  | 
+| TOTAL | 248  | 
 
 
 ## QuantumultX 

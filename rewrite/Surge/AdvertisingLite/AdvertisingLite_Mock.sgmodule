@@ -1,12 +1,12 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-07-03 16:18:57
+#!desc=最后更新时间 2024-07-05 02:14:29
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
-#!reject=1091
+#!reject=1093
 #!mitm=806
 #!force-http-engine-hosts=6
-#!total=1903
+#!total=1905
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -646,6 +646,8 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/app\.poizon\.com\/api\/v\d\/app\/advertisement\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/app\.zhoudamozi\.com\/ad\/.+" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/app\.zhuanzhuan\.com\/zz\/transfer\/userred\?scene=homePage" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+"^https?:\/\/app\.zhuanzhuan\.com\/zz\/v2\/zzlogic\/getOpenScreen" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+"^https?:\/\/app\.zhuanzhuan\.com\/zzopen\/popwindow\/getallpopwin\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/app\.zhuanzhuan\.com\/zzx\/transfer\/getConfigInfo$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/appconf\.mail\.163\.com\/mmad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/appdmkj\.5idream\.net\/appPic\/homepage" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"

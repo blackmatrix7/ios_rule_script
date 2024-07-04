@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2024-07-03 16:18:57
+#!desc= 最后更新时间 2024-07-05 02:14:29
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 1091
+#!reject= 1093
 #!mitm= 806
-#!total= 1897
+#!total= 1899
 
 
 [Rewrite]
@@ -351,6 +351,8 @@
 ^https?:\/\/app\.yinxiang\.com\/ads\/ - reject
 ^https?:\/\/app\.zhoudamozi\.com\/ad\/.+ - reject-200
 ^https?:\/\/app\.zhuanzhuan\.com\/zz\/transfer\/userred\?scene=homePage - reject-dict
+^https?:\/\/app\.zhuanzhuan\.com\/zz\/v2\/zzlogic\/getOpenScreen - reject-dict
+^https?:\/\/app\.zhuanzhuan\.com\/zzopen\/popwindow\/getallpopwin\? - reject-dict
 ^https?:\/\/app\.zhuanzhuan\.com\/zzx\/transfer\/getConfigInfo$ - reject-dict
 ^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg - reject
 ^https?:\/\/appapi\.51job\.com\/api\/market\/(adtrace|get_launch|get_prompt) - reject

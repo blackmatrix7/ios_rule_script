@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-07-03 16:18:35
+desc: 最后更新时间 2024-07-05 02:14:08
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 697
-# mitm: 653
+# reject: 698
+# mitm: 654
 # force-http-engine-hosts: 6
-# total: 1356
+# total: 1358
 
 
 
@@ -400,6 +400,7 @@ http:
     - ^https?:\/\/ftapi\.10jqka\.com\.cn\/futgwapi\/api\/om\/v\d\/ad\/common\/transfer - reject
     - ^https?:\/\/fuss10\.elemecdn\.com\/.+?\.mp4 - reject
     - ^https?:\/\/fuss10\.elemecdn\.com\/.+?\/w\/640\/h\/\d{3,4} - reject
+    - ^https?:\/\/fuwu\.nhsa\.gov\.cn\/ebus\/fuwu\/api\/base\/cms\/iep\/web\/cms\/hmpgcfg\/queryAppHmpgCfgByApp - reject
     - ^https?:\/\/g\.alicdn\.com\/living\/mesh-std-spec - reject
     - ^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery - reject
     - ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\. - reject
@@ -1033,6 +1034,7 @@ http:
     - "fscdn.zto.com"
     - "ftapi.10jqka.com.cn"
     - "fuss10.elemecdn.com"
+    - "fuwu.nhsa.gov.cn"
     - "g.alicdn.com"
     - "g.syshhc.top"
     - "gab.122.gov.cn"

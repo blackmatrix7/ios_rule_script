@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN与DOMAIN--KEYWORD合并-9cf) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) ![](https://shields.io/badge/-QuantumultX定制化规则-7cd1e3) 
 
 Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,18 +12,18 @@ Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-07-04 02:10:46
+最后更新时间：2024-07-05 02:11:10
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 12  | 
+| HOST | 18  | 
 | HOST-KEYWORD | 28  | 
-| HOST-SUFFIX | 5907  | 
+| HOST-SUFFIX | 6352  | 
 | IP-CIDR | 96  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 9  | 
-| TOTAL | 6056  | 
+| TOTAL | 6507  | 
 
 
 ## QuantumultX 

@@ -21,7 +21,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-07-05 02:12:12
+最后更新时间：2024-07-06 02:12:25
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -31,10 +31,10 @@
 | HOST-SUFFIX | 82822  | 
 | HOST-WILDCARD | 1  | 
 | IP-ASN | 1  | 
-| IP-CIDR | 8119  | 
-| IP6-CIDR | 3739  | 
+| IP-CIDR | 8116  | 
+| IP6-CIDR | 4310  | 
 | USER-AGENT | 65  | 
-| TOTAL | 95209  | 
+| TOTAL | 95777  | 
 
 
 ## QuantumultX 
@@ -439,12 +439,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CETV.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SMG.list
 - https://ruleset.isagood.day/alibaba.conf
-- https://ruleset.isagood.day/alibaba_domain.conf
-- https://ruleset.isagood.day/bilibili.conf
-- https://ruleset.isagood.day/icbc.conf
 - https://ruleset.isagood.day/sina.conf
-- https://ruleset.isagood.day/stream_cn.conf
-- https://ruleset.isagood.day/wechat.conf
 - https://raw.githubusercontent.com/missuo/ASN-China/main/IP.China.list
 
 

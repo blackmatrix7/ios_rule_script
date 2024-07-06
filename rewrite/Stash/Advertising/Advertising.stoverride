@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-07-05 02:14:08
+desc: 最后更新时间 2024-07-07 02:13:10
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 698
-# mitm: 654
+# reject: 699
+# mitm: 655
 # force-http-engine-hosts: 6
-# total: 1358
+# total: 1360
 
 
 
@@ -138,6 +138,7 @@ http:
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
     - ^https?:\/\/(api|promo)\.xueqiu\.com\/promotion\/(display_cache|display_ad|feed_display|search_ad) - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
+    - ^https?:\/\/(commontgw|comapi)\.reader\.qq\.com\/(common\/adV|com-ad\/config) - reject
     - ^https?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native - reject
     - ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) - reject
     - ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4}) - reject
@@ -743,6 +744,7 @@ http:
     - "*.ott.cibntv.net"
     - "*.peopleapp.com"
     - "*.qyfxgd.cn"
+    - "*.reader.qq.com"
     - "*.smkj33.top"
     - "*.tipatipa.xyz"
     - "*.tslt.xyz"

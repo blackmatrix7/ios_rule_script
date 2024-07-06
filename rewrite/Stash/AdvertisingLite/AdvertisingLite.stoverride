@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-07-05 02:14:29
+desc: 最后更新时间 2024-07-07 02:13:35
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1093
-# mitm: 806
+# reject: 1094
+# mitm: 807
 # force-http-engine-hosts: 6
-# total: 1905
+# total: 1907
 
 
 
@@ -96,6 +96,7 @@ http:
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
+    - ^https?:\/\/(commontgw|comapi)\.reader\.qq\.com\/(common\/adV|com-ad\/config) - reject
     - ^https?:\/\/(ec|c)api\.lkcoffee\.com\/resource\/m\/eorder\/product\/popAppTagProductList - reject
     - ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) - reject
     - ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/[\w\/.-]+\.jpg_(9\d{2}|\d{4}) - reject
@@ -1119,6 +1120,7 @@ http:
   mitm:
     - "*.beacon.qq.com"
     - "*.ott.cibntv.net"
+    - "*.reader.qq.com"
     - "*.tv.sohu.com"
     - "3g.csair.com"
     - "3gimg.qq.com"

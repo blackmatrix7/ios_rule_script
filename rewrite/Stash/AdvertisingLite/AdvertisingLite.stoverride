@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-07-07 02:13:35
+desc: 最后更新时间 2024-07-08 02:14:11
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1094
-# mitm: 807
+# reject: 1096
+# mitm: 809
 # force-http-engine-hosts: 6
-# total: 1907
+# total: 1911
 
 
 
@@ -40,6 +40,7 @@ http:
     - ^https:\/\/api\.ulife\.group\/market\/frontEntrance\/getThirdAdvertising\?displayPort=1&type=15 - reject
     - ^https:\/\/api\.ulife\.group\/market\/memberCard\/listMemberCard\?isShowSecondaryCard=1 - reject
     - ^https:\/\/api\.ulife\.group\/signintask\/adServing - reject
+    - ^https:\/\/appapi\.caiyicloud\.com\/cyy_gatewayapi\/home\/pub\/v3\/banners\/app_start_page - reject
     - ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
     - ^https:\/\/cdke\.youdao\.com\/course3\/recommend\/dict\/startup - reject
     - ^https:\/\/chat-live\.soulapp\.cn\/live\/planet\/recListV2 - reject
@@ -973,6 +974,7 @@ http:
     - ^https?:\/\/staticlive\.douyucdn\.cn\/.+?\/getStartSend - reject
     - ^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/ - reject
     - ^https?:\/\/staticsns\.cdn\.bcebos\.com\/amis\/.+/banner.png - reject
+    - ^https?:\/\/statistic\.live\.126\.net\/statics\/report\/common\/form - reject
     - ^https?:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad - reject
     - ^https?:\/\/superapp\.xgimi\.com\/api/v1\/app\/ad\/configs\?_sort=createdAt:Adesc - reject
     - ^https?:\/\/support\.you\.163\.com\/appversync\/check.do - reject
@@ -1324,6 +1326,7 @@ http:
     - "app3.qdaily.com"
     - "appactive.1234567.com.cn"
     - "appapi.51job.com"
+    - "appapi.caiyicloud.com"
     - "appapi.huazhu.com"
     - "appconf.mail.163.com"
     - "appdmkj.5idream.net"
@@ -1818,6 +1821,7 @@ http:
     - "static01.versa-ai.com"
     - "staticlive.douyucdn.cn"
     - "staticsns.cdn.bcebos.com"
+    - "statistic.live.126.net"
     - "status.boohee.com"
     - "superapp.xgimi.com"
     - "support.you.163.com"

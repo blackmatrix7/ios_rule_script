@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-07-08 02:14:11
+desc: 最后更新时间 2024-07-09 02:14:29
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1096
-# mitm: 809
+# reject: 1097
+# mitm: 810
 # force-http-engine-hosts: 6
-# total: 1911
+# total: 1913
 
 
 
@@ -460,6 +460,7 @@ http:
     - ^https?:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/ - reject
     - ^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/ - reject
     - ^https?:\/\/cmsfile\.wifi8\.com\/uploads\/png\/ - reject
+    - ^https?:\/\/cmt\.comp\.360os\.com\/adv - reject
     - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn - reject
     - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.cncommunity\.my\.station\.query\.cn - reject
     - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/ - reject
@@ -1407,6 +1408,7 @@ http:
     - "cms.daydaycook.com.cn"
     - "cmsapi.wifi8.com"
     - "cmsfile.wifi8.com"
+    - "cmt.comp.360os.com"
     - "cn-acs.m.cainiao.com"
     - "comicapi.manhuashe.com"
     - "compus.xiaofubao.com"

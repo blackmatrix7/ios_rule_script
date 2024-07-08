@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-07-07 02:13:10
+desc: 最后更新时间 2024-07-09 02:14:08
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 699
-# mitm: 655
+# reject: 700
+# mitm: 656
 # force-http-engine-hosts: 6
-# total: 1360
+# total: 1362
 
 
 
@@ -364,6 +364,7 @@ http:
     - ^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject
     - ^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject
     - ^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/ - reject
+    - ^https?:\/\/cmt\.comp\.360os\.com\/adv - reject
     - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/ - reject
     - ^https?:\/\/comicapi\.manhuashe\.com\/v\d\/(ads\/adstrategys|public\/startupactivity) - reject
     - ^https?:\/\/compus\.xiaofubao\.com\/compus\/advertising - reject
@@ -989,6 +990,7 @@ http:
     - "cloud.189.cn"
     - "cmsapi.dmall.com"
     - "cmsapi.wifi8.com"
+    - "cmt.comp.360os.com"
     - "cn-acs.m.cainiao.com"
     - "coco-com.e.verystar.net"
     - "comic.321mh.com"

@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-07-07 02:13:14
+desc: 最后更新时间 2024-07-09 02:14:12
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 668
-# mitm: 703
+# reject: 669
+# mitm: 704
 # force-http-engine-hosts: 6
-# total: 1416
+# total: 1418
 
 
 
@@ -357,6 +357,7 @@ http:
     - ^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject
     - ^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject
     - ^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/ - reject
+    - ^https?:\/\/cmt\.comp\.360os\.com\/adv - reject
     - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/ - reject
     - ^https?:\/\/comicapi\.manhuashe\.com\/v\d\/(ads\/adstrategys|public\/startupactivity) - reject
     - ^https?:\/\/compus\.xiaofubao\.com\/compus\/advertising - reject
@@ -1159,6 +1160,7 @@ http:
     - "cloud.189.cn"
     - "cmsapi.dmall.com"
     - "cmsapi.wifi8.com"
+    - "cmt.comp.360os.com"
     - "cn-acs.m.cainiao.com"
     - "cn.ultraiso.net"
     - "coco-com.e.verystar.net"

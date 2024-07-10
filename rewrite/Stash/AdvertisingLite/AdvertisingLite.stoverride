@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-07-09 02:14:29
+desc: 最后更新时间 2024-07-11 02:14:47
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1097
-# mitm: 810
+# reject: 1100
+# mitm: 811
 # force-http-engine-hosts: 6
-# total: 1913
+# total: 1917
 
 
 
@@ -1022,6 +1022,9 @@ http:
     - ^https?:\/\/video\.dispatch\.tc\.qq\.com\/\w+\.p20\d\.1\.mp4 - reject
     - ^https?:\/\/vidz\.3hxq\.cn\/api\/app\/(miscs\/mine\/extensions|announcements\/home) - reject
     - ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
+    - ^https?:\/\/waimai-guide\.ele\.me\/\w+\/mtop\.alsc\.eleme\.\w+\.trigger\.respond - reject
+    - ^https?:\/\/waimai-guide\.ele\.me\/\w+\/mtop\.alsc\.wamai\.store\.detail\.miniapp\.popup - reject
+    - ^https?:\/\/waimai-guide\.ele\.me\/\w+\/mtop\.venus\.shopcouponpopupservice\.getshopcouponspopup - reject
     - ^https?:\/\/wallet\.lakala\.com\/m\/a\/message\/v3\/fetchMsgList - reject
     - ^https?:\/\/wallet\.lakala\.com\/m\/lama\/mgt\/activity\/bank\/query\/list - reject
     - ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/dateSignature\/random - reject
@@ -1866,6 +1869,7 @@ http:
     - "vidz.3hxq.cn"
     - "vip7.fzwdyy.cn"
     - "vv.video.qq.com"
+    - "waimai-guide.ele.me"
     - "wallet.lakala.com"
     - "wallpaper.soutushenqi.com"
     - "wanciwangdata.oss-cn-beijing.aliyuncs.com"

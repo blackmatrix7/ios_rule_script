@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-07-11 02:14:47
+desc: 最后更新时间 2024-07-12 02:14:51
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1100
-# mitm: 811
+# reject: 1101
+# mitm: 812
 # force-http-engine-hosts: 6
-# total: 1917
+# total: 1919
 
 
 
@@ -67,6 +67,7 @@ http:
     - ^https:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/bdfb4 - reject
     - ^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getPopAdData - reject
     - ^https:\/\/mobile-api\.imlaidian\.com\/api\/args - reject
+    - ^https:\/\/mobileapi\.xiamenair\.com\/mobile-starter - reject
     - ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ - reject
     - ^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.(jpg|png)\?imageMogr2\/thumbnail\/(860x0|!165x165|!1049x1169) - reject
     - ^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.jpg\?imageMogr2\/quality\/ - reject
@@ -1671,6 +1672,7 @@ http:
     - "mobile.cebbank.com"
     - "mobile.laichon.com"
     - "mobileapi-v6.elong.com"
+    - "mobileapi.xiamenair.com"
     - "mobileso.bz.mgtv.com"
     - "mp.weixin.qq.com"
     - "mpcs.suning.com"

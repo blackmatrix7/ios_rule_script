@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-07-09 02:14:12
+desc: 最后更新时间 2024-07-13 02:14:17
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 669
-# mitm: 704
+# reject: 671
+# mitm: 705
 # force-http-engine-hosts: 6
-# total: 1418
+# total: 1421
 
 
 
@@ -157,6 +157,7 @@ http:
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show - reject
     - ^https?:\/\/ad\.cj\.sina\.cn\/(osa\/adpreload|fax\/impress) - reject
     - ^https?:\/\/ad\.lofter\.com\/.*yitou\/madr - reject
+    - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi - reject
     - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$ - reject
     - ^https?:\/\/adapi\.izuiyou\.com\/ - reject
     - ^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend - reject
@@ -607,6 +608,7 @@ http:
     - ^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
     - ^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/ - reject
+    - ^https?:\/\/smsrebuild1\.mail\.10086\.cn\/together\/s - reject
     - ^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull? - reject
     - ^https?:\/\/sp\.kaola\.com\/api\/openad - reject
     - ^https?:\/\/spclient\.wg\.spotify\.com\/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+promoted_offer) - reject
@@ -1435,6 +1437,7 @@ http:
     - "shopic.sf-express.com"
     - "smarket.dian.so"
     - "smkmp.96225.com"
+    - "smsrebuild1.mail.10086.cn"
     - "sns.amap.com"
     - "sp.kaola.com"
     - "spclient.wg.spotify.com"

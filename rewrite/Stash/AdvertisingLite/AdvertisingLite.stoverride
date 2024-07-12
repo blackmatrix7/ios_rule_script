@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-07-12 02:14:51
+desc: 最后更新时间 2024-07-13 02:14:35
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1101
-# mitm: 812
+# reject: 1103
+# mitm: 813
 # force-http-engine-hosts: 6
-# total: 1919
+# total: 1922
 
 
 
@@ -141,6 +141,7 @@ http:
     - ^https?:\/\/ad\.cj\.sina\.cn\/(osa\/adpreload|fax\/impress) - reject
     - ^https?:\/\/ad\.life\.360\.cn\/v2\/app\/advertisement\/config\?sdk_ver= - reject
     - ^https?:\/\/ad\.lofter\.com\/.*yitou\/madr - reject
+    - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi - reject
     - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$ - reject
     - ^https?:\/\/ad\.shunchangzhixing\.com\/getAd - reject
     - ^https?:\/\/ad\.ysepay\.com\/yst-ad\/ST101001\/[0-9]{11}\.jpg - reject
@@ -946,6 +947,7 @@ http:
     - ^https?:\/\/sichuan\.95504\.net\/v\d\/gd\/index\/get - reject
     - ^https?:\/\/smart\.789\.image\.mucang\.cn\/advert - reject
     - ^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/ - reject
+    - ^https?:\/\/smsrebuild1\.mail\.10086\.cn\/together\/s - reject
     - ^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull? - reject
     - ^https?:\/\/social\.blued\.cn\/users\/no_auth\/benefit - reject
     - ^https?:\/\/social\.blued\.cn\/users\/recommend - reject
@@ -1803,6 +1805,7 @@ http:
     - "smarket.dian.so"
     - "smart.789.image.mucang.cn"
     - "smkmp.96225.com"
+    - "smsrebuild1.mail.10086.cn"
     - "sns.amap.com"
     - "social.blued.cn"
     - "sp.kaola.com"

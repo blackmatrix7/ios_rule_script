@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2024-07-13 02:14:35
+#!desc= 最后更新时间 2024-07-14 02:13:38
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 1103
+#!reject= 1102
 #!mitm= 813
-#!total= 1916
+#!total= 1915
 
 
 [Rewrite]
@@ -740,8 +740,7 @@
 ^https?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/bookshelf\/getTopOperation - reject-dict
 ^https?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/followsubscribe - reject-dict
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject
-^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/getAd\?ad_id - reject-dict
-^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/getHomeAdPop - reject-dict
+^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/getHomeAdPop - reject
 ^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info - reject-dict
 ^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/splash - reject-dict
 ^https?:\/\/mama\.dxy\.com\/api\/cms\/client\/popup-window\/list - reject-200

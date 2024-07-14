@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-07-13 02:14:13
+desc: 最后更新时间 2024-07-15 02:19:23
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 702
-# mitm: 657
+# reject: 703
+# mitm: 658
 # force-http-engine-hosts: 6
-# total: 1365
+# total: 1367
 
 
 
@@ -250,6 +250,7 @@ http:
     - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start - reject
     - ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
     - ^https?:\/\/api\.mcd\.cn\/bff\/portal\/(richpop|home\/splash) - reject
+    - ^https?:\/\/api\.medlive\.cn\/promotion-api/adlist - reject
     - ^https?:\/\/api\.merach\.com\/app\/AppAdvertisingController\/getAdvert - reject
     - ^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
     - ^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
@@ -871,6 +872,7 @@ http:
     - "api.m.mi.com"
     - "api.maoyan.com"
     - "api.mcd.cn"
+    - "api.medlive.cn"
     - "api.merach.com"
     - "api.mgzf.com"
     - "api.mwee.cn"

@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-07-14 02:13:38
+desc: 最后更新时间 2024-07-15 02:19:46
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1102
-# mitm: 813
+# reject: 1103
+# mitm: 814
 # force-http-engine-hosts: 6
-# total: 1921
+# total: 1923
 
 
 
@@ -264,6 +264,7 @@ http:
     - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=home_launchConfig - reject
     - ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
     - ^https?:\/\/api\.mcd\.cn\/bff\/portal\/(richpop|home\/splash) - reject
+    - ^https?:\/\/api\.medlive\.cn\/promotion-api/adlist - reject
     - ^https?:\/\/api\.merach\.com\/app\/AppAdvertisingController\/getAdvert - reject
     - ^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
     - ^https?:\/\/api\.ncarzone\.com\/superapi\/canary\/appHomeFacade\/getNewUserPlateActivity - reject
@@ -1245,6 +1246,7 @@ http:
     - "api.m.jd.com"
     - "api.m.mi.com"
     - "api.mcd.cn"
+    - "api.medlive.cn"
     - "api.merach.com"
     - "api.mgzf.com"
     - "api.ncarzone.com"

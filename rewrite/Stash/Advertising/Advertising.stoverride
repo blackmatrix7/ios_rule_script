@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-07-20 02:14:18
+desc: 最后更新时间 2024-07-21 02:14:37
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 704
-# mitm: 660
+# reject: 705
+# mitm: 661
 # force-http-engine-hosts: 6
-# total: 1370
+# total: 1372
 
 
 
@@ -482,6 +482,7 @@ http:
     - ^https?:\/\/lchttpapi\.xczim\.com\/1\.1\/functions\/getLaunchImageForIOS - reject
     - ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? - reject
     - ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml - reject
+    - ^https?:\/\/m-adphone\.wenhua\.com\.cn\/ - reject
     - ^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ - reject
     - ^https?:\/\/m\.ads\.8le8le\.com\/adShow - reject
     - ^https?:\/\/m\.caijing\.com\.cn\/startup_ad_ios\.html$ - reject
@@ -1138,6 +1139,7 @@ http:
     - "list-app-m.i4.cn"
     - "lysl2020.com"
     - "m*.amap.com"
+    - "m-adphone.wenhua.com.cn"
     - "m.ads.8le8le.com"
     - "m.caijing.com.cn"
     - "m.client.10010.com"

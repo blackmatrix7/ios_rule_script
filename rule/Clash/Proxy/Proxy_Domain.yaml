@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:07
+# UPDATED: 2024-07-22 02:10:28
 # DOMAIN: 12
 # DOMAIN-KEYWORD: 28
-# DOMAIN-SUFFIX: 5907
+# DOMAIN-SUFFIX: 5909
 # IP-CIDR: 96
 # IP-CIDR6: 4
-# TOTAL: 6047
+# TOTAL: 6049
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
@@ -640,6 +640,7 @@ payload:
   - '+.blubrry.com'
   - '+.blueangellive.com'
   - '+.bmfinn.com'
+  - '+.bnbstatic.com'
   - '+.bnews.co'
   - '+.bnext.com.tw'
   - '+.bnn.co'
@@ -3810,6 +3811,7 @@ payload:
   - '+.perfect-privacy.com'
   - '+.perfectgirls.net'
   - '+.periscope.tv'
+  - '+.perplexity.ai'
   - '+.persecutionblog.com'
   - '+.persiankitty.com'
   - '+.phapluan.org'

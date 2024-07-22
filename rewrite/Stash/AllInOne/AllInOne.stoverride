@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-07-21 02:14:41
+desc: 最后更新时间 2024-07-23 02:14:37
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 673
-# mitm: 708
+# reject: 674
+# mitm: 709
 # force-http-engine-hosts: 6
-# total: 1426
+# total: 1428
 
 
 
@@ -426,6 +426,7 @@ http:
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/(banner|myTab|openingBanner) - reject
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner - reject
     - ^https?:\/\/homefront\.qunar\.com\/front\/splash\/ad - reject
+    - ^https?:\/\/hxqapi\.hiyun\.tv\/api\/notification\/plans - reject
     - ^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+?_\d{3}x\d{4} - reject
     - ^https?:\/\/i\.ys7\.com\/api\/ads - reject
     - ^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\/\d+\/\d+\/BbsImg\.(?<=(big.(png|jpg)))$ - reject
@@ -1255,6 +1256,7 @@ http:
     - "homefront.qunar.com"
     - "htwkop.xiaojukeji.com"
     - "hwimg.beingfine.cn"
+    - "hxqapi.hiyun.tv"
     - "hypersnap.mairuan.com"
     - "i*.hoopchina.com.cn"
     - "i.ys7.com"

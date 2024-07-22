@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-07-21 02:14:37
+desc: 最后更新时间 2024-07-23 02:14:33
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 705
-# mitm: 661
+# reject: 706
+# mitm: 662
 # force-http-engine-hosts: 6
-# total: 1372
+# total: 1374
 
 
 
@@ -435,6 +435,7 @@ http:
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/(banner|myTab|openingBanner) - reject
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner - reject
     - ^https?:\/\/homefront\.qunar\.com\/front\/splash\/ad - reject
+    - ^https?:\/\/hxqapi\.hiyun\.tv\/api\/notification\/plans - reject
     - ^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+?_\d{3}x\d{4} - reject
     - ^https?:\/\/i\.ys7\.com\/api\/ads - reject
     - ^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\/\d+\/\d+\/BbsImg\.(?<=(big.(png|jpg)))$ - reject
@@ -1090,6 +1091,7 @@ http:
     - "htwkop.xiaojukeji.com"
     - "huami.com"
     - "hwimg.beingfine.cn"
+    - "hxqapi.hiyun.tv"
     - "i*.hoopchina.com.cn"
     - "i.ys7.com"
     - "iadmusicmat.music.126.net"

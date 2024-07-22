@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-07-21 02:14:59
+desc: 最后更新时间 2024-07-23 02:14:55
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1104
-# mitm: 815
+# reject: 1105
+# mitm: 816
 # force-http-engine-hosts: 6
-# total: 1925
+# total: 1927
 
 
 
@@ -606,6 +606,7 @@ http:
     - ^https?:\/\/httpdns.n\.netease\.com - reject
     - ^https?:\/\/httpdns\.music\.163\.com - reject
     - ^https?:\/\/hui\.sohu\.com\/predownload2\/? - reject
+    - ^https?:\/\/hxqapi\.hiyun\.tv\/api\/notification\/plans - reject
     - ^https?:\/\/hz\.yxzq\.com\/news-configserver\/api\/v1\/query\/banner_advertisement - reject
     - ^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+?_\d{3}x\d{4} - reject
     - ^https?:\/\/i9\.taou\.com\/maimai\/p\/[0-9]{5}\/[0-9]{3,4}_[0-9]{3}_[a-zA-Z0-9]{16}$ - reject
@@ -1535,6 +1536,7 @@ http:
     - "httpdns.music.163.com"
     - "httpdns.n.netease.com"
     - "hui.sohu.com"
+    - "hxqapi.hiyun.tv"
     - "hz.yxzq.com"
     - "i*.hdslb.com"
     - "i*.hoopchina.com.cn"

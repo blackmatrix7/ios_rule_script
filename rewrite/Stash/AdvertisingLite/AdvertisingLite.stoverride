@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-07-15 02:19:46
+desc: 最后更新时间 2024-07-21 02:14:59
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1103
-# mitm: 814
+# reject: 1104
+# mitm: 815
 # force-http-engine-hosts: 6
-# total: 1923
+# total: 1925
 
 
 
@@ -707,6 +707,7 @@ http:
     - ^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom= - reject
     - ^https?:\/\/lofter\.lf127\.net\/ad\-material - reject
     - ^https?:\/\/luckman\.suning\.com\/luck-web\/policy\/v\d\/msf\/index\.do - reject
+    - ^https?:\/\/m-adphone\.wenhua\.com\.cn\/ - reject
     - ^https?:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3} - reject
     - ^https?:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? - reject
     - ^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ - reject
@@ -1608,6 +1609,7 @@ http:
     - "lofter.lf127.net"
     - "luckman.suning.com"
     - "m*.amap.com"
+    - "m-adphone.wenhua.com.cn"
     - "m.360buyimg.com"
     - "m.ads.8le8le.com"
     - "m.aty.sohu.com"

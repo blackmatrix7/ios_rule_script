@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-07-23 02:14:55
+desc: 最后更新时间 2024-07-25 02:15:52
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1105
-# mitm: 816
+# reject: 1107
+# mitm: 818
 # force-http-engine-hosts: 6
-# total: 1927
+# total: 1931
 
 
 
@@ -478,6 +478,7 @@ http:
     - ^https?:\/\/compus\.xiaofubao\.com\/compus\/advertising\/getStartupAdvertising - reject
     - ^https?:\/\/conf-darwin\.xycdn\.com - reject
     - ^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ - reject
+    - ^https?:\/\/cq11344-app-https-api-1\.ictun\.com:443\/api\/app\/v\d\/appad - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.cn\/mappweb_interface\/common\/(qryPopAds|qryLaunchAds)\.do - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do - reject
     - ^https?:\/\/cstore-en-public-tx\.seewo\.com\/easinote5_public - reject
@@ -764,6 +765,7 @@ http:
     - ^https?:\/\/mapi\.sichuanair\.com\/zt\/tribeport\/encrypt_translate_key - reject
     - ^https?:\/\/mapi\.txcmapp\.com\/api\/open\/atx2\/ad\.php - reject
     - ^https?:\/\/mapiweb\.babytree\.com\/newapi\/luban\/behavior\/receive - reject
+    - ^https?:\/\/mbank5\.jsbchina\.cn:443 - reject
     - ^https?:\/\/mbank\.grcbank\.com\/ydyh\/resources\/startpage\/.*.(jpg|png) - reject
     - ^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?appname=baidu_input - reject
     - ^https?:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
@@ -1423,6 +1425,7 @@ http:
     - "compus.xiaofubao.com"
     - "conf-darwin.xycdn.com"
     - "cover.baidu.com"
+    - "cq11344-app-https-api-1.ictun.com"
     - "creditcardapp.bankcomm.cn"
     - "creditcardapp.bankcomm.com"
     - "cstore-en-public-tx.seewo.com"
@@ -1646,6 +1649,7 @@ http:
     - "mapi.txcmapp.com"
     - "mapiweb.babytree.com"
     - "mbank.grcbank.com"
+    - "mbank5.jsbchina.cn"
     - "mbasecc.bas.cmbchina.com"
     - "mbd.baidu.com"
     - "mbmodule-openapi.paas.cmbchina.com"

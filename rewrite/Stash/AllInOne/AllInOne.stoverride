@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-07-23 02:14:37
+desc: 最后更新时间 2024-07-25 02:15:34
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 674
-# mitm: 709
+# reject: 675
+# mitm: 710
 # force-http-engine-hosts: 6
-# total: 1428
+# total: 1430
 
 
 
@@ -363,6 +363,7 @@ http:
     - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/ - reject
     - ^https?:\/\/comicapi\.manhuashe\.com\/v\d\/(ads\/adstrategys|public\/startupactivity) - reject
     - ^https?:\/\/compus\.xiaofubao\.com\/compus\/advertising - reject
+    - ^https?:\/\/cq11344-app-https-api-1\.ictun\.com:443\/api\/app\/v\d\/appad - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.cn\/mappweb_interface\/common\/(qryPopAds|qryLaunchAds)\.do - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$ - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do - reject
@@ -1176,6 +1177,7 @@ http:
     - "common.diditaxi.com.cn"
     - "compus.xiaofubao.com"
     - "conf.diditaxi.com.cn"
+    - "cq11344-app-https-api-1.ictun.com"
     - "creditcardapp.bankcomm.cn"
     - "creditcardapp.bankcomm.com"
     - "ct.xiaojukeji.com"

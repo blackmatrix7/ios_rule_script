@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-07-25 02:15:52
+desc: 最后更新时间 2024-07-27 02:15:18
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1107
-# mitm: 818
+# reject: 1109
+# mitm: 820
 # force-http-engine-hosts: 6
-# total: 1931
+# total: 1935
 
 
 
@@ -267,6 +267,7 @@ http:
     - ^https?:\/\/api\.medlive\.cn\/promotion-api/adlist - reject
     - ^https?:\/\/api\.merach\.com\/app\/AppAdvertisingController\/getAdvert - reject
     - ^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
+    - ^https?:\/\/api\.moomoo\.com(\/v\d)?\/ad - reject
     - ^https?:\/\/api\.ncarzone\.com\/superapi\/canary\/appHomeFacade\/getNewUserPlateActivity - reject
     - ^https?:\/\/api\.ncarzone\.com\/superapi\/canary\/popupDialogFacade\/popupDialogList - reject
     - ^https?:\/\/api\.nj\.nbtv\.cn\/v2\/advertise\/advertise-r1\/get-list\?data=u8obKDIrIWt2NR9wBuMwQ5O61eEsP - reject
@@ -303,6 +304,7 @@ http:
     - ^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/version\/version\/check - reject
     - ^https?:\/\/api\.yizhibo\.com\/common\/api\/(api_)?pz$ - reject
     - ^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd - reject
+    - ^https?:\/\/api\.ys7\.com.*\/getAdvertising - reject
     - ^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
     - ^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject
     - ^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated - reject
@@ -1253,6 +1255,7 @@ http:
     - "api.medlive.cn"
     - "api.merach.com"
     - "api.mgzf.com"
+    - "api.moomoo.com"
     - "api.ncarzone.com"
     - "api.nj.nbtv.cn"
     - "api.petkit.cn"
@@ -1287,6 +1290,7 @@ http:
     - "api.yikaobang.com.cn"
     - "api.yizhibo.com"
     - "api.yonghuivip.com"
+    - "api.ys7.com"
     - "api.zhuishushenqi.com"
     - "api1.34580.com"
     - "api2.helper.qq.com"

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-07-30 02:15:51
+desc: 最后更新时间 2024-07-31 02:14:47
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 709
-# mitm: 665
+# reject: 710
+# mitm: 666
 # force-http-engine-hosts: 6
-# total: 1380
+# total: 1382
 
 
 
@@ -701,6 +701,7 @@ http:
     - ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
+    - ^https?:\/\/www\.xqpark\.cn\/xqParkApp\/resource\/getResource - reject
     - ^https?:\/\/www\.zjyilin\.com\/hykweb\/\/index\/openImg - reject
     - ^https?:\/\/www\.zybang\.com\/adx\/ - reject
     - ^https?:\/\/xapi\.xinmanhua\.net\/splashgroups\?include=splashs - reject
@@ -1371,6 +1372,7 @@ http:
     - "www.pansearch.me"
     - "www.shihuo.cn"
     - "www.xiaohongshu.com"
+    - "www.xqpark.cn"
     - "www.zjyilin.com"
     - "www.zybang.com"
     - "www1.elecfans.com"

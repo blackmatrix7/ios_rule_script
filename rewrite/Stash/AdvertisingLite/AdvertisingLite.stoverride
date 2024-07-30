@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-07-27 02:15:18
+desc: 最后更新时间 2024-07-31 02:15:09
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1109
-# mitm: 820
+# reject: 1110
+# mitm: 821
 # force-http-engine-hosts: 6
-# total: 1935
+# total: 1937
 
 
 
@@ -1083,6 +1083,7 @@ http:
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
     - ^https?:\/\/www\.xiaoxiongmeishu\.com\/api\/home\/v1\/config\/appInit\?uid=588888763519696896 - reject
+    - ^https?:\/\/www\.xqpark\.cn\/xqParkApp\/resource\/getResource - reject
     - ^https?:\/\/www\.zjyilin\.com\/hykweb\/\/index\/openImg - reject
     - ^https?:\/\/wx\.17u\.cn\/crapi\/query\/getAdImgUrlByCode - reject
     - ^https?:\/\/wx\.17u\.cn\/xcxhomeapi\/((aggregator\/index)|(home\/(screen|banner|converge)))$ - reject
@@ -1924,6 +1925,7 @@ http:
     - "www.tsytv.com.cn"
     - "www.xiaohongshu.com"
     - "www.xiaoxiongmeishu.com"
+    - "www.xqpark.cn"
     - "www.ymm56.com"
     - "www.zjyilin.com"
     - "www1.elecfans.com"

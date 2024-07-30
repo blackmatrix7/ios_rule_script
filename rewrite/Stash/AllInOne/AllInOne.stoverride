@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-07-30 02:15:55
+desc: 最后更新时间 2024-07-31 02:14:51
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 677
-# mitm: 712
+# reject: 678
+# mitm: 713
 # force-http-engine-hosts: 6
-# total: 1434
+# total: 1436
 
 
 
@@ -687,6 +687,7 @@ http:
     - ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
+    - ^https?:\/\/www\.xqpark\.cn\/xqParkApp\/resource\/getResource - reject
     - ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/search\/related_queries\/answer - reject
     - ^https?:\/\/www\.zjyilin\.com\/hykweb\/\/index\/openImg - reject
     - ^https?:\/\/www\.zybang\.com\/adx\/ - reject
@@ -1583,6 +1584,7 @@ http:
     - "www.suning.com"
     - "www.xiaohongshu.com"
     - "www.xitongqingli.com"
+    - "www.xqpark.cn"
     - "www.xshellcn.com"
     - "www.yhd.com"
     - "www.yuanchengxiezuo.com"

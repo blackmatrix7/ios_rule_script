@@ -12,7 +12,7 @@ Telegram规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-07-07 02:10:12
+最后更新时间：2024-07-31 02:11:31
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -23,8 +23,8 @@ Telegram规则由《RULE GENERATOR 规则生成器》自动生成。
 | IP-ASN | 5  | 
 | IP-CIDR | 4  | 
 | IP-CIDR6 | 4  | 
-| PROCESS-NAME | 4  | 
-| TOTAL | 42  | 
+| PROCESS-NAME | 5  | 
+| TOTAL | 43  | 
 
 
 ## Clash 

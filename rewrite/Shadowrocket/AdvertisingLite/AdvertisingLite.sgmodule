@@ -1,5 +1,5 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-08-02 02:15:10
+#!desc=最后更新时间 2024-08-05 02:14:19
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!reject=1111
@@ -79,7 +79,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 ^https:\/\/www\.ymm56\.com\/short-distance-match-app\/openAppAd - reject-dict
 ^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad - reject-dict
 ^https:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/activity\/show - reject
-^https:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/agent_ad - reject-dict
+^https:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/agent_ad - reject
 ^https:\/\/zlsdk\.1rtb\.net\/sdk\/req_ad\?sdk_version=\d+\.\d+\.\d+\.\d+&device_os=iOS&accept_ad_type=\d+&app_id=\d+&pid=\d+&sdk_version_code=\d+ - reject-dict
 ^https?://advertise\.bczeducation\.cn\/rpc\/advertise - reject-200
 ^https?://api-mifit-cn2\.zepp\.com/discovery/mi/cards/(startpage_ad|homepage_ad)\? - reject

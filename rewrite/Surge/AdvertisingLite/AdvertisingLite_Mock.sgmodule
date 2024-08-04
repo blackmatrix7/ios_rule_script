@@ -1,5 +1,5 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-08-02 02:15:10
+#!desc=最后更新时间 2024-08-05 02:14:18
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
@@ -23,6 +23,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https:\/\/img01\.51jobcdn\.com\/im\/mkt/(?:tg/((19|20)\d{2})banner/(?!jcgz2/)|\d{4}/bd/\d{4}/).*\.jpg" - reject
 "^https:\/\/mobileapi\.xiamenair\.com\/mobile-starter" - reject
 "^https:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/activity\/show" - reject
+"^https:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/agent_ad" - reject
 "^https?://api-mifit-cn2\.zepp\.com/discovery/mi/cards/(startpage_ad|homepage_ad)\?" - reject
 "^https?://magev6.if.qidian.com/argus/api/v1/client/iosad" - reject
 "^https?://newclient\.map\.baidu\.com/client/crossmarketing" - reject
@@ -525,7 +526,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https:\/\/www\.ymm56\.com\/short-distance-match-app\/openAppAd" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/agent_ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https:\/\/zlsdk\.1rtb\.net\/sdk\/req_ad\?sdk_version=\d+\.\d+\.\d+\.\d+&device_os=iOS&accept_ad_type=\d+&app_id=\d+&pid=\d+&sdk_version_code=\d+" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?://advertise\.bczeducation\.cn\/rpc\/advertise" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?://bk\.bingo\.qq\.com/bk/crx/data/videoAd.*$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"

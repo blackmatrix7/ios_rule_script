@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-08-02 02:14:48
+desc: 最后更新时间 2024-08-07 02:15:42
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 710
-# mitm: 666
+# reject: 711
+# mitm: 667
 # force-http-engine-hosts: 6
-# total: 1382
+# total: 1384
 
 
 
@@ -239,6 +239,7 @@ http:
     - ^https?:\/\/api\.huomao\.com\/channels\/loginAd - reject
     - ^https?:\/\/api\.internetofcity\.cn\/api\/resource\/anon\/popups\/getSplashList - reject
     - ^https?:\/\/api\.intsig\.net\/user\/cs\/operating\/app\/get_startpic\/ - reject
+    - ^https?:\/\/api\.ireader\.mobi\/activity\/ad\/openScreen - reject
     - ^https?:\/\/api\.izuiyou\.com\/ad\/ - reject
     - ^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen - reject
     - ^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/ - reject
@@ -869,6 +870,7 @@ http:
     - "api.huomao.com"
     - "api.internetofcity.cn"
     - "api.intsig.net"
+    - "api.ireader.mobi"
     - "api.izuiyou.com"
     - "api.jk.cn"
     - "api.jr.mi.com"

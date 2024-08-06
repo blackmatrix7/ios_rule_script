@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-08-02 02:15:10
+desc: 最后更新时间 2024-08-07 02:16:05
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1111
-# mitm: 821
+# reject: 1138
+# mitm: 836
 # force-http-engine-hosts: 6
-# total: 1938
+# total: 1980
 
 
 
@@ -250,6 +250,7 @@ http:
     - ^https?:\/\/api\.huomao\.com\/channels\/loginAd - reject
     - ^https?:\/\/api\.indeedpower\.com\/v1\/m\/edu\/module\/homepage_banner\/\?randomStr - reject
     - ^https?:\/\/api\.internetofcity\.cn\/api\/resource\/anon\/popups\/getSplashList - reject
+    - ^https?:\/\/api\.ireader\.mobi\/activity\/ad\/openScreen - reject
     - ^https?:\/\/api\.izuiyou\.com\/ad\/ - reject
     - ^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen - reject
     - ^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/ - reject
@@ -1100,6 +1101,7 @@ http:
     - ^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg - reject
     - ^https?:\/\/ytmsout\.radio\.cn\/publish\/recScreen\/getLoadPage - reject
     - ^https?:\/\/yun\.tuitiger\.com\/mami-media - reject
+    - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=(A3341A002|A3341A009) - reject
     - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A002 - reject
     - ^https?:\/\/yxyapi2\.yuxueyuan\.cn\/yxy-api-gateway\/api\/json\/advert\/getsAdStartScreen - reject
     - ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
@@ -1122,6 +1124,31 @@ http:
     - https://ci.xiaohongshu.com/system_config/watermark - reject
     - https://dynamicad.kfc.com.cn/api/app5/homepage/ai/popup - reject
     - https://mgesq.api.mgtv.com/v2/user/center/icon - reject
+    - https:\/\/a\.line\.me\/er\/l.*\/v\d\/event\/image - reject
+    - https:\/\/a\.line\.me\/er\/lads\/v\d\/ei\? - reject
+    - https:\/\/a\.line\.me\/lass\/api\/v\d\/ads$ - reject
+    - https:\/\/a\.line\.me\/oa\/v\d\/e$ - reject
+    - https:\/\/ad\.line-scdn\.net\/0h.+\/(o|m)\d+x\d+$ - reject
+    - https:\/\/buy\.line\.me\/api\/graphql\?variables - reject
+    - https:\/\/cix\.line-apps\.com\/R4\? - reject
+    - https:\/\/crs-event\.line\.me\/v\d\/imp - reject
+    - https:\/\/d\.line-scdn\.net\/lcp-prod-photo\/20.+\.(jpg|jpeg|png) - reject
+    - https:\/\/gw\.line\.naver\.jp\/ext\/lgfp\/lad\/v1$ - reject
+    - https:\/\/gw\.line\.naver\.jp\/lass\/api\/v1\/ads$ - reject
+    - https:\/\/gw\.line\.naver\.jp\/tr\/event$ - reject
+    - https:\/\/legy\.line-apps\.com\/ext\/lgfp\/lad\/v1$ - reject
+    - https:\/\/legy\.line-apps\.com\/ext\/smartch\/banner\/sch\/v1$ - reject
+    - https:\/\/legy\.line-apps\.com\/tr\/event$ - reject
+    - https:\/\/nelo2-col\.linecorp\.com\/_store$ - reject
+    - https:\/\/obs\.line-scdn\.net\/0h.+\/\d+p\.mp4$ - reject
+    - https:\/\/obs\.line-scdn\.net\/0hGH\d - reject
+    - https:\/\/obs\.line-scdn\.net\/r\/linecrs\/.+\/m180x180$ - reject
+    - https:\/\/scdn\.line-apps\.com\/appresources\/moretab\/list\.json - reject
+    - https:\/\/scdn\.line-apps\.com\/lan\/document\/pageEvent\/line\/ios\/ - reject
+    - https:\/\/scdn\.line-apps\.com\/lan\/image\/line\/bannerImageEvent\/ - reject
+    - https:\/\/static\.line-scdn\.net\/ad-sdk\/ - reject
+    - https:\/\/uts-front\.line-apps\.com\/event$ - reject
+    - https:\/\/w\.line\.me\/adp\/api\/ad\/v\d\/ - reject
     - https?:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? - reject
     - https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert\/skin) - reject
 
@@ -1144,6 +1171,7 @@ http:
     - "4gimg.map.qq.com"
     - "789.kakamobi.cn"
     - "a-z*.rsscc.com"
+    - "a.line.me"
     - "a.qiumibao.com"
     - "a.sinopecsales.com"
     - "aag.enmonster.com"
@@ -1155,6 +1183,7 @@ http:
     - "activity2.api.ofo.com"
     - "ad.cj.sina.cn"
     - "ad.life.360.cn"
+    - "ad.line-scdn.net"
     - "ad.lofter.com"
     - "ad.mcloud.139.com"
     - "ad.myfriday.cn"
@@ -1243,6 +1272,7 @@ http:
     - "api.huomao.com"
     - "api.indeedpower.com"
     - "api.internetofcity.cn"
+    - "api.ireader.mobi"
     - "api.izuiyou.com"
     - "api.jr.mi.com"
     - "api.jxedt.com"
@@ -1379,6 +1409,7 @@ http:
     - "bp-image.bestv.com.cn"
     - "btrace.qq.com"
     - "business.msstatic.com"
+    - "buy.line.me"
     - "c.m.163.com"
     - "c.tieba.baidu.com"
     - "c.zhangle.com"
@@ -1414,6 +1445,7 @@ http:
     - "cheyouapi.ycapp.yiche.com"
     - "chl.tf.cn"
     - "ci.xiaohongshu.com"
+    - "cix.line-apps.com"
     - "client-api-v2.oray.com"
     - "client-api.oray.com"
     - "client.app.coc.10086.cn"
@@ -1434,10 +1466,12 @@ http:
     - "cq11344-app-https-api-1.ictun.com"
     - "creditcardapp.bankcomm.cn"
     - "creditcardapp.bankcomm.com"
+    - "crs-event.line.me"
     - "cstore-en-public-tx.seewo.com"
     - "ct.xiaojukeji.com"
     - "cube.elemecdn.com"
     - "cupid.51job.com"
+    - "d.line-scdn.net"
     - "daijia.kuaidadi.com"
     - "damang.api.mgtv.com"
     - "daoyu.sdo.com"
@@ -1528,6 +1562,7 @@ http:
     - "gw.chuangkit.com"
     - "gw.csdn.net"
     - "gw.kaola.com"
+    - "gw.line.naver.jp"
     - "gx.10086.cn"
     - "h5api.sginput.qq.com"
     - "h5app.kuwo.cn"
@@ -1611,6 +1646,7 @@ http:
     - "lban.spdb.com.cn"
     - "lchttpapi.xczim.com"
     - "learn.chaoxing.com"
+    - "legy.line-apps.com"
     - "lens.leoao.com"
     - "lf-cdn-tos.bytescm.com"
     - "list-app-m.i4.cn"
@@ -1703,6 +1739,7 @@ http:
     - "msg.umengcloud.com"
     - "mxsa.mxbc.net"
     - "ndstatic.cdn.bcebos.com"
+    - "nelo2-col.linecorp.com"
     - "new-app-api.ylyk.com"
     - "newapp2.szsmk.com"
     - "newclient.map.baidu.com"
@@ -1711,6 +1748,7 @@ http:
     - "nnapp.cloudbae.cn"
     - "notch.qdaily.com"
     - "notify.baicizhan.com"
+    - "obs.line-scdn.net"
     - "ocean.shuqireader.com"
     - "ocrifs.ejoy.sinopec.com"
     - "oimage*.ydstatic.com"
@@ -1801,6 +1839,7 @@ http:
     - "s3plus.meituan.net"
     - "sa*.tuisong.baidu.com"
     - "saad.ms.zhangyue.net"
+    - "scdn.line-apps.com"
     - "sdk.alibaba.com.ailbaba.me"
     - "sdk1xyajs.data.kuiniuca.com"
     - "service.4gtv.tv"
@@ -1839,6 +1878,7 @@ http:
     - "static.api.m.panda.tv"
     - "static.creditcard.hxb.com.cn"
     - "static.gameplus.qq.com"
+    - "static.line-scdn.net"
     - "static.mobile-bank.psbc.com"
     - "static.psbc.com"
     - "static.shihuocdn.cn"
@@ -1880,6 +1920,7 @@ http:
     - "upos-sz-static.bilivideo.com"
     - "us.l.qq.com"
     - "ut2.shuqistat.com"
+    - "uts-front.line-apps.com"
     - "v*-api.miaopai.com"
     - "v.icbc.com.cn"
     - "v3.wufazhuce.com"
@@ -1889,6 +1930,7 @@ http:
     - "vidz.3hxq.cn"
     - "vip7.fzwdyy.cn"
     - "vv.video.qq.com"
+    - "w.line.me"
     - "waimai-guide.ele.me"
     - "wallet.lakala.com"
     - "wallpaper.soutushenqi.com"

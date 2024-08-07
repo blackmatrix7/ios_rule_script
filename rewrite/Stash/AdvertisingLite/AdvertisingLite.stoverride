@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-08-07 02:16:05
+desc: 最后更新时间 2024-08-08 02:15:00
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1138
-# mitm: 836
+# reject: 1139
+# mitm: 838
 # force-http-engine-hosts: 6
-# total: 1980
+# total: 1983
 
 
 
@@ -156,6 +156,7 @@ http:
     - ^https?:\/\/ads\.iconntech\.com\/resource-delivery\/*\/.*.(jpg|png) - reject
     - ^https?:\/\/ads\.zhinengxiyifang\.cn\/api\/v1\.1\/ads\/* - reject
     - ^https?:\/\/adstatic\.peopleapp\.com\/upload\/AppLoad\/.*.(jpg|png) - reject
+    - ^https?:\/\/adui\.tg\.meitu\.com - reject
     - ^https?:\/\/adv\.ccb\.com\/ebda\/ctm_adv - reject
     - ^https?:\/\/adx-cn\.anythinktech\.com\/bid - reject
     - ^https?:\/\/aes\.acfun\.cn\/s\?adzones - reject
@@ -166,6 +167,7 @@ http:
     - ^https?:\/\/als\.baidu\.com\/clog\/clog - reject
     - ^https?:\/\/alt-r\.my\.com\/mobile - reject
     - ^https?:\/\/amap\-aos\-info\-nogw\.amap\.com\/ws\/aos\/alimama\/ - reject
+    - ^https?:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch\?appkey=23782110 - reject
     - ^https?:\/\/ams-cdn\.cdtft\.cn\/prod\/tft-ams\/ - reject
     - ^https?:\/\/ap\.dongqiudi\.com\/plat\/v - reject
     - ^https?:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+ - reject
@@ -547,7 +549,6 @@ http:
     - ^https?:\/\/file\.cibfintech\.com\/file\/M0[1-9]{1}\/*\/*\/.*.zip - reject
     - ^https?:\/\/fintechappdr\.cgws\.com\/api\/business-operation\/app\/a\/flash\/window\/get\?type=2 - reject
     - ^https?:\/\/firefly\.abchina\.com\.cn\/firefly-collection\/Collect - reject
-    - ^https?:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg - reject
     - ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
     - ^https?:\/\/fm\.fenqile\.com\/routev2\/other\/getfloatAd\.json - reject
     - ^https?:\/\/fm\.fenqile\.com\/routev2\/other\/startImg\.json - reject
@@ -1200,6 +1201,7 @@ http:
     - "ads.zhinengxiyifang.cn"
     - "adsoss.zhinengxiyifang.cn"
     - "adstatic.peopleapp.com"
+    - "adui.tg.meitu.com"
     - "adv.ccb.com"
     - "advertise.bczeducation.cn"
     - "adx-cn.anythinktech.com"
@@ -1211,6 +1213,7 @@ http:
     - "als.baidu.com"
     - "alt-r.my.com"
     - "amap-aos-info-nogw.amap.com"
+    - "amdc.m.taobao.com"
     - "ams-cdn.cdtft.cn"
     - "ap.dongqiudi.com"
     - "apd-*.v.smtcdns.com"

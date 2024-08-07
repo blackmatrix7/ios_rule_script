@@ -1,12 +1,12 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-08-07 02:13:22
-# DOMAIN: 126
+# UPDATED: 2024-08-08 02:12:20
+# DOMAIN: 124
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
 # IP-CIDR: 4
-# TOTAL: 257
+# TOTAL: 255
 payload:
   - DOMAIN,1337.abcvg.info
   - DOMAIN,1c.premierzal.ru
@@ -14,6 +14,7 @@ payload:
   - DOMAIN,amigacity.xyz
   - DOMAIN,bandito.byterunner.io
   - DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
+  - DOMAIN,bittorrent.service.gongt.me
   - DOMAIN,bt.okmp3.ru
   - DOMAIN,bt1.archive.org
   - DOMAIN,bt2.archive.org
@@ -27,12 +28,10 @@ payload:
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
   - DOMAIN,explodie.org
-  - DOMAIN,freedomalternative.com
   - DOMAIN,ipv4.rer.lol
   - DOMAIN,ipv6.rer.lol
   - DOMAIN,isk.richardsw.club
   - DOMAIN,jutone.com
-  - DOMAIN,leet-tracker.moe
   - DOMAIN,mail.artixlinux.org
   - DOMAIN,martin-gebhardt.eu
   - DOMAIN,moonburrow.club
@@ -52,8 +51,6 @@ payload:
   - DOMAIN,opentracker.io
   - DOMAIN,p2p.publictracker.xyz
   - DOMAIN,p4p.arenabg.com
-  - DOMAIN,public.publictracker.xyz
-  - DOMAIN,public.tracker.vraphim.com
   - DOMAIN,pybittrack.retiolus.net
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
@@ -64,7 +61,6 @@ payload:
   - DOMAIN,ryjer.com
   - DOMAIN,seedpeer.net
   - DOMAIN,t.overflow.biz
-  - DOMAIN,t.peer-exchange.download
   - DOMAIN,t1.aag.moe
   - DOMAIN,tamas3.ynh.fr
   - DOMAIN,tk.greedland.net
@@ -72,12 +68,13 @@ payload:
   - DOMAIN,tk2v6.trackerservers.com
   - DOMAIN,torrents.artixlinux.org
   - DOMAIN,torrentsmd.com
+  - DOMAIN,tr.abir.ga
   - DOMAIN,tr.burnabyhighstar.com
   - DOMAIN,tr.kxmp.cf
   - DOMAIN,tracker-udp.gbitt.info
+  - DOMAIN,tracker-zhuqiy.dgj055.icu
   - DOMAIN,tracker.0x7c0.com
   - DOMAIN,tracker.birkenwald.de
-  - DOMAIN,tracker.bittor.pw
   - DOMAIN,tracker.breizh.pm
   - DOMAIN,tracker.bt4g.com
   - DOMAIN,tracker.ccp.ovh
@@ -90,12 +87,12 @@ payload:
   - DOMAIN,tracker.dump.cl
   - DOMAIN,tracker.edkj.club
   - DOMAIN,tracker.electro-torrent.pl
-  - DOMAIN,tracker.farted.net
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.files.fm
   - DOMAIN,tracker.fnix.net
   - DOMAIN,tracker.gcrenwp.top
   - DOMAIN,tracker.gmi.gd
+  - DOMAIN,tracker.imgoingto.icu
   - DOMAIN,tracker.ipfsscan.io
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.jamesthebard.net
@@ -109,6 +106,7 @@ payload:
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
   - DOMAIN,tracker.tamersunion.org
+  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.tryhackx.org
@@ -121,7 +119,6 @@ payload:
   - DOMAIN,tracker2.dler.org
   - DOMAIN,tracker2.itzmx.com
   - DOMAIN,tracker3.itzmx.com
-  - DOMAIN,tracker3.t-1.org
   - DOMAIN,tracker4.itzmx.com
   - DOMAIN,trackers.mlsub.net
   - DOMAIN,trackers.run
@@ -130,6 +127,7 @@ payload:
   - DOMAIN,u4.trakx.crim.ist
   - DOMAIN,u6.trakx.crim.ist
   - DOMAIN,wepzone.net
+  - DOMAIN,www.all4nothin.net
   - DOMAIN,www.peckservers.com
   - DOMAIN,www.torrent.eu.org
   - DOMAIN,www.wareztorrent.com

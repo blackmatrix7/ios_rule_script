@@ -1,13 +1,13 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-08-07 02:10:59
-# DOMAIN: 12848
+# UPDATED: 2024-08-08 02:09:57
+# DOMAIN: 12850
 # DOMAIN-KEYWORD: 262
-# DOMAIN-SUFFIX: 159312
+# DOMAIN-SUFFIX: 159362
 # IP-CIDR: 467
 # IP-CIDR6: 1
-# TOTAL: 172890
+# TOTAL: 172942
 payload:
   - DOMAIN-KEYWORD,-logging.nextmedia.com
   - DOMAIN-KEYWORD,-s2s.sensic.net
@@ -69,7 +69,6 @@ payload:
   - DOMAIN-KEYWORD,telemetry.officeapps.live.com
   - DOMAIN-KEYWORD,track.tiara
   - DOMAIN-KEYWORD,uedas
-  - DOMAIN-KEYWORD,umeng
   - DOMAIN-KEYWORD,umtrack
   - DOMAIN-KEYWORD,wxsnsdy
   - DOMAIN-KEYWORD,zymerget
@@ -243,6 +242,7 @@ payload:
   - DOMAIN-KEYWORD,trackercdnbj.kugou.com
   - DOMAIN-KEYWORD,trwl1
   - DOMAIN-KEYWORD,tunion-api.m.taobao.com
+  - DOMAIN-KEYWORD,umeng
   - DOMAIN-KEYWORD,utp-dmp.ucweb.com
   - DOMAIN-KEYWORD,utp.ucweb.com
   - DOMAIN-KEYWORD,v0-client-lz.rili.cn

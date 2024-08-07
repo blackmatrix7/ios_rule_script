@@ -1,13 +1,13 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-08-06 02:08:17
+# UPDATED: 2024-08-08 02:08:16
 # DOMAIN: 23746
-# DOMAIN-KEYWORD: 188
-# DOMAIN-SUFFIX: 13860
+# DOMAIN-KEYWORD: 187
+# DOMAIN-SUFFIX: 13854
 # IP-CIDR: 184
 # IP-CIDR6: 1
-# TOTAL: 37979
+# TOTAL: 37972
 payload:
   - DOMAIN,00-gov.cn
   - DOMAIN,0024aadd.com
@@ -1160,6 +1160,7 @@ payload:
   - DOMAIN,ad.linkstorms.com
   - DOMAIN,ad.linksynergy.com
   - DOMAIN,ad.madvertise.de
+  - DOMAIN,ad.mcloud.139.com
   - DOMAIN,ad.mox.tv
   - DOMAIN,ad.netcommunities.com
   - DOMAIN,ad.qn.img-space.com
@@ -2666,6 +2667,7 @@ payload:
   - DOMAIN,api.jsecoin.com
   - DOMAIN,api.jsfc8.cn
   - DOMAIN,api.kwaizt.com
+  - DOMAIN,api.liquidlink.cn
   - DOMAIN,api.miner.beeppool.org
   - DOMAIN,api.mini.wps.cn
   - DOMAIN,api.mlinks.co
@@ -2713,6 +2715,7 @@ payload:
   - DOMAIN,appconsent.io
   - DOMAIN,appendad.com
   - DOMAIN,applog-perf.uc.cn
+  - DOMAIN,applog.zijieapi.com
   - DOMAIN,appn.center
   - DOMAIN,apportium.com
   - DOMAIN,approp.pro
@@ -15625,7 +15628,6 @@ payload:
   - DOMAIN,popuptraffic.com
   - DOMAIN,popwin.net
   - DOMAIN,popxxx.net
-  - DOMAIN,pork.2tumeng.com
   - DOMAIN,porkolt.com
   - DOMAIN,porn-hitz.com
   - DOMAIN,porn-site-builder.com
@@ -18714,7 +18716,6 @@ payload:
   - DOMAIN,ssmyceoxbjqdp.com
   - DOMAIN,ssp-partner.alibaba.com
   - DOMAIN,sspicy.ru
-  - DOMAIN,sspmiaoshuo.cn-hangzhou.log.aliyuncs.com
   - DOMAIN,sspsky.com
   - DOMAIN,ssqpsrlknohdao.com
   - DOMAIN,ssqzsdcnoqv.com
@@ -20543,7 +20544,6 @@ payload:
   - DOMAIN,umc.danuoyi.alicdn.com
   - DOMAIN,umebiggestern.club
   - DOMAIN,umekana.ru
-  - DOMAIN,umengacs.m.taobao.com
   - DOMAIN,umessage-online-zb.uc.cn
   - DOMAIN,umgbvaurcx.com
   - DOMAIN,umhpzzloestt.com
@@ -24660,7 +24660,6 @@ payload:
   - DOMAIN-SUFFIX,99pps.com
   - DOMAIN-SUFFIX,99tianxin.com
   - DOMAIN-SUFFIX,99tuan.com.cn
-  - DOMAIN-SUFFIX,99youmeng.com
   - DOMAIN-SUFFIX,9a6wb.cn
   - DOMAIN-SUFFIX,9ads.net
   - DOMAIN-SUFFIX,9d766be9a3.com
@@ -30830,7 +30829,6 @@ payload:
   - DOMAIN-SUFFIX,js883.njqunyi.com
   - DOMAIN-SUFFIX,js88895.net
   - DOMAIN-SUFFIX,js9318.bllzgqbyp.com
-  - DOMAIN-SUFFIX,jsadsdisplay.cn-beijing.log.aliyuncs.com
   - DOMAIN-SUFFIX,jsadt.com
   - DOMAIN-SUFFIX,jsaik.com
   - DOMAIN-SUFFIX,jsb.qianzhan.com
@@ -31409,6 +31407,7 @@ payload:
   - DOMAIN-SUFFIX,locothet.com
   - DOMAIN-SUFFIX,log-yex.youdao.com
   - DOMAIN-SUFFIX,log.51cto.com
+  - DOMAIN-SUFFIX,log.aliyuncs.com
   - DOMAIN-SUFFIX,log.b612kaji.com
   - DOMAIN-SUFFIX,log.collect.yinyuetai.com
   - DOMAIN-SUFFIX,log.hunantv.com
@@ -32862,7 +32861,6 @@ payload:
   - DOMAIN-SUFFIX,p1.18zhongyao.com
   - DOMAIN-SUFFIX,p1.qinsx.cn
   - DOMAIN-SUFFIX,p1.zhongyoo.com
-  - DOMAIN-SUFFIX,p1.zhumengwl.com
   - DOMAIN-SUFFIX,p2.hunantv.com
   - DOMAIN-SUFFIX,p2.qinsx.cn
   - DOMAIN-SUFFIX,p2.ykauto.cn
@@ -35622,7 +35620,6 @@ payload:
   - DOMAIN-SUFFIX,ttcdn.cn
   - DOMAIN-SUFFIX,ttdetect.staticimgfarm.com
   - DOMAIN-SUFFIX,ttfgames.cn
-  - DOMAIN-SUFFIX,ttjx-online.cn-hangzhou.log.aliyuncs.com
   - DOMAIN-SUFFIX,ttlm.cc
   - DOMAIN-SUFFIX,ttlowe.com
   - DOMAIN-SUFFIX,ttqr58.cn
@@ -35822,9 +35819,6 @@ payload:
   - DOMAIN-SUFFIX,um0592.com
   - DOMAIN-SUFFIX,um29.com
   - DOMAIN-SUFFIX,umbbs.cn
-  - DOMAIN-SUFFIX,umeng.co
-  - DOMAIN-SUFFIX,umeng.com
-  - DOMAIN-SUFFIX,umengcloud.com
   - DOMAIN-SUFFIX,umid.orion.meizu.com
   - DOMAIN-SUFFIX,umjsik.com
   - DOMAIN-SUFFIX,umm6.cn
@@ -37690,7 +37684,6 @@ payload:
   - DOMAIN-KEYWORD,e2wysbacctt1
   - DOMAIN-KEYWORD,editor.sm.cn
   - DOMAIN-KEYWORD,ems.youku.com
-  - DOMAIN-KEYWORD,errlog.umeng.com
   - DOMAIN-KEYWORD,exosrv
   - DOMAIN-KEYWORD,extlog.snssdk.com
   - DOMAIN-KEYWORD,fans.m.tmall.com
@@ -37786,7 +37779,7 @@ payload:
   - DOMAIN-KEYWORD,trackercdnbj.kugou.com
   - DOMAIN-KEYWORD,trwl1
   - DOMAIN-KEYWORD,tunion-api.m.taobao.com
-  - DOMAIN-KEYWORD,uop.umeng.com
+  - DOMAIN-KEYWORD,umeng
   - DOMAIN-KEYWORD,utp-dmp.ucweb.com
   - DOMAIN-KEYWORD,utp.ucweb.com
   - DOMAIN-KEYWORD,v0-client-lz.rili.cn

@@ -1,10 +1,13 @@
 # NAME: BiliBiliIntl
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:17:00
+# UPDATED: 2024-07-21 21:30:00
 # DOMAIN-SUFFIX: 1
+# DOMAIN: 2
 # PROCESS-NAME: 1
-# TOTAL: 2
+# TOTAL: 4
 payload:
   - DOMAIN-SUFFIX,bilibili.tv
+  - DOMAIN,pic.bstarstatic.com
+  - DOMAIN,pic-bstarstatic.akamaized.net
   - PROCESS-NAME,com.bstar.intl

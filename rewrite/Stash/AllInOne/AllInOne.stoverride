@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-08-07 02:15:47
+desc: 最后更新时间 2024-08-11 02:14:30
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 679
-# mitm: 714
+# reject: 680
+# mitm: 715
 # force-http-engine-hosts: 6
-# total: 1438
+# total: 1440
 
 
 
@@ -352,6 +352,7 @@ http:
     - ^https?:\/\/cdn\.dianshihome\.com\/static\/ad\/ - reject
     - ^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/ - reject
     - ^https?:\/\/cdn\.moji\.com\/advert\/ - reject
+    - ^https?:\/\/cdns\.chinastock\.com\.cn\/cdn\/omc\/app\/app\/(index_pop_banner|startup_banner) - reject
     - ^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v1\/promote\/ios\/start\/page - reject
     - ^https?:\/\/client-api-v2\.oray\.com\/materials\/(SUNLOGIN_CLIENT_IOS_PROMOTION|SLCC_IOS_DEVICE|SLCC_IOS_STARTUP) - reject
     - ^https?:\/\/client-api\.oray\.com\/materials\/SLCC_IOS_STARTUP\?lang=zh-Hans-CN - reject
@@ -1164,6 +1165,7 @@ http:
     - "cdn.dianshihome.com"
     - "cdn.fivecdm.com"
     - "cdn.moji.com"
+    - "cdns.chinastock.com.cn"
     - "channel.beitaichufang.com"
     - "client-api-v2.oray.com"
     - "client-api.oray.com"

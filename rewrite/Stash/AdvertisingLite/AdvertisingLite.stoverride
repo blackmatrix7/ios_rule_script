@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-08-08 02:15:00
+desc: 最后更新时间 2024-08-11 02:14:48
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1139
-# mitm: 838
+# reject: 1141
+# mitm: 840
 # force-http-engine-hosts: 6
-# total: 1983
+# total: 1987
 
 
 
@@ -49,6 +49,7 @@ http:
     - ^https:\/\/dict\.youdao\.com\/dictusertask\/system - reject
     - ^https:\/\/dict\.youdao\.com\/homepage\/tile - reject
     - ^https:\/\/dict\.youdao\.com\/vip\/activity\/couponinfo - reject
+    - ^https:\/\/dinamicx\.alibabausercontent\.com\/pub\/fish_home_top_kingkong_new\/ - reject
     - ^https:\/\/file\.dian\.so\/c\/leto - reject
     - ^https:\/\/gw\.chuangkit\.com\/team\/app\/common\/ad\/ - reject
     - ^https:\/\/hdgateway\.zto\.com\/getAdInfo - reject
@@ -449,6 +450,7 @@ http:
     - ^https?:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$ - reject
     - ^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ - reject
     - ^https?:\/\/cdnmobibank\.bankofbeijing\.com\.cn\/cdn\/MarketingCloud\/.+\/.+\/99_1\/.+\.jpg - reject
+    - ^https?:\/\/cdns\.chinastock\.com\.cn\/cdn\/omc\/app\/app\/(index_pop_banner|startup_banner) - reject
     - ^https?:\/\/cds\.wifi188\.com\/feeds\.sec - reject
     - ^https?:\/\/cgbank\.oss-cn-shenzhen\.aliyuncs\.com\/visual\/advertisingImg\/.+.jpg - reject
     - ^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v1\/promote\/ios\/start\/page - reject
@@ -1441,6 +1443,7 @@ http:
     - "cdn.wup.huya.com"
     - "cdnfile1.msstatic.com"
     - "cdnmobibank.bankofbeijing.com.cn"
+    - "cdns.chinastock.com.cn"
     - "cds.wifi188.com"
     - "cgbank.oss-cn-shenzhen.aliyuncs.com"
     - "channel.beitaichufang.com"
@@ -1486,6 +1489,7 @@ http:
     - "dict.youdao.com"
     - "dictvip-business.youdao.com"
     - "dili.bdatu.com"
+    - "dinamicx.alibabausercontent.com"
     - "direct.z-bank.com"
     - "discuz.gtimg.cn"
     - "dispatcher.camera360.com"

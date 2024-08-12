@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-08-11 02:14:48
+desc: 最后更新时间 2024-08-13 02:16:39
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1141
-# mitm: 840
+# reject: 1142
+# mitm: 841
 # force-http-engine-hosts: 6
-# total: 1987
+# total: 1989
 
 
 
@@ -23,6 +23,7 @@ http:
     - ^http?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds\.php - reject
     - ^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/bookshelf\/refresh - reject
     - ^https:\/\/aag\.enmonster\.com\/apa\/(index\/)?advert\/(skin|multi\/positions|demand\/home\/poster) - reject
+    - ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.item\.search\.activate\/ - reject
     - ^https:\/\/ad\.xiaotucc\.com\/advert - reject
     - ^https:\/\/adsoss\.zhinengxiyifang\.cn\/ads - reject
     - ^https:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig - reject
@@ -1180,6 +1181,7 @@ http:
     - "aag.enmonster.com"
     - "access.mypikpak.com"
     - "acs-m.freshippo.com"
+    - "acs.m.goofish.com"
     - "acs.m.taobao.com"
     - "acs.youku.com"
     - "act.vip.iqiyi.com"

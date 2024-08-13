@@ -1,13 +1,22 @@
 # NAME: Cloudflare
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:10
-# DOMAIN-SUFFIX: 29
+# UPDATED: 2024-08-14 02:12:03
+# DOMAIN-SUFFIX: 43
 # IP-CIDR: 15
 # IP-CIDR6: 7
-# TOTAL: 51
+# TOTAL: 65
 payload:
   - DOMAIN-SUFFIX,cf-ipfs.com
+  - DOMAIN-SUFFIX,cf-ns.com
+  - DOMAIN-SUFFIX,cf-ns.net
+  - DOMAIN-SUFFIX,cf-ns.site
+  - DOMAIN-SUFFIX,cf-ns.tech
+  - DOMAIN-SUFFIX,cftest5.cn
+  - DOMAIN-SUFFIX,cftest6.cn
+  - DOMAIN-SUFFIX,cftest7.com
+  - DOMAIN-SUFFIX,cftest8.com
+  - DOMAIN-SUFFIX,cloudflare-cn.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudflare-ipfs.com
   - DOMAIN-SUFFIX,cloudflare-quic.com
@@ -18,13 +27,18 @@ payload:
   - DOMAIN-SUFFIX,cloudflareapps.com
   - DOMAIN-SUFFIX,cloudflarebolt.com
   - DOMAIN-SUFFIX,cloudflareclient.com
+  - DOMAIN-SUFFIX,cloudflarecn.net
+  - DOMAIN-SUFFIX,cloudflareinsights-cn.com
   - DOMAIN-SUFFIX,cloudflareinsights.com
   - DOMAIN-SUFFIX,cloudflareok.com
   - DOMAIN-SUFFIX,cloudflarepreview.com
+  - DOMAIN-SUFFIX,cloudflareprod.com
   - DOMAIN-SUFFIX,cloudflareresolve.com
   - DOMAIN-SUFFIX,cloudflaressl.com
+  - DOMAIN-SUFFIX,cloudflarestaging.com
   - DOMAIN-SUFFIX,cloudflarestatus.com
   - DOMAIN-SUFFIX,cloudflarestorage.com
+  - DOMAIN-SUFFIX,cloudflarestoragegw.com
   - DOMAIN-SUFFIX,cloudflarestream.com
   - DOMAIN-SUFFIX,cloudflaretest.com
   - DOMAIN-SUFFIX,cloudflarewarp.com

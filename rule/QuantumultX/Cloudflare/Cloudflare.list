@@ -1,12 +1,21 @@
 # NAME: Cloudflare
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:10
-# HOST-SUFFIX: 29
+# UPDATED: 2024-08-14 02:12:03
+# HOST-SUFFIX: 43
 # IP-CIDR: 15
 # IP6-CIDR: 7
-# TOTAL: 51
+# TOTAL: 65
 HOST-SUFFIX,cf-ipfs.com,Cloudflare
+HOST-SUFFIX,cf-ns.com,Cloudflare
+HOST-SUFFIX,cf-ns.net,Cloudflare
+HOST-SUFFIX,cf-ns.site,Cloudflare
+HOST-SUFFIX,cf-ns.tech,Cloudflare
+HOST-SUFFIX,cftest5.cn,Cloudflare
+HOST-SUFFIX,cftest6.cn,Cloudflare
+HOST-SUFFIX,cftest7.com,Cloudflare
+HOST-SUFFIX,cftest8.com,Cloudflare
+HOST-SUFFIX,cloudflare-cn.com,Cloudflare
 HOST-SUFFIX,cloudflare-dns.com,Cloudflare
 HOST-SUFFIX,cloudflare-ipfs.com,Cloudflare
 HOST-SUFFIX,cloudflare-quic.com,Cloudflare
@@ -17,13 +26,18 @@ HOST-SUFFIX,cloudflareaccess.com,Cloudflare
 HOST-SUFFIX,cloudflareapps.com,Cloudflare
 HOST-SUFFIX,cloudflarebolt.com,Cloudflare
 HOST-SUFFIX,cloudflareclient.com,Cloudflare
+HOST-SUFFIX,cloudflarecn.net,Cloudflare
+HOST-SUFFIX,cloudflareinsights-cn.com,Cloudflare
 HOST-SUFFIX,cloudflareinsights.com,Cloudflare
 HOST-SUFFIX,cloudflareok.com,Cloudflare
 HOST-SUFFIX,cloudflarepreview.com,Cloudflare
+HOST-SUFFIX,cloudflareprod.com,Cloudflare
 HOST-SUFFIX,cloudflareresolve.com,Cloudflare
 HOST-SUFFIX,cloudflaressl.com,Cloudflare
+HOST-SUFFIX,cloudflarestaging.com,Cloudflare
 HOST-SUFFIX,cloudflarestatus.com,Cloudflare
 HOST-SUFFIX,cloudflarestorage.com,Cloudflare
+HOST-SUFFIX,cloudflarestoragegw.com,Cloudflare
 HOST-SUFFIX,cloudflarestream.com,Cloudflare
 HOST-SUFFIX,cloudflaretest.com,Cloudflare
 HOST-SUFFIX,cloudflarewarp.com,Cloudflare

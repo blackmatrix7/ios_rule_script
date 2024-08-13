@@ -1,12 +1,13 @@
 # NAME: Amazon
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:12
+# UPDATED: 2024-08-14 02:12:04
 # HOST-KEYWORD: 1
 # HOST-SUFFIX: 186
+# HOST-WILDCARD: 5
 # IP-CIDR: 15
 # USER-AGENT: 2
-# TOTAL: 204
+# TOTAL: 209
 HOST-SUFFIX,a2z.com,Amazon
 HOST-SUFFIX,aboutamazon.cn,Amazon
 HOST-SUFFIX,aboutamazon.co.uk,Amazon
@@ -193,6 +194,11 @@ HOST-SUFFIX,yamaxun.cn,Amazon
 HOST-SUFFIX,yamaxun.com,Amazon
 HOST-SUFFIX,z.cn,Amazon
 HOST-SUFFIX,zappos,Amazon
+HOST-WILDCARD,aboutamazon*,Amazon
+HOST-WILDCARD,amazon.*,Amazon
+HOST-WILDCARD,amazonaws.*,Amazon
+HOST-WILDCARD,kindle.*,Amazon
+HOST-WILDCARD,kindleoasis.*,Amazon
 HOST-KEYWORD,avoddashs,Amazon
 USER-AGENT,InstantVideo.US*,Amazon
 USER-AGENT,Prime%20Video*,Amazon

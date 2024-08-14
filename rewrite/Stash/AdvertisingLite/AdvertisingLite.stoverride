@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-08-13 02:16:39
+desc: 最后更新时间 2024-08-15 02:15:30
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1142
-# mitm: 841
+# reject: 1143
+# mitm: 842
 # force-http-engine-hosts: 6
-# total: 1989
+# total: 1991
 
 
 
@@ -165,6 +165,7 @@ http:
     - ^https?:\/\/afd\.baidu\.com\/afd\/entry - reject
     - ^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
     - ^https?:\/\/agn\.aty\.sohu\.com\/m? - reject
+    - ^https?:\/\/aikanvod\.miguvideo\.com\/video\/p\/i_adverseInterface\.jsp - reject
     - ^https?:\/\/aimg\.babytreeimg\.com\/group1\/M00\/*\/*\/.*.jpg - reject
     - ^https?:\/\/als\.baidu\.com\/clog\/clog - reject
     - ^https?:\/\/alt-r\.my\.com\/mobile - reject
@@ -1213,6 +1214,7 @@ http:
     - "afd.baidu.com"
     - "agent-count.pconline.com.cn"
     - "agn.aty.sohu.com"
+    - "aikanvod.miguvideo.com"
     - "aimg.babytreeimg.com"
     - "als.baidu.com"
     - "alt-r.my.com"

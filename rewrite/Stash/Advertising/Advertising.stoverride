@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-08-11 02:14:26
+desc: 最后更新时间 2024-08-15 02:15:07
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 712
-# mitm: 668
+# reject: 713
+# mitm: 669
 # force-http-engine-hosts: 6
-# total: 1386
+# total: 1388
 
 
 
@@ -188,6 +188,7 @@ http:
     - ^https?:\/\/adv\.ccb\.com\/ebda\/ctm_adv - reject
     - ^https?:\/\/adx-cn\.anythinktech\.com\/bid - reject
     - ^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
+    - ^https?:\/\/aikanvod\.miguvideo\.com\/video\/p\/i_adverseInterface\.jsp - reject
     - ^https?:\/\/amap\-aos\-info\-nogw\.amap\.com\/ws\/aos\/alimama\/ - reject
     - ^https?:\/\/ap\.dongqiudi\.com\/plat\/v - reject
     - ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads - reject
@@ -824,6 +825,7 @@ http:
     - "advertise.bczeducation.cn"
     - "afd.baidu.com"
     - "agent-count.pconline.com.cn"
+    - "aikanvod.miguvideo.com"
     - "alittle-tea.oss-cn-shanghai.aliyuncs.com"
     - "amap-aos-info-nogw.amap.com"
     - "ap.dongqiudi.com"

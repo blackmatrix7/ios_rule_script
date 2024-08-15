@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-08-15 02:15:30
+desc: 最后更新时间 2024-08-16 02:16:37
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1143
-# mitm: 842
+# reject: 1150
+# mitm: 849
 # force-http-engine-hosts: 6
-# total: 1991
+# total: 2005
 
 
 
@@ -14,6 +14,7 @@ desc: 最后更新时间 2024-08-15 02:15:30
 http:
   rewrite:
     - ^http:\/\/apicloud\.zol\.com\.cn\/Article\/WapLaunchLogo - reject
+    - ^http:\/\/ebk\.17u\.cn\/tctrafficappversionadmin\/api\/getLatestVersionApp - reject
     - ^http:\/\/gateway2\.etnet\.com\.hk\/etnetApp\/theme\/seasonal\/v30\/theme.json - reject
     - ^http:\/\/go\.babytree\.com\/go_tool\/api\/feeding_record\/get_home_banner_info - reject
     - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
@@ -53,6 +54,7 @@ http:
     - ^https:\/\/dinamicx\.alibabausercontent\.com\/pub\/fish_home_top_kingkong_new\/ - reject
     - ^https:\/\/file\.dian\.so\/c\/leto - reject
     - ^https:\/\/gw\.chuangkit\.com\/team\/app\/common\/ad\/ - reject
+    - ^https:\/\/gw\.xiaocantech\.com\/g\/pa - reject
     - ^https:\/\/hdgateway\.zto\.com\/getAdInfo - reject
     - ^https:\/\/hdgateway\.zto\.com\/getApolloConfig - reject
     - ^https:\/\/hdgateway\.zto\.com\/listJumperShow - reject
@@ -62,6 +64,7 @@ http:
     - ^https:\/\/img01\.51jobcdn\.com\/im\/mkt/(?:tg/((19|20)\d{2})banner/(?!jcgz2/)|\d{4}/bd/\d{4}/).*\.jpg - reject
     - ^https:\/\/live\.inst-service\.htsc\.com\/live - reject
     - ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds - reject
+    - ^https:\/\/mada-travel\.17u\.cn\/mdapi\/config\/ads - reject
     - ^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle - reject
     - ^https:\/\/mgesq\.api\.mgtv\.com\/search\/goods\/rank - reject
     - ^https:\/\/mgesq\.api\.mgtv\.com\/user\/center\/config - reject
@@ -73,14 +76,18 @@ http:
     - ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ - reject
     - ^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.(jpg|png)\?imageMogr2\/thumbnail\/(860x0|!165x165|!1049x1169) - reject
     - ^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.jpg\?imageMogr2\/quality\/ - reject
+    - ^https:\/\/patient-api\.suh\.cn\/apt\/api\/userinfo\/GetNotice\?appname=pmsys&channel=6&device=ios&language=1&source=2&version= - reject
     - ^https:\/\/qiye\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/ios-splash\/ - reject
     - ^https:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activity - reject
     - ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject
     - ^https:\/\/s\.jiediankeji\.com\/adv - reject
+    - ^https:\/\/se-api\.djiits\.com\/api\/components\/launch_ad\.json\?abbrv_url=1&country=cn&language=zh-CN - reject
     - ^https:\/\/service\.haiersmarthomes\.com\/management\/banner\/getBannerList\?source=4 - reject
     - ^https:\/\/smarket\.dian\.so - reject
+    - ^https:\/\/userpms-api\.suh\.cn\/apt\/api\/bannar\/PageList\?sysSearchKey=sysPat&showSearchKey=advertising&pageIndex=1&pagesize=100&lanSearchValue=1&locationSearchKey=&status=1& - reject
     - ^https:\/\/vapp\.tmuyun\.com\/api\/buoy\/list - reject
     - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
+    - ^https:\/\/web2\.realtech-inc\.com\/oss\/xc-app-assets\/configs\/common\/theme\.json - reject
     - ^https:\/\/www\.ymm56\.com\/short-distance-match-app\/openAppAd - reject
     - ^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad - reject
     - ^https:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/activity\/show - reject
@@ -1514,6 +1521,7 @@ http:
     - "e.dangdang.com"
     - "e.weather.com.cn"
     - "easyreadfs.nosdn.127.net"
+    - "ebk.17u.cn"
     - "ecard.shenzhentong.com"
     - "edit.sinaapp.com"
     - "edith.xiaohongshu.com"
@@ -1574,6 +1582,7 @@ http:
     - "gw.csdn.net"
     - "gw.kaola.com"
     - "gw.line.naver.jp"
+    - "gw.xiaocantech.com"
     - "gx.10086.cn"
     - "h5api.sginput.qq.com"
     - "h5app.kuwo.cn"
@@ -1688,6 +1697,7 @@ http:
     - "m1.ad.10010.com"
     - "ma-adx.ctrip.com"
     - "ma.ofo.com"
+    - "mada-travel.17u.cn"
     - "mage.if.qidian.com"
     - "magev6.if.qidian.com"
     - "maicai.api.ddxq.mobi"
@@ -1792,6 +1802,7 @@ http:
     - "pagead2.googlesyndication.com"
     - "pan-api.bitqiu.com"
     - "pan.baidu.com"
+    - "patient-api.suh.cn"
     - "peisongapi.meituan.com"
     - "photocdn.sohu.com"
     - "pic*.ajkimg.com"
@@ -1853,6 +1864,7 @@ http:
     - "scdn.line-apps.com"
     - "sdk.alibaba.com.ailbaba.me"
     - "sdk1xyajs.data.kuiniuca.com"
+    - "se-api.djiits.com"
     - "service.4gtv.tv"
     - "service.busi.inke.cn"
     - "service.haiersmarthomes.com"
@@ -1930,6 +1942,7 @@ http:
     - "upload-bbs.mihoyo.com"
     - "upos-sz-static.bilivideo.com"
     - "us.l.qq.com"
+    - "userpms-api.suh.cn"
     - "ut2.shuqistat.com"
     - "uts-front.line-apps.com"
     - "v*-api.miaopai.com"
@@ -1951,6 +1964,7 @@ http:
     - "wap.spdb.com.cn"
     - "wcprd.hilton.com.cn"
     - "web.chelaile.net.cn"
+    - "web2.realtech-inc.com"
     - "webappcfg.paas.cmbchina.com"
     - "webboot.zhangyue.com"
     - "webcdn.m.qq.com"

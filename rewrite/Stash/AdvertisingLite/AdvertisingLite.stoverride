@@ -1,9 +1,9 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-08-16 02:16:37
+desc: 最后更新时间 2024-08-17 02:15:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1150
-# mitm: 849
+# reject: 1149
+# mitm: 850
 # force-http-engine-hosts: 6
 # total: 2005
 
@@ -666,8 +666,6 @@ http:
     - ^https?:\/\/img\.jiemian\.com\/ads\/ - reject
     - ^https?:\/\/img\.meituan\.net\/(adunion|display|dpmobile|midas)\/\w+\.(gif|jpg|jpg\.webp)$ - reject
     - ^https?:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+\.jpg - reject
-    - ^https?:\/\/img\.meituan\.net\/dpmobile\/.*.(gif|jpg) - reject
-    - ^https?:\/\/img\.meituan\.net\/dpmobile\/.+93241\.png - reject
     - ^https?:\/\/img\.umetrip\.com\/fs\/advert/ - reject
     - ^https?:\/\/img\.wukongtv\.com\/wkremote\/AD\/iOS\/.*.(jpg|png|jpeg) - reject
     - ^https?:\/\/img\.yun\.01zhuanche\.com\/statics\/app\/advertisement\/.+?-750-1334 - reject
@@ -732,6 +730,7 @@ http:
     - ^https?:\/\/m\.360buyimg\.com\/babel\/jfs\/t1\/[0-9]{6}\/[0-9]{2}\/[0-9]{5}\/[0-9]{6}\/.*.jpg - reject
     - ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s640x1136_jfs\/ - reject
     - ^https?:\/\/m\.ads\.8le8le\.com\/adShow - reject
+    - ^https?:\/\/m\.api\.shaoxing\.com\.cn\/v\d\/start - reject
     - ^https?:\/\/m\.aty\.sohu\.com\/openload? - reject
     - ^https?:\/\/m\.caijing\.com\.cn\/startup_ad_ios\.html$ - reject
     - ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) - reject
@@ -1679,6 +1678,7 @@ http:
     - "m-adphone.wenhua.com.cn"
     - "m.360buyimg.com"
     - "m.ads.8le8le.com"
+    - "m.api.shaoxing.com.cn"
     - "m.aty.sohu.com"
     - "m.caijing.com.cn"
     - "m.client.10010.com"

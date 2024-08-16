@@ -12,13 +12,13 @@ GlobalScholar规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-07-06 02:13:22
+最后更新时间：2024-08-17 02:14:26
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 224  | 
-| TOTAL | 224  | 
+| DOMAIN-SUFFIX | 227  | 
+| TOTAL | 227  | 
 
 
 ## Clash 

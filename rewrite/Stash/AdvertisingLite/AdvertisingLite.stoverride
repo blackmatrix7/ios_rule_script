@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-08-19 02:15:30
+desc: 最后更新时间 2024-08-21 02:15:41
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1153
-# mitm: 848
+# reject: 1154
+# mitm: 849
 # force-http-engine-hosts: 6
-# total: 2007
+# total: 2009
 
 
 
@@ -857,6 +857,7 @@ http:
     - ^https?:\/\/oneapph5\.dongfeng-nissan\.com\.cn\/mb-gw\/vmsp-discover\/rest\/business-service\/v1\/advert\/advertinfo - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api.*get_popup - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api\/index\/loading_ad - reject
+    - ^https?:\/\/open\.78dm\.net\/v\d\/site\/ad\/ - reject
     - ^https?:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ - reject
     - ^https?:\/\/open\.fitdays\.cn\/uploads\/ad\/ - reject
     - ^https?:\/\/open\.qyer\.com\/qyer\/config\/get - reject
@@ -1778,6 +1779,7 @@ http:
     - "ok.166.net"
     - "one-app-h5.faw-vw.com"
     - "oneapph5.dongfeng-nissan.com.cn"
+    - "open.78dm.net"
     - "open.e.kuaishou.com"
     - "open.fitdays.cn"
     - "open.qyer.com"

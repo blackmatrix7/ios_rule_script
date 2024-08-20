@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-08-17 02:15:35
+desc: 最后更新时间 2024-08-21 02:15:22
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 682
-# mitm: 717
+# reject: 683
+# mitm: 718
 # force-http-engine-hosts: 6
-# total: 1444
+# total: 1446
 
 
 
@@ -547,6 +547,7 @@ http:
     - ^https?:\/\/nuc\.api\.mgtv.com\/Logout - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api.*get_popup - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api\/index\/loading_ad - reject
+    - ^https?:\/\/open\.78dm\.net\/v\d\/site\/ad\/ - reject
     - ^https?:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ - reject
     - ^https?:\/\/open\.fitdays\.cn\/uploads\/ad\/ - reject
     - ^https?:\/\/open\.qyer\.com\/qyer\/config\/get - reject
@@ -1391,6 +1392,7 @@ http:
     - "nuc.api.mgtv.com"
     - "open-cms-api.quark.cn"
     - "open-cms-api.uc.cn"
+    - "open.78dm.net"
     - "open.e.kuaishou.com"
     - "open.fitdays.cn"
     - "open.qyer.com"

@@ -1,20 +1,18 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-08-21 02:12:40
-# DOMAIN: 130
+# UPDATED: 2024-08-22 02:12:46
+# DOMAIN: 121
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
 # IP-CIDR: 4
-# TOTAL: 261
+# TOTAL: 252
 payload:
   - DOMAIN,1337.abcvg.info
   - DOMAIN,1c.premierzal.ru
+  - DOMAIN,aegir.sexy
   - DOMAIN,amigacity.xyz
   - DOMAIN,bandito.byterunner.io
-  - DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
-  - DOMAIN,bittorrent.service.gongt.me
-  - DOMAIN,bt.ktrackers.com
   - DOMAIN,bt.okmp3.ru
   - DOMAIN,bt.rer.lol
   - DOMAIN,bt1.archive.org
@@ -28,11 +26,10 @@ payload:
   - DOMAIN,epider.me
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
-  - DOMAIN,explodie.org
   - DOMAIN,ipv4.rer.lol
   - DOMAIN,ipv6.rer.lol
+  - DOMAIN,isk.richardsw.club
   - DOMAIN,jutone.com
-  - DOMAIN,leet-tracker.moe
   - DOMAIN,mail.artixlinux.org
   - DOMAIN,martin-gebhardt.eu
   - DOMAIN,moonburrow.club
@@ -52,7 +49,6 @@ payload:
   - DOMAIN,opentracker.io
   - DOMAIN,p2p.publictracker.xyz
   - DOMAIN,p4p.arenabg.com
-  - DOMAIN,public.tracker.vraphim.com
   - DOMAIN,pybittrack.retiolus.net
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.x2k.ru
@@ -64,14 +60,11 @@ payload:
   - DOMAIN,t.overflow.biz
   - DOMAIN,t1.aag.moe
   - DOMAIN,tamas3.ynh.fr
-  - DOMAIN,threads.canofsocks.com
   - DOMAIN,tk.greedland.net
   - DOMAIN,tk2.trackerservers.com
   - DOMAIN,tk2v6.trackerservers.com
-  - DOMAIN,torrent.tracker.durukanbal.com
   - DOMAIN,torrents.artixlinux.org
   - DOMAIN,torrentsmd.com
-  - DOMAIN,tr.abir.ga
   - DOMAIN,tr.burnabyhighstar.com
   - DOMAIN,tr.kxmp.cf
   - DOMAIN,trackarr.org
@@ -113,10 +106,8 @@ payload:
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
   - DOMAIN,tracker.tamersunion.org
-  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
-  - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.tryhackx.org
   - DOMAIN,tracker.xor.st
   - DOMAIN,tracker.yemekyedim.com

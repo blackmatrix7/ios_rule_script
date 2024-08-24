@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-08-21 02:15:18
+desc: 最后更新时间 2024-08-25 02:14:25
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 715
-# mitm: 671
+# reject: 716
+# mitm: 672
 # force-http-engine-hosts: 6
-# total: 1392
+# total: 1394
 
 
 
@@ -694,6 +694,7 @@ http:
     - ^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/(openscreen\?ad|loadInfo\?|startpicture) - reject
     - ^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture - reject
     - ^https?:\/\/www1\.elecfans\.com\/www\/delivery\/ - reject
+    - ^https?:\/\/www\.ahzs10000\.com\/palmhall\/client\/base\/newVerson_getStartUp\.action - reject
     - ^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise - reject
     - ^https?:\/\/www\.cntv\.com\/nettv\/adp\/ - reject
     - ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ - reject
@@ -1365,6 +1366,7 @@ http:
     - "wmapi.meituan.com"
     - "wp3.lobdol.cn"
     - "www.51devapp.com"
+    - "www.ahzs10000.com"
     - "www.bbkj.work"
     - "www.benbenfx.xyz"
     - "www.bodivis.com.cn"

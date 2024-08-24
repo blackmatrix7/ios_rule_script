@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-08-21 02:15:22
+desc: 最后更新时间 2024-08-25 02:14:30
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 683
-# mitm: 718
+# reject: 684
+# mitm: 719
 # force-http-engine-hosts: 6
-# total: 1446
+# total: 1448
 
 
 
@@ -680,6 +680,7 @@ http:
     - ^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/(openscreen\?ad|loadInfo\?|startpicture) - reject
     - ^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture - reject
     - ^https?:\/\/www1\.elecfans\.com\/www\/delivery\/ - reject
+    - ^https?:\/\/www\.ahzs10000\.com\/palmhall\/client\/base\/newVerson_getStartUp\.action - reject
     - ^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise - reject
     - ^https?:\/\/www\.cntv\.com\/nettv\/adp\/ - reject
     - ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ - reject
@@ -1526,6 +1527,7 @@ http:
     - "wp3.lobdol.cn"
     - "www.51devapp.com"
     - "www.abbyychina.com"
+    - "www.ahzs10000.com"
     - "www.aicoin.cn"
     - "www.alienskins.cn"
     - "www.anydeskchina.cn"

@@ -1,10 +1,11 @@
 # NAME: Douyu
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:37
-# DOMAIN-SUFFIX: 10
-# TOTAL: 10
+# UPDATED: 2024-08-28 02:12:20
+# DOMAIN-SUFFIX: 12
+# TOTAL: 12
 payload:
+  - DOMAIN-SUFFIX,bytefcdnrd.com
   - DOMAIN-SUFFIX,douyu.com
   - DOMAIN-SUFFIX,douyu.tv
   - DOMAIN-SUFFIX,douyuba.cn
@@ -14,4 +15,5 @@ payload:
   - DOMAIN-SUFFIX,douyuscdn.com
   - DOMAIN-SUFFIX,douyutv.com
   - DOMAIN-SUFFIX,doyonoc.com
+  - DOMAIN-SUFFIX,edgesrv.com
   - DOMAIN-SUFFIX,oywtv.com

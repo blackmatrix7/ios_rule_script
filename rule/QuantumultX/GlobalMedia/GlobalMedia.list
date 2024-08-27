@@ -1,15 +1,15 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-08-24 02:12:08
+# UPDATED: 2024-08-28 02:11:49
 # HOST: 27
 # HOST-KEYWORD: 25
-# HOST-SUFFIX: 1255
+# HOST-SUFFIX: 1256
 # HOST-WILDCARD: 10
 # IP-CIDR: 918
 # IP6-CIDR: 6
 # USER-AGENT: 69
-# TOTAL: 2310
+# TOTAL: 2311
 HOST,akmcdnoversea-tw.inter.ptqy.gitv.tv,GlobalMedia
 HOST,api.okzy.tv,GlobalMedia
 HOST,apm-misaka.biliapi.net,GlobalMedia
@@ -657,6 +657,7 @@ HOST-SUFFIX,italkbb.com,GlobalMedia
 HOST-SUFFIX,italkbbtv.com,GlobalMedia
 HOST-SUFFIX,itv.com,GlobalMedia
 HOST-SUFFIX,itvstatic.com,GlobalMedia
+HOST-SUFFIX,iwara.tv,GlobalMedia
 HOST-SUFFIX,japonx.com,GlobalMedia
 HOST-SUFFIX,japonx.net,GlobalMedia
 HOST-SUFFIX,japonx.tv,GlobalMedia
@@ -1389,12 +1390,12 @@ USER-AGENT,com.kktv.ios.kktv*,GlobalMedia
 USER-AGENT,discovery+*,GlobalMedia
 USER-AGENT,encoreTVB*,GlobalMedia
 USER-AGENT,mytv*,GlobalMedia
-USER-AGENT,*youtube*,GlobalMedia
-USER-AGENT,YouTube*,GlobalMedia
-USER-AGENT,com.google.ios.youtube*,GlobalMedia
 USER-AGENT,*YouTubeMusic*,GlobalMedia
 USER-AGENT,*com.google.ios.youtubemusic*,GlobalMedia
+USER-AGENT,*youtube*,GlobalMedia
+USER-AGENT,YouTube*,GlobalMedia
 USER-AGENT,YouTubeMusic*,GlobalMedia
+USER-AGENT,com.google.ios.youtube*,GlobalMedia
 USER-AGENT,com.google.ios.youtubemusic*,GlobalMedia
 IP-CIDR,1.201.0.0/24,GlobalMedia
 IP-CIDR,1.37.35.6/32,GlobalMedia

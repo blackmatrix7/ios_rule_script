@@ -1,5 +1,5 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2024-08-28 02:15:38
+#!desc= 最后更新时间 2024-08-29 02:15:40
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
@@ -868,7 +868,7 @@
 ^https?:\/\/osg-static\.sgcc\.com\.cn\/omg-static\/.*.jpg - reject-200
 ^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) - reject-200
 ^https?:\/\/otheve\.beacon\.qq\.com\/analytics\/upload\?sid=.* - reject
-^https?:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads - reject
+^https?:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads - reject-200
 ^https?:\/\/oxadmin\.cp\.com\.cn\/api\/advertise\/banner - reject-dict
 ^https?:\/\/oxadmin\.cp\.com\.cn\/api\/hot\/index - reject-dict
 ^https?:\/\/p0\.pipi\.cn\/adAdmin\/\w+.jpg\? - reject-img

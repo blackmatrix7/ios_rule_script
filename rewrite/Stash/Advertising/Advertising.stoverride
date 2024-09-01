@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-08-25 02:14:25
+desc: 最后更新时间 2024-09-02 02:14:33
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 716
-# mitm: 672
+# reject: 717
+# mitm: 673
 # force-http-engine-hosts: 6
-# total: 1394
+# total: 1396
 
 
 
@@ -488,6 +488,7 @@ http:
     - ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah - reject
     - ^https?:\/\/lchttpapi\.xczim\.com\/1\.1\/functions\/getLaunchImageForIOS - reject
     - ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? - reject
+    - ^https?:\/\/lens\.leoao\.com\/lens\/.+(getUserScheme|queryAppBanners|Advert|popup) - reject
     - ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml - reject
     - ^https?:\/\/m-adphone\.wenhua\.com\.cn\/ - reject
     - ^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ - reject
@@ -1155,6 +1156,7 @@ http:
     - "lchttpapi.xczim.com"
     - "learn.chaoxing.com"
     - "learnywhere.cn"
+    - "lens.leoao.com"
     - "list-app-m.i4.cn"
     - "lysl2020.com"
     - "m*.amap.com"

@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-08-25 02:14:30
+desc: 最后更新时间 2024-09-02 02:14:37
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 684
-# mitm: 719
+# reject: 685
+# mitm: 720
 # force-http-engine-hosts: 6
-# total: 1448
+# total: 1450
 
 
 
@@ -477,6 +477,7 @@ http:
     - ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah - reject
     - ^https?:\/\/lchttpapi\.xczim\.com\/1\.1\/functions\/getLaunchImageForIOS - reject
     - ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? - reject
+    - ^https?:\/\/lens\.leoao\.com\/lens\/.+(getUserScheme|queryAppBanners|Advert|popup) - reject
     - ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml - reject
     - ^https?:\/\/m-adphone\.wenhua\.com\.cn\/ - reject
     - ^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ - reject
@@ -1317,6 +1318,7 @@ http:
     - "lcen.xiaote.net"
     - "lchttpapi.xczim.com"
     - "learn.chaoxing.com"
+    - "lens.leoao.com"
     - "list-app-m.i4.cn"
     - "logoshejishi.mairuan.com"
     - "m*.amap.com"

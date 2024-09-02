@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-09-02 02:14:56
+desc: 最后更新时间 2024-09-03 02:15:53
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1156
-# mitm: 850
+# reject: 1157
+# mitm: 851
 # force-http-engine-hosts: 6
-# total: 2012
+# total: 2014
 
 
 
@@ -564,6 +564,7 @@ http:
     - ^https?:\/\/fcvbjbcebos\.baidu\.com\/.+?\.mp4 - reject
     - ^https?:\/\/feedback\.uc\.cn\/feedback\/api\/get_unread_status - reject
     - ^https?:\/\/file\.cibfintech\.com\/file\/M0[1-9]{1}\/*\/*\/.*.zip - reject
+    - ^https?:\/\/file\.mylyg\.net\/banner\/(fc[a-f0-9]{30})\.jpg - reject
     - ^https?:\/\/fintechappdr\.cgws\.com\/api\/business-operation\/app\/a\/flash\/window\/get\?type=2 - reject
     - ^https?:\/\/firefly\.abchina\.com\.cn\/firefly-collection\/Collect - reject
     - ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
@@ -1548,6 +1549,7 @@ http:
     - "feedback.uc.cn"
     - "file.cibfintech.com"
     - "file.dian.so"
+    - "file.mylyg.net"
     - "fintechappdr.cgws.com"
     - "firefly.abchina.com.cn"
     - "flowplus.meituan.net"

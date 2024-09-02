@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-09-02 02:14:33
+desc: 最后更新时间 2024-09-03 02:15:30
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 717
-# mitm: 673
+# reject: 718
+# mitm: 674
 # force-http-engine-hosts: 6
-# total: 1396
+# total: 1398
 
 
 
@@ -406,6 +406,7 @@ http:
     - ^https?:\/\/evs\.500\.com\/esinfo\/loading\/loading - reject
     - ^https?:\/\/explorer\.tratao\.com\/api\/client\/v4\/xtransfer\/ad\/ - reject
     - ^https?:\/\/fbchina\.flipchina\.cn\/v2\/ad\/query\/* - reject
+    - ^https?:\/\/file\.mylyg\.net\/banner\/(fc[a-f0-9]{30})\.jpg - reject
     - ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
     - ^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview - reject
     - ^https?:\/\/ftapi\.10jqka\.com\.cn\/futgwapi\/api\/om\/v\d\/ad\/common\/transfer - reject
@@ -1060,6 +1061,7 @@ http:
     - "fbchina.flipchina.cn"
     - "fenbi.com"
     - "file.dian.so"
+    - "file.mylyg.net"
     - "flowplus.meituan.net"
     - "foodie-api.yiruikecorp.com"
     - "fscdn.zto.com"

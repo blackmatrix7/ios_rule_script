@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-09-02 02:14:37
+desc: 最后更新时间 2024-09-03 02:15:35
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 685
-# mitm: 720
+# reject: 686
+# mitm: 721
 # force-http-engine-hosts: 6
-# total: 1450
+# total: 1452
 
 
 
@@ -397,6 +397,7 @@ http:
     - ^https?:\/\/evs\.500\.com\/esinfo\/loading\/loading - reject
     - ^https?:\/\/explorer\.tratao\.com\/api\/client\/v4\/xtransfer\/ad\/ - reject
     - ^https?:\/\/fbchina\.flipchina\.cn\/v2\/ad\/query\/* - reject
+    - ^https?:\/\/file\.mylyg\.net\/banner\/(fc[a-f0-9]{30})\.jpg - reject
     - ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
     - ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/biz\/base\/appversion\/latest - reject
     - ^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview - reject
@@ -1227,6 +1228,7 @@ http:
     - "explorer.tratao.com"
     - "fbchina.flipchina.cn"
     - "file.dian.so"
+    - "file.mylyg.net"
     - "flowplus.meituan.net"
     - "fmapp.chinafamilymart.com.cn"
     - "foodie-api.yiruikecorp.com"

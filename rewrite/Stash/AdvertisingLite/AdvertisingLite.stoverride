@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-09-03 02:15:53
+desc: 最后更新时间 2024-09-04 02:16:04
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1157
-# mitm: 851
+# reject: 1152
+# mitm: 848
 # force-http-engine-hosts: 6
-# total: 2014
+# total: 2006
 
 
 
@@ -626,8 +626,6 @@ http:
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/(banner|myTab|openingBanner) - reject
     - ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner - reject
     - ^https?:\/\/homefront\.qunar\.com\/front\/splash\/ad - reject
-    - ^https?:\/\/httpdns.n\.netease\.com - reject
-    - ^https?:\/\/httpdns\.music\.163\.com - reject
     - ^https?:\/\/hui\.sohu\.com\/predownload2\/? - reject
     - ^https?:\/\/hxqapi\.hiyun\.tv\/api\/notification\/plans - reject
     - ^https?:\/\/hz\.yxzq\.com\/news-configserver\/api\/v1\/query\/banner_advertisement - reject
@@ -637,7 +635,6 @@ http:
     - ^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(jpg|png)$ - reject
     - ^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\/\d+\/\d+\/BbsImg\.(?<=(big.(png|jpg)))$ - reject
     - ^https?:\/\/iadmusicmat\.music\.126\.net\/.*?jpg$ - reject
-    - ^https?:\/\/iadmusicmatvideo\.music\.126\.net - reject
     - ^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/ - reject
     - ^https?:\/\/iface2\.iqiyi\.com\/ivos\/interact\/video\/data\? - reject
     - ^https?:\/\/iface2\.iqiyi\.com\/video\/3\.0\/v_interface_proxy\? - reject
@@ -684,11 +681,7 @@ http:
     - ^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec - reject
     - ^https?:\/\/intellicc\.bcs\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork\/getAdsBySlotId - reject
     - ^https?:\/\/interface(\d)?\.music\.163\.com\/eapi\/(ad|abtest|sp|hot|store|search\/(specialkeyword|defaultkeyword|hot)) - reject
-    - ^https?:\/\/interface3?\.music\.163.com\/eapi\/(comment\/(feed\/inserted|hotcomment\/collect|tips\/v2\/get)|v\d\/content\/exposure\/comment\/banner) - reject
-    - ^https?:\/\/interface3?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|link\/(position\/show\/(strategy|resource)|scene\/show)) - reject
-    - ^https?:\/\/interface3?\.music\.163.com\/eapi\/(vipcenter\/tspopup\/get|vipauth\/app\/auth|music-vip-membership\/client\/vip\/info|zone\/songplay\/entry\/get) - reject
     - ^https?:\/\/interface3?\.music\.163.com\/w?e?api\/(search\/(chart|default|rcmd\/keyword|specialkeyword)|(resource-exposure\/|middle\/clientcfg\/config)|activity\/bonus\/playpage\/time\/query) - reject
-    - ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/batch-deliver) - reject
     - ^https?:\/\/interface\.aomiapp\.com\/aomi-ads - reject
     - ^https?:\/\/intl\.iqiyi\.com\/ad_external\/ - reject
     - ^https?:\/\/intl\.iqiyi\.com\/video\/advertise - reject
@@ -1170,6 +1163,8 @@ http:
     - https:\/\/w\.line\.me\/adp\/api\/ad\/v\d\/ - reject
     - https?:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? - reject
     - https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert\/skin) - reject
+    - https?:\/\/interface\d?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|link\/(position\/show\/strategy|scene\/show)|ios\/version|v\d\/content\/exposure\/comment\/banner) - reject
+    - https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(side-bar\/mini-program\/music-service\/account|delivery\/(batch-deliver|deliver)|moment\/tab\/info\/get|yunbei\/account\/entrance\/get) - reject
 
 
   force-http-engine:
@@ -1604,8 +1599,6 @@ http:
     - "hfapp-service.qweather.net"
     - "home.mi.com"
     - "homefront.qunar.com"
-    - "httpdns.music.163.com"
-    - "httpdns.n.netease.com"
     - "hui.sohu.com"
     - "hxqapi.hiyun.tv"
     - "hz.yxzq.com"
@@ -1613,7 +1606,6 @@ http:
     - "i*.hoopchina.com.cn"
     - "i.ys7.com"
     - "iadmusicmat.music.126.net"
-    - "iadmusicmatvideo.music.126.net"
     - "iapi.bishijie.com"
     - "iface.iqiyi.com"
     - "iface2.iqiyi.com"

@@ -21,17 +21,17 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-09-02 02:10:52
+最后更新时间：2024-09-04 02:11:56
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 83  | 
 | DOMAIN-KEYWORD | 36  | 
-| DOMAIN-SUFFIX | 24982  | 
+| DOMAIN-SUFFIX | 24984  | 
 | IP-CIDR | 116  | 
 | USER-AGENT | 46  | 
-| TOTAL | 25263  | 
+| TOTAL | 25265  | 
 
 
 ## Shadowrocket 

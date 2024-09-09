@@ -1,10 +1,10 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-09-09 02:12:49
-# IP-CIDR: 17739
+# UPDATED: 2024-09-10 02:13:26
+# IP-CIDR: 17740
 # IP-CIDR6: 13121
-# TOTAL: 30860
+# TOTAL: 30861
 payload:
   - IP-CIDR,1.0.1.0/24,no-resolve
   - IP-CIDR,1.0.2.0/23,no-resolve
@@ -12626,8 +12626,7 @@ payload:
   - IP-CIDR,211.161.80.0/20,no-resolve
   - IP-CIDR,211.161.97.0/24,no-resolve
   - IP-CIDR,211.162.0.0/21,no-resolve
-  - IP-CIDR,211.162.112.0/20,no-resolve
-  - IP-CIDR,211.162.192.0/22,no-resolve
+  - IP-CIDR,211.162.120.0/21,no-resolve
   - IP-CIDR,211.162.200.0/22,no-resolve
   - IP-CIDR,211.162.236.0/22,no-resolve
   - IP-CIDR,211.162.240.0/20,no-resolve
@@ -13061,7 +13060,6 @@ payload:
   - IP-CIDR,220.113.160.0/20,no-resolve
   - IP-CIDR,220.113.180.0/22,no-resolve
   - IP-CIDR,220.113.184.0/22,no-resolve
-  - IP-CIDR,220.113.224.0/19,no-resolve
   - IP-CIDR,220.113.96.0/21,no-resolve
   - IP-CIDR,220.114.250.0/23,no-resolve
   - IP-CIDR,220.115.16.0/20,no-resolve
@@ -17170,6 +17168,7 @@ payload:
   - IP-CIDR,103.238.180.0/24,no-resolve
   - IP-CIDR,103.24.116.0/24,no-resolve
   - IP-CIDR,103.24.118.0/23,no-resolve
+  - IP-CIDR,103.251.204.0/24,no-resolve
   - IP-CIDR,103.251.206.0/23,no-resolve
   - IP-CIDR,103.29.16.0/24,no-resolve
   - IP-CIDR,103.31.52.0/24,no-resolve
@@ -17614,7 +17613,8 @@ payload:
   - IP-CIDR,211.155.236.0/24,no-resolve
   - IP-CIDR,211.157.16.0/22,no-resolve
   - IP-CIDR,211.161.60.0/22,no-resolve
-  - IP-CIDR,211.162.120.0/21,no-resolve
+  - IP-CIDR,211.162.112.0/20,no-resolve
+  - IP-CIDR,211.162.192.0/22,no-resolve
   - IP-CIDR,211.99.103.0/24,no-resolve
   - IP-CIDR,211.99.112.0/22,no-resolve
   - IP-CIDR,211.99.116.0/24,no-resolve
@@ -17671,6 +17671,7 @@ payload:
   - IP-CIDR,220.113.150.0/23,no-resolve
   - IP-CIDR,220.113.152.0/21,no-resolve
   - IP-CIDR,220.113.160.0/21,no-resolve
+  - IP-CIDR,220.113.224.0/19,no-resolve
   - IP-CIDR,220.113.32.0/20,no-resolve
   - IP-CIDR,220.231.32.0/20,no-resolve
   - IP-CIDR,220.243.128.0/20,no-resolve

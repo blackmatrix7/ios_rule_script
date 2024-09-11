@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-09-08 02:14:45
+desc: 最后更新时间 2024-09-12 02:15:42
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 687
-# mitm: 722
+# reject: 689
+# mitm: 723
 # force-http-engine-hosts: 6
-# total: 1454
+# total: 1457
 
 
 
@@ -64,6 +64,7 @@ http:
     - ^https:\/\/appuser-static\.huolala\.cn\/imgs - reject
     - ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
     - ^https:\/\/cdke\.youdao\.com\/course3\/recommend\/dict\/startup - reject
+    - ^https:\/\/cn-app\.narwaltech\.com\/(operate\/(cactivity\/listByResourceIds|appPosition\/listSplash)|app-user-device-server\/v\d\/user-device\/getTips) - reject
     - ^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/core - reject
     - ^https:\/\/customer-app\.sto\.cn\/api\/app\/banner\/banner - reject
     - ^https:\/\/dsp\.fcbox\.com - reject
@@ -470,6 +471,7 @@ http:
     - ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/(guanggao|ts_ad)\/ - reject
     - ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
     - ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
+    - ^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v1\? - reject
     - ^https?:\/\/jad-api\.jin10\.com\/ad - reject
     - ^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/channel\/module\/opens - reject
     - ^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/popup - reject
@@ -1189,6 +1191,7 @@ http:
     - "cmsapi.wifi8.com"
     - "cmt.comp.360os.com"
     - "cn-acs.m.cainiao.com"
+    - "cn-app.narwaltech.com"
     - "cn.ultraiso.net"
     - "coco-com.e.verystar.net"
     - "comic.321mh.com"

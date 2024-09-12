@@ -1,13 +1,13 @@
 # NAME: ChinaMaxNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-09-12 02:14:26
+# UPDATED: 2024-09-13 02:14:45
 # DOMAIN: 421
 # DOMAIN-KEYWORD: 11
 # DOMAIN-SUFFIX: 92086
 # IP-ASN: 1
-# IP-CIDR: 8067
-# IP-CIDR6: 11908
+# IP-CIDR: 8066
+# IP-CIDR6: 11909
 # USER-AGENT: 65
 # TOTAL: 112559
 DOMAIN-SUFFIX,alibaba
@@ -100,32 +100,32 @@ USER-AGENT,*QIYI*
 USER-AGENT,AcFun*
 USER-AGENT,DomesticMedia*
 USER-AGENT,MGTV*
-USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
-USER-AGENT,MOO*
 USER-AGENT,MiguVideo*
 USER-AGENT,NeteaseMusic*
-USER-AGENT,QQ%E9%9F%B3%E4%B9%90
+USER-AGENT,PPStream*
+USER-AGENT,QIYI*
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
-USER-AGENT,TencentMidasConnect*
+USER-AGENT,QYPlayer*
 USER-AGENT,YYeTs*
 USER-AGENT,Youku*
 USER-AGENT,baiduyinyue
 USER-AGENT,bilibili*
-USER-AGENT,live4iphone*
-USER-AGENT,qqlive4iphone*
-USER-AGENT,youku*
-USER-AGENT,Himalaya*
-USER-AGENT,MicroMessenger*
-USER-AGENT,WeChat*
-USER-AGENT,walkman*
-USER-AGENT,xiami*
-USER-AGENT,PPStream*
-USER-AGENT,QIYI*
-USER-AGENT,QYPlayer*
-USER-AGENT,iQIYI*
 USER-AGENT,iQiYi*
 USER-AGENT,iQiyi*
+USER-AGENT,walkman*
+USER-AGENT,xiami*
+USER-AGENT,youku*
+USER-AGENT,Himalaya*
+USER-AGENT,MOO*
+USER-AGENT,TencentMidasConnect*
+USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
+USER-AGENT,QQ%E9%9F%B3%E4%B9%90
+USER-AGENT,live4iphone*
+USER-AGENT,qqlive4iphone*
+USER-AGENT,MicroMessenger*
+USER-AGENT,WeChat*
+USER-AGENT,iQIYI*
 IP-ASN,132203,no-resolve
 IP-CIDR,0.0.0.0/32,no-resolve
 IP-CIDR,1.0.1.0/24,no-resolve
@@ -1361,7 +1361,6 @@ IP-CIDR,103.230.236.0/22,no-resolve
 IP-CIDR,103.230.28.0/22,no-resolve
 IP-CIDR,103.230.40.0/21,no-resolve
 IP-CIDR,103.230.52.0/22,no-resolve
-IP-CIDR,103.230.93.0/24,no-resolve
 IP-CIDR,103.230.96.0/22,no-resolve
 IP-CIDR,103.231.144.0/22,no-resolve
 IP-CIDR,103.231.16.0/21,no-resolve
@@ -19790,6 +19789,7 @@ IP-CIDR6,2a0a:6040:34ff::/48,no-resolve
 IP-CIDR6,2a0a:6040:d740::/48,no-resolve
 IP-CIDR6,2a0a:6040:ec00::/40,no-resolve
 IP-CIDR6,2a0a:6042:4100::/40,no-resolve
+IP-CIDR6,2a0a:6044:7a00::/40,no-resolve
 IP-CIDR6,2a0a:6044:b800::/40,no-resolve
 IP-CIDR6,2a0a:79c0:2b0::/44,no-resolve
 IP-CIDR6,2a0a:79c0:f2b0::/44,no-resolve

@@ -1,5 +1,5 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-09-12 02:16:01
+#!desc=最后更新时间 2024-09-16 02:16:44
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
@@ -252,7 +252,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v" - reject
 "^https?:\/\/hcz-member\.pingan\.com\.cn\/micro-api\/homepage\/do\/app\/popbox\/getTopPopBox" - reject
 "^https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex)" - reject
-"^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner" - reject
 "^https?:\/\/i\.ys7\.com\/api\/ads" - reject
 "^https?:\/\/iadmusicmat\.music\.126\.net\/.*?jpg$" - reject
 "^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/" - reject
@@ -859,6 +858,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/hfapp-service\.qweather\.net\/.*\/ad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/hfapp-service\.qweather\.net\/v2\.0\/app\/ad\/list\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/(banner|myTab|openingBanner)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+"^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/homefront\.qunar\.com\/front\/splash\/ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/hui\.sohu\.com\/predownload2\/?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/hxqapi\.hiyun\.tv\/api\/notification\/plans" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"

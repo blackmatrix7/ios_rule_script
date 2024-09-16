@@ -1,10 +1,10 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-09-16 02:14:17
-# IP-CIDR: 17761
-# IP-CIDR6: 13555
-# TOTAL: 31316
+# UPDATED: 2024-09-17 02:14:13
+# IP-CIDR: 17762
+# IP-CIDR6: 13552
+# TOTAL: 31314
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
 IP-CIDR,1.0.32.0/19,no-resolve
@@ -17745,6 +17745,7 @@ IP-CIDR,45.120.102.0/23,no-resolve
 IP-CIDR,45.120.241.0/24,no-resolve
 IP-CIDR,45.124.20.0/23,no-resolve
 IP-CIDR,45.124.23.0/24,no-resolve
+IP-CIDR,45.202.69.0/24,no-resolve
 IP-CIDR,45.252.106.0/23,no-resolve
 IP-CIDR,45.253.26.0/23,no-resolve
 IP-CIDR,45.254.8.0/23,no-resolve
@@ -30623,7 +30624,6 @@ IP-CIDR6,2406:3640:1::/48,no-resolve
 IP-CIDR6,2406:4d00::/48,no-resolve
 IP-CIDR6,2406:5340:6666::/48,no-resolve
 IP-CIDR6,2406:5340:8888::/48,no-resolve
-IP-CIDR6,2406:840:8100::/40,no-resolve
 IP-CIDR6,2406:840:9000::/44,no-resolve
 IP-CIDR6,2406:840:e031::/48,no-resolve
 IP-CIDR6,2406:840:e033::/48,no-resolve
@@ -30636,10 +30636,7 @@ IP-CIDR6,2406:840:e0e4::/47,no-resolve
 IP-CIDR6,2406:840:e10f::/48,no-resolve
 IP-CIDR6,2406:840:e14f::/48,no-resolve
 IP-CIDR6,2406:840:e20f::/48,no-resolve
-IP-CIDR6,2406:840:e230::/46,no-resolve
-IP-CIDR6,2406:840:e234::/47,no-resolve
-IP-CIDR6,2406:840:e237::/48,no-resolve
-IP-CIDR6,2406:840:e238::/48,no-resolve
+IP-CIDR6,2406:840:e230::/44,no-resolve
 IP-CIDR6,2406:840:e36f::/48,no-resolve
 IP-CIDR6,2406:840:e666::/47,no-resolve
 IP-CIDR6,2406:840:e720::/48,no-resolve
@@ -31314,10 +31311,11 @@ IP-CIDR6,2a0a:2840:20::/43,no-resolve
 IP-CIDR6,2a0a:6044:7a00::/40,no-resolve
 IP-CIDR6,2a0e:aa06:49f::/48,no-resolve
 IP-CIDR6,2a0e:b107:178c::/47,no-resolve
-IP-CIDR6,2a10:cc42:120::/44,no-resolve
+IP-CIDR6,2a0f:7803:fe40::/46,no-resolve
 IP-CIDR6,2a13:1800:10::/48,no-resolve
 IP-CIDR6,2a13:1800:300::/44,no-resolve
 IP-CIDR6,2a13:1800:80::/44,no-resolve
 IP-CIDR6,2a13:1800::/48,no-resolve
 IP-CIDR6,2a13:1801:180::/43,no-resolve
+IP-CIDR6,2a13:a5c3:ff10::/44,no-resolve
 IP-CIDR6,2a13:aac4:f000::/44,no-resolve

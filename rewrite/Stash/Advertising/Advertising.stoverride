@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-09-15 02:14:54
+desc: 最后更新时间 2024-09-19 02:15:44
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 721
-# mitm: 677
+# reject: 722
+# mitm: 678
 # force-http-engine-hosts: 6
-# total: 1404
+# total: 1406
 
 
 
@@ -543,6 +543,7 @@ http:
     - ^https?:\/\/mobile\.da\.mgtv\.com\/json\/app\/bdboot - reject
     - ^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/adBubble\/.+ - reject
     - ^https?:\/\/mobileapi-v6\.elong\.com\/adgateway\/ - reject
+    - ^https?:\/\/mobileapi\.xiamenair\.com\/mobile-starter\/.+\/getStartAD - reject
     - ^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info - reject
     - ^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo - reject
     - ^https?:\/\/mpos-pic\.helipay\.com\/upload\/images\/advertisment - reject
@@ -1217,6 +1218,7 @@ http:
     - "mobile.da.mgtv.com"
     - "mobilead.kuwo.cn"
     - "mobileapi-v6.elong.com"
+    - "mobileapi.xiamenair.com"
     - "mobilepaas.abchina.com.cn"
     - "mp.weixin.qq.com"
     - "mpcs.suning.com"

@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2024-09-16 02:16:44
+#!desc= 最后更新时间 2024-09-19 02:16:08
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 1157
+#!reject= 1158
 #!mitm= 852
-#!total= 2009
+#!total= 2010
 
 
 [Rewrite]
@@ -820,6 +820,7 @@
 ^https?:\/\/mobile\.api\.mgtv\.com\/v2\/mobile\/checkUpdate\? - reject-dict
 ^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList - reject-200
 ^https?:\/\/mobileapi-v6\.elong\.com\/adgateway\/ - reject
+^https?:\/\/mobileapi\.xiamenair\.com\/mobile-starter\/.+\/getStartAD - reject-200
 ^https?:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v1\? - reject-dict
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info - reject-dict
 ^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo - reject

@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-09-15 02:14:58
+desc: 最后更新时间 2024-09-19 02:15:48
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 689
-# mitm: 724
+# reject: 690
+# mitm: 725
 # force-http-engine-hosts: 6
-# total: 1458
+# total: 1460
 
 
 
@@ -531,6 +531,7 @@ http:
     - ^https?:\/\/mobile\.da\.mgtv\.com\/json\/app\/bdboot - reject
     - ^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/adBubble\/.+ - reject
     - ^https?:\/\/mobileapi-v6\.elong\.com\/adgateway\/ - reject
+    - ^https?:\/\/mobileapi\.xiamenair\.com\/mobile-starter\/.+\/getStartAD - reject
     - ^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info - reject
     - ^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo - reject
     - ^https?:\/\/mpos-pic\.helipay\.com\/upload\/images\/advertisment - reject
@@ -1380,6 +1381,7 @@ http:
     - "mobile.da.mgtv.com"
     - "mobilead.kuwo.cn"
     - "mobileapi-v6.elong.com"
+    - "mobileapi.xiamenair.com"
     - "mobilepaas.abchina.com.cn"
     - "mp.weixin.qq.com"
     - "mpcs.suning.com"

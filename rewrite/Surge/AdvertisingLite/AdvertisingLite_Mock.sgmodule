@@ -1,12 +1,12 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-09-16 02:16:44
+#!desc=最后更新时间 2024-09-19 02:16:08
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
-#!reject=1157
+#!reject=1158
 #!mitm=852
 #!force-http-engine-hosts=6
-#!total=2015
+#!total=2016
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -972,6 +972,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/mobile\.1qianbao\.com\/mtp-web\/ui\/op_common_query_business_yqb\.json" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/mobile\.api\.mgtv\.com\/v2\/mobile\/checkUpdate\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
+"^https?:\/\/mobileapi\.xiamenair\.com\/mobile-starter\/.+\/getStartAD" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v1\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"

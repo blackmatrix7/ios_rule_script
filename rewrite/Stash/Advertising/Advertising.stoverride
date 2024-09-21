@@ -1,9 +1,9 @@
 name: 复写去广告
-desc: 最后更新时间 2024-09-19 02:15:44
+desc: 最后更新时间 2024-09-22 02:14:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 722
-# mitm: 678
+# reject: 723
+# mitm: 677
 # force-http-engine-hosts: 6
 # total: 1406
 
@@ -15,6 +15,7 @@ http:
   rewrite:
     - ^http:\/\/.*aastocks\.com\/ad\/ - reject
     - ^http:\/\/.*babytree\.com/(plough\.do|go_search\/api\/mobile_search_new\/get_multi_search_default_keywords) - reject
+    - ^http:\/\/ads.?s?ervice(retry)?\.(kugou|kglink).(com|cn)\/v\d\/ - reject
     - ^http:\/\/gateway2\.etnet\.com\.hk\/etnetApp\/theme\/seasonal\/v30\/theme.json - reject
     - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner - reject
@@ -752,7 +753,6 @@ http:
     - "*.bdstatic.com"
     - "*.chelaile.net.cn"
     - "*.chelaileapp.cn"
-    - "*.dcloud.net.cn"
     - "*.ddly666.top"
     - "*.didapinche.com"
     - "*.ecoliving168.com"

@@ -1,5 +1,5 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-09-19 02:16:08
+desc: 最后更新时间 2024-09-24 02:16:14
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 1158
@@ -306,6 +306,7 @@ http:
     - ^https?:\/\/api\.rr\.tv\/.*?Version - reject
     - ^https?:\/\/api\.rr\.tv\/ad\/ - reject
     - ^https?:\/\/api\.shanghaionstar\.com\/sos\/contentinfo\/v1\/public\/landingpage - reject
+    - ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks - reject
     - ^https?:\/\/api\.sogaha\.cn\/ssp\/ad\/get\?ip - reject
     - ^https?:\/\/api\.taou\.com\/sdk\/global\/splash_ad - reject
     - ^https?:\/\/api\.tipsoon\.com\/api\/v\d\/top\/ad - reject
@@ -789,7 +790,6 @@ http:
     - ^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?appname=baidu_input - reject
     - ^https?:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
     - ^https?:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic - reject
-    - ^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg - reject
     - ^https?:\/\/mcc.psbc.com:9090\/mcc\/resources\/[0-9]+\.(jpg|png) - reject
     - ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/IAdvert - reject
     - ^https?:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/integralPlanet\/getCxAdvertiseList - reject
@@ -1322,6 +1322,7 @@ http:
     - "api.rr.tv"
     - "api.sfacg.com"
     - "api.shanghaionstar.com"
+    - "api.smart.jd.com"
     - "api.sodalife.xyz"
     - "api.sogaha.cn"
     - "api.taou.com"
@@ -1723,7 +1724,6 @@ http:
     - "mbasecc.bas.cmbchina.com"
     - "mbd.baidu.com"
     - "mbmodule-openapi.paas.cmbchina.com"
-    - "mbs.boc.cn"
     - "mcc.psbc.com"
     - "mcmm.caiyun.feixin.10086.cn"
     - "mcs-mimp-web.sf-express.com"

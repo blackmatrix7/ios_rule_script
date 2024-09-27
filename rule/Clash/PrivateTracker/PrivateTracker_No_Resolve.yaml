@@ -1,11 +1,11 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-09-27 02:12:44
-# DOMAIN: 122
+# UPDATED: 2024-09-28 02:13:46
+# DOMAIN: 123
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
-# IP-CIDR: 4
+# IP-CIDR: 3
 # TOTAL: 253
 payload:
   - DOMAIN,1337.abcvg.info
@@ -20,6 +20,7 @@ payload:
   - DOMAIN,bt1.archive.org
   - DOMAIN,bt2.archive.org
   - DOMAIN,bvarf.tracker.sh
+  - DOMAIN,canardscitrons.nohost.me
   - DOMAIN,ch3oh.ru
   - DOMAIN,concen.org
   - DOMAIN,d40969.acod.regrucolo.ru
@@ -47,8 +48,8 @@ payload:
   - DOMAIN,opentracker.io
   - DOMAIN,p2p.publictracker.xyz
   - DOMAIN,p4p.arenabg.com
-  - DOMAIN,public.tracker.vraphim.com
   - DOMAIN,pybittrack.retiolus.net
+  - DOMAIN,region.nl1.privex.cc
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
   - DOMAIN,retracker.x2k.ru
@@ -71,7 +72,6 @@ payload:
   - DOMAIN,tracker-udp.gbitt.info
   - DOMAIN,tracker-zhuqiy.dgj055.icu
   - DOMAIN,tracker.0x7c0.com
-  - DOMAIN,tracker.auctor.tv
   - DOMAIN,tracker.birkenwald.de
   - DOMAIN,tracker.bjut.jp
   - DOMAIN,tracker.breizh.pm
@@ -94,7 +94,6 @@ payload:
   - DOMAIN,tracker.gmi.gd
   - DOMAIN,tracker.ipfsscan.io
   - DOMAIN,tracker.itscraftsoftware.my.id
-  - DOMAIN,tracker.jamesthebard.net
   - DOMAIN,tracker.k.vu
   - DOMAIN,tracker.kuroy.me
   - DOMAIN,tracker.lilithraws.org
@@ -107,6 +106,7 @@ payload:
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
   - DOMAIN,tracker.tamersunion.org
+  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
@@ -116,6 +116,7 @@ payload:
   - DOMAIN,tracker1.520.jp
   - DOMAIN,tracker1.bt.moack.co.kr
   - DOMAIN,tracker1.itzmx.com
+  - DOMAIN,tracker1.myporn.club
   - DOMAIN,tracker2.dler.org
   - DOMAIN,tracker2.itzmx.com
   - DOMAIN,tracker3.itzmx.com
@@ -259,5 +260,4 @@ payload:
   - DOMAIN-KEYWORD,torrent
   - IP-CIDR,207.241.226.111/32,no-resolve
   - IP-CIDR,207.241.231.226/32,no-resolve
-  - IP-CIDR,49.12.76.8/32,no-resolve
   - IP-CIDR,52.58.128.163/32,no-resolve

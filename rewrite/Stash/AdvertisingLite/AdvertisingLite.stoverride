@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-09-24 02:16:14
+desc: 最后更新时间 2024-09-29 02:15:23
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1158
-# mitm: 852
+# reject: 1162
+# mitm: 855
 # force-http-engine-hosts: 6
-# total: 2016
+# total: 2023
 
 
 
@@ -60,6 +60,7 @@ http:
     - ^https:\/\/dict\.youdao\.com\/homepage\/tile - reject
     - ^https:\/\/dict\.youdao\.com\/vip\/activity\/couponinfo - reject
     - ^https:\/\/dinamicx\.alibabausercontent\.com\/pub\/fish_home_top_kingkong_new\/ - reject
+    - ^https:\/\/ether-pack\.pangolin-sdk-toutiao\.com\/union\/endcard\/ - reject
     - ^https:\/\/file\.dian\.so\/c\/leto - reject
     - ^https:\/\/gw\.chuangkit\.com\/team\/app\/common\/ad\/ - reject
     - ^https:\/\/gw\.xiaocantech\.com\/g\/pa - reject
@@ -99,6 +100,7 @@ http:
     - ^https:\/\/vapp\.tmuyun\.com\/api\/buoy\/list - reject
     - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
     - ^https:\/\/web2\.realtech-inc\.com\/oss\/xc-app-assets\/configs\/common\/theme\.json - reject
+    - ^https:\/\/webcast-open\.douyin\.com\/webcast\/openapi\/feed\/\? - reject
     - ^https:\/\/www\.ymm56\.com\/short-distance-match-app\/openAppAd - reject
     - ^https:\/\/wx\.17u\.cn\/crapi\/query\/ad - reject
     - ^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad - reject
@@ -604,6 +606,7 @@ http:
     - ^https?:\/\/gha\.ghac\.cn\:8081\/base\/app\/api\/ad\/query\?adType - reject
     - ^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/index_activity\/get_app_index_activity - reject
     - ^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther - reject
+    - ^https?:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
     - ^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/app-start - reject
     - ^https?:\/\/gongdu\.youshu\.cc\/m\/open_screen\/list_by_udid - reject
     - ^https?:\/\/gorgon\.youdao\.com\/gorgon - reject
@@ -963,6 +966,7 @@ http:
     - ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
     - ^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson - reject
     - ^https?:\/\/sf3-be-pack\.pglstatp-toutiao\.com\/img\/ad\.union\.api - reject
+    - ^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/ - reject
     - ^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/(screen|ad) - reject
     - ^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/screen - reject
     - ^https?:\/\/shcss\.suning\.com\/shcss-web\/api\/appImage\/queryAppImage\.do - reject
@@ -1543,6 +1547,7 @@ http:
     - "entry.ubixioe.com"
     - "erebor.douban.com"
     - "esdk.tymcdn.com"
+    - "ether-pack.pangolin-sdk-toutiao.com"
     - "evs.500.com"
     - "explorer.tratao.com"
     - "facade-api.black-unique.com"
@@ -1880,6 +1885,7 @@ http:
     - "service.haiersmarthomes.com"
     - "service.iciba.com"
     - "sf3-be-pack.pglstatp-toutiao.com"
+    - "sf3-fe-tos.pglstatp-toutiao.com"
     - "sfo.mddcloud.com.cn"
     - "sh-gateway.shihuo.cn"
     - "shcss.suning.com"
@@ -1977,6 +1983,7 @@ http:
     - "web2.realtech-inc.com"
     - "webappcfg.paas.cmbchina.com"
     - "webboot.zhangyue.com"
+    - "webcast-open.douyin.com"
     - "webcdn.m.qq.com"
     - "wechat.tf.cn"
     - "weibointl.api.weibo.cn"

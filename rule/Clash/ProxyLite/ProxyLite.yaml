@@ -1,13 +1,13 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-08-28 02:12:42
+# UPDATED: 2024-09-29 02:12:26
 # DOMAIN: 25
 # DOMAIN-KEYWORD: 22
-# DOMAIN-SUFFIX: 846
+# DOMAIN-SUFFIX: 847
 # IP-CIDR: 89
 # IP-CIDR6: 4
-# TOTAL: 986
+# TOTAL: 987
 payload:
   - DOMAIN,addons.mozilla.org
   - DOMAIN,amp-api.podcasts.apple.com
@@ -530,6 +530,7 @@ payload:
   - DOMAIN-SUFFIX,potato.im
   - DOMAIN-SUFFIX,prism-break.org
   - DOMAIN-SUFFIX,privoxy.org
+  - DOMAIN-SUFFIX,proton.me
   - DOMAIN-SUFFIX,proxfree.com
   - DOMAIN-SUFFIX,proxifier.com
   - DOMAIN-SUFFIX,pscp.tv

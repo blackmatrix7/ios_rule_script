@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2024-09-29 02:15:23
+#!desc= 最后更新时间 2024-09-30 02:15:43
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 1162
+#!reject= 1159
 #!mitm= 855
-#!total= 2017
+#!total= 2014
 
 
 [Rewrite]
@@ -231,9 +231,6 @@
 ^https?:\/\/api\.applovefrom\.com\/api\/v\d\/splash\/ - reject
 ^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/ads\/ - reject
 ^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/ver/index_ios$ - reject
-^https?:\/\/api\.boohee\.com\/app-interface\/v1\/record\/record_tool(_pop)?_ad - reject-dict
-^https?:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/(discover_chosen|page_float_bubbles) - reject-dict
-^https?:\/\/api\.boohee\.com\/shop-interface\/api\/v1\/home\/index - reject-dict
 ^https?:\/\/api\.bwton\.com\/bas\/ad - reject-200
 ^https?:\/\/api\.bwton\.com\/bff\/app\/h5\/v1\/station\/goods - reject-dict
 ^https?:\/\/api\.bwton\.com\/bff\/app\/index\/goods - reject-dict

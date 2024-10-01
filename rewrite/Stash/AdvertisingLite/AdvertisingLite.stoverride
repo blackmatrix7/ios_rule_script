@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-09-30 02:15:43
+desc: 最后更新时间 2024-10-02 02:16:16
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1159
-# mitm: 855
+# reject: 1160
+# mitm: 856
 # force-http-engine-hosts: 6
-# total: 2020
+# total: 2022
 
 
 
@@ -284,6 +284,7 @@ http:
     - ^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/ - reject
     - ^https?:\/\/api\.kkmh\.com\/v\d\/ad\/show - reject
     - ^https?:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/(resource|banner) - reject
+    - ^https?:\/\/api\.kurobbs\.com\/config\/getOpenScreen - reject
     - ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
     - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=getWidgetV1052 - reject
     - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=home_launchConfig - reject
@@ -1304,6 +1305,7 @@ http:
     - "api.k.sohu.com"
     - "api.kkmh.com"
     - "api.kmovie.gifshow.com"
+    - "api.kurobbs.com"
     - "api.laifeng.com"
     - "api.lkcoffee.com"
     - "api.m.jd.com"

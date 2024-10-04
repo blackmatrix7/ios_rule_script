@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-10-02 02:15:56
+desc: 最后更新时间 2024-10-05 02:16:00
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 692
-# mitm: 726
+# reject: 693
+# mitm: 727
 # force-http-engine-hosts: 6
-# total: 1463
+# total: 1465
 
 
 
@@ -245,6 +245,7 @@ http:
     - ^https?:\/\/api\.moomoo\.com(\/v\d)?\/ad - reject
     - ^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
     - ^https?:\/\/api\.qbb6\.com\/ad\/ - reject
+    - ^https?:\/\/api\.qd-metro\.com\/ngstatic\/appScreenAds - reject
     - ^https?:\/\/api\.qiuduoduo\.cn\/guideimage - reject
     - ^https?:\/\/api\.rr\.tv\/ad\/ - reject
     - ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks - reject
@@ -1071,6 +1072,7 @@ http:
     - "api.pinduoduo.com"
     - "api.psy-1.com"
     - "api.qbb6.com"
+    - "api.qd-metro.com"
     - "api.qiuduoduo.cn"
     - "api.rr.tv"
     - "api.sfacg.com"

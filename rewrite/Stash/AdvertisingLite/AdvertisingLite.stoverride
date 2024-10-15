@@ -1,5 +1,5 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-10-14 02:15:46
+desc: 最后更新时间 2024-10-16 02:16:18
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 1164
@@ -713,7 +713,6 @@ http:
     - ^https?:\/\/jad-api\.jin10\.com\/ad - reject
     - ^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/channel\/module\/opens - reject
     - ^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/popup - reject
-    - ^https?:\/\/jiucaigongshe\.oss-cn-beijing\.aliyuncs\.com\/[A-Z0-9]{8}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{12}\.png - reject
     - ^https?:\/\/js-ad\.ayximgs\.com\.ad-universe-cdn\.hzhcbkj\.cn\/xgapp\.php\/v2\/top_notice - reject
     - ^https?:\/\/jxd524\.github\.io\/iFreeTime\/xid32uxaoecnfv2\/ - reject
     - ^https?:\/\/jz\.wacaijizhang\.com\/api\/banners\/newSplash - reject
@@ -1135,6 +1134,7 @@ http:
     - ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/update\/startupPage\/v1 - reject
     - ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/h\/headlines\/queryHeadlines - reject
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
+    - ^https?:\/\/zjh5api\.ott4china\.com:8091\/cp-api\/view\/config\/pos - reject
     - ^https?:\/\/zjmbank\.js96008\.com:8090\/gw\/advert\/oprAdvertQry - reject
     - ^https?:\/\/zlsdk\.1rtb\.net\/sdk\/req_ad\? - reject
     - ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do - reject
@@ -1674,7 +1674,6 @@ http:
     - "j5.dfcfw.com"
     - "jad-api.jin10.com"
     - "jdread-api.jd.com"
-    - "jiucaigongshe.oss-cn-beijing.aliyuncs.com"
     - "js-ad.ayximgs.com.ad-universe-cdn.hzhcbkj.cn"
     - "jxd524.github.io"
     - "jz.wacaijizhang.com"
@@ -2040,6 +2039,7 @@ http:
     - "zconfig.alibabausercontent.com"
     - "zgrb.epicc.com.cn"
     - "zjh5api.189smarthome.com"
+    - "zjh5api.ott4china.com"
     - "zjmbank.js96008.com"
     - "zlsdk.1rtb.net"
     - "zone.guiderank-app.com"

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-10-13 02:16:06
+desc: 最后更新时间 2024-10-16 02:15:55
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 726
-# mitm: 681
+# reject: 727
+# mitm: 682
 # force-http-engine-hosts: 6
-# total: 1413
+# total: 1415
 
 
 
@@ -734,6 +734,7 @@ http:
     - ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig - reject
     - ^https?:\/\/zjdr666\.com\/zjdr\.php\/v\d\/(version|top_notice\?|advert\?position=[^2]+) - reject
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
+    - ^https?:\/\/zjh5api\.ott4china\.com:8091\/cp-api\/view\/config\/pos - reject
     - ^https?:\/\/zjmbank\.js96008\.com:8090\/gw\/advert\/oprAdvertQry - reject
     - ^https?:\/\/zlsdk\.1rtb\.net\/sdk\/req_ad\? - reject
     - ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do - reject
@@ -1427,6 +1428,7 @@ http:
     - "zconfig.alibabausercontent.com"
     - "zjdr666.com"
     - "zjh5api.189smarthome.com"
+    - "zjh5api.ott4china.com"
     - "zjmbank.js96008.com"
     - "zlsdk.1rtb.net"
     - "zone.guiderank-app.com"

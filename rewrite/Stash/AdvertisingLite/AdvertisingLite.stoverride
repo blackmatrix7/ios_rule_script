@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-10-16 02:16:18
+desc: 最后更新时间 2024-10-19 02:15:55
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1164
+# reject: 1165
 # mitm: 858
 # force-http-engine-hosts: 6
-# total: 2028
+# total: 2029
 
 
 
@@ -302,6 +302,7 @@ http:
     - ^https?:\/\/api\.nj\.nbtv\.cn\/v2\/advertise\/advertise-r1\/get-list\?data=u8obKDIrIWt2NR9wBuMwQ5O61eEsP - reject
     - ^https?:\/\/api\.nj\.nbtv\.cn\/v\d\/common\/system-boot-inform\/detail - reject
     - ^https?:\/\/api\.petkit\.cn\/6\/\/device\/relatedProductsInfo - reject
+    - ^https?:\/\/api\.pinduoduo\.com\/api\/aquarius\/hungary\/global\/homepage\? - reject
     - ^https?:\/\/api\.pinduoduo\.com\/api\/ktt_gateway\/activity\/feeds\/personal_home_page\/ - reject
     - ^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
     - ^https?:\/\/api\.qbb6\.com\/ad\/ - reject

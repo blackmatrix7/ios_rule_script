@@ -1,10 +1,10 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-10-16 02:16:18
+#!desc=最后更新时间 2024-10-19 02:15:55
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=1164
+#!reject=1165
 #!mitm=858
-#!total=2022
+#!total=2023
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -19,7 +19,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 ^http?:\/\/images\.pinduoduo\.com\/marketing\_api - reject-200
 ^http?:\/\/sfo\.mddcloud\.com\.cn\/api\/v2\/sfo\/popup_displays? - reject-dict
 ^http?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds\.php - reject-dict
-^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/bookshelf\/refresh - reject-200
+^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/bookshelf\/refresh - reject-dict
 ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/adshow\? - reject-dict
 ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/go_gossip_darwin\/external\/v2\/query_flow_cards\? - reject-dict
 ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/pay\/v5\/check_gift\? - reject-dict
@@ -299,6 +299,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 ^https?:\/\/api\.nj\.nbtv\.cn\/v2\/advertise\/advertise-r1\/get-list\?data=u8obKDIrIWt2NR9wBuMwQ5O61eEsP - reject-200
 ^https?:\/\/api\.nj\.nbtv\.cn\/v\d\/common\/system-boot-inform\/detail - reject-200
 ^https?:\/\/api\.petkit\.cn\/6\/\/device\/relatedProductsInfo - reject-dict
+^https?:\/\/api\.pinduoduo\.com\/api\/aquarius\/hungary\/global\/homepage\? - reject-dict
 ^https?:\/\/api\.pinduoduo\.com\/api\/ktt_gateway\/activity\/feeds\/personal_home_page\/ - reject
 ^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
 ^https?:\/\/api\.qbb6\.com\/ad\/ - reject

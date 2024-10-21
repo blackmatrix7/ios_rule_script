@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-10-18 02:15:46
+desc: 最后更新时间 2024-10-22 02:17:04
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 694
-# mitm: 729
+# reject: 695
+# mitm: 730
 # force-http-engine-hosts: 6
-# total: 1468
+# total: 1470
 
 
 
@@ -307,6 +307,7 @@ http:
     - ^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list - reject
     - ^https?:\/\/app\.homeinns\.com\/api\/landing - reject
     - ^https?:\/\/app\.ibuscloud\.com\/v\d\/(app\/getSkipAdvert|notice\/getNoticeWithAdvByCity) - reject
+    - ^https?:\/\/app\.jiantou8\.com\/Home\/APP\/allAd - reject
     - ^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad - reject
     - ^https?:\/\/app\.peopleapp\.com\/Api\/\d+/HomeApi\/(adv|getAdvertImage) - reject
     - ^https?:\/\/app\.poizon\.com\/api\/v\d\/app\/advertisement\/ - reject
@@ -1134,6 +1135,7 @@ http:
     - "app.hbooker.com"
     - "app.homeinns.com"
     - "app.ibuscloud.com"
+    - "app.jiantou8.com"
     - "app.mixcapp.com"
     - "app.poizon.com"
     - "app.relxtech.com"

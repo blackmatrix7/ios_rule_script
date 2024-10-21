@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-10-19 02:15:55
+desc: 最后更新时间 2024-10-22 02:17:24
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1165
-# mitm: 858
+# reject: 1166
+# mitm: 859
 # force-http-engine-hosts: 6
-# total: 2029
+# total: 2031
 
 
 
@@ -381,6 +381,7 @@ http:
     - ^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list - reject
     - ^https?:\/\/app\.homeinns\.com\/api\/landing - reject
     - ^https?:\/\/app\.ibuscloud\.com\/v\d\/(app\/getSkipAdvert|notice\/getNoticeWithAdvByCity) - reject
+    - ^https?:\/\/app\.jiantou8\.com\/Home\/APP\/allAd - reject
     - ^https?:\/\/app\.meruki\.cn\/\?n=Sig\.Front\.AppFront\.GetOpenAdDoorzo - reject
     - ^https?:\/\/app\.missevan\.com\/site\/launch\? - reject
     - ^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad - reject
@@ -1394,6 +1395,7 @@ http:
     - "app.hbooker.com"
     - "app.homeinns.com"
     - "app.ibuscloud.com"
+    - "app.jiantou8.com"
     - "app.meruki.cn"
     - "app.missevan.com"
     - "app.mixcapp.com"

@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-10-22 02:17:24
+desc: 最后更新时间 2024-10-26 02:17:14
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1166
-# mitm: 859
+# reject: 1169
+# mitm: 861
 # force-http-engine-hosts: 6
-# total: 2031
+# total: 2036
 
 
 
@@ -50,6 +50,8 @@ http:
     - ^https:\/\/api\.ulife\.group\/market\/memberCard\/listMemberCard\?isShowSecondaryCard=1 - reject
     - ^https:\/\/api\.ulife\.group\/signintask\/adServing - reject
     - ^https:\/\/appapi\.caiyicloud\.com\/cyy_gatewayapi\/home\/pub\/v3\/banners\/app_start_page - reject
+    - ^https:\/\/booking\.bestwehotel\.com\/proxy\/trip-hotel-banner\/activity\/getActivityInfo - reject
+    - ^https:\/\/cache\.bydauto\.com\.cn\/dilink_user_upload\/20 - reject
     - ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
     - ^https:\/\/cdke\.youdao\.com\/course3\/recommend\/dict\/startup - reject
     - ^https:\/\/chat-live\.soulapp\.cn\/live\/planet\/recListV2 - reject
@@ -815,6 +817,7 @@ http:
     - ^https?:\/\/mkt-gateway\.tuhu\.cn\/mkt-scene-marketing-service\/api\/scene\/queryScheme - reject
     - ^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 - reject
     - ^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend - reject
+    - ^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend\/(?!v2\/platactivity.*) - reject
     - ^https?:\/\/mmg\.aty\.sohu\.com\/mqs? - reject
     - ^https?:\/\/mmg\.aty\.sohu\.com\/pvlog? - reject
     - ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ - reject
@@ -1442,6 +1445,7 @@ http:
     - "bodianimgcdn.kuwo.cn"
     - "bohe.sfo-tx-shanghai-01.saas.sensorsdata.cn"
     - "book.img.ireader.com"
+    - "booking.bestwehotel.com"
     - "bp-api.bestv.com.cn"
     - "bp-image.bestv.com.cn"
     - "btrace.qq.com"
@@ -1450,6 +1454,7 @@ http:
     - "c.m.163.com"
     - "c.tieba.baidu.com"
     - "c.zhangle.com"
+    - "cache.bydauto.com.cn"
     - "cap.caocaokeji.cn"
     - "capi.douyucdn.cn"
     - "capi.lkcoffee.com"

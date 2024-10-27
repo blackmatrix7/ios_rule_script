@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-10-22 02:17:04
+desc: 最后更新时间 2024-10-28 02:15:01
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 695
-# mitm: 730
+# reject: 696
+# mitm: 731
 # force-http-engine-hosts: 6
-# total: 1470
+# total: 1472
 
 
 
@@ -628,6 +628,7 @@ http:
     - ^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash - reject
     - ^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
+    - ^https?:\/\/siteapi\.zaixs\.com\/.*\/start_ad - reject
     - ^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/ - reject
     - ^https?:\/\/smsrebuild1\.mail\.10086\.cn\/together\/s - reject
     - ^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull? - reject
@@ -1480,6 +1481,7 @@ http:
     - "shop-api.retail.mi.com"
     - "shopapi.io.mi.com"
     - "shopic.sf-express.com"
+    - "siteapi.zaixs.com"
     - "smarket.dian.so"
     - "smkmp.96225.com"
     - "smsrebuild1.mail.10086.cn"

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-10-22 02:17:00
+desc: 最后更新时间 2024-10-28 02:14:57
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 729
-# mitm: 684
+# reject: 730
+# mitm: 685
 # force-http-engine-hosts: 6
-# total: 1419
+# total: 1421
 
 
 
@@ -642,6 +642,7 @@ http:
     - ^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash - reject
     - ^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
+    - ^https?:\/\/siteapi\.zaixs\.com\/.*\/start_ad - reject
     - ^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/ - reject
     - ^https?:\/\/smsrebuild1\.mail\.10086\.cn\/together\/s - reject
     - ^https?:\/\/snailsleep\.net\/snail\/v1\/adTask\/ - reject
@@ -1321,6 +1322,7 @@ http:
     - "shop-api.retail.mi.com"
     - "shopapi.io.mi.com"
     - "shopic.sf-express.com"
+    - "siteapi.zaixs.com"
     - "smarket.dian.so"
     - "smkmp.96225.com"
     - "smsrebuild1.mail.10086.cn"

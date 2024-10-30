@@ -1,12 +1,12 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2024-10-29 02:16:41
+#!desc=最后更新时间 2024-10-31 02:16:20
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
-#!reject=1171
+#!reject=1172
 #!mitm=862
 #!force-http-engine-hosts=6
-#!total=2039
+#!total=2040
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -947,6 +947,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/bookshelf\/getTopOperation" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/followsubscribe" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+"^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/startUpScreen" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/splash" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/mama\.dxy\.com\/api\/cms\/client\/popup-window\/list" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"

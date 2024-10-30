@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2024-10-28 02:15:06
+#!desc=最后更新时间 2024-10-31 02:16:05
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
@@ -8,10 +8,10 @@
 #!http-request-script=1
 #!http-response-script=25
 #!redirect=62
-#!reject=746
+#!reject=747
 #!mitm=818
 #!force-http-engine-hosts=6
-#!total=1667
+#!total=1668
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -620,6 +620,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 "^https?:\/\/ma-adx\.ctrip\.com\/_ma\.gif" - reject
 "^https?:\/\/mage\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen" - reject
 "^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/" - reject
+"^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/startUpScreen" - reject
 "^https?:\/\/mama\.dxy\.com\/api\/cms\/client\/popup-window\/list" - reject
 "^https?:\/\/mangaapi\.manhuaren\.com\/v2\/public\/getShelfActivity" - reject
 "^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get" - reject

@@ -1,12 +1,12 @@
 #!name=Advertising
-#!desc=最后更新时间 2024-10-28 02:14:57
+#!desc=最后更新时间 2024-10-31 02:15:56
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
-#!reject=730
+#!reject=731
 #!mitm=685
 #!force-http-engine-hosts=6
-#!total=1421
+#!total=1422
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -657,6 +657,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/m\d\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/m\d\.amap\.com\/ws\/mapapi\/hint_text\/offline_data?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/m\d\.amap\.com\/ws\/message\/notice\/list\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+"^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/startUpScreen" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/mama\.dxy\.com\/api\/cms\/client\/popup-window\/list" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/mix-api\.camera360\.com\/v\d\/operational-positions" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"

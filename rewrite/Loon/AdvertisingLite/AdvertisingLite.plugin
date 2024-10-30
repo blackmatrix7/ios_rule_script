@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2024-10-29 02:16:41
+#!desc= 最后更新时间 2024-10-31 02:16:20
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 1171
+#!reject= 1172
 #!mitm= 862
-#!total= 2033
+#!total= 2034
 
 
 [Rewrite]
@@ -773,6 +773,7 @@
 ^https?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/bookshelf\/getTopOperation - reject-dict
 ^https?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/followsubscribe - reject-dict
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject-dict
+^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/startUpScreen - reject-200
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/getHomeAdPop - reject
 ^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info - reject-dict
 ^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/splash - reject-dict

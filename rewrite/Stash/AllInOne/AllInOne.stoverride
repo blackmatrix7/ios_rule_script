@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-10-31 02:16:00
+desc: 最后更新时间 2024-11-03 02:15:31
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 697
-# mitm: 731
+# reject: 698
+# mitm: 732
 # force-http-engine-hosts: 6
-# total: 1473
+# total: 1475
 
 
 
@@ -473,6 +473,7 @@ http:
     - ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
     - ^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(getSystemConf|bootScreen) - reject
     - ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/(guanggao|ts_ad)\/ - reject
+    - ^https?:\/\/iyes\.youku\.com\/uts/v\d\/start - reject
     - ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
     - ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
     - ^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v1\? - reject
@@ -1320,6 +1321,7 @@ http:
     - "ios.wps.cn"
     - "iphone.ac.qq.com"
     - "issuecdn.baidupcs.com"
+    - "iyes.youku.com"
     - "j-image.missfresh.cn"
     - "j1.pupuapi.com"
     - "jabi.coding.net"

@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-10-31 02:15:56
+desc: 最后更新时间 2024-11-03 02:15:27
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 731
-# mitm: 685
+# reject: 732
+# mitm: 686
 # force-http-engine-hosts: 6
-# total: 1422
+# total: 1424
 
 
 
@@ -486,6 +486,7 @@ http:
     - ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
     - ^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(getSystemConf|bootScreen) - reject
     - ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/(guanggao|ts_ad)\/ - reject
+    - ^https?:\/\/iyes\.youku\.com\/uts/v\d\/start - reject
     - ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
     - ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
     - ^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v1\? - reject
@@ -1160,6 +1161,7 @@ http:
     - "iosoi.cn"
     - "iphone.ac.qq.com"
     - "issuecdn.baidupcs.com"
+    - "iyes.youku.com"
     - "j-image.missfresh.cn"
     - "j1.pupuapi.com"
     - "jabi.coding.net"

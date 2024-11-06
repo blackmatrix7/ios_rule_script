@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-11-03 02:15:31
+desc: 最后更新时间 2024-11-07 02:16:41
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 698
-# mitm: 732
+# reject: 699
+# mitm: 733
 # force-http-engine-hosts: 6
-# total: 1475
+# total: 1477
 
 
 
@@ -581,6 +581,7 @@ http:
     - ^https?:\/\/pan\.baidu\.com\/act\/v\d\/welfare\/list - reject
     - ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad - reject
     - ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx - reject
+    - ^https?:\/\/patientgate\.91160\.com\/advert-api\/v\d\/advert - reject
     - ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ - reject
     - ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage - reject
     - ^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/ - reject
@@ -1436,6 +1437,7 @@ http:
     - "passenger.t3go.cn"
     - "passengerapi.saicmobility.com"
     - "passport.biliintl.com"
+    - "patientgate.91160.com"
     - "pcvideoyd.titan.mgtv.com"
     - "peisongapi.meituan.com"
     - "pic*.ajkimg.com"

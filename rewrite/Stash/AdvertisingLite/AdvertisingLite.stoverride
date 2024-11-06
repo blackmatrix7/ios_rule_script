@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-11-03 02:15:51
+desc: 最后更新时间 2024-11-07 02:17:01
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1173
-# mitm: 863
+# reject: 1174
+# mitm: 864
 # force-http-engine-hosts: 6
-# total: 2042
+# total: 2044
 
 
 
@@ -907,6 +907,7 @@ http:
     - ^https?:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info - reject
     - ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad - reject
     - ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx - reject
+    - ^https?:\/\/patientgate\.91160\.com\/advert-api\/v\d\/advert - reject
     - ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage - reject
     - ^https?:\/\/photocdn\.sohu\.com\/tvmobilemvms - reject
     - ^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/ - reject
@@ -1835,6 +1836,7 @@ http:
     - "pan-api.bitqiu.com"
     - "pan.baidu.com"
     - "patient-api.suh.cn"
+    - "patientgate.91160.com"
     - "peisongapi.meituan.com"
     - "photocdn.sohu.com"
     - "pic*.ajkimg.com"

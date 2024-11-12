@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-10-22 02:17:04
+desc: 最后更新时间 2024-11-07 02:16:41
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 695
-# mitm: 730
+# reject: 699
+# mitm: 733
 # force-http-engine-hosts: 6
-# total: 1470
+# total: 1477
 
 
 
@@ -473,6 +473,7 @@ http:
     - ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
     - ^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(getSystemConf|bootScreen) - reject
     - ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/(guanggao|ts_ad)\/ - reject
+    - ^https?:\/\/iyes\.youku\.com\/uts/v\d\/start - reject
     - ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
     - ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
     - ^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v1\? - reject
@@ -510,6 +511,7 @@ http:
     - ^https?:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject
     - ^https?:\/\/mage\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen - reject
     - ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject
+    - ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/startUpScreen - reject
     - ^https?:\/\/mama\.dxy\.com\/api\/cms\/client\/popup-window\/list - reject
     - ^https?:\/\/mangaapi\.manhuaren\.com\/v2\/public\/getShelfActivity - reject
     - ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get - reject
@@ -579,6 +581,7 @@ http:
     - ^https?:\/\/pan\.baidu\.com\/act\/v\d\/welfare\/list - reject
     - ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad - reject
     - ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx - reject
+    - ^https?:\/\/patientgate\.91160\.com\/advert-api\/v\d\/advert - reject
     - ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ - reject
     - ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage - reject
     - ^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/ - reject
@@ -628,6 +631,7 @@ http:
     - ^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash - reject
     - ^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
+    - ^https?:\/\/siteapi\.zaixs\.com\/.*\/start_ad - reject
     - ^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/ - reject
     - ^https?:\/\/smsrebuild1\.mail\.10086\.cn\/together\/s - reject
     - ^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull? - reject
@@ -1318,6 +1322,7 @@ http:
     - "ios.wps.cn"
     - "iphone.ac.qq.com"
     - "issuecdn.baidupcs.com"
+    - "iyes.youku.com"
     - "j-image.missfresh.cn"
     - "j1.pupuapi.com"
     - "jabi.coding.net"
@@ -1432,6 +1437,7 @@ http:
     - "passenger.t3go.cn"
     - "passengerapi.saicmobility.com"
     - "passport.biliintl.com"
+    - "patientgate.91160.com"
     - "pcvideoyd.titan.mgtv.com"
     - "peisongapi.meituan.com"
     - "pic*.ajkimg.com"
@@ -1480,6 +1486,7 @@ http:
     - "shop-api.retail.mi.com"
     - "shopapi.io.mi.com"
     - "shopic.sf-express.com"
+    - "siteapi.zaixs.com"
     - "smarket.dian.so"
     - "smkmp.96225.com"
     - "smsrebuild1.mail.10086.cn"

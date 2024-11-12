@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-11-07 02:17:01
+desc: 最后更新时间 2024-11-13 02:16:20
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1174
-# mitm: 864
+# reject: 1175
+# mitm: 865
 # force-http-engine-hosts: 6
-# total: 2044
+# total: 2046
 
 
 
@@ -647,6 +647,7 @@ http:
     - ^https?:\/\/hz\.yxzq\.com\/news-configserver\/api\/v1\/query\/banner_advertisement - reject
     - ^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+?_\d{3}x\d{4} - reject
     - ^https?:\/\/i\.ys7\.com\/api\/ads - reject
+    - ^https?:\/\/i\.zhaojinapp\.com\/APPAD - reject
     - ^https?:\/\/i\d\.hdslb\.com\/bfs\/fawkes - reject
     - ^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(jpg|png)$ - reject
     - ^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\/\d+\/\d+\/BbsImg\.(?<=(big.(png|jpg)))$ - reject
@@ -1637,6 +1638,7 @@ http:
     - "i*.hdslb.com"
     - "i*.hoopchina.com.cn"
     - "i.ys7.com"
+    - "i.zhaojinapp.com"
     - "iadmusicmat.music.126.net"
     - "iapi.bishijie.com"
     - "iface.iqiyi.com"

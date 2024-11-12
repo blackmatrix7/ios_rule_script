@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-11-07 02:16:36
+desc: 最后更新时间 2024-11-13 02:15:55
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 733
-# mitm: 687
+# reject: 734
+# mitm: 688
 # force-http-engine-hosts: 6
-# total: 1426
+# total: 1428
 
 
 
@@ -453,6 +453,7 @@ http:
     - ^https?:\/\/hxqapi\.hiyun\.tv\/api\/notification\/plans - reject
     - ^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+?_\d{3}x\d{4} - reject
     - ^https?:\/\/i\.ys7\.com\/api\/ads - reject
+    - ^https?:\/\/i\.zhaojinapp\.com\/APPAD - reject
     - ^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\/\d+\/\d+\/BbsImg\.(?<=(big.(png|jpg)))$ - reject
     - ^https?:\/\/iadmusicmat\.music\.126\.net\/.*?jpg$ - reject
     - ^https?:\/\/iapi\.bishijie\.com\/actopen\/v\d\/advertising\/ - reject
@@ -1135,6 +1136,7 @@ http:
     - "hxqapi.hiyun.tv"
     - "i*.hoopchina.com.cn"
     - "i.ys7.com"
+    - "i.zhaojinapp.com"
     - "iadmusicmat.music.126.net"
     - "iadmusicmat.music.com"
     - "iapi.bishijie.com"

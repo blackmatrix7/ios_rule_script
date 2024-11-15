@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-11-13 02:15:55
+desc: 最后更新时间 2024-11-16 02:16:03
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 734
-# mitm: 688
+# mitm: 689
 # force-http-engine-hosts: 6
-# total: 1428
+# total: 1429
 
 
 
@@ -800,6 +800,7 @@ http:
     - "*gaoqingdianshi.com"
     - "*mangaapi.manhuaren.*"
     - "101.201.175.228"
+    - "101.227.139.118"
     - "103.41.167.*"
     - "103.91.210.141"
     - "103.91.210.141:2515"

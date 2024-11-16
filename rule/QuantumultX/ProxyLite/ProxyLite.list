@@ -1,14 +1,14 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-11-08 02:13:21
-# HOST: 24
-# HOST-KEYWORD: 22
-# HOST-SUFFIX: 848
-# IP-CIDR: 89
+# UPDATED: 2024-11-17 02:12:46
+# HOST: 23
+# HOST-KEYWORD: 20
+# HOST-SUFFIX: 842
+# IP-CIDR: 86
 # IP6-CIDR: 4
-# USER-AGENT: 7
-# TOTAL: 994
+# USER-AGENT: 6
+# TOTAL: 981
 HOST,addons.mozilla.org,ProxyLite
 HOST,amp-api.podcasts.apple.com,ProxyLite
 HOST,api.msn.com,ProxyLite
@@ -28,7 +28,6 @@ HOST,lab.skk.moe,ProxyLite
 HOST,location.microsoft.com,ProxyLite
 HOST,login.microsoftonline.com,ProxyLite
 HOST,ocsp.int-x3.letsencrypt.org,ProxyLite
-HOST,openaiapi-site.azureedge.net,ProxyLite
 HOST,search.yahoo.co.jp,ProxyLite
 HOST,self.events.data.microsoft.com,ProxyLite
 HOST,tv.apple.com,ProxyLite
@@ -75,6 +74,7 @@ HOST-SUFFIX,apache.org,ProxyLite
 HOST-SUFFIX,api.amplitude.com,ProxyLite
 HOST-SUFFIX,api.mixpanel.com,ProxyLite
 HOST-SUFFIX,api.termius.com,ProxyLite
+HOST-SUFFIX,api.tiktokv.com,ProxyLite
 HOST-SUFFIX,apk-dl.com,ProxyLite
 HOST-SUFFIX,apkmirror.com,ProxyLite
 HOST-SUFFIX,apkpure.com,ProxyLite
@@ -147,7 +147,6 @@ HOST-SUFFIX,btlibrary.me,ProxyLite
 HOST-SUFFIX,bullguard.com,ProxyLite
 HOST-SUFFIX,buzzsprout.com,ProxyLite
 HOST-SUFFIX,bybit.com,ProxyLite
-HOST-SUFFIX,byteoversea.com,ProxyLite
 HOST-SUFFIX,c-span.org,ProxyLite
 HOST-SUFFIX,cachefly.net,ProxyLite
 HOST-SUFFIX,castbox.fm,ProxyLite
@@ -327,8 +326,6 @@ HOST-SUFFIX,hulu.com,ProxyLite
 HOST-SUFFIX,humblebundle.com,ProxyLite
 HOST-SUFFIX,huobi.com,ProxyLite
 HOST-SUFFIX,i-cable.com,ProxyLite
-HOST-SUFFIX,ibytedtos.com,ProxyLite
-HOST-SUFFIX,ibyteimg.com,ProxyLite
 HOST-SUFFIX,icntv.xyz,ProxyLite
 HOST-SUFFIX,icoco.com,ProxyLite
 HOST-SUFFIX,icons8.com,ProxyLite
@@ -352,7 +349,6 @@ HOST-SUFFIX,io.io,ProxyLite
 HOST-SUFFIX,ip.sb,ProxyLite
 HOST-SUFFIX,ipaddress.com,ProxyLite
 HOST-SUFFIX,ipn.li,ProxyLite
-HOST-SUFFIX,ipstatp.com,ProxyLite
 HOST-SUFFIX,is.gd,ProxyLite
 HOST-SUFFIX,ishowsapp.com,ProxyLite
 HOST-SUFFIX,issuu.com,ProxyLite
@@ -432,7 +428,6 @@ HOST-SUFFIX,moon.fm,ProxyLite
 HOST-SUFFIX,moves-export.com,ProxyLite
 HOST-SUFFIX,mp3buscador.com,ProxyLite
 HOST-SUFFIX,mubi.com,ProxyLite
-HOST-SUFFIX,muscdn.com,ProxyLite
 HOST-SUFFIX,mvnrepository.com,ProxyLite
 HOST-SUFFIX,mycnnews.com,ProxyLite
 HOST-SUFFIX,myfontastic.com,ProxyLite
@@ -578,7 +573,6 @@ HOST-SUFFIX,scmp.com,ProxyLite
 HOST-SUFFIX,scribd.com,ProxyLite
 HOST-SUFFIX,search.com,ProxyLite
 HOST-SUFFIX,sexinsex.net,ProxyLite
-HOST-SUFFIX,sgpstatp.com,ProxyLite
 HOST-SUFFIX,shadowsocks.org,ProxyLite
 HOST-SUFFIX,shadowverse.jp,ProxyLite
 HOST-SUFFIX,shutterstock.com,ProxyLite
@@ -678,7 +672,6 @@ HOST-SUFFIX,thepiratebay.org,ProxyLite
 HOST-SUFFIX,thetvdb.com,ProxyLite
 HOST-SUFFIX,theverge.com,ProxyLite
 HOST-SUFFIX,thewgo.org,ProxyLite
-HOST-SUFFIX,tik-tokapi.com,ProxyLite
 HOST-SUFFIX,time.com,ProxyLite
 HOST-SUFFIX,timeinc.net,ProxyLite
 HOST-SUFFIX,tinder.com,ProxyLite
@@ -892,13 +885,11 @@ HOST-KEYWORD,dropbox,ProxyLite
 HOST-KEYWORD,facebook,ProxyLite
 HOST-KEYWORD,fbcdn,ProxyLite
 HOST-KEYWORD,instagram,ProxyLite
-HOST-KEYWORD,musical.ly,ProxyLite
 HOST-KEYWORD,paypal,ProxyLite
 HOST-KEYWORD,porn,ProxyLite
 HOST-KEYWORD,sci-hub,ProxyLite
 HOST-KEYWORD,spotify,ProxyLite
 HOST-KEYWORD,telegram,ProxyLite
-HOST-KEYWORD,tiktok,ProxyLite
 HOST-KEYWORD,ttvnw,ProxyLite
 HOST-KEYWORD,twitter,ProxyLite
 HOST-KEYWORD,uk-live,ProxyLite
@@ -906,13 +897,10 @@ HOST-KEYWORD,whatsapp,ProxyLite
 USER-AGENT,Duolingo*,ProxyLite
 USER-AGENT,OneDrive*,ProxyLite
 USER-AGENT,PayPal*,ProxyLite
-USER-AGENT,TikTok*,ProxyLite
 USER-AGENT,WhatsApp*,ProxyLite
 USER-AGENT,battleroyale*,ProxyLite
 USER-AGENT,hearthstone*,ProxyLite
 IP-CIDR,1.201.0.0/24,ProxyLite
-IP-CIDR,101.32.118.0/23,ProxyLite
-IP-CIDR,101.32.96.0/20,ProxyLite
 IP-CIDR,103.2.28.0/22,ProxyLite
 IP-CIDR,103.246.56.0/22,ProxyLite
 IP-CIDR,103.27.148.0/22,ProxyLite
@@ -935,7 +923,6 @@ IP-CIDR,125.6.146.0/24,ProxyLite
 IP-CIDR,125.6.149.0/24,ProxyLite
 IP-CIDR,125.6.190.0/24,ProxyLite
 IP-CIDR,129.134.0.0/17,ProxyLite
-IP-CIDR,129.226.0.0/16,ProxyLite
 IP-CIDR,13.32.0.0/15,ProxyLite
 IP-CIDR,13.35.0.0/17,ProxyLite
 IP-CIDR,147.92.128.0/17,ProxyLite

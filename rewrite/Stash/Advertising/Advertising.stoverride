@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-11-16 02:16:03
+desc: 最后更新时间 2024-11-17 02:15:22
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 734
-# mitm: 689
+# reject: 739
+# mitm: 694
 # force-http-engine-hosts: 6
-# total: 1429
+# total: 1439
 
 
 
@@ -18,6 +18,7 @@ http:
     - ^http:\/\/ads.?s?ervice(retry)?\.(kugou|kglink).(com|cn)\/v\d\/ - reject
     - ^http:\/\/gateway2\.etnet\.com\.hk\/etnetApp\/theme\/seasonal\/v30\/theme.json - reject
     - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
+    - ^https://info\.mina\.xiaoaisound\.com/advertise/ - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup - reject
     - ^https:\/\/aag\.enmonster\.com\/apa\/(index\/)?advert\/(skin|multi\/positions|demand\/home\/poster) - reject
@@ -114,8 +115,11 @@ http:
     - ^https?://advertise\.bczeducation\.cn\/rpc\/advertise - reject
     - ^https?://api-mifit-cn2\.zepp\.com/discovery/mi/cards/(startpage_ad|homepage_ad)\? - reject
     - ^https?://mbasecc\.bas\.cmbchina\.com/Edge/api/mlife\.clientface\.clientservice\.api\.advertiseService/preCacheAdvertiseSec - reject
+    - ^https?://nam\.veta\.naver\.com/gfp/v1\?u\=ios_papago_top - reject
     - ^https?://newclient\.map\.baidu\.com/client/crossmarketing - reject
     - ^https?://newclient\.map\.baidu\.com/client/usersystem/home/dynamic - reject
+    - ^https?://pdapis\.pdnews\.cn/api/rmrb-bff-display-zh/display/zh/c/launchPage\? - reject
+    - ^https?://superapp\.kiwa-tech\.com/app/ads/selectList - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
@@ -502,6 +506,7 @@ http:
     - ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? - reject
     - ^https?:\/\/lens\.leoao\.com\/lens\/.+(getUserScheme|queryAppBanners|Advert|popup) - reject
     - ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml - reject
+    - ^https?:\/\/lop-proxy\.jd\.com\/queryAppHomePageMarketingRecommendRuleConfigInfo - reject
     - ^https?:\/\/m-adphone\.wenhua\.com\.cn\/ - reject
     - ^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ - reject
     - ^https?:\/\/m\.ads\.8le8le\.com\/adShow - reject
@@ -1157,6 +1162,7 @@ http:
     - "img.rr.tv"
     - "img2.autoimg.cn"
     - "info.mina.mi.com"
+    - "info.mina.xiaoaisound.com"
     - "interface*.music.163.com"
     - "intl.iqiyi.com"
     - "iobs.pingan.com.cn"
@@ -1185,6 +1191,7 @@ http:
     - "learnywhere.cn"
     - "lens.leoao.com"
     - "list-app-m.i4.cn"
+    - "lop-proxy.jd.com"
     - "lysl2020.com"
     - "m*.amap.com"
     - "m-adphone.wenhua.com.cn"
@@ -1248,6 +1255,7 @@ http:
     - "msspjh.emarbox.com"
     - "mxsa.mxbc.net"
     - "mystore-gw.watsonsvip.com.cn"
+    - "nam.veta.naver.com"
     - "napi.ithome.com"
     - "new-app-api.ylyk.com"
     - "new.vip.weibo.cn"
@@ -1283,6 +1291,7 @@ http:
     - "passport.biliintl.com"
     - "patientgate.91160.com"
     - "pcvideoyd.titan.mgtv.com"
+    - "pdapis.pdnews.cn"
     - "peisongapi.meituan.com"
     - "pic*.ajkimg.com"
     - "pic.edaijia.cn"
@@ -1344,6 +1353,7 @@ http:
     - "status.boohee.com"
     - "sto-customer-app.oss-cn-shanghai.aliyuncs.co"
     - "sto-customer-app.oss-cn-shanghai.aliyuncs.com"
+    - "superapp.kiwa-tech.com"
     - "superapp.xgimi.com"
     - "supplier-api.imdada.cn"
     - "support.you.163.com"

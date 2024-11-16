@@ -1,7 +1,7 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-11-14 02:12:30
+# UPDATED: 2024-11-17 02:11:51
 # HOST: 534
 # HOST-KEYWORD: 36
 # HOST-SUFFIX: 30685
@@ -260,11 +260,13 @@ HOST,officecdn-microsoft-com.akamaized.net,Global
 HOST,onekey.zendesk.com,Global
 HOST,oneocsp.microsoft.com,Global
 HOST,ood.opsource.net,Global
+HOST,openaiapi-site.azureedge.net,Global
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Global
 HOST,openaicomproductionae4b.blob.core.windows.net,Global
 HOST,opgg-static.akamaized.net,Global
 HOST,osu.ppy.sh,Global
 HOST,p-events-delivery.akamaized.net,Global
+HOST,p16-tiktokcdn-com.akamaized.net,Global
 HOST,paper-attachments.s3.amazonaws.com,Global
 HOST,payments-jp.amazon.com,Global
 HOST,pchomeonline.com.tw,Global
@@ -538,8 +540,6 @@ HOST,developer.apple.com,Global
 HOST,lens.l.google.com,Global
 HOST,location.microsoft.com,Global
 HOST,login.microsoftonline.com,Global
-HOST,openaiapi-site.azureedge.net,Global
-HOST,p16-tiktokcdn-com.akamaized.net,Global
 HOST,self.events.data.microsoft.com,Global
 HOST,testflight.apple.com,Global
 HOST,voice.telephony.goog,Global
@@ -4892,6 +4892,7 @@ HOST-SUFFIX,byjav.me,Global
 HOST-SUFFIX,byjhd.com,Global
 HOST-SUFFIX,bymj.io,Global
 HOST-SUFFIX,byspotify.com,Global
+HOST-SUFFIX,byteoversea.com,Global
 HOST-SUFFIX,bytick.com,Global
 HOST-SUFFIX,byzantine-ahrb-centre.ac.uk,Global
 HOST-SUFFIX,byzantium.ac.uk,Global
@@ -11361,6 +11362,8 @@ HOST-SUFFIX,ibooksauthor.com,Global
 HOST-SUFFIX,ibradome.com,Global
 HOST-SUFFIX,ibss.ac.uk,Global
 HOST-SUFFIX,ibuild.ac.uk,Global
+HOST-SUFFIX,ibytedtos.com,Global
+HOST-SUFFIX,ibyteimg.com,Global
 HOST-SUFFIX,ic.ac.uk,Global
 HOST-SUFFIX,icac.ac.uk,Global
 HOST-SUFFIX,icair.ac.uk,Global
@@ -12255,6 +12258,7 @@ HOST-SUFFIX,ippstatic.com,Global
 HOST-SUFFIX,iproperty.com,Global
 HOST-SUFFIX,iproperty.com.my,Global
 HOST-SUFFIX,iproperty.com.sg,Global
+HOST-SUFFIX,ipstatp.com,Global
 HOST-SUFFIX,ipv6.ac.uk,Global
 HOST-SUFFIX,iqiyiavlive.buzz,Global
 HOST-SUFFIX,iqq2.cc,Global
@@ -15264,6 +15268,7 @@ HOST-SUFFIX,mundus.ac.uk,Global
 HOST-SUFFIX,muramura.tv,Global
 HOST-SUFFIX,murg.ac.uk,Global
 HOST-SUFFIX,muryouav.net,Global
+HOST-SUFFIX,muscdn.com,Global
 HOST-SUFFIX,musclegirlflix.com,Global
 HOST-SUFFIX,museumofwriting.ac.uk,Global
 HOST-SUFFIX,museumwales.ac.uk,Global
@@ -19687,6 +19692,7 @@ HOST-SUFFIX,sgmc.ac.uk,Global
 HOST-SUFFIX,sgp.file.myqcloud.com,Global
 HOST-SUFFIX,sgp1.fun,Global
 HOST-SUFFIX,sgpe.ac.uk,Global
+HOST-SUFFIX,sgpstatp.com,Global
 HOST-SUFFIX,sgsah.ac.uk,Global
 HOST-SUFFIX,sgscol.ac.uk,Global
 HOST-SUFFIX,sgspe.de,Global
@@ -21481,6 +21487,7 @@ HOST-SUFFIX,tiendabestbuy.com,Global
 HOST-SUFFIX,tiffany-towers.com,Global
 HOST-SUFFIX,tig-ol-bitties.live,Global
 HOST-SUFFIX,tiipple.ac.uk,Global
+HOST-SUFFIX,tik-tokapi.com,Global
 HOST-SUFFIX,tiktokcdn-us.com,Global
 HOST-SUFFIX,tiktokcdn.com,Global
 HOST-SUFFIX,tiktokv.us,Global
@@ -25675,7 +25682,6 @@ HOST-SUFFIX,bybit.com,Global
 HOST-SUFFIX,bynet.co.il,Global
 HOST-SUFFIX,bypasscensorship.org,Global
 HOST-SUFFIX,byrut.org,Global
-HOST-SUFFIX,byteoversea.com,Global
 HOST-SUFFIX,c-est-simple.com,Global
 HOST-SUFFIX,c-span.org,Global
 HOST-SUFFIX,c-spanvideo.org,Global
@@ -27644,8 +27650,6 @@ HOST-SUFFIX,iblogserv-f.net,Global
 HOST-SUFFIX,ibros.org,Global
 HOST-SUFFIX,ibtimes.com,Global
 HOST-SUFFIX,ibvpn.com,Global
-HOST-SUFFIX,ibytedtos.com,Global
-HOST-SUFFIX,ibyteimg.com,Global
 HOST-SUFFIX,icams.com,Global
 HOST-SUFFIX,icedrive.net,Global
 HOST-SUFFIX,icij.org,Global
@@ -27778,7 +27782,6 @@ HOST-SUFFIX,ipoock.com,Global
 HOST-SUFFIX,iportal.me,Global
 HOST-SUFFIX,ippotv.com,Global
 HOST-SUFFIX,ipredator.se,Global
-HOST-SUFFIX,ipstatp.com,Global
 HOST-SUFFIX,iptv.com.tw,Global
 HOST-SUFFIX,iptvbin.com,Global
 HOST-SUFFIX,ipvanish.com,Global
@@ -28507,7 +28510,6 @@ HOST-SUFFIX,multiproxy.org,Global
 HOST-SUFFIX,multiupload.com,Global
 HOST-SUFFIX,mummysgold.com,Global
 HOST-SUFFIX,murmur.tw,Global
-HOST-SUFFIX,muscdn.com,Global
 HOST-SUFFIX,musicade.net,Global
 HOST-SUFFIX,muslimvideo.com,Global
 HOST-SUFFIX,muzi.com,Global
@@ -29555,7 +29557,6 @@ HOST-SUFFIX,sfshibao.com,Global
 HOST-SUFFIX,sftindia.org,Global
 HOST-SUFFIX,sftuk.org,Global
 HOST-SUFFIX,sfx.ms,Global
-HOST-SUFFIX,sgpstatp.com,Global
 HOST-SUFFIX,shadeyouvpn.com,Global
 HOST-SUFFIX,shadow.ma,Global
 HOST-SUFFIX,shadowsky.xyz,Global
@@ -30191,7 +30192,6 @@ HOST-SUFFIX,tibettruth.com,Global
 HOST-SUFFIX,tibetwrites.org,Global
 HOST-SUFFIX,ticket.com.tw,Global
 HOST-SUFFIX,tigervpn.com,Global
-HOST-SUFFIX,tik-tokapi.com,Global
 HOST-SUFFIX,tiktok.com,Global
 HOST-SUFFIX,tiktokv.com,Global
 HOST-SUFFIX,tiltbrush.com,Global
@@ -31232,7 +31232,9 @@ HOST-KEYWORD,amazon,Global
 HOST-KEYWORD,avoddashs,Global
 HOST-KEYWORD,bbcfmt,Global
 HOST-KEYWORD,jav,Global
+HOST-KEYWORD,musical.ly,Global
 HOST-KEYWORD,pinterest,Global
+HOST-KEYWORD,tiktok,Global
 HOST-KEYWORD,twimg,Global
 HOST-KEYWORD,voddazn,Global
 HOST-KEYWORD,wikileaks,Global
@@ -31250,7 +31252,6 @@ HOST-KEYWORD,fbcdn,Global
 HOST-KEYWORD,gmail,Global
 HOST-KEYWORD,google,Global
 HOST-KEYWORD,instagram,Global
-HOST-KEYWORD,musical.ly,Global
 HOST-KEYWORD,onedrive,Global
 HOST-KEYWORD,paypal,Global
 HOST-KEYWORD,porn,Global
@@ -31258,7 +31259,6 @@ HOST-KEYWORD,sci-hub,Global
 HOST-KEYWORD,skydrive,Global
 HOST-KEYWORD,spotify,Global
 HOST-KEYWORD,telegram,Global
-HOST-KEYWORD,tiktok,Global
 HOST-KEYWORD,ttvnw,Global
 HOST-KEYWORD,twitter,Global
 HOST-KEYWORD,uk-live,Global
@@ -31290,6 +31290,7 @@ USER-AGENT,SoundCloud*,Global
 USER-AGENT,Spotify*,Global
 USER-AGENT,TIDAL*,Global
 USER-AGENT,TaiwanGood*,Global
+USER-AGENT,TikTok*,Global
 USER-AGENT,TwDramas,Global
 USER-AGENT,Viu*,Global
 USER-AGENT,ViuTV*,Global
@@ -31305,7 +31306,6 @@ USER-AGENT,Duolingo*,Global
 USER-AGENT,OneDrive*,Global
 USER-AGENT,PayPal*,Global
 USER-AGENT,Roam*,Global
-USER-AGENT,TikTok*,Global
 USER-AGENT,WhatsApp*,Global
 USER-AGENT,battleroyale*,Global
 USER-AGENT,com.apple.trustd*,Global

@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-10-09 02:12:49
+# UPDATED: 2024-11-17 02:11:52
 # DOMAIN: 12
-# DOMAIN-KEYWORD: 28
-# DOMAIN-SUFFIX: 5921
-# IP-CIDR: 96
+# DOMAIN-KEYWORD: 26
+# DOMAIN-SUFFIX: 5916
+# IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6061
+# TOTAL: 6051
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -747,7 +747,6 @@ payload:
   - DOMAIN-SUFFIX,bynet.co.il
   - DOMAIN-SUFFIX,bypasscensorship.org
   - DOMAIN-SUFFIX,byrut.org
-  - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,c-est-simple.com
   - DOMAIN-SUFFIX,c-span.org
   - DOMAIN-SUFFIX,c-spanvideo.org
@@ -2443,8 +2442,6 @@ payload:
   - DOMAIN-SUFFIX,ibros.org
   - DOMAIN-SUFFIX,ibtimes.com
   - DOMAIN-SUFFIX,ibvpn.com
-  - DOMAIN-SUFFIX,ibytedtos.com
-  - DOMAIN-SUFFIX,ibyteimg.com
   - DOMAIN-SUFFIX,icams.com
   - DOMAIN-SUFFIX,icedrive.net
   - DOMAIN-SUFFIX,icij.org
@@ -2575,7 +2572,6 @@ payload:
   - DOMAIN-SUFFIX,iportal.me
   - DOMAIN-SUFFIX,ippotv.com
   - DOMAIN-SUFFIX,ipredator.se
-  - DOMAIN-SUFFIX,ipstatp.com
   - DOMAIN-SUFFIX,iptv.com.tw
   - DOMAIN-SUFFIX,iptvbin.com
   - DOMAIN-SUFFIX,ipvanish.com
@@ -3301,7 +3297,6 @@ payload:
   - DOMAIN-SUFFIX,multiupload.com
   - DOMAIN-SUFFIX,mummysgold.com
   - DOMAIN-SUFFIX,murmur.tw
-  - DOMAIN-SUFFIX,muscdn.com
   - DOMAIN-SUFFIX,musicade.net
   - DOMAIN-SUFFIX,muslimvideo.com
   - DOMAIN-SUFFIX,muzi.com
@@ -4318,7 +4313,6 @@ payload:
   - DOMAIN-SUFFIX,sftindia.org
   - DOMAIN-SUFFIX,sftuk.org
   - DOMAIN-SUFFIX,sfx.ms
-  - DOMAIN-SUFFIX,sgpstatp.com
   - DOMAIN-SUFFIX,shadeyouvpn.com
   - DOMAIN-SUFFIX,shadow.ma
   - DOMAIN-SUFFIX,shadowsky.xyz
@@ -4939,7 +4933,8 @@ payload:
   - DOMAIN-SUFFIX,tibetwrites.org
   - DOMAIN-SUFFIX,ticket.com.tw
   - DOMAIN-SUFFIX,tigervpn.com
-  - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,tiltbrush.com
   - DOMAIN-SUFFIX,timdir.com
   - DOMAIN-SUFFIX,time.com
@@ -5956,7 +5951,6 @@ payload:
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,instagram
-  - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,paypal
   - DOMAIN-KEYWORD,porn
@@ -5964,15 +5958,12 @@ payload:
   - DOMAIN-KEYWORD,skydrive
   - DOMAIN-KEYWORD,spotify
   - DOMAIN-KEYWORD,telegram
-  - DOMAIN-KEYWORD,tiktok
   - DOMAIN-KEYWORD,ttvnw
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,uk-live
   - DOMAIN-KEYWORD,whatsapp
   - DOMAIN-KEYWORD,youtube
   - IP-CIDR,1.201.0.0/24
-  - IP-CIDR,101.32.118.0/23
-  - IP-CIDR,101.32.96.0/20
   - IP-CIDR,103.2.28.0/22
   - IP-CIDR,103.246.56.0/22
   - IP-CIDR,103.27.148.0/22
@@ -5995,7 +5986,6 @@ payload:
   - IP-CIDR,125.6.149.0/24
   - IP-CIDR,125.6.190.0/24
   - IP-CIDR,129.134.0.0/17
-  - IP-CIDR,129.226.0.0/16
   - IP-CIDR,13.32.0.0/15
   - IP-CIDR,13.35.0.0/17
   - IP-CIDR,14.102.250.18/31

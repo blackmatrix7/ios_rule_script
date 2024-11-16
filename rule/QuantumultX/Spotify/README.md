@@ -12,17 +12,17 @@ Spotify规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-07-06 02:11:23
+最后更新时间：2024-11-17 02:11:54
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 6  | 
-| HOST-KEYWORD | 2  | 
+| HOST-KEYWORD | 1  | 
 | HOST-SUFFIX | 19  | 
 | IP-CIDR | 2  | 
 | USER-AGENT | 1  | 
-| TOTAL | 30  | 
+| TOTAL | 29  | 
 
 
 ## QuantumultX 

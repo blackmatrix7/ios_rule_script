@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-11-17 02:15:48
+desc: 最后更新时间 2024-11-18 02:15:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1180
-# mitm: 870
+# reject: 1181
+# mitm: 871
 # force-http-engine-hosts: 6
-# total: 2056
+# total: 2058
 
 
 
@@ -63,6 +63,7 @@ http:
     - ^https:\/\/dict\.youdao\.com\/homepage\/tile - reject
     - ^https:\/\/dict\.youdao\.com\/vip\/activity\/couponinfo - reject
     - ^https:\/\/dinamicx\.alibabausercontent\.com\/pub\/fish_home_top_kingkong_new\/ - reject
+    - ^https:\/\/ecloud\.tppension\.cntaiping\.com\/fxtpplatform\/common\/anonymous\/common\/page\/queryStartPageNew\?language=zh-CN - reject
     - ^https:\/\/ether-pack\.pangolin-sdk-toutiao\.com\/union\/endcard\/ - reject
     - ^https:\/\/file\.dian\.so\/c\/leto - reject
     - ^https:\/\/gw\.chuangkit\.com\/team\/app\/common\/ad\/ - reject
@@ -1561,6 +1562,7 @@ http:
     - "easyreadfs.nosdn.127.net"
     - "ebk.17u.cn"
     - "ecard.shenzhentong.com"
+    - "ecloud.tppension.cntaiping.com"
     - "edit.sinaapp.com"
     - "edith.xiaohongshu.com"
     - "editor.sm.cn"

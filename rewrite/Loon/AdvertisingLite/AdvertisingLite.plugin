@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2024-11-18 02:15:54
+#!desc= 最后更新时间 2024-11-19 02:17:10
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 1181
+#!reject= 1182
 #!mitm= 871
-#!total= 2052
+#!total= 2053
 
 
 [Rewrite]
@@ -117,6 +117,7 @@
 ^https?://nam\.veta\.naver\.com/gfp/v1\?u\=ios_papago_top - reject
 ^https?://newclient\.map\.baidu\.com/client/crossmarketing - reject
 ^https?://newclient\.map\.baidu\.com/client/usersystem/home/dynamic - reject
+^https?://optimus-ads\.amap\.com/uploadimg/[a-zA-Z0-9]+\.gif - reject-200
 ^https?://pagead2.googleadservices.com/pagead/adview - reject
 ^https?://pdapis\.pdnews\.cn/api/rmrb-bff-display-zh/display/zh/c/launchPage\? - reject
 ^https?://pubads.g.doubleclick.net/gampad/ads - reject

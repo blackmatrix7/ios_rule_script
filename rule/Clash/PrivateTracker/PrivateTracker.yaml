@@ -1,12 +1,11 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-11-19 02:14:06
-# DOMAIN: 158
+# UPDATED: 2024-11-20 02:13:30
+# DOMAIN: 157
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
-# IP-CIDR: 3
-# TOTAL: 288
+# TOTAL: 284
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
@@ -33,7 +32,6 @@ payload:
   - DOMAIN,explodie.org
   - DOMAIN,finbytes.org
   - DOMAIN,fleira.no
-  - DOMAIN,ftp.pet
   - DOMAIN,highteahop.top
   - DOMAIN,home.yxgz.club
   - DOMAIN,ipv4.rer.lol
@@ -41,9 +39,9 @@ payload:
   - DOMAIN,ismaarino.com
   - DOMAIN,jutone.com
   - DOMAIN,kiryuu-test.mywaifu.best
+  - DOMAIN,leet-tracker.moe
   - DOMAIN,martin-gebhardt.eu
   - DOMAIN,mathkangaroo.jp
-  - DOMAIN,ns-1.x-fins.com
   - DOMAIN,ns1.monolithindustries.com
   - DOMAIN,nyaa.tracker.wf
   - DOMAIN,odd-hd.fr
@@ -61,7 +59,6 @@ payload:
   - DOMAIN,p4p.arenabg.com
   - DOMAIN,public.tracker.vraphim.com
   - DOMAIN,pybittrack.retiolus.net
-  - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
   - DOMAIN,retracker.spark-rostov.ru
   - DOMAIN,retracker01-msk-virt.corbina.net
@@ -83,6 +80,7 @@ payload:
   - DOMAIN,tk1.trackerservers.com
   - DOMAIN,tk2v6.trackerservers.com
   - DOMAIN,torrentsmd.com
+  - DOMAIN,tr.abir.ga
   - DOMAIN,tr.burnabyhighstar.com
   - DOMAIN,tr.kxmp.cf
   - DOMAIN,tr.nyacat.pw
@@ -93,7 +91,6 @@ payload:
   - DOMAIN,tracker-udp.gbitt.info
   - DOMAIN,tracker-zhuqiy.dgj055.icu
   - DOMAIN,tracker.0x7c0.com
-  - DOMAIN,tracker.beeimg.com
   - DOMAIN,tracker.bittor.pw
   - DOMAIN,tracker.bjut.jp
   - DOMAIN,tracker.breizh.pm
@@ -102,12 +99,12 @@ payload:
   - DOMAIN,tracker.bz
   - DOMAIN,tracker.cloudit.top
   - DOMAIN,tracker.corpscorp.online
-  - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.darkness.services
   - DOMAIN,tracker.deadorbit.nl
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
   - DOMAIN,tracker.dmcomic.org
+  - DOMAIN,tracker.dump.cl
   - DOMAIN,tracker.edkj.club
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
@@ -124,6 +121,7 @@ payload:
   - DOMAIN,tracker.lintk.me
   - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
+  - DOMAIN,tracker.ololosh.space
   - DOMAIN,tracker.opentrackr.org
   - DOMAIN,tracker.openwebtorrent.com
   - DOMAIN,tracker.peckservers.com
@@ -138,9 +136,9 @@ payload:
   - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
+  - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.tryhackx.org
   - DOMAIN,tracker.vanitycore.co
-  - DOMAIN,tracker.vraphim.com
   - DOMAIN,tracker.waaa.moe
   - DOMAIN,tracker.xiaoduola.xyz
   - DOMAIN,tracker.yemekyedim.com
@@ -293,6 +291,3 @@ payload:
   - DOMAIN-KEYWORD,chdbits
   - DOMAIN-KEYWORD,m-team
   - DOMAIN-KEYWORD,torrent
-  - IP-CIDR,207.241.226.111/32
-  - IP-CIDR,207.241.231.226/32
-  - IP-CIDR,52.58.128.163/32

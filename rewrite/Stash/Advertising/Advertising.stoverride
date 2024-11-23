@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-11-21 02:16:36
+desc: 最后更新时间 2024-11-24 02:16:10
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 739
-# mitm: 694
+# reject: 740
+# mitm: 696
 # force-http-engine-hosts: 6
-# total: 1439
+# total: 1442
 
 
 
@@ -319,6 +319,7 @@ http:
     - ^https?:\/\/app\.c\.nf\.migu\.cn\/.*column\/start(-)?up-pic - reject
     - ^https?:\/\/app\.ddpai\.com\/d\/api\/v\d\/config\/get\/bootscreen - reject
     - ^https?:\/\/app\.dewu\.com\/api\/v\d\/app\/advertisement\/ - reject
+    - ^https?:\/\/app\.duxiaoman\.com\/walletapp\/misc\/app_startup - reject
     - ^https?:\/\/app\.flymodem\.com\.cn\/Appapi\/Public\/welecome - reject
     - ^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list - reject
     - ^https?:\/\/app\.homeinns\.com\/api\/landing - reject
@@ -861,6 +862,7 @@ http:
     - "api*.futunn.com"
     - "api*.musical.ly"
     - "api-access.pangolin-sdk-toutiao.*com"
+    - "api-access.pangolin-sdk-toutiao1.com"
     - "api-ad-product.huxiu.com"
     - "api-fouth-mem.huazhu.com"
     - "api-marketing.zhinengxiyifang.cn"
@@ -978,6 +980,7 @@ http:
     - "app.c.nf.migu.cn"
     - "app.ddpai.com"
     - "app.dewu.com"
+    - "app.duxiaoman.com"
     - "app.flymodem.com.cn"
     - "app.hbooker.com"
     - "app.homeinns.com"

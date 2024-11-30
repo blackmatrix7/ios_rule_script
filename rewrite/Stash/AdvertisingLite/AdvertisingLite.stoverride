@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-11-24 02:16:37
+desc: 最后更新时间 2024-12-01 02:16:04
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1183
-# mitm: 872
+# reject: 1184
+# mitm: 873
 # force-http-engine-hosts: 6
-# total: 2061
+# total: 2063
 
 
 
@@ -89,6 +89,7 @@ http:
     - ^https:\/\/mobileapi\.xiamenair\.com\/mobile-starter - reject
     - ^https:\/\/mobilehotelapi\.elong\.com\/appHotel\/adx\/advert\/getAdvert - reject
     - ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ - reject
+    - ^https:\/\/order-app-api\.lbdj\.com\/lbdj\/apporder\/ad\/ - reject
     - ^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.(jpg|png)\?imageMogr2\/thumbnail\/(860x0|!165x165|!1049x1169) - reject
     - ^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.jpg\?imageMogr2\/quality\/ - reject
     - ^https:\/\/patient-api\.suh\.cn\/apt\/api\/userinfo\/GetNotice\?appname=pmsys&channel=6&device=ios&language=1&source=2&version= - reject
@@ -1833,6 +1834,7 @@ http:
     - "operationapi.fosunhanig.com"
     - "optimus-ads.amap.com"
     - "oral.youdao.com"
+    - "order-app-api.lbdj.com"
     - "osg-service.sgcc.com.cn"
     - "osg-static.sgcc.com.cn"
     - "ossweb-img.qq.com"

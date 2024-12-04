@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-12-01 02:15:38
+desc: 最后更新时间 2024-12-05 02:17:00
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 742
-# mitm: 699
+# reject: 743
+# mitm: 701
 # force-http-engine-hosts: 6
-# total: 1447
+# total: 1450
 
 
 
@@ -611,6 +611,7 @@ http:
     - ^https?:\/\/pic\.edaijia\.cn\/adsplash\/ - reject
     - ^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/ - reject
     - ^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$ - reject
+    - ^https?:\/\/pinggai.*caixin\.com\/s\?z=caixin - reject
     - ^https?:\/\/pipi\.4kya\.com\/\/xgapp\.php\/v3\/advert\.position=[^2]+ - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
@@ -1303,6 +1304,8 @@ http:
     - "peisongapi.meituan.com"
     - "pic*.ajkimg.com"
     - "pic.edaijia.cn"
+    - "pinggai*.caixin.com"
+    - "pinggaicaixin.com"
     - "pipi.4kya.com"
     - "plt.yorentown.com"
     - "portal-xunyou.qingcdn.com"

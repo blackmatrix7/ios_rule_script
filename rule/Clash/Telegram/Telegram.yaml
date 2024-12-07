@@ -1,15 +1,15 @@
 # NAME: Telegram
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-31 02:11:31
+# UPDATED: 2024-12-08 02:12:03
 # DOMAIN: 2
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 22
 # IP-ASN: 5
 # IP-CIDR: 4
 # IP-CIDR6: 4
-# PROCESS-NAME: 5
-# TOTAL: 43
+# PROCESS-NAME: 6
+# TOTAL: 44
 payload:
   - DOMAIN,api.imem.app
   - DOMAIN,api.swiftgram.app
@@ -49,6 +49,7 @@ payload:
   - PROCESS-NAME,org.telegram.messenger
   - PROCESS-NAME,telegram-desktop
   - PROCESS-NAME,tw.nekomimi.nekogram
+  - PROCESS-NAME,xyz.nextalone.nagram
   - IP-ASN,211157
   - IP-ASN,44907
   - IP-ASN,59930

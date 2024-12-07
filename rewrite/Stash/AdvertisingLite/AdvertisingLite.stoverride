@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-12-01 02:16:04
+desc: 最后更新时间 2024-12-08 02:15:58
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1184
-# mitm: 873
+# reject: 1182
+# mitm: 871
 # force-http-engine-hosts: 6
-# total: 2063
+# total: 2059
 
 
 
@@ -610,7 +610,6 @@ http:
     - ^https?:\/\/gateway-api\.dushu365\.com\/chief-orch\/config\/config\/v100\/appConfig - reject
     - ^https?:\/\/gateway\.36kr\.com\/api\/adx\/ad\/show - reject
     - ^https?:\/\/gateway\.abite\.com\/cotti-capi\/customer\/position\/list\?code\=cotti-launch-window - reject
-    - ^https?:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage - reject
     - ^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json - reject
     - ^https?:\/\/gd\.10086\.cn\/gmccapp\/serv\/\?servicename=GMCCAPP_704_002_001_001 - reject
     - ^https?:\/\/geetest\.htsc\.com:8888\/pre_get_token - reject
@@ -1126,7 +1125,6 @@ http:
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/(v\d\/ads\/resource|v2\/hey\/\w+\/hey_gallery) - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
-    - ^https?:\/\/www\.xiaoxiongmeishu\.com\/api\/home\/v1\/config\/appInit\?uid=588888763519696896 - reject
     - ^https?:\/\/www\.xqpark\.cn\/xqParkApp\/resource\/getResource - reject
     - ^https?:\/\/www\.zjyilin\.com\/hykweb\/\/index\/openImg - reject
     - ^https?:\/\/www\.zybang\.com\/adx\/ - reject
@@ -1605,7 +1603,6 @@ http:
     - "gateway-api.dushu365.com"
     - "gateway.36kr.com"
     - "gateway.abite.com"
-    - "gateway.benewtech.cn"
     - "gateway.shouqiev.com"
     - "gateway2.etnet.com.hk"
     - "gd.10086.cn"
@@ -2048,7 +2045,6 @@ http:
     - "www.pansearch.me"
     - "www.tsytv.com.cn"
     - "www.xiaohongshu.com"
-    - "www.xiaoxiongmeishu.com"
     - "www.xqpark.cn"
     - "www.ymm56.com"
     - "www.zjyilin.com"

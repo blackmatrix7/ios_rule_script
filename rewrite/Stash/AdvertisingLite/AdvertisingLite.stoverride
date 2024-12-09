@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-12-08 02:15:58
+desc: 最后更新时间 2024-12-10 02:17:54
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1182
-# mitm: 871
+# reject: 1185
+# mitm: 874
 # force-http-engine-hosts: 6
-# total: 2059
+# total: 2065
 
 
 
@@ -89,6 +89,7 @@ http:
     - ^https:\/\/mobileapi\.xiamenair\.com\/mobile-starter - reject
     - ^https:\/\/mobilehotelapi\.elong\.com\/appHotel\/adx\/advert\/getAdvert - reject
     - ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ - reject
+    - ^https:\/\/ntt-app\.benewtech\.cn\/v6\/user\/\d+\/messages\/event - reject
     - ^https:\/\/order-app-api\.lbdj\.com\/lbdj\/apporder\/ad\/ - reject
     - ^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.(jpg|png)\?imageMogr2\/thumbnail\/(860x0|!165x165|!1049x1169) - reject
     - ^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.jpg\?imageMogr2\/quality\/ - reject
@@ -106,6 +107,7 @@ http:
     - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
     - ^https:\/\/web2\.realtech-inc\.com\/oss\/xc-app-assets\/configs\/common\/theme\.json - reject
     - ^https:\/\/webcast-open\.douyin\.com\/webcast\/openapi\/feed\/\? - reject
+    - ^https:\/\/www\.xiaoxiongmeishu\.com\/api\/(home\/v1\/config\/appInit|s\/v1\/popup\/createCouponPopup) - reject
     - ^https:\/\/www\.ymm56\.com\/short-distance-match-app\/openAppAd - reject
     - ^https:\/\/wx\.17u\.cn\/crapi\/query\/ad - reject
     - ^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad - reject
@@ -610,6 +612,7 @@ http:
     - ^https?:\/\/gateway-api\.dushu365\.com\/chief-orch\/config\/config\/v100\/appConfig - reject
     - ^https?:\/\/gateway\.36kr\.com\/api\/adx\/ad\/show - reject
     - ^https?:\/\/gateway\.abite\.com\/cotti-capi\/customer\/position\/list\?code\=cotti-launch-window - reject
+    - ^https?:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage - reject
     - ^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json - reject
     - ^https?:\/\/gd\.10086\.cn\/gmccapp\/serv\/\?servicename=GMCCAPP_704_002_001_001 - reject
     - ^https?:\/\/geetest\.htsc\.com:8888\/pre_get_token - reject
@@ -1603,6 +1606,7 @@ http:
     - "gateway-api.dushu365.com"
     - "gateway.36kr.com"
     - "gateway.abite.com"
+    - "gateway.benewtech.cn"
     - "gateway.shouqiev.com"
     - "gateway2.etnet.com.hk"
     - "gd.10086.cn"
@@ -1814,6 +1818,7 @@ http:
     - "nnapp.cloudbae.cn"
     - "notch.qdaily.com"
     - "notify.baicizhan.com"
+    - "ntt-app.benewtech.cn"
     - "obs.line-scdn.net"
     - "ocean.shuqireader.com"
     - "ocrifs.ejoy.sinopec.com"
@@ -2045,6 +2050,7 @@ http:
     - "www.pansearch.me"
     - "www.tsytv.com.cn"
     - "www.xiaohongshu.com"
+    - "www.xiaoxiongmeishu.com"
     - "www.xqpark.cn"
     - "www.ymm56.com"
     - "www.zjyilin.com"

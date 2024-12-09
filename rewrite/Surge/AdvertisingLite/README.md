@@ -20,15 +20,15 @@ AdvertisingLite 不直接抽取数据源中MITM的hostname，仅用正则推导�
 
 ## 规则统计
 
-最后更新时间：2024-12-08 02:15:58
+最后更新时间：2024-12-10 02:17:54
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| REJECT | 1182  | 
-| MITM | 871  | 
+| REJECT | 1185  | 
+| MITM | 874  | 
 | FORCE-HTTP-ENGINE-HOSTS | 6  | 
-| TOTAL | 2059  | 
+| TOTAL | 2065  | 
 
 
 ## Surge 

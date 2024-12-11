@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-12-08 02:15:33
+desc: 最后更新时间 2024-12-12 02:17:30
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 743
-# mitm: 702
+# reject: 744
+# mitm: 703
 # force-http-engine-hosts: 6
-# total: 1451
+# total: 1453
 
 
 
@@ -295,6 +295,7 @@ http:
     - ^https?:\/\/api\.yizhibo\.com\/common\/api\/(api_)?pz$ - reject
     - ^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd - reject
     - ^https?:\/\/api\.ys7\.com.*\/getAdvertising - reject
+    - ^https?:\/\/api\.zcool\.com\.cn\/.*common\/open-screen - reject
     - ^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
     - ^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject
     - ^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated - reject
@@ -960,6 +961,7 @@ http:
     - "api.yizhibo.com"
     - "api.yonghuivip.com"
     - "api.ys7.com"
+    - "api.zcool.com.cn"
     - "api.zhuishushenqi.com"
     - "api1.34580.com"
     - "api2.picooc.com"

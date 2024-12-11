@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-12-08 02:15:37
+desc: 最后更新时间 2024-12-12 02:17:35
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 706
-# mitm: 744
+# reject: 707
+# mitm: 745
 # force-http-engine-hosts: 6
-# total: 1495
+# total: 1497
 
 
 
@@ -274,6 +274,7 @@ http:
     - ^https?:\/\/api\.yizhibo\.com\/common\/api\/(api_)?pz$ - reject
     - ^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd - reject
     - ^https?:\/\/api\.ys7\.com.*\/getAdvertising - reject
+    - ^https?:\/\/api\.zcool\.com\.cn\/.*common\/open-screen - reject
     - ^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count) - reject
     - ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
     - ^https?:\/\/api\.zhihu\.com\/ad-style-service\/request - reject
@@ -1117,6 +1118,7 @@ http:
     - "api.yizhibo.com"
     - "api.yonghuivip.com"
     - "api.ys7.com"
+    - "api.zcool.com.cn"
     - "api.zhihu.com"
     - "api.zhuishushenqi.com"
     - "api1.34580.com"

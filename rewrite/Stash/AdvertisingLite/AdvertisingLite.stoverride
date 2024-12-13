@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-12-12 02:17:56
+desc: 最后更新时间 2024-12-14 02:17:22
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1186
-# mitm: 875
+# reject: 1187
+# mitm: 876
 # force-http-engine-hosts: 6
-# total: 2067
+# total: 2069
 
 
 
@@ -1165,6 +1165,7 @@ http:
     - ^https?:\/\/ztoread\.ziroom\.com\/ymerApi\/v\d\/index\/open - reject
     - ^https?:\/\/zua\.zhidiantianxia\.cn\/api\/adverts - reject
     - http:\/\/ad\.myfriday\.cn\/d\/json\/1\.1 - reject
+    - http:\/\/dili.sqcosmos.com\/jiekou\/endpage\/ad - reject
     - https://api-global.soulapp.me/app/open/get - reject
     - https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON - reject
     - https://ci.xiaohongshu.com/system_config/watermark - reject
@@ -1546,6 +1547,7 @@ http:
     - "dict.youdao.com"
     - "dictvip-business.youdao.com"
     - "dili.bdatu.com"
+    - "dili.sqcosmos.com"
     - "dinamicx.alibabausercontent.com"
     - "direct.z-bank.com"
     - "discuz.gtimg.cn"

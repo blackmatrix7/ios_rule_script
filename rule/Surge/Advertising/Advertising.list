@@ -1,16 +1,16 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-12-14 02:10:21
+# UPDATED: 2024-12-15 02:09:12
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # AND: 3
-# DOMAIN: 16456
+# DOMAIN: 16466
 # DOMAIN-KEYWORD: 259
-# DOMAIN-SUFFIX: 143676
-# IP-CIDR: 457
+# DOMAIN-SUFFIX: 138604
+# IP-CIDR: 461
 # IP-CIDR6: 1
 # URL-REGEX: 12
-# TOTAL: 160864
+# TOTAL: 155806
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-s2s.sensic.net
 DOMAIN-KEYWORD,-spiky.clevertap-prod.com
@@ -619,10 +619,14 @@ IP-CIDR,223.87.182.101/32,no-resolve
 IP-CIDR,223.87.182.102/32,no-resolve
 IP-CIDR,223.87.182.11/32,no-resolve
 IP-CIDR,223.87.182.52/32,no-resolve
+IP-CIDR,23.109.121.125/32,no-resolve
 IP-CIDR,23.109.150.208/32,no-resolve
 IP-CIDR,23.109.150.253/32,no-resolve
 IP-CIDR,23.109.170.212/32,no-resolve
 IP-CIDR,23.109.170.228/32,no-resolve
+IP-CIDR,23.109.170.241/32,no-resolve
+IP-CIDR,23.109.170.255/32,no-resolve
+IP-CIDR,23.109.170.60/32,no-resolve
 IP-CIDR,23.109.248.125/32,no-resolve
 IP-CIDR,23.109.248.129/32,no-resolve
 IP-CIDR,23.109.248.130/32,no-resolve

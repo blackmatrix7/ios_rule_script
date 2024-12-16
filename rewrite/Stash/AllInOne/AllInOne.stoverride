@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-12-12 02:17:35
+desc: 最后更新时间 2024-12-17 02:16:59
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 707
-# mitm: 745
+# reject: 708
+# mitm: 746
 # force-http-engine-hosts: 6
-# total: 1497
+# total: 1499
 
 
 
@@ -265,6 +265,7 @@ http:
     - ^https?:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) - reject
     - ^https?:\/\/api\.wmpvp\.com\/api\/v\d\/config\/promote - reject
     - ^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ - reject
+    - ^https?:\/\/api\.xiaoheihe\.cn\/.*get_ads_info - reject
     - ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/config\?userid=.* - reject
     - ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/mobile\/ads - reject
     - ^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json - reject
@@ -1111,6 +1112,7 @@ http:
     - "api.wfdata.club"
     - "api.wmpvp.com"
     - "api.xiachufang.com"
+    - "api.xiaoheihe.cn"
     - "api.xiaoyi.com"
     - "api.xueqiu.com"
     - "api.yangkeduo.com"

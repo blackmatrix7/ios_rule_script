@@ -21,7 +21,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-12-20 02:14:19
+最后更新时间：2024-12-21 02:13:59
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -30,11 +30,11 @@
 | DOMAIN-KEYWORD | 13  | 
 | DOMAIN-SUFFIX | 97660  | 
 | IP-ASN | 1  | 
-| IP-CIDR | 8358  | 
-| IP-CIDR6 | 12658  | 
+| IP-CIDR | 8361  | 
+| IP-CIDR6 | 11887  | 
 | PROCESS-NAME | 12  | 
 | USER-AGENT | 65  | 
-| TOTAL | 119193  | 
+| TOTAL | 118425  | 
 
 
 ## Surge 

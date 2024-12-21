@@ -12,14 +12,14 @@ Spotify规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-07-06 02:11:23
+最后更新时间：2024-11-25 02:12:13
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 6  | 
-| DOMAIN-KEYWORD | 2  | 
-| DOMAIN-SUFFIX | 19  | 
+| DOMAIN-KEYWORD | 1  | 
+| DOMAIN-SUFFIX | 20  | 
 | IP-CIDR | 2  | 
 | PROCESS-NAME | 1  | 
 | TOTAL | 30  | 

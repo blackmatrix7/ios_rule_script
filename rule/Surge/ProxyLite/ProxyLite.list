@@ -1,14 +1,14 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-11-08 02:13:21
-# DOMAIN: 24
-# DOMAIN-KEYWORD: 22
-# DOMAIN-SUFFIX: 848
-# IP-CIDR: 89
+# UPDATED: 2024-11-17 02:12:46
+# DOMAIN: 23
+# DOMAIN-KEYWORD: 20
+# DOMAIN-SUFFIX: 842
+# IP-CIDR: 86
 # IP-CIDR6: 4
-# USER-AGENT: 7
-# TOTAL: 994
+# USER-AGENT: 6
+# TOTAL: 981
 DOMAIN,addons.mozilla.org
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,api.msn.com
@@ -28,7 +28,6 @@ DOMAIN,lab.skk.moe
 DOMAIN,location.microsoft.com
 DOMAIN,login.microsoftonline.com
 DOMAIN,ocsp.int-x3.letsencrypt.org
-DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,search.yahoo.co.jp
 DOMAIN,self.events.data.microsoft.com
 DOMAIN,tv.apple.com
@@ -75,6 +74,7 @@ DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,api.mixpanel.com
 DOMAIN-SUFFIX,api.termius.com
+DOMAIN-SUFFIX,api.tiktokv.com
 DOMAIN-SUFFIX,apk-dl.com
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,apkpure.com
@@ -147,7 +147,6 @@ DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,bullguard.com
 DOMAIN-SUFFIX,buzzsprout.com
 DOMAIN-SUFFIX,bybit.com
-DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,c-span.org
 DOMAIN-SUFFIX,cachefly.net
 DOMAIN-SUFFIX,castbox.fm
@@ -327,8 +326,6 @@ DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,i-cable.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,icntv.xyz
 DOMAIN-SUFFIX,icoco.com
 DOMAIN-SUFFIX,icons8.com
@@ -352,7 +349,6 @@ DOMAIN-SUFFIX,io.io
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipaddress.com
 DOMAIN-SUFFIX,ipn.li
-DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,is.gd
 DOMAIN-SUFFIX,ishowsapp.com
 DOMAIN-SUFFIX,issuu.com
@@ -432,7 +428,6 @@ DOMAIN-SUFFIX,moon.fm
 DOMAIN-SUFFIX,moves-export.com
 DOMAIN-SUFFIX,mp3buscador.com
 DOMAIN-SUFFIX,mubi.com
-DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,mvnrepository.com
 DOMAIN-SUFFIX,mycnnews.com
 DOMAIN-SUFFIX,myfontastic.com
@@ -578,7 +573,6 @@ DOMAIN-SUFFIX,scmp.com
 DOMAIN-SUFFIX,scribd.com
 DOMAIN-SUFFIX,search.com
 DOMAIN-SUFFIX,sexinsex.net
-DOMAIN-SUFFIX,sgpstatp.com
 DOMAIN-SUFFIX,shadowsocks.org
 DOMAIN-SUFFIX,shadowverse.jp
 DOMAIN-SUFFIX,shutterstock.com
@@ -678,7 +672,6 @@ DOMAIN-SUFFIX,thepiratebay.org
 DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,theverge.com
 DOMAIN-SUFFIX,thewgo.org
-DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,time.com
 DOMAIN-SUFFIX,timeinc.net
 DOMAIN-SUFFIX,tinder.com
@@ -892,20 +885,16 @@ DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,paypal
 DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,whatsapp
 IP-CIDR,1.201.0.0/24,no-resolve
-IP-CIDR,101.32.118.0/23,no-resolve
-IP-CIDR,101.32.96.0/20,no-resolve
 IP-CIDR,103.2.28.0/22,no-resolve
 IP-CIDR,103.246.56.0/22,no-resolve
 IP-CIDR,103.27.148.0/22,no-resolve
@@ -928,7 +917,6 @@ IP-CIDR,125.6.146.0/24,no-resolve
 IP-CIDR,125.6.149.0/24,no-resolve
 IP-CIDR,125.6.190.0/24,no-resolve
 IP-CIDR,129.134.0.0/17,no-resolve
-IP-CIDR,129.226.0.0/16,no-resolve
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
@@ -999,7 +987,6 @@ IP-CIDR6,2a0a:f280::/32,no-resolve
 USER-AGENT,Duolingo*
 USER-AGENT,OneDrive*
 USER-AGENT,PayPal*
-USER-AGENT,TikTok*
 USER-AGENT,WhatsApp*
 USER-AGENT,battleroyale*
 USER-AGENT,hearthstone*

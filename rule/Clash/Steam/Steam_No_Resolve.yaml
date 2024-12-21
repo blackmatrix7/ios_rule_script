@@ -1,13 +1,11 @@
 # NAME: Steam
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:14:49
-# DOMAIN: 1
+# UPDATED: 2024-12-18 02:12:14
 # DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 36
-# TOTAL: 40
+# DOMAIN-SUFFIX: 51
+# TOTAL: 54
 payload:
-  - DOMAIN,steammobile.akamaized.net
   - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
   - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
   - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
@@ -15,6 +13,8 @@ payload:
   - DOMAIN-SUFFIX,dl.steam.clngaa.com
   - DOMAIN-SUFFIX,dl.steam.ksyna.com
   - DOMAIN-SUFFIX,dota2.wmsj.cn
+  - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
+  - DOMAIN-SUFFIX,f3b7q2p3.ssl.hwcdn.net
   - DOMAIN-SUFFIX,fanatical.com
   - DOMAIN-SUFFIX,humblebundle.com
   - DOMAIN-SUFFIX,playartifact.com
@@ -24,12 +24,25 @@ payload:
   - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
   - DOMAIN-SUFFIX,steam-api.com
   - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steam.apac.qtlglb.com
+  - DOMAIN-SUFFIX,steam.cdn.on.net
+  - DOMAIN-SUFFIX,steam.cdn.orcon.net.nz
+  - DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz
+  - DOMAIN-SUFFIX,steam.cdn.webra.ru
+  - DOMAIN-SUFFIX,steam.eca.qtlglb.com
+  - DOMAIN-SUFFIX,steam.naeu.qtlglb.com
+  - DOMAIN-SUFFIX,steam.ru.qtlglb.com
+  - DOMAIN-SUFFIX,steam.tv
   - DOMAIN-SUFFIX,steambroadcast.akamaized.net
   - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
+  - DOMAIN-SUFFIX,steamdeck.com
   - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,steammobile.akamaized.net
+  - DOMAIN-SUFFIX,steampipe-kr.akamaized.net
+  - DOMAIN-SUFFIX,steampipe-partner.akamaized.net
   - DOMAIN-SUFFIX,steampipe.akamaized.net
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steampowered.com.8686c.com

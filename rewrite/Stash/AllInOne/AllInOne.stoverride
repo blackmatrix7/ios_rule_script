@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-11-07 02:16:41
+desc: 最后更新时间 2024-12-17 02:16:59
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 699
-# mitm: 733
+# reject: 708
+# mitm: 746
 # force-http-engine-hosts: 6
-# total: 1477
+# total: 1499
 
 
 
@@ -33,6 +33,7 @@ http:
     - ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
     - ^http:\/\/gateway2\.etnet\.com\.hk\/etnetApp\/theme\/seasonal\/v30\/theme.json - reject
     - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
+    - ^https://info\.mina\.xiaoaisound\.com/advertise/ - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup - reject
     - ^https:\/\/aag\.enmonster\.com\/apa\/(index\/)?advert\/(skin|multi\/positions|demand\/home\/poster) - reject
@@ -127,8 +128,12 @@ http:
     - ^https?://advertise\.bczeducation\.cn\/rpc\/advertise - reject
     - ^https?://api-mifit-cn2\.zepp\.com/discovery/mi/cards/(startpage_ad|homepage_ad)\? - reject
     - ^https?://mbasecc\.bas\.cmbchina\.com/Edge/api/mlife\.clientface\.clientservice\.api\.advertiseService/preCacheAdvertiseSec - reject
+    - ^https?://nam\.veta\.naver\.com/gfp/v1\?u\=ios_papago_top - reject
     - ^https?://newclient\.map\.baidu\.com/client/crossmarketing - reject
     - ^https?://newclient\.map\.baidu\.com/client/usersystem/home/dynamic - reject
+    - ^https?://optimus-ads\.amap\.com/uploadimg/[a-zA-Z0-9]+\.gif - reject
+    - ^https?://pdapis\.pdnews\.cn/api/rmrb-bff-display-zh/display/zh/c/launchPage\? - reject
+    - ^https?://superapp\.kiwa-tech\.com/app/ads/selectList - reject
     - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
     - ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
@@ -260,6 +265,7 @@ http:
     - ^https?:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) - reject
     - ^https?:\/\/api\.wmpvp\.com\/api\/v\d\/config\/promote - reject
     - ^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ - reject
+    - ^https?:\/\/api\.xiaoheihe\.cn\/.*get_ads_info - reject
     - ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/config\?userid=.* - reject
     - ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/mobile\/ads - reject
     - ^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json - reject
@@ -269,6 +275,7 @@ http:
     - ^https?:\/\/api\.yizhibo\.com\/common\/api\/(api_)?pz$ - reject
     - ^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd - reject
     - ^https?:\/\/api\.ys7\.com.*\/getAdvertising - reject
+    - ^https?:\/\/api\.zcool\.com\.cn\/.*common\/open-screen - reject
     - ^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count) - reject
     - ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
     - ^https?:\/\/api\.zhihu\.com\/ad-style-service\/request - reject
@@ -303,6 +310,7 @@ http:
     - ^https?:\/\/app\.c\.nf\.migu\.cn\/.*column\/start(-)?up-pic - reject
     - ^https?:\/\/app\.ddpai\.com\/d\/api\/v\d\/config\/get\/bootscreen - reject
     - ^https?:\/\/app\.dewu\.com\/api\/v\d\/app\/advertisement\/ - reject
+    - ^https?:\/\/app\.duxiaoman\.com\/walletapp\/misc\/app_startup - reject
     - ^https?:\/\/app\.flymodem\.com\.cn\/Appapi\/Public\/welecome - reject
     - ^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list - reject
     - ^https?:\/\/app\.homeinns\.com\/api\/landing - reject
@@ -442,6 +450,7 @@ http:
     - ^https?:\/\/hxqapi\.hiyun\.tv\/api\/notification\/plans - reject
     - ^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+?_\d{3}x\d{4} - reject
     - ^https?:\/\/i\.ys7\.com\/api\/ads - reject
+    - ^https?:\/\/i\.zhaojinapp\.com\/APPAD - reject
     - ^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\/\d+\/\d+\/BbsImg\.(?<=(big.(png|jpg)))$ - reject
     - ^https?:\/\/iadmusicmat\.music\.126\.net\/.*?jpg$ - reject
     - ^https?:\/\/iapi\.bishijie\.com\/actopen\/v\d\/advertising\/ - reject
@@ -488,6 +497,7 @@ http:
     - ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? - reject
     - ^https?:\/\/lens\.leoao\.com\/lens\/.+(getUserScheme|queryAppBanners|Advert|popup) - reject
     - ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml - reject
+    - ^https?:\/\/lop-proxy\.jd\.com\/queryAppHomePageMarketingRecommendRuleConfigInfo - reject
     - ^https?:\/\/m-adphone\.wenhua\.com\.cn\/ - reject
     - ^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ - reject
     - ^https?:\/\/m\.ads\.8le8le\.com\/adShow - reject
@@ -565,7 +575,6 @@ http:
     - ^https?:\/\/open\.qyer\.com\/qyer\/config\/get - reject
     - ^https?:\/\/open\.qyer\.com\/qyer\/startpage\/ - reject
     - ^https?:\/\/open\.taou\.com\/maimai\/launch_ad - reject
-    - ^https?:\/\/optimus-ads\.amap\.com\/uploadimg\/ - reject
     - ^https?:\/\/otheve\.beacon\.qq\.com\/analytics\/upload\?sid=.* - reject
     - ^https?:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads - reject
     - ^https?:\/\/p0\.pipi\.cn\/adAdmin\/\w+.jpg\? - reject
@@ -926,6 +935,7 @@ http:
 
   mitm:
     - "*.58cdn.com.cn"
+    - "*.5eplay.com"
     - "*.ahhhhfs.com"
     - "*.anythinktech.com"
     - "*.bdstatic.com"
@@ -964,6 +974,7 @@ http:
     - "*api.oray.net"
     - "*cupid.iqiyi.com"
     - "101.201.175.228"
+    - "101.227.139.118"
     - "103.41.167.*"
     - "103.91.210.141"
     - "116.85.2.14"
@@ -1014,6 +1025,7 @@ http:
     - "apapia-sqk.manmanbuy.com"
     - "api*.futunn.com"
     - "api*.musical.ly"
+    - "api-access.pangolin-sdk-toutiao1.com"
     - "api-ad-product.huxiu.com"
     - "api-fouth-mem.huazhu.com"
     - "api-marketing.zhinengxiyifang.cn"
@@ -1065,6 +1077,7 @@ http:
     - "api.kuaidihelp.com"
     - "api.kurobbs.com"
     - "api.laifeng.com"
+    - "api.livelab.com.cn"
     - "api.m.jd.com"
     - "api.m.mi.com"
     - "api.maoyan.com"
@@ -1099,6 +1112,7 @@ http:
     - "api.wfdata.club"
     - "api.wmpvp.com"
     - "api.xiachufang.com"
+    - "api.xiaoheihe.cn"
     - "api.xiaoyi.com"
     - "api.xueqiu.com"
     - "api.yangkeduo.com"
@@ -1106,6 +1120,7 @@ http:
     - "api.yizhibo.com"
     - "api.yonghuivip.com"
     - "api.ys7.com"
+    - "api.zcool.com.cn"
     - "api.zhihu.com"
     - "api.zhuishushenqi.com"
     - "api1.34580.com"
@@ -1135,6 +1150,7 @@ http:
     - "app.c.nf.migu.cn"
     - "app.ddpai.com"
     - "app.dewu.com"
+    - "app.duxiaoman.com"
     - "app.flymodem.com.cn"
     - "app.hbooker.com"
     - "app.homeinns.com"
@@ -1298,6 +1314,7 @@ http:
     - "hypersnap.mairuan.com"
     - "i*.hoopchina.com.cn"
     - "i.ys7.com"
+    - "i.zhaojinapp.com"
     - "iadmusicmat.music.126.net"
     - "iadmusicmat.music.com"
     - "iapi.bishijie.com"
@@ -1315,6 +1332,7 @@ http:
     - "img.rr.tv"
     - "img2.autoimg.cn"
     - "info.mina.mi.com"
+    - "info.mina.xiaoaisound.com"
     - "interface*.music.163.com"
     - "intl.iqiyi.com"
     - "iobs.pingan.com.cn"
@@ -1342,6 +1360,7 @@ http:
     - "lens.leoao.com"
     - "list-app-m.i4.cn"
     - "logoshejishi.mairuan.com"
+    - "lop-proxy.jd.com"
     - "m*.amap.com"
     - "m-adphone.wenhua.com.cn"
     - "m-cloud.zhihu.com"
@@ -1405,6 +1424,7 @@ http:
     - "msspjh.emarbox.com"
     - "mxsa.mxbc.net"
     - "mystore-gw.watsonsvip.com.cn"
+    - "nam.veta.naver.com"
     - "napi.ithome.com"
     - "new-app-api.ylyk.com"
     - "new.vip.weibo.cn"
@@ -1439,9 +1459,11 @@ http:
     - "passport.biliintl.com"
     - "patientgate.91160.com"
     - "pcvideoyd.titan.mgtv.com"
+    - "pdapis.pdnews.cn"
     - "peisongapi.meituan.com"
     - "pic*.ajkimg.com"
     - "pic.edaijia.cn"
+    - "pinggai*.caixin.com"
     - "pipi.4kya.com"
     - "plt.yorentown.com"
     - "portal-xunyou.qingcdn.com"
@@ -1500,6 +1522,7 @@ http:
     - "status.boohee.com"
     - "sto-customer-app.oss-cn-shanghai.aliyuncs.co"
     - "sto-customer-app.oss-cn-shanghai.aliyuncs.com"
+    - "superapp.kiwa-tech.com"
     - "superapp.xgimi.com"
     - "supplier-api.imdada.cn"
     - "support.you.163.com"
@@ -1581,7 +1604,6 @@ http:
     - "www.ediuschina.com"
     - "www.firefox.com.cn"
     - "www.flstudiochina.com"
-    - "www.flyert.com"
     - "www.flyertea.com"
     - "www.folxchina.cn"
     - "www.formysql.com"

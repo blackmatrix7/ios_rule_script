@@ -1,9 +1,9 @@
 # NAME: Developer
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:11
-# DOMAIN-SUFFIX: 66
-# TOTAL: 66
+# UPDATED: 2024-12-18 02:13:49
+# DOMAIN-SUFFIX: 70
+# TOTAL: 70
 payload:
   - DOMAIN-SUFFIX,apple-cloudkit.com
   - DOMAIN-SUFFIX,apple-mapkit.com
@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,courier-push-apple.com.akadns.net
   - DOMAIN-SUFFIX,cups.org
   - DOMAIN-SUFFIX,developer.apple.com
+  - DOMAIN-SUFFIX,developerservices2.apple.com
   - DOMAIN-SUFFIX,devimages-cdn.apple.com
   - DOMAIN-SUFFIX,devstreaming-cdn.apple.com
   - DOMAIN-SUFFIX,foundationdb.org
@@ -23,6 +24,8 @@ payload:
   - DOMAIN-SUFFIX,macruby.com
   - DOMAIN-SUFFIX,macruby.net
   - DOMAIN-SUFFIX,macruby.org
+  - DOMAIN-SUFFIX,notary-submissions-prod.s3-accelerate.amazonaws.com
+  - DOMAIN-SUFFIX,notary-submissions-prod.s3.us-west-2.amazonaws.com
   - DOMAIN-SUFFIX,p-events-delivery.akamaized.net
   - DOMAIN-SUFFIX,playgrounds-cdn.apple.com
   - DOMAIN-SUFFIX,push-apple.com.akadns.net
@@ -37,6 +40,7 @@ payload:
   - DOMAIN-SUFFIX,swift.org
   - DOMAIN-SUFFIX,swiftui.cn
   - DOMAIN-SUFFIX,swiftui.com.cn
+  - DOMAIN-SUFFIX,timestamp.apple.com
   - DOMAIN-SUFFIX,webkit.org
   - DOMAIN-SUFFIX,webkitgtk.org
   - DOMAIN-SUFFIX,webobjects.com

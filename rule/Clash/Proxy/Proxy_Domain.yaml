@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-10-09 02:12:49
+# UPDATED: 2024-12-15 02:12:13
 # DOMAIN: 12
-# DOMAIN-KEYWORD: 28
-# DOMAIN-SUFFIX: 5921
-# IP-CIDR: 96
+# DOMAIN-KEYWORD: 26
+# DOMAIN-SUFFIX: 5909
+# IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6061
+# TOTAL: 6044
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
@@ -747,7 +747,6 @@ payload:
   - '+.bynet.co.il'
   - '+.bypasscensorship.org'
   - '+.byrut.org'
-  - '+.byteoversea.com'
   - '+.c-est-simple.com'
   - '+.c-span.org'
   - '+.c-spanvideo.org'
@@ -2443,8 +2442,6 @@ payload:
   - '+.ibros.org'
   - '+.ibtimes.com'
   - '+.ibvpn.com'
-  - '+.ibytedtos.com'
-  - '+.ibyteimg.com'
   - '+.icams.com'
   - '+.icedrive.net'
   - '+.icij.org'
@@ -2575,7 +2572,6 @@ payload:
   - '+.iportal.me'
   - '+.ippotv.com'
   - '+.ipredator.se'
-  - '+.ipstatp.com'
   - '+.iptv.com.tw'
   - '+.iptvbin.com'
   - '+.ipvanish.com'
@@ -3301,7 +3297,6 @@ payload:
   - '+.multiupload.com'
   - '+.mummysgold.com'
   - '+.murmur.tw'
-  - '+.muscdn.com'
   - '+.musicade.net'
   - '+.muslimvideo.com'
   - '+.muzi.com'
@@ -3808,8 +3803,6 @@ payload:
   - '+.pen.io'
   - '+.penchinese.com'
   - '+.penchinese.net'
-  - '+.pengyulong.com'
-  - '+.penisbot.com'
   - '+.pentalogic.net'
   - '+.penthouse.com'
   - '+.pentoy.hk'
@@ -3826,7 +3819,6 @@ payload:
   - '+.phapluan.org'
   - '+.phayul.com'
   - '+.philborges.com'
-  - '+.philly.com'
   - '+.phmsociety.org'
   - '+.phncdn.com'
   - '+.phobos.apple.com'
@@ -3964,7 +3956,6 @@ payload:
   - '+.provpnaccounts.com'
   - '+.proxfree.com'
   - '+.proxifier.com'
-  - '+.proxlet.com'
   - '+.proxomitron.info'
   - '+.proxpn.com'
   - '+.proxyanonimo.es'
@@ -4032,7 +4023,6 @@ payload:
   - '+.qkshare.com'
   - '+.qmzdd.com'
   - '+.qoos.com'
-  - '+.qooza.hk'
   - '+.qpoe.com'
   - '+.qq.co.za'
   - '+.qstatus.com'
@@ -4075,13 +4065,11 @@ payload:
   - '+.raizoji.or.jp'
   - '+.ramcity.com.au'
   - '+.rangwang.biz'
-  - '+.rangzen.com'
   - '+.rangzen.net'
   - '+.rangzen.org'
   - '+.ranxiang.com'
   - '+.ranyunfei.com'
   - '+.rapbull.net'
-  - '+.rapidgator.net'
   - '+.rapidmoviez.com'
   - '+.rapidvpn.com'
   - '+.rarbgprx.org'
@@ -4318,7 +4306,6 @@ payload:
   - '+.sftindia.org'
   - '+.sftuk.org'
   - '+.sfx.ms'
-  - '+.sgpstatp.com'
   - '+.shadeyouvpn.com'
   - '+.shadow.ma'
   - '+.shadowsky.xyz'
@@ -4939,7 +4926,8 @@ payload:
   - '+.tibetwrites.org'
   - '+.ticket.com.tw'
   - '+.tigervpn.com'
-  - '+.tik-tokapi.com'
+  - '+.tiktok.com'
+  - '+.tiktokv.com'
   - '+.tiltbrush.com'
   - '+.timdir.com'
   - '+.time.com'

@@ -1,7 +1,7 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-12-22 02:10:23
+# UPDATED: 2024-12-23 02:10:35
 # HOST: 268
 # HOST-KEYWORD: 7
 # HOST-SUFFIX: 1549
@@ -10,6 +10,7 @@
 # USER-AGENT: 23
 # TOTAL: 1872
 HOST,apps.apple.com,Apple
+HOST,itunes.apple.com,Apple
 HOST,a1.mzstatic.com,Apple
 HOST,a2.mzstatic.com,Apple
 HOST,a3.mzstatic.com,Apple
@@ -237,6 +238,7 @@ HOST,audio-ssl.itunes.apple.com,Apple
 HOST,audio.itunes.apple.com,Apple
 HOST,mvod.itunes.apple.com,Apple
 HOST,streamingaudio.itunes.apple.com,Apple
+HOST,gspe1-ssl.ls.apple.com,Apple
 HOST,news-client-search.apple.com,Apple
 HOST,api-glb-sea.smoot.apple.com,Apple
 HOST,apple.comscoreresearch.com,Apple
@@ -247,9 +249,6 @@ HOST,developer.apple.com,Apple
 HOST,devimages-cdn.apple.com,Apple
 HOST,devstreaming-cdn.apple.com,Apple
 HOST,docs-assets.developer.apple.com,Apple
-HOST,gspe1-ssl.ls.apple.com,Apple
-HOST,hls.itunes.apple.com,Apple
-HOST,itunes.apple.com,Apple
 HOST,js-cdn.music.apple.com,Apple
 HOST,lookup-api.apple.com,Apple
 HOST,mask-api.fe.apple-dns.net,Apple
@@ -262,12 +261,13 @@ HOST,news-assets.apple.com,Apple
 HOST,news-client.apple.com,Apple
 HOST,news-edge.apple.com,Apple
 HOST,news-events.apple.com,Apple
+HOST,sandbox.itunes.apple.com,Apple
+HOST,hls-amt.itunes.apple.com,Apple
+HOST,hls.itunes.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
 HOST,play-edge.itunes.apple.com,Apple
-HOST,sandbox.itunes.apple.com,Apple
 HOST,tv.applemusic.com,Apple
 HOST,uts-api.itunes.apple.com,Apple
-HOST,hls-amt.itunes.apple.com,Apple
 HOST,fmfmobile.icloud.com,Apple
 HOST,fmipmobile.icloud.com,Apple
 HOST,statici.icloud.com,Apple
@@ -1404,7 +1404,6 @@ HOST-SUFFIX,aaplimg.com,Apple
 HOST-SUFFIX,app-store.wang,Apple
 HOST-SUFFIX,appe-store.com,Apple
 HOST-SUFFIX,apple-appstore.cn,Apple
-HOST-SUFFIX,apple-icloud.cn,Apple
 HOST-SUFFIX,apple-itunes.cn,Apple
 HOST-SUFFIX,apple-pay.com,Apple
 HOST-SUFFIX,apple-pay.rs,Apple
@@ -1415,7 +1414,6 @@ HOST-SUFFIX,appleappstore.net,Apple
 HOST-SUFFIX,appleappstore.tv,Apple
 HOST-SUFFIX,appledarwin.com,Apple
 HOST-SUFFIX,appledarwin.net,Apple
-HOST-SUFFIX,appleicloud.cn,Apple
 HOST-SUFFIX,appleid-applemx.com,Apple
 HOST-SUFFIX,appleid-applemx.us,Apple
 HOST-SUFFIX,appleid-iclou.com,Apple
@@ -1424,7 +1422,6 @@ HOST-SUFFIX,appleid.berlin,Apple
 HOST-SUFFIX,appleid.com,Apple
 HOST-SUFFIX,appleid.hamburg,Apple
 HOST-SUFFIX,appleid.hk,Apple
-HOST-SUFFIX,applemx-icloud.com,Apple
 HOST-SUFFIX,appleone.audio,Apple
 HOST-SUFFIX,appleone.blog,Apple
 HOST-SUFFIX,appleone.chat,Apple
@@ -1460,6 +1457,7 @@ HOST-SUFFIX,applepaysupplies.net,Apple
 HOST-SUFFIX,applepaysupplies.tv,Apple
 HOST-SUFFIX,applewallet.com,Apple
 HOST-SUFFIX,applewallet.tv,Apple
+HOST-SUFFIX,appsto.re,Apple
 HOST-SUFFIX,appstore.co.id,Apple
 HOST-SUFFIX,appstore.com,Apple
 HOST-SUFFIX,appstore.hk,Apple
@@ -1471,50 +1469,7 @@ HOST-SUFFIX,crashlytics.com,Apple
 HOST-SUFFIX,darwinsource.com,Apple
 HOST-SUFFIX,darwinsource.org,Apple
 HOST-SUFFIX,darwinsourcecode.com,Apple
-HOST-SUFFIX,icloud-apple.cn,Apple
-HOST-SUFFIX,icloud-content.com,Apple
-HOST-SUFFIX,icloud-isupport.com,Apple
-HOST-SUFFIX,icloud-sandbox.com,Apple
-HOST-SUFFIX,icloud.ch,Apple
-HOST-SUFFIX,icloud.com,Apple
-HOST-SUFFIX,icloud.com.cn,Apple
-HOST-SUFFIX,icloud.de,Apple
-HOST-SUFFIX,icloud.ee,Apple
-HOST-SUFFIX,icloud.fi,Apple
-HOST-SUFFIX,icloud.fr,Apple
-HOST-SUFFIX,icloud.hu,Apple
-HOST-SUFFIX,icloud.ie,Apple
-HOST-SUFFIX,icloud.is,Apple
-HOST-SUFFIX,icloud.jp,Apple
-HOST-SUFFIX,icloud.lv,Apple
-HOST-SUFFIX,icloud.net.cn,Apple
-HOST-SUFFIX,icloud.om,Apple
-HOST-SUFFIX,icloud.org,Apple
-HOST-SUFFIX,icloud.pt,Apple
-HOST-SUFFIX,icloud.ro,Apple
-HOST-SUFFIX,icloud.se,Apple
-HOST-SUFFIX,icloud.si,Apple
-HOST-SUFFIX,icloud.sk,Apple
-HOST-SUFFIX,icloud.vn,Apple
-HOST-SUFFIX,icloudads.net,Apple
-HOST-SUFFIX,icloudapple.cn,Apple
-HOST-SUFFIX,icloudbox.net,Apple
-HOST-SUFFIX,icloudbrowser.net,Apple
-HOST-SUFFIX,icloude.com,Apple
-HOST-SUFFIX,icloudhome.com,Apple
-HOST-SUFFIX,icloudmail.net,Apple
-HOST-SUFFIX,icloudmusic.net,Apple
-HOST-SUFFIX,icloudnet.net,Apple
-HOST-SUFFIX,icloudo.com,Apple
-HOST-SUFFIX,icloudo.de,Apple
-HOST-SUFFIX,icloudo.net,Apple
-HOST-SUFFIX,icloudos.de,Apple
-HOST-SUFFIX,icloudos.net,Apple
-HOST-SUFFIX,icloudpay.net,Apple
-HOST-SUFFIX,icloudsecure.net,Apple
-HOST-SUFFIX,icloudsetup.com,Apple
 HOST-SUFFIX,ids-apple.com,Apple
-HOST-SUFFIX,ios-icloud.com,Apple
 HOST-SUFFIX,itun.es,Apple
 HOST-SUFFIX,itunbes.com,Apple
 HOST-SUFFIX,ituneas.com,Apple
@@ -1548,12 +1503,8 @@ HOST-SUFFIX,itunesstore.co,Apple
 HOST-SUFFIX,itunesu.com,Apple
 HOST-SUFFIX,itunesu.net,Apple
 HOST-SUFFIX,iutunes.com,Apple
-HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,myappleid.com,Apple
-HOST-SUFFIX,myicloud.net,Apple
-HOST-SUFFIX,mylcloud.net,Apple
 HOST-SUFFIX,tvappstore.net,Apple
-HOST-SUFFIX,wwwicloud.com,Apple
 HOST-SUFFIX,wwwitunes.com,Apple
 HOST-SUFFIX,aplestore.com,Apple
 HOST-SUFFIX,aplleipods.com,Apple
@@ -1820,12 +1771,61 @@ HOST-SUFFIX,wwwapplemusic.com,Apple
 HOST-SUFFIX,applemusic.com,Apple
 HOST-SUFFIX,apple-dns.net,Apple
 HOST-SUFFIX,apple.news,Apple
-HOST-SUFFIX,appsto.re,Apple
-HOST-SUFFIX,cdn-apple.com,Apple
 HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,apple-cloudkit.com,Apple
+HOST-SUFFIX,apple-icloud.cn,Apple
 HOST-SUFFIX,apple-livephotoskit.com,Apple
+HOST-SUFFIX,appleicloud.cn,Apple
+HOST-SUFFIX,applemx-icloud.com,Apple
 HOST-SUFFIX,apzones.com,Apple
+HOST-SUFFIX,cdn-apple.com,Apple
+HOST-SUFFIX,icloud-apple.cn,Apple
+HOST-SUFFIX,icloud-content.com,Apple
+HOST-SUFFIX,icloud-isupport.com,Apple
+HOST-SUFFIX,icloud-sandbox.com,Apple
+HOST-SUFFIX,icloud.ch,Apple
+HOST-SUFFIX,icloud.com,Apple
+HOST-SUFFIX,icloud.com.cn,Apple
+HOST-SUFFIX,icloud.de,Apple
+HOST-SUFFIX,icloud.ee,Apple
+HOST-SUFFIX,icloud.fi,Apple
+HOST-SUFFIX,icloud.fr,Apple
+HOST-SUFFIX,icloud.hu,Apple
+HOST-SUFFIX,icloud.ie,Apple
+HOST-SUFFIX,icloud.is,Apple
+HOST-SUFFIX,icloud.jp,Apple
+HOST-SUFFIX,icloud.lv,Apple
+HOST-SUFFIX,icloud.net.cn,Apple
+HOST-SUFFIX,icloud.om,Apple
+HOST-SUFFIX,icloud.org,Apple
+HOST-SUFFIX,icloud.pt,Apple
+HOST-SUFFIX,icloud.ro,Apple
+HOST-SUFFIX,icloud.se,Apple
+HOST-SUFFIX,icloud.si,Apple
+HOST-SUFFIX,icloud.sk,Apple
+HOST-SUFFIX,icloud.vn,Apple
+HOST-SUFFIX,icloudads.net,Apple
+HOST-SUFFIX,icloudapple.cn,Apple
+HOST-SUFFIX,icloudbox.net,Apple
+HOST-SUFFIX,icloudbrowser.net,Apple
+HOST-SUFFIX,icloude.com,Apple
+HOST-SUFFIX,icloudhome.com,Apple
+HOST-SUFFIX,icloudmail.net,Apple
+HOST-SUFFIX,icloudmusic.net,Apple
+HOST-SUFFIX,icloudnet.net,Apple
+HOST-SUFFIX,icloudo.com,Apple
+HOST-SUFFIX,icloudo.de,Apple
+HOST-SUFFIX,icloudo.net,Apple
+HOST-SUFFIX,icloudos.de,Apple
+HOST-SUFFIX,icloudos.net,Apple
+HOST-SUFFIX,icloudpay.net,Apple
+HOST-SUFFIX,icloudsecure.net,Apple
+HOST-SUFFIX,icloudsetup.com,Apple
+HOST-SUFFIX,ios-icloud.com,Apple
+HOST-SUFFIX,me.com,Apple
+HOST-SUFFIX,myicloud.net,Apple
+HOST-SUFFIX,mylcloud.net,Apple
+HOST-SUFFIX,wwwicloud.com,Apple
 HOST-WILDCARD,*-content.icloud.com.cn,Apple
 HOST-WILDCARD,apple.*,Apple
 HOST-WILDCARD,apple.com.*,Apple
@@ -1867,9 +1867,9 @@ USER-AGENT,locationd*,Apple
 USER-AGENT,passd*,Apple
 USER-AGENT,Music*,Apple
 USER-AGENT,AppleNews*,Apple
-USER-AGENT,AppleTV*,Apple
 USER-AGENT,com.apple.news*,Apple
 USER-AGENT,com.apple.trustd*,Apple
+USER-AGENT,AppleTV*,Apple
 USER-AGENT,com.apple.tv*,Apple
 IP-CIDR,139.178.128.0/18,Apple
 IP-CIDR,144.178.0.0/19,Apple

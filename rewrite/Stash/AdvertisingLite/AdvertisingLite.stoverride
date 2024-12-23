@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-12-17 02:17:20
+desc: 最后更新时间 2024-12-24 02:16:32
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1184
-# mitm: 874
+# reject: 1185
+# mitm: 875
 # force-http-engine-hosts: 6
-# total: 2064
+# total: 2066
 
 
 
@@ -237,6 +237,7 @@ http:
     - ^https?:\/\/api\.17kjs\.com\/meta\/ads_targets - reject
     - ^https?:\/\/api\.21ec74\.com\/v2\.5\/ad - reject
     - ^https?:\/\/api\.21jingji\.com\/ad\/ - reject
+    - ^https?:\/\/api\.369cx\.cn\/v\d\/Splash\/GetSplashAd - reject
     - ^https?:\/\/api\.51credit\.com\/app\/popup\/appPopup - reject
     - ^https?:\/\/api\.51credit\.com\/bbs\/app\/api\/v\d\/topic\/chat - reject
     - ^https?:\/\/api\.51credit\.com\/ks\/a\/list\? - reject
@@ -1288,6 +1289,7 @@ http:
     - "api.17kjs.com"
     - "api.21ec74.com"
     - "api.21jingji.com"
+    - "api.369cx.cn"
     - "api.51credit.com"
     - "api.abema.io"
     - "api.ahmobile.cn"

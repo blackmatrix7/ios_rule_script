@@ -1,25 +1,24 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-12-28 02:13:46
+# UPDATED: 2024-12-29 02:13:24
 # DOMAIN: 426
 # DOMAIN-KEYWORD: 13
 # DOMAIN-SUFFIX: 97010
 # IP-ASN: 1
-# IP-CIDR: 8356
-# IP-CIDR6: 11883
+# IP-CIDR: 8355
+# IP-CIDR6: 11885
 # USER-AGENT: 65
-# TOTAL: 117754
+# TOTAL: 117755
+DOMAIN-SUFFIX,alibaba
+DOMAIN-SUFFIX,taobao
+DOMAIN-SUFFIX,tmall
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,ms
-DOMAIN-SUFFIX,alibaba
 DOMAIN-SUFFIX,alipay
 DOMAIN-SUFFIX,baidu
 DOMAIN-SUFFIX,citic
-DOMAIN-SUFFIX,icbc
 DOMAIN-SUFFIX,sohu
-DOMAIN-SUFFIX,taobao
-DOMAIN-SUFFIX,tmall
 DOMAIN-SUFFIX,unicom
 DOMAIN-SUFFIX,wang
 DOMAIN-SUFFIX,xn--1qqw23a
@@ -53,6 +52,7 @@ DOMAIN-SUFFIX,xn--vhquv
 DOMAIN-SUFFIX,xn--vuq861b
 DOMAIN-SUFFIX,xn--xhq521b
 DOMAIN-SUFFIX,xn--zfr164b
+DOMAIN-SUFFIX,icbc
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alipay
@@ -66,7 +66,6 @@ DOMAIN-KEYWORD,hnagroup
 DOMAIN-KEYWORD,stripe
 DOMAIN-KEYWORD,weibo
 DOMAIN-KEYWORD,qiyi
-USER-AGENT,AcFun*
 USER-AGENT,*bili*
 USER-AGENT,Bilibili*
 USER-AGENT,bili*
@@ -106,25 +105,26 @@ USER-AGENT,ting_en
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
 USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,*QIYI*
+USER-AGENT,AcFun*
 USER-AGENT,DomesticMedia*
-USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
-USER-AGENT,MOO*
-USER-AGENT,QQ%E9%9F%B3%E4%B9%90
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
-USER-AGENT,TencentMidasConnect*
+USER-AGENT,Youku*
 USER-AGENT,baiduyinyue
 USER-AGENT,bilibili*
+USER-AGENT,youku*
+USER-AGENT,Himalaya*
+USER-AGENT,MGTV*
+USER-AGENT,MOO*
+USER-AGENT,TencentMidasConnect*
+USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
+USER-AGENT,MiguVideo*
+USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
+USER-AGENT,QQ%E9%9F%B3%E4%B9%90
 USER-AGENT,live4iphone*
 USER-AGENT,qqlive4iphone*
 USER-AGENT,walkman*
 USER-AGENT,xiami*
-USER-AGENT,youku*
-USER-AGENT,Himalaya*
-USER-AGENT,MGTV*
-USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
-USER-AGENT,MiguVideo*
-USER-AGENT,Youku*
 USER-AGENT,PPStream*
 USER-AGENT,QIYI*
 USER-AGENT,QYPlayer*
@@ -3920,7 +3920,6 @@ IP-CIDR,154.218.6.0/23,no-resolve
 IP-CIDR,154.223.168.0/24,no-resolve
 IP-CIDR,154.223.178.0/24,no-resolve
 IP-CIDR,154.223.188.0/23,no-resolve
-IP-CIDR,154.223.96.0/19,no-resolve
 IP-CIDR,154.23.188.0/22,no-resolve
 IP-CIDR,154.36.92.0/23,no-resolve
 IP-CIDR,154.38.104.0/22,no-resolve
@@ -3978,7 +3977,7 @@ IP-CIDR,156.236.96.0/23,no-resolve
 IP-CIDR,156.237.104.0/23,no-resolve
 IP-CIDR,156.239.0.0/20,no-resolve
 IP-CIDR,156.239.224.0/19,no-resolve
-IP-CIDR,156.239.96.0/19,no-resolve
+IP-CIDR,156.239.64.0/18,no-resolve
 IP-CIDR,156.242.5.0/24,no-resolve
 IP-CIDR,156.242.6.0/24,no-resolve
 IP-CIDR,156.245.128.0/21,no-resolve
@@ -4557,7 +4556,6 @@ IP-CIDR,184.27.204.0/24,no-resolve
 IP-CIDR,185.109.236.0/24,no-resolve
 IP-CIDR,185.175.100.0/22,no-resolve
 IP-CIDR,185.183.84.0/24,no-resolve
-IP-CIDR,185.184.220.0/24,no-resolve
 IP-CIDR,185.188.32.0/22,no-resolve
 IP-CIDR,185.194.148.0/24,no-resolve
 IP-CIDR,185.196.210.68/30,no-resolve
@@ -8073,6 +8071,7 @@ IP-CIDR,45.192.184.0/24,no-resolve
 IP-CIDR,45.192.187.0/24,no-resolve
 IP-CIDR,45.192.189.0/24,no-resolve
 IP-CIDR,45.192.190.0/24,no-resolve
+IP-CIDR,45.192.64.0/19,no-resolve
 IP-CIDR,45.195.6.0/24,no-resolve
 IP-CIDR,45.199.167.0/24,no-resolve
 IP-CIDR,45.202.209.0/24,no-resolve
@@ -20140,6 +20139,7 @@ IP-CIDR6,2a0e:aa07:e024::/47,no-resolve
 IP-CIDR6,2a0e:aa07:e030::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e035::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e039::/48,no-resolve
+IP-CIDR6,2a0e:aa07:e044::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e051::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e052::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e0e0::/44,no-resolve
@@ -20284,6 +20284,7 @@ IP-CIDR6,2a13:a5c3:1940::/43,no-resolve
 IP-CIDR6,2a13:a5c3:1a00::/41,no-resolve
 IP-CIDR6,2a13:a5c3:d600::/42,no-resolve
 IP-CIDR6,2a13:a5c3:f000::/40,no-resolve
+IP-CIDR6,2a13:a5c3:f111::/48,no-resolve
 IP-CIDR6,2a13:a5c3:f1c0::/44,no-resolve
 IP-CIDR6,2a13:a5c3:ff10::/44,no-resolve
 IP-CIDR6,2a13:a5c6:9100::/40,no-resolve

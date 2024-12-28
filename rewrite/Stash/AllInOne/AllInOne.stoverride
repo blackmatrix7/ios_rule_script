@@ -1,5 +1,5 @@
 name: AllInOne
-desc: 最后更新时间 2024-12-24 02:16:10
+desc: 最后更新时间 2024-12-29 02:15:42
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
@@ -7,9 +7,9 @@ desc: 最后更新时间 2024-12-24 02:16:10
 # http-response-script: 25
 # redirect: 8
 # reject: 709
-# mitm: 747
+# mitm: 746
 # force-http-engine-hosts: 6
-# total: 1501
+# total: 1500
 
 
 
@@ -935,6 +935,7 @@ http:
     - "wmapi.meituan.com"
 
   mitm:
+    - "*.1rtb.net"
     - "*.58cdn.com.cn"
     - "*.5eplay.com"
     - "*.ahhhhfs.com"
@@ -1499,7 +1500,6 @@ http:
     - "s1.api.tv.itc.cn"
     - "s3plus.meituan.net"
     - "saad.ms.zhangyue.net"
-    - "sdk.1rtb.net"
     - "sdk.alibaba.com.ailbaba.me"
     - "security.wechat.com"
     - "service.4gtv.tv"
@@ -1679,7 +1679,6 @@ http:
     - "zjh5api.189smarthome.com"
     - "zjh5api.ott4china.com"
     - "zjmbank.js96008.com"
-    - "zlsdk.1rtb.net"
     - "zone.guiderank-app.com"
     - "ztoread.ziroom.com"
 

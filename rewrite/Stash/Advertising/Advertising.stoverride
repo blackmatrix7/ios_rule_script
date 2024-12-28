@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-12-24 02:16:06
+desc: 最后更新时间 2024-12-29 02:15:38
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 746
-# mitm: 705
+# mitm: 704
 # force-http-engine-hosts: 6
-# total: 1457
+# total: 1456
 
 
 
@@ -770,6 +770,7 @@ http:
     - "wmapi.meituan.com"
 
   mitm:
+    - "*.1rtb.net"
     - "*.58cdn.com.cn"
     - "*.5eplay.com"
     - "*.ahhhhfs.com"
@@ -1346,7 +1347,6 @@ http:
     - "s1.api.tv.itc.cn"
     - "s3plus.meituan.net"
     - "saad.ms.zhangyue.net"
-    - "sdk.1rtb.net"
     - "sdk.alibaba.com.ailbaba.me"
     - "security.wechat.com"
     - "service.4gtv.tv"
@@ -1472,6 +1472,5 @@ http:
     - "zjh5api.189smarthome.com"
     - "zjh5api.ott4china.com"
     - "zjmbank.js96008.com"
-    - "zlsdk.1rtb.net"
     - "zone.guiderank-app.com"
     - "ztoread.ziroom.com"

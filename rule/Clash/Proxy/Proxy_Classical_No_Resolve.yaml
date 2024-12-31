@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-12-15 02:12:13
+# UPDATED: 2025-01-01 02:12:14
 # DOMAIN: 12
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 5909
+# DOMAIN-SUFFIX: 5919
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6044
+# TOTAL: 6054
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -700,6 +700,8 @@ payload:
   - DOMAIN-SUFFIX,brookings.edu
   - DOMAIN-SUFFIX,brucewang.net
   - DOMAIN-SUFFIX,brutaltgp.com
+  - DOMAIN-SUFFIX,bsky.app
+  - DOMAIN-SUFFIX,bsky.social
   - DOMAIN-SUFFIX,bt2mag.com
   - DOMAIN-SUFFIX,bt95.com
   - DOMAIN-SUFFIX,btaia.com
@@ -1236,6 +1238,7 @@ payload:
   - DOMAIN-SUFFIX,debug.com
   - DOMAIN-SUFFIX,deck.ly
   - DOMAIN-SUFFIX,decodet.co
+  - DOMAIN-SUFFIX,deepai.org
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deezer.com
   - DOMAIN-SUFFIX,definebabe.com
@@ -1320,6 +1323,7 @@ payload:
   - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,docker.io
   - DOMAIN-SUFFIX,dockerhub.com
+  - DOMAIN-SUFFIX,docs.new
   - DOMAIN-SUFFIX,doctorvoice.org
   - DOMAIN-SUFFIX,documentingreality.com
   - DOMAIN-SUFFIX,dogfartnetwork.com
@@ -2158,6 +2162,7 @@ payload:
   - DOMAIN-SUFFIX,hackmd.io
   - DOMAIN-SUFFIX,hackthatphone.net
   - DOMAIN-SUFFIX,hahlo.com
+  - DOMAIN-SUFFIX,haijiao.com
   - DOMAIN-SUFFIX,hakkatv.org.tw
   - DOMAIN-SUFFIX,handcraftedsoftware.org
   - DOMAIN-SUFFIX,hanime.tv
@@ -4331,6 +4336,7 @@ payload:
   - DOMAIN-SUFFIX,shat-tibet.com
   - DOMAIN-SUFFIX,shattered.io
   - DOMAIN-SUFFIX,shazam.com
+  - DOMAIN-SUFFIX,sheets.new
   - DOMAIN-SUFFIX,sheikyermami.com
   - DOMAIN-SUFFIX,shellfire.de
   - DOMAIN-SUFFIX,shemalez.com
@@ -4422,6 +4428,7 @@ payload:
   - DOMAIN-SUFFIX,sleazydream.com
   - DOMAIN-SUFFIX,slheng.com
   - DOMAIN-SUFFIX,slickvpn.com
+  - DOMAIN-SUFFIX,slides.new
   - DOMAIN-SUFFIX,slideshare.net
   - DOMAIN-SUFFIX,slime.com.tw
   - DOMAIN-SUFFIX,slinkset.com
@@ -4439,6 +4446,7 @@ payload:
   - DOMAIN-SUFFIX,smith.edu
   - DOMAIN-SUFFIX,smyxy.org
   - DOMAIN-SUFFIX,snapchat.com
+  - DOMAIN-SUFFIX,snapseed.com
   - DOMAIN-SUFFIX,snaptu.com
   - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,sneakme.net
@@ -5433,6 +5441,7 @@ payload:
   - DOMAIN-SUFFIX,vpnworldwide.com
   - DOMAIN-SUFFIX,vpser.net
   - DOMAIN-SUFFIX,vraiesagesse.net
+  - DOMAIN-SUFFIX,vrchat.com
   - DOMAIN-SUFFIX,vrmtr.com
   - DOMAIN-SUFFIX,vrsmash.com
   - DOMAIN-SUFFIX,vs.com
@@ -5542,6 +5551,7 @@ payload:
   - DOMAIN-SUFFIX,wha.la
   - DOMAIN-SUFFIX,whatblocked.com
   - DOMAIN-SUFFIX,whatbrowser.org
+  - DOMAIN-SUFFIX,whats.new
   - DOMAIN-SUFFIX,whatsonweibo.com
   - DOMAIN-SUFFIX,wheatseeds.org
   - DOMAIN-SUFFIX,wheelockslatin.com

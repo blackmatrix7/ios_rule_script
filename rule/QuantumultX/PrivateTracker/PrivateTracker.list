@@ -1,17 +1,17 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-01-01 02:13:07
-# HOST: 150
+# UPDATED: 2025-01-02 02:13:27
+# HOST: 151
 # HOST-KEYWORD: 4
 # HOST-SUFFIX: 123
-# IP-CIDR: 3
-# TOTAL: 280
+# TOTAL: 278
 HOST,0123456789nonexistent.com,PrivateTracker
 HOST,0d.kebhana.mx,PrivateTracker
 HOST,1337.abcvg.info,PrivateTracker
 HOST,api.ipv4online.uk,PrivateTracker
 HOST,bandito.byterunner.io,PrivateTracker
+HOST,betelgeuse.freeddns.org,PrivateTracker
 HOST,bittorrent-tracker.e-n-c-r-y-p-t.net,PrivateTracker
 HOST,bt.ktrackers.com,PrivateTracker
 HOST,bt.okmp3.ru,PrivateTracker
@@ -37,7 +37,6 @@ HOST,isk.richardsw.club,PrivateTracker
 HOST,ismaarino.com,PrivateTracker
 HOST,leet-tracker.moe,PrivateTracker
 HOST,martin-gebhardt.eu,PrivateTracker
-HOST,mathkangaroo.jp,PrivateTracker
 HOST,mikrotik2.draatman.net,PrivateTracker
 HOST,ns-1.x-fins.com,PrivateTracker
 HOST,ns1.monolithindustries.com,PrivateTracker
@@ -46,32 +45,33 @@ HOST,odd-hd.fr,PrivateTracker
 HOST,open.acgtracker.com,PrivateTracker
 HOST,open.demonii.com,PrivateTracker
 HOST,open.dstud.io,PrivateTracker
+HOST,open.free-tracker.ga,PrivateTracker
 HOST,open.stealth.si,PrivateTracker
 HOST,open.tracker.cl,PrivateTracker
 HOST,open.tracker.ink,PrivateTracker
 HOST,open.trackerlist.xyz,PrivateTracker
-HOST,opentor.org,PrivateTracker
 HOST,opentracker.io,PrivateTracker
 HOST,p2p.publictracker.xyz,PrivateTracker
 HOST,p4p.arenabg.com,PrivateTracker
 HOST,public.tracker.vraphim.com,PrivateTracker
-HOST,retracker.hotplug.ru,PrivateTracker
 HOST,retracker.lanta.me,PrivateTracker
 HOST,retracker.spark-rostov.ru,PrivateTracker
 HOST,retracker.x2k.ru,PrivateTracker
-HOST,rfc5746.mywaifu.best,PrivateTracker
 HOST,seeders-paradise.org,PrivateTracker
 HOST,seedpeer.net,PrivateTracker
 HOST,serpb.vpsburti.com,PrivateTracker
 HOST,servandroidkino.ru,PrivateTracker
-HOST,share.hkg-fansub.info,PrivateTracker
 HOST,shubt.net,PrivateTracker
 HOST,sparkle.ghostchu-services.top,PrivateTracker
 HOST,t.213891.xyz,PrivateTracker
 HOST,t.jaekr.sh,PrivateTracker
 HOST,t.overflow.biz,PrivateTracker
 HOST,taciturn-shadow.spb.ru,PrivateTracker
+HOST,tk.greedland.net,PrivateTracker
 HOST,torrent.tracker.durukanbal.com,PrivateTracker
+HOST,torrentsmd.com,PrivateTracker
+HOST,tr.abir.ga,PrivateTracker
+HOST,tr.burnabyhighstar.com,PrivateTracker
 HOST,tr.movian.eu,PrivateTracker
 HOST,tr.nyacat.pw,PrivateTracker
 HOST,tr.zukizuki.org,PrivateTracker
@@ -92,13 +92,13 @@ HOST,tracker.bt4g.com,PrivateTracker
 HOST,tracker.bz,PrivateTracker
 HOST,tracker.cloudit.top,PrivateTracker
 HOST,tracker.corpscorp.online,PrivateTracker
-HOST,tracker.cyberia.is,PrivateTracker
 HOST,tracker.darkness.services,PrivateTracker
 HOST,tracker.deadorbit.nl,PrivateTracker
 HOST,tracker.dler.com,PrivateTracker
 HOST,tracker.dler.org,PrivateTracker
 HOST,tracker.dmcomic.org,PrivateTracker
 HOST,tracker.draatman.uk,PrivateTracker
+HOST,tracker.dump.cl,PrivateTracker
 HOST,tracker.edkj.club,PrivateTracker
 HOST,tracker.filemail.com,PrivateTracker
 HOST,tracker.fnix.net,PrivateTracker
@@ -119,7 +119,6 @@ HOST,tracker.moxing.party,PrivateTracker
 HOST,tracker.mywaifu.best,PrivateTracker
 HOST,tracker.ololosh.space,PrivateTracker
 HOST,tracker.opentrackr.org,PrivateTracker
-HOST,tracker.openwebtorrent.com,PrivateTracker
 HOST,tracker.pmman.tech,PrivateTracker
 HOST,tracker.qu.ax,PrivateTracker
 HOST,tracker.renfei.net,PrivateTracker
@@ -127,6 +126,7 @@ HOST,tracker.sbsub.com,PrivateTracker
 HOST,tracker.skynetcloud.site,PrivateTracker
 HOST,tracker.skyts.net,PrivateTracker
 HOST,tracker.srv00.com,PrivateTracker
+HOST,tracker.theoks.net,PrivateTracker
 HOST,tracker.tiny-vps.com,PrivateTracker
 HOST,tracker.torrent.eu.org,PrivateTracker
 HOST,tracker.torrust-demo.com,PrivateTracker
@@ -284,6 +284,3 @@ HOST-KEYWORD,announce,PrivateTracker
 HOST-KEYWORD,chdbits,PrivateTracker
 HOST-KEYWORD,m-team,PrivateTracker
 HOST-KEYWORD,torrent,PrivateTracker
-IP-CIDR,207.241.226.111/32,PrivateTracker
-IP-CIDR,207.241.231.226/32,PrivateTracker
-IP-CIDR,52.58.128.163/32,PrivateTracker

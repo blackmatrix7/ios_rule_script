@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2025-01-02 02:16:07
+desc: 最后更新时间 2025-01-05 02:15:51
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 710
-# mitm: 746
+# reject: 711
+# mitm: 747
 # force-http-engine-hosts: 6
-# total: 1501
+# total: 1503
 
 
 
@@ -569,6 +569,7 @@ http:
     - ^https?:\/\/nnapp\.cloudbae\.cn(:\d+)?\/mc\/api\/advert - reject
     - ^https?:\/\/notify\.baicizhan\.com\/rpc\/notify\/get_latest_notify - reject
     - ^https?:\/\/nuc\.api\.mgtv.com\/Logout - reject
+    - ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/.*Code=VWAPP_ICE_OPEN_SCREEN_ADS - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api.*get_popup - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api\/index\/loading_ad - reject
     - ^https?:\/\/open\.78dm\.net\/v\d\/site\/ad\/ - reject
@@ -1440,6 +1441,7 @@ http:
     - "nnapp.cloudbae.cn:0"
     - "notify.baicizhan.com"
     - "nuc.api.mgtv.com"
+    - "oneapp-api.faw-vw.com"
     - "open-cms-api.quark.cn"
     - "open-cms-api.uc.cn"
     - "open.78dm.net"

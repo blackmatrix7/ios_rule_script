@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2025-01-05 02:15:51
+#!desc=最后更新时间 2025-01-10 02:16:49
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!domain=5
@@ -7,9 +7,9 @@
 #!http-request-script=1
 #!http-response-script=25
 #!redirect=8
-#!reject=711
+#!reject=710
 #!mitm=747
-#!total=1501
+#!total=1500
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -199,7 +199,6 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 ^https?:\/\/api\.00bang\.cn\/llb\/baseinfo\/advertise\/getAdvertiseByPageCode - reject-200
 ^https?:\/\/api\.21ec74\.com\/v2\.5\/ad - reject-200
 ^https?:\/\/api\.21jingji\.com\/ad\/ - reject
-^https?:\/\/api\.369cx\.cn\/v\d\/Splash\/GetSplashAd - reject-200
 ^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject-200
 ^https?:\/\/api\.ahmobile\.cn:443\/eip\?eip_serv_id=app\.getAllNew - reject-200
 ^https?:\/\/api\.applovefrom\.com\/api\/v\d\/splash\/ - reject

@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2025-01-05 02:15:55
+#!desc=最后更新时间 2025-01-10 02:16:54
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
@@ -8,10 +8,10 @@
 #!http-request-script=1
 #!http-response-script=25
 #!redirect=62
-#!reject=764
+#!reject=763
 #!mitm=838
 #!force-http-engine-hosts=6
-#!total=1705
+#!total=1704
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -301,7 +301,6 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 "^https?:\/\/api\.00bang\.cn\/llb\/baseinfo\/advertise\/getAdvertiseByPageCode" - reject
 "^https?:\/\/api\.21ec74\.com\/v2\.5\/ad" - reject
 "^https?:\/\/api\.21jingji\.com\/ad\/" - reject
-"^https?:\/\/api\.369cx\.cn\/v\d\/Splash\/GetSplashAd" - reject
 "^https?:\/\/api\.[\w-]+\.abema-tv\.com\/v\d\/ip\/check" - reject
 "^https?:\/\/api\.abema\.io\/v\d\/ip\/check" - reject
 "^https?:\/\/api\.ahmobile\.cn:443\/eip\?eip_serv_id=app\.getAllNew" - reject

@@ -1,12 +1,12 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-01-12 02:13:06
-# DOMAIN: 146
+# UPDATED: 2025-01-13 02:13:02
+# DOMAIN: 144
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
 # IP-CIDR: 3
-# TOTAL: 276
+# TOTAL: 274
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
@@ -24,6 +24,7 @@ payload:
   - DOMAIN,concen.org
   - DOMAIN,cq.kmzs123.cn
   - DOMAIN,d40969.acod.regrucolo.ru
+  - DOMAIN,discord.heihachi.pw
   - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
@@ -36,9 +37,7 @@ payload:
   - DOMAIN,ipv6.rer.lol
   - DOMAIN,isk.richardsw.club
   - DOMAIN,ismaarino.com
-  - DOMAIN,leet-tracker.moe
   - DOMAIN,martin-gebhardt.eu
-  - DOMAIN,mikrotik2.draatman.net
   - DOMAIN,ns-1.x-fins.com
   - DOMAIN,ns1.monolithindustries.com
   - DOMAIN,nyaa.tracker.wf
@@ -60,7 +59,6 @@ payload:
   - DOMAIN,retracker.lanta.me
   - DOMAIN,retracker.spark-rostov.ru
   - DOMAIN,retracker.x2k.ru
-  - DOMAIN,rfc5746.mywaifu.best
   - DOMAIN,seeders-paradise.org
   - DOMAIN,seedpeer.net
   - DOMAIN,serpb.vpsburti.com
@@ -92,7 +90,6 @@ payload:
   - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
   - DOMAIN,tracker.bz
-  - DOMAIN,tracker.cloudit.top
   - DOMAIN,tracker.corpscorp.online
   - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.darkness.services
@@ -125,6 +122,7 @@ payload:
   - DOMAIN,tracker.skynetcloud.site
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
+  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com

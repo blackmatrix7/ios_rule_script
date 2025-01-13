@@ -12,15 +12,16 @@ HBO规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-07-03 16:16:13
+最后更新时间：2024-12-03 03:13:13
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 1  | 
 | HOST-SUFFIX | 45  | 
-| USER-AGENT | 2  | 
-| TOTAL | 48  | 
+| USER-AGENT | 2  |
+| DOMAIN-SUFFIX | 2  |
+| TOTAL | 50  | 
 
 
 ## QuantumultX 

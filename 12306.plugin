@@ -1,0 +1,25 @@
+#!name = 铁路12306
+#!desc = 过滤铁路12306广告
+#!openUrl = https://apps.apple.com/app/id564818797
+#!author = RuCu6[https://github.com/RuCu6]
+#!tag = 去广告
+#!system = 
+#!system_version = 
+#!loon_version = 3.2.5(805)
+#!homepage = https://github.com/sooyaaabo/Loon/blob/main/README.md
+#!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/Railway12306.png
+#!date = 2025-01-01 00:00
+
+# 2024-11-28 00:00:00
+# https://kelee.one/Tool/Loon/Plugin/12306_remove_ads.plugin
+
+[Rule]
+# 放行规则
+DOMAIN, ad.12306.cn, DIRECT
+
+[Script]
+# 移除12306开屏广告
+http-request ^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList$ script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/Railway12306/Railway12306.js, requires-body = true, tag = 移除12306开屏广告
+
+[MitM]
+hostname = ad.12306.cn

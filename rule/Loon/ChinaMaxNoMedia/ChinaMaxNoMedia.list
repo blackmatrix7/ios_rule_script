@@ -1,21 +1,22 @@
 # NAME: ChinaMaxNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-01-21 02:15:13
+# UPDATED: 2025-01-22 02:15:28
 # DOMAIN: 412
 # DOMAIN-KEYWORD: 11
 # DOMAIN-SUFFIX: 96305
 # IP-ASN: 1
-# IP-CIDR: 8341
+# IP-CIDR: 8340
 # IP-CIDR6: 12069
 # USER-AGENT: 65
-# TOTAL: 117204
-DOMAIN-SUFFIX,alibaba
-DOMAIN-SUFFIX,tmall
+# TOTAL: 117203
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,ms
+DOMAIN-SUFFIX,alibaba
 DOMAIN-SUFFIX,citic
+DOMAIN-SUFFIX,icbc
 DOMAIN-SUFFIX,sohu
+DOMAIN-SUFFIX,tmall
 DOMAIN-SUFFIX,unicom
 DOMAIN-SUFFIX,wang
 DOMAIN-SUFFIX,xn--1qqw23a
@@ -49,7 +50,6 @@ DOMAIN-SUFFIX,xn--vhquv
 DOMAIN-SUFFIX,xn--vuq861b
 DOMAIN-SUFFIX,xn--xhq521b
 DOMAIN-SUFFIX,xn--zfr164b
-DOMAIN-SUFFIX,icbc
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alipay
@@ -98,34 +98,34 @@ USER-AGENT,eusoft_ting_en_iphone
 USER-AGENT,hearthstone*
 USER-AGENT,hide*
 USER-AGENT,ting_en
+USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
 USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,*QIYI*
 USER-AGENT,DomesticMedia*
 USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
+USER-AGENT,MOO*
+USER-AGENT,MiguVideo*
+USER-AGENT,PPStream*
+USER-AGENT,QIYI*
 USER-AGENT,QQ%E9%9F%B3%E4%B9%90
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
+USER-AGENT,QYPlayer*
+USER-AGENT,TencentMidasConnect*
+USER-AGENT,Youku*
 USER-AGENT,bilibili*
+USER-AGENT,iQiYi*
+USER-AGENT,iQiyi*
 USER-AGENT,live4iphone*
 USER-AGENT,qqlive4iphone*
+USER-AGENT,walkman*
+USER-AGENT,xiami*
 USER-AGENT,youku*
 USER-AGENT,Himalaya*
 USER-AGENT,MGTV*
-USER-AGENT,MOO*
-USER-AGENT,TencentMidasConnect*
-USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
-USER-AGENT,MiguVideo*
 USER-AGENT,baiduyinyue
-USER-AGENT,walkman*
-USER-AGENT,xiami*
-USER-AGENT,Youku*
-USER-AGENT,PPStream*
-USER-AGENT,QIYI*
-USER-AGENT,QYPlayer*
 USER-AGENT,iQIYI*
-USER-AGENT,iQiYi*
-USER-AGENT,iQiyi*
 IP-ASN,132203,no-resolve
 IP-CIDR,0.0.0.0/32,no-resolve
 IP-CIDR,1.0.1.0/24,no-resolve
@@ -8457,7 +8457,6 @@ IP-CIDR,93.115.104.0/24,no-resolve
 IP-CIDR,93.177.76.0/23,no-resolve
 IP-CIDR,93.183.14.0/24,no-resolve
 IP-CIDR,93.183.18.0/24,no-resolve
-IP-CIDR,93.187.128.0/22,no-resolve
 IP-CIDR,94.191.0.0/17,no-resolve
 IP-CIDR,96.45.38.79/32,no-resolve
 IP-CIDR,96.7.136.0/23,no-resolve
@@ -19038,8 +19037,7 @@ IP-CIDR6,2a09:4c0:0:30::/64,no-resolve
 IP-CIDR6,2a09:54c6:2000::/35,no-resolve
 IP-CIDR6,2a09:54c6:4000::/34,no-resolve
 IP-CIDR6,2a09:54c6:b000::/36,no-resolve
-IP-CIDR6,2a09:54c6:c000::/40,no-resolve
-IP-CIDR6,2a09:54c6:c200::/39,no-resolve
+IP-CIDR6,2a09:54c6:c000::/38,no-resolve
 IP-CIDR6,2a09:54c6:c400::/39,no-resolve
 IP-CIDR6,2a09:7c45:0:1000::/52,no-resolve
 IP-CIDR6,2a09:7c45:0:100::/56,no-resolve
@@ -20172,7 +20170,7 @@ IP-CIDR6,2a0c:9a40:95bf:7b40::/59,no-resolve
 IP-CIDR6,2a0c:9a40:95bf:7b60::/60,no-resolve
 IP-CIDR6,2a0c:9a40:95bf:7b80::/57,no-resolve
 IP-CIDR6,2a0c:9a40:95bf:7c00::/54,no-resolve
-IP-CIDR6,2a0c:9a46:800::/44,no-resolve
+IP-CIDR6,2a0c:9a46:800::/43,no-resolve
 IP-CIDR6,2a0c:9e06:133::/48,no-resolve
 IP-CIDR6,2a0c:9e06:153::/48,no-resolve
 IP-CIDR6,2a0c:9e06:62::/48,no-resolve
@@ -20479,6 +20477,7 @@ IP-CIDR6,2a14:67c1:800::/46,no-resolve
 IP-CIDR6,2a14:67c1:804::/48,no-resolve
 IP-CIDR6,2a14:67c1:806::/48,no-resolve
 IP-CIDR6,2a14:67c1:808::/48,no-resolve
+IP-CIDR6,2a14:67c1:80a::/48,no-resolve
 IP-CIDR6,2a14:67c1:a010::/44,no-resolve
 IP-CIDR6,2a14:67c1:a024::/48,no-resolve
 IP-CIDR6,2a14:67c1:a02f::/48,no-resolve

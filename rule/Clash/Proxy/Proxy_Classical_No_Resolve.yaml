@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-01-22 02:13:08
+# UPDATED: 2025-01-23 02:12:43
 # DOMAIN: 11
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 5989
+# DOMAIN-SUFFIX: 6004
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6123
+# TOTAL: 6138
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -649,6 +649,7 @@ payload:
   - DOMAIN-SUFFIX,bloomfortune.com
   - DOMAIN-SUFFIX,blubrry.com
   - DOMAIN-SUFFIX,blueangellive.com
+  - DOMAIN-SUFFIX,bmdru.com
   - DOMAIN-SUFFIX,bmfinn.com
   - DOMAIN-SUFFIX,bnbstatic.com
   - DOMAIN-SUFFIX,bnews.co
@@ -2841,6 +2842,7 @@ payload:
   - DOMAIN-SUFFIX,kik.com
   - DOMAIN-SUFFIX,killwall.com
   - DOMAIN-SUFFIX,kimy.com.tw
+  - DOMAIN-SUFFIX,kindle4rss.com
   - DOMAIN-SUFFIX,kindleren.com
   - DOMAIN-SUFFIX,kingdomsalvation.org
   - DOMAIN-SUFFIX,kinghost.com
@@ -3281,6 +3283,7 @@ payload:
   - DOMAIN-SUFFIX,moeaic.gov.tw
   - DOMAIN-SUFFIX,moeerolibrary.com
   - DOMAIN-SUFFIX,moegirl.org
+  - DOMAIN-SUFFIX,moeshare.cc
   - DOMAIN-SUFFIX,mofa.gov.tw
   - DOMAIN-SUFFIX,mofaxiehui.com
   - DOMAIN-SUFFIX,mofos.com
@@ -3498,6 +3501,7 @@ payload:
   - DOMAIN-SUFFIX,newnews.ca
   - DOMAIN-SUFFIX,news100.com.tw
   - DOMAIN-SUFFIX,newsancai.com
+  - DOMAIN-SUFFIX,newsblur.com
   - DOMAIN-SUFFIX,newschinacomment.org
   - DOMAIN-SUFFIX,newscn.org
   - DOMAIN-SUFFIX,newsdetox.ca
@@ -3919,10 +3923,12 @@ payload:
   - DOMAIN-SUFFIX,pixelmator.com
   - DOMAIN-SUFFIX,pixelqi.com
   - DOMAIN-SUFFIX,pixiv.net
+  - DOMAIN-SUFFIX,pixivsketch.net
   - DOMAIN-SUFFIX,pixnet.in
   - DOMAIN-SUFFIX,pixnet.net
   - DOMAIN-SUFFIX,pk.com
   - DOMAIN-SUFFIX,pki.goog
+  - DOMAIN-SUFFIX,pkqjiasu.com
   - DOMAIN-SUFFIX,placemix.com
   - DOMAIN-SUFFIX,play-asia.com
   - DOMAIN-SUFFIX,playartifact.com
@@ -4072,6 +4078,7 @@ payload:
   - DOMAIN-SUFFIX,qi-gong.me
   - DOMAIN-SUFFIX,qianbai.tw
   - DOMAIN-SUFFIX,qiandao.today
+  - DOMAIN-SUFFIX,qianglie.com
   - DOMAIN-SUFFIX,qiangwaikan.com
   - DOMAIN-SUFFIX,qiangyou.org
   - DOMAIN-SUFFIX,qidian.ca
@@ -4142,6 +4149,7 @@ payload:
   - DOMAIN-SUFFIX,rd.com
   - DOMAIN-SUFFIX,rdio.com
   - DOMAIN-SUFFIX,rdtcdn.com
+  - DOMAIN-SUFFIX,reabble.com
   - DOMAIN-SUFFIX,read01.com
   - DOMAIN-SUFFIX,read100.com
   - DOMAIN-SUFFIX,readdle.com
@@ -4219,6 +4227,7 @@ payload:
   - DOMAIN-SUFFIX,roboforex.com
   - DOMAIN-SUFFIX,robustnessiskey.com
   - DOMAIN-SUFFIX,rocket-inc.net
+  - DOMAIN-SUFFIX,rocket.chat
   - DOMAIN-SUFFIX,rocketbbs.com
   - DOMAIN-SUFFIX,rocksdb.org
   - DOMAIN-SUFFIX,rojo.com
@@ -5012,6 +5021,7 @@ payload:
   - DOMAIN-SUFFIX,tinder.com
   - DOMAIN-SUFFIX,tiney.com
   - DOMAIN-SUFFIX,tineye.com
+  - DOMAIN-SUFFIX,tingtalk.me
   - DOMAIN-SUFFIX,tintuc101.com
   - DOMAIN-SUFFIX,tiny.cc
   - DOMAIN-SUFFIX,tinychat.com
@@ -5354,6 +5364,7 @@ payload:
   - DOMAIN-SUFFIX,usus.cc
   - DOMAIN-SUFFIX,utopianpal.com
   - DOMAIN-SUFFIX,uu-gg.com
+  - DOMAIN-SUFFIX,uujiasu.com
   - DOMAIN-SUFFIX,uukanshu.com
   - DOMAIN-SUFFIX,uvwxyz.xyz
   - DOMAIN-SUFFIX,uwants.com
@@ -5468,6 +5479,7 @@ payload:
   - DOMAIN-SUFFIX,voy.com
   - DOMAIN-SUFFIX,vpl.bibliocommons.com
   - DOMAIN-SUFFIX,vpn.ac
+  - DOMAIN-SUFFIX,vpn.net
   - DOMAIN-SUFFIX,vpn4all.com
   - DOMAIN-SUFFIX,vpnaccount.org
   - DOMAIN-SUFFIX,vpnaccounts.com
@@ -5585,6 +5597,7 @@ payload:
   - DOMAIN-SUFFIX,webwarper.net
   - DOMAIN-SUFFIX,webworkerdaily.com
   - DOMAIN-SUFFIX,wechatlawsuit.com
+  - DOMAIN-SUFFIX,weebly.com
   - DOMAIN-SUFFIX,weekmag.info
   - DOMAIN-SUFFIX,wefightcensorship.org
   - DOMAIN-SUFFIX,wefong.com
@@ -5762,6 +5775,7 @@ payload:
   - DOMAIN-SUFFIX,xerotica.com
   - DOMAIN-SUFFIX,xfiles.to
   - DOMAIN-SUFFIX,xfinity.com
+  - DOMAIN-SUFFIX,xfxssr.me
   - DOMAIN-SUFFIX,xgmyd.com
   - DOMAIN-SUFFIX,xhamster.com
   - DOMAIN-SUFFIX,xianba.net
@@ -5802,6 +5816,7 @@ payload:
   - DOMAIN-SUFFIX,xn--czq75pvv1aj5c.org
   - DOMAIN-SUFFIX,xn--i2ru8q2qg.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,xn--noss43i.com
   - DOMAIN-SUFFIX,xn--oiq.cc
   - DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
   - DOMAIN-SUFFIX,xnxx-cdn.com

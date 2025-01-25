@@ -1,10 +1,10 @@
 # NAME: ChinaIPs
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-01-25 02:13:48
-# IP-CIDR: 18390
+# UPDATED: 2025-01-26 02:12:19
+# IP-CIDR: 18373
 # IP-CIDR6: 12555
-# TOTAL: 30945
+# TOTAL: 30928
 payload:
   - IP-CIDR,1.0.1.0/24,no-resolve
   - IP-CIDR,1.0.2.0/23,no-resolve
@@ -9552,6 +9552,7 @@ payload:
   - IP-CIDR,15.230.49.0/24,no-resolve
   - IP-CIDR,15.230.73.192/26,no-resolve
   - IP-CIDR,15.230.74.0/25,no-resolve
+  - IP-CIDR,15.32.104.0/23,no-resolve
   - IP-CIDR,150.0.0.0/16,no-resolve
   - IP-CIDR,150.109.90.0/24,no-resolve
   - IP-CIDR,150.115.0.0/16,no-resolve
@@ -9757,7 +9758,7 @@ payload:
   - IP-CIDR,156.227.48.0/20,no-resolve
   - IP-CIDR,156.230.11.0/24,no-resolve
   - IP-CIDR,156.230.12.0/23,no-resolve
-  - IP-CIDR,156.232.10.0/24,no-resolve
+  - IP-CIDR,156.232.10.0/23,no-resolve
   - IP-CIDR,156.232.9.0/24,no-resolve
   - IP-CIDR,156.236.110.0/24,no-resolve
   - IP-CIDR,156.236.116.0/24,no-resolve
@@ -15299,9 +15300,9 @@ payload:
   - IP-CIDR,39.190.0.0/15,no-resolve
   - IP-CIDR,39.64.0.0/11,no-resolve
   - IP-CIDR,39.96.0.0/13,no-resolve
+  - IP-CIDR,39.96.0.0/14,no-resolve
   - IP-CIDR,39.96.0.0/16,no-resolve
   - IP-CIDR,39.97.0.0/17,no-resolve
-  - IP-CIDR,39.97.128.0/17,no-resolve
   - IP-CIDR,39.97.128.0/18,no-resolve
   - IP-CIDR,39.97.192.0/21,no-resolve
   - IP-CIDR,39.97.200.0/22,no-resolve
@@ -15313,6 +15314,9 @@ payload:
   - IP-CIDR,40.125.128.0/17,no-resolve
   - IP-CIDR,40.126.64.0/18,no-resolve
   - IP-CIDR,40.162.0.0/16,no-resolve
+  - IP-CIDR,40.162.0.0/18,no-resolve
+  - IP-CIDR,40.162.128.0/17,no-resolve
+  - IP-CIDR,40.162.64.0/18,no-resolve
   - IP-CIDR,40.198.10.0/24,no-resolve
   - IP-CIDR,40.198.16.0/21,no-resolve
   - IP-CIDR,40.198.24.0/23,no-resolve
@@ -17067,7 +17071,7 @@ payload:
   - IP-CIDR,45.250.144.0/22,no-resolve
   - IP-CIDR,45.250.148.0/22,no-resolve
   - IP-CIDR,45.250.152.0/22,no-resolve
-  - IP-CIDR,45.250.152.0/23,no-resolve
+  - IP-CIDR,45.250.152.0/24,no-resolve
   - IP-CIDR,45.250.16.0/22,no-resolve
   - IP-CIDR,45.250.164.0/22,no-resolve
   - IP-CIDR,45.250.180.0/22,no-resolve
@@ -18301,28 +18305,7 @@ payload:
   - IP-CIDR,8.150.0.0/21,no-resolve
   - IP-CIDR,8.152.0.0/13,no-resolve
   - IP-CIDR,8.160.0.0/15,no-resolve
-  - IP-CIDR,8.208.128.0/17,no-resolve
-  - IP-CIDR,8.208.64.0/18,no-resolve
-  - IP-CIDR,8.209.0.0/19,no-resolve
-  - IP-CIDR,8.209.128.0/17,no-resolve
-  - IP-CIDR,8.209.36.0/22,no-resolve
-  - IP-CIDR,8.209.40.0/21,no-resolve
-  - IP-CIDR,8.209.48.0/20,no-resolve
-  - IP-CIDR,8.209.65.0/24,no-resolve
-  - IP-CIDR,8.209.66.0/23,no-resolve
-  - IP-CIDR,8.209.68.0/22,no-resolve
-  - IP-CIDR,8.209.72.0/21,no-resolve
-  - IP-CIDR,8.209.80.0/20,no-resolve
-  - IP-CIDR,8.209.96.0/19,no-resolve
   - IP-CIDR,8.210.152.255/32,no-resolve
-  - IP-CIDR,8.211.0.0/17,no-resolve
-  - IP-CIDR,8.211.128.0/20,no-resolve
-  - IP-CIDR,8.211.144.0/21,no-resolve
-  - IP-CIDR,8.211.152.0/22,no-resolve
-  - IP-CIDR,8.211.157.0/24,no-resolve
-  - IP-CIDR,8.211.158.0/23,no-resolve
-  - IP-CIDR,8.211.160.0/19,no-resolve
-  - IP-CIDR,8.211.192.0/18,no-resolve
   - IP-CIDR,8.212.0.0/15,no-resolve
   - IP-CIDR,8.214.0.0/20,no-resolve
   - IP-CIDR,8.214.128.0/17,no-resolve

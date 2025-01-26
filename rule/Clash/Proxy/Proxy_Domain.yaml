@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-01-26 02:11:47
+# UPDATED: 2025-01-27 02:12:21
 # DOMAIN: 11
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6037
+# DOMAIN-SUFFIX: 6046
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6171
+# TOTAL: 6180
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
@@ -728,6 +728,7 @@ payload:
   - '+.btctrade.im'
   - '+.btdig.com'
   - '+.btdigg.org'
+  - '+.btguard.com'
   - '+.btku.me'
   - '+.btku.org'
   - '+.btlibrary.me'
@@ -1334,6 +1335,7 @@ payload:
   - '+.dlsite.com'
   - '+.dlsite.jp'
   - '+.dm530.net'
+  - '+.dma.mil'
   - '+.dmc.nico'
   - '+.dmcdn.net'
   - '+.dmhy.org'
@@ -3903,7 +3905,6 @@ payload:
   - '+.philborges.com'
   - '+.phmsociety.org'
   - '+.phncdn.com'
-  - '+.phobos.apple.com'
   - '+.phonegap.com'
   - '+.photodharma.net'
   - '+.photofocus.com'
@@ -5295,6 +5296,7 @@ payload:
   - '+.typora.io'
   - '+.u15.info'
   - '+.u9un.com'
+  - '+.ua5v.com'
   - '+.ub0.cc'
   - '+.uberproxy.net'
   - '+.ublock.org'
@@ -5321,6 +5323,8 @@ payload:
   - '+.uku.im'
   - '+.ulike.net'
   - '+.ulop.net'
+  - '+.ultrasurf.us'
+  - '+.ultravpn.com'
   - '+.ultravpn.fr'
   - '+.ultraxs.com'
   - '+.ulyssesapp.com'
@@ -5379,6 +5383,7 @@ payload:
   - '+.usacn.com'
   - '+.usaip.eu'
   - '+.uscardforum.com'
+  - '+.uscg.mil'
   - '+.uscnpm.org'
   - '+.usembassy.gov'
   - '+.userapi.nytlog.com'
@@ -5537,6 +5542,7 @@ payload:
   - '+.vpnpick.com'
   - '+.vpnpop.com'
   - '+.vpnpronet.com'
+  - '+.vpnproxymaster.com'
   - '+.vpnreactor.com'
   - '+.vpnreviewz.com'
   - '+.vpnsecure.me'
@@ -5727,6 +5733,7 @@ payload:
   - '+.wizcrafts.net'
   - '+.wjbk.org'
   - '+.wmflabs.org'
+  - '+.wmfusercontent.org'
   - '+.wn.com'
   - '+.wnacg.com'
   - '+.wnacg.org'
@@ -5904,6 +5911,7 @@ payload:
   - '+.yangjianli.com'
   - '+.yasni.co.uk'
   - '+.yastatic.net'
+  - '+.yasukuni.or.jp'
   - '+.yayabay.com'
   - '+.ycombinator.com'
   - '+.ydy.com'
@@ -5970,6 +5978,7 @@ payload:
   - '+.yuanzhengtang.org'
   - '+.yulghun.com'
   - '+.yunchao.net'
+  - '+.yunomi.tokyo'
   - '+.yuvutu.com'
   - '+.yvesgeleyn.com'
   - '+.ywpw.com'

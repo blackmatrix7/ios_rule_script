@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-01-26 02:11:30
+# UPDATED: 2025-01-27 02:12:03
 # DOMAIN: 84
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 30854
+# DOMAIN-SUFFIX: 30864
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 31091
+# TOTAL: 31101
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -9931,6 +9931,7 @@ payload:
   - DOMAIN-SUFFIX,googleplay.com
   - DOMAIN-SUFFIX,googleplex.com
   - DOMAIN-SUFFIX,googleplus.com
+  - DOMAIN-SUFFIX,googlescholar.com
   - DOMAIN-SUFFIX,googlescholar.comusa
   - DOMAIN-SUFFIX,googlesile.com
   - DOMAIN-SUFFIX,googlesource.com
@@ -23583,7 +23584,6 @@ payload:
   - DOMAIN-SUFFIX,wmcloud.org
   - DOMAIN-SUFFIX,wmcollege.ac.uk
   - DOMAIN-SUFFIX,wmcu.ac.uk
-  - DOMAIN-SUFFIX,wmfusercontent.org
   - DOMAIN-SUFFIX,wmhea.ac.uk
   - DOMAIN-SUFFIX,wmin.ac.uk
   - DOMAIN-SUFFIX,wmsf.ac.uk
@@ -25631,6 +25631,7 @@ payload:
   - DOMAIN-SUFFIX,btctrade.im
   - DOMAIN-SUFFIX,btdig.com
   - DOMAIN-SUFFIX,btdigg.org
+  - DOMAIN-SUFFIX,btguard.com
   - DOMAIN-SUFFIX,btku.me
   - DOMAIN-SUFFIX,btku.org
   - DOMAIN-SUFFIX,btlibrary.me
@@ -26232,6 +26233,7 @@ payload:
   - DOMAIN-SUFFIX,dlsite.com
   - DOMAIN-SUFFIX,dlsite.jp
   - DOMAIN-SUFFIX,dm530.net
+  - DOMAIN-SUFFIX,dma.mil
   - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,dmcdn.net
   - DOMAIN-SUFFIX,dmhy.org
@@ -30190,6 +30192,7 @@ payload:
   - DOMAIN-SUFFIX,typora.io
   - DOMAIN-SUFFIX,u15.info
   - DOMAIN-SUFFIX,u9un.com
+  - DOMAIN-SUFFIX,ua5v.com
   - DOMAIN-SUFFIX,ub0.cc
   - DOMAIN-SUFFIX,uberproxy.net
   - DOMAIN-SUFFIX,ublock.org
@@ -30216,6 +30219,8 @@ payload:
   - DOMAIN-SUFFIX,uku.im
   - DOMAIN-SUFFIX,ulike.net
   - DOMAIN-SUFFIX,ulop.net
+  - DOMAIN-SUFFIX,ultrasurf.us
+  - DOMAIN-SUFFIX,ultravpn.com
   - DOMAIN-SUFFIX,ultravpn.fr
   - DOMAIN-SUFFIX,ultraxs.com
   - DOMAIN-SUFFIX,ulyssesapp.com
@@ -30274,6 +30279,7 @@ payload:
   - DOMAIN-SUFFIX,usacn.com
   - DOMAIN-SUFFIX,usaip.eu
   - DOMAIN-SUFFIX,uscardforum.com
+  - DOMAIN-SUFFIX,uscg.mil
   - DOMAIN-SUFFIX,uscnpm.org
   - DOMAIN-SUFFIX,usembassy.gov
   - DOMAIN-SUFFIX,usercontent.goog
@@ -30431,6 +30437,7 @@ payload:
   - DOMAIN-SUFFIX,vpnpick.com
   - DOMAIN-SUFFIX,vpnpop.com
   - DOMAIN-SUFFIX,vpnpronet.com
+  - DOMAIN-SUFFIX,vpnproxymaster.com
   - DOMAIN-SUFFIX,vpnreactor.com
   - DOMAIN-SUFFIX,vpnreviewz.com
   - DOMAIN-SUFFIX,vpnsecure.me
@@ -30621,6 +30628,7 @@ payload:
   - DOMAIN-SUFFIX,wizcrafts.net
   - DOMAIN-SUFFIX,wjbk.org
   - DOMAIN-SUFFIX,wmflabs.org
+  - DOMAIN-SUFFIX,wmfusercontent.org
   - DOMAIN-SUFFIX,wn.com
   - DOMAIN-SUFFIX,wnacg.com
   - DOMAIN-SUFFIX,wnacg.org
@@ -30796,6 +30804,7 @@ payload:
   - DOMAIN-SUFFIX,yangjianli.com
   - DOMAIN-SUFFIX,yasni.co.uk
   - DOMAIN-SUFFIX,yastatic.net
+  - DOMAIN-SUFFIX,yasukuni.or.jp
   - DOMAIN-SUFFIX,yayabay.com
   - DOMAIN-SUFFIX,ycombinator.com
   - DOMAIN-SUFFIX,ydy.com
@@ -30862,6 +30871,7 @@ payload:
   - DOMAIN-SUFFIX,yuanzhengtang.org
   - DOMAIN-SUFFIX,yulghun.com
   - DOMAIN-SUFFIX,yunchao.net
+  - DOMAIN-SUFFIX,yunomi.tokyo
   - DOMAIN-SUFFIX,yuvutu.com
   - DOMAIN-SUFFIX,yvesgeleyn.com
   - DOMAIN-SUFFIX,ywpw.com

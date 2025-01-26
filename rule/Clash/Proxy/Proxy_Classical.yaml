@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-01-26 02:11:47
+# UPDATED: 2025-01-27 02:12:21
 # DOMAIN: 11
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6037
+# DOMAIN-SUFFIX: 6046
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6171
+# TOTAL: 6180
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -728,6 +728,7 @@ payload:
   - DOMAIN-SUFFIX,btctrade.im
   - DOMAIN-SUFFIX,btdig.com
   - DOMAIN-SUFFIX,btdigg.org
+  - DOMAIN-SUFFIX,btguard.com
   - DOMAIN-SUFFIX,btku.me
   - DOMAIN-SUFFIX,btku.org
   - DOMAIN-SUFFIX,btlibrary.me
@@ -1334,6 +1335,7 @@ payload:
   - DOMAIN-SUFFIX,dlsite.com
   - DOMAIN-SUFFIX,dlsite.jp
   - DOMAIN-SUFFIX,dm530.net
+  - DOMAIN-SUFFIX,dma.mil
   - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,dmcdn.net
   - DOMAIN-SUFFIX,dmhy.org
@@ -3903,7 +3905,6 @@ payload:
   - DOMAIN-SUFFIX,philborges.com
   - DOMAIN-SUFFIX,phmsociety.org
   - DOMAIN-SUFFIX,phncdn.com
-  - DOMAIN-SUFFIX,phobos.apple.com
   - DOMAIN-SUFFIX,phonegap.com
   - DOMAIN-SUFFIX,photodharma.net
   - DOMAIN-SUFFIX,photofocus.com
@@ -5295,6 +5296,7 @@ payload:
   - DOMAIN-SUFFIX,typora.io
   - DOMAIN-SUFFIX,u15.info
   - DOMAIN-SUFFIX,u9un.com
+  - DOMAIN-SUFFIX,ua5v.com
   - DOMAIN-SUFFIX,ub0.cc
   - DOMAIN-SUFFIX,uberproxy.net
   - DOMAIN-SUFFIX,ublock.org
@@ -5321,6 +5323,8 @@ payload:
   - DOMAIN-SUFFIX,uku.im
   - DOMAIN-SUFFIX,ulike.net
   - DOMAIN-SUFFIX,ulop.net
+  - DOMAIN-SUFFIX,ultrasurf.us
+  - DOMAIN-SUFFIX,ultravpn.com
   - DOMAIN-SUFFIX,ultravpn.fr
   - DOMAIN-SUFFIX,ultraxs.com
   - DOMAIN-SUFFIX,ulyssesapp.com
@@ -5379,6 +5383,7 @@ payload:
   - DOMAIN-SUFFIX,usacn.com
   - DOMAIN-SUFFIX,usaip.eu
   - DOMAIN-SUFFIX,uscardforum.com
+  - DOMAIN-SUFFIX,uscg.mil
   - DOMAIN-SUFFIX,uscnpm.org
   - DOMAIN-SUFFIX,usembassy.gov
   - DOMAIN-SUFFIX,userapi.nytlog.com
@@ -5537,6 +5542,7 @@ payload:
   - DOMAIN-SUFFIX,vpnpick.com
   - DOMAIN-SUFFIX,vpnpop.com
   - DOMAIN-SUFFIX,vpnpronet.com
+  - DOMAIN-SUFFIX,vpnproxymaster.com
   - DOMAIN-SUFFIX,vpnreactor.com
   - DOMAIN-SUFFIX,vpnreviewz.com
   - DOMAIN-SUFFIX,vpnsecure.me
@@ -5727,6 +5733,7 @@ payload:
   - DOMAIN-SUFFIX,wizcrafts.net
   - DOMAIN-SUFFIX,wjbk.org
   - DOMAIN-SUFFIX,wmflabs.org
+  - DOMAIN-SUFFIX,wmfusercontent.org
   - DOMAIN-SUFFIX,wn.com
   - DOMAIN-SUFFIX,wnacg.com
   - DOMAIN-SUFFIX,wnacg.org
@@ -5904,6 +5911,7 @@ payload:
   - DOMAIN-SUFFIX,yangjianli.com
   - DOMAIN-SUFFIX,yasni.co.uk
   - DOMAIN-SUFFIX,yastatic.net
+  - DOMAIN-SUFFIX,yasukuni.or.jp
   - DOMAIN-SUFFIX,yayabay.com
   - DOMAIN-SUFFIX,ycombinator.com
   - DOMAIN-SUFFIX,ydy.com
@@ -5970,6 +5978,7 @@ payload:
   - DOMAIN-SUFFIX,yuanzhengtang.org
   - DOMAIN-SUFFIX,yulghun.com
   - DOMAIN-SUFFIX,yunchao.net
+  - DOMAIN-SUFFIX,yunomi.tokyo
   - DOMAIN-SUFFIX,yuvutu.com
   - DOMAIN-SUFFIX,yvesgeleyn.com
   - DOMAIN-SUFFIX,ywpw.com

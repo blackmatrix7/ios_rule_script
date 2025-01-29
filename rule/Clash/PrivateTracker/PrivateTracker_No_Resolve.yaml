@@ -1,12 +1,12 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-01-29 02:13:38
-# DOMAIN: 136
+# UPDATED: 2025-01-30 02:13:43
+# DOMAIN: 137
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
 # IP-CIDR: 3
-# TOTAL: 266
+# TOTAL: 267
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
@@ -24,6 +24,7 @@ payload:
   - DOMAIN,ch3oh.ru
   - DOMAIN,concen.org
   - DOMAIN,d40969.acod.regrucolo.ru
+  - DOMAIN,discord.heihachi.pw
   - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com

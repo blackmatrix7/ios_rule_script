@@ -1,11 +1,12 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-02-05 02:13:38
-# DOMAIN: 129
+# UPDATED: 2025-02-06 02:14:46
+# DOMAIN: 115
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
-# TOTAL: 256
+# IP-CIDR: 3
+# TOTAL: 245
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
@@ -15,7 +16,6 @@ payload:
   - DOMAIN,bandito.byterunner.io
   - DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
   - DOMAIN,bt.ktrackers.com
-  - DOMAIN,bt.okmp3.ru
   - DOMAIN,bt.poletracker.org
   - DOMAIN,bt.rer.lol
   - DOMAIN,bt1.xxxxbt.cc
@@ -24,7 +24,6 @@ payload:
   - DOMAIN,concen.org
   - DOMAIN,d40969.acod.regrucolo.ru
   - DOMAIN,discord.heihachi.pw
-  - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
   - DOMAIN,explodie.org
@@ -34,10 +33,9 @@ payload:
   - DOMAIN,home.yxgz.club
   - DOMAIN,ipv4.rer.lol
   - DOMAIN,ipv4announce.sktorrent.eu
-  - DOMAIN,ipv6.rer.lol
   - DOMAIN,isk.richardsw.club
   - DOMAIN,ismaarino.com
-  - DOMAIN,martin-gebhardt.eu
+  - DOMAIN,leet-tracker.moe
   - DOMAIN,new-line.net
   - DOMAIN,ns-1.x-fins.com
   - DOMAIN,nyaa.tracker.wf
@@ -52,7 +50,6 @@ payload:
   - DOMAIN,opentracker.io
   - DOMAIN,p2p.publictracker.xyz
   - DOMAIN,p4p.arenabg.com
-  - DOMAIN,r.l5.ca
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
   - DOMAIN,retracker.spark-rostov.ru
@@ -73,11 +70,7 @@ payload:
   - DOMAIN,tracker-udp.gbitt.info
   - DOMAIN,tracker-zhuqiy.dgj055.icu
   - DOMAIN,tracker.0x7c0.com
-  - DOMAIN,tracker.aburaya.live
-  - DOMAIN,tracker.beeimg.com
-  - DOMAIN,tracker.birkenwald.de
   - DOMAIN,tracker.bittor.pw
-  - DOMAIN,tracker.bjut.jp
   - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
   - DOMAIN,tracker.bz
@@ -99,10 +92,8 @@ payload:
   - DOMAIN,tracker.leechshield.link
   - DOMAIN,tracker.lilithraws.org
   - DOMAIN,tracker.lintk.me
-  - DOMAIN,tracker.moeking.me
   - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
-  - DOMAIN,tracker.nanoha.org
   - DOMAIN,tracker.ololosh.space
   - DOMAIN,tracker.opentrackr.org
   - DOMAIN,tracker.openwebtorrent.com
@@ -111,29 +102,25 @@ payload:
   - DOMAIN,tracker.sbsub.com
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
-  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.tryhackx.org
   - DOMAIN,tracker.vanitycore.co
   - DOMAIN,tracker.waaa.moe
-  - DOMAIN,tracker.wsaoa.eu.org
   - DOMAIN,tracker.xiaoduola.xyz
   - DOMAIN,tracker.yemekyedim.com
-  - DOMAIN,tracker.yume-hatsuyuki.moe
   - DOMAIN,tracker1.520.jp
   - DOMAIN,tracker1.myporn.club
   - DOMAIN,tracker2.dler.org
+  - DOMAIN,tracker2.itzmx.com
+  - DOMAIN,tracker3.itzmx.com
+  - DOMAIN,tracker4.itzmx.com
   - DOMAIN,tracker810.xyz
   - DOMAIN,ttk2.nbaonlineservice.com
-  - DOMAIN,u4.trakx.crim.ist
-  - DOMAIN,u6.trakx.crim.ist
-  - DOMAIN,udp.tracker.projectk.org
   - DOMAIN,wepzone.net
   - DOMAIN,www.all4nothin.net
   - DOMAIN,www.genesis-sp.org
-  - DOMAIN,www.torrent.eu.org
   - DOMAIN,www.torrentsnipe.info
   - DOMAIN,www.wareztorrent.com
   - DOMAIN-SUFFIX,1ptba.com
@@ -263,3 +250,6 @@ payload:
   - DOMAIN-KEYWORD,chdbits
   - DOMAIN-KEYWORD,m-team
   - DOMAIN-KEYWORD,torrent
+  - IP-CIDR,207.241.226.111/32
+  - IP-CIDR,207.241.231.226/32
+  - IP-CIDR,52.58.128.163/32

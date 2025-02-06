@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-12-17 02:16:59
+desc: 最后更新时间 2025-02-05 02:16:19
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 708
-# mitm: 746
+# reject: 712
+# mitm: 750
 # force-http-engine-hosts: 6
-# total: 1499
+# total: 1507
 
 
 
@@ -386,6 +386,7 @@ http:
     - ^https?:\/\/creditcardapp\.bankcomm\.cn\/mappweb_interface\/common\/(qryPopAds|qryLaunchAds)\.do - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$ - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do - reject
+    - ^https?:\/\/creditcardapp\.bankcomm\.com\/mappweb.*(Advert|Ads).do - reject
     - ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds - reject
     - ^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd - reject
     - ^https?:\/\/data-collector\.soulapp\.cn\/api\/data\/report$ - reject
@@ -435,6 +436,7 @@ http:
     - ^https?:\/\/gongdu\.youshu\.cc\/m\/open_screen\/list_by_udid - reject
     - ^https?:\/\/gorgon\.youdao\.com\/gorgon - reject
     - ^https?:\/\/guanyu\.longfor\.com\/app-server\/api\/v1\/main\/start - reject
+    - ^https?:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api.*Type=APPSECONDAD - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passengerController\/notk\/passenger\/recommendADs - reject
     - ^https?:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement - reject
     - ^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement - reject
@@ -564,9 +566,11 @@ http:
     - ^https?:\/\/newapp2\.szsmk\.com\/app\/config\/queryMainAd - reject
     - ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads - reject
     - ^https?:\/\/news\.ssp\.qq\.com\/app - reject
+    - ^https?:\/\/newsuperapp\.ftms\.com\.cn\/app-bff\/.*openScreenPicture - reject
     - ^https?:\/\/nnapp\.cloudbae\.cn(:\d+)?\/mc\/api\/advert - reject
     - ^https?:\/\/notify\.baicizhan\.com\/rpc\/notify\/get_latest_notify - reject
     - ^https?:\/\/nuc\.api\.mgtv.com\/Logout - reject
+    - ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/.*Code=VWAPP_ICE_OPEN_SCREEN_ADS - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api.*get_popup - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api\/index\/loading_ad - reject
     - ^https?:\/\/open\.78dm\.net\/v\d\/site\/ad\/ - reject
@@ -934,6 +938,7 @@ http:
     - "wmapi.meituan.com"
 
   mitm:
+    - "*.1rtb.net"
     - "*.58cdn.com.cn"
     - "*.5eplay.com"
     - "*.ahhhhfs.com"
@@ -971,6 +976,7 @@ http:
     - "*.yuanfudao.com"
     - "*.yuxueyuan.cn"
     - "*.zdmimg.com"
+    - "*.zongheng.com"
     - "*api.oray.net"
     - "*cupid.iqiyi.com"
     - "101.201.175.228"
@@ -1039,6 +1045,7 @@ http:
     - "api.00bang.cn"
     - "api.21ec74.com"
     - "api.21jingji.com"
+    - "api.369cx.cn"
     - "api.abema.io"
     - "api.ahmobile.cn"
     - "api.aliyundrive.com"
@@ -1291,6 +1298,7 @@ http:
     - "gongdu.youshu.cc"
     - "gorgon.youdao.com"
     - "guanyu.longfor.com"
+    - "gw-app-gateway.gwmapp-w.com"
     - "gw-passenger-wap.01zhuanche.com"
     - "gw-passenger.01zhuanche.com"
     - "gw.aihuishou.com"
@@ -1431,11 +1439,13 @@ http:
     - "newapp2.szsmk.com"
     - "newclient.map.baidu.com"
     - "news.ssp.qq.com"
+    - "newsuperapp.ftms.com.cn"
     - "newton.gumingnc.com"
     - "nnapp.cloudbae.cn"
     - "nnapp.cloudbae.cn:0"
     - "notify.baicizhan.com"
     - "nuc.api.mgtv.com"
+    - "oneapp-api.faw-vw.com"
     - "open-cms-api.quark.cn"
     - "open-cms-api.uc.cn"
     - "open.78dm.net"
@@ -1497,7 +1507,6 @@ http:
     - "s1.api.tv.itc.cn"
     - "s3plus.meituan.net"
     - "saad.ms.zhangyue.net"
-    - "sdk.1rtb.net"
     - "sdk.alibaba.com.ailbaba.me"
     - "security.wechat.com"
     - "service.4gtv.tv"
@@ -1677,7 +1686,6 @@ http:
     - "zjh5api.189smarthome.com"
     - "zjh5api.ott4china.com"
     - "zjmbank.js96008.com"
-    - "zlsdk.1rtb.net"
     - "zone.guiderank-app.com"
     - "ztoread.ziroom.com"
 

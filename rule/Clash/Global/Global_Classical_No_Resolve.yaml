@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-01-27 02:12:03
+# UPDATED: 2025-02-08 02:13:10
 # DOMAIN: 84
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 30864
+# DOMAIN-SUFFIX: 30882
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 31101
+# TOTAL: 31119
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -2646,6 +2646,7 @@ payload:
   - DOMAIN-SUFFIX,bangkokstreetwhores.com
   - DOMAIN-SUFFIX,bangor-university-london.ac.uk
   - DOMAIN-SUFFIX,bangor.ac.uk
+  - DOMAIN-SUFFIX,bangumi.tv
   - DOMAIN-SUFFIX,bangyourwife.com
   - DOMAIN-SUFFIX,banned.video
   - DOMAIN-SUFFIX,bannedbook.net
@@ -3214,6 +3215,7 @@ payload:
   - DOMAIN-SUFFIX,bfmat.ac.uk
   - DOMAIN-SUFFIX,bftv.ac.uk
   - DOMAIN-SUFFIX,bgc.ac.uk
+  - DOMAIN-SUFFIX,bgm.tv
   - DOMAIN-SUFFIX,bgov.com
   - DOMAIN-SUFFIX,bgr.in
   - DOMAIN-SUFFIX,bgs.ac.uk
@@ -5205,6 +5207,7 @@ payload:
   - DOMAIN-SUFFIX,chid.com.mm
   - DOMAIN-SUFFIX,chigroup.ac.uk
   - DOMAIN-SUFFIX,chihair-straightener.com
+  - DOMAIN-SUFFIX,chii.in
   - DOMAIN-SUFFIX,chikiporn.com
   - DOMAIN-SUFFIX,chilbolton.ac.uk
   - DOMAIN-SUFFIX,childrenofthe90s.ac.uk
@@ -10069,6 +10072,7 @@ payload:
   - DOMAIN-SUFFIX,grimsby.ac.uk
   - DOMAIN-SUFFIX,grimsbytec.ac.uk
   - DOMAIN-SUFFIX,grooby.com
+  - DOMAIN-SUFFIX,groq.com
   - DOMAIN-SUFFIX,groupfun.com
   - DOMAIN-SUFFIX,groups.com
   - DOMAIN-SUFFIX,grows.ac.uk
@@ -21494,6 +21498,8 @@ payload:
   - DOMAIN-SUFFIX,tik-tokapi.com
   - DOMAIN-SUFFIX,tiktokcdn-eu.com
   - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokeu-cdn.com
+  - DOMAIN-SUFFIX,tiktokrow-cdn.com
   - DOMAIN-SUFFIX,tiktokv.eu
   - DOMAIN-SUFFIX,tiktokw.eu
   - DOMAIN-SUFFIX,tiktokw.us
@@ -21805,6 +21811,7 @@ payload:
   - DOMAIN-SUFFIX,tteshop.com
   - DOMAIN-SUFFIX,ttetraining.ac.uk
   - DOMAIN-SUFFIX,ttlivecdn.com
+  - DOMAIN-SUFFIX,ttoverseaus.net
   - DOMAIN-SUFFIX,ttrb.ac.uk
   - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,ttwstatic.com
@@ -22867,24 +22874,35 @@ payload:
   - DOMAIN-SUFFIX,vixen.com
   - DOMAIN-SUFFIX,vixvids.to
   - DOMAIN-SUFFIX,viznet.ac.uk
+  - DOMAIN-SUFFIX,vk-apps.com
+  - DOMAIN-SUFFIX,vk-apps.ru
   - DOMAIN-SUFFIX,vk-cdn.me
   - DOMAIN-SUFFIX,vk-cdn.net
   - DOMAIN-SUFFIX,vk-portal.net
   - DOMAIN-SUFFIX,vk.cc
+  - DOMAIN-SUFFIX,vk.company
   - DOMAIN-SUFFIX,vk.design
   - DOMAIN-SUFFIX,vk.link
   - DOMAIN-SUFFIX,vk.me
   - DOMAIN-SUFFIX,vk.ru
+  - DOMAIN-SUFFIX,vk.team
   - DOMAIN-SUFFIX,vkcache.com
   - DOMAIN-SUFFIX,vkgo.app
   - DOMAIN-SUFFIX,vklive.app
   - DOMAIN-SUFFIX,vkmessenger.app
   - DOMAIN-SUFFIX,vkmessenger.com
   - DOMAIN-SUFFIX,vkontakte.ru
+  - DOMAIN-SUFFIX,vkuser.net
   - DOMAIN-SUFFIX,vkuseraudio.com
+  - DOMAIN-SUFFIX,vkuseraudio.net
+  - DOMAIN-SUFFIX,vkuseraudio.ru
+  - DOMAIN-SUFFIX,vkusercdn.ru
   - DOMAIN-SUFFIX,vkuserlive.net
+  - DOMAIN-SUFFIX,vkuserphoto.ru
   - DOMAIN-SUFFIX,vkuservideo.com
   - DOMAIN-SUFFIX,vkuservideo.net
+  - DOMAIN-SUFFIX,vkuservideo.ru
+  - DOMAIN-SUFFIX,vkvideo.ru
   - DOMAIN-SUFFIX,vl4x.net
   - DOMAIN-SUFFIX,vmglobal.net
   - DOMAIN-SUFFIX,vmmark.com

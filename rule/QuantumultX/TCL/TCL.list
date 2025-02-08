@@ -1,13 +1,15 @@
-# NAME: TCL
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:46
-# HOST-SUFFIX: 7
-# TOTAL: 7
-HOST-SUFFIX,alcatel-home.com,TCL
-HOST-SUFFIX,alcatelmobile.com,TCL
-HOST-SUFFIX,blackberry.com,TCL
-HOST-SUFFIX,hmeng.cn,TCL
-HOST-SUFFIX,hmeng.net.cn,TCL
-HOST-SUFFIX,tcl.com,TCL
-HOST-SUFFIX,tcl.com.cn,TCL
+# NAME: Tubi
+# AUTHOR: Yihao007
+# REPO: https://github.com/Yihao/Tubi
+# UPDATED: 2025-01-05 16:16:15
+# HOST-SUFFIX: 4
+# USER-AGENT: 2
+# TOTAL: 6
+HOST-SUFFIX,epg-cdn,production-public.tubi.io,Tubi
+HOST-SUFFIX,tubi.com,tubitv.com，Tubi
+HOST-SUFFIX,roduction-public.tubi.io,Tubi
+HOST-SUFFIX,tensor-cdn,production-public.tubi.io，Tubi
+HOST-SUFFIX,account,production-public.tubi.io，Tubi
+HOST-SUFFIX,user-queue,production-public.tubi.io，Tubi
+USER-AGENT,Tubi*,Tubi
+USER-AGENT,Tubi*dia,Tubi

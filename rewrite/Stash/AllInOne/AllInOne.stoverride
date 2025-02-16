@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2025-02-05 02:16:19
+desc: 最后更新时间 2025-02-17 02:15:05
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 712
-# mitm: 750
+# reject: 713
+# mitm: 751
 # force-http-engine-hosts: 6
-# total: 1507
+# total: 1509
 
 
 
@@ -634,6 +634,7 @@ http:
     - ^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/dsx\.php\/v\d\/advert\?position=[^2]+ - reject
     - ^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/dsx\.php\/v\d\/top_notice\? - reject
     - ^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v\d\/version - reject
+    - ^https?:\/\/sdk\.tianmu\.mobi\/ad - reject
     - ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/actionad\.php - reject
     - ^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(GetAD|ADLog) - reject
     - ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
@@ -1508,6 +1509,7 @@ http:
     - "s3plus.meituan.net"
     - "saad.ms.zhangyue.net"
     - "sdk.alibaba.com.ailbaba.me"
+    - "sdk.tianmu.mobi"
     - "security.wechat.com"
     - "service.4gtv.tv"
     - "service.busi.inke.cn"

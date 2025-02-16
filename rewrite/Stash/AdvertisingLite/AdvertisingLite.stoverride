@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-02-16 02:15:27
+desc: 最后更新时间 2025-02-17 02:15:27
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1189
-# mitm: 878
+# reject: 1190
+# mitm: 879
 # force-http-engine-hosts: 6
-# total: 2073
+# total: 2075
 
 
 
@@ -987,6 +987,7 @@ http:
     - ^https?:\/\/sdk1xyajs\.data\.kuiniuca\.com - reject
     - ^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/.*?\/v\d\/(version|top_notice\?|advert\?position=[^2]+) - reject
     - ^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v\d\/version - reject
+    - ^https?:\/\/sdk\.tianmu\.mobi\/ad - reject
     - ^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(GetAD|ADLog) - reject
     - ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
     - ^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson - reject
@@ -1925,6 +1926,7 @@ http:
     - "saad.ms.zhangyue.net"
     - "scdn.line-apps.com"
     - "sdk.alibaba.com.ailbaba.me"
+    - "sdk.tianmu.mobi"
     - "sdk1xyajs.data.kuiniuca.com"
     - "se-api.djiits.com"
     - "service.4gtv.tv"

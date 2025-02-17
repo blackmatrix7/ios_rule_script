@@ -1,15 +1,15 @@
 # NAME: ChinaMaxNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-02-17 02:13:51
+# UPDATED: 2025-02-18 02:15:06
 # DOMAIN: 412
 # DOMAIN-KEYWORD: 11
 # DOMAIN-SUFFIX: 96306
 # IP-ASN: 1
 # IP-CIDR: 8273
-# IP-CIDR6: 12182
+# IP-CIDR6: 12183
 # PROCESS-NAME: 14
-# TOTAL: 117199
+# TOTAL: 117200
 payload:
   - '0.0.0.0/32'
   - '1.0.1.0/24'
@@ -15903,7 +15903,7 @@ payload:
   - '2400:60c0::/32'
   - '2400:61c0::/32'
   - '2400:6200::/32'
-  - '2400:6460::/40'
+  - '2400:6460::/39'
   - '2400:6500:0:7300::/56'
   - '2400:6500:100:7200::/56'
   - '2400:6600::/32'
@@ -20247,6 +20247,7 @@ payload:
   - '2a0f:85c1:816::/48'
   - '2a0f:85c1:89a::/48'
   - '2a0f:85c1:b3a::/48'
+  - '2a0f:9400:6110::/48'
   - '2a0f:9400:7700::/48'
   - '2a0f:9407:f000::/36'
   - '2a0f:ac00::/29'

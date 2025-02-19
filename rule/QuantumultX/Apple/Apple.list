@@ -1,7 +1,7 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-02-19 02:11:44
+# UPDATED: 2025-02-20 02:11:37
 # HOST: 268
 # HOST-KEYWORD: 7
 # HOST-SUFFIX: 1549
@@ -237,7 +237,6 @@ HOST,audio-ssl.itunes.apple.com,Apple
 HOST,audio.itunes.apple.com,Apple
 HOST,mvod.itunes.apple.com,Apple
 HOST,streamingaudio.itunes.apple.com,Apple
-HOST,gspe1-ssl.ls.apple.com,Apple
 HOST,news-client-search.apple.com,Apple
 HOST,api-glb-sea.smoot.apple.com,Apple
 HOST,apple.comscoreresearch.com,Apple
@@ -248,6 +247,8 @@ HOST,developer.apple.com,Apple
 HOST,devimages-cdn.apple.com,Apple
 HOST,devstreaming-cdn.apple.com,Apple
 HOST,docs-assets.developer.apple.com,Apple
+HOST,gspe1-ssl.ls.apple.com,Apple
+HOST,hls-svod.itunes.apple.com,Apple
 HOST,hls.itunes.apple.com,Apple
 HOST,itunes.apple.com,Apple
 HOST,js-cdn.music.apple.com,Apple
@@ -265,6 +266,7 @@ HOST,news-events.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
 HOST,play-edge.itunes.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
+HOST,testflight.apple.com,Apple
 HOST,tv.applemusic.com,Apple
 HOST,uts-api.itunes.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple
@@ -272,10 +274,8 @@ HOST,fmfmobile.icloud.com,Apple
 HOST,fmipmobile.icloud.com,Apple
 HOST,statici.icloud.com,Apple
 HOST,amp-api.fitness.apple.com,Apple
-HOST,hls-svod.itunes.apple.com,Apple
 HOST,guzzoni.apple.com,Apple
 HOST,beta.apple.com,Apple
-HOST,testflight.apple.com,Apple
 HOST,www-cdn.icloud.com.akadns.net,Apple
 HOST-SUFFIX,100beatscheap.com,Apple
 HOST-SUFFIX,1monsterbeatsbydreus.com,Apple
@@ -1782,7 +1782,6 @@ HOST-SUFFIX,ukipad.com,Apple
 HOST-SUFFIX,wwwipodlounge.com,Apple
 HOST-SUFFIX,wwwmacbookair.com,Apple
 HOST-SUFFIX,apple.comscoreresearch.com,Apple
-HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,appleenews.com,Apple
 HOST-SUFFIX,applemusic.berlin,Apple
 HOST-SUFFIX,applemusic.co,Apple
@@ -1820,6 +1819,7 @@ HOST-SUFFIX,iphoto.wang,Apple
 HOST-SUFFIX,musickit.net,Apple
 HOST-SUFFIX,wwwapplemusic.com,Apple
 HOST-SUFFIX,apple-dns.net,Apple
+HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,appsto.re,Apple
 HOST-SUFFIX,cdn-apple.com,Apple
 HOST-SUFFIX,digicert.com,Apple
@@ -1867,8 +1867,8 @@ USER-AGENT,locationd*,Apple
 USER-AGENT,passd*,Apple
 USER-AGENT,Music*,Apple
 USER-AGENT,AppleNews*,Apple
-USER-AGENT,com.apple.news*,Apple
 USER-AGENT,AppleTV*,Apple
+USER-AGENT,com.apple.news*,Apple
 USER-AGENT,com.apple.trustd*,Apple
 USER-AGENT,com.apple.tv*,Apple
 IP-CIDR,139.178.128.0/18,Apple

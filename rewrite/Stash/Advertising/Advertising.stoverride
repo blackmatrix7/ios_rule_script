@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2025-02-17 02:15:01
+desc: 最后更新时间 2025-02-23 02:14:51
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 751
-# mitm: 710
+# reject: 752
+# mitm: 711
 # force-http-engine-hosts: 6
-# total: 1467
+# total: 1469
 
 
 
@@ -232,6 +232,7 @@ http:
     - ^https?:\/\/api\.club\.lenovo\.cn\/common\/open_ad - reject
     - ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch - reject
     - ^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init - reject
+    - ^https?:\/\/api\.dnurse\.com\/api\/boot\/get-latest-items - reject
     - ^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* - reject
     - ^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash - reject
     - ^https?:\/\/api\.feng\.com\/v\d\/advertisement\/.*Claunch - reject
@@ -906,6 +907,7 @@ http:
     - "api.club.lenovo.cn"
     - "api.coolapk.com"
     - "api.dangdang.com"
+    - "api.dnurse.com"
     - "api.douban.com"
     - "api.feng.com"
     - "api.gameplus.qq.com"

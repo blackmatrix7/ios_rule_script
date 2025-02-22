@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-02-17 02:15:27
+desc: 最后更新时间 2025-02-23 02:15:18
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1190
-# mitm: 879
+# reject: 1191
+# mitm: 880
 # force-http-engine-hosts: 6
-# total: 2075
+# total: 2077
 
 
 
@@ -261,6 +261,7 @@ http:
     - ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch - reject
     - ^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init - reject
     - ^https?:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/ - reject
+    - ^https?:\/\/api\.dnurse\.com\/api\/boot\/get-latest-items - reject
     - ^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash - reject
     - ^https?:\/\/api\.fengshows\.com\/api\/launchAD - reject
     - ^https?:\/\/api\.futunn\.com\/treasure-chest\/box-data - reject
@@ -1312,6 +1313,7 @@ http:
     - "api.coolapk.com"
     - "api.dangdang.com"
     - "api.daydaycook.com.cn"
+    - "api.dnurse.com"
     - "api.douban.com"
     - "api.fengshows.com"
     - "api.flydigi.com"

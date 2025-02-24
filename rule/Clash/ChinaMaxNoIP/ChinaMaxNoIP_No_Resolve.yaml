@@ -1,12 +1,12 @@
 # NAME: ChinaMaxNoIP
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-02-23 02:13:07
+# UPDATED: 2025-02-25 02:15:01
 # DOMAIN: 416
 # DOMAIN-KEYWORD: 13
-# DOMAIN-SUFFIX: 96286
+# DOMAIN-SUFFIX: 96289
 # PROCESS-NAME: 14
-# TOTAL: 96729
+# TOTAL: 96732
 payload:
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -17,10 +17,10 @@ payload:
   - DOMAIN-KEYWORD,officecdn
   - DOMAIN-KEYWORD,taobao
   - DOMAIN-KEYWORD,bilibili
+  - DOMAIN-KEYWORD,qiyi
   - DOMAIN-KEYWORD,hnagroup
   - DOMAIN-KEYWORD,stripe
   - DOMAIN-KEYWORD,weibo
-  - DOMAIN-KEYWORD,qiyi
   - PROCESS-NAME,com.taobao.taobao
   - PROCESS-NAME,com.bilibili.app.blue
   - PROCESS-NAME,com.bilibili.app.in

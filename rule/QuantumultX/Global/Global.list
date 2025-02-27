@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-02-25 02:13:08
-# HOST: 535
+# UPDATED: 2025-02-28 02:13:09
+# HOST: 581
 # HOST-KEYWORD: 36
-# HOST-SUFFIX: 31027
+# HOST-SUFFIX: 31044
 # IP-CIDR: 112
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 31760
+# TOTAL: 31823
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
 HOST,3dns-3.adobe.com,Global
@@ -252,6 +252,18 @@ HOST,news-events.apple.com,Global
 HOST,notary-submissions-prod.s3-accelerate.amazonaws.com,Global
 HOST,notary-submissions-prod.s3.us-west-2.amazonaws.com,Global
 HOST,notify.ppy.sh,Global
+HOST,ntp-b.nist.gov,Global
+HOST,ntp-c.colorado.edu,Global
+HOST,ntp-d.nist.gov,Global
+HOST,ntp-wwv.nist.gov,Global
+HOST,ntp0.ntp-servers.net,Global
+HOST,ntp1.ntp-servers.net,Global
+HOST,ntp2.ntp-servers.net,Global
+HOST,ntp3.ntp-servers.net,Global
+HOST,ntp4.ntp-servers.net,Global
+HOST,ntp5.ntp-servers.net,Global
+HOST,ntp6.ntp-servers.net,Global
+HOST,ntp7.ntp-servers.net,Global
 HOST,nurofensk-prod-env.eu-west-1.elasticbeanstalk.com,Global
 HOST,nvidia.tt.omtrdc.net,Global
 HOST,nytimes.map.fastly.net,Global
@@ -387,6 +399,35 @@ HOST,t21.nikkei.co.jp,Global
 HOST,t21ipau.nikkei.co.jp,Global
 HOST,teamviewer.com.cdn.cloudflare.net,Global
 HOST,tesla-cdn.thron.com,Global
+HOST,time-a-b.nist.gov,Global
+HOST,time-a-g.nist.gov,Global
+HOST,time-a-wwv.nist.gov,Global
+HOST,time-b-b.nist.gov,Global
+HOST,time-b-g.nist.gov,Global
+HOST,time-b-wwv.nist.gov,Global
+HOST,time-c-b.nist.gov,Global
+HOST,time-c-g.nist.gov,Global
+HOST,time-c-wwv.nist.gov,Global
+HOST,time-d-b.nist.gov,Global
+HOST,time-d-g.nist.gov,Global
+HOST,time-d-wwv.nist.gov,Global
+HOST,time-e-b.nist.gov,Global
+HOST,time-e-g.nist.gov,Global
+HOST,time-e-wwv.nist.gov,Global
+HOST,time.apple.com,Global
+HOST,time.euro.apple.com,Global
+HOST,time.facebook.com,Global
+HOST,time.google.com,Global
+HOST,time.nist.gov,Global
+HOST,time1.facebook.com,Global
+HOST,time1.google.com,Global
+HOST,time2.facebook.com,Global
+HOST,time2.google.com,Global
+HOST,time3.facebook.com,Global
+HOST,time3.google.com,Global
+HOST,time4.facebook.com,Global
+HOST,time4.google.com,Global
+HOST,time5.facebook.com,Global
 HOST,tmdb-image-prod.b-cdn.net,Global
 HOST,translomatic.foxfortmobile.com,Global
 HOST,tv.apple.com,Global
@@ -396,6 +437,11 @@ HOST,ubisoft-uplay-savegames.s3.amazonaws.com,Global
 HOST,ubistatic3-a.akamaihd.net,Global
 HOST,ulrichsweb.serialssolutions.com,Global
 HOST,upos-hz-mirrorakam.akamaized.net,Global
+HOST,ut1-time.colorado.edu,Global
+HOST,ut1-wwv.nist.gov,Global
+HOST,utcnist.colorado.edu,Global
+HOST,utcnist2.colorado.edu,Global
+HOST,utcnist3.colorado.edu,Global
 HOST,ve-dash-uk-live.akamaized.net,Global
 HOST,ve-uhd-push-uk-live.akamaized.net,Global
 HOST,venmo.s3.amazonaws.com,Global
@@ -1912,6 +1958,10 @@ HOST-SUFFIX,amytele.com,Global
 HOST-SUFFIX,amzn.asia,Global
 HOST-SUFFIX,amzn.com,Global
 HOST-SUFFIX,amzn.to,Global
+HOST-SUFFIX,amzndns.co.uk,Global
+HOST-SUFFIX,amzndns.com,Global
+HOST-SUFFIX,amzndns.net,Global
+HOST-SUFFIX,amzndns.org,Global
 HOST-SUFFIX,amznl.com,Global
 HOST-SUFFIX,anacams.com,Global
 HOST-SUFFIX,anaconda.cloud,Global
@@ -2031,13 +2081,20 @@ HOST-SUFFIX,aopcuk.ac.uk,Global
 HOST-SUFFIX,aorus.com,Global
 HOST-SUFFIX,aoxx69.net,Global
 HOST-SUFFIX,ap-bangkok.myqcloud.com,Global
+HOST-SUFFIX,ap-bangkok.tencentcos.com,Global
 HOST-SUFFIX,ap-hongkong.myqcloud.com,Global
+HOST-SUFFIX,ap-hongkong.tencentcos.com,Global
 HOST-SUFFIX,ap-jakarta.myqcloud.com,Global
+HOST-SUFFIX,ap-jakarta.tencentcos.com,Global
 HOST-SUFFIX,ap-mumbai.myqcloud.com,Global
+HOST-SUFFIX,ap-mumbai.tencentcos.com,Global
 HOST-SUFFIX,ap-seoul.myqcloud.com,Global
+HOST-SUFFIX,ap-seoul.tencentcos.com,Global
 HOST-SUFFIX,ap-singapore.myqcloud.com,Global
+HOST-SUFFIX,ap-singapore.tencentcos.com,Global
 HOST-SUFFIX,ap-southeast-4.myhuaweicloud.com,Global
 HOST-SUFFIX,ap-tokyo.myqcloud.com,Global
+HOST-SUFFIX,ap-tokyo.tencentcos.com,Global
 HOST-SUFFIX,ap0le.com,Global
 HOST-SUFFIX,apa.org,Global
 HOST-SUFFIX,apexlegends.com,Global
@@ -8246,7 +8303,9 @@ HOST-SUFFIX,etviet.com,Global
 HOST-SUFFIX,etwealth.com,Global
 HOST-SUFFIX,eu-consumer-empowerment.com,Global
 HOST-SUFFIX,eu-frankfurt.myqcloud.com,Global
+HOST-SUFFIX,eu-frankfurt.tencentcos.com,Global
 HOST-SUFFIX,eu-moscow.myqcloud.com,Global
+HOST-SUFFIX,eu-moscow.tencentcos.com,Global
 HOST-SUFFIX,eu-west-101.myhuaweicloud.com,Global
 HOST-SUFFIX,eubluecardvisa.com,Global
 HOST-SUFFIX,eued.ac.uk,Global
@@ -15604,10 +15663,13 @@ HOST-SUFFIX,n3ro.net,Global
 HOST-SUFFIX,n3ro.wtf,Global
 HOST-SUFFIX,n8agrifood.ac.uk,Global
 HOST-SUFFIX,na-ashburn.myqcloud.com,Global
+HOST-SUFFIX,na-ashburn.tencentcos.com,Global
 HOST-SUFFIX,na-att-idns.net,Global
 HOST-SUFFIX,na-me.ac.uk,Global
 HOST-SUFFIX,na-siliconvalley.myqcloud.com,Global
+HOST-SUFFIX,na-siliconvalley.tencentcos.com,Global
 HOST-SUFFIX,na-toronto.myqcloud.com,Global
+HOST-SUFFIX,na-toronto.tencentcos.com,Global
 HOST-SUFFIX,naaktevrouwenporno.com,Global
 HOST-SUFFIX,nab.com.au,Global
 HOST-SUFFIX,nabtravellercard.com.au,Global
@@ -19216,6 +19278,7 @@ HOST-SUFFIX,s2stagehance.com,Global
 HOST-SUFFIX,s81c.com,Global
 HOST-SUFFIX,s8ds5gfm.xyz,Global
 HOST-SUFFIX,sa-saopaulo.myqcloud.com,Global
+HOST-SUFFIX,sa-saopaulo.tencentcos.com,Global
 HOST-SUFFIX,sa.com,Global
 HOST-SUFFIX,saasexch.com,Global
 HOST-SUFFIX,saasexch.io,Global

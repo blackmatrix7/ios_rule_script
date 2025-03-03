@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2025-02-23 02:14:56
+desc: 最后更新时间 2025-03-04 02:17:03
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 714
-# mitm: 752
+# reject: 715
+# mitm: 753
 # force-http-engine-hosts: 6
-# total: 1511
+# total: 1513
 
 
 
@@ -603,6 +603,7 @@ http:
     - ^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/ - reject
     - ^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$ - reject
     - ^https?:\/\/pipi\.4kya\.com\/\/xgapp\.php\/v3\/advert\.position=[^2]+ - reject
+    - ^https?:\/\/pjlapi\.paojd\.cn\/na\/pjlNa - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
     - ^https?:\/\/promotion\.medlive\.cn\/getcover-v2\?app_name=medlive - reject
@@ -1478,6 +1479,7 @@ http:
     - "pic.edaijia.cn"
     - "pinggai*.caixin.com"
     - "pipi.4kya.com"
+    - "pjlapi.paojd.cn"
     - "plt.yorentown.com"
     - "portal-xunyou.qingcdn.com"
     - "promo.xueqiu.com"

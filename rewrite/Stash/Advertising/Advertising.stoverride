@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2025-02-23 02:14:51
+desc: 最后更新时间 2025-03-04 02:16:58
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 752
-# mitm: 711
+# reject: 753
+# mitm: 712
 # force-http-engine-hosts: 6
-# total: 1469
+# total: 1471
 
 
 
@@ -621,6 +621,7 @@ http:
     - ^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$ - reject
     - ^https?:\/\/pinggai.*caixin\.com\/s\?z=caixin - reject
     - ^https?:\/\/pipi\.4kya\.com\/\/xgapp\.php\/v3\/advert\.position=[^2]+ - reject
+    - ^https?:\/\/pjlapi\.paojd\.cn\/na\/pjlNa - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
     - ^https?:\/\/promotion\.medlive\.cn\/getcover-v2\?app_name=medlive - reject
@@ -1326,6 +1327,7 @@ http:
     - "pinggai*.caixin.com"
     - "pinggaicaixin.com"
     - "pipi.4kya.com"
+    - "pjlapi.paojd.cn"
     - "plt.yorentown.com"
     - "portal-xunyou.qingcdn.com"
     - "promo.xueqiu.com"

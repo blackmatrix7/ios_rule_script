@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-02-23 02:15:18
+desc: 最后更新时间 2025-03-04 02:17:24
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1191
-# mitm: 880
+# reject: 1192
+# mitm: 881
 # force-http-engine-hosts: 6
-# total: 2077
+# total: 2079
 
 
 
@@ -931,6 +931,7 @@ http:
     - ^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/ - reject
     - ^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$ - reject
     - ^https?:\/\/pipi\.4kya\.com\/\/xgapp\.php\/v3\/advert\.position=[^2]+ - reject
+    - ^https?:\/\/pjlapi\.paojd\.cn\/na\/pjlNa - reject
     - ^https?:\/\/plough\.babytree\.com\/plough\.do - reject
     - ^https?:\/\/portal-portm\.meituan\.com\/horn_ios\/mergeRequest - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ - reject
@@ -1875,6 +1876,7 @@ http:
     - "pic.k.sohu.com"
     - "pic1.chelaile.net.cn"
     - "pipi.4kya.com"
+    - "pjlapi.paojd.cn"
     - "plough.babytree.com"
     - "portal-portm.meituan.com"
     - "portal-xunyou.qingcdn.com"

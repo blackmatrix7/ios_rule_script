@@ -1,13 +1,13 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-03-04 02:13:39
+# UPDATED: 2025-03-05 02:13:20
 # DOMAIN: 15
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3675
+# DOMAIN-SUFFIX: 3672
 # IP-CIDR: 17
 # IP-CIDR6: 4
-# TOTAL: 3720
+# TOTAL: 3717
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -1795,7 +1795,6 @@ payload:
   - DOMAIN-SUFFIX,ipplus360.com
   - DOMAIN-SUFFIX,iprdp.net
   - DOMAIN-SUFFIX,ipssh.net
-  - DOMAIN-SUFFIX,ipv6-test.com
   - DOMAIN-SUFFIX,iq.com
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,iqiyipic.com
@@ -3036,8 +3035,6 @@ payload:
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,tenxcloud.com
   - DOMAIN-SUFFIX,test-cignacmb.com
-  - DOMAIN-SUFFIX,test-ipv4.com
-  - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,testwaf.com
   - DOMAIN-SUFFIX,texasholdemcup.com
   - DOMAIN-SUFFIX,texasholdemcup.net

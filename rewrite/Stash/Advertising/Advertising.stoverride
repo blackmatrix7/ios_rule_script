@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2025-03-04 02:16:58
+desc: 最后更新时间 2025-03-08 02:16:45
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 753
-# mitm: 712
+# reject: 754
+# mitm: 713
 # force-http-engine-hosts: 6
-# total: 1471
+# total: 1473
 
 
 
@@ -757,6 +757,7 @@ http:
     - ^https?:\/\/yxhd\.hori-gz\.com\/\/jfmsApi\/commandWord\/commandWordInfo - reject
     - ^https?:\/\/yxyapi2\.yuxueyuan\.cn\/yxy-api-gateway\/api\/json\/advert\/getsAdStartScreen - reject
     - ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
+    - ^https?:\/\/yyfapi\.huatu\.com\/common\/ad\/ - reject
     - ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig - reject
     - ^https?:\/\/zjdr666\.com\/zjdr\.php\/v\d\/(version|top_notice\?|advert\?position=[^2]+) - reject
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
@@ -1480,6 +1481,7 @@ http:
     - "yunbusiness.ccb.com"
     - "yxhd.hori-gz.com"
     - "yxyapi*.drcuiyutao.com"
+    - "yyfapi.huatu.com"
     - "zconfig.alibabausercontent.com"
     - "zhangyuyidong.cn"
     - "zjdr666.com"

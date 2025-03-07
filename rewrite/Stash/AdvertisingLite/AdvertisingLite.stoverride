@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-03-04 02:17:24
+desc: 最后更新时间 2025-03-08 02:17:10
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1192
-# mitm: 881
+# reject: 1193
+# mitm: 882
 # force-http-engine-hosts: 6
-# total: 2079
+# total: 2081
 
 
 
@@ -1155,6 +1155,7 @@ http:
     - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A002 - reject
     - ^https?:\/\/yxyapi2\.yuxueyuan\.cn\/yxy-api-gateway\/api\/json\/advert\/getsAdStartScreen - reject
     - ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
+    - ^https?:\/\/yyfapi\.huatu\.com\/common\/ad\/ - reject
     - ^https?:\/\/z\.onewo\.com\/passer\/api\/ads\/v1\/8\/list - reject
     - ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig - reject
     - ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/guessYouLike\/v3 - reject
@@ -2086,6 +2087,7 @@ http:
     - "yunbusiness.ccb.com"
     - "yxyapi*.drcuiyutao.com"
     - "yxyapi2.yuxueyuan.cn"
+    - "yyfapi.huatu.com"
     - "z.onewo.com"
     - "zconfig.alibabausercontent.com"
     - "zgrb.epicc.com.cn"

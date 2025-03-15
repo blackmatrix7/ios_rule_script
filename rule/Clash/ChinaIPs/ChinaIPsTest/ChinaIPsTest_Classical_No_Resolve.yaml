@@ -1,10 +1,10 @@
 # NAME: ChinaIPsTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-03-15 02:14:42
-# IP-CIDR: 18557
+# UPDATED: 2025-03-16 02:14:01
+# IP-CIDR: 18556
 # IP-CIDR6: 13675
-# TOTAL: 32232
+# TOTAL: 32231
 payload:
   - IP-CIDR,1.0.1.0/24,no-resolve
   - IP-CIDR,1.0.2.0/23,no-resolve
@@ -15913,7 +15913,6 @@ payload:
   - IP-CIDR,161.163.28.0/23,no-resolve
   - IP-CIDR,161.189.0.0/16,no-resolve
   - IP-CIDR,161.207.0.0/16,no-resolve
-  - IP-CIDR,162.0.152.0/24,no-resolve
   - IP-CIDR,162.105.0.0/16,no-resolve
   - IP-CIDR,162.14.0.0/16,no-resolve
   - IP-CIDR,162.248.72.0/21,no-resolve
@@ -17873,7 +17872,6 @@ payload:
   - IP-CIDR,66.102.240.0/21,no-resolve
   - IP-CIDR,66.102.248.0/22,no-resolve
   - IP-CIDR,66.102.255.0/24,no-resolve
-  - IP-CIDR,67.229.241.0/24,no-resolve
   - IP-CIDR,68.79.0.0/18,no-resolve
   - IP-CIDR,69.230.192.0/18,no-resolve
   - IP-CIDR,69.231.128.0/18,no-resolve
@@ -18321,7 +18319,7 @@ payload:
   - IP-CIDR,163.181.138.0/23,no-resolve
   - IP-CIDR,163.181.140.0/22,no-resolve
   - IP-CIDR,163.181.168.0/21,no-resolve
-  - IP-CIDR,163.181.42.0/24,no-resolve
+  - IP-CIDR,163.181.208.0/20,no-resolve
   - IP-CIDR,163.181.44.0/23,no-resolve
   - IP-CIDR,163.181.46.0/24,no-resolve
   - IP-CIDR,175.102.0.0/20,no-resolve
@@ -18369,6 +18367,7 @@ payload:
   - IP-CIDR,202.189.8.0/21,no-resolve
   - IP-CIDR,202.46.227.0/24,no-resolve
   - IP-CIDR,202.46.228.0/23,no-resolve
+  - IP-CIDR,202.46.232.0/22,no-resolve
   - IP-CIDR,202.47.108.0/23,no-resolve
   - IP-CIDR,202.59.213.0/24,no-resolve
   - IP-CIDR,202.67.3.0/24,no-resolve
@@ -31503,7 +31502,6 @@ payload:
   - IP-CIDR6,2406:840:e0e8::/48,no-resolve
   - IP-CIDR6,2406:840:e10f::/48,no-resolve
   - IP-CIDR6,2406:840:e14f::/48,no-resolve
-  - IP-CIDR6,2406:840:e200::/48,no-resolve
   - IP-CIDR6,2406:840:e230::/44,no-resolve
   - IP-CIDR6,2406:840:e600::/47,no-resolve
   - IP-CIDR6,2406:840:e608::/46,no-resolve
@@ -32121,6 +32119,7 @@ payload:
   - IP-CIDR6,2409:27fe::/33,no-resolve
   - IP-CIDR6,2409:6100::/44,no-resolve
   - IP-CIDR6,240a:2000::/29,no-resolve
+  - IP-CIDR6,240a:4002:1b00::/40,no-resolve
   - IP-CIDR6,240a:4010:8000::/33,no-resolve
   - IP-CIDR6,240a:4020:83a::/48,no-resolve
   - IP-CIDR6,240a:4020:883a::/48,no-resolve

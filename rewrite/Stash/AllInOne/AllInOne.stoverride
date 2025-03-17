@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2025-03-08 02:16:49
+desc: 最后更新时间 2025-03-18 02:17:37
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 716
-# mitm: 754
+# reject: 717
+# mitm: 755
 # force-http-engine-hosts: 6
-# total: 1515
+# total: 1517
 
 
 
@@ -713,6 +713,7 @@ http:
     - ^https?:\/\/www\.ahzs10000\.com\/palmhall\/client\/base\/newVerson_getStartUp\.action - reject
     - ^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise - reject
     - ^https?:\/\/www\.cntv\.com\/nettv\/adp\/ - reject
+    - ^https?:\/\/www\.ctm\.net\/crm_api\/.*advertise - reject
     - ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ - reject
     - ^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?module=advis - reject
     - ^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
@@ -1613,6 +1614,7 @@ http:
     - "www.codesoftchina.com"
     - "www.coreldrawchina.com"
     - "www.crossoverchina.com"
+    - "www.ctm.net"
     - "www.deppon.com"
     - "www.dongmansoft.com"
     - "www.earmasterchina.cn"

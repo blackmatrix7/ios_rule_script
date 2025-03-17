@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-03-08 02:17:10
+desc: 最后更新时间 2025-03-18 02:17:59
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1193
-# mitm: 882
+# reject: 1194
+# mitm: 883
 # force-http-engine-hosts: 6
-# total: 2081
+# total: 2083
 
 
 
@@ -1114,6 +1114,7 @@ http:
     - ^https?:\/\/www\.cmbc\.com\.cn\/m\/image\/banner\/.*.png - reject
     - ^https?:\/\/www\.cmbc\.com\.cn\/m\/image\/loadingpage\/ - reject
     - ^https?:\/\/www\.cntv\.com\/nettv\/adp\/ - reject
+    - ^https?:\/\/www\.ctm\.net\/crm_api\/.*advertise - reject
     - ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ - reject
     - ^https?:\/\/www\.flyert\.com\/.*\.php\?module=advis - reject
     - ^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?module=advis - reject
@@ -2051,6 +2052,7 @@ http:
     - "www.bodivis.com.cn"
     - "www.cmbc.com.cn"
     - "www.cntv.com"
+    - "www.ctm.net"
     - "www.didapinche.com"
     - "www.flyert.com"
     - "www.flyertea.com"

@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-03-16 02:12:29
+# UPDATED: 2025-03-18 02:13:53
 # DOMAIN: 11
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6260
+# DOMAIN-SUFFIX: 6262
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6394
+# TOTAL: 6396
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
@@ -357,6 +357,7 @@ payload:
   - '+.aol.com'
   - '+.aolcdn.com'
   - '+.aolnews.com'
+  - '+.aomedia.org'
   - '+.aomiwang.com'
   - '+.ap.org'
   - '+.apache.org'
@@ -4164,6 +4165,7 @@ payload:
   - '+.pp.ua'
   - '+.ppy.sh'
   - '+.prayforchina.net'
+  - '+.prcleader.org'
   - '+.premeforwindows7.com'
   - '+.premproxy.com'
   - '+.presentation.new'

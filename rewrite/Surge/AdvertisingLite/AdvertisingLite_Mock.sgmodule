@@ -1,5 +1,5 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2025-03-18 02:17:59
+#!desc=最后更新时间 2025-03-22 02:17:04
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
@@ -399,6 +399,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/" - reject
 "^https?:\/\/sports3\.gtimg\.com\/community\/20cf93884470434eaf38b2e77ab7796a\.png" - reject
 "^https?:\/\/sq\.sljkj\.com\/api\/sdk\/ads2" - reject
+"^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons" - reject
 "^https?:\/\/sso\.ifanr\.com\/jiong\/IOS\/appso\/splash\/" - reject
 "^https?:\/\/ssp\.dzh\.com\.cn\/v2api\/adgroupjson" - reject
 "^https?:\/\/stat\.peopleapp\.com\/" - reject
@@ -1098,7 +1099,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/spclient\.wg\.spotify\.com\/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+promoted_offer)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6}" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/ssp\.soulapp\.cn\/api\/ad\/config" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/ssp\.soulapp\.cn\/api\/q" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"

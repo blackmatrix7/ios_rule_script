@@ -1,0 +1,17 @@
+name: Sync Fork
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天同步
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Sync upstream
+        run: |
+          git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git
+          git fetch upstream
+          git merge upstream/main
+          git push origin main

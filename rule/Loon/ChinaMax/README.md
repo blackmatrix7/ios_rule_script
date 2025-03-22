@@ -21,7 +21,7 @@
 
 ## 规则统计
 
-最后更新时间：2025-03-22 02:14:19
+最后更新时间：2025-03-23 02:13:47
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -31,9 +31,9 @@
 | DOMAIN-SUFFIX | 97608  | 
 | IP-ASN | 1  | 
 | IP-CIDR | 8330  | 
-| IP-CIDR6 | 12218  | 
+| IP-CIDR6 | 12220  | 
 | USER-AGENT | 65  | 
-| TOTAL | 118507  | 
+| TOTAL | 118509  | 
 
 
 ## Loon 
@@ -443,7 +443,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BesTV.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CETV.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SMG.list
-- https://ruleset.isagood.day/stream_cn.conf
 - https://raw.githubusercontent.com/missuo/ASN-China/main/IP.China.list
 
 

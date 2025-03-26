@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2025-03-18 02:17:33
+desc: 最后更新时间 2025-03-27 02:17:34
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 755
-# mitm: 714
+# reject: 756
+# mitm: 715
 # force-http-engine-hosts: 6
-# total: 1475
+# total: 1477
 
 
 
@@ -381,6 +381,7 @@ http:
     - ^https?:\/\/cdn\.dianshihome\.com\/static\/ad\/ - reject
     - ^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/ - reject
     - ^https?:\/\/cdn\.moji\.com\/advert\/ - reject
+    - ^https?:\/\/cdn\.web\.chelaile\.net\.cn\/info-flow\/index\.html - reject
     - ^https?:\/\/cdns\.chinastock\.com\.cn\/cdn\/omc\/app\/app\/(index_pop_banner|startup_banner) - reject
     - ^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v1\/promote\/ios\/start\/page - reject
     - ^https?:\/\/client-api-v2\.oray\.com\/materials\/(SUNLOGIN_CLIENT_IOS_PROMOTION|SLCC_IOS_DEVICE|SLCC_IOS_STARTUP) - reject
@@ -1059,6 +1060,7 @@ http:
     - "cdn.dianshihome.com"
     - "cdn.fivecdm.com"
     - "cdn.moji.com"
+    - "cdn.web.chelaile.net.cn"
     - "cdns.chinastock.com.cn"
     - "channel.beitaichufang.com"
     - "client-api-v2.oray.com"

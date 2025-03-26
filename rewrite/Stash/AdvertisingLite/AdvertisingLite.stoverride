@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-03-18 02:17:59
+desc: 最后更新时间 2025-03-27 02:17:59
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1194
-# mitm: 883
+# reject: 1195
+# mitm: 884
 # force-http-engine-hosts: 6
-# total: 2083
+# total: 2085
 
 
 
@@ -487,6 +487,7 @@ http:
     - ^https?:\/\/cdn\.poizon\.com\/node-common\/.*.jpg - reject
     - ^https?:\/\/cdn\.sdb\.com\.cn\/widget\/magic-module-sprite\/general-banner - reject
     - ^https?:\/\/cdn\.sdb\.com\.cn\/widget\/pb\/pb-plugins-recomend-content - reject
+    - ^https?:\/\/cdn\.web\.chelaile\.net\.cn\/info-flow\/index\.html - reject
     - ^https?:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$ - reject
     - ^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ - reject
     - ^https?:\/\/cdnmobibank\.bankofbeijing\.com\.cn\/cdn\/MarketingCloud\/.+\/.+\/99_1\/.+\.jpg - reject
@@ -1503,6 +1504,7 @@ http:
     - "cdn.kuaidi100.com"
     - "cdn.poizon.com"
     - "cdn.sdb.com.cn"
+    - "cdn.web.chelaile.net.cn"
     - "cdn.wup.huya.com"
     - "cdnfile1.msstatic.com"
     - "cdnmobibank.bankofbeijing.com.cn"

@@ -21,18 +21,18 @@
 
 ## 规则统计
 
-最后更新时间：2025-03-27 02:12:03
+最后更新时间：2025-03-28 02:11:28
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 13039  | 
 | DOMAIN-KEYWORD | 262  | 
-| DOMAIN-SUFFIX | 184168  | 
-| IP-CIDR | 479  | 
+| DOMAIN-SUFFIX | 183494  | 
+| IP-CIDR | 480  | 
 | IP-CIDR6 | 1  | 
 | URL-REGEX | 12  | 
-| TOTAL | 197961  | 
+| TOTAL | 197288  | 
 
 
 ## Loon 

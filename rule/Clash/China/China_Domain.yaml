@@ -1,22 +1,24 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-03-13 02:13:45
-# DOMAIN: 15
+# UPDATED: 2025-03-28 02:13:34
+# DOMAIN: 17
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3676
+# DOMAIN-SUFFIX: 3678
 # IP-CIDR: 17
 # IP-CIDR6: 4
-# TOTAL: 3721
+# TOTAL: 3725
 payload:
   - 'analytics.strava.com'
   - 'blzddist1-a.akamaihd.net'
   - 'cdn.angruo.com'
   - 'client.amplifi.com'
   - 'download.jetbrains.com'
+  - 'download.microsoft.com'
   - 'images-cn.ssl-images-amazon.com'
   - 'ip.istatmenus.app'
   - 'kc.kexinshe.com'
+  - 'ntservicepack.microsoft.com'
   - 'origin-a.akamaihd.ne'
   - 'origin-a.akamaihd.net'
   - 'sms.imagetasks.com'
@@ -1158,6 +1160,7 @@ payload:
   - '+.diyiyou.com'
   - '+.dj99.com'
   - '+.dl-vip.pcfaster.baidu.co.th'
+  - '+.dl.delivery.mp.microsoft.com'
   - '+.dler.cloud'
   - '+.dlgslb.net'
   - '+.dlnel.com'
@@ -2315,7 +2318,6 @@ payload:
   - '+.miaopai.com'
   - '+.miaostreet.com'
   - '+.miaozhen.com'
-  - '+.microsoft.com'
   - '+.microsoftonline.com'
   - '+.midasbuy.com'
   - '+.miercn.com'
@@ -3213,6 +3215,7 @@ payload:
   - '+.upai.com'
   - '+.upaiyun.com'
   - '+.upcdn.net'
+  - '+.update.microsoft.com'
   - '+.upe.net'
   - '+.upyun.com'
   - '+.urselect.com'
@@ -3334,6 +3337,7 @@ payload:
   - '+.windows10zj.com'
   - '+.windows7en.com'
   - '+.windowsupdate.com'
+  - '+.windowsupdate.microsoft.com'
   - '+.windowszj.com'
   - '+.winegame.net'
   - '+.winwin7.com'

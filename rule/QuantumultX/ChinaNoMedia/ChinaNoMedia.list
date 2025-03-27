@@ -1,23 +1,25 @@
 # NAME: ChinaNoMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-03-13 02:14:59
-# HOST: 15
+# UPDATED: 2025-03-28 02:14:50
+# HOST: 17
 # HOST-KEYWORD: 9
-# HOST-SUFFIX: 3585
+# HOST-SUFFIX: 3587
 # HOST-WILDCARD: 1
 # IP-CIDR: 11
 # IP6-CIDR: 4
 # USER-AGENT: 31
-# TOTAL: 3656
+# TOTAL: 3660
 HOST,analytics.strava.com,ChinaNoMedia
 HOST,blzddist1-a.akamaihd.net,ChinaNoMedia
 HOST,cdn.angruo.com,ChinaNoMedia
 HOST,client.amplifi.com,ChinaNoMedia
 HOST,download.jetbrains.com,ChinaNoMedia
+HOST,download.microsoft.com,ChinaNoMedia
 HOST,images-cn.ssl-images-amazon.com,ChinaNoMedia
 HOST,ip.istatmenus.app,ChinaNoMedia
 HOST,kc.kexinshe.com,ChinaNoMedia
+HOST,ntservicepack.microsoft.com,ChinaNoMedia
 HOST,origin-a.akamaihd.ne,ChinaNoMedia
 HOST,origin-a.akamaihd.net,ChinaNoMedia
 HOST,sms.imagetasks.com,ChinaNoMedia
@@ -1122,6 +1124,7 @@ HOST-SUFFIX,discuz.org,ChinaNoMedia
 HOST-SUFFIX,diyiyou.com,ChinaNoMedia
 HOST-SUFFIX,dj99.com,ChinaNoMedia
 HOST-SUFFIX,dl-vip.pcfaster.baidu.co.th,ChinaNoMedia
+HOST-SUFFIX,dl.delivery.mp.microsoft.com,ChinaNoMedia
 HOST-SUFFIX,dler.cloud,ChinaNoMedia
 HOST-SUFFIX,dlgslb.net,ChinaNoMedia
 HOST-SUFFIX,dlnel.com,ChinaNoMedia
@@ -2256,7 +2259,6 @@ HOST-SUFFIX,miaomiaozhe.com,ChinaNoMedia
 HOST-SUFFIX,miaopai.com,ChinaNoMedia
 HOST-SUFFIX,miaostreet.com,ChinaNoMedia
 HOST-SUFFIX,miaozhen.com,ChinaNoMedia
-HOST-SUFFIX,microsoft.com,ChinaNoMedia
 HOST-SUFFIX,microsoftonline.com,ChinaNoMedia
 HOST-SUFFIX,midasbuy.com,ChinaNoMedia
 HOST-SUFFIX,miercn.com,ChinaNoMedia
@@ -3138,6 +3140,7 @@ HOST-SUFFIX,uonline-sh.net,ChinaNoMedia
 HOST-SUFFIX,upai.com,ChinaNoMedia
 HOST-SUFFIX,upaiyun.com,ChinaNoMedia
 HOST-SUFFIX,upcdn.net,ChinaNoMedia
+HOST-SUFFIX,update.microsoft.com,ChinaNoMedia
 HOST-SUFFIX,upe.net,ChinaNoMedia
 HOST-SUFFIX,upyun.com,ChinaNoMedia
 HOST-SUFFIX,urselect.com,ChinaNoMedia
@@ -3257,6 +3260,7 @@ HOST-SUFFIX,windows.net,ChinaNoMedia
 HOST-SUFFIX,windows10zj.com,ChinaNoMedia
 HOST-SUFFIX,windows7en.com,ChinaNoMedia
 HOST-SUFFIX,windowsupdate.com,ChinaNoMedia
+HOST-SUFFIX,windowsupdate.microsoft.com,ChinaNoMedia
 HOST-SUFFIX,windowszj.com,ChinaNoMedia
 HOST-SUFFIX,winegame.net,ChinaNoMedia
 HOST-SUFFIX,winwin7.com,ChinaNoMedia

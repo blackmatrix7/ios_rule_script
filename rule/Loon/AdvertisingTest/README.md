@@ -21,18 +21,18 @@
 
 ## 规则统计
 
-最后更新时间：2025-03-28 02:11:28
+最后更新时间：2025-03-29 02:11:43
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 13039  | 
 | DOMAIN-KEYWORD | 262  | 
-| DOMAIN-SUFFIX | 183494  | 
-| IP-CIDR | 480  | 
+| DOMAIN-SUFFIX | 183589  | 
+| IP-CIDR | 481  | 
 | IP-CIDR6 | 1  | 
 | URL-REGEX | 12  | 
-| TOTAL | 197288  | 
+| TOTAL | 197384  | 
 
 
 ## Loon 
@@ -123,6 +123,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://easylist-downloads.adblockplus.org/easyprivacy.txt
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
+- https://ruleset.isagood.day/reject_drop.conf
 - https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
 
 

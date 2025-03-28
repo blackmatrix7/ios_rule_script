@@ -1,15 +1,15 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-03-28 02:10:06
+# UPDATED: 2025-03-29 02:10:19
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN: 16396
 # DOMAIN-KEYWORD: 259
-# DOMAIN-SUFFIX: 165855
-# IP-CIDR: 458
+# DOMAIN-SUFFIX: 165911
+# IP-CIDR: 459
 # IP-CIDR6: 1
 # URL-REGEX: 12
-# TOTAL: 182981
+# TOTAL: 183038
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-s2s.sensic.net
 DOMAIN-KEYWORD,-spiky.clevertap-prod.com
@@ -281,7 +281,7 @@ URL-REGEX,^https?:\/\/sax\w?\.sina\.com\.cn
 URL-REGEX,^https?:\/\/update\.pan\.baidu\.com\/statistics
 URL-REGEX,^https?:\/\/cdn-1rtb\.caiyunapp\.com/creative/.*$
 URL-REGEX,^https?:\/\/goblin\.hupu\.com/[^/]+/[^/]+\/interfaceAd\/
-IP-CIDR,0.0.0.1/32
+IP-CIDR,0.0.0.0/24
 IP-CIDR,1.3.0.10/32
 IP-CIDR,10.72.25.0/24
 IP-CIDR,101.124.19.122/32
@@ -450,6 +450,7 @@ IP-CIDR,164.155.185.254/32
 IP-CIDR,167.206.10.148/32
 IP-CIDR,167.71.252.38/32
 IP-CIDR,167.99.31.227/32
+IP-CIDR,169.254.169.254/32
 IP-CIDR,172.121.4.251/32
 IP-CIDR,172.121.4.252/32
 IP-CIDR,172.255.103.118/32

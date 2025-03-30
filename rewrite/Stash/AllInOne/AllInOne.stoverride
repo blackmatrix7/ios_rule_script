@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2025-03-27 02:17:38
+desc: 最后更新时间 2025-03-31 02:16:30
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 718
-# mitm: 756
+# reject: 719
+# mitm: 757
 # force-http-engine-hosts: 6
-# total: 1519
+# total: 1521
 
 
 
@@ -175,6 +175,7 @@ http:
     - ^https?:\/\/ads\.zhinengxiyifang\.cn\/api\/v1\.1\/ads\/* - reject
     - ^https?:\/\/adv\.ccb\.com\/ebda\/ctm_adv - reject
     - ^https?:\/\/adx-cn\.anythinktech\.com\/bid - reject
+    - ^https?:\/\/adx\.zuoyebang\.com\/adxserver\/ - reject
     - ^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
     - ^https?:\/\/aikanvod\.miguvideo\.com\/video\/p\/i_adverseInterface\.jsp - reject
     - ^https?:\/\/amap\-aos\-info\-nogw\.amap\.com\/ws\/aos\/alimama\/ - reject
@@ -1028,6 +1029,7 @@ http:
     - "adsoss.zhinengxiyifang.cn"
     - "adv.ccb.com"
     - "advertise.bczeducation.cn"
+    - "adx.zuoyebang.com"
     - "afd.baidu.com"
     - "agent-count.pconline.com.cn"
     - "aikanvod.miguvideo.com"

@@ -1,7 +1,7 @@
 # NAME: Game
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-03-30 02:10:59
+# UPDATED: 2025-03-31 02:11:02
 # HOST: 8
 # HOST-KEYWORD: 4
 # HOST-SUFFIX: 539
@@ -430,16 +430,13 @@ HOST-SUFFIX,lolusercontent.com,Game
 HOST-SUFFIX,lpl.com.cn,Game
 HOST-SUFFIX,molesports.com,Game
 HOST-SUFFIX,playvalorant.com,Game
-HOST-SUFFIX,pvp.net,Game
 HOST-SUFFIX,pvp.tv,Game
 HOST-SUFFIX,rgpub.io,Game
 HOST-SUFFIX,riot-games.com,Game
 HOST-SUFFIX,riot.com,Game
 HOST-SUFFIX,riot.net,Game
-HOST-SUFFIX,riotcdn.net,Game
 HOST-SUFFIX,riotforgegames.com,Game
 HOST-SUFFIX,riotgames.co.kr,Game
-HOST-SUFFIX,riotgames.com,Game
 HOST-SUFFIX,riotgames.info,Game
 HOST-SUFFIX,riotgames.jp,Game
 HOST-SUFFIX,riotgames.net,Game
@@ -516,6 +513,9 @@ HOST-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com,Game
 HOST-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com,Game
 HOST-SUFFIX,ubisoft.com,Game
 HOST-SUFFIX,uplay.com,Game
+HOST-SUFFIX,pvp.net,Game
+HOST-SUFFIX,riotcdn.net,Game
+HOST-SUFFIX,riotgames.com,Game
 HOST-SUFFIX,beth.games,Game
 HOST-SUFFIX,bethesda.net,Game
 HOST-SUFFIX,bethesdagamestudios.com,Game
@@ -558,25 +558,20 @@ HOST-KEYWORD,epicgames,Game
 HOST-KEYWORD,steambroadcast,Game
 HOST-KEYWORD,steamstore,Game
 HOST-KEYWORD,steamuserimages,Game
-IP-CIDR,103.4.115.248/32,Game
 IP-CIDR,182.162.135.1/32,Game
 IP-CIDR,210.242.235.6/32,Game
 IP-CIDR,54.94.196.47/32,Game
 IP-CIDR,182.162.132.1/32,Game
+IP-CIDR,24.105.30.129/32,Game
 IP-CIDR,103.4.114.233/32,Game
 IP-CIDR,182.162.116.1/32,Game
-IP-CIDR,185.60.112.157/32,Game
-IP-CIDR,185.60.112.158/32,Game
 IP-CIDR,202.9.67.59/32,Game
 IP-CIDR,203.69.111.4/32,Game
-IP-CIDR,24.105.30.129/32,Game
-IP-CIDR,24.105.62.129/32,Game
 IP-CIDR,54.207.104.145/32,Game
 IP-CIDR,35.192.0.0/12,Game
 IP-CIDR,203.66.81.98/32,Game
 IP-CIDR,211.234.110.1/32,Game
 IP-CIDR,54.207.107.12/32,Game
-IP-CIDR,185.60.114.159/32,Game
 IP-CIDR,202.9.67.254/32,Game
 IP-CIDR,222.231.22.1/32,Game
 IP-CIDR,13.210.25.233/32,Game
@@ -601,6 +596,11 @@ IP-CIDR,52.13.42.120/32,Game
 IP-CIDR,52.50.131.212/32,Game
 IP-CIDR,54.207.168.84/32,Game
 IP-CIDR,54.248.64.192/32,Game
+IP-CIDR,103.4.115.248/32,Game
 IP-CIDR,137.221.105.2/32,Game
+IP-CIDR,185.60.112.157/32,Game
+IP-CIDR,185.60.112.158/32,Game
+IP-CIDR,185.60.114.159/32,Game
 IP-CIDR,210.71.148.11/32,Game
 IP-CIDR,211.115.104.1/32,Game
+IP-CIDR,24.105.62.129/32,Game

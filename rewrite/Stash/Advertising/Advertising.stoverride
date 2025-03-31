@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2025-03-31 02:16:25
+desc: 最后更新时间 2025-04-01 02:17:30
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 757
-# mitm: 716
+# reject: 761
+# mitm: 719
 # force-http-engine-hosts: 6
-# total: 1479
+# total: 1486
 
 
 
@@ -164,6 +164,10 @@ http:
     - ^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
     - ^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ - reject
     - ^https?:\/\/[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+){1,3}(:\d+)?\/.*?\/v\d\/(version|notice\?|top_notice\?|advert\?position=[^2]+) - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.admobile.top\/ - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.ranfenghd\.com\/ad - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.tianmu\.mobi\/ad - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.weathercn\.com\/(.*bypage|appindexicon) - reject
     - ^https?:\/\/\w+\.58cdn\.com\.cn\/brandads\/ - reject
     - ^https?:\/\/\w+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/ - reject
     - ^https?:\/\/\w+\.kingsoft-office-service\.com\/ad - reject
@@ -805,8 +809,10 @@ http:
     - "*.ott.cibntv.net"
     - "*.peopleapp.com"
     - "*.qyfxgd.cn"
+    - "*.ranfenghd.com"
     - "*.reader.qq.com"
     - "*.smkj33.top"
+    - "*.tianmu.mobi"
     - "*.tipatipa.xyz"
     - "*.tslt.xyz"
     - "*.tv.sohu.com"
@@ -814,6 +820,7 @@ http:
     - "*.umetrip.com"
     - "*.uve.weibo.com"
     - "*.v2ex.com"
+    - "*.weathercn.com"
     - "*.weilai555.com"
     - "*.xbwpys.com"
     - "*.xima*.*"
@@ -848,6 +855,7 @@ http:
     - "4gimg.map.qq.com"
     - "4thdimension.top"
     - "5eplay.com"
+    - "a-zA-Z0-9_-.admobile.top"
     - "a.jxjt888.top"
     - "a.qiumibao.com"
     - "aag.enmonster.com"
@@ -1367,7 +1375,6 @@ http:
     - "s3plus.meituan.net"
     - "saad.ms.zhangyue.net"
     - "sdk.alibaba.com.ailbaba.me"
-    - "sdk.tianmu.mobi"
     - "security.wechat.com"
     - "service.4gtv.tv"
     - "service.busi.inke.cn"

@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-03-31 02:16:51
+desc: 最后更新时间 2025-04-01 02:17:57
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1196
-# mitm: 885
+# reject: 1200
+# mitm: 889
 # force-http-engine-hosts: 6
-# total: 2087
+# total: 2095
 
 
 
@@ -145,6 +145,10 @@ http:
     - ^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ - reject
     - ^https?:\/\/789\.kakamobi\.cn\/.+?adver - reject
     - ^https?:\/\/[\s\S]*\.baidu\.com/.*?ad[xs]\.php - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.admobile.top\/ - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.ranfenghd\.com\/ad - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.tianmu\.mobi\/ad - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.weathercn\.com\/(.*bypage|appindexicon) - reject
     - ^https?:\/\/[a-z]*\.rsscc\.com\/[a-z]*\/adver - reject
     - ^https?:\/\/\w+\.58cdn\.com\.cn\/brandads\/ - reject
     - ^https?:\/\/\w+\.beacon\.qq\.com - reject
@@ -1229,6 +1233,10 @@ http:
     - "4gimg.map.qq.com"
     - "789.kakamobi.cn"
     - "a-z*.rsscc.com"
+    - "a-zA-Z0-9_-.admobile.top"
+    - "a-zA-Z0-9_-.ranfenghd.com"
+    - "a-zA-Z0-9_-.tianmu.mobi"
+    - "a-zA-Z0-9_-.weathercn.com"
     - "a.line.me"
     - "a.qiumibao.com"
     - "a.sinopecsales.com"

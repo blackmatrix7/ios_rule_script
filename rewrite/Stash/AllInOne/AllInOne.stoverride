@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2025-03-31 02:16:30
+desc: 最后更新时间 2025-04-01 02:17:35
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 719
-# mitm: 757
+# reject: 723
+# mitm: 760
 # force-http-engine-hosts: 6
-# total: 1521
+# total: 1528
 
 
 
@@ -145,6 +145,10 @@ http:
     - ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
     - ^https?:\/\/3g\.csair\.com\/CSMBP\/bookProcess\/homepopup\/queryAdvertisement - reject
     - ^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.admobile.top\/ - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.ranfenghd\.com\/ad - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.tianmu\.mobi\/ad - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.weathercn\.com\/(.*bypage|appindexicon) - reject
     - ^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
     - ^https?:\/\/a\.qiumibao\.com\/ios\/config\/\?version_code= - reject
     - ^https?:\/\/access\.mypikpak\.com\/access_controller\/v1\/area_accessible - reject
@@ -969,8 +973,10 @@ http:
     - "*.ott.cibntv.net"
     - "*.peopleapp.com"
     - "*.qyfxgd.cn"
+    - "*.ranfenghd.com"
     - "*.reader.qq.com"
     - "*.smkj33.top"
+    - "*.tianmu.mobi"
     - "*.tipatipa.xyz"
     - "*.tslt.xyz"
     - "*.tv.sohu.com"
@@ -978,6 +984,7 @@ http:
     - "*.umetrip.com"
     - "*.uve.weibo.com"
     - "*.v2ex.com"
+    - "*.weathercn.com"
     - "*.weilai555.com"
     - "*.xbwpys.com"
     - "*.yuanfudao.com"
@@ -1005,6 +1012,7 @@ http:
     - "3pp.starbucks.com.cn"
     - "47.100.65.202"
     - "4gimg.map.qq.com"
+    - "a-zA-Z0-9_-.admobile.top"
     - "a.jxjt888.top"
     - "a.qiumibao.com"
     - "aag.enmonster.com"
@@ -1519,7 +1527,6 @@ http:
     - "s3plus.meituan.net"
     - "saad.ms.zhangyue.net"
     - "sdk.alibaba.com.ailbaba.me"
-    - "sdk.tianmu.mobi"
     - "security.wechat.com"
     - "service.4gtv.tv"
     - "service.busi.inke.cn"

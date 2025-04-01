@@ -15,17 +15,17 @@
 
 ## 规则统计
 
-最后更新时间：2025-04-01 02:10:32
+最后更新时间：2025-04-02 02:09:52
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 16418  | 
 | DOMAIN-KEYWORD | 277  | 
-| DOMAIN-SUFFIX | 159919  | 
+| DOMAIN-SUFFIX | 160294  | 
 | IP-CIDR | 483  | 
 | IP-CIDR6 | 3  | 
-| TOTAL | 177100  | 
+| TOTAL | 177475  | 
 
 
 ## Clash 
@@ -127,6 +127,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
+- https://ruleset.isagood.day/reject.conf
+- https://ruleset.isagood.day/reject_drop.conf
 - https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
 
 

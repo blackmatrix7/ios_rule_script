@@ -21,7 +21,7 @@
 
 ## 规则统计
 
-最后更新时间：2025-04-02 02:14:28
+最后更新时间：2025-04-03 02:14:51
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -30,10 +30,10 @@
 | DOMAIN-KEYWORD | 13  | 
 | DOMAIN-SUFFIX | 105260  | 
 | IP-ASN | 1  | 
-| IP-CIDR | 8308  | 
+| IP-CIDR | 8309  | 
 | IP-CIDR6 | 12240  | 
 | PROCESS-NAME | 14  | 
-| TOTAL | 126115  | 
+| TOTAL | 126116  | 
 
 
 ## Clash 
@@ -537,9 +537,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SMG.list
 - https://ruleset.isagood.day/alibaba.conf
 - https://ruleset.isagood.day/bilibili.conf
-- https://ruleset.isagood.day/icbc.conf
-- https://ruleset.isagood.day/sina.conf
-- https://ruleset.isagood.day/wechat.conf
 - https://raw.githubusercontent.com/missuo/ASN-China/main/IP.China.list
 
 

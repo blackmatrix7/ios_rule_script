@@ -21,7 +21,7 @@
 
 ## 规则统计
 
-最后更新时间：2025-04-03 02:11:32
+最后更新时间：2025-04-04 02:11:50
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -29,11 +29,11 @@
 | AND | 1  | 
 | DOMAIN | 13060  | 
 | DOMAIN-KEYWORD | 279  | 
-| DOMAIN-SUFFIX | 178955  | 
+| DOMAIN-SUFFIX | 179032  | 
 | IP-CIDR | 505  | 
 | IP-CIDR6 | 3  | 
 | URL-REGEX | 14  | 
-| TOTAL | 192817  | 
+| TOTAL | 192894  | 
 
 
 ## Surge 
@@ -132,6 +132,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://easylist-downloads.adblockplus.org/easyprivacy.txt
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
+- https://ruleset.isagood.day/reject.conf
 - https://ruleset.isagood.day/reject_drop.conf
 - https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
 

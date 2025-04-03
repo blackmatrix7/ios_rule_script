@@ -12,18 +12,18 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-04-03 02:16:03
+最后更新时间：2025-04-04 02:16:24
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 274  | 
 | DOMAIN-KEYWORD | 11  | 
-| DOMAIN-SUFFIX | 104820  | 
+| DOMAIN-SUFFIX | 104747  | 
 | IP-ASN | 1  | 
-| IP-CIDR | 20549  | 
+| IP-CIDR | 20551  | 
 | USER-AGENT | 65  | 
-| TOTAL | 125720  | 
+| TOTAL | 125649  | 
 
 
 ## Shadowrocket 
@@ -431,8 +431,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BesTV.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CETV.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SMG.list
-- https://ruleset.isagood.day/alibaba.conf
-- https://ruleset.isagood.day/bilibili.conf
+- https://ruleset.isagood.day/alibaba_domain.conf
+- https://ruleset.isagood.day/icbc.conf
+- https://ruleset.isagood.day/wechat.conf
 - https://raw.githubusercontent.com/missuo/ASN-China/main/IP.China.list
 
 

@@ -12,7 +12,7 @@ Telegram规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-04-04 02:13:55
+最后更新时间：2025-04-05 02:13:26
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -81,7 +81,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Telegram.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml
 - https://ruleset.isagood.day/telegram.conf
-- https://ruleset.isagood.day/telegram_dc1.conf
 - https://ruleset.isagood.day/telegram_dc2.conf
 - https://ruleset.isagood.day/telegram_dc4.conf
 - https://ruleset.isagood.day/telegram_dc5.conf

@@ -21,18 +21,18 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-04-06 02:12:37
+最后更新时间：2025-04-07 02:12:54
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 583  | 
+| HOST | 584  | 
 | HOST-KEYWORD | 36  | 
 | HOST-SUFFIX | 31202  | 
 | IP-CIDR | 112  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 46  | 
-| TOTAL | 31983  | 
+| TOTAL | 31984  | 
 
 
 ## QuantumultX 
@@ -96,7 +96,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
-- https://ruleset.isagood.day/global.conf
 - https://ruleset.isagood.day/global_domain.conf
 
 

@@ -21,7 +21,7 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-04-07 02:12:37
+最后更新时间：2025-04-08 02:14:52
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -104,6 +104,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
+- https://ruleset.isagood.day/global.conf
 - https://ruleset.isagood.day/global_domain.conf
 
 

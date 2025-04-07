@@ -21,17 +21,17 @@
 
 ## 规则统计
 
-最后更新时间：2025-04-07 02:11:05
+最后更新时间：2025-04-08 02:13:21
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 13066  | 
 | DOMAIN-KEYWORD | 279  | 
-| DOMAIN-SUFFIX | 179736  | 
+| DOMAIN-SUFFIX | 179777  | 
 | IP-CIDR | 508  | 
 | URL-REGEX | 14  | 
-| TOTAL | 193603  | 
+| TOTAL | 193644  | 
 
 
 ## Shadowrocket 
@@ -125,7 +125,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://easylist-downloads.adblockplus.org/easyprivacy.txt
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
-- https://ruleset.isagood.day/reject_drop.conf
+- https://ruleset.isagood.day/reject.conf
 - https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
 
 

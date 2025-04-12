@@ -1,15 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-04-12 02:11:46
+# UPDATED: 2025-04-13 02:11:06
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN: 13065
 # DOMAIN-KEYWORD: 279
-# DOMAIN-SUFFIX: 180436
-# IP-CIDR: 505
+# DOMAIN-SUFFIX: 180566
+# IP-CIDR: 507
 # IP-CIDR6: 3
 # URL-REGEX: 14
-# TOTAL: 194302
+# TOTAL: 194434
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-rtb.gravite.net
 DOMAIN-KEYWORD,-s2s.sensic.net
@@ -613,6 +613,7 @@ IP-CIDR,211.161.101.110/32,no-resolve
 IP-CIDR,211.167.105.131/32,no-resolve
 IP-CIDR,211.98.70.226/31,no-resolve
 IP-CIDR,211.98.71.195/32,no-resolve
+IP-CIDR,212.117.186.252/32,no-resolve
 IP-CIDR,213.232.113.250/32,no-resolve
 IP-CIDR,216.172.154.226/32,no-resolve
 IP-CIDR,218.25.246.118/32,no-resolve
@@ -735,6 +736,7 @@ IP-CIDR,23.235.156.167/32,no-resolve
 IP-CIDR,23.244.43.212/32,no-resolve
 IP-CIDR,23.42.186.24/32,no-resolve
 IP-CIDR,23.66.147.48/32,no-resolve
+IP-CIDR,23.83.67.164/32,no-resolve
 IP-CIDR,23.89.50.180/32,no-resolve
 IP-CIDR,23.91.3.114/32,no-resolve
 IP-CIDR,27.255.67.120/32,no-resolve

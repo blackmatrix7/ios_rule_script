@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-04-10 02:17:50
+desc: 最后更新时间 2025-04-15 02:18:04
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1198
-# mitm: 887
+# reject: 1202
+# mitm: 889
 # force-http-engine-hosts: 6
-# total: 2091
+# total: 2097
 
 
 
@@ -642,6 +642,9 @@ http:
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passengerController\/notk\/passenger\/recommendADs - reject
+    - ^https?:\/\/gw3\.ykccn\.com\/activityServer\/app\/commandAd - reject
+    - ^https?:\/\/gw3\.ykccn\.com\/api\/omp\/mt\/appAdvertising\/ - reject
+    - ^https?:\/\/gw3\.ykccn\.com\/api\/omp\/mt\/charge\/activity\/package\/newest - reject
     - ^https?:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement - reject
     - ^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement - reject
     - ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd - reject
@@ -1100,6 +1103,7 @@ http:
     - ^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/ - reject
     - ^https?:\/\/wap\.spdb\.com\.cn\/mspmk-web-homeassist\/OpenScreenAdv\.ah$ - reject
     - ^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd - reject
+    - ^https?:\/\/web-stable-cdn\.ykccn\.com\/sp-img-2023\/common\/weCom-open - reject
     - ^https?:\/\/web\.chelaile\.net\.cn\/api\/adpub\/ - reject
     - ^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v1\/func\/getmarketconfig - reject
     - ^https?:\/\/webboot\.zhangyue\.com\/zyapi\/bookstore\/ad\/ - reject
@@ -1651,6 +1655,7 @@ http:
     - "gw.kaola.com"
     - "gw.line.naver.jp"
     - "gw.xiaocantech.com"
+    - "gw3.ykccn.com"
     - "gx.10086.cn"
     - "h5api.sginput.qq.com"
     - "h5app.kuwo.cn"
@@ -2045,6 +2050,7 @@ http:
     - "wap.ngchina.cn"
     - "wap.spdb.com.cn"
     - "wcprd.hilton.com.cn"
+    - "web-stable-cdn.ykccn.com"
     - "web.chelaile.net.cn"
     - "web2.realtech-inc.com"
     - "webappcfg.paas.cmbchina.com"

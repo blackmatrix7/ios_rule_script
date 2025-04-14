@@ -176,7 +176,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/app
 
 NodeJS(含青龙面板)，请根据下表配置magic.json的变量。
 
-更新详细的配置说明，请访问：https://github.com/blackmatrix7/ios_rule_script/blob/master/script/README.md。
+更新详细的配置说明，请访问：https://github.com/blackmatrix7/ios_rule_script/blob/master/script/README.md
 
 | 变量                               | 类型   | 说明                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |

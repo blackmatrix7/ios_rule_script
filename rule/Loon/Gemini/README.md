@@ -19,8 +19,8 @@ Gemini规则由《RULE GENERATOR 规则生成器》自动生成。
 | ---- | ----  |
 | DOMAIN | 3  | 
 | DOMAIN-KEYWORD | 3  | 
-| DOMAIN-SUFFIX | 7  | 
-| TOTAL | 13  | 
+| DOMAIN-SUFFIX | 8  | 
+| TOTAL | 14  | 
 
 
 ## Loon 

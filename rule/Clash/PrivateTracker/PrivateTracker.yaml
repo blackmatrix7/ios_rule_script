@@ -1,17 +1,16 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-04-17 02:14:43
-# DOMAIN: 145
+# UPDATED: 2025-04-18 02:14:41
+# DOMAIN: 139
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
 # IP-CIDR: 3
-# TOTAL: 275
+# TOTAL: 269
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
   - DOMAIN,1337.abcvg.info
-  - DOMAIN,4.tracker.devnak.win
   - DOMAIN,admin.52ywp.com
   - DOMAIN,bandito.byterunner.io
   - DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
@@ -39,7 +38,6 @@ payload:
   - DOMAIN,ismaarino.com
   - DOMAIN,lucke.fenesisu.moe
   - DOMAIN,martin-gebhardt.eu
-  - DOMAIN,ns-1.x-fins.com
   - DOMAIN,ns3109441.mypdns.org
   - DOMAIN,nyaa.tracker.wf
   - DOMAIN,open.acgtracker.com
@@ -52,7 +50,6 @@ payload:
   - DOMAIN,opentracker.io
   - DOMAIN,p2p.publictracker.xyz
   - DOMAIN,p4p.arenabg.com
-  - DOMAIN,public.tracker.vraphim.com
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
   - DOMAIN,retracker.spark-rostov.ru
@@ -67,10 +64,9 @@ payload:
   - DOMAIN,taciturn-shadow.spb.ru
   - DOMAIN,thouvenin.cloud
   - DOMAIN,tk.greedland.net
-  - DOMAIN,torrent.hificode.in
+  - DOMAIN,torrent.i.ng
   - DOMAIN,torrentsmd.com
   - DOMAIN,tr.abiir.top
-  - DOMAIN,tr.abir.ga
   - DOMAIN,tr.nyacat.pw
   - DOMAIN,tr.zukizuki.org
   - DOMAIN,tr3.ysagin.top
@@ -82,7 +78,6 @@ payload:
   - DOMAIN,tracker.beeimg.com
   - DOMAIN,tracker.bittor.pw
   - DOMAIN,tracker.bjut.jp
-  - DOMAIN,tracker.breizh.pm
   - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
   - DOMAIN,tracker.bz
@@ -112,10 +107,11 @@ payload:
   - DOMAIN,tracker.lilithraws.org
   - DOMAIN,tracker.lintk.me
   - DOMAIN,tracker.linvk.com
+  - DOMAIN,tracker.lyretain.site
   - DOMAIN,tracker.moeblog.cn
   - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
-  - DOMAIN,tracker.ololosh.space
+  - DOMAIN,tracker.netmap.top
   - DOMAIN,tracker.opentrackr.org
   - DOMAIN,tracker.openwebtorrent.com
   - DOMAIN,tracker.pmman.tech
@@ -125,7 +121,6 @@ payload:
   - DOMAIN,tracker.sbsub.com
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
-  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
@@ -139,7 +134,6 @@ payload:
   - DOMAIN,tracker.zhuqiy.top
   - DOMAIN,tracker1.520.jp
   - DOMAIN,tracker1.itzmx.com
-  - DOMAIN,tracker1.myporn.club
   - DOMAIN,tracker2.dler.org
   - DOMAIN,tracker2.itzmx.com
   - DOMAIN,tracker3.itzmx.com

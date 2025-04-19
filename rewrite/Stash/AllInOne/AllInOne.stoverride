@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2025-02-05 02:16:19
+desc: 最后更新时间 2025-04-01 02:17:35
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 712
-# mitm: 750
+# reject: 723
+# mitm: 760
 # force-http-engine-hosts: 6
-# total: 1507
+# total: 1528
 
 
 
@@ -145,6 +145,10 @@ http:
     - ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
     - ^https?:\/\/3g\.csair\.com\/CSMBP\/bookProcess\/homepopup\/queryAdvertisement - reject
     - ^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.admobile.top\/ - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.ranfenghd\.com\/ad - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.tianmu\.mobi\/ad - reject
+    - ^https?:\/\/[a-zA-Z0-9_-]+\.weathercn\.com\/(.*bypage|appindexicon) - reject
     - ^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
     - ^https?:\/\/a\.qiumibao\.com\/ios\/config\/\?version_code= - reject
     - ^https?:\/\/access\.mypikpak\.com\/access_controller\/v1\/area_accessible - reject
@@ -175,6 +179,7 @@ http:
     - ^https?:\/\/ads\.zhinengxiyifang\.cn\/api\/v1\.1\/ads\/* - reject
     - ^https?:\/\/adv\.ccb\.com\/ebda\/ctm_adv - reject
     - ^https?:\/\/adx-cn\.anythinktech\.com\/bid - reject
+    - ^https?:\/\/adx\.zuoyebang\.com\/adxserver\/ - reject
     - ^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
     - ^https?:\/\/aikanvod\.miguvideo\.com\/video\/p\/i_adverseInterface\.jsp - reject
     - ^https?:\/\/amap\-aos\-info\-nogw\.amap\.com\/ws\/aos\/alimama\/ - reject
@@ -209,6 +214,7 @@ http:
     - ^https?:\/\/api\.club\.lenovo\.cn\/common\/open_ad - reject
     - ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch - reject
     - ^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init - reject
+    - ^https?:\/\/api\.dnurse\.com\/api\/boot\/get-latest-items - reject
     - ^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash - reject
     - ^https?:\/\/api\.feng\.com\/v\d\/advertisement\/.*Claunch - reject
     - ^https?:\/\/api\.futunn\.com\/v\d\/ad\/ - reject
@@ -367,6 +373,7 @@ http:
     - ^https?:\/\/cdn\.dianshihome\.com\/static\/ad\/ - reject
     - ^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/ - reject
     - ^https?:\/\/cdn\.moji\.com\/advert\/ - reject
+    - ^https?:\/\/cdn\.web\.chelaile\.net\.cn\/info-flow\/index\.html - reject
     - ^https?:\/\/cdns\.chinastock\.com\.cn\/cdn\/omc\/app\/app\/(index_pop_banner|startup_banner) - reject
     - ^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v1\/promote\/ios\/start\/page - reject
     - ^https?:\/\/client-api-v2\.oray\.com\/materials\/(SUNLOGIN_CLIENT_IOS_PROMOTION|SLCC_IOS_DEVICE|SLCC_IOS_STARTUP) - reject
@@ -602,6 +609,7 @@ http:
     - ^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/ - reject
     - ^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$ - reject
     - ^https?:\/\/pipi\.4kya\.com\/\/xgapp\.php\/v3\/advert\.position=[^2]+ - reject
+    - ^https?:\/\/pjlapi\.paojd\.cn\/na\/pjlNa - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
     - ^https?:\/\/promotion\.medlive\.cn\/getcover-v2\?app_name=medlive - reject
@@ -634,6 +642,7 @@ http:
     - ^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/dsx\.php\/v\d\/advert\?position=[^2]+ - reject
     - ^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/dsx\.php\/v\d\/top_notice\? - reject
     - ^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v\d\/version - reject
+    - ^https?:\/\/sdk\.tianmu\.mobi\/ad - reject
     - ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/actionad\.php - reject
     - ^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(GetAD|ADLog) - reject
     - ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
@@ -710,6 +719,7 @@ http:
     - ^https?:\/\/www\.ahzs10000\.com\/palmhall\/client\/base\/newVerson_getStartUp\.action - reject
     - ^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise - reject
     - ^https?:\/\/www\.cntv\.com\/nettv\/adp\/ - reject
+    - ^https?:\/\/www\.ctm\.net\/crm_api\/.*advertise - reject
     - ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ - reject
     - ^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?module=advis - reject
     - ^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
@@ -735,6 +745,7 @@ http:
     - ^https?:\/\/yxhd\.hori-gz\.com\/\/jfmsApi\/commandWord\/commandWordInfo - reject
     - ^https?:\/\/yxyapi2\.yuxueyuan\.cn\/yxy-api-gateway\/api\/json\/advert\/getsAdStartScreen - reject
     - ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
+    - ^https?:\/\/yyfapi\.huatu\.com\/common\/ad\/ - reject
     - ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig - reject
     - ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
     - ^https?:\/\/zjh5api\.ott4china\.com:8091\/cp-api\/view\/config\/pos - reject
@@ -962,8 +973,10 @@ http:
     - "*.ott.cibntv.net"
     - "*.peopleapp.com"
     - "*.qyfxgd.cn"
+    - "*.ranfenghd.com"
     - "*.reader.qq.com"
     - "*.smkj33.top"
+    - "*.tianmu.mobi"
     - "*.tipatipa.xyz"
     - "*.tslt.xyz"
     - "*.tv.sohu.com"
@@ -971,6 +984,7 @@ http:
     - "*.umetrip.com"
     - "*.uve.weibo.com"
     - "*.v2ex.com"
+    - "*.weathercn.com"
     - "*.weilai555.com"
     - "*.xbwpys.com"
     - "*.yuanfudao.com"
@@ -998,6 +1012,7 @@ http:
     - "3pp.starbucks.com.cn"
     - "47.100.65.202"
     - "4gimg.map.qq.com"
+    - "a-zA-Z0-9_-.admobile.top"
     - "a.jxjt888.top"
     - "a.qiumibao.com"
     - "aag.enmonster.com"
@@ -1022,6 +1037,7 @@ http:
     - "adsoss.zhinengxiyifang.cn"
     - "adv.ccb.com"
     - "advertise.bczeducation.cn"
+    - "adx.zuoyebang.com"
     - "afd.baidu.com"
     - "agent-count.pconline.com.cn"
     - "aikanvod.miguvideo.com"
@@ -1061,6 +1077,7 @@ http:
     - "api.club.lenovo.cn"
     - "api.coolapk.com"
     - "api.dangdang.com"
+    - "api.dnurse.com"
     - "api.douban.com"
     - "api.feng.com"
     - "api.gameplus.qq.com"
@@ -1213,6 +1230,7 @@ http:
     - "cdn.dianshihome.com"
     - "cdn.fivecdm.com"
     - "cdn.moji.com"
+    - "cdn.web.chelaile.net.cn"
     - "cdns.chinastock.com.cn"
     - "channel.beitaichufang.com"
     - "client-api-v2.oray.com"
@@ -1475,6 +1493,7 @@ http:
     - "pic.edaijia.cn"
     - "pinggai*.caixin.com"
     - "pipi.4kya.com"
+    - "pjlapi.paojd.cn"
     - "plt.yorentown.com"
     - "portal-xunyou.qingcdn.com"
     - "promo.xueqiu.com"
@@ -1606,6 +1625,7 @@ http:
     - "www.codesoftchina.com"
     - "www.coreldrawchina.com"
     - "www.crossoverchina.com"
+    - "www.ctm.net"
     - "www.deppon.com"
     - "www.dongmansoft.com"
     - "www.earmasterchina.cn"
@@ -1681,6 +1701,7 @@ http:
     - "yunbusiness.ccb.com"
     - "yxhd.hori-gz.com"
     - "yxyapi*.drcuiyutao.com"
+    - "yyfapi.huatu.com"
     - "zconfig.alibabausercontent.com"
     - "zhuanlan.zhihu.com"
     - "zjh5api.189smarthome.com"

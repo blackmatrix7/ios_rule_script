@@ -1,16 +1,16 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-11-17 02:11:53
+# UPDATED: 2025-03-30 02:12:40
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
-# DOMAIN: 27
-# DOMAIN-KEYWORD: 24
-# DOMAIN-SUFFIX: 1256
+# DOMAIN: 35
+# DOMAIN-KEYWORD: 26
+# DOMAIN-SUFFIX: 1270
 # IP-CIDR: 918
 # IP-CIDR6: 6
 # URL-REGEX: 1
 # USER-AGENT: 69
-# TOTAL: 2301
+# TOTAL: 2325
 .112263.com
 .20thcenturystudios.com.au
 .20thcenturystudios.com.br
@@ -29,6 +29,7 @@
 .afewmomentswith.com
 .afp.com
 .afpforum.com
+.ai.azure.com
 .aiv-cdn.net
 .aiv-delivery.net
 .akamaized.net
@@ -55,6 +56,7 @@
 .amerikiskhma.com
 .amlg.io
 .anidom.com
+.anthropic.com
 .api.tv.colnv.com
 .apple.news
 .applemusic.com
@@ -77,6 +79,7 @@
 .bam.nr-data.net
 .bam.nr-date.net
 .bamgrid.com
+.bard.google.com
 .bbc.co
 .bbc.co.uk
 .bbc.com
@@ -142,6 +145,7 @@
 .channel5.com
 .chocotv.com.tw
 .cinemax.com
+.claude.ai
 .cloudfront.net
 .cnbc.com
 .cnbcfm.com
@@ -158,6 +162,8 @@
 .control.kochava.com
 .conviva.com
 .cookielaw.org
+.copilot.cloud.microsoft
+.copilot.microsoft.com
 .coronavirusnow.com
 .cstatic.net
 .curbed.com
@@ -516,6 +522,7 @@
 .fxnetwork.com
 .fxnetworks.com
 .gamer.com.tw
+.gemini.google.com
 .geraldoatlarge.com
 .getblueshift.com
 .ggpht.cn
@@ -528,6 +535,8 @@
 .gooddaychicago.com
 .googlevideo.com
 .gorin.jp
+.grazie.ai
+.grazie.aws.intellij.net
 .gvt1.com
 .gvt2.com
 .haiwaikan.com
@@ -680,6 +689,7 @@
 .logx.optimizely.com
 .londonreal.tv
 .m-content-viki.s.llnwi.net
+.makersuite.google.com
 .manifest.prod.boltdns.net
 .marvel.com
 .marvel10thanniversary.com
@@ -695,8 +705,10 @@
 .maxgo.com
 .media-amazon.com
 .meridian.net
+.meta.ai
 .mewatch.sg
 .mickey.tv
+.mistral.ai
 .mobile-collector.newrelic.com
 .moov.hk
 .moviesanywhere.com
@@ -840,6 +852,7 @@
 .payhulu.com
 .pbs.org
 .peacocktv.com
+.perplexity.ai
 .persagg.com
 .phncdn.com
 .phprcdn.com
@@ -923,6 +936,7 @@
 .snssdk.com
 .soccermatchpass.com
 .socdm.com
+.sora.com
 .sorcerersarena.com
 .soundcloud.app.goo.gl
 .soundcloud.com
@@ -1266,18 +1280,25 @@
 .zeeuk.com
 .zeriamerikes.com
 .zype.com
+ai.google.dev
 akmcdnoversea-tw.inter.ptqy.gitv.tv
+api.githubcopilot.com
+api.groq.com
 api.okzy.tv
+api.together.xyz
 apm-misaka.biliapi.net
 apple.comscoreresearch.com
 bcbolt446c5271-a.akamaihd.net
 chuangcachecdnoversea-tw.inter.ptqy.gitv.tv
+console.groq.com
+copilot-proxy.githubusercontent.com
 cs428.wpc.edgecastcdn.net
 dashasiafox.akamaized.netflix
 daznfeeds.com.edgekey.net
 dca-lm-livedazn.secure.footprint.net
 e13252.dscg.akamaiedge.net
 edge.cwtv-vod-ext.top.comcast.net
+generativelanguage.googleapis.com
 gspe1-ssl.ls.apple.com
 h-dazn.online-metrix.net
 h-netflix.online-metrix.net
@@ -1293,3 +1314,4 @@ news-events.apple.com
 ocvideo.apple.com
 rpg.pic-imges.com
 rthklive2-lh.akamaihd.net
+sydney.bing.com

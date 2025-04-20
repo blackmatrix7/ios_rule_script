@@ -1,13 +1,13 @@
 # NAME: ChinaTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-04-18 02:14:07
-# DOMAIN: 119
+# UPDATED: 2025-04-21 02:13:15
+# DOMAIN: 97
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 119329
+# DOMAIN-SUFFIX: 119339
 # IP-CIDR: 11
 # IP-CIDR6: 4
-# TOTAL: 119472
+# TOTAL: 119460
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -26,8 +26,8 @@ payload:
   - DOMAIN,2mdn-cn.net
   - DOMAIN,2mdn.net
   - DOMAIN,admob-cn.com
-  - DOMAIN,ai.ytimg.com
   - DOMAIN,alibaba.cdn.steampipe.steamcontent.com
+  - DOMAIN,app-analytics-services.com
   - DOMAIN,app-measurement-cn.com
   - DOMAIN,app-measurement.com
   - DOMAIN,apps5.oingo.com
@@ -50,14 +50,9 @@ payload:
   - DOMAIN,crl.pki.goog
   - DOMAIN,crls.pki.goog
   - DOMAIN,dartsearch-cn.net
-  - DOMAIN,distribution.qatp1.net
-  - DOMAIN,distribution.qcpp1.net
-  - DOMAIN,distribution.qpdp1.net
   - DOMAIN,doubleclick-cn.net
   - DOMAIN,doubleclick.net
   - DOMAIN,download.qatp1.net
-  - DOMAIN,download.qcpp1.net
-  - DOMAIN,download.qpdp1.net
   - DOMAIN,emoi-cncdn.bing.com
   - DOMAIN,gog-cdn-fastly.gog.com
   - DOMAIN,gog-cdn.akamaized.net
@@ -69,30 +64,19 @@ payload:
   - DOMAIN,i.pki.goog
   - DOMAIN,images-cn-8.ssl-images-amazon.com
   - DOMAIN,menu-static.gog-statics.com
-  - DOMAIN,monitoring.qatp1.net
-  - DOMAIN,monitoring.qcpp1.net
   - DOMAIN,monitoring.qpdp1.net
   - DOMAIN,msgr.dlservice.microsoft.com
   - DOMAIN,msgruser.dlservice.microsoft.com
   - DOMAIN,o.pki.goog
   - DOMAIN,ocsp.pki.goog
-  - DOMAIN,play.1ucrs.com
   - DOMAIN,prod-controlbe.floonet.goog
   - DOMAIN,prod-databe.floonet.goog
   - DOMAIN,prod.databe.floonet.goog
   - DOMAIN,productcard.gog-statics.com
   - DOMAIN,qagpublic.qatp1.net
-  - DOMAIN,qagpublic.qcpp1.net
-  - DOMAIN,qagpublic.qpdp1.net
-  - DOMAIN,qgadmin.qatp1.net
   - DOMAIN,qgadmin.qcpp1.net
-  - DOMAIN,qgadmin.qpdp1.net
   - DOMAIN,qh.dlservice.microsoft.com
   - DOMAIN,qualysapi.qatp1.net
-  - DOMAIN,qualysapi.qcpp1.net
-  - DOMAIN,qualysapi.qpdp1.net
-  - DOMAIN,qualysguard.qatp1.net
-  - DOMAIN,qualysguard.qcpp1.net
   - DOMAIN,qualysguard.qpdp1.net
   - DOMAIN,recaptcha-cn.net
   - DOMAIN,recaptcha.net
@@ -103,20 +87,15 @@ payload:
   - DOMAIN,redirector.offline-maps.gvt1.com
   - DOMAIN,redirector.snap.gvt1.com
   - DOMAIN,redirector.xn--ngstr-lra8j.com
-  - DOMAIN,scanservice1.qatp1.net
   - DOMAIN,scanservice1.qcpp1.net
-  - DOMAIN,scanservice1.qpdp1.net
   - DOMAIN,service.urchin.com
-  - DOMAIN,settings.xn--9trs65b.com
   - DOMAIN,silverlight.dlservice.microsoft.com
   - DOMAIN,slupdate.dlservice.microsoft.com
   - DOMAIN,staging-controlbe.floonet.goog
   - DOMAIN,staging-databe.floonet.goog
   - DOMAIN,staging.databe.floonet.goog
   - DOMAIN,static-login.gog-statics.com
-  - DOMAIN,support.1ucrs.com
   - DOMAIN,surface.downloads.prss.microsoft.com
-  - DOMAIN,test.bugs-qa.chromium.org
   - DOMAIN,test.gbugs-qa.chromium.org
   - DOMAIN,time.xtracloud.net
   - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
@@ -126,7 +105,6 @@ payload:
   - DOMAIN,www.recaptcha.net
   - DOMAIN,www4-static.gog-statics.com
   - DOMAIN,xb.dlservice.microsoft.com
-  - DOMAIN,xn--9kr7l.com
   - DOMAIN,xn--flw351e.com
   - DOMAIN-SUFFIX,00cdn.com
   - DOMAIN-SUFFIX,0123456789.com
@@ -13673,6 +13651,7 @@ payload:
   - DOMAIN-SUFFIX,abykt.com
   - DOMAIN-SUFFIX,abyssdawn.com
   - DOMAIN-SUFFIX,abz-sh.com
+  - DOMAIN-SUFFIX,ac.fun
   - DOMAIN-SUFFIX,ac268.com
   - DOMAIN-SUFFIX,ac57.com
   - DOMAIN-SUFFIX,acabridge.net
@@ -13717,6 +13696,7 @@ payload:
   - DOMAIN-SUFFIX,acfechina.org
   - DOMAIN-SUFFIX,acftu.org
   - DOMAIN-SUFFIX,acfun.com
+  - DOMAIN-SUFFIX,acfun.net
   - DOMAIN-SUFFIX,acfunchina.com
   - DOMAIN-SUFFIX,acfunchina.net
   - DOMAIN-SUFFIX,acg.gd
@@ -24804,6 +24784,8 @@ payload:
   - DOMAIN-SUFFIX,cheshipin.com
   - DOMAIN-SUFFIX,cheshirex.com
   - DOMAIN-SUFFIX,cheshizh.com
+  - DOMAIN-SUFFIX,chesicc.com
+  - DOMAIN-SUFFIX,chesicc.net
   - DOMAIN-SUFFIX,chesir.com
   - DOMAIN-SUFFIX,chesir.net
   - DOMAIN-SUFFIX,chestercharles.com
@@ -41700,6 +41682,8 @@ payload:
   - DOMAIN-SUFFIX,gf7979cn.com
   - DOMAIN-SUFFIX,gfanstore.com
   - DOMAIN-SUFFIX,gfbk.net
+  - DOMAIN-SUFFIX,gfbzb.com
+  - DOMAIN-SUFFIX,gfbzb.net
   - DOMAIN-SUFFIX,gfcdn.xyz
   - DOMAIN-SUFFIX,gfcity.com
   - DOMAIN-SUFFIX,gfcname.com
@@ -52691,6 +52675,7 @@ payload:
   - DOMAIN-SUFFIX,huawei.eu
   - DOMAIN-SUFFIX,huawei.ru
   - DOMAIN-SUFFIX,huaweicloud-idme.com
+  - DOMAIN-SUFFIX,huaweicloud-koophone.com
   - DOMAIN-SUFFIX,huaweicloudsite.com
   - DOMAIN-SUFFIX,huaweicloudwaf.com
   - DOMAIN-SUFFIX,huaweidevice.com
@@ -72146,6 +72131,7 @@ payload:
   - DOMAIN-SUFFIX,modb.cc
   - DOMAIN-SUFFIX,modb.pro
   - DOMAIN-SUFFIX,modelarts-infer.com
+  - DOMAIN-SUFFIX,modelarts-maas.com
   - DOMAIN-SUFFIX,modelevel.com
   - DOMAIN-SUFFIX,modelltd.com
   - DOMAIN-SUFFIX,modelones.com
@@ -80489,6 +80475,7 @@ payload:
   - DOMAIN-SUFFIX,qgyqshz.com
   - DOMAIN-SUFFIX,qgysj.org
   - DOMAIN-SUFFIX,qgyyzs.net
+  - DOMAIN-SUFFIX,qgzb.net
   - DOMAIN-SUFFIX,qgzxx.com
   - DOMAIN-SUFFIX,qgzzz.com
   - DOMAIN-SUFFIX,qh-cdn.com
@@ -114479,6 +114466,7 @@ payload:
   - DOMAIN-SUFFIX,zbao.com
   - DOMAIN-SUFFIX,zbao56.com
   - DOMAIN-SUFFIX,zbbar.net
+  - DOMAIN-SUFFIX,zbbm.net
   - DOMAIN-SUFFIX,zbbus.com
   - DOMAIN-SUFFIX,zbc.pub
   - DOMAIN-SUFFIX,zbc.wiki

@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-04-19 02:13:41
+# UPDATED: 2025-04-23 02:13:52
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6506
+# DOMAIN-SUFFIX: 6507
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6638
+# TOTAL: 6639
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -478,7 +478,6 @@ payload:
   - DOMAIN-SUFFIX,audacy.com
   - DOMAIN-SUFFIX,audiomack.com
   - DOMAIN-SUFFIX,audionow.com
-  - DOMAIN-SUFFIX,auth.openai.com
   - DOMAIN-SUFFIX,autodraw.com
   - DOMAIN-SUFFIX,av-e-body.com
   - DOMAIN-SUFFIX,av.com
@@ -991,7 +990,6 @@ payload:
   - DOMAIN-SUFFIX,character.ai
   - DOMAIN-SUFFIX,chat.openai.com
   - DOMAIN-SUFFIX,chatnook.com
-  - DOMAIN-SUFFIX,chaturbate.com
   - DOMAIN-SUFFIX,checkgfw.com
   - DOMAIN-SUFFIX,chengmingmag.com
   - DOMAIN-SUFFIX,chenguangcheng.com
@@ -2302,6 +2300,7 @@ payload:
   - DOMAIN-SUFFIX,got-game.org
   - DOMAIN-SUFFIX,gotdns.ch
   - DOMAIN-SUFFIX,gotgeeks.com
+  - DOMAIN-SUFFIX,gotquestions.org
   - DOMAIN-SUFFIX,gotrusted.com
   - DOMAIN-SUFFIX,gotw.ca
   - DOMAIN-SUFFIX,gov.taipei
@@ -2713,6 +2712,7 @@ payload:
   - DOMAIN-SUFFIX,identi.ca
   - DOMAIN-SUFFIX,idiomconnection.com
   - DOMAIN-SUFFIX,idlcoyote.com
+  - DOMAIN-SUFFIX,idope.se
   - DOMAIN-SUFFIX,idouga.com
   - DOMAIN-SUFFIX,idreamx.com
   - DOMAIN-SUFFIX,idsam.com
@@ -5070,6 +5070,7 @@ payload:
   - DOMAIN-SUFFIX,stumbleupon.com
   - DOMAIN-SUFFIX,stupidvideos.com
   - DOMAIN-SUFFIX,stweetly.com
+  - DOMAIN-SUFFIX,subhd.tv
   - DOMAIN-SUFFIX,substack.com
   - DOMAIN-SUFFIX,successfn.com
   - DOMAIN-SUFFIX,sueddeutsche.de

@@ -1,14 +1,14 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-09-07 02:09:45
-# HOST: 268
+# UPDATED: 2025-04-23 02:12:13
+# HOST: 272
 # HOST-KEYWORD: 7
 # HOST-SUFFIX: 1549
 # HOST-WILDCARD: 15
 # IP-CIDR: 10
 # USER-AGENT: 23
-# TOTAL: 1872
+# TOTAL: 1876
 HOST,apps.apple.com,Apple
 HOST,itunes.apple.com,Apple
 HOST,a1.mzstatic.com,Apple
@@ -19,6 +19,7 @@ HOST,a5.mzstatic.com,Apple
 HOST,adcdownload.apple.com,Apple
 HOST,adcdownload.apple.com.akadns.net,Apple
 HOST,amp-api-search-edge.apps.apple.com,Apple
+HOST,amp-api-updates.apps.apple.com,Apple
 HOST,amp-api.apps.apple.com,Apple
 HOST,amp-api.media.apple.com,Apple
 HOST,api-edge.apps.apple.com,Apple
@@ -39,6 +40,7 @@ HOST,appleworldwidedeveloper.sc.omtrdc.net,Apple
 HOST,apps.mzstatic.com,Apple
 HOST,appstoreconnect.apple.com,Apple
 HOST,apptrailers.itunes.apple.com,Apple
+HOST,bag-cdn.itunes-apple.com.akadns.net,Apple
 HOST,bag.itunes.apple.com,Apple
 HOST,beatselectronicsllc.tt.omtrdc.net,Apple
 HOST,beta.music.apple.com,Apple
@@ -104,6 +106,7 @@ HOST,gsp5-cn.ls.apple.com,Apple
 HOST,gsp85-cn-ssl.ls.apple.com,Apple
 HOST,gspe11-2-cn-ssl.ls.apple.com,Apple
 HOST,gspe12-cn-ssl.ls.apple.com,Apple
+HOST,gspe19-2-cn-ssl.ls-apple.com.akadns.net,Apple
 HOST,gspe19-2-cn-ssl.ls.apple.com,Apple
 HOST,gspe19-cn-ssl.ls.apple.com,Apple
 HOST,gspe19-cn.ls-apple.com.akadns.net,Apple
@@ -137,6 +140,7 @@ HOST,iosapps.itunes.g.aaplimg.com,Apple
 HOST,ipcdn.apple.com,Apple
 HOST,iphone-ld.apple.com,Apple
 HOST,iphone-ld.origin-apple.com.akadns.net,Apple
+HOST,is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net,Apple
 HOST,is1-ssl.mzstatic.com,Apple
 HOST,is1.mzstatic.com,Apple
 HOST,is2-ssl.mzstatic.com,Apple
@@ -238,6 +242,7 @@ HOST,audio-ssl.itunes.apple.com,Apple
 HOST,audio.itunes.apple.com,Apple
 HOST,mvod.itunes.apple.com,Apple
 HOST,streamingaudio.itunes.apple.com,Apple
+HOST,gspe1-ssl.ls.apple.com,Apple
 HOST,news-client-search.apple.com,Apple
 HOST,api-glb-sea.smoot.apple.com,Apple
 HOST,apple.comscoreresearch.com,Apple
@@ -248,8 +253,6 @@ HOST,developer.apple.com,Apple
 HOST,devimages-cdn.apple.com,Apple
 HOST,devstreaming-cdn.apple.com,Apple
 HOST,docs-assets.developer.apple.com,Apple
-HOST,gspe1-ssl.ls.apple.com,Apple
-HOST,hls-svod.itunes.apple.com,Apple
 HOST,js-cdn.music.apple.com,Apple
 HOST,lookup-api.apple.com,Apple
 HOST,mask-api.fe.apple-dns.net,Apple
@@ -263,7 +266,6 @@ HOST,news-client.apple.com,Apple
 HOST,news-edge.apple.com,Apple
 HOST,news-events.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
-HOST,testflight.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple
 HOST,hls.itunes.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
@@ -274,8 +276,10 @@ HOST,fmfmobile.icloud.com,Apple
 HOST,fmipmobile.icloud.com,Apple
 HOST,statici.icloud.com,Apple
 HOST,amp-api.fitness.apple.com,Apple
+HOST,hls-svod.itunes.apple.com,Apple
 HOST,guzzoni.apple.com,Apple
 HOST,beta.apple.com,Apple
+HOST,testflight.apple.com,Apple
 HOST,www-cdn.icloud.com.akadns.net,Apple
 HOST-SUFFIX,100beatscheap.com,Apple
 HOST-SUFFIX,1monsterbeatsbydreus.com,Apple
@@ -1074,7 +1078,6 @@ HOST-SUFFIX,ibeatsbydre.cc,Apple
 HOST-SUFFIX,ibeatsbydre.com,Apple
 HOST-SUFFIX,ichat.co.in,Apple
 HOST-SUFFIX,icloud-content.com.cn,Apple
-HOST-SUFFIX,icloud-sandbox.com,Apple
 HOST-SUFFIX,idvd.eu,Apple
 HOST-SUFFIX,igoshopping.net,Apple
 HOST-SUFFIX,ikids.com,Apple
@@ -1476,6 +1479,7 @@ HOST-SUFFIX,darwinsourcecode.com,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-content.com,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple
+HOST-SUFFIX,icloud-sandbox.com,Apple
 HOST-SUFFIX,icloud.ch,Apple
 HOST-SUFFIX,icloud.com,Apple
 HOST-SUFFIX,icloud.com.cn,Apple
@@ -1783,6 +1787,7 @@ HOST-SUFFIX,ukipad.com,Apple
 HOST-SUFFIX,wwwipodlounge.com,Apple
 HOST-SUFFIX,wwwmacbookair.com,Apple
 HOST-SUFFIX,apple.comscoreresearch.com,Apple
+HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,appleenews.com,Apple
 HOST-SUFFIX,applemusic.berlin,Apple
 HOST-SUFFIX,applemusic.co,Apple
@@ -1820,12 +1825,11 @@ HOST-SUFFIX,iphoto.wang,Apple
 HOST-SUFFIX,musickit.net,Apple
 HOST-SUFFIX,wwwapplemusic.com,Apple
 HOST-SUFFIX,apple-dns.net,Apple
-HOST-SUFFIX,apple.news,Apple
-HOST-SUFFIX,cdn-apple.com,Apple
 HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,apple-cloudkit.com,Apple
 HOST-SUFFIX,apple-livephotoskit.com,Apple
 HOST-SUFFIX,apzones.com,Apple
+HOST-SUFFIX,cdn-apple.com,Apple
 HOST-WILDCARD,*-content.icloud.com.cn,Apple
 HOST-WILDCARD,apple.*,Apple
 HOST-WILDCARD,apple.com.*,Apple

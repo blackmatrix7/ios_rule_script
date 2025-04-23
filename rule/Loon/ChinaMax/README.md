@@ -21,19 +21,19 @@
 
 ## 规则统计
 
-最后更新时间：2024-09-07 02:12:22
+最后更新时间：2025-04-23 02:15:15
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 426  | 
+| DOMAIN | 256  | 
 | DOMAIN-KEYWORD | 13  | 
-| DOMAIN-SUFFIX | 92617  | 
+| DOMAIN-SUFFIX | 118169  | 
 | IP-ASN | 1  | 
-| IP-CIDR | 8063  | 
-| IP-CIDR6 | 11906  | 
+| IP-CIDR | 8320  | 
+| IP-CIDR6 | 12683  | 
 | USER-AGENT | 65  | 
-| TOTAL | 113091  | 
+| TOTAL | 139507  | 
 
 
 ## Loon 
@@ -179,7 +179,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuaWei.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Tencent.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Tencent.list
-- https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/CMedia.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/DomesticMedia.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEase.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Netease.list

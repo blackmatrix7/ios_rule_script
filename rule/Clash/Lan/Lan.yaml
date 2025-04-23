@@ -1,15 +1,14 @@
 # NAME: Lan
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-09 02:11:14
-# DOMAIN: 7
-# DOMAIN-SUFFIX: 127
+# UPDATED: 2024-09-16 02:12:54
+# DOMAIN: 6
+# DOMAIN-SUFFIX: 117
 # IP-CIDR: 14
 # IP-CIDR6: 4
-# TOTAL: 152
+# TOTAL: 141
 payload:
   - DOMAIN,asusrouter.com
-  - DOMAIN,connect.rom.miui.com
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,oasisauth.h3c.com
   - DOMAIN,router.asus.com
@@ -112,27 +111,17 @@ payload:
   - DOMAIN-SUFFIX,a.e.f.ip6.arpa
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,b.e.f.ip6.arpa
-  - DOMAIN-SUFFIX,captive.apple.com
-  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
-  - DOMAIN-SUFFIX,cp.cloudflare.com
   - DOMAIN-SUFFIX,d.f.ip6.arpa
-  - DOMAIN-SUFFIX,detectportal.firefox.com
   - DOMAIN-SUFFIX,hiwifi.com
   - DOMAIN-SUFFIX,home.arpa
   - DOMAIN-SUFFIX,leike.cc
   - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com
   - DOMAIN-SUFFIX,localhost.sec.qq.com
-  - DOMAIN-SUFFIX,location.services.mozilla.com
-  - DOMAIN-SUFFIX,msftconnecttest.com
-  - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,my.router
-  - DOMAIN-SUFFIX,networkcheck.kde.org
   - DOMAIN-SUFFIX,p.to
   - DOMAIN-SUFFIX,peiluyou.com
   - DOMAIN-SUFFIX,phicomm.me
-  - DOMAIN-SUFFIX,ping.archlinux.org
   - DOMAIN-SUFFIX,plex.direct
-  - DOMAIN-SUFFIX,push.services.mozilla.com
   - DOMAIN-SUFFIX,router.ctc
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,tendawifi.com

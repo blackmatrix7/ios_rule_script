@@ -14,7 +14,7 @@
 
 ## 规则统计
 
-最后更新时间：2024-07-03 16:18:44
+最后更新时间：2025-04-30 02:19:16
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -65,7 +65,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka_signin.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.sgmodule
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.sgmodule
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

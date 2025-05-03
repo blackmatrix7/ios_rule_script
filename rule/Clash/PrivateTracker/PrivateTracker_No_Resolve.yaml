@@ -1,7 +1,7 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-05-03 02:15:08
+# UPDATED: 2025-05-04 02:13:57
 # DOMAIN: 143
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
@@ -11,7 +11,6 @@ payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
   - DOMAIN,1337.abcvg.info
-  - DOMAIN,admin.52ywp.com
   - DOMAIN,bandito.byterunner.io
   - DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
   - DOMAIN,bt.ktrackers.com
@@ -32,11 +31,11 @@ payload:
   - DOMAIN,ipv4.rer.lol
   - DOMAIN,ipv4announce.sktorrent.eu
   - DOMAIN,ipv6.rer.lol
+  - DOMAIN,isk.richardsw.club
   - DOMAIN,ismaarino.com
   - DOMAIN,leet-tracker.moe
   - DOMAIN,lucke.fenesisu.moe
   - DOMAIN,martin-gebhardt.eu
-  - DOMAIN,ns-1.x-fins.com
   - DOMAIN,ns3109441.mypdns.org
   - DOMAIN,nyaa.tracker.wf
   - DOMAIN,open.acgtracker.com
@@ -63,13 +62,11 @@ payload:
   - DOMAIN,taciturn-shadow.spb.ru
   - DOMAIN,thouvenin.cloud
   - DOMAIN,tk.greedland.net
-  - DOMAIN,torrent.hificode.in
   - DOMAIN,torrent.i.ng
   - DOMAIN,torrentsmd.com
   - DOMAIN,tr.abiir.top
   - DOMAIN,tr.nyacat.pw
   - DOMAIN,tr.zukizuki.org
-  - DOMAIN,tr3.ysagin.top
   - DOMAIN,tr4ck3r.duckdns.org
   - DOMAIN,trackarr.org
   - DOMAIN,tracker-udp.gbitt.info
@@ -92,6 +89,7 @@ payload:
   - DOMAIN,tracker.dler.org
   - DOMAIN,tracker.dmcomic.org
   - DOMAIN,tracker.ducks.party
+  - DOMAIN,tracker.dump.cl
   - DOMAIN,tracker.expli.top
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
@@ -110,11 +108,11 @@ payload:
   - DOMAIN,tracker.leechshield.link
   - DOMAIN,tracker.lilithraws.org
   - DOMAIN,tracker.lintk.me
+  - DOMAIN,tracker.linvk.com
   - DOMAIN,tracker.moeblog.cn
   - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
   - DOMAIN,tracker.netmap.top
-  - DOMAIN,tracker.ololosh.space
   - DOMAIN,tracker.opentrackr.org
   - DOMAIN,tracker.openwebtorrent.com
   - DOMAIN,tracker.privateseedbox.xyz
@@ -128,6 +126,7 @@ payload:
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.trackarr.org
+  - DOMAIN,tracker.tritan.gg
   - DOMAIN,tracker.tryhackx.org
   - DOMAIN,tracker.valete.tf
   - DOMAIN,tracker.vanitycore.co
@@ -145,6 +144,7 @@ payload:
   - DOMAIN,tracker810.xyz
   - DOMAIN,ttk2.nbaonlineservice.com
   - DOMAIN,udp.tracker.projectk.org
+  - DOMAIN,utracker.ghostchu-services.top
   - DOMAIN,wepzone.net
   - DOMAIN,www.all4nothin.net
   - DOMAIN,www.genesis-sp.org

@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-04-15 02:18:04
+desc: 最后更新时间 2025-05-09 02:18:45
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1202
-# mitm: 889
+# reject: 1208
+# mitm: 892
 # force-http-engine-hosts: 6
-# total: 2097
+# total: 2106
 
 
 
@@ -344,6 +344,9 @@ http:
     - ^https?:\/\/api\.xiaoheihe\.cn\/.*get_ads_info - reject
     - ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/config\?userid=.* - reject
     - ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/mobile\/ads - reject
+    - ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/category\/list-daily-suggestion - reject
+    - ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/flash- - reject
+    - ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/membership\/platform - reject
     - ^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json - reject
     - ^https?:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json - reject
     - ^https?:\/\/api\.ycapp\.yiche\.com\/appnews\/getadlist - reject
@@ -514,6 +517,7 @@ http:
     - ^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getStartPictureAdvertising - reject
     - ^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject
     - ^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject
+    - ^https?:\/\/clubmed\.bd\.clubmedmnp\.com\/miniorder\/api\/basic\/common - reject
     - ^https?:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/ - reject
     - ^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/ - reject
     - ^https?:\/\/cmsfile\.wifi8\.com\/uploads\/png\/ - reject
@@ -572,6 +576,8 @@ http:
     - ^https?:\/\/e\.dangdang\.com\/media\/api.+?\?action=getDeviceStartPage - reject
     - ^https?:\/\/e\.weather\.com\.cn\/weChat\/typhoonNull\.json - reject
     - ^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ - reject
+    - ^https?:\/\/ec\.ems\.com\.cn\/ecr-exp-web\/advert - reject
+    - ^https?:\/\/ec\.ems\.com\.cn\/mailAd$ - reject
     - ^https?:\/\/ecard\.shenzhentong\.com\/wxweb\/bwxppub2\/QryAdvertList\.do - reject
     - ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv - reject
     - ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/guide\? - reject
@@ -1392,6 +1398,7 @@ http:
     - "api.xiachufang.com"
     - "api.xiaoheihe.cn"
     - "api.xiaoyi.com"
+    - "api.xiaoyuzhoufm.com"
     - "api.xueqiu.com"
     - "api.yangkeduo.com"
     - "api.ycapp.yiche.com"
@@ -1537,6 +1544,7 @@ http:
     - "client.tujia.com"
     - "clientaccess.10086.cn"
     - "cloud.189.cn"
+    - "clubmed.bd.clubmedmnp.com"
     - "cms.daydaycook.com.cn"
     - "cmsapi.wifi8.com"
     - "cmsfile.wifi8.com"
@@ -1590,6 +1598,7 @@ http:
     - "e.weather.com.cn"
     - "easyreadfs.nosdn.127.net"
     - "ebk.17u.cn"
+    - "ec.ems.com.cn"
     - "ecard.shenzhentong.com"
     - "ecloud.tppension.cntaiping.com"
     - "edit.sinaapp.com"

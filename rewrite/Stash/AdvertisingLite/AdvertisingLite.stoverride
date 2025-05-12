@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-05-09 02:18:45
+desc: 最后更新时间 2025-05-13 02:18:45
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 1208
-# mitm: 892
+# mitm: 893
 # force-http-engine-hosts: 6
-# total: 2106
+# total: 2107
 
 
 
@@ -19,6 +19,7 @@ http:
     - ^http:\/\/go\.babytree\.com\/go_tool\/api\/feeding_record\/get_home_banner_info - reject
     - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
     - ^http:\/\/res1\.hubcloud\.com\.cn - reject
+    - ^http:\/\/x\.seeyouyima\.com\/adx\/staticstics\? - reject
     - ^http?:\/\/images\.pinduoduo\.com\/marketing\_api - reject
     - ^http?:\/\/sfo\.mddcloud\.com\.cn\/api\/v2\/sfo\/popup_displays? - reject
     - ^http?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds\.php - reject
@@ -837,7 +838,6 @@ http:
     - ^https?:\/\/media\.qyer\.com\/ad\/ - reject
     - ^https?:\/\/message\.shuqireader\.com\/message\/.+ - reject
     - ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
-    - ^https?:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/(?!bbc2|f015|1655|0992|4678|a194|d8e2|c513|e51c|0ee1|166e|05ca|c882|d5b8|22ed|a0dc|a55a|6f89|3bf9|3c71|52ec|5b62|ve7a|001c|923d|accf|4a10|0bd7|be7a|5b62|5dd6|1f24|006c|775d|bd02|b983|5251|806b|d119|db14|43c9|41d3|8570|2c10|85ea|1435|814e|f422|aec7|738c|d7c8|0538|02b4|fd20|7647|f6ef|07c5|885b|e4cb|685b|30aa|c23b|9603|f27f|eaf8|8011|a5eb|409d|724c|3f2a|e07f|6744|60a6|158c|8ce3) - reject
     - ^https?:\/\/middle\.yun\.139\.com\/openapi\/cardConfig\/queryCardInfoV3 - reject
     - ^https?:\/\/mime\.baidu\.com\/commer\/pocket_api\/enterprise_list - reject
     - ^https?:\/\/mime\.baidu\.com\/sapi\/v1\/circle\/joinedlist - reject
@@ -2099,6 +2099,7 @@ http:
     - "www1.elecfans.com"
     - "wx.17u.cn"
     - "wxs-weixin.sd.zhumanggroup.com"
+    - "x.seeyouyima.com"
     - "xapi.xinmanhua.net"
     - "xhtz.oss-cn-guangzhou.aliyuncs.com"
     - "xqimg.imedao.com"

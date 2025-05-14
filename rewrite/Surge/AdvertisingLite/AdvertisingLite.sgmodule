@@ -1,12 +1,12 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2025-05-13 02:18:45
+#!desc=最后更新时间 2025-05-15 02:18:19
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
-#!reject=1208
+#!reject=1211
 #!mitm=893
 #!force-http-engine-hosts=6
-#!total=2107
+#!total=2110
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -724,6 +724,9 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/imgcache\.qq\.com\/qqlive\/" - reject
 "^https?:\/\/imgx\.jampp\.com\/imgsrv\/tn" - reject
 "^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request" - reject
+"^https?:\/\/info\.mina\.xiaoaisound\.com\/advertise(?!\/banner)" - reject
+"^https?:\/\/info\.mina\.xiaoaisound\.com\/payGuide\/userCenter" - reject
+"^https?:\/\/info\.mina\.xiaoaisound\.com\/popup" - reject
 "^https?:\/\/init\.sms\.mob\.com\/.*sdk\/init.*" - reject
 "^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec" - reject
 "^https?:\/\/intellicc\.bcs\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork\/getAdsBySlotId" - reject

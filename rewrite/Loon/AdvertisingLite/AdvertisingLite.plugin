@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2025-05-13 02:18:45
+#!desc= 最后更新时间 2025-05-15 02:18:19
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 1208
+#!reject= 1211
 #!mitm= 893
-#!total= 2101
+#!total= 2104
 
 
 [Rewrite]
@@ -719,6 +719,9 @@
 ^https?:\/\/imgcache\.qq\.com\/qqlive\/ - reject-img
 ^https?:\/\/imgx\.jampp\.com\/imgsrv\/tn - reject-img
 ^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request - reject-img
+^https?:\/\/info\.mina\.xiaoaisound\.com\/advertise(?!\/banner) - reject
+^https?:\/\/info\.mina\.xiaoaisound\.com\/payGuide\/userCenter - reject
+^https?:\/\/info\.mina\.xiaoaisound\.com\/popup - reject-dict
 ^https?:\/\/init\.sms\.mob\.com\/.*sdk\/init.* - reject
 ^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec - reject
 ^https?:\/\/intellicc\.bcs\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork\/getAdsBySlotId - reject-dict

@@ -1,12 +1,12 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2025-05-13 02:18:45
+#!desc=最后更新时间 2025-05-15 02:18:19
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
-#!reject=1208
+#!reject=1211
 #!mitm=893
 #!force-http-engine-hosts=6
-#!total=2107
+#!total=2110
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -276,6 +276,8 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/img\d+\.10101111cdn\.com\/adpos\/" - reject
 "^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/" - reject
 "^https?:\/\/img\d\.doubanio\.com\/view\/dale-online\/dale_ad\/" - reject
+"^https?:\/\/info\.mina\.xiaoaisound\.com\/advertise(?!\/banner)" - reject
+"^https?:\/\/info\.mina\.xiaoaisound\.com\/payGuide\/userCenter" - reject
 "^https?:\/\/init\.sms\.mob\.com\/.*sdk\/init.*" - reject
 "^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec" - reject
 "^https?:\/\/interface(\d)?\.music\.163\.com\/eapi\/(ad|abtest|sp|hot|store|search\/(specialkeyword|defaultkeyword|hot))" - reject
@@ -934,6 +936,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/imgcache\.qq\.com\/qqlive\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/imgx\.jampp\.com\/imgsrv\/tn" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 "^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
+"^https?:\/\/info\.mina\.xiaoaisound\.com\/popup" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/intellicc\.bcs\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork\/getAdsBySlotId" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/interface3?\.music\.163.com\/w?e?api\/(search\/(chart|default|rcmd\/keyword|specialkeyword)|(resource-exposure\/|middle\/clientcfg\/config)|activity\/bonus\/playpage\/time\/query)" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/iobs\.pingan\.com\.cn\/download\/bweb-per-sf-prd\/bweb" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"

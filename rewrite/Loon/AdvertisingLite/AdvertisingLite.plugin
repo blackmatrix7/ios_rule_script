@@ -1,12 +1,12 @@
 #!name= AdvertisingLite
-#!desc= 最后更新时间 2025-05-15 02:18:19
+#!desc= 最后更新时间 2025-05-16 02:18:23
 #!openUrl= https://github.com/blackmatrix7/ios_rule_script
 #!author= blackmatrix7
 #!homepage= https://github.com/blackmatrix7/ios_rule_script
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/avatar.jpg
-#!reject= 1211
+#!reject= 1216
 #!mitm= 893
-#!total= 2104
+#!total= 2109
 
 
 [Rewrite]
@@ -417,6 +417,7 @@
 ^https?:\/\/app\.zhuanzhuan\.com\/zzopen\/popwindow\/getallpopwin\? - reject-dict
 ^https?:\/\/app\.zhuanzhuan\.com\/zzx\/transfer\/getConfigInfo$ - reject-dict
 ^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg - reject
+^https?:\/\/appapi\.51job(app)?\.com\/api\/util\/get_version - reject-dict
 ^https?:\/\/appapi\.51job\.com\/api\/market\/(adtrace|get_launch|get_prompt) - reject
 ^https?:\/\/appapi\.huazhu\.com:\d{4}\/client\/app\/getAppStartPage\/ - reject
 ^https?:\/\/appconf\.mail\.163\.com\/mmad\/ - reject-200
@@ -541,6 +542,10 @@
 ^https?:\/\/cstore-en-public-tx\.seewo\.com\/easinote5_public - reject-dict
 ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds - reject
 ^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{3},h_\d{4}\/format,webp\/ - reject
+^https?:\/\/cupid\.51job(app)?\.com\/launch-hub\/open\/noauth\/popUp - reject
+^https?:\/\/cupid\.51job(app)?\.com\/open\/guide\/home-page-top - reject
+^https?:\/\/cupid\.51job(app)?\.com\/open\/noauth\/index\/last-version - reject-dict
+^https?:\/\/cupid\.51job(app)?\.com\/open\/user-task\/user\/task\/init - reject
 ^https?:\/\/cupid\.51job\.com\/open\/index\/recommend-infos - reject
 ^https?:\/\/daijia\.kuaidadi\.com\/gateway\?api=prado\.cms\.delivery\.batch&apiVe - reject-dict
 ^https?:\/\/damang\.api\.mgtv\.com\/station\/album\/red\/dot\? - reject-dict

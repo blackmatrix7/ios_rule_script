@@ -1,12 +1,12 @@
 #!name=AdvertisingLite
-#!desc=最后更新时间 2025-05-15 02:18:19
+#!desc=最后更新时间 2025-05-16 02:18:23
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
-#!reject=1211
+#!reject=1216
 #!mitm=893
 #!force-http-engine-hosts=6
-#!total=2110
+#!total=2115
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -211,6 +211,9 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/" - reject
 "^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds" - reject
 "^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{3},h_\d{4}\/format,webp\/" - reject
+"^https?:\/\/cupid\.51job(app)?\.com\/launch-hub\/open\/noauth\/popUp" - reject
+"^https?:\/\/cupid\.51job(app)?\.com\/open\/guide\/home-page-top" - reject
+"^https?:\/\/cupid\.51job(app)?\.com\/open\/user-task\/user\/task\/init" - reject
 "^https?:\/\/cupid\.51job\.com\/open\/index\/recommend-infos" - reject
 "^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd" - reject
 "^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?[\w=&]*(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController)" - reject
@@ -736,6 +739,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/app\.zhuanzhuan\.com\/zz\/v2\/zzlogic\/getOpenScreen" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/app\.zhuanzhuan\.com\/zzopen\/popwindow\/getallpopwin\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/app\.zhuanzhuan\.com\/zzx\/transfer\/getConfigInfo$" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+"^https?:\/\/appapi\.51job(app)?\.com\/api\/util\/get_version" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/appconf\.mail\.163\.com\/mmad\/" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/appdmkj\.5idream\.net\/appPic\/homepage" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/appdmkj\.5idream\.net\/v2\/login\/message\/tip" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
@@ -823,6 +827,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 "^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/creditcardapp\.bankcomm\.com\/mappweb.*(Advert|Ads).do" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 "^https?:\/\/cstore-en-public-tx\.seewo\.com\/easinote5_public" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+"^https?:\/\/cupid\.51job(app)?\.com\/open\/noauth\/index\/last-version" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/daijia\.kuaidadi\.com\/gateway\?api=prado\.cms\.delivery\.batch&apiVe" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/damang\.api\.mgtv\.com\/station\/album\/red\/dot\?" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 "^https?:\/\/dapis\.mting\.info\/yyting\/advertclient\/ClientAdvertList\.action" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"

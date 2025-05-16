@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-05-16 02:18:23
+desc: 最后更新时间 2025-05-17 02:18:18
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1216
-# mitm: 893
+# reject: 1215
+# mitm: 892
 # force-http-engine-hosts: 6
-# total: 2115
+# total: 2113
 
 
 
@@ -958,7 +958,6 @@ http:
     - ^https?:\/\/portal-portm\.meituan\.com\/horn_ios\/mergeRequest - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
-    - ^https?:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic - reject
     - ^https?:\/\/preprod\.cdzghome\.com:8100\/banner\/bootUp - reject
     - ^https?:\/\/prom\.mobile\.gome\.com\.cn\/mobile\/promotion\/promscms\/sale\w+\.jsp - reject
     - ^https?:\/\/promote-trx\.helipay\.com\/promote-business-client\/pos\/appAdvertisement\/appAdvertisementList - reject
@@ -1913,7 +1912,6 @@ http:
     - "plough.babytree.com"
     - "portal-portm.meituan.com"
     - "portal-xunyou.qingcdn.com"
-    - "portal.zjzwfw.gov.cn"
     - "preprod.cdzghome.com"
     - "prom.mobile.gome.com.cn"
     - "promote-trx.helipay.com"

@@ -1,0 +1,132 @@
+name: 'Upstream Sync and File Processing'
+
+on:
+  schedule:
+    - cron:  '0 0 * * 1'  # Run at midnight every Monday
+  workflow_dispatch:  # Manual trigger option
+    inputs:
+      sync_test_mode:
+        description: 'Fork Sync Test Mode'
+        type: boolean
+        default: false
+
+jobs:
+  sync_and_process:
+    runs-on: ubuntu-latest
+    name: Sync with upstream and process files
+
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        ref: master  # or your main branch name
+        fetch-depth: 0  # Full history
+
+    # Step 2: Sync with upstream using the action
+    - name: Sync upstream changes
+      id: sync
+      uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
+      with:
+        target_sync_branch: master
+        target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+        upstream_sync_branch: main
+        upstream_sync_repo: aormsby/Fork-Sync-With-Upstream-action
+        test_mode: ${{ inputs.sync_test_mode }}
+    
+    # Step 3: Create or checkout the branch for merged files
+    - name: Setup branch for merged files
+      run: |
+        # Define branch name from variable or use default
+        MERGE_BRANCH="${{ vars.MERGE_BRANCH || 'merged-files' }}"
+        
+        # Check if branch exists
+        if git ls-remote --heads origin $MERGE_BRANCH | grep -q $MERGE_BRANCH; then
+          echo "Branch $MERGE_BRANCH exists, checking out..."
+          git checkout $MERGE_BRANCH
+        else
+          echo "Branch $MERGE_BRANCH doesn't exist, creating..."
+          git checkout -b $MERGE_BRANCH
+          git push -u origin $MERGE_BRANCH
+        fi
+
+    # Step 4: Process files
+    - name: Process and merge files
+      id: merge_files
+      run: |
+        # Flag to track if any files were modified
+        CHANGES_MADE=false
+        
+        # Function to process a single merge operation
+        process_merge() {
+          local input_files=$1
+          local output_file=$2
+          
+          echo "Processing merge: Input=$input_files, Output=$output_file"
+          
+          # Create output directory if it doesn't exist
+          mkdir -p $(dirname "$output_file")
+          
+          # Save the previous file content hash if it exists
+          PREV_HASH=""
+          if [[ -f "$output_file" ]]; then
+            PREV_HASH=$(sha256sum "$output_file" | awk '{ print $1 }')
+          fi
+          
+          # Initialize the output file
+          > "$output_file"
+          
+          # Process each input file pattern
+          for pattern in $input_files
+          do
+            echo "Processing files matching: $pattern"
+            for file in $pattern
+            do
+              if [[ -f "$file" ]]; then
+                echo "  - Merging $file..."
+                # Grep to exclude lines starting with #, then append to the output file
+                grep -v '^#' "$file" >> "$output_file"
+                # Add a separator between files
+                echo "" >> "$output_file"
+              fi
+            done
+          done
+          
+          # Check if file changed
+          NEW_HASH=$(sha256sum "$output_file" | awk '{ print $1 }')
+          if [[ "$PREV_HASH" != "$NEW_HASH" ]]; then
+            echo "File $output_file was modified."
+            CHANGES_MADE=true
+          else 
+            echo "No changes to $output_file."
+          fi
+        }
+        
+        # Process each merge operation defined in repository variables
+        echo "${{ vars.MERGE_OPERATIONS }}" | while IFS= read -r line
+        do
+          if [[ ! -z "$line" ]]; then
+            input_part=$(echo "$line" | cut -d'|' -f1)
+            output_part=$(echo "$line" | cut -d'|' -f2)
+            process_merge "$input_part" "$output_part"
+          fi
+        done
+        
+        echo "changes_made=$CHANGES_MADE" >> $GITHUB_OUTPUT
+
+    # Step 5: Commit changes if any were made
+    - name: Commit and push changes
+      if: steps.merge_files.outputs.changes_made == 'true'
+      run: |
+        git config user.name "${{ vars.GIT_USERNAME || 'GitHub Actions Bot' }}"
+        git config user.email "${{ vars.GIT_EMAIL || 'actions@github.com' }}"
+        
+        # Add all changes
+        git add .
+        
+        # Get the current timestamp
+        TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+        
+        # Commit and push to the merge branch
+        git commit -m "${{ vars.COMMIT_PREFIX || 'Update merged files' }} - $TIMESTAMP"
+        git push origin ${{ vars.MERGE_BRANCH || 'merged-files' }}

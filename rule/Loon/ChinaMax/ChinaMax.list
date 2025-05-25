@@ -1,15 +1,15 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-05-25 02:15:29
+# UPDATED: 2025-05-26 02:15:07
 # DOMAIN: 257
 # DOMAIN-KEYWORD: 13
-# DOMAIN-SUFFIX: 120041
+# DOMAIN-SUFFIX: 120029
 # IP-ASN: 1
-# IP-CIDR: 8353
-# IP-CIDR6: 12835
+# IP-CIDR: 8354
+# IP-CIDR6: 12836
 # USER-AGENT: 65
-# TOTAL: 141565
+# TOTAL: 141555
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,ms
 DOMAIN-SUFFIX,alibaba
@@ -109,17 +109,17 @@ USER-AGENT,*QIYI*
 USER-AGENT,DomesticMedia*
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
-USER-AGENT,baiduyinyue
 USER-AGENT,bilibili*
 USER-AGENT,youku*
 USER-AGENT,Himalaya*
 USER-AGENT,MGTV*
 USER-AGENT,MOO*
+USER-AGENT,TencentMidasConnect*
 USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
 USER-AGENT,MiguVideo*
+USER-AGENT,baiduyinyue
 USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
 USER-AGENT,QQ%E9%9F%B3%E4%B9%90
-USER-AGENT,TencentMidasConnect*
 USER-AGENT,live4iphone*
 USER-AGENT,qqlive4iphone*
 USER-AGENT,walkman*
@@ -895,6 +895,7 @@ IP-CIDR,103.17.14.0/24,no-resolve
 IP-CIDR,103.17.160.0/22,no-resolve
 IP-CIDR,103.17.204.0/22,no-resolve
 IP-CIDR,103.17.228.0/22,no-resolve
+IP-CIDR,103.17.29.0/24,no-resolve
 IP-CIDR,103.17.40.0/22,no-resolve
 IP-CIDR,103.17.64.0/22,no-resolve
 IP-CIDR,103.170.134.0/23,no-resolve
@@ -21248,6 +21249,7 @@ IP-CIDR6,2a14:67c1:b100::/46,no-resolve
 IP-CIDR6,2a14:67c1:b104::/47,no-resolve
 IP-CIDR6,2a14:67c1:b106::/48,no-resolve
 IP-CIDR6,2a14:67c1:b400::/43,no-resolve
+IP-CIDR6,2a14:67c1:b4fe::/47,no-resolve
 IP-CIDR6,2a14:67c5:1000::/39,no-resolve
 IP-CIDR6,2a14:7580:730::/44,no-resolve
 IP-CIDR6,2a14:7580:9202::/47,no-resolve

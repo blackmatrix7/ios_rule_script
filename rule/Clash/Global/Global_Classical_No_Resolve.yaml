@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-05-26 02:13:25
-# DOMAIN: 90
+# UPDATED: 2025-05-27 02:14:39
+# DOMAIN: 91
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 31386
+# DOMAIN-SUFFIX: 31403
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 31629
+# TOTAL: 31647
 payload:
   - DOMAIN,1password.drift.click
   - DOMAIN,adobeereg.com
@@ -82,6 +82,7 @@ payload:
   - DOMAIN,qualcomm.sc.omtrdc.net
   - DOMAIN,servd-anthropic-website.b-cdn.net
   - DOMAIN,tesla-cdn.thron.com
+  - DOMAIN,time.windows.com
   - DOMAIN,tmdb-image-prod.b-cdn.net
   - DOMAIN,translomatic.foxfortmobile.com
   - DOMAIN,ut1-time.colorado.edu
@@ -11317,7 +11318,16 @@ payload:
   - DOMAIN-SUFFIX,ibeatsbydre.cc
   - DOMAIN-SUFFIX,ibeatsbydre.com
   - DOMAIN-SUFFIX,ibis.ac.uk
+  - DOMAIN-SUFFIX,ibkr.ca
+  - DOMAIN-SUFFIX,ibkr.co.in
+  - DOMAIN-SUFFIX,ibkr.co.uk
   - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,ibkr.com.au
+  - DOMAIN-SUFFIX,ibkr.com.hk
+  - DOMAIN-SUFFIX,ibkr.com.sg
+  - DOMAIN-SUFFIX,ibkr.eu
+  - DOMAIN-SUFFIX,ibkr.ie
+  - DOMAIN-SUFFIX,ibkrguides.com
   - DOMAIN-SUFFIX,ibllc.com
   - DOMAIN-SUFFIX,ibm.com
   - DOMAIN-SUFFIX,ibm.eu
@@ -15189,6 +15199,7 @@ payload:
   - DOMAIN-SUFFIX,mql5.com
   - DOMAIN-SUFFIX,mr-apple.com.tw
   - DOMAIN-SUFFIX,mr-tireman.jp
+  - DOMAIN-SUFFIX,mradx.net
   - DOMAIN-SUFFIX,mray.club
   - DOMAIN-SUFFIX,mrbasic.com
   - DOMAIN-SUFFIX,mrbdsm.com
@@ -18981,6 +18992,7 @@ payload:
   - DOMAIN-SUFFIX,rosetta.ac.uk
   - DOMAIN-SUFFIX,roshy.tv
   - DOMAIN-SUFFIX,roslin.ac.uk
+  - DOMAIN-SUFFIX,rostaxi.org
   - DOMAIN-SUFFIX,rothamsted.ac.uk
   - DOMAIN-SUFFIX,rotherham-coll.ac.uk
   - DOMAIN-SUFFIX,rotherham.ac.uk
@@ -22970,6 +22982,7 @@ payload:
   - DOMAIN-SUFFIX,vixen.com
   - DOMAIN-SUFFIX,vixvids.to
   - DOMAIN-SUFFIX,viznet.ac.uk
+  - DOMAIN-SUFFIX,vk-analytics.ru
   - DOMAIN-SUFFIX,vk-apps.com
   - DOMAIN-SUFFIX,vk-apps.ru
   - DOMAIN-SUFFIX,vk-cdn.me
@@ -24478,6 +24491,8 @@ payload:
   - DOMAIN-SUFFIX,yamaxun.com
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yamoon.club
+  - DOMAIN-SUFFIX,yandex-bank.net
+  - DOMAIN-SUFFIX,yandex-images.clstorage.net
   - DOMAIN-SUFFIX,yandex.aero
   - DOMAIN-SUFFIX,yandex.az
   - DOMAIN-SUFFIX,yandex.by
@@ -24505,7 +24520,10 @@ payload:
   - DOMAIN-SUFFIX,yandex.tm
   - DOMAIN-SUFFIX,yandex.ua
   - DOMAIN-SUFFIX,yandex.uz
+  - DOMAIN-SUFFIX,yandexadexchange.net
   - DOMAIN-SUFFIX,yandexcloud.net
+  - DOMAIN-SUFFIX,yandexcom.net
+  - DOMAIN-SUFFIX,yandexwebcache.org
   - DOMAIN-SUFFIX,yaohubaba.com
   - DOMAIN-SUFFIX,yaoimangaonline.com
   - DOMAIN-SUFFIX,yaoiotaku.com

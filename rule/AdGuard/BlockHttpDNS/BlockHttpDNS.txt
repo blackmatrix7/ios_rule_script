@@ -1,28 +1,171 @@
+[AdGuard]
 ! Title: BlockHttpDNS
-! Author: blackmatrix7
+! Author: blackmatrix7, URARUA
 ! Homepage: https://github.com/blackmatrix7/ios_rule_script
-! Updated: 2024-07-03 16:18:28
-! Total: 21
+! Updated: 2024-11-03
+! Total: 96 + 11 disable
+! Notes
+!! --------------------
+!! 本规则部分不适用于 AdGuard For iOS
+!! 原因见 https://github.com/AdguardTeam/AdguardForiOS/issues/496
+!! 部分规则需要安装AdGuard CA证书以正常工作
+!！使用'AdGuard Certificate'模组将证书安装至系统存储区在Android上是必要的 [ref1]
+!！如果AdGuard仍然提示了类似于‘xx不接受AdGuard证书’的提示，那么可能需要SSL unpin的xposed模组 [ref2]
+!！虽然使用SSL pinning是不建议的，但是显然部分应用不会听从Google的建议 [ref3]
+!！ref1: https://adguard.com/kb/zh-CN/adguard-for-android/solving-problems/https-certificate-for-rooted/
+!！ref2: https://modules.lsposed.org/module/io.github.tehcneko.sslunpinning/
+!! ref3: https://developer.android.com/privacy-and-security/security-ssl?hl=zh-cn
+!! --------------------
 
-
-||dns.jd.com^
-||dns.weibo.cn^
-||dns.weixin.qq.com^
-||dns.weixin.qq.com.cn^
+!! --------------------
+! Ali
+||httpdns.alicdn.com^
 ||httpdns-api.aliyuncs.com^
 ||httpdns-sc.aliyuncs.com^
-||httpdns.alicdn.com^
-||httpdns.baidu.com^
-||httpdns.baidubce.com^
-||httpdns.bilivideo.com^
-||httpdns.c.cdnhwc2.com^
-||httpdns.meituan.com^
-||httpdns.music.163.com^
-||httpdns.n.netease.com^
-||httpdns.push.oppomobile.com^
-||httpdns.volcengineapi.com^
-||httpdns.yunxindns.com^
+203.107.1.*$network
+
+! Alipay
+||amdc.alipay.com/s?query^
+||amdc-sibling.alipay.com.cn/s?query^
+||110.76.8.150/squery^
+||203.209.230.39/squery^
+||203.209.245.102/squery^
+||203.209.247.95/squery^
+||203.209.250.41/squery^
+||203.209.250.114/squery^
+||203.209.251.147/squery^
+||2400:B180:6001::18F/squery^
+||2400:B200:1005:3000::155/squery^
+||2400:B200:1005:3000::1D3/squery^
+||2400:B200:5000:B000::C8/squery^
+
+! Baidu
 ||httpsdns.baidu.com^
+||httpdns.baidu.com^
+||180.76.76.112/v4/resolve^
+||180.76.76.220/v4/resolve^
+
+! BaiduBCE
+||httpdns.baidubce.com^
+186.76.76.200$network
+
+! Bilibili
+||httpdns.bilivideo.com^
+239.255.255.250$network
+221.179.155.*$network
+||47.101.175.206/resolve^
+||47.100.123.169/resolve^
+||120.46.169.234/resolve^
+||121.36.72.124/resolve^
+||116.63.10.135/resolve^
+||122.9.7.134/resolve^
+||177.185.228.108/resolve^
+||177.244.238.29/resolve^
+||122.9.13.79/resolve^
+||122.9.15.129/resolve^
+||110.91.140.224/resolve^
+||110.91.140.124/resolve^
+||114.116.215.110/resolve^
+||116.63.10.31/resolve^
+||112.64.218.119/resolve^
+||112.65.200.117/resolve^
+!regexp规则出于轻量化暂时不启用，如果有未覆盖拦截再考虑
+!/.*xy_ip*/
+!/^.*\/.*\/resolve\?host=.*\.biligame\.net$/$important
+!/^.*\/.*\/resolve\?host=dataflow\.biliapi\.com$/$important
+!/^.*\/.*\/resolve\?host=live-trace\.bilibili\.com$/$important
+!/^.*\/.*\/resolve\?host=miniapp\.bilibili\.com$/$important
+!/^.*\/.*\/resolve\?host=web-player-tracker\.biliapi\.com$/$important
+!/^.*\/.*\/resolve\?host=cm\.bilibili\.com$/$important
+!/^.*\/.*\/resolve\?host=broadcast\.chat\.bilibili\.com$/$important
+
+! Huawei
+||httpdns.c.cdnhwc2.com^
+
+! JD
+||dns.jd.com^
+101.124.19.122$network
+[2402:db40:5100:1011::5]$network
+
+! JD Cloud
+103.224.222.208$network
+
+! Kuaishou
 ||kuaishou.httpdns.pro^
-||lofter.httpdns.c.163.com^
+
+! Meituan
+||httpdns.meituan.com^
+||103.37.155.60/fetch^
+
+! NetEase
+||httpdns.yunxindns.com^
+||httpdns.n.netease.com^
+||httpdns.music.163.com^
 ||music.httpdns.c.163.com^
+||lofter.httpdns.c.163.com^
+||httpdns.yunxindns.com^
+59.111.239.61$network
+59.111.239.62$network
+115.236.121.51$network
+115.236.121.195$network
+
+! Oppo
+||httpdns.push.oppomobile.com^
+
+! PingDuoDuo
+||182.156.116.116/d^
+||101.35.204.35/d^
+||101.35.212.35/d^
+||114.110.96.26/d^
+||114.110.97.97/d^
+||240c:409f::3:0:163/d^
+||240c:409f::3:0:359/d^
+||2402:4e00:1411:201:0:9964:ba21:5a41/d^
+! PDD跟踪？拦截后可能影响正常功能且有误伤可能
+!||*/*titan*^$important
+!||*/d?id=*&dn=*
+!||*/d?dn=*&id=*
+
+! QCloud
+||119.29.29.29/d^
+
+! QQMusic
+||182.256.116.116^
+
+! Tencent Cloud
+119.29.29.98$network
+119.29.29.99$network
+
+! Volcengine
+||httpdns.volcengineapi.com^
+
+! Weibo
+||dns.weibo.cn^
+39.97.128.148$network
+39.97.130.51$network
+||api.weibo.com/httpdns^
+||api.weibo.com/2/httpdns^
+
+! Weixin
+||dns.weixin.qq.com^
+||dns.weixin.qq.com.cn^
+36.152.4.32$network
+42.81.232.18$network
+42.187.182.106$network
+42.187.182.123$network
+42.187.184.154$network
+123.151.54.50$network
+[2402:4e00:1900:1700:0:9554:1ad9:c3a]$network
+[240e:928:1400:10::25]$network
+||short.weixin.qq.com/cgi-bin/micromsg-bin/getcdndns^
+||hkextshort.weixin.qq.com/cgi-bin/micromsg-bin/getcdndns^
+
+! Wework
+182.254.116.117$network
+182.254.118.119$network
+
+! Zhihu
+118.89.204.*$network
+118.89.205.*$network
+[2402:4e00:1200:ed00:0:9089:6dac:96b6]$network
+||103.41.167.237/v2/resolve^

@@ -15,14 +15,14 @@ ProxyLite规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-05-31 02:16:26
+最后更新时间：2025-06-01 02:15:23
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 24  | 
+| HOST | 23  | 
 | HOST-KEYWORD | 20  | 
-| HOST-SUFFIX | 841  | 
+| HOST-SUFFIX | 842  | 
 | IP-CIDR | 86  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 6  | 

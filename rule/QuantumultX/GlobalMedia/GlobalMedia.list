@@ -1,28 +1,34 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-05-21 02:12:04
-# HOST: 28
-# HOST-KEYWORD: 25
-# HOST-SUFFIX: 1255
+# UPDATED: 2025-06-04 02:16:02
+# HOST: 35
+# HOST-KEYWORD: 26
+# HOST-SUFFIX: 1270
 # HOST-WILDCARD: 10
 # IP-CIDR: 918
 # IP6-CIDR: 6
 # USER-AGENT: 69
-# TOTAL: 2311
+# TOTAL: 2334
+HOST,ai.google.dev,GlobalMedia
 HOST,akmcdnoversea-tw.inter.ptqy.gitv.tv,GlobalMedia
+HOST,api.githubcopilot.com,GlobalMedia
+HOST,api.groq.com,GlobalMedia
 HOST,api.okzy.tv,GlobalMedia
+HOST,api.together.xyz,GlobalMedia
 HOST,apm-misaka.biliapi.net,GlobalMedia
 HOST,apple.comscoreresearch.com,GlobalMedia
 HOST,bcbolt446c5271-a.akamaihd.net,GlobalMedia
-HOST,cache.video.iqiyi.com,GlobalMedia
 HOST,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv,GlobalMedia
+HOST,console.groq.com,GlobalMedia
+HOST,copilot-proxy.githubusercontent.com,GlobalMedia
 HOST,cs428.wpc.edgecastcdn.net,GlobalMedia
 HOST,dashasiafox.akamaized.netflix,GlobalMedia
 HOST,daznfeeds.com.edgekey.net,GlobalMedia
 HOST,dca-lm-livedazn.secure.footprint.net,GlobalMedia
 HOST,e13252.dscg.akamaiedge.net,GlobalMedia
 HOST,edge.cwtv-vod-ext.top.comcast.net,GlobalMedia
+HOST,generativelanguage.googleapis.com,GlobalMedia
 HOST,gspe1-ssl.ls.apple.com,GlobalMedia
 HOST,h-dazn.online-metrix.net,GlobalMedia
 HOST,h-netflix.online-metrix.net,GlobalMedia
@@ -38,6 +44,7 @@ HOST,news-events.apple.com,GlobalMedia
 HOST,ocvideo.apple.com,GlobalMedia
 HOST,rpg.pic-imges.com,GlobalMedia
 HOST,rthklive2-lh.akamaihd.net,GlobalMedia
+HOST,sydney.bing.com,GlobalMedia
 HOST-SUFFIX,112263.com,GlobalMedia
 HOST-SUFFIX,20thcenturystudios.com.au,GlobalMedia
 HOST-SUFFIX,20thcenturystudios.com.br,GlobalMedia
@@ -56,6 +63,7 @@ HOST-SUFFIX,adx.promo,GlobalMedia
 HOST-SUFFIX,afewmomentswith.com,GlobalMedia
 HOST-SUFFIX,afp.com,GlobalMedia
 HOST-SUFFIX,afpforum.com,GlobalMedia
+HOST-SUFFIX,ai.azure.com,GlobalMedia
 HOST-SUFFIX,aiv-cdn.net,GlobalMedia
 HOST-SUFFIX,aiv-delivery.net,GlobalMedia
 HOST-SUFFIX,akamaized.net,GlobalMedia
@@ -82,6 +90,7 @@ HOST-SUFFIX,amerikayidzayn.com,GlobalMedia
 HOST-SUFFIX,amerikiskhma.com,GlobalMedia
 HOST-SUFFIX,amlg.io,GlobalMedia
 HOST-SUFFIX,anidom.com,GlobalMedia
+HOST-SUFFIX,anthropic.com,GlobalMedia
 HOST-SUFFIX,api.tv.colnv.com,GlobalMedia
 HOST-SUFFIX,apple.news,GlobalMedia
 HOST-SUFFIX,applemusic.com,GlobalMedia
@@ -104,6 +113,7 @@ HOST-SUFFIX,bahamut.com.tw,GlobalMedia
 HOST-SUFFIX,bam.nr-data.net,GlobalMedia
 HOST-SUFFIX,bam.nr-date.net,GlobalMedia
 HOST-SUFFIX,bamgrid.com,GlobalMedia
+HOST-SUFFIX,bard.google.com,GlobalMedia
 HOST-SUFFIX,bbc.co,GlobalMedia
 HOST-SUFFIX,bbc.co.uk,GlobalMedia
 HOST-SUFFIX,bbc.com,GlobalMedia
@@ -169,6 +179,7 @@ HOST-SUFFIX,channel4.com,GlobalMedia
 HOST-SUFFIX,channel5.com,GlobalMedia
 HOST-SUFFIX,chocotv.com.tw,GlobalMedia
 HOST-SUFFIX,cinemax.com,GlobalMedia
+HOST-SUFFIX,claude.ai,GlobalMedia
 HOST-SUFFIX,cloudfront.net,GlobalMedia
 HOST-SUFFIX,cnbc.com,GlobalMedia
 HOST-SUFFIX,cnbcfm.com,GlobalMedia
@@ -185,6 +196,8 @@ HOST-SUFFIX,content.jwplatform.com,GlobalMedia
 HOST-SUFFIX,control.kochava.com,GlobalMedia
 HOST-SUFFIX,conviva.com,GlobalMedia
 HOST-SUFFIX,cookielaw.org,GlobalMedia
+HOST-SUFFIX,copilot.cloud.microsoft,GlobalMedia
+HOST-SUFFIX,copilot.microsoft.com,GlobalMedia
 HOST-SUFFIX,coronavirusnow.com,GlobalMedia
 HOST-SUFFIX,cstatic.net,GlobalMedia
 HOST-SUFFIX,curbed.com,GlobalMedia
@@ -543,6 +556,7 @@ HOST-SUFFIX,fxn.ws,GlobalMedia
 HOST-SUFFIX,fxnetwork.com,GlobalMedia
 HOST-SUFFIX,fxnetworks.com,GlobalMedia
 HOST-SUFFIX,gamer.com.tw,GlobalMedia
+HOST-SUFFIX,gemini.google.com,GlobalMedia
 HOST-SUFFIX,geraldoatlarge.com,GlobalMedia
 HOST-SUFFIX,getblueshift.com,GlobalMedia
 HOST-SUFFIX,glasamerike.net,GlobalMedia
@@ -552,6 +566,8 @@ HOST-SUFFIX,golos-ameriki.ru,GlobalMedia
 HOST-SUFFIX,golosameriki.com,GlobalMedia
 HOST-SUFFIX,gooddaychicago.com,GlobalMedia
 HOST-SUFFIX,gorin.jp,GlobalMedia
+HOST-SUFFIX,grazie.ai,GlobalMedia
+HOST-SUFFIX,grazie.aws.intellij.net,GlobalMedia
 HOST-SUFFIX,haiwaikan.com,GlobalMedia
 HOST-SUFFIX,happyon.jp,GlobalMedia
 HOST-SUFFIX,hath.network,GlobalMedia
@@ -658,6 +674,7 @@ HOST-SUFFIX,italkbb.com,GlobalMedia
 HOST-SUFFIX,italkbbtv.com,GlobalMedia
 HOST-SUFFIX,itv.com,GlobalMedia
 HOST-SUFFIX,itvstatic.com,GlobalMedia
+HOST-SUFFIX,iwara.tv,GlobalMedia
 HOST-SUFFIX,japonx.com,GlobalMedia
 HOST-SUFFIX,japonx.net,GlobalMedia
 HOST-SUFFIX,japonx.tv,GlobalMedia
@@ -701,6 +718,7 @@ HOST-SUFFIX,llnwd.net,GlobalMedia
 HOST-SUFFIX,logx.optimizely.com,GlobalMedia
 HOST-SUFFIX,londonreal.tv,GlobalMedia
 HOST-SUFFIX,m-content-viki.s.llnwi.net,GlobalMedia
+HOST-SUFFIX,makersuite.google.com,GlobalMedia
 HOST-SUFFIX,manifest.prod.boltdns.net,GlobalMedia
 HOST-SUFFIX,marvel.com,GlobalMedia
 HOST-SUFFIX,marvel10thanniversary.com,GlobalMedia
@@ -716,8 +734,10 @@ HOST-SUFFIX,max.com,GlobalMedia
 HOST-SUFFIX,maxgo.com,GlobalMedia
 HOST-SUFFIX,media-amazon.com,GlobalMedia
 HOST-SUFFIX,meridian.net,GlobalMedia
+HOST-SUFFIX,meta.ai,GlobalMedia
 HOST-SUFFIX,mewatch.sg,GlobalMedia
 HOST-SUFFIX,mickey.tv,GlobalMedia
+HOST-SUFFIX,mistral.ai,GlobalMedia
 HOST-SUFFIX,mobile-collector.newrelic.com,GlobalMedia
 HOST-SUFFIX,moov.hk,GlobalMedia
 HOST-SUFFIX,moviesanywhere.com,GlobalMedia
@@ -861,6 +881,7 @@ HOST-SUFFIX,pashtovoa.com,GlobalMedia
 HOST-SUFFIX,payhulu.com,GlobalMedia
 HOST-SUFFIX,pbs.org,GlobalMedia
 HOST-SUFFIX,peacocktv.com,GlobalMedia
+HOST-SUFFIX,perplexity.ai,GlobalMedia
 HOST-SUFFIX,persagg.com,GlobalMedia
 HOST-SUFFIX,phncdn.com,GlobalMedia
 HOST-SUFFIX,phprcdn.com,GlobalMedia
@@ -944,6 +965,7 @@ HOST-SUFFIX,sndcdn.com,GlobalMedia
 HOST-SUFFIX,snssdk.com,GlobalMedia
 HOST-SUFFIX,soccermatchpass.com,GlobalMedia
 HOST-SUFFIX,socdm.com,GlobalMedia
+HOST-SUFFIX,sora.com,GlobalMedia
 HOST-SUFFIX,sorcerersarena.com,GlobalMedia
 HOST-SUFFIX,soundcloud.app.goo.gl,GlobalMedia
 HOST-SUFFIX,soundcloud.com,GlobalMedia
@@ -1303,11 +1325,12 @@ HOST-WILDCARD,youtubego.com.*,GlobalMedia
 HOST-WILDCARD,youtube.*,GlobalMedia
 HOST-WILDCARD,youtube.*.*,GlobalMedia
 HOST-WILDCARD,youtube.com.*,GlobalMedia
-HOST-KEYWORD,-spotify-,GlobalMedia
 HOST-KEYWORD,abematv.akamaized.net,GlobalMedia
+HOST-KEYWORD,anthropic,GlobalMedia
 HOST-KEYWORD,apiproxy-device-prod-nlb-,GlobalMedia
 HOST-KEYWORD,avoddashs,GlobalMedia
 HOST-KEYWORD,bbcfmt,GlobalMedia
+HOST-KEYWORD,claude,GlobalMedia
 HOST-KEYWORD,discovery.uplynk.com,GlobalMedia
 HOST-KEYWORD,dualstack.apiproxy-,GlobalMedia
 HOST-KEYWORD,dualstack.ichnaea-web-,GlobalMedia
@@ -1321,7 +1344,7 @@ HOST-KEYWORD,nivod,GlobalMedia
 HOST-KEYWORD,nowtv100,GlobalMedia
 HOST-KEYWORD,olevod,GlobalMedia
 HOST-KEYWORD,rthklive,GlobalMedia
-HOST-KEYWORD,spotify.com,GlobalMedia
+HOST-KEYWORD,spotify,GlobalMedia
 HOST-KEYWORD,tiktokcdn,GlobalMedia
 HOST-KEYWORD,ttvnw,GlobalMedia
 HOST-KEYWORD,tvbanywhere,GlobalMedia

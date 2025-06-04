@@ -1,11 +1,12 @@
 # NAME: BlockHttpDNS
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-04-29 13:37:08
-# HOST: 20
-# IP-CIDR: 18
+# UPDATED: 2024-07-03 16:18:28
+# HOST: 18
+# HOST-SUFFIX: 3
+# IP-CIDR: 34
 # IP6-CIDR: 4
-# TOTAL: 42
+# TOTAL: 59
 HOST,dns.jd.com,BlockHttpDNS
 HOST,dns.weibo.cn,BlockHttpDNS
 HOST,dns.weixin.qq.com,BlockHttpDNS
@@ -13,8 +14,6 @@ HOST,dns.weixin.qq.com.cn,BlockHttpDNS
 HOST,httpdns-api.aliyuncs.com,BlockHttpDNS
 HOST,httpdns-sc.aliyuncs.com,BlockHttpDNS
 HOST,httpdns.alicdn.com,BlockHttpDNS
-HOST,httpdns.baidu.com,BlockHttpDNS
-HOST,httpdns.baidubce.com,BlockHttpDNS
 HOST,httpdns.bilivideo.com,BlockHttpDNS
 HOST,httpdns.c.cdnhwc2.com,BlockHttpDNS
 HOST,httpdns.meituan.com,BlockHttpDNS
@@ -22,15 +21,32 @@ HOST,httpdns.music.163.com,BlockHttpDNS
 HOST,httpdns.n.netease.com,BlockHttpDNS
 HOST,httpdns.push.oppomobile.com,BlockHttpDNS
 HOST,httpdns.volcengineapi.com,BlockHttpDNS
-HOST,httpsdns.baidu.com,BlockHttpDNS
+HOST,httpdns.yunxindns.com,BlockHttpDNS
 HOST,kuaishou.httpdns.pro,BlockHttpDNS
 HOST,lofter.httpdns.c.163.com,BlockHttpDNS
 HOST,music.httpdns.c.163.com,BlockHttpDNS
+HOST-SUFFIX,httpdns.baidu.com,BlockHttpDNS
+HOST-SUFFIX,httpdns.baidubce.com,BlockHttpDNS
+HOST-SUFFIX,httpsdns.baidu.com,BlockHttpDNS
 IP-CIDR,101.124.19.122/32,BlockHttpDNS
+IP-CIDR,101.91.140.124/32,BlockHttpDNS
+IP-CIDR,101.91.140.224/32,BlockHttpDNS
 IP-CIDR,103.224.222.208/32,BlockHttpDNS
+IP-CIDR,112.64.218.119/32,BlockHttpDNS
+IP-CIDR,112.65.200.117/32,BlockHttpDNS
+IP-CIDR,114.116.215.110/32,BlockHttpDNS
 IP-CIDR,115.236.121.195/32,BlockHttpDNS
 IP-CIDR,115.236.121.51/32,BlockHttpDNS
+IP-CIDR,116.63.10.135/32,BlockHttpDNS
+IP-CIDR,116.63.10.31/32,BlockHttpDNS
+IP-CIDR,117.144.238.29/32,BlockHttpDNS
+IP-CIDR,117.185.228.108/32,BlockHttpDNS
 IP-CIDR,119.29.29.98/31,BlockHttpDNS
+IP-CIDR,120.46.169.234/32,BlockHttpDNS
+IP-CIDR,121.36.72.124/32,BlockHttpDNS
+IP-CIDR,122.9.13.79/32,BlockHttpDNS
+IP-CIDR,122.9.15.129/32,BlockHttpDNS
+IP-CIDR,122.9.7.134/32,BlockHttpDNS
 IP-CIDR,123.151.54.50/32,BlockHttpDNS
 IP-CIDR,182.254.116.117/32,BlockHttpDNS
 IP-CIDR,182.254.118.119/32,BlockHttpDNS
@@ -42,6 +58,8 @@ IP-CIDR,42.187.182.106/32,BlockHttpDNS
 IP-CIDR,42.187.182.123/32,BlockHttpDNS
 IP-CIDR,42.187.184.154/32,BlockHttpDNS
 IP-CIDR,42.81.232.18/32,BlockHttpDNS
+IP-CIDR,47.100.123.169/32,BlockHttpDNS
+IP-CIDR,47.101.175.206/32,BlockHttpDNS
 IP-CIDR,59.111.239.61/32,BlockHttpDNS
 IP-CIDR,59.111.239.62/32,BlockHttpDNS
 IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,BlockHttpDNS

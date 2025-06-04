@@ -1,11 +1,12 @@
 # NAME: BlockHttpDNS
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-04-29 13:37:08
-# DOMAIN: 20
-# IP-CIDR: 18
+# UPDATED: 2024-07-03 16:18:28
+# DOMAIN: 18
+# DOMAIN-SUFFIX: 3
+# IP-CIDR: 34
 # IP-CIDR6: 4
-# TOTAL: 42
+# TOTAL: 59
 payload:
   - DOMAIN,dns.jd.com
   - DOMAIN,dns.weibo.cn
@@ -14,8 +15,6 @@ payload:
   - DOMAIN,httpdns-api.aliyuncs.com
   - DOMAIN,httpdns-sc.aliyuncs.com
   - DOMAIN,httpdns.alicdn.com
-  - DOMAIN,httpdns.baidu.com
-  - DOMAIN,httpdns.baidubce.com
   - DOMAIN,httpdns.bilivideo.com
   - DOMAIN,httpdns.c.cdnhwc2.com
   - DOMAIN,httpdns.meituan.com
@@ -23,15 +22,32 @@ payload:
   - DOMAIN,httpdns.n.netease.com
   - DOMAIN,httpdns.push.oppomobile.com
   - DOMAIN,httpdns.volcengineapi.com
-  - DOMAIN,httpsdns.baidu.com
+  - DOMAIN,httpdns.yunxindns.com
   - DOMAIN,kuaishou.httpdns.pro
   - DOMAIN,lofter.httpdns.c.163.com
   - DOMAIN,music.httpdns.c.163.com
+  - DOMAIN-SUFFIX,httpdns.baidu.com
+  - DOMAIN-SUFFIX,httpdns.baidubce.com
+  - DOMAIN-SUFFIX,httpsdns.baidu.com
   - IP-CIDR,101.124.19.122/32,no-resolve
+  - IP-CIDR,101.91.140.124/32,no-resolve
+  - IP-CIDR,101.91.140.224/32,no-resolve
   - IP-CIDR,103.224.222.208/32,no-resolve
+  - IP-CIDR,112.64.218.119/32,no-resolve
+  - IP-CIDR,112.65.200.117/32,no-resolve
+  - IP-CIDR,114.116.215.110/32,no-resolve
   - IP-CIDR,115.236.121.195/32,no-resolve
   - IP-CIDR,115.236.121.51/32,no-resolve
+  - IP-CIDR,116.63.10.135/32,no-resolve
+  - IP-CIDR,116.63.10.31/32,no-resolve
+  - IP-CIDR,117.144.238.29/32,no-resolve
+  - IP-CIDR,117.185.228.108/32,no-resolve
   - IP-CIDR,119.29.29.98/31,no-resolve
+  - IP-CIDR,120.46.169.234/32,no-resolve
+  - IP-CIDR,121.36.72.124/32,no-resolve
+  - IP-CIDR,122.9.13.79/32,no-resolve
+  - IP-CIDR,122.9.15.129/32,no-resolve
+  - IP-CIDR,122.9.7.134/32,no-resolve
   - IP-CIDR,123.151.54.50/32,no-resolve
   - IP-CIDR,182.254.116.117/32,no-resolve
   - IP-CIDR,182.254.118.119/32,no-resolve
@@ -43,6 +59,8 @@ payload:
   - IP-CIDR,42.187.182.123/32,no-resolve
   - IP-CIDR,42.187.184.154/32,no-resolve
   - IP-CIDR,42.81.232.18/32,no-resolve
+  - IP-CIDR,47.100.123.169/32,no-resolve
+  - IP-CIDR,47.101.175.206/32,no-resolve
   - IP-CIDR,59.111.239.61/32,no-resolve
   - IP-CIDR,59.111.239.62/32,no-resolve
   - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve

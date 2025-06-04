@@ -1,12 +1,12 @@
 # NAME: Emby
 # AUTHOR: justdoiting
 # REPO: https://github.com/justdoiting/emby-rules
-# UPDATED: 2024-04-29 13:36:21
+# UPDATED: 2024-07-03 16:17:40
 # DOMAIN: 3
 # DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 44
+# DOMAIN-SUFFIX: 45
 # PROCESS-NAME: 1
-# TOTAL: 51
+# TOTAL: 52
 payload:
   - DOMAIN,emby.enjoyit.eu.org
   - DOMAIN,emby.lcloud.wiki
@@ -37,6 +37,7 @@ payload:
   - DOMAIN-SUFFIX,emby.wtf
   - DOMAIN-SUFFIX,emby.xeton.dev
   - DOMAIN-SUFFIX,emby.ytoo.li
+  - DOMAIN-SUFFIX,embymv.tk
   - DOMAIN-SUFFIX,embyplus.org
   - DOMAIN-SUFFIX,embyserver.ga
   - DOMAIN-SUFFIX,hinet.jmsooo.com

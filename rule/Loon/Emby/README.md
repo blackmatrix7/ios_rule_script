@@ -12,15 +12,15 @@ Emby规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:36:21
+最后更新时间：2024-07-03 16:17:40
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 3  | 
 | DOMAIN-KEYWORD | 3  | 
-| DOMAIN-SUFFIX | 44  | 
-| TOTAL | 50  | 
+| DOMAIN-SUFFIX | 45  | 
+| TOTAL | 51  | 
 
 
 ## Loon 

@@ -1,16 +1,16 @@
 #!name=BlockHTTPDNS
-#!desc=最后更新时间 2024-07-03 16:19:12
+#!desc=最后更新时间 2025-06-06 09:20:55
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
-#!domain=21
+#!domain=22
 #!domain-suffix=1
-#!ip-cidr=35
+#!ip-cidr=38
 #!ip-cidr6=4
-#!reject=18
-#!mitm=16
+#!reject=21
+#!mitm=17
 #!force-http-engine-hosts=4
-#!total=99
+#!total=107
 
 [General]
 force-http-engine-hosts = %APPEND% 119.29.29.29:80,dns.weixin.qq.com:443,dns.weixin.qq.com:80,dns.weixin.qq.com:8080
@@ -30,6 +30,7 @@ DOMAIN,httpdns.baidu.com,REJECT
 DOMAIN,httpdns.baidubce.com,REJECT
 DOMAIN,httpdns.bilivideo.com,REJECT
 DOMAIN,httpdns.c.cdnhwc2.com,REJECT
+DOMAIN,httpdns.calorietech.com,REJECT
 DOMAIN,httpdns.meituan.com,REJECT
 DOMAIN,httpdns.music.163.com,REJECT
 DOMAIN,httpdns.n.netease.com,REJECT
@@ -54,6 +55,7 @@ IP-CIDR,116.63.10.135/32,REJECT,no-resolve
 IP-CIDR,116.63.10.31/32,REJECT,no-resolve
 IP-CIDR,117.144.238.29/32,REJECT,no-resolve
 IP-CIDR,117.185.228.108/32,REJECT,no-resolve
+IP-CIDR,118.89.204.198/32,REJECT,no-resolve
 IP-CIDR,119.29.29.98/32,REJECT,no-resolve
 IP-CIDR,119.29.29.99/32,REJECT,no-resolve
 IP-CIDR,120.46.169.234/32,REJECT,no-resolve
@@ -62,9 +64,11 @@ IP-CIDR,122.9.13.79/32,REJECT,no-resolve
 IP-CIDR,122.9.15.129/32,REJECT,no-resolve
 IP-CIDR,122.9.7.134/32,REJECT,no-resolve
 IP-CIDR,123.151.54.50/32,REJECT,no-resolve
+IP-CIDR,180.76.76.200/32,REJECT,no-resolve
 IP-CIDR,182.254.116.117/32,REJECT,no-resolve
 IP-CIDR,182.254.118.119/32,REJECT,no-resolve
-IP-CIDR,186.76.76.200/32,REJECT,no-resolve
+IP-CIDR,202.90.108.13/32,REJECT,no-resolve
+IP-CIDR,202.90.110.46/32,REJECT,no-resolve
 IP-CIDR,203.107.1.0/24,REJECT,no-resolve
 IP-CIDR,39.97.128.148/32,REJECT,no-resolve
 IP-CIDR,39.97.130.51/32,REJECT,no-resolve
@@ -90,8 +94,11 @@ IP-CIDR6,240e:928:1400:10::25/128,REJECT,no-resolve
 "^http:\/\/117\.185\.228\.108\/resolve" - reject
 "^http:\/\/180\.76\.76\.112\/v4\/resolve" - reject
 "^http:\/\/182\.256\.116\.116\/d" - reject
+"^http:\/\/[2402:4e00:1411:201:0:9964:ba21:5a41]\/d" - reject
+"^http:\/\/[240c:409f::3:0:163]\/d" - reject
 "^http:\/\/api\.weibo\.cn\/2\/httpdns\/config" - reject
 "^https:\/\/dns\.jd\.com\/v6\/b" - reject
+"^https?:\/\/.+\.zijieapi\.com\/get_domains\/" - reject
 "^https?:\/\/110\.76\.8\.150\/squery" - reject
 "^https?:\/\/119\.29\.29\.29\/d" - reject
 "^https?:\/\/203\.209\.230\.39\/squery" - reject
@@ -104,4 +111,4 @@ IP-CIDR6,240e:928:1400:10::25/128,REJECT,no-resolve
 
 
 [MITM]
-hostname = %APPEND% *.httpdns.pro,101.35.204.35,103.37.155.60,110.76.8.150,114.110.96.26,119.29.29.29,119.29.29.98,119.29.29.99,180.76.76.112,182.256.116.116,amdc-sibling.alipay.com.cn,amdc.alipay.com,api.weibo.cn,dns.jd.com,dns.weixin.qq.com,short.weixin.qq.com
+hostname = %APPEND% *.httpdns.pro,101.35.204.35,103.37.155.60,110.76.8.150,114.110.96.26,119.29.29.29,119.29.29.98,119.29.29.99,180.76.76.112,182.256.116.116,amdc-sibling.alipay.com.cn,amdc.alipay.com,api.weibo.cn,dns.jd.com,dns.weixin.qq.com,short.weixin.qq.com,zijieapi.com

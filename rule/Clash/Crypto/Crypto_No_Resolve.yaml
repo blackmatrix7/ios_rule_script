@@ -1,12 +1,12 @@
 # NAME: Crypto
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:18:28
+# UPDATED: 2025-06-06 09:20:01
 # DOMAIN: 1
 # DOMAIN-KEYWORD: 4
-# DOMAIN-SUFFIX: 195
+# DOMAIN-SUFFIX: 196
 # PROCESS-NAME: 3
-# TOTAL: 203
+# TOTAL: 204
 payload:
   - DOMAIN,token-api.metaswap.codefi.network
   - DOMAIN-SUFFIX,1inch.io
@@ -192,6 +192,7 @@ payload:
   - DOMAIN-SUFFIX,tronlink.org
   - DOMAIN-SUFFIX,tronscan.org
   - DOMAIN-SUFFIX,trustwalletapp.com
+  - DOMAIN-SUFFIX,unisat.io
   - DOMAIN-SUFFIX,uniswap.org
   - DOMAIN-SUFFIX,vfat.tools
   - DOMAIN-SUFFIX,viewbase.com

@@ -12,15 +12,15 @@ Crypto规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-07-03 16:18:28
+最后更新时间：2025-06-06 09:20:01
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 1  | 
 | DOMAIN-KEYWORD | 4  | 
-| DOMAIN-SUFFIX | 195  | 
-| TOTAL | 200  | 
+| DOMAIN-SUFFIX | 196  | 
+| TOTAL | 201  | 
 
 
 ## Loon 

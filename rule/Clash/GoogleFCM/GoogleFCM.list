@@ -1,10 +1,10 @@
 # NAME: GoogleFCM
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:17:24
-# DOMAIN: 9
+# UPDATED: 2025-06-06 09:18:26
+# DOMAIN: 15
 # IP-CIDR: 26
-# TOTAL: 35
+# TOTAL: 41
 DOMAIN,alt1-mtalk.google.com
 DOMAIN,alt2-mtalk.google.com
 DOMAIN,alt3-mtalk.google.com
@@ -13,7 +13,13 @@ DOMAIN,alt5-mtalk.google.com
 DOMAIN,alt6-mtalk.google.com
 DOMAIN,alt7-mtalk.google.com
 DOMAIN,alt8-mtalk.google.com
+DOMAIN,android.apis.google.com
+DOMAIN,device-provisioning.googleapis.com
+DOMAIN,firebaseinstallations.googleapis.com
+DOMAIN,mtalk-dev.google.com
+DOMAIN,mtalk-staging.google.com
 DOMAIN,mtalk.google.com
+DOMAIN,mtalk4.google.com
 IP-CIDR,108.177.125.188/32,no-resolve
 IP-CIDR,142.250.10.188/32,no-resolve
 IP-CIDR,142.250.31.188/32,no-resolve

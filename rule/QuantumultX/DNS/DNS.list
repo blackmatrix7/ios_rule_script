@@ -1,10 +1,10 @@
 # NAME: DNS
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:17:41
-# HOST: 88
-# IP-CIDR: 22
-# TOTAL: 110
+# UPDATED: 2025-06-06 09:18:50
+# HOST: 93
+# IP-CIDR: 26
+# TOTAL: 119
 HOST,1dot1dot1dot1.cloudflare-dns.com,DNS
 HOST,8888.google,DNS
 HOST,adblock.mydns.network,DNS
@@ -43,6 +43,7 @@ HOST,dns9.quad9.net,DNS
 HOST,doh-de.blahdns.com,DNS
 HOST,doh-fi.blahdns.com,DNS
 HOST,doh-jp.blahdns.com,DNS
+HOST,doh-pure.onedns.net,DNS
 HOST,doh.42l.fr,DNS
 HOST,doh.armadillodns.net,DNS
 HOST,doh.centraleu.pi-dns.com,DNS
@@ -57,6 +58,7 @@ HOST,doh.li,DNS
 HOST,doh.libredns.gr,DNS
 HOST,doh.mullvad.net,DNS
 HOST,doh.northeu.pi-dns.com,DNS
+HOST,doh.onedns.net,DNS
 HOST,doh.opendns.com,DNS
 HOST,doh.powerdns.com,DNS
 HOST,doh.powerdns.org,DNS
@@ -70,6 +72,8 @@ HOST,doh.tiarap.org,DNS
 HOST,doh.westus.pi-dns.com,DNS
 HOST,doh.xfinity.com,DNS
 HOST,dohdot.coxlab.net,DNS
+HOST,dot-pure.onedns.net,DNS
+HOST,dot.onedns.net,DNS
 HOST,edns.233py.com,DNS
 HOST,example.doh.blockerdns.com,DNS
 HOST,family.canadianshield.cira.ca,DNS
@@ -83,6 +87,7 @@ HOST,jp.tiarap.org,DNS
 HOST,mozilla.cloudflare-dns.com,DNS
 HOST,odvr.nic.cz,DNS
 HOST,one.one.one.one,DNS
+HOST,opera.cloudflare-dns.com,DNS
 HOST,ordns.he.net,DNS
 HOST,private.canadianshield.cira.ca,DNS
 HOST,protected.canadianshield.cira.ca,DNS
@@ -93,9 +98,12 @@ HOST,security-filter-dns.cleanbrowsing.org,DNS
 HOST,security.cloudflare-dns.com,DNS
 HOST,sm2.doh.pub,DNS
 HOST,unfiltered.adguard-dns.com,DNS
+IP-CIDR,1.0.0.2/31,DNS
 IP-CIDR,1.1.1.1/32,DNS
+IP-CIDR,1.1.1.2/31,DNS
 IP-CIDR,101.101.101.101/32,DNS
 IP-CIDR,114.114.114.114/32,DNS
+IP-CIDR,117.50.22.22/32,DNS
 IP-CIDR,118.89.110.78/32,DNS
 IP-CIDR,119.29.107.85/32,DNS
 IP-CIDR,119.29.29.29/32,DNS
@@ -110,6 +118,7 @@ IP-CIDR,220.248.179.9/32,DNS
 IP-CIDR,223.5.5.5/32,DNS
 IP-CIDR,223.6.6.6/32,DNS
 IP-CIDR,47.96.179.163/32,DNS
+IP-CIDR,52.80.66.66/32,DNS
 IP-CIDR,58.20.127.170/32,DNS
 IP-CIDR,58.20.127.238/32,DNS
 IP-CIDR,8.8.4.4/32,DNS

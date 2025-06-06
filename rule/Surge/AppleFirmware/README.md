@@ -12,14 +12,14 @@ AppleFirmware规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-07-03 16:17:41
+最后更新时间：2025-06-06 09:18:50
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 173  | 
+| DOMAIN-SUFFIX | 174  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 174  | 
+| TOTAL | 175  | 
 
 
 ## Surge 

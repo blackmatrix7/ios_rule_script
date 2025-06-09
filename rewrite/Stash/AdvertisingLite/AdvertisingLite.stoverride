@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-06-06 09:20:36
+desc: 最后更新时间 2025-06-10 02:12:47
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1227
-# mitm: 895
+# reject: 1229
+# mitm: 897
 # force-http-engine-hosts: 6
-# total: 2128
+# total: 2132
 
 
 
@@ -71,9 +71,11 @@ http:
     - ^https:\/\/dict\.youdao\.com\/homepage\/tile - reject
     - ^https:\/\/dict\.youdao\.com\/vip\/activity\/couponinfo - reject
     - ^https:\/\/dinamicx\.alibabausercontent\.com\/pub\/fish_home_top_kingkong_new\/ - reject
+    - ^https:\/\/dsp\.fcbox\.com\/adSearch\/get\? - reject
     - ^https:\/\/ecloud\.tppension\.cntaiping\.com\/fxtpplatform\/common\/anonymous\/common\/page\/queryStartPageNew\?language=zh-CN - reject
     - ^https:\/\/emisdatacenteraws\.hafoo\.com\/ad\/api\/v2\/appMarket - reject
     - ^https:\/\/ether-pack\.pangolin-sdk-toutiao\.com\/union\/endcard\/ - reject
+    - ^https:\/\/external\.fcbox\.com\/wxgw\/post\/suggestion\/query - reject
     - ^https:\/\/file\.dian\.so\/c\/leto - reject
     - ^https:\/\/gw\.chuangkit\.com\/team\/app\/common\/ad\/ - reject
     - ^https:\/\/gw\.xiaocantech\.com\/g\/pa - reject
@@ -1608,6 +1610,7 @@ http:
     - "dsa-mfp.fengshows.cn"
     - "dsp-impr2.youdao.com"
     - "dsp-x.jd.com"
+    - "dsp.fcbox.com"
     - "dsp.toutiao.com"
     - "dss0.bdstatic.com"
     - "du.hupucdn.com"
@@ -1634,6 +1637,7 @@ http:
     - "ether-pack.pangolin-sdk-toutiao.com"
     - "evs.500.com"
     - "explorer.tratao.com"
+    - "external.fcbox.com"
     - "facade-api.black-unique.com"
     - "fastbuyer.zbj.com"
     - "fbchina.flipchina.cn"

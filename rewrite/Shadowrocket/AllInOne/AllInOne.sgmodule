@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2025-06-06 09:20:14
+#!desc=最后更新时间 2025-06-12 02:12:04
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!domain=5
@@ -7,9 +7,9 @@
 #!http-request-script=1
 #!http-response-script=25
 #!redirect=8
-#!reject=723
+#!reject=722
 #!mitm=760
-#!total=1526
+#!total=1525
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -86,7 +86,6 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 ^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.mallRecommend - reject-dict
 ^https:\/\/hwimg\.beingfine\.cn\/card - reject-dict
 ^https:\/\/images\.qmai\.cn\/s214925\/2023 - reject-dict
-^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/mina\/systemSetting - reject-dict
 ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent - reject-dict
 ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds - reject-dict
 ^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_info - reject-dict

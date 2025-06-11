@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-06-10 02:12:47
+desc: 最后更新时间 2025-06-12 02:12:27
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1229
-# mitm: 897
+# reject: 1230
+# mitm: 898
 # force-http-engine-hosts: 6
-# total: 2132
+# total: 2134
 
 
 
@@ -109,6 +109,7 @@ http:
     - ^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.(jpg|png)\?imageMogr2\/thumbnail\/(860x0|!165x165|!1049x1169) - reject
     - ^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.jpg\?imageMogr2\/quality\/ - reject
     - ^https:\/\/patient-api\.suh\.cn\/apt\/api\/userinfo\/GetNotice\?appname=pmsys&channel=6&device=ios&language=1&source=2&version= - reject
+    - ^https:\/\/plt\.yorentown\.com\/pltapp\/v1\/banner - reject
     - ^https:\/\/qiye\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/ios-splash\/ - reject
     - ^https:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activity - reject
     - ^https:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash - reject
@@ -1929,6 +1930,7 @@ http:
     - "pipi.4kya.com"
     - "pjlapi.paojd.cn"
     - "plough.babytree.com"
+    - "plt.yorentown.com"
     - "portal-portm.meituan.com"
     - "portal-xunyou.qingcdn.com"
     - "preprod.cdzghome.com"

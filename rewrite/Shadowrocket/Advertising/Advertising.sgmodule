@@ -1,10 +1,10 @@
 #!name=Advertising
-#!desc=最后更新时间 2025-06-06 09:20:09
+#!desc=最后更新时间 2025-06-12 02:11:59
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=761
+#!reject=760
 #!mitm=719
-#!total=1480
+#!total=1479
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -65,7 +65,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 ^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.mallRecommend - reject-dict
 ^https:\/\/hwimg\.beingfine\.cn\/card - reject-dict
 ^https:\/\/images\.qmai\.cn\/s214925\/2023 - reject-dict
-^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/mina\/systemSetting - reject-dict
 ^https:\/\/learnywhere\.cn\/api\/activity\/23\/423dsj\/inapp\/bb\/promote - reject-dict
 ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent - reject-dict
 ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds - reject-dict

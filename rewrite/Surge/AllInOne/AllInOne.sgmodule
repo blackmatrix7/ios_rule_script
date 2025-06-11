@@ -1,5 +1,5 @@
 #!name=AllInOne
-#!desc=最后更新时间 2025-06-06 09:20:18
+#!desc=最后更新时间 2025-06-12 02:12:08
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!category=blackmatrix7
@@ -8,10 +8,10 @@
 #!http-request-script=1
 #!http-response-script=25
 #!redirect=62
-#!reject=777
+#!reject=776
 #!mitm=852
 #!force-http-engine-hosts=6
-#!total=1732
+#!total=1731
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
@@ -149,7 +149,6 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 "^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.mallRecommend" - reject
 "^https:\/\/hwimg\.beingfine\.cn\/card" - reject
 "^https:\/\/images\.qmai\.cn\/s214925\/2023" - reject
-"^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/mina\/systemSetting" - reject
 "^https:\/\/learnywhere\.cn\/api\/activity\/23\/423dsj\/inapp\/bb\/promote" - reject
 "^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent" - reject
 "^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds" - reject

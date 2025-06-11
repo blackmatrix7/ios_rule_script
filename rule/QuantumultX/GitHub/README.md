@@ -12,14 +12,14 @@ GitHub规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-06-06 09:15:10
+最后更新时间：2025-06-12 02:06:19
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST-KEYWORD | 1  | 
-| HOST-SUFFIX | 29  | 
-| TOTAL | 30  | 
+| HOST-SUFFIX | 30  | 
+| TOTAL | 31  | 
 
 
 ## QuantumultX 

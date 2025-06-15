@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-14 02:07:54
+# UPDATED: 2025-06-16 02:07:46
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6485
+# DOMAIN-SUFFIX: 6487
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6617
+# TOTAL: 6619
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -181,6 +181,7 @@ payload:
   - DOMAIN-SUFFIX,about.me
   - DOMAIN-SUFFIX,aboutgfw.com
   - DOMAIN-SUFFIX,abpchina.org
+  - DOMAIN-SUFFIX,abplive.com
   - DOMAIN-SUFFIX,abs.edu
   - DOMAIN-SUFFIX,acast.com
   - DOMAIN-SUFFIX,accim.org
@@ -378,12 +379,10 @@ payload:
   - DOMAIN-SUFFIX,apetube.com
   - DOMAIN-SUFFIX,api.ai
   - DOMAIN-SUFFIX,api.amplitude.com
-  - DOMAIN-SUFFIX,api.linksalpha.com
   - DOMAIN-SUFFIX,api.mixpanel.com
   - DOMAIN-SUFFIX,api.proxlet.com
   - DOMAIN-SUFFIX,api.termius.com
   - DOMAIN-SUFFIX,apiary.io
-  - DOMAIN-SUFFIX,apidocs.linksalpha.com
   - DOMAIN-SUFFIX,apigee.com
   - DOMAIN-SUFFIX,apk-dl.com
   - DOMAIN-SUFFIX,apk.support
@@ -1646,7 +1645,6 @@ payload:
   - DOMAIN-SUFFIX,entermap.com
   - DOMAIN-SUFFIX,entnt.com
   - DOMAIN-SUFFIX,entrust.net
-  - DOMAIN-SUFFIX,epa.gov.tw
   - DOMAIN-SUFFIX,epac.to
   - DOMAIN-SUFFIX,episcopalchurch.org
   - DOMAIN-SUFFIX,epochhk.com
@@ -1865,6 +1863,7 @@ payload:
   - DOMAIN-SUFFIX,fillthesquare.org
   - DOMAIN-SUFFIX,filmingfortibet.org
   - DOMAIN-SUFFIX,filthdump.com
+  - DOMAIN-SUFFIX,financialexpress.com
   - DOMAIN-SUFFIX,finchvpn.com
   - DOMAIN-SUFFIX,findbook.tw
   - DOMAIN-SUFFIX,findmespot.com
@@ -2405,7 +2404,6 @@ payload:
   - DOMAIN-SUFFIX,helloss.pw
   - DOMAIN-SUFFIX,hellotxt.com
   - DOMAIN-SUFFIX,hellouk.org
-  - DOMAIN-SUFFIX,help.linksalpha.com
   - DOMAIN-SUFFIX,helpeachpeople.com
   - DOMAIN-SUFFIX,helplinfen.com
   - DOMAIN-SUFFIX,helpshift.com
@@ -2456,6 +2454,7 @@ payload:
   - DOMAIN-SUFFIX,himalayanglacier.com
   - DOMAIN-SUFFIX,himemix.com
   - DOMAIN-SUFFIX,himemix.net
+  - DOMAIN-SUFFIX,hindustantimes.com
   - DOMAIN-SUFFIX,hinet.net
   - DOMAIN-SUFFIX,hitbtc.com
   - DOMAIN-SUFFIX,hitomi.la
@@ -2755,10 +2754,12 @@ payload:
   - DOMAIN-SUFFIX,incapdns.net
   - DOMAIN-SUFFIX,incredibox.fr
   - DOMAIN-SUFFIX,independent.co.uk
+  - DOMAIN-SUFFIX,india.com
   - DOMAIN-SUFFIX,indiablooms.com
   - DOMAIN-SUFFIX,indianarrative.com
   - DOMAIN-SUFFIX,indiandefensenews.in
   - DOMAIN-SUFFIX,indiatimes.com
+  - DOMAIN-SUFFIX,indiatoday.in
   - DOMAIN-SUFFIX,indiemerch.com
   - DOMAIN-SUFFIX,indsr.org.tw
   - DOMAIN-SUFFIX,inf.news
@@ -3761,12 +3762,14 @@ payload:
   - DOMAIN-SUFFIX,newchen.com
   - DOMAIN-SUFFIX,newgrounds.com
   - DOMAIN-SUFFIX,newhighlandvision.com
+  - DOMAIN-SUFFIX,newindianexpress.com
   - DOMAIN-SUFFIX,newipnow.com
   - DOMAIN-SUFFIX,newlandmagazine.com.au
   - DOMAIN-SUFFIX,newmitbbs.com
   - DOMAIN-SUFFIX,newnews.ca
   - DOMAIN-SUFFIX,news1.kr
   - DOMAIN-SUFFIX,news100.com.tw
+  - DOMAIN-SUFFIX,news18.com
   - DOMAIN-SUFFIX,newsancai.com
   - DOMAIN-SUFFIX,newsblur.com
   - DOMAIN-SUFFIX,newschinacomment.org
@@ -3901,7 +3904,6 @@ payload:
   - DOMAIN-SUFFIX,ntdtv.ru
   - DOMAIN-SUFFIX,ntdtvla.com
   - DOMAIN-SUFFIX,ntrfun.com
-  - DOMAIN-SUFFIX,ntsna.gov.tw
   - DOMAIN-SUFFIX,ntu.edu.tw
   - DOMAIN-SUFFIX,nu.nl
   - DOMAIN-SUFFIX,nubiles.net
@@ -4992,6 +4994,7 @@ payload:
   - DOMAIN-SUFFIX,st.luluku.pw
   - DOMAIN-SUFFIX,stackoverflow.com
   - DOMAIN-SUFFIX,stage64.hk
+  - DOMAIN-SUFFIX,standard.co.uk
   - DOMAIN-SUFFIX,standupfortibet.org
   - DOMAIN-SUFFIX,standwithhk.org
   - DOMAIN-SUFFIX,stanford.edu
@@ -5257,6 +5260,7 @@ payload:
   - DOMAIN-SUFFIX,thegioitinhoc.vn
   - DOMAIN-SUFFIX,thegly.com
   - DOMAIN-SUFFIX,theguardian.com
+  - DOMAIN-SUFFIX,thehansindia.com
   - DOMAIN-SUFFIX,thehindu.com
   - DOMAIN-SUFFIX,thehots.info
   - DOMAIN-SUFFIX,thehousenews.com
@@ -5778,7 +5782,6 @@ payload:
   - DOMAIN-SUFFIX,use.fontawesome.com
   - DOMAIN-SUFFIX,usefreevpn.com
   - DOMAIN-SUFFIX,usembassy.gov
-  - DOMAIN-SUFFIX,userapi.nytlog.com
   - DOMAIN-SUFFIX,usercontent.goog
   - DOMAIN-SUFFIX,usertrust.com
   - DOMAIN-SUFFIX,usfk.mil
@@ -6201,7 +6204,6 @@ payload:
   - DOMAIN-SUFFIX,wuyanblog.com
   - DOMAIN-SUFFIX,wwe.com
   - DOMAIN-SUFFIX,wwitv.com
-  - DOMAIN-SUFFIX,www.linksalpha.com
   - DOMAIN-SUFFIX,www1.biz
   - DOMAIN-SUFFIX,wwwhost.biz
   - DOMAIN-SUFFIX,wzyboy.im

@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-14 02:07:54
+# UPDATED: 2025-06-16 02:07:46
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6485
+# DOMAIN-SUFFIX: 6487
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6617
+# TOTAL: 6619
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
@@ -181,6 +181,7 @@ payload:
   - '+.about.me'
   - '+.aboutgfw.com'
   - '+.abpchina.org'
+  - '+.abplive.com'
   - '+.abs.edu'
   - '+.acast.com'
   - '+.accim.org'
@@ -378,12 +379,10 @@ payload:
   - '+.apetube.com'
   - '+.api.ai'
   - '+.api.amplitude.com'
-  - '+.api.linksalpha.com'
   - '+.api.mixpanel.com'
   - '+.api.proxlet.com'
   - '+.api.termius.com'
   - '+.apiary.io'
-  - '+.apidocs.linksalpha.com'
   - '+.apigee.com'
   - '+.apk-dl.com'
   - '+.apk.support'
@@ -1646,7 +1645,6 @@ payload:
   - '+.entermap.com'
   - '+.entnt.com'
   - '+.entrust.net'
-  - '+.epa.gov.tw'
   - '+.epac.to'
   - '+.episcopalchurch.org'
   - '+.epochhk.com'
@@ -1865,6 +1863,7 @@ payload:
   - '+.fillthesquare.org'
   - '+.filmingfortibet.org'
   - '+.filthdump.com'
+  - '+.financialexpress.com'
   - '+.finchvpn.com'
   - '+.findbook.tw'
   - '+.findmespot.com'
@@ -2405,7 +2404,6 @@ payload:
   - '+.helloss.pw'
   - '+.hellotxt.com'
   - '+.hellouk.org'
-  - '+.help.linksalpha.com'
   - '+.helpeachpeople.com'
   - '+.helplinfen.com'
   - '+.helpshift.com'
@@ -2456,6 +2454,7 @@ payload:
   - '+.himalayanglacier.com'
   - '+.himemix.com'
   - '+.himemix.net'
+  - '+.hindustantimes.com'
   - '+.hinet.net'
   - '+.hitbtc.com'
   - '+.hitomi.la'
@@ -2755,10 +2754,12 @@ payload:
   - '+.incapdns.net'
   - '+.incredibox.fr'
   - '+.independent.co.uk'
+  - '+.india.com'
   - '+.indiablooms.com'
   - '+.indianarrative.com'
   - '+.indiandefensenews.in'
   - '+.indiatimes.com'
+  - '+.indiatoday.in'
   - '+.indiemerch.com'
   - '+.indsr.org.tw'
   - '+.inf.news'
@@ -3761,12 +3762,14 @@ payload:
   - '+.newchen.com'
   - '+.newgrounds.com'
   - '+.newhighlandvision.com'
+  - '+.newindianexpress.com'
   - '+.newipnow.com'
   - '+.newlandmagazine.com.au'
   - '+.newmitbbs.com'
   - '+.newnews.ca'
   - '+.news1.kr'
   - '+.news100.com.tw'
+  - '+.news18.com'
   - '+.newsancai.com'
   - '+.newsblur.com'
   - '+.newschinacomment.org'
@@ -3901,7 +3904,6 @@ payload:
   - '+.ntdtv.ru'
   - '+.ntdtvla.com'
   - '+.ntrfun.com'
-  - '+.ntsna.gov.tw'
   - '+.ntu.edu.tw'
   - '+.nu.nl'
   - '+.nubiles.net'
@@ -4992,6 +4994,7 @@ payload:
   - '+.st.luluku.pw'
   - '+.stackoverflow.com'
   - '+.stage64.hk'
+  - '+.standard.co.uk'
   - '+.standupfortibet.org'
   - '+.standwithhk.org'
   - '+.stanford.edu'
@@ -5257,6 +5260,7 @@ payload:
   - '+.thegioitinhoc.vn'
   - '+.thegly.com'
   - '+.theguardian.com'
+  - '+.thehansindia.com'
   - '+.thehindu.com'
   - '+.thehots.info'
   - '+.thehousenews.com'
@@ -5778,7 +5782,6 @@ payload:
   - '+.use.fontawesome.com'
   - '+.usefreevpn.com'
   - '+.usembassy.gov'
-  - '+.userapi.nytlog.com'
   - '+.usercontent.goog'
   - '+.usertrust.com'
   - '+.usfk.mil'
@@ -6201,7 +6204,6 @@ payload:
   - '+.wuyanblog.com'
   - '+.wwe.com'
   - '+.wwitv.com'
-  - '+.www.linksalpha.com'
   - '+.www1.biz'
   - '+.wwwhost.biz'
   - '+.wzyboy.im'

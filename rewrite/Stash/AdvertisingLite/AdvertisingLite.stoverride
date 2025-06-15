@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-06-12 02:12:27
+desc: 最后更新时间 2025-06-16 02:12:11
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1230
-# mitm: 898
+# reject: 1229
+# mitm: 897
 # force-http-engine-hosts: 6
-# total: 2134
+# total: 2132
 
 
 
@@ -1111,7 +1111,6 @@ http:
     - ^https?:\/\/ump\.sz\.creditcard\.ecitic\.com\/citiccard\/cm-ump\/ump-gateway\/ump-net-app\/ump-net-app\/adv - reject
     - ^https?:\/\/update\.pan\.baidu\.com\/statistics - reject
     - ^https?:\/\/upload-bbs\.mihoyo\.com\/upload\/202[2-9]{1}\/[0-9]{2}\/[0-9]{2}\/[a-z0-9]{32}_[a-z0-9]{19}\.(jpg|png)$ - reject
-    - ^https?:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH - reject
     - ^https?:\/\/us\.l\.qq\.com\/exapp - reject
     - ^https?:\/\/us\.l\.qq\.com\/exapp\?spsa=\d - reject
     - ^https?:\/\/ut2\.shuqistat\.com\/.+\.gif - reject
@@ -2065,7 +2064,6 @@ http:
     - "ump.sz.creditcard.ecitic.com"
     - "update.pan.baidu.com"
     - "upload-bbs.mihoyo.com"
-    - "upos-sz-static.bilivideo.com"
     - "us.l.qq.com"
     - "userpms-api.suh.cn"
     - "ut2.shuqistat.com"

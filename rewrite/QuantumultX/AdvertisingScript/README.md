@@ -12,17 +12,19 @@
 
 ## 规则统计
 
-最后更新时间：2025-06-06 09:20:18
+最后更新时间：2025-06-18 02:12:07
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 5  | 
+| HOST | 8  | 
+| IP-CIDR | 2  | 
+| IP6-CIDR | 1  | 
 | HTTP-REQUEST-SCRIPT | 1  | 
-| HTTP-RESPONSE-SCRIPT | 33  | 
-| REJECT | 14  | 
-| MITM | 28  | 
-| TOTAL | 81  | 
+| HTTP-RESPONSE-SCRIPT | 31  | 
+| REJECT | 3  | 
+| MITM | 23  | 
+| TOTAL | 69  | 
 
 
 ## QuantumultX 

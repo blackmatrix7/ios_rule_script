@@ -12,15 +12,14 @@ HBO规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:34:32
+最后更新时间：2025-06-06 09:16:58
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 1  | 
-| DOMAIN-SUFFIX | 45  | 
+| DOMAIN-SUFFIX | 47  | 
 | PROCESS-NAME | 1  | 
-| TOTAL | 47  | 
+| TOTAL | 48  | 
 
 
 ## Clash 
@@ -68,7 +67,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《HBO》的数据来自以下链接，如与本项目的《HBO》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/HBO.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/HBO.yaml
 

@@ -1,17 +1,19 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-04-29 13:35:33
+# UPDATED: 2025-06-06 09:17:51
 # DOMAIN: 23
-# DOMAIN-KEYWORD: 22
-# DOMAIN-SUFFIX: 841
-# IP-CIDR: 89
+# DOMAIN-KEYWORD: 20
+# DOMAIN-SUFFIX: 842
+# IP-CIDR: 86
 # IP-CIDR6: 4
-# TOTAL: 979
+# TOTAL: 975
 DOMAIN,addons.mozilla.org
 DOMAIN,amp-api.podcasts.apple.com
+DOMAIN,api.msn.com
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
+DOMAIN,assets.msn.com
 DOMAIN,assets1.xboxlive.com
 DOMAIN,assets2.xboxlive.com
 DOMAIN,az416426.vo.msecnd.net
@@ -19,16 +21,14 @@ DOMAIN,az668014.vo.msecnd.net
 DOMAIN,beta.music.apple.com
 DOMAIN,books.apple.com
 DOMAIN,cdp.cloud.unity3d.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,clubhouse.pubnubapi.com
-DOMAIN,disk.yandex.com
+DOMAIN,copilot.microsoft.com
 DOMAIN,lab.skk.moe
+DOMAIN,location.microsoft.com
+DOMAIN,login.microsoftonline.com
 DOMAIN,ocsp.int-x3.letsencrypt.org
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,search.yahoo.co.jp
+DOMAIN,self.events.data.microsoft.com
 DOMAIN,tv.apple.com
 DOMAIN,wego.here.com
 DOMAIN-SUFFIX,1password.com
@@ -73,6 +73,7 @@ DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,api.mixpanel.com
 DOMAIN-SUFFIX,api.termius.com
+DOMAIN-SUFFIX,api.tiktokv.com
 DOMAIN-SUFFIX,apk-dl.com
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,apkpure.com
@@ -145,7 +146,6 @@ DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,bullguard.com
 DOMAIN-SUFFIX,buzzsprout.com
 DOMAIN-SUFFIX,bybit.com
-DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,c-span.org
 DOMAIN-SUFFIX,cachefly.net
 DOMAIN-SUFFIX,castbox.fm
@@ -180,6 +180,7 @@ DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,coinmarketcap.com
 DOMAIN-SUFFIX,coinone.co.kr
 DOMAIN-SUFFIX,comodoca.com
+DOMAIN-SUFFIX,compose-spec.io
 DOMAIN-SUFFIX,conoha.jp
 DOMAIN-SUFFIX,content.office.net
 DOMAIN-SUFFIX,coursehero.com
@@ -219,6 +220,8 @@ DOMAIN-SUFFIX,dlive.tv
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dnsimple.com
 DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,dockerhub.com
 DOMAIN-SUFFIX,doub.io
 DOMAIN-SUFFIX,dowjones.com
 DOMAIN-SUFFIX,dribbble.com
@@ -322,8 +325,6 @@ DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,i-cable.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,icntv.xyz
 DOMAIN-SUFFIX,icoco.com
 DOMAIN-SUFFIX,icons8.com
@@ -347,12 +348,12 @@ DOMAIN-SUFFIX,io.io
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipaddress.com
 DOMAIN-SUFFIX,ipn.li
-DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,is.gd
 DOMAIN-SUFFIX,ishowsapp.com
 DOMAIN-SUFFIX,issuu.com
 DOMAIN-SUFFIX,istockphoto.com
 DOMAIN-SUFFIX,itgonglun.com
+DOMAIN-SUFFIX,iwara.tv
 DOMAIN-SUFFIX,ixquick.com
 DOMAIN-SUFFIX,j.mp
 DOMAIN-SUFFIX,javbus.com
@@ -426,7 +427,6 @@ DOMAIN-SUFFIX,moon.fm
 DOMAIN-SUFFIX,moves-export.com
 DOMAIN-SUFFIX,mp3buscador.com
 DOMAIN-SUFFIX,mubi.com
-DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,mvnrepository.com
 DOMAIN-SUFFIX,mycnnews.com
 DOMAIN-SUFFIX,myfontastic.com
@@ -523,6 +523,7 @@ DOMAIN-SUFFIX,popo.tw
 DOMAIN-SUFFIX,potato.im
 DOMAIN-SUFFIX,prism-break.org
 DOMAIN-SUFFIX,privoxy.org
+DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,proxfree.com
 DOMAIN-SUFFIX,proxifier.com
 DOMAIN-SUFFIX,pscp.tv
@@ -571,7 +572,6 @@ DOMAIN-SUFFIX,scmp.com
 DOMAIN-SUFFIX,scribd.com
 DOMAIN-SUFFIX,search.com
 DOMAIN-SUFFIX,sexinsex.net
-DOMAIN-SUFFIX,sgpstatp.com
 DOMAIN-SUFFIX,shadowsocks.org
 DOMAIN-SUFFIX,shadowverse.jp
 DOMAIN-SUFFIX,shutterstock.com
@@ -671,7 +671,6 @@ DOMAIN-SUFFIX,thepiratebay.org
 DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,theverge.com
 DOMAIN-SUFFIX,thewgo.org
-DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,time.com
 DOMAIN-SUFFIX,timeinc.net
 DOMAIN-SUFFIX,tinder.com
@@ -829,6 +828,7 @@ DOMAIN-SUFFIX,wsj.com
 DOMAIN-SUFFIX,wsj.net
 DOMAIN-SUFFIX,wwitv.com
 DOMAIN-SUFFIX,x.co
+DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,xanga.com
 DOMAIN-SUFFIX,xclient.info
 DOMAIN-SUFFIX,xda-developers.com
@@ -843,6 +843,7 @@ DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,yadi.sk
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,yahooapis.com
+DOMAIN-SUFFIX,yandex.com
 DOMAIN-SUFFIX,yandex.ru
 DOMAIN-SUFFIX,yasni.co.uk
 DOMAIN-SUFFIX,yastatic.net
@@ -883,20 +884,16 @@ DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,paypal
 DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,whatsapp
 IP-CIDR,1.201.0.0/24,no-resolve
-IP-CIDR,101.32.118.0/23,no-resolve
-IP-CIDR,101.32.96.0/20,no-resolve
 IP-CIDR,103.2.28.0/22,no-resolve
 IP-CIDR,103.246.56.0/22,no-resolve
 IP-CIDR,103.27.148.0/22,no-resolve
@@ -919,7 +916,6 @@ IP-CIDR,125.6.146.0/24,no-resolve
 IP-CIDR,125.6.149.0/24,no-resolve
 IP-CIDR,125.6.190.0/24,no-resolve
 IP-CIDR,129.134.0.0/17,no-resolve
-IP-CIDR,129.226.0.0/16,no-resolve
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve

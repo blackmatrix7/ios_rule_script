@@ -1,20 +1,21 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-04-29 13:34:27
-# DOMAIN: 28
-# DOMAIN-KEYWORD: 25
-# DOMAIN-SUFFIX: 1255
+# UPDATED: 2025-06-06 09:16:53
+# DOMAIN: 35
+# DOMAIN-KEYWORD: 26
+# DOMAIN-SUFFIX: 1270
 # IP-CIDR: 918
 # IP-CIDR6: 6
 # PROCESS-NAME: 3
-# TOTAL: 2235
+# TOTAL: 2258
 payload:
-  - DOMAIN-KEYWORD,-spotify-
   - DOMAIN-KEYWORD,abematv.akamaized.net
+  - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN-KEYWORD,bbcfmt
+  - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,discovery.uplynk.com
   - DOMAIN-KEYWORD,dualstack.apiproxy-
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-
@@ -28,7 +29,7 @@ payload:
   - DOMAIN-KEYWORD,nowtv100
   - DOMAIN-KEYWORD,olevod
   - DOMAIN-KEYWORD,rthklive
-  - DOMAIN-KEYWORD,spotify.com
+  - DOMAIN-KEYWORD,spotify
   - DOMAIN-KEYWORD,tiktokcdn
   - DOMAIN-KEYWORD,ttvnw
   - DOMAIN-KEYWORD,tvbanywhere

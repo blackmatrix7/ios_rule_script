@@ -1,22 +1,24 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-04-29 13:34:36
-# DOMAIN: 15
+# UPDATED: 2025-06-06 09:17:02
+# DOMAIN: 17
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3674
+# DOMAIN-SUFFIX: 3676
 # IP-CIDR: 17
 # IP-CIDR6: 4
-# TOTAL: 3719
+# TOTAL: 3723
 payload:
   - 'analytics.strava.com'
   - 'blzddist1-a.akamaihd.net'
   - 'cdn.angruo.com'
   - 'client.amplifi.com'
   - 'download.jetbrains.com'
+  - 'download.microsoft.com'
   - 'images-cn.ssl-images-amazon.com'
   - 'ip.istatmenus.app'
   - 'kc.kexinshe.com'
+  - 'ntservicepack.microsoft.com'
   - 'origin-a.akamaihd.ne'
   - 'origin-a.akamaihd.net'
   - 'sms.imagetasks.com'
@@ -312,7 +314,6 @@ payload:
   - '+.acctdns.net'
   - '+.acetaffy.club'
   - '+.acfun.tv'
-  - '+.acg.rip'
   - '+.acg.tv'
   - '+.acgvideo.com'
   - '+.acm.org'
@@ -613,11 +614,11 @@ payload:
   - '+.bohejiasuqi.com'
   - '+.bojianger.com'
   - '+.bokecc.com'
-  - '+.booking.com'
   - '+.boosj.com'
   - '+.bootcdn.net'
   - '+.bootcss.com'
   - '+.bosera.com'
+  - '+.bosszhipin.com'
   - '+.broadcasthe.net'
   - '+.browserleaks.com'
   - '+.bstatic.com'
@@ -1159,6 +1160,8 @@ payload:
   - '+.diyiyou.com'
   - '+.dj99.com'
   - '+.dl-vip.pcfaster.baidu.co.th'
+  - '+.dl.delivery.mp.microsoft.com'
+  - '+.dler.cloud'
   - '+.dlgslb.net'
   - '+.dlnel.com'
   - '+.dlnel.org'
@@ -1544,7 +1547,6 @@ payload:
   - '+.hdcmct.org'
   - '+.hddolby.com'
   - '+.hdhome.org'
-  - '+.hdsky.me'
   - '+.hdslb.com'
   - '+.hdslb.org'
   - '+.hdyxgame.com'
@@ -1566,6 +1568,7 @@ payload:
   - '+.heytapdownload.com'
   - '+.heytapimage.com'
   - '+.heytapmobi.com'
+  - '+.heytea-co.com'
   - '+.heytea.com'
   - '+.hftfund.com'
   - '+.hhtravel.com'
@@ -1790,12 +1793,12 @@ payload:
   - '+.ip138.com'
   - '+.ipanda.com'
   - '+.ipanda.net'
+  - '+.ipapark.com'
   - '+.ipinyou.com'
   - '+.ipip.net'
   - '+.ipplus360.com'
   - '+.iprdp.net'
   - '+.ipssh.net'
-  - '+.ipv6-test.com'
   - '+.iq.com'
   - '+.iqiyi.com'
   - '+.iqiyipic.com'
@@ -2217,6 +2220,8 @@ payload:
   - '+.lsplayer.com'
   - '+.lu.com'
   - '+.lucifr.com'
+  - '+.luckincdn.com'
+  - '+.luckincoffee.com'
   - '+.luckincoffeecdn.com'
   - '+.luckyair.net'
   - '+.ludashi.com'
@@ -2312,7 +2317,6 @@ payload:
   - '+.miaopai.com'
   - '+.miaostreet.com'
   - '+.miaozhen.com'
-  - '+.microsoft.com'
   - '+.microsoftonline.com'
   - '+.midasbuy.com'
   - '+.miercn.com'
@@ -2385,7 +2389,6 @@ payload:
   - '+.mukewang.com'
   - '+.mumayi.com'
   - '+.muomou.com'
-  - '+.musical.ly'
   - '+.muwai.com'
   - '+.muyewx.com'
   - '+.muzhiwan.com'
@@ -3036,8 +3039,6 @@ payload:
   - '+.tenpay.com'
   - '+.tenxcloud.com'
   - '+.test-cignacmb.com'
-  - '+.test-ipv4.com'
-  - '+.test-ipv6.com'
   - '+.testwaf.com'
   - '+.texasholdemcup.com'
   - '+.texasholdemcup.net'
@@ -3212,6 +3213,7 @@ payload:
   - '+.upai.com'
   - '+.upaiyun.com'
   - '+.upcdn.net'
+  - '+.update.microsoft.com'
   - '+.upe.net'
   - '+.upyun.com'
   - '+.urselect.com'
@@ -3333,6 +3335,7 @@ payload:
   - '+.windows10zj.com'
   - '+.windows7en.com'
   - '+.windowsupdate.com'
+  - '+.windowsupdate.microsoft.com'
   - '+.windowszj.com'
   - '+.winegame.net'
   - '+.winwin7.com'
@@ -3559,6 +3562,7 @@ payload:
   - '+.ypppt.com'
   - '+.yqb.com'
   - '+.yrz.name'
+  - '+.ysepay.com'
   - '+.yslyhr.com'
   - '+.ysten.com'
   - '+.ytzq.com'

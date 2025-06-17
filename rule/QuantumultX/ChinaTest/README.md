@@ -12,19 +12,19 @@ ChinaTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-05-20 02:11:43
+最后更新时间：2025-06-16 02:08:05
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 104  | 
+| HOST | 97  | 
 | HOST-KEYWORD | 9  | 
-| HOST-SUFFIX | 74827  | 
+| HOST-SUFFIX | 120839  | 
 | HOST-WILDCARD | 1  | 
 | IP-CIDR | 11  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 31  | 
-| TOTAL | 74987  | 
+| TOTAL | 120992  | 
 
 
 ## QuantumultX 
@@ -74,8 +74,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《ChinaTest》的数据来自以下链接，如与本项目的《ChinaTest》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/CN.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/China/China.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list

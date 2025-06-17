@@ -12,15 +12,16 @@
 
 ## 规则统计
 
-最后更新时间：2024-05-08 02:09:45
+最后更新时间：2025-06-06 09:15:07
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 19  | 
-| DOMAIN-SUFFIX | 37329  | 
-| IP-CIDR | 9  | 
-| TOTAL | 37357  | 
+| DOMAIN-KEYWORD | 9  | 
+| DOMAIN-SUFFIX | 39575  | 
+| IP-CIDR | 11  | 
+| TOTAL | 39614  | 
 
 
 ## Clash 
@@ -94,7 +95,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《隐私保护》的数据来自以下链接，如与本项目的《隐私保护》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
 
 

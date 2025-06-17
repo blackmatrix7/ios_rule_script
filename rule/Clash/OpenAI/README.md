@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN与DOMAIN--KEYWORD合并-9cf) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
+![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
 OpenAI规则由《RULE GENERATOR 规则生成器》自动生成。
 
@@ -12,17 +12,17 @@ OpenAI规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:37:08
+最后更新时间：2025-06-06 09:20:00
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 2  | 
+| DOMAIN | 7  | 
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 21  | 
+| DOMAIN-SUFFIX | 24  | 
 | IP-ASN | 1  | 
 | IP-CIDR | 2  | 
-| TOTAL | 27  | 
+| TOTAL | 35  | 
 
 
 ## Clash 
@@ -71,10 +71,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OpenAi.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/OpenAi.list
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/OpenAi.yaml
-- https://ruleset.isagood.day/openai.conf
-- https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

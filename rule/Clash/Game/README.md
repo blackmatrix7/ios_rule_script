@@ -15,16 +15,16 @@
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:32:54
+最后更新时间：2025-06-06 09:15:08
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 9  | 
+| DOMAIN | 8  | 
 | DOMAIN-KEYWORD | 4  | 
-| DOMAIN-SUFFIX | 524  | 
+| DOMAIN-SUFFIX | 539  | 
 | IP-CIDR | 46  | 
-| TOTAL | 583  | 
+| TOTAL | 597  | 
 
 
 ## Clash 
@@ -80,7 +80,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/GamesAll.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Blizzard.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Steam.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Rockstar/Rockstar.list
@@ -101,18 +100,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/UBI.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Xbox.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Garena.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Blizzard/Battle.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Blizzard/Classic.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Blizzard/Diablo-III.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Blizzard/Hearthstone.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Blizzard/Heroes-of-the-Storm.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Blizzard/Overwatch.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Blizzard/StarCraft-II.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Blizzard/World-of-Warcraft.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Nintendo.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Supercell.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/WildRift.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Xbox.list
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Garena.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Blizzard.list
@@ -125,7 +112,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xbox.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Nintendo.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list
-- https://ruleset.isagood.day/global_game.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

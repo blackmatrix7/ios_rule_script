@@ -21,18 +21,18 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-05-10 02:11:25
+最后更新时间：2025-06-16 02:07:45
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 484  | 
-| HOST-KEYWORD | 37  | 
-| HOST-SUFFIX | 24700  | 
+| HOST | 597  | 
+| HOST-KEYWORD | 36  | 
+| HOST-SUFFIX | 31606  | 
 | IP-CIDR | 112  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 46  | 
-| TOTAL | 25383  | 
+| TOTAL | 32401  | 
 
 
 ## QuantumultX 
@@ -82,8 +82,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《Global》的数据来自以下链接，如与本项目的《Global》规则混合使用，可能会造成规则大量重复。
 
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/Global.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
@@ -98,8 +96,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
-- https://ruleset.isagood.day/global.conf
-- https://ruleset.isagood.day/global_domain.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

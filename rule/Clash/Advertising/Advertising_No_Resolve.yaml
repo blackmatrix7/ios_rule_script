@@ -1,18 +1,20 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-05-22 02:08:25
-# DOMAIN: 16393
-# DOMAIN-KEYWORD: 278
-# DOMAIN-SUFFIX: 133342
-# IP-CIDR: 447
-# IP-CIDR6: 1
-# TOTAL: 150461
+# UPDATED: 2025-06-16 02:04:24
+# DOMAIN: 16420
+# DOMAIN-KEYWORD: 277
+# DOMAIN-SUFFIX: 168299
+# IP-CIDR: 485
+# IP-CIDR6: 3
+# TOTAL: 185484
 payload:
   - DOMAIN-KEYWORD,-logging.nextmedia.com
+  - DOMAIN-KEYWORD,-rtb.gravite.net
   - DOMAIN-KEYWORD,-s2s.sensic.net
   - DOMAIN-KEYWORD,-spiky.clevertap-prod.com
   - DOMAIN-KEYWORD,-tracker.biliapi.net
+  - DOMAIN-KEYWORD,-txtagstore
   - DOMAIN-KEYWORD,.engage.3m.
   - DOMAIN-KEYWORD,.estream.
   - DOMAIN-KEYWORD,.freecontent.
@@ -20,6 +22,8 @@ payload:
   - DOMAIN-KEYWORD,.nimiq.
   - DOMAIN-KEYWORD,.zooplus.
   - DOMAIN-KEYWORD,_vmind.qqvideo.tc.qq.com
+  - DOMAIN-KEYWORD,a8clk.
+  - DOMAIN-KEYWORD,a8cv.
   - DOMAIN-KEYWORD,ad.ixigua.com
   - DOMAIN-KEYWORD,adjust.
   - DOMAIN-KEYWORD,adktrack
@@ -37,10 +41,15 @@ payload:
   - DOMAIN-KEYWORD,advert
   - DOMAIN-KEYWORD,allyes
   - DOMAIN-KEYWORD,analysys
+  - DOMAIN-KEYWORD,analytics-cdn.
   - DOMAIN-KEYWORD,anybest.
+  - DOMAIN-KEYWORD,backstory.ebay.
+  - DOMAIN-KEYWORD,click.rum.
+  - DOMAIN-KEYWORD,cmpworker.
   - DOMAIN-KEYWORD,cp-home-pl-
   - DOMAIN-KEYWORD,crashlytics
   - DOMAIN-KEYWORD,dat8
+  - DOMAIN-KEYWORD,dc.pimentaafricana
   - DOMAIN-KEYWORD,dnserror
   - DOMAIN-KEYWORD,doubleclick.
   - DOMAIN-KEYWORD,dubester.
@@ -54,6 +63,7 @@ payload:
   - DOMAIN-KEYWORD,googleads
   - DOMAIN-KEYWORD,hostingcloud
   - DOMAIN-KEYWORD,inmobi
+  - DOMAIN-KEYWORD,insights-collector.
   - DOMAIN-KEYWORD,jads
   - DOMAIN-KEYWORD,jshosting
   - DOMAIN-KEYWORD,marketing.net
@@ -62,41 +72,40 @@ payload:
   - DOMAIN-KEYWORD,nbsdk-baichuan
   - DOMAIN-KEYWORD,nimiqpool
   - DOMAIN-KEYWORD,pancakeswap
+  - DOMAIN-KEYWORD,plausible.
   - DOMAIN-KEYWORD,securepubads
-  - DOMAIN-KEYWORD,smetrics.marketing.
+  - DOMAIN-KEYWORD,smetrics.
   - DOMAIN-KEYWORD,sunnimiq
   - DOMAIN-KEYWORD,taboola
   - DOMAIN-KEYWORD,telemetry.officeapps.live.com
+  - DOMAIN-KEYWORD,thetollroads-
+  - DOMAIN-KEYWORD,track.msadcenter
+  - DOMAIN-KEYWORD,track.opentable.
   - DOMAIN-KEYWORD,track.tiara
+  - DOMAIN-KEYWORD,trkcmb.business.hsbc.
+  - DOMAIN-KEYWORD,trkgbm.business.hsbc.
+  - DOMAIN-KEYWORD,trkhinv.business.hsbc.
+  - DOMAIN-KEYWORD,trksvg.business.hsbc.
   - DOMAIN-KEYWORD,uedas
-  - DOMAIN-KEYWORD,umeng
   - DOMAIN-KEYWORD,umtrack
   - DOMAIN-KEYWORD,wxsnsdy
   - DOMAIN-KEYWORD,zymerget
-  - DOMAIN-KEYWORD,-tos.pstatp.com
   - DOMAIN-KEYWORD,112wan
   - DOMAIN-KEYWORD,789htbet
   - DOMAIN-KEYWORD,a.9game.cn
   - DOMAIN-KEYWORD,a.wkanx.com
   - DOMAIN-KEYWORD,a3.bytecdn.cn
   - DOMAIN-KEYWORD,a3.pstatp.com
-  - DOMAIN-KEYWORD,ad-sign.byteimg.com
   - DOMAIN-KEYWORD,ad.api.moji.com
   - DOMAIN-KEYWORD,ad.ihuman.com
   - DOMAIN-KEYWORD,ad.toutiao.com
-  - DOMAIN-KEYWORD,ad.weibo.com
   - DOMAIN-KEYWORD,adash.man.aliyuncs.com
   - DOMAIN-KEYWORD,adform
-  - DOMAIN-KEYWORD,adimg.uve.weibo.com
-  - DOMAIN-KEYWORD,adimg.vue.weibo.com
   - DOMAIN-KEYWORD,adm3.autoimg.cn
   - DOMAIN-KEYWORD,admarvel
   - DOMAIN-KEYWORD,admaster
   - DOMAIN-KEYWORD,adp.atm.youku.com
   - DOMAIN-KEYWORD,adproxy.autohome.com
-  - DOMAIN-KEYWORD,ads-d.viber.com
-  - DOMAIN-KEYWORD,ads.aws.viber.com
-  - DOMAIN-KEYWORD,ads.viber.com
   - DOMAIN-KEYWORD,adsage
   - DOMAIN-KEYWORD,adsensor
   - DOMAIN-KEYWORD,adservice
@@ -116,7 +125,6 @@ payload:
   - DOMAIN-KEYWORD,apiinit.amap.com
   - DOMAIN-KEYWORD,apimg.qunliao.info
   - DOMAIN-KEYWORD,app.51y5.net
-  - DOMAIN-KEYWORD,applog.uc.cn
   - DOMAIN-KEYWORD,applogapi.autohome.com
   - DOMAIN-KEYWORD,applovin
   - DOMAIN-KEYWORD,appsflyer
@@ -125,7 +133,6 @@ payload:
   - DOMAIN-KEYWORD,av1.xdrig.com
   - DOMAIN-KEYWORD,bds.snssdk.com
   - DOMAIN-KEYWORD,bdsp.x.jd.com
-  - DOMAIN-KEYWORD,biz.weibo.com
   - DOMAIN-KEYWORD,bj.imp.voiceads.cn
   - DOMAIN-KEYWORD,bngpt
   - DOMAIN-KEYWORD,bongacash
@@ -137,7 +144,6 @@ payload:
   - DOMAIN-KEYWORD,c1img.ali.kugou.com
   - DOMAIN-KEYWORD,caclick.baidu.com
   - DOMAIN-KEYWORD,cds.51y5.net
-  - DOMAIN-KEYWORD,click.uve.weibo.com
   - DOMAIN-KEYWORD,client-dmp.suishenyun.cn
   - DOMAIN-KEYWORD,clk.gentags.net
   - DOMAIN-KEYWORD,cm-10-134.getui.com
@@ -153,8 +159,6 @@ payload:
   - DOMAIN-KEYWORD,dm.pstatp.com
   - DOMAIN-KEYWORD,dm.toutiao.com
   - DOMAIN-KEYWORD,domob
-  - DOMAIN-KEYWORD,dp.im.weibo.cn
-  - DOMAIN-KEYWORD,dsp.edm.weibo.cn
   - DOMAIN-KEYWORD,dtscout
   - DOMAIN-KEYWORD,duomeng
   - DOMAIN-KEYWORD,dwtrack
@@ -164,15 +168,10 @@ payload:
   - DOMAIN-KEYWORD,exosrv
   - DOMAIN-KEYWORD,extlog.snssdk.com
   - DOMAIN-KEYWORD,fans.m.tmall.com
-  - DOMAIN-KEYWORD,fastimage.uve.weibo.com
   - DOMAIN-KEYWORD,fc-video.cdn.bcebos.com
   - DOMAIN-KEYWORD,fds.api.moji.com
-  - DOMAIN-KEYWORD,game.weibo.cn
-  - DOMAIN-KEYWORD,game.weibo.com
   - DOMAIN-KEYWORD,greenplasticdua
   - DOMAIN-KEYWORD,guanggao
-  - DOMAIN-KEYWORD,gw5.push.mcp.weibo.cn
-  - DOMAIN-KEYWORD,gw6.push.mcp.weibo.cn
   - DOMAIN-KEYWORD,haowanyou
   - DOMAIN-KEYWORD,highwebmedia
   - DOMAIN-KEYWORD,histats
@@ -225,7 +224,6 @@ payload:
   - DOMAIN-KEYWORD,p6-pack.byteimg.com
   - DOMAIN-KEYWORD,pagespeed-mod
   - DOMAIN-KEYWORD,pangolin-sdk-toutiao
-  - DOMAIN-KEYWORD,pangolin.snssdk.com
   - DOMAIN-KEYWORD,paradisestatic.vivo.com.cn
   - DOMAIN-KEYWORD,partnerad
   - DOMAIN-KEYWORD,pc.suishenyun.net
@@ -233,7 +231,6 @@ payload:
   - DOMAIN-KEYWORD,pglstatp-toutiao
   - DOMAIN-KEYWORD,pingfore
   - DOMAIN-KEYWORD,policy.jd.com
-  - DOMAIN-KEYWORD,promote.biz.weibo.cn
   - DOMAIN-KEYWORD,puds.ucweb.com
   - DOMAIN-KEYWORD,r1.ykimg.com
   - DOMAIN-KEYWORD,rescn.u3.ucweb.com
@@ -246,7 +243,6 @@ payload:
   - DOMAIN-KEYWORD,s3a.pstatp.com
   - DOMAIN-KEYWORD,sdfp.snssdk.com
   - DOMAIN-KEYWORD,sdk.open.talk.getui.com
-  - DOMAIN-KEYWORD,sdkapp.uve.weibo.com
   - DOMAIN-KEYWORD,searchrecommend.kugou.com
   - DOMAIN-KEYWORD,server.m.pp.cn
   - DOMAIN-KEYWORD,socdm
@@ -263,22 +259,17 @@ payload:
   - DOMAIN-KEYWORD,tracker.kugou.com
   - DOMAIN-KEYWORD,trackercdnbj.kugou.com
   - DOMAIN-KEYWORD,trwl1
-  - DOMAIN-KEYWORD,tui.weibo.com
   - DOMAIN-KEYWORD,tunion-api.m.taobao.com
+  - DOMAIN-KEYWORD,umeng
   - DOMAIN-KEYWORD,utp-dmp.ucweb.com
   - DOMAIN-KEYWORD,utp.ucweb.com
   - DOMAIN-KEYWORD,v0-client-lz.rili.cn
   - DOMAIN-KEYWORD,v1.log.moji.com
   - DOMAIN-KEYWORD,v2.reachmax.cn
   - DOMAIN-KEYWORD,val.atm.youku.com
-  - DOMAIN-KEYWORD,video-cn.snssdk.com
   - DOMAIN-KEYWORD,vidoza
   - DOMAIN-KEYWORD,vs10.bj2ct.u3.ucweb.com
-  - DOMAIN-KEYWORD,wax.weibo.com
-  - DOMAIN-KEYWORD,wbapp.uve.weibo.com
-  - DOMAIN-KEYWORD,weibomingzi.com
   - DOMAIN-KEYWORD,wgo.mmstat.com
-  - DOMAIN-KEYWORD,widget.weibo.com
   - DOMAIN-KEYWORD,wixsite.com
   - DOMAIN-KEYWORD,wlmonitor
   - DOMAIN-KEYWORD,www.qmlog.cn
@@ -286,8 +277,16 @@ payload:
   - DOMAIN-KEYWORD,xxshuyuan
   - DOMAIN-KEYWORD,ynuf.alipay.com
   - DOMAIN-KEYWORD,zjtoolbar
-  - DOMAIN-KEYWORD,zymo.mps.weibo.com
-  - IP-CIDR,0.0.0.1/32,no-resolve
+  - DOMAIN-KEYWORD,analytics.
+  - DOMAIN-KEYWORD,app-analytics
+  - DOMAIN-KEYWORD,app-log.
+  - DOMAIN-KEYWORD,applog.
+  - DOMAIN-KEYWORD,fzlm
+  - DOMAIN-KEYWORD,ios-log.
+  - DOMAIN-KEYWORD,ioslog.
+  - DOMAIN-KEYWORD,pc-log.
+  - DOMAIN-KEYWORD,pclog.
+  - IP-CIDR,0.0.0.0/24,no-resolve
   - IP-CIDR,1.3.0.10/32,no-resolve
   - IP-CIDR,10.72.25.0/24,no-resolve
   - IP-CIDR,101.124.19.122/32,no-resolve
@@ -296,9 +295,12 @@ payload:
   - IP-CIDR,101.227.200.0/24,no-resolve
   - IP-CIDR,101.227.97.240/32,no-resolve
   - IP-CIDR,101.251.211.235/32,no-resolve
+  - IP-CIDR,101.35.204.35/32,no-resolve
   - IP-CIDR,101.36.166.16/32,no-resolve
   - IP-CIDR,103.21.91.144/32,no-resolve
+  - IP-CIDR,103.224.222.208/32,no-resolve
   - IP-CIDR,103.249.254.113/32,no-resolve
+  - IP-CIDR,103.37.152.97/32,no-resolve
   - IP-CIDR,103.49.209.27/32,no-resolve
   - IP-CIDR,103.71.154.76/32,no-resolve
   - IP-CIDR,103.75.152.210/32,no-resolve
@@ -310,6 +312,7 @@ payload:
   - IP-CIDR,104.203.72.254/32,no-resolve
   - IP-CIDR,104.233.177.93/32,no-resolve
   - IP-CIDR,104.239.213.7/32,no-resolve
+  - IP-CIDR,106.11.25.31/32,no-resolve
   - IP-CIDR,106.187.95.251/32,no-resolve
   - IP-CIDR,106.75.231.48/32,no-resolve
   - IP-CIDR,106.75.65.90/32,no-resolve
@@ -338,6 +341,7 @@ payload:
   - IP-CIDR,113.12.83.4/31,no-resolve
   - IP-CIDR,113.207.57.24/32,no-resolve
   - IP-CIDR,113.57.230.88/32,no-resolve
+  - IP-CIDR,114.110.97.97/32,no-resolve
   - IP-CIDR,114.112.163.232/32,no-resolve
   - IP-CIDR,114.112.163.254/32,no-resolve
   - IP-CIDR,114.119.160.0/21,no-resolve
@@ -345,6 +349,8 @@ payload:
   - IP-CIDR,114.55.123.44/32,no-resolve
   - IP-CIDR,114.95.102.77/32,no-resolve
   - IP-CIDR,115.182.16.79/32,no-resolve
+  - IP-CIDR,115.236.121.195/32,no-resolve
+  - IP-CIDR,115.236.121.51/32,no-resolve
   - IP-CIDR,115.29.141.121/32,no-resolve
   - IP-CIDR,115.29.247.48/32,no-resolve
   - IP-CIDR,116.206.22.7/32,no-resolve
@@ -363,6 +369,7 @@ payload:
   - IP-CIDR,119.18.193.135/32,no-resolve
   - IP-CIDR,119.188.13.0/24,no-resolve
   - IP-CIDR,119.29.207.87/32,no-resolve
+  - IP-CIDR,119.29.29.98/31,no-resolve
   - IP-CIDR,119.4.249.166/32,no-resolve
   - IP-CIDR,120.132.57.41/32,no-resolve
   - IP-CIDR,120.132.63.203/32,no-resolve
@@ -370,15 +377,14 @@ payload:
   - IP-CIDR,120.197.89.239/32,no-resolve
   - IP-CIDR,120.198.116.0/24,no-resolve
   - IP-CIDR,120.209.138.64/32,no-resolve
+  - IP-CIDR,120.222.240.171/32,no-resolve
   - IP-CIDR,120.240.95.37/32,no-resolve
   - IP-CIDR,120.26.151.246/32,no-resolve
-  - IP-CIDR,120.27.235.201/32,no-resolve
   - IP-CIDR,120.27.34.156/32,no-resolve
   - IP-CIDR,120.55.199.139/32,no-resolve
   - IP-CIDR,120.76.189.132/32,no-resolve
   - IP-CIDR,120.80.57.123/32,no-resolve
   - IP-CIDR,121.15.207.243/32,no-resolve
-  - IP-CIDR,121.196.197.147/32,no-resolve
   - IP-CIDR,121.199.73.185/32,no-resolve
   - IP-CIDR,121.201.108.2/32,no-resolve
   - IP-CIDR,121.201.11.95/32,no-resolve
@@ -399,6 +405,7 @@ payload:
   - IP-CIDR,123.129.254.11/32,no-resolve
   - IP-CIDR,123.129.254.12/30,no-resolve
   - IP-CIDR,123.129.254.16/30,no-resolve
+  - IP-CIDR,123.151.54.50/32,no-resolve
   - IP-CIDR,123.56.152.96/32,no-resolve
   - IP-CIDR,123.57.162.39/32,no-resolve
   - IP-CIDR,123.57.94.184/32,no-resolve
@@ -446,6 +453,8 @@ payload:
   - IP-CIDR,154.7.80.158/32,no-resolve
   - IP-CIDR,156.232.37.2/32,no-resolve
   - IP-CIDR,156.246.162.2/32,no-resolve
+  - IP-CIDR,157.148.47.204/32,no-resolve
+  - IP-CIDR,157.90.183.248/32,no-resolve
   - IP-CIDR,158.247.208.115/32,no-resolve
   - IP-CIDR,162.212.181.32/32,no-resolve
   - IP-CIDR,162.252.214.4/32,no-resolve
@@ -453,7 +462,9 @@ payload:
   - IP-CIDR,163.197.167.236/32,no-resolve
   - IP-CIDR,164.155.185.254/32,no-resolve
   - IP-CIDR,167.206.10.148/32,no-resolve
+  - IP-CIDR,167.71.252.38/32,no-resolve
   - IP-CIDR,167.99.31.227/32,no-resolve
+  - IP-CIDR,169.254.169.254/32,no-resolve
   - IP-CIDR,172.121.4.251/32,no-resolve
   - IP-CIDR,172.121.4.252/32,no-resolve
   - IP-CIDR,172.255.103.118/32,no-resolve
@@ -482,6 +493,8 @@ payload:
   - IP-CIDR,180.76.172.149/32,no-resolve
   - IP-CIDR,180.76.181.213/32,no-resolve
   - IP-CIDR,180.96.2.114/32,no-resolve
+  - IP-CIDR,182.254.116.117/32,no-resolve
+  - IP-CIDR,182.254.118.119/32,no-resolve
   - IP-CIDR,182.92.81.104/32,no-resolve
   - IP-CIDR,183.131.79.130/32,no-resolve
   - IP-CIDR,183.131.79.30/32,no-resolve
@@ -490,6 +503,7 @@ payload:
   - IP-CIDR,183.221.250.11/32,no-resolve
   - IP-CIDR,183.224.40.24/32,no-resolve
   - IP-CIDR,183.59.53.237/32,no-resolve
+  - IP-CIDR,185.149.120.173/32,no-resolve
   - IP-CIDR,185.165.169.108/32,no-resolve
   - IP-CIDR,185.193.38.148/32,no-resolve
   - IP-CIDR,188.42.84.110/32,no-resolve
@@ -500,6 +514,7 @@ payload:
   - IP-CIDR,188.42.84.21/32,no-resolve
   - IP-CIDR,188.42.84.23/32,no-resolve
   - IP-CIDR,188.89.204.198/32,no-resolve
+  - IP-CIDR,194.26.232.61/32,no-resolve
   - IP-CIDR,194.59.220.161/32,no-resolve
   - IP-CIDR,198.105.254.11/32,no-resolve
   - IP-CIDR,198.40.52.11/32,no-resolve
@@ -512,15 +527,19 @@ payload:
   - IP-CIDR,202.106.199.34/31,no-resolve
   - IP-CIDR,202.106.199.36/31,no-resolve
   - IP-CIDR,202.106.199.38/32,no-resolve
+  - IP-CIDR,202.90.108.13/32,no-resolve
+  - IP-CIDR,202.90.110.46/32,no-resolve
   - IP-CIDR,202.98.24.121/32,no-resolve
   - IP-CIDR,202.98.24.122/31,no-resolve
   - IP-CIDR,202.98.24.124/31,no-resolve
   - IP-CIDR,202.99.254.230/31,no-resolve
   - IP-CIDR,202.99.254.232/32,no-resolve
-  - IP-CIDR,203.107.1.65/32,no-resolve
+  - IP-CIDR,203.107.1.0/24,no-resolve
   - IP-CIDR,203.107.63.154/32,no-resolve
+  - IP-CIDR,203.119.204.66/32,no-resolve
   - IP-CIDR,203.119.206.64/32,no-resolve
   - IP-CIDR,203.119.211.219/32,no-resolve
+  - IP-CIDR,203.119.238.194/32,no-resolve
   - IP-CIDR,203.195.121.0/31,no-resolve
   - IP-CIDR,203.195.121.103/32,no-resolve
   - IP-CIDR,203.195.121.11/32,no-resolve
@@ -559,6 +578,7 @@ payload:
   - IP-CIDR,211.167.105.131/32,no-resolve
   - IP-CIDR,211.98.70.226/31,no-resolve
   - IP-CIDR,211.98.71.195/32,no-resolve
+  - IP-CIDR,212.117.186.252/32,no-resolve
   - IP-CIDR,213.232.113.250/32,no-resolve
   - IP-CIDR,216.172.154.226/32,no-resolve
   - IP-CIDR,218.25.246.118/32,no-resolve
@@ -571,6 +591,7 @@ payload:
   - IP-CIDR,218.68.250.120/31,no-resolve
   - IP-CIDR,218.93.127.37/32,no-resolve
   - IP-CIDR,218.94.207.205/32,no-resolve
+  - IP-CIDR,219.143.187.136/32,no-resolve
   - IP-CIDR,219.146.13.36/32,no-resolve
   - IP-CIDR,219.234.83.60/32,no-resolve
   - IP-CIDR,220.115.251.25/32,no-resolve
@@ -612,6 +633,7 @@ payload:
   - IP-CIDR,222.221.5.204/32,no-resolve
   - IP-CIDR,222.221.5.252/31,no-resolve
   - IP-CIDR,222.73.156.235/32,no-resolve
+  - IP-CIDR,223.111.27.248/32,no-resolve
   - IP-CIDR,223.6.255.99/32,no-resolve
   - IP-CIDR,223.82.248.117/32,no-resolve
   - IP-CIDR,223.87.176.139/32,no-resolve
@@ -626,10 +648,15 @@ payload:
   - IP-CIDR,223.87.182.102/32,no-resolve
   - IP-CIDR,223.87.182.11/32,no-resolve
   - IP-CIDR,223.87.182.52/32,no-resolve
+  - IP-CIDR,23.109.121.125/32,no-resolve
+  - IP-CIDR,23.109.121.254/32,no-resolve
   - IP-CIDR,23.109.150.208/32,no-resolve
   - IP-CIDR,23.109.150.253/32,no-resolve
   - IP-CIDR,23.109.170.212/32,no-resolve
   - IP-CIDR,23.109.170.228/32,no-resolve
+  - IP-CIDR,23.109.170.241/32,no-resolve
+  - IP-CIDR,23.109.170.255/32,no-resolve
+  - IP-CIDR,23.109.170.60/32,no-resolve
   - IP-CIDR,23.109.248.125/32,no-resolve
   - IP-CIDR,23.109.248.129/32,no-resolve
   - IP-CIDR,23.109.248.130/32,no-resolve
@@ -673,6 +700,7 @@ payload:
   - IP-CIDR,23.244.43.212/32,no-resolve
   - IP-CIDR,23.42.186.24/32,no-resolve
   - IP-CIDR,23.66.147.48/32,no-resolve
+  - IP-CIDR,23.83.67.164/32,no-resolve
   - IP-CIDR,23.89.50.180/32,no-resolve
   - IP-CIDR,23.91.3.114/32,no-resolve
   - IP-CIDR,27.255.67.120/32,no-resolve
@@ -683,9 +711,16 @@ payload:
   - IP-CIDR,35.232.188.118/32,no-resolve
   - IP-CIDR,35.239.57.233/32,no-resolve
   - IP-CIDR,37.1.209.213/32,no-resolve
+  - IP-CIDR,37.1.213.100/32,no-resolve
   - IP-CIDR,39.107.15.115/32,no-resolve
+  - IP-CIDR,39.97.128.148/32,no-resolve
+  - IP-CIDR,39.97.130.51/32,no-resolve
   - IP-CIDR,42.123.125.237/32,no-resolve
+  - IP-CIDR,42.187.182.106/32,no-resolve
+  - IP-CIDR,42.187.182.123/32,no-resolve
+  - IP-CIDR,42.187.184.154/32,no-resolve
   - IP-CIDR,42.51.146.207/32,no-resolve
+  - IP-CIDR,42.81.232.18/32,no-resolve
   - IP-CIDR,44.228.85.26/32,no-resolve
   - IP-CIDR,45.32.105.134/32,no-resolve
   - IP-CIDR,45.34.240.72/32,no-resolve
@@ -697,13 +732,15 @@ payload:
   - IP-CIDR,47.93.103.196/32,no-resolve
   - IP-CIDR,47.94.89.32/32,no-resolve
   - IP-CIDR,47.96.162.122/32,no-resolve
-  - IP-CIDR,47.97.215.55/32,no-resolve
-  - IP-CIDR,47.99.42.29/32,no-resolve
   - IP-CIDR,49.71.37.101/32,no-resolve
+  - IP-CIDR,5.61.55.143/32,no-resolve
   - IP-CIDR,51.77.227.96/29,no-resolve
   - IP-CIDR,51.89.187.136/29,no-resolve
   - IP-CIDR,58.215.179.159/32,no-resolve
   - IP-CIDR,58.221.28.166/32,no-resolve
+  - IP-CIDR,59.111.239.61/32,no-resolve
+  - IP-CIDR,59.111.239.62/32,no-resolve
+  - IP-CIDR,59.82.99.47/32,no-resolve
   - IP-CIDR,60.19.29.21/32,no-resolve
   - IP-CIDR,60.19.29.22/31,no-resolve
   - IP-CIDR,60.19.29.24/30,no-resolve
@@ -734,4 +771,6 @@ payload:
   - IP-CIDR,77.162.125.199/32,no-resolve
   - IP-CIDR,78.140.131.214/32,no-resolve
   - IP-CIDR,88.42.84.136/32,no-resolve
+  - IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,no-resolve
+  - IP-CIDR6,240e:928:1400:10::25/128,no-resolve
   - IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve

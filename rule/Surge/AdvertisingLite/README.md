@@ -15,19 +15,19 @@
 
 ## 规则统计
 
-最后更新时间：2024-05-08 02:07:53
+最后更新时间：2025-06-06 09:12:44
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | AND | 1  | 
-| DOMAIN | 23739  | 
-| DOMAIN-KEYWORD | 216  | 
-| DOMAIN-SUFFIX | 13824  | 
-| IP-CIDR | 188  | 
+| DOMAIN | 23751  | 
+| DOMAIN-KEYWORD | 187  | 
+| DOMAIN-SUFFIX | 13927  | 
+| IP-CIDR | 186  | 
 | IP-CIDR6 | 1  | 
 | URL-REGEX | 2  | 
-| TOTAL | 37971  | 
+| TOTAL | 38055  | 
 
 
 ## Surge 
@@ -92,7 +92,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 - https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/Advertising.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
 - https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule

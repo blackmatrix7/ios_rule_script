@@ -1,211 +1,187 @@
-name: 哲也同学
-desc: 人在航母，刚下蒙古
+name: '哲也同学'
+desc: 分享你刚编的故事
+author: 'blackmatrix7'
+openUrl: 'https://apps.apple.com/cn/app/%E7%9F%A5%E4%B9%8E/id432274380'
+homepage: 'https://github.com/blackmatrix7/ios_rule_script'
+icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/script/zheye/zheye.png
+category: 'blackmatrix7'
+date: '2025-06-17 18:03:03'
+version: '3.0.0.0'
+
+rules:
+  # 阻止HTTP DNS
+  - DOMAIN,118.89.204.198,REJECT
+  - DOMAIN,103.41.167.237,REJECT
+  - DOMAIN,2402:4e00:1200:ed00:0:9089:6dac:96b6,REJECT
+  - IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+  - IP-CIDR,103.41.167.237/32,REJECT,no-resolve
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
+  # 其他拦截不影响使用的域名
+  - DOMAIN,mqtt.zhihu.com,REJECT
+  - DOMAIN,sugar.zhihu.com,REJECT
+  - DOMAIN,crash2.zhihu.com,REJECT
+  - DOMAIN,appcloud.zhihu.com,REJECT
+  - DOMAIN,appcloud2.in.zhihu.com,REJECT
+  - DOMAIN,duga.zhihu.com,REJECT
+  - DOMAIN,apm.zhihu.com,REJECT
+
 
 http:
   rewrite:
-    - ^https?:\/\/118\.89\.204\.198 - reject-dict
-    - ^https?:\/\/103\.41\.167\.237 - reject-dict
-    - ^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 - reject-dict
     # 拦截开屏广告
-    - ^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? - reject-dict
-    - ^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? - reject-dict
-    # 拦截品牌提问广告
-    - ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject-dict
-    # 屏蔽我的页面开通会员的卡片
-    # - ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
-    # 拦截品牌提问广告
-    - ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject-dict
-    # 屏蔽下发的配置，如皮肤等
-    - ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject-dict
-    # 去除底部标签页关注人角标
-    - ^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 - reject-dict
+    - ^https?:\/\/api\.zhihu\.com\/commercial_api - reject-dict
+    # 拦截回答下方的广告
+    - ^https?:\/\/api\.zhihu\.com\/commercial_api\/answer/\d+/bottom-v2 - reject-dict
+    # 拦截不影响使用的请求
+    - ^https?:\/\/api\.zhihu\.com\/message-push\/event - reject-dict
+    # 屏蔽 - 付费回答用户营销引导
+    - ^https:\/\/api\.zhihu\.com\/guide_center\/strategy - reject-dict
+    # 屏蔽 - 会员页浮动广告
+    - ^https?:\/\/api\.zhihu\.com\/bazaar\/float_window - reject-dict
+    # 屏蔽 - 数据上报
+    - ^https?:\/\/api\.zhihu.\com\/metrics\/report - reject-dict
+    # 屏蔽 - 疑似通知
+    - ^https?:\/\/api\.zhihu\.com\/settings\/new\/notification - reject-dict
+    # 屏蔽 - 会员相关广告
+    - ^https?:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header - reject-dict
     # 去除消息通知角标
     - ^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count) - reject-dict
-    # 拦截回答下的卡片广告
-    - ^https?:\/\/www\.zhihu\.com\/api\/v\d\/answers\/\d+\/recommendations - reject-dict
+    # 去除推荐页顶部广告
+    - ^https?:\/\/api\.zhihu\.com\/root\/window - reject-dict
     # 拦截应用内弹窗
     - ^https?:\/\/api\.zhihu\.com\/me\/guides - reject-dict
     # 去除关注页最常访问
     - ^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict
     # 拦截推荐页顶部广告
     - ^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config - reject-dict
-    # 底栏加号的广告
-    - ^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings - reject-dict
-    # 推荐页搜索栏左侧图标
-    - ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading - reject-dict
     # 疑似推荐页内容更新红点
-    - ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/tag_config url reject-dict
-    # 去除回答页的相关搜索
-    - ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/search\/related_queries\/answer url reject-dict
-    # 暂不清楚作用
-    - ^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner - reject-dict
-    - ^https?:\/\/api\.zhihu\.com\/ad-style-service\/request - reject-dict
+    - ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/tag_config - reject-dict
+    # 部分推荐页Tab的Banner
+    - ^https?:\/\/api\.zhihu\.com\/content-distribution-core\/sections\/ - reject-dict
+
+  mitm:
+    - www.zhihu.com
+    - api.zhihu.com
+    - zhuanlan.zhihu.com
+    - m-cloud.zhihu.com
+    - page-info.zhihu.com
+    - web-render.zhihu.com
 
   script:
     # 获取用户信息 - 隔离用户数据，开启本地会员等
     - match: ^https?:\/\/api\.zhihu\.com\/people\/
-      name: zheye.js
+      name: 'zheye-script'
       type: response
       require-body: true
-      timeout: 30
-      argument: ''
+      max-size: 0
 
     # 关键词屏蔽 - 解锁本地的关键词屏蔽功能，需要开启本地VIP
     - match: ^https?:\/\/api\.zhihu\.com\/feed-root\/block
-      name: zheye.js
+      name: 'zheye-script'
       type: request
       require-body: true
-      timeout: 30
-      argument: '' 
+      max-size: 0
 
     # 优化软件配置 - 优化下发的配置文件来实现某些效果
-    - match: ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?
-      name: zheye.js
+    - match: ^https?:\/\/api\.zhihu\.com\/root\/tab\/v2
+      name: 'zheye-script'
       type: response
       require-body: true
-      timeout: 30
-      argument: '' 
-    - match: ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config
-      name: zheye.js
-      type: response
-      require-body: true
-      timeout: 30
-      argument: '' 
-    - match: ^https?:\/\/api\.zhihu\.com\/feed\/render\/tab\/config
-      name: zheye.js
-      type: response
-      require-body: true
-      timeout: 30
-      argument: '' 
-
-    # 用户信息 - 修改用户盐值
-    - match: ^https?:\/\/api\.zhihu\.com\/user-credit\/basis
-      name: zheye.js
-      type: response
-      require-body: true
-      timeout: 30
-      argument: '' 
-
-    # 关注页 - 内容优化及屏蔽转发的黑名单用户想法
-    - match: ^https?:\/\/api\.zhihu\.com\/moments_v3\?
-      name: zheye.js
-      type: response
-      require-body: true
-      timeout: 30
-      argument: '' 
+      max-size: 0
 
     # 推荐页 - 移除黑名单用户发布的文章、去除广告，及自定义一些屏蔽项目
-    - match: ^https:\/\/api\.zhihu\.com\/topstory\/recommend
-      name: zheye.js
+    - match: ^https:\/\/(api|web-render)\.zhihu\.com\/topstory\/recommend
+      name: 'zheye-script'
       type: response
       require-body: true
+      max-size: 0
       timeout: 30
-      argument: '' 
 
-    # 黑名单页 - 同步黑名单数据
-    - match: ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users
-      name: zheye.js
+    # 回答列表 - 移除黑名单用户的回答、去除广告
+    - match: ^https:\/\/api\.zhihu\.com\/questions\/\d+\/feeds?
+      name: 'zheye-script'
       type: response
       require-body: true
-      timeout: 30
-      argument: '' 
-
-    # 问题的回答列表 - 移除黑名单用户的回答、去除广告
-    - match: ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+
-      name: zheye.js
-      type: response
-      require-body: true
-      timeout: 30
-      argument: ''
+      max-size: 0
 
     # 回答信息流 - 移除黑名单用户的回答、去除广告
-    - match: ^https?:\/\/api\.zhihu\.com\/next-(data|bff|render)
-      name: zheye.js
+    - match: ^https?:\/\/api\.zhihu\.com\/next-render
+      name: 'zheye-script'
       type: response
       require-body: true
-      timeout: 30
-      argument: ''
-
-    # 回答页底部评论摘要 - 移除黑名单用户发表的评论
-    - match: ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\?
-      name: zheye.js
-      type: response
-      require-body: true
-      timeout: 30
-      argument: '' 
-
-    # 评论页及子页面 - 去除黑名单用户发表的评论
-    - match: ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments?
-      name: zheye.js
-      type: response
-      require-body: true
-      timeout: 30
-      argument: '' 
+      max-size: 0
 
     # 消息页 - 折叠官方消息、屏蔽营销消息
     - match: ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message)
-      name: zheye.js
+      name: 'zheye-script'
       type: response
       require-body: true
-      timeout: 30
-      argument: '' 
+      max-size: 0
 
-    # 回答页 - 内容优化，付费、营销、推广内容文首提醒
-    - match: ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))?
-      name: zheye.js
+    # 评论页 - 去除黑名单用户发表的评论
+    - match: ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments?
+      name: 'zheye-script'
       type: response
       require-body: true
-      timeout: 30
-      argument: '' 
+      max-size: 0
 
-    # 回答页 - 屏蔽下翻出现的黑名单用户的回答
-    - match: ^https?:\/\/api\.zhihu\.com\/next\?
-      name: zheye.js
+    # 回答页 - 移除相关问题推荐
+    - match: ^https:\/\/(page-info|api)\.zhihu\.com\/answers\/v2\/\d+
+      name: 'zheye-script'
       type: response
       require-body: true
-      timeout: 30
-      argument: '' 
+      max-size: 0
 
-    # 文章页 - 去除底部广告
-    - match: ^https?:\/\/www\.zhihu\.com\/api\/v\d\/articles\/\d+\/recommendation\?
-      name: zheye.js
+    # 文章页 - 移除相关问题推荐
+    - match: ^https:\/\/api\.zhihu\.com\/articles\/v\d\/\d+
+      name: 'zheye-script'
       type: response
       require-body: true
-      timeout: 30
-      argument: '' 
+      max-size: 0
+
+    # 关注页 - 屏蔽黑名单用户
+    - match: ^https?:\/\/api\.zhihu\.com\/moments_v3\?
+      name: 'zheye-script'
+      type: response
+      require-body: true
+      max-size: 0
 
     # 热榜页 - 去除广告
-    - match: ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/)
-      name: zheye.js
+    - match: ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists(\?|\/)
+      name: 'zheye-script'
       type: response
       require-body: true
-      timeout: 30
-      argument: '' 
+      max-size: 0
 
     # 搜索页 - 去除预置广告
     - match: ^https?:\/\/api\.zhihu\.com\/search\/preset_words\?
-      name: zheye.js
+      name: 'zheye-script'
       type: response
       require-body: true
-      timeout: 30
-      argument: '' 
+      max-size: 0
 
-  mitm:
-    - "api.zhihu.com"
-    - "www.zhihu.com"
-    - "m-cloud.zhihu.com"
-    - "zhuanlan.zhihu.com"
-    - "appcloud2.zhihu.com"
-    - "103.41.167.226"
-    - "103.41.167.234"
-    - "103.41.167.235"
-    - "103.41.167.236"
-    - "103.41.167.237"
-    - "118.89.204.198"
-    - "2402:4e00:1200:ed00:0:9089:6dac:96b6"
+    # 搜索页 - 猜你想搜去广告
+    - match: ^https?:\/\/api\.zhihu\.com\/search\/recommend_query
+      name: 'zheye-script'
+      type: response
+      require-body: true
+      max-size: 0
+
+    # 黑名单页 - 同步黑名单数据
+    - match: ^https:\/\/api\.zhihu\.com\/settings\/blocked_users
+      name: 'zheye-script'
+      type: response
+      require-body: true
+      max-size: 0
+
+    # 回答页底部评论摘要 - 移除黑名单用户发表的评论
+    - match: ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\?
+      name: 'zheye-script'
+      type: response
+      require-body: true
+      max-size: 0
 
 script-providers:
-  zheye.js:
+  'zheye-script':
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-

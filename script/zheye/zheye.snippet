@@ -5,105 +5,69 @@
 ^https?:\/\/103\.41\.167\.237 url reject-dict
 ^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 url reject-200
 
-# 屏蔽下发的配置，如皮肤等
-^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config url reject
-
-# 屏蔽我的页面开通会员的卡片
-# ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card url reject
-
 # 拦截开屏广告
-^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? url reject-dict
-^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? url reject-dict
-
-# 拦截品牌提问广告
-^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? url reject-dict
-^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? url reject-dict
-
-# 去除底部标签页关注人角标
-^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 url reject-dict
+^https?:\/\/api\.zhihu\.com\/commercial_api url reject-dict
+# 拦截回答下方的广告
+^https?:\/\/api\.zhihu\.com\/commercial_api\/answer/\d+/bottom-v2 url reject-dict
+# 拦截不影响使用的请求
+^https?:\/\/api\.zhihu\.com\/message-push\/event url reject-dict
+# 屏蔽 - 付费回答用户营销引导
+^https?:\/\/api\.zhihu\.com\/guide_center\/strategy url reject-dict
+# 屏蔽 - 会员页浮动广告
+^https?:\/\/api\.zhihu\.com\/bazaar\/float_window url reject-dict
+# 屏蔽 - 数据上报
+^https?:\/\/api\.zhihu\.com\/metrics\/report url reject-dict
+# 屏蔽 - 疑似通知
+^https?:\/\/api\.zhihu\.com\/settings\/new\/notification url reject-dict
+# 屏蔽 - 会员相关广告
+^https?:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header url reject-dict
 
 # 去除消息通知角标
 ^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count) url reject-dict
-
-# 拦截回答下的卡片广告
-^https?:\/\/www\.zhihu\.com\/api\/v\d\/answers\/\d+\/recommendations url reject-dict
-
+# 去除推荐页顶部广告
+^https?:\/\/api\.zhihu\.com\/root\/window url reject-dict
 # 拦截应用内弹窗
 ^https?:\/\/api\.zhihu\.com\/me\/guides url reject-dict
-
 # 去除关注页最常访问
 ^https?:\/\/api\.zhihu\.com\/moments\/recent url reject-dict
-
 # 拦截推荐页顶部广告
 ^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config url reject-dict
-
-# 底栏加号的广告
-^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings url reject-dict
-
-# 推荐页搜索栏左侧图标
-^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading url reject-dict
-
 # 疑似推荐页内容更新红点
 ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/tag_config url reject-dict
-
-# 去除回答页的相关搜索
-^https?:\/\/www\.zhihu\.com\/api\/v\d+\/search\/related_queries\/answer url reject-dict
-
-# 暂不清楚作用
-^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner url reject-dict
-^https?:\/\/api\.zhihu\.com\/ad-style-service\/request url reject
+# 部分推荐页Tab的Banner
+^https?:\/\/api\.zhihu\.com\/content-distribution-core\/sections\/ url reject-dict
 
 # 获取用户信息 - 隔离用户数据，开启本地会员等
 ^https?:\/\/api\.zhihu\.com\/people\/ url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
 # 关键词屏蔽 - 解锁本地的关键词屏蔽功能，需要开启本地VIP
-^https?:\/\/api\.zhihu\.com\/feed-root\/block url script-analyze-echo-response https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
+^https?:\/\/api\.zhihu\.com\/feed-root\/block url script-request-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
 # 优化软件配置 - 优化下发的配置文件来实现某些效果
-^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config url script-analyze-echo-response https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-^https?:\/\/api\.zhihu\.com\/feed\/render\/tab\/config url script-analyze-echo-response https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
-# 用户信息 - 修改用户盐值
-^https?:\/\/api\.zhihu\.com\/user-credit\/basis url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
-# 关注页 - 内容优化及屏蔽转发的黑名单用户想法
-^https?:\/\/api\.zhihu\.com\/moments_v3\? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
+^https?:\/\/api\.zhihu\.com\/root\/tab\/v2 url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
 # 推荐页 - 移除黑名单用户发布的文章、去除广告，及自定义一些屏蔽项目
-^https:\/\/api\.zhihu\.com\/topstory\/recommend url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
-# 黑名单页 - 同步黑名单数据
-^https?:\/\/api\.zhihu\.com\/settings\/blocked_users url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
-# 问题的回答列表 - 移除黑名单用户的回答、去除广告
-^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+ url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
+^https:\/\/(api|web-render)\.zhihu\.com\/topstory\/recommend url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
+# 回答列表 - 移除黑名单用户的回答、去除广告
+^https:\/\/api\.zhihu\.com\/questions\/\d+\/feeds? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
 # 回答信息流 - 移除黑名单用户的回答、去除广告
-^https?:\/\/api\.zhihu\.com\/next-(data|bff|render) url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
+^https?:\/\/api\.zhihu\.com\/next-render url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
+# 消息页 - 折叠官方消息、屏蔽营销消息
+^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message) url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
+# 评论页 - 去除黑名单用户发表的评论
+^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
+# 回答页 - 移除相关问题推荐
+^https:\/\/(page-info|api)\.zhihu\.com\/answers\/v2\/\d+ url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
+# 文章页 - 移除相关问题推��
+^https:\/\/api\.zhihu\.com\/articles\/v\d\/\d+ url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
+# 关注页 - 屏蔽黑名单用户
+^https?:\/\/api\.zhihu\.com\/moments_v3\? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
+# 热榜页 - 去除广告
+^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists(\?|\/) url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
+# 搜索页 - 去除预置广告
+^https?:\/\/api\.zhihu\.com\/search\/preset_words\? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
+# 搜索页 - 猜你想搜去广告
+^https?:\/\/api\.zhihu\.com\/search\/recommend_query url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
+# 黑名单页 - 同步黑名单数据
+^https:\/\/api\.zhihu\.com\/settings\/blocked_users url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
 # 回答页底部评论摘要 - 移除黑名单用户发表的评论
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
 
-# 评论页及子页面 - 去除黑名单用户发表的评论
-^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
-# 消息页 - 折叠官方消息、屏蔽营销消息
-^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message) url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
-# 回答页 - 内容优化，付费、营销、推广内容文首提醒
-^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
-# 回答页 - 屏蔽下翻出现的黑名单用户的回答
-^https?:\/\/api\.zhihu\.com\/next\? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
-# 文章页 - 去除底部广告
-^https?:\/\/www\.zhihu\.com\/api\/v\d\/articles\/\d+\/recommendation\? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
-# 热榜页 - 去除广告
-^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
-# 搜索页 - 去除预置广告
-^https?:\/\/api\.zhihu\.com\/search\/preset_words\? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
-
-hostname = 118.89.204.198,103.41.167.237,2402:4e00:1200:ed00:0:9089:6dac:96b6,www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,appcloud2.zhihu.com,m-cloud.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226
+hostname = 118.89.204.198,103.41.167.237,2402:4e00:1200:ed00:0:9089:6dac:96b6,www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,m-cloud.zhihu.com,page-info.zhihu.com,web-render.zhihu.com

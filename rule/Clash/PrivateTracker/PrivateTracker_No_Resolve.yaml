@@ -1,12 +1,12 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-18 02:08:57
-# DOMAIN: 135
+# UPDATED: 2025-06-20 02:08:29
+# DOMAIN: 148
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
-# IP-CIDR: 3
-# TOTAL: 265
+# IP-CIDR: 4
+# TOTAL: 279
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
@@ -23,6 +23,7 @@ payload:
   - DOMAIN,buny.uk
   - DOMAIN,concen.org
   - DOMAIN,d40969.acod.regrucolo.ru
+  - DOMAIN,discord.heihachi.pw
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
   - DOMAIN,explodie.org
@@ -39,6 +40,7 @@ payload:
   - DOMAIN,nyaa.tracker.wf
   - DOMAIN,open.demonii.com
   - DOMAIN,open.dstud.io
+  - DOMAIN,open.free-tracker.ga
   - DOMAIN,open.stealth.si
   - DOMAIN,open.trackerlist.xyz
   - DOMAIN,opentor.org
@@ -58,17 +60,23 @@ payload:
   - DOMAIN,t.jaekr.sh
   - DOMAIN,t.overflow.biz
   - DOMAIN,taciturn-shadow.spb.ru
+  - DOMAIN,threads.canofsocks.com
   - DOMAIN,tk.greedland.net
   - DOMAIN,torrent.hificode.in
   - DOMAIN,torrentsmd.com
-  - DOMAIN,tr.abir.ga
+  - DOMAIN,tr-rh-zhuqiy.dgj055.icu
+  - DOMAIN,tr-zhuqiy-1.dgj055.icu
+  - DOMAIN,tr.abiir.top
   - DOMAIN,tr.kxmp.cf
   - DOMAIN,tr.nyacat.pw
   - DOMAIN,tr.zukizuki.org
   - DOMAIN,tr3.ysagin.top
   - DOMAIN,tr4ck3r.duckdns.org
+  - DOMAIN,track3r.site
   - DOMAIN,tracker-udp.gbitt.info
+  - DOMAIN,tracker.23794.top
   - DOMAIN,tracker.aburaya.live
+  - DOMAIN,tracker.bitcoinindia.space
   - DOMAIN,tracker.bittor.pw
   - DOMAIN,tracker.bjut.jp
   - DOMAIN,tracker.bt-hash.com
@@ -81,7 +89,6 @@ payload:
   - DOMAIN,tracker.dler.org
   - DOMAIN,tracker.dmcomic.org
   - DOMAIN,tracker.ducks.party
-  - DOMAIN,tracker.dump.cl
   - DOMAIN,tracker.expli.top
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
@@ -90,6 +97,8 @@ payload:
   - DOMAIN,tracker.ghostchu-services.top
   - DOMAIN,tracker.gigantino.net
   - DOMAIN,tracker.gmi.gd
+  - DOMAIN,tracker.hifitechindia.com
+  - DOMAIN,tracker.iperson.xyz
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.ipv6tracker.ru
   - DOMAIN,tracker.jdx3.org
@@ -99,6 +108,7 @@ payload:
   - DOMAIN,tracker.leechshield.link
   - DOMAIN,tracker.lintk.me
   - DOMAIN,tracker.linvk.com
+  - DOMAIN,tracker.lyretain.site
   - DOMAIN,tracker.moeblog.cn
   - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
@@ -113,13 +123,16 @@ payload:
   - DOMAIN,tracker.renfei.net
   - DOMAIN,tracker.rescuecrew7.com
   - DOMAIN,tracker.sbsub.com
+  - DOMAIN,tracker.skillindia.site
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
+  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.therarbg.to
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.tritan.gg
   - DOMAIN,tracker.tryhackx.org
+  - DOMAIN,tracker.tvunderground.org.ru
   - DOMAIN,tracker.valete.tf
   - DOMAIN,tracker.vanitycore.co
   - DOMAIN,tracker.waaa.moe
@@ -129,7 +142,6 @@ payload:
   - DOMAIN,tracker.zhuqiy.top
   - DOMAIN,tracker1.520.jp
   - DOMAIN,tracker1.itzmx.com
-  - DOMAIN,tracker1.myporn.club
   - DOMAIN,tracker2.dler.org
   - DOMAIN,tracker2.itzmx.com
   - DOMAIN,tracker3.itzmx.com
@@ -137,6 +149,7 @@ payload:
   - DOMAIN,tracker810.xyz
   - DOMAIN,ttk2.nbaonlineservice.com
   - DOMAIN,udp.tracker.projectk.org
+  - DOMAIN,v74853.hosted-by-vdsina.com
   - DOMAIN,wepzone.net
   - DOMAIN,www.all4nothin.net
   - DOMAIN,www.genesis-sp.org
@@ -273,3 +286,4 @@ payload:
   - IP-CIDR,207.241.226.111/32,no-resolve
   - IP-CIDR,207.241.231.226/32,no-resolve
   - IP-CIDR,52.58.128.163/32,no-resolve
+  - IP-CIDR,89.110.76.229/32,no-resolve

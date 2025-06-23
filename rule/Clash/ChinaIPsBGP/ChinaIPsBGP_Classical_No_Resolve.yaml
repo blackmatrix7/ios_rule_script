@@ -1,9 +1,9 @@
 # NAME: ChinaIPsBGP
 # AUTHOR: misakaio
 # REPO: https://github.com/misakaio/chnroutes2
-# UPDATED: 2025-06-22 02:08:31
-# IP-CIDR: 4216
-# TOTAL: 4216
+# UPDATED: 2025-06-24 02:08:53
+# IP-CIDR: 4214
+# TOTAL: 4214
 payload:
   - IP-CIDR,1.1.8.0/24,no-resolve
   - IP-CIDR,1.116.0.0/15,no-resolve
@@ -354,6 +354,7 @@ payload:
   - IP-CIDR,103.20.32.0/24,no-resolve
   - IP-CIDR,103.200.136.0/21,no-resolve
   - IP-CIDR,103.200.144.0/21,no-resolve
+  - IP-CIDR,103.200.220.0/22,no-resolve
   - IP-CIDR,103.202.0.0/19,no-resolve
   - IP-CIDR,103.202.112.0/22,no-resolve
   - IP-CIDR,103.202.120.0/21,no-resolve
@@ -533,7 +534,6 @@ payload:
   - IP-CIDR,103.246.244.0/22,no-resolve
   - IP-CIDR,103.247.168.0/22,no-resolve
   - IP-CIDR,103.247.176.0/22,no-resolve
-  - IP-CIDR,103.248.102.0/23,no-resolve
   - IP-CIDR,103.248.152.0/22,no-resolve
   - IP-CIDR,103.248.224.0/22,no-resolve
   - IP-CIDR,103.249.136.0/24,no-resolve
@@ -2269,7 +2269,7 @@ payload:
   - IP-CIDR,175.42.0.0/15,no-resolve
   - IP-CIDR,175.44.0.0/16,no-resolve
   - IP-CIDR,175.46.0.0/15,no-resolve
-  - IP-CIDR,178.236.46.0/23,no-resolve
+  - IP-CIDR,178.236.47.0/24,no-resolve
   - IP-CIDR,180.129.128.0/17,no-resolve
   - IP-CIDR,180.130.0.0/16,no-resolve
   - IP-CIDR,180.136.0.0/13,no-resolve
@@ -2546,7 +2546,7 @@ payload:
   - IP-CIDR,202.51.32.0/20,no-resolve
   - IP-CIDR,202.57.192.0/24,no-resolve
   - IP-CIDR,202.57.196.0/22,no-resolve
-  - IP-CIDR,202.57.200.0/24,no-resolve
+  - IP-CIDR,202.57.200.0/23,no-resolve
   - IP-CIDR,202.57.204.0/23,no-resolve
   - IP-CIDR,202.59.214.0/23,no-resolve
   - IP-CIDR,202.60.112.0/20,no-resolve
@@ -3675,7 +3675,6 @@ payload:
   - IP-CIDR,43.193.64.0/24,no-resolve
   - IP-CIDR,43.196.0.0/16,no-resolve
   - IP-CIDR,43.224.12.0/22,no-resolve
-  - IP-CIDR,43.224.208.0/22,no-resolve
   - IP-CIDR,43.224.24.0/22,no-resolve
   - IP-CIDR,43.224.240.0/24,no-resolve
   - IP-CIDR,43.224.248.0/23,no-resolve
@@ -3688,9 +3687,8 @@ payload:
   - IP-CIDR,43.225.76.0/22,no-resolve
   - IP-CIDR,43.225.84.0/23,no-resolve
   - IP-CIDR,43.226.116.0/22,no-resolve
-  - IP-CIDR,43.226.120.0/22,no-resolve
   - IP-CIDR,43.226.128.0/19,no-resolve
-  - IP-CIDR,43.226.160.0/21,no-resolve
+  - IP-CIDR,43.226.164.0/22,no-resolve
   - IP-CIDR,43.226.236.0/22,no-resolve
   - IP-CIDR,43.226.32.0/19,no-resolve
   - IP-CIDR,43.226.64.0/20,no-resolve

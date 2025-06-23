@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-06-22 02:11:56
+desc: 最后更新时间 2025-06-24 02:12:19
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1234
-# mitm: 904
+# reject: 1233
+# mitm: 903
 # force-http-engine-hosts: 6
-# total: 2144
+# total: 2142
 
 
 
@@ -583,7 +583,6 @@ http:
     - ^https?:\/\/direct\.z-bank\.com\/portal\/AdvertImageDownLoad4Mobile\.do - reject
     - ^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js - reject
     - ^https?:\/\/dispatcher\.camera360\.com\/api\/v1\/list$ - reject
-    - ^https?:\/\/display-sc\.miguvideo\.com\/display\/v3\/static\/PERSONAL_CENTER - reject
     - ^https?:\/\/display\.wting\.info\/.*.jpeg - reject
     - ^https?:\/\/dj\.palmestore\.com\/zybk\/api\/ad - reject
     - ^https?:\/\/djcapp\.game\.qq\.com\/daoju\/igw\/main\/\?_service=welink\.ad\.list - reject
@@ -1608,7 +1607,6 @@ http:
     - "direct.z-bank.com"
     - "discuz.gtimg.cn"
     - "dispatcher.camera360.com"
-    - "display-sc.miguvideo.com"
     - "display.wting.info"
     - "dj.palmestore.com"
     - "djcapp.game.qq.com"

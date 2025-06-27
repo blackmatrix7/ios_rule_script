@@ -1,5 +1,5 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-06-24 02:12:19
+desc: 最后更新时间 2025-06-28 02:12:17
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # reject: 1233
@@ -656,7 +656,7 @@ http:
     - ^https?:\/\/gfp\.veta\.naver\.com\/adcall\? - reject
     - ^https?:\/\/ggc\.miguvideo\.com\/v1\/iflyad\/deliverysystem\/direct\/ - reject
     - ^https?:\/\/ggic\d+.miguvideo\.com\/ad\/ - reject
-    - ^https?:\/\/ggx\d+\.miguvideo\.com\/request\/sdk - reject
+    - ^https?:\/\/ggx.+\.miguvideo\.com\/request\/sdk.+[^?]*$ - reject
     - ^https?:\/\/gha\.ghac\.cn\:8081\/base\/app\/api\/ad\/query\?adType - reject
     - ^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/index_activity\/get_app_index_activity - reject
     - ^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther - reject
@@ -1677,7 +1677,7 @@ http:
     - "gfp.veta.naver.com"
     - "ggc.miguvideo.com"
     - "ggic*.miguvideo.com"
-    - "ggx*.miguvideo.com"
+    - "ggx.miguvideo.com"
     - "gha.ghac.cn"
     - "go.babytree.com"
     - "goblin.hupu.com"

@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2025-06-28 02:12:17
+desc: 最后更新时间 2025-07-04 02:11:58
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1233
-# mitm: 903
+# reject: 1231
+# mitm: 902
 # force-http-engine-hosts: 6
-# total: 2142
+# total: 2139
 
 
 
@@ -924,8 +924,6 @@ http:
     - ^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+?adpublish - reject
     - ^https?:\/\/oimage\w\d\.ydstatic\.com\/image\?.+?=adpublish - reject
     - ^https?:\/\/ok\.166\.net\/reunionpub\/202[2-9]{1}-[0-9]{2}-[0-9]{2}\/ntesgod_cms\/.*.jpg$ - reject
-    - ^https?:\/\/one-app-h5\.faw-vw\.com\/prod-api\/mobile\/one-app\/general\/public\/v1\/first_page\/get_carousel_list?appkey.* - reject
-    - ^https?:\/\/one-app-h5\.faw-vw\.com\/prod-api\/mobile\/one-app\/general\/public\/v1\/official_activity\/get_animation_putaway_list\?appkey.* - reject
     - ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/.*Code=VWAPP_ICE_OPEN_SCREEN_ADS - reject
     - ^https?:\/\/oneapph5\.dongfeng-nissan\.com\.cn\/mb-gw\/vmsp-discover\/rest\/business-service\/v1\/advert\/advertinfo - reject
     - ^https?:\/\/open3\.vistastory\.com\/v3\/api.*get_popup - reject
@@ -1894,7 +1892,6 @@ http:
     - "ocrifs.ejoy.sinopec.com"
     - "oimage*.ydstatic.com"
     - "ok.166.net"
-    - "one-app-h5.faw-vw.com"
     - "oneapp-api.faw-vw.com"
     - "oneapph5.dongfeng-nissan.com.cn"
     - "open.78dm.net"

@@ -6,10 +6,11 @@
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png
 
 [Script]
-http-request ^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,tag=贴吧_获取Cookie1
-http-request ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,tag=贴吧_新版Cookie2
-http-request ^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,tag=贴吧_新版Cookie3
-cron "30 9 * * *" script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,timeout=60,tag=贴吧_每日签到
+http-request ^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login script-path=https://gist.githubusercontent.com/blackmatrix7/cebabe7a385fc6a9ad32e2f7a35851dc/raw/1363d8720c92267d0a97fcd8eb98673760891fc9/tieba_min.js,tag=贴吧_获取Cookie1
+http-request ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig script-path=https://gist.githubusercontent.com/blackmatrix7/cebabe7a385fc6a9ad32e2f7a35851dc/raw/1363d8720c92267d0a97fcd8eb98673760891fc9/tieba_min.js,tag=贴吧_获取Cookie2
+http-request ^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo script-path=https://gist.githubusercontent.com/blackmatrix7/cebabe7a385fc6a9ad32e2f7a35851dc/raw/1363d8720c92267d0a97fcd8eb98673760891fc9/tieba_min.js,tag=贴吧_获取Cookie3
+http-request ^https?:\/\/tiebac\.baidu\.com\/c\/s\/getClientConfig script-path=https://gist.githubusercontent.com/blackmatrix7/cebabe7a385fc6a9ad32e2f7a35851dc/raw/1363d8720c92267d0a97fcd8eb98673760891fc9/tieba_min.js,tag=贴吧_获取Cookie4
+cron "30 9 * * *" script-path=https://gist.githubusercontent.com/blackmatrix7/cebabe7a385fc6a9ad32e2f7a35851dc/raw/1363d8720c92267d0a97fcd8eb98673760891fc9/tieba_min.js,timeout=180,tag=贴吧_每日签到
 
 [MITM]
 hostname = c.tieba.baidu.com, tiebac.baidu.com

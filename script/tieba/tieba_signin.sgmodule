@@ -1,12 +1,16 @@
 #!name=百度贴吧
 #!desc=百度贴吧每日自动签到
+#!author=blackmatrix7
+#!homepage=https://github.com/blackmatrix7/ios_rule_script
+#!category=blackmatrix7
 #!system=ios
 
 [Script]
-贴吧_每日签到 = type=cron,cronexp=30 9 * * *,timeout=60,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js
-贴吧_获取cookie1 = type=http-request,pattern=^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js
-贴吧_获取cookie2 = type=http-request,pattern=^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js
-贴吧_获取cookie3 = type=http-request,pattern=^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js
+贴吧_每日签到 = type=cron,cronexp=30 9 * * *,timeout=180,script-path=https://gist.githubusercontent.com/blackmatrix7/cebabe7a385fc6a9ad32e2f7a35851dc/raw/1363d8720c92267d0a97fcd8eb98673760891fc9/tieba_min.js
+贴吧_获取cookie1 = type=http-request,pattern=^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login,script-path=https://gist.githubusercontent.com/blackmatrix7/cebabe7a385fc6a9ad32e2f7a35851dc/raw/1363d8720c92267d0a97fcd8eb98673760891fc9/tieba_min.js
+贴吧_获取cookie2 = type=http-request,pattern=^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig,script-path=https://gist.githubusercontent.com/blackmatrix7/cebabe7a385fc6a9ad32e2f7a35851dc/raw/1363d8720c92267d0a97fcd8eb98673760891fc9/tieba_min.js
+贴吧_获取cookie3 = type=http-request,pattern=^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo,script-path=https://gist.githubusercontent.com/blackmatrix7/cebabe7a385fc6a9ad32e2f7a35851dc/raw/1363d8720c92267d0a97fcd8eb98673760891fc9/tieba_min.js
+贴吧_获取cookie4 = type=http-request,pattern=^https?:\/\/tiebac\.baidu\.com\/c\/s\/getClientConfig,script-path=https://gist.githubusercontent.com/blackmatrix7/cebabe7a385fc6a9ad32e2f7a35851dc/raw/1363d8720c92267d0a97fcd8eb98673760891fc9/tieba_min.js
 
 [MITM]
 hostname = %APPEND% c.tieba.baidu.com, tiebac.baidu.com

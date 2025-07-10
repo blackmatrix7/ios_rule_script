@@ -1,24 +1,32 @@
 name: AllInOne
-desc: 最后更新时间 2025-06-12 02:12:04
+desc: 最后更新时间 2025-06-18 02:12:02
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# domain: 5
+# domain: 8
+# ip-cidr: 2
+# ip-cidr6: 1
 # http-request-script: 1
-# http-response-script: 25
+# http-response-script: 21
 # redirect: 8
-# reject: 722
+# reject: 714
 # mitm: 760
 # force-http-engine-hosts: 6
-# total: 1527
+# total: 1521
 
 
 
 rules:
+  - DOMAIN,apm.zhihu.com,REJECT
   - DOMAIN,appcloud.zhihu.com,REJECT
   - DOMAIN,appcloud2.in.zhihu.com,REJECT
   - DOMAIN,crash2.zhihu.com,REJECT
+  - DOMAIN,duga.zhihu.com,REJECT
   - DOMAIN,mqtt.zhihu.com,REJECT
   - DOMAIN,sugar.zhihu.com,REJECT
+  - DOMAIN,zxid-m.mobileservice.cn,REJECT
+  - IP-CIDR,103.41.167.237/32,REJECT
+  - IP-CIDR,118.89.204.198/32,REJECT
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
 
 
 http:
@@ -281,13 +289,6 @@ http:
     - ^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd - reject
     - ^https?:\/\/api\.ys7\.com.*\/getAdvertising - reject
     - ^https?:\/\/api\.zcool\.com\.cn\/.*common\/open-screen - reject
-    - ^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count) - reject
-    - ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
-    - ^https?:\/\/api\.zhihu\.com\/ad-style-service\/request - reject
-    - ^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config - reject
-    - ^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner - reject
-    - ^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings - reject
-    - ^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject
     - ^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
     - ^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject
     - ^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated - reject
@@ -730,7 +731,6 @@ http:
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ - reject
     - ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
     - ^https?:\/\/www\.xqpark\.cn\/xqParkApp\/resource\/getResource - reject
-    - ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/search\/related_queries\/answer - reject
     - ^https?:\/\/www\.zjyilin\.com\/hykweb\/\/index\/openImg - reject
     - ^https?:\/\/www\.zybang\.com\/adx\/ - reject
     - ^https?:\/\/xapi\.xinmanhua\.net\/splashgroups\?include=splashs - reject
@@ -760,7 +760,7 @@ http:
     - match: ^https?:\/\/api\.zhihu\.com\/feed-root\/block
       name: zheye.min.js_8a3926f1
       type: request
-      require-body: false
+      require-body: true
       timeout: 30
       argument: 
     # BiliBili_开屏去广告
@@ -784,29 +784,8 @@ http:
       require-body: true
       timeout: 30
       argument: 
-    # 哲也_优化软件配置1
-    - match: ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?
-      name: zheye.min.js_8a3926f1
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 哲也_优化软件配置2
-    - match: ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config
-      name: zheye.min.js_8a3926f1
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 哲也_优化软件配置3
-    - match: ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading
-      name: zheye.min.js_8a3926f1
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 哲也_修改用户盐值
-    - match: ^https?:\/\/api\.zhihu\.com\/user-credit\/basis
+    # 哲也_优化推荐标签页
+    - match: ^https?:\/\/api\.zhihu\.com\/root\/tab\/v2
       name: zheye.min.js_8a3926f1
       type: response
       require-body: true
@@ -826,8 +805,8 @@ http:
       require-body: true
       timeout: 30
       argument: 
-    # 哲也_回答内容优化
-    - match: ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))?
+    # 哲也_回答信息流优化
+    - match: ^https?:\/\/api\.zhihu\.com\/next-render
       name: zheye.min.js_8a3926f1
       type: response
       require-body: true
@@ -840,13 +819,6 @@ http:
       require-body: true
       timeout: 30
       argument: 
-    # 哲也_回答翻页优化
-    - match: ^https?:\/\/api\.zhihu\.com\/next\?
-      name: zheye.min.js_8a3926f1
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
     # 哲也_处理用户信息
     - match: ^https?:\/\/api\.zhihu\.com\/people
       name: zheye.min.js_8a3926f1
@@ -854,15 +826,8 @@ http:
       require-body: true
       timeout: 30
       argument: 
-    # 哲也_推荐页优化
-    - match: ^https?:\/\/api\.zhihu\.com\/moments\/recent
-      name: zheye.min.js_8a3926f1
-      type: response
-      require-body: true
-      timeout: 30
-      argument: 
-    # 哲也_文章优化
-    - match: ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations
+    # 哲也_文章页广告移除
+    - match: ^https:\/\/api\.zhihu\.com\/articles\/v\d\/\d+
       name: zheye.min.js_8a3926f1
       type: response
       require-body: true
@@ -877,6 +842,13 @@ http:
       argument: 
     # 哲也_热榜优化
     - match: ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/)
+      name: zheye.min.js_8a3926f1
+      type: response
+      require-body: true
+      timeout: 30
+      argument: 
+    # 哲也_猜你想搜去广告
+    - match: ^https?:\/\/api\.zhihu\.com\/search\/recommend_query
       name: zheye.min.js_8a3926f1
       type: response
       require-body: true
@@ -999,7 +971,6 @@ http:
     - "116.85.2.14"
     - "116.85.2.15"
     - "118.178.214.118"
-    - "118.89.204.198"
     - "120.241.*"
     - "122.14.246.33"
     - "140.179.224.63"
@@ -1191,7 +1162,6 @@ http:
     - "app3.qdaily.com"
     - "appactive.1234567.com.cn"
     - "appapi.huazhu.com"
-    - "appcloud2.zhihu.com"
     - "appconf.mail.163.com"
     - "apprn.pizzahut.com.cn"
     - "apps.api.ke.com"
@@ -1478,6 +1448,7 @@ http:
     - "p*.meituan.net"
     - "p.du.163.com"
     - "p0.pipi.cn"
+    - "page-info.zhihu.com"
     - "pages.xiaohongshu.com"
     - "pan-api.bitqiu.com"
     - "pan.baidu.com"
@@ -1594,6 +1565,7 @@ http:
     - "wap.ngchina.cn"
     - "wcprd.hilton.com"
     - "wcprd.hilton.com.cn"
+    - "web-render.zhihu.com"
     - "webapi.qmai.cn"
     - "webboot.zhangyue.com"
     - "webchatapp.fcbox.com"

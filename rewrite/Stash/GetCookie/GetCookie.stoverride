@@ -1,10 +1,10 @@
 name: 获取签到脚本Cookie
-desc: 最后更新时间 2025-06-06 09:20:18
+desc: 最后更新时间 2025-07-12 02:11:47
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# http-request-script: 8
+# http-request-script: 9
 # mitm: 7
-# total: 15
+# total: 16
 
 
 
@@ -49,21 +49,28 @@ http:
       argument: 
     # 贴吧_获取cookie1
     - match: https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login
-      name: tieba_signin.js_999f9ef4
+      name: tieba_min.js_ef380bcb
       type: request
       require-body: false
       timeout: 30
       argument: 
     # 贴吧_获取cookie2
     - match: ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig
-      name: tieba_signin.js_999f9ef4
+      name: tieba_min.js_ef380bcb
       type: request
       require-body: false
       timeout: 30
       argument: 
     # 贴吧_获取cookie3
     - match: ^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo
-      name: tieba_signin.js_999f9ef4
+      name: tieba_min.js_ef380bcb
+      type: request
+      require-body: false
+      timeout: 30
+      argument: 
+    # 贴吧_获取cookie4
+    - match: ^https?:\/\/tiebac\.baidu\.com\/c\/s\/getClientConfig
+      name: tieba_min.js_ef380bcb
       type: request
       require-body: false
       timeout: 30
@@ -94,7 +101,7 @@ script-providers:
   smzdm_daily.js_7fcabffe:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js
     interval: 86400
-  tieba_signin.js_999f9ef4:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js
+  tieba_min.js_ef380bcb:
+    url: https://gist.githubusercontent.com/blackmatrix7/cebabe7a385fc6a9ad32e2f7a35851dc/raw/1363d8720c92267d0a97fcd8eb98673760891fc9/tieba_min.js
     interval: 86400
 

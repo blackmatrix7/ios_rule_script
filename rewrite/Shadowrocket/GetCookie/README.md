@@ -14,14 +14,14 @@
 
 ## 规则统计
 
-最后更新时间：2025-06-06 09:20:18
+最后更新时间：2025-07-12 02:11:47
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HTTP-REQUEST-SCRIPT | 8  | 
+| HTTP-REQUEST-SCRIPT | 9  | 
 | MITM | 7  | 
-| TOTAL | 15  | 
+| TOTAL | 16  | 
 
 
 ## Shadowrocket 
@@ -60,12 +60,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 《获取签到脚本Cookie》的数据来自以下链接，如与本项目的《获取签到脚本Cookie》规则混合使用，可能造成部分重写重复。
 
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.lnscript
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.sgmodule
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka_signin.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.sgmodule
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.sgmodule
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

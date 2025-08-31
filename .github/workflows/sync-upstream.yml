@@ -25,6 +25,6 @@ jobs:
 
       - name: Merge upstream into current branch
         run: |
-          git checkout main
-          git merge upstream/main --allow-unrelated-histories -m "Sync from upstream"
-          git push origin main
+          git checkout master
+          git merge upstream/master --allow-unrelated-histories -m "Sync from upstream"
+          git push origin master

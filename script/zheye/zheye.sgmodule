@@ -28,7 +28,7 @@ URL-REGEX,^https:\/\/api\.zhihu\.com\/guide_center\/strategy,REJECT
 # 屏蔽 - 会员页浮动广告
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/bazaar\/float_window,REJECT
 # 屏蔽 - 数据上报
-URL-REGEX,^https?:\/\/api\.zhihu.\com\/metrics\/report,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/metrics\/report,REJECT
 # 屏蔽 - 疑似通知
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/settings\/new\/notification,REJECT
 # 屏蔽 - 会员相关广告

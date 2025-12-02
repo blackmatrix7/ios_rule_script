@@ -2,10 +2,12 @@
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # reference from: https://support.google.com/a/answer/15627649?hl=en
-# UPDATED: 2025-11-28 17:02:55
-# DOMAIN: 28
-# TOTAL: 28
-DOMAIN, lh5.googleusercontent.com
+# UPDATED: 2025-12-2 15:30:55
+# DOMAIN: 27
+# DOMAIN-SUFFIX: 3
+# TOTAL: 30
+
+DOMAIN-SUFFIX, googleusercontent.com
 DOMAIN, www.googleapis.com
 DOMAIN, ssl.gstatic.com
 DOMAIN, fonts.googleapis.com
@@ -13,13 +15,13 @@ DOMAIN, play.google.com
 DOMAIN, ogs.google.com
 DOMAIN, apis.google.com
 DOMAIN, jnn-pa.googleapis.com
-DOMAIN, waa-pa.clients6.google.com
+DOMAIN, robinfrontend-pa.googleapis.com
 DOMAIN, i.ytimg.com
 DOMAIN, yt3.ggpht.com
 DOMAIN, lh3.googleusercontent.com
 DOMAIN, maps.gstatic.com
 DOMAIN, lh3.google.com
-DOMAIN, ogads-pa.clients6.google.com
+DOMAIN-SUFFIX, clients6.google.com
 DOMAIN, csp.withgoogle.com
 DOMAIN, www.googletagmanager.com
 DOMAIN, fonts.gstatic.com
@@ -33,3 +35,5 @@ DOMAIN, encrypted-tbn2.gstatic.com
 DOMAIN, encrypted-tbn3.gstatic.com
 DOMAIN, streetviewpixels-pa.googleapis.com
 DOMAIN, content-autofill.googleapis.com
+DOMAIN-SUFFIX, google-analytics.com
+DOMAIN, analytics.google.com

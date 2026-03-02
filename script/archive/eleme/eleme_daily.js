@@ -16,7 +16,12 @@ const $ = MagicJS(scriptName, "INFO");
 
 function getUserId(cookies) {
   if (!!cookies) {
-    let userId = /USERID=(\d*)/.exec(cookies)[1];
+    let match = /USERID=(\d*)/.exec(cookies);
+    if (!match) {
+      $.logger.warning('未能从Cookies中解析出UserId');
+      return null;
+    }
+    let userId = match[1];
     $.logger.info(`当前UserId：${userId}`);
     return userId;
   }
@@ -28,11 +33,16 @@ async function getCoordinate() {
     currentUserId = getUserId($.request.headers.Cookie);
     let hisCoordinate = $.data.read(elemeCoordinateKey, "", currentUserId);
     arr = $.request.url.match(getCoordinateRegex1);
-    if (arr && arr.length < 2) {
+    if (!arr || arr.length < 3) {
       arr = $.request.url.match(getCoordinateRegex2);
     }
-    if (arr && arr.length < 2) {
+    if (!arr || arr.length < 3) {
       arr = $.request.url.match(getCoordinateRegex3);
+    }
+    if (!arr || arr.length < 3) {
+      $.notify('获取坐标失败，未能从URL中解析出经纬度。');
+      $.done();
+      return;
     }
     const longitude = arr[1];
     const latitude = arr[2];
@@ -61,7 +71,8 @@ async function getCookies() {
     const cookie = $.request.headers.Cookie;
     $.logger.info(`本次运行获取的新Cookies\n${cookie}`);
     currentUserId = getUserId(cookie);
-    const compareCookie2 = !!cookie ? /cookie2=([a-zA-Z0-9]*)/.exec(cookie)[1] : null;
+    const compareCookie2Match = !!cookie ? /cookie2=([a-zA-Z0-9]*)/.exec(cookie) : null;
+    const compareCookie2 = compareCookie2Match ? compareCookie2Match[1] : null;
     // 获取存储池中的旧Cookie
     let hisCookie = $.data.read(elemeCookieKey, "", currentUserId);
     $.logger.info(`存储池中旧的Cookies\n${hisCookie}`);
@@ -71,7 +82,8 @@ async function getCookies() {
         $.notification.post("Cookie获取成功！");
       }
       else {
-        const compareHisCookie2 = !!hisCookie ? /cookie2=([a-zA-Z0-9]*)/.exec(hisCookie)[1] : null;
+        const compareHisCookie2Match = !!hisCookie ? /cookie2=([a-zA-Z0-9]*)/.exec(hisCookie) : null;
+        const compareHisCookie2 = compareHisCookie2Match ? compareHisCookie2Match[1] : null;
         $.logger.info(`用于比较Cookie变化\n新:${compareCookie2}\n旧:${compareHisCookie2}`);
         if (compareCookie2 !== compareHisCookie2) {
           $.data.write(elemeCookieKey, cookie, currentUserId);
@@ -86,7 +98,8 @@ async function getCookies() {
           $.notification.post("Cookie同步至青龙面板成功！");
         }
         else {
-          const compareHisCookie2 = !!hisCookie ? /cookie2=([a-zA-Z0-9]*)/.exec(hisCookie)[1] : null;
+          const compareHisCookie2Match = !!hisCookie ? /cookie2=([a-zA-Z0-9]*)/.exec(hisCookie) : null;
+          const compareHisCookie2 = compareHisCookie2Match ? compareHisCookie2Match[1] : null;
           $.logger.info(`用于比较Cookie变化\n新:${compareCookie2}\n旧:${compareHisCookie2}`);
           if (compareCookie2 !== compareHisCookie2) {
             await $.qinglong.write(elemeCookieKey, cookie, currentUserId);

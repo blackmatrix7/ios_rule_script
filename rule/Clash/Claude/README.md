@@ -17,13 +17,13 @@ Claude规则由《RULE GENERATOR 规则生成器》自动生成。
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 7  | 
+| DOMAIN | 6  | 
 | DOMAIN-SUFFIX | 16  | 
 | DOMAIN-KEYWORD | 3  | 
 | IP-CIDR | 1  | 
 | IP-CIDR6 | 1  | 
 | IP-ASN | 1  | 
-| TOTAL | 29  | 
+| TOTAL | 28  | 
 
 ## Clash 
 

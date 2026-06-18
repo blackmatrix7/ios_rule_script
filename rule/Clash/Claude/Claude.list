@@ -1,12 +1,15 @@
 # NAME: Claude
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:01
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 2
-# TOTAL: 3
+# UPDATED: 2026-06-18 09:20:01
+# DOMAIN: 7
+# DOMAIN-SUFFIX: 16
+# DOMAIN-KEYWORD: 3
+# IP-CIDR: 1
+# IP-CIDR6: 1
+# IP-ASN: 1
+# TOTAL: 29
 
-DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
@@ -17,14 +20,19 @@ DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,cdn.anthropic.com
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,anthropic.auth0.com
 DOMAIN,anthropic-com.ghost.io
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigcdn.com
 DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,cdn.usefathom.com
 DOMAIN,browser-intake-us5-datadoghq.com
 DOMAIN-KEYWORD,datadog
 DOMAIN-KEYWORD,sentry
 DOMAIN-KEYWORD,sift
+DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN,cdn.usefathom.com

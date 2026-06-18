@@ -6,7 +6,6 @@
 # DOMAIN-SUFFIX: 2
 # TOTAL: 3
 payload:
-  # 核心域名
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
@@ -14,25 +13,25 @@ payload:
   - DOMAIN-SUFFIX,claudemcpclient.com
   - DOMAIN-SUFFIX,claudemcpcontent.com
   - DOMAIN-SUFFIX,claudeusercontent.com
-  # CDN 和静态资源
   - DOMAIN-SUFFIX,cdn.anthropic.com
   - DOMAIN,servd-anthropic-website.b-cdn.net
   - DOMAIN,anthropic.com.cdn.cloudflare.net
-  # 认证 / 内容
+  - DOMAIN,servd-anthropic-website.b-cdn.net
   - DOMAIN,anthropic.auth0.com
   - DOMAIN,anthropic-com.ghost.io
-  # 监控和遥测
   - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,statsig.com
+  - DOMAIN-SUFFIX,statsigcdn.com
   - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-SUFFIX,cdn.usefathom.com
   - DOMAIN,browser-intake-us5-datadoghq.com
   - DOMAIN-KEYWORD,datadog
   - DOMAIN-KEYWORD,sentry
   - DOMAIN-KEYWORD,sift
-  # 客服 / 第三方 widget
+  - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN,cdn.usefathom.com
-  # IP 段 / ASN 兜底
   - IP-CIDR,160.79.104.0/21,no-resolve
   - IP-CIDR6,2607:6bc0::/32,no-resolve
   - IP-ASN,399358,no-resolve

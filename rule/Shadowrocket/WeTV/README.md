@@ -12,16 +12,16 @@ WeTV规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-06-06 09:17:00
+最后更新时间：2026-08-01 03:15:15
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 1  | 
-| DOMAIN-SUFFIX | 7  | 
+| DOMAIN-SUFFIX | 5  | 
 | IP-CIDR | 1  | 
 | USER-AGENT | 1  | 
-| TOTAL | 10  | 
+| TOTAL | 8  | 
 
 
 ## Shadowrocket 

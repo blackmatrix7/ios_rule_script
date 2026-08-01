@@ -1,7 +1,7 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-08-01 03:15:09
+# UPDATED: 2026-08-02 03:02:19
 # HOST: 37
 # HOST-KEYWORD: 26
 # HOST-SUFFIX: 1275
@@ -1420,12 +1420,12 @@ USER-AGENT,com.kktv.ios.kktv*,GlobalMedia
 USER-AGENT,discovery+*,GlobalMedia
 USER-AGENT,encoreTVB*,GlobalMedia
 USER-AGENT,mytv*,GlobalMedia
-USER-AGENT,*youtube*,GlobalMedia
-USER-AGENT,YouTube*,GlobalMedia
-USER-AGENT,com.google.ios.youtube*,GlobalMedia
 USER-AGENT,*YouTubeMusic*,GlobalMedia
 USER-AGENT,*com.google.ios.youtubemusic*,GlobalMedia
+USER-AGENT,*youtube*,GlobalMedia
+USER-AGENT,YouTube*,GlobalMedia
 USER-AGENT,YouTubeMusic*,GlobalMedia
+USER-AGENT,com.google.ios.youtube*,GlobalMedia
 USER-AGENT,com.google.ios.youtubemusic*,GlobalMedia
 IP-CIDR,1.201.0.0/24,GlobalMedia
 IP-CIDR,1.37.35.6/32,GlobalMedia

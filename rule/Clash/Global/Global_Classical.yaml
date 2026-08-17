@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-08-16 02:21:23
+# UPDATED: 2026-08-18 02:30:17
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34722
+# DOMAIN-SUFFIX: 34723
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 35003
+# TOTAL: 35004
 payload:
   - DOMAIN,1password.drift.click
   - DOMAIN,adobeereg.com
@@ -21413,6 +21413,7 @@ payload:
   - DOMAIN-SUFFIX,rutracker.cr
   - DOMAIN-SUFFIX,rutracker.me
   - DOMAIN-SUFFIX,rutracker.nl
+  - DOMAIN-SUFFIX,rutracker.wiki
   - DOMAIN-SUFFIX,rutrecker.net
   - DOMAIN-SUFFIX,rutube.sport
   - DOMAIN-SUFFIX,rutubelist.ru

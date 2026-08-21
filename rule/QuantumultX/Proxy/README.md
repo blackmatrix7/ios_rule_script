@@ -12,18 +12,18 @@ Proxy规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2026-08-12 02:54:21
+最后更新时间：2026-08-22 02:30:25
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 19  | 
 | HOST-KEYWORD | 26  | 
-| HOST-SUFFIX | 7231  | 
+| HOST-SUFFIX | 7232  | 
 | IP-CIDR | 93  | 
 | IP6-CIDR | 4  | 
 | USER-AGENT | 8  | 
-| TOTAL | 7381  | 
+| TOTAL | 7382  | 
 
 
 ## QuantumultX 

@@ -1,8 +1,0 @@
-#!name=Twitter
-#!desc=Twitter离线下载收藏内容
-
-[Script]
-Twitter_收藏离线下载 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.twitter\.com\/[0-9.]*\/favorites\/create.json,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/synology/downloadstation.js
-
-[MITM]
-hostname = %APPEND% api.twitter.com

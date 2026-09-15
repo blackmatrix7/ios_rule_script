@@ -1,5 +1,0 @@
-# Fa米家每日自动签到
-
-^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/member\/(signin\/usersign|sign\/current) url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js
-
-hostname = fmapp.chinafamilymart.com.cn

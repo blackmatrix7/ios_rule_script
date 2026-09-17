@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-09-14 04:08:31
+# UPDATED: 2026-09-18 04:53:35
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34764
+# DOMAIN-SUFFIX: 34767
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 35045
+# TOTAL: 35048
 payload:
   - '1password.drift.click'
   - 'adobeereg.com'
@@ -23367,6 +23367,9 @@ payload:
   - '+.stripe-terminal-local-reader.net'
   - '+.stripe.ac.uk'
   - '+.stripe.com'
+  - '+.stripe.dev'
+  - '+.stripe.events'
+  - '+.stripe.global'
   - '+.stripe.network'
   - '+.stripecdn.com'
   - '+.stripparadise.com'

@@ -1,14 +1,14 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-11-22 02:09:28
-# HOST: 23
+# UPDATED: 2026-09-28 04:43:46
+# HOST: 24
 # HOST-KEYWORD: 20
-# HOST-SUFFIX: 843
-# IP-CIDR: 86
+# HOST-SUFFIX: 848
+# IP-CIDR: 89
 # IP6-CIDR: 4
 # USER-AGENT: 6
-# TOTAL: 982
+# TOTAL: 991
 HOST,addons.mozilla.org,ProxyLite
 HOST,amp-api.podcasts.apple.com,ProxyLite
 HOST,api.msn.com,ProxyLite
@@ -24,6 +24,7 @@ HOST,books.apple.com,ProxyLite
 HOST,cdp.cloud.unity3d.com,ProxyLite
 HOST,clubhouse.pubnubapi.com,ProxyLite
 HOST,copilot.microsoft.com,ProxyLite
+HOST,github-api.arkoselabs.com,ProxyLite
 HOST,lab.skk.moe,ProxyLite
 HOST,location.microsoft.com,ProxyLite
 HOST,login.microsoftonline.com,ProxyLite
@@ -297,6 +298,9 @@ HOST-SUFFIX,gfw.report,ProxyLite
 HOST-SUFFIX,ghostnoteapp.com,ProxyLite
 HOST-SUFFIX,gitbook.com,ProxyLite
 HOST-SUFFIX,githack.com,ProxyLite
+HOST-SUFFIX,github.ai,ProxyLite
+HOST-SUFFIX,github.career,ProxyLite
+HOST-SUFFIX,githubsupport.com,ProxyLite
 HOST-SUFFIX,gitlab.com,ProxyLite
 HOST-SUFFIX,gitlab.io,ProxyLite
 HOST-SUFFIX,globalsign.com,ProxyLite
@@ -307,6 +311,8 @@ HOST-SUFFIX,godaddy.com,ProxyLite
 HOST-SUFFIX,gongm.in,ProxyLite
 HOST-SUFFIX,goodreaders.com,ProxyLite
 HOST-SUFFIX,goodreads.com,ProxyLite
+HOST-SUFFIX,google,ProxyLite
+HOST-SUFFIX,googlezip.net,ProxyLite
 HOST-SUFFIX,gosetsuden.jp,ProxyLite
 HOST-SUFFIX,graphql.org,ProxyLite
 HOST-SUFFIX,gravatar.com,ProxyLite
@@ -924,6 +930,8 @@ IP-CIDR,125.6.146.0/24,ProxyLite
 IP-CIDR,125.6.149.0/24,ProxyLite
 IP-CIDR,125.6.190.0/24,ProxyLite
 IP-CIDR,129.134.0.0/17,ProxyLite
+IP-CIDR,13.251.24.0/24,ProxyLite
+IP-CIDR,13.251.41.0/24,ProxyLite
 IP-CIDR,13.32.0.0/15,ProxyLite
 IP-CIDR,13.35.0.0/17,ProxyLite
 IP-CIDR,147.92.128.0/17,ProxyLite
@@ -932,6 +940,7 @@ IP-CIDR,157.240.0.0/17,ProxyLite
 IP-CIDR,158.85.224.160/27,ProxyLite
 IP-CIDR,158.85.46.128/27,ProxyLite
 IP-CIDR,158.85.5.192/27,ProxyLite
+IP-CIDR,17.252.156.0/23,ProxyLite
 IP-CIDR,173.192.222.160/27,ProxyLite
 IP-CIDR,173.192.231.32/27,ProxyLite
 IP-CIDR,173.194.0.0/16,ProxyLite

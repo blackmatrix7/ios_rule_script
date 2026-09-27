@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-09-24 04:59:18
-# HOST: 19
+# UPDATED: 2026-09-28 04:43:02
+# HOST: 20
 # HOST-KEYWORD: 26
-# HOST-SUFFIX: 7257
-# IP-CIDR: 93
+# HOST-SUFFIX: 7286
+# IP-CIDR: 96
 # IP6-CIDR: 4
 # USER-AGENT: 8
-# TOTAL: 7407
+# TOTAL: 7440
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
@@ -22,6 +22,7 @@ HOST,d1q6f0aelx0por.cloudfront.net,Proxy
 HOST,d2wy8f7a9ursnm.cloudfront.net,Proxy
 HOST,d36jcksde1wxzq.cloudfront.net,Proxy
 HOST,developer.apple.com,Proxy
+HOST,github-api.arkoselabs.com,Proxy
 HOST,lens.l.google.com,Proxy
 HOST,location.microsoft.com,Proxy
 HOST,login.microsoftonline.com,Proxy
@@ -200,7 +201,6 @@ HOST-SUFFIX,abebooks.co.uk,Proxy
 HOST-SUFFIX,abebooks.com,Proxy
 HOST-SUFFIX,abematv.akamaized.net,Proxy
 HOST-SUFFIX,ablwang.com,Proxy
-HOST-SUFFIX,about.google,Proxy
 HOST-SUFFIX,about.me,Proxy
 HOST-SUFFIX,abpchina.org,Proxy
 HOST-SUFFIX,abplive.com,Proxy
@@ -227,6 +227,7 @@ HOST-SUFFIX,aculo.us,Proxy
 HOST-SUFFIX,adblockplus.org,Proxy
 HOST-SUFFIX,adcex.com,Proxy
 HOST-SUFFIX,addictedtocoffee.de,Proxy
+HOST-SUFFIX,addtodropbox.com,Proxy
 HOST-SUFFIX,addyoutube.com,Proxy
 HOST-SUFFIX,adelaidebbs.com,Proxy
 HOST-SUFFIX,adguard-vpn.com,Proxy
@@ -259,7 +260,6 @@ HOST-SUFFIX,ahcdn.com,Proxy
 HOST-SUFFIX,ai-kan.net,Proxy
 HOST-SUFFIX,ai-wen.net,Proxy
 HOST-SUFFIX,ai.dev,Proxy
-HOST-SUFFIX,ai.google,Proxy
 HOST-SUFFIX,ai.studio,Proxy
 HOST-SUFFIX,aihub.top,Proxy
 HOST-SUFFIX,aiosearch.com,Proxy
@@ -448,6 +448,7 @@ HOST-SUFFIX,applecensorship.com,Proxy
 HOST-SUFFIX,appledaily.com,Proxy
 HOST-SUFFIX,appledaily.com.hk,Proxy
 HOST-SUFFIX,appledaily.com.tw,Proxy
+HOST-SUFFIX,appledaily.hk,Proxy
 HOST-SUFFIX,appshopper.com,Proxy
 HOST-SUFFIX,appsocks.net,Proxy
 HOST-SUFFIX,appspot-preview.com,Proxy
@@ -756,7 +757,6 @@ HOST-SUFFIX,blog.calibre-ebook.com,Proxy
 HOST-SUFFIX,blog.com,Proxy
 HOST-SUFFIX,blog.de,Proxy
 HOST-SUFFIX,blog.exblog.co.jp,Proxy
-HOST-SUFFIX,blog.google,Proxy
 HOST-SUFFIX,blog.jp,Proxy
 HOST-SUFFIX,blog.kangye.org,Proxy
 HOST-SUFFIX,blog.qooza.hk,Proxy
@@ -969,6 +969,7 @@ HOST-SUFFIX,c-est-simple.com,Proxy
 HOST-SUFFIX,c-span.org,Proxy
 HOST-SUFFIX,c-spanvideo.org,Proxy
 HOST-SUFFIX,c.gle,Proxy
+HOST-SUFFIX,c.go-mpulse.net,Proxy
 HOST-SUFFIX,c.mi.com,Proxy
 HOST-SUFFIX,c100tibet.org,Proxy
 HOST-SUFFIX,c2cx.com,Proxy
@@ -1214,7 +1215,6 @@ HOST-SUFFIX,christusrex.org,Proxy
 HOST-SUFFIX,chrlawyers.hk,Proxy
 HOST-SUFFIX,chrome.com,Proxy
 HOST-SUFFIX,chromecast.com,Proxy
-HOST-SUFFIX,chromeenterprise.google,Proxy
 HOST-SUFFIX,chromeexperiments.com,Proxy
 HOST-SUFFIX,chromercise.com,Proxy
 HOST-SUFFIX,chromestatus.com,Proxy
@@ -1335,7 +1335,6 @@ HOST-SUFFIX,coinut.com,Proxy
 HOST-SUFFIX,colacloud.net,Proxy
 HOST-SUFFIX,collateralmurder.com,Proxy
 HOST-SUFFIX,collateralmurder.org,Proxy
-HOST-SUFFIX,com.google,Proxy
 HOST-SUFFIX,comedycentral.com,Proxy
 HOST-SUFFIX,comefromchina.com,Proxy
 HOST-SUFFIX,comic-mega.me,Proxy
@@ -1386,7 +1385,6 @@ HOST-SUFFIX,creader.com,Proxy
 HOST-SUFFIX,creaders.net,Proxy
 HOST-SUFFIX,creadersnet.com,Proxy
 HOST-SUFFIX,creativelab5.com,Proxy
-HOST-SUFFIX,crisisresponse.google,Proxy
 HOST-SUFFIX,crisp.chat,Proxy
 HOST-SUFFIX,cristyli.com,Proxy
 HOST-SUFFIX,crittercism.com,Proxy
@@ -1542,7 +1540,6 @@ HOST-SUFFIX,deno.dev,Proxy
 HOST-SUFFIX,depositphotos.com,Proxy
 HOST-SUFFIX,derekhsu.homeip.net,Proxy
 HOST-SUFFIX,desc.se,Proxy
-HOST-SUFFIX,design.google,Proxy
 HOST-SUFFIX,desipro.de,Proxy
 HOST-SUFFIX,deskconnect.com,Proxy
 HOST-SUFFIX,dessci.com,Proxy
@@ -1612,7 +1609,6 @@ HOST-SUFFIX,dmm.co.jp,Proxy
 HOST-SUFFIX,dmm.com,Proxy
 HOST-SUFFIX,dns-dns.com,Proxy
 HOST-SUFFIX,dns-stuff.com,Proxy
-HOST-SUFFIX,dns.google,Proxy
 HOST-SUFFIX,dns.sb,Proxy
 HOST-SUFFIX,dns04.com,Proxy
 HOST-SUFFIX,dns05.com,Proxy
@@ -1640,7 +1636,6 @@ HOST-SUFFIX,dolc.de,Proxy
 HOST-SUFFIX,dolf.org.hk,Proxy
 HOST-SUFFIX,dollf.com,Proxy
 HOST-SUFFIX,domain.club.tw,Proxy
-HOST-SUFFIX,domains.google,Proxy
 HOST-SUFFIX,domaintoday.com.au,Proxy
 HOST-SUFFIX,donga.com,Proxy
 HOST-SUFFIX,dongtaiwang.net,Proxy
@@ -1683,9 +1678,22 @@ HOST-SUFFIX,dribbble.com,Proxy
 HOST-SUFFIX,drmingxia.org,Proxy
 HOST-SUFFIX,dronedj.com,Proxy
 HOST-SUFFIX,dropbooks.tv,Proxy
+HOST-SUFFIX,dropbox-dns.com,Proxy
 HOST-SUFFIX,dropbox.com,Proxy
+HOST-SUFFIX,dropbox.tech,Proxy
+HOST-SUFFIX,dropbox.zendesk.com,Proxy
 HOST-SUFFIX,dropboxapi.com,Proxy
+HOST-SUFFIX,dropboxbusiness.com,Proxy
+HOST-SUFFIX,dropboxcaptcha.com,Proxy
+HOST-SUFFIX,dropboxexperiment.com,Proxy
+HOST-SUFFIX,dropboxforum.com,Proxy
+HOST-SUFFIX,dropboxforums.com,Proxy
+HOST-SUFFIX,dropboxinsiders.com,Proxy
+HOST-SUFFIX,dropboxlegal.com,Proxy
+HOST-SUFFIX,dropboxmail.com,Proxy
+HOST-SUFFIX,dropboxpartners.com,Proxy
 HOST-SUFFIX,dropboxstatic.com,Proxy
+HOST-SUFFIX,dropboxteam.com,Proxy
 HOST-SUFFIX,dropboxusercontent.com,Proxy
 HOST-SUFFIX,droplr.com,Proxy
 HOST-SUFFIX,drsunacademy.com,Proxy
@@ -1834,7 +1842,6 @@ HOST-SUFFIX,enlighten.org.tw,Proxy
 HOST-SUFFIX,entermap.com,Proxy
 HOST-SUFFIX,entnt.com,Proxy
 HOST-SUFFIX,entrust.net,Proxy
-HOST-SUFFIX,environment.google,Proxy
 HOST-SUFFIX,epac.to,Proxy
 HOST-SUFFIX,episcopalchurch.org,Proxy
 HOST-SUFFIX,epochhk.com,Proxy
@@ -1937,7 +1944,9 @@ HOST-SUFFIX,facebook.hu,Proxy
 HOST-SUFFIX,facebook.in,Proxy
 HOST-SUFFIX,facebook.net,Proxy
 HOST-SUFFIX,facebook.nl,Proxy
+HOST-SUFFIX,facebook.org,Proxy
 HOST-SUFFIX,facebook.se,Proxy
+HOST-SUFFIX,facebookbrand.com,Proxy
 HOST-SUFFIX,facebookmail.com,Proxy
 HOST-SUFFIX,facebookquotes4u.com,Proxy
 HOST-SUFFIX,faceless.me,Proxy
@@ -2392,6 +2401,7 @@ HOST-SUFFIX,getastrill.com,Proxy
 HOST-SUFFIX,getchu.com,Proxy
 HOST-SUFFIX,getcloak.com,Proxy
 HOST-SUFFIX,getcloudapp.com,Proxy
+HOST-SUFFIX,getdropbox.com,Proxy
 HOST-SUFFIX,getfoxyproxy.org,Proxy
 HOST-SUFFIX,getfreedur.com,Proxy
 HOST-SUFFIX,getgom.com,Proxy
@@ -2448,13 +2458,23 @@ HOST-SUFFIX,gitbook.com,Proxy
 HOST-SUFFIX,gitbook.io,Proxy
 HOST-SUFFIX,gitbooks.io,Proxy
 HOST-SUFFIX,githack.com,Proxy
+HOST-SUFFIX,github.ai,Proxy
 HOST-SUFFIX,github.blog,Proxy
+HOST-SUFFIX,github.career,Proxy
 HOST-SUFFIX,github.com,Proxy
+HOST-SUFFIX,github.community,Proxy
+HOST-SUFFIX,github.dev,Proxy
 HOST-SUFFIX,github.io,Proxy
 HOST-SUFFIX,githubapp.com,Proxy
 HOST-SUFFIX,githubassets.com,Proxy
 HOST-SUFFIX,githubcopilot.com,Proxy
+HOST-SUFFIX,githubhackathon.com,Proxy
 HOST-SUFFIX,githubmemory.com,Proxy
+HOST-SUFFIX,githubnext.com,Proxy
+HOST-SUFFIX,githubpreview.dev,Proxy
+HOST-SUFFIX,githubstatus.com,Proxy
+HOST-SUFFIX,githubsupport.com,Proxy
+HOST-SUFFIX,githubuniverse.com,Proxy
 HOST-SUFFIX,githubusercontent.com,Proxy
 HOST-SUFFIX,gitlab.com,Proxy
 HOST-SUFFIX,gitlab.io,Proxy
@@ -2541,6 +2561,7 @@ HOST-SUFFIX,goodreads.com,Proxy
 HOST-SUFFIX,goodtv.com.tw,Proxy
 HOST-SUFFIX,goodtv.tv,Proxy
 HOST-SUFFIX,goofind.com,Proxy
+HOST-SUFFIX,google,Proxy
 HOST-SUFFIX,google-analytics.com,Proxy
 HOST-SUFFIX,google.ac,Proxy
 HOST-SUFFIX,google.ad,Proxy
@@ -2734,6 +2755,7 @@ HOST-SUFFIX,google.mv,Proxy
 HOST-SUFFIX,google.mw,Proxy
 HOST-SUFFIX,google.mx,Proxy
 HOST-SUFFIX,google.ne,Proxy
+HOST-SUFFIX,google.net,Proxy
 HOST-SUFFIX,google.nl,Proxy
 HOST-SUFFIX,google.no,Proxy
 HOST-SUFFIX,google.nr,Proxy
@@ -2770,6 +2792,7 @@ HOST-SUFFIX,google.vg,Proxy
 HOST-SUFFIX,google.vn,Proxy
 HOST-SUFFIX,google.vu,Proxy
 HOST-SUFFIX,google.ws,Proxy
+HOST-SUFFIX,googleadservices.com,Proxy
 HOST-SUFFIX,googleanalytics.com,Proxy
 HOST-SUFFIX,googleapis.com,Proxy
 HOST-SUFFIX,googleapps.com,Proxy
@@ -2783,6 +2806,7 @@ HOST-SUFFIX,googlecode.com,Proxy
 HOST-SUFFIX,googledomains.com,Proxy
 HOST-SUFFIX,googledrive.com,Proxy
 HOST-SUFFIX,googleearth.com,Proxy
+HOST-SUFFIX,googlefiber.com,Proxy
 HOST-SUFFIX,googlefiber.net,Proxy
 HOST-SUFFIX,googlegroups.com,Proxy
 HOST-SUFFIX,googlehosted.com,Proxy
@@ -2790,13 +2814,16 @@ HOST-SUFFIX,googleideas.com,Proxy
 HOST-SUFFIX,googleinsidesearch.com,Proxy
 HOST-SUFFIX,googlelabs.com,Proxy
 HOST-SUFFIX,googlemail.com,Proxy
+HOST-SUFFIX,googlemaps.com,Proxy
 HOST-SUFFIX,googlemashups.com,Proxy
 HOST-SUFFIX,googlepagecreator.com,Proxy
+HOST-SUFFIX,googlephotos.com,Proxy
 HOST-SUFFIX,googleplay.com,Proxy
 HOST-SUFFIX,googleplus.com,Proxy
 HOST-SUFFIX,googlescholar.com,Proxy
 HOST-SUFFIX,googlesile.com,Proxy
 HOST-SUFFIX,googlesource.com,Proxy
+HOST-SUFFIX,googlestore.com,Proxy
 HOST-SUFFIX,googleusercontent.com,Proxy
 HOST-SUFFIX,googlevideo.com,Proxy
 HOST-SUFFIX,googleweblight.com,Proxy
@@ -2850,7 +2877,6 @@ HOST-SUFFIX,grok.com,Proxy
 HOST-SUFFIX,grokipedia.com,Proxy
 HOST-SUFFIX,grotty-monday.com,Proxy
 HOST-SUFFIX,ground.news,Proxy
-HOST-SUFFIX,grow.google,Proxy
 HOST-SUFFIX,gs-discuss.com,Proxy
 HOST-SUFFIX,gsearch.media,Proxy
 HOST-SUFFIX,gstatic.com,Proxy
@@ -3716,7 +3742,6 @@ HOST-SUFFIX,lemonde.fr,Proxy
 HOST-SUFFIX,lenwhite.com,Proxy
 HOST-SUFFIX,leonardo.ai,Proxy
 HOST-SUFFIX,lerosua.org,Proxy
-HOST-SUFFIX,lers.google,Proxy
 HOST-SUFFIX,lesoir.be,Proxy
 HOST-SUFFIX,lester850.info,Proxy
 HOST-SUFFIX,letou.com,Proxy
@@ -4400,7 +4425,6 @@ HOST-SUFFIX,nhentai.net,Proxy
 HOST-SUFFIX,nhk-ondemand.jp,Proxy
 HOST-SUFFIX,nhncorp.jp,Proxy
 HOST-SUFFIX,nianticlabs.com,Proxy
-HOST-SUFFIX,nic.google,Proxy
 HOST-SUFFIX,nic.gov,Proxy
 HOST-SUFFIX,nicoseiga.jp,Proxy
 HOST-SUFFIX,nicovideo.jp,Proxy
@@ -4943,7 +4967,6 @@ HOST-SUFFIX,presentationzen.com,Proxy
 HOST-SUFFIX,president.ir,Proxy
 HOST-SUFFIX,presidentlee.tw,Proxy
 HOST-SUFFIX,prestige-av.com,Proxy
-HOST-SUFFIX,pride.google,Proxy
 HOST-SUFFIX,primevideo.com,Proxy
 HOST-SUFFIX,printfriendly.com,Proxy
 HOST-SUFFIX,prism-break.org,Proxy
@@ -5044,6 +5067,7 @@ HOST-SUFFIX,qienkuen.org,Proxy
 HOST-SUFFIX,qiwen.lu,Proxy
 HOST-SUFFIX,qkshare.com,Proxy
 HOST-SUFFIX,qmp4.com,Proxy
+HOST-SUFFIX,qobuz.com,Proxy
 HOST-SUFFIX,qoos.com,Proxy
 HOST-SUFFIX,qpoe.com,Proxy
 HOST-SUFFIX,qq.co.za,Proxy
@@ -5154,7 +5178,6 @@ HOST-SUFFIX,redhotlabs.com,Proxy
 HOST-SUFFIX,redtube.com,Proxy
 HOST-SUFFIX,referer.us,Proxy
 HOST-SUFFIX,reflectivecode.com,Proxy
-HOST-SUFFIX,registry.google,Proxy
 HOST-SUFFIX,reimu.net,Proxy
 HOST-SUFFIX,relaxbbs.com,Proxy
 HOST-SUFFIX,relay.com.tw,Proxy
@@ -5163,7 +5186,6 @@ HOST-SUFFIX,religionnews.com,Proxy
 HOST-SUFFIX,religioustolerance.org,Proxy
 HOST-SUFFIX,rentry.co,Proxy
 HOST-SUFFIX,renyurenquan.org,Proxy
-HOST-SUFFIX,research.google,Proxy
 HOST-SUFFIX,resilio.com,Proxy
 HOST-SUFFIX,resistchina.org,Proxy
 HOST-SUFFIX,restofworld.org,Proxy
@@ -5266,7 +5288,6 @@ HOST-SUFFIX,sadpanda.us,Proxy
 HOST-SUFFIX,safechat.com,Proxy
 HOST-SUFFIX,safeguarddefenders.com,Proxy
 HOST-SUFFIX,safervpn.com,Proxy
-HOST-SUFFIX,safety.google,Proxy
 HOST-SUFFIX,sagernet.org,Proxy
 HOST-SUFFIX,saintyculture.com,Proxy
 HOST-SUFFIX,saiq.me,Proxy
@@ -5693,7 +5714,6 @@ HOST-SUFFIX,sto.cc,Proxy
 HOST-SUFFIX,stoporganharvesting.org,Proxy
 HOST-SUFFIX,stoptibetcrisis.net,Proxy
 HOST-SUFFIX,storagenewsletter.com,Proxy
-HOST-SUFFIX,stories.google,Proxy
 HOST-SUFFIX,storify.com,Proxy
 HOST-SUFFIX,storj.io,Proxy
 HOST-SUFFIX,storm.mg,Proxy
@@ -5754,7 +5774,6 @@ HOST-SUFFIX,surfshark.com,Proxy
 HOST-SUFFIX,surge.run,Proxy
 HOST-SUFFIX,suroot.com,Proxy
 HOST-SUFFIX,surrenderat20.net,Proxy
-HOST-SUFFIX,sustainability.google,Proxy
 HOST-SUFFIX,suyangg.com,Proxy
 HOST-SUFFIX,suyingtv.com,Proxy
 HOST-SUFFIX,svsfx.com,Proxy
@@ -5910,6 +5929,8 @@ HOST-SUFFIX,tenzinpalmo.com,Proxy
 HOST-SUFFIX,terabox.com,Proxy
 HOST-SUFFIX,teraboxcdn.com,Proxy
 HOST-SUFFIX,terobox.com,Proxy
+HOST-SUFFIX,tesla.com,Proxy
+HOST-SUFFIX,teslamotors.com,Proxy
 HOST-SUFFIX,tew.org,Proxy
 HOST-SUFFIX,textnow.com,Proxy
 HOST-SUFFIX,textnow.me,Proxy
@@ -5943,6 +5964,7 @@ HOST-SUFFIX,thefacebook.com,Proxy
 HOST-SUFFIX,thefrontier.hk,Proxy
 HOST-SUFFIX,thegay.com,Proxy
 HOST-SUFFIX,thegioitinhoc.vn,Proxy
+HOST-SUFFIX,thegithubshop.com,Proxy
 HOST-SUFFIX,thegly.com,Proxy
 HOST-SUFFIX,theguardian.com,Proxy
 HOST-SUFFIX,thehansindia.com,Proxy
@@ -6366,15 +6388,21 @@ HOST-SUFFIX,twitonmsn.com,Proxy
 HOST-SUFFIX,twitpic.com,Proxy
 HOST-SUFFIX,twitstat.com,Proxy
 HOST-SUFFIX,twittbot.net,Proxy
+HOST-SUFFIX,twitter.biz,Proxy
 HOST-SUFFIX,twitter.com,Proxy
 HOST-SUFFIX,twitter.jp,Proxy
 HOST-SUFFIX,twitter4j.org,Proxy
+HOST-SUFFIX,twittercommunity.com,Proxy
 HOST-SUFFIX,twittercounter.com,Proxy
 HOST-SUFFIX,twitterfeed.com,Proxy
+HOST-SUFFIX,twitterflightschool.com,Proxy
 HOST-SUFFIX,twittergadget.com,Proxy
+HOST-SUFFIX,twitterinc.com,Proxy
 HOST-SUFFIX,twitterkr.com,Proxy
 HOST-SUFFIX,twittermail.com,Proxy
+HOST-SUFFIX,twitteroauth.com,Proxy
 HOST-SUFFIX,twitterrific.com,Proxy
+HOST-SUFFIX,twitterstat.us,Proxy
 HOST-SUFFIX,twittertim.es,Proxy
 HOST-SUFFIX,twitthat.com,Proxy
 HOST-SUFFIX,twitturk.com,Proxy
@@ -6560,6 +6588,7 @@ HOST-SUFFIX,vanpeople.com,Proxy
 HOST-SUFFIX,vansky.com,Proxy
 HOST-SUFFIX,vaticannews.va,Proxy
 HOST-SUFFIX,vatn.org,Proxy
+HOST-SUFFIX,vava8.com,Proxy
 HOST-SUFFIX,vbstatic.co,Proxy
 HOST-SUFFIX,vcf-online.org,Proxy
 HOST-SUFFIX,vcfbuilder.org,Proxy
@@ -6821,6 +6850,7 @@ HOST-SUFFIX,whatbrowser.org,Proxy
 HOST-SUFFIX,whats.new,Proxy
 HOST-SUFFIX,whatsapp.com,Proxy
 HOST-SUFFIX,whatsapp.net,Proxy
+HOST-SUFFIX,whatsappbrand.com,Proxy
 HOST-SUFFIX,whatsonweibo.com,Proxy
 HOST-SUFFIX,wheatseeds.org,Proxy
 HOST-SUFFIX,wheelockslatin.com,Proxy
@@ -7342,6 +7372,8 @@ IP-CIDR,125.6.146.0/24,Proxy
 IP-CIDR,125.6.149.0/24,Proxy
 IP-CIDR,125.6.190.0/24,Proxy
 IP-CIDR,129.134.0.0/17,Proxy
+IP-CIDR,13.251.24.0/24,Proxy
+IP-CIDR,13.251.41.0/24,Proxy
 IP-CIDR,13.32.0.0/15,Proxy
 IP-CIDR,13.35.0.0/17,Proxy
 IP-CIDR,14.102.250.18/31,Proxy
@@ -7351,6 +7383,7 @@ IP-CIDR,157.240.0.0/17,Proxy
 IP-CIDR,158.85.224.160/27,Proxy
 IP-CIDR,158.85.46.128/27,Proxy
 IP-CIDR,158.85.5.192/27,Proxy
+IP-CIDR,17.252.156.0/23,Proxy
 IP-CIDR,173.192.222.160/27,Proxy
 IP-CIDR,173.192.231.32/27,Proxy
 IP-CIDR,173.194.0.0/16,Proxy

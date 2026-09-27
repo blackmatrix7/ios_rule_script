@@ -12,16 +12,16 @@ Speedtest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-06-06 09:16:54
+最后更新时间：2026-09-28 04:43:02
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 1  | 
 | HOST-KEYWORD | 1  | 
-| HOST-SUFFIX | 4  | 
+| HOST-SUFFIX | 7  | 
 | USER-AGENT | 1  | 
-| TOTAL | 7  | 
+| TOTAL | 10  | 
 
 
 ## QuantumultX 

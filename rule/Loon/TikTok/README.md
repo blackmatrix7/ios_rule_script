@@ -12,16 +12,16 @@ TikTok规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-08-10 02:08:00
+最后更新时间：2026-10-16 04:51:01
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 4  | 
 | DOMAIN-KEYWORD | 2  | 
-| DOMAIN-SUFFIX | 25  | 
+| DOMAIN-SUFFIX | 28  | 
 | USER-AGENT | 1  | 
-| TOTAL | 32  | 
+| TOTAL | 35  | 
 
 
 ## Loon 

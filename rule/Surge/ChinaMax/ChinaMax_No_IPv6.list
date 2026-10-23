@@ -1,16 +1,16 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-10-20 06:00:43
+# UPDATED: 2026-10-24 04:58:44
 # DOMAIN: 270
 # DOMAIN-KEYWORD: 13
-# DOMAIN-SUFFIX: 110476
+# DOMAIN-SUFFIX: 110478
 # IP-ASN: 1
-# IP-CIDR: 8246
-# IP-CIDR6: 4311
+# IP-CIDR: 8245
+# IP-CIDR6: 4312
 # PROCESS-NAME: 12
 # USER-AGENT: 65
-# TOTAL: 123394
+# TOTAL: 123396
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,ms
 DOMAIN-SUFFIX,alibaba
@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,alipay
 DOMAIN-SUFFIX,anquan
 DOMAIN-SUFFIX,baidu
 DOMAIN-SUFFIX,citic
+DOMAIN-SUFFIX,icbc
 DOMAIN-SUFFIX,shouji
 DOMAIN-SUFFIX,sina
 DOMAIN-SUFFIX,sohu
@@ -61,7 +62,6 @@ DOMAIN-SUFFIX,xn--vuq861b
 DOMAIN-SUFFIX,xn--xhq521b
 DOMAIN-SUFFIX,xn--zfr164b
 DOMAIN-SUFFIX,yun
-DOMAIN-SUFFIX,icbc
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alipay
@@ -71,10 +71,10 @@ DOMAIN-KEYWORD,beplay
 DOMAIN-KEYWORD,officecdn
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,bilibili
+DOMAIN-KEYWORD,qiyi
 DOMAIN-KEYWORD,hnagroup
 DOMAIN-KEYWORD,stripe
 DOMAIN-KEYWORD,weibo
-DOMAIN-KEYWORD,qiyi
 IP-CIDR,0.0.0.0/32,no-resolve
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
@@ -891,6 +891,7 @@ IP-CIDR,103.186.228.0/23,no-resolve
 IP-CIDR,103.186.4.0/23,no-resolve
 IP-CIDR,103.189.140.0/23,no-resolve
 IP-CIDR,103.189.152.0/22,no-resolve
+IP-CIDR,103.189.197.0/24,no-resolve
 IP-CIDR,103.189.92.0/23,no-resolve
 IP-CIDR,103.19.12.0/22,no-resolve
 IP-CIDR,103.19.232.0/22,no-resolve
@@ -4304,8 +4305,7 @@ IP-CIDR,175.24.0.0/14,no-resolve
 IP-CIDR,175.30.0.0/15,no-resolve
 IP-CIDR,175.42.0.0/15,no-resolve
 IP-CIDR,175.44.0.0/16,no-resolve
-IP-CIDR,175.45.176.0/24,no-resolve
-IP-CIDR,175.45.178.0/23,no-resolve
+IP-CIDR,175.45.179.0/24,no-resolve
 IP-CIDR,175.46.0.0/15,no-resolve
 IP-CIDR,175.48.0.0/12,no-resolve
 IP-CIDR,175.64.0.0/11,no-resolve
@@ -4487,7 +4487,6 @@ IP-CIDR,192.163.11.0/24,no-resolve
 IP-CIDR,192.168.10.1/32,no-resolve
 IP-CIDR,192.168.119.253/32,no-resolve
 IP-CIDR,192.171.224.0/21,no-resolve
-IP-CIDR,192.186.4.0/24,no-resolve
 IP-CIDR,192.197.113.0/24,no-resolve
 IP-CIDR,192.23.191.0/24,no-resolve
 IP-CIDR,192.232.34.0/23,no-resolve
@@ -5026,10 +5025,9 @@ IP-CIDR,202.91.176.0/20,no-resolve
 IP-CIDR,202.91.224.0/19,no-resolve
 IP-CIDR,202.91.36.0/22,no-resolve
 IP-CIDR,202.91.96.0/20,no-resolve
-IP-CIDR,202.92.0.0/22,no-resolve
+IP-CIDR,202.92.0.0/20,no-resolve
 IP-CIDR,202.92.252.0/22,no-resolve
 IP-CIDR,202.92.48.0/20,no-resolve
-IP-CIDR,202.92.8.0/21,no-resolve
 IP-CIDR,202.93.0.0/22,no-resolve
 IP-CIDR,202.93.252.0/22,no-resolve
 IP-CIDR,202.94.0.0/19,no-resolve
@@ -7831,6 +7829,7 @@ IP-CIDR,45.117.8.0/22,no-resolve
 IP-CIDR,45.119.104.0/22,no-resolve
 IP-CIDR,45.119.116.0/22,no-resolve
 IP-CIDR,45.119.232.0/22,no-resolve
+IP-CIDR,45.119.42.0/23,no-resolve
 IP-CIDR,45.119.52.0/22,no-resolve
 IP-CIDR,45.119.60.0/22,no-resolve
 IP-CIDR,45.119.64.0/21,no-resolve
@@ -8365,28 +8364,28 @@ USER-AGENT,*QIYI*
 USER-AGENT,AcFun*
 USER-AGENT,DomesticMedia*
 USER-AGENT,MGTV*
+USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
 USER-AGENT,MOO*
 USER-AGENT,MiguVideo*
+USER-AGENT,PPStream*
+USER-AGENT,QIYI*
+USER-AGENT,QQ%E9%9F%B3%E4%B9%90
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQMusic*
-USER-AGENT,Youku*
-USER-AGENT,bilibili*
-USER-AGENT,youku*
-USER-AGENT,Himalaya*
-USER-AGENT,baiduyinyue
-USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
-USER-AGENT,QQ%E9%9F%B3%E4%B9%90
+USER-AGENT,QYPlayer*
 USER-AGENT,TencentMidasConnect*
+USER-AGENT,Youku*
+USER-AGENT,baiduyinyue
+USER-AGENT,bilibili*
+USER-AGENT,iQiYi*
+USER-AGENT,iQiyi*
 USER-AGENT,live4iphone*
 USER-AGENT,qqlive4iphone*
 USER-AGENT,walkman*
 USER-AGENT,xiami*
-USER-AGENT,PPStream*
-USER-AGENT,QIYI*
-USER-AGENT,QYPlayer*
+USER-AGENT,youku*
+USER-AGENT,Himalaya*
 USER-AGENT,iQIYI*
-USER-AGENT,iQiYi*
-USER-AGENT,iQiyi*
 PROCESS-NAME,com.taobao.taobao
 PROCESS-NAME,com.bilibili.app.blue
 PROCESS-NAME,com.bilibili.app.in

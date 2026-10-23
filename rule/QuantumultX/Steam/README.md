@@ -12,15 +12,16 @@ Steam规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-06-06 09:15:08
+最后更新时间：2026-10-24 04:55:18
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | HOST | 8  | 
 | HOST-KEYWORD | 3  | 
-| HOST-SUFFIX | 51  | 
-| TOTAL | 62  | 
+| HOST-SUFFIX | 54  | 
+| IP-CIDR | 12  | 
+| TOTAL | 77  | 
 
 
 ## QuantumultX 
